@@ -25,4 +25,6 @@ config.h.in
 stamp-h1
 xkeyboard-config*.tar.gz
 xkeyboard-config.spec
+xkeyboard-config.prj
+xkeyboard-config.pws
 
