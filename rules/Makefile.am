@@ -30,9 +30,10 @@ HDR compat/base.l4_s.part  base.l4_s.part  \
 HDR compat/base.l2v2_s.part \
 HDR compat/base.l3v3_s.part \
 HDR compat/base.l4v4_s.part \
-HDR base.m_s.part   HDR base.ml_c.part        HDR base.ml1_c.part \
+HDR base.m_s.part  HDR base.ml_c.part        HDR base.ml1_c.part \
 HDR base.m_t.part \
-HDR base.o_s.part   HDR base.o_c.part         HDR base.o_t.part
+HDR compat/base.o_s.part base.o_s.part \
+HDR base.o_c.part HDR base.o_t.part
 else
 base_parts = base.hdr.part  base.lists.part \
 HDR base.m_k.part   HDR base.l1_k.part  HDR base.l_k.part  \

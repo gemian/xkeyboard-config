@@ -2165,7 +2165,7 @@
       </option>
       <option>
         <configItem>
-          <name>grp:shift_toggle</name>
+          <name>grp:shifts_toggle</name>
           <_description>Both Shift keys together change group.</_description>
         </configItem>
       </option>

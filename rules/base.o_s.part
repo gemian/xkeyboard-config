@@ -4,7 +4,7 @@
   grp:lwin_switch	=	+group(lwin_switch)
   grp:rwin_switch	=	+group(rwin_switch)
   grp:toggle		=	+group(toggle)
-  grp:shift_toggle	=	+group(shift_toggle)
+  grp:shifts_toggle	=	+group(shifts_toggle)
   grp:ctrls_toggle	=	+group(ctrls_toggle)
   grp:alts_toggle	=	+group(alts_toggle)
   grp:ctrl_shift_toggle	=	+group(ctrl_shift_toggle)
