@@ -8,7 +8,7 @@ if USE_COMPAT_RULES
 
 noinst_SCRIPTS=base.l2_s.part base.l3_s.part base.l4_s.part \
 base.l2v_s.part base.l3v_s.part base.l4v_s.part \
-base.ml1_s.part base.ml_s.part
+base.ml1_s.part base.ml1v_s.part base.ml_s.part
 
 else
 
@@ -35,6 +35,9 @@ base.l4v_s.part: lnv_s.sh
 	sh $< 4
 
 base.ml1_s.part: ml1_s.sh
+	sh $<
+
+base.ml1v_s.part: ml1v_s.sh
 	sh $<
 
 base.ml_s.part: ml_s.sh

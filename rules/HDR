@@ -5,6 +5,7 @@
 ! model		variant		layout	=	symbols
 ! model		layout			=	symbols
 ! model		layout[1]		=	symbols
+! model		layout[1]	variant	=	symbols
 ! layout[2]	=	symbols
 ! layout[3]	=	symbols
 ! layout[4]	=	symbols

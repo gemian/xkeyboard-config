@@ -7,5 +7,5 @@ OUTFILE=base.l${variant}v_s.part
 > $OUTFILE
 
 awk '{ 
-  printf "  %s		%s	=	+%s%%(%s):'${variant}'\n", $1, $2, $3, $4; 
+  printf "  %s		%s	=	+%s(%s):'${variant}'\n", $1, $2, $3, $4; 
 }' < variantRename.lst >> $OUTFILE
