@@ -1,5 +1,10 @@
 2005-01-21 svu
 
+	* rules/base.o_c.part: LEDs as indicators did not work properly. 
+	Now they do
+
+2005-01-21 svu
+
 	* symbols/gr: a bit more order in group name (needed for 'basic' but 
 	not for 'bare'
 

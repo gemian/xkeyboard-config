@@ -917,7 +917,7 @@
         <variant>
           <configItem>
             <name>bksl</name>
-            <_description>Extended Backslash</_description>
+            <_description>With &lt;\|&gt; key</_description>
           </configItem>
         </variant>
         <variant>
