@@ -1,3 +1,8 @@
+2004-12-10 00:30  svu
+
+	* symbols/inet: removed keyboard names from the group names,
+	fixed https://bugs.freedesktop.org/show_bug.cgi?id=2044
+
 2004-12-08 00:30  svu
 
 	* symbols/mkd, 
