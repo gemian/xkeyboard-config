@@ -1474,7 +1474,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>mk</name>
+        <name>mkd</name>
         <_shortDescription>Mkd</_shortDescription>
         <_description>Macedonian</_description>
       </configItem>

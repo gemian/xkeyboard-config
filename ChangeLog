@@ -1,3 +1,11 @@
+2004-12-08 00:30  svu
+
+	* symbols/mkd, 
+	rules/base.xml.in,
+	rules/compat/layoutRename.lst,
+	rules/compat/Makefile.am: Macedonian is now language-based, 
+	not country-based. Compatibility rule added.
+
 2004-12-04 01:40  svu
 
 	* symbols/mk, rules/base.xml.in: small fix for Makedonian

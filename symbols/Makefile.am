@@ -16,7 +16,7 @@ ir is it \
 jp kan kg lao \
 latam latin lt \
 lv mal mao \
-mk mm mn \
+mkd mm mn \
 mt nl no \
 ogam ori \
 pc pl pt \
