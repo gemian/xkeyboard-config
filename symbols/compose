@@ -15,3 +15,7 @@ xkb_symbols "menu" {
     key <MENU>	{	[	 Multi_key,	Multi_key	]	};
 };
 
+partial modifier_keys
+xkb_symbols "rctrl" {
+    key <RCTL>	{	[	 Multi_key,	Multi_key	]	};
+};

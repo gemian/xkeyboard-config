@@ -2449,6 +2449,12 @@
           <_description>Menu is Compose</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>compose:rctrl</name>
+          <_description>Right Ctrl is Compose</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <configItem>

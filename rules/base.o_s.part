@@ -43,6 +43,7 @@
   compose:ralt		=	+compose(ralt)
   compose:rwin		=	+compose(rwin)
   compose:menu		=	+compose(menu)
+  compose:rctrl		=	+compose(rctrl)
   srvrkeys:none		=	+srvr_ctrl(no_srvr_keys)
   eurosign:e		=	+eurosign(e)
   eurosign:5		=	+eurosign(5)
