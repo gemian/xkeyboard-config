@@ -2033,7 +2033,7 @@
     <layout>
       <configItem>
         <name>smi</name>
-        <_shortDescription>Sami</_shortDescription>
+        <_shortDescription>Smi</_shortDescription>
         <_description>Northern Saami</_description>
       </configItem>
       <variantList>
