@@ -1,16 +1,9 @@
-SUBDIRS = intl m4  po 
+SUBDIRS = compat geometry intl keycodes keymap m4 po rules semantics symbols types
 
-xml_in_files = xfree86.xml.in
-xml_DATA = $(xml_in_files:.xml.in=.xml) xkb.dtd
-
-@INTLTOOL_XML_RULE@
-
-EXTRA_DIST= config.rpath mkinstalldirs  config.rpath $(xml_in_files) $(xml_DATA) \
+EXTRA_DIST= config.rpath mkinstalldirs  config.rpath \
        autogen.sh \
        xfree86_xkb_xml.spec \
        xfree86_xkb_xml.spec.in \
        intltool-extract.in intltool-merge.in intltool-update.in
-
-xmldir = $(xkb_base)/rules
 
 ACLOCAL_AMFLAGS = -I m4
