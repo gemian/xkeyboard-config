@@ -6,7 +6,7 @@ use xkbTestFunc;
 backupXkbSettings();
                                                                                                                  
 dumpXkbSettings( $origXkbRules, $origXkbModel, $origXkbLayouts, $origXkbVariants, $origXkbOptions );
-                                                                                                                 
-testLevel1( "model", 1 );
+
+testLevel2( "layout", "variant", 2, "(", ")" );
 
 restoreXkbSettings();
