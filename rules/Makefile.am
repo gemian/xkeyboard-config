@@ -31,7 +31,7 @@ lst_files = base.lst
 
 base: $(base_parts)
 	> $@
-	for i in $^; do cat $$i >> $@; echo >> $@; done
+	for i in $^; do cat $$i >> $@; done
 
 all_rules_files = $(rules_files) $(lst_files) \
 xkb.dtd README

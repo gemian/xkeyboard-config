@@ -191,4 +191,3 @@
   caps:shift			=	+caps(shift)
   caps:shift_nocancel		=	+caps(shift_nocancel)
   numpad:microsoft		=	+numpad(microsoft)
-

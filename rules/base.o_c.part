@@ -1,3 +1,4 @@
+
 ! option		=	compat
   grp_led:num		=	+leds(num)
   grp_led:caps		=	+leds(caps)

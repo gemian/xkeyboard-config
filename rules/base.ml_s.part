@@ -1,3 +1,4 @@
+
 ! model		layout	=	symbols
   pc98		nec/jp	=	nec_vndr/jp(pc98)
   abnt2		br	=	pc(pc104)+br
