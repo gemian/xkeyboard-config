@@ -17,3 +17,4 @@ remove-potcdate.sin
 *.gmo
 xfree86_xkb_xml.pot
 messages.mo
+stamp-po

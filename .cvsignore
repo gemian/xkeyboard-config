@@ -21,3 +21,4 @@ xfree86.xml
 xfree86_xkb_xml.spec
 autom4te.cache
 mkinstalldirs
+intltool-modules
