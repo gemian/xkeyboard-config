@@ -4,9 +4,9 @@ if CREATE_RULES_SYMLINK
   extra_lst_file   = $(extra_rules_file).lst
 
 install-data-hook:
-	ln -s base     $(DESTDIR)$(rulesdir)/$(extra_rules_file)
-	ln -s base.lst $(DESTDIR)$(rulesdir)/$(extra_lst_file)
-	ln -s base.xml $(DESTDIR)$(rulesdir)/$(extra_dir_file)
+	ln -sf base     $(DESTDIR)$(rulesdir)/$(extra_rules_file)
+	ln -sf base.lst $(DESTDIR)$(rulesdir)/$(extra_lst_file)
+	ln -sf base.xml $(DESTDIR)$(rulesdir)/$(extra_dir_file)
 
 else
 install-data-hook:

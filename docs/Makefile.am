@@ -1,1 +1,1 @@
-EXTRA_DIST= README.config README.enhancing
+EXTRA_DIST= README.config README.enhancing HOWTO.transition
