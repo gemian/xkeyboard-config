@@ -94,6 +94,12 @@
     </model>
     <model>
       <configItem>
+        <name>azonaRF2300</name>
+        <_description>Azona RF2300 wireless Internet Keyboard</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>scorpius</name>
         <_description>Advance Scorpius KI</_description>
       </configItem>
@@ -232,6 +238,12 @@
     </model>
     <model>
       <configItem>
+        <name>dtk2000</name>
+        <_description>DTK2000</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>ennyah_dkb1008</name>
         <_description>Ennyah DKB-1008</_description>
       </configItem>
@@ -240,6 +252,12 @@
       <configItem>
         <name>genius</name>
         <_description>Genius Comfy KB-16M / Genius MM Keyboard KWD-910</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>geniuscomfy2</name>
+        <_description>Genius Comfy KB-21e-Scroll</_description>
       </configItem>
     </model>
     <model>
@@ -986,6 +1004,12 @@
           </configItem>
         </variant>
       </variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>dz</name>
+        <_description>Dzongkha / Tibetan</_description>
+      </configItem>
     </layout>
     <layout>
       <configItem>
