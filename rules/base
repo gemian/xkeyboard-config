@@ -9,7 +9,7 @@
 //
 
 // Layouts that still need be composed by old rules
-! $oldlayouts = bs ch hu hu_qwerty lt_std mn hr_US
+! $oldlayouts = bs ch hu hu_qwerty lt_std hr_US
 
 // If you want non-latin layouts implicitly include the en_US layout
 // uncomment lines below
@@ -76,8 +76,8 @@
  $mac		en_US	=	macintosh.vndr/us(extended)
  $mac		*	=	macintosh.vndr/us(extended)+macintosh.vndr/%l%(v)
  $pcmodels      intl    =       us(%mcompose)
-  *		intl	=	us(pc104compose) 
-  *		jp	=	jp
+  *		intl	=	us(pc104compose)
+  *		jp	=	pc/pc(pc102)+pc/jp(latin)+pc/jp:2
  $pcmodels      ca      =       pc(%m)+ca(multi)+ca(multi-2gr):2+group(rctrl_switch)
   *             ca      =       pc(pc105)+ca(multi)+ca(multi-2gr):2+group(rctrl_switch)
  $pcmodels $oldlayouts  =       en_US(%m)+%l%(v)

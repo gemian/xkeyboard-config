@@ -13,9 +13,10 @@ ge guj \
 gur hr ie \
 il ir \
 is it iu \
+jp \
 kan la latin \
 lo lt lv \
-mk ml mm \
+mk ml mm mn\
 mt nl \
 no ogham ori \
 pc pl \
