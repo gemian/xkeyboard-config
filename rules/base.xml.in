@@ -876,7 +876,14 @@
         <_shortDescription>Hrv</_shortDescription>
         <_description>Croatian</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>us</name>
+            <_description>US keyboard with Croatian letters</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1078,7 +1085,7 @@
       <configItem>
         <name>ge</name>
         <_shortDescription>Geo</_shortDescription>
-        <_description>Georgian (latin)</_description>
+        <_description>Georgian</_description>
       </configItem>
       <variantList>
         <variant>
