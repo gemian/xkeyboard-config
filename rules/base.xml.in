@@ -160,6 +160,12 @@
     </model>
     <model>
       <configItem>
+        <name>cherryblueb</name>
+        <description>Cherry CyMotion Master XPress</description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>cherrybluea</name>
         <_description>Cherry Blue Line CyBo@rd (alternate option)</_description>
       </configItem>

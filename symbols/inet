@@ -317,6 +317,48 @@ xkb_symbols "cherryblue" {
 };
 
 partial alphanumeric_keys
+xkb_symbols "cherryblueb" {
+    name[Group1]= "Cherry CyMotion Master XPress";
+
+    key <I0B>	{	[ XF86ScrollUp		]	};
+    key <I12>   {       [ XF86ScrollDown        ]       };
+    key <I17>   {       [ XF86Cut               ]       };
+    key <I0A>   {       [ XF86Copy              ]       };
+    key <I18>   {       [ XF86Paste             ]       };
+    key <I71>   {       [ XF86Book              ]       };
+    key <I2C>   {       [ XF86Book              ]       };
+    key <I72>   {       [ XF86Book              ]       };
+    key <I07>   {       [ XF86Forward           ]       };
+    key <I08>   {       [ XF86Back              ]       };
+    key <I2E>   {       [ XF86AudioLowerVolume  ]       };
+    key <I30>   {       [ XF86AudioRaiseVolume  ]       };
+    key <I20>   {       [ XF86AudioMute         ]       };
+    key <I6D>   {       [ XF86AudioMedia        ]       };
+    key <I67>   {       [ XF86AudioRewind       ]       };
+    key <I10>   {       [ XF86Back              ]       };
+    key <I19>   {       [ XF86Forward           ]       };
+    key <I70>   {       [ XF86Eject             ]       };
+    key <I32>   {       [ XF86Finance           ]       };
+    key <I6A>   {       [ XF86Back              ]       };
+    key <I69>   {       [ XF86Forward           ]       };
+    key <I68>   {       [ XF86Stop              ]       };
+    key <FK16>  {       [ XF86Reload            ]       };
+    key <I65>   {       [ XF86Search            ]       };
+    key <I66>   {       [ XF86MyComputer        ]       };
+    key <I02>   {       [ XF86HomePage          ]       };
+    key <I6C>   {       [ XF86Mail              ]       };
+    key <PRSC>  {       [ XF86Terminal          ]       };
+    key <I21>   {       [ XF86Calculator        ]       };
+    key <I1E>   {       [ XF86AudioRaiseVolume  ]       };
+    key <I26>   {       [ XF86AudioMute         ]       };
+    key <I25>   {       [ XF86AudioLowerVolume  ]       };
+    key <XFER>  {       [ XF86Go                ]       };
+    key <I24>   {       [ XF86AudioStop                 ] };
+    key <I22>   {       [ XF86AudioPlay, XF86AudioPause ] };
+    key <I63>   {       [ XF86Standby                   ] };
+};
+
+partial alphanumeric_keys
 xkb_symbols "cherrybluea" {
     name[Group1]= "Cherry Blue Line CyBo@rd (alternate option)";
 
