@@ -21,11 +21,11 @@
       <!-- If there are some shortDescriptions -->
       <xsl:if test="count(./shortDescription)!=0">
         <!-- First, put the non-translated version -->
-        <shortDescription><xsl:value-of select="./shortDescription[@xml:lang='']"/></shortDescription>
+        <shortDescription><xsl:value-of select="./shortDescription[not(@xml:lang)]"/></shortDescription>
         <!-- For all translated versions ... -->
-        <xsl:for-each select="./shortDescription[@xml:lang!='']">
+        <xsl:for-each select="./shortDescription[@xml:lang]">
           <!-- ... which are different from non-translated one ... -->
-          <xsl:if test="../shortDescription[@xml:lang='']/text() != ./text()">
+          <xsl:if test="../shortDescription[not(@xml:lang)]/text() != ./text()">
             <!-- ... - output! -->
             <shortDescription xml:lang="{./@xml:lang}"><xsl:value-of select="./text()"/></shortDescription>
           </xsl:if>
@@ -34,11 +34,11 @@
       <!-- If there are some descriptions -->
       <xsl:if test="count(./description)!=0">
         <!-- First, put the non-translated version -->
-        <description><xsl:value-of select="./description[@xml:lang='']"/></description>
+        <description><xsl:value-of select="./description[not(@xml:lang)]"/></description>
         <!-- For all translated versions ... -->
-        <xsl:for-each select="./description[@xml:lang!='']">
+        <xsl:for-each select="./description[@xml:lang]">
           <!-- ... which are different from non-translated one ... -->
-          <xsl:if test="../description[@xml:lang='']/text() != ./text()">
+          <xsl:if test="../description[not(@xml:lang)]/text() != ./text()">
             <!-- ... - output! -->
             <description xml:lang="{./@xml:lang}"><xsl:value-of select="./text()"/></description>
           </xsl:if>
