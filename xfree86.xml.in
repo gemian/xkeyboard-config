@@ -472,6 +472,12 @@
     </model>
     <model>
       <configItem>
+        <name>microsoftmult</name> 
+        <_description>Microsoft Wireless Multimedia Keyboard 1.0A</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>oretec</name>
         <_description>Oretec MCK-800 MM/Internet keyboard</_description>
       </configItem>
@@ -2027,6 +2033,12 @@
       </option>
       <option>
         <configItem>
+          <name>grp:lswitch</name>
+          <_description>Left Alt key switches group while pressed</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>grp:lwin_switch</name>
           <_description>Left Win-key switches group while pressed</_description>
         </configItem>
@@ -2059,6 +2071,12 @@
         <configItem>
           <name>grp:caps_toggle</name>
           <_description>Caps Lock key changes group</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:shift_caps_toggle</name>
+          <_description>Shift+CapsLock changes group</_description>
         </configItem>
       </option>
       <option>
@@ -2173,6 +2191,24 @@
         <configItem>
           <name>lv3:rwin_switch</name>
           <_description>Press Right Win-key to choose 3rd level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:alt_switch</name>
+          <_description>Press any of Alt keys to choose 3rd level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:lalt_switch</name>
+          <_description>Press Left Alt key to choose 3rd level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:ralt_switch</name>
+          <_description>Press Right Alt key to choose 3rd level</_description>
         </configItem>
       </option>
     </group>
