@@ -735,12 +735,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>old</name>
-            <_description>Old standard</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>phonetic</name>
             <_description>Phonetic</_description>
           </configItem>

@@ -1,3 +1,8 @@
+2005-01-06 svu
+
+	* symbols/am, rules/base.xml.in: Removing old Armenian layout,
+	fixing http://bugs.freedesktop.org/show_bug.cgi?id=2226
+
 2004-12-22 svu
 
 	* symbols: massive patch for the group names (by Denis Barbier)
