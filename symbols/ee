@@ -34,7 +34,7 @@ xkb_symbols "basic" {
     key <AB08>	{ [     comma,  semicolon,         less,     multiply ]	};
     key <AB09>	{ [    period,      colon,      greater,     division ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys

@@ -58,7 +58,7 @@ xkb_symbols "fi" {
     key <KPDL> {	[  KP_Delete,	KP_Separator	]	};
     // End "Keypad" section
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys

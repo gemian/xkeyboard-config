@@ -32,7 +32,7 @@ xkb_symbols "basic" {
 
     key <LSGT>	{ [    endash,   EuroSign   ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // Similar to the above, but you should use Right Alt + numeric row
@@ -59,7 +59,7 @@ xkb_symbols "us" {
     key <AD03>	{ [         e,          E,       endash,     EuroSign ]	};
     key <LSGT>	{ [    endash,   EuroSign ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // Lithuanian keyboard map by Gediminas Paulauskas <menesis@delfi.lt>
@@ -109,5 +109,5 @@ xkb_symbols "std" {
 
     key	<LSGT> {[	less,		greater,	endash		]};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };

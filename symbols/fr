@@ -41,7 +41,7 @@ xkb_symbols "basic" {
     key <AB09>	{ [     colon,      slash, periodcentered,   division ]	};
     key <AB10>	{ [    exclam,    section, dead_belowdot, dead_abovedot ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys
@@ -209,7 +209,7 @@ xkb_symbols "latin9" {
     // Will take effect when KP_Decimal is mapped to the locale decimal separator
     key <KPDL>  { [       KP_Delete,          period,           KP_Delete,           KP_Decimal ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys
@@ -308,6 +308,6 @@ xkb_symbols "dvorak" {
     key <SPCE>  { [      space,    space,    nobreakspace,   nobreakspace ] };
     key <LSGT>  { [   ccedilla, Ccedilla      ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 

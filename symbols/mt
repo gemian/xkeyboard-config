@@ -30,7 +30,7 @@ xkb_symbols "basic" {
     key <AD09>	{ [         o,          O,       ograve,       Ograve ]	};
     key <AC01>	{ [         a,          A,       agrave,       Agrave ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // Maltese keyboard map (based on MSA Standard DMS100, annex A)

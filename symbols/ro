@@ -56,7 +56,7 @@ xkb_symbols "basic" {
     key <KPDL> { [  KP_Delete,	KP_Separator		]	};
     // End "Keypad" section
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // based on a keyboard
@@ -78,7 +78,7 @@ xkb_symbols "us" {
     key <AC01>	{ [         a,          A,       abreve,       Abreve ]	};
     key <AC02>	{ [         s,          S,     scedilla,     Scedilla ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // Romanian keyboard with access to German umlauts";

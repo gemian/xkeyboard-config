@@ -29,7 +29,7 @@ xkb_symbols "se" {
 
     key <KPDL>  { [ KP_Delete, KP_Separator                           ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys

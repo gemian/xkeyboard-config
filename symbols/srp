@@ -19,7 +19,7 @@ xkb_symbols "default" {
   include "srp(level3)"
   include "srp(common)"
   include "srp(cyralpha)"
-  include "level3(ralt_switch_multikey)"
+  include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys
@@ -218,7 +218,7 @@ xkb_symbols "latin" {
   include "srp(level3)"
   include "srp(common)"
   include "srp(latalpha)"
-  include "level3(ralt_switch_multikey)"
+  include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys

@@ -39,5 +39,5 @@ xkb_symbols "basic" {
     key <AB09>	{ [    period,      colon,      greater,     division ]	};
     key <AB10>	{ [     slash,   question, dead_belowdot, dead_abovedot ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };

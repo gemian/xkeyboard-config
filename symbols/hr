@@ -45,7 +45,7 @@ xkb_symbols "basic" {
 
     key <KPDL>	{ [ KP_Delete,  KP_Seprator                           ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys 

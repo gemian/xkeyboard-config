@@ -83,5 +83,5 @@ xkb_symbols "basic" {
 // space
       key <SPCE> { [ U0F0B, space, U0F0C, U00A0 ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };

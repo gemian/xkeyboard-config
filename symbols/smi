@@ -67,7 +67,7 @@ xkb_symbols "basic" {
     key <LSGT>	{ type[Group1] = "FOUR_LEVEL",
                   [    zcaron,     Zcaron,        U01EF,        U01EE ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
  xkb_symbols "sefi" {

@@ -44,7 +44,7 @@ xkb_symbols "abnt2" {
     key <KPPT>	{ [KP_Decimal ]	};
     key <KPDL>	{ [ KP_Delete,      KP_Separator ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys

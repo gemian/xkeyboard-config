@@ -27,7 +27,7 @@ xkb_symbols "basic" {
     key <BKSL>	{ [      plus,   asterisk,        grave,   dead_breve ]	};
     key <AB10>	{ [     thorn,      THORN, dead_belowdot, dead_abovedot ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys

@@ -36,7 +36,7 @@ xkb_symbols "basic" {
 
     key <LSGT>	{ [      less,    greater,guillemotleft,guillemotright] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys

@@ -29,7 +29,7 @@ xkb_symbols "basic" {
 
     key <BKSL>	{ [apostrophe,   asterisk, dead_doubleacute, multiply ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys 

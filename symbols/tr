@@ -55,7 +55,7 @@ xkb_symbols "basic" {
     key <AB10>	{ [    period,      colon, dead_abovedot, dead_abovedot ] };
     key <SPCE>	{ [     space,      space, nobreakspace,   nobreakspace ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 
@@ -119,7 +119,7 @@ xkb_symbols "f" {
     key <SPCE>	{ [    space,       space, nobreakspace, nobreakspace ]	};
     key <LSGT>	{ [     less,     greater,          bar,    brokenbar ]	};
    
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // Turkish Alt-Q Layout
@@ -149,5 +149,5 @@ xkb_symbols "alt" {
     key <AB03>  { [         c,           C,     ccedilla,     Ccedilla ] };
     key <SPCE>  { [     space,       space, nobreakspace, nobreakspace ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };

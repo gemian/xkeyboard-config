@@ -25,7 +25,7 @@ xkb_symbols "basic" {
     key <BKSL>	{ [numbersign, asciitilde,   dead_grave,   dead_breve ]	};
     key <LSGT>	{ [ backslash,        bar,          bar,    brokenbar ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial default alphanumeric_keys 
@@ -57,7 +57,7 @@ xkb_symbols "intl" {
     key <BKSL>  { [ numbersign, dead_tilde,            bar,         bar ] };
     key <LSGT>  { [  backslash,        bar,            bar,         bar ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // Dvorak (UK) keymap (by odaen) allowing the usage of

@@ -72,7 +72,7 @@ xkb_symbols "basic" {
     key <KPDL>	{ type[Group1]="FOUR_LEVEL_KEYPAD",
                   [ KP_Delete,      comma,    KP_Delete,   KP_Decimal ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // Use <BKSL> instead of <LSGT> (useful for keyboard without <LSGT> key)

@@ -33,5 +33,5 @@ xkb_symbols "basic" {
 
     // End alphanumeric section
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };

@@ -49,6 +49,6 @@ xkb_symbols "basic" {
 
     key <LSGT>	{ [bracketleft, bracketright,       bar,    brokenbar ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 

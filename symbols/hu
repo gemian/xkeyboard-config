@@ -58,7 +58,7 @@ xkb_symbols "101_qwertz_comma_dead" {
     include "hu(def_comma)"
     include "hu(def_dead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 101_qwertz_comma_nodead
@@ -74,7 +74,7 @@ xkb_symbols "101_qwertz_comma_nodead" {
     include "hu(def_comma)"
     include "hu(def_nodead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 101_qwertz_dot_dead
@@ -90,7 +90,7 @@ xkb_symbols "101_qwertz_dot_dead" {
     include "hu(def_dot)"
     include "hu(def_dead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 101_qwertz_dot_nodead
@@ -106,7 +106,7 @@ xkb_symbols "101_qwertz_dot_nodead" {
     include "hu(def_dot)"
     include "hu(def_nodead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 101_qwerty_comma_dead
@@ -122,7 +122,7 @@ xkb_symbols "101_qwerty_comma_dead" {
     include "hu(def_comma)"
     include "hu(def_dead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 101_qwerty_comma_nodead
@@ -138,7 +138,7 @@ xkb_symbols "101_qwerty_comma_nodead" {
     include "hu(def_comma)"
     include "hu(def_nodead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 101_qwerty_dot_dead
@@ -154,7 +154,7 @@ xkb_symbols "101_qwerty_dot_dead" {
     include "hu(def_dot)"
     include "hu(def_dead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 101_qwerty_dot_nodead
@@ -170,7 +170,7 @@ xkb_symbols "101_qwerty_dot_nodead" {
     include "hu(def_dot)"
     include "hu(def_nodead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 102_qwertz_comma_dead
@@ -186,7 +186,7 @@ xkb_symbols "102_qwertz_comma_dead" {
     include "hu(def_comma)"
     include "hu(def_dead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 102_qwertz_comma_nodead
@@ -202,7 +202,7 @@ xkb_symbols "102_qwertz_comma_nodead" {
     include "hu(def_comma)"
     include "hu(def_nodead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 102_qwertz_dot_dead
@@ -218,7 +218,7 @@ xkb_symbols "102_qwertz_dot_dead" {
     include "hu(def_dot)"
     include "hu(def_dead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 102_qwertz_dot_nodead
@@ -234,7 +234,7 @@ xkb_symbols "102_qwertz_dot_nodead" {
     include "hu(def_dot)"
     include "hu(def_nodead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 102_qwerty_comma_dead
@@ -250,7 +250,7 @@ xkb_symbols "102_qwerty_comma_dead" {
     include "hu(def_comma)"
     include "hu(def_dead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 102_qwerty_comma_nodead
@@ -266,7 +266,7 @@ xkb_symbols "102_qwerty_comma_nodead" {
     include "hu(def_comma)"
     include "hu(def_nodead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 102_qwerty_dot_dead
@@ -282,7 +282,7 @@ xkb_symbols "102_qwerty_dot_dead" {
     include "hu(def_dot)"
     include "hu(def_dead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // 102_qwerty_dot_nodead
@@ -298,7 +298,7 @@ xkb_symbols "102_qwerty_dot_nodead" {
     include "hu(def_dot)"
     include "hu(def_nodead)"
     include "hu(def_common)"
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // Partial layouts

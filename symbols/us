@@ -118,7 +118,7 @@ xkb_symbols "intl" {
     key <AB10> { [     slash,   question,  questiondown,        dead_hook ] };
     key <BKSL> { [ backslash,        bar,       notsign,        brokenbar ] };
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 // Based on symbols/us_intl keyboard map:
@@ -171,7 +171,7 @@ xkb_symbols "alt-intl" {
   key <AB09> { [     period, greater,	     dead_abovedot, dead_circumflex ] };
   key <AB10> { [      slash, question,	     dead_hook,	    dead_hook	    ] };
 
-  include "level3(ralt_switch_multikey)"
+  include "level3(ralt_switch)"
 };
 
 // based on a keyboard map from an 'xkb/symbols/dk' file
@@ -236,5 +236,5 @@ xkb_symbols "dvorak" {
     key <AB09> { [	    v,	V		]	};
     key <AB10> { [	    z,	Z		]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };

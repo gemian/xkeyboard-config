@@ -55,7 +55,7 @@ xkb_symbols "fr" {
     key <AB09>	{ [    period,     period,       hyphen ]	};
     key <AB10>	{ [    eacute,     Eacute,   dead_acute ]	};
 
-    include "level3(ralt_switch_multikey)"
+    include "level3(ralt_switch)"
 };
 
 partial
