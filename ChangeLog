@@ -1,6 +1,7 @@
 2005-03-10 svu
 
 	* po/Makefile.am: adding POTFILES* into the dist
+	* Makefile.am, rules/Makefile.am: adding DISTCLEANFILES
 
 2005-03-09 svu
 

@@ -1,4 +1,6 @@
-EXTRA_DIST = $(wildcard *.po) POTFILES POTFILES.in
+EXTRA_DIST=$(wildcard *.po) POTFILES POTFILES.in
+
+DISTCLEANFILES=.intltool-merge-cache
 
 update-pot:
 	$(INTLTOOL_UPDATE) -p -g $(GETTEXT_PACKAGE)
