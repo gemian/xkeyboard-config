@@ -3,7 +3,7 @@ SUBDIRS = digital.vndr fujitsu.vndr hp.vndr macintosh.vndr nec.vndr sgi.vndr son
 symbols_DATA = \
 al am ar \
 be ben bg \
-br by cz \
+br bs by cz \
 cz_qwerty de dev \
 dk dvorak dz \
 ee el en_US \
@@ -28,7 +28,7 @@ th th_pat th_tis \
 tj tml tr \
 ua us us_intl \
 uz yu \
-altwin compose ctrl group inet keypad level3 lock
+altwin compose ctrl group inet keypad level3 lock srvr_ctrl
                                                                                           
 EXTRA_DIST= $(symbols_DATA)
                                                                                           
