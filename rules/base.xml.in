@@ -871,6 +871,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>fr-dvorak</name>
+            <_description>French Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>fr-legacy</name>
             <_description>French (legacy)</_description>
           </configItem>

@@ -1,3 +1,8 @@
+2004-10-31 01:20  svu
+
+	* symbols/ca, rules/base.xml.in: added fr-dvorak, thanks to
+	Jonathan Bastien-Filiatrault
+
 2004-10-29 01:15  svu
 
 	* symbols/am: fixed phonetic layout, bug
