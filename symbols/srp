@@ -16,9 +16,9 @@ xkb_symbols "default" {
 
   name[Group1]= "Serbian Cyrillic";
 
-  include "sr(level3)"
-  include "sr(common)"
-  include "sr(cyralpha)"
+  include "srp(level3)"
+  include "srp(common)"
+  include "srp(cyralpha)"
   include "level3(ralt_switch_multikey)"
 };
 
@@ -28,7 +28,7 @@ xkb_symbols "yz" {
 
   name[Group1]= "Serbian Cyrillic (swap Zhe, Ze)";
 
-  include "sr(default)"
+  include "srp(default)"
 
   key <AD06> {   [ Cyrillic_zhe,        Cyrillic_ZHE,   any,any ]   }; // y
   key <AB01> {   [ Cyrillic_ze,         Cyrillic_ZE,    any,any ]   }; // z

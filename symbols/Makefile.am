@@ -22,7 +22,7 @@ ogam ori \
 pc pl pt \
 ro ru se \
 sk sk smi \
-scc syr tam \
+srp syr tam \
 tel th tj \
 tr ua us \
 uz yu vn \
