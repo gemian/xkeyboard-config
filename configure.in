@@ -39,8 +39,6 @@ AC_PROG_INTLTOOL(0.30)
 AM_GNU_GETTEXT([external])
 ALL_LINGUAS="af az bg cs da fr hu nl ru sk sq sr sv tr uk zh_CN"
 
-AM_GLIB_GNU_GETTEXT
-
 AC_SUBST(xkb_base)
 AC_SUBST(xkb_rules_symlink)
 
