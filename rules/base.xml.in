@@ -76,6 +76,12 @@
     </model>
     <model>
       <configItem>
+        <name>a4techKB21</name>
+        <_description>A4Tech KB-21</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>abnt2</name>
         <_description>Brazilian ABNT2</_description>
       </configItem>
@@ -262,6 +268,12 @@
     </model>
     <model>
       <configItem>
+        <name>gyration</name>
+        <_description>Gyration</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>hpi6</name>
         <_description>Hewlett-Packard Internet Keyboard</_description>
       </configItem>
@@ -412,6 +424,12 @@
     </model>
     <model>
       <configItem>
+        <name>logiitc</name>
+        <_description>Logitech iTouch Cordless Keyboard (model Y-RB6)</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logiik</name>
         <_description>Logitech Internet Keyboard</_description>
       </configItem>
@@ -474,6 +492,12 @@
       <configItem>
         <name>microsoftpro</name>
         <_description>Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>microsoftprousb</name>
+        <_description>Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro</_description>
       </configItem>
     </model>
     <model>
@@ -552,6 +576,12 @@
       <configItem>
         <name>sk7100</name>
         <_description>SK-7100</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>sp_inet</name>
+        <_description>Super Power Multimedia Keyboard</_description>
       </configItem>
     </model>
     <model>
@@ -982,7 +1012,7 @@
       <configItem>
         <name>ir</name>
         <_shortDescription>Irn</_shortDescription>
-        <_description>Farsi</_description>
+        <_description>Iranian</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -1401,14 +1431,14 @@
       <variantList>
         <variant>
           <configItem>
-            <name>lt_std</name>
+            <name>std</name>
             <_description>Standard</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>lt_us</name>
-            <_description>US</_description>
+            <name>us</name>
+            <_description>US keyboard with Lithuanian letters</_description>
           </configItem>
         </variant>
       </variantList>

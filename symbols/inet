@@ -21,6 +21,33 @@
 // Acer
 
 partial alphanumeric_keys
+xkb_symbols "a4techKB21" {
+    name[Group1]= "A4Tech KB-21";
+
+    // Left side
+    key <I6A>   {       [ XF86Back              ]       };
+    key <I69>   {       [ XF86Forward           ]       };
+    key <I68>   {       [ XF86Stop              ]       };
+    key <I67>   {       [ XF86Refresh           ]       };
+    key <I32>   {       [ XF86HomePage          ]       };
+    key <I65>   {       [ XF86Search            ]       };
+
+    // Middle
+    key <I10>   {       [ XF86AudioPrev         ]       };
+    key <I22>   {       [ XF86AudioPlay, XF86AudioPause ] };
+    key <I24>   {       [ XF86AudioStop, XF86Eject ]    };
+    key <I19>   {       [ XF86AudioNext         ]       };
+
+    // Right side
+    key <I2E>   {       [ XF86AudioLowerVolume  ]       };	
+    key <I30>   {       [ XF86AudioRaiseVolume  ]       };
+    key <I20>   {       [ XF86AudioMute         ]       };
+    key <I66>   {       [ XF86Favorites         ]       };
+    key <I6C>   {       [ XF86Mail              ]       };
+    key <I6B>   {       [ XF86MyComputer        ]       };
+};
+
+partial alphanumeric_keys
 xkb_symbols "airkey" {
     name[Group1]= "Acer AirKey V";
 
@@ -1064,6 +1091,26 @@ xkb_symbols "logiaccess" {
 };
 
 partial alphanumeric_keys
+xkb_symbols "logicdit" {
+    name[Group1]= "Logitech Cordless Desktop iTouch";
+
+    key <I5F>   {       [ XF86Standby           ]       };
+
+    key <I20>   {       [ XF86AudioMute         ]       };
+    key <I2E>   {       [ XF86AudioLowerVolume  ]       };
+    key <I30>   {       [ XF86AudioRaiseVolume  ]       };
+    key <I22>   {       [ XF86AudioPlay, XF86AudioPause ] };
+    key <I24>   {       [ XF86AudioStop         ]       };
+    key <I10>   {       [ XF86AudioPrev         ]       };
+    key <I19>   {       [ XF86AudioNext         ]       };
+
+    key <I32>   {       [ XF86HomePage          ]       };
+    key <I6C>   {       [ XF86Mail              ]       };
+    key <I65>   {       [ XF86Search            ]       };
+    key <I66>   {       [ XF86Go                ]       };
+};
+
+partial alphanumeric_keys
 xkb_symbols "logicdp" {
     name[Group1]= "Logitech Cordless Desktop Pro";
 
@@ -1262,6 +1309,24 @@ xkb_symbols "logiinkseusb" {
 };
 
 partial alphanumeric_keys
+xkb_symbols "logiitc" {
+    name[Group1]= "Logitech iTouch Cordless Keyboard (model Y-RB6)";
+
+    key <I5F>	{	[ XF86PowerOff		]	};
+    key <I20>	{	[ XF86AudioMute		]	};
+    key <I2E>	{	[ XF86AudioLowerVolume	]	};
+    key <I2F>	{	[ XF86AudioRaiseVolume	]	};
+    key <I22>	{	[ XF86AudioPlay, XF86AudioPause ] };
+    key <I24>	{	[ XF86AudioStop		]	};
+    key <I10>	{	[ XF86AudioPrev		]	};
+    key <I19>	{	[ XF86AudioNext		]	};
+    key <I32>	{	[ XF86HomePage		]	};
+    key <I6C>	{	[ XF86Mail		]	};
+    key <I65>	{	[ XF86Search		]	};
+    key <I66>	{	[ XF86Favorites		]	};
+};
+
+partial alphanumeric_keys
 xkb_symbols "logiik" {
     name[Group1]= "Logitech Internet Keyboard";
 
@@ -1435,6 +1500,35 @@ xkb_symbols "microsoftpro" {
     key <I21>	{	[ XF86Calculator	]	};
     key <I5F>	{	[ XF86Standby		]	};
 };
+
+partial alphanumeric_keys  
+ xkb_symbols "microsoftprousb" {  
+     name[Group1]= "Microsoft Natural Keyboard Pro USB";  
+  
+ //   Multimedia Section -- Right Side  
+     key <I1F>   {   [ XF86AudioPlay, XF86AudioPause ] };  
+     key <I24>   {   [ XF86AudioPrev      ]   };  
+     key <I17>   {   [ XF86AudioStop      ]   };  
+     key <I22>   {   [ XF86AudioNext      ]   };  
+     key <I01>   {   [ XF86AudioMedia   ]   };  
+     key <I25>   {   [ XF86AudioLowerVolume   ]   };  
+     key <I1E>   {   [ XF86AudioRaiseVolume   ]   };  
+     key <I26>   {   [ XF86AudioMute      ]   };  
+ //   Internet Section -- Left Side  
+     key <I02>   {   [ XF86HomePage      ]   };  
+     key <I6C>   {   [ XF86Mail      ]   };  
+     key <I66>   {   [ XF86Favorites      ]   };  
+     key <I65>   {   [ XF86Search      ]   };  
+     key <I68>   {   [ XF86Stop      ]   };  
+     key <I6A>   {   [ XF86Back      ]   };  
+     key <I69>   {   [ XF86Forward      ]   };  
+     key <FK16>   {   [ XF86Reload      ]   };  
+ //   My Computer Section -- Far Right  
+ //  My computer maps to printscreen, so leaving commented out for now   
+ //  key <PRSC>   {   [ XF86MyComputer   ]   };  
+     key <I21>   {   [ XF86Calculator   ]   };  
+     key <I63>   {   [ XF86Standby      ]   };  
+}; 
 
 partial alphanumeric_keys  
 xkb_symbols "microsoftprooem" { 
@@ -1946,4 +2040,28 @@ xkb_symbols "yahoo" {
     key <I5E>	{	[ XF86PowerOff		]	};
     key <I5F>	{	[ XF86Standby		]	};
     key <I63>	{	[ XF86WakeUp		]	};
+};
+
+// Super Power Internet Keyboard 
+ 
+xkb_symbols "sp_inet" { 
+    name[Group1]= "Super Power Multimedia Keyboard"; 
+     
+    key <I67>	{	[ XF86Refresh		]	}; 
+    key <I66>	{	[ XF86Favorites		]	}; 
+    key <I6A>	{	[ XF86Back		]	}; 
+    key <I69>	{	[ XF86Forward		]	}; 
+    key <I68>	{	[ XF86Stop		]	}; 
+    key <I32>	{	[ XF86HomePage		]	}; 
+    key <I6C>	{	[ XF86Mail		]	}; 
+    key <I22>	{	[ XF86AudioPlay, XF86AudioPause ] }; 
+    key <I24>	{	[ XF86AudioStop		]	}; 
+    key <I10>	{	[ XF86AudioPrev		]	}; 
+    key <I19>	{	[ XF86AudioNext		]	}; 
+    key <I30>	{	[ XF86AudioRaiseVolume	]	}; 
+    key <I20>	{	[ XF86AudioMute		]	}; 
+    key <I2E>	{	[ XF86AudioLowerVolume	]	}; 
+    key <I5E>	{	[ XF86PowerOff		]	}; 
+    key <I5F>	{	[ XF86Standby		]	}; 
+    key <I63>	{	[ XF86WakeUp		]	};       
 };

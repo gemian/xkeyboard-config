@@ -20,6 +20,7 @@
   winbook	Winbook Model XP5
   jp106		Japanese 106-key
   pc98		PC-98xx Series
+  a4techKB21    A4Tech KB-21
   abnt2		Brazilian ABNT2
   airkey	Acer AirKey V
   acpi		ACPI Standard
@@ -49,6 +50,7 @@
   ennyah_dkb1008 Ennyah DKB-1008
   genius	Genius Comfy KB-16M / Genius MM Keyboard KWD-910
   geniuscomfy2	Genius Comfy KB-21e-Scroll
+  gyration	Gyration
   hpi6		Hewlett-Packard Internet Keyboard
   hp2501	Hewlett-Packard SK-2501 Multimedia Keyboard
   hp2505	Hewlett-Packard SK-2505 Internet Keyboard
@@ -68,6 +70,7 @@
   rapidaccess2a	IBM Rapid Access II (alternate option)
   thinkpad	IBM ThinkPad 560Z/600/600E/A22E
   ltcd		Logitech Cordless Desktop
+  logicdit	Logitech Cordless Desktop iTouch 
   logicdp	Logitech Cordless Desktop Pro
   logicdpa	Logitech Cordless Desktop Pro (alternate option)
   logiaccess	Logitech Access Keyboard
@@ -82,6 +85,7 @@
   mx2750	Memorex MX2750
   microsoftinet	Microsoft Internet Keyboard
   microsoftpro	Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro
+  microsoftprousb Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro
   microsoftprooem Microsoft Natural Keyboard Pro OEM
   microsoftprose Microsoft Internet Keyboard Pro, Swedish
   microsoftoffice Microsoft Office Keyboard
@@ -95,6 +99,7 @@
   sk2500	SK-2500
   sk6200	SK-6200
   sk7100	SK-7100
+  sp_inet	Super Power Multimedia Keyboard
   sven		SVEN Ergonomic 2500
   symplon	Symplon PaceBook (tablet PC)
   toshiba_s3000	Toshiba Satellite S3000

@@ -116,7 +116,7 @@ xkb_symbols "old" {
     key <AB06> {	[ 0x100056d,  0x100053d ]	};
     key <AB07> {	[ 0x1000577,  0x1000547 ]	};
     key <AB08> {	[ comma,      guillemotleft ]	};
-    key <AB09> {	[ period,     guillemotright ]	};
+    key <AB09> {	[ 0x1002024,  guillemotright ]	};
     key <AB10> {	[ 0x100055e,  0x100055e ]	};
 
 };
