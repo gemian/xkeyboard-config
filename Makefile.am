@@ -1,4 +1,4 @@
-SUBDIRS = compat compiled geometry keycodes keymap po rules semantics symbols types docs
+SUBDIRS = compat geometry keycodes keymap po rules semantics symbols types docs
 
 EXTRA_DIST= config.rpath  COPYING README \
        autogen.sh \
@@ -11,8 +11,11 @@ dnl ACLOCAL_AMFLAGS = -I m4
 if CREATE_XKBCOMP_SYMLINK
 install-data-hook:
 	ln -sf ../../../bin/xkbcomp $(DESTDIR)$(xkb_base)/xkbcomp
-
+	rm -f $(DESTDIR)$(xkb_base)/compiled
+	ln -sf /var/lib/xkb $(DESTDIR)$(xkb_base)/compiled
 else
 install-data-hook:
+	rm -f $(DESTDIR)$(xkb_base)/compiled
+	ln -sf /var/lib/xkb $(DESTDIR)$(xkb_base)/compiled
 
 endif
