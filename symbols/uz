@@ -24,7 +24,7 @@
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
 
-    name[Group1]= "Uzbek";
+    name[Group1]= "Uzbekistan";
 
     key	<AE01> {	[		1,	    exclam 	]	};
     key	<AE02> {	[		2,        quotedbl	]	};

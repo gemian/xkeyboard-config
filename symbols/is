@@ -11,7 +11,7 @@ xkb_symbols "basic" {
 
     include "latin(type4)"
 
-    name[Group1]="Icelandic";
+    name[Group1]="Iceland";
 
     key <AE02>	{ [         2,   quotedbl,  twosuperior,    oneeighth ]	};
     key <AE04>	{ [         4,     dollar,   onequarter,     currency ]	};

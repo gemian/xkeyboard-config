@@ -13,7 +13,7 @@ xkb_symbols "basic" {
     include "latin"
 
     // Alphanumeric section
-    name[Group1]= "Swiss (German)";
+    name[Group1]= "Switzerland (German)";
     key <TLDE> { [    section,     degree                           ] };
     key <AE01> { [          1,       plus,          bar, exclamdown ] };
     key <AE02> { [          2,   quotedbl,           at, oneeighth  ] };
@@ -81,7 +81,7 @@ xkb_symbols "fr" {
     // keyboard and a very simple Swiss/French keybaord
 
     include "ch(basic)"
-    name[Group1]= "Swiss (French)";
+    name[Group1]= "Switzerland (French)";
 
     override key <AD11> {
 	[ egrave,	udiaeresis,	bracketleft	]

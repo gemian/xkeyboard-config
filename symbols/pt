@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 
     include "latin(type4)"
 
-    name[Group1]="Portuguese";
+    name[Group1]="Portugal";
 
     key <AE03>	{ [         3, numbersign,     sterling,     sterling ]	};
     key <AE04>	{ [         4,     dollar,      section,       dollar ]	};

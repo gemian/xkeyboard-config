@@ -14,7 +14,7 @@ xkb_symbols "basic" {
 
     include "latin(type4)"
 
-    name[Group1]="Estonian";
+    name[Group1]="Estonia";
 
     key <AE03>	{ [         3, numbersign,     sterling,     sterling ]	};
     key <AE04>	{ [         4,   currency,       dollar,       dollar ]	};

@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]="French";
+    name[Group1]="France";
 
     key <AE01>	{ [ ampersand,          1,  onesuperior,   exclamdown ]	};
     key <AE02>	{ [    eacute,          2,   asciitilde,    oneeighth ]	};

@@ -8,7 +8,7 @@ default
 partial hidden alphanumeric_keys modifier_keys 
 xkb_symbols "basic" {
 
-    name[Group1]= "US/ASCII";
+    name[Group1]= "United States";
 
     include "pc(common)"
 
@@ -71,7 +71,7 @@ xkb_symbols "basic" {
 partial alphanumeric_keys
 xkb_symbols "intl" {
 
-    name[Group1]= "US International";
+    name[Group1]= "United States (International)";
 
     include "us(basic)"
 
@@ -153,7 +153,7 @@ xkb_symbols "intl" {
 partial alphanumeric_keys
 xkb_symbols "alt-intl" {
 
-  name[Group1]= "US/ASCII";
+  name[Group1]= "United States (us_intl)";
   include "us"
 
   key <TLDE> { [ dead_grave, dead_tilde,    grave,	      asciitilde    ] };
@@ -183,7 +183,7 @@ xkb_symbols "alt-intl" {
 partial alphanumeric_keys
 xkb_symbols "dvorak" {
 
-    name[Group1]= "Dvorak";
+    name[Group1]= "United States (Dvorak)";
 
     // Alphanumeric section
 

@@ -12,7 +12,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1] = "Slovak";
+    name[Group1] = "Slovakia";
 
     key <TLDE>	{ [ semicolon, dead_abovering,    grave,   asciitilde ]	};
     key <AE01>	{ [      plus,          1,       exclam,   dead_tilde ]	};

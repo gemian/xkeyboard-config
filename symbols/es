@@ -10,7 +10,7 @@ xkb_symbols "basic" {
 
     include "latin(type4)"
 
-    name[Group1]="Spanish";
+    name[Group1]="Spain";
 
     key <AE01>	{ [         1,     exclam,          bar,   exclamdown ]	};
     key <AE03>	{ [         3, periodcentered, numbersign,   sterling ]	};

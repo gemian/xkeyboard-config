@@ -5,7 +5,7 @@ xkb_symbols "basic" {
 
     include "latin(type2)"
 
-    name[Group1]= "Faroese";
+    name[Group1]= "Faroe Islands";
 
     key <TLDE>	{ [   onehalf,   section, threequarters,    paragraph ]	};
     key <LSGT>	{ [      less,    greater,    backslash,      notsign ]	};

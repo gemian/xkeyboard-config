@@ -19,7 +19,7 @@ xkb_symbols "basic" {
 
     include "latin(type3)"
 
-    name[Group1]="Croatian";
+    name[Group1]="Croatia";
 
     key <AE01>	{ [         1,     exclam,   asciitilde,   dead_tilde ]	};
     key <AE02>	{ [         2,   quotedbl,   dead_caron,        caron ]	};
@@ -57,7 +57,7 @@ xkb_symbols "us" {
     // by Vlatko Kosturjak (kost at linux.hr)
 
     // Alphanumeric section
-    name[Group1]= "Croatian(US)";
+    name[Group1]= "Croatia (US)";
     key <AD01> {	[	  q,	Q 		],
 			[ backslash			]	};
     key <AD02> {	[	  w,	W 		],

@@ -13,7 +13,7 @@ xkb_symbols "basic" {
 partial alphanumeric_keys
 xkb_symbols "se" {
 
-    name[Group1]="Swedish";
+    name[Group1]="Sweden";
 
     key <AE05>	{ [         5,    percent,     EuroSign,         cent ]	};
     key <AE11>	{ [      plus,   question,    backslash, questiondown ]	};

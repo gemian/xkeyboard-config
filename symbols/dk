@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 
     include "latin(type2)"
 
-    name[Group1]="Danish";
+    name[Group1]="Denmark";
 
     key <AE11>	{ [      plus,   question,    plusminus, questiondown ]	};
     key <AE12>	{ [dead_acute, dead_grave,          bar,    brokenbar ]	};

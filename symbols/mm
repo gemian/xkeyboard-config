@@ -4,7 +4,7 @@
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
-      name[Group1]= "Myanmarish";
+      name[Group1]= "Myanmar";
 
 // Mainly numbers.
       key <AE01> { [      0x1001041, exclam 	]	};

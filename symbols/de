@@ -8,7 +8,7 @@ xkb_symbols "basic" {
 
     include "latin(type4)"
 
-    name[Group1]="German";
+    name[Group1]="Germany";
 
     key <AE02>	{ [         2,   quotedbl,  twosuperior,    oneeighth ]	};
     key <AE03>	{ [         3,    section, threesuperior,    sterling ]	};

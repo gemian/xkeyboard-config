@@ -31,7 +31,7 @@
 partial default alphanumeric_keys modifier_keys
 xkb_symbols "basic" {
 
-    name[Group1]= "Latvian";
+    name[Group1]= "Latvia";
 
         key <TLDE>      {[grave, asciitilde, acute, asciitilde]};
         key <AE01>      {[1, exclam, onesuperior, exclamdown]};

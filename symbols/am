@@ -7,7 +7,7 @@
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
 
-    name[Group1]= "Armenian";
+    name[Group1]= "Armenia";
 
     // Alphanumeric section
     key <TLDE> {	[ 0x100055d, 0x100055c	]	};

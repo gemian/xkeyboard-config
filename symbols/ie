@@ -36,7 +36,7 @@ xkb_symbols "basic" {
     //  - non-breaking space as AltGr+Space and AltGr+Shift+Space
     //  - matches hardware (keys and engraved symbols) for Irish keyboards
 
-    name[Group1] = "Irish";
+    name[Group1] = "Ireland";
 
     //
     // Numeric row `1234567890-=
@@ -142,7 +142,7 @@ xkb_symbols "CloGaelach" {
 
     include "ie(basic)"
 
-    name[Group1] = "Irish (Clo Gaelach)";
+    name[Group1] = "Ireland (Clo Gaelach)";
 
     key <TLDE> { [     grave, notsign,  brokenbar,       ssharp ] };
     key <AD04> { [         r,       R,  0x100027C,   registered ] };
@@ -177,7 +177,7 @@ xkb_symbols "UnicodeExpert" {
 
 // This should eventually be a "Unicode Expert" layout like the Mac one.
 
-    name[Group1] = "Irish (Unicode Expert)";
+    name[Group1] = "Ireland (Unicode Expert)";
 
     //
     // Numeric row `1234567890-=

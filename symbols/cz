@@ -11,7 +11,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]= "Czech";
+    name[Group1]= "Czech Republic";
 
     key <TLDE>	{ [ semicolon, dead_abovering,    grave,   asciitilde ]	};
     key <AE01>	{ [      plus,          1,       exclam,   dead_tilde ]	};

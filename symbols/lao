@@ -11,7 +11,7 @@ xkb_symbols "basic" {
     // keyboard and a Lao keyboard
     // This keymap uses the Lao keyboard standard [kind of] widely used inLaos
 
-    name[Group1]= "Lao";
+    name[Group1]= "Laos";
 
     // Alphanumeric section
     key <TLDE> { [ 0x100200D			]};

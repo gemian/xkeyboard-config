@@ -10,7 +10,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]="Maltese";
+    name[Group1]="Malta";
 
     // The following four sets are the four additional letters, with the UK
     // equivalents

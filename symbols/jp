@@ -6,7 +6,7 @@
 default xkb_symbols "jp106" {
     include "srvr_ctrl(xfree86)"
 
-    name[Group1]= "Japanese";
+    name[Group1]= "Japan";
 
     // Alphanumeric section
     key <HZTG> {

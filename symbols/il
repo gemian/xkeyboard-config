@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 
     // uses the kbd layout in use in Israel.
 
-    name[Group1]= "Israelian";
+    name[Group1]= "Israel";
 
     key <TLDE> { [ semicolon,	asciitilde	]	};
 
@@ -60,7 +60,7 @@ xkb_symbols "basic" {
 // nikud patter based on Dekel Tsur's Hebrew mapping for LyX
 partial alphanumeric_keys 
 xkb_symbols "lyx" {
-    name[Group1]= "Israelian";
+    name[Group1]= "Israel";
 
     key <TLDE> { [ semicolon,	asciitilde	]	};
     // On some key (e.g. AD01, right below) there is not yet mapping for the
@@ -119,7 +119,7 @@ xkb_symbols "lyx" {
 // layout. 
 partial alphanumeric_keys 
 xkb_symbols "si1452" {
-    name[Group1]= "Israelian";
+    name[Group1]= "Israel";
 
     include "il(basic)"
     
@@ -159,7 +159,7 @@ xkb_symbols "phonetic" {
 
     // uses the phonetic layout from old Slackware 'il.map' file
 
-    name[Group1]= "Israelian (phonetic)";
+    name[Group1]= "Israel (phonetic)";
 
     key <AE12> {        [     equal,    plus            ],
 			[ hebrew_doublelowline, hebrew_doublelowline ]};

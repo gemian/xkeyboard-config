@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 
     include "latin"
     // Alphanumeric section
-    name[Group1]= "Bosnian";
+    name[Group1]= "Bosnia and Herzegovina";
 
     key <TLDE> { [ dead_cedilla,	   dead_diaeresis	]	};
     key <AE01> { [        1,   exclam,     asciitilde,	     dead_tilde	] };

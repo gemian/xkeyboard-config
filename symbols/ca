@@ -2,7 +2,7 @@
 
 default partial
 xkb_symbols "fr" {
-    name[Group1] = "Canadian French";
+    name[Group1] = "Canada (French)";
 
     key <TLDE>	{ [ numbersign,       bar,     backslash ]	};
     key <AE01>	{ [         1,     exclam,     plusminus ]	};
@@ -62,7 +62,7 @@ xkb_symbols "fr" {
 };
 
 xkb_symbols "fr-dvorak" {
-    name[Group1] = "Canadian French Dvorak";
+    name[Group1] = "Canada (French Dvorak)";
 
     key <TLDE>  { [ numbersign,       bar,     backslash ]  };
     key <AE01>  { [         1,     exclam,     plusminus ]  };
@@ -124,7 +124,7 @@ xkb_symbols "fr-dvorak" {
 partial
 xkb_symbols "fr-legacy" {
 
-    name[Group1] = "Canadian French (Legacy)";
+    name[Group1] = "Canada (French Legacy)";
 
     include "ca(fr)"
 
@@ -170,7 +170,7 @@ xkb_symbols "fr-legacy" {
 partial
 xkb_symbols "multi" {
 
-    name[Group1] = "Canadian Multilingual";
+    name[Group1] = "Canada (Multilingual)";
 
     include "ca(fr)"
 
@@ -208,7 +208,7 @@ xkb_symbols "multi" {
 partial
 xkb_symbols "multi-2gr" {
 
-    name[Group1] = "Canadian Multilingual group2";
+    name[Group1] = "Canada (Multilingual group2)";
 
     key <TLDE>	{ [    VoidSymbol,      hyphen ]	};
     key <AE01>	{ [   onesuperior,  exclamdown ]	};

@@ -9,7 +9,7 @@
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
-      name[Group1]= "Iranian";
+      name[Group1]= "Iran";
 
       key <TLDE> { [	0x100200d	]	};
 

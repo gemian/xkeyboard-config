@@ -13,7 +13,7 @@ xkb_symbols "basic" {
 
     include "latin(type2)"
 
-    name[Group1]="Norwegian";
+    name[Group1]="Norway";
 
     key <AE11>	{ [      plus,   question,    plusminus, questiondown ]	};
     key <AE12>	{ [ backslash, dead_grave,   dead_acute,      notsign ]	};

@@ -13,7 +13,7 @@ xkb_symbols "basic" {
 
     include "us"
 
-    name[Group1]= "Vietnamese";
+    name[Group1]= "Vietnam";
 
     // Alphanumeric section
     key <TLDE> { [ quoteleft, asciitilde  ]	};

@@ -8,7 +8,7 @@
 partial default alphanumeric_keys
 xkb_symbols "basic" {
 
-  name[Group1]= "Mongolian";
+  name[Group1]= "Mongolia";
 
   key <TLDE> { [ equal,       	   plus,  		degree          ] };
   key <AE01> { [ 1,                numerosign,        	multiply        ] };

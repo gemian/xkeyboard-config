@@ -44,7 +44,7 @@ xkb_symbols "basic" {
 hidden partial alphanumeric_keys alternate_group
 xkb_symbols "bare" {
 
-    name[Group1] = "Greek";
+    name[Group1] = "Greece";
 
     key <AD01> { [	semicolon,		colon		] };
     key <AD02> { [	Greek_finalsmallsigma,	Greek_SIGMA	] };

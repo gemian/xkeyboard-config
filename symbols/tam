@@ -13,7 +13,7 @@ xkb_symbols "TSCII" {
 // Author	: Thuraiappah Vaseeharan <vasee@ieee.org>
 // Last Modified: Sat Jan  5 17:11:26 CST 2002
 
-    name[Group1]= "TSCII";
+    name[Group1]= "Tamil (TSCII)";
 
     key <AE01> {  [ 0x10000b7, 0x10000a4 ] }; // aytham
     key <AE02> {  [ 0x1000082, 0x10000a5 ] }; // shri

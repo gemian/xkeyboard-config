@@ -7,7 +7,7 @@
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
 
-    name[Group1]= "Belarusian";
+    name[Group1]= "Belarus";
 
     key	<TLDE> {	[     Cyrillic_io,     Cyrillic_IO	]	};
     key	<LSGT> {	[		bar,	brokenbar	]	};

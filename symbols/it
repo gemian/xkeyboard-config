@@ -10,7 +10,7 @@ xkb_symbols "basic" {
 
     include "latin(type4)"
 
-    name[Group1]="Italian";
+    name[Group1]="Italy";
 
     key <TLDE>	{ [ backslash,        bar,      notsign,    brokenbar ]	};
 

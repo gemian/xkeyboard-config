@@ -17,7 +17,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]="Lithuanian";
+    name[Group1]="Lithuania";
 
     key <AE01>	{ [   aogonek,      Aogonek,        1,      exclam ]	};
     key <AE02>	{ [    ccaron,       Ccaron,        2,          at ]	};
@@ -43,7 +43,7 @@ xkb_symbols "us" {
 
     include "latin"
 
-    name[Group1]="Lithuanian";
+    name[Group1]="Lithuania";
 
     key <AE01>	{ [         1,     exclam,      aogonek,      Aogonek ]	};
     key <AE02>	{ [         2,         at,       ccaron,       Ccaron ]	};
@@ -75,7 +75,7 @@ xkb_symbols "std" {
 
     include "latin"
 
-    name[Group1]= "Lithuanian";
+    name[Group1]= "Lithuania";
 
     key <TLDE> {[	grave,		asciitilde,	acute		]};
     key <AE01> {[	exclam,		1,		at		]};

@@ -10,7 +10,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]="Romanian";
+    name[Group1]="Romania";
 
     // Alphanumeric section
     key <TLDE> { [ bracketright, bracketleft		]	};

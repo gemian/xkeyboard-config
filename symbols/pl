@@ -9,7 +9,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]="Polish";
+    name[Group1]="Poland";
 
     key <AD03>	{ [         e,          E,      eogonek,      Eogonek ]	};
     key <AD09>	{ [         o,          O,       oacute,       Oacute ]	};
@@ -35,7 +35,7 @@ xkb_symbols "qwertz" {
 
     include "latin(type3)"
 
-    name[Group1]="Polish";
+    name[Group1]="Poland";
 
     key <AE01>	{ [         1,     exclam,   asciitilde,   exclamdown ]	};
     key <AE02>	{ [         2,   quotedbl,   dead_caron,    oneeighth ]	};
@@ -84,7 +84,7 @@ partial alphanumeric_keys
 xkb_symbols "dvorak" {
     include "us(dvorak)"
     
-    name[Group1] = "Polish Dvorak";
+    name[Group1] = "Poland (Dvorak)";
 
     key <AD08> { [	    c,	C,	cacute,	Cacute		]	};
     key <AD10> { [	    l,	L,     lstroke, Lstroke		]	};

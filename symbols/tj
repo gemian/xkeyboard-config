@@ -19,7 +19,7 @@
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
 
-    name[Group1]= "Tajik";
+    name[Group1]= "Tajikistan";
 
     key	<TLDE> {	[     Cyrillic_io,     Cyrillic_IO	]	};
     key	<LSGT> {	[	      bar,	 brokenbar	]	};

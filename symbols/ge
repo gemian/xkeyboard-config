@@ -10,7 +10,7 @@
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
 
-    name[Group1]= "Georgian";
+    name[Group1]= "Georgia";
 
     key <AD01> { [ 0x010010e5,	q		]	};
     key <AD02> { [ 0x010010ec,	0x010010ed	]	};
@@ -60,7 +60,7 @@ xkb_symbols "la" {
 partial alphanumeric_keys 
 xkb_symbols "ru" {
 
-    name[Group1]= "Georgian";
+    name[Group1]= "Georgia";
 
     key <TLDE> { [ asciicircum,	asciitilde	]	};
     key <AE01> { [         1,    exclam         ]       };

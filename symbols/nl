@@ -14,7 +14,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]="Nederland";
+    name[Group1]="Netherlands";
 
     key <AE02>	{ [         2,   quotedbl,  twosuperior,    oneeighth ]	};
     key <AE06>	{ [         6,  ampersand, threequarters, fiveeighths ]	};

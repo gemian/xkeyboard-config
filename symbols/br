@@ -13,7 +13,7 @@ xkb_symbols "abnt2" {
 
     include "latin"
 
-    name[Group1]="Brazilian";
+    name[Group1]="Brazil";
 
     key <AE02>	{ [         2,         at,  twosuperior,      onehalf ]	};
     key <AE03>	{ [         3, numbersign, threesuperior, threequarters ] };

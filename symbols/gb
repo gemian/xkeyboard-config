@@ -14,7 +14,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]="Great Britain";
+    name[Group1]="United Kingdom";
 
     key <AE02>	{ [         2,   quotedbl,  twosuperior,    oneeighth ]	};
     key <AE03>	{ [         3,   sterling, threesuperior,    sterling ]	};
@@ -45,7 +45,7 @@ xkb_symbols "intl" {
 
     include "latin" 
 
-    name[Group1]="Great Britain"; 
+    name[Group1]="United Kingdom"; 
 
     key <AE02>  { [   2,  dead_diaeresis,      twosuperior,     onehalf ] };
     key <AE03>  { [   3,        sterling,    threesuperior,    onethird ] };

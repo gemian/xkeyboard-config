@@ -16,7 +16,7 @@ xkb_symbols "fi" {
     // a Finnish keyboard with dead key support and all of
     // ISO-8859-1 and ISO-8859-15 characters available.
 
-    name[Group1]="Finnish";
+    name[Group1]="Finland";
 
     key <TLDE> { [ section,    onehalf,     onequarter,   threequarters	] };
     key <LSGT> { [    less,    greater,            bar,       brokenbar	] };
