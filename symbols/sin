@@ -2,7 +2,7 @@
 
 // X Keyboard Extension file for Sinhala (Sri Lanka) (2004-04-22)
 // Maintainer  : Harshula Jayasuriya <hash@jayasolutions.cjb.net>
-// Last Updated: 2004-10-10
+// Last Updated: 2004-11-14
 // This is a static phonetic mapping for a standard US-English keyboard
 // (qwerty)
 // http://www.nongnu.org/sinhala/doc/keymaps/sinhala-keyboard_3.html
@@ -50,7 +50,7 @@ xkb_symbols "phonetic-static" {
   // a - l
   key <AC01> { [ 0x01000d85, 0x01000d86, 0x01000dca, 0x01000dcf ] };
   key <AC02> { [ 0x01000dc3, 0x01000dc2, 0x01000dc1, NoSymbol ] };
-  key <AC03> { [ 0x01000da9, 0x01000daa, 0x01000dac, NoSymbol ] };
+  key <AC03> { [ 0x01000da9, 0x01000daa, 0x01000daf, 0x01000db0 ] };
   key <AC04> { [ 0x01000dc6, 0x01000d93, 0x01000ddb, NoSymbol ] };
   key <AC05> { [ 0x01000d9c, 0x01000d9d, 0x01000d9f, NoSymbol ] };
   key <AC06> { [ 0x01000dc4, 0x01000d96, 0x01000dde, NoSymbol ] };
@@ -60,7 +60,7 @@ xkb_symbols "phonetic-static" {
 
   // z - m
   key <AB01> { [ 0x01000da4, 0x01000da5, NoSymbol, NoSymbol ] };
-  key <AB02> { [ 0x01000daf, 0x01000db0, 0x01000db3, NoSymbol ] };
+  key <AB02> { [ 0x01000dac, 0x01000db3, NoSymbol, NoSymbol ] };
   key <AB03> { [ 0x01000da0, 0x01000da1, NoSymbol, NoSymbol ] };
   key <AB04> { [ 0x01000dc0, 0x01000d82, 0x01000d83, NoSymbol ] };
   key <AB05> { [ 0x01000db6, 0x01000db7, NoSymbol, NoSymbol ] };
