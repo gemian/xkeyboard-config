@@ -1,3 +1,10 @@
+2004-12-20 20:30  svu
+
+	* symbols/inet,
+	rules/base.lists.part,
+	rules/base.xml.in: added A4Tech KBS-8, thanks to olo at force dot sk.
+	fixed https://bugs.freedesktop.org/show_bug.cgi?id=2113
+
 2004-12-10 00:30  svu
 
 	* symbols/inet: removed keyboard names from the group names,

@@ -20,8 +20,6 @@
 // All keyboards listed here should be also mentioned in
 // xc/programs/xkbcomp/rules/xfree86, xfree86.lst and xfree86.xml.
 
-// Acer
-
 // A4Tech KB-21
 partial alphanumeric_keys
 xkb_symbols "a4techKB21" {
@@ -46,6 +44,16 @@ xkb_symbols "a4techKB21" {
     key <I66>   {       [ XF86Favorites         ]       };
     key <I6C>   {       [ XF86Mail              ]       };
     key <I6B>   {       [ XF86MyComputer        ]       };
+};
+
+// A4 KBS-8. Contributed by ojo at force dot sk
+partial alphanumeric_keys 
+xkb_symbols "a4techKBS8" { 
+    include "inet(a4techKB21)"
+    key <I6D>   {       [ XF86AudioMedia        ]       }; 
+    key <I21>   {       [ XF86Calculator        ]       }; 
+    key <I5F>   {       [ XF86Standby           ]       }; 
+
 };
 
 // Acer AirKey V
@@ -2050,3 +2058,4 @@ xkb_symbols "sp_inet" {
     key <I5F>	{	[ XF86Standby		]	}; 
     key <I63>	{	[ XF86WakeUp		]	};       
 };
+

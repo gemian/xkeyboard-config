@@ -82,6 +82,12 @@
     </model>
     <model>
       <configItem>
+        <name>a4techKBS8</name>
+        <_description>A4Tech KBS-8</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>abnt2</name>
         <_description>Brazilian ABNT2</_description>
       </configItem>
