@@ -1,3 +1,7 @@
+2005-02-05 svu
+
+	* configure.in, NEWS: preparing 0.5
+
 2005-02-03 svu
 
 	* symbols/srp, types/extra: replaced SERBIAN_ALPHABETIC with 

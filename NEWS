@@ -1,3 +1,9 @@
+0.5	More bugs from freedesktop.org bugzilla fixed.
+	The group names now are matching the descriptions - and the validating
+	scripts are implemented.
+	Some layouts, variants, models are added/fixed.
+	Some translations are updated (though the overall translation activity 
+	is disappointinly low).
 0.4	A lot of fixes and polishing (introduced own CVS keyword).
 	Highlights:
 	More universal EURO-related options added.
