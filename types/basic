@@ -1,5 +1,5 @@
 // $Xorg: basic,v 1.3 2000/08/17 19:54:48 cpqbld Exp $
-// $XFree86$
+
 default xkb_types "basic" {
 
     // Fairly standard definitions for

@@ -35,8 +35,6 @@ xkb_symbols "basic" {
 
 // Maltese keyboard map (based on MSA Standard DMS100, annex A)
 // by Ramon Casha (ramon.casha@linux.org.mt)
-//
-// $XFree86$
 
 partial default alphanumeric_keys
 xkb_symbols "us" {

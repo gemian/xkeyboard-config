@@ -31,7 +31,3 @@ events or the keymap direcly may be affected by some of the XKB differences.
 Thus most clients can take all advantages without modification but it also
 means that XKB state can be reported to clients that have not explicitly
 requested the keyboard extension.
-
-
-
-/* $XFree86$ */

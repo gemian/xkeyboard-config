@@ -1,11 +1,6 @@
 // $XConsortium: lo 2002/11/28 $
 //
-// $XFree86$
-//
 // Lao keymap, by Anousak Souphavanh <anousak@muanglao.com>
-//
-//
-//
 
 partial default alphanumeric_keys
 xkb_symbols "basic" {

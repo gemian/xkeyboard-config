@@ -1,6 +1,4 @@
 // Use Scroll Lock LED to show either Scroll Lock, Group, or Shift Lock state
-//
-// $Xorg: $
 
 default partial xkb_compatibility "scroll_lock"   {
    indicator "Scroll Lock" {

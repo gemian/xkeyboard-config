@@ -1,6 +1,4 @@
 // Use Caps Lock LED to show either Caps Lock, Group, or Shift Lock state
-//
-// $Xorg: $
 
 default partial xkb_compatibility "caps_lock"   {
    indicator "Caps Lock" {

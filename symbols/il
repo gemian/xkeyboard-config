@@ -153,8 +153,6 @@ xkb_symbols "si1452" {
     key <BKSL> { [ backslash,    backslash,  0x10005bb	]}; // Qubuts
 };
 
-// $XFree86$
-
 partial alphanumeric_keys 
 xkb_symbols "phonetic" {
 

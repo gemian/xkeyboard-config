@@ -1,8 +1,5 @@
 // $Xorg: cs,v 1.3 2000/08/17 19:54:40 cpqbld Exp $
 //
-//
-//
-// $XFree86$
 
 default xkb_keymap "indy" {
     xkb_keycodes	{ include "sgi_vndr/indy(universal)"		};

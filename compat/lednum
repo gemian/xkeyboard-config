@@ -1,6 +1,4 @@
 // Use Num Lock LED to show either Num Lock, Group, or Shift Lock state
-//
-// $Xorg: $
 
 default partial xkb_compatibility "num_lock"   {
     indicator "Num Lock" {

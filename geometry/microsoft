@@ -1,7 +1,5 @@
 // $Xorg: microsoft,v 1.3 2000/08/17 19:54:35 cpqbld Exp $
 //
-// $XFree86$
-//
 default xkb_geometry "natural" {
 
     // Approximate layout for a Microsoft Natural Keyboard

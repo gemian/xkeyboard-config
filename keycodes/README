@@ -4,7 +4,3 @@ symbolic name, the minimum and maximum legal codes for the keyboard, and the
 symbolic name for each key. The keycodes component might also contain aliases
 for some keys, symbolic names for some indicators and a description of which
 indicators are physically present.
-
-
-
-/* $XFree86$ */

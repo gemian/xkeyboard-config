@@ -81,7 +81,6 @@ xkb_symbols "bksl" {
 
     key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
 };
-// $XFree86$
 
 partial alphanumeric_keys 
 xkb_symbols "qwerty" {

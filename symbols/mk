@@ -2,8 +2,6 @@
 // base on keyboard map:
 // Author: Damjan Georgievski <gdamjan@freemail.org.mk>
 // Revision: 1.4
-//
-// $XFree86$
 
 partial default alphanumeric_keys
 xkb_symbols "basic" { 

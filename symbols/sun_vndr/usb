@@ -1,5 +1,3 @@
-// $XFree86$
-//
 // Additional keys for Sun USB keyboard
 
 xkb_symbols "sun_usb" {

@@ -1,7 +1,5 @@
 
 // keycode aliases for phonetic keyboard maps
-//
-// $XFree86$
 
 default
 xkb_keycodes "qwerty" {
