@@ -1,3 +1,8 @@
+2005-01-18 svu
+
+	* symbols/cz, rules/base.xml.in: fixed the Czech layout,
+	https://bugs.freedesktop.org/show_bug.cgi?id=2319
+
 2005-01-16 svu
 
 	* symbols, rules/base.xml.in: HUGE commit - adjusting the group names
