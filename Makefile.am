@@ -7,3 +7,12 @@ EXTRA_DIST= COPYING README config.rpath mkinstalldirs  config.rpath \
        intltool-extract.in intltool-merge.in intltool-update.in
 
 ACLOCAL_AMFLAGS = -I m4
+
+if CREATE_XKBCOMP_SYMLINK
+install-data-hook:
+	ln -sf ../../../bin/xkbcomp $(DESTDIR)$(xkb_base)/xkbcomp
+
+else
+install-data-hook:
+
+endif
