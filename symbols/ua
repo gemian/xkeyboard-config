@@ -147,3 +147,32 @@ xkb_symbols "phonetic" {
   key <AB09> {   [ Ukrainian_ie,      Ukrainian_IE	  ]    };
   key <AB10> {   [ slash,             question            ]    };
 };
+
+// ukrainian keyboard layout RSTU 2019-91 (Respublikanskij STandart Ukrajiny)
+// Andrew Porokhnyak <aop@porokhnyak.org>
+partial alphanumeric_keys
+xkb_symbols "rstu" {
+    include "ua(basic)"
+
+    key	<TLDE> {	[      apostrophe,	  question	] 	};
+    key	<AE01> {	[	   exclam,		 1 	]	};
+    key	<AE02> {	[        quotedbl,		 2	]	};
+    key	<AE03> {	[      numbersign,		 3	]	};
+    key	<AE04> {	[	semicolon,		 4	]	};
+    key	<AE05> {	[	    colon,		 5	]	};
+    key	<AE06> {	[	    comma,		 6	]	};
+    key	<AE07> {	[	   period,		 7	]	};
+    key	<AE08> {	[        asterisk,		 8	]	};
+    key	<AE09> {	[	parenleft,		 9	]	};
+    key	<AE10> {	[      parenright,		 0	]	};
+
+    key	<AD12> {	[ Ukrainian_ghe_with_upturn, Ukrainian_GHE_WITH_UPTURN ] };
+
+    key	<AC02> {	[      Cyrillic_i,	Cyrillic_I	]	};
+
+    key	<AB05> {	[     Ukrainian_i,     Ukrainian_I	]	};
+
+    key	<AB10> {	[    Ukrainian_yi,    Ukrainian_YI	]	};
+
+    key	<BKSL> {	[	    slash,	   percent	]	};
+};

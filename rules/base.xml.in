@@ -1644,6 +1644,12 @@
             <_description>Winkeys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>rstu</name>
+            <_description>Ukrainian State Standard (RSTU 2019-91)</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1912,6 +1918,12 @@
           <configItem>
             <name>winkeys</name>
             <_description>Winkeys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>rstu</name>
+            <_description>Ukrainian State Standard (RSTU 2019-91)</_description>
           </configItem>
         </variant>
       </variantList>

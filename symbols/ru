@@ -57,8 +57,8 @@ key.type[group1]="ALPHABETIC";
     key	<AB02> {	[    Cyrillic_che,    Cyrillic_CHE	]	};
     key	<AB03> {	[     Cyrillic_es,     Cyrillic_ES	]	};
     key	<AB04> {	[     Cyrillic_em,     Cyrillic_EM	]	};
-    key	<AB06> {	[     Cyrillic_te,     Cyrillic_TE	]	};
     key	<AB05> {	[      Cyrillic_i,	Cyrillic_I	]	};
+    key	<AB06> {	[     Cyrillic_te,     Cyrillic_TE	]	};
     key	<AB07> {	[Cyrillic_softsign,Cyrillic_SOFTSIGN	]	};
     key	<AB08> {	[     Cyrillic_be,     Cyrillic_BE	]	};
     key	<AB09> {	[     Cyrillic_yu,     Cyrillic_YU	]	};
@@ -100,7 +100,6 @@ xkb_symbols "typewriter" {
 key.type[group1]="ALPHABETIC";
 
     key	<AD12> {	[Cyrillic_hardsign,Cyrillic_HARDSIGN	]	};
-    key	<AB05> {	[      Cyrillic_i,	Cyrillic_I	]	};
     key	<AB10> {	[     Cyrillic_io,     Cyrillic_IO	]	};
 };
 
@@ -162,4 +161,28 @@ key.type[group1]="ALPHABETIC";
     key	<AE12> {	[    Cyrillic_che,    Cyrillic_CHE	]	};
     key	<AD12> {	[  Cyrillic_shcha,  Cyrillic_SHCHA	]	};
     key	<BKSL> {	[      Cyrillic_e,	Cyrillic_E	]	};
+};
+
+// russian keyboard layout RSTU 2019-91 (Respublikanskij STandart Ukrajiny)
+// Andrew Porokhnyak <aop@porokhnyak.org>
+partial alphanumeric_keys
+xkb_symbols "rstu" {
+    include "ru(basic)"
+
+    key	<TLDE> {	[      apostrophe,	  question	] 	};
+    key	<AE01> {	[	   exclam,		 1 	]	};
+    key	<AE02> {	[        quotedbl,		 2	]	};
+    key	<AE03> {	[      numbersign,		 3	]	};
+    key	<AE04> {	[	semicolon,		 4	]	};
+    key	<AE05> {	[	    colon,		 5	]	};
+    key	<AE06> {	[	    comma,		 6	]	};
+    key	<AE07> {	[	   period,		 7	]	};
+    key	<AE08> {	[        asterisk,		 8	]	};
+    key	<AE09> {	[	parenleft,		 9	]	};
+    key	<AE10> {	[      parenright,		 0	]	};
+    key	<BKSL> {	[	    slash,	   percent	]	};
+
+key.type[group1]="ALPHABETIC";
+
+    key	<AB10> {	[     Cyrillic_io,     Cyrillic_IO	]	};
 };
