@@ -5,1572 +5,1460 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: xfree86_xkb_xml 4.4pre1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-04-19 23:58+0100\n"
+"POT-Creation-Date: 2003-11-25 23:38+0000\n"
 "PO-Revision-Date: 2003-12-03 11:09+0300\n"
 "Last-Translator: Nilgün Belma Bugüner <nilgun@superonline.com>\n"
 "Language-Team: Turkish <gnu-tr-u12a@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Report-Msgid-Bugs-To: \n"
 "X-Generator: KBabel 1.0\n"
 
-#: rules/base.xml.in.h:1
+#: xfree86.xml.in.h:1
 msgid "\"Typewriter\""
 msgstr "\"Daktilo\""
 
-#: rules/base.xml.in.h:2
+#: xfree86.xml.in.h:2
 msgid "A Tamil typewrite-style keymap; TAB encoding"
 msgstr "Tamil daktilo tarzı bir klavye eşlemi; TAB kodlaması"
 
-#: rules/base.xml.in.h:3
+#: xfree86.xml.in.h:3
 msgid "A Tamil typewrite-style keymap; TSCII encoding"
 msgstr "Tamil daktilo tarzı bir klavye eşlemi; TSCII kodlaması"
 
-#: rules/base.xml.in.h:4
+#: xfree86.xml.in.h:4
 msgid "A Tamil typewrite-style keymap; Unicode encoding"
 msgstr "Tamil daktilo tarzı bir klavye eşlemi; Unicode kodlama"
 
-#: rules/base.xml.in.h:5
+#: xfree86.xml.in.h:5
 msgid "ACPI Standard"
 msgstr "ACPI Standardı"
 
-#: rules/base.xml.in.h:6
+#: xfree86.xml.in.h:6
 msgid "Acer AirKey V"
 msgstr "Acer AirKey V"
 
-#: rules/base.xml.in.h:7
+#: xfree86.xml.in.h:7
 msgid "Acts as Shift with locking. Shift cancels Caps."
-msgstr ""
-"Shift tuşu kilitlemeli çalışır. Shift tuşu Caps tuşunun işlevini ters "
-"çevirir."
+msgstr "Shift tuşu kilitlemeli çalışır. Shift tuşu Caps tuşunun işlevini ters çevirir."
 
-#: rules/base.xml.in.h:8
+#: xfree86.xml.in.h:8
 msgid "Acts as Shift with locking. Shift doesn't cancel Caps."
-msgstr ""
-"Shift tuşu kilitlemeli çalışır. Shift tuşu Caps tuşunun işlevini etkilemez."
+msgstr "Shift tuşu kilitlemeli çalışır. Shift tuşu Caps tuşunun işlevini etkilemez."
 
-#: rules/base.xml.in.h:9
+#: xfree86.xml.in.h:9
 msgid "Add the standard behavior to Menu key."
 msgstr "Menü tuşuna standart işlevini ekler."
 
-#: rules/base.xml.in.h:10
+#: xfree86.xml.in.h:10
 msgid "Advance Scorpius KI"
 msgstr "Advance Scorpius KI"
 
-#: rules/base.xml.in.h:11
+#: xfree86.xml.in.h:11
 msgid "Alb"
 msgstr "Arn"
 
-#: rules/base.xml.in.h:12
+#: xfree86.xml.in.h:12
 msgid "Albanian"
 msgstr "Arnavutça"
 
-#: rules/base.xml.in.h:13
+#: xfree86.xml.in.h:13
 msgid "Alt and Meta on the Alt keys (default)."
 msgstr "Alt tuşlarına Alt ve Meta atar (öntanımlı)."
 
-#: rules/base.xml.in.h:14
+#: xfree86.xml.in.h:14
 msgid "Alt+Control changes group"
 msgstr "Grubu Alt+Control tuşları değiştirir"
 
-#: rules/base.xml.in.h:15
+#: xfree86.xml.in.h:15
 msgid "Alt+Shift changes group"
 msgstr "Grubu Alt+Shift tuşları değiştirir"
 
-#: rules/base.xml.in.h:16
+#: xfree86.xml.in.h:16
 msgid "Alt/Win key behavior"
 msgstr "Alt/Win tuşu davranışı"
 
-#: rules/base.xml.in.h:17
+#: xfree86.xml.in.h:17
 msgid "Alternate"
 msgstr "Öteki"
 
-#: rules/base.xml.in.h:18
+#: xfree86.xml.in.h:18
 msgid "Arabic"
 msgstr "Arapça"
 
-#: rules/base.xml.in.h:19
+#: xfree86.xml.in.h:19
 msgid "Arb"
 msgstr "Arp"
 
-#: rules/base.xml.in.h:20
+#: xfree86.xml.in.h:20
 msgid "Arm"
 msgstr "Erm"
 
-#: rules/base.xml.in.h:21
+#: xfree86.xml.in.h:21
 msgid "Armenian"
 msgstr "Ermenice"
 
-#: rules/base.xml.in.h:22
+#: xfree86.xml.in.h:22
 msgid "Aze"
 msgstr "Aze"
 
-#: rules/base.xml.in.h:23
+#: xfree86.xml.in.h:23
 msgid "Azerbaijani"
 msgstr "Azeri Türkçesi"
 
-#: rules/base.xml.in.h:24
-#, fuzzy
-msgid "Azona RF2300 wireless Internet Keyboard"
-msgstr "Logitech Örütbağ Klavyesi"
-
-#: rules/base.xml.in.h:25
+#: xfree86.xml.in.h:24
 msgid "BTC 5090"
 msgstr "BTC 5090"
 
-#: rules/base.xml.in.h:26
+#: xfree86.xml.in.h:25
 msgid "BTC 5113RF Multimedia"
 msgstr "BTC 5113RF Çokluortam"
 
-#: rules/base.xml.in.h:27
+#: xfree86.xml.in.h:26
 msgid "BTC 5126T"
 msgstr "BTC 5126T"
 
-#: rules/base.xml.in.h:28
+#: xfree86.xml.in.h:27
 msgid "BTC 9000"
 msgstr "BTC 9000"
 
-#: rules/base.xml.in.h:29
+#: xfree86.xml.in.h:28
 msgid "BTC 9000A"
 msgstr "BTC 9000A"
 
-#: rules/base.xml.in.h:30
+#: xfree86.xml.in.h:29
 msgid "BTC 9001AH"
 msgstr "BTC 9001AH"
 
-#: rules/base.xml.in.h:31
+#: xfree86.xml.in.h:30
 msgid "Basic"
 msgstr "Temel"
 
-#: rules/base.xml.in.h:32
+#: xfree86.xml.in.h:31
 msgid "Bel"
 msgstr "Bel"
 
-#: rules/base.xml.in.h:33
+#: xfree86.xml.in.h:32
 msgid "Belarusian"
 msgstr "Belarusça"
 
-#: rules/base.xml.in.h:34
+#: xfree86.xml.in.h:33
 msgid "Belgian"
 msgstr "Belçika dili"
 
-#: rules/base.xml.in.h:35
+#: xfree86.xml.in.h:34
 msgid "Ben"
 msgstr "Ben"
 
-#: rules/base.xml.in.h:36
+#: xfree86.xml.in.h:35
 msgid "Bengali"
 msgstr "Bengalce"
 
-#: rules/base.xml.in.h:37
+#: xfree86.xml.in.h:36
 msgid "Bgr"
 msgstr "Bgr"
 
-#: rules/base.xml.in.h:38
+#: xfree86.xml.in.h:37
 msgid "Bih"
 msgstr "Bih"
 
-#: rules/base.xml.in.h:39
+#: xfree86.xml.in.h:38
 msgid "Blr"
 msgstr "Blr"
 
-#: rules/base.xml.in.h:40
+#: xfree86.xml.in.h:39
 msgid "Bosnian"
 msgstr "Bosna dili"
 
-#: rules/base.xml.in.h:41
+#: xfree86.xml.in.h:40
 msgid "Both Alt keys together change group"
 msgstr "Alt tuşları birlikte kullanıldığında grubu değiştirir"
 
-#: rules/base.xml.in.h:42
+#: xfree86.xml.in.h:41
 msgid "Both Ctrl keys together change group"
 msgstr "Ctrl tuşları birlikte kullanıldığında grubu değiştirir"
 
-#: rules/base.xml.in.h:43
+#: xfree86.xml.in.h:42
 msgid "Both Shift keys together change group"
 msgstr "Shift tuşları birlikte kullanıldığında grubu değiştirir"
 
-#: rules/base.xml.in.h:44
+#: xfree86.xml.in.h:43
 msgid "Both Win-keys switch group while pressed"
 msgstr "Win tuşları birlikte kullanıldığında grubu değiştirir"
 
-#: rules/base.xml.in.h:45
+#: xfree86.xml.in.h:44
 msgid "Bra"
 msgstr "Bra"
 
-#: rules/base.xml.in.h:46
+#: xfree86.xml.in.h:45
 msgid "Brazilian"
 msgstr "Brezilya dili"
 
-#: rules/base.xml.in.h:47
+#: xfree86.xml.in.h:46
 msgid "Brazilian ABNT2"
 msgstr "Brazilya dili ABNT2"
 
-#: rules/base.xml.in.h:48
+#: xfree86.xml.in.h:47
 msgid "Brother Internet Keyboard"
 msgstr "Brother Örütbağ Klavyesi"
 
-#: rules/base.xml.in.h:49
+#: xfree86.xml.in.h:48
 msgid "Bulgarian"
 msgstr "Bulgarca"
 
-#: rules/base.xml.in.h:50
+#: xfree86.xml.in.h:49
 msgid "Burmese"
 msgstr "Burmaca"
 
-#: rules/base.xml.in.h:51
+#: xfree86.xml.in.h:50
 msgid "Can"
 msgstr "Kan"
 
-#: rules/base.xml.in.h:52
+#: xfree86.xml.in.h:51
 msgid "Canadian"
 msgstr "Kanada dili"
 
-#: rules/base.xml.in.h:53
+#: xfree86.xml.in.h:52
 msgid "Caps Lock key changes group"
 msgstr "Grubu Caps Lock tuşu değiştirir"
 
-#: rules/base.xml.in.h:54
+#: xfree86.xml.in.h:53
 msgid "CapsLock key behavior"
 msgstr "CapsLock tuşunun davranışı"
 
-#: rules/base.xml.in.h:55
+#: xfree86.xml.in.h:54
 msgid "Caps_Lock LED shows alternative group"
 msgstr "Caps_Lock LED'i öteki grubu gösterir"
 
-#: rules/base.xml.in.h:56
+#: xfree86.xml.in.h:55
 msgid "Cherry Blue Line CyBo@rd"
 msgstr "Cherry Blue Line CyBo@rd"
 
-#: rules/base.xml.in.h:57
+#: xfree86.xml.in.h:56
 msgid "Cherry Blue Line CyBo@rd (alternate option)"
 msgstr "Cherry Blue Line CyBo@rd (diğer seçenek)"
 
-#: rules/base.xml.in.h:58
+#: xfree86.xml.in.h:57
 msgid "Chicony Internet Keyboard"
 msgstr "Chicony Örütbağ Klavyesi"
 
-#: rules/base.xml.in.h:59
+#: xfree86.xml.in.h:58
 msgid "Chicony KB-9885"
 msgstr "Chicony KB-9885"
 
-#: rules/base.xml.in.h:60
+#: xfree86.xml.in.h:59
 msgid "CloGaelach"
 msgstr "CloGaelach"
 
-#: rules/base.xml.in.h:61
+#: xfree86.xml.in.h:60
 msgid "CloGaelach Laptop"
 msgstr "CloGaelach Dizüstü"
 
-#: rules/base.xml.in.h:62
+#: xfree86.xml.in.h:61
 msgid "Compaq Easy Access Keyboard"
 msgstr "Compaq Kolay Erişim Klavyesi"
 
-#: rules/base.xml.in.h:63
+#: xfree86.xml.in.h:62
 msgid "Compaq Internet Keyboard (13 keys)"
 msgstr "Compaq Örütbağ Klavyesi (13 tuşlu)"
 
-#: rules/base.xml.in.h:64
+#: xfree86.xml.in.h:63
 msgid "Compaq Internet Keyboard (18 keys)"
 msgstr "Compaq Örütbağ Klavyesi (18 tuşlu)"
 
-#: rules/base.xml.in.h:65
+#: xfree86.xml.in.h:64
 msgid "Compaq Internet Keyboard (7 keys)"
 msgstr "Örütbağ Klavyesi (7 tuşlu)"
 
-#: rules/base.xml.in.h:66
+#: xfree86.xml.in.h:65
 msgid "Compaq iPaq Keyboard"
 msgstr "Compaq iPaq Klavyesi"
 
-#: rules/base.xml.in.h:67
+#: xfree86.xml.in.h:66
 msgid "Control Key Position"
 msgstr "Control Tuşu Konumu"
 
-#: rules/base.xml.in.h:68
+#: xfree86.xml.in.h:67
 msgid "Control key at bottom left"
 msgstr "Control tuşu, alt solda"
 
-#: rules/base.xml.in.h:69
+#: xfree86.xml.in.h:68
 msgid "Control key at left of 'A'"
 msgstr "Control tuşu, 'A' tuşunu solunda"
 
-#: rules/base.xml.in.h:70
+#: xfree86.xml.in.h:69
 msgid "Control+Shift changes group"
 msgstr "Grubu Control+Shift tuşları değiştirir"
 
-#: rules/base.xml.in.h:71
+#: xfree86.xml.in.h:70
 msgid "Croatian"
 msgstr "Hırvatça"
 
-#: rules/base.xml.in.h:72
+#: xfree86.xml.in.h:71
 msgid "Cyrillic"
 msgstr "Kril"
 
-#: rules/base.xml.in.h:73
+#: xfree86.xml.in.h:72
 msgid "Cze"
 msgstr "Çek"
 
-#: rules/base.xml.in.h:74
+#: xfree86.xml.in.h:73
 msgid "Czech"
 msgstr "Çekçe"
 
-#: rules/base.xml.in.h:75
+#: xfree86.xml.in.h:74
 msgid "Czech (qwerty)"
 msgstr "Çekçe (qwerty)"
 
-#: rules/base.xml.in.h:76
-msgid "DTK2000"
-msgstr ""
-
-#: rules/base.xml.in.h:77
+#: xfree86.xml.in.h:75
 msgid "Danish"
 msgstr "Danca"
 
-#: rules/base.xml.in.h:78
+#: xfree86.xml.in.h:76
 msgid "Dead acute"
 msgstr "Ölü acute (´)"
 
-#: rules/base.xml.in.h:79
+#: xfree86.xml.in.h:77
 msgid "Dead grave acute"
 msgstr "Ölü grave acute (`)"
 
-#: rules/base.xml.in.h:80
+#: xfree86.xml.in.h:78
 msgid "Dell"
 msgstr "Dell"
 
-#: rules/base.xml.in.h:81
+#: xfree86.xml.in.h:79
 msgid "Dell 101-key PC"
 msgstr "Dell 101 tuşlu PC"
 
-#: rules/base.xml.in.h:82
+#: xfree86.xml.in.h:80
 msgid "Deu"
 msgstr "Alm"
 
-#: rules/base.xml.in.h:83
+#: xfree86.xml.in.h:81
 msgid "Dexxa Wireless Desktop Keyboard"
 msgstr "Dexxa Kablosuz Masaüstü Klavyesi"
 
-#: rules/base.xml.in.h:84
+#: xfree86.xml.in.h:82
 msgid "Diamond 9801 / 9802 series"
 msgstr "Diamond 9801 / 9802 serileri"
 
-#: rules/base.xml.in.h:85
+#: xfree86.xml.in.h:83
 msgid "Dnk"
 msgstr "Dnk"
 
-#: rules/base.xml.in.h:86
+#: xfree86.xml.in.h:84
 msgid "Dutch"
 msgstr "Felemenkçe"
 
-#: rules/base.xml.in.h:87
+#: xfree86.xml.in.h:85
 msgid "Dvo"
 msgstr "Dvo"
 
-#: rules/base.xml.in.h:88
+#: xfree86.xml.in.h:86
 msgid "Dvorak"
 msgstr "Dvorak"
 
-#: rules/base.xml.in.h:89
-msgid "Dzongkha / Tibetan"
-msgstr ""
-
-#: rules/base.xml.in.h:90
+#: xfree86.xml.in.h:87
 msgid "Eliminate dead keys"
 msgstr "Ölü tuşları normal yapar"
 
-#: rules/base.xml.in.h:91
+#: xfree86.xml.in.h:88
 msgid "Ennyah DKB-1008"
 msgstr "Ennyah DKB-1008"
 
-#: rules/base.xml.in.h:92
+#: xfree86.xml.in.h:89
 msgid "Esp"
 msgstr "İsp"
 
-#: rules/base.xml.in.h:93
+#: xfree86.xml.in.h:90
 msgid "Est"
 msgstr "Est"
 
-#: rules/base.xml.in.h:94
+#: xfree86.xml.in.h:91
 msgid "Estonian"
 msgstr "Estonya dili"
 
-#: rules/base.xml.in.h:95
+#: xfree86.xml.in.h:92
 msgid "Everex STEPnote"
 msgstr "Everex STEPnote"
 
-#: rules/base.xml.in.h:96
+#: xfree86.xml.in.h:93
 msgid "Extended"
 msgstr "Gelişmiş"
 
-#: rules/base.xml.in.h:97
+#: xfree86.xml.in.h:94
 msgid "Fao"
 msgstr "Fao"
 
-#: rules/base.xml.in.h:98
+#: xfree86.xml.in.h:95
 msgid "Faroese"
 msgstr "Faroe dili"
 
-#: rules/base.xml.in.h:99
+#: xfree86.xml.in.h:96
 msgid "Farsi"
 msgstr "Farsça"
 
-#: rules/base.xml.in.h:100
+#: xfree86.xml.in.h:97
 msgid "Fin"
 msgstr "Fin"
 
-#: rules/base.xml.in.h:101
+#: xfree86.xml.in.h:98
 msgid "Finnish"
 msgstr "Fince"
 
-#: rules/base.xml.in.h:102
+#: xfree86.xml.in.h:99
 msgid "Fra"
 msgstr "Fra"
 
-#: rules/base.xml.in.h:103
+#: xfree86.xml.in.h:100
 msgid "French"
 msgstr "Fransızca"
 
-#: rules/base.xml.in.h:104
+#: xfree86.xml.in.h:101
 msgid "French (alternative)"
 msgstr "Fransızca (diğer)"
 
-#: rules/base.xml.in.h:105
+#: xfree86.xml.in.h:102
 msgid "French Canadian"
 msgstr "Kanada Fransızcası"
 
-#: rules/base.xml.in.h:106
+#: xfree86.xml.in.h:103
 msgid "GBr"
 msgstr "GBr"
 
-#: rules/base.xml.in.h:107
+#: xfree86.xml.in.h:104
 msgid "Generic 101-key PC"
 msgstr "Soysal 101 tuşlu PC"
 
-#: rules/base.xml.in.h:108
+#: xfree86.xml.in.h:105
 msgid "Generic 102-key (Intl) PC"
 msgstr "Soysal 102 tuşlu (Uluslararası) PC"
 
-#: rules/base.xml.in.h:109
+#: xfree86.xml.in.h:106
 msgid "Generic 104-key PC"
 msgstr "Soysal 104 tuşlu PC"
 
-#: rules/base.xml.in.h:110
+#: xfree86.xml.in.h:107
 msgid "Generic 105-key (Intl) PC"
 msgstr "Soysal 105 tuşlu (uluslararası) PC"
 
-#: rules/base.xml.in.h:111
+#: xfree86.xml.in.h:108
 msgid "Genius Comfy KB-16M / Genius MM Keyboard KWD-910"
 msgstr "Genius Comfy KB-16M / Genius MM Keyboard KWD-910"
 
-#: rules/base.xml.in.h:112
-msgid "Genius Comfy KB-21e-Scroll"
-msgstr ""
-
-#: rules/base.xml.in.h:113
+#: xfree86.xml.in.h:109
 msgid "Geo"
 msgstr "Geo"
 
-#: rules/base.xml.in.h:114
+#: xfree86.xml.in.h:110
 msgid "Georgian (latin)"
 msgstr "Gürcüce (latin)"
 
-#: rules/base.xml.in.h:115
+#: xfree86.xml.in.h:111
 msgid "Georgian (russian)"
 msgstr "Gürcüce (rusça)"
 
-#: rules/base.xml.in.h:116
+#: xfree86.xml.in.h:112
 msgid "German"
 msgstr "Almanca"
 
-#: rules/base.xml.in.h:117
+#: xfree86.xml.in.h:113
 msgid "Grc"
 msgstr "Yun"
 
-#: rules/base.xml.in.h:118
+#: xfree86.xml.in.h:114
 msgid "Greek"
 msgstr "Yunanca"
 
-#: rules/base.xml.in.h:119
+#: xfree86.xml.in.h:115
 msgid "Group Shift/Lock behavior"
 msgstr "Shift/Lock Grubu davranışı"
 
-#: rules/base.xml.in.h:120
+#: xfree86.xml.in.h:116
 msgid "Guj"
 msgstr "Guj"
 
-#: rules/base.xml.in.h:121
+#: xfree86.xml.in.h:117
 msgid "Gujarati"
 msgstr "Batı Hint dili"
 
-#: rules/base.xml.in.h:122
+#: xfree86.xml.in.h:118
 msgid "Gurmukhi"
 msgstr "Gurmukhi"
 
-#: rules/base.xml.in.h:123
+#: xfree86.xml.in.h:119
 msgid "Hewlett-Packard Internet Keyboard"
 msgstr "Hewlett-Packard Örütbağ Klavyesi"
 
-#: rules/base.xml.in.h:124
+#: xfree86.xml.in.h:120
 msgid "Hewlett-Packard Omnibook 500 FA"
 msgstr "Hewlett-Packard Omnibook 500 FA"
 
-#: rules/base.xml.in.h:125
+#: xfree86.xml.in.h:121
 msgid "Hewlett-Packard Omnibook 5xx"
 msgstr "Hewlett-Packard Omnibook 5xx"
 
-#: rules/base.xml.in.h:126
+#: xfree86.xml.in.h:122
 msgid "Hewlett-Packard Omnibook 6000/6100"
 msgstr "Hewlett-Packard Omnibook 6000/6100"
 
-#: rules/base.xml.in.h:127
+#: xfree86.xml.in.h:123
 msgid "Hewlett-Packard Omnibook XE3 GC"
 msgstr "Hewlett-Packard Omnibook XE3 GC"
 
-#: rules/base.xml.in.h:128
+#: xfree86.xml.in.h:124
 msgid "Hewlett-Packard Omnibook XE3 GF"
 msgstr "Hewlett-Packard Omnibook XE3 GF"
 
-#: rules/base.xml.in.h:129
+#: xfree86.xml.in.h:125
 msgid "Hewlett-Packard Omnibook XT1000"
 msgstr "Hewlett-Packard Omnibook XT1000"
 
-#: rules/base.xml.in.h:130
+#: xfree86.xml.in.h:126
 msgid "Hewlett-Packard Pavilion ZT11xx"
 msgstr "Hewlett-Packard Pavilion ZT11xx"
 
-#: rules/base.xml.in.h:131
+#: xfree86.xml.in.h:127
 msgid "Hewlett-Packard SK-2501 Multimedia Keyboard"
 msgstr "Hewlett-Packard SK-2501 Çokluortam Klavyesi"
 
-#: rules/base.xml.in.h:132
+#: xfree86.xml.in.h:128
 msgid "Hewlett-Packard SK-2505 Internet Keyboard"
 msgstr "Hewlett-Packard SK-2505 Örütbağ Klavyesi"
 
-#: rules/base.xml.in.h:133
+#: xfree86.xml.in.h:129
 msgid "Hin"
 msgstr "Hin"
 
-#: rules/base.xml.in.h:134
+#: xfree86.xml.in.h:130
 msgid "Hindi"
 msgstr "Hintçe"
 
-#: rules/base.xml.in.h:135
+#: xfree86.xml.in.h:131
 msgid "Honeywell Euroboard"
 msgstr "Honeywell Euroboard"
 
-#: rules/base.xml.in.h:136
+#: xfree86.xml.in.h:132
 msgid "Hrv"
 msgstr "Hrv"
 
-#: rules/base.xml.in.h:137
+#: xfree86.xml.in.h:133
 msgid "Hun"
 msgstr "Mcr"
 
-#: rules/base.xml.in.h:138
+#: xfree86.xml.in.h:134
 msgid "Hungarian"
 msgstr "Macarca"
 
-#: rules/base.xml.in.h:139
+#: xfree86.xml.in.h:135
 msgid "Hungarian (qwerty)"
 msgstr "Macarca (qwerty)"
 
-#: rules/base.xml.in.h:140
+#: xfree86.xml.in.h:136
 msgid "Hyper is mapped to the Win-keys."
 msgstr "Hyper, Win tuşlarına eşlenir."
 
-#: rules/base.xml.in.h:141
+#: xfree86.xml.in.h:137
 msgid "IBM Rapid Access"
 msgstr "IBM Hızlı Erişim"
 
-#: rules/base.xml.in.h:142
+#: xfree86.xml.in.h:138
 msgid "IBM Rapid Access II"
 msgstr "IBM Hızlı Erişim II"
 
-#: rules/base.xml.in.h:143
+#: xfree86.xml.in.h:139
 msgid "IBM Rapid Access II (alternate option)"
 msgstr "IBM Hızlı Erişim II (diğer seçenek)"
 
-#: rules/base.xml.in.h:144
+#: xfree86.xml.in.h:140
 msgid "IBM ThinkPad 560Z/600/600E/A22E"
 msgstr "IBM ThinkPad 560Z/600/600E/A22E"
 
-#: rules/base.xml.in.h:145
+#: xfree86.xml.in.h:141
 msgid "INSCRIPT layout"
 msgstr "INSCRIPT yerleşimi"
 
-#: rules/base.xml.in.h:146
+#: xfree86.xml.in.h:142
 msgid "IS434"
 msgstr "IS434"
 
-#: rules/base.xml.in.h:147
+#: xfree86.xml.in.h:143
 msgid "IS434 laptop"
 msgstr "IS434 dizüstü"
 
-#: rules/base.xml.in.h:148
+#: xfree86.xml.in.h:144
 msgid "ISO Alternate"
 msgstr "ISO diğer"
 
-#: rules/base.xml.in.h:149
+#: xfree86.xml.in.h:145
 msgid "Icelandic"
 msgstr "İzlandaca"
 
-#: rules/base.xml.in.h:150
+#: xfree86.xml.in.h:146
 msgid "Iku"
 msgstr "Iku"
 
-#: rules/base.xml.in.h:151
-msgid "International (with dead keys)"
-msgstr ""
-
-#: rules/base.xml.in.h:152
+#: xfree86.xml.in.h:147
 msgid "Inuktitut"
 msgstr "Inuktitut"
 
-#: rules/base.xml.in.h:153
+#: xfree86.xml.in.h:148
 msgid "Irish"
 msgstr "İrlandaca"
 
-#: rules/base.xml.in.h:154
+#: xfree86.xml.in.h:149
 msgid "Irl"
 msgstr "İrl"
 
-#: rules/base.xml.in.h:155
+#: xfree86.xml.in.h:150
 msgid "Irn"
 msgstr "Irn"
 
-#: rules/base.xml.in.h:156
+#: xfree86.xml.in.h:151
 msgid "Isl"
 msgstr "Izl"
 
-#: rules/base.xml.in.h:157
+#: xfree86.xml.in.h:152
 msgid "Isr"
 msgstr "İbr"
 
-#: rules/base.xml.in.h:158
+#: xfree86.xml.in.h:153
 msgid "Israeli"
 msgstr "İbranice"
 
-#: rules/base.xml.in.h:159
-#, fuzzy
-msgid "Israeli phonetic"
-msgstr "İbranice"
-
-#: rules/base.xml.in.h:160
+#: xfree86.xml.in.h:154
 msgid "Ita"
 msgstr "İta"
 
-#: rules/base.xml.in.h:161
+#: xfree86.xml.in.h:155
 msgid "Italian"
 msgstr "İtalyanca"
 
-#: rules/base.xml.in.h:162
+#: xfree86.xml.in.h:156
 msgid "Japanese"
 msgstr "Japonca"
 
-#: rules/base.xml.in.h:163
+#: xfree86.xml.in.h:157
 msgid "Japanese 106-key"
 msgstr "Japonca 106 tuşlu"
 
-#: rules/base.xml.in.h:164
+#: xfree86.xml.in.h:158
 msgid "Jpn"
 msgstr "Jpn"
 
-#: rules/base.xml.in.h:165
+#: xfree86.xml.in.h:159
 msgid "Kan"
 msgstr "Kan"
 
-#: rules/base.xml.in.h:166
+#: xfree86.xml.in.h:160
 msgid "Kannada"
 msgstr "Güney Hint dili"
 
-#: rules/base.xml.in.h:167
+#: xfree86.xml.in.h:161
 msgid "Keytronic FlexPro"
 msgstr "Keytronic FlexPro"
 
-#: rules/base.xml.in.h:168
-#, fuzzy
-msgid "Kor"
-msgstr "Nor"
-
-#: rules/base.xml.in.h:169
-#, fuzzy
-msgid "Korean"
-msgstr "Norveçce"
-
-#: rules/base.xml.in.h:170
+#: xfree86.xml.in.h:162
 msgid "LAm"
 msgstr "LAm"
 
-#: rules/base.xml.in.h:171
+#: xfree86.xml.in.h:163
 msgid "Laptop"
 msgstr "Dizüstü"
 
-#: rules/base.xml.in.h:172
+#: xfree86.xml.in.h:164
 msgid "Laptop/notebook Compaq (eg. Armada) Laptop Keyboard"
 msgstr "Laptop/notebook Compaq (örn. Armada) Dizüstü Klavyesi"
 
-#: rules/base.xml.in.h:173
+#: xfree86.xml.in.h:165
 msgid "Laptop/notebook Compaq (eg. Presario) Internet Keyboard"
 msgstr "Laptop/notebook Compaq (örn. Presario) Örütbağ Klavyesi"
 
-#: rules/base.xml.in.h:174
+#: xfree86.xml.in.h:166
 msgid "Laptop/notebook Dell Inspiron 8xxx"
 msgstr "Laptop/notebook Dell Inspiron 8xxx"
 
-#: rules/base.xml.in.h:175
+#: xfree86.xml.in.h:167
 msgid "Latin"
 msgstr "Latin"
 
-#: rules/base.xml.in.h:176
+#: xfree86.xml.in.h:168
 msgid "Latin America"
 msgstr "Latin Amerika"
 
-#: rules/base.xml.in.h:177
+#: xfree86.xml.in.h:169
 msgid "Latvian"
 msgstr "Letonca"
 
-#: rules/base.xml.in.h:178
+#: xfree86.xml.in.h:170
 msgid "Left Alt key changes group"
 msgstr "Grubu soldaki Alt tuşu değiştirir"
 
-#: rules/base.xml.in.h:179
-#, fuzzy
-msgid "Left Alt key switches group while pressed"
-msgstr "Soldaki Win tuşu basılıyken diğer grup etkin olur"
-
-#: rules/base.xml.in.h:180
+#: xfree86.xml.in.h:171
 msgid "Left Ctrl key changes group"
 msgstr "Grubu soldaki Ctrl tuşu değiştirir"
 
-#: rules/base.xml.in.h:181
+#: xfree86.xml.in.h:172
 msgid "Left Shift key changes group"
 msgstr "Grubu soldaki Shift tuşu değiştirir"
 
-#: rules/base.xml.in.h:182
+#: xfree86.xml.in.h:173
 msgid "Left Win-key changes group"
 msgstr "Grubu soldaki Win tuşu değiştirir"
 
-#: rules/base.xml.in.h:183
+#: xfree86.xml.in.h:174
 msgid "Left Win-key switches group while pressed"
 msgstr "Soldaki Win tuşu basılıyken diğer grup etkin olur"
 
-#: rules/base.xml.in.h:184
+#: xfree86.xml.in.h:175
 msgid "Lithuanian azerty standard"
 msgstr "Litvanya azerty standardı"
 
-#: rules/base.xml.in.h:185
+#: xfree86.xml.in.h:176
 msgid "Lithuanian qwerty \"numeric\""
 msgstr "Litvanya qwerty \"sayısal\""
 
-#: rules/base.xml.in.h:186
-#, fuzzy
-msgid "Logitech Access Keyboard"
-msgstr "Logitech Deluxe Erişim Klavyesi"
-
-#: rules/base.xml.in.h:187
+#: xfree86.xml.in.h:177
 msgid "Logitech Cordless Desktop"
 msgstr "Logitech Kablosuz Masaüstü"
 
-#: rules/base.xml.in.h:188
+#: xfree86.xml.in.h:178
 msgid "Logitech Cordless Desktop Navigator"
 msgstr "Logitech Kablosuz Masaüstü Tarayıcı"
 
-#: rules/base.xml.in.h:189
+#: xfree86.xml.in.h:179
 msgid "Logitech Cordless Desktop Optical"
 msgstr "Logitech Kablosuz Masaüstü Optik"
 
-#: rules/base.xml.in.h:190
+#: xfree86.xml.in.h:180
 msgid "Logitech Cordless Desktop Pro"
 msgstr "Logitech Kablosuz Masaüstü Pro"
 
-#: rules/base.xml.in.h:191
+#: xfree86.xml.in.h:181
 msgid "Logitech Cordless Desktop Pro (alternate option)"
 msgstr "Logitech Kablosuz Masaüstü Pro (diğer seçenek)"
 
-#: rules/base.xml.in.h:192
+#: xfree86.xml.in.h:182
 msgid "Logitech Cordless Desktop Pro (alternate option2)"
 msgstr "Logitech Kablosuz Masaüstü Pro (diğer 2. seçenek)"
 
-#: rules/base.xml.in.h:193
+#: xfree86.xml.in.h:183
 msgid "Logitech Cordless Desktop iTouch"
 msgstr "Logitech Kablosuz Masaüstü iTouch"
 
-#: rules/base.xml.in.h:194
+#: xfree86.xml.in.h:184
 msgid "Logitech Cordless Freedom/Desktop Navigator"
 msgstr "Logitech Kablosuz Özgür/Masaüstü Tarayıcı"
 
-#: rules/base.xml.in.h:195
+#: xfree86.xml.in.h:185
 msgid "Logitech Deluxe Access Keyboard"
 msgstr "Logitech Deluxe Erişim Klavyesi"
 
-#: rules/base.xml.in.h:196
+#: xfree86.xml.in.h:186
 msgid "Logitech Internet Keyboard"
 msgstr "Logitech Örütbağ Klavyesi"
 
-#: rules/base.xml.in.h:197
+#: xfree86.xml.in.h:187
 msgid "Logitech Internet Navigator Keyboard"
 msgstr "Logitech Örütbağ Tarayıcı Klavyesi"
 
-#: rules/base.xml.in.h:198
+#: xfree86.xml.in.h:188
 msgid "Logitech iTouch"
 msgstr "Logitech iTouch"
 
-#: rules/base.xml.in.h:199
+#: xfree86.xml.in.h:189
 msgid "Logitech iTouch Cordless Keyboard (model Y-RB6)"
 msgstr "Logitech iTouch Kablosuz Klavyesi (model Y-RB6)"
 
-#: rules/base.xml.in.h:200
+#: xfree86.xml.in.h:190
 msgid "Logitech iTouch keyboard Internet Navigator"
 msgstr "Logitech iTouch klavyesi Örütbağ Tarayıcı"
 
-#: rules/base.xml.in.h:201
+#: xfree86.xml.in.h:191
 msgid "Ltu"
 msgstr "Ltu"
 
-#: rules/base.xml.in.h:202
+#: xfree86.xml.in.h:192
 msgid "Lva"
 msgstr "Lva"
 
-#: rules/base.xml.in.h:203
+#: xfree86.xml.in.h:193
 msgid "Macedonian"
 msgstr "Makedonya dili"
 
-#: rules/base.xml.in.h:204
+#: xfree86.xml.in.h:194
 msgid "Macintosh"
 msgstr "Macintosh"
 
-#: rules/base.xml.in.h:205
+#: xfree86.xml.in.h:195
 msgid "Macintosh Old"
 msgstr "Eski Macintosh"
 
-#: rules/base.xml.in.h:206
+#: xfree86.xml.in.h:196
 msgid "Make CapsLock an additional Control"
 msgstr "CapsLock tuşuna ek bir kontrol sağlar"
 
-#: rules/base.xml.in.h:207
+#: xfree86.xml.in.h:197
 msgid "Mal"
 msgstr "Mal"
 
-#: rules/base.xml.in.h:208
+#: xfree86.xml.in.h:198
 msgid "Malayalam"
 msgstr "Malayalam dili"
 
-#: rules/base.xml.in.h:209
+#: xfree86.xml.in.h:199
 msgid "Maltese"
 msgstr "Malta dili"
 
-#: rules/base.xml.in.h:210
+#: xfree86.xml.in.h:200
 msgid "Maltese (US layout)"
 msgstr "Malta dili (Q klavye)"
 
-#: rules/base.xml.in.h:211
+#: xfree86.xml.in.h:201
 msgid "Memorex MX1998"
 msgstr "Memorex MX1998"
 
-#: rules/base.xml.in.h:212
+#: xfree86.xml.in.h:202
 msgid "Memorex MX2500 EZ-Access Keyboard"
 msgstr "Memorex MX2500 EZ Erişim Klavyesi"
 
-#: rules/base.xml.in.h:213
+#: xfree86.xml.in.h:203
 msgid "Memorex MX2750"
 msgstr "Memorex MX2750"
 
-#: rules/base.xml.in.h:214
+#: xfree86.xml.in.h:204
 msgid "Menu is Compose"
 msgstr "Menü tuşu karakter birleşimi yapar"
 
-#: rules/base.xml.in.h:215
+#: xfree86.xml.in.h:205
 msgid "Menu key changes group"
 msgstr "Grubu Menü tuşu değiştirir"
 
-#: rules/base.xml.in.h:216
+#: xfree86.xml.in.h:206
 msgid "Meta is mapped to the Win-keys."
 msgstr "Meta, Win tuşları ile eşleştirilir."
 
-#: rules/base.xml.in.h:217
+#: xfree86.xml.in.h:207
 msgid "Meta is mapped to the left Win-key."
 msgstr "Meta, soldaki Win tuşu ile eşleştirilir."
 
-#: rules/base.xml.in.h:218
+#: xfree86.xml.in.h:208
 msgid "Microsoft Internet Keyboard"
 msgstr "Microsoft Örütbağ Klavyesi"
 
-#: rules/base.xml.in.h:219
+#: xfree86.xml.in.h:209
 msgid "Microsoft Internet Keyboard Pro, Swedish"
 msgstr "Microsoft Örütbağ Klavyesi Pro, İsveçce"
 
-#: rules/base.xml.in.h:220
+#: xfree86.xml.in.h:210
 msgid "Microsoft Natural"
 msgstr "Microsoft Basit"
 
-#: rules/base.xml.in.h:221
+#: xfree86.xml.in.h:211
 msgid "Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro"
 msgstr "Microsoft Basit Klavye Pro / Microsoft Örütbağ Klavyesi Pro"
 
-#: rules/base.xml.in.h:222
+#: xfree86.xml.in.h:212
 msgid "Microsoft Natural Keyboard Pro OEM"
 msgstr "Microsoft Basit Klavye Pro OEM"
 
-#: rules/base.xml.in.h:223
+#: xfree86.xml.in.h:213
 msgid "Microsoft Office Keyboard"
 msgstr "Microsoft Ofis Klavyesi"
 
-#: rules/base.xml.in.h:224
-#, fuzzy
-msgid "Microsoft Wireless Multimedia Keyboard 1.0A"
-msgstr "Microsoft Örütbağ Klavyesi"
-
-#: rules/base.xml.in.h:225
+#: xfree86.xml.in.h:214
 msgid "Miscellaneous compatibility options"
 msgstr "Çeşitli uyumluluk seçenekleri"
 
-#: rules/base.xml.in.h:226
+#: xfree86.xml.in.h:215
 msgid "Mkd"
 msgstr "Mkd"
 
-#: rules/base.xml.in.h:227
+#: xfree86.xml.in.h:216
 msgid "Mlt"
 msgstr "Mlt"
 
-#: rules/base.xml.in.h:228
+#: xfree86.xml.in.h:217
 msgid "Mmr"
 msgstr "Mmr"
 
-#: rules/base.xml.in.h:229
+#: xfree86.xml.in.h:218
 msgid "Mng"
 msgstr "Moğ"
 
-#: rules/base.xml.in.h:230
+#: xfree86.xml.in.h:219
 msgid "Mongolian"
 msgstr "Moğolca"
 
-#: rules/base.xml.in.h:231
+#: xfree86.xml.in.h:220
 msgid "Nld"
 msgstr "Hol"
 
-#: rules/base.xml.in.h:232
+#: xfree86.xml.in.h:221
 msgid "Nor"
 msgstr "Nor"
 
-#: rules/base.xml.in.h:233
+#: xfree86.xml.in.h:222
 msgid "Northern Saami (Finland)"
 msgstr "Kuzey Saami (Finlandiya)"
 
-#: rules/base.xml.in.h:234
+#: xfree86.xml.in.h:223
 msgid "Northern Saami (Norway)"
 msgstr "Kuzey Saami (Norveç)"
 
-#: rules/base.xml.in.h:235
+#: xfree86.xml.in.h:224
 msgid "Northern Saami (Sweden)"
 msgstr "Kuzey Saami (İsveç)"
 
-#: rules/base.xml.in.h:236
+#: xfree86.xml.in.h:225
 msgid "Northgate OmniKey 101"
 msgstr "Northgate OmniKey 101"
 
-#: rules/base.xml.in.h:237
+#: xfree86.xml.in.h:226
 msgid "Norwegian"
 msgstr "Norveçce"
 
-#: rules/base.xml.in.h:238
+#: xfree86.xml.in.h:227
 msgid "Num_Lock LED shows alternative group"
 msgstr "Num_Lock LED'i diğer grubu gösterir"
 
-#: rules/base.xml.in.h:239
+#: xfree86.xml.in.h:228
 msgid "Ogh"
 msgstr "Ogh"
 
-#: rules/base.xml.in.h:240
+#: xfree86.xml.in.h:229
 msgid "Ogham"
 msgstr "Ogham"
 
-#: rules/base.xml.in.h:241
-#, fuzzy
-msgid "Old standard"
-msgstr "Standart"
-
-#: rules/base.xml.in.h:242
+#: xfree86.xml.in.h:230
 msgid "Oretec MCK-800 MM/Internet keyboard"
 msgstr "Oretec MCK-800 MM/Örütbağ Klavyesi"
 
-#: rules/base.xml.in.h:243
+#: xfree86.xml.in.h:231
 msgid "Ori"
 msgstr "Ori"
 
-#: rules/base.xml.in.h:244
+#: xfree86.xml.in.h:232
 msgid "Oriya"
 msgstr "Orissa dili"
 
-#: rules/base.xml.in.h:245
+#: xfree86.xml.in.h:233
 msgid "PC-98xx Series"
 msgstr "PC-98xx Serisi"
 
-#: rules/base.xml.in.h:246
+#: xfree86.xml.in.h:234
 msgid "PC104"
 msgstr "PC104"
 
-#: rules/base.xml.in.h:247
+#: xfree86.xml.in.h:235
 msgid "Pan"
 msgstr "Pan"
 
-#: rules/base.xml.in.h:248
+#: xfree86.xml.in.h:236
 msgid "Phonetic"
 msgstr "Fonetik"
 
-#: rules/base.xml.in.h:249
+#: xfree86.xml.in.h:237
 msgid "Pol"
 msgstr "Pol"
 
-#: rules/base.xml.in.h:250
+#: xfree86.xml.in.h:238
 msgid "Polish"
 msgstr "Polonez"
 
-#: rules/base.xml.in.h:251
+#: xfree86.xml.in.h:239
 msgid "Polish (qwertz)"
 msgstr "Polonez (qwertz)"
 
-#: rules/base.xml.in.h:252
-msgid "Polish with Polish quotes on key \"1/!\""
-msgstr ""
-
-#: rules/base.xml.in.h:253
+#: xfree86.xml.in.h:240
 msgid "Polytonic"
 msgstr "Politonik"
 
-#: rules/base.xml.in.h:254
+#: xfree86.xml.in.h:241
 msgid "Portuguese"
 msgstr "Portekizce"
 
-#: rules/base.xml.in.h:255
+#: xfree86.xml.in.h:242
 msgid "PowerPC PS/2"
 msgstr "PowerPC PS/2"
 
-#: rules/base.xml.in.h:256
-#, fuzzy
-msgid "Press Left Alt key to choose 3rd level"
-msgstr "3. seviyeyi seçmek için soldaki Win tuşuna basın"
-
-#: rules/base.xml.in.h:257
+#: xfree86.xml.in.h:243
 msgid "Press Left Win-key to choose 3rd level"
 msgstr "3. seviyeyi seçmek için soldaki Win tuşuna basın"
 
-#: rules/base.xml.in.h:258
+#: xfree86.xml.in.h:244
 msgid "Press Menu key to choose 3rd level"
 msgstr "3. seviyeyi seçmek için Menü tuşuna basın"
 
-#: rules/base.xml.in.h:259
-#, fuzzy
-msgid "Press Right Alt key to choose 3rd level"
-msgstr "3. seviyeyi seçmek için sağdaki Win tuşuna basın"
-
-#: rules/base.xml.in.h:260
+#: xfree86.xml.in.h:245
 msgid "Press Right Control to choose 3rd level"
 msgstr "3. seviyeyi seçmek için sağdaki Ctrl tuşuna basın"
 
-#: rules/base.xml.in.h:261
+#: xfree86.xml.in.h:246
 msgid "Press Right Win-key to choose 3rd level"
 msgstr "3. seviyeyi seçmek için sağdaki Win tuşuna basın"
 
-#: rules/base.xml.in.h:262
-#, fuzzy
-msgid "Press any of Alt keys to choose 3rd level"
-msgstr "3. seviyeyi seçmek için Win tuşlarından birine basın"
-
-#: rules/base.xml.in.h:263
+#: xfree86.xml.in.h:247
 msgid "Press any of Win-keys to choose 3rd level"
 msgstr "3. seviyeyi seçmek için Win tuşlarından birine basın"
 
-#: rules/base.xml.in.h:264
+#: xfree86.xml.in.h:248
 msgid "Propeller Voyager (KTEZ-1000)"
 msgstr "Propeller Voyager (KTEZ-1000)"
 
-#: rules/base.xml.in.h:265
+#: xfree86.xml.in.h:249
 msgid "Prt"
 msgstr "Prt"
 
-#: rules/base.xml.in.h:266
+#: xfree86.xml.in.h:250
 msgid "QTronix Scorpius 98N+"
 msgstr "QTronix Scorpius 98N+"
 
-#: rules/base.xml.in.h:267
+#: xfree86.xml.in.h:251
 msgid "R-Alt switches group while pressed"
 msgstr "Sağdaki Alt tuşu basılıyken diğer grup etkin olur"
 
-#: rules/base.xml.in.h:268
+#: xfree86.xml.in.h:252
 msgid "Right Alt is Compose"
 msgstr "Sağdaki Alt tuşu karakter birleşimi yapar"
 
-#: rules/base.xml.in.h:269
+#: xfree86.xml.in.h:253
 msgid "Right Alt key changes group"
 msgstr "Grubu sağdaki Alt tuşu değiştirir"
 
-#: rules/base.xml.in.h:270
+#: xfree86.xml.in.h:254
 msgid "Right Control key works as Right Alt"
 msgstr "Sağdaki Ctrl tuşu sağdaki Alt tuşu olarak çalışır"
 
-#: rules/base.xml.in.h:271
+#: xfree86.xml.in.h:255
 msgid "Right Ctrl key changes group"
 msgstr "Grubu sağdaki Ctrl tuşu değiştirir"
 
-#: rules/base.xml.in.h:272
+#: xfree86.xml.in.h:256
 msgid "Right Shift key changes group"
 msgstr "Grubu sağdaki Shift tuşu değiştirir"
 
-#: rules/base.xml.in.h:273
+#: xfree86.xml.in.h:257
 msgid "Right Win-key changes group"
 msgstr "Grubu sağdaki Win tuşu değiştirir"
 
-#: rules/base.xml.in.h:274
+#: xfree86.xml.in.h:258
 msgid "Right Win-key is Compose"
 msgstr "Sağdaki Win tuşu karakter birleşimi yapar"
 
-#: rules/base.xml.in.h:275
+#: xfree86.xml.in.h:259
 msgid "Right Win-key switches group while pressed"
 msgstr "Sağdaki Win tuşu basılıyken diğer grup etkin olur"
 
-#: rules/base.xml.in.h:276
+#: xfree86.xml.in.h:260
 msgid "Romanian"
 msgstr "Romence"
 
-#: rules/base.xml.in.h:277
+#: xfree86.xml.in.h:261
 msgid "Rou"
 msgstr "Rou"
 
-#: rules/base.xml.in.h:278
+#: xfree86.xml.in.h:262
 msgid "Rus"
 msgstr "Rus"
 
-#: rules/base.xml.in.h:279
+#: xfree86.xml.in.h:263
 msgid "Russian"
 msgstr "Rusça"
 
-#: rules/base.xml.in.h:280
+#: xfree86.xml.in.h:264
 msgid "SK-1300"
 msgstr "SK-1300"
 
-#: rules/base.xml.in.h:281
+#: xfree86.xml.in.h:265
 msgid "SK-2500"
 msgstr "SK-2500"
 
-#: rules/base.xml.in.h:282
+#: xfree86.xml.in.h:266
 msgid "SK-6200"
 msgstr "SK-6200"
 
-#: rules/base.xml.in.h:283
+#: xfree86.xml.in.h:267
 msgid "SK-7100"
 msgstr "SK-7100"
 
-#: rules/base.xml.in.h:284
+#: xfree86.xml.in.h:268
 msgid "SVEN Ergonomic 2500"
 msgstr "SVEN Ergonomik 2500"
 
-#: rules/base.xml.in.h:285
+#: xfree86.xml.in.h:269
 msgid "Samsung SDM 4500P"
 msgstr "Samsung SDM 4500P"
 
-#: rules/base.xml.in.h:286
+#: xfree86.xml.in.h:270
 msgid "Samsung SDM 4510P"
 msgstr "Samsung SDM 4510P"
 
-#: rules/base.xml.in.h:287
+#: xfree86.xml.in.h:271
 msgid "Sapmi"
 msgstr "Sapmi"
 
-#: rules/base.xml.in.h:288
+#: xfree86.xml.in.h:272
 msgid "Scg"
 msgstr "Scg"
 
-#: rules/base.xml.in.h:289
+#: xfree86.xml.in.h:273
 msgid "Scroll_Lock LED shows alternative group"
 msgstr "Scroll_Lock LED'i diğer grubu gösterir"
 
-#: rules/base.xml.in.h:290
+#: xfree86.xml.in.h:274
 msgid "Serbian"
 msgstr "Sırpça"
 
-#: rules/base.xml.in.h:291
-msgid "Serbian Cyrillic (swap Zhe, Ze)"
-msgstr ""
-
-#: rules/base.xml.in.h:292
-msgid "Serbian Latin (swap Y, Z)"
-msgstr ""
-
-#: rules/base.xml.in.h:293
-msgid "Serbian Latin Unicode"
-msgstr ""
-
-#: rules/base.xml.in.h:294
-msgid "Serbian Latin Unicode (swap ZHE, Z)"
-msgstr ""
-
-#: rules/base.xml.in.h:295
+#: xfree86.xml.in.h:275
 msgid "Shift with numpad keys works as in MS Windows"
 msgstr "Sağdaki Nümerik tuşlar MS Windows'daki gibi çalışır"
 
-#: rules/base.xml.in.h:296
-#, fuzzy
-msgid "Shift+CapsLock changes group"
-msgstr "Grubu Caps Lock tuşu değiştirir"
-
-#: rules/base.xml.in.h:297
+#: xfree86.xml.in.h:276
 msgid "Slovak"
 msgstr "Slovakça"
 
-#: rules/base.xml.in.h:298
+#: xfree86.xml.in.h:277
 msgid "Slovak (qwerty)"
 msgstr "Slovakça (qwerty)"
 
-#: rules/base.xml.in.h:299
+#: xfree86.xml.in.h:278
 msgid "Slovenian"
 msgstr "Slovence"
 
-#: rules/base.xml.in.h:300
+#: xfree86.xml.in.h:279
 msgid "Sme"
 msgstr "Sme"
 
-#: rules/base.xml.in.h:301
+#: xfree86.xml.in.h:280
 msgid "Spanish"
 msgstr "İspanyolca"
 
-#: rules/base.xml.in.h:302
+#: xfree86.xml.in.h:281
 msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server."
 msgstr "Bir sunucuda elde edilen özel tuşlar (Ctrl+Alt+&lt;tuş&gt;)"
 
-#: rules/base.xml.in.h:303
+#: xfree86.xml.in.h:282
 msgid "Standard"
 msgstr "Standart"
 
-#: rules/base.xml.in.h:304
+#: xfree86.xml.in.h:283
 msgid "Sun dead keys"
 msgstr "Sun ölü tuşlar"
 
-#: rules/base.xml.in.h:305
+#: xfree86.xml.in.h:284
 msgid "Super is mapped to the Win-keys (default)."
 msgstr "Super, Win tuşlarına eşlenir (öntanımlı)."
 
-#: rules/base.xml.in.h:306
+#: xfree86.xml.in.h:285
+msgid "Sv"
+msgstr "Sv"
+
+#: xfree86.xml.in.h:286
 msgid "Svk"
 msgstr "Svk"
 
-#: rules/base.xml.in.h:307
+#: xfree86.xml.in.h:287
 msgid "Svn"
 msgstr "Svn"
 
-#: rules/base.xml.in.h:308
+#: xfree86.xml.in.h:288
 msgid "Swap Control and Caps Lock"
 msgstr "Takas Denetimi ve Caps Lock"
 
-#: rules/base.xml.in.h:309
+#: xfree86.xml.in.h:289
 msgid "Swe"
 msgstr "İsve"
 
-#: rules/base.xml.in.h:310
+#: xfree86.xml.in.h:290
 msgid "Swedish"
 msgstr "İsveçce"
 
-#: rules/base.xml.in.h:311
+#: xfree86.xml.in.h:291
 msgid "Swiss French"
 msgstr "İsviçre Fransızcası"
 
-#: rules/base.xml.in.h:312
+#: xfree86.xml.in.h:292
 msgid "Swiss German"
 msgstr "İsviçre Almancası"
 
-#: rules/base.xml.in.h:313
+#: xfree86.xml.in.h:293
 msgid "Symplon PaceBook (tablet PC)"
 msgstr "Symplon PaceBook (tablet PC)"
 
-#: rules/base.xml.in.h:314
+#: xfree86.xml.in.h:294
 msgid "Syr"
 msgstr "Sur"
 
-#: rules/base.xml.in.h:315
+#: xfree86.xml.in.h:295
 msgid "Syriac"
 msgstr "Suriye dili"
 
-#: rules/base.xml.in.h:316
-#, fuzzy
-msgid "Syriac phonetic"
-msgstr "Fonetik"
-
-#: rules/base.xml.in.h:317
+#: xfree86.xml.in.h:296
 msgid "Tajik"
 msgstr "Tacikçe"
 
-#: rules/base.xml.in.h:318
+#: xfree86.xml.in.h:297
 msgid "Tamil"
 msgstr "Tamil dili"
 
-#: rules/base.xml.in.h:319
+#: xfree86.xml.in.h:298
 msgid "Tel"
 msgstr "Tel"
 
-#: rules/base.xml.in.h:320
+#: xfree86.xml.in.h:299
 msgid "Telugu"
 msgstr "Telugu dili"
 
-#: rules/base.xml.in.h:321
+#: xfree86.xml.in.h:300
 msgid "Tha"
 msgstr "Tha"
 
-#: rules/base.xml.in.h:322
+#: xfree86.xml.in.h:301
 msgid "Thai (Kedmanee)"
 msgstr "Tayca (Kedmanee)"
 
-#: rules/base.xml.in.h:323
+#: xfree86.xml.in.h:302
 msgid "Thai (Pattachote)"
 msgstr "Tayca (Pattachote)"
 
-#: rules/base.xml.in.h:324
+#: xfree86.xml.in.h:303
 msgid "Thai (TIS-820.2538)"
 msgstr "Tayca (TIS-820.2538)"
 
-#: rules/base.xml.in.h:325
+#: xfree86.xml.in.h:304
 msgid "Third level choosers"
 msgstr "3. seviye seçiciler"
 
-#: rules/base.xml.in.h:326
+#: xfree86.xml.in.h:305
 msgid "Tjk"
 msgstr "Tck"
 
-#: rules/base.xml.in.h:327
+#: xfree86.xml.in.h:306
 msgid "Tml"
 msgstr "Tml"
 
-#: rules/base.xml.in.h:328
+#: xfree86.xml.in.h:307
 msgid "Toshiba Satellite S3000"
 msgstr "Toshiba Satellite S3000"
 
-#: rules/base.xml.in.h:329
+#: xfree86.xml.in.h:308
 msgid "Trust Direct Access Keyboard"
 msgstr "Trust Doğrudan Erişimli Klavye"
 
-#: rules/base.xml.in.h:330
+#: xfree86.xml.in.h:309
 msgid "Trust Wireless Keyboard Classic"
 msgstr "Trust Kablosuz Klasik Klavye"
 
-#: rules/base.xml.in.h:331
+#: xfree86.xml.in.h:310
 msgid "Tur"
 msgstr "Trk"
 
-#: rules/base.xml.in.h:332
+#: xfree86.xml.in.h:311
 msgid "Turkish"
 msgstr "Türkçe Q Klavye"
 
-#: rules/base.xml.in.h:333
+#: xfree86.xml.in.h:312
 msgid "Turkish (F)"
 msgstr "Türkçe F klavye"
 
-#: rules/base.xml.in.h:334
+#: xfree86.xml.in.h:313
 msgid "Turkish Alt-Q Layout"
 msgstr "Türkçe Alt-Q (yazılımcılar ve dizüstü) klavye"
 
-#: rules/base.xml.in.h:335
+#: xfree86.xml.in.h:314
 msgid "U.S. English"
 msgstr "Amerikan ingilizcesi"
 
-#: rules/base.xml.in.h:336
+#: xfree86.xml.in.h:315
 msgid "U.S. English w/ ISO9995-3"
 msgstr "Amerikan ingilizcesi (ISO9995-3 ile)"
 
-#: rules/base.xml.in.h:337
+#: xfree86.xml.in.h:316
 msgid "U.S. English w/ dead keys"
 msgstr "Amerikan ingilizcesi (ölü tuşlarla)"
 
-#: rules/base.xml.in.h:338
+#: xfree86.xml.in.h:317
 msgid "US"
 msgstr "Amerikan"
 
-#: rules/base.xml.in.h:339
+#: xfree86.xml.in.h:318
 msgid "US keyboard with Romanian letters"
 msgstr "Romen harfleriyle amerikan klavyesi"
 
-#: rules/base.xml.in.h:340
+#: xfree86.xml.in.h:319
 msgid "USA"
 msgstr "ABD"
 
-#: rules/base.xml.in.h:341
+#: xfree86.xml.in.h:320
 msgid "Ukr"
 msgstr "Ukr"
 
-#: rules/base.xml.in.h:342
+#: xfree86.xml.in.h:321
 msgid "Ukrainian"
 msgstr "Ukraynaca"
 
-#: rules/base.xml.in.h:343
+#: xfree86.xml.in.h:322
 msgid "UnicodeExpert"
 msgstr "Unicode Uzman"
 
-#: rules/base.xml.in.h:344
+#: xfree86.xml.in.h:323
 msgid "United Kingdom"
 msgstr "İngiltere"
 
-#: rules/base.xml.in.h:345
+#: xfree86.xml.in.h:324
 msgid "Use keyboard LED to show alternative group"
 msgstr "Diğer grubu göstermek içim klavye LED'i kullanılır"
 
-#: rules/base.xml.in.h:346
+#: xfree86.xml.in.h:325
 msgid "Uses internal capitalization. Shift cancels Caps."
-msgstr ""
-"Büyük/küçük harf geçişlerinde standart dönüşüm kullanılır, Shift tuşu Caps "
-"tuşunun işlevini ters çevirir."
+msgstr "Büyük/küçük harf geçişlerinde standart dönüşüm kullanılır, Shift tuşu Caps tuşunun işlevini ters çevirir."
 
-#: rules/base.xml.in.h:347
+#: xfree86.xml.in.h:326
 msgid "Uses internal capitalization. Shift doesn't cancel Caps."
-msgstr ""
-"Büyük/küçük harf geçişlerinde standart dönüşüm kullanılır, Shift tuşu Caps "
-"tuşunun işlevi etkilemez.."
+msgstr "Büyük/küçük harf geçişlerinde standart dönüşüm kullanılır, Shift tuşu Caps tuşunun işlevi etkilemez.."
 
-#: rules/base.xml.in.h:348
+#: xfree86.xml.in.h:327
 msgid "Uzb"
 msgstr "Özb"
 
-#: rules/base.xml.in.h:349
+#: xfree86.xml.in.h:328
 msgid "Uzbek"
 msgstr "Özbekçe"
 
-#: rules/base.xml.in.h:350
+#: xfree86.xml.in.h:329
 msgid "Vietnamese"
 msgstr "Vietnam dili"
 
-#: rules/base.xml.in.h:351
+#: xfree86.xml.in.h:330
 msgid "Vnm"
 msgstr "Vnm"
 
-#: rules/base.xml.in.h:352
+#: xfree86.xml.in.h:331
 msgid "Winbook Model XP5"
 msgstr "Winbook Model XP5"
 
-#: rules/base.xml.in.h:353
+#: xfree86.xml.in.h:332
 msgid "Winkeys"
 msgstr "Win tuşları"
 
-#: rules/base.xml.in.h:354
-#, fuzzy
-msgid "With Malayalam digits"
-msgstr "Malayalam dili"
-
-#: rules/base.xml.in.h:355
+#: xfree86.xml.in.h:333
 msgid "Yahoo! Internet Keyboard"
 msgstr "Yahoo! Örütbağ Klavyesi"
 
-#: rules/base.xml.in.h:356
+#: xfree86.xml.in.h:334
 msgid "Yug"
 msgstr "Yug"
 
-#: rules/base.xml.in.h:357
+#: xfree86.xml.in.h:335
 msgid "Yugoslavian"
 msgstr "Yugoslavya dili"
 
-#: rules/base.xml.in.h:358
+#: xfree86.xml.in.h:336
 msgid "abnt2"
 msgstr "abnt2"
 
-#: rules/base.xml.in.h:359
+#: xfree86.xml.in.h:337
 msgid "azerty"
 msgstr "azerty"
 
-#: rules/base.xml.in.h:360
+#: xfree86.xml.in.h:338
 msgid "azerty/digits"
 msgstr "azerty/rakamlar"
 
-#: rules/base.xml.in.h:361
+#: xfree86.xml.in.h:339
 msgid "bksl"
 msgstr "bksl"
 
-#: rules/base.xml.in.h:362
+#: xfree86.xml.in.h:340
 msgid "digits"
 msgstr "rakamlar"
 
-#: rules/base.xml.in.h:363
+#: xfree86.xml.in.h:341
 msgid "l2/101/qwerty/comma"
 msgstr "l2/101/qwerty/virgül"
 
-#: rules/base.xml.in.h:364
+#: xfree86.xml.in.h:342
 msgid "l2/101/qwerty/dot"
 msgstr "l2/101/qwerty/nokta"
 
-#: rules/base.xml.in.h:365
+#: xfree86.xml.in.h:343
 msgid "l2/101/qwertz/comma"
 msgstr "l2/101/qwertz/virgül"
 
-#: rules/base.xml.in.h:366
+#: xfree86.xml.in.h:344
 msgid "l2/101/qwertz/dot"
 msgstr "l2/101/qwertz/nokta"
 
-#: rules/base.xml.in.h:367
+#: xfree86.xml.in.h:345
 msgid "l2/102/qwerty/comma"
 msgstr "l2/102/qwerty/virgül"
 
-#: rules/base.xml.in.h:368
+#: xfree86.xml.in.h:346
 msgid "l2/102/qwerty/dot"
 msgstr "l2/102/qwerty/nokta"
 
-#: rules/base.xml.in.h:369
+#: xfree86.xml.in.h:347
 msgid "l2/102/qwertz/comma"
 msgstr "l2/102/qwertz/virgül"
 
-#: rules/base.xml.in.h:370
+#: xfree86.xml.in.h:348
 msgid "l2/102/qwertz/dot"
 msgstr "l2/102/qwertz/nokta"
 
-#: rules/base.xml.in.h:371
+#: xfree86.xml.in.h:349
 msgid "laptop"
 msgstr "dizüstü"
 
-#: rules/base.xml.in.h:372
+#: xfree86.xml.in.h:350
 msgid "lyx"
 msgstr "lyx"
 
-#: rules/base.xml.in.h:373
+#: xfree86.xml.in.h:351
 msgid "qwerty"
 msgstr "qwerty"
 
-#: rules/base.xml.in.h:374
+#: xfree86.xml.in.h:352
 msgid "qwerty/digits"
 msgstr "qwerty/rakamlar"
 
-#: rules/base.xml.in.h:375
+#: xfree86.xml.in.h:353
 msgid "sefi"
 msgstr "sefi"
 
-#: rules/base.xml.in.h:376
+#: xfree86.xml.in.h:354
 msgid "si1452"
 msgstr "si1452"
 
-#: rules/base.xml.in.h:377
+#: xfree86.xml.in.h:355
 msgid "uni/101/qwerty/comma"
 msgstr "uni/101/qwerty/virgül"
 
-#: rules/base.xml.in.h:378
+#: xfree86.xml.in.h:356
 msgid "uni/101/qwerty/dot"
 msgstr "uni/101/qwerty/nokta"
 
-#: rules/base.xml.in.h:379
+#: xfree86.xml.in.h:357
 msgid "uni/101/qwertz/comma"
 msgstr "uni/101/qwertz/virgül"
 
-#: rules/base.xml.in.h:380
+#: xfree86.xml.in.h:358
 msgid "uni/101/qwertz/dot"
 msgstr "uni/101/qwertz/nokta"
 
-#: rules/base.xml.in.h:381
+#: xfree86.xml.in.h:359
 msgid "uni/102/qwerty/comma"
 msgstr "uni/102/qwerty/virgül"
 
-#: rules/base.xml.in.h:382
+#: xfree86.xml.in.h:360
 msgid "uni/102/qwerty/dot"
 msgstr "uni/102/qwerty/nokta"
 
-#: rules/base.xml.in.h:383
+#: xfree86.xml.in.h:361
 msgid "uni/102/qwertz/comma"
 msgstr "uni/102/qwertz/virgül"
 
-#: rules/base.xml.in.h:384
+#: xfree86.xml.in.h:362
 msgid "uni/102/qwertz/dot"
 msgstr "uni/102/qwertz/nokta"
-
-#~ msgid "Sv"
-#~ msgstr "Sv"
