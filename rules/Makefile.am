@@ -19,13 +19,14 @@ if USE_COMPAT_RULES
 base_parts = base.hdr.part  base.lists.part \
 compat/base.lists.part \
 HDR base.m_k.part   HDR base.l1_k.part        HDR base.l_k.part  \
-HDR base.m_g.part   HDR base.mvl_s.part \
-HDR compat/base.ml_s.part base.ml_s.part  \
+HDR base.m_g.part \
+HDR compat/base.mlv_s.part base.mlv_s.part \
+HDR compat/base.ml_s.part  base.ml_s.part  \
 HDR compat/base.ml1_s.part base.ml1_s.part \
 HDR compat/base.ml1v_s.part \
-HDR compat/base.l2_s.part base.l2_s.part  \
-HDR compat/base.l3_s.part base.l3_s.part  \
-HDR compat/base.l4_s.part base.l4_s.part  \
+HDR compat/base.l2_s.part  base.l2_s.part  \
+HDR compat/base.l3_s.part  base.l3_s.part  \
+HDR compat/base.l4_s.part  base.l4_s.part  \
 HDR compat/base.l2v_s.part \
 HDR compat/base.l3v_s.part \
 HDR compat/base.l4v_s.part \
@@ -35,7 +36,7 @@ HDR base.o_s.part   HDR base.o_c.part         HDR base.o_t.part
 else
 base_parts = base.hdr.part  base.lists.part \
 HDR base.m_k.part   HDR base.l1_k.part  HDR base.l_k.part  \
-HDR base.m_g.part   HDR base.mvl_s.part HDR base.ml_s.part \
+HDR base.m_g.part   HDR base.mlv_s.part HDR base.ml_s.part \
 HDR base.ml1_s.part HDR \
 HDR base.l2_s.part  HDR base.l3_s.part  HDR base.l4_s.part HDR HDR HDR \
 HDR base.m_s.part   HDR base.ml_c.part  HDR base.ml1_c.part \

@@ -1,0 +1,2 @@
+ $maclaptop	*		nodeadkeys	=	macintosh_vndr/us(extended)+macintosh_vndr/%l%(v)+macintosh_vndr/apple(laptop_bad_switch)
+ $mac		*		nodeadkeys	=	macintosh_vndr/us(extended)+macintosh_vndr/%l%(v)
