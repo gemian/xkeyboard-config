@@ -4,7 +4,7 @@ symbols_DATA = \
 al am ara \
 az be ben \
 bg br ba \
-by ca ch \
+by ca cs ch \
 cz de deva \
 dk dvorak dzo \
 ee es fi \
@@ -25,7 +25,7 @@ sk sk smi \
 srp syr tam \
 tel th tj \
 tr ua us \
-uz yu vn \
+uz vn \
 altwin compose ctrl group inet keypad level3 lock srvr_ctrl
                                                                                           
 EXTRA_DIST= $(symbols_DATA)
