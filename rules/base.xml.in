@@ -1680,7 +1680,43 @@
         <variant>
           <configItem>
             <name>yz</name>
-            <_description>Cyrillic (swap Zhe, Ze)</_description>
+            <_description>Z and ZHE swapped</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latin</name>
+            <_description>Latin</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latinunicode</name>
+            <_description>Latin Unicode</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latinyz</name>
+            <_description>Latin QWERTY</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latinunicodeyz</name>
+            <_description>Latin Unicode QWERTY</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>alternatequotes</name>
+            <_description>With guillemots</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latinalternatequotes</name>
+            <_description>Latin with guillemots</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1989,33 +2025,6 @@
         <_description>Vietnamese</_description>
       </configItem>
       <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>cs</name>
-        <_shortDescription>Yug</_shortDescription>
-        <_description>Yugoslavian</_description>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>unicode</name>
-            <_description>Serbian Latin Unicode</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>yz</name>
-            <_description>Serbian Latin (swap Y, Z)</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>unicodeyz</name>
-            <_description>Serbian Latin Unicode (swap ZHE, Z)</_description>
-          </configItem>
-        </variant>
-      </variantList>
     </layout>
     <layout>
       <configItem>

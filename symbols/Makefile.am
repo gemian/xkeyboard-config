@@ -4,7 +4,7 @@ symbols_DATA = \
 al am ara \
 az be ben \
 bg br ba \
-by ca cs ch \
+by ca ch \
 cz de deva \
 dk dzo \
 ee es fi \
