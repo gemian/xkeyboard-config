@@ -26,7 +26,8 @@ srp syr tam \
 tel th tj \
 tr ua us \
 uz vn \
-altwin compose ctrl group inet keypad level3 lock srvr_ctrl
+altwin compose ctrl group inet keypad level3 lock srvr_ctrl \
+eurosign
                                                                                           
 EXTRA_DIST= $(symbols_DATA)
                                                                                           
