@@ -2,7 +2,9 @@
 //
 // Swedish layout for a Type 5/5c Sun keyboard
 xkb_symbols "sun5" {
-    include "en_US(basic)+se(basic)"
+    include "latin(basic)+se(basic)"
+
+    name[Group1]="Swedish";
 
     // Begin alphanumeric section
     // These two are not supposed to be dead.
@@ -104,7 +106,9 @@ xkb_symbols "sun5" {
 
 // Swedish layout for a Type 4 Sun keyboard
 xkb_symbols "sun4" {
-    include "en_US(basic)+se(basic)"
+    include "latin(basic)+se(basic)"
+
+    name[Group1]="Swedish";
 
     // Begin alphanumeric section
     // These two are not supposed to be dead.
