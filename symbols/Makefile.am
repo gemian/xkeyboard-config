@@ -3,7 +3,7 @@ SUBDIRS = digital.vndr fujitsu.vndr hp.vndr macintosh.vndr nec.vndr sgi.vndr son
 symbols_DATA = \
 al am ar \
 be ben bg \
-br bs by cz \
+br bs by ch cz \
 cz_qwerty de dev \
 dk dvorak dz \
 ee el en_US \

@@ -1,4 +1,4 @@
-// $XFree86: xc/programs/xkbcomp/symbols/pc/sk,v 1.2 2002/11/22 04:02:22 dawes 
+// $XFree86: xc/programs/xkbcomp/symbols/sk,v 1.2 2002/11/22 04:02:22 dawes 
 // Exp $
 
 partial alphanumeric_keys 
@@ -8,7 +8,7 @@ xkb_symbols "basic" {
      // to satisfy most unix, windows and mac users.
      // 2001 by Kamil Toman <ktoman@email.cz>
 
-    include "pc/latin"
+    include "latin"
 
     name[Group1] = "Slovak";
 
@@ -77,7 +77,7 @@ xkb_symbols "basic" {
 
 // Use <BKSL> instead of <LSGT> (useful for keyboard without <LSGT> key)
 xkb_symbols "bksl" {
-    include "pc/sk(basic)"
+    include "sk(basic)"
 
     key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
 };

@@ -1,11 +1,11 @@
 
 // based on a keyboard map from an 'xkb/symbols/de' file
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/de,v 1.6 2003/09/08 13:12:51 pascal Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/de,v 1.6 2003/09/08 13:12:51 pascal Exp $
 
 xkb_symbols "basic" {
 
-    include "pc/latin(type4)"
+    include "latin(type4)"
 
     name[Group1]="German";
 
@@ -37,7 +37,7 @@ xkb_symbols "nodeadkeys" {
 
     // modify the default German layout to not have any dead keys
 
-    include "pc/de(basic)"
+    include "de(basic)"
 
     key <TLDE>	{ [asciicircum,    degree,      notsign,      notsign ]	};
     key <AE12>	{ [     acute,      grave,      cedilla,      cedilla ]	};
@@ -55,7 +55,7 @@ xkb_symbols "deadgraveacute" {
     // as dead keys (tilde and circumflex are needed as spacing characters
     // in many programming languages)
 
-    include "pc/de(basic)"
+    include "de(basic)"
 
     key <TLDE>	{ [asciicircum,    degree,      notsign,      notsign ]	};
     key <AD12>	{ [      plus,   asterisk,   asciitilde,  dead_macron ]	};
@@ -68,7 +68,7 @@ xkb_symbols "deadacute" {
     // dead keys (ASCII grave, tilde and circumflex are needed as
     // spacing characters in many programming languages and text formatters)
 
-    include "pc/de(deadgraveacute)"
+    include "de(deadgraveacute)"
 
     key <AE12>	{ [dead_acute,      grave, dead_cedilla,  dead_ogonek ]	};
     key <BKSL>	{ [numbersign, apostrophe,   dead_grave,   dead_grave ]	};
@@ -82,7 +82,7 @@ xkb_symbols "de_ro" {
     // To view romanian-specific symbols, add "export LC_CTYPE=ro_RO"
     // or "export LC_CTYPE=de_DE.utf8" to your .profile.
 
-    include "pc/de(basic)"
+    include "de(basic)"
 
     name[Group1]="Romanian for German keyboard";
 
@@ -98,7 +98,7 @@ xkb_symbols "de_ro_nodeadkeys" {
     // add romanian-specific letters to the German nodeadkeys layout.
     // Read the comment for de_ro !
 
-    include "pc/de(nodeadkeys)"
+    include "de(nodeadkeys)"
 
     key <AD05> { [         t,    T,           tcedilla,     Tcedilla    ] };
     key <AD08> { [         i,    I,        icircumflex,  Icircumflex    ] };

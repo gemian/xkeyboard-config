@@ -1,7 +1,7 @@
 
 // based on a keyboard map from an 'xkb/symbols/dk' file
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/dvorak,v 1.5 2004/01/03 16:35:07 herrb Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/dvorak,v 1.5 2004/01/03 16:35:07 herrb Exp $
 
 partial default alphanumeric_keys
 xkb_symbols "basic" {
@@ -67,7 +67,7 @@ xkb_symbols "basic" {
 // Norwegian Dvorak
 partial alphanumeric_keys 
 xkb_symbols "no" {
-    include "pc/dvorak(basic)"
+    include "dvorak(basic)"
 
     key <TLDE> { [	  bar,	section, brokenbar, paragraph	] };
 
@@ -115,7 +115,7 @@ xkb_symbols "no" {
 // Swedish Dvorak
 partial alphanumeric_keys 
 xkb_symbols "se" {
-    include "pc/dvorak(no)"
+    include "dvorak(no)"
 
     key <TLDE> { [     section,	onehalf		]	};
 
@@ -140,7 +140,7 @@ xkb_symbols "se" {
 // Swedish Dvorak alias
 partial alphanumeric_keys 
 xkb_symbols "sv" {
-    include "pc/dvorak(se)"
+    include "dvorak(se)"
 };
 
 // Dvorak (UK) keymap (by odaen) allowing the usage of
@@ -148,7 +148,7 @@ xkb_symbols "sv" {
 
 partial alphanumeric_keys
 xkb_symbols "gb" {
-    include "pc/dvorak(basic)"
+    include "dvorak(basic)"
 
     key <BKSL> { [ numbersign,	asciitilde	] };
     key <AE02> { [	    2,	quotedbl,  twosuperior,   NoSymbol	] };
@@ -237,7 +237,7 @@ xkb_symbols "fr" {
 // Basic Polish keymap (without Polish quotes)
 partial alphanumeric_keys 
 xkb_symbols "pl_basic" {
-    include "pc/dvorak(basic)"
+    include "dvorak(basic)"
     
     name[Group1] = "Polish Dvorak";
 
@@ -261,7 +261,7 @@ xkb_symbols "pl_basic" {
 // Default Polish keymap with Polish quotes on quotemark key
 partial alphanumeric_keys
 xkb_symbols "pl" {
-    include "pc/dvorak(pl_basic)"
+    include "dvorak(pl_basic)"
     
     key <AD01> { [  apostrophe,	quotedbl, doublelowquotemark, rightdoublequotemark	] };
 
@@ -272,7 +272,7 @@ xkb_symbols "pl" {
 // Polish keymap with Polish quotes on key "1/!"
 partial alphanumeric_keys
 xkb_symbols "pl_altquotes" {
-    include "pc/dvorak(pl_basic)"
+    include "dvorak(pl_basic)"
 
     key <AE01> { [	    1,	exclam, doublelowquotemark, rightdoublequotemark	]	};
 };

@@ -4,7 +4,7 @@
 // AEN <aen@logic.ru> & Leon Kanter <leon@geon.donetsk.ua>
 // Last Changes 2003/09/03 by Andriy Rysin <arysin@yahoo.com>
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/ua,v 1.4 2003/05/15 11:29:47 pascal Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/ua,v 1.4 2003/05/15 11:29:47 pascal Exp $
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
@@ -68,7 +68,7 @@ xkb_symbols "basic" {
 
 partial alphanumeric_keys
 xkb_symbols "winkeys" {
-    include "pc/ua(basic)"
+    include "ua(basic)"
  
     key <AE03> {        [               3,      numerosign      ]       };
     key <AE04> {        [               4,       semicolon      ]       };
@@ -81,7 +81,7 @@ xkb_symbols "winkeys" {
 
 partial alphanumeric_keys
 xkb_symbols "typewriter" {
-    include "pc/ua(basic)"
+    include "ua(basic)"
 
     key	<TLDE> {	[      apostrophe,	  quotedbl	] 	};
     key	<AE01> {	[	   exclam,		 1 	]	};
@@ -108,7 +108,7 @@ xkb_symbols "typewriter" {
 
 partial alphanumeric_keys
 xkb_symbols "phonetic" {
-  include "pc/ua(basic)"
+  include "ua(basic)"
   
   key <LatQ> {   [ Cyrillic_ya,       Cyrillic_YA         ]    };
   key <LatW> {   [ Cyrillic_ve,       Cyrillic_VE         ]    };

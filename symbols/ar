@@ -71,12 +71,12 @@ xkb_symbols "basic" {
 
 partial alphanumeric_keys
 xkb_symbols "qwerty" {
-    include "pc/ar(basic)"
+    include "ar(basic)"
 };
 
 partial alphanumeric_keys
 xkb_symbols "azerty" {
-    include "pc/ar(basic)"
+    include "ar(basic)"
 
 	// the north african arabic keyboard differs from the middle east one
 	// by the numeric row; it follows French keyboard style
@@ -103,7 +103,7 @@ xkb_symbols "azerty" {
 
 partial alphanumeric_keys
 xkb_symbols "digits" {
-    include "pc/ar(basic)"
+    include "ar(basic)"
 
 	// use arabic script digits
 
@@ -121,12 +121,12 @@ xkb_symbols "digits" {
 
 partial alphanumeric_keys
 xkb_symbols "qwerty_digits" {
-    include "pc/ar(digits)"
+    include "ar(digits)"
 };
 
 partial alphanumeric_keys
 xkb_symbols "azerty_digits" {
-    include "pc/ar(azerty)"
+    include "ar(azerty)"
 	
     key <AE01> {  [       ampersand,       0x1000661      ]       };
     key <AE02> {  [          eacute,       0x1000662      ]       };

@@ -1,7 +1,7 @@
 
 // based on a keyboard map from an 'xkb/symbols/gb' file
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/gb,v 1.6 2003/10/04 10:25:14 pascal Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/gb,v 1.6 2003/10/04 10:25:14 pascal Exp $
 
 partial default alphanumeric_keys
 xkb_symbols "basic" {
@@ -11,7 +11,7 @@ xkb_symbols "basic" {
     // the SVR4 European Language Supplement and sometimes also
     // known as the IBM 166 layout.
 
-    include "pc/latin"
+    include "latin"
 
     name[Group1]="Great Britain";
 
@@ -42,7 +42,7 @@ xkb_symbols "intl" {
     // dead_tilde 
     // dead_diaeresis 
 
-    include "pc/latin" 
+    include "latin" 
 
     name[Group1]="Great Britain"; 
 

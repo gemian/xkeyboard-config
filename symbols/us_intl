@@ -31,7 +31,7 @@ partial default alphanumeric_keys
 xkb_symbols "basic" {
 
   name[Group1]= "US/ASCII";
-  include "pc/us"
+  include "us"
 
   key <TLDE> { [ dead_grave, dead_tilde,    grave,	      asciitilde    ] };
   key <AE05> { [          5, percent,	    EuroSign			    ] };

@@ -1,12 +1,12 @@
 // based on a keyboard map from an 'xkb/symbols/fi' file
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/fi,v 1.9 2003/01/29 17:17:31 dawes Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/fi,v 1.9 2003/01/29 17:17:31 dawes Exp $
 
 
 partial default alphanumeric_keys
 xkb_symbols "basic" {
-    include "pc/latin(type2)"
-    include "pc/fi(fi)"
+    include "latin(type2)"
+    include "fi(fi)"
 };
 
 partial alphanumeric_keys
@@ -63,9 +63,9 @@ xkb_symbols "fi" {
 
 partial alphanumeric_keys
 xkb_symbols "nodeadkeys" {
-    include "pc/latin(type2)"
-    include "pc/latin(type2_nodeadkeys)"
-    include "pc/fi(fi)"
+    include "latin(type2)"
+    include "latin(type2_nodeadkeys)"
+    include "fi(fi)"
 
     key <AE12> { [ acute, grave ] };
     key <AD12> { [ diaeresis, asciicircum, asciitilde, caron ] };

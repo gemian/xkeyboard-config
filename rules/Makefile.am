@@ -8,7 +8,11 @@ install-data-hook:
 	ln -s base.lst $(DESTDIR)$(rulesdir)/$(extra_lst_file)
 	ln -s base.xml $(DESTDIR)$(rulesdir)/$(extra_dir_file)
 
+else
+install-data-hook:
+
 endif
+
 
 rules_files = \
 base base-it.lst base.lst \

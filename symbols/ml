@@ -76,7 +76,7 @@ xkb_symbols "mlplusnum" {
 
    // Modifies the basic layout to include malayalam numbers
 
-   include "pc/ml(basic)"
+   include "ml(basic)"
 
       key <AE01> { [ 0x01000d67 ,      exclam ] };
       key <AE02> { [ 0x01000d68 ,          at ] };

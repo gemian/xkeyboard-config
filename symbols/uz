@@ -18,7 +18,7 @@
 // Cyrillic_ha       to key <AD09> (english 'o'),
 // Cyrillic_hardsign to key <AD10> (english 'p'). 
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/uz,v 1.2 2003/06/21 13:01:59 pascal Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/uz,v 1.2 2003/06/21 13:01:59 pascal Exp $
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {

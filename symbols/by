@@ -63,7 +63,7 @@ xkb_symbols "basic" {
 
 partial alphanumeric_keys
 xkb_symbols "winkeys" {
-    include "pc/by(basic)"
+    include "by(basic)"
     key	<AE04> {	[		4,       semicolon	]	};
     key	<AE03> {	[		3,      numbersign	]	};
     key	<AE05> {	[		5,	   percent	]	};

@@ -5,12 +5,12 @@
 // Adds suport for dead-keys in I18N applications
 // by Conectiva  (http://www.conectiva.com.br)"
 //
-// $XdotOrg: xc/programs/xkbcomp/symbols/pc/br,v 1.1.4.3 2004/03/05 13:41:32 eich Exp $
-// $XFree86: xc/programs/xkbcomp/symbols/pc/br,v 1.3 2003/04/19 12:22:11 pascal Exp $
+// $XdotOrg: xc/programs/xkbcomp/symbols/br,v 1.1.4.3 2004/03/05 13:41:32 eich Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/br,v 1.3 2003/04/19 12:22:11 pascal Exp $
 
 xkb_symbols "abnt2" {
 
-    include "pc/latin"
+    include "latin"
 
     name[Group1]="Brazilian";
 
@@ -50,7 +50,7 @@ xkb_symbols "abnt2" {
 partial alphanumeric_keys
 xkb_symbols "nodeadkeys" {
 
-    include "pc/br(abnt2)" // for consistent naming
+    include "br(abnt2)" // for consistent naming
 
     key <AE06>	{ [         6,  diaeresis,      notsign,      notsign ]	};
     key <AD11>	{ [apostrophe,      grave ]	};

@@ -1,7 +1,7 @@
 
 // Common Latin alphabet layout
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/latin,v 1.3 2002/12/20 20:18:34 paulo Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/latin,v 1.3 2002/12/20 20:18:34 paulo Exp $
 
 default partial
 xkb_symbols "basic" {
@@ -64,7 +64,7 @@ xkb_symbols "basic" {
 partial
 xkb_symbols "type2" {
 
-    include "pc/latin"
+    include "latin"
 
     key <AE01>	{ [         1,     exclam,   exclamdown,  onesuperior ]	};
     key <AE02>	{ [         2,   quotedbl,           at,  twosuperior ]	};
@@ -98,7 +98,7 @@ xkb_symbols "type2" {
 partial
 xkb_symbols "type3" {
 
-    include "pc/latin"
+    include "latin"
 
     key <AD01>	{ [         q,          Q,    backslash,  Greek_OMEGA ]	};
     key <AD02>	{ [         w,          W,          bar,      Lstroke ]	};
@@ -123,7 +123,7 @@ xkb_symbols "type3" {
 partial
 xkb_symbols "type4" {
 
-    include "pc/latin"
+    include "latin"
 
     key <AE02>	{ [         2,   quotedbl,           at,    oneeighth ]	};
     key <AE06>	{ [         6,  ampersand,      notsign,  fiveeighths ]	};
@@ -154,7 +154,7 @@ xkb_symbols "nodeadkeys" {
 partial
 xkb_symbols "type2_nodeadkeys" {
  
-    include "pc/latin(nodeadkeys)"
+    include "latin(nodeadkeys)"
 
     key <AD11>	{ [     aring,      Aring,   diaeresis,        degree ]	};
     key <AD12>	{ [ diaeresis, asciicircum, asciitilde,         caron ]	};
@@ -166,13 +166,13 @@ xkb_symbols "type2_nodeadkeys" {
 partial
 xkb_symbols "type3_nodeadkeys" {
  
-    include "pc/latin(nodeadkeys)"
+    include "latin(nodeadkeys)"
 };
 
 partial
 xkb_symbols "type4_nodeadkeys" {
  
-    include "pc/latin(nodeadkeys)"
+    include "latin(nodeadkeys)"
 
     key <AB10>	{ [   minus, underscore, dead_belowdot,      abovedot ]	};
 };

@@ -2,12 +2,12 @@
 // based on
 // Latvian keyboard map by Ilya Ketris <Ilya.Ketris@ipro.lv>
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/lv,v 1.2 2002/11/22 04:03:28 dawes Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/lv,v 1.2 2002/11/22 04:03:28 dawes Exp $
 
 partial default alphanumeric_keys modifier_keys
 xkb_symbols "basic" {
 
-    include "pc/latin"
+    include "latin"
 
     name[Group1]="Latvian";
 

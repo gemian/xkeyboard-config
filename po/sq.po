@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfree86_xkb_xml 4.4pre1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-04-15 00:07+0100\n"
+"POT-Creation-Date: 2004-04-19 23:58+0100\n"
 "PO-Revision-Date: 2004-03-03 08:55-0500\n"
 "Last-Translator: Laurent Dhima <laurenti@alblinux.net>\n"
 "Language-Team: Albanian <gnome-albanian-perkthyesit@lists.sourceforge.net>\n"
@@ -963,7 +963,7 @@ msgid "Northern Saami (Sweden)"
 msgstr "Northern Saami (Suedeze)"
 
 #: rules/base.xml.in.h:236
-msgid "Northgate OmniKey 101"
+msgid "Northgate OmniKey    "
 msgstr "Northgate OmniKey 101"
 
 #: rules/base.xml.in.h:237

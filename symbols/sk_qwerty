@@ -7,7 +7,7 @@ xkb_symbols "basic" {
     // of 'Z' and 'Y' keys, which are in the qwerty style (ie. swapped).
     // 2001 by Kamil Toman <ktoman@email.cz>
     
-    include "pc/sk(basic)"
+    include "sk(basic)"
 
     key <AB01>	{ [         z,          Z,       degree,     NoSymbol ]	};
     key <AD06>	{ [         y,          Y,     NoSymbol,     NoSymbol ]	};
@@ -15,7 +15,7 @@ xkb_symbols "basic" {
 
 // Use <BKSL> instead of <LSGT> (useful for keyboard without <LSGT> key)
 xkb_symbols "bksl" {
-    include "pc/sk_qwerty(basic)"
+    include "sk_qwerty(basic)"
 
     key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
 };

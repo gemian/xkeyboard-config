@@ -1,6 +1,6 @@
 //
-// $XdotOrg: xc/programs/xkbcomp/symbols/pc/us,v 1.1.4.3 2004/03/05 13:41:33 eich Exp $
-// $XFree86: xc/programs/xkbcomp/symbols/pc/us,v 1.6 2003/10/31 14:32:05 pascal Exp $
+// $XdotOrg: xc/programs/xkbcomp/symbols/us,v 1.1.4.3 2004/03/05 13:41:33 eich Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/us,v 1.6 2003/10/31 14:32:05 pascal Exp $
 
 default
 partial hidden alphanumeric_keys modifier_keys 
@@ -8,7 +8,7 @@ xkb_symbols "basic" {
 
     name[Group1]= "US/ASCII";
 
-    include "pc/pc(common)"
+    include "pc(common)"
 
     // Alphanumeric section
     key <TLDE> {	[     grave,	asciitilde	]	};
@@ -71,7 +71,7 @@ xkb_symbols "intl" {
 
     name[Group1]= "US International";
 
-    include "pc/us(basic)"
+    include "us(basic)"
 
     // Alphanumeric section
     key <TLDE> { [dead_grave, dead_tilde,         grave,       asciitilde ] };

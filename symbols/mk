@@ -61,7 +61,7 @@ xkb_symbols "basic" {
 
 partial alphanumeric_keys
 xkb_symbols "pc104" {
-    include "pc/mk(basic)"
-    include "pc/mk(win)"	
+    include "mk(basic)"
+    include "mk(win)"	
 };
 

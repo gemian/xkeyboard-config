@@ -4,13 +4,13 @@
 // This file distributed without any expressed or implied warranty
 // Nilgün Belma Bugüner <nilgun@superonline.com>, 2002
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/tr,v 1.5 2003/04/19 12:22:12 pascal Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/tr,v 1.5 2003/04/19 12:22:12 pascal Exp $
 
 //Default Layout (Turkish Q)
 default partial
 xkb_symbols "basic" {
 
-    include "pc/latin"
+    include "latin"
 
     name[Group1]="Turkish";
 
@@ -63,7 +63,7 @@ xkb_symbols "basic" {
 partial
 xkb_symbols "tr_f" {
 
-    include "pc/latin"
+    include "latin"
 
     name[Group1]="Turkish";
 
@@ -126,7 +126,7 @@ xkb_symbols "tr_f" {
 partial
 xkb_symbols "tr_alt" {
 
-    include "pc/latin"
+    include "latin"
 
     name[Group1]="Turkish";
 

@@ -16,9 +16,9 @@ xkb_symbols "default" {
 
   name[Group1]= "Serbian Latin";
 
-  include "pc/sr(level3)"
-  include "pc/sr(common)"
-  include "pc/sr(latalpha)"
+  include "sr(level3)"
+  include "sr(common)"
+  include "sr(latalpha)"
   include "level3(ralt_switch_multikey)"
 };
 
@@ -29,8 +29,8 @@ xkb_symbols "unicode" {
 
   name[Group1]= "Serbian Latin Unicode";
 
-  include "pc/yu(default)"
-  include "pc/sr(twoletter)"
+  include "yu(default)"
+  include "sr(twoletter)"
 };
 
 partial alphanumeric_keys
@@ -39,7 +39,7 @@ xkb_symbols "yz" {
 
   name[Group1]= "Serbian Latin (swap Y, Z)";
 
-  include "pc/yu(default)"
+  include "yu(default)"
 
   key <AD06> {   [ y,                   Y,             any,any ]   }; // y
   key <AB01> {   [ z,                   Z,             any,any ]   }; // z
@@ -51,7 +51,7 @@ xkb_symbols "unicodeyz" {
 
   name[Group1]= "Serbian Latin Unicode (swap ZHE, Z)";
 
-  include "pc/yu(unicode)"
+  include "yu(unicode)"
 
   key <AD06> {   [ zcaron,              Zcaron,        any,any ]   }; // y
   key <AB01> {   [ z,                   Z,             any,any ]   }; // z

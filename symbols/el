@@ -1,4 +1,4 @@
-// $XFree86: xc/programs/xkbcomp/symbols/pc/el,v 1.2 2002/11/15 02:26:41 dawes Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/el,v 1.2 2002/11/15 02:26:41 dawes Exp $
 //
 // Hellenic keyboard map for XFree86
 // Original version:
@@ -11,7 +11,7 @@
 default partial alphanumeric_keys alternate_group
 xkb_symbols "basic" {
 
-    include "pc/el(bare)"
+    include "el(bare)"
 
     key <TLDE> {	[     grave,	asciitilde	]	};
     key <AE01> {	[	  1,	exclam 		]	};
@@ -81,7 +81,7 @@ xkb_symbols "bare" {
 partial alphanumeric_keys alternate_group
 xkb_symbols "extended" {
 
-    include "pc/el(basic)"
+    include "el(basic)"
 
     key.type = "THREE_LEVEL";
 
@@ -99,7 +99,7 @@ xkb_symbols "extended" {
 partial alphanumeric_keys alternate_group
 xkb_symbols "polytonic" {
 
-    include "pc/el(extended)"
+    include "el(extended)"
 
     key.type = "THREE_LEVEL";
 
@@ -114,7 +114,7 @@ xkb_symbols "polytonic" {
 partial alphanumeric_keys alternate_group
 xkb_symbols "nodeadkeys" {
 
-    include "pc/el(basic)"
+    include "el(basic)"
 
     key <AC10> { [	semicolon,		colon		] };
 

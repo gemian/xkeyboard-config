@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfree86_xkb_xml 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-04-15 00:07+0100\n"
+"POT-Creation-Date: 2004-04-19 23:58+0100\n"
 "PO-Revision-Date: 2002-05-29 21:11+100\n"
 "Last-Translator: Sergey V. Oudaltsov <svu@users.sourceforge.net>\n"
 "Language-Team: Russian\n"
@@ -1079,7 +1079,7 @@ msgstr "Вибір 3-го рівня натисненням правої кла�
 msgid "Press any of Alt keys to choose 3rd level"
 msgstr "Вибір 3-го рівня натисненням довільної клавіші Win"
 
-#: rules/base.xml.in.h:263
+    ules/base.xml.in.h:263
 msgid "Press any of Win-keys to choose 3rd level"
 msgstr "Вибір 3-го рівня натисненням довільної клавіші Win"
 

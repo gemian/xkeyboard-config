@@ -4,7 +4,7 @@
 //                          Nicolas Mailhot <Nicolas.Mailhot @ laposte.net>
 //                              (XFree86 submission)
 //
-//  $XFree86: xc/programs/xkbcomp/symbols/pc/fr-latin9,v 1.1 2002/12/20 02:07:11 dawes Exp $
+//  $XFree86: xc/programs/xkbcomp/symbols/fr-latin9,v 1.1 2002/12/20 02:07:11 dawes Exp $
 //
 // This layout has long been distributed and refined outside official channels.
 // To this day it remains more feature-rich and popular than the 'fr' layout.
@@ -68,7 +68,7 @@ partial default alphanumeric_keys
 
 xkb_symbols "basic" {
 
-    include "pc/latin"
+    include "latin"
 
     name[Group1]="fr-latin9";
 
@@ -138,7 +138,7 @@ xkb_symbols "Sundeadkeys" {
 
     // Modifies the basic fr-latin9 layout to use the Sun dead keys
 
-    include "pc/fr-latin9(basic)"
+    include "fr-latin9(basic)"
 
     key <AE01>	{ [       ampersand,               1,         SunFA_Acute,       periodcentered ] };
     key <AE07>	{ [          egrave,               7,         SunFA_Grave,               Egrave ] };
@@ -149,7 +149,7 @@ xkb_symbols "Sundeadkeys" {
 partial alphanumeric_keys
 xkb_symbols "sundeadkeys" {
 
-    include "pc/fr-latin9(Sundeadkeys)"
+    include "fr-latin9(Sundeadkeys)"
 
 };
 
@@ -158,7 +158,7 @@ xkb_symbols "nodeadkeys" {
 
     // Modifies the basic fr-latin9 layout to eliminate all dead keys
 
-    include "pc/fr-latin9(basic)"
+    include "fr-latin9(basic)"
 
     key <AE01>	{ [       ampersand,               1,          apostrophe,       periodcentered ] };
     key <AE07>	{ [          egrave,               7,               grave,               Egrave ] };

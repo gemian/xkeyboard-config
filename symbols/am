@@ -1,7 +1,7 @@
 
 // based on a keyboard map from an 'xkb/symbols/am' file
 //
-// $XFree86: xc/programs/xkbcomp/symbols/pc/am,v 1.4 2003/05/29 12:41:58 pascal Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/am,v 1.4 2003/05/29 12:41:58 pascal Exp $
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
@@ -66,7 +66,7 @@ xkb_symbols "basic" {
 };
 
 xkb_symbols "old" {
-    include "pc/am(basic)"
+    include "am(basic)"
 	
     key <BKSL> {	[ 0x1002026,  0x1000587 ]	};
 
@@ -122,7 +122,7 @@ xkb_symbols "old" {
 };
 
 xkb_symbols "phonetic" {
-    include "pc/am(old)"
+    include "am(old)"
 	
     key <BKSL> {	[ 0x1000577,  0x1000547 ]	};
 	
