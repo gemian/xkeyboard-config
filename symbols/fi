@@ -1,5 +1,6 @@
 // based on a keyboard map from an 'xkb/symbols/fi' file
 //
+// $XKeyboardConfig$
 // $XFree86: xc/programs/xkbcomp/symbols/fi,v 1.9 2003/01/29 17:17:31 dawes Exp $
 
 
@@ -55,7 +56,7 @@ xkb_symbols "fi" {
     key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde, dead_caron ] };
 
     // End alphanumeric section, begin "Keypad"
-    key <KPDL> {	[  KP_Delete,	KP_Separator	]	};
+    include "keypad(comma)"
     // End "Keypad" section
 
     include "level3(ralt_switch)"

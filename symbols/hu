@@ -2,6 +2,7 @@
 //
 // Based on old style 'xkb/symbols/hu"
 //
+// $XKeyboardConfig$
 // (C) 2002-2004 Soós Péter <sp@osb.hu>
 //
 // Permission is granted to anyone to use, distribute and modify
@@ -55,7 +56,7 @@ xkb_symbols "101_qwertz_comma_dead" {
     include "latin"
     include "hu(def_101)"
     include "hu(def_qwertz)"
-    include "hu(def_comma)"
+    include "keypad(comma)"
     include "hu(def_dead)"
     include "hu(def_common)"
     include "level3(ralt_switch)"
@@ -71,7 +72,7 @@ xkb_symbols "101_qwertz_comma_nodead" {
     include "latin"
     include "hu(def_101)"
     include "hu(def_qwertz)"
-    include "hu(def_comma)"
+    include "keypad(comma)"
     include "hu(def_nodead)"
     include "hu(def_common)"
     include "level3(ralt_switch)"
@@ -119,7 +120,7 @@ xkb_symbols "101_qwerty_comma_dead" {
     include "latin"
     include "hu(def_101)"
     include "hu(def_qwerty)"
-    include "hu(def_comma)"
+    include "keypad(comma)"
     include "hu(def_dead)"
     include "hu(def_common)"
     include "level3(ralt_switch)"
@@ -135,7 +136,7 @@ xkb_symbols "101_qwerty_comma_nodead" {
     include "latin"
     include "hu(def_101)"
     include "hu(def_qwerty)"
-    include "hu(def_comma)"
+    include "keypad(comma)"
     include "hu(def_nodead)"
     include "hu(def_common)"
     include "level3(ralt_switch)"
@@ -335,13 +336,6 @@ hidden partial alphanumeric_keys
 xkb_symbols "def_qwerty" {
     key <AD06>  { [            y,            Y                                     ] };
     key <AB01>  { [            z,            Z,           greater                  ] };
-};
-
-// def_comma:
-// The Hungarian standard is the comma on the keypad not decimal dot
-hidden partial keypad_keys
-xkb_symbols "def_comma" {
-    key <KPDL>  { [    KP_Delete, KP_Separator                                     ] };
 };
 
 // def_dot:
