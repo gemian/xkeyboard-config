@@ -1647,7 +1647,8 @@
         <variant>
           <configItem>
             <name>rstu</name>
-            <_description>Ukrainian State Standard (RSTU 2019-91)</_description>
+<!-- RSTU 2019-91 -->
+            <_description>Ukrainian standard RSTU</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1923,7 +1924,8 @@
         <variant>
           <configItem>
             <name>rstu</name>
-            <_description>Ukrainian State Standard (RSTU 2019-91)</_description>
+<!-- RSTU 2019-91 -->
+            <_description>Ukrainian standard RSTU</_description>
           </configItem>
         </variant>
       </variantList>
