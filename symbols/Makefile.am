@@ -16,7 +16,7 @@ is it iu \
 jp \
 kan la latin \
 lo lt lv \
-mk ml mm mn \
+mi mk ml mm mn \
 mt nl \
 no ogham ori \
 pc pl \

@@ -1,0 +1,45 @@
+partial default alphanumeric_keys
+xkb_symbols "basic" {
+
+  key <AC01> {  [       a,              A             ],
+                [       amacron,        Amacron       ]       };
+  key <AD03> {  [       e,              E             ],
+                [       emacron,        Emacron       ]       };
+  key <AD08> {  [       i,              I             ],
+                [       imacron,        Imacron       ]       };
+  key <AD09> {  [       o,              O             ],
+                [       omacron,        Omacron       ]       };
+  key <AD07> {  [       u,              U             ],
+                [       umacron,        Umacron       ]       };
+
+  modifier_map Shift  { Shift_L };
+  modifier_map Lock   { Caps_Lock };
+  modifier_map Control{ Control_L };
+  modifier_map Mod3   { Mode_switch };
+};
+---------------------------/etc/X11/xkb/symbols/pc/mi-------------------
+
+// based on a keyboard map from an 'xkb/symbols/mi' file
+//
+
+partial default alphanumeric_keys
+xkb_symbols "basic" {
+
+    // Adds the macrons needed for the Maori language to
+    // a simple us keyboard layout.
+
+    include "pc/latin"
+
+    name[Group1]="Maori";
+
+    key <AC01>  { [ a,   A,  amacron, Amacron ] };
+    key <AD03>  { [ e,   E,  emacron, Emacron ] };
+    key <AD08>  { [ i,   I,  imacron, Imacron ] };
+
+    key <AD09>  { [ o,   O,  omacron, Omacron ] };
+    key <AD07>  { [ u,   U,  umacron, Umacron ] };
+
+    key <RALT>  { type[Group1]="TWO_LEVEL",
+                  [ ISO_Level3_Shift, Multi_key ]   };
+    modifier_map Mod5   { <RALT> };
+};

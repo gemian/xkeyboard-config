@@ -1423,6 +1423,14 @@
     </layout>
     <layout>
       <configItem>
+        <name>mi</name>
+        <_shortDescription>Mao</_shortDescription>
+        <_description>Maori</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>mk</name>
         <_shortDescription>Mkd</_shortDescription>
         <_description>Macedonian</_description>
