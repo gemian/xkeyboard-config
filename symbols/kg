@@ -12,7 +12,7 @@ xkb_symbols "basic" {
 
     include "ru(winkeys)"
 
-    name[group1]= "Kyrgyzstan (Win)";
+    name[Group1]= "Kyrgyzstan";
 
     key.type[group1]="FOUR_LEVEL_ALPHABETIC";
 
