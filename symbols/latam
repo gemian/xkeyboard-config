@@ -32,7 +32,7 @@ xkb_symbols "basic" {
 
 partial alphanumeric_keys
 xkb_symbols "Sundeadkeys" {
-    include "la(basic)"
+    include "latam(basic)"
 
     key <AC11>	{ [SunFA_Acute, SunFA_Diaeresis, braceleft, braceleft ]	};
     key <AD11>	{ [SunFA_Grave, SunFA_Circum, bracketleft, dead_abovering ] };
@@ -40,14 +40,14 @@ xkb_symbols "Sundeadkeys" {
 
 partial alphanumeric_keys
 xkb_symbols "sundeadkeys" {
-    include "la(Sundeadkeys)"
+    include "latam(Sundeadkeys)"
 
 };
 
 partial alphanumeric_keys
 xkb_symbols "nodeadkeys" {
 
-    include "la(basic)"
+    include "latam(basic)"
 
     key <AE12>	{ [questiondown, exclamdown,    cedilla,       ogonek ]	};
     key <AD11>	{ [     grave, asciicircum, bracketleft,       degree ]	};

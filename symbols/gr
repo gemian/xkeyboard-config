@@ -11,7 +11,7 @@
 default partial alphanumeric_keys alternate_group
 xkb_symbols "basic" {
 
-    include "el(bare)"
+    include "gr(bare)"
 
     key <TLDE> {	[     grave,	asciitilde	]	};
     key <AE01> {	[	  1,	exclam 		]	};
@@ -81,7 +81,7 @@ xkb_symbols "bare" {
 partial alphanumeric_keys alternate_group
 xkb_symbols "extended" {
 
-    include "el(basic)"
+    include "gr(basic)"
 
     key.type = "THREE_LEVEL";
 
@@ -99,7 +99,7 @@ xkb_symbols "extended" {
 partial alphanumeric_keys alternate_group
 xkb_symbols "polytonic" {
 
-    include "el(extended)"
+    include "gr(extended)"
 
     key.type = "THREE_LEVEL";
 
@@ -114,7 +114,7 @@ xkb_symbols "polytonic" {
 partial alphanumeric_keys alternate_group
 xkb_symbols "nodeadkeys" {
 
-    include "el(basic)"
+    include "gr(basic)"
 
     key <AC10> { [	semicolon,		colon		] };
 

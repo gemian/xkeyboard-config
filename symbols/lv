@@ -5,10 +5,8 @@
 // is a dirty hack). It is now not dependent on locale settings
 // and GTK_IM_MODULES in Gnome. The map is also providing some of
 // ISO9995-3 alternate characters. Note that this version works
-// correctly under Gnome 2.6. This is to be put into symbols/pc/
-// directory if you want to put it directly into symbols/
-// directory, or somewhere else, please correct the references
-// below.
+// correctly under Gnome 2.6. This is to be put into symbols/
+// directory, or somewhere else.
 //
 // Permission to use, copy, modify, distribute, and sell this software and its
 // documentation for any purpose is hereby granted without fee, provided that
@@ -93,7 +91,7 @@ xkb_symbols "basic" {
 partial alphanumeric_keys modifier_keys
 xkb_symbols "apostrophe" {
 
-    include "pc/lv(basic)"
+    include "lv(basic)"
 
 	key <AC11>	{[ISO_Level3_Latch, quotedbl, apostrophe, quotedbl]};
         key <SPCE>      {[space, space, apostrophe]};
@@ -104,7 +102,7 @@ xkb_symbols "apostrophe" {
 partial alphanumeric_keys modifier_keys
 xkb_symbols "tilde" {
 
-    include "pc/lv(basic)"
+    include "lv(basic)"
 
 	key <TLDE>	{[ISO_Level3_Latch, asciitilde, grave, acute]}; 
         key <SPCE>      {[space, space, asciitilde]};
@@ -115,7 +113,7 @@ xkb_symbols "tilde" {
 partial alphanumeric_keys modifier_keys
 xkb_symbols "fkey" {
 
-    include "pc/lv(basic)"
+    include "lv(basic)"
 
         key <AC04>      {[ISO_Level3_Latch, ISO_Level3_Latch, f, F]};
         key <SPCE>      {[space, space, f, F]};
