@@ -1,0 +1,35 @@
+AC_INIT(xfree86.xml.in)
+
+PACKAGE=xfree86_xkb_xml
+MAJOR_VERSION=0
+MINOR_VERSION=5
+VERSION=$MAJOR_VERSION.$MINOR_VERSION
+
+AC_SUBST(MAJOR_VERSION)
+AC_SUBST(MINOR_VERSION)
+AC_SUBST(PACKAGE)
+AC_SUBST(VERSION)
+
+AM_INIT_AUTOMAKE($PACKAGE, $VERSION)
+
+prefix=/usr
+
+AC_ARG_WITH( xkb_base,
+             [  --with-xkb-base=DIR        XKB base path (by default it is /usr/X11R6/lib/X11/xkb)],
+             xkb_base="$withval", 
+             xkb_base="\$(prefix)/X11R6/lib/X11/xkb" )
+			 
+ALL_LINGUAS="bg ru uk"
+AM_GNU_GETTEXT
+
+AC_PROG_INTLTOOL
+
+AC_SUBST(xkb_base)
+
+AC_OUTPUT([ m4/Makefile
+Makefile
+xfree86_xkb_xml.spec
+intl/Makefile
+po/Makefile.in
+])
+
