@@ -41,6 +41,7 @@ AC_SUBST(xkb_rules_symlink)
 AC_OUTPUT([ intl/Makefile po/Makefile.in m4/Makefile 
 Makefile
 compat/Makefile
+compiled/Makefile
 geometry/Makefile
 geometry/digital.vndr/Makefile
 geometry/ibm.vndr/Makefile
