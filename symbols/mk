@@ -2,6 +2,7 @@
 // base on keyboard map:
 // Author: Damjan Georgievski <gdamjan@freemail.org.mk>
 // Revision: 1.4
+// $XKeyboardConfig$
 
 partial default alphanumeric_keys
 xkb_symbols "basic" { 
@@ -54,7 +55,8 @@ xkb_symbols "basic" {
     key <AB08> { [           comma,       semicolon	]	};
     key <AB09> { [          period,           colon	]	};
     key <AB10> { [           slash,        question	]	};
-
+ 
+    include "keypad(comma)"
 };
 
 partial alphanumeric_keys
