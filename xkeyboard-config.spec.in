@@ -42,4 +42,4 @@ rm -rf $RPM_BUILD_DIR/%{name}-%{version}
 %defattr(-, root, root)
 
 %doc AUTHORS ChangeLog NEWS README COPYING docs/README.config docs/README.enhancing docs/README.symbols docs/HOWTO.transition docs/HOWTO.testing
-%{_prefix}/X11R6/lib/X11/xkb/*
+%{_prefix}/lib/X11/xkb/*
