@@ -28,8 +28,8 @@ xkb_symbols "basic" {
     key <AE11> { [     minus, underscore  ]	};
     key <AE12> { [     equal, plus,       DongSign ]	};
 
-    key <AD11> { [ bracketleft,	 braceleft,  U01b0,	U01af	] }; // U horn
-    key <AD12> { [ bracketright, braceright, U01a1,	U01a0	] }; // O horn
+    key <AD11> { [ bracketleft,	 braceleft,  uhorn,	Uhorn	] };
+    key <AD12> { [ bracketright, braceright, ohorn,	Ohorn	] };
 
     // End alphanumeric section
 

@@ -167,10 +167,10 @@ xkb_symbols "multi-2gr" {
     key <AD02>	{ [    lstroke,        Lstroke ]	};
     key <AD03>	{ [         oe,             OE ]	};
     key <AD04>	{ [  paragraph,     registered ]	};
-    key <AD05>	{ [      U0167,          U0166 ]	};
-    key <AD06>	{ [      U2190,            yen ]	};
-    key <AD07>	{ [      U2193,          U2191 ]	};
-    key <AD08>	{ [      U2192,       idotless ]	};
+    key <AD05>	{ [     tslash,         Tslash ]	};
+    key <AD06>	{ [  leftarrow,            yen ]	};
+    key <AD07>	{ [  downarrow,        uparrow ]	};
+    key <AD08>	{ [ rightarrow,       idotless ]	};
     key <AD09>	{ [     oslash,       Ooblique ]	};
     key <AD10>	{ [      thorn,          THORN ]	};
     key <AD11>	{ [ VoidSymbol, dead_abovering ]	};
@@ -197,7 +197,7 @@ xkb_symbols "multi-2gr" {
     key <AB05>	{ [ rightdoublequotemark, rightsinglequotemark ]	};
     key <AB06>	{ [      U0149,       U266A ]	};
     key <AB07>	{ [         mu,   masculine ]	};
-    key <AB08>	{ [      U2015,    multiply ]	};
+    key <AB08>	{ [ Greek_horizbar, multiply ]	};
     key <AB09>	{ [ periodcentered, division ]	};
     key <AB10>	{ [ VoidSymbol, dead_abovedot ]	};
 
