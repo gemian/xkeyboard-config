@@ -18,25 +18,25 @@ endif
 if USE_COMPAT_RULES
 base_parts = base.hdr.part  base.lists.part \
 compat/base.lists.part \
-base.m_k.part base.l1_k.part base.l_k.part  \
-base.m_g.part base.mvl_s.part \
-base.ml_s.part compat/base.ml_s.part \
-base.ml1_s.part compat/base.ml1_s.part \
-base.l2_s.part compat/base.l2_s.part \
-base.l3_s.part compat/base.l3_s.part \
-base.l4_s.part compat/base.l4_s.part \
-base.m_s.part base.ml_c.part base.ml1_c.part \
-base.m_t.part \
-base.o_s.part base.o_c.part base.o_t.part
+HDR base.m_k.part   HDR base.l1_k.part        HDR base.l_k.part  \
+HDR base.m_g.part   HDR base.mvl_s.part \
+HDR compat/base.ml_s.part base.ml_s.part  \
+HDR compat/base.ml1_s.part base.ml1_s.part \
+HDR compat/base.l2_s.part base.l2_s.part  \
+HDR compat/base.l3_s.part base.l3_s.part  \
+HDR compat/base.l4_s.part base.l4_s.part  \
+HDR base.m_s.part   HDR base.ml_c.part        HDR base.ml1_c.part \
+HDR base.m_t.part \
+HDR base.o_s.part   HDR base.o_c.part         HDR base.o_t.part
 else
 base_parts = base.hdr.part  base.lists.part \
-base.m_k.part base.l1_k.part base.l_k.part  \
-base.m_g.part base.mvl_s.part base.ml_s.part \
-base.ml1_s.part \
-base.l2_s.part base.l3_s.part base.l4_s.part \
-base.m_s.part base.ml_c.part base.ml1_c.part \
-base.m_t.part \
-base.o_s.part base.o_c.part base.o_t.part
+HDR base.m_k.part   HDR base.l1_k.part  HDR base.l_k.part  \
+HDR base.m_g.part   HDR base.mvl_s.part HDR base.ml_s.part \
+HDR base.ml1_s.part \
+HDR base.l2_s.part  HDR base.l3_s.part  HDR base.l4_s.part \
+HDR base.m_s.part   HDR base.ml_c.part  HDR base.ml1_c.part \
+HDR base.m_t.part \
+HDR base.o_s.part   HDR base.o_c.part   HDR base.o_t.part
 endif
 
 rules_files = base sgi sun xfree98
@@ -47,8 +47,7 @@ lst_files = base.lst
 	perl xml2lst.pl < $< > $@
 
 base: $(base_parts)
-	> $@
-	for i in $^; do cat $$i >> $@; done
+	./merge.sh $@ $+
 
 all_rules_files = $(rules_files) $(lst_files) \
 xkb.dtd README
@@ -58,7 +57,7 @@ rules_DATA = $(all_rules_files)
 xml_in_files = base.xml.in
 xml_DATA = $(xml_in_files:.xml.in=.xml) 
 
-EXTRA_DIST= $(all_rules_files) $(xml_in_files) $(base_parts) xml2lst.pl
+EXTRA_DIST= $(all_rules_files) $(xml_in_files) $(base_parts) xml2lst.pl merge.sh
 
 rulesdir = $(xkb_base)/rules
 xmldir = $(rulesdir)

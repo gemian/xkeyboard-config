@@ -1,5 +1,3 @@
-
-! option		=	symbols
   grp:switch		=	+group(switch)
   grp:lswitch		=	+group(lswitch)
   grp:win_switch	=	+group(win_switch)

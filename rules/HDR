@@ -1,0 +1,17 @@
+! model		=	keycodes
+! layout[1]	=	keycodes
+! layout	=	keycodes
+! model		=	geometry
+! model		variant		layout	=	symbols
+! model		layout			=	symbols
+! model		layout[1]		=	symbols
+! layout[2]	=	symbols
+! layout[3]	=	symbols
+! layout[4]	=	symbols
+! model		=	symbols
+! model		layout		=	compat
+! model		layout[1]	=	compat
+! model		=	types
+! option	=	symbols
+! option	=	compat
+! option	=	types
