@@ -18,6 +18,34 @@
 ! $maclaptop = ibook powerbook
 ! $mac = macintosh macintosh_old ibook powerbook
 
+! $azerty = be fr
+! $qwertz = al cz de hr hu ro si sk 
+
+! $inetkbds = a4techKB21 airkey acpi scorpius azonaRF2300 \
+              brother \
+              btc5113rf btc5126t btc9000 btc9000a btc9001ah btc5090\
+              cherryblue cherrybluea \
+              chicony chicony9885 \
+              compaqeak8 compaqik7 compaqik13 compaqik18 armada presario ipaq \
+              dell inspiron dtk2000 \
+              dexxa diamond genius geniuscomfy2 \
+              ennyah_dkb1008 gyration \
+              hpi6 hp2501 hp2505 hp5181 hpxe3gc hpxe3gf hpxe4xxx hpzt11xx \
+              hp500fa hp5xx hp5185 \
+              honeywell_euroboard \
+              rapidaccess rapidaccess2 rapidaccess2a \
+              ltcd logiaccess logicdp logicdpa logicdit logicink logiciink \
+              logiinkse logiinkseusb logiitc logiik itouch \
+              mx1998 mx2500 mx2750 \
+              microsoftinet microsoftpro microsoftprousb microsoftprooem microsoftprose \
+              microsoftoffice microsoftmult \
+              oretec \
+              propeller \
+              qtronix \
+              samsung4500 samsung4510 \
+              sk1300 sk2500 sk6200 sk7100 sp_inet \
+              sven symplon toshiba_s3000 trust trustda yahoo
+
 ! model 	=	keycodes
   macintosh_old	=	macintosh
   powerpcps2	=	powerpcps2
@@ -25,9 +53,6 @@
   abnt2		=	xfree86(abnt2)
   jp106		=	xfree86(jp106)
   *		=	xfree86
-
-! $azerty = be fr
-! $qwertz = al cz de hr hu ro si sk 
 
 ! layout[1]	=	keycodes
   $azerty       =       +aliases(azerty)
@@ -93,31 +118,6 @@
 
 ! layout[4]	=	symbols
   *		=	+%l[4]%(v[4]):4
- 
-! $inetkbds = a4techKB21 airkey acpi scorpius azonaRF2300 \
-              brother \
-              btc5113rf btc5126t btc9000 btc9000a btc9001ah btc5090\
-              cherryblue cherrybluea \
-              chicony chicony9885 \
-              compaqeak8 compaqik7 compaqik13 compaqik18 armada presario ipaq \
-              dell inspiron dtk2000 \
-              dexxa diamond genius geniuscomfy2 \
-              ennyah_dkb1008 gyration \
-              hpi6 hp2501 hp2505 hp5181 hpxe3gc hpxe3gf hpxe4xxx hpzt11xx \
-              hp500fa hp5xx hp5185 \
-              honeywell_euroboard \
-              rapidaccess rapidaccess2 rapidaccess2a \
-              ltcd logiaccess logicdp logicdpa logicdit logicink logiciink \
-              logiinkse logiinkseusb logiitc logiik itouch \
-              mx1998 mx2500 mx2750 \
-              microsoftinet microsoftpro microsoftprousb microsoftprooem microsoftprose \
-              microsoftoffice microsoftmult \
-              oretec \
-              propeller \
-              qtronix \
-              samsung4500 samsung4510 \
-              sk1300 sk2500 sk6200 sk7100 sp_inet \
-              sven symplon toshiba_s3000 trust trustda yahoo
 
 ! model         =       symbols
   $inetkbds     =       +inet(%m)
@@ -191,3 +191,4 @@
   caps:shift			=	+caps(shift)
   caps:shift_nocancel		=	+caps(shift_nocancel)
   numpad:microsoft		=	+numpad(microsoft)
+

@@ -1,0 +1,3 @@
+! model	    layout[1]	=	symbols
+ $pcmodels	*	=	pc(%m)+%l[1]%(v[1])
+  *		*	=	pc(pc105)+%l[1]%(v[1])

@@ -1,0 +1,37 @@
+// If you want non-latin layouts implicitly include the en_US layout
+// uncomment lines below
+//! $nonlatin = am ara ben bg by deva ge gr guj guru il \
+//              ir iku kan lao mk mm mal ori ru scc syr tel th\
+//              tj tam ua
+
+! $pcmodels = pc101 pc102 pc104 pc105
+! $maclaptop = ibook powerbook
+! $mac = macintosh macintosh_old ibook powerbook
+
+! $azerty = be fr
+! $qwertz = al cz de hr hu ro si sk 
+
+! $inetkbds = a4techKB21 airkey acpi scorpius azonaRF2300 \
+              brother \
+              btc5113rf btc5126t btc9000 btc9000a btc9001ah btc5090\
+              cherryblue cherrybluea \
+              chicony chicony9885 \
+              compaqeak8 compaqik7 compaqik13 compaqik18 armada presario ipaq \
+              dell inspiron dtk2000 \
+              dexxa diamond genius geniuscomfy2 \
+              ennyah_dkb1008 gyration \
+              hpi6 hp2501 hp2505 hp5181 hpxe3gc hpxe3gf hpxe4xxx hpzt11xx \
+              hp500fa hp5xx hp5185 \
+              honeywell_euroboard \
+              rapidaccess rapidaccess2 rapidaccess2a \
+              ltcd logiaccess logicdp logicdpa logicdit logicink logiciink \
+              logiinkse logiinkseusb logiitc logiik itouch \
+              mx1998 mx2500 mx2750 \
+              microsoftinet microsoftpro microsoftprousb microsoftprooem microsoftprose \
+              microsoftoffice microsoftmult \
+              oretec \
+              propeller \
+              qtronix \
+              samsung4500 samsung4510 \
+              sk1300 sk2500 sk6200 sk7100 sp_inet \
+              sven symplon toshiba_s3000 trust trustda yahoo
