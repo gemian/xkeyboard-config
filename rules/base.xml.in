@@ -653,7 +653,7 @@
     <model>
       <configItem>
         <name>acer_tm_800</name>
-        <_description>Acer TravelMate 800 (requires kernel module acerhk)</_description>
+        <_description>Acer TravelMate 800</_description>
       </configItem>
     </model>
   </modelList>
