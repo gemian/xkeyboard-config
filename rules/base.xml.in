@@ -663,7 +663,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>ar</name>
+        <name>ara</name>
         <_shortDescription>Ara</_shortDescription>
         <_description>Arabic</_description>
       </configItem>
@@ -794,7 +794,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>bs</name>
+        <name>ba</name>
         <_shortDescription>Bih</_shortDescription>
         <_description>Bosnian</_description>
       </configItem>
@@ -989,7 +989,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>dz</name>
+        <name>dzo</name>
         <_shortDescription>Dzo</_shortDescription>
         <_description>Dzongkha</_description>
       </configItem>
@@ -1136,7 +1136,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>el</name>
+        <name>gr</name>
         <_shortDescription>Gre</_shortDescription>
         <_description>Greek</_description>
       </configItem>
@@ -1171,17 +1171,17 @@
     </layout>
     <layout>
       <configItem>
-        <name>gur</name>
-        <_shortDescription>Pan</_shortDescription>
+        <name>guru</name>
+        <_shortDescription>Guru</_shortDescription>
         <_description>Gurmukhi</_description>
       </configItem>
       <variantList/>
     </layout>
     <layout>
       <configItem>
-        <name>dev</name>
-        <_shortDescription>Hin</_shortDescription>
-        <_description>Hindi</_description>
+        <name>deva</name>
+        <_shortDescription>Deva</_shortDescription>
+        <_description>Devanagari</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -1338,7 +1338,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>iu</name>
+        <name>iku</name>
         <_shortDescription>Iku</_shortDescription>
         <_description>Inuktitut</_description>
       </configItem>
@@ -1454,7 +1454,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>mi</name>
+        <name>mao</name>
         <_shortDescription>Mao</_shortDescription>
         <_description>Maori</_description>
       </configItem>
@@ -1477,7 +1477,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>ml</name>
+        <name>mal</name>
         <_shortDescription>Mal</_shortDescription>
         <_description>Malayalam</_description>
       </configItem>
@@ -1530,8 +1530,8 @@
     </layout>
     <layout>
       <configItem>
-        <name>ogham</name>
-        <_shortDescription>Ogh</_shortDescription>
+        <name>ogam</name>
+        <_shortDescription>Ogam</_shortDescription>
         <_description>Ogham</_description>
       </configItem>
       <variantList>
@@ -1656,8 +1656,8 @@
     </layout>
     <layout>
       <configItem>
-        <name>sr</name>
-        <_shortDescription>Scg</_shortDescription>
+        <name>scc</name>
+        <_shortDescription>Scc</_shortDescription>
         <_description>Serbian</_description>
       </configItem>
       <variantList>
@@ -1810,8 +1810,8 @@
     </layout>
     <layout>
       <configItem>
-        <name>tml</name>
-        <_shortDescription>Tml</_shortDescription>
+        <name>tam</name>
+        <_shortDescription>Tam</_shortDescription>
         <_description>Tamil</_description>
       </configItem>
       <variantList>
@@ -2032,8 +2032,8 @@
     </layout>
     <layout>
       <configItem>
-        <name>sapmi</name>
-        <_shortDescription>Sme</_shortDescription>
+        <name>sami</name>
+        <_shortDescription>Sami</_shortDescription>
         <_description>Northern Saami</_description>
       </configItem>
       <variantList>

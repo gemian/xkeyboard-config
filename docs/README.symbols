@@ -1,0 +1,38 @@
+
+The files in the symbols directory describe possible layouts for a given 
+keyboard.
+
+The default layout in each file should describe the most common layout
+for its kind, ususally the symbols printed on the keys. Layout variants
+can describe common differences that are not necessarily printed on the keys.
+(e.g. a phonetic version of Cyrillic).
+
+The names of the files are referenced throughout the XKB rules, and may be
+exposed in the X server configuration and in user configuration tools.
+The filenames use the following convention:
+
+Country layouts:
+
+  Keyboard layouts for a country must use the 2-letter code from the
+  ISO-3166 standard.
+
+Language layouts:
+
+  Keyboard layouts for a language must use the 3-letter code from the
+  ISO-639 standard.
+
+Script layouts:
+
+  Keyboard layouts for a script must use the 4-letter code from the
+  ISO-15924 standard.
+
+Other:
+
+  Keyboard layouts that do not fit in the above model and directories
+  must use a filename between 5 and 8 characters.
+
+The ISO codes can be found at the following addressed:
+
+Country layouts:  http://www.iso.org/iso/en/prods-services/iso3166ma/02iso-3166-code-lists/iso_3166-1_decoding_table.html
+Language layouts: http://www.loc.gov/standards/iso639-2/langcodes.html
+Script layouts:   http://www.unicode.org/iso15924/iso15924-codes.html
