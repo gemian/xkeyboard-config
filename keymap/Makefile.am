@@ -1,4 +1,4 @@
-SUBDIRS = digital.vndr sgi.vndr sun.vndr
+SUBDIRS = digital_vndr sgi_vndr sun_vndr
 
 km_DATA = \
 amiga ataritt macintosh \

@@ -1,4 +1,4 @@
-SUBDIRS = digital.vndr fujitsu.vndr hp.vndr macintosh.vndr nec.vndr sgi.vndr sony.vndr sun.vndr xfree68.vndr
+SUBDIRS = digital_vndr fujitsu_vndr hp_vndr macintosh_vndr nec_vndr sgi_vndr sony_vndr sun_vndr xfree68_vndr
 
 symbols_DATA = \
 al am ar az \

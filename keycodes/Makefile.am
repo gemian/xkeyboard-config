@@ -1,4 +1,4 @@
-SUBDIRS = digital.vndr sgi.vndr
+SUBDIRS = digital_vndr sgi_vndr
 
 kc_DATA = \
 aliases amiga ataritt \

@@ -1,4 +1,4 @@
-SUBDIRS = digital.vndr  ibm.vndr  sgi.vndr
+SUBDIRS = digital_vndr  ibm_vndr  sgi_vndr
 
 geom_DATA = \
 amiga ataritt chicony \
