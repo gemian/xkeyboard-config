@@ -8,6 +8,9 @@
 ! layout[2]	=	symbols
 ! layout[3]	=	symbols
 ! layout[4]	=	symbols
+! layout[2]	variant		=	symbols
+! layout[3]	variant		=	symbols
+! layout[4]	variant		=	symbols
 ! model		=	symbols
 ! model		layout		=	compat
 ! model		layout[1]	=	compat
