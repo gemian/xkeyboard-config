@@ -1481,8 +1481,8 @@
       <variantList>
         <variant>
           <configItem>
-            <name>pc104</name>
-            <_description>PC104</_description>
+            <name>nodeadkeys</name>
+            <_description>Eliminate dead keys</_description>
           </configItem>
         </variant>
       </variantList>

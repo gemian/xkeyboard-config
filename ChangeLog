@@ -1,6 +1,10 @@
+2004-12-04 01:40  svu
+
+	* symbols/mk, rules/base.xml.in: small fix for Makedonian
+
 2004-12-03 00:40  svu
 
-	* configure.in, Makefile.am, compiled: some cleanup in the 
+	* configure.in, Makefile.am, compiled: some cleanup in the
 	build process
 
 2004-11-29 19:00  svu

@@ -1,7 +1,7 @@
 
-// base on keyboard map:
-// Author: Damjan Georgievski <gdamjan@freemail.org.mk>
-// Revision: 1.4
+// based on keyboard map:
+// Author: Damjan Georgievski <penguinista AT mail.net.mk>
+// Revision: 1.5
 // $XKeyboardConfig$
 
 partial default alphanumeric_keys
@@ -41,7 +41,7 @@ xkb_symbols "basic" {
     key <BKSL> { [    Cyrillic_zhe,    Cyrillic_ZHE	]	};
     key <AE12> { [           equal,            plus	]	};
     key <AE11> { [           minus,      underscore	]	};
-    key <TLDE> { [           grave,      asciitilde	]	};
+    key <TLDE> { [      dead_grave,      asciitilde	]	};
     key <AE01> { [               1,          exclam	]	};
     key <AE02> { [               2, doublelowquotemark	]	};
     key <AE03> { [               3, leftdoublequotemark	]	};
@@ -60,14 +60,7 @@ xkb_symbols "basic" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "pc104" {
+xkb_symbols "nodeadkeys" {
     include "mk(basic)"
-    include "mk(win)"	
-};
-
-partial alphanumeric_keys
-xkb_symbols "win" {
-    key <MENU> { [ 		ISO_Next_Group		]	};
-    key <RWIN> { [		Multi_key		]	};
-    key <LWIN> { [		Mode_switch		]	};
+    key <TLDE> { [           grave,      asciitilde ]   };
 };
