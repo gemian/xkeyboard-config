@@ -1,5 +1,6 @@
-0.02	Release 0.02
-	Now automatically create symlink for xkbcomp (XFree/XOrg servers need it)
-	Added HOWTO.transition
-0.01	First public release. 
+0.2	Now automatically create symlink for xkbcomp (XFree/XOrg servers need it).
+	Added HOWTO.transition.
+        Added Maori layout.
+	Fixed bug 515.
+0.1	First public release. 
 	XKB configuration only. Restructured layouts tree. Only additive layouts are included. No compatibility rules.
