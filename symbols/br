@@ -42,7 +42,7 @@ xkb_symbols "abnt2" {
     key <AB11>	{ [     slash,   question,       degree, questiondown ]	};
 
     key <KPPT>	{ [KP_Decimal ]	};
-    key <KPDL>	{ [ KP_Delete,      comma ]	};
+    key <KPDL>	{ [ KP_Delete,      KP_Separator ]	};
 
     include "level3(ralt_switch_multikey)"
 };
