@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfree86_xkb_xml 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-01-16 13:41+0000\n"
+"POT-Creation-Date: 2005-01-24 22:57+0000\n"
 "PO-Revision-Date: 2004-01-09 16:17+0000\n"
 "Last-Translator: Sergey V. Oudaltsov <svu@gnome.org>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -1611,54 +1611,58 @@ msgid "Winkeys"
 msgstr "Клавиатура Windows"
 
 #: rules/base.xml.in.h:400
+msgid "With &lt;\\|&gt; key"
+msgstr "С клавишей &lt;\\|&gt;"
+
+#: rules/base.xml.in.h:401
 msgid "With Malayalam digits"
 msgstr "С малайскими цифрами"
 
-#: rules/base.xml.in.h:401
+#: rules/base.xml.in.h:402
 msgid "With guillemots"
 msgstr "С guillemots"
 
-#: rules/base.xml.in.h:402
+#: rules/base.xml.in.h:403
 msgid "Yahoo! Internet Keyboard"
 msgstr "Yahoo! Internet Keyboard"
 
-#: rules/base.xml.in.h:403
+#: rules/base.xml.in.h:404
 msgid "Z and ZHE swapped"
 msgstr "З и Ж переставлены"
 
-#: rules/base.xml.in.h:404
+#: rules/base.xml.in.h:405
 msgid "azerty"
 msgstr "azerty"
 
-#: rules/base.xml.in.h:405
+#: rules/base.xml.in.h:406
 msgid "azerty/digits"
 msgstr "azerty/цифры"
 
-#: rules/base.xml.in.h:406
+#: rules/base.xml.in.h:407
 msgid "digits"
 msgstr "цифры"
 
-#: rules/base.xml.in.h:407
+#: rules/base.xml.in.h:408
 msgid "lyx"
 msgstr "lyx"
 
-#: rules/base.xml.in.h:408
+#: rules/base.xml.in.h:409
 msgid "qwerty"
 msgstr "qwerty"
 
-#: rules/base.xml.in.h:409
+#: rules/base.xml.in.h:410
 msgid "qwerty, extended Backslash"
 msgstr "qwerty, расширенные функции Backslash"
 
-#: rules/base.xml.in.h:410
+#: rules/base.xml.in.h:411
 msgid "qwerty/digits"
 msgstr "qwerty/цифры"
 
-#: rules/base.xml.in.h:411
+#: rules/base.xml.in.h:412
 msgid "qwertz"
 msgstr "qwertz"
 
-#: rules/base.xml.in.h:412
+#: rules/base.xml.in.h:413
 msgid "si1452"
 msgstr "si1452"
 
