@@ -45,7 +45,7 @@ AM_CONDITIONAL(USE_COMPAT_RULES, test "x$enable_compat_rules" == "xyes")
 AC_PROG_INTLTOOL(0.30)
 dnl AM_GNU_GETTEXT([external])
 dnl AM_GNU_GETTEXT()
-ALL_LINGUAS="af az bg cs da fr hu nl ru sk sq sr sv tr uk zh_CN"
+ALL_LINGUAS="af az bg cs da el fr hu nl ru sk sq sr sv tr uk zh_CN"
 
 AC_SUBST(xkb_base)
 AC_SUBST(xkb_rules_symlink)
