@@ -2,6 +2,7 @@
 // Amila Akagic, <bono@linux.org.ba>
 // Zadnja promjena: 07.05.2002.
 // $XFree86: xc/programs/xkbcomp/symbols/bs,v 1.1 2002/12/13 04:18:03 dawes Exp $
+// $XKeyboardConfig$
 
 default partial alphanumeric_keys 
 xkb_symbols "basic" {
@@ -53,6 +54,7 @@ xkb_symbols "basic" {
 
     // End alphanumeric section
 
+    include "keypad(comma)"
 };
 
 
