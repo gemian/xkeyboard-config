@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfree86_xkb_xml 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2004-10-10 23:53+0100\n"
+"POT-Creation-Date: 2004-10-12 20:50+0100\n"
 "PO-Revision-Date: 2004-01-09 16:17+0000\n"
 "Last-Translator: Sergey V. Oudaltsov <svu@gnome.org>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -1340,295 +1340,303 @@ msgid "Shift+CapsLock changes group."
 msgstr "Клавиши Shift и Caps Lock, нажатые вместе, меняют группу."
 
 #: rules/base.xml.in.h:332
+msgid "Sin"
+msgstr "Сен"
+
+#: rules/base.xml.in.h:333
+msgid "Sinhala"
+msgstr "Сенегальская"
+
+#: rules/base.xml.in.h:334
 msgid "Slovak"
 msgstr "Словацкая"
 
-#: rules/base.xml.in.h:333
+#: rules/base.xml.in.h:335
 msgid "Slovenian"
 msgstr "Словенская"
 
-#: rules/base.xml.in.h:334
+#: rules/base.xml.in.h:336
 msgid "Smi"
 msgstr "Cми"
 
-#: rules/base.xml.in.h:335
+#: rules/base.xml.in.h:337
 msgid "Spanish"
 msgstr "Испанская"
 
-#: rules/base.xml.in.h:336
+#: rules/base.xml.in.h:338
 msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server."
 msgstr "Специальные клавиши (Ctrl+Alt+&lt;клв&gt;)·обрабатываются сервером."
 
-#: rules/base.xml.in.h:337
+#: rules/base.xml.in.h:339
 msgid "Srp"
 msgstr "Срб"
 
-#: rules/base.xml.in.h:338
+#: rules/base.xml.in.h:340
 msgid "Standard"
 msgstr "Стандартная"
 
-#: rules/base.xml.in.h:339
+#: rules/base.xml.in.h:341
 msgid "Sun dead keys"
 msgstr "Специальные клавиши (dead keys) Sun"
 
-#: rules/base.xml.in.h:340
+#: rules/base.xml.in.h:342
 msgid "Super Power Multimedia Keyboard"
 msgstr "Super Power Multimedia Keyboard"
 
-#: rules/base.xml.in.h:341
+#: rules/base.xml.in.h:343
 msgid "Super is mapped to the Win-keys (default)."
 msgstr "Super соответствует клавишам Win (по умолчанию)"
 
-#: rules/base.xml.in.h:342
+#: rules/base.xml.in.h:344
 msgid "Svk"
 msgstr "Слов"
 
-#: rules/base.xml.in.h:343
+#: rules/base.xml.in.h:345
 msgid "Svn"
 msgstr "Cловен"
 
-#: rules/base.xml.in.h:344
+#: rules/base.xml.in.h:346
 msgid "Swap Control and CapsLock."
 msgstr "Поменять местами клавиши Control и CapsLock."
 
-#: rules/base.xml.in.h:345
+#: rules/base.xml.in.h:347
 msgid "Swe"
 msgstr "Швед"
 
-#: rules/base.xml.in.h:346
+#: rules/base.xml.in.h:348
 msgid "Swedish"
 msgstr "Шведская"
 
-#: rules/base.xml.in.h:347
+#: rules/base.xml.in.h:349
 msgid "Swiss"
 msgstr "Швейцарская"
 
-#: rules/base.xml.in.h:348
+#: rules/base.xml.in.h:350
 msgid "Symplon PaceBook (tablet PC)"
 msgstr "Symplon PaceBook (карманный ПК)"
 
-#: rules/base.xml.in.h:349
+#: rules/base.xml.in.h:351
 msgid "Syr"
 msgstr "Асс"
 
-#: rules/base.xml.in.h:350
+#: rules/base.xml.in.h:352
 msgid "Syriac"
 msgstr "Сирийская"
 
-#: rules/base.xml.in.h:351
+#: rules/base.xml.in.h:353
 msgid "TIS-820.2538"
 msgstr "TIS-820.2538"
 
-#: rules/base.xml.in.h:352
+#: rules/base.xml.in.h:354
 msgid "Tajik"
 msgstr "Таджикская"
 
-#: rules/base.xml.in.h:353
+#: rules/base.xml.in.h:355
 msgid "Tam"
 msgstr "Там"
 
-#: rules/base.xml.in.h:354
+#: rules/base.xml.in.h:356
 msgid "Tamil"
 msgstr "Тамильская"
 
-#: rules/base.xml.in.h:355
+#: rules/base.xml.in.h:357
 msgid "Tel"
 msgstr "Тел"
 
-#: rules/base.xml.in.h:356
+#: rules/base.xml.in.h:358
 msgid "Telugu"
 msgstr "Телугу"
 
-#: rules/base.xml.in.h:357
+#: rules/base.xml.in.h:359
 msgid "Tha"
 msgstr "Таи"
 
-#: rules/base.xml.in.h:358
+#: rules/base.xml.in.h:360
 msgid "Thai"
 msgstr "Таиландская"
 
-#: rules/base.xml.in.h:359
+#: rules/base.xml.in.h:361
 msgid "Third level choosers"
 msgstr "Выбор 3-го уровня"
 
-#: rules/base.xml.in.h:360
+#: rules/base.xml.in.h:362
 msgid "Tilde (~) variant"
 msgstr "Вариант с тильдой (~)"
 
-#: rules/base.xml.in.h:361
+#: rules/base.xml.in.h:363
 msgid "Tjk"
 msgstr "Тадж"
 
-#: rules/base.xml.in.h:362
+#: rules/base.xml.in.h:364
 msgid "Toshiba Satellite S3000"
 msgstr "Toshiba Satellite S3000"
 
-#: rules/base.xml.in.h:363
+#: rules/base.xml.in.h:365
 msgid "Trust Direct Access Keyboard"
 msgstr "Trust Direct Access Keyboard"
 
-#: rules/base.xml.in.h:364
+#: rules/base.xml.in.h:366
 msgid "Trust Wireless Keyboard Classic"
 msgstr "Trust Wireless Keyboard Classic"
 
-#: rules/base.xml.in.h:365
+#: rules/base.xml.in.h:367
 msgid "Tur"
 msgstr "Тур"
 
-#: rules/base.xml.in.h:366
+#: rules/base.xml.in.h:368
 msgid "Turkish"
 msgstr "Турецкая"
 
-#: rules/base.xml.in.h:367
+#: rules/base.xml.in.h:369
 msgid "Typewrite-style keymap; TAB encoding"
 msgstr "\"Печатная машинка\", кодировка TAB"
 
-#: rules/base.xml.in.h:368
+#: rules/base.xml.in.h:370
 msgid "Typewrite-style keymap; TSCII encoding"
 msgstr "\"Печатная·машинка\",·кодировка·TSCII"
 
-#: rules/base.xml.in.h:369
+#: rules/base.xml.in.h:371
 msgid "Typewrite-style keymap; Unicode encoding"
 msgstr "\"Печатная·машинка\",·кодировка·Unicode"
 
-#: rules/base.xml.in.h:370
+#: rules/base.xml.in.h:372
 msgid "U.S. English"
 msgstr "Английская (США)"
 
-#: rules/base.xml.in.h:371
+#: rules/base.xml.in.h:373
 msgid "US keyboard with Croatian letters"
 msgstr "Клавиатура США с хорватскими буквами"
 
-#: rules/base.xml.in.h:372
+#: rules/base.xml.in.h:374
 msgid "US keyboard with Lithuanian letters"
 msgstr "Клавиатура США с литовскими буквами"
 
-#: rules/base.xml.in.h:373
+#: rules/base.xml.in.h:375
 msgid "US keyboard with Maltian letters"
 msgstr "Клавиатура США с мальтийскими буквами"
 
-#: rules/base.xml.in.h:374
+#: rules/base.xml.in.h:376
 msgid "US keyboard with Romanian letters"
 msgstr "Клавиатура США с румынскими буквами"
 
-#: rules/base.xml.in.h:375
+#: rules/base.xml.in.h:377
 msgid "USA"
 msgstr "США"
 
-#: rules/base.xml.in.h:376
+#: rules/base.xml.in.h:378
 msgid "Ukr"
 msgstr "Укр"
 
-#: rules/base.xml.in.h:377
+#: rules/base.xml.in.h:379
 msgid "Ukrainian"
 msgstr "Украинская"
 
 #. RSTU 2019-91
-#: rules/base.xml.in.h:379
+#: rules/base.xml.in.h:381
 msgid "Ukrainian standard RSTU"
 msgstr "Украинская стандартная RSTU"
 
-#: rules/base.xml.in.h:380
+#: rules/base.xml.in.h:382
 msgid "UnicodeExpert"
 msgstr "UnicodeExpert"
 
-#: rules/base.xml.in.h:381
+#: rules/base.xml.in.h:383
 msgid "United Kingdom"
 msgstr "Английская (Великобритания)"
 
-#: rules/base.xml.in.h:382
+#: rules/base.xml.in.h:384
 msgid "Urd"
 msgstr "Урд"
 
-#: rules/base.xml.in.h:383
+#: rules/base.xml.in.h:385
 msgid "Urdu"
 msgstr "Урду"
 
-#: rules/base.xml.in.h:384
+#: rules/base.xml.in.h:386
 msgid "Use keyboard LED to show alternative group."
 msgstr "Использование клавиатурных индикаторов для отображения доп. групп."
 
-#: rules/base.xml.in.h:385
+#: rules/base.xml.in.h:387
 msgid "Uzb"
 msgstr "Узб"
 
-#: rules/base.xml.in.h:386
+#: rules/base.xml.in.h:388
 msgid "Uzbek"
 msgstr "Узбекская"
 
-#: rules/base.xml.in.h:387
+#: rules/base.xml.in.h:389
 msgid "Vietnamese"
 msgstr "Вьетнамская"
 
-#: rules/base.xml.in.h:388
+#: rules/base.xml.in.h:390
 msgid "Vnm"
 msgstr "Вьет"
 
-#: rules/base.xml.in.h:389
+#: rules/base.xml.in.h:391
 msgid "Winbook Model XP5"
 msgstr "Winbook Model XP5"
 
-#: rules/base.xml.in.h:390
+#: rules/base.xml.in.h:392
 msgid "Winkeys"
 msgstr "Клавиатура Windows"
 
-#: rules/base.xml.in.h:391
+#: rules/base.xml.in.h:393
 msgid "With Malayalam digits"
 msgstr "С малайскими цифрами"
 
-#: rules/base.xml.in.h:392
+#: rules/base.xml.in.h:394
 msgid "With guillemots"
 msgstr "С guillemots"
 
-#: rules/base.xml.in.h:393
+#: rules/base.xml.in.h:395
 msgid "Yahoo! Internet Keyboard"
 msgstr "Yahoo! Internet Keyboard"
 
-#: rules/base.xml.in.h:394
+#: rules/base.xml.in.h:396
 msgid "Z and ZHE swapped"
 msgstr "З и Ж переставлены"
 
-#: rules/base.xml.in.h:395
+#: rules/base.xml.in.h:397
 msgid "abnt2"
 msgstr "abnt2"
 
-#: rules/base.xml.in.h:396
+#: rules/base.xml.in.h:398
 msgid "azerty"
 msgstr "azerty"
 
-#: rules/base.xml.in.h:397
+#: rules/base.xml.in.h:399
 msgid "azerty/digits"
 msgstr "azerty/цифры"
 
-#: rules/base.xml.in.h:398
+#: rules/base.xml.in.h:400
 msgid "digits"
 msgstr "цифры"
 
-#: rules/base.xml.in.h:399
+#: rules/base.xml.in.h:401
 msgid "laptop"
 msgstr "лаптоп"
 
-#: rules/base.xml.in.h:400
+#: rules/base.xml.in.h:402
 msgid "lyx"
 msgstr "lyx"
 
-#: rules/base.xml.in.h:401
+#: rules/base.xml.in.h:403
 msgid "qwerty"
 msgstr "qwerty"
 
-#: rules/base.xml.in.h:402
+#: rules/base.xml.in.h:404
 msgid "qwerty, extended Backslash"
 msgstr "qwerty, расширенные функции Backslash"
 
-#: rules/base.xml.in.h:403
+#: rules/base.xml.in.h:405
 msgid "qwerty/digits"
 msgstr "qwerty/цифры"
 
-#: rules/base.xml.in.h:404
+#: rules/base.xml.in.h:406
 msgid "qwertz"
 msgstr "qwertz"
 
-#: rules/base.xml.in.h:405
+#: rules/base.xml.in.h:407
 msgid "si1452"
 msgstr "si1452"
 
@@ -1670,9 +1678,6 @@ msgstr "si1452"
 
 #~ msgid "Grc"
 #~ msgstr "Греч"
-
-#~ msgid "Hin"
-#~ msgstr "Инд"
 
 #~ msgid "Hindi"
 #~ msgstr "Хинди"
