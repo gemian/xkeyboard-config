@@ -823,32 +823,26 @@
       <variantList>
         <variant>
           <configItem>
-            <name>alternate</name>
-            <_description>Alternate</_description>
+            <name>fr</name>
+            <_description>French</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>nodeadkeys</name>
-            <_description>Eliminate dead keys</_description>
+            <name>fr-legacy</name>
+            <_description>French (legacy)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>sundeadkeys</name>
-            <_description>Sun dead keys</_description>
+            <name>multi</name>
+            <_description>Multilingual</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>enhanced</name>
-            <_description>French Canadian</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>enhanced_sundeadkeys</name>
-            <_description>French, Sun dead keys</_description>
+            <name>multi-2gr</name>
+            <_description>Multilingual, second part</_description>
           </configItem>
         </variant>
       </variantList>
