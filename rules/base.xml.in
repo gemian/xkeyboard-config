@@ -623,30 +623,13 @@
             <_description>International (with dead keys)</_description>
           </configItem>
         </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>en_US</name>
-        <_shortDescription>USA</_shortDescription>
-        <_description>U.S. English w/ ISO9995-3</_description>
-      </configItem>
-      <variantList>
         <variant>
           <configItem>
-            <name>nodeadkeys</name>
-            <_description>Eliminate dead keys</_description>
+            <name>alt-intl</name>
+            <_description>Alternative international (former us_intl)</_description>
           </configItem>
         </variant>
       </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>al</name>
-        <_shortDescription>Alb</_shortDescription>
-        <_description>Albanian</_description>
-      </configItem>
-      <variantList/>
     </layout>
     <layout>
       <configItem>

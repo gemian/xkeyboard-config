@@ -6,7 +6,7 @@ be ben bg \
 br bs by ca ch cz \
 de dev \
 dk dvorak dz \
-ee el en_US \
+ee el \
 es fi fo \
 fr fr-latin9 gb \
 ge guj \
