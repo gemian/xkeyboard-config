@@ -2032,7 +2032,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>sami</name>
+        <name>smi</name>
         <_shortDescription>Sami</_shortDescription>
         <_description>Northern Saami</_description>
       </configItem>
