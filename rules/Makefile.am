@@ -49,10 +49,10 @@ rules_files = base sgi sun xfree98
 lst_files = base.lst
 
 %.lst: %.xml
-	perl xml2lst.pl < $< > $@
+	perl $(srcdir)/xml2lst.pl < $< > $@
 
 base: $(base_parts)
-	./merge.sh $@ $+
+	$(srcdir)/merge.sh $@ $+
 
 all_rules_files = $(rules_files) $(lst_files) \
 xkb.dtd README
