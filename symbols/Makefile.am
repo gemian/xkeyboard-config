@@ -1,9 +1,9 @@
 SUBDIRS = digital.vndr fujitsu.vndr hp.vndr macintosh.vndr nec.vndr sgi.vndr sony.vndr sun.vndr xfree68.vndr
 
 symbols_DATA = \
-al am ar \
+al am ar az \
 be ben bg \
-br bs by ch cz \
+br bs by ca ch cz \
 de dev \
 dk dvorak dz \
 ee el en_US \
@@ -27,7 +27,7 @@ syr tel \
 th \
 tj tml tr \
 ua us \
-uz yu \
+uz yu vn \
 altwin compose ctrl group inet keypad level3 lock srvr_ctrl
                                                                                           
 EXTRA_DIST= $(symbols_DATA)
