@@ -2488,7 +2488,7 @@
     </group>
     <group allowMultipleSelection="true">
       <configItem>
-        <name>compose</name>
+        <name>Compose key</name>
         <_description> </_description>
       </configItem>
       <option>
