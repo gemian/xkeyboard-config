@@ -67,5 +67,6 @@ symbols/sun_vndr/Makefile
 symbols/xfree68_vndr/Makefile
 types/Makefile
 xkbdesc.spec
+docs/Makefile
 ])
 
