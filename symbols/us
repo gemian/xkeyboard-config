@@ -5,7 +5,7 @@
 // $XFree86: xc/programs/xkbcomp/symbols/us,v 1.6 2003/10/31 14:32:05 pascal Exp $
 
 default
-partial hidden alphanumeric_keys modifier_keys 
+partial alphanumeric_keys modifier_keys 
 xkb_symbols "basic" {
 
     name[Group1]= "U.S. English";
