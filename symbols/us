@@ -178,7 +178,7 @@ xkb_symbols "alt-intl" {
 //
 // $XFree86: xc/programs/xkbcomp/symbols/dvorak,v 1.5 2004/01/03 16:35:07 herrb Exp $
 
-partial default alphanumeric_keys
+partial alphanumeric_keys
 xkb_symbols "dvorak" {
 
     name[Group1]= "Dvorak";
