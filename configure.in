@@ -21,7 +21,7 @@ AC_ARG_WITH( xkb_base,
              xkb_base="$withval", 
              xkb_base="\$(prefix)/X11R6/lib/X11/xkb" )
 			 
-ALL_LINGUAS="bg cs nl ru sr tr uk zh_CN"
+ALL_LINGUAS="bg cs da nl ru sk sr tr uk zh_CN"
 
 AM_GLIB_GNU_GETTEXT
 AM_GNU_GETTEXT
@@ -30,9 +30,8 @@ AC_PROG_INTLTOOL
 
 AC_SUBST(xkb_base)
 
-AC_OUTPUT([ m4/Makefile  
+AC_OUTPUT([ intl/Makefile po/Makefile.in m4/Makefile 
 Makefile
 xfree86_xkb_xml.spec
-po/Makefile.in
 ])
 
