@@ -1,7 +1,7 @@
 symbols_DATA = \
 apple ch de dk \
 es fi fr \
-gb it \
+gb is it \
 nl no pt \
 se us
 
