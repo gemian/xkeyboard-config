@@ -20,7 +20,7 @@ prefix=/usr
 AC_ARG_WITH( xkb_base,
              [  --with-xkb-base=DIR        XKB base path (by default it is /usr/X11R6/lib/X11/xkb)],
              xkb_base="$withval", 
-             xkb_base="\$(prefix)/X11R6/lib/X11/xkb" )
+             xkb_base="\$(prefix)/lib/X11/xkb" )
 
 AC_ARG_WITH( xkb_rules_symlink,
              [  --with-xkb-rules-symlink=NAME        create symlink to "old style" rules files (xfree86 or xorg)],

@@ -1,0 +1,5 @@
+2004-07-09  Daniel Stone  <daniel@freedesktop.org>
+
+	* configure.in:
+	Change with-xkb-base default to $(prefix)/lib/X11/xkb, rather than
+	$(prefix)/X11R6/lib/X11/xkb; use --prefix=/usr/X11R6 if you want this.
