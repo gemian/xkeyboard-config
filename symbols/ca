@@ -63,7 +63,7 @@ xkb_symbols "fr-legacy" {
 
     name[Group1] = "Canadian French (Legacy)";
 
-    include "pc/ca(fr)"
+    include "ca(fr)"
 
     key <TLDE>	{ [    degree,     degree,       notsign ]	};
     key <AE01>	{ [         1,     exclam,   onesuperior ]	};
@@ -109,7 +109,7 @@ xkb_symbols "multi" {
 
     name[Group1] = "Canadian Multilingual";
 
-    include "pc/ca(fr)"
+    include "ca(fr)"
 
     key <TLDE>	{ [     slash,  backslash,           bar ]	};
     key <AE01>	{ [         1,     exclam ]	};
