@@ -2,7 +2,7 @@
 
 variant=$1
 
-OUTFILE=base.l${variant}v_s.part
+OUTFILE=base.l${variant}v${variant}_s.part
 
 > $OUTFILE
 
