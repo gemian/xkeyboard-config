@@ -113,9 +113,5 @@ default partial xkb_compatibility "misc"  {
 	action = LockMods(modifiers=modMapMods);
     };
 
-    indicator "Scroll Lock" {
-	allowExplicit;
-	whichModState= Locked;
-	modifiers= ScrollLock;
-    };
+    include "ledscroll"
 };

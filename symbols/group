@@ -115,7 +115,7 @@ xkb_symbols "ctrl_shift_toggle" {
 //     Shift+Caps Lock toggles caps lock
 partial modifier_keys
 xkb_symbols "caps_toggle" {
-    key	<CAPS> {	[  ISO_Next_Group,	 Caps_Lock	]	};
+    include "capslock(grouplock)"
 };
 
 // using the group(shift_caps_toggle) map, pressing:

@@ -2146,7 +2146,7 @@
       <option>
         <configItem>
           <name>grp:caps_toggle</name>
-          <_description>Caps Lock key changes group</_description>
+          <_description>CapsLock key changes group</_description>
         </configItem>
       </option>
       <option>
@@ -2233,6 +2233,12 @@
           <_description>Right Ctrl key changes group</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>grp:caps</name>
+          <_description>CapsLock key changes group</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <configItem>
@@ -2302,7 +2308,7 @@
       <option>
         <configItem>
           <name>ctrl:swapcaps</name>
-          <_description>Swap Control and Caps Lock</_description>
+          <_description>Swap Control and CapsLock</_description>
         </configItem>
       </option>
       <option>
@@ -2356,25 +2362,50 @@
       <option>
         <configItem>
           <name>caps:internal</name>
-          <_description>Uses internal capitalization. Shift cancels Caps.</_description>
+          <_description>Uses internal capitalization. Shift cancels CapsLock.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>caps:internal_nocancel</name>
-          <_description>Uses internal capitalization. Shift doesn't cancel Caps.</_description>
+          <_description>Uses internal capitalization. Shift doesn't cancel CapsLock.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>caps:shift</name>
-          <_description>Acts as Shift with locking. Shift cancels Caps.</_description>
+          <_description>Acts as Shift with locking. Shift cancels CapsLock.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>caps:shift_nocancel</name>
-          <_description>Acts as Shift with locking. Shift doesn't cancel Caps.</_description>
+          <_description>Acts as Shift with locking. Shift doesn't cancel CapsLock.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>caps:shift_lock</name>
+          <_description>CapsLock just locks the Shift modifier.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>caps:capslock</name>
+          <_description>Toggles normal capitalization of alphabetic characters.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>caps:shiftlock</name>
+          <_description>Toggles Shift so all keys are affected.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <!-- use the grp name so the LED rule is used too-->
+          <name>grp:caps_toggle</name>
+          <_description>Toggles the group key between two keyboard groups.</_description>
         </configItem>
       </option>
     </group>

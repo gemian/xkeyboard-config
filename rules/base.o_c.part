@@ -1,3 +1,5 @@
-  grp_led:num		=	+leds(num)
-  grp_led:caps		=	+leds(caps)
-  grp_led:scroll	=	+leds(scroll)
+  grp_led:num		=	+capsled(num_lock)
+  grp_led:caps		=	+capsled(caps_lock)
+  grp_led:scroll	=	+capsled(scroll_lock)
+  grp:caps_toggle	=	+capsled(group_lock)
+

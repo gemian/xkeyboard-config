@@ -1,9 +1,10 @@
 compat_DATA = \
 accessx basic complete \
-default group_led iso9995 \
-japan keypad leds \
+default iso9995 \
+japan keypad ledcaps \
+lednum ledscroll \
 misc mousekeys norepeat \
-pc pc98 xfree86 \
+pc pc98 xfree86 capsled \
 xtest README
                                                                                           
 EXTRA_DIST= $(compat_DATA)
