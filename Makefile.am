@@ -1,4 +1,4 @@
-SUBDIRS = compat compiled geometry keycodes keymap m4 po rules semantics symbols types docs
+SUBDIRS = compat compiled geometry keycodes keymap po rules semantics symbols types docs
 
 EXTRA_DIST= config.rpath  COPYING README mkinstalldirs \
        autogen.sh \
@@ -6,7 +6,7 @@ EXTRA_DIST= config.rpath  COPYING README mkinstalldirs \
        xkeyboard-config.spec.in \
        intltool-extract.in intltool-merge.in intltool-update.in
 
-ACLOCAL_AMFLAGS = -I m4
+dnl ACLOCAL_AMFLAGS = -I m4
 
 if CREATE_XKBCOMP_SYMLINK
 install-data-hook:
