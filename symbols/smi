@@ -77,7 +77,7 @@ xkb_symbols "basic" {
     // keyboard according to the specs at:
     // http://www.hum.uit.no/a/trond/se-lat9-sefi-keys.html
 
-    include "sapmi(basic)"
+    include "smi(basic)"
 
     key <AC10>	{ [odiaeresis, Odiaeresis,       oslash,     Ooblique ]	};
     key <AC11>	{ [adiaeresis, Adiaeresis,           ae,           AE ]	};
@@ -88,7 +88,7 @@ xkb_symbols "nodeadkeys" {
 
     // Modifies the basic Norwegian layout to eliminate dead keys
 
-    include "sapmi(basic)"
+    include "smi(basic)"
 
     key <AE12>	{ [ backslash,      grave,        acute,       ogonek ]	};
 };
