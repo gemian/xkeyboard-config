@@ -44,3 +44,6 @@
   compose:rwin		=	+compose(rwin)
   compose:menu		=	+compose(menu)
   srvrkeys:none		=	+srvr_ctrl(no_srvr_keys)
+  eurosign:e		=	+eurosign(e)
+  eurosign:5		=	+eurosign(5)
+  eurosign:2		=	+eurosign(2)

@@ -2468,5 +2468,29 @@
         </configItem>
       </option>
     </group>
+    <group allowMultipleSelection="true">
+      <configItem>
+        <name>eurosign</name>
+        <_description>Adding the EuroSign to certain keys</_description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>eurosign:e</name>
+          <_description>Add the EuroSign to the E key</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>eurosign:5</name>
+          <_description>Add the EuroSign to the 5 key</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>eurosign:2</name>
+          <_description>Add the EuroSign to the 2 key</_description>
+        </configItem>
+      </option>
+    </group>
   </optionList>
 </xkbConfigRegistry>
