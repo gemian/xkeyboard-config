@@ -1,3 +1,5 @@
+-- Freedesktop.ORG
+
 http://freedesktop.org/bugzilla/show_bug.cgi?id=320
 http://bugs.xfree86.org/show_bug.cgi?id=1155
 
@@ -56,3 +58,10 @@ http://freedesktop.org/bugzilla/show_bug.cgi?id=743
 http://freedesktop.org/bugzilla/show_bug.cgi?id=744
 
 	DONE: Model a4techKB21 added
+
+-- GNOME
+
+http://bugzilla.gnome.org/show_bug.cgi?id=144646
+http://bugs.xfree86.org/show_bug.cgi?id=1415
+
+	DONE: Fixed, thanks to Dmitry

@@ -1450,7 +1450,32 @@
         <_shortDescription>Lva</_shortDescription>
         <_description>Latvian</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>basic</name>
+            <_description>Latvian Basic (RALT) variant</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>apostrophe</name>
+            <_description>Latvian Apostrophe (') variant</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tilde</name>
+            <_description>Latvian Tilde (~) variant</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>fkey</name>
+            <_description>Latvian F-letter (F) variant</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
