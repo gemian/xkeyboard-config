@@ -27,7 +27,8 @@ syr syr_phonetic tel \
 th th_pat th_tis \
 tj tml tr \
 ua us us_intl \
-uz yu
+uz yu \
+altwin compose ctrl group inet keypad level3 lock
                                                                                           
 EXTRA_DIST= $(symbols_DATA)
                                                                                           
