@@ -1373,14 +1373,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>ko</name>
-        <_shortDescription>Kor</_shortDescription>
-        <_description>Korean</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
         <name>la</name>
         <_shortDescription>LAm</_shortDescription>
         <_description>Latin America</_description>
@@ -1946,7 +1938,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>nec/jp</name>
+        <name>nec.vndr/jp</name>
         <_shortDescription>Jpn</_shortDescription>
         <_description>PC-98xx Series</_description>
       </configItem>
