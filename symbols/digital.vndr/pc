@@ -167,7 +167,7 @@ xkb_symbols "pc" {
 };
 
 xkb_symbols "pc104" {
-    include "digital/pc(pc)"
+    include "digital.vndr/pc(pc)"
 
     replace key <LALT> {       [       Alt_L ] };
     key	<LWIN> {       [	 Meta_L ] };

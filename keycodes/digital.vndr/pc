@@ -160,7 +160,7 @@ xkb_keycodes "pc_common" {
 };
 
 xkb_keycodes "pc10x" {
-    include "digital/pc(pc_common)"
+    include "digital.vndr/pc(pc_common)"
     <ESC>	= 8;
     <AE00>	= 14;
     <PRSC>	= 87;
@@ -186,28 +186,28 @@ xkb_keycodes "pc10x" {
 };
 
 xkb_keycodes "pc101" {
-    include "digital/pc(pc10x)"
+    include "digital.vndr/pc(pc10x)"
     <BKSL>  = 92;
     indicator 5 = "Num Lock";
 };
 
 
 xkb_keycodes "pc102" {
-    include "digital/pc(pc10x)"
+    include "digital.vndr/pc(pc10x)"
     <BKSL>  = 19;
     <AC12>  = 83;
     indicator 5 = "Num Lock";
 };
 
 xkb_keycodes "pc104" {
-    include "digital/pc(pc101)"
+    include "digital.vndr/pc(pc101)"
     <LWIN>  = 139;
     <RWIN>  = 140;
     <MENU>  = 141;
 };
 
 xkb_keycodes "lk411_common" {
-    include "digital/pc(pc_common)"
+    include "digital.vndr/pc(pc_common)"
     <AE00>      = 8;
     <AB00>      = 14;
     <FK13>	= 24;
@@ -240,12 +240,12 @@ xkb_keycodes "lk411_common" {
 };
 
 xkb_keycodes "lk411" {
-    include "digital/pc(lk411_common)"
+    include "digital.vndr/pc(lk411_common)"
     <BKSL>	= 92;
 };
 
 xkb_keycodes "lk450" {
-    include	"digital/pc(lk411)"
+    include	"digital.vndr/pc(lk411)"
     indicator 2 = "Compose";
     indicator 1 = "Wait";
 };
@@ -258,7 +258,7 @@ xkb_keycodes "lk450" {
 // LK411-LT = lk411
 
 xkb_keycodes "pcxajaa" {
-    include "digital/pc(pc10x)"
+    include "digital.vndr/pc(pc10x)"
     <BKSL>  = 93;
     <AC12>  = 83;
     <AB11>  = 81;
@@ -269,7 +269,7 @@ xkb_keycodes "pcxajaa" {
 };
 
 xkb_keycodes "lk411jj" {
-    include "digital/pc(lk411_common)"
+    include "digital.vndr/pc(lk411_common)"
     <AB11>  = 81;
     <BKSL>  = 83;
     <MUHE>  = 133;

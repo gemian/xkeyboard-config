@@ -35,7 +35,7 @@ xkb_symbols "basic" {
 
 // Similar to the above, but you should use Right Alt + numeric row
 // for Lithuanian letters
-partial default alphanumeric_keys modifier_keys
+partial alphanumeric_keys modifier_keys
 xkb_symbols "lt_us" {
 
     include "latin"
@@ -67,7 +67,7 @@ xkb_symbols "lt_us" {
 // Extensions:  B01 L3 is "<" , B02 L3 is ">" and B03 L3 is endash to make this
 // layout usable with pc101 and pc104 keyboards.
  
-partial default alphanumeric_keys modifier_keys
+partial alphanumeric_keys modifier_keys
 xkb_symbols "lt_std" {
 
     include "latin"

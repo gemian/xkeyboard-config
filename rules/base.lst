@@ -111,7 +111,6 @@
 ! layout
   us		U.S. English
   en_US		U.S. English w/ ISO9995-3
-  us_intl	U.S. English w/ deadkeys
   al		Albanian
   ar		Arabic
   am		Armenian
@@ -128,7 +127,6 @@
   hr		Croatian
   hr_US		Croatian (US)
   cz		Czech
-  cz_qwerty	Czech (qwerty)
   dk		Danish
   nl		Dutch
   dvorak	Dvorak
@@ -138,8 +136,7 @@
   fi		Finnish
   fr		French
   fr-latin9	French (alternative)
-  ge_la		Georgian (latin)
-  ge_ru		Georgian (russian)
+  ge		Georgian (latin)
   de		German
   el		Greek
   guj		Gujarati
@@ -163,7 +160,6 @@
   mk		Macedonian
   ml		Malayalam
   mt		Maltese
-  mt_us		Maltese (US layout)
   mn		Mongolian
   no		Norwegian
   ogham		Ogham
@@ -173,18 +169,14 @@
   pt		Portuguese
   ro		Romanian
   ru		Russian
-  se_FI		Northern Saami (Finland)
-  se_NO		Northern Saami (Norway)
-  se_SE		Northern Saami (Sweden)
+  sapmi		Northern Saami
   sr		Serbian (Cyrillic)
   yu		Serbian (Latin)
   si		Slovenian
   sk		Slovak
-  sk_qwerty	Slovak (qwerty)
   es		Spanish
   se		Swedish
-  fr_CH		Swiss French
-  de_CH		Swiss German
+  ch		Swiss
   syr		Syriac
   tj		Tajik
   tml		Tamil
@@ -193,7 +185,6 @@
   th_tis	Thai (TIS-820.2538)
   th_pat	Thai (Pattachote)
   tr		Turkish 
-  tr_f		Turkish (F)
   ua		Ukrainian 
   gb		United Kingdom
   uz            Uzbek

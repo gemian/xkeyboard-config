@@ -73,7 +73,7 @@ xkb_symbols "de" {
 };
 
 partial alphanumeric_keys 
-xkb_symbols "de-Sundeadkeys" {
+xkb_symbols "de_Sundeadkeys" {
     // modify the default Swiss German layout to use Sun dead keys
     include "ch(basic)"
     key <AE11> {	[ apostrophe,	question	],
@@ -85,12 +85,12 @@ xkb_symbols "de-Sundeadkeys" {
 };
 
 partial alphanumeric_keys 
-xkb_symbols "de-sundeadkeys" {
+xkb_symbols "de_sundeadkeys" {
     include "ch(Sundeadkeys)"
 };
 
 partial alphanumeric_keys 
-xkb_symbols "de-nodeadkeys" {
+xkb_symbols "de_nodeadkeys" {
     // modify the default Swiss German layout not to have any dead keys
     include "ch(basic)"
     key <AE11> {	[ apostrophe,	question	],
@@ -101,7 +101,7 @@ xkb_symbols "de-nodeadkeys" {
 			[ bracketright			]	};
 };
 
-partial default alphanumeric_keys 
+partial alphanumeric_keys 
 xkb_symbols "fr" {
 
     // Describes the differences between a very simple US/ASCII
@@ -124,7 +124,7 @@ xkb_symbols "fr" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "fr-Sundeadkeys" {
+xkb_symbols "fr_Sundeadkeys" {
     // modify the default Swiss French layout to use Sun dead keys
     include "ch(fr)"
     key <AE11> {	[ apostrophe,	question	],
@@ -136,12 +136,12 @@ xkb_symbols "fr-Sundeadkeys" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "fr-sundeadkeys" {
-    include "ch(fr-Sundeadkeys)"
+xkb_symbols "fr_sundeadkeys" {
+    include "ch(fr_Sundeadkeys)"
 };
 
 partial alphanumeric_keys
-xkb_symbols "fr-nodeadkeys" {
+xkb_symbols "fr_nodeadkeys" {
     // modify the default Swiss French layout not to have any dead keys
     include "ch(fr)"
     key <AE11> {	[ apostrophe,	question	],

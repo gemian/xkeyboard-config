@@ -1,7 +1,7 @@
 symbols_DATA = \
-de de_CH dk \
+ch de dk \
 es fi fr \
-fr_CH gb it \
+gb it \
 nl no pt \
 se us
 

@@ -642,14 +642,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>us_intl</name>
-        <_shortDescription>USA</_shortDescription>
-        <_description>U.S. English w/ dead keys</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
         <name>al</name>
         <_shortDescription>Alb</_shortDescription>
         <_description>Albanian</_description>
@@ -864,25 +856,16 @@
             <_description>Sun dead keys</_description>
           </configItem>
         </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>ca_enhanced</name>
-        <_shortDescription>Can</_shortDescription>
-        <_description>French Canadian</_description>
-      </configItem>
-      <variantList>
         <variant>
           <configItem>
-            <name>basic</name>
-            <_description>Basic</_description>
+            <name>enhanced</name>
+            <_description>French Canadian</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>sundeadkeys</name>
-            <_description>Sun dead keys</_description>
+            <name>enhanced_sundeadkeys</name>
+            <_description>French, Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -904,35 +887,20 @@
       <variantList>
         <variant>
           <configItem>
-            <name>basic</name>
-            <_description>Basic</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>bksl</name>
-            <_description>bksl</_description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>cz_qwerty</name>
-        <_shortDescription>Cze</_shortDescription>
-        <_description>Czech (qwerty)</_description>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>basic</name>
-            <_description>Basic</_description>
+            <_description>Extended Backslash</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>bksl</name>
-            <_description>bksl</_description>
+            <name>qwerty</name>
+            <_description>qwerty</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>qwerty_bksl</name>
+            <_description>qwerty, extended Backslash</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1058,8 +1026,8 @@
       <variantList>
         <variant>
           <configItem>
-            <name>basic</name>
-            <_description>Basic</_description>
+            <name>nodeadkeys</name>
+            <_description>Eliminate dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1108,19 +1076,24 @@
     </layout>
     <layout>
       <configItem>
-        <name>ge_la</name>
+        <name>ge</name>
         <_shortDescription>Geo</_shortDescription>
         <_description>Georgian (latin)</_description>
       </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>ge_ru</name>
-        <_shortDescription>Geo</_shortDescription>
-        <_description>Georgian (russian)</_description>
-      </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>la</name>
+            <_description>Latin</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ru</name>
+            <_description>Russian</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1129,12 +1102,6 @@
         <_description>German</_description>
       </configItem>
       <variantList>
-        <variant>
-          <configItem>
-            <name>basic</name>
-            <_description>Basic</_description>
-          </configItem>
-        </variant>
         <variant>
           <configItem>
             <name>deadacute</name>
@@ -1385,6 +1352,12 @@
             <_description>si1452</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>phonetic</name>
+            <_description>Phonetic</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1468,7 +1441,7 @@
         </variant>
       </variantList>
     </layout>
-    <layout>
+    <!--<layout>
       <configItem>
         <name>lt_std</name>
         <_shortDescription>Ltu</_shortDescription>
@@ -1488,7 +1461,7 @@
           </configItem>
         </variant>
       </variantList>
-    </layout>
+    </layout>-->
     <layout>
       <configItem>
         <name>lv</name>
@@ -1533,15 +1506,14 @@
         <_shortDescription>Mlt</_shortDescription>
         <_description>Maltese</_description>
       </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>mt_us</name>
-        <_shortDescription>Mlt</_shortDescription>
-        <_description>Maltese (US layout)</_description>
-      </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>us</name>
+            <_description>US layout</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1558,12 +1530,6 @@
         <_description>Norwegian</_description>
       </configItem>
       <variantList>
-        <variant>
-          <configItem>
-            <name>basic</name>
-            <_description>Basic</_description>
-          </configItem>
-        </variant>
         <variant>
           <configItem>
             <name>nodeadkeys</name>
@@ -1653,8 +1619,14 @@
       <variantList>
         <variant>
           <configItem>
-            <name>ro_us</name>
+            <name>us</name>
             <_description>US keyboard with Romanian letters</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>de</name>
+            <_description>German for Romanian keyboard</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1688,30 +1660,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>se_FI</name>
-        <_shortDescription>Sme</_shortDescription>
-        <_description>Northern Saami (Finland)</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>se_NO</name>
-        <_shortDescription>Sme</_shortDescription>
-        <_description>Northern Saami (Norway)</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>se_SE</name>
-        <_shortDescription>Sme</_shortDescription>
-        <_description>Northern Saami (Sweden)</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
         <name>sr</name>
         <_shortDescription>Scg</_shortDescription>
         <_description>Serbian</_description>
@@ -1742,35 +1690,20 @@
       <variantList>
         <variant>
           <configItem>
-            <name>basic</name>
-            <_description>Basic</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>bksl</name>
-            <_description>bksl</_description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>sk_qwerty</name>
-        <_shortDescription>Svk</_shortDescription>
-        <_description>Slovak (qwerty)</_description>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>basic</name>
-            <_description>Basic</_description>
+            <_description>Extended Backslash</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>bksl</name>
-            <_description>bksl</_description>
+            <name>qwerty</name>
+            <_description>qwerty</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>bksl_qwerty</name>
+            <_description>qwerty, extended Backslash</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1805,12 +1738,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>basic</name>
-            <_description>Basic</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
@@ -1819,42 +1746,45 @@
     </layout>
     <layout>
       <configItem>
-        <name>fr_CH</name>
-        <_shortDescription>Fra</_shortDescription>
-        <_description>Swiss French</_description>
+        <name>ch</name>
+        <_shortDescription>Swi</_shortDescription>
+        <_description>Swiss</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
-            <name>nodeadkeys</name>
-            <_description>Eliminate dead keys</_description>
+            <name>de</name>
+            <_description>German</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>sundeadkeys</name>
-            <_description>Sun dead keys</_description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>de_CH</name>
-        <_shortDescription>Deu</_shortDescription>
-        <_description>Swiss German</_description>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>nodeadkeys</name>
-            <_description>Eliminate dead keys</_description>
+            <name>de_nodeadkeys</name>
+            <_description>German, eliminate dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>sundeadkeys</name>
-            <_description>Sun dead keys</_description>
+            <name>de_sundeadkeys</name>
+            <_description>German, Sun dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>fr</name>
+            <_description>French</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>fr_nodeadkeys</name>
+            <_description>French, eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>fr_sundeadkeys</name>
+            <_description>French, Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1865,15 +1795,14 @@
         <_shortDescription>Syr</_shortDescription>
         <_description>Syriac</_description>
       </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>syr_phonetic</name>
-        <_shortDescription>Syr</_shortDescription>
-        <_description>Syriac phonetic</_description>
-      </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>phonetic</name>
+            <_description>Phonetic</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1928,23 +1857,28 @@
       <configItem>
         <name>th</name>
         <_shortDescription>Tha</_shortDescription>
-        <_description>Thai (Kedmanee)</_description>
+        <_description>Thai</_description>
       </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>th_tis</name>
-        <_description>Thai (TIS-820.2538)</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>th_pat</name>
-        <_description>Thai (Pattachote)</_description>
-      </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>basic</name>
+            <_description>Kedmanee</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tis</name>
+            <_description>TIS-820.2538</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>pat</name>
+            <_description>Pattachote</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -2095,23 +2029,15 @@
     </layout>
     <layout>
       <configItem>
-        <name>il_phonetic</name>
-        <_shortDescription>Isr</_shortDescription>
-        <_description>Israeli phonetic</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
         <name>sapmi</name>
         <_shortDescription>Sme</_shortDescription>
-        <_description>Sapmi</_description>
+        <_description>Northern Saami</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>Basic</_description>
+            <_description>Norwegian</_description>
           </configItem>
         </variant>
         <variant>
@@ -2123,7 +2049,7 @@
         <variant>
           <configItem>
             <name>sefi</name>
-            <_description>sefi</_description>
+            <_description>Finish and Swedish</_description>
           </configItem>
         </variant>
       </variantList>

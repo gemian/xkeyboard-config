@@ -4,29 +4,29 @@ symbols_DATA = \
 al am ar \
 be ben bg \
 br bs by ch cz \
-cz_qwerty de dev \
+de dev \
 dk dvorak dz \
 ee el en_US \
 es fi fo \
 fr fr-latin9 gb \
-ge_la ge_ru guj \
+ge guj \
 gur hr ie \
-il il_phonetic ir \
+il ir \
 is it iu \
 kan la latin \
 lo lt lv \
 mk ml mm \
-mt mt_us nl \
+mt nl \
 no ogham ori \
 pc pl pl2 \
 pt ro ru \
-sapmi se se_FI \
-se_NO se_SE si \
-sk sk_qwerty sr \
-syr syr_phonetic tel \
-th th_pat th_tis \
+sapmi se \
+si \
+sk sk sr \
+syr tel \
+th \
 tj tml tr \
-ua us us_intl \
+ua us \
 uz yu \
 altwin compose ctrl group inet keypad level3 lock srvr_ctrl
                                                                                           

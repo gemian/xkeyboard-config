@@ -49,13 +49,6 @@ xkb_keymap "cz" {
     xkb_symbols		{ include "en_US(pc105)+cz"	};
     xkb_geometry	{ include "pc"			};
 };
-xkb_keymap "cz_qwerty" {
-    xkb_keycodes	{ include "xfree86"		};
-    xkb_types		{ include "default"		};
-    xkb_compatibility	{ include "default"		};
-    xkb_symbols		{ include "en_US(pc105)+cz_qwerty"	};
-    xkb_geometry	{ include "pc"			};
-};
 xkb_keymap "de"	{
     xkb_keycodes	{ include "xfree86"		};
     xkb_types		{ include "default"		};
@@ -63,11 +56,18 @@ xkb_keymap "de"	{
     xkb_symbols		{ include "en_US(pc105)+de"	};
     xkb_geometry 	{ include "pc(pc102)"		};
 };
-xkb_keymap "de_CH"	{
+xkb_keymap "ch_de"	{
     xkb_keycodes	{ include "xfree86"		};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols		{ include "en_US(pc105)+de_CH"	};
+    xkb_symbols		{ include "en_US(pc105)+ch(de)"	};
+    xkb_geometry 	{ include "pc(pc102)"		};
+};
+xkb_keymap "ch_fr"	{
+    xkb_keycodes	{ include "xfree86"		};
+    xkb_types		{ include "default"		};
+    xkb_compatibility	{ include "default"		};
+    xkb_symbols		{ include "en_US(pc105)+ch(fr)"	};
     xkb_geometry 	{ include "pc(pc102)"		};
 };
 xkb_keymap "dk"	{
@@ -117,13 +117,6 @@ xkb_keymap "fr_CA"	{
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols		{ include "en_US(pc105)+ca"	};
-    xkb_geometry 	{ include "pc(pc102)"		};
-};
-xkb_keymap "fr_CH"	{
-    xkb_keycodes	{ include "xfree86"		};
-    xkb_types		{ include "default"		};
-    xkb_compatibility	{ include "default"		};
-    xkb_symbols		{ include "en_US(pc105)+fr_CH"	};
     xkb_geometry 	{ include "pc(pc102)"		};
 };
 xkb_keymap "gb"	{
@@ -187,13 +180,6 @@ xkb_keymap "mt" {
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols		{ include "en_US(pc105)+mt"	};
-    xkb_geometry	{ include "pc(pc102)"		};
-};
-xkb_keymap "mt_us" {
-    xkb_keycodes	{ include "xfree86"		};
-    xkb_types		{ include "default"		};
-    xkb_compatibility	{ include "default"		};
-    xkb_symbols		{ include "en_US(pc105)+mt_us"	};
     xkb_geometry	{ include "pc(pc102)"		};
 };
 xkb_keymap "no"	{
@@ -277,13 +263,6 @@ xkb_keymap "sk" {
     xkb_symbols		{ include "en_US(pc105)+sk"	};
     xkb_geometry	{ include "pc"			};
 };
-xkb_keymap "sk_qwerty" {
-    xkb_keycodes	{ include "xfree86"		};
-    xkb_types		{ include "default"		};
-    xkb_compatibility	{ include "default"		};
-    xkb_symbols		{ include "en_US(pc105)+sk_qwerty"	};
-    xkb_geometry	{ include "pc"			};
-};
 // Additions by Emil Soleyman-Zomalan, <emil@nishra.com>
 xkb_keymap "syr" {
     xkb_keycodes	{ include "xfree86"		};
@@ -341,7 +320,7 @@ xkb_keymap "us_intl" {
     xkb_keycodes	{ include "xfree86"		};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols		{ include "us(pc101)+us_intl"	};
+    xkb_symbols		{ include "us(pc101)+us(intl)"	};
     xkb_geometry	{ include "pc"			};
 };
 xkb_keymap "us_microsoft" {
@@ -360,3 +339,39 @@ xkb_keymap "uz" {
     xkb_geometry	{ include "pc(pc102)"		};
 };
 
+# svu: compatibility keymaps, based on variants
+xkb_keymap "cz_qwerty" {
+    xkb_keycodes	{ include "xfree86"		};
+    xkb_types		{ include "default"		};
+    xkb_compatibility	{ include "default"		};
+    xkb_symbols		{ include "en_US(pc105)+cz(qwerty)"	};
+    xkb_geometry	{ include "pc"			};
+};
+xkb_keymap "de_CH"	{
+    xkb_keycodes	{ include "xfree86"		};
+    xkb_types		{ include "default"		};
+    xkb_compatibility	{ include "default"		};
+    xkb_symbols		{ include "en_US(pc105)+ch(de)"	};
+    xkb_geometry 	{ include "pc(pc102)"		};
+};
+xkb_keymap "fr_CH"	{
+    xkb_keycodes	{ include "xfree86"		};
+    xkb_types		{ include "default"		};
+    xkb_compatibility	{ include "default"		};
+    xkb_symbols		{ include "en_US(pc105)+ch(fr)"	};
+    xkb_geometry 	{ include "pc(pc102)"		};
+};
+xkb_keymap "mt_us" {
+    xkb_keycodes	{ include "xfree86"		};
+    xkb_types		{ include "default"		};
+    xkb_compatibility	{ include "default"		};
+    xkb_symbols		{ include "en_US(pc105)+mt(us)"	};
+    xkb_geometry	{ include "pc(pc102)"		};
+};
+xkb_keymap "sk_qwerty" {
+    xkb_keycodes	{ include "xfree86"		};
+    xkb_types		{ include "default"		};
+    xkb_compatibility	{ include "default"		};
+    xkb_symbols		{ include "en_US(pc105)+sk(qwerty)"	};
+    xkb_geometry	{ include "pc"			};
+};

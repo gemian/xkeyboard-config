@@ -129,8 +129,8 @@ xkb_symbols "us" {
 // *								*
 // **************************************************************
 xkb_symbols "vt105-tw" {
-    include "digital/us(us)"
-    include "digital/vt(vt105)"
+    include "digital.vndr/us(us)"
+    include "digital.vndr/vt(vt105)"
     override key <AE03> { 
 	symbols[Group1]= [ 3, numbersign ],
 	symbols[Group2]= [ sterling ]
@@ -138,8 +138,8 @@ xkb_symbols "vt105-tw" {
     key <AB00> {       [	     less,	  greater ] };
 };
 
-xkb_symbols "vt105-dp" { include "digital/us(vt105-tw)" };
-xkb_symbols "vt105"    { include "digital/us(vt105-tw)" };
+xkb_symbols "vt105-dp" { include "digital.vndr/us(vt105-tw)" };
+xkb_symbols "vt105"    { include "digital.vndr/us(vt105-tw)" };
 
 // **************************************************************
 // *								*
@@ -150,8 +150,8 @@ xkb_symbols "vt105"    { include "digital/us(vt105-tw)" };
 // *								*
 // **************************************************************
 xkb_symbols "vt108-tw" {
-    include "digital/us(us)"
-    include "digital/vt(vt108)"
+    include "digital.vndr/us(us)"
+    include "digital.vndr/vt(vt108)"
     replace key <LCMP> { [ Multi_key ] };
     override key <AE03> { 
 	symbols[Group1]= [ 3, numbersign ],
@@ -160,8 +160,8 @@ xkb_symbols "vt108-tw" {
     key <AB00> {       [	     less,	  greater ] };
 };
 
-xkb_symbols "vt108-dp" { include "digital/us(vt108-tw)" };
-xkb_symbols "vt108"    { include "digital/us(vt108-tw)" };
+xkb_symbols "vt108-dp" { include "digital.vndr/us(vt108-tw)" };
+xkb_symbols "vt108"    { include "digital.vndr/us(vt108-tw)" };
 
 // **************************************************************
 // *								*
@@ -175,7 +175,7 @@ xkb_symbols "vt108"    { include "digital/us(vt108-tw)" };
 // *								*
 // **************************************************************
 xkb_symbols "unix" {
-    include "digital/us(vt108)"
+    include "digital.vndr/us(vt108)"
     override key <AE00>	{ [ Escape ] };
     override key <AB00>	{ [ grave, asciitilde ] };
 };
@@ -189,16 +189,16 @@ xkb_symbols "unix" {
 // *								*
 // **************************************************************
 xkb_symbols "pcxalga" {
-    include "digital/pc(pc)"
-    include "digital/us(us)"
+    include "digital.vndr/pc(pc)"
+    include "digital.vndr/us(us)"
     replace key <RALT> { [ Alt_R, Meta_R ] };
 };
 
-xkb_symbols "pcxal"   { include "digital/us(pcxalga)" };
-xkb_symbols "pcxalaa" { include "digital/us(pcxalga)" };
-xkb_symbols "pcxalfa" { include "digital/us(pcxalga)" };
-xkb_symbols "pcxalka" { include "digital/us(pcxalga)" };
-xkb_symbols "lk44x"   { include "digital/us(pcxalga)" };
+xkb_symbols "pcxal"   { include "digital.vndr/us(pcxalga)" };
+xkb_symbols "pcxalaa" { include "digital.vndr/us(pcxalga)" };
+xkb_symbols "pcxalfa" { include "digital.vndr/us(pcxalga)" };
+xkb_symbols "pcxalka" { include "digital.vndr/us(pcxalga)" };
+xkb_symbols "lk44x"   { include "digital.vndr/us(pcxalga)" };
 
 // **************************************************************
 // *								*
@@ -206,7 +206,7 @@ xkb_symbols "lk44x"   { include "digital/us(pcxalga)" };
 // *								*
 // **************************************************************
 xkb_symbols "pc104" {
-    include "digital/pc(pc104)"
-    include "digital/us(us)"
+    include "digital.vndr/pc(pc104)"
+    include "digital.vndr/us(us)"
     replace key <RALT> { [ Alt_R ] };
 };

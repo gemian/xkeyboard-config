@@ -148,3 +148,35 @@ xkb_symbols "extended" {
     key <KPDL> {	[  KP_Separator , KP_Delete	]	};
 
 };
+
+partial alphanumeric_keys 
+xkb_symbols "de" {
+    include "macintosh.vndr/ch(extended)"
+};
+
+partial alphanumeric_keys 
+xkb_symbols "fr" {
+
+    // Describes the differences between a very simple US/ASCII
+    // keyboard and a very simple Swiss/French keybaord
+
+    include "macintosh.vndr/ch(extended)"
+    name[Group1]= "Swiss French";
+
+    override key <AD11> {
+	[ egrave,	udiaeresis	],
+	[ bracketleft			]
+    };
+    override key <AC10> {
+	[ eacute,	odiaeresis	]
+    };
+    override key <AC11> {
+	[ agrave,	adiaeresis	],
+	[  braceleft			]
+    };
+};
+
+partial alphanumeric_keys
+xkb_symbols "nodeadkeys" {
+    include "macintosh.vndr/fr_CH" // for consistent naming
+};

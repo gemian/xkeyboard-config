@@ -55,134 +55,134 @@
 // **************************************************************
 
 xkb_keymap "lk201" {
-    xkb_keycodes        { include "digital/lk(lk201)" 		};
+    xkb_keycodes        { include "digital.vndr/lk(lk201)" 		};
     xkb_types           { include "default"    	        	};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(vt105)"		};
+    xkb_symbols         { include "digital.vndr/us(vt105)"		};
     xkb_geometry	{ description = "Digital US LK201";
-			  include "digital/lk(lk201)"		};
+			  include "digital.vndr/lk(lk201)"		};
 };
 
 xkb_keymap "lk401" {
-    xkb_keycodes        { include "digital/lk(lk401)" 		};
+    xkb_keycodes        { include "digital.vndr/lk(lk401)" 		};
     xkb_types           { include "default"    	        	};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(vt108)"		};
+    xkb_symbols         { include "digital.vndr/us(vt108)"		};
     xkb_geometry	{ description = "Digital US LK401";
-			  include "digital/lk(lk401)"		};
+			  include "digital.vndr/lk(lk401)"		};
 };
 
 xkb_keymap "lk411" {
-    xkb_keycodes        { include "digital/pc(lk411)" 		};
+    xkb_keycodes        { include "digital.vndr/pc(lk411)" 		};
     xkb_types           { include "default"    	        	};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(vt108)"		};
+    xkb_symbols         { include "digital.vndr/us(vt108)"		};
     xkb_geometry	{ description = "Digital US LK411";
-			  include "digital/lk(lk401)"		};
+			  include "digital.vndr/lk(lk401)"		};
 };
 
 xkb_keymap "lk421" {
-    xkb_keycodes        { include "digital/lk(lk421)"		};
+    xkb_keycodes        { include "digital.vndr/lk(lk421)"		};
     xkb_types           { include "default"    	        	};
     xkb_compatibility   { include "default"	        	};
-    xkb_symbols         { include "digital/us(unix)"		};
+    xkb_symbols         { include "digital.vndr/us(unix)"		};
     xkb_geometry	{ description = "Digital US LK421";
-			  include "digital/unix(unix)"		};
+			  include "digital.vndr/unix(unix)"		};
 };
 
 xkb_keymap "lk441" {
-    xkb_keycodes        { include "digital/lk(lk443)" 		};
+    xkb_keycodes        { include "digital.vndr/lk(lk443)" 		};
     xkb_types           { include "default"    	        	};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(lk44x)"		};
+    xkb_symbols         { include "digital.vndr/us(lk44x)"		};
     xkb_geometry	{ description = "Digital US LK441";
-			  include "digital/pc(pc101)"
-			  include "digital/pc(leds_alone)"	};
+			  include "digital.vndr/pc(pc101)"
+			  include "digital.vndr/pc(leds_alone)"	};
 };
 
 xkb_keymap "lk443" {
-    xkb_keycodes        { include "digital/lk(lk443)" 		};
+    xkb_keycodes        { include "digital.vndr/lk(lk443)" 		};
     xkb_types           { include "default"    	        	};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(lk44x)"		};
+    xkb_symbols         { include "digital.vndr/us(lk44x)"		};
     xkb_geometry	{ description = "Digital US LK443";
-			  include "digital/pc(pc101)"
-			  include "digital/pc(leds_alone)"	};
+			  include "digital.vndr/pc(pc101)"
+			  include "digital.vndr/pc(leds_alone)"	};
 };
 
 xkb_keymap "lk44x" {
-    xkb_keycodes        { include "digital/lk(lk443)" 		};
+    xkb_keycodes        { include "digital.vndr/lk(lk443)" 		};
     xkb_types           { include "default"    	        	};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(lk44x)"		};
+    xkb_symbols         { include "digital.vndr/us(lk44x)"		};
     xkb_geometry	{ description = "Digital US LK443";
-			  include "digital/pc(pc101)"
-			  include "digital/pc(leds_alone)"	};
+			  include "digital.vndr/pc(pc101)"
+			  include "digital.vndr/pc(leds_alone)"	};
 };
 
 xkb_keymap "lk450" {
-    xkb_keycodes        { include "digital/pc(lk450)" 		};
+    xkb_keycodes        { include "digital.vndr/pc(lk450)" 		};
     xkb_types           { include "default"    	        	};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(vt108)"		};
+    xkb_symbols         { include "digital.vndr/us(vt108)"		};
     xkb_geometry	{ description = "Digital US LK450";
-			  include "digital/lk(lk450)"		};
+			  include "digital.vndr/lk(lk450)"		};
 };
 
 xkb_keymap "pcxalaa" {
-    xkb_keycodes        { include "digital/pc(pc101)" 		};
+    xkb_keycodes        { include "digital.vndr/pc(pc101)" 		};
     xkb_types           { include "default"   	 		};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(pcxalaa)"		};
+    xkb_symbols         { include "digital.vndr/us(pcxalaa)"		};
     xkb_geometry	{ description = "Digital US PCXAL-AA";
-			  include "digital/pc(pc101)"
-			  include "digital/pc(leds_alone)"	};
+			  include "digital.vndr/pc(pc101)"
+			  include "digital.vndr/pc(leds_alone)"	};
 };
 
 xkb_keymap "pcxalfa" {
-    xkb_keycodes        { include "digital/pc(pc101)" 		};
+    xkb_keycodes        { include "digital.vndr/pc(pc101)" 		};
     xkb_types           { include "default"   	 		};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(pcxalfa)"		};
+    xkb_symbols         { include "digital.vndr/us(pcxalfa)"		};
     xkb_geometry	{ description = "Digital US PCXAL-FA";
-			  include "digital/pc(pc101)"
-			  include "digital/pc(leds_on_keys)"	};
+			  include "digital.vndr/pc(pc101)"
+			  include "digital.vndr/pc(leds_on_keys)"	};
 };
 
 xkb_keymap "pcxalga" {
-    xkb_keycodes        { include "digital/pc(pc101)" 		};
+    xkb_keycodes        { include "digital.vndr/pc(pc101)" 		};
     xkb_types           { include "default"   	 		};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(pcxalga)"		};
+    xkb_symbols         { include "digital.vndr/us(pcxalga)"		};
     xkb_geometry	{ description = "Digital US PCXAL-GA";
-			  include "digital/pc(pc101)"
-			  include "digital/pc(leds_alone)"	};
+			  include "digital.vndr/pc(pc101)"
+			  include "digital.vndr/pc(leds_alone)"	};
 };
 
 xkb_keymap "pcxalka" {
-    xkb_keycodes        { include "digital/pc(pc101)" 		};
+    xkb_keycodes        { include "digital.vndr/pc(pc101)" 		};
     xkb_types           { include "default"   	 		};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(pcxalka)"		};
+    xkb_symbols         { include "digital.vndr/us(pcxalka)"		};
     xkb_geometry	{ description = "Digital US PCXAL-KA";
-			  include "digital/pc(pc101)"
-			  include "digital/pc(leds_alone)"	};
+			  include "digital.vndr/pc(pc101)"
+			  include "digital.vndr/pc(leds_alone)"	};
 };
 
 xkb_keymap "pcxal" {
-    xkb_keycodes        { include "digital/pc(pc101)" 		};
+    xkb_keycodes        { include "digital.vndr/pc(pc101)" 		};
     xkb_types           { include "default"   	 		};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(pcxal)"		};
+    xkb_symbols         { include "digital.vndr/us(pcxal)"		};
     xkb_geometry	{ description = "Digital US PCXAL";
-			  include "digital/pc(pc101)"
-			  include "digital/pc(leds_alone)"	};
+			  include "digital.vndr/pc(pc101)"
+			  include "digital.vndr/pc(leds_alone)"	};
 };
 
 xkb_keymap "mnk" {
-    xkb_keycodes        { include "digital/pc(pc104)" 		};
+    xkb_keycodes        { include "digital.vndr/pc(pc104)" 		};
     xkb_types           { include "default"   	 		};
     xkb_compatibility   { include "default"			};
-    xkb_symbols         { include "digital/us(pc104)"		};
+    xkb_symbols         { include "digital.vndr/us(pc104)"		};
     xkb_geometry	{ include "microsoft"			};
 };

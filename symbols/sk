@@ -81,3 +81,24 @@ xkb_symbols "bksl" {
 
     key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
 };
+// $XFree86$
+
+partial alphanumeric_keys 
+xkb_symbols "qwerty" {
+ 
+    // This layout should work exactly as a sk with the exception 
+    // of 'Z' and 'Y' keys, which are in the qwerty style (ie. swapped).
+    // 2001 by Kamil Toman <ktoman@email.cz>
+    
+    include "sk(basic)"
+
+    key <AB01>	{ [         z,          Z,       degree,     NoSymbol ]	};
+    key <AD06>	{ [         y,          Y,     NoSymbol,     NoSymbol ]	};
+};
+
+// Use <BKSL> instead of <LSGT> (useful for keyboard without <LSGT> key)
+xkb_symbols "qwerty_bksl" {
+    include "sk(qwerty)"
+
+    key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
+};

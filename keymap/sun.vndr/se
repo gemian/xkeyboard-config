@@ -1,11 +1,11 @@
-// $XFree86: xc/programs/xkbcomp/keymap/sun/se,v 1.2 1998/12/20 09:34:42 dawes Exp $
+// $XFree86: xc/programs/xkbcomp/keymap/sun.vndr/se,v 1.2 1998/12/20 09:34:42 dawes Exp $
 
 default xkb_keymap "type5c_se_fixdollar" {
     xkb_keycodes	{ include "sun(type5_se)"	};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols 	{ 
-	include "sun/se(sun5)+se(fixdollar)"
+	include "sun.vndr/se(sun5)+se(fixdollar)"
     };
     xkb_geometry	{ include "sun(type5c_se)"	};
 };
@@ -14,7 +14,7 @@ xkb_keymap "type5c_se" {
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols 	{ 
-	include "sun/se(sun5)"
+	include "sun.vndr/se(sun5)"
     };
     xkb_geometry	{ include "sun(type5c_se)"	};
 };
@@ -23,7 +23,7 @@ xkb_keymap "type5_se" {
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols 	{ 
-	include "sun/se(sun5)"
+	include "sun.vndr/se(sun5)"
     };
     xkb_geometry	{ include "sun(type5_se)"	};
 };
@@ -32,7 +32,7 @@ xkb_keymap "type4_se_fixdollar_swapctl" {
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols 	{ 
-	include "sun/se(sun4)+se(fixdollar)"
+	include "sun.vndr/se(sun4)+se(fixdollar)"
     };
     xkb_geometry	{ include "sun(type4_se)"	};
 };
@@ -41,7 +41,7 @@ xkb_keymap "type4_se_fixdollar" {
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols 	{ 
-	include "sun/se(sun4)+se(fixdollar)"
+	include "sun.vndr/se(sun4)+se(fixdollar)"
     };
     xkb_geometry	{ include "sun(type4_se)"	};
 };
@@ -50,7 +50,7 @@ xkb_keymap "type4_se" {
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols 	{ 
-	include "sun/se(sun4)"
+	include "sun.vndr/se(sun4)"
     };
     xkb_geometry	{ include "sun(type4_se)"	};
 };

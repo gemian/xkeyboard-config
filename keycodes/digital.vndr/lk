@@ -151,7 +151,7 @@ xkb_keycodes "lk_common" {
 };
 
 xkb_keycodes "lkx01" {
-    include "digital/lk(lk_common)"
+    include "digital.vndr/lk(lk_common)"
     <AB00>	= 201;
     <FK13>	= 115;
     <FK14>	= 116;
@@ -178,7 +178,7 @@ xkb_keycodes "lkx01" {
 };
 
 xkb_keycodes "lk201" {
-    include "digital/lk(lkx01)"
+    include "digital.vndr/lk(lkx01)"
     indicator 4 = "Scroll Lock";
     indicator 3 = "Caps Lock";
     indicator 2 = "Compose";
@@ -186,20 +186,20 @@ xkb_keycodes "lk201" {
 };
 
 xkb_keycodes "lk421" {
-    include	"digital/lk(lkx01)"
+    include	"digital.vndr/lk(lkx01)"
     <LALT>	= 172;
     <RALT>	= 178;
     <RCMP>	= 173;
 };
 
 xkb_keycodes "lk401" {
-    include	"digital/lk(lk421)"
+    include	"digital.vndr/lk(lk421)"
     indicator 4 = "Scroll Lock";
     indicator 3 = "Caps Lock";
 };
 
 xkb_keycodes "lk44x" {
-    include "digital/lk(lk_common)"
+    include "digital.vndr/lk(lk_common)"
     <ESC>	= 85;
     <PRSC>	= 115;
     <SCLK>	= 116;
@@ -221,7 +221,7 @@ xkb_keycodes "lk44x" {
 };
 
 xkb_keycodes "lk443" {
-    include "digital/lk(lk44x)"
+    include "digital.vndr/lk(lk44x)"
     <BKSL>	= 247;
     indicator 3 = "Caps Lock";
     indicator 4 = "Scroll Lock";
@@ -229,7 +229,7 @@ xkb_keycodes "lk443" {
 };
 
 xkb_keycodes "lk444" {
-    include "digital/lk(lk44x)"
+    include "digital.vndr/lk(lk44x)"
     <BKSL>	= 201;
     <AC12>	= 247;
     indicator 3 = "Caps Lock";
@@ -247,25 +247,25 @@ xkb_keycodes "lk444" {
 // LK441-LT = lk443
 
 xkb_keycodes "lk421aj" {
-    include "digital/lk(lk421)"
+    include "digital.vndr/lk(lk421)"
     <AB11>  = 252;
 };
 
 xkb_keycodes "lk421jj" {
-    include "digital/lk(lk421aj)"
+    include "digital.vndr/lk(lk421aj)"
     <MUHE>  = 94;
     <KANJ>  = 95;
     <HIRA>  = 97;
 };
 
 xkb_keycodes "lk401bj" {
-    include "digital/lk(lk401)"
+    include "digital.vndr/lk(lk401)"
     <MUHE>  = 94;
     <KANJ>  = 95;
     <HIRA>  = 97;
 };
 
 xkb_keycodes "lk401jj" {
-    include "digital/lk(lk401bj)"
+    include "digital.vndr/lk(lk401bj)"
     <AB11>  = 252;
 };

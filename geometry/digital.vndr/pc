@@ -164,7 +164,7 @@ partial xkb_geometry "leds_alone" {
 };
 
 xkb_geometry "pc101" {
-    include "digital/pc(common)"
+    include "digital.vndr/pc(common)"
 
     shape.cornerRadius = 1;
     shape "BKSP" { primary = { [36,19] }, { [3,2], [33,16] } };
@@ -225,7 +225,7 @@ xkb_geometry "pc101" {
 };
 
 xkb_geometry "pc102" {
-    include "digital/pc(common)"
+    include "digital.vndr/pc(common)"
 
     shape.cornerRadius = 1;
     shape "BKSP" { primary = { [36,19] }, { [3,2], [33,16] } };
@@ -289,7 +289,7 @@ xkb_geometry "pc102" {
 };
 
 xkb_geometry "pcxaj" {
-    include "digital/pc(common)"
+    include "digital.vndr/pc(common)"
 
     shape.cornerRadius = 1;
     shape "BKSP" { primary = { [36,19] }, { [3,2], [33,16] } };

@@ -28,41 +28,41 @@ xkb_keymap "type4_us" {
     xkb_keycodes	{ include "sun(type4)"		};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols 	{ include "sun/us(sun4)"	};
+    xkb_symbols 	{ include "sun.vndr/us(sun4)"	};
     xkb_geometry	{ include "sun(type4)"		};
 };
 xkb_keymap "type4_us_openlook" {
     xkb_keycodes	{ include "sun(type4)"		};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols 	{ include "sun/us(sun4ol)"	};
+    xkb_symbols 	{ include "sun.vndr/us(sun4ol)"	};
     xkb_geometry	{ include "sun(type4)"		};
 };
 default xkb_keymap "type5_us" {
     xkb_keycodes	{ include "sun(type5)"		};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols 	{ include "sun/us(sun5)"	};
+    xkb_symbols 	{ include "sun.vndr/us(sun5)"	};
     xkb_geometry	{ include "sun(type5)"		};
 };
 xkb_keymap "type5_us_openlook" {
     xkb_keycodes	{ include "sun(type5)"		};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols 	{ include "sun/us(sun5ol)"	};
+    xkb_symbols 	{ include "sun.vndr/us(sun5ol)"	};
     xkb_geometry	{ include "sun(type5)"		};
 };
 xkb_keymap "type5_unix" {
     xkb_keycodes	{ include "sun(type5)"		};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols 	{ include "sun/us(sun5)"	};
+    xkb_symbols 	{ include "sun.vndr/us(sun5)"	};
     xkb_geometry	{ include "sun(type5unix)"	};
 };
 xkb_keymap "type5_unix_openlook" {
     xkb_keycodes	{ include "sun(type5)"		};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols 	{ include "sun/us(sun5ol)"	};
+    xkb_symbols 	{ include "sun.vndr/us(sun5ol)"	};
     xkb_geometry	{ include "sun(type5unix)"	};
 };

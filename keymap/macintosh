@@ -4,7 +4,7 @@ default xkb_keymap "macintosh" {
     xkb_keycodes	{ include "xfree86"				};
     xkb_types		{ include "default"				};
     xkb_compatibility	{ include "default"				};
-    xkb_symbols		{ include "macintosh/us(extended)"		};
+    xkb_symbols		{ include "macintosh.vndr/us(extended)"		};
     xkb_geometry	{ include "macintosh"				};
 };
 
@@ -12,6 +12,6 @@ xkb_keymap "macintosh_old" {
     xkb_keycodes	{ include "macintosh"				};
     xkb_types		{ include "default"				};
     xkb_compatibility	{ include "default"				};
-    xkb_symbols		{ include "macintosh/us(extended)"		};
+    xkb_symbols		{ include "macintosh.vndr/us(extended)"		};
     xkb_geometry	{ include "macintosh"				};
 };

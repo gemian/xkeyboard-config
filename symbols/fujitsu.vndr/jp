@@ -27,7 +27,7 @@
 // Japanese layout for a Fujitsu 140 key keyboard
 
 xkb_symbols {
-    override "fujitsu/us"
+    override "fujitsu.vndr/us"
     augment key <AE01> { [],			[ kana_NU	] 	};
 	    key <AE02> { [ 2, quotedbl	],	[ kana_FU	]	};
 	    key <AE03> { [ 3, numbersign ],	[ kana_A, kana_a ]	};
