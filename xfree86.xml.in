@@ -334,6 +334,12 @@
     </model>
     <model>
       <configItem>
+        <name>logiaccess</name>
+        <_description>Logitech Access Keyboard</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>ltcd</name>
         <_description>Logitech Cordless Desktop</_description>
       </configItem>
@@ -592,7 +598,14 @@
         <_shortDescription>USA</_shortDescription>
         <_description>U.S. English</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>intl</name>
+            <_description>International (with dead keys)</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -670,7 +683,20 @@
         <_shortDescription>Arm</_shortDescription>
         <_description>Armenian</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>old</name>
+            <_description>Old standard</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>phonetic</name>
+            <_description>Phonetic</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -937,14 +963,26 @@
         </variant>
         <variant>
           <configItem>
+            <name>pl</name>
+            <_description>Polish</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>pl_altquotes</name>
+            <_description>Polish with Polish quotes on key "1/!"</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>se</name>
             <_description>Swedish</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>sv</name>
-            <_description>Sv</_description>
+            <name>gb</name>
+            <_description>United Kingdom</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1456,7 +1494,14 @@
         <_shortDescription>Mal</_shortDescription>
         <_description>Malayalam</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>mlplusnum</name>
+            <_description>With Malayalam digits</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1647,7 +1692,14 @@
         <_shortDescription>Scg</_shortDescription>
         <_description>Serbian</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>yz</name>
+            <_description>Serbian Cyrillic (swap Zhe, Ze)</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1916,7 +1968,14 @@
         <_shortDescription>GBr</_shortDescription>
         <_description>United Kingdom</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>intl</name>
+            <_description>International (with dead keys)</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1940,7 +1999,26 @@
         <_shortDescription>Yug</_shortDescription>
         <_description>Yugoslavian</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>unicode</name>
+            <_description>Serbian Latin Unicode</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>yz</name>
+            <_description>Serbian Latin (swap Y, Z)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>unicodeyz</name>
+            <_description>Serbian Latin Unicode (swap ZHE, Z)</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
