@@ -1579,15 +1579,14 @@
         <_shortDescription>Pol</_shortDescription>
         <_description>Polish</_description>
       </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>pl2</name>
-        <_shortDescription>Pol</_shortDescription>
-        <_description>Polish (qwertz)</_description>
-      </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>qwertz</name>
+            <_description>qwertz</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>

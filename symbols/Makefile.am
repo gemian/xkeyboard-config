@@ -18,7 +18,7 @@ lo lt lv \
 mk ml mm \
 mt nl \
 no ogham ori \
-pc pl pl2 \
+pc pl \
 pt ro ru \
 sapmi se \
 si \

@@ -9,12 +9,12 @@
 //
 
 // Layouts that still need be composed by old rules
-! $oldlayouts = az bs ca ca_enhanced de_CH fr_CH hu hu_qwerty lt_std mn vn hr_US
+! $oldlayouts = az bs ca ch hu hu_qwerty lt_std mn vn hr_US
 
 // If you want non-latin layouts implicitly include the en_US layout
 // uncomment lines below
-//! $nonlatin = am ar ben bg by dev el ge_la ge_ru guj gur il il_phonetic\
-//              ir iu kan lo mk mm ml ori ru sr syr syr_phonetic tel th\
+//! $nonlatin = am ar ben bg by dev el ge guj gur il \
+//              ir iu kan lo mk mm ml ori ru sr syr tel th\
 //              tj tml ua
 
 ! $pcmodels = pc101 pc102 pc104 pc105
@@ -30,7 +30,7 @@
   *		=	xfree86
 
 ! $azerty = be fr fr-latin9
-! $qwertz = al cz de hr pl2 ro si sk 
+! $qwertz = al cz de hr ro si sk 
 
 ! layout[1]	=	keycodes
   $azerty       =       +aliases(azerty)
