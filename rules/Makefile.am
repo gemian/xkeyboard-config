@@ -14,19 +14,22 @@ install-data-hook:
 endif
 
 
-rules_files = \
-base base-it.lst base.lst \
-sgi sgi.lst \
-sun sun.lst \
-xfree98 xfree98.lst \
+rules_files = base sgi sun xfree98
+
+lst_files = base.lst
+
+%.lst: %.xml
+	perl xml2lst.pl < $< > $@
+
+all_rules_files = $(rules_files) $(lst_files) \
 xkb.dtd README
 
-rules_DATA = $(rules_files)
+rules_DATA = $(all_rules_files)
 
 xml_in_files = base.xml.in
 xml_DATA = $(xml_in_files:.xml.in=.xml) 
 
-EXTRA_DIST= $(rules_files) $(xml_in_files) xml2lst.pl
+EXTRA_DIST= $(all_rules_files) $(xml_in_files) xml2lst.pl compat
 
 rulesdir = $(xkb_base)/rules
 xmldir = $(rulesdir)
