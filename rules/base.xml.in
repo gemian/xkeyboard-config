@@ -2141,6 +2141,12 @@
       </option>
       <option>
         <configItem>
+          <name>grp:rctrl_switch</name>
+          <_description>Right Ctrl key switches group while pressed.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>grp:toggle</name>
           <_description>Right Alt key changes group.</_description>
         </configItem>
@@ -2239,12 +2245,6 @@
         <configItem>
           <name>grp:rctrl_toggle</name>
           <_description>Right Ctrl key changes group.</_description>
-        </configItem>
-      </option>
-      <option>
-        <configItem>
-          <name>grp:caps</name>
-          <_description>CapsLock key changes group.</_description>
         </configItem>
       </option>
     </group>
@@ -2409,13 +2409,6 @@
           <_description>CapsLock toggles Shift so all keys are affected.</_description>
         </configItem>
       </option>
-      <option>
-        <configItem>
-          <!-- use the grp name so the LED rule is used too-->
-          <name>grp:caps_toggle</name>
-          <_description>CapsLock toggles group.</_description>
-        </configItem>
-      </option>
     </group>
     <group allowMultipleSelection="false">
       <configItem>
@@ -2448,13 +2441,13 @@
       </option>
       <option>
         <configItem>
-          <name>altwin:meta_super</name>
+          <name>altwin:super_win</name>
           <_description>Super is mapped to the Win-keys (default).</_description>
         </configItem>
       </option>
       <option>
         <configItem>
-          <name>altwin:meta_hyper</name>
+          <name>altwin:hyper_win</name>
           <_description>Hyper is mapped to the Win-keys.</_description>
         </configItem>
       </option>
