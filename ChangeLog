@@ -1,7 +1,8 @@
 2005-02-03 svu
 
-	* symbols/srp: replaced SERBIAN_ALPHABETIC with FOUR_LEVEL_ALPHABETIC,
-	as Danilo requested.
+	* symbols/srp, types/extra: replaced SERBIAN_ALPHABETIC with 
+	FOUR_LEVEL_ALPHABETIC, as Danilo requested. Also, SERBIAN_CAPS 
+	renamed to SEPARATE_CAPS_AND_SHIFT_ALPHABETIC.
 
 2005-01-21 svu
 
