@@ -31,8 +31,8 @@ xkb_symbols "lalt_switch" {
 partial modifier_keys
 xkb_symbols "ralt_switch" {
   key <RALT> {
-    type[Group1]="TWO_LEVEL",
-    symbols[Group1] = [ ISO_Level3_Shift, Multi_key ]
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ ISO_Level3_Shift ]
     };
 };
 
