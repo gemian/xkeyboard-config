@@ -244,3 +244,70 @@ xkb_symbols "latin9_nodeadkeys" {
     key <AE12>	{ [           equal,            plus,          braceright         	        ] };
     key <AD11>	{ [	asciicircum,  	   diaeresis,          asciitilde,           quoteright ] };
 };
+
+// Keymap Dvorak pour le Français
+// par Josselin Mouette <josselin.mouette@ens-lyon.org>.
+
+partial alphanumeric_keys
+xkb_symbols "dvorak" {
+
+    name[Group1]= "French dvorak";
+
+    key <TLDE>  { [         oe,       OE,              ae,             AE ] };
+
+    key <AE01>  { [      slash,        1,       ampersand,    onesuperior ] };
+    key <AE02>  { [       plus,        2,      asciitilde,    twosuperior ] };
+    key <AE03>  { [      minus,        3,      numbersign,  threesuperior ] };
+    key <AE04>  { [   asterisk,        4,            less,  guillemotleft ] };
+    key <AE05>  { [      equal,        5,         greater, guillemotright ] };
+    key <AE06>  { [  backslash,        6,              at,        notsign ] };
+    key <AE07>  { [  parenleft,        7, dead_circumflex,       multiply ] };
+    key <AE08>  { [      grave,        8,      dead_grave,       division ] };
+    key <AE09>  { [ parenright,        9,     asciicircum,      plusminus ] };
+    key <AE10>  { [   quotedbl,        0,  dead_diaeresis, dead_diaeresis ] };
+    key <AE11>  { [bracketleft,   braceleft,          bar,         degree ] };
+    key <AE12>  { [bracketright, braceright,      percent,        percent ] };
+
+    key <AD01>  { [      colon, question,        question,   questiondown ] };
+    key <AD02>  { [     agrave,   Agrave,           aring,          Aring ] };
+    key <AD03>  { [     eacute,   Eacute,        EuroSign,           cent ] };
+    key <AD04>  { [          g,        G,          oslash,       Ooblique ] };
+    key <AD05>  { [     period,   exclam,  periodcentered,     exclamdown ] };
+    key <AD06>  { [          h,        H,             eth,            ETH ] };
+    key <AD07>  { [          v,        V              ] };
+    key <AD08>  { [          c,        C,       copyright,     registered ] };
+    key <AD09>  { [          m,        M,              mu,             mu ] };
+    key <AD10>  { [          k,        K,          dollar,         dollar ] };
+    key <AD11>  { [     egrave,   Egrave,        sterling,       sterling ] };
+    key <AD12>  { [          z,        Z,             yen,            yen ] };
+
+    key <AC01>  { [          o,        O,     ocircumflex,    Ocircumflex ] };
+    key <AC02>  { [          a,        A,     acircumflex,    Acircumflex ] };
+    key <AC03>  { [          u,        U,     ucircumflex,    Ucircumflex ] };
+    key <AC04>  { [          e,        E,     ecircumflex,    Ecircumflex ] };
+    key <AC05>  { [          b,        B,          ssharp,         ssharp ] };
+    key <AC06>  { [          f,        F      ] };
+    key <AC07>  { [          s,        S      ] };
+    key <AC08>  { [          t,        T,           thorn,          THORN ] };
+    key <AC09>  { [          n,        N,          ntilde,         Ntilde ] };
+    key <AC10>  { [          d,        D,         section,        section ] };
+    key <AC11>  { [          w,        W,       paragraph,      paragraph ] };
+    key <BKSL>  { [     ugrave,   Ugrave,       masculine,    ordfeminine ] };
+
+    key <AB01>  { [ apostrophe, underscore,    dead_acute,         macron ] };
+    key <AB02>  { [          q,        Q,   guillemotleft,  guillemotleft ] };
+    key <AB03>  { [     comma, semicolon,  guillemotright, guillemotright ] };
+    key <AB04>  { [          i,        I,     icircumflex,    Icircumflex ] };
+    key <AB05>  { [          y,        Y,      ydiaeresis,     Ydiaeresis ] };
+    key <AB06>  { [          x,        X,      ediaeresis,     Ediaeresis ] };
+    key <AB07>  { [          r,        R,      udiaeresis,     Udiaeresis ] };
+    key <AB08>  { [          l,        L,      adiaeresis,     Adiaeresis ] };
+    key <AB09>  { [          p,        P,      odiaeresis,     Odiaeresis ] };
+    key <AB10>  { [          j,        J,      idiaeresis,     Idiaeresis ] };
+
+    key <SPCE>  { [      space,    space,    nobreakspace,   nobreakspace ] };
+    key <LSGT>  { [   ccedilla, Ccedilla      ] };
+
+    include "level3(ralt_switch_multikey)"
+};
+

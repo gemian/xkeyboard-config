@@ -659,6 +659,12 @@
             <_description>Alternative international (former us_intl)</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <_description>Dvorak</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -944,51 +950,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>dvorak</name>
-        <_shortDescription>Dvo</_shortDescription>
-        <_description>Dvorak</_description>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>fr</name>
-            <_description>French</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>no</name>
-            <_description>Norwegian</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>pl</name>
-            <_description>Polish</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>pl_altquotes</name>
-            <_description>Polish with Polish quotes on key "1/!"</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>se</name>
-            <_description>Swedish</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>gb</name>
-            <_description>United Kingdom</_description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
         <name>dzo</name>
         <_shortDescription>Dzo</_shortDescription>
         <_description>Dzongkha</_description>
@@ -1082,6 +1043,12 @@
           <configItem>
             <name>latin9_sundeadkeys</name>
             <_description>Alternative, Sun dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <_description>Dvorak</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1404,7 +1371,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>la</name>
+        <name>latam</name>
         <_shortDescription>LAm</_shortDescription>
         <_description>Latin America</_description>
       </configItem>
@@ -1551,6 +1518,12 @@
             <_description>Eliminate dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <_description>Dvorak</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1599,6 +1572,24 @@
           <configItem>
             <name>qwertz</name>
             <_description>qwertz</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <_description>Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak_quotes</name>
+            <_description>Dvorak, Polish quotes on quotemark key</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak_altquotes</name>
+            <_description>Dvorak, Polish quotes on key "1/!"</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1761,6 +1752,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <_description>Dvorak</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1967,6 +1964,12 @@
           <configItem>
             <name>intl</name>
             <_description>International (with dead keys)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <_description>Dvorak</_description>
           </configItem>
         </variant>
       </variantList>

@@ -44,3 +44,51 @@ xkb_symbols "nodeadkeys" {
     key <AB08>	{ [     comma,  semicolon,      cedilla,       ogonek ]	};
     key <AB09>	{ [    period,      colon, periodcentered,   abovedot ]	};
 };
+
+// Norwegian Dvorak
+partial alphanumeric_keys 
+xkb_symbols "dvorak" {
+    include "us(dvorak)"
+
+    key <TLDE> { [	  bar,	section, brokenbar, paragraph	] };
+
+    key <AE01> { [	    1,	exclam, exclamdown, onesuperior	] };
+    key <AE02> { [	    2,	quotedbl,   at,     twosuperior	] };
+    key <AE03> { [	    3,	numbersign, sterling, threesuperior ] };
+    key <AE04> { [	    4,	dollar,     currency,onequarter	] };
+    key <AE05> { [	    5,	percent,    onehalf,	onehalf	] };
+    key <AE06> { [	    6,	ampersand,  threequarters, threequarters ] };
+    key <AE07> { [	    7,	slash,      braceleft, division	] };
+    key <AE08> { [	    8,	parenleft,  bracketleft		] };
+    key <AE09> { [	    9,	parenright, bracketright	] };
+    key <AE10> { [	    0,	equal,	    braceright		] };
+    key <AE11> { [	 plus,	question,   plusminus, questiondown ] };
+    key <AE12> { [   backslash,	grave,	    dead_acute,	dead_grave  ] };
+
+    key <AD01> { [       aring,	Aring,  braceright, bracketright ] };
+    key <AD02> { [	comma,	semicolon, dead_cedilla, cedilla ] };
+    key <AD03> { [      period,	colon,  periodcentered		 ] };
+    key <AD04> { [	    p,	P,      thorn,	THORN		 ] };
+    key <AD05> { [	    y,	Y,      yen			 ] };
+    key <AD06> { [	    f,	F,      ordfeminine		 ] };
+    key <AD08> { [	    c,	C,      ccedilla, copyright	 ] };
+    key <AD09> { [	    r,	R,      registered		 ] };
+    key <AD11> { [  apostrophe,	asterisk, dead_circumflex, acute ] };
+    key <AD12> { [  asciitilde,	asciicircum, dead_diaeresis, dead_tilde	] };
+
+    key <AC03> { [	    e,	E,      EuroSign,	cent	 ] };
+    key <AC05> { [	    i,	I,      idotless,       Iabovedot] };
+    key <AC06> { [	    d,	D,      eth,		ETH	 ] };
+    key <AC10> { [	    s,	S,      ssharp			 ] };
+    key <AC11> { [	minus,	underscore, hyphen,	diaeresis] };
+
+    key <AB01> { [	   ae,	AE,     braceleft,	bracketleft] };
+    key <AB05> { [	    x,	X,      multiply		 ] };
+    key <AB07> { [	    m,	M,	mu			 ] };
+    key <BKSL> { [	 less,	greater, guillemotleft, guillemotright	] };
+
+    key <SPCE> { [	 space,	space, nobreakspace, nobreakspace] };
+
+    key <LSGT> { [	oslash,	Ooblique,  bar,	backslash	 ] };
+
+};

@@ -44,3 +44,29 @@ xkb_symbols "nodeadkeys" {
     key <AE12>	{ [     acute,      grave,    plusminus,      notsign ]	};
 
 };
+
+// Swedish Dvorak
+partial alphanumeric_keys 
+xkb_symbols "dvorak" {
+    include "no(dvorak)"
+
+    key <TLDE> { [     section,	onehalf		]	};
+
+    key <AE04> { [	    4,	currency,   dollar,    onequarter	] };
+    key <AE11> { [        plus,	question,   backslash, questiondown	] };
+    key <AE12> { [  dead_acute, dead_grave, backslash, grave		] };
+
+    key <AD01> { [  odiaeresis,  Odiaeresis, braceright, bracketright	] };
+    key <AD02> { [       aring,	Aring	  	]	};
+    key <AD03> { [  adiaeresis,	Adiaeresis	]	};
+    key <AD11> { [           q,	Q       	]	};
+    key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde, asciicircum ] };
+
+    key <AB01> { [     comma,    semicolon, dead_cedilla, cedilla	] };
+    key <AB02> { [    period,    colon,     periodcentered		] };
+
+    key <BKSL> { [      less,	greater,    bar,	brokenbar	] };
+
+    key <LSGT> { [ apostrophe,   asterisk,  bar,	backslash	] };
+
+};
