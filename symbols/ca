@@ -55,6 +55,8 @@ xkb_symbols "fr" {
     key <AB09>	{ [    period,     period,       hyphen ]	};
     key <AB10>	{ [    eacute,     Eacute,   dead_acute ]	};
 
+    key <SPCE>	{ [     space,      space, nobreakspace ]	};
+
     include "level3(ralt_switch)"
 };
 
@@ -128,12 +130,11 @@ xkb_symbols "multi" {
     key <AD09>	{ [         o,          O ]	};
     key <AD10>	{ [         p,          P ]	};
     key <AD11>	{ [dead_circumflex, dead_diaeresis, dead_grave  ]	};
-    key <AD12>	{ [  ccedilla,   Ccedilla,   dead_tilde ]	};
+    key <AD12>	{ [  ccedilla,   Ccedilla,   asciitilde ]	};
 
     key <AC10>	{ [ semicolon,      colon,     degree ]	};
     key <AC11>	{ [    egrave,     Egrave ]	};
     key <BKSL>	{ [    agrave,     Agrave ]	};
-
 
     key <LSGT>	{ [    ugrave,     Ugrave ] 	};
     key <AB01>	{ [         z,          Z, guillemotleft  ]	};
@@ -173,12 +174,12 @@ xkb_symbols "multi-2gr" {
     key <AD09>	{ [     oslash,       Ooblique ]	};
     key <AD10>	{ [      thorn,          THORN ]	};
     key <AD11>	{ [ VoidSymbol, dead_abovering ]	};
-    key <AD12>	{ [ asciitilde,     VoidSymbol ]	};
+    key <AD12>	{ [ dead_tilde,    dead_macron ]	};
 
     key <AC01>	{ [         ae,          AE ]	};
     key <AC02>	{ [     ssharp,     section ]	};
     key <AC03>	{ [        eth,         ETH ]	};
-
+    key <AC04>	{ [ VoidSymbol, ordfeminine ]	};
     key <AC05>	{ [        eng,         ENG ]	};
     key <AC06>	{ [    hstroke,     Hstroke ]	};
     key <AC07>	{ [      U0133,       U0132 ]	};
@@ -197,7 +198,7 @@ xkb_symbols "multi-2gr" {
     key <AB06>	{ [      U0149,       U266A ]	};
     key <AB07>	{ [         mu,   masculine ]	};
     key <AB08>	{ [      U2015,    multiply ]	};
-    key <AB09>	{ [ dead_abovedot, division ]	};
+    key <AB09>	{ [ periodcentered, division ]	};
     key <AB10>	{ [ VoidSymbol, dead_abovedot ]	};
 
 };
