@@ -1,12 +1,13 @@
 #!/bin/env perl
 
 use strict;
+use warnings;
 use xkbTestFunc;
 
-backupXkbSettings();
+xkbTestFunc::backupXkbSettings();
                                                                                                                  
-dumpXkbSettings( $origXkbRules, $origXkbModel, $origXkbLayouts, $origXkbVariants, $origXkbOptions );
+xkbTestFunc::dumpXkbSettingsBackup();
                                                                                                                  
-testLevel1( "model", 1 );
+xkbTestFunc::testLevel1( "model", 1 );
 
-restoreXkbSettings();
+xkbTestFunc::restoreXkbSettings();

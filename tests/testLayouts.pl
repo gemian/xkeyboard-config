@@ -1,11 +1,12 @@
 #!/bin/env perl
 
 use strict;
+use warnings;
 use xkbTestFunc;
 
 backupXkbSettings();
                                                                                                                  
-dumpXkbSettings( $origXkbRules, $origXkbModel, $origXkbLayouts, $origXkbVariants, $origXkbOptions );
+dumpXkbSettingsBackup();
 
 testLevel2( "layout", "variant", 2, "(", ")" );
 

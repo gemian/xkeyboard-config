@@ -24,7 +24,7 @@
 //other dealings in this Software without prior written authorization
 //from The Open Group.
 //
-// $XFree86: xc/programs/xkbcomp/symbols/sun.vndr/us,v 1.6 2001/12/14 20:02:05 dawes Exp $
+// $XFree86: xc/programs/xkbcomp/symbols/sun_vndr/us,v 1.6 2001/12/14 20:02:05 dawes Exp $
 //
 // US/ASCII layout for a Type 4 Sun keyboard
 xkb_symbols "sun4" {
@@ -124,8 +124,8 @@ hidden partial function_keys xkb_symbols "broken_openlook_map" {
 
 // US/ASCII layout for a Type 4 Sun keyboard w/ broken OpenLook keymap
 xkb_symbols "sun4ol" {
-    override "sun.vndr/us(sun4)"
-    include "sun.vndr/us(broken_openlook_map)"
+    override "sun_vndr/us(sun4)"
+    include "sun_vndr/us(broken_openlook_map)"
 };
 
 // US/ASCII layout for a Type 5 Sun keyboard
@@ -228,8 +228,8 @@ xkb_symbols "sun5" {
 
 // US/ASCII layout for a Type 5 Sun keyboard w/ broken OpenLook keymap
 xkb_symbols "sun5ol" {
-    override "sun.vndr/us(sun5)"
-    include "sun.vndr/us(broken_openlook_map)"
+    override "sun_vndr/us(sun5)"
+    include "sun_vndr/us(broken_openlook_map)"
 };
 
 // US/ASCII layout for a Type 6 Sun keyboard
@@ -310,7 +310,7 @@ xkb_symbols "sun6" {
     key <VOL+> { [  SunAudioRaiseVolume,SunVideoRaiseBrightness        ]       };
     key <POWR> { [  SunPowerSwitch,    SunPowerSwitchShift     ]       };
 
-    // from symbols/sun.vndr/us(type5)
+    // from symbols/sun_vndr/us(type5)
     key <STOP> { [ Cancel      ],      [ F11           ]       };
     key <AGAI> { [ Redo                ],      [ F12           ]       };
     key <PROP> { [ SunProps    ],      [ F13           ]       };
@@ -333,6 +333,6 @@ xkb_symbols "sun6" {
 
 // US/ASCII layout for a Type 6 Sun keyboard w/ broken OpenLook keymap
 xkb_symbols "sun6ol" {
-    override "sun.vndr/us(sun6)"
-    include "sun.vndr/us(broken_openlook_map)"
+    override "sun_vndr/us(sun6)"
+    include "sun_vndr/us(broken_openlook_map)"
 };

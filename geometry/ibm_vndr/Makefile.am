@@ -3,4 +3,4 @@ thinkpad
 
 EXTRA_DIST= $(geom_DATA)
                                                                                           
-geomdir = $(xkb_base)/geometry/ibm.vndr
+geomdir = $(xkb_base)/geometry/ibm_vndr

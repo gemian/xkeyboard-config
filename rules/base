@@ -47,7 +47,7 @@
   flexpro	=	keytronic(FlexPro)
   hp6000	=	hp(omnibook)
   omnikey101	=	northgate(omnikey101)
-  thinkpad	=	ibm.vndr/thinkpad(common)
+  thinkpad	=	ibm_vndr/thinkpad(common)
  $pcmodels	=	pc(%m)
   jp106		=	pc(jp106)
   everex	=	everex(STEPnote)
@@ -58,18 +58,18 @@
   *		=       pc(pc104)
 
 ! model		variant		layout	=	symbols
- $maclaptop	nodeadkeys	*	=	macintosh.vndr/us(extended)+macintosh.vndr/%l%(v)+apple(laptop_bad_switch)
- $mac		nodeadkeys	*	=	macintosh.vndr/us(extended)+macintosh.vndr/%l%(v)
+ $maclaptop	nodeadkeys	*	=	macintosh_vndr/us(extended)+macintosh_vndr/%l%(v)+macintosh_vndr/apple(laptop_bad_switch)
+ $mac		nodeadkeys	*	=	macintosh_vndr/us(extended)+macintosh_vndr/%l%(v)
 
 ! model		layout	=	symbols
-  pc98		nec/jp	=	nec.vndr/jp(pc98)
+  pc98		nec/jp	=	nec_vndr/jp(pc98)
   abnt2		br	=	pc(pc104)+br
- $maclaptop	us	=	macintosh.vndr/us(extended)+apple(laptop_bad_switch)
- $maclaptop	en_US	=	macintosh.vndr/us(extended)+apple(laptop_bad_switch)
- $maclaptop	*	=	macintosh.vndr/us(extended)+apple(laptop_bad_switch)+macintosh.vndr/%l%(v)
- $mac		us	=	macintosh.vndr/us(extended)
- $mac		en_US	=	macintosh.vndr/us(extended)
- $mac		*	=	macintosh.vndr/us(extended)+macintosh.vndr/%l%(v)
+ $maclaptop	us	=	macintosh_vndr/us(extended)+macintosh_vndr/apple(laptop_bad_switch)
+ $maclaptop	en_US	=	macintosh_vndr/us(extended)+macintosh_vndr/apple(laptop_bad_switch)
+ $maclaptop	*	=	macintosh_vndr/us(extended)+apple(laptop_bad_switch)+macintosh_vndr/%l%(v)
+ $mac		us	=	macintosh_vndr/us(extended)
+ $mac		en_US	=	macintosh_vndr/us(extended)
+ $mac		*	=	macintosh_vndr/us(extended)+macintosh_vndr/%l%(v)
  $pcmodels      intl    =       us(%mcompose)
   *		intl	=	us(pc104compose)
   *		jp	=	pc(pc102)+jp(latin)+jp:2

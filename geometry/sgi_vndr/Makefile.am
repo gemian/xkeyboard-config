@@ -3,4 +3,4 @@ indigo  indy  O2
 
 EXTRA_DIST= $(geom_DATA)
                                                                                           
-geomdir = $(xkb_base)/geometry/sgi.vndr
+geomdir = $(xkb_base)/geometry/sgi_vndr

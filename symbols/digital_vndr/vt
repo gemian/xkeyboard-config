@@ -149,7 +149,7 @@ xkb_symbols "vt105" {
 
 xkb_symbols "vt108" {
 
-    include "digital.vndr/vt(vt105)"
+    include "digital_vndr/vt(vt105)"
 
     replace key <LCMP> { [ Mode_switch ] };
 

@@ -6,4 +6,4 @@ us
                                                                                           
 EXTRA_DIST= $(km_DATA)
                                                                                           
-kmdir = $(xkb_base)/keymap/sun.vndr
+kmdir = $(xkb_base)/keymap/sun_vndr

@@ -49,7 +49,7 @@ xkb_symbols "nodeadkeys" {
 
     // Modifies the basic Norwegian layout to eliminate dead keys
 
-    include "macintosh.vndr/no(basic)"
+    include "macintosh_vndr/no(basic)"
     key <AE12> {	[           grave,           acute	],
 			[	    acute,          ogonek 	]	};
     key <AD12> {	[       diaeresis,     asciicircum     	],	

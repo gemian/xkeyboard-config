@@ -1,5 +1,5 @@
 symbols_DATA = \
-ch de dk \
+apple ch de dk \
 es fi fr \
 gb it \
 nl no pt \
@@ -7,4 +7,4 @@ se us
 
 EXTRA_DIST= $(symbols_DATA)
 
-symbolsdir = $(xkb_base)/symbols/macintosh.vndr
+symbolsdir = $(xkb_base)/symbols/macintosh_vndr

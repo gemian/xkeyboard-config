@@ -3,4 +3,4 @@ lk  pc  unix
 
 EXTRA_DIST= $(geom_DATA)
                                                                                           
-geomdir = $(xkb_base)/geometry/digital.vndr
+geomdir = $(xkb_base)/geometry/digital_vndr

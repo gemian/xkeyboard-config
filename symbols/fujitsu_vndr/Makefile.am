@@ -3,4 +3,4 @@ jp us
 
 EXTRA_DIST= $(symbols_DATA)
 
-symbolsdir = $(xkb_base)/symbols/fujitsu.vndr
+symbolsdir = $(xkb_base)/symbols/fujitsu_vndr

@@ -3,4 +3,4 @@ jp
 
 EXTRA_DIST= $(symbols_DATA)
 
-symbolsdir = $(xkb_base)/symbols/sgi.vndr
+symbolsdir = $(xkb_base)/symbols/sgi_vndr

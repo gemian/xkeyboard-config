@@ -3,4 +3,4 @@ us
 
 EXTRA_DIST= $(symbols_DATA)
 
-symbolsdir = $(xkb_base)/symbols/sony.vndr
+symbolsdir = $(xkb_base)/symbols/sony_vndr

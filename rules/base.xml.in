@@ -1938,7 +1938,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>nec.vndr/jp</name>
+        <name>nec_vndr/jp</name>
         <_shortDescription>Jpn</_shortDescription>
         <_description>PC-98xx Series</_description>
       </configItem>

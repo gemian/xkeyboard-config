@@ -1,12 +1,15 @@
-#!/bin/env perl
+package xkbTestFunc;
 
 use strict;
+use warnings;
 
-my $origXkbRules;
-my $origXkbModel;
-my $origXkbLayouts;
-my $origXkbOptions;
-my $origXkbVariants;
+our $VERSION='1.00';
+
+our $origXkbRules;
+our $origXkbModel;
+our $origXkbLayouts;
+our $origXkbOptions;
+our $origXkbVariants;
 
 sub backupXkbSettings
 {
@@ -63,6 +66,11 @@ sub dumpXkbSettings
   print "options: [$xkbOptions]\n" ;
 }
 
+sub dumpXkbSettingsBackup
+{
+  dumpXkbSettings( $origXkbRules, $origXkbModel, $origXkbLayouts, $origXkbVariants, $origXkbOptions );
+}
+
 sub testLevel1
 {
   my ( $type, $idx ) = @_;
@@ -77,7 +85,7 @@ sub testLevel1
       my $paramValue=$1;
       print "--- setting $type: [$paramValue]\n";
       my @params = defaultXkbSettings();
-      @params[$idx] = $paramValue;
+      $params[$idx] = $paramValue;
       dumpXkbSettings ( @params );
       setXkbSettings ( @params );
       #print "--- dump:\n";
@@ -102,7 +110,7 @@ sub testLevel2
       print "--- scanning $type: [$paramValue]\n";
 
       my @params = defaultXkbSettings();
-      @params[$idx] = "$paramValue";
+      $params[$idx] = "$paramValue";
       dumpXkbSettings ( @params );
       setXkbSettings ( @params );
       #print "--- dump:\n";
@@ -118,24 +126,20 @@ sub testLevel2
           my $paramValue2=$1;
           print "  --- $subtype: [$paramValue2]\n";
           my @params = defaultXkbSettings();
-          @params[$idx] = "$paramValue$delim1$paramValue2$delim2";
+          $params[$idx] = "$paramValue$delim1$paramValue2$delim2";
           dumpXkbSettings ( @params );
           setXkbSettings ( @params );
           #print "--- dump:\n";
           #dumpXkbSettings( getXkbSettings() );
         }
       }
-      close XSLTPROa2C;
+      close XSLTPROC2;
     }
   }
   close XSLTPROC;
 }
 
-backupXkbSettings();
+1;
+__END__
 
-dumpXkbSettings( $origXkbRules, $origXkbModel, $origXkbLayouts, $origXkbVariants, $origXkbOptions );
-
-#testLevel1( "model", 1 );
-testLevel2( "layout", "variant", 2, "(", ")" );
-
-restoreXkbSettings();
+No docs yet

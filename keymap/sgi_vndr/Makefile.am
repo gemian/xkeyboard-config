@@ -11,4 +11,4 @@ th us
                                                                                           
 EXTRA_DIST= $(km_DATA)
                                                                                           
-kmdir = $(xkb_base)/keymap/sgi.vndr
+kmdir = $(xkb_base)/keymap/sgi_vndr

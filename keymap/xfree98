@@ -30,6 +30,6 @@ default xkb_keymap "jp" {
     xkb_keycodes	{ include "xfree98"		};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols		{ include "nec.vndr/jp(pc98)"	};
+    xkb_symbols		{ include "nec_vndr/jp(pc98)"	};
     xkb_geometry	{ include "nec(pc98)"		};
 };

@@ -146,7 +146,7 @@ xkb_symbols "extended" {
     // end modifier mappings
 
     include "compose(rwin)"
-    include "apple(extended)"
+    include "macintosh_vndr/apple(extended)"
 
 // *** FIXME
 //    key <LSGT> {	[ quoteleft,	asciitilde	]	};

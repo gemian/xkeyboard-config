@@ -124,7 +124,7 @@ default xkb_symbols "common" {
 };
 
 xkb_symbols "lk401" {
-    include "symbols/digital.vndr/lk(common)"
+    include "symbols/digital_vndr/lk(common)"
     key <RALT>              { [ Alt_R,      Meta_R          ] };
     key <LCMP>              { [ Multi_key                   ] };
     key <RCMP>              { [ Multi_key                   ] };

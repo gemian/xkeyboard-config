@@ -3,4 +3,4 @@ jp
 
 EXTRA_DIST= $(symbols_DATA)
 
-symbolsdir = $(xkb_base)/symbols/nec.vndr
+symbolsdir = $(xkb_base)/symbols/nec_vndr

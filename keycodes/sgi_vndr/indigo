@@ -135,6 +135,6 @@ default xkb_keycodes "pc101" {
     indicator 7 = "Scroll Lock";
 };
 xkb_keycodes "pc102" {
-    include "sgi.vndr/indigo(pc101)"
+    include "sgi_vndr/indigo(pc101)"
     <LSGT> = 118;
 };

@@ -28,6 +28,6 @@ xkb_keymap "news5000-nwp5461" {
     xkb_keycodes	{ include "sony(nwp5461)"	};
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
-    xkb_symbols 	{ include "sony.vndr/us(nwp5461)"	};
+    xkb_symbols 	{ include "sony_vndr/us(nwp5461)"	};
     xkb_geometry	{ include "sony(nwp5461)"	};
 };

@@ -4,4 +4,4 @@ vt
 
 EXTRA_DIST= $(symbols_DATA)
 
-symbolsdir = $(xkb_base)/symbols/digital.vndr
+symbolsdir = $(xkb_base)/symbols/digital_vndr
