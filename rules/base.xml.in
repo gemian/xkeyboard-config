@@ -720,9 +720,17 @@
     </layout>
     <layout>
       <configItem>
+        <name>al</name>
+        <_shortDescription>Alb</_shortDescription>
+        <_description>Albania</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>am</name>
         <_shortDescription>Arm</_shortDescription>
-        <_description>Armenian</_description>
+        <_description>Armenia</_description>
       </configItem>
       <variantList>
         <variant>
@@ -743,7 +751,7 @@
       <configItem>
         <name>az</name>
         <_shortDescription>Aze</_shortDescription>
-        <_description>Azerbaijani</_description>
+        <_description>Azerbaijan</_description>
       </configItem>
       <variantList>
         <variant>
@@ -764,7 +772,7 @@
       <configItem>
         <name>by</name>
         <_shortDescription>Blr</_shortDescription>
-        <_description>Belarusian</_description>
+        <_description>Belarus</_description>
       </configItem>
       <variantList>
         <variant>
@@ -779,7 +787,7 @@
       <configItem>
         <name>be</name>
         <_shortDescription>Bel</_shortDescription>
-        <_description>Belgian</_description>
+        <_description>Belgium</_description>
       </configItem>
       <variantList>
         <variant>
@@ -814,7 +822,7 @@
       <configItem>
         <name>ba</name>
         <_shortDescription>Bih</_shortDescription>
-        <_description>Bosnian</_description>
+        <_description>Bosnia and Herzegovina</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -822,7 +830,7 @@
       <configItem>
         <name>br</name>
         <_shortDescription>Bra</_shortDescription>
-        <_description>Brazilian</_description>
+        <_description>Brazil</_description>
       </configItem>
       <variantList>
         <variant>
@@ -843,7 +851,7 @@
       <configItem>
         <name>bg</name>
         <_shortDescription>Bgr</_shortDescription>
-        <_description>Bulgarian</_description>
+        <_description>Bulgaria</_description>
       </configItem>
       <variantList>
         <variant>
@@ -858,7 +866,7 @@
       <configItem>
         <name>mm</name>
         <_shortDescription>Mmr</_shortDescription>
-        <_description>Myanmarish</_description>
+        <_description>Myanmar</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -866,7 +874,7 @@
       <configItem>
         <name>ca</name>
         <_shortDescription>Can</_shortDescription>
-        <_description>Canadian</_description>
+        <_description>Canada</_description>
       </configItem>
       <variantList>
         <variant>
@@ -905,7 +913,7 @@
       <configItem>
         <name>hr</name>
         <_shortDescription>Hrv</_shortDescription>
-        <_description>Croatian</_description>
+        <_description>Croatia</_description>
       </configItem>
       <variantList>
         <variant>
@@ -920,7 +928,7 @@
       <configItem>
         <name>cz</name>
         <_shortDescription>Cze</_shortDescription>
-        <_description>Czech</_description>
+        <_description>Czech Republic</_description>
       </configItem>
       <variantList>
         <variant>
@@ -947,7 +955,7 @@
       <configItem>
         <name>dk</name>
         <_shortDescription>Dnk</_shortDescription>
-        <_description>Danish</_description>
+        <_description>Denmark</_description>
       </configItem>
       <variantList>
         <variant>
@@ -962,7 +970,7 @@
       <configItem>
         <name>nl</name>
         <_shortDescription>Nld</_shortDescription>
-        <_description>Dutch</_description>
+        <_description>Netherlands</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -977,7 +985,7 @@
       <configItem>
         <name>ee</name>
         <_shortDescription>Est</_shortDescription>
-        <_description>Estonian</_description>
+        <_description>Estonia</_description>
       </configItem>
       <variantList>
         <variant>
@@ -992,7 +1000,7 @@
       <configItem>
         <name>ir</name>
         <_shortDescription>Irn</_shortDescription>
-        <_description>Iranian</_description>
+        <_description>Iran</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -1000,7 +1008,7 @@
       <configItem>
         <name>fo</name>
         <_shortDescription>Fao</_shortDescription>
-        <_description>Faroese</_description>
+        <_description>Faroe Islands</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1015,7 +1023,7 @@
       <configItem>
         <name>fi</name>
         <_shortDescription>Fin</_shortDescription>
-        <_description>Finnish</_description>
+        <_description>Finland</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1030,7 +1038,7 @@
       <configItem>
         <name>fr</name>
         <_shortDescription>Fra</_shortDescription>
-        <_description>French</_description>
+        <_description>France</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1075,7 +1083,7 @@
       <configItem>
         <name>ge</name>
         <_shortDescription>Geo</_shortDescription>
-        <_description>Georgian</_description>
+        <_description>Georgia</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1096,7 +1104,7 @@
       <configItem>
         <name>de</name>
         <_shortDescription>Deu</_shortDescription>
-        <_description>German</_description>
+        <_description>Germany</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1123,7 +1131,7 @@
       <configItem>
         <name>gr</name>
         <_shortDescription>Gre</_shortDescription>
-        <_description>Greek</_description>
+        <_description>Greece</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1174,7 +1182,7 @@
       <configItem>
         <name>hu</name>
         <_shortDescription>Hun</_shortDescription>
-        <_description>Hungarian</_description>
+        <_description>Hungary</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1304,7 +1312,7 @@
       <configItem>
         <name>is</name>
         <_shortDescription>Isl</_shortDescription>
-        <_description>Icelandic</_description>
+        <_description>Iceland</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1333,7 +1341,7 @@
       <configItem>
         <name>il</name>
         <_shortDescription>Isr</_shortDescription>
-        <_description>Israeli</_description>
+        <_description>Israel</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1360,7 +1368,7 @@
       <configItem>
         <name>it</name>
         <_shortDescription>Ita</_shortDescription>
-        <_description>Italian</_description>
+        <_description>Italy</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1375,7 +1383,7 @@
       <configItem>
         <name>jp</name>
         <_shortDescription>Jpn</_shortDescription>
-        <_description>Japanese</_description>
+        <_description>Japan</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -1391,7 +1399,7 @@
       <configItem>
         <name>kg</name>
         <_shortDescription>Kyr</_shortDescription>
-        <_description>Kyrgyz</_description>
+        <_description>Kyrgyzstan</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -1399,7 +1407,7 @@
       <configItem>
         <name>latam</name>
         <_shortDescription>LAm</_shortDescription>
-        <_description>Latin America</_description>
+        <_description>Latin American</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1420,7 +1428,7 @@
       <configItem>
         <name>lt</name>
         <_shortDescription>Ltu</_shortDescription>
-        <_description>Lithuanian</_description>
+        <_description>Lithuania</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1441,7 +1449,7 @@
       <configItem>
         <name>lv</name>
         <_shortDescription>Lva</_shortDescription>
-        <_description>Latvian</_description>
+        <_description>Latvia</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1512,7 +1520,7 @@
       <configItem>
         <name>mt</name>
         <_shortDescription>Mlt</_shortDescription>
-        <_description>Maltese</_description>
+        <_description>Malta</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1527,7 +1535,7 @@
       <configItem>
         <name>mn</name>
         <_shortDescription>Mng</_shortDescription>
-        <_description>Mongolian</_description>
+        <_description>Mongolia</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -1535,7 +1543,7 @@
       <configItem>
         <name>no</name>
         <_shortDescription>Nor</_shortDescription>
-        <_description>Norwegian</_description>
+        <_description>Norway</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1591,7 +1599,7 @@
       <configItem>
         <name>pl</name>
         <_shortDescription>Pol</_shortDescription>
-        <_description>Polish</_description>
+        <_description>Poland</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1624,7 +1632,7 @@
       <configItem>
         <name>pt</name>
         <_shortDescription>Prt</_shortDescription>
-        <_description>Portuguese</_description>
+        <_description>Portugal</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1645,7 +1653,7 @@
       <configItem>
         <name>ro</name>
         <_shortDescription>Rou</_shortDescription>
-        <_description>Romanian</_description>
+        <_description>Romania</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1666,7 +1674,7 @@
       <configItem>
         <name>ru</name>
         <_shortDescription>Rus</_shortDescription>
-        <_description>Russian</_description>
+        <_description>Russia</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1751,7 +1759,7 @@
       <configItem>
         <name>si</name>
         <_shortDescription>Svn</_shortDescription>
-        <_description>Slovenian</_description>
+        <_description>Slovenia</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -1767,7 +1775,7 @@
       <configItem>
         <name>sk</name>
         <_shortDescription>Svk</_shortDescription>
-        <_description>Slovak</_description>
+        <_description>Slovakia</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1794,7 +1802,7 @@
       <configItem>
         <name>es</name>
         <_shortDescription>Esp</_shortDescription>
-        <_description>Spanish</_description>
+        <_description>Spain</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1815,7 +1823,7 @@
       <configItem>
         <name>se</name>
         <_shortDescription>Swe</_shortDescription>
-        <_description>Swedish</_description>
+        <_description>Sweden</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1836,7 +1844,7 @@
       <configItem>
         <name>ch</name>
         <_shortDescription>Che</_shortDescription>
-        <_description>Swiss</_description>
+        <_description>Switzerland</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1896,7 +1904,7 @@
       <configItem>
         <name>tj</name>
         <_shortDescription>Tjk</_shortDescription>
-        <_description>Tajik</_description>
+        <_description>Tajikistan</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -1945,7 +1953,7 @@
       <configItem>
         <name>th</name>
         <_shortDescription>Tha</_shortDescription>
-        <_description>Thai</_description>
+        <_description>Thailand</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1993,7 +2001,7 @@
       <configItem>
         <name>ua</name>
         <_shortDescription>Ukr</_shortDescription>
-        <_description>Ukrainian </_description>
+        <_description>Ukraine</_description>
       </configItem>
       <variantList>
         <variant>
@@ -2048,7 +2056,7 @@
       <configItem>
         <name>uz</name>
         <_shortDescription>Uzb</_shortDescription>
-        <_description>Uzbek</_description>
+        <_description>Uzbekistan</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -2056,7 +2064,7 @@
       <configItem>
         <name>vn</name>
         <_shortDescription>Vnm</_shortDescription>
-        <_description>Vietnamese</_description>
+        <_description>Vietnam</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -2072,7 +2080,7 @@
       <configItem>
         <name>ie</name>
         <_shortDescription>Irl</_shortDescription>
-        <_description>Irish</_description>
+        <_description>Ireland</_description>
       </configItem>
       <variantList>
         <variant>
