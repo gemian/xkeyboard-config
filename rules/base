@@ -27,7 +27,7 @@
   *		=	xfree86
 
 ! $azerty = be fr
-! $qwertz = al cz de hr ro si sk 
+! $qwertz = al cz de hr hu ro si sk 
 
 ! layout[1]	=	keycodes
   $azerty       =       +aliases(azerty)
