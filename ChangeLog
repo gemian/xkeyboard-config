@@ -1,3 +1,8 @@
+2004-10-12 18:45  svu
+
+	* symbols/Makefile.am, symbols/sin, rules/base.xml.in: added 
+	Sinhalese, thanks to Harshula Jayasuriya
+
 2004-10-10 23:59  svu
 
 	* po/: af.po, az.po, bg.po, cs.po, da.po, fr.po, hu.po, nl.po,

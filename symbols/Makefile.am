@@ -21,7 +21,7 @@ mt nl no \
 ogam ori \
 pc pl pt \
 ro ru se \
-si sk smi \
+si sin sk smi \
 srp syr tam \
 tel th tj \
 tr ua urd us \

@@ -1731,6 +1731,14 @@
     </layout>
     <layout>
       <configItem>
+        <name>sin</name>
+        <_shortDescription>Sin</_shortDescription>
+        <_description>Sinhala</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>sk</name>
         <_shortDescription>Svk</_shortDescription>
         <_description>Slovak</_description>
