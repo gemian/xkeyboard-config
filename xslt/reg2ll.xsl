@@ -15,9 +15,9 @@
 <xsl:template match="variantList"><xsl:apply-templates select="./variant"/></xsl:template>
 
 <xsl:template match="layout"><xsl:text>
-</xsl:text><xsl:value-of select="./configItem/name"/>: "<xsl:value-of select="./configItem/description"/>"<xsl:apply-templates match="./variantList/variant"/>
-</xsl:template>
+</xsl:text><xsl:value-of select="./configItem/name"/>:"<xsl:value-of select="./configItem/description"/>"<xsl:apply-templates match="./variantList/variant"/></xsl:template>
   
 <xsl:template match="variant"><xsl:text>
-</xsl:text><xsl:value-of select="../../configItem/name"/>: "<xsl:value-of select="./configItem/description"/>"</xsl:template>
+</xsl:text><xsl:value-of select="../../configItem/name"/>:"<xsl:value-of select="./configItem/description"/>"</xsl:template>
+
 </xsl:stylesheet>
