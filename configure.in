@@ -35,16 +35,16 @@ AM_CONDITIONAL(CREATE_RULES_SYMLINK, test "x$xkb_rules_symlink" != "x")
 
 AM_CONDITIONAL(CREATE_XKBCOMP_SYMLINK, test "x$enable_xkbcomp_symlink" == "xyes")
 
+AC_PROG_INTLTOOL(0.30)
+AM_GNU_GETTEXT([external])
 ALL_LINGUAS="af az bg cs da fr hu nl ru sk sq sr sv tr uk zh_CN"
 
-AM_GNU_GETTEXT
-
-AC_PROG_INTLTOOL
+AM_GLIB_GNU_GETTEXT
 
 AC_SUBST(xkb_base)
 AC_SUBST(xkb_rules_symlink)
 
-AC_OUTPUT([ intl/Makefile po/Makefile.in m4/Makefile
+AC_OUTPUT([ po/Makefile.in m4/Makefile  intl/Makefile
 Makefile
 compat/Makefile
 compiled/Makefile

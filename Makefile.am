@@ -1,6 +1,6 @@
-SUBDIRS = compat compiled geometry intl keycodes keymap m4 po rules semantics symbols types docs
+SUBDIRS = compat compiled geometry keycodes keymap m4 po rules semantics symbols types docs
 
-EXTRA_DIST= COPYING README config.rpath mkinstalldirs  config.rpath \
+EXTRA_DIST= config.rpath  COPYING README mkinstalldirs \
        autogen.sh \
        xkeyboard-config.spec \
        xkeyboard-config.spec.in \
