@@ -1,3 +1,8 @@
+2005-01-20 svu
+
+	* symbols/hr: added missing keymapping, 
+	fixed https://bugs.freedesktop.org/show_bug.cgi?id=2325
+
 2005-01-19 svu
 
 	* symbols/us: removed illegal 'hidden' attribute from the default layout
