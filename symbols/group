@@ -84,7 +84,9 @@ xkb_symbols "toggle" {
 };
 
 // using the group(shift_toggle) map, pressing both shift keys together
-// locks the next sequential keyboard group.
+// locks the next or previous sequential keyboard group 
+// (depending on which shift is pressed first - right or left, 
+// correspongingly)
 partial modifier_keys 
 xkb_symbols "shift_toggle" {
     key <LFSH>	{	[	Shift_L,	ISO_Prev_Group ]	};
