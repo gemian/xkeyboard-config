@@ -1,3 +1,8 @@
+2004-10-26 21:08  svu
+
+	* symbols/Makefile.am, symbols/kg, rules/base.xml.in: added 
+	Kyrgyz, thanks to Yury Fedorov
+
 2004-10-12 18:45  svu
 
 	* symbols/Makefile.am, symbols/sin, rules/base.xml.in: added 

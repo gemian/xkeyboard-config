@@ -1371,6 +1371,14 @@
     </layout>
     <layout>
       <configItem>
+        <name>kg</name>
+        <_shortDescription>Kyr</_shortDescription>
+        <_description>Kyrgyz</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>latam</name>
         <_shortDescription>LAm</_shortDescription>
         <_description>Latin America</_description>
