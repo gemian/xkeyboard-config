@@ -368,7 +368,7 @@ msgstr "Дворак"
 
 #: xfree86.xml.in.h:89
 msgid "Dzongkha / Tibetan"
-msgstr "Dzongkha / Тибетская"
+msgstr "Дзонгкха / Тибетская"
 
 #: xfree86.xml.in.h:90
 msgid "Eliminate dead keys"
