@@ -1,4 +1,4 @@
-Name:		xkbdesc
+Name:		xkeyboard-config
 Summary:	XML-based XKB configuration registry
 Version:	@VERSION@
 Release:	1

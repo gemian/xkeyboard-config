@@ -23,6 +23,6 @@ intltool-modules
 config.h
 config.h.in
 stamp-h1
-xkbdesc-0.1.tar.gz
-xkbdesc.spec
+xkeyboard-config*.tar.gz
+xkeyboard-config.spec
 

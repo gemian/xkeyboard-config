@@ -4,7 +4,7 @@
 DIE=0
 
 srcdir=`dirname $0`
-PKG_NAME=xkbdesc
+PKG_NAME=xkeyboard-config
 
 if [ -n "$GNOME2_PATH" ]; then
 	ACLOCAL_FLAGS="-I $GNOME2_PATH/share/aclocal $ACLOCAL_FLAGS"

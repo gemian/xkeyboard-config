@@ -1,6 +1,6 @@
 AC_INIT(rules/base.xml.in)
 
-PACKAGE=xkbdesc
+PACKAGE=xkeyboard-config
 GETTEXT_PACKAGE=$PACKAGE
 MAJOR_VERSION=0
 MINOR_VERSION=1
@@ -65,7 +65,7 @@ symbols/sony_vndr/Makefile
 symbols/sun_vndr/Makefile
 symbols/xfree68_vndr/Makefile
 types/Makefile
-xkbdesc.spec
+xkeyboard-config.spec
 docs/Makefile
 ])
 
