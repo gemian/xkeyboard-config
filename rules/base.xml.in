@@ -1163,50 +1163,8 @@
       <variantList>
         <variant>
           <configItem>
-            <name>l2_101_qwerty_comma</name>
-            <_description>l2/101/qwerty/comma</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>l2_101_qwerty_dot</name>
-            <_description>l2/101/qwerty/dot</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>l2_101_qwertz_comma</name>
-            <_description>l2/101/qwertz/comma</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>l2_101_qwertz_dot</name>
-            <_description>l2/101/qwertz/dot</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>l2_102_qwerty_comma</name>
-            <_description>l2/102/qwerty/comma</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>l2_102_qwerty_dot</name>
-            <_description>l2/102/qwerty/dot</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>l2_102_qwertz_comma</name>
-            <_description>l2/102/qwertz/comma</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>l2_102_qwertz_dot</name>
-            <_description>l2/102/qwertz/dot</_description>
+            <name>standard</name>
+            <_description>Standard</_description>
           </configItem>
         </variant>
         <variant>
@@ -1217,73 +1175,114 @@
         </variant>
         <variant>
           <configItem>
-            <name>standard</name>
-            <_description>Standard</_description>
+            <name>qwerty</name>
+            <_description>qwerty</_description>
+          </configItem>
+        </variant>
+
+        <!-- 101 keys -->
+        <variant>
+          <configItem>
+            <name>101_qwertz_comma_dead</name>
+            <_description>101/qwertz/comma/Dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>sundeadkeys</name>
-            <_description>Sun dead keys</_description>
+            <name>101_qwertz_comma_nodead</name>
+            <_description>101/qwertz/comma/Eliminate dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>uni_101_qwerty_comma</name>
-            <_description>uni/101/qwerty/comma</_description>
+            <name>101_qwertz_dot_dead</name>
+            <_description>101/qwertz/dot/Dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>uni_101_qwerty_dot</name>
-            <_description>uni/101/qwerty/dot</_description>
+            <name>101_qwertz_dot_nodead</name>
+            <_description>101/qwertz/dot/Eliminate dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>uni_101_qwertz_comma</name>
-            <_description>uni/101/qwertz/comma</_description>
+            <name>101_qwerty_comma_dead</name>
+            <_description>101/qwerty/comma/Dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>uni_101_qwertz_dot</name>
-            <_description>uni/101/qwertz/dot</_description>
+            <name>101_qwerty_comma_nodead</name>
+            <_description>101/qwerty/comma/Eliminate dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>uni_102_qwerty_comma</name>
-            <_description>uni/102/qwerty/comma</_description>
+            <name>101_qwerty_dot_dead</name>
+            <_description>101/qwerty/dot/Dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>uni_102_qwerty_dot</name>
-            <_description>uni/102/qwerty/dot</_description>
+            <name>101_qwerty_dot_nodead</name>
+            <_description>101/qwerty/dot/Eliminate dead keys</_description>
+          </configItem>
+        </variant>
+
+
+        <!-- 102 keys -->
+        <variant>
+          <configItem>
+            <name>102_qwertz_comma_dead</name>
+            <_description>102/qwertz/comma/Dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>uni_102_qwertz_comma</name>
-            <_description>uni/102/qwertz/comma</_description>
+            <name>102_qwertz_comma_nodead</name>
+            <_description>102/qwertz/comma/Eliminate dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>uni_102_qwertz_dot</name>
-            <_description>uni/102/qwertz/dot</_description>
+            <name>102_qwertz_dot_dead</name>
+            <_description>102/qwertz/dot/Dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>102_qwertz_dot_nodead</name>
+            <_description>102/qwertz/dot/Eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>102_qwerty_comma_dead</name>
+            <_description>102/qwerty/comma/Dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>102_qwerty_comma_nodead</name>
+            <_description>102/qwerty/comma/Eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>102_qwerty_dot_dead</name>
+            <_description>102/qwerty/dot/Dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>102_qwerty_dot_nodead</name>
+            <_description>102/qwerty/dot/Eliminate dead keys</_description>
+          </configItem>
+        </variant>
+
+
       </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>hu_qwerty</name>
-        <_shortDescription>Hun</_shortDescription>
-        <_description>Hungarian (qwerty)</_description>
-      </configItem>
-      <variantList/>
     </layout>
     <layout>
       <configItem>
@@ -1422,27 +1421,6 @@
         </variant>
       </variantList>
     </layout>
-    <!--<layout>
-      <configItem>
-        <name>lt_std</name>
-        <_shortDescription>Ltu</_shortDescription>
-        <_description>Lithuanian azerty standard</_description>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>nodeadkeys</name>
-            <_description>Eliminate dead keys</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>sundeadkeys</name>
-            <_description>Sun dead keys</_description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>-->
     <layout>
       <configItem>
         <name>lv</name>
@@ -1682,7 +1660,7 @@
         </variant>
         <variant>
           <configItem>
-            <name>bksl_qwerty</name>
+            <name>qwerty_bksl</name>
             <_description>qwerty, extended Backslash</_description>
           </configItem>
         </variant>

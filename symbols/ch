@@ -86,7 +86,7 @@ xkb_symbols "de_Sundeadkeys" {
 
 partial alphanumeric_keys 
 xkb_symbols "de_sundeadkeys" {
-    include "ch(Sundeadkeys)"
+    include "ch(de_Sundeadkeys)"
 };
 
 partial alphanumeric_keys 

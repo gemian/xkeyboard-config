@@ -101,6 +101,13 @@ sub testLevel2
       my $paramValue=$1;
       print "--- scanning $type: [$paramValue]\n";
 
+      my @params = defaultXkbSettings();
+      @params[$idx] = "$paramValue";
+      dumpXkbSettings ( @params );
+      setXkbSettings ( @params );
+      #print "--- dump:\n";
+      #dumpXkbSettings( getXkbSettings() );
+
       open ( XSLTPROC2, "xsltproc --stringparam type $subtype --stringparam parentId $paramValue listCI2.xsl ../rules/base.xml.in |" ) or
         die ( "Could not start xsltproc" );
       while (<XSLTPROC2>)
