@@ -2329,6 +2329,12 @@
           <_description>Hyper is mapped to the Win-keys.</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>altwin:alt_super_win</name>
+          <_description>Alt is mapped to the right Win-key and Super to Menu.</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <configItem>

@@ -173,6 +173,7 @@
   altwin:left_meta_win	=	+altwin(left_meta_win)
   altwin:super_win	=	+altwin(super_win)
   altwin:hyper_win	=	+altwin(hyper_win)
+  altwin:alt_super_win	=	+altwin(alt_super_win)
   compose:ralt		=	+compose(ralt)
   compose:rwin		=	+compose(rwin)
   compose:menu		=	+compose(menu)
