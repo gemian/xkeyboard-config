@@ -1,3 +1,8 @@
+2005-03-09 svu
+
+	* symbols/us: fixing dvorak,
+	https://bugs.freedesktop.org/show_bug.cgi?id=2641
+
 2005-02-05 svu
 
 	* configure.in, NEWS: preparing 0.5
