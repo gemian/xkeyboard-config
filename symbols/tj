@@ -1,3 +1,4 @@
+// $Xorg: $
 
 // based on
 // Tajik keyboard 
@@ -14,7 +15,6 @@
 // AEN <aen@logic.ru> (for the Russian layout)
 // Pablo Saratxaga <pablo@mandrakesoft> (for the dead keys changes)
 //
-// $Xorg: $
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
