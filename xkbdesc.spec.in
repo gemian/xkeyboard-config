@@ -1,4 +1,4 @@
-Name:		xfree86_xkb_xml
+Name:		xkbdesc
 Summary:	XML-based XKB configuration registry
 Version:	@VERSION@
 Release:	1
@@ -41,5 +41,5 @@ rm -rf $RPM_BUILD_DIR/%{name}-%{version}
 %files
 %defattr(-, root, root)
 
-#%doc AUTHORS ChangeLog NEWS README COPYING.LIB
+%doc AUTHORS ChangeLog NEWS README COPYING
 %{_prefix}/X11R6/lib/X11/xkb/rules/*
