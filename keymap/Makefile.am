@@ -1,12 +1,10 @@
-SUBDIRS = digital.vndr sgi.vndr
+SUBDIRS = digital.vndr sgi.vndr sun.vndr
 
-kc_DATA = \
-aliases amiga ataritt \
-fujitsu hp ibm \
-macintosh powerpcps2 sony \
-sun xfree86 xfree98 \
+km_DATA = \
+amiga ataritt macintosh \
+sony xfree86 xfree98 \
 README
                                                                                           
-EXTRA_DIST= $(kc_DATA)
+EXTRA_DIST= $(km_DATA)
                                                                                           
-kcdir = $(xkb_base)/keycodes
+kmdir = $(xkb_base)/keymap
