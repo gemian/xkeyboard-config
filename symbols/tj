@@ -14,7 +14,7 @@
 // AEN <aen@logic.ru> (for the Russian layout)
 // Pablo Saratxaga <pablo@mandrakesoft> (for the dead keys changes)
 //
-// $XFree86$
+// $XFree86:
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
