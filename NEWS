@@ -1,3 +1,6 @@
+0.3	HEAVILY restructured layout names
+	Compatibility rules are introduced
+	intltool problem resolved (sorry, with warnings)
 0.2	Now automatically create symlink for xkbcomp (XFree/XOrg servers need it).
 	Added HOWTO.transition.
         Added Maori layout.
