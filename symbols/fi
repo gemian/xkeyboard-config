@@ -68,6 +68,8 @@ xkb_symbols "nodeadkeys" {
     include "latin(type2_nodeadkeys)"
     include "fi(fi)"
 
+    name[Group1]="Finland - Eliminate dead keys";
+
     key <AE12> { [ acute, grave ] };
     key <AD12> { [ diaeresis, asciicircum, asciitilde, caron ] };
 };

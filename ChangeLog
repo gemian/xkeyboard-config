@@ -1,3 +1,10 @@
+2005-01-16 svu
+
+	* symbols, rules/base.xml.in: HUGE commit - adjusting the group names
+	according to the descriptions. 
+	Also, some layouts were missing the default variants - added one.
+	Also, some default variants were listed in the variantLists - now they are removed.
+
 2005-01-06 svu
 
 	* symbols/am, rules/base.xml.in: Removing old Armenian layout,

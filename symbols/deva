@@ -4,7 +4,7 @@
 
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
-      name[Group1]= "Hindi";
+      name[Group1]= "Devanagari";
 
       key <TLDE> { [      0x100094A, 0x1000912		]	};
 

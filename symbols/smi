@@ -11,11 +11,11 @@
 //
 // $XFree86: xc/programs/xkbcomp/symbols/sapmi,v 1.2 2002/11/22 04:03:28 dawes Exp $
 
-partial alphanumeric_keys
+partial default alphanumeric_keys
 xkb_symbols "basic" {
     include "latin"
 
-    name[Group1]= "Sami languages (Other)";
+    name[Group1]= "Northern Saami";
 
     key <AE01>	{ [         1,     exclam,    copyright,   exclamdown ]	};
     key <AE02>	{ [         2,   quotedbl,           at,   registered ]	};
@@ -71,7 +71,7 @@ xkb_symbols "basic" {
     include "level3(ralt_switch)"
 };
 
- xkb_symbols "sefi" {
+xkb_symbols "sefi" {
 
     // Describes the differences between a Norwegian Northern Sami
     // (keyboard with dead key support) and a Swedish/Finnish Sami
@@ -79,6 +79,8 @@ xkb_symbols "basic" {
     // http://www.hum.uit.no/a/trond/se-lat9-sefi-keys.html
 
     include "smi(basic)"
+
+    name[Group1]= "Northern Saami - Finish and Swedish";
 
     key <AC10>	{ [odiaeresis, Odiaeresis,       oslash,     Ooblique ]	};
     key <AC11>	{ [adiaeresis, Adiaeresis,           ae,           AE ]	};
@@ -90,6 +92,8 @@ xkb_symbols "nodeadkeys" {
     // Modifies the basic Norwegian layout to eliminate dead keys
 
     include "smi(basic)"
+
+    name[Group1]= "Northern Saami - Eliminate dead keys";
 
     key <AE12>	{ [ backslash,      grave,        acute,       ogonek ]	};
 };

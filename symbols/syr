@@ -78,7 +78,7 @@ xkb_symbols "basic" {
 
 partial alphanumeric_keys
 xkb_symbols "phonetic" {
-    name[Group1]= "Syriac(phonetic)";
+    name[Group1]= "Syriac - Phonetic";
 
     key <TLDE> {  [	0x100070F,	0x100032E,	Arabic_shadda		]     };
     key <AE01> {  [  	1,		exclam,		0x1000701		]     };

@@ -60,6 +60,7 @@ partial alphanumeric_keys
 xkb_symbols "sundeadkeys" {
     include "fr(Sundeadkeys)"
 
+    name[Group1]="France - Sun dead keys";
 };
 
 partial alphanumeric_keys
@@ -68,6 +69,8 @@ xkb_symbols "nodeadkeys" {
     // Modifies the basic French layout to eliminate all dead keys
 
     include "fr(basic)"
+
+    name[Group1]="France - Eliminate dead keys";
 
     key <AE12>	{ [     equal,       plus,   braceright,       ogonek ]	};
     key <AD11>	{ [asciicircum,  diaeresis ]	};
@@ -150,7 +153,7 @@ xkb_symbols "latin9" {
 
     include "latin"
 
-    name[Group1]="fr-latin9";
+    name[Group1]="France - Alternative";
 
     key <TLDE>	{ [              oe,              OE, leftdoublequotemark, rightdoublequotemark ] };
     key <AE01>	{ [       ampersand,               1,          dead_acute,       periodcentered ] };
@@ -231,6 +234,7 @@ xkb_symbols "latin9_sundeadkeys" {
 
     include "fr(latin9_Sundeadkeys)"
 
+    name[Group1]="France - Alternative, Sun dead keys";
 };
 
 partial alphanumeric_keys
@@ -239,6 +243,8 @@ xkb_symbols "latin9_nodeadkeys" {
     // Modifies the basic fr-latin9 layout to eliminate all dead keys
 
     include "fr(latin9)"
+
+    name[Group1]="France - Alternative, eliminate dead keys";
 
     key <AE01>	{ [       ampersand,               1,          apostrophe,       periodcentered ] };
     key <AE07>	{ [          egrave,               7,               grave,               Egrave ] };
@@ -252,7 +258,7 @@ xkb_symbols "latin9_nodeadkeys" {
 partial alphanumeric_keys
 xkb_symbols "dvorak" {
 
-    name[Group1]= "French dvorak";
+    name[Group1]= "France - Dvorak";
 
     key <TLDE>  { [         oe,       OE,              ae,             AE ] };
 

@@ -43,7 +43,7 @@ xkb_symbols "us" {
 
     include "latin"
 
-    name[Group1]="Lithuania";
+    name[Group1]="Lithuania - US keyboard with Lithuanian letters";
 
     key <AE01>	{ [         1,     exclam,      aogonek,      Aogonek ]	};
     key <AE02>	{ [         2,         at,       ccaron,       Ccaron ]	};
@@ -75,7 +75,7 @@ xkb_symbols "std" {
 
     include "latin"
 
-    name[Group1]= "Lithuania";
+    name[Group1]= "Lithuania - Standard";
 
     key <TLDE> {[	grave,		asciitilde,	acute		]};
     key <AE01> {[	exclam,		1,		at		]};

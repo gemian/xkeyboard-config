@@ -44,6 +44,7 @@ xkb_symbols "nodeadkeys" {
     // Modifies the basic Estonian layout to eliminate all dead keys
 
     include "ee(basic)"
+    name[Group1]="Estonia - Eliminate dead keys";
 
     key <TLDE>	{ [asciicircum,asciitilde ]	};
     key <AE12>	{ [apostrophe,      grave ]	};

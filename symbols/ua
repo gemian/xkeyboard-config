@@ -71,6 +71,8 @@ partial alphanumeric_keys
 xkb_symbols "winkeys" {
     include "ua(basic)"
  
+    name[Group1]= "Ukraine - Winkeys";
+
     key <AE03> {        [               3,      numerosign      ]       };
     key <AE04> {        [               4,       semicolon      ]       };
     key <AE05> {        [               5,         percent      ]       };
@@ -83,6 +85,8 @@ xkb_symbols "winkeys" {
 partial alphanumeric_keys
 xkb_symbols "typewriter" {
     include "ua(basic)"
+
+    name[Group1]= "Ukraine - Typewriter";
 
     key	<TLDE> {	[      apostrophe,	  quotedbl	] 	};
     key	<AE01> {	[	   exclam,		 1 	]	};
@@ -111,6 +115,8 @@ partial alphanumeric_keys
 xkb_symbols "phonetic" {
   include "ua(basic)"
   
+  name[Group1]= "Ukraine - Phonetic";
+
   key <LatQ> {   [ Cyrillic_ya,       Cyrillic_YA         ]    };
   key <LatW> {   [ Cyrillic_ve,       Cyrillic_VE         ]    };
   key <LatE> {   [ Cyrillic_ie,       Cyrillic_IE         ]    };
@@ -154,6 +160,8 @@ xkb_symbols "phonetic" {
 partial alphanumeric_keys
 xkb_symbols "rstu" {
     include "ua(basic)"
+
+    name[Group1]= "Ukraine - Ukrainian standard RSTU";
 
     key	<TLDE> {	[      apostrophe,	  question	] 	};
     key	<AE01> {	[	   exclam,		 1 	]	};

@@ -754,12 +754,6 @@
             <_description>Cyrillic</_description>
           </configItem>
         </variant>
-        <variant>
-          <configItem>
-            <name>latin</name>
-            <_description>Latin</_description>
-          </configItem>
-        </variant>
       </variantList>
     </layout>
     <layout>
@@ -810,7 +804,14 @@
         <_shortDescription>Ben</_shortDescription>
         <_description>Bengali</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>probhat</name>
+            <_description>Probhat</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -827,12 +828,6 @@
         <_description>Brazil</_description>
       </configItem>
       <variantList>
-        <variant>
-          <configItem>
-            <name>abnt2</name>
-            <_description>abnt2</_description>
-          </configItem>
-        </variant>
         <variant>
           <configItem>
             <name>nodeadkeys</name>
@@ -871,12 +866,6 @@
         <_description>Canada</_description>
       </configItem>
       <variantList>
-        <variant>
-          <configItem>
-            <name>fr</name>
-            <_description>French</_description>
-          </configItem>
-        </variant>
         <variant>
           <configItem>
             <name>fr-dvorak</name>
@@ -1082,12 +1071,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>la</name>
-            <_description>Latin</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>ru</name>
             <_description>Russian</_description>
           </configItem>
@@ -1117,6 +1100,18 @@
           <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ro</name>
+            <_description>Romanian keyboard with German letters</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ro_nodeadkeys</name>
+            <_description>Romanian keyboard with German letters, eliminate dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1399,6 +1394,14 @@
     </layout>
     <layout>
       <configItem>
+        <name>lao</name>
+        <_shortDescription>Lao</_shortDescription>
+        <_description>Laos</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>latam</name>
         <_shortDescription>LAm</_shortDescription>
         <_description>Latin American</_description>
@@ -1446,12 +1449,6 @@
         <_description>Latvia</_description>
       </configItem>
       <variantList>
-        <variant>
-          <configItem>
-            <name>basic</name>
-            <_description>Basic (RALT) variant</_description>
-          </configItem>
-        </variant>
         <variant>
           <configItem>
             <name>apostrophe</name>
@@ -1726,13 +1723,13 @@
         <variant>
           <configItem>
             <name>latinyz</name>
-            <_description>Latin QWERTY</_description>
+            <_description>Latin qwerty</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinunicodeyz</name>
-            <_description>Latin Unicode QWERTY</_description>
+            <_description>Latin Unicode qwerty</_description>
           </configItem>
         </variant>
         <variant>
@@ -1843,12 +1840,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>de</name>
-            <_description>German</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>de_nodeadkeys</name>
             <_description>German, eliminate dead keys</_description>
           </configItem>
@@ -1911,12 +1902,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>TSCII</name>
-            <_description>Typewrite-style keymap; TSCII encoding</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>TAB</name>
             <_description>Typewrite-style keymap; TAB encoding</_description>
           </configItem>
@@ -1950,12 +1935,6 @@
         <_description>Thailand</_description>
       </configItem>
       <variantList>
-        <variant>
-          <configItem>
-            <name>basic</name>
-            <_description>Kedmanee</_description>
-          </configItem>
-        </variant>
         <variant>
           <configItem>
             <name>tis</name>
@@ -2098,7 +2077,7 @@
         <variant>
           <configItem>
             <name>laptop</name>
-            <_description>laptop</_description>
+            <_description>Laptop</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2110,12 +2089,6 @@
         <_description>Northern Saami</_description>
       </configItem>
       <variantList>
-        <variant>
-          <configItem>
-            <name>basic</name>
-            <_description>Norwegian</_description>
-          </configItem>
-        </variant>
         <variant>
           <configItem>
             <name>nodeadkeys</name>

@@ -68,6 +68,7 @@ xkb_symbols "basic" {
 
 xkb_symbols "phonetic" {
     include "am(basic)"
+    name[Group1]= "Armenia - Phonetic";
 	
     key <BKSL> {	[ 0x1000577,  0x1000547 ]	};
 	

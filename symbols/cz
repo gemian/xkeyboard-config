@@ -2,7 +2,7 @@
 // $XFree86: xc/programs/xkbcomp/symbols/cz,v 1.2 2002/11/22 04:02:22 dawes 
 // Exp $
 
-partial alphanumeric_keys 
+partial default alphanumeric_keys 
 xkb_symbols "basic" {
      
      // This layout conforms to a new cz compromise standard designed 
@@ -79,6 +79,7 @@ xkb_symbols "basic" {
 // Use <BKSL> instead of <LSGT> (useful for keyboard without <LSGT> key)
 xkb_symbols "bksl" {
     include "cz(basic)"
+    name[Group1]= "Czechia - Extended Backslash";
 
     key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
 };
@@ -91,6 +92,7 @@ xkb_symbols "qwerty" {
     // 2001 by Kamil Toman <ktoman@email.cz>
     
     include "cz(basic)"
+    name[Group1]= "Czechia - qwerty";
 
     key <AB01>	{ [         z,          Z,       degree,     NoSymbol ]	};
     key <AD06>	{ [         y,          Y,     NoSymbol,     NoSymbol ]	};
@@ -99,6 +101,8 @@ xkb_symbols "qwerty" {
 // Use <BKSL> instead of <LSGT> (useful for keyboard without <LSGT> key)
 xkb_symbols "qwerty_bksl" {
     include "cz(qwerty)"
+
+    name[Group1]= "Czechia - qwerty, extended Backslash";
 
     key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
 };

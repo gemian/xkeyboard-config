@@ -33,6 +33,8 @@ xkb_symbols "nodeadkeys" {
 
     include "dk(basic)"
 
+    name[Group1]="Denmark - Eliminate dead keys";
+
     key <AE12>	{ [     acute,      grave,          bar,       ogonek ]	};
     key <AD11>	{ [     aring,      Aring,    diaeresis,       degree ]	};
     key <AD12>	{ [ diaeresis, asciicircum,  asciitilde,       macron ]	};

@@ -3,7 +3,7 @@
 // $XFree86: xc/programs/xkbcomp/symbols/sk,v 1.2 2002/11/22 04:02:22 dawes 
 // Exp $
 
-partial alphanumeric_keys 
+partial default alphanumeric_keys 
 xkb_symbols "basic" {
      
      // This layout conforms to a new sk compromise standard designed 
@@ -81,6 +81,8 @@ xkb_symbols "basic" {
 xkb_symbols "bksl" {
     include "sk(basic)"
 
+    name[Group1] = "Slovakia - Extended Backslash";
+
     key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
 };
 
@@ -93,6 +95,8 @@ xkb_symbols "qwerty" {
     
     include "sk(basic)"
 
+    name[Group1] = "Slovakia - qwerty";
+
     key <AB01>	{ [         z,          Z,       degree,     NoSymbol ]	};
     key <AD06>	{ [         y,          Y,     NoSymbol,     NoSymbol ]	};
 };
@@ -100,6 +104,8 @@ xkb_symbols "qwerty" {
 // Use <BKSL> instead of <LSGT> (useful for keyboard without <LSGT> key)
 xkb_symbols "qwerty_bksl" {
     include "sk(qwerty)"
+
+    name[Group1] = "Slovakia - qwerty, extended Backslash";
 
     key <BKSL>	{ [ backslash,        bar,        slash,     NoSymbol ]	};
 };

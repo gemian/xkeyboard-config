@@ -83,6 +83,9 @@ xkb_symbols "laptop" {
     // For laptops which don't have the RWIN key but are otherwise
     // the same as 105-key layouts.
     include "ogam(basic)"
+
+    name[Group1] = "Ogham - Laptop";
+
     key <MENU>  { type[Group1]="TWO_LEVEL", [ Multi_key, ISO_Next_Group ]  };
 };
 
@@ -93,7 +96,7 @@ xkb_symbols "is434" {
     // This has the full layout of IS434 with an Irish QWERTY keyboard,
     // and the Ogham characters accessed when CAPS LOCK is on.
 
-    name[Group1] = "Ogham (IS434)";
+    name[Group1] = "Ogham - IS434";
 
     key.type[Group1] = "THREE_LEVEL";
 
@@ -197,6 +200,9 @@ xkb_symbols "is434laptop" {
     // For laptops which don't have the RWIN key but are otherwise
     // the same as 105-key layouts.
     include "ogam(is434)"
+
+    name[Group1] = "Ogham - IS434 laptop";
+
     key <MENU>  { type[Group1]="TWO_LEVEL", [ Multi_key, ISO_Next_Group ]  };
 };
 

@@ -60,7 +60,7 @@ xkb_symbols "la" {
 partial alphanumeric_keys 
 xkb_symbols "ru" {
 
-    name[Group1]= "Georgia";
+    name[Group1]= "Georgia - Russian";
 
     key <TLDE> { [ asciicircum,	asciitilde	]	};
     key <AE01> { [         1,    exclam         ]       };

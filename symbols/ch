@@ -13,7 +13,7 @@ xkb_symbols "basic" {
     include "latin"
 
     // Alphanumeric section
-    name[Group1]= "Switzerland (German)";
+    name[Group1]= "Switzerland";
     key <TLDE> { [    section,     degree                           ] };
     key <AE01> { [          1,       plus,          bar, exclamdown ] };
     key <AE02> { [          2,   quotedbl,           at, oneeighth  ] };
@@ -53,7 +53,7 @@ xkb_symbols "de" {
 
 partial alphanumeric_keys 
 xkb_symbols "de_Sundeadkeys" {
-    // modify the default Swiss German layout to use Sun dead keys
+    // modify the basic Swiss German layout to use Sun dead keys
     include "ch(basic)"
     key <AE11> { [      apostrophe,    question,  SunFA_Acute   ] };
     key <AE12> { [    SunFA_Circum, SunFA_Grave,  SunFA_Tilde   ] };
@@ -63,12 +63,14 @@ xkb_symbols "de_Sundeadkeys" {
 partial alphanumeric_keys 
 xkb_symbols "de_sundeadkeys" {
     include "ch(de_Sundeadkeys)"
+    name[Group1]= "Switzerland - German, Sun dead keys";
 };
 
 partial alphanumeric_keys 
 xkb_symbols "de_nodeadkeys" {
-    // modify the default Swiss German layout not to have any dead keys
+    // modify the basic Swiss German layout not to have any dead keys
     include "ch(basic)"
+    name[Group1]= "Switzerland - German, eliminate dead keys";
     key <AE11> { [  apostrophe, question,        acute  ] };
     key <AE12> { [ asciicircum,    grave,   asciitilde  ] };
     key <AD12> { [   diaeresis,   exclam, bracketright  ] };
@@ -81,7 +83,7 @@ xkb_symbols "fr" {
     // keyboard and a very simple Swiss/French keybaord
 
     include "ch(basic)"
-    name[Group1]= "Switzerland (French)";
+    name[Group1]= "Switzerland - French";
 
     override key <AD11> {
 	[ egrave,	udiaeresis,	bracketleft	]
@@ -96,7 +98,7 @@ xkb_symbols "fr" {
 
 partial alphanumeric_keys
 xkb_symbols "fr_Sundeadkeys" {
-    // modify the default Swiss French layout to use Sun dead keys
+    // modify the basic Swiss French layout to use Sun dead keys
     include "ch(fr)"
     key <AE11> { [      apostrophe,    question,  SunFA_Acute   ] };
     key <AE12> { [    SunFA_Circum, SunFA_Grave,  SunFA_Tilde   ] };
@@ -106,12 +108,14 @@ xkb_symbols "fr_Sundeadkeys" {
 partial alphanumeric_keys
 xkb_symbols "fr_sundeadkeys" {
     include "ch(fr_Sundeadkeys)"
+    name[Group1]= "Switzerland - French, Sun dead keys";
 };
 
 partial alphanumeric_keys
 xkb_symbols "fr_nodeadkeys" {
-    // modify the default Swiss French layout not to have any dead keys
+    // modify the basic Swiss French layout not to have any dead keys
     include "ch(fr)"
+    name[Group1]= "Switzerland - French, eliminate dead keys";
     key <AE11> { [  apostrophe, question,        acute  ] };
     key <AE12> { [ asciicircum,    grave,   asciitilde  ] };
     key <AD12> { [   diaeresis,   exclam, bracketright  ] };

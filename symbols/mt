@@ -38,7 +38,7 @@ xkb_symbols "basic" {
 // Maltese keyboard map (based on MSA Standard DMS100, annex A)
 // by Ramon Casha (ramon.casha@linux.org.mt)
 
-partial default alphanumeric_keys
+partial alphanumeric_keys
 xkb_symbols "us" {
 
     include "mt(basic)"
@@ -46,7 +46,7 @@ xkb_symbols "us" {
     // Describes the differences between the mt
     // keyboard and a US-based physical keyboard
 
-    name[Group1]="Maltese (US layout)";
+    name[Group1]="Malta - US keyboard with Maltian letters";
 
     key <BKSL>	{ [ zabovedot,  Zabovedot,    backslash,          bar ]	};
 

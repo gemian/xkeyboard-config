@@ -70,7 +70,7 @@ xkb_symbols "basic" {
 };
 
 xkb_symbols "probhat" {
- name[Group1]= "Bengali";
+ name[Group1]= "Bengali - Probhat";
    key <ESC>  { [ Escape ] };
 
 // numbers

@@ -29,7 +29,7 @@ xkb_symbols "basic" {
     include "level3(ralt_switch)"
 };
 
-partial default alphanumeric_keys 
+partial alphanumeric_keys 
 xkb_symbols "intl" { 
 
     // Describes the differences between a very simple en_US 
@@ -45,7 +45,7 @@ xkb_symbols "intl" {
 
     include "latin" 
 
-    name[Group1]="United Kingdom"; 
+    name[Group1]="United Kingdom - International (with dead keys)"; 
 
     key <AE02>  { [   2,  dead_diaeresis,      twosuperior,     onehalf ] };
     key <AE03>  { [   3,        sterling,    threesuperior,    onethird ] };
@@ -67,6 +67,8 @@ xkb_symbols "intl" {
 partial alphanumeric_keys
 xkb_symbols "dvorak" {
     include "us(dvorak)"
+
+    name[Group1]="United Kingdom - Dvorak";
 
     key <BKSL> { [ numbersign,	asciitilde	] };
     key <AE02> { [	    2,	quotedbl,  twosuperior,   NoSymbol	] };

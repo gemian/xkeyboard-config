@@ -57,7 +57,7 @@ xkb_symbols "us" {
     // by Vlatko Kosturjak (kost at linux.hr)
 
     // Alphanumeric section
-    name[Group1]= "Croatia (US)";
+    name[Group1]= "Croatia - US keyboard with Croatian letters";
     key <AD01> {	[	  q,	Q 		],
 			[ backslash			]	};
     key <AD02> {	[	  w,	W 		],

@@ -35,7 +35,7 @@ xkb_symbols "qwertz" {
 
     include "latin(type3)"
 
-    name[Group1]="Poland";
+    name[Group1]="Poland - qwertz";
 
     key <AE01>	{ [         1,     exclam,   asciitilde,   exclamdown ]	};
     key <AE02>	{ [         2,   quotedbl,   dead_caron,    oneeighth ]	};
@@ -73,8 +73,8 @@ xkb_symbols "qwertz" {
 // Polish Dvorak keymaps
 // by Rafal Rzepecki <divide@users.sf.net>
 
-// The default keymap "pl" places Polish quotes on quotemark key and 
-// moves the dead symbols from there to "1/!" key. If you are used to default 
+// The base keymap "pl" places Polish quotes on quotemark key and 
+// moves the dead symbols from there to "1/!" key. If you are used to common 
 // dead keys placement, you could use "pl_altquotes"; in this layout 
 // dead keys remain in the old place, whereas Polish quotes are placed on the
 // "1/!" key. If you do not use Polish quotes at all, you can use "pl_basic" map.
@@ -84,7 +84,7 @@ partial alphanumeric_keys
 xkb_symbols "dvorak" {
     include "us(dvorak)"
     
-    name[Group1] = "Poland (Dvorak)";
+    name[Group1] = "Poland - Dvorak";
 
     key <AD08> { [	    c,	C,	cacute,	Cacute		]	};
     key <AD10> { [	    l,	L,     lstroke, Lstroke		]	};
@@ -110,6 +110,8 @@ partial alphanumeric_keys
 xkb_symbols "dvorak_quotes" {
     include "pl(dvorak)"
     
+    name[Group1] = "Poland - Dvorak, Polish quotes on quotemark key";
+
     key <AD01> { [  apostrophe,	quotedbl, doublelowquotemark, rightdoublequotemark	] };
 
     // Dead symbols moved to this key
@@ -120,6 +122,8 @@ xkb_symbols "dvorak_quotes" {
 partial alphanumeric_keys
 xkb_symbols "dvorak_altquotes" {
     include "pl(dvorak)"
+
+    name[Group1] = "Poland - Dvorak, Polish quotes on key 1/!";
 
     key <AE01> { [	    1,	exclam, doublelowquotemark, rightdoublequotemark	]	};
 };

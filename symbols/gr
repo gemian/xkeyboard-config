@@ -85,6 +85,8 @@ xkb_symbols "extended" {
 
     include "gr(basic)"
 
+    name[Group1] = "Greece - Extended";
+
     key.type = "THREE_LEVEL";
 
     key <AE05> { [	5,		percent,	EuroSign	] };
@@ -103,6 +105,8 @@ xkb_symbols "polytonic" {
 
     include "gr(extended)"
 
+    name[Group1] = "Greece - Polytonic";
+
     key.type = "THREE_LEVEL";
 
     key <AD11> { [ 	dead_tilde,	dead_diaeresis,	dead_macron	] };
@@ -117,6 +121,8 @@ partial alphanumeric_keys alternate_group
 xkb_symbols "nodeadkeys" {
 
     include "gr(basic)"
+
+    name[Group1] = "Greece - Eliminate dead keys";
 
     key <AC10> { [	semicolon,		colon		] };
 

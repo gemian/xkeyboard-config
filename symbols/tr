@@ -13,7 +13,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]="Turkey";
+    name[Group1]="Turkish";
 
     key <AE01>	{ [         1,    exclam,    onesuperior,    exclamdown ] };
     key <AE02>	{ [         2, apostrophe,      sterling,   twosuperior ] };
@@ -66,7 +66,7 @@ xkb_symbols "f" {
 
     include "latin"
 
-    name[Group1]="Turkey";
+    name[Group1]="Turkish - (F)";
 
     key <AE01>	{ [         1,     exclam,  onesuperior,   exclamdown ]	};
     key <AE02>	{ [         2,   quotedbl,  twosuperior,   VoidSymbol ]	};
@@ -129,7 +129,7 @@ xkb_symbols "alt" {
 
     include "latin"
 
-    name[Group1]="Turkey";
+    name[Group1]="Turkish - Alt-Q";
 
     key <AE07>  { [         7,   ampersand,  lowleftcorner,  upleftcorner ] };
     key <AE08>  { [         8,    asterisk,          leftt,          topt ] };

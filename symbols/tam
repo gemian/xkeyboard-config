@@ -13,7 +13,7 @@ xkb_symbols "TSCII" {
 // Author	: Thuraiappah Vaseeharan <vasee@ieee.org>
 // Last Modified: Sat Jan  5 17:11:26 CST 2002
 
-    name[Group1]= "Tamil (TSCII)";
+    name[Group1]= "Tamil";
 
     key <AE01> {  [ 0x10000b7, 0x10000a4 ] }; // aytham
     key <AE02> {  [ 0x1000082, 0x10000a5 ] }; // shri
@@ -69,7 +69,7 @@ xkb_symbols "TAB" {
 // Author: Thuraiappah Vaseeharan <t_vasee@yahoo.com>
 // Date  : Sun Aug 12 02:23:00 CDT 2001
 
-    name[Group1]= "Tamil";
+    name[Group1]= "Tamil - Typewrite-style keymap; TAB encoding";
 
     // numeral row
     key <AE01> {  [ 0x10000e7, 0x10000a7 ] } ;
@@ -126,7 +126,7 @@ xkb_symbols "UNI" {
 // Date  : Sat Feb  9 21:10:48 CST 2002
 // Mapping:
   
-    name[Group1]= "Tamil";
+    name[Group1]= "Tamil - Typewrite-style keymap; Unicode encoding";
 
     // granthas
     key <AE01> {  [ 0x1000b83 ] } ;
@@ -174,7 +174,7 @@ xkb_symbols "UNI" {
 
 partial alphanumeric_keys 
 xkb_symbols "INSCRIPT" {
-      name[Group1]= "Tamil";
+      name[Group1]= "Tamil - INSCRIPT layout";
 
       key <TLDE> { [      0x1000BCA, 0x1000B92	]	};
 

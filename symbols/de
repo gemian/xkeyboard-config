@@ -4,6 +4,7 @@
 // $XKeyboardConfig$
 // $XFree86: xc/programs/xkbcomp/symbols/de,v 1.6 2003/09/08 13:12:51 pascal Exp $
 
+default
 xkb_symbols "basic" {
 
     include "latin(type4)"
@@ -36,9 +37,10 @@ xkb_symbols "basic" {
 partial alphanumeric_keys
 xkb_symbols "nodeadkeys" {
 
-    // modify the default German layout to not have any dead keys
+    // modify the basic German layout to not have any dead keys
 
     include "de(basic)"
+    name[Group1]="Germany - Eliminate dead keys";
 
     key <TLDE>	{ [asciicircum,    degree,      notsign,      notsign ]	};
     key <AE12>	{ [     acute,      grave,      cedilla,      cedilla ]	};
@@ -52,11 +54,12 @@ xkb_symbols "nodeadkeys" {
 
 partial alphanumeric_keys
 xkb_symbols "deadgraveacute" {
-    // modify the default German layout to have only acute and grave
+    // modify the basic German layout to have only acute and grave
     // as dead keys (tilde and circumflex are needed as spacing characters
     // in many programming languages)
 
     include "de(basic)"
+    name[Group1]="Germany - Dead grave acute";
 
     key <TLDE>	{ [asciicircum,    degree,      notsign,      notsign ]	};
     key <AD12>	{ [      plus,   asterisk,   asciitilde,  dead_macron ]	};
@@ -65,18 +68,20 @@ xkb_symbols "deadgraveacute" {
 
 partial alphanumeric_keys
 xkb_symbols "deadacute" {
-    // modify the default German layout to have only acute as
+    // modify the basic German layout to have only acute as
     // dead keys (ASCII grave, tilde and circumflex are needed as
     // spacing characters in many programming languages and text formatters)
 
     include "de(deadgraveacute)"
+
+    name[Group1]="Germany - Dead acute";
 
     key <AE12>	{ [dead_acute,      grave, dead_cedilla,  dead_ogonek ]	};
     key <BKSL>	{ [numbersign, apostrophe,   dead_grave,   dead_grave ]	};
 };
 
 partial alphanumeric_keys
-xkb_symbols "de_ro" {
+xkb_symbols "ro" {
     // add romanian-specific letters to the basic German layout.
     // Romanian symbols are accessible with combination of <AltGr> and
     // 'a', 's', 't', 'i', 'ä (&auml)' (+<Shift> for capital letters).
@@ -85,7 +90,7 @@ xkb_symbols "de_ro" {
 
     include "de(basic)"
 
-    name[Group1]="Romanian for German keyboard";
+    name[Group1]="Germany - Romanian keyboard with German letters";
 
     key <AD05> { [         t,    T,           tcedilla,     Tcedilla    ] };
     key <AD08> { [         i,    I,        icircumflex,  Icircumflex    ] };
@@ -95,11 +100,12 @@ xkb_symbols "de_ro" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "de_ro_nodeadkeys" {
+xkb_symbols "ro_nodeadkeys" {
     // add romanian-specific letters to the German nodeadkeys layout.
     // Read the comment for de_ro !
 
     include "de(nodeadkeys)"
+    name[Group1]="Germany - Romanian keyboard with German letters, eliminate dead keys";
 
     key <AD05> { [         t,    T,           tcedilla,     Tcedilla    ] };
     key <AD08> { [         i,    I,        icircumflex,  Icircumflex    ] };

@@ -123,6 +123,9 @@ xkb_symbols "laptop" {
     // For laptops which don't have the RWIN key but are otherwise
     // the same as 105-key layouts.
     include "ie(basic)"
+
+    name[Group1] = "Ireland - Laptop";
+
     key <MENU> { type[Group1]="TWO_LEVEL", [ Multi_key, ISO_Next_Group ] };
 };
 
@@ -142,7 +145,7 @@ xkb_symbols "CloGaelach" {
 
     include "ie(basic)"
 
-    name[Group1] = "Ireland (Clo Gaelach)";
+    name[Group1] = "Ireland - CloGaelach";
 
     key <TLDE> { [     grave, notsign,  brokenbar,       ssharp ] };
     key <AD04> { [         r,       R,  0x100027C,   registered ] };
@@ -169,6 +172,7 @@ xkb_symbols "CloGaelachLaptop" {
     // For laptops which don't have the RWIN key but are otherwise
     // the same as 105-key layouts.
     include "ie(CloGaelach)"
+    name[Group1] = "Ireland - CloGaelach Laptop";
     key <MENU> { type[Group1]="TWO_LEVEL", [ Multi_key, ISO_Next_Group ] };
 };
 
@@ -177,7 +181,7 @@ xkb_symbols "UnicodeExpert" {
 
 // This should eventually be a "Unicode Expert" layout like the Mac one.
 
-    name[Group1] = "Ireland (Unicode Expert)";
+    name[Group1] = "Ireland - UnicodeExpert";
 
     //
     // Numeric row `1234567890-=

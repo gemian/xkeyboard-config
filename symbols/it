@@ -47,6 +47,8 @@ xkb_symbols "nodeadkeys" {
 
     include "it(basic)"
 
+    name[Group1]="Italy - Eliminate dead keys";
+
     key <AE02>	{ [         2,   quotedbl,  twosuperior,  doubleacute ] };
     key <AE03>	{ [         3,   sterling,threesuperior,   asciitilde ]	};
 

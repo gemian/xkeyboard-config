@@ -79,6 +79,8 @@ xkb_symbols "mlplusnum" {
 
    include "mal(basic)"
 
+    name[Group1] = "Malayalam - With Malayalam digits";
+
       key <AE01> { [ 0x01000d67 ,      exclam ] };
       key <AE02> { [ 0x01000d68 ,          at ] };
       key <AE03> { [ 0x01000d69 ,  numbersign ] };
