@@ -63,6 +63,15 @@ xkb_symbols "rwin_switch" {
     };
 };
 
+// Right Ctrl key temporary chooses the second keyboard group.
+// Needed mainly for Canadian keyboard
+partial modifier_keys
+xkb_symbols "rctrl_switch" {
+    key <RCTL>  {
+        symbols[Group1]= [ Mode_switch ]
+    };
+};
+
 // using the group(toggle) map, pressing the right alt key switches to
 // the next sequential group (until the next explicit group change).
 partial modifier_keys 
