@@ -1,4 +1,4 @@
-SUBDIRS = m4 po intl
+SUBDIRS = po 
 
 xml_in_files = xfree86.xml.in
 xml_DATA = $(xml_in_files:.xml.in=.xml) xkb.dtd

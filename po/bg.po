@@ -1,0 +1,2116 @@
+# Bulgarian translation of xfree86_xkb_xml
+# Copyright (C) 2002 Free Software Foundation, Inc.
+# This file is distributed under the same license as the xfree86_xkb_xml package.
+# Alexander Shopov <al_shopov@yahoo.com>, 2002.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: 0.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2003-11-25 23:38+0000\n"
+"PO-Revision-Date: 2002-12-10 19:52+0200\n"
+"Last-Translator: Alexander Shopov <al_shopov@web.bg>\n"
+"Language-Team: Bulgarian <dict@linux.zonebg.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 0.9.6\n"
+
+#: xfree86.xml.in.h:1
+msgid "\"Typewriter\""
+msgstr ""
+
+#: xfree86.xml.in.h:2
+msgid "A Tamil typewrite-style keymap; TAB encoding"
+msgstr ""
+
+#: xfree86.xml.in.h:3
+msgid "A Tamil typewrite-style keymap; TSCII encoding"
+msgstr ""
+
+#: xfree86.xml.in.h:4
+msgid "A Tamil typewrite-style keymap; Unicode encoding"
+msgstr ""
+
+#: xfree86.xml.in.h:5
+msgid "ACPI Standard"
+msgstr ""
+
+#: xfree86.xml.in.h:6
+msgid "Acer AirKey V"
+msgstr ""
+
+#: xfree86.xml.in.h:7
+msgid "Acts as Shift with locking. Shift cancels Caps."
+msgstr "Работи като Shift със заключване. Shift отменя CapsLock."
+
+#: xfree86.xml.in.h:8
+msgid "Acts as Shift with locking. Shift doesn't cancel Caps."
+msgstr "Работи като Shift със заключване. Shift не отменя CapsLock."
+
+#: xfree86.xml.in.h:9
+msgid "Add the standard behavior to Menu key."
+msgstr "Добавя стандартното поведение на клавиша Menu."
+
+#: xfree86.xml.in.h:10
+msgid "Advance Scorpius KI"
+msgstr ""
+
+#: xfree86.xml.in.h:11
+msgid "Alb"
+msgstr ""
+
+#: xfree86.xml.in.h:12
+msgid "Albanian"
+msgstr "албанска"
+
+#: xfree86.xml.in.h:13
+msgid "Alt and Meta on the Alt keys (default)."
+msgstr "Alt и Meta на Alt клавиша (по подразбиране)"
+
+#: xfree86.xml.in.h:14
+msgid "Alt+Control changes group"
+msgstr "Alt+Control сменя групата"
+
+#: xfree86.xml.in.h:15
+msgid "Alt+Shift changes group"
+msgstr "Alt+Shift сменя групата"
+
+#: xfree86.xml.in.h:16
+msgid "Alt/Win key behavior"
+msgstr "Функцията на Alt/Win"
+
+#: xfree86.xml.in.h:17
+msgid "Alternate"
+msgstr ""
+
+#: xfree86.xml.in.h:18
+msgid "Arabic"
+msgstr "арабска"
+
+#: xfree86.xml.in.h:19
+#, fuzzy
+msgid "Arb"
+msgstr "арабска"
+
+#: xfree86.xml.in.h:20
+#, fuzzy
+msgid "Arm"
+msgstr "арабска"
+
+#: xfree86.xml.in.h:21
+msgid "Armenian"
+msgstr "арменска"
+
+#: xfree86.xml.in.h:22
+msgid "Aze"
+msgstr ""
+
+#: xfree86.xml.in.h:23
+#, fuzzy
+msgid "Azerbaijani"
+msgstr "азърбейджанска"
+
+#: xfree86.xml.in.h:24
+msgid "BTC 5090"
+msgstr ""
+
+#: xfree86.xml.in.h:25
+msgid "BTC 5113RF Multimedia"
+msgstr ""
+
+#: xfree86.xml.in.h:26
+msgid "BTC 5126T"
+msgstr ""
+
+#: xfree86.xml.in.h:27
+msgid "BTC 9000"
+msgstr ""
+
+#: xfree86.xml.in.h:28
+msgid "BTC 9000A"
+msgstr ""
+
+#: xfree86.xml.in.h:29
+msgid "BTC 9001AH"
+msgstr ""
+
+#: xfree86.xml.in.h:30
+msgid "Basic"
+msgstr ""
+
+#: xfree86.xml.in.h:31
+msgid "Bel"
+msgstr ""
+
+#: xfree86.xml.in.h:32
+msgid "Belarusian"
+msgstr "беларуска"
+
+#: xfree86.xml.in.h:33
+msgid "Belgian"
+msgstr "белгийска"
+
+#: xfree86.xml.in.h:34
+msgid "Ben"
+msgstr ""
+
+#: xfree86.xml.in.h:35
+msgid "Bengali"
+msgstr "бенгалска"
+
+#: xfree86.xml.in.h:36
+msgid "Bgr"
+msgstr ""
+
+#: xfree86.xml.in.h:37
+msgid "Bih"
+msgstr ""
+
+#: xfree86.xml.in.h:38
+msgid "Blr"
+msgstr ""
+
+#: xfree86.xml.in.h:39
+#, fuzzy
+msgid "Bosnian"
+msgstr "естонска"
+
+#: xfree86.xml.in.h:40
+#, fuzzy
+msgid "Both Alt keys together change group"
+msgstr "Двата Shift-а заедно сменят групата"
+
+#: xfree86.xml.in.h:41
+#, fuzzy
+msgid "Both Ctrl keys together change group"
+msgstr "Двата Shift-а заедно сменят групата"
+
+#: xfree86.xml.in.h:42
+msgid "Both Shift keys together change group"
+msgstr "Двата Shift-а заедно сменят групата"
+
+#: xfree86.xml.in.h:43
+msgid "Both Win-keys switch group while pressed"
+msgstr "Двата Win-а заедно сменят групата докато са натиснати"
+
+#: xfree86.xml.in.h:44
+msgid "Bra"
+msgstr ""
+
+#: xfree86.xml.in.h:45
+msgid "Brazilian"
+msgstr "бразилска"
+
+#: xfree86.xml.in.h:46
+msgid "Brazilian ABNT2"
+msgstr "бразилска ABNT2"
+
+#: xfree86.xml.in.h:47
+#, fuzzy
+msgid "Brother Internet Keyboard"
+msgstr "Logitech Интернет клавиатура"
+
+#: xfree86.xml.in.h:48
+msgid "Bulgarian"
+msgstr "българска"
+
+#: xfree86.xml.in.h:49
+msgid "Burmese"
+msgstr "бирманска"
+
+#: xfree86.xml.in.h:50
+msgid "Can"
+msgstr ""
+
+#: xfree86.xml.in.h:51
+msgid "Canadian"
+msgstr "канадска"
+
+#: xfree86.xml.in.h:52
+msgid "Caps Lock key changes group"
+msgstr "Caps Lock сменя групата"
+
+#: xfree86.xml.in.h:53
+msgid "CapsLock key behavior"
+msgstr "Поведение на Caps Lock"
+
+#: xfree86.xml.in.h:54
+msgid "Caps_Lock LED shows alternative group"
+msgstr "Индикаторът на Caps_Lock показва алтернативната група"
+
+#: xfree86.xml.in.h:55
+msgid "Cherry Blue Line CyBo@rd"
+msgstr ""
+
+#: xfree86.xml.in.h:56
+msgid "Cherry Blue Line CyBo@rd (alternate option)"
+msgstr ""
+
+#: xfree86.xml.in.h:57
+msgid "Chicony Internet Keyboard"
+msgstr "Интернет клавиатура на Chicony"
+
+#: xfree86.xml.in.h:58
+msgid "Chicony KB-9885"
+msgstr ""
+
+#: xfree86.xml.in.h:59
+msgid "CloGaelach"
+msgstr ""
+
+#: xfree86.xml.in.h:60
+#, fuzzy
+msgid "CloGaelach Laptop"
+msgstr "de(deadacute) - без описание"
+
+#: xfree86.xml.in.h:61
+msgid "Compaq Easy Access Keyboard"
+msgstr ""
+
+#: xfree86.xml.in.h:62
+#, fuzzy
+msgid "Compaq Internet Keyboard (13 keys)"
+msgstr "Интернет клавиатура на Chicony"
+
+#: xfree86.xml.in.h:63
+#, fuzzy
+msgid "Compaq Internet Keyboard (18 keys)"
+msgstr "Интернет клавиатура на Chicony"
+
+#: xfree86.xml.in.h:64
+#, fuzzy
+msgid "Compaq Internet Keyboard (7 keys)"
+msgstr "Интернет клавиатура на Chicony"
+
+#: xfree86.xml.in.h:65
+msgid "Compaq iPaq Keyboard"
+msgstr ""
+
+#: xfree86.xml.in.h:66
+msgid "Control Key Position"
+msgstr "Положение на клавиша Control"
+
+#: xfree86.xml.in.h:67
+msgid "Control key at bottom left"
+msgstr "Control е долу вляво"
+
+#: xfree86.xml.in.h:68
+msgid "Control key at left of 'A'"
+msgstr "Control е вляво от 'A'"
+
+#: xfree86.xml.in.h:69
+msgid "Control+Shift changes group"
+msgstr "Control+Shift сменя групата"
+
+#: xfree86.xml.in.h:70
+msgid "Croatian"
+msgstr "хърватска"
+
+#: xfree86.xml.in.h:71
+msgid "Cyrillic"
+msgstr ""
+
+#: xfree86.xml.in.h:72
+#, fuzzy
+msgid "Cze"
+msgstr "чехшка"
+
+#: xfree86.xml.in.h:73
+msgid "Czech"
+msgstr "чехшка"
+
+#: xfree86.xml.in.h:74
+msgid "Czech (qwerty)"
+msgstr "чешка (qwerty)"
+
+#: xfree86.xml.in.h:75
+msgid "Danish"
+msgstr "датска"
+
+#: xfree86.xml.in.h:76
+msgid "Dead acute"
+msgstr ""
+
+#: xfree86.xml.in.h:77
+msgid "Dead grave acute"
+msgstr ""
+
+#: xfree86.xml.in.h:78
+msgid "Dell"
+msgstr ""
+
+#: xfree86.xml.in.h:79
+msgid "Dell 101-key PC"
+msgstr "101 клавишна PC клавиатура на Dell"
+
+#: xfree86.xml.in.h:80
+msgid "Deu"
+msgstr ""
+
+#: xfree86.xml.in.h:81
+msgid "Dexxa Wireless Desktop Keyboard"
+msgstr ""
+
+#: xfree86.xml.in.h:82
+msgid "Diamond 9801 / 9802 series"
+msgstr ""
+
+#: xfree86.xml.in.h:83
+msgid "Dnk"
+msgstr ""
+
+#: xfree86.xml.in.h:84
+msgid "Dutch"
+msgstr "холандска"
+
+#: xfree86.xml.in.h:85
+#, fuzzy
+msgid "Dvo"
+msgstr "Дворак"
+
+#: xfree86.xml.in.h:86
+msgid "Dvorak"
+msgstr "Дворак"
+
+#: xfree86.xml.in.h:87
+msgid "Eliminate dead keys"
+msgstr "Изключи специалните клавиши (dead keys)"
+
+#: xfree86.xml.in.h:88
+msgid "Ennyah DKB-1008"
+msgstr ""
+
+#: xfree86.xml.in.h:89
+msgid "Esp"
+msgstr ""
+
+#: xfree86.xml.in.h:90
+msgid "Est"
+msgstr ""
+
+#: xfree86.xml.in.h:91
+msgid "Estonian"
+msgstr "естонска"
+
+#: xfree86.xml.in.h:92
+msgid "Everex STEPnote"
+msgstr "Everex STEPnote"
+
+#: xfree86.xml.in.h:93
+msgid "Extended"
+msgstr ""
+
+#: xfree86.xml.in.h:94
+msgid "Fao"
+msgstr ""
+
+#: xfree86.xml.in.h:95
+msgid "Faroese"
+msgstr ""
+
+#: xfree86.xml.in.h:96
+msgid "Farsi"
+msgstr ""
+
+#: xfree86.xml.in.h:97
+msgid "Fin"
+msgstr ""
+
+#: xfree86.xml.in.h:98
+msgid "Finnish"
+msgstr "финландска"
+
+#: xfree86.xml.in.h:99
+msgid "Fra"
+msgstr ""
+
+#: xfree86.xml.in.h:100
+msgid "French"
+msgstr "френска"
+
+#: xfree86.xml.in.h:101
+msgid "French (alternative)"
+msgstr ""
+
+#: xfree86.xml.in.h:102
+#, fuzzy
+msgid "French Canadian"
+msgstr "канадска"
+
+#: xfree86.xml.in.h:103
+msgid "GBr"
+msgstr ""
+
+#: xfree86.xml.in.h:104
+msgid "Generic 101-key PC"
+msgstr "Стандартна 101 клавишна PC клавиатура"
+
+#: xfree86.xml.in.h:105
+msgid "Generic 102-key (Intl) PC"
+msgstr "Стандартна 102 клавишна PC клавиатура"
+
+#: xfree86.xml.in.h:106
+msgid "Generic 104-key PC"
+msgstr "Стандартна 104 клавишна PC клавиатура"
+
+#: xfree86.xml.in.h:107
+msgid "Generic 105-key (Intl) PC"
+msgstr "Стандартна 105 клавишна PC клавиатура"
+
+#: xfree86.xml.in.h:108
+msgid "Genius Comfy KB-16M / Genius MM Keyboard KWD-910"
+msgstr ""
+
+#: xfree86.xml.in.h:109
+msgid "Geo"
+msgstr ""
+
+#: xfree86.xml.in.h:110
+msgid "Georgian (latin)"
+msgstr "грузинска (латинска)"
+
+#: xfree86.xml.in.h:111
+msgid "Georgian (russian)"
+msgstr "грузинска (руска)"
+
+#: xfree86.xml.in.h:112
+msgid "German"
+msgstr "немска"
+
+#: xfree86.xml.in.h:113
+msgid "Grc"
+msgstr ""
+
+#: xfree86.xml.in.h:114
+msgid "Greek"
+msgstr "гръцка"
+
+#: xfree86.xml.in.h:115
+msgid "Group Shift/Lock behavior"
+msgstr "Функции на клавишите Shift/Lock"
+
+#: xfree86.xml.in.h:116
+msgid "Guj"
+msgstr ""
+
+#: xfree86.xml.in.h:117
+msgid "Gujarati"
+msgstr "гуджарати"
+
+#: xfree86.xml.in.h:118
+msgid "Gurmukhi"
+msgstr "гурмуки"
+
+#: xfree86.xml.in.h:119
+#, fuzzy
+msgid "Hewlett-Packard Internet Keyboard"
+msgstr "Интернет клавиатура на Dell"
+
+#: xfree86.xml.in.h:120
+msgid "Hewlett-Packard Omnibook 500 FA"
+msgstr ""
+
+#: xfree86.xml.in.h:121
+#, fuzzy
+msgid "Hewlett-Packard Omnibook 5xx"
+msgstr "Интернет клавиатура на Dell"
+
+#: xfree86.xml.in.h:122
+msgid "Hewlett-Packard Omnibook 6000/6100"
+msgstr ""
+
+#: xfree86.xml.in.h:123
+msgid "Hewlett-Packard Omnibook XE3 GC"
+msgstr ""
+
+#: xfree86.xml.in.h:124
+msgid "Hewlett-Packard Omnibook XE3 GF"
+msgstr ""
+
+#: xfree86.xml.in.h:125
+msgid "Hewlett-Packard Omnibook XT1000"
+msgstr ""
+
+#: xfree86.xml.in.h:126
+msgid "Hewlett-Packard Pavilion ZT11xx"
+msgstr ""
+
+#: xfree86.xml.in.h:127
+msgid "Hewlett-Packard SK-2501 Multimedia Keyboard"
+msgstr ""
+
+#: xfree86.xml.in.h:128
+#, fuzzy
+msgid "Hewlett-Packard SK-2505 Internet Keyboard"
+msgstr "Интернет клавиатура на Dell"
+
+#: xfree86.xml.in.h:129
+#, fuzzy
+msgid "Hin"
+msgstr "хинди"
+
+#: xfree86.xml.in.h:130
+msgid "Hindi"
+msgstr "хинди"
+
+#: xfree86.xml.in.h:131
+msgid "Honeywell Euroboard"
+msgstr ""
+
+#: xfree86.xml.in.h:132
+msgid "Hrv"
+msgstr ""
+
+#: xfree86.xml.in.h:133
+msgid "Hun"
+msgstr ""
+
+#: xfree86.xml.in.h:134
+msgid "Hungarian"
+msgstr "унгарска"
+
+#: xfree86.xml.in.h:135
+#, fuzzy
+msgid "Hungarian (qwerty)"
+msgstr "унгарска"
+
+#: xfree86.xml.in.h:136
+msgid "Hyper is mapped to the Win-keys."
+msgstr "Hyper съответства на клавишите Win"
+
+#: xfree86.xml.in.h:137
+msgid "IBM Rapid Access"
+msgstr "IBM Rapid Access"
+
+#: xfree86.xml.in.h:138
+msgid "IBM Rapid Access II"
+msgstr "IBM Rapid Access II"
+
+#: xfree86.xml.in.h:139
+#, fuzzy
+msgid "IBM Rapid Access II (alternate option)"
+msgstr "IBM Rapid Access II"
+
+#: xfree86.xml.in.h:140
+msgid "IBM ThinkPad 560Z/600/600E/A22E"
+msgstr ""
+
+#: xfree86.xml.in.h:141
+msgid "INSCRIPT layout"
+msgstr ""
+
+#: xfree86.xml.in.h:142
+msgid "IS434"
+msgstr ""
+
+#: xfree86.xml.in.h:143
+msgid "IS434 laptop"
+msgstr ""
+
+#: xfree86.xml.in.h:144
+msgid "ISO Alternate"
+msgstr ""
+
+#: xfree86.xml.in.h:145
+msgid "Icelandic"
+msgstr "исландска"
+
+#: xfree86.xml.in.h:146
+msgid "Iku"
+msgstr ""
+
+#: xfree86.xml.in.h:147
+msgid "Inuktitut"
+msgstr "ескимоска"
+
+#: xfree86.xml.in.h:148
+#, fuzzy
+msgid "Irish"
+msgstr "турска"
+
+#: xfree86.xml.in.h:149
+msgid "Irl"
+msgstr ""
+
+#: xfree86.xml.in.h:150
+msgid "Irn"
+msgstr ""
+
+#: xfree86.xml.in.h:151
+msgid "Isl"
+msgstr ""
+
+#: xfree86.xml.in.h:152
+msgid "Isr"
+msgstr ""
+
+#: xfree86.xml.in.h:153
+msgid "Israeli"
+msgstr "израелска"
+
+#: xfree86.xml.in.h:154
+msgid "Ita"
+msgstr ""
+
+#: xfree86.xml.in.h:155
+msgid "Italian"
+msgstr "италианска"
+
+#: xfree86.xml.in.h:156
+msgid "Japanese"
+msgstr "японска"
+
+#: xfree86.xml.in.h:157
+msgid "Japanese 106-key"
+msgstr "японска 106 клавишна"
+
+#: xfree86.xml.in.h:158
+msgid "Jpn"
+msgstr ""
+
+#: xfree86.xml.in.h:159
+msgid "Kan"
+msgstr ""
+
+#: xfree86.xml.in.h:160
+#, fuzzy
+msgid "Kannada"
+msgstr "канадска"
+
+#: xfree86.xml.in.h:161
+msgid "Keytronic FlexPro"
+msgstr "Keytronic FlexPro"
+
+#: xfree86.xml.in.h:162
+msgid "LAm"
+msgstr ""
+
+#: xfree86.xml.in.h:163
+msgid "Laptop"
+msgstr ""
+
+#: xfree86.xml.in.h:164
+msgid "Laptop/notebook Compaq (eg. Armada) Laptop Keyboard"
+msgstr ""
+
+#: xfree86.xml.in.h:165
+msgid "Laptop/notebook Compaq (eg. Presario) Internet Keyboard"
+msgstr ""
+
+#: xfree86.xml.in.h:166
+msgid "Laptop/notebook Dell Inspiron 8xxx"
+msgstr ""
+
+#: xfree86.xml.in.h:167
+#, fuzzy
+msgid "Latin"
+msgstr "латвийска"
+
+#: xfree86.xml.in.h:168
+msgid "Latin America"
+msgstr "латиноамериканска"
+
+#: xfree86.xml.in.h:169
+msgid "Latvian"
+msgstr "латвийска"
+
+#: xfree86.xml.in.h:170
+#, fuzzy
+msgid "Left Alt key changes group"
+msgstr "Десният Alt сменя групата"
+
+#: xfree86.xml.in.h:171
+#, fuzzy
+msgid "Left Ctrl key changes group"
+msgstr "Левият Win клавиш сменя групата"
+
+#: xfree86.xml.in.h:172
+#, fuzzy
+msgid "Left Shift key changes group"
+msgstr "Левият Win клавиш сменя групата"
+
+#: xfree86.xml.in.h:173
+msgid "Left Win-key changes group"
+msgstr "Левият Win клавиш сменя групата"
+
+#: xfree86.xml.in.h:174
+msgid "Left Win-key switches group while pressed"
+msgstr "Левият Win клавиш сменя групата докато е натиснат"
+
+#: xfree86.xml.in.h:175
+msgid "Lithuanian azerty standard"
+msgstr "литовска стандартна azerty"
+
+#: xfree86.xml.in.h:176
+msgid "Lithuanian qwerty \"numeric\""
+msgstr "литовска \"цифрова\" qwerty"
+
+#: xfree86.xml.in.h:177
+#, fuzzy
+msgid "Logitech Cordless Desktop"
+msgstr "Logitech Cordless Desktop Pro"
+
+#: xfree86.xml.in.h:178
+#, fuzzy
+msgid "Logitech Cordless Desktop Navigator"
+msgstr "Logitech Cordless Desktop Pro"
+
+#: xfree86.xml.in.h:179
+#, fuzzy
+msgid "Logitech Cordless Desktop Optical"
+msgstr "Logitech Cordless Desktop Pro"
+
+#: xfree86.xml.in.h:180
+msgid "Logitech Cordless Desktop Pro"
+msgstr "Logitech Cordless Desktop Pro"
+
+#: xfree86.xml.in.h:181
+#, fuzzy
+msgid "Logitech Cordless Desktop Pro (alternate option)"
+msgstr "Logitech Cordless Desktop Pro"
+
+#: xfree86.xml.in.h:182
+#, fuzzy
+msgid "Logitech Cordless Desktop Pro (alternate option2)"
+msgstr "Logitech Cordless Desktop Pro"
+
+#: xfree86.xml.in.h:183
+#, fuzzy
+msgid "Logitech Cordless Desktop iTouch"
+msgstr "Logitech Cordless Desktop Pro"
+
+#: xfree86.xml.in.h:184
+#, fuzzy
+msgid "Logitech Cordless Freedom/Desktop Navigator"
+msgstr "Logitech Cordless Desktop Pro"
+
+#: xfree86.xml.in.h:185
+#, fuzzy
+msgid "Logitech Deluxe Access Keyboard"
+msgstr "Logitech Интернет клавиатура"
+
+#: xfree86.xml.in.h:186
+msgid "Logitech Internet Keyboard"
+msgstr "Logitech Интернет клавиатура"
+
+#: xfree86.xml.in.h:187
+msgid "Logitech Internet Navigator Keyboard"
+msgstr "Logitech клавиатура за Интернет навигация"
+
+#: xfree86.xml.in.h:188
+msgid "Logitech iTouch"
+msgstr "Logitech iTouch"
+
+#: xfree86.xml.in.h:189
+msgid "Logitech iTouch Cordless Keyboard (model Y-RB6)"
+msgstr ""
+
+#: xfree86.xml.in.h:190
+#, fuzzy
+msgid "Logitech iTouch keyboard Internet Navigator"
+msgstr "Logitech клавиатура за Интернет навигация"
+
+#: xfree86.xml.in.h:191
+msgid "Ltu"
+msgstr ""
+
+#: xfree86.xml.in.h:192
+msgid "Lva"
+msgstr ""
+
+#: xfree86.xml.in.h:193
+msgid "Macedonian"
+msgstr "македонска"
+
+#: xfree86.xml.in.h:194
+msgid "Macintosh"
+msgstr ""
+
+#: xfree86.xml.in.h:195
+msgid "Macintosh Old"
+msgstr ""
+
+#: xfree86.xml.in.h:196
+msgid "Make CapsLock an additional Control"
+msgstr "Caps Lock да функционира като Control"
+
+#: xfree86.xml.in.h:197
+msgid "Mal"
+msgstr ""
+
+#: xfree86.xml.in.h:198
+msgid "Malayalam"
+msgstr ""
+
+#: xfree86.xml.in.h:199
+msgid "Maltese"
+msgstr "малтийска"
+
+#: xfree86.xml.in.h:200
+msgid "Maltese (US layout)"
+msgstr "малтийска (американска подредба)"
+
+#: xfree86.xml.in.h:201
+msgid "Memorex MX1998"
+msgstr ""
+
+#: xfree86.xml.in.h:202
+msgid "Memorex MX2500 EZ-Access Keyboard"
+msgstr ""
+
+#: xfree86.xml.in.h:203
+msgid "Memorex MX2750"
+msgstr ""
+
+#: xfree86.xml.in.h:204
+msgid "Menu is Compose"
+msgstr "Клавиша Menu фунцкионира като Compose"
+
+#: xfree86.xml.in.h:205
+msgid "Menu key changes group"
+msgstr "Menu клавишът сменя групата"
+
+#: xfree86.xml.in.h:206
+msgid "Meta is mapped to the Win-keys."
+msgstr "Win клавишите фунцкионират като Meta"
+
+#: xfree86.xml.in.h:207
+msgid "Meta is mapped to the left Win-key."
+msgstr "Левият Win клавиш функционира като Meta"
+
+#: xfree86.xml.in.h:208
+#, fuzzy
+msgid "Microsoft Internet Keyboard"
+msgstr "Интернет клавиатура на Chicony"
+
+#: xfree86.xml.in.h:209
+#, fuzzy
+msgid "Microsoft Internet Keyboard Pro, Swedish"
+msgstr "Интернет клавиатура на Chicony"
+
+#: xfree86.xml.in.h:210
+msgid "Microsoft Natural"
+msgstr "Microsoft Natural"
+
+#: xfree86.xml.in.h:211
+msgid "Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro"
+msgstr ""
+
+#: xfree86.xml.in.h:212
+#, fuzzy
+msgid "Microsoft Natural Keyboard Pro OEM"
+msgstr "Microsoft Natural Pro"
+
+#: xfree86.xml.in.h:213
+msgid "Microsoft Office Keyboard"
+msgstr ""
+
+#: xfree86.xml.in.h:214
+msgid "Miscellaneous compatibility options"
+msgstr ""
+
+#: xfree86.xml.in.h:215
+msgid "Mkd"
+msgstr ""
+
+#: xfree86.xml.in.h:216
+msgid "Mlt"
+msgstr ""
+
+#: xfree86.xml.in.h:217
+msgid "Mmr"
+msgstr ""
+
+#: xfree86.xml.in.h:218
+msgid "Mng"
+msgstr ""
+
+#: xfree86.xml.in.h:219
+#, fuzzy
+msgid "Mongolian"
+msgstr "македонска"
+
+#: xfree86.xml.in.h:220
+msgid "Nld"
+msgstr ""
+
+#: xfree86.xml.in.h:221
+msgid "Nor"
+msgstr ""
+
+#: xfree86.xml.in.h:222
+msgid "Northern Saami (Finland)"
+msgstr "северносамска (Финландия)"
+
+#: xfree86.xml.in.h:223
+msgid "Northern Saami (Norway)"
+msgstr "северносамска (Норвегия)"
+
+#: xfree86.xml.in.h:224
+msgid "Northern Saami (Sweden)"
+msgstr "северносамска (Швеция)"
+
+#: xfree86.xml.in.h:225
+msgid "Northgate OmniKey 101"
+msgstr "Northgate OmniKey 101"
+
+#: xfree86.xml.in.h:226
+msgid "Norwegian"
+msgstr "норвежка"
+
+#: xfree86.xml.in.h:227
+msgid "Num_Lock LED shows alternative group"
+msgstr "Индикаторът на Num_Lock указва алтернативната група"
+
+#: xfree86.xml.in.h:228
+msgid "Ogh"
+msgstr ""
+
+#: xfree86.xml.in.h:229
+msgid "Ogham"
+msgstr ""
+
+#: xfree86.xml.in.h:230
+#, fuzzy
+msgid "Oretec MCK-800 MM/Internet keyboard"
+msgstr "Logitech Интернет клавиатура"
+
+#: xfree86.xml.in.h:231
+msgid "Ori"
+msgstr ""
+
+#: xfree86.xml.in.h:232
+msgid "Oriya"
+msgstr ""
+
+#: xfree86.xml.in.h:233
+msgid "PC-98xx Series"
+msgstr "PC-98xx серии"
+
+#: xfree86.xml.in.h:234
+msgid "PC104"
+msgstr ""
+
+#: xfree86.xml.in.h:235
+msgid "Pan"
+msgstr ""
+
+#: xfree86.xml.in.h:236
+msgid "Phonetic"
+msgstr ""
+
+#: xfree86.xml.in.h:237
+#, fuzzy
+msgid "Pol"
+msgstr "полска"
+
+#: xfree86.xml.in.h:238
+msgid "Polish"
+msgstr "полска"
+
+#: xfree86.xml.in.h:239
+msgid "Polish (qwertz)"
+msgstr "полска (qwertz)"
+
+#: xfree86.xml.in.h:240
+msgid "Polytonic"
+msgstr ""
+
+#: xfree86.xml.in.h:241
+msgid "Portuguese"
+msgstr "португалска"
+
+#: xfree86.xml.in.h:242
+msgid "PowerPC PS/2"
+msgstr ""
+
+#: xfree86.xml.in.h:243
+msgid "Press Left Win-key to choose 3rd level"
+msgstr "Левият Win клавиш избира третата група"
+
+#: xfree86.xml.in.h:244
+msgid "Press Menu key to choose 3rd level"
+msgstr "Menu избира третата група"
+
+#: xfree86.xml.in.h:245
+msgid "Press Right Control to choose 3rd level"
+msgstr "Десният Control избира третата група"
+
+#: xfree86.xml.in.h:246
+msgid "Press Right Win-key to choose 3rd level"
+msgstr "Десният Win избира третата група"
+
+#: xfree86.xml.in.h:247
+msgid "Press any of Win-keys to choose 3rd level"
+msgstr "Двата Win клавиша избират третата група"
+
+#: xfree86.xml.in.h:248
+msgid "Propeller Voyager (KTEZ-1000)"
+msgstr ""
+
+#: xfree86.xml.in.h:249
+msgid "Prt"
+msgstr ""
+
+#: xfree86.xml.in.h:250
+msgid "QTronix Scorpius 98N+"
+msgstr ""
+
+#: xfree86.xml.in.h:251
+msgid "R-Alt switches group while pressed"
+msgstr "Десният Alt сменя групата докато е натиснат"
+
+#: xfree86.xml.in.h:252
+msgid "Right Alt is Compose"
+msgstr "Десният Alt фунцкионира като Compose"
+
+#: xfree86.xml.in.h:253
+msgid "Right Alt key changes group"
+msgstr "Десният Alt сменя групата"
+
+#: xfree86.xml.in.h:254
+msgid "Right Control key works as Right Alt"
+msgstr ""
+
+#: xfree86.xml.in.h:255
+#, fuzzy
+msgid "Right Ctrl key changes group"
+msgstr "Десният Alt сменя групата"
+
+#: xfree86.xml.in.h:256
+#, fuzzy
+msgid "Right Shift key changes group"
+msgstr "Десният Alt сменя групата"
+
+#: xfree86.xml.in.h:257
+msgid "Right Win-key changes group"
+msgstr "Десният Win сменя групата"
+
+#: xfree86.xml.in.h:258
+msgid "Right Win-key is Compose"
+msgstr "Десният Win фунцкионира като Compose"
+
+#: xfree86.xml.in.h:259
+msgid "Right Win-key switches group while pressed"
+msgstr "Десният Win сменя групата докато е натиснат"
+
+#: xfree86.xml.in.h:260
+msgid "Romanian"
+msgstr "румънска"
+
+#: xfree86.xml.in.h:261
+msgid "Rou"
+msgstr ""
+
+#: xfree86.xml.in.h:262
+msgid "Rus"
+msgstr ""
+
+#: xfree86.xml.in.h:263
+msgid "Russian"
+msgstr "руска"
+
+#: xfree86.xml.in.h:264
+msgid "SK-1300"
+msgstr ""
+
+#: xfree86.xml.in.h:265
+msgid "SK-2500"
+msgstr ""
+
+#: xfree86.xml.in.h:266
+msgid "SK-6200"
+msgstr ""
+
+#: xfree86.xml.in.h:267
+msgid "SK-7100"
+msgstr ""
+
+#: xfree86.xml.in.h:268
+msgid "SVEN Ergonomic 2500"
+msgstr ""
+
+#: xfree86.xml.in.h:269
+msgid "Samsung SDM 4500P"
+msgstr ""
+
+#: xfree86.xml.in.h:270
+msgid "Samsung SDM 4510P"
+msgstr ""
+
+#: xfree86.xml.in.h:271
+#, fuzzy
+msgid "Sapmi"
+msgstr "тамилска"
+
+#: xfree86.xml.in.h:272
+msgid "Scg"
+msgstr ""
+
+#: xfree86.xml.in.h:273
+msgid "Scroll_Lock LED shows alternative group"
+msgstr "Индикаторът на Scroll_Lock указва смяната на групата"
+
+#: xfree86.xml.in.h:274
+msgid "Serbian"
+msgstr "сръбска"
+
+#: xfree86.xml.in.h:275
+msgid "Shift with numpad keys works as in MS Windows"
+msgstr ""
+
+#: xfree86.xml.in.h:276
+msgid "Slovak"
+msgstr "словашка"
+
+#: xfree86.xml.in.h:277
+msgid "Slovak (qwerty)"
+msgstr "словашка (qwerty)"
+
+#: xfree86.xml.in.h:278
+msgid "Slovenian"
+msgstr "словенска"
+
+#: xfree86.xml.in.h:279
+msgid "Sme"
+msgstr ""
+
+#: xfree86.xml.in.h:280
+msgid "Spanish"
+msgstr "испанска"
+
+#: xfree86.xml.in.h:281
+msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server."
+msgstr ""
+
+#: xfree86.xml.in.h:282
+msgid "Standard"
+msgstr ""
+
+#: xfree86.xml.in.h:283
+#, fuzzy
+msgid "Sun dead keys"
+msgstr "Изключи специалните клавиши (dead keys)"
+
+#: xfree86.xml.in.h:284
+msgid "Super is mapped to the Win-keys (default)."
+msgstr "Win клавишите функционират като Super"
+
+#: xfree86.xml.in.h:285
+#, fuzzy
+msgid "Sv"
+msgstr "словашка"
+
+#: xfree86.xml.in.h:286
+#, fuzzy
+msgid "Svk"
+msgstr "словашка"
+
+#: xfree86.xml.in.h:287
+msgid "Svn"
+msgstr ""
+
+#: xfree86.xml.in.h:288
+msgid "Swap Control and Caps Lock"
+msgstr "Размени Control и Caps Lock"
+
+#: xfree86.xml.in.h:289
+msgid "Swe"
+msgstr ""
+
+#: xfree86.xml.in.h:290
+msgid "Swedish"
+msgstr "шведска"
+
+#: xfree86.xml.in.h:291
+msgid "Swiss French"
+msgstr "швейцарска френска"
+
+#: xfree86.xml.in.h:292
+msgid "Swiss German"
+msgstr "швейцарска немска"
+
+#: xfree86.xml.in.h:293
+msgid "Symplon PaceBook (tablet PC)"
+msgstr ""
+
+#: xfree86.xml.in.h:294
+#, fuzzy
+msgid "Syr"
+msgstr "сръбска"
+
+#: xfree86.xml.in.h:295
+#, fuzzy
+msgid "Syriac"
+msgstr "сръбска"
+
+#: xfree86.xml.in.h:296
+msgid "Tajik"
+msgstr "таджикска"
+
+#: xfree86.xml.in.h:297
+msgid "Tamil"
+msgstr "тамилска"
+
+#: xfree86.xml.in.h:298
+msgid "Tel"
+msgstr ""
+
+#: xfree86.xml.in.h:299
+msgid "Telugu"
+msgstr ""
+
+#: xfree86.xml.in.h:300
+#, fuzzy
+msgid "Tha"
+msgstr "тайландска"
+
+#: xfree86.xml.in.h:301
+msgid "Thai (Kedmanee)"
+msgstr ""
+
+#: xfree86.xml.in.h:302
+msgid "Thai (Pattachote)"
+msgstr ""
+
+#: xfree86.xml.in.h:303
+msgid "Thai (TIS-820.2538)"
+msgstr ""
+
+#: xfree86.xml.in.h:304
+msgid "Third level choosers"
+msgstr "Избор на третата група"
+
+#: xfree86.xml.in.h:305
+#, fuzzy
+msgid "Tjk"
+msgstr "таджикска"
+
+#: xfree86.xml.in.h:306
+#, fuzzy
+msgid "Tml"
+msgstr "тамилска"
+
+#: xfree86.xml.in.h:307
+msgid "Toshiba Satellite S3000"
+msgstr ""
+
+#: xfree86.xml.in.h:308
+msgid "Trust Direct Access Keyboard"
+msgstr ""
+
+#: xfree86.xml.in.h:309
+msgid "Trust Wireless Keyboard Classic"
+msgstr ""
+
+#: xfree86.xml.in.h:310
+msgid "Tur"
+msgstr ""
+
+#: xfree86.xml.in.h:311
+msgid "Turkish"
+msgstr "турска"
+
+#: xfree86.xml.in.h:312
+msgid "Turkish (F)"
+msgstr "турска (F)"
+
+#: xfree86.xml.in.h:313
+msgid "Turkish Alt-Q Layout"
+msgstr ""
+
+#: xfree86.xml.in.h:314
+msgid "U.S. English"
+msgstr "американска английска"
+
+#: xfree86.xml.in.h:315
+msgid "U.S. English w/ ISO9995-3"
+msgstr "американска английска с ISO9995-3"
+
+#: xfree86.xml.in.h:316
+#, fuzzy
+msgid "U.S. English w/ dead keys"
+msgstr "американска английска със специални клавиши "
+
+#: xfree86.xml.in.h:317
+msgid "US"
+msgstr ""
+
+#: xfree86.xml.in.h:318
+msgid "US keyboard with Romanian letters"
+msgstr ""
+
+#: xfree86.xml.in.h:319
+msgid "USA"
+msgstr ""
+
+#: xfree86.xml.in.h:320
+msgid "Ukr"
+msgstr ""
+
+#: xfree86.xml.in.h:321
+msgid "Ukrainian"
+msgstr "украинска"
+
+#: xfree86.xml.in.h:322
+msgid "UnicodeExpert"
+msgstr ""
+
+#: xfree86.xml.in.h:323
+msgid "United Kingdom"
+msgstr "британска"
+
+#: xfree86.xml.in.h:324
+msgid "Use keyboard LED to show alternative group"
+msgstr "Използвай клавиатурен индикатор за указване на алтернативна група"
+
+#: xfree86.xml.in.h:325
+msgid "Uses internal capitalization. Shift cancels Caps."
+msgstr "Използва вътрешна промяна на регистъра. Shift отменя Caps."
+
+#: xfree86.xml.in.h:326
+#, fuzzy
+msgid "Uses internal capitalization. Shift doesn't cancel Caps."
+msgstr "Използва вътрешна промяна на регистъра. Shift не отменя Caps."
+
+#: xfree86.xml.in.h:327
+msgid "Uzb"
+msgstr ""
+
+#: xfree86.xml.in.h:328
+msgid "Uzbek"
+msgstr ""
+
+#: xfree86.xml.in.h:329
+msgid "Vietnamese"
+msgstr "виетнамска"
+
+#: xfree86.xml.in.h:330
+msgid "Vnm"
+msgstr ""
+
+#: xfree86.xml.in.h:331
+msgid "Winbook Model XP5"
+msgstr "Winbook Model XP5"
+
+#: xfree86.xml.in.h:332
+msgid "Winkeys"
+msgstr ""
+
+#: xfree86.xml.in.h:333
+#, fuzzy
+msgid "Yahoo! Internet Keyboard"
+msgstr "Интернет клавиатура на Chicony"
+
+#: xfree86.xml.in.h:334
+msgid "Yug"
+msgstr ""
+
+#: xfree86.xml.in.h:335
+msgid "Yugoslavian"
+msgstr "югославска"
+
+#: xfree86.xml.in.h:336
+msgid "abnt2"
+msgstr ""
+
+#: xfree86.xml.in.h:337
+msgid "azerty"
+msgstr ""
+
+#: xfree86.xml.in.h:338
+msgid "azerty/digits"
+msgstr ""
+
+#: xfree86.xml.in.h:339
+msgid "bksl"
+msgstr ""
+
+#: xfree86.xml.in.h:340
+msgid "digits"
+msgstr ""
+
+#: xfree86.xml.in.h:341
+msgid "l2/101/qwerty/comma"
+msgstr ""
+
+#: xfree86.xml.in.h:342
+msgid "l2/101/qwerty/dot"
+msgstr ""
+
+#: xfree86.xml.in.h:343
+msgid "l2/101/qwertz/comma"
+msgstr ""
+
+#: xfree86.xml.in.h:344
+msgid "l2/101/qwertz/dot"
+msgstr ""
+
+#: xfree86.xml.in.h:345
+#, fuzzy
+msgid "l2/102/qwerty/comma"
+msgstr "hu(l2_102_qwerty_comma) - без описание"
+
+#: xfree86.xml.in.h:346
+msgid "l2/102/qwerty/dot"
+msgstr ""
+
+#: xfree86.xml.in.h:347
+msgid "l2/102/qwertz/comma"
+msgstr ""
+
+#: xfree86.xml.in.h:348
+msgid "l2/102/qwertz/dot"
+msgstr ""
+
+#: xfree86.xml.in.h:349
+msgid "laptop"
+msgstr ""
+
+#: xfree86.xml.in.h:350
+msgid "lyx"
+msgstr ""
+
+#: xfree86.xml.in.h:351
+#, fuzzy
+msgid "qwerty"
+msgstr "чешка (qwerty)"
+
+#: xfree86.xml.in.h:352
+msgid "qwerty/digits"
+msgstr ""
+
+#: xfree86.xml.in.h:353
+msgid "sefi"
+msgstr ""
+
+#: xfree86.xml.in.h:354
+msgid "si1452"
+msgstr ""
+
+#: xfree86.xml.in.h:355
+msgid "uni/101/qwerty/comma"
+msgstr ""
+
+#: xfree86.xml.in.h:356
+msgid "uni/101/qwerty/dot"
+msgstr ""
+
+#: xfree86.xml.in.h:357
+msgid "uni/101/qwertz/comma"
+msgstr ""
+
+#: xfree86.xml.in.h:358
+msgid "uni/101/qwertz/dot"
+msgstr ""
+
+#: xfree86.xml.in.h:359
+msgid "uni/102/qwerty/comma"
+msgstr ""
+
+#: xfree86.xml.in.h:360
+msgid "uni/102/qwerty/dot"
+msgstr ""
+
+#: xfree86.xml.in.h:361
+msgid "uni/102/qwertz/comma"
+msgstr ""
+
+#: xfree86.xml.in.h:362
+msgid "uni/102/qwertz/dot"
+msgstr ""
+
+#~ msgid "ar(azerty) - No decription"
+#~ msgstr "ar(azerty) - без описание"
+
+#~ msgid "ar(azerty_digits) - No decription"
+#~ msgstr "ar(azerty_digits) - без описание"
+
+#~ msgid "ar(digits) - No decription"
+#~ msgstr "ar(digits) - без описание"
+
+#~ msgid "ar(qwerty) - No decription"
+#~ msgstr "ar(qwerty) - без описание"
+
+#~ msgid "ar(qwerty_digits) - No decription"
+#~ msgstr "ar(qwerty_digits) - без описание"
+
+#~ msgid "az(cyrillic) - No decription"
+#~ msgstr "az(cyrillic) - без описание"
+
+#~ msgid "az(latin) - No decription"
+#~ msgstr "az(latin) - без описание"
+
+#~ msgid "be(Sundeadkeys) - No decription"
+#~ msgstr "be(Sundeadkeys) - без описание"
+
+#~ msgid "be(iso-alternate) - No decription"
+#~ msgstr "be(iso-alternate) - без описание"
+
+#~ msgid "be(sundeadkeys) - No decription"
+#~ msgstr "be(sundeadkeys) - без описание"
+
+#~ msgid "bg(phonetic) - No decription"
+#~ msgstr "bg(phonetic) - без описание"
+
+#, fuzzy
+#~ msgid "br(abnt2) - No decription"
+#~ msgstr "ar(azerty) - без описание"
+
+#~ msgid "by(winkeys) - No decription"
+#~ msgstr "by(winkeys) - без описание"
+
+#~ msgid "ca(alternate) - No decription"
+#~ msgstr "ca(alternate) - без описание"
+
+#~ msgid "ca(sundeadkeys) - No decription"
+#~ msgstr "ca(sundeadkeys) - без описание"
+
+#~ msgid "ca_enhanced(Sundeadkeys) - No decription"
+#~ msgstr "ca_enhanced(Sundeadkeys) - без описание"
+
+#~ msgid "ca_enhanced(basic) - No decription"
+#~ msgstr "ca_enhanced(basic) - без описание"
+
+#~ msgid "ca_enhanced(sundeadkeys) - No decription"
+#~ msgstr "ca_enhanced(sundeadkeys) - без описание"
+
+#~ msgid "cz(basic) - No decription"
+#~ msgstr "cz(basic) - без описание"
+
+#~ msgid "cz(bksl) - No decription"
+#~ msgstr "cz(bksl) - без описание"
+
+#~ msgid "cz_qwerty(basic) - No decription"
+#~ msgstr "cz_qwerty(basic) - без описание"
+
+#, fuzzy
+#~ msgid "cz_qwerty(bksl) - No decription"
+#~ msgstr "cz_qwerty(basic) - без описание"
+
+#, fuzzy
+#~ msgid "de(basic) - No decription"
+#~ msgstr "dk(basic) - без описание"
+
+#~ msgid "de(deadacute) - No decription"
+#~ msgstr "de(deadacute) - без описание"
+
+#~ msgid "de(deadgraveacute) - No decription"
+#~ msgstr "de(deadgraveacute) - без описание"
+
+#~ msgid "de_CH(Sundeadkeys) - No decription"
+#~ msgstr "de_CH(Sundeadkeys) - без описание"
+
+#~ msgid "de_CH(sundeadkeys) - No decription"
+#~ msgstr "de_CH(sundeadkeys) - без описание"
+
+#~ msgid "dvorak(no) - No decription"
+#~ msgstr "dvorak(no) - без описание"
+
+#, fuzzy
+#~ msgid "dvorak(se) - No decription"
+#~ msgstr "dvorak(no) - без описание"
+
+#, fuzzy
+#~ msgid "dvorak(sv) - No decription"
+#~ msgstr "dvorak(no) - без описание"
+
+#, fuzzy
+#~ msgid "el(extended) - No decription"
+#~ msgstr "el(Sundeadkeys) - без описание"
+
+#, fuzzy
+#~ msgid "el(polytonic) - No decription"
+#~ msgstr "bg(phonetic) - без описание"
+
+#~ msgid "es(Sundeadkeys) - No decription"
+#~ msgstr "es(Sundeadkeys) - без описание"
+
+#~ msgid "es(sundeadkeys) - No decription"
+#~ msgstr "es(sundeadkeys) - без описание"
+
+#~ msgid "fi(basic) - No decription"
+#~ msgstr "fi(basic) - без описание"
+
+#~ msgid "fr(Sundeadkeys) - No decription"
+#~ msgstr "fr(Sundeadkeys) - без описание"
+
+#~ msgid "fr(sundeadkeys) - No decription"
+#~ msgstr "fr(sundeadkeys) - без описание"
+
+#, fuzzy
+#~ msgid "fr-latin9(Sundeadkeys) - No decription"
+#~ msgstr "fi(Sundeadkeys) - без описание"
+
+#, fuzzy
+#~ msgid "fr-latin9(sundeadkeys) - No decription"
+#~ msgstr "fi(sundeadkeys) - без описание"
+
+#~ msgid "fr_CH(Sundeadkeys) - No decription"
+#~ msgstr "fr_CH(Sundeadkeys) - без описание"
+
+#~ msgid "fr_CH(sundeadkeys) - No decription"
+#~ msgstr "fr_CH(sundeadkeys) - без описание"
+
+#~ msgid "hu(Sundeadkeys) - No decription"
+#~ msgstr "hu(Sundeadkeys) - без описание"
+
+#~ msgid "hu(l2_101_qwerty_comma) - No decription"
+#~ msgstr "hu(l2_101_qwerty_comma) - без описание"
+
+#~ msgid "hu(l2_101_qwerty_dot) - No decription"
+#~ msgstr "hu(l2_101_qwerty_dot) - без описание"
+
+#~ msgid "hu(l2_101_qwertz_comma) - No decription"
+#~ msgstr "hu(l2_101_qwertz_comma) - без описание"
+
+#~ msgid "hu(l2_101_qwertz_dot) - No decription"
+#~ msgstr "hu(l2_101_qwertz_dot) - без описание"
+
+#~ msgid "hu(l2_102_qwerty_dot) - No decription"
+#~ msgstr "hu(l2_102_qwerty_dot) - без описание"
+
+#~ msgid "hu(l2_102_qwertz_comma) - No decription"
+#~ msgstr "hu(l2_102_qwertz_comma) - без описание"
+
+#~ msgid "hu(l2_102_qwertz_dot) - No decription"
+#~ msgstr "hu(l2_102_qwertz_dot) - без описание"
+
+#~ msgid "hu(standard) - No decription"
+#~ msgstr "hu(standard) - без описание"
+
+#~ msgid "hu(sundeadkeys) - No decription"
+#~ msgstr "hu(sundeadkeys) - без описание"
+
+#~ msgid "hu(uni_101_qwerty_comma) - No decription"
+#~ msgstr "hu(uni_101_qwerty_comma) - без описание"
+
+#~ msgid "hu(uni_101_qwerty_dot) - No decription"
+#~ msgstr "hu(uni_101_qwerty_dot) - без описание"
+
+#~ msgid "hu(uni_101_qwertz_comma) - No decription"
+#~ msgstr "hu(uni_101_qwertz_comma) - без описание"
+
+#~ msgid "hu(uni_101_qwertz_dot) - No decription"
+#~ msgstr "hu(uni_101_qwertz_dot) - без описание"
+
+#~ msgid "hu(uni_102_qwerty_comma) - No decription"
+#~ msgstr "hu(uni_102_qwerty_comma) - без описание"
+
+#~ msgid "hu(uni_102_qwerty_dot) - No decription"
+#~ msgstr "hu(uni_102_qwerty_dot) - без описание"
+
+#~ msgid "hu(uni_102_qwertz_comma) - No decription"
+#~ msgstr "hu(uni_102_qwertz_comma) - без описание"
+
+#~ msgid "hu(uni_102_qwertz_dot) - No decription"
+#~ msgstr "hu(uni_102_qwertz_dot) - без описание"
+
+#, fuzzy
+#~ msgid "ie - No decription"
+#~ msgstr "sapmi - без описание"
+
+#, fuzzy
+#~ msgid "ie(CloGaelach) - No decription"
+#~ msgstr "fi(basic) - без описание"
+
+#, fuzzy
+#~ msgid "ie(UnicodeExpert) - No decription"
+#~ msgstr "be(iso-alternate) - без описание"
+
+#, fuzzy
+#~ msgid "ie(laptop) - No decription"
+#~ msgstr "az(latin) - без описание"
+
+#, fuzzy
+#~ msgid "il(lyx) - No decription"
+#~ msgstr "cz(bksl) - без описание"
+
+#, fuzzy
+#~ msgid "il(si1452) - No decription"
+#~ msgstr "fi(basic) - без описание"
+
+#~ msgid "il_phonetic - No decription"
+#~ msgstr "il_phonetic - без описание"
+
+#~ msgid "la(Sundeadkeys) - No decription"
+#~ msgstr "la(Sundeadkeys) - без описание"
+
+#~ msgid "la(sundeadkeys) - No decription"
+#~ msgstr "la(sundeadkeys) - без описание"
+
+#, fuzzy
+#~ msgid "lt(lt_std) - No decription"
+#~ msgstr "lt(left_switch) - без описание"
+
+#, fuzzy
+#~ msgid "lt(lt_us) - No decription"
+#~ msgstr "lt(left_switch) - без описание"
+
+#~ msgid "lt_std(Sundeadkeys) - No decription"
+#~ msgstr "lt_std(Sundeadkeys) - без описание"
+
+#~ msgid "lt_std(sundeadkeys) - No decription"
+#~ msgstr "lt_std(sundeadkeys) - без описание"
+
+#~ msgid "macintosh - No decription"
+#~ msgstr "macintosh - без описание"
+
+#~ msgid "macintosh_old - No decription"
+#~ msgstr "macintosh_old - без описание"
+
+#~ msgid "mk(pc104) - No decription"
+#~ msgstr "mk(pc104) - без описание"
+
+#~ msgid "no(basic) - No decription"
+#~ msgstr "no(basic) - без описание"
+
+#, fuzzy
+#~ msgid "ogham(IS434) - No decription"
+#~ msgstr "mk(pc104) - без описание"
+
+#, fuzzy
+#~ msgid "ogham(IS434laptop) - No decription"
+#~ msgstr "az(latin) - без описание"
+
+#, fuzzy
+#~ msgid "ogham(is434) - No decription"
+#~ msgstr "mk(win) - без описание"
+
+#, fuzzy
+#~ msgid "ogham(is434laptop) - No decription"
+#~ msgstr "az(latin) - без описание"
+
+#, fuzzy
+#~ msgid "ogham(laptop) - No decription"
+#~ msgstr "az(latin) - без описание"
+
+#~ msgid "powerpcps2 - No decription"
+#~ msgstr "powerpcps2 - без описание"
+
+#~ msgid "pt(Sundeadkeys) - No decription"
+#~ msgstr "pt(Sundeadkeys) - без описание"
+
+#~ msgid "pt(sundeadkeys) - No decription"
+#~ msgstr "pt(sundeadkeys) - без описание"
+
+#~ msgid "ru(phonetic) - No decription"
+#~ msgstr "ru(phonetic) - без описание"
+
+#~ msgid "ru(typewriter) - No decription"
+#~ msgstr "ru(typewriter) - без описание"
+
+#~ msgid "ru(winkeys) - No decription"
+#~ msgstr "ru(winkeys) - без описание"
+
+#~ msgid "sapmi - No decription"
+#~ msgstr "sapmi - без описание"
+
+#~ msgid "sapmi(basic) - No decription"
+#~ msgstr "sapmi(basic) - без описание"
+
+#~ msgid "sapmi(sefi) - No decription"
+#~ msgstr "sapmi(sefi) - без описание"
+
+#~ msgid "se(basic) - No decription"
+#~ msgstr "se(basic) - без описание"
+
+#~ msgid "sk(basic) - No decription"
+#~ msgstr "sk(basic) - без описание"
+
+#, fuzzy
+#~ msgid "sk(bksl) - No decription"
+#~ msgstr "cz(bksl) - без описание"
+
+#~ msgid "sk_qwerty(basic) - No decription"
+#~ msgstr "sk_qwerty(basic) - без описание"
+
+#, fuzzy
+#~ msgid "sk_qwerty(bksl) - No decription"
+#~ msgstr "sk_qwerty(basic) - без описание"
+
+#~ msgid "ua(phonetic) - No decription"
+#~ msgstr "ua(phonetic) - без описание"
+
+#~ msgid "ua(typewriter) - No decription"
+#~ msgstr "ua(typewriter) - без описание"
+
+#~ msgid "ua(winkeys) - No decription"
+#~ msgstr "ua(winkeys) - без описание"
+
+#~ msgid "Russian (cyrillic phonetic)"
+#~ msgstr "руска (фонетична кирилица)"
+
+#~ msgid "Thai"
+#~ msgstr "тайландска"
+
+#~ msgid "Compaq Internet"
+#~ msgstr "Интернет клавиатура на Compaq"
+
+#~ msgid "Genius Comfy KB-16M"
+#~ msgstr "Genius Comfy KB-16M"
+
+#~ msgid "HP Internet"
+#~ msgstr "Интернет клавиатура на HP"
+
+#~ msgid "Iranian"
+#~ msgstr "иранска"
+
+#~ msgid "bg(bds_enhanced) - No decription"
+#~ msgstr "bg(bds_enhanced) - без описание"
+
+#~ msgid "bg(phonetic_enhanced) - No decription"
+#~ msgstr "bg(phonetic_enhanced) - без описание"
+
+#~ msgid "br(Sundeadkeys) - No decription"
+#~ msgstr "br(Sundeadkeys) - без описание"
+
+#~ msgid "br(sundeadkeys) - No decription"
+#~ msgstr "br(sundeadkeys) - без описание"
+
+#~ msgid "btc9000 - No decription"
+#~ msgstr "btc9000 - без описание"
+
+#~ msgid "ca(Sundeadkeys) - No decription"
+#~ msgstr "ca(Sundeadkeys) - без описание"
+
+#~ msgid "ca_enhanced - No decription"
+#~ msgstr "ca_enhanced - без описание"
+
+#~ msgid "dk(Sundeadkeys) - No decription"
+#~ msgstr "dk(Sundeadkeys) - без описание"
+
+#~ msgid "dk(sundeadkeys) - No decription"
+#~ msgstr "dk(sundeadkeys) - без описание"
+
+#~ msgid "ee(Sundeadkeys) - No decription"
+#~ msgstr "ee(Sundeadkeys) - без описание"
+
+#~ msgid "ee(sundeadkeys) - No decription"
+#~ msgstr "ee(sundeadkeys) - без описание"
+
+#~ msgid "el(sundeadkeys) - No decription"
+#~ msgstr "el(sundeadkeys) - без описание"
+
+#~ msgid "en_US(pc101_nodeadkeys) - No decription"
+#~ msgstr "en_US(pc101_nodeadkeys) - без описание"
+
+#~ msgid "en_US(pc102) - No decription"
+#~ msgstr "en_US(pc102) - без описание"
+
+#~ msgid "en_US(pc102_nodeadkeys) - No decription"
+#~ msgstr "en_US(pc102_nodeadkeys) - без описание"
+
+#~ msgid "en_US(pc104) - No decription"
+#~ msgstr "en_US(pc104) - без описание"
+
+#~ msgid "en_US(pc104_nodeadkeys) - No decription"
+#~ msgstr "en_US(pc104_nodeadkeys) - без описание"
+
+#~ msgid "en_US(pc105) - No decription"
+#~ msgstr "en_US(pc105) - без описание"
+
+#~ msgid "en_US(pc105_nodeadkeys) - No decription"
+#~ msgstr "en_US(pc105_nodeadkeys) - без описание"
+
+#~ msgid "en_US(pc_universal) - No decription"
+#~ msgstr "en_US(pc_universal) - без описание"
+
+#~ msgid "en_US(pc_universal_nodeadkeys) - No decription"
+#~ msgstr "en_US(pc_universal_nodeadkeys) - без описание"
+
+#~ msgid "en_US(sun4) - No decription"
+#~ msgstr " "
+
+#~ msgid "en_US(sun4_nodeadkeys) - No decription"
+#~ msgstr "en_US(sun4_nodeadkeys) - без описание"
+
+#~ msgid "en_US(sun5) - No decription"
+#~ msgstr "en_US(sun5) - без описание"
+
+#~ msgid "en_US(sun5_nodeadkeys) - No decription"
+#~ msgstr "en_US(sun5_nodeadkeys) - без описание"
+
+#~ msgid "gb(Sundeadkeys) - No decription"
+#~ msgstr "gb(Sundeadkeys) - без описание"
+
+#~ msgid "gb(ibm168) - No decription"
+#~ msgstr "gb(ibm168) - без описание"
+
+#~ msgid "gb(sundeadkeys) - No decription"
+#~ msgstr "gb(sundeadkeys) - без описание"
+
+#~ msgid "hu_US - No decription"
+#~ msgstr "hu_US - без описание"
+
+#~ msgid "hu_US(Sundeadkeys) - No decription"
+#~ msgstr "hu_US(Sundeadkeys) - без описание"
+
+#~ msgid "hu_US(sundeadkeys) - No decription"
+#~ msgstr "hu_US(sundeadkeys) - без описание"
+
+#~ msgid "ir(digits) - No decription"
+#~ msgstr "ir(digits) - без описание"
+
+#~ msgid "is(sundeadkeys) - No decription"
+#~ msgstr "is(sundeadkeys) - без описание"
+
+#~ msgid "it(Sundeadkeys) - No decription"
+#~ msgstr "it(Sundeadkeys) - без описание"
+
+#~ msgid "it(sundeadkeys) - No decription"
+#~ msgstr "it(sundeadkeys) - без описание"
+
+#~ msgid "lt(Sundeadkeys) - No decription"
+#~ msgstr "lt(Sundeadkeys) - без описание"
+
+#~ msgid "lt(sundeadkeys) - No decription"
+#~ msgstr "lt(sundeadkeys) - без описание"
+
+#~ msgid "lt(us_group2) - No decription"
+#~ msgstr "lt(us_group2) - без описание"
+
+#~ msgid "lv(Sundeadkeys) - No decription"
+#~ msgstr "lv(Sundeadkeys) - без описание"
+
+#~ msgid "lv(sundeadkeys) - No decription"
+#~ msgstr "lv(sundeadkeys) - без описание"
+
+#~ msgid "mk(group1) - No decription"
+#~ msgstr "mk(group1) - без описание"
+
+#~ msgid "no(Sundeadkeys) - No decription"
+#~ msgstr "no(Sundeadkeys) - без описание"
+
+#~ msgid "no(sundeadkeys) - No decription"
+#~ msgstr "no(sundeadkeys) - без описание"
+
+#~ msgid "pl(Sundeadkeys) - No decription"
+#~ msgstr "pl(Sundeadkeys) - без описание"
+
+#~ msgid "pl(sundeadkeys) - No decription"
+#~ msgstr "pl(sundeadkeys) - без описание"
+
+#~ msgid "pl2(Sundeadkeys) - No decription"
+#~ msgstr "pl2(Sundeadkeys) - без описание"
+
+#~ msgid "pl2(sundeadkeys) - No decription"
+#~ msgstr "pl2(sundeadkeys) - без описание"
+
+#~ msgid "sapmi(Sundeadkeys) - No decription"
+#~ msgstr "sapmi(Sundeadkeys) - без описание"
+
+#~ msgid "sapmi(sundeadkeys) - No decription"
+#~ msgstr "sapmi(sundeadkeys) - без описание"
+
+#~ msgid "se(Sundeadkeys) - No decription"
+#~ msgstr "se(Sundeadkeys) - без описание"
+
+#~ msgid "se(fixdollar) - No decription"
+#~ msgstr "se(fixdollar) - без описание"
+
+#~ msgid "se(sundeadkeys) - No decription"
+#~ msgstr "se(sundeadkeys) - без описание"
+
+#~ msgid "se_FI(basic) - No decription"
+#~ msgstr "se_FI(basic) - без описание"
+
+#~ msgid "se_NO(basic) - No decription"
+#~ msgstr "se_NO(basic) - без описание"
+
+#~ msgid "se_SE(basic) - No decription"
+#~ msgstr "se_SE(basic) - без описание"
+
+#~ msgid "tj(winkeys) - No decription"
+#~ msgstr "tj(winkeys) - без описание"
+
+#~ msgid "us(generic101) - No decription"
+#~ msgstr "us(generic101) - без описание"
+
+#~ msgid "us(pc101compose) - No decription"
+#~ msgstr "us(pc101compose) - без описание"
+
+#~ msgid "us(pc101euro) - No decription"
+#~ msgstr "us(pc101euro) - без описание"
+
+#~ msgid "us(pc102) - No decription"
+#~ msgstr "us(pc102) - без описание"
+
+#~ msgid "us(pc102compose) - No decription"
+#~ msgstr "us(pc102compose) - без описание"
+
+#~ msgid "us(pc102euro) - No decription"
+#~ msgstr "us(pc102euro) - без описание"
+
+#~ msgid "us(pc104) - No decription"
+#~ msgstr "us(pc104) - без описание"
+
+#~ msgid "us(pc104compose) - No decription"
+#~ msgstr "us(pc104compose) - без описание"
+
+#~ msgid "us(pc104euro) - No decription"
+#~ msgstr "us(pc104euro) - без описание"
+
+#~ msgid "us(pc105) - No decription"
+#~ msgstr "us(pc105) - без описание"
+
+#~ msgid "us(pc105compose) - No decription"
+#~ msgstr "us(pc105compose) - без описание"
+
+#~ msgid "us(pc105euro) - No decription"
+#~ msgstr "us(pc105euro) - без описание"
+
+#~ msgid "us(pc_universal) - No decription"
+#~ msgstr "us(pc_universal) - без описание"
+
+#~ msgid "us(pc_universal_compose) - No decription"
+#~ msgstr "us(pc_universal_compose) - без описание"
+
+#~ msgid "us(pc_universal_euro) - No decription"
+#~ msgstr "us(pc_universal_euro) - без описание"
+
+#~ msgid "vn(generic101) - No decription"
+#~ msgstr "vn(generic101) - без описание"
+
+#~ msgid "vn(pc101) - No decription"
+#~ msgstr "vn(pc101) - без описание"
+
+#~ msgid "vn(pc101compose) - No decription"
+#~ msgstr "vn(pc101compose) - без описание"
+
+#~ msgid "vn(pc101euro) - No decription"
+#~ msgstr "vn(pc101euro) - без описание"
+
+#~ msgid "vn(pc102) - No decription"
+#~ msgstr "vn(pc102) - без описание"
+
+#~ msgid "vn(pc102compose) - No decription"
+#~ msgstr "vn(pc102compose) - без описание"
+
+#~ msgid "vn(pc102euro) - No decription"
+#~ msgstr "vn(pc102euro) - без описание"
+
+#~ msgid "vn(pc104) - No decription"
+#~ msgstr "vn(pc104) - без описание"
+
+#~ msgid "vn(pc104compose) - No decription"
+#~ msgstr "vn(pc104compose) - без описание"
+
+#~ msgid "vn(pc104euro) - No decription"
+#~ msgstr "vn(pc104euro) - без описание"
+
+#~ msgid "vn(pc105) - No decription"
+#~ msgstr "vn(pc105) - без описание"
+
+#~ msgid "vn(pc105compose) - No decription"
+#~ msgstr "vn(pc105compose) - без описание"
+
+#~ msgid "vn(pc105euro) - No decription"
+#~ msgstr "vn(pc105euro) - без описание"
+
+#~ msgid "vn(pc_universal) - No decription"
+#~ msgstr "vn(pc_universal) - без описание"
+
+#~ msgid "vn(toggle) - No decription"
+#~ msgstr "vn(toggle) - без описание"

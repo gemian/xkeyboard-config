@@ -563,19 +563,19 @@
     <model>
       <configItem>
         <name>macintosh</name>
-        <_description>macintosh     -  No decription</_description>
+        <_description>Macintosh</_description>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>macintosh_old</name>
-        <_description>macintosh_old -  No decription</_description>
+        <_description>Macintosh Old</_description>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>powerpcps2</name>
-        <_description>powerpcps2    -  No decription</_description>
+        <_description>PowerPC PS/2</_description>
       </configItem>
     </model>
   </modelList>
@@ -607,7 +607,7 @@
       <configItem>
         <name>us_intl</name>
         <_shortDescription>USA</_shortDescription>
-        <_description>U.S. English w/ deadkeys</_description>
+        <_description>U.S. English w/ dead keys</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -629,31 +629,31 @@
         <variant>
           <configItem>
             <name>azerty</name>
-            <_description>ar(azerty) -  No decription</_description>
+            <_description>azerty</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>azerty_digits</name>
-            <_description>ar(azerty_digits) -  No decription</_description>
+            <_description>azerty/digits</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>digits</name>
-            <_description>ar(digits) -  No decription</_description>
+            <_description>digits</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty</name>
-            <_description>ar(qwerty) -  No decription</_description>
+            <_description>qwerty</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty_digits</name>
-            <_description>ar(qwerty_digits) -  No decription</_description>
+            <_description>qwerty/digits</_description>
           </configItem>
         </variant>
       </variantList>
@@ -676,13 +676,13 @@
         <variant>
           <configItem>
             <name>cyrillic</name>
-            <_description>az(cyrillic) -  No decription</_description>
+            <_description>Cyrillic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latin</name>
-            <_description>az(latin) -  No decription</_description>
+            <_description>Latin</_description>
           </configItem>
         </variant>
       </variantList>
@@ -697,7 +697,7 @@
         <variant>
           <configItem>
             <name>winkeys</name>
-            <_description>by(winkeys) -  No decription</_description>
+            <_description>Winkeys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -711,14 +711,8 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>be(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>iso-alternate</name>
-            <_description>be(iso-alternate) -  No decription</_description>
+            <_description>ISO Alternate</_description>
           </configItem>
         </variant>
         <variant>
@@ -730,7 +724,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>be(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -761,7 +755,7 @@
         <variant>
           <configItem>
             <name>abnt2</name>
-            <_description>br(abnt2) -  No decription</_description>
+            <_description>abnt2</_description>
           </configItem>
         </variant>
         <variant>
@@ -782,7 +776,7 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>bg(phonetic) -  No decription</_description>
+            <_description>Phonetic</_description>
           </configItem>
         </variant>
       </variantList>
@@ -805,7 +799,7 @@
         <variant>
           <configItem>
             <name>alternate</name>
-            <_description>ca(alternate) -  No decription</_description>
+            <_description>Alternate</_description>
           </configItem>
         </variant>
         <variant>
@@ -817,7 +811,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>ca(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -831,20 +825,14 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>ca_enhanced(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>basic</name>
-            <_description>ca_enhanced(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>ca_enhanced(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -867,13 +855,13 @@
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>cz(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>bksl</name>
-            <_description>cz(bksl) -  No decription</_description>
+            <_description>bksl</_description>
           </configItem>
         </variant>
       </variantList>
@@ -888,13 +876,13 @@
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>cz_qwerty(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>bksl</name>
-            <_description>cz_qwerty(bksl) -  No decription</_description>
+            <_description>bksl</_description>
           </configItem>
         </variant>
       </variantList>
@@ -932,19 +920,19 @@
         <variant>
           <configItem>
             <name>no</name>
-            <_description>dvorak(no) -  No decription</_description>
+            <_description>Norwegian</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>se</name>
-            <_description>dvorak(se) -  No decription</_description>
+            <_description>Swedish</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sv</name>
-            <_description>dvorak(sv) -  No decription</_description>
+            <_description>Sv</_description>
           </configItem>
         </variant>
       </variantList>
@@ -997,7 +985,7 @@
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>fi(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1011,12 +999,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>fr(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
@@ -1024,7 +1006,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>fr(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1038,12 +1020,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>fr-latin9(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
@@ -1051,7 +1027,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>fr-latin9(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1082,19 +1058,19 @@
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>de(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>deadacute</name>
-            <_description>de(deadacute) -  No decription</_description>
+            <_description>Dead acute</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>deadgraveacute</name>
-            <_description>de(deadgraveacute) -  No decription</_description>
+            <_description>Dead grave acute</_description>
           </configItem>
         </variant>
         <variant>
@@ -1115,7 +1091,7 @@
         <variant>
           <configItem>
             <name>extended</name>
-            <_description>el(extended) -  No decription</_description>
+            <_description>Extended</_description>
           </configItem>
         </variant>
         <variant>
@@ -1127,7 +1103,7 @@
         <variant>
           <configItem>
             <name>polytonic</name>
-            <_description>el(polytonic) -  No decription</_description>
+            <_description>Polytonic</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1165,56 +1141,50 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>hu(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>l2_101_qwerty_comma</name>
-            <_description>hu(l2_101_qwerty_comma) -  No decription</_description>
+            <_description>l2/101/qwerty/comma</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>l2_101_qwerty_dot</name>
-            <_description>hu(l2_101_qwerty_dot) -  No decription</_description>
+            <_description>l2/101/qwerty/dot</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>l2_101_qwertz_comma</name>
-            <_description>hu(l2_101_qwertz_comma) -  No decription</_description>
+            <_description>l2/101/qwertz/comma</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>l2_101_qwertz_dot</name>
-            <_description>hu(l2_101_qwertz_dot) -  No decription</_description>
+            <_description>l2/101/qwertz/dot</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>l2_102_qwerty_comma</name>
-            <_description>hu(l2_102_qwerty_comma) -  No decription</_description>
+            <_description>l2/102/qwerty/comma</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>l2_102_qwerty_dot</name>
-            <_description>hu(l2_102_qwerty_dot) -  No decription</_description>
+            <_description>l2/102/qwerty/dot</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>l2_102_qwertz_comma</name>
-            <_description>hu(l2_102_qwertz_comma) -  No decription</_description>
+            <_description>l2/102/qwertz/comma</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>l2_102_qwertz_dot</name>
-            <_description>hu(l2_102_qwertz_dot) -  No decription</_description>
+            <_description>l2/102/qwertz/dot</_description>
           </configItem>
         </variant>
         <variant>
@@ -1226,61 +1196,61 @@
         <variant>
           <configItem>
             <name>standard</name>
-            <_description>hu(standard) -  No decription</_description>
+            <_description>Standard</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>hu(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>uni_101_qwerty_comma</name>
-            <_description>hu(uni_101_qwerty_comma) -  No decription</_description>
+            <_description>uni/101/qwerty/comma</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>uni_101_qwerty_dot</name>
-            <_description>hu(uni_101_qwerty_dot) -  No decription</_description>
+            <_description>uni/101/qwerty/dot</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>uni_101_qwertz_comma</name>
-            <_description>hu(uni_101_qwertz_comma) -  No decription</_description>
+            <_description>uni/101/qwertz/comma</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>uni_101_qwertz_dot</name>
-            <_description>hu(uni_101_qwertz_dot) -  No decription</_description>
+            <_description>uni/101/qwertz/dot</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>uni_102_qwerty_comma</name>
-            <_description>hu(uni_102_qwerty_comma) -  No decription</_description>
+            <_description>uni/102/qwerty/comma</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>uni_102_qwerty_dot</name>
-            <_description>hu(uni_102_qwerty_dot) -  No decription</_description>
+            <_description>uni/102/qwerty/dot</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>uni_102_qwertz_comma</name>
-            <_description>hu(uni_102_qwertz_comma) -  No decription</_description>
+            <_description>uni/102/qwertz/comma</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>uni_102_qwertz_dot</name>
-            <_description>hu(uni_102_qwertz_dot) -  No decription</_description>
+            <_description>uni/102/qwertz/dot</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1303,7 +1273,7 @@
         <variant>
           <configItem>
             <name>Sundeadkeys</name>
-            <_description>is(Sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
         <variant>
@@ -1332,13 +1302,13 @@
         <variant>
           <configItem>
             <name>lyx</name>
-            <_description>il(lyx) -  No decription</_description>
+            <_description>lyx</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>si1452</name>
-            <_description>il(si1452) -  No decription</_description>
+            <_description>si1452</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1383,12 +1353,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>la(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
@@ -1396,7 +1360,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>la(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1411,13 +1375,13 @@
         <variant>
           <configItem>
             <name>lt_std</name>
-            <_description>lt(lt_std) -  No decription</_description>
+            <_description>Standard</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>lt_us</name>
-            <_description>lt(lt_us) -  No decription</_description>
+            <_description>US</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1431,12 +1395,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>lt_std(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
@@ -1444,7 +1402,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>lt_std(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1467,7 +1425,7 @@
         <variant>
           <configItem>
             <name>pc104</name>
-            <_description>mk(pc104) -  No decription</_description>
+            <_description>PC104</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1514,7 +1472,7 @@
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>no(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
         <variant>
@@ -1534,32 +1492,20 @@
       <variantList>
         <variant>
           <configItem>
-            <name>IS434</name>
-            <_description>ogham(IS434) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>IS434laptop</name>
-            <_description>ogham(IS434laptop) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>is434</name>
-            <_description>ogham(is434) -  No decription</_description>
+            <_description>IS434</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>is434laptop</name>
-            <_description>ogham(is434laptop) -  No decription</_description>
+            <_description>IS434 laptop</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>laptop</name>
-            <_description>ogham(laptop) -  No decription</_description>
+            <_description>Laptop</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1597,12 +1543,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>pt(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
@@ -1610,7 +1550,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>pt(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1640,19 +1580,19 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>ru(phonetic) -  No decription</_description>
+            <_description>Phonetic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>typewriter</name>
-            <_description>ru(typewriter) -  No decription</_description>
+            <_description>"Typewriter"</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>winkeys</name>
-            <_description>ru(winkeys) -  No decription</_description>
+            <_description>Winkeys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1707,13 +1647,13 @@
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>sk(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>bksl</name>
-            <_description>sk(bksl) -  No decription</_description>
+            <_description>bksl</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1728,13 +1668,13 @@
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>sk_qwerty(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>bksl</name>
-            <_description>sk_qwerty(bksl) -  No decription</_description>
+            <_description>bksl</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1748,12 +1688,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>es(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
@@ -1761,7 +1695,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>es(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1776,7 +1710,7 @@
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>se(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
         <variant>
@@ -1796,12 +1730,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>fr_CH(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
@@ -1809,7 +1737,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>fr_CH(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1823,12 +1751,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>Sundeadkeys</name>
-            <_description>de_CH(Sundeadkeys) -  No decription</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
           </configItem>
@@ -1836,7 +1758,7 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>de_CH(sundeadkeys) -  No decription</_description>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1951,19 +1873,19 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>ua(phonetic) -  No decription</_description>
+            <_description>Phonetic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>typewriter</name>
-            <_description>ua(typewriter) -  No decription</_description>
+            <_description>"Typewriter"</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>winkeys</name>
-            <_description>ua(winkeys) -  No decription</_description>
+            <_description>Winkeys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2012,31 +1934,31 @@
       <configItem>
         <name>ie</name>
         <_shortDescription>Irl</_shortDescription>
-        <_description>ie            -  No decription</_description>
+        <_description>Irish</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>CloGaelach</name>
-            <_description>ie(CloGaelach) -  No decription</_description>
+            <_description>CloGaelach</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>CloGaelachLaptop</name>
-            <_description>ie(CloGaelachLaptop) -  No decription</_description>
+            <_description>CloGaelach Laptop</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>UnicodeExpert</name>
-            <_description>ie(UnicodeExpert) -  No decription</_description>
+            <_description>UnicodeExpert</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>laptop</name>
-            <_description>ie(laptop) -  No decription</_description>
+            <_description>laptop</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2045,7 +1967,7 @@
       <configItem>
         <name>il_phonetic</name>
         <_shortDescription>Isr</_shortDescription>
-        <_description>il_phonetic   -  No decription</_description>
+        <_description>Phonetic</_description>
       </configItem>
       <variantList/>
     </layout>
@@ -2053,13 +1975,13 @@
       <configItem>
         <name>sapmi</name>
         <_shortDescription>Sme</_shortDescription>
-        <_description>sapmi         -  No decription</_description>
+        <_description>Sapmi</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>basic</name>
-            <_description>sapmi(basic) -  No decription</_description>
+            <_description>Basic</_description>
           </configItem>
         </variant>
         <variant>
@@ -2071,7 +1993,7 @@
         <variant>
           <configItem>
             <name>sefi</name>
-            <_description>sapmi(sefi) -  No decription</_description>
+            <_description>sefi</_description>
           </configItem>
         </variant>
       </variantList>

@@ -1,6 +1,7 @@
 AC_INIT(xfree86.xml.in)
 
 PACKAGE=xfree86_xkb_xml
+GETTEXT_PACKAGE=$PACKAGE
 MAJOR_VERSION=0
 MINOR_VERSION=5
 VERSION=$MAJOR_VERSION.$MINOR_VERSION
@@ -9,6 +10,7 @@ AC_SUBST(MAJOR_VERSION)
 AC_SUBST(MINOR_VERSION)
 AC_SUBST(PACKAGE)
 AC_SUBST(VERSION)
+AC_SUBST(GETTEXT_PACKAGE)
 
 AM_INIT_AUTOMAKE($PACKAGE, $VERSION)
 
@@ -20,16 +22,17 @@ AC_ARG_WITH( xkb_base,
              xkb_base="\$(prefix)/X11R6/lib/X11/xkb" )
 			 
 ALL_LINGUAS="bg ru uk"
+
+AM_GLIB_GNU_GETTEXT
 AM_GNU_GETTEXT
 
 AC_PROG_INTLTOOL
 
 AC_SUBST(xkb_base)
 
-AC_OUTPUT([ m4/Makefile
+AC_OUTPUT([ m4/Makefile  
 Makefile
 xfree86_xkb_xml.spec
-intl/Makefile
 po/Makefile.in
 ])
 
