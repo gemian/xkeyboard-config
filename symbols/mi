@@ -17,7 +17,7 @@ xkb_symbols "basic" {
   modifier_map Control{ Control_L };
   modifier_map Mod3   { Mode_switch };
 };
----------------------------/etc/X11/xkb/symbols/pc/mi-------------------
+---------------------------/etc/X11/xkb/symbols/mi-------------------
 
 // based on a keyboard map from an 'xkb/symbols/mi' file
 //
@@ -28,7 +28,7 @@ xkb_symbols "basic" {
     // Adds the macrons needed for the Maori language to
     // a simple us keyboard layout.
 
-    include "pc/latin"
+    include "latin"
 
     name[Group1]="Maori";
 
