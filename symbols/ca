@@ -1,3 +1,4 @@
+// $XKeyboardConfig$
 
 default partial
 xkb_symbols "fr" {

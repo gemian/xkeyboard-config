@@ -1,3 +1,4 @@
+// $XKeyboardConfig$
 
 default partial hidden modifier_keys
 xkb_symbols "capslock" {
