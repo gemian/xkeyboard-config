@@ -701,6 +701,31 @@ xkb_symbols "geniuscomfy2" {
     key <I6D>   {       [ XF86AudioMedia        ]       };
 };
 
+
+// Gyration
+
+partial alphanumeric_keys
+xkb_symbols "gyration" {
+    name[Group1]= "Gyration";
+
+    key <I24>	{	[ XF86AudioPrev		]	};
+    key <I1F>	{	[ XF86AudioPlay, XF86AudioPause ] };
+    key <I17>	{	[ XF86AudioStop		]	};
+    key <I22>	{	[ XF86AudioNext		]	};
+    key <I25>	{	[ XF86AudioLowerVolume	]	};
+    key <I1E>	{	[ XF86AudioRaiseVolume	]	};
+    key <I26>	{	[ XF86AudioMute		]	};
+    key <I6A>	{	[ XF86Back		]	};
+    key <I69>	{	[ XF86Forward		]	};
+    key <I68>	{	[ XF86Stop		]	};
+    key <FK16>	{	[ XF86Reload		]	};
+    key <I65>	{	[ XF86Search		]	};
+    key <I02>	{	[ XF86WWW		]	};
+    key <I66>	{	[ XF86Favorites		]	};
+    key <I6C>	{	[ XF86Mail		]	};
+};
+
+
 // Hewlett-Packard
 
 partial alphanumeric_keys 
