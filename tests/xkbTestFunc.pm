@@ -98,7 +98,7 @@ sub testLevel1
 
 sub testLevel2
 {
-  my ( $type, $subtype, $idx, $delim1, $delim2, $ifCheckLevel1, $ifAddLevel1 ) = @_;
+  my ( $type, $subtype, $idx, $delim1, $delim2, $ifCheckLevel1, $ifAddLevel1, $ifResetToDefault ) = @_;
 
   open ( XSLTPROC, "xsltproc --stringparam type $type listCIs.xsl ../rules/base.xml.in |" ) or
     die ( "Could not start xsltproc" );
@@ -113,6 +113,10 @@ sub testLevel2
       if ( $ifCheckLevel1 )
       {
         my @params = defaultXkbSettings();
+        if ( $ifResetToDefault )
+        {
+          setXkbSettings ( @params );
+        }
         $params[$idx] = "$paramValue";
         dumpXkbSettings ( @params );
         setXkbSettings ( @params );
@@ -130,6 +134,10 @@ sub testLevel2
           my $paramValue2=$1;
           print "  --- $subtype: [$paramValue2]\n";
           my @params = defaultXkbSettings();
+          if ( $ifResetToDefault )
+          {
+            setXkbSettings ( @params );
+          }
           if ( $ifAddLevel1 )
           {
             $params[$idx] = "$paramValue$delim1$paramValue2$delim2";

@@ -1618,7 +1618,7 @@
         <variant>
           <configItem>
             <name>yz</name>
-            <_description>Serbian Cyrillic (swap Zhe, Ze)</_description>
+            <_description>Cyrillic (swap Zhe, Ze)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1772,19 +1772,19 @@
         <variant>
           <configItem>
             <name>TSCII</name>
-            <_description>A Tamil typewrite-style keymap; TSCII encoding</_description>
+            <_description>Typewrite-style keymap; TSCII encoding</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>TAB</name>
-            <_description>A Tamil typewrite-style keymap; TAB encoding</_description>
+            <_description>Typewrite-style keymap; TAB encoding</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>UNI</name>
-            <_description>A Tamil typewrite-style keymap; Unicode encoding</_description>
+            <_description>Typewrite-style keymap; Unicode encoding</_description>
           </configItem>
         </variant>
         <variant>
@@ -1839,14 +1839,14 @@
       <variantList>
         <variant>
           <configItem>
-            <name>tr_f</name>
-            <_description>Turkish (F)</_description>
+            <name>f</name>
+            <_description>(F)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>tr_alt</name>
-            <_description>Turkish Alt-Q Layout</_description>
+            <name>alt</name>
+            <_description>Alt-Q</_description>
           </configItem>
         </variant>
       </variantList>

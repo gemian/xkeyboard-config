@@ -61,7 +61,7 @@ xkb_symbols "basic" {
 
 // Turkish F Layout
 partial
-xkb_symbols "tr_f" {
+xkb_symbols "f" {
 
     include "latin"
 
@@ -124,7 +124,7 @@ xkb_symbols "tr_f" {
 
 // Turkish Alt-Q Layout
 partial
-xkb_symbols "tr_alt" {
+xkb_symbols "alt" {
 
     include "latin"
 
