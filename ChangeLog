@@ -1,3 +1,8 @@
+2005-01-21 svu
+
+	* symbols/gr: a bit more order in group name (needed for 'basic' but 
+	not for 'bare'
+
 2005-01-20 svu
 
 	* symbols/hr: added missing keymapping, 
