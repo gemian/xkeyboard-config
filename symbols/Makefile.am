@@ -10,13 +10,13 @@ ee el \
 es fi fo \
 fr gb \
 ge guj \
-gur hr ie \
+gur hr hu ie \
 il ir \
 is it iu \
 jp \
 kan la latin \
 lo lt lv \
-mk ml mm mn\
+mk ml mm mn \
 mt nl \
 no ogham ori \
 pc pl \
