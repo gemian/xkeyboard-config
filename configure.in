@@ -44,7 +44,10 @@ AM_GLIB_GNU_GETTEXT
 AC_SUBST(xkb_base)
 AC_SUBST(xkb_rules_symlink)
 
-AC_OUTPUT([ po/Makefile.in m4/Makefile  intl/Makefile
+AC_OUTPUT([ 
+po/Makefile.in
+m4/Makefile  
+intl/Makefile
 Makefile
 compat/Makefile
 compiled/Makefile
