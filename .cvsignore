@@ -17,8 +17,12 @@ intltool-merge.in
 intltool-update
 intltool-update.in
 m4
-xfree86.xml
-xfree86_xkb_xml.spec
 autom4te.cache
 mkinstalldirs
 intltool-modules
+config.h
+config.h.in
+stamp-h1
+xkbdesc-0.1.tar.gz
+xkbdesc.spec
+

@@ -4,7 +4,7 @@
 DIE=0
 
 srcdir=`dirname $0`
-PKG_NAME=xfree86_xkb_xml
+PKG_NAME=xkbdesc
 
 if [ -n "$GNOME2_PATH" ]; then
 	ACLOCAL_FLAGS="-I $GNOME2_PATH/share/aclocal $ACLOCAL_FLAGS"

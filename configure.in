@@ -12,6 +12,7 @@ AC_SUBST(PACKAGE)
 AC_SUBST(VERSION)
 AC_SUBST(GETTEXT_PACKAGE)
 
+AM_CONFIG_HEADER(config.h)
 AM_INIT_AUTOMAKE($PACKAGE, $VERSION)
 
 prefix=/usr
@@ -46,7 +47,6 @@ keymap/sgi.vndr/Makefile
 keymap/sun.vndr/Makefile
 semantics/Makefile
 rules/Makefile
-types/Makefile
 symbols/Makefile
 symbols/digital.vndr/Makefile
 symbols/fujitsu.vndr/Makefile
@@ -57,6 +57,7 @@ symbols/sgi.vndr/Makefile
 symbols/sony.vndr/Makefile
 symbols/sun.vndr/Makefile
 symbols/xfree68.vndr/Makefile
+types/Makefile
 xkbdesc.spec
 ])
 
