@@ -1,15 +1,15 @@
 # Dutch translation of xfree86_xkb_xml.
-# Copyright (C) 2003 PACKAGE'S COPYRIGHT HOLDER
+# Copyright (C) 2003, 2004 Free Software Foundation, Inc.
 # This file is distributed under the same license as the xfree86_xkb_xml package.
-# Elros Cyriatan <cyriatan@fastmail.fm>, 2003.
+# Elros Cyriatan <cyriatan@fastmail.fm>, 2003, 2004.
 # 
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: xfree86_xkb_xml HEAD\n"
+"Project-Id-Version: xfree86_xkb_xml 4.4pre1\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2003-11-25 23:38+0000\n"
-"PO-Revision-Date: 2003-11-27 23:15+0100\n"
+"PO-Revision-Date: 2004-01-03 15:04+0100\n"
 "Last-Translator: Elros Cyriatan <cyriatan@fastmail.fm>\n"
 "Language-Team: Dutch <vertaling@nl.linux.org>\n"
 "MIME-Version: 1.0\n"
@@ -318,11 +318,11 @@ msgstr "Deens"
 
 #: xfree86.xml.in.h:76
 msgid "Dead acute"
-msgstr ""
+msgstr "Dood acutus"
 
 #: xfree86.xml.in.h:77
 msgid "Dead grave acute"
-msgstr ""
+msgstr "Dood gravis-acutus"
 
 #: xfree86.xml.in.h:78
 msgid "Dell"
@@ -393,9 +393,8 @@ msgid "Fao"
 msgstr "Fao"
 
 #: xfree86.xml.in.h:95
-#, fuzzy
 msgid "Faroese"
-msgstr "Faereurs"
+msgstr "Faröers"
 
 #: xfree86.xml.in.h:96
 msgid "Farsi"
@@ -974,7 +973,6 @@ msgid "Polish (qwertz)"
 msgstr "Pools (qwertz)"
 
 #: xfree86.xml.in.h:240
-#, fuzzy
 msgid "Polytonic"
 msgstr "Polytonisch"
 
@@ -1360,7 +1358,7 @@ msgstr "Joegoslavisch"
 
 #: xfree86.xml.in.h:336
 msgid "abnt2"
-msgstr ""
+msgstr "abnt2"
 
 #: xfree86.xml.in.h:337
 msgid "azerty"
@@ -1372,7 +1370,7 @@ msgstr "azerty/cijfers"
 
 #: xfree86.xml.in.h:339
 msgid "bksl"
-msgstr ""
+msgstr "bksl"
 
 #: xfree86.xml.in.h:340
 msgid "digits"
@@ -1416,7 +1414,7 @@ msgstr "laptop"
 
 #: xfree86.xml.in.h:350
 msgid "lyx"
-msgstr ""
+msgstr "lyx"
 
 #: xfree86.xml.in.h:351
 msgid "qwerty"
@@ -1428,7 +1426,7 @@ msgstr "qwerty/cijfers"
 
 #: xfree86.xml.in.h:353
 msgid "sefi"
-msgstr ""
+msgstr "sefi"
 
 #: xfree86.xml.in.h:354
 msgid "si1452"
