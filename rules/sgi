@@ -14,7 +14,7 @@
   keypad:overlay	=   +keypad(overlay)
   keypad:overlay1	=   +keypad(overlay)
   keypad:overlay2	=   +keypad(overlay)
-  lock:shift		=   +lock(shift)
+  lock:shift		=   +capslock(shiftlock)
   pc104:altmeta		=   +pc104(altmeta)
   pc104:compose		=   +pc104(compose)
 
