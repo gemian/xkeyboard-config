@@ -42,7 +42,7 @@ xkb_symbols "basic" {
 hidden partial alphanumeric_keys alternate_group
 xkb_symbols "bare" {
 
-    name[Group1] = "ISO8859-7";
+    name[Group1] = "Greek";
 
     key <AD01> { [	semicolon,		colon		] };
     key <AD02> { [	Greek_finalsmallsigma,	Greek_SIGMA	] };

@@ -160,7 +160,7 @@ xkb_symbols "phonetic" {
 
     // uses the phonetic layout from old Slackware 'il.map' file
 
-    name[Group1]= "Israelian(phonetic)";
+    name[Group1]= "Israelian (phonetic)";
 
     key <AE12> {        [     equal,    plus            ],
 			[ hebrew_doublelowline, hebrew_doublelowline ]};

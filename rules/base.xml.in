@@ -664,7 +664,7 @@
     <layout>
       <configItem>
         <name>ar</name>
-        <_shortDescription>Arb</_shortDescription>
+        <_shortDescription>Ara</_shortDescription>
         <_description>Arabic</_description>
       </configItem>
       <variantList>
@@ -840,7 +840,7 @@
       <configItem>
         <name>mm</name>
         <_shortDescription>Mmr</_shortDescription>
-        <_description>Burmese</_description>
+        <_description>Myanmarish</_Description>
       </configItem>
       <variantList/>
     </layout>
@@ -990,7 +990,8 @@
     <layout>
       <configItem>
         <name>dz</name>
-        <_description>Dzongkha / Tibetan</_description>
+        <_shortDescription>Dzo</_shortDescription>
+        <_description>Dzongkha</_description>
       </configItem>
     </layout>
     <layout>
@@ -1136,7 +1137,7 @@
     <layout>
       <configItem>
         <name>el</name>
-        <_shortDescription>Grc</_shortDescription>
+        <_shortDescription>Gre</_shortDescription>
         <_description>Greek</_description>
       </configItem>
       <variantList>
