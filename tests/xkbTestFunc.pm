@@ -44,6 +44,7 @@ sub setXkbSettings
        "-layout", $xkbLayouts,
        "-variant", $xkbVariants,
        "-option", $xkbOptions ) == 0 ) or die "Could not set xkb configuration";
+  sleep 1;
 }
 
 sub restoreXkbSettings
@@ -97,7 +98,7 @@ sub testLevel1
 
 sub testLevel2
 {
-  my ( $type, $subtype, $idx, $delim1, $delim2 ) = @_;
+  my ( $type, $subtype, $idx, $delim1, $delim2, $ifCheckLevel1, $ifAddLevel1 ) = @_;
 
   open ( XSLTPROC, "xsltproc --stringparam type $type listCIs.xsl ../rules/base.xml.in |" ) or
     die ( "Could not start xsltproc" );
@@ -109,12 +110,15 @@ sub testLevel2
       my $paramValue=$1;
       print "--- scanning $type: [$paramValue]\n";
 
-      my @params = defaultXkbSettings();
-      $params[$idx] = "$paramValue";
-      dumpXkbSettings ( @params );
-      setXkbSettings ( @params );
-      #print "--- dump:\n";
-      #dumpXkbSettings( getXkbSettings() );
+      if ( $ifCheckLevel1 )
+      {
+        my @params = defaultXkbSettings();
+        $params[$idx] = "$paramValue";
+        dumpXkbSettings ( @params );
+        setXkbSettings ( @params );
+        #print "--- dump:\n";
+        #dumpXkbSettings( getXkbSettings() );
+      }
 
       open ( XSLTPROC2, "xsltproc --stringparam type $subtype --stringparam parentId $paramValue listCI2.xsl ../rules/base.xml.in |" ) or
         die ( "Could not start xsltproc" );
@@ -126,7 +130,14 @@ sub testLevel2
           my $paramValue2=$1;
           print "  --- $subtype: [$paramValue2]\n";
           my @params = defaultXkbSettings();
-          $params[$idx] = "$paramValue$delim1$paramValue2$delim2";
+          if ( $ifAddLevel1 )
+          {
+            $params[$idx] = "$paramValue$delim1$paramValue2$delim2";
+          }
+          else
+          {
+            $params[$idx] = "$paramValue2";
+          }
           dumpXkbSettings ( @params );
           setXkbSettings ( @params );
           #print "--- dump:\n";

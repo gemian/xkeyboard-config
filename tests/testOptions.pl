@@ -8,6 +8,6 @@ xkbTestFunc::backupXkbSettings();
                                                                                                                  
 xkbTestFunc::dumpXkbSettingsBackup();
 
-xkbTestFunc::testLevel2( "layout", "variant", 2, "(", ")", 1, 1 );
+xkbTestFunc::testLevel2( "group", "option", 4, ":", "", 0, 0 );
 
 xkbTestFunc::restoreXkbSettings();

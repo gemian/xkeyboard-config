@@ -8,7 +8,7 @@
   <xsl:param name="parentId"/>
   
   <xsl:template match="configItem">
-    <xsl:if test="name(..) = $type and ../../../configItem/name = $parentId">
+    <xsl:if test="name(..) = $type and ( ../../../configItem/name = $parentId or ../../configItem/name = $parentId )">
       <xsl:value-of select="./name"/>
     </xsl:if>
   </xsl:template>
