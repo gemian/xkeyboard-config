@@ -1041,25 +1041,22 @@
             <_description>Sun dead keys</_description>
           </configItem>
         </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>fr-latin9</name>
-        <_shortDescription>Fra</_shortDescription>
-        <_description>French (alternative)</_description>
-      </configItem>
-      <variantList>
         <variant>
           <configItem>
-            <name>nodeadkeys</name>
-            <_description>Eliminate dead keys</_description>
+            <name>latin9</name>
+            <_description>Alternative</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>sundeadkeys</name>
-            <_description>Sun dead keys</_description>
+            <name>latin9_nodeadkeys</name>
+            <_description>Alternative, eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latin9_sundeadkeys</name>
+            <_description>Alternative, Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1500,7 +1497,7 @@
         <variant>
           <configItem>
             <name>us</name>
-            <_description>US layout</_description>
+            <_description>US keyboard with Maltian letters</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1615,7 +1612,7 @@
         <variant>
           <configItem>
             <name>de</name>
-            <_description>German for Romanian keyboard</_description>
+            <_description>Romanian keyboard with German letters</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1736,7 +1733,7 @@
     <layout>
       <configItem>
         <name>ch</name>
-        <_shortDescription>Swi</_shortDescription>
+        <_shortDescription>Che</_shortDescription>
         <_description>Swiss</_description>
       </configItem>
       <variantList>

@@ -8,7 +8,7 @@ de dev \
 dk dvorak dz \
 ee el \
 es fi fo \
-fr fr-latin9 gb \
+fr gb \
 ge guj \
 gur hr ie \
 il ir \
