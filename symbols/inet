@@ -2059,3 +2059,13 @@ xkb_symbols "sp_inet" {
     key <I63>	{	[ XF86WakeUp		]	};       
 };
 
+// Acer Travelmate 800
+xkb_symbols "acer_tm_800" { 
+    key <I6C>	{	[ XF86Mail		]	};
+    key <I32>   {       [ XF86WWW               ]       };
+    key <I30>	{	[ XF86AudioRaiseVolume	]	};
+    key <I2E>	{	[ XF86AudioLowerVolume	]	};
+    key <I20>   {       [ XF86AudioMute         ]       };
+// There are other buttons (P1, P2, Fn-F2, Fn-F3 - but they 
+// don't generate scancodes. It is possible to map them to whatever user wants.
+};
