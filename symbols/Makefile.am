@@ -24,7 +24,7 @@ ro ru se \
 si sk smi \
 srp syr tam \
 tel th tj \
-tr ua us \
+tr ua urd us \
 uz vn \
 altwin capslock compose ctrl group inet keypad level3 srvr_ctrl \
 eurosign

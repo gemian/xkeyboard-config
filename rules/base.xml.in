@@ -2094,6 +2094,14 @@
         </variant>
       </variantList>
     </layout>
+    <layout>
+      <configItem>
+        <name>urd</name>
+        <_shortDescription>Urd</_shortDescription>
+        <_description>Urdu</_description>
+      </configItem>
+      <variantList/>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
