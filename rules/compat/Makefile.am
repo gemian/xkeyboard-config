@@ -1,7 +1,7 @@
 
 transform_files=layoutRename.lst
 
-transform_scripts=l2_s.sh l3_s.sh l4_s.sh ml1_s.sh ml_s.sh
+transform_scripts=ln_s.sh ml1_s.sh ml_s.sh
 
 
 if USE_COMPAT_RULES
@@ -15,14 +15,14 @@ noinst_SCRIPTS=
 
 endif
 
-base.l2_s.part: l2_s.sh
-	sh $<
+base.l2_s.part: ln_s.sh
+	sh $< 2
 
-base.l3_s.part: l3_s.sh
-	sh $<
+base.l3_s.part: ln_s.sh
+	sh $< 3
 
-base.l4_s.part: l4_s.sh
-	sh $<
+base.l4_s.part: ln_s.sh
+	sh $< 4
 
 base.ml1_s.part: ml1_s.sh
 	sh $<
