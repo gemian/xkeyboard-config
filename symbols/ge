@@ -54,7 +54,7 @@ xkb_symbols "basic" {
 partial alphanumeric_keys 
 xkb_symbols "la" {
     include "ge(basic)"
-}
+};
 
 partial alphanumeric_keys 
 xkb_symbols "ru" {
