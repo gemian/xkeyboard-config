@@ -1869,6 +1869,14 @@
     </layout>
     <layout>
       <configItem>
+        <name>syr_phonetic</name>
+        <_shortDescription>Syr</_shortDescription>
+        <_description>Syriac phonetic</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>tj</name>
         <_shortDescription>Tjk</_shortDescription>
         <_description>Tajik</_description>
@@ -2089,7 +2097,7 @@
       <configItem>
         <name>il_phonetic</name>
         <_shortDescription>Isr</_shortDescription>
-        <_description>Phonetic</_description>
+        <_description>Israeli phonetic</_description>
       </configItem>
       <variantList/>
     </layout>
