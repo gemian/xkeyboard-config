@@ -1,14 +1,28 @@
-rules_DATA = \
+if CREATE_RULES_SYMLINK
+  extra_rules_file = $(xkb_rules_symlink)
+  extra_dir_file   = $(extra_rules_file).xml 
+  extra_lst_file   = $(extra_rules_file).lst
+
+install-data-hook:
+	ln -s base     $(DESTDIR)$(rulesdir)/$(extra_rules_file)
+	ln -s base.lst $(DESTDIR)$(rulesdir)/$(extra_lst_file)
+	ln -s base.xml $(DESTDIR)$(rulesdir)/$(extra_dir_file)
+
+endif
+
+rules_files = \
 base base-it.lst base.lst \
 sgi sgi.lst \
 sun sun.lst \
 xfree98 xfree98.lst \
 xkb.dtd README
 
-xml_in_files = base.xml.in
-xml_DATA = $(xml_in_files:.xml.in=.xml)
+rules_DATA = $(rules_files)
 
-EXTRA_DIST= $(rules_DATA) $(xml_in_files) xml2lst.pl
+xml_in_files = base.xml.in
+xml_DATA = $(xml_in_files:.xml.in=.xml) 
+
+EXTRA_DIST= $(rules_files) $(xml_in_files) xml2lst.pl
 
 rulesdir = $(xkb_base)/rules
 xmldir = $(rulesdir)

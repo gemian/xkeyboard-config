@@ -21,7 +21,13 @@ AC_ARG_WITH( xkb_base,
              [  --with-xkb-base=DIR        XKB base path (by default it is /usr/X11R6/lib/X11/xkb)],
              xkb_base="$withval", 
              xkb_base="\$(prefix)/X11R6/lib/X11/xkb" )
-			 
+
+AC_ARG_WITH( xkb_rules_symlink,
+             [  --with-xkb-rules-symlink=NAME        create symlink to "old style" rules files (xfree86 or xorg)],
+             xkb_rules_symlink="$withval" )
+
+AM_CONDITIONAL(CREATE_RULES_SYMLINK, test "x$xkb_rules_symlink" != "x")
+
 ALL_LINGUAS="af az bg cs da fr hu nl ru sk sq sr sv tr uk zh_CN"
 
 AM_GLIB_GNU_GETTEXT
@@ -30,6 +36,7 @@ AM_GNU_GETTEXT
 AC_PROG_INTLTOOL
 
 AC_SUBST(xkb_base)
+AC_SUBST(xkb_rules_symlink)
 
 AC_OUTPUT([ intl/Makefile po/Makefile.in m4/Makefile 
 Makefile

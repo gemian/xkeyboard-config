@@ -42,4 +42,4 @@ rm -rf $RPM_BUILD_DIR/%{name}-%{version}
 %defattr(-, root, root)
 
 %doc AUTHORS ChangeLog NEWS README COPYING
-%{_prefix}/X11R6/lib/X11/xkb/rules/*
+%{_prefix}/X11R6/lib/X11/xkb/*
