@@ -1,5 +1,1065 @@
-2004-07-09  Daniel Stone  <daniel@freedesktop.org>
+2004-10-10 23:59  svu
 
-	* configure.in:
-	Change with-xkb-base default to $(prefix)/lib/X11/xkb, rather than
-	$(prefix)/X11R6/lib/X11/xkb; use --prefix=/usr/X11R6 if you want this.
+	* po/: af.po, az.po, bg.po, cs.po, da.po, fr.po, hu.po, nl.po,
+	  ru.po, sk.po, sq.po, sr.po, sv.po, tr.po, uk.po, zh_CN.po: update
+	  from TP
+
+2004-10-09 19:34  svu
+
+	* symbols/: mal, mao, mm, mn, mt, nl, ogam, ori, pc, pl, pt, ru,
+	  sk, smi, srvr_ctrl, syr, tam, tel, th, tr, ua, urd, us: adding
+	  the keyword
+
+2004-10-09 18:40  svu
+
+	* symbols/: jp, kan, lao, latam, latin, level3, lt, lv: adding the
+	  keyword
+
+2004-10-09 18:35  svu
+
+	* symbols/: deva, dzo, ee, es, eurosign, fo, fr, gb, ge, gr, guj,
+	  guru, ie, iku, il, inet, ir, is, it: adding the keyword
+
+2004-10-09 18:29  svu
+
+	* symbols/: al, altwin, am, ara, az, be, ben, bg, by, capslock, ch,
+	  compose, ctrl, cz: adding the keyword
+
+2004-10-09 18:26  svu
+
+	* symbols/: ca, uz, vn: adding the keyword
+
+2004-10-09 18:23  svu
+
+	* symbols/: ca, uz, vn: fixing
+	  https://freedesktop.org/bugzilla/show_bug.cgi?id=1566
+
+2004-10-09 00:31  svu
+
+	* symbols/ch: fixing
+	  https://freedesktop.org/bugzilla/show_bug.cgi?id=1562
+
+2004-10-09 00:20  svu
+
+	* symbols/ca: fixing
+	  https://freedesktop.org/bugzilla/show_bug.cgi?id=1563
+
+2004-10-08 21:55  svu
+
+	* symbols/hu: fixing
+	  https://freedesktop.org/bugzilla/show_bug.cgi?id=1561
+
+2004-09-29 23:25  svu
+
+	* symbols/macintosh_vndr/: Makefile.am, is: Added Icelandic layout
+	  to the Macintosh group
+
+2004-09-28 00:00  svu
+
+	* NEWS, configure.in: preparing 0.4
+
+2004-09-18 01:00  svu
+
+	* BUGS, rules/base.xml.in: David noticed small glitches in
+	  base.xml.in
+
+2004-09-16 01:11  svu
+
+	* rules/Makefile.am, rules/base.o_s.part, rules/base.xml.in,
+	  rules/compat/Makefile.am, rules/compat/base.o_s.part,
+	  symbols/group: shift_toggle -> shifts_toggle
+
+2004-09-15 23:20  svu
+
+	* symbols/group: make the ctrsl_toggle consistend with the others
+
+2004-09-14 20:54  svu
+
+	* symbols/ba: more commas
+
+2004-09-14 20:38  svu
+
+	* symbols/: mk, srp: more commas
+
+2004-09-14 20:14  svu
+
+	* symbols/: br, de, dk, fi, hr, hu, keypad, no, pl, ro, se, si:
+	  keymap(comma) introduced by Frank
+
+2004-09-13 22:39  svu
+
+	* symbols/tj: new local cvs keyword seems to be ok - no more $Id$
+
+2004-09-13 22:38  svu
+
+	* symbols/tj: trying new local cvs keyword
+
+2004-09-13 19:49  svu
+
+	* symbols/ara, symbols/bg, symbols/by, symbols/capslock,
+	  symbols/deva, symbols/fo, symbols/guj, symbols/guru, symbols/iku,
+	  symbols/il, symbols/ir, symbols/kan, symbols/lao, symbols/mk,
+	  symbols/mm, symbols/mt, symbols/ori, symbols/sk, symbols/srp,
+	  symbols/tel, compat/README, compat/ledcaps, compat/lednum,
+	  compat/ledscroll, docs/README.config, geometry/README,
+	  geometry/dell, geometry/everex, geometry/keytronic,
+	  geometry/kinesis, geometry/microsoft, geometry/northgate,
+	  geometry/sgi_vndr/O2, geometry/sgi_vndr/indigo,
+	  geometry/sgi_vndr/indy, keycodes/README, keycodes/aliases,
+	  keymap/README, keymap/sgi_vndr/cz, keymap/sgi_vndr/sk,
+	  rules/README, symbols/macintosh_vndr/ch,
+	  symbols/macintosh_vndr/es, symbols/macintosh_vndr/fi,
+	  symbols/macintosh_vndr/fr, symbols/macintosh_vndr/it,
+	  symbols/macintosh_vndr/nl, symbols/sun_vndr/usb, types/README,
+	  types/basic, types/default, types/numpad: no dummy XFree keyword
+
+2004-09-11 21:41  svu
+
+	* symbols/tj: trying Id
+
+2004-09-09 23:05  svu
+
+	* symbols/: tj: fixing keyword
+
+2004-09-09 23:02  svu
+
+	* symbols/tj: fixing keyword
+
+2004-09-09 22:07  svu
+
+	* symbols/level3: ONE_LEVEL fixing by Frank
+
+2004-09-09 00:01  svu
+
+	* symbols/group: more fair comment
+
+2004-09-08 23:40  svu
+
+	* symbols/level3: they agreed on this
+
+2004-09-08 20:14  svu
+
+	* compat/Makefile.am, rules/base.o_c.part: no more capsled traces
+
+2004-09-07 23:58  svu
+
+	* symbols/level3: restoring for a while, till guys make agreement
+
+2004-09-07 23:16  svu
+
+	* symbols/mn: just for sync:)
+
+2004-09-07 21:51  svu
+
+	* po/ru.po: updated translation
+
+2004-09-07 21:50  svu
+
+	* rules/base.xml.in: small polish of the option descriptions
+
+2004-09-07 20:56  svu
+
+	* symbols/: al, az, be, br, ca, cz, de, dk, dzo, ee, es, fi, fo,
+	  fr, gb, hr, hu, is, it, latam, level3, lt, mt, nl, no, pt, ro,
+	  se, si, sk, smi, srp, tr, us, vn: changing to ralt_switch
+
+2004-09-07 20:39  svu
+
+	* rules/: base.o_s.part, sgi, sun: small fixes, thanks to Frank
+
+2004-09-07 20:33  svu
+
+	* symbols/urd: forgotten to add
+
+2004-09-06 00:59  svu
+
+	* rules/base.xml.in, symbols/Makefile.am: Adding Urdu layout,
+	  thanks to Zaeem Arshad
+
+2004-09-04 22:39  svu
+
+	* compat/Makefile.am, compat/basic, compat/group_led,
+	  compat/ledcaps, compat/lednum, compat/leds, compat/ledscroll,
+	  compat/misc, rules/base.o_c.part, rules/base.o_s.part,
+	  rules/base.xml.in, symbols/Makefile.am, symbols/capslock,
+	  symbols/group, symbols/lock: reorganizing indicators, thanks to
+	  Frank Murphy
+
+2004-08-28 02:04  svu
+
+	* symbols/compose, rules/base.o_s.part, rules/base.xml.in: adding
+	  RCtrl as Compose
+
+2004-08-27 23:57  svu
+
+	* symbols/us: thanks to Frank, he noticed two default variants in
+	  the us layout
+
+2004-08-27 19:20  svu
+
+	* rules/: base.o_s.part, base.xml.in: meta-info about eurosign
+
+2004-08-27 02:23  svu
+
+	* symbols/: Makefile.am, eurosign: added eurosign
+
+2004-07-25 14:55  svu
+
+	* Makefile.am, mkinstalldirs: fixing mkinstalldirs
+
+2004-07-24 00:42  svu
+
+	* rules/Makefile.am: minor fix for the minor bug detected by
+	  distcheck
+
+2004-07-23 22:21  svu
+
+	* TODO: up2date
+
+2004-07-23 22:00  svu
+
+	* NEWS, configure.in: preparing 0.3
+
+2004-07-23 00:11  svu
+
+	* rules/: HDR, Makefile.am, compat/.cvsignore, compat/Makefile.am,
+	  compat/lnv_s.sh, compat/ml1v1_s.sh: HURRAY!!! Rules are working!
+	  Am I cool or what?
+
+2004-07-22 02:03  svu
+
+	* rules/HDR: fixing the header for MLV
+
+2004-07-21 02:21  svu
+
+	* rules/: HDR, Makefile.am, base.mlv_s.part, base.mvl_s.part,
+	  compat/.cvsignore, compat/Makefile.am, compat/ln_s.sh,
+	  compat/ml1_s.sh, compat/ml_s.sh, compat/mlv_s.sh: variants are
+	  there
+
+2004-07-21 01:57  svu
+
+	* rules/: HDR, Makefile.am, compat/.cvsignore, compat/Makefile.am,
+	  compat/lnv_s.sh, compat/ml1_s.sh, compat/ml1v_s.sh: a bit more
+	  about variants
+
+2004-07-21 01:48  svu
+
+	* rules/: .cvsignore, HDR, Makefile.am, compat/.cvsignore,
+	  compat/Makefile.am, compat/lnv_s.sh, compat/variantRename.lst:
+	  adding variants - not complete yet
+
+2004-07-21 01:25  svu
+
+	* rules/compat/: Makefile.am, l2_s.sh, l3_s.sh, l4_s.sh, ln_s.sh:
+	  single script for the layouts 2-4
+
+2004-07-21 00:02  svu
+
+	* rules/merge.sh: bash is great but sh is standard - and think
+	  optimal, dude
+
+2004-07-20 02:57  svu
+
+	* rules/compat/: l2_s.sh, l3_s.sh, l4_s.sh: the extra layouts (2-4)
+	  should be ADDED using '+' character
+
+2004-07-20 02:49  svu
+
+	* rules/: base.ml1_c.part, base.ml1_s.part, base.ml_c.part,
+	  base.ml_s.part, compat/l2_s.sh, compat/l3_s.sh, compat/l4_s.sh,
+	  compat/ml1_s.sh, compat/ml_s.sh: alignment
+
+2004-07-20 02:33  svu
+
+	* rules/compat/: ml1_s.sh, ml_s.sh: little fix
+
+2004-07-20 02:29  svu
+
+	* rules/: HDR, Makefile.am, base.l1_k.part, base.l2_s.part,
+	  base.l3_s.part, base.l4_s.part, base.l_k.part, base.m_g.part,
+	  base.m_k.part, base.m_s.part, base.m_t.part, base.ml1_c.part,
+	  base.ml1_s.part, base.ml_c.part, base.ml_s.part, base.mvl_s.part,
+	  base.o_c.part, base.o_s.part, base.o_t.part, merge.sh: Now, we
+	  compoze the parts using bash script
+
+2004-07-18 03:54  svu
+
+	* configure.in, rules/.cvsignore, rules/compat/.cvsignore,
+	  rules/compat/Makefile.am, rules/compat/base.lists.part,
+	  rules/compat/l2_s.sh, rules/compat/l3_s.sh, rules/compat/l4_s.sh,
+	  rules/compat/layoutRename.lst, rules/compat/ml1_s.sh,
+	  rules/compat/ml_s.sh: starting bundling compatibility parts
+
+2004-07-18 03:44  svu
+
+	* rules/: Makefile.am, base: cleaning a bit before adding the
+	  compat directory
+
+2004-07-18 01:56  svu
+
+	* rules/: Makefile.am, base, base.l1_k.part, base.l2_s.part,
+	  base.l3_s.part, base.l4_s.part, base.l_k.part, base.lists.part,
+	  base.m_g.part, base.m_k.part, base.m_s.part, base.m_t.part,
+	  base.ml1_c.part, base.ml1_s.part, base.ml_c.part, base.ml_s.part,
+	  base.mvl_s.part, base.o_c.part, base.o_s.part, base.o_t.part:
+	  better empty line handling between rule groups
+
+2004-07-18 01:42  svu
+
+	* rules/: Makefile.am, base, base.hdr.part, base.l1_k.part,
+	  base.l2_s.part, base.l3_s.part, base.l4_s.part, base.l_k.part,
+	  base.lists.part, base.m_g.part, base.m_k.part, base.m_s.part,
+	  base.m_t.part, base.ml1_c.part, base.ml1_s.part, base.ml_c.part,
+	  base.ml_s.part, base.mvl_s.part, base.o_c.part, base.o_s.part,
+	  base.o_t.part: Now, the base rules are composed from microfiles
+	  *.part. I see no other way to handle compatibility in a
+	  manageable way. Kill me if I know it.
+
+2004-07-09 05:21  daniel
+
+	* ChangeLog, configure.in: * configure.in: Alter with-xkb-base
+	  default to $(prefix)/lib/X11/xkb, instead of
+	  $(prefix)/X11R6/lib/xkb, which makes --prefix=/usr behave sanely.
+
+2004-07-08 21:40  svu
+
+	* configure.in: getting rid of unnecessary AM_GLIB_GNU_GETTEXT
+
+2004-07-07 22:52  kidcrash
+
+	* ChangeLog: adding required ChangeLog file
+
+2004-07-06 23:44  svu
+
+	* .cvsignore: Anjuta files are not in CVS - and'll never be
+
+2004-07-04 02:00  svu
+
+	* po/ru.po: updating Russian translation
+
+2004-07-04 01:31  svu
+
+	* rules/base.xml.in, symbols/Makefile.am, symbols/cs, symbols/srp:
+	  streamlining ex-yu layouts
+
+2004-07-03 03:32  svu
+
+	* rules/base.xml.in, symbols/Makefile.am, symbols/dvorak,
+	  symbols/fr, symbols/gb, symbols/no, symbols/pl, symbols/se,
+	  symbols/us, po/ru.po: splitting dvorak
+
+2004-07-02 01:59  svu
+
+	* symbols/smi: fixing broken layouts, thanks to my testing scripts
+
+2004-07-02 01:49  svu
+
+	* symbols/: Makefile.am, ara, gr, latam, lv, mal, ogam: fixing
+	  broken layouts, thanks to my testing scripts
+
+2004-07-02 00:16  svu
+
+	* po/Makefile.am: adding update-po
+
+2004-07-01 22:28  svu
+
+	* docs/: iso3166.csv, iso639.csv: more fresh version of the
+	  standards
+
+2004-07-01 03:01  svu
+
+	* po/ru.po: completing Russian translation - though some things are
+	  questionable
+
+2004-07-01 02:59  svu
+
+	* config.rpath, mkinstalldirs: why would I need these files in
+	  CVS???
+
+2004-07-01 02:55  svu
+
+	* ABOUT-NLS: empty but very useful file
+
+2004-07-01 02:48  svu
+
+	* Makefile.am, autogen.sh, configure.in, po/Makefile.am,
+	  rules/base.xml.in: Starting to fix intltool problem, Danilo just
+	  roxx
+
+2004-06-30 23:47  svu
+
+	* rules/base.xml.in, symbols/Makefile.am, symbols/cs, symbols/yu:
+	  Changed yu to cs as Danilo advised - but not sure it is ok.
+	  Investigating...
+
+2004-06-30 23:25  svu
+
+	* rules/base.xml.in, symbols/Makefile.am, symbols/scc, symbols/srp:
+	  Changing scc to srp - as Danilo advised
+
+2004-06-26 01:54  svu
+
+	* BUGS: hopefully fixed Latvian layout
+
+2004-06-26 01:50  svu
+
+	* rules/base.xml.in, symbols/lv: hopefully fixed Latvian layout
+
+2004-06-22 01:11  svu
+
+	* configure.in: trying to set order in the Makefiles list
+
+2004-06-22 00:56  svu
+
+	* Makefile.am, configure.in, autogen.sh: trying to fix intltool -
+	  but without much luck
+
+2004-06-20 20:09  svu
+
+	* rules/base.xml.in: fixing shortDescr for Smi
+
+2004-06-20 19:04  svu
+
+	* docs/: iso15924.csv, iso3166.csv, iso3166.txt, iso639.csv,
+	  iso639.txt: putting order into standards
+
+2004-06-20 15:36  svu
+
+	* symbols/bg: bad patch application
+
+2004-06-20 15:36  svu
+
+	* rules/base.xml.in: typo in Sami id
+
+2004-06-20 15:22  svu
+
+	* symbols/Makefile.am: Frank forgets to chance Makefile.am:)
+
+2004-06-20 14:57  svu
+
+	* xkeyboard-config.spec.in, rules/base, rules/base.xml.in,
+	  docs/Makefile.am, docs/README.symbols, symbols/ar, symbols/ara,
+	  symbols/ba, symbols/bs, symbols/dev, symbols/deva, symbols/dz,
+	  symbols/dzo, symbols/el, symbols/gr, symbols/gur, symbols/guru,
+	  symbols/iku, symbols/iu, symbols/la, symbols/lao, symbols/latam,
+	  symbols/lo, symbols/mal, symbols/mao, symbols/mi, symbols/ml,
+	  symbols/ogam, symbols/ogham, symbols/sapmi, symbols/scc,
+	  symbols/smi, symbols/sr, symbols/tam, symbols/tml: Second phase
+	  of i18n. Frank rocks the world:)
+
+2004-06-19 04:34  svu
+
+	* symbols/mk: Macedonia AKA FYROM
+
+2004-06-19 04:32  svu
+
+	* rules/: Makefile.am, base-it.lst, base.lst, sgi.lst, sun.lst,
+	  xfree98.lst: lst file is not generated automatically - only
+	  base.lst
+
+2004-06-19 04:16  svu
+
+	* rules/: sgi, sun: en_US actually died only now
+
+2004-06-19 04:07  svu
+
+	* symbols/: en_US, sun_vndr/se: en_US actually died only now
+
+2004-06-16 02:07  svu
+
+	* rules/base.xml.in: ISOization, part1
+
+2004-06-16 02:00  svu
+
+	* rules/base.xml.in, symbols/bg, symbols/ch, symbols/el,
+	  symbols/il, symbols/mm: ISOization, part1
+
+2004-06-15 22:04  svu
+
+	* rules/base.xml.in: better wording for Urkainian RSTU description
+
+2004-06-15 19:19  svu
+
+	* rules/base.xml.in, symbols/ru, symbols/ua: Added RSTU
+	  Ukranian/Russian layouts. Thanks to Andrew Porokhnyak
+
+2004-06-13 23:12  svu
+
+	* symbols/inet: actually adding gyration keyboard
+
+2004-06-13 21:30  svu
+
+	* docs/HOWTO.testing: Forgot to add actual document
+
+2004-06-13 21:21  svu
+
+	* BUGS, rules/base, rules/base.lst, rules/base.xml.in, symbols/am,
+	  symbols/inet, symbols/lt, symbols/us: fixing loads of bugs from
+	  fd.o bugzilla
+
+2004-06-13 13:28  svu
+
+	* xkeyboard-config.spec.in, docs/Makefile.am: Added HOWTO.testing
+	  by Frank Murphy
+
+2004-06-12 02:17  svu
+
+	* symbols/mi: getting rid of pc/
+
+2004-06-12 02:14  svu
+
+	* symbols/mi: getting rid of pc/
+
+2004-06-12 02:06  svu
+
+	* NEWS: Redoing 0.2
+
+2004-06-12 02:05  svu
+
+	* symbols/br: fixing bug 515
+
+2004-06-12 02:01  svu
+
+	* rules/base.xml.in, symbols/Makefile.am, symbols/mi: Added Maori,
+	  thanks to John C Barstow
+
+2004-06-12 01:50  svu
+
+	* docs/: iso3166.txt, iso639.txt: just to have standards for
+	  reference
+
+2004-06-10 23:58  svu
+
+	* NEWS: Preparing 0.2
+
+2004-06-10 23:51  svu
+
+	* README, configure.in: Preparing 0.2
+
+2004-06-06 04:22  svu
+
+	* xkeyboard-config.spec.in, docs/HOWTO.transition,
+	  docs/Makefile.am, rules/Makefile.am: adding HOWTO.transition
+
+2004-05-28 23:59  svu
+
+	* Makefile.am, configure.in: Optional creation of xkbcomp symlink
+	  in .../X11/xkb
+
+2004-05-25 22:30  svu
+
+	* NEWS: something to say
+
+2004-05-24 22:15  svu
+
+	* po/xkbdesc.pot: changing the project name
+
+2004-05-24 22:08  svu
+
+	* .cvsignore, Makefile.am, autogen.sh, configure.in,
+	  xkbdesc.spec.in, xkeyboard-config.spec.in: changing the project
+	  name
+
+2004-05-23 21:01  svu
+
+	* rules/base, rules/base.xml.in, symbols/altwin: Daniel Elstner
+	  sent new option for Tux keys
+
+2004-05-18 00:24  svu
+
+	* configure.in: no glib stuff
+
+2004-05-12 13:51  pascal
+
+	* rules/base, symbols/bs: Convert Bosnian keymap to multi-layout
+	  compatible form.
+
+2004-05-09 22:26  svu
+
+	* Makefile.am, README.config, README.enhancing, configure.in,
+	  xkbdesc.spec.in, docs/.cvsignore, docs/Makefile.am,
+	  docs/README.config: reorganization in docs
+
+2004-05-09 21:40  svu
+
+	* TODO, docs/README.enhancing: 2 bits of docs
+
+2004-05-07 19:48  svu
+
+	* po/ru.po: up2date
+
+2004-05-07 19:27  svu
+
+	* rules/base.xml.in, symbols/tr, tests/testLayouts.pl,
+	  tests/testOptions.pl, tests/xkbTestFunc.pm: Some small fixes
+	  made. Options are now testable as well.
+
+2004-05-06 02:00  svu
+
+	* tests/: listCI2.xsl, testLayouts.pl, testOptions.pl,
+	  xkbTestFunc.pm: one more test - but still problems passing it
+
+2004-05-06 01:15  svu
+
+	* configure.in, symbols/mk, tests/testLayouts.pl: Makedonian
+	  problem fixed - and BOTH tests are OK
+
+2004-05-06 01:05  svu
+
+	* symbols/digital_vndr/Makefile.am, symbols/digital_vndr/lk,
+	  symbols/digital_vndr/pc, symbols/digital_vndr/us,
+	  symbols/digital_vndr/vt, symbols/fujitsu_vndr/Makefile.am,
+	  symbols/fujitsu_vndr/jp, keycodes/digital_vndr/Makefile.am,
+	  keycodes/digital_vndr/lk, keycodes/digital_vndr/pc,
+	  keycodes/sgi_vndr/Makefile.am, keycodes/sgi_vndr/indigo,
+	  keycodes/sgi_vndr/indy, keycodes/sgi_vndr/iris, keymap/macintosh,
+	  keymap/sony, keymap/xfree98, keymap/digital_vndr/Makefile.am,
+	  keymap/digital_vndr/us, keymap/sgi_vndr/Makefile.am,
+	  keymap/sgi_vndr/be, keymap/sgi_vndr/bg, keymap/sgi_vndr/ca,
+	  keymap/sgi_vndr/ch, keymap/sgi_vndr/cz, keymap/sgi_vndr/de,
+	  keymap/sgi_vndr/dk, keymap/sgi_vndr/dvorak,
+	  keymap/sgi_vndr/en_US, keymap/sgi_vndr/es, keymap/sgi_vndr/fi,
+	  keymap/sgi_vndr/fr, keymap/sgi_vndr/gb, keymap/sgi_vndr/hu,
+	  keymap/sgi_vndr/it, keymap/sgi_vndr/jp, keymap/sgi_vndr/no,
+	  keymap/sgi_vndr/pl, keymap/sgi_vndr/pt, keymap/sgi_vndr/ru,
+	  keymap/sgi_vndr/se, keymap/sgi_vndr/sk, keymap/sgi_vndr/th,
+	  keymap/sgi_vndr/us, keymap/sun_vndr/Makefile.am,
+	  keymap/sun_vndr/de, keymap/sun_vndr/es, keymap/sun_vndr/fi,
+	  keymap/sun_vndr/fr, keymap/sun_vndr/no, keymap/sun_vndr/pl,
+	  keymap/sun_vndr/ru, keymap/sun_vndr/se, keymap/sun_vndr/uk,
+	  keymap/sun_vndr/us, rules/base, rules/base.xml.in,
+	  symbols/hp_vndr/Makefile.am, symbols/macintosh_vndr/Makefile.am,
+	  symbols/macintosh_vndr/apple, symbols/macintosh_vndr/ch,
+	  symbols/macintosh_vndr/de, symbols/macintosh_vndr/dk,
+	  symbols/macintosh_vndr/fi, symbols/macintosh_vndr/no,
+	  symbols/macintosh_vndr/pt, symbols/macintosh_vndr/se,
+	  symbols/macintosh_vndr/us, symbols/nec_vndr/Makefile.am,
+	  symbols/sgi_vndr/Makefile.am, symbols/sony_vndr/Makefile.am,
+	  symbols/sun_vndr/Makefile.am, symbols/sun_vndr/se,
+	  symbols/sun_vndr/us, symbols/xfree68_vndr/Makefile.am,
+	  tests/testLayouts.pl, tests/testModels.pl, tests/xkbTestFunc.pm,
+	  geometry/digital_vndr/Makefile.am, geometry/digital_vndr/pc,
+	  geometry/ibm_vndr/Makefile.am, geometry/ibm_vndr/thinkpad,
+	  geometry/sgi_vndr/Makefile.am: Yahoo! Models test pased ok!
+
+2004-05-05 23:32  svu
+
+	* configure.in, symbols/Makefile.am,
+	  symbols/digital_vndr/.cvsignore,
+	  symbols/digital_vndr/Makefile.am, symbols/digital_vndr/lk,
+	  symbols/digital_vndr/pc, symbols/digital_vndr/us,
+	  symbols/digital_vndr/vt, symbols/fujitsu_vndr/.cvsignore,
+	  symbols/fujitsu_vndr/Makefile.am, symbols/fujitsu_vndr/jp,
+	  symbols/fujitsu_vndr/us, symbols/hp_vndr/.cvsignore,
+	  symbols/hp_vndr/Makefile.am, symbols/hp_vndr/us,
+	  symbols/macintosh_vndr/.cvsignore,
+	  symbols/macintosh_vndr/Makefile.am, symbols/macintosh_vndr/ch,
+	  symbols/macintosh_vndr/de, symbols/macintosh_vndr/dk,
+	  symbols/macintosh_vndr/es, symbols/macintosh_vndr/fi,
+	  symbols/macintosh_vndr/fr, symbols/macintosh_vndr/gb,
+	  symbols/macintosh_vndr/it, symbols/macintosh_vndr/nl,
+	  symbols/macintosh_vndr/no, symbols/macintosh_vndr/pt,
+	  symbols/macintosh_vndr/se, symbols/macintosh_vndr/us,
+	  symbols/nec_vndr/.cvsignore, symbols/nec_vndr/Makefile.am,
+	  symbols/nec_vndr/jp, geometry/Makefile.am,
+	  geometry/digital_vndr/.cvsignore,
+	  geometry/digital_vndr/Makefile.am, geometry/digital_vndr/lk,
+	  geometry/digital_vndr/pc, geometry/digital_vndr/unix,
+	  geometry/ibm_vndr/.cvsignore, geometry/ibm_vndr/Makefile.am,
+	  geometry/ibm_vndr/thinkpad, geometry/sgi_vndr/.cvsignore,
+	  geometry/sgi_vndr/Makefile.am, geometry/sgi_vndr/O2,
+	  geometry/sgi_vndr/indigo, geometry/sgi_vndr/indy,
+	  keycodes/Makefile.am, symbols/sgi_vndr/.cvsignore,
+	  symbols/sgi_vndr/Makefile.am, symbols/sgi_vndr/jp,
+	  symbols/sony_vndr/.cvsignore, symbols/sony_vndr/Makefile.am,
+	  symbols/sony_vndr/us, symbols/sun_vndr/.cvsignore,
+	  symbols/sun_vndr/Makefile.am, symbols/sun_vndr/se,
+	  symbols/sun_vndr/us, symbols/sun_vndr/usb,
+	  symbols/xfree68_vndr/.cvsignore,
+	  symbols/xfree68_vndr/Makefile.am, symbols/xfree68_vndr/amiga,
+	  symbols/xfree68_vndr/ataritt, keycodes/digital_vndr/.cvsignore,
+	  keycodes/digital_vndr/Makefile.am, keycodes/digital_vndr/lk,
+	  keycodes/digital_vndr/pc, keycodes/sgi_vndr/.cvsignore,
+	  keycodes/sgi_vndr/Makefile.am, keycodes/sgi_vndr/indigo,
+	  keycodes/sgi_vndr/indy, keycodes/sgi_vndr/iris,
+	  keymap/Makefile.am, keymap/digital_vndr/.cvsignore,
+	  keymap/digital_vndr/Makefile.am, keymap/digital_vndr/us,
+	  keymap/sgi_vndr/.cvsignore, keymap/sgi_vndr/Makefile.am,
+	  keymap/sgi_vndr/be, keymap/sgi_vndr/bg, keymap/sgi_vndr/ca,
+	  keymap/sgi_vndr/ch, keymap/sgi_vndr/cz, keymap/sgi_vndr/de,
+	  keymap/sgi_vndr/dk, keymap/sgi_vndr/dvorak,
+	  keymap/sgi_vndr/en_US, keymap/sgi_vndr/es, keymap/sgi_vndr/fi,
+	  keymap/sgi_vndr/fr, keymap/sgi_vndr/gb, keymap/sgi_vndr/hu,
+	  keymap/sgi_vndr/it, keymap/sgi_vndr/jp, keymap/sgi_vndr/no,
+	  keymap/sgi_vndr/pl, keymap/sgi_vndr/pt, keymap/sgi_vndr/ru,
+	  keymap/sgi_vndr/se, keymap/sgi_vndr/sk, keymap/sgi_vndr/th,
+	  keymap/sgi_vndr/us, keymap/sun_vndr/.cvsignore,
+	  keymap/sun_vndr/Makefile.am, keymap/sun_vndr/de,
+	  keymap/sun_vndr/es, keymap/sun_vndr/fi, keymap/sun_vndr/fr,
+	  keymap/sun_vndr/no, keymap/sun_vndr/pl, keymap/sun_vndr/ru,
+	  keymap/sun_vndr/se, keymap/sun_vndr/uk, keymap/sun_vndr/us: Ivan
+	  found dots are not good for us
+
+2004-05-03 02:33  svu
+
+	* tests/: testLayouts.pl, testModels.pl, xkbTestFunc.pm: The perl
+	  code is a bit structured now
+
+2004-05-03 00:48  svu
+
+	* po/ru.po: Russian translation, up2date
+
+2004-05-03 00:48  svu
+
+	* po/xkbdesc.pot: new strings
+
+2004-05-03 00:38  svu
+
+	* rules/: base, base.xml.in: some fixes in rules, more tests pass
+	  ok
+
+2004-05-03 00:05  svu
+
+	* rules/base.xml.in, symbols/ch, symbols/mk, tests/testModels.pl:
+	  at least variants pass ok with tests
+
+2004-05-01 02:17  svu
+
+	* symbols/: Makefile.am, hu: Hungarian layout added, thanks to
+	  Soós
+
+2004-04-30 05:27  pascal
+
+	* rules/base, symbols/Makefile.am, symbols/jp, symbols/mn: Add
+	  Japanese and Mongolian layouts.
+
+2004-04-27 23:17  svu
+
+	* rules/base.xml.in: Canadian layout meta-info fixed
+
+2004-04-27 23:13  svu
+
+	* symbols/ge: fixed syntax typo
+
+2004-04-27 22:19  svu
+
+	* rules/base, rules/base.xml.in, symbols/Makefile.am, symbols/fr,
+	  symbols/fr-latin9: French layouts are now merged. Thanks to
+	  Guylhem for the positive answer
+
+2004-04-26 00:57  svu
+
+	* tests/: listCI2.xsl, testModels.pl: trying to test layouts as
+	  well
+
+2004-04-25 20:26  svu
+
+	* tests/: listCIs.xsl, testModels.pl: starting test scripts
+
+2004-04-25 00:37  svu
+
+	* symbols/us: fixing include
+
+2004-04-25 00:17  svu
+
+	* rules/base.xml.in, symbols/Makefile.am, symbols/us: us_intl is
+	  returned as alt-intl
+
+2004-04-24 20:29  svu
+
+	* symbols/Makefile.am: new layouts by Ivan should be included into
+	  Makefile.am
+
+2004-04-24 13:32  pascal
+
+	* symbols/ca: Remove 'pc' directory name from includes in Canadian
+	  keymap.
+
+2004-04-24 12:35  pascal
+
+	* rules/base, symbols/az, symbols/ca, symbols/group, symbols/vn:
+	  Add Azeri, Canadian and Vietnamese keymaps.
+
+2004-04-24 02:23  svu
+
+	* rules/base.xml.in, symbols/hr: Croatian US stuff appended
+
+2004-04-24 01:55  svu
+
+	* rules/base, rules/base.xml.in, symbols/Makefile.am, symbols/pl,
+	  symbols/pl2: second polish layout is merged
+
+2004-04-24 01:28  svu
+
+	* keymap/macintosh, keymap/sony, keymap/xfree86, keymap/xfree98,
+	  rules/base.lst, rules/base.xml.in, symbols/Makefile.am,
+	  symbols/ch, symbols/cz, symbols/cz_qwerty, symbols/ge,
+	  symbols/ge_la, symbols/ge_ru, symbols/il, symbols/il_phonetic,
+	  symbols/lt, symbols/mt, symbols/mt_us, symbols/ro, symbols/se_FI,
+	  symbols/se_NO, symbols/se_SE, symbols/sk, symbols/sk_qwerty,
+	  symbols/syr, symbols/syr_phonetic, symbols/th, symbols/th_pat,
+	  symbols/th_tis, symbols/us_intl: a lot of layouts cleaned up -
+	  but way way more to go
+
+2004-04-23 00:46  svu
+
+	* Makefile.am, configure.in, compiled/.cvsignore,
+	  compiled/Makefile.am, compiled/README: The 'compiled' directory
+	  is really necessary. Even if it is empty
+
+2004-04-22 00:39  svu
+
+	* po/af.po, po/az.po, po/bg.po, po/cs.po, po/da.po, po/fr.po,
+	  po/hu.po, po/nl.po, po/ru.po, po/sk.po, po/sq.po, po/sr.po,
+	  po/sv.po, po/tr.po, po/uk.po, po/xkbdesc.pot, po/zh_CN.po,
+	  rules/Makefile.am, symbols/Makefile.am, symbols/al, symbols/am,
+	  symbols/ar, symbols/be, symbols/ben, symbols/br, symbols/by,
+	  symbols/ch, symbols/cz, symbols/cz_qwerty, symbols/de,
+	  symbols/dk, symbols/dvorak, symbols/ee, symbols/el,
+	  symbols/en_US, symbols/es, symbols/fi, symbols/fo, symbols/fr,
+	  symbols/fr-latin9, symbols/gb, symbols/ge_la, symbols/hr,
+	  symbols/ie, symbols/il, symbols/is, symbols/it, symbols/la,
+	  symbols/latin, symbols/lt, symbols/lv, symbols/mk, symbols/ml,
+	  symbols/mt, symbols/mt_us, symbols/nl, symbols/no, symbols/ogham,
+	  symbols/pc, symbols/pl, symbols/pl2, symbols/pt, symbols/ro,
+	  symbols/ru, symbols/sapmi, symbols/se, symbols/se_FI,
+	  symbols/se_NO, symbols/se_SE, symbols/si, symbols/sk,
+	  symbols/sk_qwerty, symbols/sr, symbols/syr, symbols/syr_phonetic,
+	  symbols/th, symbols/tml, symbols/tr, symbols/ua, symbols/us,
+	  symbols/us_intl, symbols/uz, symbols/yu: adding Swiss layouts and
+	  removing references to pc/ from files
+
+2004-04-21 00:19  svu
+
+	* symbols/: Makefile.am, bs, srvr_ctrl: Bosninan layout was
+	  forgotten
+
+2004-04-19 23:57  svu
+
+	* symbols/: Makefile.am, altwin, compose, ctrl, group, inet,
+	  keypad, level3, lock: adding all-important option files
+
+2004-04-16 00:58  svu
+
+	* configure.in, xkbdesc.spec.in, rules/Makefile.am: now, the
+	  symlinks allow distributors to use their own names for the rules
+	  - though not really recommended, we have to be
+	  backward-compatible
+
+2004-04-15 00:33  svu
+
+	* COPYING, Makefile.am, xkbdesc.spec.in, po/af.po, po/az.po,
+	  po/bg.po, po/cs.po, po/da.po, po/fr.po, po/hu.po, po/nl.po,
+	  po/ru.po, po/sk.po, po/sq.po, po/sr.po, po/sv.po, po/tr.po,
+	  po/uk.po, po/xkbdesc.pot, po/zh_CN.po: COPYING added - MIT
+	  license (thanks to Keithp). Some minor fixes on infrastructure
+
+2004-04-12 00:13  svu
+
+	* .cvsignore, Makefile.am, autogen.sh, configure.in, rules/base,
+	  symbols/Makefile.am: First buildable version
+
+2004-04-11 23:03  svu
+
+	* configure.in, keycodes/Makefile.am, keymap/.cvsignore,
+	  keymap/Makefile.am, po/af.po, po/az.po, po/bg.po, po/cs.po,
+	  po/da.po, po/fr.po, po/hu.po, po/nl.po, po/ru.po, po/sk.po,
+	  po/sq.po, po/sr.po, po/sv.po, po/tr.po, po/uk.po, po/xkbdesc.pot,
+	  po/zh_CN.po, rules/.cvsignore, rules/Makefile.am,
+	  semantics/.cvsignore, semantics/Makefile.am, symbols/.cvsignore,
+	  types/.cvsignore, types/Makefile.am: more automake foo - but
+	  still far from building the whole thing
+
+2004-04-10 03:22  svu
+
+	* autogen_gnome.sh, keycodes/.cvsignore, keycodes/Makefile.am: more
+	  makefiles.am - but still long way to the first build
+
+2004-04-10 03:08  svu
+
+	* Makefile.am, README, README.config, README.enhancing,
+	  configure.in, xfree86.xml.in, xfree86_xkb_xml.spec.in, xkb.dtd,
+	  xkbdesc.spec.in, compat/.cvsignore, compat/Makefile.am,
+	  compat/README, compat/accessx, compat/basic, compat/complete,
+	  compat/default, compat/group_led, compat/iso9995, compat/japan,
+	  compat/keypad, compat/leds, compat/misc, compat/mousekeys,
+	  compat/norepeat, compat/pc, compat/pc98, compat/xfree86,
+	  compat/xtest, geometry/.cvsignore, geometry/Makefile.am,
+	  geometry/README, geometry/amiga, geometry/ataritt,
+	  geometry/chicony, geometry/dell, geometry/everex,
+	  geometry/fujitsu, geometry/hp, geometry/keytronic,
+	  geometry/kinesis, geometry/macintosh, geometry/microsoft,
+	  geometry/nec, geometry/northgate, geometry/pc, geometry/sony,
+	  geometry/sun, geometry/winbook, keycodes/README,
+	  keycodes/aliases, keycodes/amiga, keycodes/ataritt,
+	  keycodes/fujitsu, keycodes/hp, keycodes/ibm, keycodes/macintosh,
+	  keycodes/powerpcps2, keycodes/sony, keycodes/sun,
+	  keycodes/xfree86, keycodes/xfree98, keymap/README, keymap/amiga,
+	  keymap/ataritt, keymap/macintosh, keymap/sony, keymap/xfree86,
+	  keymap/xfree98, po/POTFILES.in, po/af.po, po/az.po, po/bg.po,
+	  po/cs.po, po/da.po, po/fr.po, po/hu.po, po/nl.po, po/ru.po,
+	  po/sk.po, po/sq.po, po/sr.po, po/sv.po, po/tr.po, po/uk.po,
+	  po/zh_CN.po, rules/README, rules/base, rules/base-it.lst,
+	  rules/base.lst, rules/base.xml.in, rules/sgi, rules/sgi.lst,
+	  rules/sun, rules/sun.lst, rules/xfree98, rules/xfree98.lst,
+	  rules/xkb.dtd, rules/xml2lst.pl, semantics/basic,
+	  semantics/complete, semantics/default, semantics/xtest,
+	  symbols/al, symbols/am, symbols/ar, symbols/be, symbols/ben,
+	  symbols/bg, symbols/br, symbols/by, symbols/cz,
+	  symbols/cz_qwerty, symbols/de, symbols/dev, symbols/dk,
+	  symbols/dvorak, symbols/dz, symbols/ee, symbols/el,
+	  symbols/en_US, symbols/es, symbols/fi, symbols/fo, symbols/fr,
+	  symbols/fr-latin9, symbols/gb, symbols/ge_la, symbols/ge_ru,
+	  symbols/guj, symbols/gur, symbols/hr, symbols/ie, symbols/il,
+	  symbols/il_phonetic, symbols/ir, symbols/is, symbols/it,
+	  symbols/iu, symbols/kan, symbols/la, symbols/latin, symbols/lo,
+	  symbols/lt, symbols/lv, symbols/mk, symbols/ml, symbols/mm,
+	  symbols/mt, symbols/mt_us, symbols/nl, symbols/no, symbols/ogham,
+	  symbols/ori, symbols/pc, symbols/pl, symbols/pl2, symbols/pt,
+	  symbols/ro, symbols/ru, symbols/sapmi, symbols/se, symbols/se_FI,
+	  symbols/se_NO, symbols/se_SE, symbols/si, symbols/sk,
+	  symbols/sk_qwerty, symbols/sr, symbols/syr, symbols/syr_phonetic,
+	  symbols/tel, symbols/th, symbols/th_pat, symbols/th_tis,
+	  symbols/tj, symbols/tml, symbols/tr, symbols/ua, symbols/us,
+	  symbols/us_intl, symbols/uz, symbols/yu, types/README,
+	  types/basic, types/cancel, types/caps, types/complete,
+	  types/default, types/extra, types/iso9995, types/mousekeys,
+	  types/numpad, types/pc: first feed-in of the layouts. The
+	  revolution is coming
+
+2004-04-04 02:40  svu
+
+	* configure.in, po/az.po: Azerbaijani translation, thanks to Metin
+	  Amiroff
+
+2004-04-04 01:14  svu
+
+	* po/ru.po: Russian translation of the Syriac phonetic
+
+2004-04-04 01:12  svu
+
+	* xfree86.xml.in: Syriac phonetic was not there
+
+2004-03-19 21:37  svu
+
+	* configure.in: some more translations
+
+2004-03-19 21:37  svu
+
+	* po/hu.po: Hungarian one
+
+2004-03-19 21:02  svu
+
+	* po/: af.po, bg.po, cs.po, da.po, fr.po, nl.po, ru.po, sk.po,
+	  sq.po, sr.po, sv.po, tr.po, uk.po, zh_CN.po: three new
+	  translations
+
+2004-01-20 10:51  svu
+
+	* po/ru.po: corrected tibetian language translation
+
+2004-01-19 14:41  svu
+
+	* po/ru.po: updated Russian translation
+
+2004-01-19 14:41  svu
+
+	* xfree86.xml.in: new items from Ivan
+
+2004-01-19 14:39  svu
+
+	* xslt/xfree86.xsl: bugfix
+
+2004-01-09 14:44  svu
+
+	* po/ru.po: up2date
+
+2004-01-09 14:43  svu
+
+	* xfree86.xml.in: patch from Ivan - new items
+
+2004-01-07 09:32  svu
+
+	* configure.in, po/fr.po: French translation, thanks to Michel
+	  Robitaille
+
+2004-01-06 16:20  svu
+
+	* xfree86.xml.in, po/ru.po: updates from Ivan
+
+2004-01-03 14:43  svu
+
+	* po/nl.po: new version, thanks to Elros
+
+2003-12-18 22:43  svu
+
+	* .cvsignore, po/.cvsignore: little cleanup on messages
+
+2003-12-18 22:42  svu
+
+	* Makefile.am, configure.in: little things for the latest intltool
+
+2003-12-18 22:39  svu
+
+	* po/sk.po: Slovak translation, thanks to Zdenko Podobný
+
+2003-12-18 22:38  svu
+
+	* po/da.po: Danish translation, thanks to Ole Laursen
+
+2003-12-18 22:34  svu
+
+	* xfree86.xml.in: One more layout, one more variant, updates from
+	  Ivan
+
+2003-12-05 11:37  svu
+
+	* xslt/xfree86.xsl: helper xslt - reduces the resulting file
+
+2003-12-05 10:39  svu
+
+	* configure.in, po/tr.po: Turkish translation added, thanks to
+	  Nilgün Belma Bugüner
+
+2003-11-30 02:11  svu
+
+	* configure.in, po/sr.po: Serbian translation added, thanks to
+	  Danilo Segan
+
+2003-11-29 04:06  svu
+
+	* configure.in, po/zh_CN.po: Chinese simplified translation, thanks
+	  to Funda Wang
+
+2003-11-27 22:57  svu
+
+	* configure.in, po/nl.po: NL translation. Thanks to Elros Cyriatan
+
+2003-11-27 21:19  svu
+
+	* configure.in: added cs translation
+
+2003-11-27 21:15  svu
+
+	* po/cs.po: First non-cyrillic translation. Thanks to Michal
+	  Bukovjan
+
+2003-11-25 23:52  svu
+
+	* Makefile.am, NEWS, autogen_gnome.sh, configure.in,
+	  xfree86.xml.in, po/.cvsignore, po/Makevars, po/POTFILES.in,
+	  po/bg.po, po/ru.po, po/uk.po: Now the project should be buildable
+	  and translatable - but please no translations till the English
+	  version is approved
+
+2003-11-25 16:35  svu
+
+	* .cvsignore, AUTHORS, Makefile.am, autogen.sh, configure.in,
+	  xfree86.xml.in, xfree86_xkb_xml.spec.in, xkb.dtd: first batch of
+	  files - but no translation yet
+
+2003-11-24 23:32  svu
+
+	* README: first file in
+
