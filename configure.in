@@ -21,7 +21,7 @@ AC_ARG_WITH( xkb_base,
              xkb_base="$withval", 
              xkb_base="\$(prefix)/X11R6/lib/X11/xkb" )
 			 
-ALL_LINGUAS="af bg cs da fr hu nl ru sk sq sr sv tr uk zh_CN"
+ALL_LINGUAS="af az bg cs da fr hu nl ru sk sq sr sv tr uk zh_CN"
 
 AM_GLIB_GNU_GETTEXT
 AM_GNU_GETTEXT
