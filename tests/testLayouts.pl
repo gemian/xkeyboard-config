@@ -4,10 +4,10 @@ use strict;
 use warnings;
 use xkbTestFunc;
 
-backupXkbSettings();
+xkbTestFunc::backupXkbSettings();
                                                                                                                  
-dumpXkbSettingsBackup();
+xkbTestFunc::dumpXkbSettingsBackup();
 
-testLevel2( "layout", "variant", 2, "(", ")" );
+xkbTestFunc::testLevel2( "layout", "variant", 2, "(", ")" );
 
-restoreXkbSettings();
+xkbTestFunc::restoreXkbSettings();
