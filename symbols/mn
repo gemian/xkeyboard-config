@@ -64,5 +64,5 @@ xkb_symbols "basic" {
 
   key <SPCE> { [ space,             space,             	nobreakspace    ] };
 
-  include "level3(ralt_switch_multikey)"
+  include "level3(ralt_switch)"
 };
