@@ -338,6 +338,13 @@ xkb_symbols "def_qwerty" {
     key <AB01>  { [            z,            Z,           greater                  ] };
 };
 
+// def_comma:
+// The Hungarian standard is the comma on the keypad not decimal dot
+hidden partial keypad_keys
+xkb_symbols "def_comma" {
+   key  <KPDL> { [     KP_Delete,   comma            ]       };
+};
+
 // def_dot:
 // The Hungarian standard is the comma on the keypad not decimal dot,
 // but programmers hate it
