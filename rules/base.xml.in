@@ -2126,6 +2126,7 @@
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
+      <!-- The key combination used to switch between groups -->
       <configItem>
         <name>grp</name>
         <_description>Group Shift/Lock behavior</_description>
@@ -2270,6 +2271,8 @@
       </option>
     </group>
     <group allowMultipleSelection="true">
+      <!-- The key combination used to choose the 3rd (and 4th, together with Shift)
+	   level of symbols -->
       <configItem>
         <name>lv3</name>
         <_description>Third level choosers</_description>
@@ -2324,6 +2327,7 @@
       </option>
     </group>
     <group allowMultipleSelection="false">
+      <!-- Tweaking the position of the "Ctrl" key -->
       <configItem>
         <name>ctrl</name>
         <_description>Control Key Position</_description>
@@ -2360,6 +2364,7 @@
       </option>
     </group>
     <group allowMultipleSelection="true">
+      <!-- Using startard LEDs to indicate the alternative (not first) group(s) -->
       <configItem>
         <name>grp_led</name>
         <_description>Use keyboard LED to show alternative group.</_description>
@@ -2384,6 +2389,9 @@
       </option>
     </group>
     <group allowMultipleSelection="false">
+      <!-- CapsLock tweaks. 
+	   "Internal" capitalization means capitalization using some internal tables.
+	   Otherwise "as Shift" - means using next group. -->
       <configItem>
         <name>caps</name>
         <_description>CapsLock key behavior</_description>
@@ -2432,6 +2440,7 @@
       </option>
     </group>
     <group allowMultipleSelection="false">
+      <!-- Using special PC keys (Win, Menu) to work as standard X keys (Super, Hyper, etc.) -->
       <configItem>
         <name>altwin</name>
         <_description>Alt/Win key behavior</_description>
@@ -2480,9 +2489,10 @@
       </option>
     </group>
     <group allowMultipleSelection="true">
+      <!-- Tweaking the position of the "Compose" key: mapping to existing PC keys -->
       <configItem>
         <name>Compose key</name>
-        <_description> </_description>
+        <_description>Compose Key Position</_description>
       </configItem>
       <option>
         <configItem>
@@ -2528,6 +2538,7 @@
       </option>
     </group>
     <group allowMultipleSelection="true">
+      <!-- Special shortcuts for the Euro character -->
       <configItem>
         <name>eurosign</name>
         <_description>Adding the EuroSign to certain keys</_description>
