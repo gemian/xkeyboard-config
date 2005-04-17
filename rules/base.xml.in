@@ -1920,8 +1920,8 @@
         </variant>
         <variant>
           <configItem>
-            <name>UNI</name>
-            <_description>Typewrite-style keymap; Unicode encoding</_description>
+            <name>TSCII</name>
+            <_description>Typewrite-style keymap; TSCII encoding</_description>
           </configItem>
         </variant>
         <variant>
@@ -2330,7 +2330,7 @@
       <!-- Tweaking the position of the "Ctrl" key -->
       <configItem>
         <name>ctrl</name>
-        <_description>Control Key Position</_description>
+        <_description>Control key position</_description>
       </configItem>
       <option>
         <configItem>
@@ -2492,7 +2492,7 @@
       <!-- Tweaking the position of the "Compose" key: mapping to existing PC keys -->
       <configItem>
         <name>Compose key</name>
-        <_description>Compose Key Position</_description>
+        <_description>Compose key position</_description>
       </configItem>
       <option>
         <configItem>
