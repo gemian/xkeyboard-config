@@ -32,7 +32,7 @@ AC_ARG_ENABLE( xkbcomp_symlink,
                enable_xkbcomp_symlink="yes" )
 
 AC_ARG_ENABLE( compat_rules,
-               [  --enable-compat_rules      create compatibility rules],
+               [  --enable-compat-rules      create compatibility rules],
                enable_compat_rules="$enableval",
                enable_compat_rules="yes" )
 
