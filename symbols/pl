@@ -64,6 +64,7 @@ xkb_symbols "qwertz" {
 
     key <BKSL>	{ [    oacute,     zacute,   dead_grave,   dead_breve ]	};
     key <AB03>	{ [         c,          C,         cent,    copyright ]	};
+    key <AB10>  { [     minus, underscore, dead_belowdot, dead_abovedot ] };
 
     include "keypad(comma)"
 

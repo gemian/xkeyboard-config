@@ -1,5 +1,10 @@
 2005-06-17 svu
 
+	* symbols/pl: added AB10 to qwertz
+	https://bugs.freedesktop.org/show_bug.cgi?id=3298
+
+2005-06-17 svu
+
 	* symbols/inet, rules/base.xml.in: added logiultrax,
 	https://bugs.freedesktop.org/show_bug.cgi?id=3523
 
