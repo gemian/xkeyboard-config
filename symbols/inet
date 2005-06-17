@@ -1388,6 +1388,16 @@ xkb_symbols "itouch" {
     key <I66>	{	[ XF86Start		]	};
 };
 
+partial alphanumeric_keys 
+xkb_symbols "logiultrax" {
+    key <I01>	{	[ XF86AudioMedia	]	};
+    key <I22>	{	[ XF86AudioPlay, XF86AudioPause ] };
+    key <I20>	{	[ XF86AudioMute		]	};
+    key <I66>	{	[ XF86Favorites		]	};
+    key <I6C>	{	[ XF86Mail		]	};
+    key <I02>	{	[ XF86HomePage		]	};
+};
+
 // Memorex
 
 // Memorex MX1998
