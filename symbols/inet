@@ -1395,7 +1395,7 @@ xkb_symbols "logiultrax" {
     key <I20>	{	[ XF86AudioMute		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I6C>	{	[ XF86Mail		]	};
-    key <I02>	{	[ XF86HomePage		]	};
+    key <I02>	{	[ XF86WWW		]	};
 };
 
 // Memorex
