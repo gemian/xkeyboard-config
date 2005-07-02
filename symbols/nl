@@ -24,15 +24,14 @@ xkb_symbols "basic" {
     key <AE10>	{ [         0, apostrophe,   braceright,       degree ]	};
     key <AE11>	{ [     slash,   question,    backslash, questiondown ]	};
     key <AE12>	{ [    degree, dead_tilde, dead_cedilla,  dead_ogonek ]	};
-
-    key <AD03>	{ [         e,          E,       eacute,       Eacute ]	};
+    key <AD03>	{ [         e,          E,     EuroSign,         cent ] };
     key <AD05>	{ [         t,          T,        thorn,        THORN ]	};
     key <AD06>	{ [         y,          Y,   ydiaeresis,          yen ]	};
     key <AD07>	{ [         u,          U,   udiaeresis,   Udiaeresis ]	};
     key <AD08>	{ [         i,          I,   idiaeresis,   Idiaeresis ]	};
     key <AD09>	{ [         o,          O,       ograve,       Ograve ]	};
     key <AD10>	{ [         p,          P,    paragraph,        THORN ]	};
-    key <AD11>	{ [dead_diaeresis, dead_tilde, asciitilde, asciicircum]	};
+    key <AD11>	{ [dead_diaeresis, dead_circumflex, asciitilde, asciicircum]	};
     key <AD12>	{ [  asterisk,        bar,   dead_tilde,  dead_macron ]	};
 
     key <AC01>	{ [         a,          A,       aacute,       Aacute ]	};
@@ -48,7 +47,7 @@ xkb_symbols "basic" {
     key <AB09>	{ [    period,      colon, periodcentered, guillemotright ] };
     key <AB10>	{ [     minus,      equal,       hyphen, dead_abovedot]	};
 
-    key <LSGT>	{ [bracketleft, bracketright,       bar,    brokenbar ]	};
+    key <LSGT>	{ [bracketright, bracketleft,       bar,    brokenbar ]	};
 
     include "level3(ralt_switch)"
 };
