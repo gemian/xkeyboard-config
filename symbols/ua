@@ -161,7 +161,7 @@ partial alphanumeric_keys
 xkb_symbols "rstu" {
     include "ua(basic)"
 
-    name[Group1]= "Ukraine - Ukrainian standard RSTU";
+    name[Group1]= "Ukraine - Standard RSTU";
 
     key	<TLDE> {	[      apostrophe,	  question	] 	};
     key	<AE01> {	[	   exclam,		 1 	]	};
@@ -185,3 +185,29 @@ xkb_symbols "rstu" {
 
     key	<BKSL> {	[	    slash,	   percent	]	};
 };
+
+// russian keyboard layout RSTU 2019-91 (Respublikanskij STandart Ukrajiny)
+// Andrew Porokhnyak <aop@porokhnyak.org>
+partial alphanumeric_keys
+xkb_symbols "rstu_ru" {
+    include "ru(basic)"
+    name[Group1]= "Ukraine - Standard RSTU on Russian layout";
+
+    key <TLDE> {        [      apostrophe,        question      ]       };
+    key <AE01> {        [          exclam,               1      ]       };
+    key <AE02> {        [        quotedbl,               2      ]       };
+    key <AE03> {        [      numbersign,               3      ]       };
+    key <AE04> {        [       semicolon,               4      ]       };
+    key <AE05> {        [           colon,               5      ]       };
+    key <AE06> {        [           comma,               6      ]       };
+    key <AE07> {        [          period,               7      ]       };
+    key <AE08> {        [        asterisk,               8      ]       };
+    key <AE09> {        [       parenleft,               9      ]       };
+    key <AE10> {        [      parenright,               0      ]       };
+    key <BKSL> {        [           slash,         percent      ]       };
+
+key.type[group1]="ALPHABETIC";
+
+    key <AB10> {        [     Cyrillic_io,     Cyrillic_IO      ]       };
+};
+

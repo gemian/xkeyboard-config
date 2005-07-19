@@ -695,6 +695,12 @@
             <_description>Dvorak</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>rus</name>
+            <_description>Russian phonetic</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1710,13 +1716,6 @@
             <_description>Winkeys</_description>
           </configItem>
         </variant>
-        <variant>
-          <configItem>
-            <name>rstu</name>
-<!-- RSTU 2019-91 -->
-            <_description>Ukrainian standard RSTU</_description>
-          </configItem>
-        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1851,6 +1850,18 @@
           <configItem>
             <name>dvorak</name>
             <_description>Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>rus</name>
+            <_description>Russian phonetic</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>rus_nodeadkeys</name>
+            <_description>Russian phonetic, eliminate dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2023,7 +2034,14 @@
           <configItem>
             <name>rstu</name>
 <!-- RSTU 2019-91 -->
-            <_description>Ukrainian standard RSTU</_description>
+            <_description>Standard RSTU</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>rstu_ru</name>
+<!-- RSTU 2019-91 -->
+            <_description>Standard RSTU on Russian layout</_description>
           </configItem>
         </variant>
       </variantList>

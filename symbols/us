@@ -239,3 +239,59 @@ xkb_symbols "dvorak" {
     key <AB09> { [	    v,	V		]	};
     key <AB10> { [	    z,	Z		]	};
 };
+
+// phonetic layout for Russian letters on an US keyboard
+// by Ivan Popov <pin@konvalo.org> 2005-07-17
+
+// level3 modifier is a shortcut to the "us" meaning of the keys where
+// we place cyrillic letters, handy for accessing the corresponding
+// punctuation marks.
+// It is important to have access to punctuation marks, and the rest of
+// alphabetical keys are added for being consequent so that the users
+// can expect the level3 modifier to give what the key label shows.
+
+partial alphanumeric_keys
+xkb_symbols "rus" {
+
+    name[Group1]= "U.S. English - Russian phonetic";
+
+    include "us(basic)"
+
+key.type[group1]="FOUR_LEVEL_ALPHABETIC";
+
+    key	<LatA> {	[ Cyrillic_a, Cyrillic_A ]	};
+    key	<LatB> {	[ Cyrillic_be, Cyrillic_BE ]	};
+    key	<LatW> {	[ Cyrillic_ve, Cyrillic_VE ]	};
+    key	<LatG> {	[ Cyrillic_ghe, Cyrillic_GHE ]	};
+    key	<LatD> {	[ Cyrillic_de, Cyrillic_DE ]	};
+    key	<LatE> {	[ Cyrillic_ie, Cyrillic_IE ]	};
+    key	<TLDE> {	[ Cyrillic_io, Cyrillic_IO, grave, asciitilde ] };
+    key	<LatV> {	[ Cyrillic_zhe, Cyrillic_ZHE ]	};
+    key	<LatZ> {	[ Cyrillic_ze, Cyrillic_ZE ]	};
+    key	<LatI> {	[ Cyrillic_i, Cyrillic_I ]	};
+    key	<LatJ> {	[ Cyrillic_shorti, Cyrillic_SHORTI ]	};
+    key	<LatK> {	[ Cyrillic_ka, Cyrillic_KA ]	};
+    key	<LatL> {	[ Cyrillic_el, Cyrillic_EL ]	};
+    key	<LatM> {	[ Cyrillic_em, Cyrillic_EM ]	};
+    key	<LatN> {	[ Cyrillic_en, Cyrillic_EN ]	};
+    key	<LatO> {	[ Cyrillic_o, Cyrillic_O ]	};
+    key	<LatP> {	[ Cyrillic_pe, Cyrillic_PE ]	};
+    key	<LatR> {	[ Cyrillic_er, Cyrillic_ER ]	};
+    key	<LatS> {	[ Cyrillic_es, Cyrillic_ES ]	};
+    key	<LatT> {	[ Cyrillic_te, Cyrillic_TE ]	};
+    key	<LatU> {	[ Cyrillic_u, Cyrillic_U ]	};
+    key	<LatF> {	[ Cyrillic_ef, Cyrillic_EF ]	};
+    key	<LatH> {	[ Cyrillic_ha, Cyrillic_HA ]	};
+    key	<LatC> {	[ Cyrillic_tse, Cyrillic_TSE ]	};
+    key <AC10> {        [ Cyrillic_che, Cyrillic_CHE, semicolon, colon ] };
+    key	<AD11> {	[ Cyrillic_sha, Cyrillic_SHA, bracketleft, braceleft] };
+    key	<AD12> {	[ Cyrillic_shcha, Cyrillic_SHCHA, bracketright, braceright ]	};
+    key <AE12> {        [ Cyrillic_hardsign, Cyrillic_HARDSIGN, equal, plus ] };
+    key	<LatY> {	[ Cyrillic_yeru, Cyrillic_YERU ]	};
+    key	<LatX> {	[ Cyrillic_softsign, Cyrillic_SOFTSIGN ]	};
+    key	<BKSL> {	[ Cyrillic_e, Cyrillic_E, backslash, bar ]	};
+    key <AC11> {        [ Cyrillic_yu, Cyrillic_YU, apostrophe, quotedbl ] };
+    key	<LatQ> {	[ Cyrillic_ya, Cyrillic_YA ]	};
+
+    include "level3(ralt_switch)"
+};
