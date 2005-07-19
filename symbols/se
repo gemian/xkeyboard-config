@@ -91,6 +91,7 @@ xkb_symbols "rus" {
     include "se(basic)"
 
     name[Group1]="Sweden - Russian phonetic";
+    key.type[group1]="ALPHABETIC";
 
     key <TLDE> {	[ Cyrillic_io, Cyrillic_IO ]	};
     key <AE12> {	[ Cyrillic_hardsign, Cyrillic_HARDSIGN ]	};
