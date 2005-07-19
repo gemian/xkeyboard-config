@@ -1,5 +1,11 @@
 #!/bin/sh
 
+#
+# This script compares the group names which "have to be", according to the descriptions in base.xml -
+# and actually existing in the symbol files. Some differences are ok (like extra double quotes or 
+# extra escaping character) - but all the rest should be in sync.
+#
+
 ROOT="`dirname $0`/.."
 F1=reg2ll.lst
 F2=gn2ll.lst
