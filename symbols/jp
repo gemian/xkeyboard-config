@@ -120,7 +120,7 @@ xkb_symbols "latin" {
     key <AC11> { [ colon, asterisk	] };
     key <AC12> { [ bracketright, braceright ] };
 
-    key <AB11> { [ backslash, underscore], [ kana_RO		]	};
+    key <AB11> { [ backslash, underscore ] };
 
     key <NFER> { [ Muhenkan		]	};
 
