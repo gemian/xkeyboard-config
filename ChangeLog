@@ -1,3 +1,11 @@
+2005-07-21 svu
+
+	* symbols/sun_vndr/us,
+	rules/sun,
+	keycodes/sun,
+	geometry/sun: adding more keyboards, fixing
+	https://bugs.freedesktop.org/show_bug.cgi?id=2037
+
 2005-07-20 svu
 
 	* symbols/ru, 

@@ -5,22 +5,34 @@
   type5			=    sun(type5)			sun
   type5_euro		=    sun(type5_euro)		sun(type5euro)
   type5_unix		=    sun(type5)			sun(type5unix)
-  type6			=    sun(type6)                 sun(type5) // no type6 yet
+  type6			=    sun(type6)                 sun(type5)
   type6_euro		=    sun(type6_euro)            sun(type5)
+  type6_unix		=    sun(type6)                 sun(type5unix)
+  type6_usb		=    sun(type6_usb)             sun(type5)
+  type6_unix_usb	=    sun(type6_usb)             sun(type5unix)
 
 ! model		layout	=  symbols
   type4		us	=  sun_vndr/us(sun4)
   type5		us	=  sun_vndr/us(sun5)
   type5_unix	us	=  sun_vndr/us(sun5)
   type6		us      =  sun_vndr/us(sun6)
+  type6_unix	us      =  sun_vndr/us(sun6)
+  type6_usb	us      =  sun_vndr/us(sun6)
+  type6_unix_usb	us      =  sun_vndr/us(sun6)
   type4		en_US	=  sun_vndr/us(sun4)+iso9995-3(basic)
   type5		en_US	=  sun_vndr/us(sun5)+iso9995-3(basic)
   type5_unix	en_US	=  sun_vndr/us(sun5)+iso9995-3(basic)
   type6		en_US   =  sun_vndr/us(sun6)+iso9995-3(basic)
+  type6_unix	en_US   =  sun_vndr/us(sun6)+iso9995-3(basic)
+  type6_usb	en_US   =  sun_vndr/us(sun6)+iso9995-3(basic)
+  type6_unix_usb	en_US   =  sun_vndr/us(sun6)+iso9995-3(basic)
   type4		*	=  sun_vndr/us(sun4)+%l%(v)
   type5		*	=  sun_vndr/us(sun5)+%l%(v)
   type5_euro	*	=  sun_vndr/us(sun5)+%l%(v)
   type6		*	=  sun_vndr/us(sun6)+%l%(v)
+  type6_unix	*	=  sun_vndr/us(sun6)+%l%(v)
+  type6_usb	*	=  sun_vndr/us(sun6)+%l%(v)
+  type6_unix_usb	*	=  sun_vndr/us(sun6)+%l%(v)
   type6_euro	*	=  sun_vndr/us(sun6)+%l%(v)
 
 ! model   layout   =    compat     types
