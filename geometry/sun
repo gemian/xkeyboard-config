@@ -162,6 +162,7 @@ default xkb_geometry "type5" {
     // keyboard.  I just took a similar layout (101 key PC keyboard)
     // and adjusted the sizes.
 
+    // Sun Type6 US keyboard (PN 320-1270, PN 320-1271) is identical.
     description= "Sun Type5 keyboard";
 
     width= 515;
@@ -459,6 +460,7 @@ xkb_geometry "type5unix" {
     // keyboard.  I just took a similar layout (101 key PC keyboard)
     // and adjusted the sizes.
 
+    // Sun Type6 US/UNIX keyboard (PN 320-1272, PN 320-1273) is identical.
     description= "Sun Type5 Unix keyboard";
 
     width= 515;
@@ -467,9 +469,8 @@ xkb_geometry "type5unix" {
     shape "EDGE" { cornerRadius= 2, { [ 515, 170 ] } };
     shape.cornerRadius= 1;
     shape "NORM" { { [ 18,18] }, { [2,1], [16,17] } };
-    shape "BKSP" { { [ 27,18] }, { [2,1], [25,17] } };
+    shape "BKSP" { { [ 28,18] }, { [2,1], [26,17] } };
     shape "TABK" { { [ 27,18] }, { [2,1], [25,17] } };
-    shape "BKSL" { { [ 27,18] }, { [2,1], [25,17] } };
     shape "RTRN" { { [ 42,18] }, { [2,1], [40,17] } };
     shape "CAPS" { { [ 32,18] }, { [2,1], [30,17] } };
     shape "LFSH" { { [ 42,18] }, { [2,1], [40,17] } };
@@ -540,7 +541,7 @@ xkb_geometry "type5unix" {
 	    keys { <OPEN>, <PAST>, { <LFSH>, 9 , shape="LFSH" }, 
 		   <AB01>, <AB02>, <AB03>, <AB04>, <AB05>, 
 		   <AB06>, <AB07>, <AB08>, <AB09>, <AB10>, 
-		 { <RTSH>, "RTSH", color="grey20" }
+		 { <RTSH>, "RTSH" }
 	    };
 	};
 	row {
@@ -584,7 +585,7 @@ xkb_geometry "type5unix" {
 	};
 	row {
 	    top= 20;
-	    keys { <KP7>, <KP8>, <KP9>, { <KPAD>, "KPAD", color= "grey20" } };
+	    keys { <KP7>, <KP8>, <KP9>, { <KPAD>, "KPAD" } };
 	};
 	row {
 	    top= 39;
@@ -592,7 +593,7 @@ xkb_geometry "type5unix" {
 	};
 	row {
 	    top= 58;
-	    keys { <KP1>, <KP2>, <KP3>, { <KPEN>, "KPAD", color= "grey20" } };
+	    keys { <KP1>, <KP2>, <KP3>, { <KPEN>, "KPAD" } };
 	};
 	row {
 	    top= 77;
