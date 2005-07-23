@@ -1,3 +1,10 @@
+2005-07-23 svu
+
+	* symbols/es,
+	rules/base.xml.in:
+	adding Spanish dvorak, pointer from
+	https://bugs.freedesktop.org/show_bug.cgi?id=2344
+
 2005-07-21 svu
 
 	* symbols/sun_vndr/us,
