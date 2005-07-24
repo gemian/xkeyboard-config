@@ -2166,6 +2166,7 @@
         <_description>Dhivehi</_description>
       </configItem>
       </variantList>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">

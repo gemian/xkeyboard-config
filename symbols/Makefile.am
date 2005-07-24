@@ -6,7 +6,7 @@ az be ben \
 bg br ba \
 by ca ch \
 cz de deva \
-dk dzo \
+div dk dzo \
 ee es fi \
 fo fr gb \
 ge gr guj \
