@@ -21,8 +21,6 @@ xkb_symbols "basic" {
 
     name[Group1]="Croatia";
 
-    key <AB10>  { [     minus,    underscore      ]       }; 
-
     key <AE01>	{ [         1,     exclam,   asciitilde,   dead_tilde ]	};
     key <AE02>	{ [         2,   quotedbl,   dead_caron,        caron ]	};
     key <AE03>	{ [         3, numbersign,  asciicircum, dead_circumflex ] };
@@ -42,6 +40,7 @@ xkb_symbols "basic" {
 
     key <AC10>	{ [    ccaron,     Ccaron,   dead_acute, dead_doubleacute ] };
     key <AC11>	{ [    cacute,     Cacute,       ssharp,   dead_caron ]	};
+    key <AB10>  { [     minus, underscore, dead_belowdot, dead_abovedot ] };
     key <TLDE>	{ [dead_cedilla, dead_diaeresis, notsign,     notsign ]	};
 
     key <BKSL>	{ [    zcaron,     Zcaron,     currency,   dead_breve ]	};
