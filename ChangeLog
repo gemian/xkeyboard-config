@@ -1,3 +1,10 @@
+2005-07-24 svu
+
+	* symbols/div,
+	symbols/Makefile.am,
+	rules/base.xml.in: adding Dhivehi, fixing
+	https://bugs.freedesktop.org/show_bug.cgi?id=3716
+
 2005-07-23 svu
 
 	* symbols/es,
