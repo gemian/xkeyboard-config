@@ -2159,6 +2159,13 @@
       </configItem>
       <variantList/>
     </layout>
+    <layout>
+      <configItem>
+        <name>div</name>
+        <_shortDescription>Div</_shortDescription>
+        <_description>Dhivehi</_description>
+      </configItem>
+      </variantList>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
