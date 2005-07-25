@@ -1,5 +1,11 @@
 2005-07-25 svu
 
+	* symbols/tr:
+	fixed Turkish, according to
+	https://bugs.freedesktop.org/show_bug.cgi?id=2558
+
+2005-07-25 svu
+
 	* symbols/hr:
 	added belowdot, abovedot, in relation to 
 	https://bugs.freedesktop.org/show_bug.cgi?id=475
