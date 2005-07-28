@@ -60,7 +60,7 @@ for $l (@layouts) {
     }
 }
 
-print "\n! options\n";
+print "\n! option\n";
 for $g (@options) {
    ($name) = node_by_name($g, 'name');
     @desc =  node_by_name($g, 'description');
