@@ -1,12 +1,12 @@
 // $XKeyboardConfig$
 
-// based on a keyboard map from an 'xkb/symbols/ben' file
+// based on a keyboard map from an 'xkb/symbols/bd' file
 //
 // $XFree86: xc/programs/xkbcomp/symbols/ben,v 1.2 2002/11/22 04:03:28 dawes Exp $
 
-partial default alphanumeric_keys
+default partial alphanumeric_keys
 xkb_symbols "basic" {
-    name[Group1]= "Bengali";
+    name[Group1]= "Bangladesh";
 
       // Mainly numbers.
       key <AE01> { [      0x10009E7 		]	};
@@ -70,7 +70,7 @@ xkb_symbols "basic" {
 };
 
 xkb_symbols "probhat" {
- name[Group1]= "Bengali - Probhat";
+ name[Group1]= "Bangladesh - Probhat";
    key <ESC>  { [ Escape ] };
 
 // numbers

@@ -1,0 +1,411 @@
+// $XKeyboardConfig$
+
+// This layout includes all Indian layouts, including:
+//     - Bengali
+
+default partial alphanumeric_keys
+xkb_symbols "eng" {
+    include "gb(basic)"
+    name[Group1]= "India";
+};
+
+partial alphanumeric_keys
+xkb_symbols "ben" {
+    include "bd(basic)"
+    name[Group1]= "India - Bengali";
+};
+
+xkb_symbols "ben_probhat" {
+    include "bd(probhat)"
+    name[Group1]= "India - Bengali Probhat";
+};
+
+partial alphanumeric_keys 
+xkb_symbols "guj" {
+      name[Group1]= "India - Gujarati";
+
+      // Mainly numbers.
+      key <AE01> { [      0x1000AE7, 0x1000A8D 	]	};
+      key <AE02> { [      0x1000AE8, 0x1000AC5 	]	};
+      key <AE03> { [      0x1000AE9 	 	]	};
+      key <AE04> { [      0x1000AEA  	 	]	};
+      key <AE05> { [      0x1000AEB  	 	]	};
+      key <AE06> { [      0x1000AEC  	 	]	};
+      key <AE07> { [      0x1000AED 		]	};
+      key <AE08> { [      0x1000AEE  	 	]	};
+      key <AE09> { [      0x1000AEF, parenleft 	]	};
+      key <AE10> { [      0x1000AE6, parenright ]	};
+      key <AE11> { [      minus,     0x1000A83  ]	};
+      key <AE12> { [      0x1000A8B, 0x1000AC3 	]	};
+
+// Mainly long vowels
+
+      key <AD01> { [      0x1000ACC, 0x1000A94  ]	};
+      key <AD02> { [      0x1000AC8, 0x1000A90  ]	};
+      key <AD03> { [      0x1000ABE, 0x1000A86  ]	};
+      key <AD04> { [      0x1000AC0, 0x1000A88  ]	};
+      key <AD05> { [      0x1000AC2, 0x1000A8A  ]	};
+
+// Mainly voiced consonants
+
+      key <AD06> { [      0x1000AAC, 0x1000AAD 	]	};
+      key <AD07> { [      0x1000AB9, 0x1000A99 	]	};
+      key <AD08> { [      0x1000A97, 0x1000A98 	]	};
+      key <AD09> { [      0x1000AA6, 0x1000AA7 	]	};
+      key <AD10> { [      0x1000A9C, 0x1000A9D 	]	};
+      key <AD11> { [      0x1000AA1, 0x1000AA2 	]	};
+      key <AD12> { [      0x1000ABC, 0x1000A9E 	]	};
+
+// Mainly short vowels
+      key <AC01> { [      0x1000ACB, 0x1000A93	]	};
+      key <AC02> { [      0x1000AC7, 0x1000A8F	]	};
+      key <AC03> { [      0x1000ACD, 0x1000A85  ]	};
+      key <AC04> { [      0x1000ABF, 0x1000A87  ]	};
+      key <AC05> { [      0x1000AC1, 0x1000A89  ]	};
+
+// Mainly unvoiced consonants
+
+      key <AC06> { [      0x1000AAA, 0x1000AAB 	]	};
+      key <AC07> { [      0x1000AB0, guj_rra 	]	};
+      key <AC08> { [      0x1000A95, 0x1000A96 	]	};
+      key <AC09> { [      0x1000AA4, 0x1000AA5 	]	};
+      key <AC10> { [      0x1000A9A, 0x1000A9B 	]	};
+      key <AC11> { [      0x1000A9F, 0x1000AA0 	]	};
+      key <BKSL> { [      0x1000AC9, 0x1000A91 	]	};
+
+      key <AB01> { [      z        , Z		]       };
+      key <AB02> { [      0x1000A82, 0x1000A81	]       };
+      key <AB03> { [      0x1000AAE, 0x1000AA3  ]       };
+      key <AB04> { [      0x1000AA8, guj_nnna   ]       };
+      key <AB05> { [      0x1000AB5, guj_llla   ]       };
+      key <AB06> { [      0x1000AB2, 0x1000AB3  ]       };
+      key <AB07> { [      0x1000AB8, 0x1000AB6  ]       };
+      key <AB08> { [      comma,     0x1000AB7  ]       };
+      key <AB09> { [      period,    0x1000964  ]       };
+      key <AB10> { [      0x1000AAF, question   ]       };
+};
+
+partial alphanumeric_keys 
+xkb_symbols "kan" {
+
+    // Inscript layout for Kannada  
+    // Author : G Karunakar <karunakar@freedomink.org>
+    // Date   : Wed Nov 13 17:22:58 IST 2002
+    // Kannada digits mapped in basic only
+
+    name[Group1]= "India - Kannada";
+
+    key <TLDE> { [  0x01000cca, 0x01000c92	] };
+    key <AE01> { [  0x01000ce7, 0x01000c8d	] };
+    key <AE02> { [  0x01000ce8, 0x01000cc5	] };
+    key <AE03> { [  0x01000ce9			] };
+    key <AE04> { [  0x01000cea			] };
+    key <AE05> { [  0x01000ceb			] };
+    key <AE06> { [  0x01000cec			] };
+    key <AE07> { [  0x01000ced			] };
+    key <AE08> { [  0x01000cee			] };
+    key <AE09> { [  0x01000cef			] };
+    key <AE10> { [  0x01000ce6			] };
+    key <AE11> { [  0x01000c83			] };
+    key <AE12> { [  0x01000cc3, 0x01000c8b	] };
+
+    key <AD01> { [  0x01000ccc, 0x01000c94	] };
+    key <AD02> { [  0x01000cc8, 0x01000c90	] };
+    key <AD03> { [  0x01000cbe, 0x01000c86	] };
+    key <AD04> { [  0x01000cc0, 0x01000c88	] };
+    key <AD05> { [  0x01000cc2, 0x01000c8a	] };
+    key <AD06> { [  0x01000cac, 0x01000cad	] };
+    key <AD07> { [  0x01000cb9, 0x01000c99	] };
+    key <AD08> { [  0x01000c97, 0x01000c98	] };
+    key <AD09> { [  0x01000ca6, 0x01000ca7	] };
+    key <AD10> { [  0x01000c9c, 0x01000c9d	] };
+    key <AD11> { [  0x01000ca1, 0x01000ca2	] };
+    key <AD12> { [  0x01000cbc, 0x01000c9e	] };
+ 
+    key <AC01> { [  0x01000ccb, 0x01000c93	] };
+    key <AC02> { [  0x01000cc7, 0x01000c8f	] };
+    key <AC03> { [  0x01000ccd, 0x01000c85	] };
+    key <AC04> { [  0x01000cbf, 0x01000c87	] };
+    key <AC05> { [  0x01000cc1, 0x01000c89	] };
+    key <AC06> { [  0x01000caa, 0x01000cab	] };
+    key <AC07> { [  0x01000cb0, 0x01000cb1	] };
+    key <AC08> { [  0x01000c95, 0x01000c96	] };
+    key <AC09> { [  0x01000ca4, 0x01000ca5	] };
+    key <AC10> { [  0x01000c9a, 0x01000c9b	] };
+    key <AC11> { [  0x01000c9f, 0x01000ca0	] };
+
+    key <AB01> { [  0x01000cc6, 0x01000c8e	] };
+    key <AB02> { [  0x01000c82, 0x01000c81	] };
+    key <AB03> { [  0x01000cae, 0x01000ca3	] };
+    key <AB04> { [  0x01000ca8, 0x01000ca9	] };
+    key <AB05> { [  0x01000cb5, 0x01000cb4	] };
+    key <AB06> { [  0x01000cb2, 0x01000cb3	] };
+    key <AB07> { [  0x01000cb8, 0x01000cb6	] };
+    key <AB08> { [  comma     , 0x01000cb7	] };
+    key <AB09> { [  period    , 0x01000ce4	] };
+    key <AB10> { [  0x01000caf, 0x01000040	] };
+    key <BKSL> { [  0x01000cc9, 0x01000c91	] };
+
+    key <RALT> {
+	symbols[Group1] = [ Mode_switch , Multi_key ],
+	virtualMods = AltGr
+    };
+
+};
+
+// Description : A keymap for Malayalam
+// Encoding    : Unicode (http://www.unicode.org)
+// Author      : Baiju M <baiju@freeshell.org>
+// Date        : Sat Aug  17 21:10:48 IST 2002
+// Mapping:
+
+partial alphanumeric_keys 
+xkb_symbols "mal" {
+
+    name[Group1] = "India - Malayalam";
+
+    //From grave to backslash (\)
+    
+    key <TLDE> { [ 0x01000d4a , 0x01000d12           ] };
+    key <AE01> { [1           ,     exclam           ] }; 
+    key <AE02> { [2           ,         at           ] };
+    key <AE03> { [3           , numbersign           ] };
+    key <AE04> { [4           ,     dollar           ] };
+    key <AE05> { [5           ,    percent           ] };
+    key <AE06> { [6           ,asciicircum           ] };
+    key <AE07> { [7           ,  ampersand           ] };
+    key <AE08> { [8           , 0x01000d7e           ] };
+    key <AE09> { [9           ,  parenleft           ] };
+    key <AE10> { [0           , parenright           ] };
+    key <AE11> { [ minus      , 0x01000d03           ] };
+    key <AE12> { [ 0x01000d43 , 0x01000d0b           ] };
+    key <BKSL> { [ 0x01000d7c                        ] };
+
+    // From 'q' to right bracket (])
+    
+    key <AD01> { [ 0x01000d4c , 0x01000d14 ] };
+    key <AD02> { [ 0x01000d48 , 0x01000d10 ] };
+    key <AD03> { [ 0x01000d3e , 0x01000d06 ] };
+    key <AD04> { [ 0x01000d40 , 0x01000d08 ] };
+    key <AD05> { [ 0x01000d42 , 0x01000d0a ] };
+    key <AD06> { [ 0x01000d2c , 0x01000d2d ] };
+    key <AD07> { [ 0x01000d39 , 0x01000d19 ] };
+    key <AD08> { [ 0x01000d17 , 0x01000d18 ] };
+    key <AD09> { [ 0x01000d26 , 0x01000d27 ] };
+    key <AD10> { [ 0x01000d1c , 0x01000d1d ] };
+    key <AD11> { [ 0x01000d21 , 0x01000d22 ] };
+    key <AD12> { [ 0x0100200d , 0x01000d1e ] };
+
+    // From 'a' to apostrophe (')
+    
+    key <AC01> { [ 0x01000d4b , 0x01000d13 ] };
+    key <AC02> { [ 0x01000d47 , 0x01000d0f ] };
+    key <AC03> { [ 0x01000d4d , 0x01000d05 ] };
+    key <AC04> { [ 0x01000d3f , 0x01000d07 ] };
+    key <AC05> { [ 0x01000d41 , 0x01000d09 ] };
+    key <AC06> { [ 0x01000d2a , 0x01000d2b ] };
+    key <AC07> { [ 0x01000d30 , 0x01000d31 ] };
+    key <AC08> { [ 0x01000d15 , 0x01000d16 ] };
+    key <AC09> { [ 0x01000d24 , 0x01000d25 ] };
+    key <AC10> { [ 0x01000d1a , 0x01000d1b ] };
+    key <AC11> { [ 0x01000d1f , 0x01000d20 ] };
+    
+    // From 'z' to slash (/)
+    
+    key <AB01> { [ 0x01000d46 , 0x01000d0e ] };
+    key <AB02> { [ 0x01000d02 , 0x01000d7a ] };
+    key <AB03> { [ 0x01000d2e , 0x01000d23 ] };
+    key <AB04> { [ 0x01000d28 , 0x01000d7b ] };
+    key <AB05> { [ 0x01000d35 , 0x01000d34 ] };
+    key <AB06> { [ 0x01000d32 , 0x01000d33 ] };
+    key <AB07> { [ 0x01000d38 , 0x01000d36 ] };
+    key <AB08> { [ comma      , 0x01000d37 ] };
+    key <AB09> { [ period     , 0x01000d7d ] };
+    key <AB10> { [ 0x01000d2f , question   ] };
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "mal_plusnum" {
+
+   // Modifies the basic layout to include malayalam numbers
+
+   include "in(mal)"
+
+    name[Group1] = "India - Malayalam with Malayalam digits";
+
+      key <AE01> { [ 0x01000d67 ,      exclam ] };
+      key <AE02> { [ 0x01000d68 ,          at ] };
+      key <AE03> { [ 0x01000d69 ,  numbersign ] };
+      key <AE04> { [ 0x01000d6a ,      dollar ] };
+      key <AE05> { [ 0x01000d6b ,     percent ] };
+      key <AE06> { [ 0x01000d6c , asciicircum ] };
+      key <AE07> { [ 0x01000d6d ,   ampersand ] };
+      key <AE08> { [ 0x01000d6e ,  0x01000d7e ] };
+      key <AE09> { [ 0x01000d6f ,   parenleft ] };
+      key <AE10> { [ 0x01000d66 ,  parenright ] };
+};
+
+partial alphanumeric_keys 
+xkb_symbols "ori" {
+    // Inscript layout for Oriya  
+    // Author: G Karunakar <karunakar@freedomink.org>
+    // Date: Wed Nov 13 18:16:19 IST 2002
+
+    name[Group1]= "India - Oriya";
+    
+    key <TLDE> { [  0x01000b4a, 0x01000b12	] };
+    key <AE01> { [  0x01000b67, 0x01000b0d	] };
+    key <AE02> { [  0x01000b68, 0x01000b45	] };
+    key <AE03> { [  0x01000b69			] };
+    key <AE04> { [  0x01000b6a			] };
+    key <AE05> { [  0x01000b6b			] };
+    key <AE06> { [  0x01000b6c			] };
+    key <AE07> { [  0x01000b6d			] };
+    key <AE08> { [  0x01000b6e			] };
+    key <AE09> { [  0x01000b6f			] };
+    key <AE10> { [  0x01000b66			] };
+    key <AE11> { [  0x01000b03			] };
+    key <AE12> { [  0x01000b43, 0x01000b0b	] };
+
+    key <AD01> { [  0x01000b4c, 0x01000b14	] };
+    key <AD02> { [  0x01000b48, 0x01000b10	] };
+    key <AD03> { [  0x01000b3e, 0x01000b06	] };
+    key <AD04> { [  0x01000b40, 0x01000b08	] };
+    key <AD05> { [  0x01000b42, 0x01000b0a	] };
+    key <AD06> { [  0x01000b2c, 0x01000b2d	] };
+    key <AD07> { [  0x01000b39, 0x01000b19	] };
+    key <AD08> { [  0x01000b17, 0x01000b18	] };
+    key <AD09> { [  0x01000b26, 0x01000b27	] };
+    key <AD10> { [  0x01000b1c, 0x01000b1d	] };
+    key <AD11> { [  0x01000b21, 0x01000b22	] };
+    key <AD12> { [  0x01000b3c, 0x01000b1e	] };
+ 
+    key <AC01> { [  0x01000b4b, 0x01000b13	] };
+    key <AC02> { [  0x01000b47, 0x01000b0f	] };
+    key <AC03> { [  0x01000b4d, 0x01000b05	] };
+    key <AC04> { [  0x01000b3f, 0x01000b07	] };
+    key <AC05> { [  0x01000b41, 0x01000b09	] };
+    key <AC06> { [  0x01000b2a, 0x01000b2b	] };
+    key <AC07> { [  0x01000b30, 0x01000b31	] };
+    key <AC08> { [  0x01000b15, 0x01000b16	] };
+    key <AC09> { [  0x01000b24, 0x01000b25	] };
+    key <AC10> { [  0x01000b1a, 0x01000b1b	] };
+    key <AC11> { [  0x01000b1f, 0x01000b20	] };
+ 
+    key <AB01> { [  0x01000b46, 0x01000b0e	] };
+    key <AB02> { [  0x01000b02, 0x01000b01	] };
+    key <AB03> { [  0x01000b2e, 0x01000b23	] };
+    key <AB04> { [  0x01000b28, 0x01000b29	] };
+    key <AB05> { [  0x01000b35, 0x01000b34	] };
+    key <AB06> { [  0x01000b32, 0x01000b33	] };
+    key <AB07> { [  0x01000b38, 0x01000b36	] };
+    key <AB08> { [  comma     , 0x01000b37	] };
+    key <AB09> { [  period    , 0x01000b64	] };
+    key <AB10> { [  0x01000b2f, 0x01000040	] };
+    key <BKSL> { [  0x01000b49, 0x01000b11	] };
+
+    key <RALT> {
+	symbols[Group1] = [ Mode_switch, Multi_key ],
+	virtualMods = AltGr
+    };
+};
+
+partial alphanumeric_keys 
+xkb_symbols "tam_unicode" {
+    include "lk(tam_unicode)"
+    name[Group1]= "India - Tamil Unicode";
+};
+
+partial alphanumeric_keys 
+xkb_symbols "tam_TSCII" {
+    include "lk(tam_TSCII)"
+    name[Group1]= "India - Tamil TSCII Typewriter";
+};
+
+partial alphanumeric_keys 
+xkb_symbols "tam_TAB" {
+    include "lk(tam_TAB)"
+    name[Group1]= "India - Tamil TAB Typewriter";
+};
+
+partial alphanumeric_keys 
+xkb_symbols "tam_INSCRIPT" {
+    include "lk(tam_INSCRIPT)"
+    name[Group1]= "India - Tamil INSCRIPT";
+};
+
+partial alphanumeric_keys 
+xkb_symbols "tel" {
+
+    // Inscript layout for Telugu using Unicode 
+    // Author: G Karunakar <karunakar@freedomink.org>
+    // Date:
+    // See layout at http://www.indlinux.org/keymap/telugu.php
+
+    name[Group1]= "India - Telugu";
+
+    key <TLDE> { [  0x01000c4a, 0x01000c12	] };
+    key <AE01> { [  0x01000c67, 0x01000c0d	] };
+    key <AE02> { [  0x01000c68, 0x01000c45	] };
+    key <AE03> { [  0x01000c69, numbersign	] };
+    key <AE04> { [  0x01000c6a, dollar		] };
+    key <AE05> { [  0x01000c6b, percent		] };
+    key <AE06> { [  0x01000c6c, asciicircum	] };
+    key <AE07> { [  0x01000c6d, ampersand	] };
+    key <AE08> { [  0x01000c6e, asterisk	] };
+    key <AE09> { [  0x01000c6f, parenleft	] };
+    key <AE10> { [  0x01000c66, parenright	] };
+    key <AE11> { [  0x01000c03, underscore	] };
+    key <AE12> { [  0x01000c43, 0x01000c0b	] };
+    key <BKSP> { [  BackSpace			] };    
+ 
+    key <AD01> { [  0x01000c4c, 0x01000c14	] };
+    key <AD02> { [  0x01000c48, 0x01000c10	] };
+    key <AD03> { [  0x01000c3e, 0x01000c06	] };
+    key <AD04> { [  0x01000c40, 0x01000c08	] };
+    key <AD05> { [  0x01000c42, 0x01000c0a	] };
+    key <AD06> { [  0x01000c2c, 0x01000c2d	] };
+    key <AD07> { [  0x01000c39, 0x01000c19	] };
+    key <AD08> { [  0x01000c17, 0x01000c18	] };
+    key <AD09> { [  0x01000c26, 0x01000c27	] };
+    key <AD10> { [  0x01000c1c, 0x01000c1d	] };
+    key <AD11> { [  0x01000c21, 0x01000c22	] };
+    key <AD12> { [  0x01000c3c, 0x01000c1e	] };
+  
+    key <AC01> { [  0x01000c4b, 0x01000c13	] };
+    key <AC02> { [  0x01000c47, 0x01000c0f	] };
+    key <AC03> { [  0x01000c4d, 0x01000c05	] };
+    key <AC04> { [  0x01000c3f, 0x01000c07	] };
+    key <AC05> { [  0x01000c41, 0x01000c09	] };
+    key <AC06> { [  0x01000c2a, 0x01000c2b	] };
+    key <AC07> { [  0x01000c30, 0x01000c31	] };
+    key <AC08> { [  0x01000c15, 0x01000c16	] };
+    key <AC09> { [  0x01000c24, 0x01000c25	] };
+    key <AC10> { [  0x01000c1a, 0x01000c1b	] };
+    key <AC11> { [  0x01000c1f, 0x01000c20	] };
+ 
+    key <AB01> { [  0x01000c46, 0x01000c0e	] };
+    key <AB02> { [  0x01000c02, 0x01000c01	] };
+    key <AB03> { [  0x01000c2e, 0x01000c23	] };
+    key <AB04> { [  0x01000c28, 0x01000c29	] };
+    key <AB05> { [  0x01000c35, 0x01000c34	] };
+    key <AB06> { [  0x01000c32, 0x01000c33	] };
+    key <AB07> { [  0x01000c38, 0x01000c36	] };
+    key <AB08> { [  comma     , 0x01000c37	] };
+    key <AB09> { [  period    , 0x01000c64	] };
+    key <AB10> { [  0x01000c2f, 0x01000040	] };
+    key <BKSL> { [  0x01000c49, 0x01000c11	] };
+
+    key <RALT> {        
+        symbols[Group1] = [ Mode_switch , Multi_key ],
+        virtualMods = AltGr
+    };
+};
+
+partial alphanumeric_keys 
+xkb_symbols "urd" {
+    include "pk(urd)"
+    name[Group1]= "India - Urdu";
+};
+

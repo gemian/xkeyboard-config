@@ -824,15 +824,102 @@
     </layout>
     <layout>
       <configItem>
-        <name>ben</name>
-        <_shortDescription>Ben</_shortDescription>
-        <_description>Bengali</_description>
+        <name>bd</name>
+        <_shortDescription>Ban</_shortDescription>
+        <_description>Bangladesh</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>probhat</name>
             <_description>Probhat</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>in</name>
+        <_shortDescription>Ind</_shortDescription>
+        <_description>India</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>ben</name>
+            <_description>Bengali</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ben_probhat</name>
+            <_description>Bengali Probhat</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>guj</name>
+            <_description>Gujarati</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>kan</name>
+            <_description>Kannada</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mal</name>
+            <_description>Malayalam</_description>
+         </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mal_plusnum</name>
+            <_description>Malayalam with Malayalam digits</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ori</name>
+            <_description>Oriya</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_unicode</name>
+            <_description>Tamil Unicode</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_TAB</name>
+            <_description>Tamil TAB Typewriter</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_TSCII</name>
+            <_description>Tamil TSCII Typewriter</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_INSCRIPT</name>
+            <_description>Tamil INSCRIPT</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tel</name>
+            <_description>Telugu</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>urd</name>
+            <_description>Urdu</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1175,14 +1262,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>guj</name>
-        <_shortDescription>Guj</_shortDescription>
-        <_description>Gujarati</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
         <name>guru</name>
         <_shortDescription>Guru</_shortDescription>
         <_description>Gurmukhi</_description>
@@ -1408,14 +1487,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>kan</name>
-        <_shortDescription>Kan</_shortDescription>
-        <_description>Kannada</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
         <name>kg</name>
         <_shortDescription>Kyr</_shortDescription>
         <_description>Kyrgyzstan</_description>
@@ -1524,21 +1595,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>mal</name>
-        <_shortDescription>Mal</_shortDescription>
-        <_description>Malayalam</_description>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>mlplusnum</name>
-            <_description>With Malayalam digits</_description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
         <name>mt</name>
         <_shortDescription>Mlt</_shortDescription>
         <_description>Malta</_description>
@@ -1607,14 +1663,6 @@
           </configItem>
         </variant>
       </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>ori</name>
-        <_shortDescription>Ori</_shortDescription>
-        <_description>Oriya</_description>
-      </configItem>
-      <variantList/>
     </layout>
     <layout>
       <configItem>
@@ -1779,14 +1827,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>sin</name>
-        <_shortDescription>Sin</_shortDescription>
-        <_description>Sinhala</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
         <name>sk</name>
         <_shortDescription>Svk</_shortDescription>
         <_description>Slovakia</_description>
@@ -1936,38 +1976,42 @@
     </layout>
     <layout>
       <configItem>
-        <name>tam</name>
-        <_shortDescription>Tam</_shortDescription>
-        <_description>Tamil</_description>
+        <name>lk</name>
+        <_shortDescription>SrL</_shortDescription>
+        <_description>Sri Lanka</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
-            <name>TAB</name>
-            <_description>Typewrite-style keymap; TAB encoding</_description>
+            <name>tam_unicode</name>
+            <_description>Tamil Unicode</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>TSCII</name>
-            <_description>Typewrite-style keymap; TSCII encoding</_description>
+            <name>tam_TAB</name>
+            <_description>Tamil TAB Typewriter</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>INSCRIPT</name>
-            <_description>INSCRIPT layout</_description>
+            <name>tam_TSCII</name>
+            <_description>Tamil TSCII Typewriter</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tam_INSCRIPT</name>
+            <_description>Tamil INSCRIPT</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>sin_phonetic</name>
+            <_description>Sinhala Phonetic</_description>
           </configItem>
         </variant>
       </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>tel</name>
-        <_shortDescription>Tel</_shortDescription>
-        <_description>Telugu</_description>
-      </configItem>
-      <variantList/>
     </layout>
     <layout>
       <configItem>
@@ -2153,20 +2197,20 @@
     </layout>
     <layout>
       <configItem>
-        <name>urd</name>
-        <_shortDescription>Urd</_shortDescription>
-        <_description>Urdu</_description>
+        <name>pk</name>
+        <_shortDescription>Pak</_shortDescription>
+        <_description>Pakistan</_description>
       </configItem>
       <variantList/>
     </layout>
-    <layout>
+ <!--   <layout>
       <configItem>
         <name>div</name>
         <_shortDescription>Div</_shortDescription>
         <_description>Dhivehi</_description>
       </configItem>
       <variantList/>
-    </layout>
+    </layout> -->
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">

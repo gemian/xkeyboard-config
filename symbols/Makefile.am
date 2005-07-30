@@ -2,29 +2,29 @@ SUBDIRS = digital_vndr fujitsu_vndr hp_vndr macintosh_vndr nec_vndr sgi_vndr son
 
 symbols_DATA = \
 al am ara \
-az be ben \
+az be bd \
 bg br ba \
 by ca ch \
 cz de deva \
 div dk dzo \
 ee es fi \
 fo fr gb \
-ge gr guj \
+ge gr \
 guru hr hu \
-ie iku il \
+ie iku il in \
 ir is it \
-jp kan kg lao \
-latam latin lt \
-lv mal mao \
+jp kg lao \
+latam latin lk lt \
+lv mao \
 mkd mm mn \
 mt nl no \
-ogam ori \
-pc pl pt \
+ogam \
+pc pk pl pt \
 ro ru se \
-si sin sk smi \
-srp syr tam \
-tel th tj \
-tr ua urd us \
+si sk smi \
+srp syr \
+th tj \
+tr ua us \
 uz vn \
 altwin capslock compose ctrl group inet keypad level3 srvr_ctrl \
 eurosign

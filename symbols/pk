@@ -8,8 +8,8 @@
 //Alt key combinations are yet to be put in. The unavailable keys are those which do not have a corresponding //glyph in unicode.
 
 partial default alphanumeric_keys
-xkb_symbols "basic" {
-    name[Group1]= "Urdu";
+xkb_symbols "urd" {
+    name[Group1]= "Pakistan";
 
       // Keys '~' - '='
      //  All keys checked and complete
@@ -82,5 +82,4 @@ xkb_symbols "basic" {
 
       modifier_map Shift {Shift_L, Shift_R };
       modifier_map Lock {Caps_Lock };
-
 };
