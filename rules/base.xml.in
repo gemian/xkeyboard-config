@@ -1639,33 +1639,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>ogam</name>
-        <_shortDescription>Ogam</_shortDescription>
-        <_description>Ogham</_description>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>is434</name>
-            <_description>IS434</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>is434laptop</name>
-            <_description>IS434 laptop</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>laptop</name>
-            <_description>Laptop</_description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
         <name>pl</name>
         <_shortDescription>Pol</_shortDescription>
         <_description>Poland</_description>
@@ -2008,7 +1981,7 @@
         <variant>
           <configItem>
             <name>sin_phonetic</name>
-            <_description>Sinhala Phonetic</_description>
+            <_description>Sinhala phonetic</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2170,6 +2143,30 @@
           <configItem>
             <name>laptop</name>
             <_description>Laptop</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ogam</name>
+            <_description>Ogham</_description>
+         </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ogam_is434</name>
+            <_description>Ogham IS434</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ogam_is434laptop</name>
+            <_description>Ogham IS434 laptop</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ogam_laptop</name>
+            <_description>Ogham laptop</_description>
           </configItem>
         </variant>
       </variantList>

@@ -18,7 +18,6 @@ latam latin lk lt \
 lv mao \
 mkd mm mn \
 mt nl no \
-ogam \
 pc pk pl pt \
 ro ru se \
 si sk smi \

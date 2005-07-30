@@ -21,3 +21,7 @@ tam	INSCRIPT	lk	tam_INSCRIPT
 tel	basic		in	tel
 urd	basic		pk	urd	
 sin	phonetic-static	lk	sin_phonetic	
+ogam	basic		ie	ogam
+ogam	laptop		ie	ogam_laptop
+ogam	is434		ie	ogam_is434
+ogam	is434laptop	ie	ogam_is434laptop
