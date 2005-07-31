@@ -847,7 +847,7 @@
         <variant>
           <configItem>
             <name>ben</name>
-            <_description>Bengali INSCRIPT</_description>
+            <_description>Bengali</_description>
           </configItem>
         </variant>
         <variant>
@@ -858,44 +858,38 @@
         </variant>
         <variant>
           <configItem>
-            <name>deva</name>
-            <_description>Devanagari INSCRIPT</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>guj</name>
-            <_description>Gujarati INSCRIPT</_description>
+            <_description>Gujarati</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>guru</name>
-            <_description>Gurmukhi INSCRIPT</_description>
+            <_description>Gurmukhi</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>kan</name>
-            <_description>Kannada INSCRIPT</_description>
+            <_description>Kannada</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mal</name>
-            <_description>Malayalam INSCRIPT</_description>
+            <_description>Malayalam</_description>
          </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mal_plusnum</name>
-            <_description>Malayalam INSCRIPT with Malayalam digits</_description>
+            <_description>Malayalam with Malayalam digits</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ori</name>
-            <_description>Oriya INSCRIPT</_description>
+            <_description>Oriya</_description>
           </configItem>
         </variant>
         <variant>
@@ -919,13 +913,13 @@
         <variant>
           <configItem>
             <name>tam</name>
-            <_description>Tamil INSCRIPT</_description>
+            <_description>Tamil</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>tel</name>
-            <_description>Telugu INSCRIPT</_description>
+            <_description>Telugu</_description>
           </configItem>
         </variant>
         <variant>
@@ -1920,15 +1914,21 @@
     </layout>
     <layout>
       <configItem>
-        <name>syr</name>
+        <name>sy</name>
         <_shortDescription>Syr</_shortDescription>
-        <_description>Syriac</_description>
+        <_description>Syria</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
-            <name>phonetic</name>
-            <_description>Phonetic</_description>
+            <name>syc</name>
+            <_description>Syriac</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>syc_phonetic</name>
+            <_description>Syriac phonetic</_description>
           </configItem>
         </variant>
       </variantList>

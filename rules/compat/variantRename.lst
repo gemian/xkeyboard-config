@@ -29,3 +29,5 @@ ogam	is434		ie	ogam_is434
 ogam	is434laptop	ie	ogam_is434laptop
 iku	basic		ca	ike
 lao	basic		la	basic
+syr	basic		sy	syc
+syr	phonetic	sy	syc_phonetic

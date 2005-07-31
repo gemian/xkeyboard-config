@@ -21,7 +21,7 @@ mt nl no \
 pc pk pl pt \
 ro ru se \
 si sk smi \
-srp syr \
+srp sy \
 th tj \
 tr ua us \
 uz vn \
