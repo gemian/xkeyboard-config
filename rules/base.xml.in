@@ -1001,6 +1001,12 @@
             <_description>Multilingual, second part</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>ike</name>
+            <_description>Inuktitut</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1426,14 +1432,6 @@
           </configItem>
         </variant>
       </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>iku</name>
-        <_shortDescription>Iku</_shortDescription>
-        <_description>Inuktitut</_description>
-      </configItem>
-      <variantList/>
     </layout>
     <layout>
       <configItem>

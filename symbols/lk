@@ -4,6 +4,12 @@
 //
 // $XFree86: xc/programs/xkbcomp/symbols/tml,v 1.2 2002/11/22 04:03:28 dawes Exp $
 
+default partial alphanumeric_keys
+xkb_symbols "basic" {
+    include "us(basic)"
+    name[Group1]= "Sri Lanka";
+};
+
 partial alphanumeric_keys 
 xkb_symbols "tam_unicode" {
 
@@ -260,7 +266,6 @@ xkb_symbols "tam_INSCRIPT" {
 // ZWJ = Zero Width Joiner = Alt-Shift-Backslash
 // rayanna = r
 // yayanna = y
-
 
 partial alphanumeric_keys
 xkb_symbols "sin_phonetic" {

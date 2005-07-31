@@ -64,7 +64,7 @@ xkb_symbols "nodeadkeys" {
 };
 
 // Spanish mapping (note R-H exchange)
-partial default alphanumeric_keys
+partial alphanumeric_keys
 xkb_symbols "dvorak" {
 
     name[Group1]="Spain - Dvorak";

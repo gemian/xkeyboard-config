@@ -11,7 +11,7 @@ ee es fi \
 fo fr gb \
 ge gr \
 guru hr hu \
-ie iku il in \
+ie il in \
 ir is it \
 jp kg lao \
 latam latin lk lt \
