@@ -13,7 +13,7 @@ ge gr \
 guru hr hu \
 ie il in \
 ir is it \
-jp kg lao \
+jp kg la \
 latam latin lk lt \
 lv mao \
 mkd mm mn \
