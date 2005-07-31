@@ -846,8 +846,8 @@
       <variantList>
         <variant>
           <configItem>
-            <name>ben</name>
-            <_description>Bengali</_description>
+            <name>ben_inscript</name>
+            <_description>Bengali INSCRIPT</_description>
           </configItem>
         </variant>
         <variant>
@@ -858,14 +858,20 @@
         </variant>
         <variant>
           <configItem>
+            <name>deva</name>
+            <_description>Devanagari INSCRIPT</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>guj</name>
-            <_description>Gujarati</_description>
+            <_description>Gujarati INSCRIPT</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>kan</name>
-            <_description>Kannada</_description>
+            <_description>Kannada INSCRIPT</_description>
           </configItem>
         </variant>
         <variant>
@@ -883,7 +889,7 @@
         <variant>
           <configItem>
             <name>ori</name>
-            <_description>Oriya</_description>
+            <_description>Oriya INSCRIPT</_description>
           </configItem>
         </variant>
         <variant>
@@ -913,7 +919,7 @@
         <variant>
           <configItem>
             <name>tel</name>
-            <_description>Telugu</_description>
+            <_description>Telugu INSCRIPT</_description>
           </configItem>
         </variant>
         <variant>
@@ -1271,14 +1277,6 @@
         <name>guru</name>
         <_shortDescription>Guru</_shortDescription>
         <_description>Gurmukhi</_description>
-      </configItem>
-      <variantList/>
-    </layout>
-    <layout>
-      <configItem>
-        <name>deva</name>
-        <_shortDescription>Deva</_shortDescription>
-        <_description>Devanagari</_description>
       </configItem>
       <variantList/>
     </layout>

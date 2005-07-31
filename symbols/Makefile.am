@@ -5,7 +5,7 @@ al am ara \
 az be bd \
 bg br ba \
 by ca ch \
-cz de deva \
+cz de \
 div dk dzo \
 ee es fi \
 fo fr gb \

@@ -7,8 +7,9 @@ yu	basic		srp	latin
 yu	unicode		srp	latinunicode
 yu	yz		srp	latinyz
 yu	unicodeyz	srp	latinunicodeyz
-ben	basic		bd	default
-ben	probhat		bd	probhat	
+ben	basic		in	ben_inscript
+ben	probhat		in	ben_probhat	
+deva	basic		in	deva
 guj	basic		in	guj
 kan	basic		in	kan
 mal	basic		in	mal
