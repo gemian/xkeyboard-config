@@ -846,7 +846,7 @@
       <variantList>
         <variant>
           <configItem>
-            <name>ben_inscript</name>
+            <name>ben</name>
             <_description>Bengali INSCRIPT</_description>
           </configItem>
         </variant>
@@ -877,13 +877,13 @@
         <variant>
           <configItem>
             <name>mal</name>
-            <_description>Malayalam</_description>
+            <_description>Malayalam INSCRIPT</_description>
          </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mal_plusnum</name>
-            <_description>Malayalam with Malayalam digits</_description>
+            <_description>Malayalam INSCRIPT with Malayalam digits</_description>
           </configItem>
         </variant>
         <variant>
@@ -912,7 +912,7 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_INSCRIPT</name>
+            <name>tam</name>
             <_description>Tamil INSCRIPT</_description>
           </configItem>
         </variant>
@@ -1966,12 +1966,6 @@
           <configItem>
             <name>tam_TSCII</name>
             <_description>Tamil TSCII Typewriter</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>tam_INSCRIPT</name>
-            <_description>Tamil INSCRIPT</_description>
           </configItem>
         </variant>
         <variant>
