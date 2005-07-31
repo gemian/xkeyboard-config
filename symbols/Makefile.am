@@ -10,7 +10,7 @@ div dk dzo \
 ee es fi \
 fo fr gb \
 ge gr \
-guru hr hu \
+hr hu \
 ie il in \
 ir is it \
 jp kg la \

@@ -870,6 +870,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>guru</name>
+            <_description>Gurmukhi INSCRIPT</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>kan</name>
             <_description>Kannada INSCRIPT</_description>
           </configItem>
@@ -1271,14 +1277,6 @@
           </configItem>
         </variant>
       </variantList>
-    </layout>
-    <layout>
-      <configItem>
-        <name>guru</name>
-        <_shortDescription>Guru</_shortDescription>
-        <_description>Gurmukhi</_description>
-      </configItem>
-      <variantList/>
     </layout>
     <layout>
       <configItem>
