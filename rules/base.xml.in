@@ -1734,7 +1734,7 @@
         <variant>
           <configItem>
             <name>typewriter</name>
-            <_description>"Typewriter"</_description>
+            <_description>Typewriter</_description>
           </configItem>
         </variant>
         <variant>
@@ -2056,7 +2056,7 @@
         <variant>
           <configItem>
             <name>typewriter</name>
-            <_description>"Typewriter"</_description>
+            <_description>Typewriter</_description>
           </configItem>
         </variant>
         <variant>

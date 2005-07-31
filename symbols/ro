@@ -70,7 +70,7 @@ xkb_symbols "us" {
 
     include "latin"
 
-    name[Group1]="Romania - US keyboard with Romanian letters ";
+    name[Group1]="Romania - US keyboard with Romanian letters";
 
     key <AD01>	{ [         q,          Q,  acircumflex,  Acircumflex ]	};
     key <AD05>	{ [         t,          T,     tcedilla,     Tcedilla ]	};
