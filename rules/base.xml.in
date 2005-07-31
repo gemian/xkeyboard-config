@@ -1082,9 +1082,9 @@
     </layout>
     <layout>
       <configItem>
-        <name>dzo</name>
-        <_shortDescription>Dzo</_shortDescription>
-        <_description>Dzongkha</_description>
+        <name>bt</name>
+        <_shortDescription>Bhu</_shortDescription>
+        <_description>Bhutan</_description>
       </configItem>
     </layout>
     <layout>
@@ -1136,6 +1136,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>smi</name>
+            <_description>Northern Saami</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1623,6 +1629,18 @@
             <_description>Dvorak</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>smi</name>
+            <_description>Northern Saami</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>smi_nodeadkeys</name>
+            <_description>Northern Saami, eliminate dead keys</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1869,6 +1887,12 @@
           <configItem>
             <name>rus_nodeadkeys</name>
             <_description>Russian phonetic, eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>smi</name>
+            <_description>Northern Saami</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2162,7 +2186,6 @@
     <layout>
       <configItem>
         <name>smi</name>
-        <_shortDescription>Smi</_shortDescription>
         <_description>Northern Saami</_description>
       </configItem>
       <variantList>

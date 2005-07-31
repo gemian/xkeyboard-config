@@ -31,3 +31,7 @@ iku	basic		ca	ike
 lao	basic		la	basic
 syr	basic		sy	syc
 syr	phonetic	sy	syc_phonetic
+dzo	basic		bt	basic
+smi	basic		no	smi
+smi	nodeadkeys	no	smi_nodeadkeys
+smi	sefi		fi	smi

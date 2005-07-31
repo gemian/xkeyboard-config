@@ -141,3 +141,15 @@ xkb_symbols "rus_nodeadkeys" {
 
     key <AE12> {	[ Cyrillic_hardsign, Cyrillic_HARDSIGN ]	};
 };
+
+xkb_symbols "smi" {
+
+    // Describes the differences between a Norwegian Northern Sami
+    // (keyboard with dead key support) and a Swedish/Finnish Sami
+    // keyboard according to the specs at:
+    // http://www.hum.uit.no/a/trond/se-lat9-sefi-keys.html
+
+    include "fi(smi)"
+
+    name[Group1]= "Sweden - Northern Saami";
+};

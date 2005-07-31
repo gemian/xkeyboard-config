@@ -3,10 +3,10 @@ SUBDIRS = digital_vndr fujitsu_vndr hp_vndr macintosh_vndr nec_vndr sgi_vndr son
 symbols_DATA = \
 al am ara \
 az be bd \
-bg br ba \
+bg br ba bt \
 by ca ch \
 cz de \
-div dk dzo \
+div dk \
 ee es fi \
 fo fr gb \
 ge gr \
@@ -20,7 +20,7 @@ mkd mm mn \
 mt nl no \
 pc pk pl pt \
 ro ru se \
-si sk smi \
+si sk \
 srp sy \
 th tj \
 tr ua us \
