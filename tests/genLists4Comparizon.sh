@@ -15,32 +15,28 @@ xsltproc $ROOT/xslt/reg2ll.xsl $ROOT/rules/base.xml | sort | uniq > $F1
 for i in $ROOT/symbols/*; do
   if [ -f $i ]; then
     id="`basename $i`"
+    export id
     gawk 'BEGIN{
-  FS="\""
-  isDefault=0;
+  FS = "\"";
+  id = ENVIRON["id"];
+  isDefault = 0;
 }
 /.*default.*/{
-  isDefault=1;
+  isDefault = 1;
 }
 /xkb_symbols/{
-  variant=$2;
+  variant = $2;
 }/^[[:space:]]*name\[Group1\][[:space:]]*=/{
-  if (isDefault==1)
+  if (isDefault == 1)
   {
-    printf "___ %s\n",$2;
+    printf "%s:\"%s\"\n",id,$2;
     isDefault=0;
   } else
   {
-    printf "%s %s\n",variant,$2;
+    name=$2;
+    printf "%s(%s):\"%s\"\n", id, variant, name;
   }
-}' $i | while read var name; do
-      # read one variable!
-      if [ "${var}" == "___" ]; then
-        echo "${id}:\"${name}\""
-      else
-        echo "${id}(${var}):\"${name}\""
-      fi
-    done
+}' $i
   fi
 done | sort | uniq > $F2
 
