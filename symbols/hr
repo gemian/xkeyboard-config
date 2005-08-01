@@ -59,57 +59,29 @@ xkb_symbols "us" {
 
     // Alphanumeric section
     name[Group1]= "Croatia - US keyboard with Croatian letters";
-    key <AD01> {	[	  q,	Q 		],
-			[ backslash			]	};
-    key <AD02> {	[	  w,	W 		],
-			[ bar				]	};
-    key <AD03> {	[	  e,	E		],
-			[  EuroSign			]	};
-    key <AD05> {	[	  t,	T		]	};
-    key <AD06> {	[	  y,	Y		],
-    			[	  z,    Z		]	};
-    key <AD07> {	[	  u,	U		]	};
-    key <AD08> {	[	  i,	I		]	};
-    key <AD11> {	[ bracketleft, braceleft	],
-    			[ scaron,	Scaron		] 	};
-    key <AD12> {	[ bracketright, braceright	],
-    			[      dstroke,	Dstroke		]	};
-    key <AC04> {	[	  f,	F		],
-			[ bracketleft			]	};
-    key <AC05> {	[	  g,	G		],
-			[ bracketright			]	};
-    key <AC08> {	[	  k,	K		],
-			[ lstroke			]	};
-    key <AC09> {	[	  l,	L		],
-			[ Lstroke			]	};
-    key <AC10> {	[ semicolon, 	colon		],
-    			[ ccaron,	Ccaron		]	};
-    key <AC11> {	[ apostrophe,	quotedbl	],
-    			[ cacute,	Cacute		]	};
+    key <AD01> {	[ backslash			]	};
+    key <AD02> {	[ bar				]	};
+    key <AD03> {	[  EuroSign			]	};
+    key <AD11> {	[ scaron,	Scaron		] 	};
+    key <AD12> {	[      dstroke,	Dstroke		]	};
+    key <AC04> {	[ bracketleft			]	};
+    key <AC05> {	[ bracketright			]	};
+    key <AC08> {	[ lstroke			]	};
+    key <AC09> {	[ Lstroke			]	};
+    key <AC10> {	[ ccaron,	Ccaron		]	};
+    key <AC11> {	[ cacute,	Cacute		]	};
 
 
-    key <LSGT> {	[ less,		greater		],
-			[	bar			]	};
-    key <AB01> {	[	  z,	Z 		],
-    			[	  y,	Y		]	};
-    key <AB04> {	[	  v,	V 		],
-			[ at				]	};
-    key <AB05> {	[	  b,	B 		],
-			[ braceleft			]	};
-    key <AB06> {	[	  n,	N 		],
-			[ braceright			]	};
-    key <AB07> {	[	  m,	M		],
-			[ section			]	};
-    key <AB08> {	[     comma,	less		],
-    			[ semicolon			]	};
-    key <AB09> {	[    period,	greater		],
-    			[ colon				]	};
-    key <AB10> {	[ slash,	question	],
-    			[     minus,	underscore	]	};
-    key <BKSL> {	[ backslash,	bar		],
-    			[ zcaron,	Zcaron		]	};
-    key <KPDL> {	[ KP_Delete,	KP_Separator	]	};
-    key <RALT> {	[ Mode_switch,	Multi_key	]	};
+    key <LSGT> {	[	bar			]	};
+    key <AB01> {	[	  y,	Y		]	};
+    key <AB04> {	[ at				]	};
+    key <AB05> {	[ braceleft			]	};
+    key <AB06> {	[ braceright			]	};
+    key <AB07> {	[ section			]	};
+    key <AB08> {	[ semicolon			]	};
+    key <AB09> {	[ colon				]	};
+    key <AB10> {	[     minus,	underscore	]	};
+    key <BKSL> {	[ zcaron,	Zcaron		]	};
 
     // End alphanumeric section
 

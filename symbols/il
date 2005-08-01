@@ -161,8 +161,7 @@ xkb_symbols "phonetic" {
 
     name[Group1]= "Israel - Phonetic";
 
-    key <AE12> {        [     equal,    plus            ],
-			[ hebrew_doublelowline, hebrew_doublelowline ]};
+    key <AE12> {        [     equal,    plus, hebrew_doublelowline, hebrew_doublelowline ]};
 
     key <LatQ> {	[ hebrew_qoph, hebrew_qoph	]	};
     key <LatW> {	[ hebrew_waw, hebrew_waw	]	};
