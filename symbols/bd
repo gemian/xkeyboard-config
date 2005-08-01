@@ -2,7 +2,7 @@
 
 default partial alphanumeric_keys
 xkb_symbols "basic" {
-    include "in(ben_inscript)"
+    include "in(ben)"
     name[Group1]= "Bangladesh";
 // TODO(svu): change iNSCRIPT to Jatiaya
 // according to http://ekushey.org/projects/shadhinota/national.html

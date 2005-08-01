@@ -2185,26 +2185,6 @@
     </layout>
     <layout>
       <configItem>
-        <name>smi</name>
-        <_description>Northern Saami</_description>
-      </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>nodeadkeys</name>
-            <_description>Eliminate dead keys</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>sefi</name>
-            <_description>Finish and Swedish</_description>
-          </configItem>
-        </variant>
-      </variantList>
-    </layout>
-    <layout>
-      <configItem>
         <name>pk</name>
         <_shortDescription>Pak</_shortDescription>
         <_description>Pakistan</_description>
