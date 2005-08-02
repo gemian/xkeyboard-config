@@ -22,7 +22,7 @@
 
 // Devangari is the default. Kill me if I am wrong:)
 default partial alphanumeric_keys 
-xkb_symbols "basic" {
+xkb_symbols "deva" {
       name[Group1]= "India";
 
       key <TLDE> { [      0x100094A, 0x1000912		]	};
@@ -536,6 +536,7 @@ xkb_symbols "tam_TAB" {
     name[Group1]= "India - Tamil TAB Typewriter";
 };
 
+// INSCRIPT
 partial alphanumeric_keys 
 xkb_symbols "tam" {
       name[Group1]= "India - Tamil";
