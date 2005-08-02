@@ -1,3 +1,8 @@
+2005-08-02 svu
+
+	* symbols/in, rules/base.xml.in, rules/compat/variantRename.lst:
+	moving 'mal_plusnum' to 'mal'
+
 2005-08-01 svu
 
 	* symbols/il, symbols/hr, symbols/tj:

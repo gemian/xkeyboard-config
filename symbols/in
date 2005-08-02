@@ -377,16 +377,34 @@ xkb_symbols "mal" {
     //From grave to backslash (\)
     
     key <TLDE> { [ 0x01000d4a , 0x01000d12           ] };
-    key <AE01> { [1           ,     exclam           ] }; 
-    key <AE02> { [2           ,         at           ] };
-    key <AE03> { [3           , numbersign           ] };
-    key <AE04> { [4           ,     dollar           ] };
-    key <AE05> { [5           ,    percent           ] };
-    key <AE06> { [6           ,asciicircum           ] };
-    key <AE07> { [7           ,  ampersand           ] };
-    key <AE08> { [8           , 0x01000d7e           ] };
-    key <AE09> { [9           ,  parenleft           ] };
-    key <AE10> { [0           , parenright           ] };
+
+// svu: 
+// These lines were in former "mal" variant - 
+// but the digits are replaced with the ones from 'mal_plusnum' -
+// for the integrity of all Indian layouts
+//
+//    key <AE01> { [1           ,     exclam           ] }; 
+//    key <AE02> { [2           ,         at           ] };
+//    key <AE03> { [3           , numbersign           ] };
+//    key <AE04> { [4           ,     dollar           ] };
+//    key <AE05> { [5           ,    percent           ] };
+//    key <AE06> { [6           ,asciicircum           ] };
+//    key <AE07> { [7           ,  ampersand           ] };
+//    key <AE08> { [8           , 0x01000d7e           ] };
+//    key <AE09> { [9           ,  parenleft           ] };
+//    key <AE10> { [0           , parenright           ] };
+
+      key <AE01> { [ 0x01000d67 ,      exclam ] };
+      key <AE02> { [ 0x01000d68 ,          at ] };
+      key <AE03> { [ 0x01000d69 ,  numbersign ] };
+      key <AE04> { [ 0x01000d6a ,      dollar ] };
+      key <AE05> { [ 0x01000d6b ,     percent ] };
+      key <AE06> { [ 0x01000d6c , asciicircum ] };
+      key <AE07> { [ 0x01000d6d ,   ampersand ] };
+      key <AE08> { [ 0x01000d6e ,  0x01000d7e ] };
+      key <AE09> { [ 0x01000d6f ,   parenleft ] };
+      key <AE10> { [ 0x01000d66 ,  parenright ] };
+
     key <AE11> { [ minus      , 0x01000d03           ] };
     key <AE12> { [ 0x01000d43 , 0x01000d0b           ] };
     key <BKSL> { [ 0x01000d7c                        ] };
@@ -433,27 +451,6 @@ xkb_symbols "mal" {
     key <AB09> { [ period     , 0x01000d7d ] };
     key <AB10> { [ 0x01000d2f , question   ] };
 
-};
-
-partial alphanumeric_keys
-xkb_symbols "mal_plusnum" {
-
-   // Modifies the basic layout to include malayalam numbers
-
-   include "in(mal)"
-
-    name[Group1] = "India - Malayalam with Malayalam digits";
-
-      key <AE01> { [ 0x01000d67 ,      exclam ] };
-      key <AE02> { [ 0x01000d68 ,          at ] };
-      key <AE03> { [ 0x01000d69 ,  numbersign ] };
-      key <AE04> { [ 0x01000d6a ,      dollar ] };
-      key <AE05> { [ 0x01000d6b ,     percent ] };
-      key <AE06> { [ 0x01000d6c , asciicircum ] };
-      key <AE07> { [ 0x01000d6d ,   ampersand ] };
-      key <AE08> { [ 0x01000d6e ,  0x01000d7e ] };
-      key <AE09> { [ 0x01000d6f ,   parenleft ] };
-      key <AE10> { [ 0x01000d66 ,  parenright ] };
 };
 
 partial alphanumeric_keys 

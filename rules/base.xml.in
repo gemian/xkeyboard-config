@@ -882,12 +882,6 @@
         </variant>
         <variant>
           <configItem>
-            <name>mal_plusnum</name>
-            <_description>Malayalam with Malayalam digits</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>ori</name>
             <_description>Oriya</_description>
           </configItem>
