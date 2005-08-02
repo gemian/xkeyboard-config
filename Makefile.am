@@ -1,6 +1,6 @@
 SUBDIRS = compat geometry keycodes keymap po rules semantics symbols types docs
 
-EXTRA_DIST=config.rpath  COPYING README \
+EXTRA_DIST=config.rpath COPYING CREDITS README \
        autogen.sh \
        xkeyboard-config.spec \
        xkeyboard-config.spec.in \
