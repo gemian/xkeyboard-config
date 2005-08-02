@@ -1,3 +1,8 @@
+2005-08-03 svu
+
+	* symbols/ie, rules/base.xml.in, rules/compat/variantRename.lst:
+	getting rid of laptop variants in 'ie'
+
 2005-08-02 svu
 
 	* symbols/in, rules/base.xml.in, rules/compat/variantRename.lst:

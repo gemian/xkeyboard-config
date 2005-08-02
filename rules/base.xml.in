@@ -2135,20 +2135,8 @@
         </variant>
         <variant>
           <configItem>
-            <name>CloGaelachLaptop</name>
-            <_description>CloGaelach Laptop</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>UnicodeExpert</name>
             <_description>UnicodeExpert</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>laptop</name>
-            <_description>Laptop</_description>
           </configItem>
         </variant>
         <variant>
@@ -2161,18 +2149,6 @@
           <configItem>
             <name>ogam_is434</name>
             <_description>Ogham IS434</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>ogam_is434laptop</name>
-            <_description>Ogham IS434 laptop</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>ogam_laptop</name>
-            <_description>Ogham laptop</_description>
           </configItem>
         </variant>
       </variantList>
