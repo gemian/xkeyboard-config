@@ -1,3 +1,9 @@
+2005-08-04 svu
+
+	* symbols/in, symbols/lk,
+	rules/base.xml.in, rules/compat/variantRename.lst:
+	a bit reogranizing tamil stuff
+
 2005-08-03 svu
 
 	* symbols/ie, rules/base.xml.in, rules/compat/variantRename.lst:
