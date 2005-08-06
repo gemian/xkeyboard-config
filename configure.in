@@ -18,7 +18,7 @@ AC_ARG_WITH( xkb_base,
              xkb_base="\$(prefix)/lib/X11/xkb" )
 
 AC_ARG_WITH( xkb_rules_symlink,
-             [  --with-xkb-rules-symlink=NAME        create symlink to "old style" rules files (xfree86 or xorg)],
+             [  --with-xkb-rules-symlink=NAME1(,NAME2)*        create symlink(s) to "old style" rules files (xfree86 and/or xorg)],
              xkb_rules_symlink="$withval" )
 
 AC_ARG_ENABLE( xkbcomp_symlink,

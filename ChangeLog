@@ -1,6 +1,12 @@
 2005-08-06 svu
 
 	* Makefile.am:
+	Allowing multiple compatibility symlinks (xfree86,xorg).
+	Thanks to Daniel Stone for the feedback
+
+2005-08-06 svu
+
+	* Makefile.am:
 	Fixing the xkbcomp symlink creation
 	Thanks to Daniel Stone for the feedback
 
