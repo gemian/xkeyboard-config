@@ -1,7 +1,7 @@
-sem_DATA = \
+semanticsdir = $(xkb_base)/semantics
+
+dist_semantics_DATA = \
 basic complete default \
 xtest
-                                                                                          
-EXTRA_DIST= $(sem_DATA)
-                                                                                          
-semdir = $(xkb_base)/semantics
+
+include $(top_srcdir)/xkbrules.am

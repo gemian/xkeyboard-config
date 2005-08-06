@@ -1,6 +1,4 @@
-kc_DATA = \
+keycodesdir = $(xkb_base)/keycodes/digital_vndr
+
+dist_keycodes_DATA = \
 lk pc
-                                                                                          
-EXTRA_DIST= $(kc_DATA)
-                                                                                          
-kcdir = $(xkb_base)/keycodes/digital_vndr

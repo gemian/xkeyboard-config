@@ -1,6 +1,8 @@
 SUBDIRS = digital_vndr  ibm_vndr  sgi_vndr
 
-geom_DATA = \
+geomdir = $(xkb_base)/geometry
+
+dist_geom_DATA = \
 amiga ataritt chicony \
 dell everex fujitsu \
 hp keytronic kinesis \
@@ -8,8 +10,4 @@ macintosh microsoft nec \
 northgate pc sony \
 sun winbook README
 
-EXTRA_DIST= $(geom_DATA)
-                                                                                          
-geomdir = $(xkb_base)/geometry
-
-
+include $(top_srcdir)/xkbrules.am

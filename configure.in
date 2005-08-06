@@ -1,21 +1,16 @@
-AC_INIT(rules/base.xml.in)
+AC_INIT(xkeyboard-config, 0.5)
+AC_CONFIG_SRCDIR(rules/base.xml.in)
+AM_INIT_AUTOMAKE([dist-bzip2])
+AM_MAINTAINER_MODE
 
-PACKAGE=xkeyboard-config
-GETTEXT_PACKAGE=$PACKAGE
-MAJOR_VERSION=0
-MINOR_VERSION=5
-VERSION=$MAJOR_VERSION.$MINOR_VERSION
-
-AC_SUBST(MAJOR_VERSION)
-AC_SUBST(MINOR_VERSION)
-AC_SUBST(PACKAGE)
 AC_SUBST(VERSION)
-AC_SUBST(GETTEXT_PACKAGE)
-
-AM_CONFIG_HEADER(config.h)
-AM_INIT_AUTOMAKE($PACKAGE, $VERSION)
 
 prefix=/usr
+
+AC_PATH_PROG([XKBCOMP], [xkbcomp], [not_found])
+if test x$XKBCOMP = xnot_found ; then
+        AC_ERROR([xkbcomp is required to install the xkb data files])
+fi
 
 AC_ARG_WITH( xkb_base,
              [  --with-xkb-base=DIR        XKB base path (by default it is /usr/X11R6/lib/X11/xkb)],
@@ -43,8 +38,7 @@ AM_CONDITIONAL(CREATE_XKBCOMP_SYMLINK, test "x$enable_xkbcomp_symlink" == "xyes"
 AM_CONDITIONAL(USE_COMPAT_RULES, test "x$enable_compat_rules" == "xyes")
 
 AC_PROG_INTLTOOL(0.30)
-dnl AM_GNU_GETTEXT([external])
-dnl AM_GNU_GETTEXT()
+
 ALL_LINGUAS="af az bg cs da el en_GB fr hu nl ru rw sk sq sr sv tr uk vi zh_CN"
 
 AC_SUBST(xkb_base)

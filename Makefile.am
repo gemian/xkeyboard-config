@@ -1,3 +1,5 @@
+AUTOMAKE_OPTIONS = foreign
+
 SUBDIRS = compat geometry keycodes keymap po rules semantics symbols types docs
 
 EXTRA_DIST=config.rpath COPYING CREDITS README \

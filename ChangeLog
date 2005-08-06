@@ -1,5 +1,11 @@
 2005-08-04 svu
 
+	* *Makefile.am, configure.in, xkbrules.am:
+	Taking nice ideas from xkbdata. 
+	Thanks to Daniel Stone for his knowledge of autofoo
+
+2005-08-04 svu
+
 	* symbols/in, symbols/lk,
 	rules/base.xml.in, rules/compat/variantRename.lst:
 	a bit reogranizing tamil stuff

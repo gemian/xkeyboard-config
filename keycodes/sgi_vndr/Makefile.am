@@ -1,6 +1,4 @@
-kc_DATA = \
+keycodesdir = $(xkb_base)/keycodes/sgi_vndr
+
+dist_keycodes_DATA = \
 indigo indy iris
-                                                                                          
-EXTRA_DIST= $(kc_DATA)
-                                                                                          
-kcdir = $(xkb_base)/keycodes/sgi_vndr
