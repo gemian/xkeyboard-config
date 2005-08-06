@@ -1,6 +1,12 @@
+2005-08-06 svu
+
+	* Makefile.am:
+	Fixing the xkbcomp symlink creation
+	Thanks to Daniel Stone for the feedback
+
 2005-08-04 svu
 
-	* *Makefile.am, configure.in, xkbrules.am:
+	* Makefile.am, configure.in, xkbrules.am:
 	Taking nice ideas from xkbdata. 
 	Thanks to Daniel Stone for his knowledge of autofoo
 
