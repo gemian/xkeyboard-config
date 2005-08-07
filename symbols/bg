@@ -74,8 +74,6 @@ xkb_symbols "bds" {
     
   // End alphanumeric section
   
-  key <RALT> {   [ Alt_R,             Meta_R              ]    };
-
 };
 
 partial alphanumeric_keys 
@@ -135,7 +133,5 @@ xkb_symbols "phonetic" {
   key <AB10> {   [ slash,             question            ]    };
 
   // End alphanumeric section
-
-  key <RALT> {   [ Alt_R,             Meta_R              ]    };
 
 };
