@@ -1,3 +1,8 @@
+2005-08-11 svu
+
+	* symbols/jp, symbols/pc:
+	fixed https://bugs.freedesktop.org/show_bug.cgi?id=847
+
 2005-08-07 svu
 
 	* symbols/bg:

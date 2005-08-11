@@ -83,10 +83,6 @@ default xkb_symbols "jp106" {
         type= "PC_SYSRQ",
         symbols[Group1]= [ Print, Execute ]
     };
-    key <SYRQ> {
-        type= "PC_SYSRQ",
-        symbols[Group1]= [ Print, Execute ]
-    };
 };
 
 // latin part of jp keyboard map
@@ -134,10 +130,6 @@ xkb_symbols "latin" {
     };
 
     key <PRSC> {
-        type= "PC_SYSRQ",
-        symbols[Group1]= [ Print, Execute ]
-    };
-    key <SYRQ> {
         type= "PC_SYSRQ",
         symbols[Group1]= [ Print, Execute ]
     };

@@ -102,16 +102,8 @@ xkb_symbols "basic" {
 	type= "PC_SYSRQ",
 	symbols[Group1]= [ Print, Sys_Req ]
     };
-    key <SYRQ> {
-	type= "PC_SYSRQ",
-	symbols[Group1]= [ Print, Sys_Req ]
-    };
     key <SCLK> {  [  Scroll_Lock	]	};
     key <PAUS> {
-	type= "PC_BREAK",
-	symbols[Group1]= [ Pause, Break ]
-    };
-    key <BRK> {
 	type= "PC_BREAK",
 	symbols[Group1]= [ Pause, Break ]
     };
