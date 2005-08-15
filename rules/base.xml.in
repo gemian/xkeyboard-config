@@ -1102,7 +1102,26 @@
         <_shortDescription>Irn</_shortDescription>
         <_description>Iran</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>pro</name>
+            <_description>Pro</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>keypad</name>
+            <_description>Keypad</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>pro_keypad</name>
+            <_description>Pro Keypad</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -2161,14 +2180,14 @@
       </configItem>
       <variantList/>
     </layout>
- <!--   <layout>
+    <layout>
       <configItem>
         <name>div</name>
         <_shortDescription>Div</_shortDescription>
         <_description>Dhivehi</_description>
       </configItem>
       <variantList/>
-    </layout> -->
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
