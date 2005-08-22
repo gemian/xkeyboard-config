@@ -6,7 +6,7 @@ al am ara \
 az be bd \
 bg br ba bt \
 by ca ch \
-cz de \
+cs cz de \
 dk \
 ee es fi \
 fo fr gb \
@@ -22,7 +22,7 @@ mt mv nl no \
 pc pk pl pt \
 ro ru se \
 si sk \
-srp sy \
+sy \
 th tj \
 tr ua us \
 uz vn \

@@ -930,7 +930,32 @@
         <_shortDescription>Bih</_shortDescription>
         <_description>Bosnia and Herzegovina</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>alternatequotes</name>
+            <_description> Use guillemots for quotes</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>unicode</name>
+            <_description>Use Bosnian digraphs</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>unicodeus</name>
+            <_description>US keyboard with Bosnian digraphs</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>us</name>
+            <_description>US keyboard with Bosnian letters</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1016,6 +1041,24 @@
         <_description>Croatia</_description>
       </configItem>
       <variantList>
+        <variant>
+          <configItem>
+            <name>alternatequotes</name>
+            <_description>Use guillemots for quotes</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>unicode</name>
+            <_description>Use Croatian digraphs</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>unicodeus</name>
+            <_description>US keyboard with Croatian digraphs</_description>
+          </configItem>
+        </variant>
         <variant>
           <configItem>
             <name>us</name>
@@ -1760,9 +1803,9 @@
     </layout>
     <layout>
       <configItem>
-        <name>srp</name>
+        <name>cs</name>
         <_shortDescription>Srp</_shortDescription>
-        <_description>Serbian</_description>
+        <_description>Serbia</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1815,7 +1858,32 @@
         <_shortDescription>Svn</_shortDescription>
         <_description>Slovenia</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>alternatequotes</name>
+            <_description>Use guillemots for quotes</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>unicode</name>
+            <_description>Use Slovenian digraphs</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>unicodeus</name>
+            <_description>US keyboard with Slovenian digraphs</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>us</name>
+            <_description>US keyboard with Slovenian letters</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
