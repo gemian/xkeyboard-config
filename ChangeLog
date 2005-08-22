@@ -1,3 +1,8 @@
+2005-08-21 svu
+
+	* rules/compat/layoutRename.lst:
+	fixed http://bugzilla.ubuntu.com/show_bug.cgi?id=13919
+
 2005-08-16 svu
 
 	* rules/base.xml.in, symbols/ir:
