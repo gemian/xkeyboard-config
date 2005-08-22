@@ -10,4 +10,6 @@ xkbTestFunc::dumpXkbSettingsBackup();
 
 xkbTestFunc::testLevel2( "layout", "variant", 2, "(", ")", 1, 1, 0 );
 
+sleep 2;
+
 xkbTestFunc::restoreXkbSettings();
