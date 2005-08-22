@@ -2182,9 +2182,9 @@
     </layout>
     <layout>
       <configItem>
-        <name>div</name>
-        <_shortDescription>Div</_shortDescription>
-        <_description>Dhivehi</_description>
+        <name>mv</name>
+        <_shortDescription>Mal</_shortDescription>
+        <_description>Maldives</_description>
       </configItem>
       <variantList/>
     </layout>

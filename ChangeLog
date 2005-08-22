@@ -1,4 +1,9 @@
-2005-08-21 svu
+2005-08-22 svu
+
+	* rules/base.xml.in, symbols/mv:
+	Moved Dhivehi to Maldives, fixed #3716
+
+2005-08-22 svu
 
 	* rules/compat/layoutRename.lst:
 	fixed http://bugzilla.ubuntu.com/show_bug.cgi?id=13919

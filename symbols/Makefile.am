@@ -7,7 +7,7 @@ az be bd \
 bg br ba bt \
 by ca ch \
 cz de \
-div dk \
+dk \
 ee es fi \
 fo fr gb \
 ge gr \
@@ -18,7 +18,7 @@ jp kg la \
 latam latin lk lt \
 lv mao \
 mkd mm mn \
-mt nl no \
+mt mv nl no \
 pc pk pl pt \
 ro ru se \
 si sk \
