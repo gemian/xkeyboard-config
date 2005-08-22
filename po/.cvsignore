@@ -15,6 +15,6 @@ quot.sed
 remove-potcdate.sed
 remove-potcdate.sin
 *.gmo
-xfree86_xkb_xml.pot
+*.pot
 messages.mo
 stamp-po
