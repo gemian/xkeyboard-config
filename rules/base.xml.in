@@ -1630,9 +1630,9 @@
     </layout>
     <layout>
       <configItem>
-        <name>mkd</name>
+        <name>mk</name>
         <_shortDescription>Mkd</_shortDescription>
-        <_description>Macedonian</_description>
+        <_description>Macedonia (FYROM)</_description>
       </configItem>
       <variantList>
         <variant>
