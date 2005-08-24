@@ -1,5 +1,10 @@
 2005-08-24 svu
 
+	* configure.in:
+	preparing 0.6
+
+2005-08-24 svu
+
 	* rules/base.xml.in, symbols/mk, 
 	rules/compat/layoutRename.lst:
 	Move Macedonian to country-based
