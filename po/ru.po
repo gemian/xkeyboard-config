@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xfree86_xkb_xml 0.1\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2005-08-23 00:39+0100\n"
+"POT-Creation-Date: 2005-08-24 23:31+0100\n"
 "PO-Revision-Date: 2004-01-09 16:17+0000\n"
 "Last-Translator: Sergey V. Oudaltsov <svu@gnome.org>\n"
 "Language-Team: Russian <ru@li.org>\n"
@@ -979,8 +979,8 @@ msgid "Lva"
 msgstr "Латв"
 
 #: ../rules/base.xml.in.h:242
-msgid "Macedonian"
-msgstr "Македонская"
+msgid "Macedonia (FYROM)"
+msgstr "Македония (FYROM)"
 
 #: ../rules/base.xml.in.h:243
 msgid "Macintosh"
