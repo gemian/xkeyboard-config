@@ -1804,8 +1804,8 @@
     <layout>
       <configItem>
         <name>cs</name>
-        <_shortDescription>Srp</_shortDescription>
-        <_description>Serbia</_description>
+        <_shortDescription>SCG</_shortDescription>
+        <_description>Serbia and Montenegro</_description>
       </configItem>
       <variantList>
         <variant>
