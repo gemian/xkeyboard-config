@@ -1,5 +1,10 @@
 2005-08-25 svu
 
+	* rules/base.xml.in:
+	Control -> Ctrl everywhere, for consistency sake
+
+2005-08-25 svu
+
 	* rules/base.xml.in, symbols/cs:
 	Serbia -> Serbia and Montenegro
 

@@ -2345,13 +2345,13 @@
       <option>
         <configItem>
           <name>grp:ctrl_shift_toggle</name>
-          <_description>Control+Shift changes group.</_description>
+          <_description>Ctrl+Shift changes group.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:ctrl_alt_toggle</name>
-          <_description>Alt+Control changes group.</_description>
+          <_description>Alt+Ctrl changes group.</_description>
         </configItem>
       </option>
       <option>
@@ -2413,7 +2413,7 @@
       <option>
         <configItem>
           <name>lv3:switch</name>
-          <_description>Press Right Control to choose 3rd level.</_description>
+          <_description>Press Right Ctrl to choose 3rd level.</_description>
         </configItem>
       </option>
       <option>
@@ -2463,36 +2463,36 @@
       <!-- Tweaking the position of the "Ctrl" key -->
       <configItem>
         <name>ctrl</name>
-        <_description>Control key position</_description>
+        <_description>Ctrl key position</_description>
       </configItem>
       <option>
         <configItem>
           <name>ctrl:nocaps</name>
-          <_description>Make CapsLock an additional Control.</_description>
+          <_description>Make CapsLock an additional Ctrl.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>ctrl:swapcaps</name>
-          <_description>Swap Control and CapsLock.</_description>
+          <_description>Swap Ctrl and CapsLock.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>ctrl:ctrl_ac</name>
-          <_description>Control key at left of 'A'</_description>
+          <_description>Ctrl key at left of 'A'</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>ctrl:ctrl_aa</name>
-          <_description>Control key at bottom left</_description>
+          <_description>Ctrl key at bottom left</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>ctrl:ctrl_ra</name>
-          <_description>Right Control key works as Right Alt.</_description>
+          <_description>Right Ctrl key works as Right Alt.</_description>
         </configItem>
       </option>
     </group>
