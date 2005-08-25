@@ -1,5 +1,10 @@
 2005-08-25 svu
 
+	* rules/base.xml.in, symbols/cs:
+	Serbia -> Serbia and Montenegro
+
+2005-08-25 svu
+
 	* configure.in, po/sr@Latn.po:
 	adding sr@Latn translation, thanks to Danilo
 
