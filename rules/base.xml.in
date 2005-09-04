@@ -1769,13 +1769,13 @@
         <variant>
           <configItem>
             <name>standard</name>
-            <_description>Romanian standard keyboard</_description>
+            <_description>Standard</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>ms</name>
-            <_description>Romanian keyboard with MS layout</_description>
+            <name>winkeys</name>
+            <_description>Winkeys</_description>
           </configItem>
         </variant>
       </variantList>

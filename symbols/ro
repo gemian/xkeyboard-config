@@ -76,7 +76,7 @@ xkb_symbols "comma" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "standard" {
+xkb_symbols "std" {
     // Primary layout in the new Romanian standard.
     // Implemented here as a variant because of the lack of hardware 
     // Romanian keyboards and because of the predilection of Romanian
