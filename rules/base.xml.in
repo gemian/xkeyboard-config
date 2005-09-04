@@ -1762,13 +1762,13 @@
       <variantList>
         <variant>
           <configItem>
-            <name>us</name>
+            <name>standard</name>
             <_description>Romanian standard keyboard</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>de</name>
+            <name>ms</name>
             <_description>Romanian keyboard with MS layout</_description>
           </configItem>
         </variant>
