@@ -1588,7 +1588,7 @@
         <variant>
           <configItem>
             <name>std</name>
-            <_description>"Standard"</_description>
+            <_description>Standard</_description>
           </configItem>
         </variant>
         <variant>
@@ -1768,7 +1768,7 @@
       <variantList>
         <variant>
           <configItem>
-            <name>standard</name>
+            <name>std</name>
             <_description>Standard</_description>
           </configItem>
         </variant>
