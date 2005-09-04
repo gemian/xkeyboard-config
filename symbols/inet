@@ -2083,6 +2083,10 @@ xkb_symbols "acer_tm_800" {
 // Power G5
 xkb_symbols "power_g5" {
     key <K6C>	{	[ XF86Eject ]    };
+    key <K5D>	{	[ F13 ]    };
+    key <K5E>	{	[ F14 ]    };
+    key <K5F>	{	[ F15 ]    };
+    key <MDSW>	{	[ F16 ]    };
 };
 
 partial alphanumeric_keys
