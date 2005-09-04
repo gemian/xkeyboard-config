@@ -1,5 +1,11 @@
 2005-09-04 svu
 
+	* rules/base.xml.in, symbols/ro:
+	Fixing Romanian, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=371
+
+2005-09-04 svu
+
 	* rules/base.xml.in, symbols/lk:
 	No TSCII/INSCRIPT in Sri Lanka, 
 	according to <hash@jayasolutions.cjb.net>

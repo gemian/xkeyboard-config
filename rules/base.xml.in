@@ -1763,13 +1763,13 @@
         <variant>
           <configItem>
             <name>us</name>
-            <_description>US keyboard with Romanian letters</_description>
+            <_description>Romanian standard keyboard</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>de</name>
-            <_description>Romanian keyboard with German letters</_description>
+            <_description>Romanian keyboard with MS layout</_description>
           </configItem>
         </variant>
       </variantList>
