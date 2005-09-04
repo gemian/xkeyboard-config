@@ -2061,20 +2061,8 @@
         </variant>
         <variant>
           <configItem>
-            <name>tam_INSCRIPT</name>
-            <_description>Tamil INSCRIPT</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>tam_TAB</name>
             <_description>Tamil TAB Typewriter</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>tam_TSCII</name>
-            <_description>Tamil TSCII Typewriter</_description>
           </configItem>
         </variant>
       </variantList>

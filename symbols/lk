@@ -90,18 +90,6 @@ xkb_symbols "tam_unicode" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "tam_INSCRIPT" {
-    include "in(tam)"
-    name[Group1]= "Sri Lanka - Tamil INSCRIPT";
-};
-
-partial alphanumeric_keys
-xkb_symbols "tam_TSCII" {
-    include "in(tam_TSCII)"
-    name[Group1]= "Sri Lanka - Tamil TSCII Typewriter";
-};
-
-partial alphanumeric_keys
 xkb_symbols "tam_TAB" {
     include "in(tam_TAB)"
     name[Group1]= "Sri Lanka - Tamil TAB Typewriter";
