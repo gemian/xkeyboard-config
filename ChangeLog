@@ -1,5 +1,10 @@
 2005-09-04 svu
 
+	* rules/base.xml.in, symbols/inet:
+	adding Power G5
+
+2005-09-04 svu
+
 	* rules/base.xml.in, symbols/ro:
 	Fixing Romanian, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=371

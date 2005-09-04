@@ -2080,6 +2080,10 @@ xkb_symbols "acer_tm_800" {
 // don't generate scancodes. It is possible to map them to whatever user wants.
 };
 
+// Power G5
+xkb_symbols "power_g5" {
+    key <K6C>	{	[ XF86Eject ]    };
+
 partial alphanumeric_keys
 xkb_symbols "cymotionlinux" {
     key <I6A>	{	[	XF86Back		]	};

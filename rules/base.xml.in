@@ -668,6 +668,12 @@
         <_description>Acer TravelMate 800</_description>
       </configItem>
     </model>
+    <model>
+      <configItem>
+        <name>power_g5</name>
+        <_description>Power G5</_description>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>
