@@ -21,7 +21,7 @@ ogham	laptop		ie	ogam
 ogham	is434		ie	ogam_is434
 ogham	is434laptop	ie	ogam_is434
 ori	basic		in	ori
-ro	de		ro	ms
+ro	de		ro	winkeys
 ro	us		ro	standard
 sapmi	basic		no	smi
 sapmi	nodeadkeys	no	smi_nodeadkeys

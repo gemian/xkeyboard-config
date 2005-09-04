@@ -84,7 +84,7 @@ xkb_symbols "standard" {
 
     include "us"
 
-    name[Group1]="Romania - Romanian standard keyboard";
+    name[Group1]="Romania - Standard";
 
     key <TLDE> { [ doublelowquotemark, rightdoublequotemark, grave, asciitilde ] };
     key <AE01> { [ 1,                 exclam,  dead_tilde		  ] };
@@ -135,14 +135,14 @@ xkb_symbols "academic" {
 
 
 partial alphanumeric_keys
-xkb_symbols "ms" {
+xkb_symbols "winkeys" {
     // Describes the differences between a very simple US/ASCII
     // keyboard and a very simple Romanian keybaord
     // Created by Manfred Pohler, <Manfred.Pohler@t-online.de> (C) 2003
 
     include "latin"
 
-    name[Group1]="Romania - Romanian keyboard with MS layout";
+    name[Group1]="Romania - Winkeys";
 
     // Alphanumeric section
     key <TLDE> { [ bracketright, bracketleft            ]       };
