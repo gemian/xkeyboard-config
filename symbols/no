@@ -96,6 +96,8 @@ xkb_symbols "dvorak" {
 
     key <LSGT> { [	oslash,	Ooblique,  bar,	backslash	 ] };
 
+    // fixed https://bugs.freedesktop.org/show_bug.cgi?id=4397
+    include "level3(ralt_switch)"
 };
 
 // based on

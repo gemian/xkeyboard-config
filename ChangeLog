@@ -1,5 +1,11 @@
 2005-09-04 svu
 
+	* symbols/no:
+	fixed no(dvorak), closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=4397
+
+2005-09-04 svu
+
 	* rules/base.xml.in, symbols/inet:
 	adding Power G5
 
