@@ -1,5 +1,11 @@
 2005-09-14 svu
 
+	* symbols/inet, rules/base.xml.in rules/base.lists.part: 
+	Added Cherry CyBo@rd USB-Hub. Thanks to Paul Egan
+	Fixed https://bugs.freedesktop.org/show_bug.cgi?id=4498
+
+2005-09-14 svu
+
 	* symbols/cs: a bit of cleanup by Denis
 
 2005-09-13 svu

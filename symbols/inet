@@ -374,6 +374,30 @@ xkb_symbols "cherrybluea" {
     key <I5F>	{	[ XF86Standby		]	};
 };
 
+// Cherry CyBo@rd USB-Hub
+partial alphanumeric_keys
+xkb_symbols "cherrycyboard" {
+    key <I6A> {   [ XF86Back          ]   };
+    key <I69> {   [ XF86Forward       ]   };
+    key <I68> {   [ XF86Stop          ]   };
+    key <I67> {   [ XF86Reload        ]   };
+    key <FK17>    {   [ XF86Search        ]   };
+    key <I66> {   [ XF86MyComputer    ]   };
+    key <I02> {   [ XF86HomePage      ]   };
+    key <I6C> {   [ XF86Mail          ]   };
+    key <K67> {   [ XF86Terminal      ]   };
+    key <I21> {   [ XF86Calculator    ]   };
+    key <I30> {   [ XF86AudioRaiseVolume  ]   };
+    key <I20> {   [ XF86AudioMute     ]   };
+    key <I2E> {   [ XF86AudioLowerVolume  ]   };
+    key <XFER>    {   [ XF86AudioMedia    ]   };
+    key <I10> {   [ XF86AudioPrev     ]   };
+    key <I19> {   [ XF86AudioNext     ]   };
+    key <I22> {   [ XF86AudioPlay, XF86AudioPause ] };
+    key <I24> {   [ XF86AudioStop     ]   };
+    key <I5F> {   [ XF86Standby       ]   };
+};
+
 
 // Chicony
 
