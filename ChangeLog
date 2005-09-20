@@ -1,5 +1,11 @@
 2005-09-20 svu
 
+	* symbols/br:
+	fixed Brazilian, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=4519
+
+2005-09-20 svu
+
 	* symbols/macintoch_vndr/ch:
 	Updated de_CH, from
 	https://bugs.freedesktop.org/show_bug.cgi?id=4520

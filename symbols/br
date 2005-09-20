@@ -22,6 +22,8 @@ xkb_symbols "abnt2" {
     key <AE06>	{ [         6, dead_diaeresis,  notsign,    diaeresis ]	};
     key <AE12>	{ [     equal,       plus,      section,  dead_ogonek ]	};
 
+    key <AD01>  { [         q,          Q,        slash,        slash ] };   
+    key <AD02>  { [         w,          W,     question,     question ] };   
     key <AD03>	{ [         e,          E,     EuroSign,     EuroSign ]	};
     key <AD04>	{ [         r,          R,   registered,   registered ]	};
     key <AD11>	{ [dead_acute, dead_grave,        acute,        grave ]	};
