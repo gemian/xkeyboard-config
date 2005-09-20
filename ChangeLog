@@ -1,3 +1,8 @@
+2005-09-20 svu
+
+	* symbols/mk, rules/base.xml.in:
+	removing controversal 'FYROM'
+
 2005-09-14 svu
 
 	* symbols/inet, rules/base.xml.in rules/base.lists.part: 
