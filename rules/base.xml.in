@@ -1029,7 +1029,7 @@
         <variant>
           <configItem>
             <name>multi</name>
-            <_description>Multilingual</_description>
+            <_description>Multilingual, first part</_description>
           </configItem>
         </variant>
         <variant>

@@ -170,7 +170,7 @@ xkb_symbols "fr-legacy" {
 partial
 xkb_symbols "multi" {
 
-    name[Group1] = "Canada - Multilingual";
+    name[Group1] = "Canada - Multilingual, first part";
 
     include "ca(fr)"
 

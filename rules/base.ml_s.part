@@ -9,8 +9,6 @@
  $pcmodels      intl   			=       us(%mcompose)
   *		intl			=	us(pc104compose)
   *		jp			=	pc(pc102)+jp(latin)+jp:2
- $pcmodels      ca     			=       pc(%m)+ca(multi)+ca(multi-2gr):2+group(rctrl_switch)
-  *             ca     			=       pc(pc105)+ca(multi)+ca(multi-2gr):2+group(rctrl_switch)
  $pcmodels $nonlatin			=	pc(%m)+us+%l%(v):2
  $pcmodels	*			=	pc(%m)+%l%(v)
   *	   $nonlatin			=	pc(pc105)+us+%l%(v):2
