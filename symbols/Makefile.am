@@ -13,7 +13,7 @@ fr gb ge \
 gr hr hu \
 ie il in \
 ir is it \
-jp kg la \
+jp kg kz la \
 latam latin lk \
 lt lv mao \
 mk mm mn \

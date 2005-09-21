@@ -1,8 +1,8 @@
-2005-09-20 svu
+ 2005-09-21 svu
 
-	* symbols/br:
-	fixed Brazilian, closing
-	https://bugs.freedesktop.org/show_bug.cgi?id=4519
+	* symbols/kz, symbols/Makefile.am, rules/base.xml.in:
+	added Kazakh, fixing
+	https://bugs.freedesktop.org/show_bug.cgi?id=4497
 
 2005-09-20 svu
 

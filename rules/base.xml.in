@@ -1557,6 +1557,27 @@
     </layout>
     <layout>
       <configItem>
+	<name>kz</name>
+	<_shortDescription>Kaz</_shortDescription>
+	<_description>Kazakhstan</_description>
+      </configItem>
+      <variantList>
+	<variant>
+	  <configItem>
+	    <name>cyrkaz</name>
+	    <_description>Cyrillic with Kazakh</_description>
+	  </configItem>
+	</variant>
+	<variant>
+	  <configItem>
+	    <name>kazcyr</name>
+	    <_description>Kazakh with Cyrillic</_description>
+	  </configItem>
+	</variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>la</name>
         <_shortDescription>Lao</_shortDescription>
         <_description>Laos</_description>
