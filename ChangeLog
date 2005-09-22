@@ -1,4 +1,14 @@
- 2005-09-21 svu
+2005-09-21 svu
+
+	* rules/base.xml.in, symbols/kz:
+	change Cyr to Rus
+	
+2005-09-21 svu
+
+	* rules/base.ml_s.part:
+	IMPORTANT: NO MORE 2-GROUP CANADIAN DEFAULT CONFIGURATION
+
+2005-09-21 svu
 
 	* symbols/kz, symbols/Makefile.am, rules/base.xml.in:
 	added Kazakh, fixing

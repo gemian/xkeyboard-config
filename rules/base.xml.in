@@ -1564,14 +1564,14 @@
       <variantList>
 	<variant>
 	  <configItem>
-	    <name>cyrkaz</name>
-	    <_description>Cyrillic with Kazakh</_description>
+	    <name>ruskaz</name>
+	    <_description>Russian with Kazakh</_description>
 	  </configItem>
 	</variant>
 	<variant>
 	  <configItem>
-	    <name>kazcyr</name>
-	    <_description>Kazakh with Cyrillic</_description>
+	    <name>kazrus</name>
+	    <_description>Kazakh with Russian</_description>
 	  </configItem>
 	</variant>
       </variantList>

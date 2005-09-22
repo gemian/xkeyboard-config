@@ -7,7 +7,7 @@
 
 // TODO:
 // 1. AltGr with TLDE and LSGT.
-// 2. Dead key for cyrkaz and kazcyr.
+// 2. Dead key for ruskaz and kazrus.
 // 3. Ctrl + <key>.
 // 4. Alt-Tab.
 
@@ -78,9 +78,9 @@ key.type[group1]="TWO_LEVEL";
 
 // Kikkarin KZ1
 partial alphanumeric_keys
-xkb_symbols "cyrkaz" {
+xkb_symbols "ruskaz" {
 
-    name[Group1] = "Kazakhstan - Cyrillic with Kazakh";
+    name[Group1] = "Kazakhstan - Russian with Kazakh";
 
 key.type[group1] = "FOUR_LEVEL";
 
@@ -139,9 +139,9 @@ key.type[group1] = "FOUR_LEVEL_ALPHABETIC";
 
 // Kikkarin KZ2
 partial alphanumeric_keys
-xkb_symbols "kazcyr" {
+xkb_symbols "kazrus" {
 
-    name[Group1] = "Kazakhstan - Kazakh with Cyrillic";
+    name[Group1] = "Kazakhstan - Kazakh with Russian";
 
 key.type[group1] = "FOUR_LEVEL";
 
