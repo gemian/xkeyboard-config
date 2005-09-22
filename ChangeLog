@@ -1,5 +1,11 @@
 2005-09-22 svu
 
+	* rules/base.xml.in, rules/base.o_s.part, symbols/compose:
+	adding CapsLock as Compose, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=4548
+
+2005-09-22 svu
+
 	* rules/Makefile.am, rules/merge.sh
 	fixing merging in env where srcdir != objdir, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=4547

@@ -2672,6 +2672,12 @@
           <_description>Right Ctrl is Compose.</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>compose:caps</name>
+          <_description>Caps Lock is Compose.</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <configItem>
