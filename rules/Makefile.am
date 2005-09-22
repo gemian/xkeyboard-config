@@ -58,7 +58,7 @@ lst_files = base.lst
 	perl $(srcdir)/xml2lst.pl < $< > $@
 
 base: $(base_parts)
-	$(srcdir)/merge.sh $@ $+
+	HDR="$(srcdir)/HDR" $(srcdir)/merge.sh $@ $+
 
 all_rules_files = $(rules_files) $(lst_files) \
 xkb.dtd README

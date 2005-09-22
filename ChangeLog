@@ -1,4 +1,10 @@
-2005-09-21 svu
+2005-09-22 svu
+
+	* rules/Makefile.am, rules/merge.sh
+	fixing merging in env where srcdir != objdir, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=4547
+	
+2005-09-22 svu
 
 	* rules/base.xml.in, symbols/kz:
 	change Cyr to Rus
