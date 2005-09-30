@@ -1,5 +1,10 @@
 2005-09-30 svu
 
+	* rules/compat/layoutRename.lst:
+	added us_intl, fixed https://bugs.freedesktop.org/show_bug.cgi?id=4642
+
+2005-09-30 svu
+
 	* po/sl.po:
 	Slovenian translation
 
