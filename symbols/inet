@@ -2142,3 +2142,29 @@ xkb_symbols "cymotionlinux" {
     key <AE13>	{	[	Redo			]	};
     key <I07>	{	[	Undo			]	};
 };
+
+partial alphanumeric_keys 
+xkb_symbols "silvercrest" {
+    name[Group1]= "SILVERCREST Multimedia Wireless Keyboard";
+
+    // Media keys
+    key <I20>	{	[ XF86AudioMute		]	};
+    key <I6D>	{	[ XF86AudioMedia	]	};
+    key <I2E>	{	[ XF86AudioLowerVolume	]	};
+    key <I30>	{	[ XF86AudioRaiseVolume	]	};
+    key <I22>	{	[ XF86AudioPlay, XF86AudioPause ] };
+    key <I24>	{	[ XF86AudioStop		]	};
+    key <I10>	{	[ XF86AudioPrev		]	};
+    key <I19>	{	[ XF86AudioNext		]	};
+
+    // Top
+    key <I6C>	{	[ XF86Mail		]	};    
+    key <I66>	{	[ XF86Favorites		]	};    
+    key <I02>	{	[ XF86HomePage		]	};    
+    key <I6A>	{	[ XF86Back		]	};    
+    key <I69>	{	[ XF86Go		]	};
+    key <K67>	{	[ XF86Launch1		]	};
+    key <I21>	{	[ XF86Launch2		]	};
+    key <I5F>	{	[ XF86Standby		]	};
+
+};

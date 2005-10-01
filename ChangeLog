@@ -1,3 +1,9 @@
+2005-10-01 svu
+
+	* rules/base.xml.in, symbols/inet, rules/base.lists.part:
+	Added SILVERCREST Multimedia Wireless Keyboard, closed
+	https://bugs.freedesktop.org/show_bug.cgi?id=4217
+
 2005-09-30 svu
 
 	* rules/compat/layoutRename.lst:

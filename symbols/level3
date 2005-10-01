@@ -17,6 +17,17 @@ xkb_symbols "ralt_switch" {
   modifier_map Mod5   { ISO_Level3_Shift };
 };
 
+// special case or right Alt switch - for use with grp:alts_toggle
+//
+partial hidden modifier_keys
+xkb_symbols "ralt_switch_for_alts_toggle" {
+  key <RALT> {
+    type[Group1]="PC_SYSRQ",
+    symbols[Group1] = [ ISO_Level3_Shift, ISO_Next_Group ]
+    };
+  modifier_map Mod5   { ISO_Level3_Shift };
+};
+
 // using the level(alt_switch) map, either Alt key temporarily chooses
 // the third shift level.  (Mostly be used to imitate Mac OS functionality.)
 partial modifier_keys

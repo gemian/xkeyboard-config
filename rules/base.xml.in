@@ -680,6 +680,12 @@
         <_description>Power G5</_description>
       </configItem>
     </model>
+    <model>
+      <configItem>
+        <name>silvercrest</name>
+        <_description>SILVERCREST Multimedia Wireless Keyboard</_description>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>
