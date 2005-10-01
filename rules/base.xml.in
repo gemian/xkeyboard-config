@@ -1161,6 +1161,12 @@
             <_description>Eliminate dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <_description>Dvorak</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
