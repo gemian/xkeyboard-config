@@ -37,3 +37,26 @@
               samsung4500 samsung4510 \
               sk1300 sk2500 sk6200 sk7100 sp_inet \
               sven symplon toshiba_s3000 trust trustda yahoo
+
+// all layouts with 3rd and 4th groups
+! $threelevellayouts = al az \
+              be br bt \
+              ca ch cs cz \
+              de dk \
+              ee es \
+              fi fo fr \
+              gb gr \
+              hu \
+              ie ir is it \
+              kg \
+              latam \
+              lk lt \
+              mn mt \
+              nl no \
+              pl pt \
+              ro \
+              se sk \
+              tr \
+              us \
+              vn
+
