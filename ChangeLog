@@ -1,5 +1,20 @@
 2005-10-02 svu
 
+	* rules/Makefile.am, rules/HDR, 
+	rules/base.l1o_s.part, rules/base.l2o_s.part,
+	rules/base.l3o_s.part, rules/base.l4o_s.part:
+	adding "layout + option -> symbols" rules,
+	for properly maingating RAlt as AltGr + alts_toggle
+	IMPORTANT: REQUIRES FIXING XORG
+
+2005-10-02 svu
+
+	* rules/base.xml.in, symbols/ee:
+	added Estonian Dvorak, closed
+	https://bugs.freedesktop.org/show_bug.cgi?id=4568
+
+2005-10-02 svu
+
 	* rules/base.xml.in, symbols/inet, rules/base.lists.part:
 	Added eMachines m68xx notebooks keyboards, closed
 	https://bugs.freedesktop.org/show_bug.cgi?id=4000

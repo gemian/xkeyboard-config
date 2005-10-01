@@ -37,6 +37,7 @@ HDR compat/base.l3v3_s.part \
 HDR compat/base.l4v4_s.part \
 HDR base.m_s.part  HDR base.ml_c.part        HDR base.ml1_c.part \
 HDR base.m_t.part \
+HDR base.l1o_s.part HDR base.l2o_s.part HDR base.l3o_s.part HDR base.l4o_s.part \
 HDR compat/base.o_s.part base.o_s.part \
 HDR base.o_c.part HDR base.o_t.part
 else
@@ -47,6 +48,7 @@ HDR base.ml1_s.part HDR \
 HDR base.l2_s.part  HDR base.l3_s.part  HDR base.l4_s.part HDR HDR HDR \
 HDR base.m_s.part   HDR base.ml_c.part  HDR base.ml1_c.part \
 HDR base.m_t.part \
+HDR base.l1o_s.part HDR base.l2o_s.part HDR base.l3o_s.part HDR base.l4o_s.part \
 HDR base.o_s.part   HDR base.o_c.part   HDR base.o_t.part
 endif
 
