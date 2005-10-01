@@ -2145,8 +2145,6 @@ xkb_symbols "cymotionlinux" {
 
 partial alphanumeric_keys 
 xkb_symbols "silvercrest" {
-    name[Group1]= "SILVERCREST Multimedia Wireless Keyboard";
-
     // Media keys
     key <I20>	{	[ XF86AudioMute		]	};
     key <I6D>	{	[ XF86AudioMedia	]	};
@@ -2173,8 +2171,6 @@ xkb_symbols "silvercrest" {
 
 partial alphanumeric_keys
 xkb_symbols "emachines" {
-    name[Group1]= "Laptop/notebook eMachines m68xx";
-
     key <I2E>  {  [ XF86AudioLowerVolume          ]  };
     key <I6D>  {  [ XF86AudioMedia                ]  };
     key <I30>  {  [ XF86AudioRaiseVolume          ]  };
