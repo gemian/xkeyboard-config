@@ -686,6 +686,12 @@
         <_description>SILVERCREST Multimedia Wireless Keyboard</_description>
       </configItem>
     </model>
+    <model>
+      <configItem>
+        <name>emachines</name>
+        <_description>Laptop/notebook eMachines m68xx</_description>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>

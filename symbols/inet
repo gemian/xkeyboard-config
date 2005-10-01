@@ -2168,3 +2168,38 @@ xkb_symbols "silvercrest" {
     key <I5F>	{	[ XF86Standby		]	};
 
 };
+
+// eMachines
+
+partial alphanumeric_keys
+xkb_symbols "emachines" {
+    name[Group1]= "Laptop/notebook eMachines m68xx";
+
+    key <I2E>  {  [ XF86AudioLowerVolume          ]  };
+    key <I6D>  {  [ XF86AudioMedia                ]  };
+    key <I30>  {  [ XF86AudioRaiseVolume          ]  };
+    key <I20>  {  [ XF86AudioMute                 ]  };
+    key <I6C>  {  [ XF86Mail                      ]  };
+    key <I32>  {  [ XF86iTouch                    ]  };
+    key <I65>  {  [ XF86Search                    ]  };
+    key <I5F>  {  [ XF86Sleep                     ]  };
+    key <I22>  {  [ XF86AudioPlay, XF86AudioPause ]  };
+    key <I24>  {  [ XF86AudioStop                 ]  };
+    key <I10>  {  [ XF86AudioPrev                 ]  };
+    key <I19>  {  [ XF86AudioNext                 ]  };
+    key <KP0>  {  [ KP_0                          ]  };
+    key <KP1>  {  [ KP_1                          ]  };
+    key <KP2>  {  [ KP_2                          ]  };
+    key <KP3>  {  [ KP_3                          ]  };
+    key <KP4>  {  [ KP_4                          ]  };
+    key <KP5>  {  [ KP_5                          ]  };
+    key <KP6>  {  [ KP_6                          ]  };
+    key <KP7>  {  [ KP_7                          ]  };
+    key <KP8>  {  [ KP_8                          ]  };
+    key <KP9>  {  [ KP_9                          ]  };
+    key <KPDL> {  [ KP_Decimal                    ]  };
+    key <KPAD> {  [ KP_Add                        ]  };
+    key <KPSU> {  [ KP_Subtract                   ]  };
+    key <KPMU> {  [ KP_Multiply                   ]  };
+    key <KPDV> {  [ KP_Divide                     ]  };
+};

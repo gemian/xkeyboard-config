@@ -1,3 +1,9 @@
+2005-10-02 svu
+
+	* rules/base.xml.in, symbols/inet, rules/base.lists.part:
+	Added eMachines m68xx notebooks keyboards, closed
+	https://bugs.freedesktop.org/show_bug.cgi?id=4000
+
 2005-10-01 svu
 
 	* rules/base.xml.in, symbols/inet, rules/base.lists.part:
