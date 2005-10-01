@@ -58,7 +58,7 @@ xkb_symbols "nodeadkeys" {
 
 // Dvorak with Estonian characters
 partial alphanumeric_keys
-xkb_symbols "ee" {
+xkb_symbols "dvorak" {
    include "us(dvorak)"
    name[Group1]= "Estonia - Dvorak";
    
