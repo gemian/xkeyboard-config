@@ -286,6 +286,12 @@
     </model>
     <model>
       <configItem>
+        <name>geniuscomfy</name>
+        <_description>Genius Comfy KB-12e</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>geniuscomfy2</name>
         <_description>Genius Comfy KB-21e-Scroll</_description>
       </configItem>

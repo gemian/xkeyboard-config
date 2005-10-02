@@ -1,5 +1,12 @@
 2005-10-02 svu
 
+	* rules/base.lists.part, rules/base.xml.in, 
+	symbols/inet:
+	adding Genius Comfy, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=2275
+
+2005-10-02 svu
+
 	* rules/Makefile.am, rules/HDR, 
 	rules/base.l1o_s.part, rules/base.l2o_s.part,
 	rules/base.l3o_s.part, rules/base.l4o_s.part:

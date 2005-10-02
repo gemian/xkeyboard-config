@@ -712,33 +712,45 @@ xkb_symbols "genius" {
     key <I63>   {	[ XF86WakeUp		]	};
 };
 
-// GeniusComfy21e
+
 partial alphanumeric_keys
-xkb_symbols "geniuscomfy2" {
-    // From Radics Laszlo <garaboncias@mailbox.hu>
-    // Describes the extra keys on a Genius Comfy KB-21e-Scroll
-    key <I10>   {       [ XF86AudioPrev         ]       };
-    key <I13>   {       [ XF86Word              ]       };
-    key <I14>   {       [ XF86Excel             ]       };
-    key <I19>   {       [ XF86AudioNext         ]       };
-    key <I20>   {       [ XF86AudioMute         ]       };
+xkb_symbols "geniuscomfy" {
+    // From Jurica Vukadin <jura@webit.hr>
+    // Describes the extra keys on a Genius Comfy KB-12e
+
     key <I2E>   {       [ XF86AudioLowerVolume  ]       };
     key <I21>   {       [ XF86Calculator        ]       };
     key <I22>   {       [ XF86AudioPlay, XF86AudioPause ]       };
-    key <I23>   {       [ Return                ]       };
     key <I24>   {       [ XF86AudioStop         ]       };
     key <I30>   {       [ XF86AudioRaiseVolume  ]       };
-    key <I32>   {       [ XF86HomePage          ]       };
+    key <I32>   {       [ XF86WWW	        ]       };
     key <I5F>   {       [ XF86Sleep             ]       };
-    key <I65>   {       [ XF86Search            ]       };
-    key <I66>   {       [ XF86Favorites         ]       };
-    key <I67>   {       [ XF86Refresh           ]       };
-    key <I68>   {       [ XF86Stop              ]       };
     key <I69>   {       [ XF86Forward           ]       };
     key <I6A>   {       [ XF86Back              ]       };
     key <I6B>   {       [ XF86MyComputer        ]       };
     key <I6C>   {       [ XF86Mail              ]       };
     key <I6D>   {       [ XF86AudioMedia        ]       };
+};
+
+
+// GeniusComfy21e
+partial alphanumeric_keys
+xkb_symbols "geniuscomfy2" {
+    // From Radics Laszlo <garaboncias@mailbox.hu>
+    // Describes the extra keys on a Genius Comfy KB-21e-Scroll
+
+    include "inet(geniuscomfy)"
+
+    key <I10>   {       [ XF86AudioPrev         ]       };
+    key <I13>   {       [ XF86Word              ]       };
+    key <I14>   {       [ XF86Excel             ]       };
+    key <I19>   {       [ XF86AudioNext         ]       };
+    key <I20>   {       [ XF86AudioMute         ]       };
+    key <I23>   {       [ Return                ]       };
+    key <I65>   {       [ XF86Search            ]       };
+    key <I66>   {       [ XF86Favorites         ]       };
+    key <I67>   {       [ XF86Refresh           ]       };
+    key <I68>   {       [ XF86Stop              ]       };
 };
 
 
