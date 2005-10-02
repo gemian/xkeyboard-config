@@ -1,5 +1,11 @@
 2005-10-02 svu
 
+	* symbols/se:
+	updating svorak, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=3635
+
+2005-10-02 svu
+
 	* rules/base.lists.part, rules/base.xml.in, 
 	symbols/inet:
 	adding Genius Comfy, closing

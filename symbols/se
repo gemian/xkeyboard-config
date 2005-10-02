@@ -51,28 +51,46 @@ xkb_symbols "nodeadkeys" {
 // Swedish Dvorak
 partial alphanumeric_keys 
 xkb_symbols "dvorak" {
-    include "no(dvorak)"
 
     name[Group1]="Sweden - Dvorak";
 
-    key <TLDE> { [     section,	onehalf		]	};
+    include "se(basic)"
 
-    key <AE04> { [	    4,	currency,   dollar,    onequarter	] };
-    key <AE11> { [        plus,	question,   backslash, questiondown	] };
-    key <AE12> { [  dead_acute, dead_grave, backslash, grave		] };
+    key <AD01> { [     aring,      Aring,    backslash		     ]	};
+    key <AD02> { [  adiaeresis,	Adiaeresis,  braceleft,  bracketleft ]	};
+    key <AD03> { [ odiaeresis, Odiaeresis,  braceright, bracketright ]	};
+    key <AD04> { [         p,          P,        thorn,        THORN ]	};
+    key <AD05> { [         y,          Y,    leftarrow,          yen ]	};
+    key <AD06> { [         f,          F,      dstroke,  ordfeminine ]	};
+    key <AD07> { [         g,          G,          eng,          ENG ]	};
+    key <AD08> { [         c,          C,    copyright,    copyright ]	};
+    key <AD09> { [         r,          R,   registered,   registered ]	};
+    key <AD10> { [         l,          L,      lstroke,      Lstroke ]	};
+    key <AD11> { [     comma,  semicolon, dead_cedilla,  dead_ogonek ]	};
+    key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde,	asciicircum	]	};
 
-    key <AD01> { [  odiaeresis,  Odiaeresis, braceright, bracketright	] };
-    key <AD02> { [       aring,	Aring	  	]	};
-    key <AD03> { [  adiaeresis,	Adiaeresis	]	};
-    key <AD11> { [           q,	Q       	]	};
-    key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde, asciicircum ] };
+    key <AC01> { [         a,          A,           ae,           AE ]	};
+    key <AC02> { [         o,          O,           oe,           OE ]	};
+    key <AC03> { [         e,          E,     EuroSign,         cent ]	};
+    key <AC04> { [         u,          U,    downarrow,      uparrow ]	};
+    key <AC05> { [         i,          I,   rightarrow,     idotless ]	};
+    key <AC06> { [         d,          D,          eth,          ETH ]	};
+    key <AC07> { [         h,          H,      hstroke,      Hstroke ]	};
+    key <AC08> { [         t,          T,       tslash,       Tslash ]	};
+    key <AC09> { [         n,          N ]	};
+    key <AC10> { [         s,          S,       ssharp,      section ]	};
+    key <AC11> { [     minus, underscore, dead_belowdot, dead_abovedot ] };
 
-    key <AB01> { [     comma,    semicolon, dead_cedilla, cedilla	] };
-    key <AB02> { [    period,    colon,     periodcentered		] };
-
-    key <BKSL> { [      less,	greater,    bar,	brokenbar	] };
-
-    key <LSGT> { [ apostrophe,   asterisk,  bar,	backslash	] };
+    key <AB01> { [    period,   colon, periodcentered, dead_abovedot ]	};
+    key <AB02> { [         q,          Q,           at,  Greek_OMEGA ]	};
+    key <AB03> { [         j,          J ]	};
+    key <AB04> { [         k,          K,          kra,    ampersand ]	};
+    key <AB05> { [         x,          X, guillemotright,    greater ]	};
+    key <AB06> { [         b,          B, rightdoublequotemark, apostrophe ] };
+    key <AB07> { [         m,          M,           mu,    masculine ]	};
+    key <AB08> { [         w,          W,      lstroke,      Lstroke ]	};
+    key <AB09> { [         v,          V, leftdoublequotemark, grave ]	};
+    key <AB10> { [         z,          Z, guillemotleft,        less ]	};
 };
 
 // Ivan Popov, 2005-07-17
