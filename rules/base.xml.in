@@ -823,6 +823,12 @@
             <_description>Winkeys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>latin</name>
+            <_description>Latin</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
