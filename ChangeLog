@@ -1,3 +1,8 @@
+2005-10-04 svu
+
+	* symbols/gr: added keypad(comma), closed
+	https://bugs.freedesktop.org/show_bug.cgi?id=3538
+
 2005-10-02 svu
 
 	* symbols/se:
