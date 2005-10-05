@@ -141,7 +141,7 @@ xkb_symbols "dvorak" {
     key <AE12> { [ less, greater, dead_grave ] };
 
     key <AD01> { [ udiaeresis, Udiaeresis, at ] };
-    key <AD02> { [ comma, semicolon, dead_diaresis ] };
+    key <AD02> { [ comma, semicolon, dead_diaeresis ] };
     key <AD03> { [ period, colon ] };
     key <AD08> { [ c, C, copyright, Cacute ] };
     key <AD09> { [ t, T, trademark ] };
