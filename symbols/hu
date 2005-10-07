@@ -23,29 +23,29 @@
 // Default layout
 default partial
 xkb_symbols "basic" {
-include "hu(102_qwertz_comma_dead)"
-name[Group1] = "Hungary";
+    include "hu(102_qwertz_comma_dead)"
+    name[Group1] = "Hungary";
 };
 
 // Standard layout
 partial
 xkb_symbols "standard" {
-include "hu(102_qwertz_comma_dead)"
-name[Group1] = "Hungary - Standard";
+    include "hu(102_qwertz_comma_dead)"
+    name[Group1] = "Hungary - Standard";
 };
 
 // Standard layout without dead key support
 partial
 xkb_symbols "nodeadkeys" {
-include "hu(102_qwertz_comma_nodead)"
-name[Group1] = "Hungary - Eliminate dead keys";
+    include "hu(102_qwertz_comma_nodead)"
+    name[Group1] = "Hungary - Eliminate dead keys";
 };
 
 // Qwerty layout
 partial
 xkb_symbols "qwerty" {
-include "hu(101_qwerty_comma_dead)"
-name[Group1] = "Hungary - qwerty";
+    include "hu(101_qwerty_comma_dead)"
+    name[Group1] = "Hungary - qwerty";
 };
 
 // Main layouts
@@ -56,14 +56,14 @@ name[Group1] = "Hungary - qwerty";
 // and with dead key support
 partial
 xkb_symbols "101_qwertz_comma_dead" {
-name[Group1] = "Hungary - 101/qwertz/comma/Dead keys";
-include "latin"
-include "hu(def_101)"
-include "hu(def_qwertz)"
-include "keypad(comma)"
-include "hu(def_dead)"
-include "hu(def_common)"
-include "level3(ralt_switch)"
+    name[Group1] = "Hungary - 101/qwertz/comma/Dead keys";
+    include "latin"
+    include "hu(def_101)"
+    include "hu(def_qwertz)"
+    include "keypad(comma)"
+    include "hu(def_dead)"
+    include "hu(def_common)"
+    include "level3(ralt_switch)"
 };
 
 // 101_qwertz_comma_nodead
@@ -188,7 +188,7 @@ xkb_symbols "102_qwertz_comma_dead" {
     include "latin"
     include "hu(def_102)"
     include "hu(def_qwertz)"
-    include "hu(def_comma)"
+    include "keypad(comma)"
     include "hu(def_dead)"
     include "hu(def_common)"
     include "level3(ralt_switch)"
@@ -204,7 +204,7 @@ xkb_symbols "102_qwertz_comma_nodead" {
     include "latin"
     include "hu(def_102)"
     include "hu(def_qwertz)"
-    include "hu(def_comma)"
+    include "keypad(comma)"
     include "hu(def_nodead)"
     include "hu(def_common)"
     include "level3(ralt_switch)"
@@ -252,7 +252,7 @@ xkb_symbols "102_qwerty_comma_dead" {
     include "latin"
     include "hu(def_102)"
     include "hu(def_qwerty)"
-    include "hu(def_comma)"
+    include "keypad(comma)"
     include "hu(def_dead)"
     include "hu(def_common)"
     include "level3(ralt_switch)"
@@ -268,7 +268,7 @@ xkb_symbols "102_qwerty_comma_nodead" {
     include "latin"
     include "hu(def_102)"
     include "hu(def_qwerty)"
-    include "hu(def_comma)"
+    include "keypad(comma)"
     include "hu(def_nodead)"
     include "hu(def_common)"
     include "level3(ralt_switch)"
@@ -321,7 +321,7 @@ xkb_symbols "def_102" {
 // An alternative layout for 101 key keyboards
 hidden partial alphanumeric_keys
 xkb_symbols "def_101" {
-    key <TLDE>  { [       iacute,       Iacute,                  0,        section ] };
+    key <TLDE>  { [       iacute,       Iacute,                 0,         section ] };
     key <LSGT>  { [         less,      greater                                     ] };
 };
 
@@ -346,17 +346,8 @@ xkb_symbols "def_qwerty" {
 // The Hungarian standard is the comma on the keypad not decimal dot
 hidden partial keypad_keys
 xkb_symbols "def_comma" {
-   key  <KPDL> { [     KP_Delete,   comma            ]       };
+   key  <KPDL> { [     KP_Delete, KP_Separator                                     ] };
 };
-
-// def_dot:
-// The Hungarian standard is the comma on the keypad not decimal dot,
-// but programmers hate it
-hidden partial keypad_keys
-xkb_symbols "def_dot" {
-    key <KPDL>  { [    KP_Delete,   KP_Decimal                                     ] };
-};
-
 
 // def_dead:
 // Dead keys support part

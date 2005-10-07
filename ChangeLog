@@ -1,3 +1,8 @@
+2005-10-07 svu
+
+	* symbols/hu: fixed comma issue, closed
+	https://bugs.freedesktop.org/show_bug.cgi?id=4693
+
 2005-10-04 svu
 
 	* symbols/by, rules/base.xml.in: added by(latin), closed
