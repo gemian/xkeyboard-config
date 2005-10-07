@@ -170,4 +170,5 @@ xkb_symbols "dvorak" {
 
     key <LSGT> { [ adiaeresis, Adiaeresis, bar ] };
 
+    include "level3(ralt_switch)"
 };
