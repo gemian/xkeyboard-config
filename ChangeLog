@@ -1,3 +1,8 @@
+2005-10-09 svu
+
+	* symbols/inet: expanded Inspiron definition, closed
+	https://bugs.freedesktop.org/show_bug.cgi?id=4071
+
 2005-10-07 svu
 
 	* symbols/hu: fixed comma issue, closed
