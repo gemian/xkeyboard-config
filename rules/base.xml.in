@@ -2307,6 +2307,13 @@
       </configItem>
       <variantList/>
     </layout>
+    <layout>
+       <configItem>
+        <name>za</name>
+        <_shortDescription>Zar</_shortDescription>
+        <_description>South Africa</_description>
+      </configItem>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">

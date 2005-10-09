@@ -1,3 +1,8 @@
+2005-10-10 svu
+
+	* symbols/za, rules/base.xml.in: added South Afrika, closed
+	https://bugs.freedesktop.org/show_bug.cgi?id=2856
+
 2005-10-09 svu
 
 	* symbols/inet: expanded Inspiron definition, closed
