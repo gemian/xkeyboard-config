@@ -1,99 +1,218 @@
-// $XConsortium: macintosh /main/10 1996/01/29 19:54:54 kaleb $
+// Marc.Shapiro@inria.fr 19-sep-1998
+// modifications : Etienne Herlent <eherlent@linux-france.org> june 2000
+// adapted to the new input layer :
+//        Martin Costabel <costabel@wanadoo.fr> 3-jan-2001
+// adapted for Latin9 alphabet (ISO-8859-15): 
+//        Etienne Herlent <eherlent@linux-france.org> march 2005
+
+// This map is an almost-complete mapping of the standard French
+// MacIntosh keyboard under Xwindows.  I tried to remain as faithful
+// as possible to the Mac meaning of each key.	I did this entirely by
+// hand and by intuition, relying on the Clavier (Keyboard?) Desktop
+// Accessory for the Mac meaning of keys, and on reading keysymdef.h
+// to intuit the corresponding X names.	 Lacking proper documentation,
+// I may have made some mistakes.
+
+// Entries marked CHECK are particularly uncertain
+
+// Entries marked MISSING mark Mac characters for which I was unable
+// to find a corresponding keysym.  (Some for sure don't: e.g. the
+// Apple mark and the oe/OE character; others I may have simply not
+// found.)
 
 xkb_symbols "extended" {
 
     name[Group1]= "FR-1";
+    key <ESC>  {	[ Escape			]	};
 
     // Alphanumeric section
-    key <LSGT> {	[        less,	  greater   	]	};
-    key <TLDE> {        [        at,    numbersign      ],
-                        [   periodcentered              ]	};
-    key <AE01> {	[   ampersand,	  1    		],
-	 					[   dead_acute,   dead_acute] };
-    key <AE02> {	[      eacute,	  2 		]	};
-    key <AE03> {	[    quotedbl,	  3         	]	};
-    key <AE04> {	[  quoteright,	  4    		],
-                        [   quoteleft                   ]	};
-    key <AE05> {	[   parenleft,	  5    		],
-              	        [   braceleft,    bracketleft 	]	};
-    key <AE06> {	[     section,	  6          	],
-                        [   paragraph                   ]	};
-    key <AE07> {	[      egrave,	  7        	],
-                        [ guillemotleft, guillemotright ]	};
-    key <AE08> {	[      exclam,	  8       	],
-                        [  exclamdown,    Ucircumflex   ]	};
-    key <AE09> {	[    ccedilla,    9        	],
-                        [    Ccedilla,    Aacute        ]	};
-    key <AE10> {	[      agrave,	  0         	],
-                        [      oslash,    Ooblique      ]	};
-    key <AE11> {	[  parenright,	  degree       	],
-                	[  braceright,	  bracketright  ] 	};
-    key <AE12> {	[       minus, 	  underscore	]	};
+    key <TLDE> {	[	   at,	  numbersign	],
+			[periodcentered,  Ydiaeresis	]	}; // MISSING: Ydiaeresis; eherlent : ok in Latin9
+    key <ENTR> {        [    KP_Enter                   ]       };
+    key <AE01> {	[   ampersand,	  1		],
+			[  VoidSymbol,	  dead_acute	]	}; // MISSING: Apple
+    key <AE02> {	[      eacute,	  2		],
+			[  ediaeresis,	  Eacute	]	};
+    key <AE03> {	[    quotedbl,	  3		],
+			[  VoidSymbol,    VoidSymbol	] 	}; // CHECK all quotemarks
+    key <AE04> {	[  apostrophe,	  4		],
+			[  VoidSymbol,	  VoidSymbol	] 	};
+    key <AE05> {	[   parenleft,	  5		],
+			[   braceleft,	  bracketleft	]	};
+    key <AE06> {	[     section,	  6		],	// CHECK section
+			[   paragraph,	  aring		]	};
+    key <AE07> {	[      egrave,	  7		],
+			[guillemotleft,	  guillemotright]	};
+    key <AE08> {	[      exclam,	  8		],
+			[  exclamdown,	  Ucircumflex	]	};
+    key <AE09> {	[    ccedilla,	  9		],
+			[    Ccedilla,	  Aacute	]	};
+    key <AE10> {	[      agrave,	  0		],
+			[      oslash,	  VoidSymbol	]	}; // MISSING: Oslash
+    key <AE11> {	[  parenright,	  degree	],
+			[  braceright,	  bracketright	]	};
+    key <AE12> {	[	minus,	  underscore	],
+			[      emdash,	  endash	]	}; // CHECK dashes
+    key <BKSP> {	[   BackSpace,    VoidSymbol	],
+			[      Delete,	  VoidSymbol	]	};
 
-    key <AD01> {	[	    a,	A 		],
-                	[          ae,	AE              ] 	};
+    key	 <TAB> {	[	  Tab,	ISO_Left_Tab	]	};
+    key <AD01> {	[	    a,	A		],
+			[	   ae,	AE		]	};
     key <AD02> {	[	    z,	Z		],
-                	[ Acircumflex,	Aring           ] 	};
+			[ Acircumflex,	Aring		]	};
     key <AD03> {	[	    e,	E		],
-                	[ ecircumflex,	Ecircumflex     ] 	};
+			[ ecircumflex,	Ecircumflex	]	};
     key <AD04> {	[	    r,	R		],
-                	[  registered,	currency        ] 	};
-    key <AD05> {	[	    t,	T		]	};
+			[  registered,	currency	]	};
+    key <AD05> {	[	    t,	T		],
+			[  VoidSymbol,	VoidSymbol	]	};
     key <AD06> {	[	    y,	Y		],
-                	[      Uacute,	ydiaeresis      ] 	};
-    key <AD07> {	[	    u,	U		]	};
+			[      Uacute,  Ydiaeresis	]	}; // MISSING: Ydiaeresis; eherlent : ok in Latin9
+    key <AD07> {	[	    u,	U		],
+			[  VoidSymbol,	ordfeminine	]	}; // MISSING: ordmasculine?
     key <AD08> {	[	    i,	I		],
-                	[ icircumflex,	idiaeresis      ] 	};
-    key <AD09> {	[	    o,	O		]	};
-    key <AD10> {	[	    p,	P		]	};
-    key <AD11> {	[ dead_circumflex,  dead_diaeresis  ],
-                	[ ocircumflex,	Ocircumflex     ] 	};
-    key <AD12> {	[      dollar,	asterisk        ],
-                	[       comma,	yen             ] 	};
-    key <BKSL> {	[   	dead_grave,  sterling        ],
-			[          at,  numbersign      ]	};
+			[ icircumflex,	idiaeresis	]	};
+    key <AD09> {	[	    o,	O		],
+			[          oe,	OE      	]	}; // MISSING: oe, OE lacking in Latin1; eherlent ok in Latin9
+    key <AD10> {	[	    p,	P		],
+			[  VoidSymbol,  VoidSymbol	]	};
+    key <AD11> {	[dead_circumflex,dead_diaeresis	],
+			[ ocircumflex, Ocircumflex	]	};
+    key <AD12> {	[      dollar,	asterisk	],
+			[  EuroSign, yen		]	}; // eherlent : EuroSign in Latin9
 
-    key <AC01> {	[	  q,	Q 		]	,
-                	[ acircumflex,	Acircumflex     ] 	};
+    key <CAPS> {	[	Caps_Lock		]	};
+    key <AC01> {	[	  q,	Q		],
+			[acircumflex,	Agrave		]	};
     key <AC02> {	[	  s,	S		],
-			[    Ograve,    S               ]	};
-    key <AC03> {	[	  d,	D		]	};
+			[    Ograve,	VoidSymbol	]	};
+    key <AC03> {	[	  d,	D		],
+			[VoidSymbol,	VoidSymbol	]	};
     key <AC04> {	[	  f,	F		],
-			[         f,    periodcentered  ]	};
-    key <AC05> {	[	  g,	G		]	};
+			[VoidSymbol,	periodcentered	]	}; // MISSING: oblong script f??
+    key <AC05> {	[	  g,	G		],
+			[VoidSymbol,	VoidSymbol	]	}; // MISSING: kerned fi, fl
     key <AC06> {	[	  h,	H		],
-			[    Igrave,    Icircumflex     ]	};
+			[    Igrave,	Icircumflex	]	};
     key <AC07> {	[	  j,	J		],
-			[ Idiaeresis,   Iacute          ]	};
+			[Idiaeresis,	Iacute		]	};
     key <AC08> {	[	  k,	K		],
-			[    Egrave,    Ediaeresis      ]	};
+			[   Egrave,	Ediaeresis	]	};
     key <AC09> {	[	  l,	L		],
-			[    ssharp,    bar		]	};
-    key <AC10> {	[         m,	M    		],
-			[        mu,    Oacute		]	};
-    key <AC11> {	[    ugrave,	percent 	],
-			[    Ugrave,    ucircumflex	]	};
-    key <RTRN> {	[    Return,	Return		],
-			[    hyphen,    hyphen		]	};
+			[   notsign,	bar		]	};
+    key <AC10> {	[	  m,	M		],
+			[  	 mu,	Oacute		]	};
+    key <AC11> {	[    ugrave,	percent		],
+			[    Ugrave,	ucircumflex	]	}; // MISSING: per-mille
+    key <BKSL> {	[ dead_grave,	sterling	],
+			[	 at,	numbersign	]	};
+    key <RTRN> {	[    Return			]	};
 
-    key <AB01> {	[	  w,	W 		]	};
-    key <AB02> {	[	  x,	X		]	};
+    key <LSGT> {	[	 less,	  greater	],
+			[VoidSymbol, 	VoidSymbol	]	};
+    key <AB01> {	[	  w,	W		],
+			[VoidSymbol,	VoidSymbol	]	};	// MISSING: half-guillemot (single angle bracket)
+    key <AB02> {	[	  x,	X		],
+			[VoidSymbol,	VoidSymbol	]	}; // CHECK similarequal; MISSING: extra-slanted slash
     key <AB03> {	[	  c,	C		],
-			[ copyright,    copyright	]	};
-    key <AB04> {	[	  v,	V		]	};
-    key <AB05> {	[	  b,	B		]	};
+			[ copyright,	cent		]	};
+    key <AB04> {	[	  v,	V		],
+			[   diamond,	leftradical	]	}; // CHECK diamond, leftradical
+    key <AB05> {	[	  b,	B		],
+			[    ssharp,    VoidSymbol	]	}; // CHECK: Greek_beta or ssharp?; MISSING: oblong script s
     key <AB06> {	[	  n,	N		],
-                        [ dead_tilde                    ]       };
+			[ dead_tilde,	asciitilde	]	};
     key <AB07> {	[     comma,	question	],
-			[        at,    questiondown	]	};
-    key <AB08> {	[ semicolon,	period          ]	};
-    key <AB09> {	[     colon,	slash  		],
-			[  division,    backslash	]	};
-    key <AB10> {	[     equal,	plus    	],
-			[    macron,    plusminus	]	};
+			[VoidSymbol,	questiondown	]	};
+    key <AB08> {	[ semicolon,	period		],
+			[VoidSymbol,	periodcentered	]	};
+    key <AB09> {	[     colon,	slash		],
+			[  division,	backslash	]	};
+    key <AB10> {	[     equal,	plus		],
+			[VoidSymbol,	plusminus	]	};
 
+    key <SPCE> {	[     space,	space		],
+			[nobreakspace,	nobreakspace	]	};
     // End alphanumeric section
-    key <KPDL> {        [ KP_Separator , KP_Delete      ]       };
 
+    // Begin modifier mappings
+    key <LWIN> {	[  Alt_L, 	Meta_L	]	};
+    key <LFSH> {	[  Shift_L		]	};
+    key <LCTL> {	[  Control_L		]	};
+    key <LALT> {	[  Mode_switch		]	};
+    key <RMTA> {	[  Meta_R		]	};
+    key <RTSH> {	[  Shift_R		]	};
+    key <RCTL> {	[  Control_R		]	};
+    key <RALT> {	[  script_switch	]	};
+    // End modifier mappings
+
+    // Begin "Function" section
+    key <FK01> {	[  F1			]	};
+    key <FK02> {	[  F2			]	};
+    key <FK03> {	[  F3			]	};
+    key <FK04> {	[  F4			]	};
+    key <FK05> {	[  F5			]	};
+    key <FK06> {	[  F6			]	};
+    key <FK07> {	[  F7			]	};
+    key <FK08> {	[  F8			]	};
+    key <FK09> {	[  F9			]	};
+    key <FK10> {	[  F10			]	};
+    key <FK11> {	[  F11			]	};
+    key <FK12> {	[  F12			]	};
+    key <FK13> {	[  F13, Print		]	};
+    key <FK14> {	[  F14, Scroll_Lock	]	};
+    key <FK15> {	[  F15, Pause		]	};
+    // End "Function" section
+
+    // Begin "Editing" section
+    key	 <INS> {	[  Insert		]	};
+    key <HOME> {	[  Home			]	};
+    key <PGUP> {	[  Prior		]	};
+    key <DELE> {	[  Delete		]	};
+    key	 <END> {	[  End			]	};
+    key <PGDN> {	[  Next			]	};
+
+    key	  <UP> {	[  Up			]	};
+    key <LEFT> {	[  Left			]	};
+    key <DOWN> {	[  Down			]	};
+    key <RGHT> {	[  Right		]	};
+    // End "Editing" section
+
+    // Begin "Keypad" section
+    key <KPCL> {	[  Clear		]	};
+    key <KPEQ> {	[  KP_Equal		]	};
+    key <KPDV> {	[  KP_Divide		]	};
+    key <KPMU> {	[  KP_Multiply		]	};
+
+    key	 <KP7> {	[  KP_7			]	};
+    key	 <KP8> {	[  KP_8			]	};
+    key	 <KP9> {	[  KP_9			]	};
+    key <KPSU> {	[  KP_Subtract		]	};
+
+    key	 <KP4> {	[  KP_4			]	};
+    key	 <KP5> {	[  KP_5			]	};
+    key	 <KP6> {	[  KP_6			]	};
+    key <KPAD> {	[  KP_Add		]	};
+
+    key	 <KP1> {	[  KP_1			]	};
+    key	 <KP2> {	[  KP_2			]	};
+    key	 <KP3> {	[  KP_3			]	};
+    key <KPEN> {	[  KP_Enter		]	};
+
+    key	 <KP0> {	[  KP_0			]	};
+    key <KPDL> {	[  comma,KP_Decimal	]	};
+ // End "Keypad" section
+
+
+    // begin modifier mappings
+    modifier_map Shift	{ Shift_L,   Shift_R   };
+    modifier_map Lock	{ Caps_Lock	       };
+    modifier_map Control{ Control_L, Control_R };
+    modifier_map Mod1	{ Meta_L, Meta_R       };
+    modifier_map Mod2   { Alt_L, Alt_R         };
+    modifier_map Mod3	{ Mode_switch	       };
+    // end modifier mappings
 };
+
 
