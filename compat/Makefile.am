@@ -4,7 +4,7 @@ dist_compat_DATA = \
 accessx basic complete \
 default iso9995 \
 japan keypad ledcaps \
-lednum ledscroll \
+lednum ledscroll level5 \
 misc mousekeys norepeat \
 pc pc98 xfree86 \
 xtest README

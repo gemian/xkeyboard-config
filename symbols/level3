@@ -21,6 +21,10 @@ xkb_symbols "ralt_switch" {
 //
 partial hidden modifier_keys
 xkb_symbols "ralt_switch_for_alts_toggle" {
+  key <LALT> {
+    type[Group1]="PC_SYSRQ",
+    symbols[Group1] = [ Alt_L,  ISO_Prev_Group,  ISO_Prev_Group ]
+  };
   key <RALT> {
     type[Group1]="PC_SYSRQ",
     symbols[Group1] = [ ISO_Level3_Shift, ISO_Next_Group ]

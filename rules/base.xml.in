@@ -1052,6 +1052,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>multix</name>
+            <_description>Multilingual</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>multi</name>
             <_description>Multilingual, first part</_description>
           </configItem>

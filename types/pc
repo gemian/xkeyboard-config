@@ -7,6 +7,7 @@ partial default xkb_types "default" {
     // for a full implementation of
     // a PC compatible keyboard.
     virtual_modifiers Alt;
+    virtual_modifiers LevelThree;
 
     type "PC_BREAK" {
 	modifiers = Control;
@@ -17,11 +18,13 @@ partial default xkb_types "default" {
     };
 
     type "PC_SYSRQ" {
-	modifiers = Alt;
+	modifiers = Alt+LevelThree;
 	map[None] = Level1;
 	map[Alt] = Level2;
+	map[LevelThree] = Level3;
 	level_name[Level1] = "Base";
 	level_name[Level2] = "Alt";
+	level_name[Level3] = "Level3";
     };
 
     type "CTRL+ALT" {
