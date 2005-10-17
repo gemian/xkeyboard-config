@@ -16,6 +16,7 @@
 ! model		layout		=	compat
 ! model		layout[1]	=	compat
 ! model		=	types
+! layout	option	=	symbols
 ! layout[1]	option	=	symbols
 ! layout[2]	option	=	symbols
 ! layout[3]	option	=	symbols
