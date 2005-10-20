@@ -1,3 +1,14 @@
+2005-10-20 svu
+
+	* symbols/inet, rules:
+	adding Dell USB Multimedia Keybard, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=4826
+
+2005-10-17 svu
+
+	* symbols, types, compat, rules:
+	adding 5th level and beyond, trying to hack 1-group Canadian layout
+
 2005-10-11 svu
 
 	* symbols/macintosh_vndr/fr: update French Macintosh keyboard, closed

@@ -2215,3 +2215,24 @@ xkb_symbols "emachines" {
     key <KPMU> {  [ KP_Multiply                   ]  };
     key <KPDV> {  [ KP_Divide                     ]  };
 };
+
+//
+// Dell USB Multimedia Keybard
+//
+partial alphanumeric_keys
+xkb_symbols "dellusbmm" {
+    key <IA6>  { [ XF86Back ] };
+    key <I69>  { [ XF86Forward ] };
+    key <I68>  { [ XF86Stop ] };
+    key <I67>  { [ XF86Reload ] };
+    key <I02>  { [ XF86HomePage ] };
+    key <I6C>  { [ XF86Mail ] };
+    key <K67>  { [ XF86MyComputer ] };
+    key <I21>  { [ XF86Calculator ] };
+    key <I20>  { [ XF86AudioMute ] };
+    key <I24>  { [ XF86AudioStop ] };
+    key <I10>  { [ XF86AudioPrev ] };
+    key <I19>  { [ XF86AudioNext ] };
+    key <I22>  { [ XF86AudioPlay, XF86AudioPause ] };
+    key <XFER> { [ XF86AudioMedia ] };
+};

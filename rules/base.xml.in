@@ -250,6 +250,12 @@
     </model>
     <model>
       <configItem>
+        <name>dellusbmm</name>
+        <_description>Dell USB Multimedia Keybard</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>inspiron</name>
         <_description>Laptop/notebook Dell Inspiron 8xxx</_description>
       </configItem>
