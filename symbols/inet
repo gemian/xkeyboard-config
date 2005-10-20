@@ -2221,7 +2221,7 @@ xkb_symbols "emachines" {
 //
 partial alphanumeric_keys
 xkb_symbols "dellusbmm" {
-    key <IA6>  { [ XF86Back ] };
+    key <I6A>  { [ XF86Back ] };
     key <I69>  { [ XF86Forward ] };
     key <I68>  { [ XF86Stop ] };
     key <I67>  { [ XF86Reload ] };
