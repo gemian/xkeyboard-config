@@ -231,7 +231,7 @@ xkb_symbols "ctrls_toggle" {
 // Both Alts pressed together toggle group
 partial modifier_keys
 xkb_symbols "alts_toggle" {
-  virtual_modifiers AltGr;
+  virtual_modifiers Alt;
     key <LALT> {
 	type="PC_SYSRQ",
 	symbols[Group1]= [ NoSymbol,	ISO_Prev_Group ],
