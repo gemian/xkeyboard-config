@@ -27,7 +27,6 @@ default partial xkb_compatibility "default"  {
 
     //ISO_Level5_Latch
     interpret F34+Any {
-	useModMapMods= level1;
 	virtualModifier= LevelFive;
 	action= LatchMods(modifiers=LevelFive);
     };
@@ -38,7 +37,6 @@ default partial xkb_compatibility "default"  {
 
     //ISO_Level5_Lock
     interpret F33+Any {
-	useModMapMods= level1;
 	virtualModifier= LevelFive;
 	action= LockMods(modifiers=LevelFive);
     };
@@ -46,5 +44,4 @@ default partial xkb_compatibility "default"  {
     interpret F33 {
 	action= LockMods(modifiers=LevelFive);
     };
-
 };

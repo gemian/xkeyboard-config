@@ -20,7 +20,7 @@ default partial xkb_compatibility "misc"  {
     // Sets the "Alt" virtual modifier
 
     interpret Alt_L+Any     {
-        useModMapMods= level1;
+        //useModMapMods= level1;
 	virtualModifier= Alt;
 	action = SetMods(modifiers=modMapMods);
     };
@@ -30,7 +30,7 @@ default partial xkb_compatibility "misc"  {
     };
 
     interpret Alt_R+Any     {
-        useModMapMods= level1;
+        //useModMapMods= level1;
 	virtualModifier= Alt;
 	action = SetMods(modifiers=modMapMods);
     };
@@ -52,7 +52,7 @@ default partial xkb_compatibility "misc"  {
     };
 
     interpret Meta_R+Any     {
-        useModMapMods= level1;
+        //useModMapMods= level1;
 	virtualModifier= Meta;
 	action = SetMods(modifiers=modMapMods);
     };
@@ -74,7 +74,7 @@ default partial xkb_compatibility "misc"  {
     };
 
     interpret Super_R+Any     {
-        useModMapMods= level1;
+        //useModMapMods= level1;
 	virtualModifier= Super;
 	action = SetMods(modifiers=modMapMods);
     };
@@ -96,7 +96,7 @@ default partial xkb_compatibility "misc"  {
     };
 
     interpret Hyper_R+Any     {
-        useModMapMods= level1;
+        //useModMapMods= level1;
 	virtualModifier= Hyper;
 	action = SetMods(modifiers=modMapMods);
     };

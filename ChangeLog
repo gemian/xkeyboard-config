@@ -1,3 +1,9 @@
+2005-11-26 svu
+
+	* symbols/group, symbols/level3, compat/level5, compat/misc:
+	Fixing problem with level3(ralt) and group(alts_toggle).
+	Now "us,ru,se" works ok.
+
 2005-10-20 svu
 
 	* symbols/inet, rules:
