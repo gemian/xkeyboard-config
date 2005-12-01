@@ -257,7 +257,7 @@
     <model>
       <configItem>
         <name>inspiron</name>
-        <_description>Laptop/notebook Dell Inspiron 8xxx</_description>
+        <_description>Laptop/notebook Dell Inspiron 6xxx/8xxx</_description>
       </configItem>
     </model>
     <model>

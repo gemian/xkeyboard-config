@@ -560,6 +560,7 @@ xkb_symbols "inspiron" {
     key <I10>   {       [ XF86AudioPrev         ]       };
     key <I19>   {       [ XF86AudioNext         ]       };
     key <I20>   {       [ XF86AudioMute         ]       };
+    key <I21>   {       [ XF86Eject             ]       };
     key <I22>   {       [ XF86AudioPlay, XF86AudioPause ] };
     key <I24>   {       [ XF86AudioStop         ]       };
     key <I2E>   {       [ XF86AudioLowerVolume  ]       };

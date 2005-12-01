@@ -1,5 +1,10 @@
 2005-12-01 svu
 
+	* symbols/inet, rules/base.xml.in: added Inspiron 6000 keys, closed
+	https://bugs.freedesktop.org/show_bug.cgi?id=5195
+
+2005-12-01 svu
+
 	* symbols/inet: HUGE redesign of the inet file. Major reorganization
 	of Logitech keyboard. HUGE thanks to Fr?d?ric BOITEUX
 
