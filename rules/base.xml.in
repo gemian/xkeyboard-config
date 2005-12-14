@@ -4349,6 +4349,12 @@
           <_description>Right Ctrl</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>grp:sclk_toggle</name>
+          <_description>Scroll Lock</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- The key combination used to choose the 3rd (and 4th, together with Shift)

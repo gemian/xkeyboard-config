@@ -346,3 +346,15 @@ xkb_symbols "alt_space_toggle" {
     symbols[Group1]= [ space,   ISO_Next_Group ]
     };
 };
+
+// using the group(sclk_toggle) map, pressing the Scroll Lock key
+// toggles groups.
+partial modifier_keys
+xkb_symbols "sclk_toggle" {
+  virtual_modifiers AltGr;
+  key <SCLK> {
+    virtualMods= AltGr,
+    symbols[Group1] = [ ISO_Next_Group ]
+    };
+};
+
