@@ -1,3 +1,8 @@
+2005-12-30 svu
+
+	* symbols/ctrl: expanding Caps a bit, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=3193
+
 2005-12-20 svu
 
 	* symbols/hu: returned def_dot (instead of def_comma, really

@@ -5,7 +5,7 @@
 // eliminate the caps lock key completely (replace with control)
 partial modifier_keys 
 xkb_symbols "nocaps" {
-    key <CAPS>	{  symbols[Group1]= [ Control_L ] };
+    key <CAPS>	{  symbols[Group1]= [ Control_L, Control_L ] };
     modifier_map  Control { <CAPS>, <LCTL> };
 };
 
