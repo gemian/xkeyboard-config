@@ -2326,6 +2326,13 @@
         <_description>South Africa</_description>
       </configItem>
     </layout>
+    <layout>
+      <configItem>
+        <name>epo</name>
+        <_shortDescription>Epo</_shortDescription>
+	<_description>Esperanto</_description>
+      </configItem>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">

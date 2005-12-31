@@ -8,7 +8,7 @@ bg br ba \
 bt by ca \
 ch cs cz \
 de dk ee \
-es fi fo \
+es epo fi fo \
 fr gb ge \
 gr hr hu \
 ie il in \
