@@ -1599,6 +1599,14 @@
     </layout>
     <layout>
       <configItem>
+        <name>kh</name>
+        <_shortDescription>Khm</_shortDescription>
+        <_description>Khmer</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
 	<name>kz</name>
 	<_shortDescription>Kaz</_shortDescription>
 	<_description>Kazakhstan</_description>
