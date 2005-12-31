@@ -1,5 +1,10 @@
 2005-12-31 svu
 
+	* symbols/ru, rules/base.xml.in: added
+	Tatar, closing https://bugs.freedesktop.org/show_bug.cgi?id=4818
+
+2005-12-31 svu
+
 	* symbols/kh, rules/base.xml.in, symbols/Makefile.am: added
 	Khmer, closing https://bugs.freedesktop.org/show_bug.cgi?id=5389
 

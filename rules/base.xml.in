@@ -1882,6 +1882,12 @@
             <_description>Winkeys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>tt</name>
+            <_description>Tatar</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
