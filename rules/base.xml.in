@@ -741,6 +741,14 @@
     </layout>
     <layout>
       <configItem>
+        <name>ad</name>
+        <_shortDescription>And</_shortDescription>
+        <_description>Andorra</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>ara</name>
         <_shortDescription>Ara</_shortDescription>
         <_description>Arabic</_description>

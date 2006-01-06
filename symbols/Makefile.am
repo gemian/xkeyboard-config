@@ -2,7 +2,7 @@ SUBDIRS = digital_vndr fujitsu_vndr hp_vndr macintosh_vndr nec_vndr sgi_vndr son
 
 symbolsdir = $(xkb_base)/symbols
 dist_symbols_DATA = \
-al am ara \
+ad al am ara \
 az be bd \
 bg br ba \
 bt by ca \
