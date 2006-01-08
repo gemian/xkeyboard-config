@@ -1311,6 +1311,51 @@
     </layout>
     <layout>
       <configItem>
+        <name>gh</name>
+        <_shortDescription>Gha</_shortDescription>
+        <_description>Ghana</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>generic</name>
+            <_description>Multilingual</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>akan</name>
+            <_description>Akan</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ewe</name>
+            <_description>Ewe</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>fula</name>
+            <_description>Fula</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ga</name>
+            <_description>Ga</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>hausa</name>
+            <_description>Hausa</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>ge</name>
         <_shortDescription>Geo</_shortDescription>
         <_description>Georgia</_description>

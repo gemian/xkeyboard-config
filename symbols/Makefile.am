@@ -9,7 +9,7 @@ bt by ca \
 ch cs cz \
 de dk ee \
 es epo fi fo \
-fr gb ge \
+fr gb ge gh \
 gr hr hu \
 ie il in \
 ir is it \
