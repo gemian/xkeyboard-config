@@ -9,6 +9,8 @@
 ! $maclaptop = ibook powerbook
 ! $mac = macintosh macintosh_old ibook powerbook
 
+! $macvendorlayouts = ch de dk es fi fr gb is it nl no pt se us
+
 ! $azerty = be fr
 ! $qwertz = al cz de hr hu ro si sk 
 
