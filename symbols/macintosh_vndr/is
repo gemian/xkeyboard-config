@@ -1,5 +1,8 @@
+// $XKeyboardConfig$
+// This file describes the differences between a Macintosh US Extended
+// keymap and an Icelandic keyboard layout in the style of Mac OS and Mac OS X
 //
-// Copyright (C) 2004, Ævar Arnfjörð Bjarmason - avarab@gmail.com
+// Copyright (C) 2004, 2006 Ævar Arnfjörð Bjarmason <avarab@gmail.com>
 //
 // Permission to use, copy, modify, distribute, and sell this software and its
 // documentation for any purpose is hereby granted without fee, provided that
@@ -23,32 +26,38 @@
 // other dealings in this Software without prior written authorization of
 // the copyright holder.
 //
-// README
-//	This xkb file describes the differences between a Macintosh US Extended
-//	keymap and an Icelandic keyboard layout in the style of Mac OS(X).
-// NOTES
-//	* 20 characters were not listed in "Compose" i found out the values of
-//	  those like so:
-//	  $ echo "obase=16;abase=10;$(perl -e 'use utf8;$i = "A";print ord($i);')" | bc -ql
-//	  Where A is the character in question, added a U in front of it and
-//	  listed it *should* be right.
-//	* The Apple logo ( UF8FF;63743 ) appears twice on this keymap but is
-//	  rendered as a euro-sign on GNU/Linux, investigate.
-// BUGS
-//	* This keymap has only been tested on an iBook thus far, it _should_
-//	  defenetly work on PowerBooks and most certanly works to some extent if
-//	  not fully on full size Apple keyboards, however as of initial writing
-//	  the author is not in a position to test the keymap on such a keyboard.
-// HISTORY
-// 2004-09-28
-//	Initial "cleanroom" writeup of this file by Ævar Arnfjörð Bjarmason ( I
-//	just wrote down that pressing a produces a, a+shift produces A et
-//	cetera and made the XKB file from that information ).
+// = HISTORY
+// * 2004-09-28:
+//   Initial cleanroom writing of the keymap, I just booted Mac OS X, opened
+//   TextEdit.app and wrote down what the value produced by each key was when I
+//   pressed it, a for a, A for shift + a, å for lalt + a etc and made the
+//   keymap from that information
+//
+// * 2006-01-14:
+//   Revised the comments in the file
+//
+// = NOTES
+// * 20 characters in this keymap have no named character defined in
+//   include/keysymdef.h and as a result their Unicode code points in
+//   hexadecimal are listed here, these can be generated with the following
+//   perl command:
+//     $ perl -CA -e 'printf "U%x\n", ord shift' Æ
+//   and converted back like:
+//     $ perl -CO -le '$_=shift;s/[^a-f0-9]//ig;print chr hex' Uc6
+// * The Apple logo appears twice on this keymap like the Mac OS and Mac OS X
+//   keymaps. In the MacRoman encoding it has the code point 0xF0 (240) but it
+//   has no assigned code point in Unicode, the code point Apple uses for it is
+//   U+F8FF (63743) which is in the BMP's Private Use Area (U+E000–U+F8FF)
+// * This keymap has only been tested on a PowerBook6,5 (iBook G4) but it
+//   should work on other Apple laptop models which use the same keyboard
+//   layout. It will probably work on standard sized keyboards with little or
+//   no modification but it might not support them fully, please report if
+//   you're able to get it running with such a keyboard
 
-partial default alphanumeric_keys 
+partial default alphanumeric_keys
 xkb_symbols "basic" {
     name[Group1]= "Icelandic";
-    
+
 	//-- Row 5 (E) --//
 	key <TLDE> {	[	sterling,	section		],
 			[	UF8FF,		apostrophe	]	};
