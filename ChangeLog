@@ -1,5 +1,10 @@
 2006-01-14 svu
 
+	* rules/base.ml_*.part: Japanese layouts are nec_vndr/jp, for
+	consistency
+	
+2006-01-14 svu
+
 	* symbols/macintosh_vnd/is: some cosmetic stuff and some info, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=5597
 	

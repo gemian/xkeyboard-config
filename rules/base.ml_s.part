@@ -6,7 +6,7 @@
   sun4		*			=	latin+sun_vndr/us(sun4)+%l%(v)
   sun5		$nonlatin		=	latin+sun_vndr/us(sun5)+%l%(v):2
   sun5		*			=	latin+sun_vndr/us(sun5)+%l%(v)
-  pc98		nec/jp			=	nec_vndr/jp(pc98)
+  pc98		nec_vndr/jp		=	nec_vndr/jp(pc98)
   abnt2		br			=	pc(pc104)+br
   old_macintosh	us			=	macintosh_vndr/us(extended)
   old_macintosh	en_US			=	macintosh_vndr/us(extended)
