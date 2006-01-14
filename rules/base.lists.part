@@ -1,9 +1,9 @@
 
 // If you want non-latin layouts implicitly include the en_US layout
 // uncomment lines below
-//! $nonlatin = am ara ben bg by deva ge gr guj guru il \
-//              ir iku kan lao mk mm mal ori ru scc syr tel th\
-//              tj tam ua
+//! $nonlatin = am ara ben bd bg bt by cs deva ge gh gr guj guru il \
+//              in ir iku jp kan kh la lao lk mk mm mn mv mal ori pk \
+//              ru scc sy syr tel th tj tam ua uz
 
 ! $pcmodels = pc101 pc102 pc104 pc105
 ! $maclaptop = ibook powerbook
