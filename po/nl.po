@@ -1,15 +1,15 @@
 # Dutch translation of xkeyboard-config.
-# Copyright (C) 2003, 2004, 2005 Free Software Foundation, Inc.
+# Copyright (C) 2003, 2004, 2005, 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the xkeyboard-config package.
-# Taco Witte <tcwitte@cs.uu.nl>, 2003, 2004, 2005.
+# Taco Witte <tcwitte@cs.uu.nl>, 2003, 2004, 2005, 2006.
 # 
 # 
 msgid ""
 msgstr ""
-"Project-Id-Version: xkeyboard-config 0.5\n"
+"Project-Id-Version: xkeyboard-config 0.6\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2005-08-14 00:39+0100\n"
-"PO-Revision-Date: 2005-01-31 22:54+0100\n"
+"PO-Revision-Date: 2006-01-20 22:03+0200\n"
 "Last-Translator: Taco Witte <tcwitte@cs.uu.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
@@ -106,7 +106,7 @@ msgstr "Acer AirKey V"
 
 #: ../rules/base.xml.in.h:23
 msgid "Acer TravelMate 800"
-msgstr ""
+msgstr "Acer TravelMate 800"
 
 #: ../rules/base.xml.in.h:24
 msgid "Add the EuroSign to the 2 key."
@@ -142,7 +142,7 @@ msgstr "Albanië"
 
 #: ../rules/base.xml.in.h:32
 msgid "Alt and Meta are on the Alt keys (default)."
-msgstr "Alt en Meta zijn op de Als-toetsen (standaard)."
+msgstr "Alt en Meta zijn op de Alt-toetsen (standaard)."
 
 #: ../rules/base.xml.in.h:33
 msgid "Alt is mapped to the right Win-key and Super to Menu."
@@ -182,12 +182,11 @@ msgstr "Alternatief, zonder dode toetsen"
 
 #: ../rules/base.xml.in.h:42
 msgid "Apostrophe (') variant"
-msgstr ""
+msgstr "Apostrof (') variant"
 
 #: ../rules/base.xml.in.h:43
-#, fuzzy
 msgid "Ara"
-msgstr "Fra"
+msgstr "Ara"
 
 #: ../rules/base.xml.in.h:44
 msgid "Arabic"
@@ -238,17 +237,16 @@ msgid "BTC 9001AH"
 msgstr "BTC 9001AH"
 
 #: ../rules/base.xml.in.h:56
-#, fuzzy
 msgid "Ban"
-msgstr "Kan"
+msgstr "Ban"
 
 #: ../rules/base.xml.in.h:57
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladesh"
 
 #: ../rules/base.xml.in.h:58
 msgid "Bel"
-msgstr "Bel"
+msgstr "Wit"
 
 #: ../rules/base.xml.in.h:59
 msgid "Belarus"
@@ -263,22 +261,20 @@ msgid "Bengali"
 msgstr "Bengaals"
 
 #: ../rules/base.xml.in.h:62
-#, fuzzy
 msgid "Bengali Probhat"
-msgstr "Prt"
+msgstr "Bengaals Probhat"
 
 #: ../rules/base.xml.in.h:63
 msgid "Bgr"
 msgstr "Bgr"
 
 #: ../rules/base.xml.in.h:64
-#, fuzzy
 msgid "Bhu"
-msgstr "Bih"
+msgstr "Bhu"
 
 #: ../rules/base.xml.in.h:65
 msgid "Bhutan"
-msgstr ""
+msgstr "Bhutan"
 
 #: ../rules/base.xml.in.h:66
 msgid "Bih"
@@ -338,7 +334,7 @@ msgstr "Canada"
 
 #: ../rules/base.xml.in.h:80
 msgid "CapsLock LED shows alternative group."
-msgstr "CapsLock LED toont alternatieve groep."
+msgstr "CapsLock-lampje toont alternatieve groep."
 
 #: ../rules/base.xml.in.h:81
 msgid "CapsLock acts as Shift with locking. Shift cancels CapsLock."
@@ -377,9 +373,8 @@ msgid "CapsLock uses internal capitalization. Shift doesn't cancel CapsLock."
 msgstr "CapsLock gebruikt interne conversie naar hoofdletters. Shift heft CapsLock niet op."
 
 #: ../rules/base.xml.in.h:90
-#, fuzzy
 msgid "Che"
-msgstr "Cze"
+msgstr "Che"
 
 #: ../rules/base.xml.in.h:91
 msgid "Cherry Blue Line CyBo@rd"
@@ -391,7 +386,7 @@ msgstr "Cherry Blue Line CyBo@rd (alternatieve optie)"
 
 #: ../rules/base.xml.in.h:93
 msgid "Cherry CyMotion Master Linux"
-msgstr ""
+msgstr "Cherry CyMotion Master Linux"
 
 #: ../rules/base.xml.in.h:94
 msgid "Chicony Internet Keyboard"
@@ -426,9 +421,8 @@ msgid "Compaq iPaq Keyboard"
 msgstr "Compaq iPaq toetsenbord"
 
 #: ../rules/base.xml.in.h:102
-#, fuzzy
 msgid "Compose key position"
-msgstr "Control-toets positie"
+msgstr "Compose-toets positie"
 
 #: ../rules/base.xml.in.h:103
 msgid "Control key at bottom left"
@@ -439,7 +433,6 @@ msgid "Control key at left of 'A'"
 msgstr "Control-toets links van 'A'"
 
 #: ../rules/base.xml.in.h:105
-#, fuzzy
 msgid "Control key position"
 msgstr "Control-toets positie"
 
@@ -457,7 +450,7 @@ msgstr "Cyrillisch"
 
 #: ../rules/base.xml.in.h:109
 msgid "Cze"
-msgstr "Cze"
+msgstr "Tsj"
 
 #: ../rules/base.xml.in.h:110
 msgid "Czechia"
@@ -497,7 +490,7 @@ msgstr "Dexxa Wireless Desktop toetsenbord"
 
 #: ../rules/base.xml.in.h:119
 msgid "Dhivehi"
-msgstr ""
+msgstr "Dhivehi"
 
 #: ../rules/base.xml.in.h:120
 msgid "Diamond 9801 / 9802 series"
@@ -505,7 +498,7 @@ msgstr "Diamond 9801 / 9802 serie"
 
 #: ../rules/base.xml.in.h:121
 msgid "Div"
-msgstr ""
+msgstr "Div"
 
 #: ../rules/base.xml.in.h:122
 msgid "Dnk"
@@ -517,15 +510,15 @@ msgstr "Dvorak"
 
 #: ../rules/base.xml.in.h:124
 msgid "Dvorak, Polish quotes on key \"1/!\""
-msgstr ""
+msgstr "Dvorak, Poolse aanhalingstekens op toets \"1/!\""
 
 #: ../rules/base.xml.in.h:125
 msgid "Dvorak, Polish quotes on quotemark key"
-msgstr ""
+msgstr "Dvorak, Poolse aanhalingstekens op aanhalingstekentoets"
 
 #: ../rules/base.xml.in.h:126
 msgid "Eliminate dead keys"
-msgstr "Dode toetsen niet doen"
+msgstr "Geen dode toetsen"
 
 #: ../rules/base.xml.in.h:127
 msgid "Ennyah DKB-1008"
@@ -652,9 +645,8 @@ msgid "Germany"
 msgstr "Duitsland"
 
 #: ../rules/base.xml.in.h:158
-#, fuzzy
 msgid "Gre"
-msgstr "Grieks"
+msgstr "Gri"
 
 #: ../rules/base.xml.in.h:159
 msgid "Greece"
@@ -672,10 +664,10 @@ msgstr "Gujarati"
 msgid "Gurmukhi"
 msgstr "Gurmukhi"
 
+# het zal wel een merk zijn
 #: ../rules/base.xml.in.h:163
-#, fuzzy
 msgid "Gyration"
-msgstr "Kroatisch"
+msgstr "Gyration"
 
 #: ../rules/base.xml.in.h:164
 msgid "Hewlett-Packard Internet Keyboard"
@@ -723,11 +715,11 @@ msgstr "Honeywell Euroboard"
 
 #: ../rules/base.xml.in.h:175
 msgid "Hrv"
-msgstr "Hrv"
+msgstr "Kro"
 
 #: ../rules/base.xml.in.h:176
 msgid "Hun"
-msgstr "Hun"
+msgstr "Hon"
 
 #: ../rules/base.xml.in.h:177
 msgid "Hungary"
@@ -762,14 +754,12 @@ msgid "Iceland"
 msgstr "IJsland"
 
 #: ../rules/base.xml.in.h:185
-#, fuzzy
 msgid "Ind"
-msgstr "Irn"
+msgstr "Ind"
 
 #: ../rules/base.xml.in.h:186
-#, fuzzy
 msgid "India"
-msgstr "Iraans"
+msgstr "Indiaas"
 
 #: ../rules/base.xml.in.h:187
 msgid "International (with dead keys)"
@@ -836,9 +826,8 @@ msgid "Keytronic FlexPro"
 msgstr "Keytronic FlexPro"
 
 #: ../rules/base.xml.in.h:203
-#, fuzzy
 msgid "Kyr"
-msgstr "Syr"
+msgstr "Kir"
 
 #: ../rules/base.xml.in.h:204
 msgid "Kyrgyzstan"
@@ -849,9 +838,8 @@ msgid "LAm"
 msgstr "LAm"
 
 #: ../rules/base.xml.in.h:206
-#, fuzzy
 msgid "Lao"
-msgstr "Mal"
+msgstr "Lao"
 
 #: ../rules/base.xml.in.h:207
 msgid "Laos"
@@ -889,9 +877,10 @@ msgstr "Latijns-Unicode qwerty"
 msgid "Latin qwerty"
 msgstr "Latijns qwerty"
 
+# bug in msgid; should be guillemets
 #: ../rules/base.xml.in.h:216
 msgid "Latin with guillemots"
-msgstr ""
+msgstr "Latijn met Franse aanhalingstekens"
 
 #: ../rules/base.xml.in.h:217
 msgid "Latvia"
@@ -974,9 +963,8 @@ msgid "Logitech Internet Navigator Keyboard"
 msgstr "Logitech Internet Navigator toetsenbord"
 
 #: ../rules/base.xml.in.h:237
-#, fuzzy
 msgid "Logitech Ultra-X Keyboard"
-msgstr "Logitech internet toetsenbord"
+msgstr "Logitech Ultra-X toetsenbord"
 
 #: ../rules/base.xml.in.h:238
 msgid "Logitech iTouch"
@@ -1023,9 +1011,8 @@ msgid "Malta"
 msgstr "Malta"
 
 #: ../rules/base.xml.in.h:249
-#, fuzzy
 msgid "Mao"
-msgstr "Mal"
+msgstr "Mao"
 
 #: ../rules/base.xml.in.h:250
 msgid "Maori"
@@ -1144,9 +1131,8 @@ msgid "Northern Saami"
 msgstr "Noord-Lapland"
 
 #: ../rules/base.xml.in.h:279
-#, fuzzy
 msgid "Northern Saami, eliminate dead keys"
-msgstr "Alternatief, zonder dode toetsen"
+msgstr "Noord-Lapland, zonder dode toetsen"
 
 #: ../rules/base.xml.in.h:280
 msgid "Northgate OmniKey 101"
@@ -1165,9 +1151,8 @@ msgid "Ogham"
 msgstr "Oghamees"
 
 #: ../rules/base.xml.in.h:284
-#, fuzzy
 msgid "Ogham IS434"
-msgstr "IS434"
+msgstr "Oghamees IS434"
 
 #: ../rules/base.xml.in.h:285
 msgid "Oretec MCK-800 MM/Internet keyboard"
@@ -1183,12 +1168,11 @@ msgstr "PC-98xx serie"
 
 #: ../rules/base.xml.in.h:288
 msgid "Pak"
-msgstr ""
+msgstr "Pak"
 
 #: ../rules/base.xml.in.h:289
-#, fuzzy
 msgid "Pakistan"
-msgstr "Tadzjikistan"
+msgstr "Pakistan"
 
 #: ../rules/base.xml.in.h:290
 msgid "Pattachote"
@@ -1208,7 +1192,7 @@ msgstr "Polen"
 
 #: ../rules/base.xml.in.h:294
 msgid "Polytonic"
-msgstr "Polytonisch"
+msgstr "Meertonig"
 
 #: ../rules/base.xml.in.h:295
 msgid "Portugal"
@@ -1220,40 +1204,39 @@ msgstr "PowerPC PS/2"
 
 #: ../rules/base.xml.in.h:297
 msgid "Press Left Alt key to choose 3rd level."
-msgstr "Druk op de linker Alt-toets om het 3e niveau te kiezen."
+msgstr "De linker Alt-toets geeft het 3e niveau."
 
 #: ../rules/base.xml.in.h:298
 msgid "Press Left Win-key to choose 3rd level."
-msgstr "Druk op de linker Win-toets om het 3e niveau te kiezen."
+msgstr "De linker Win-toets geeft het 3e niveau."
 
 #: ../rules/base.xml.in.h:299
 msgid "Press Menu key to choose 3rd level."
-msgstr "Druk op de Menu-toets om het 3e niveau te kiezen."
+msgstr "De Menu-toets geeft het 3e niveau."
 
 #: ../rules/base.xml.in.h:300
 msgid "Press Right Alt key to choose 3rd level."
-msgstr "Druk op de rechter Alt-toets om het 3e niveau te kiezen."
+msgstr "De rechter Alt-toets geeft het 3e niveau."
 
 #: ../rules/base.xml.in.h:301
 msgid "Press Right Control to choose 3rd level."
-msgstr "Druk op de rechter Control-toets op het 3e niveau te kiezen."
+msgstr "De rechter Control-toets geeft het 3e niveau."
 
 #: ../rules/base.xml.in.h:302
 msgid "Press Right Win-key to choose 3rd level."
-msgstr "Druk op de rechter Win-toets om het 3e niveau te kiezen."
+msgstr "De rechter Win-toets geeft het 3e niveau."
 
 #: ../rules/base.xml.in.h:303
 msgid "Press any of Alt keys to choose 3rd level."
-msgstr "Druk op een Alt-toets om het 3e niveau te kiezen."
+msgstr "Beide Alt-toetsen geven het 3e niveau."
 
 #: ../rules/base.xml.in.h:304
 msgid "Press any of Win-keys to choose 3rd level."
-msgstr "Druk op een Win-toets om het 3e niveau te kiezen."
+msgstr "Beide Win-toetsen geven het 3e niveau."
 
 #: ../rules/base.xml.in.h:305
-#, fuzzy
 msgid "Probhat"
-msgstr "Prt"
+msgstr "Probhat"
 
 #: ../rules/base.xml.in.h:306
 msgid "Propeller Voyager (KTEZ-1000)"
@@ -1273,7 +1256,7 @@ msgstr "Rechter Alt schakelt groep bij indrukken."
 
 #: ../rules/base.xml.in.h:310
 msgid "Right Alt is Compose."
-msgstr "Rechter Alt is samenstellingstoets."
+msgstr "Rechter Alt is Compose."
 
 #: ../rules/base.xml.in.h:311
 msgid "Right Alt key changes group."
@@ -1285,15 +1268,15 @@ msgstr "Rechter Control-toets werkt als rechter Alt."
 
 #: ../rules/base.xml.in.h:313
 msgid "Right Ctrl is Compose."
-msgstr "Rechter Ctrl is samenstellingstoets."
+msgstr "Rechter Control is Compose."
 
 #: ../rules/base.xml.in.h:314
 msgid "Right Ctrl key changes group."
-msgstr "Rechter Ctrl-toets verandert groep."
+msgstr "Rechter Control-toets verandert groep."
 
 #: ../rules/base.xml.in.h:315
 msgid "Right Ctrl key switches group while pressed."
-msgstr "Rechter Ctrl-toets schakelt groep bij indrukken."
+msgstr "Rechter Control-toets schakelt groep bij indrukken."
 
 #: ../rules/base.xml.in.h:316
 msgid "Right Shift key changes group."
@@ -1340,14 +1323,12 @@ msgid "Russian"
 msgstr "Russisch"
 
 #: ../rules/base.xml.in.h:327
-#, fuzzy
 msgid "Russian phonetic"
-msgstr "Russisch"
+msgstr "Russisch fonetisch"
 
 #: ../rules/base.xml.in.h:328
-#, fuzzy
 msgid "Russian phonetic, eliminate dead keys"
-msgstr "Frans, zonder dode toetsen"
+msgstr "Russisch fonetisch, zonder dode toetsen"
 
 #: ../rules/base.xml.in.h:329
 msgid "SK-1300"
@@ -1410,19 +1391,16 @@ msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server."
 msgstr "Speciale toetsen (Ctrl+Alt+&lt;toets&gt;) afgehandeld in een server."
 
 #: ../rules/base.xml.in.h:344
-#, fuzzy
 msgid "SrL"
-msgstr "Syr"
+msgstr "SrL"
 
 #: ../rules/base.xml.in.h:345
-#, fuzzy
 msgid "Sri Lanka"
-msgstr "Servisch"
+msgstr "Sri Lanka"
 
 #: ../rules/base.xml.in.h:346
-#, fuzzy
 msgid "Srp"
-msgstr "Syr"
+msgstr "Srp"
 
 #: ../rules/base.xml.in.h:347
 msgid "Standard"
@@ -1430,14 +1408,13 @@ msgstr "Standaard"
 
 #. RSTU 2019-91
 #: ../rules/base.xml.in.h:349
-#, fuzzy
 msgid "Standard RSTU"
-msgstr "Standaard"
+msgstr "Standaard RSTU"
 
 #. RSTU 2019-91
 #: ../rules/base.xml.in.h:351
 msgid "Standard RSTU on Russian layout"
-msgstr ""
+msgstr "Standaard RSTU op Russische layout"
 
 #: ../rules/base.xml.in.h:352
 msgid "Sun dead keys"
@@ -1484,18 +1461,16 @@ msgid "Syr"
 msgstr "Syr"
 
 #: ../rules/base.xml.in.h:363
-#, fuzzy
 msgid "Syria"
-msgstr "Syrisch"
+msgstr "Syrië"
 
 #: ../rules/base.xml.in.h:364
 msgid "Syriac"
 msgstr "Syrisch"
 
 #: ../rules/base.xml.in.h:365
-#, fuzzy
 msgid "Syriac phonetic"
-msgstr "Fonetisch"
+msgstr "Syrisch fonetisch"
 
 #: ../rules/base.xml.in.h:366
 msgid "TIS-820.2538"
@@ -1511,21 +1486,19 @@ msgstr "Tamil"
 
 #: ../rules/base.xml.in.h:369
 msgid "Tamil INSCRIPT"
-msgstr ""
+msgstr "Tamil INSCRIPT"
 
 #: ../rules/base.xml.in.h:370
-#, fuzzy
 msgid "Tamil TAB Typewriter"
-msgstr "\"Typmachine\""
+msgstr "Tamil TAB typmachine"
 
 #: ../rules/base.xml.in.h:371
 msgid "Tamil TSCII Typewriter"
-msgstr ""
+msgstr "Tamil TSCII typmachine"
 
 #: ../rules/base.xml.in.h:372
-#, fuzzy
 msgid "Tamil Unicode"
-msgstr "Latijns-Unicode"
+msgstr "Tamil unicode"
 
 #: ../rules/base.xml.in.h:373
 msgid "Telugu"
@@ -1541,11 +1514,11 @@ msgstr "Thaïland"
 
 #: ../rules/base.xml.in.h:376
 msgid "Third level choosers"
-msgstr "Derde niveau kiezers"
+msgstr "3e niveau kiezers"
 
 #: ../rules/base.xml.in.h:377
 msgid "Tilde (~) variant"
-msgstr ""
+msgstr "Tilde (~) variant"
 
 #: ../rules/base.xml.in.h:378
 msgid "Tjk"
@@ -1572,9 +1545,8 @@ msgid "Turkish"
 msgstr "Turks"
 
 #: ../rules/base.xml.in.h:384
-#, fuzzy
 msgid "Typewriter"
-msgstr "\"Typmachine\""
+msgstr "Typmachine"
 
 #: ../rules/base.xml.in.h:385
 msgid "U.S. English"
@@ -1589,9 +1561,8 @@ msgid "US keyboard with Lithuanian letters"
 msgstr "Amerikaans toetsenbord met Litouwse letters"
 
 #: ../rules/base.xml.in.h:388
-#, fuzzy
 msgid "US keyboard with Maltian letters"
-msgstr "Amerikaans toetsenbord met Roemeense letters"
+msgstr "Amerikaans toetsenbord met Maltese letters"
 
 #: ../rules/base.xml.in.h:389
 msgid "US keyboard with Romanian letters"
@@ -1599,7 +1570,7 @@ msgstr "Amerikaans toetsenbord met Roemeense letters"
 
 #: ../rules/base.xml.in.h:390
 msgid "USA"
-msgstr "USA"
+msgstr "VS"
 
 #: ../rules/base.xml.in.h:391
 msgid "Ukr"
@@ -1653,9 +1624,10 @@ msgstr "Win-toetsen"
 msgid "With &lt;\\|&gt; key"
 msgstr "Met &lt;\\|&gt;-toets"
 
+# bug in msgid; should be guillemets
 #: ../rules/base.xml.in.h:404
 msgid "With guillemots"
-msgstr ""
+msgstr "Met Franse aanhalingstekens"
 
 #: ../rules/base.xml.in.h:405
 msgid "Yahoo! Internet Keyboard"
@@ -1700,252 +1672,3 @@ msgstr "qwertz"
 #: ../rules/base.xml.in.h:415
 msgid "si1452"
 msgstr "si1452"
-
-#~ msgid "Ben"
-#~ msgstr "Ben"
-
-#~ msgid "CloGaelach Laptop"
-#~ msgstr "CloGaelach laptop"
-
-#, fuzzy
-#~ msgid "Deva"
-#~ msgstr "Dvorak"
-
-#~ msgid "Devanagari"
-#~ msgstr "Devanagari"
-
-#, fuzzy
-#~ msgid "Dzo"
-#~ msgstr "Dvo"
-
-#~ msgid "Dzongkha"
-#~ msgstr "Dzongkha"
-
-#~ msgid "Finish and Swedish"
-#~ msgstr "Fins en Zweeds"
-
-#~ msgid "Guj"
-#~ msgstr "Guj"
-
-#, fuzzy
-#~ msgid "Guru"
-#~ msgstr "Gurmukhi"
-
-#~ msgid "INSCRIPT layout"
-#~ msgstr "INSCRIPT indeling"
-
-#~ msgid "IS434 laptop"
-#~ msgstr "IS434 laptop"
-
-#~ msgid "Iku"
-#~ msgstr "Iku"
-
-#~ msgid "Laptop"
-#~ msgstr "Laptop"
-
-#~ msgid "Mal"
-#~ msgstr "Mal"
-
-#, fuzzy
-#~ msgid "Ogam"
-#~ msgstr "Oghamees"
-
-#~ msgid "Ori"
-#~ msgstr "Ori"
-
-#, fuzzy
-#~ msgid "Sin"
-#~ msgstr "Hin"
-
-#, fuzzy
-#~ msgid "Smi"
-#~ msgstr "Sapmi"
-
-#, fuzzy
-#~ msgid "Tam"
-#~ msgstr "Tamil"
-
-#~ msgid "Tel"
-#~ msgstr "Tel"
-
-#~ msgid "Typewrite-style keymap; TAB encoding"
-#~ msgstr "Typmachine-achtige toetsenindeling; TAB-codering"
-
-#~ msgid "Typewrite-style keymap; Unicode encoding"
-#~ msgstr "Typmachine-achtige toetsenindeling; Unicode-codering"
-
-#~ msgid "Ukrainian standard RSTU"
-#~ msgstr "Oekraïens standaard-RSTU"
-
-#, fuzzy
-#~ msgid "Urd"
-#~ msgstr "Ukr"
-
-#~ msgid "With Malayalam digits"
-#~ msgstr "Met Malayalamese cijfers"
-
-#~ msgid "Bosnian"
-#~ msgstr "Bosnisch"
-
-#~ msgid "Danish"
-#~ msgstr "Deens"
-
-#~ msgid "Dutch"
-#~ msgstr "Nederlands"
-
-#~ msgid "Finnish"
-#~ msgstr "Fins"
-
-#~ msgid "Irish"
-#~ msgstr "Iers"
-
-#~ msgid "Italian"
-#~ msgstr "Italiaans"
-
-#~ msgid "Kedmanee"
-#~ msgstr "Kedmanee"
-
-#~ msgid "Maltese"
-#~ msgstr "Maltees"
-
-#~ msgid "Old standard"
-#~ msgstr "Oude standaard"
-
-#~ msgid "PC104"
-#~ msgstr "PC104"
-
-#~ msgid "Polish"
-#~ msgstr "Pools"
-
-#~ msgid "Swedish"
-#~ msgstr "Zweeds"
-
-#~ msgid "Swiss"
-#~ msgstr "Zwitsers"
-
-#, fuzzy
-#~ msgid "Typewrite-style keymap; TSCII encoding"
-#~ msgstr "Een Tamil-typmachine soort toetsenindeling; TSCII codering"
-
-#~ msgid "abnt2"
-#~ msgstr "abnt2"
-
-#~ msgid "laptop"
-#~ msgstr "laptop"
-
-#~ msgid "Arb"
-#~ msgstr "Arb"
-
-#~ msgid "Basic"
-#~ msgstr "Standaard"
-
-#~ msgid "Burmese"
-#~ msgstr "Burmees"
-
-#~ msgid "Czech (qwerty)"
-#~ msgstr "Tsjechisch (qwerty)"
-
-#~ msgid "French Canadian"
-#~ msgstr "Frans-Canadees"
-
-#~ msgid "Georgian (latin)"
-#~ msgstr "Georgisch (latijn)"
-
-#~ msgid "Georgian (russian)"
-#~ msgstr "Georgisch (Russisch)"
-
-#~ msgid "Grc"
-#~ msgstr "Grc"
-
-#~ msgid "Hindi"
-#~ msgstr "Hindi"
-
-#~ msgid "Lithuanian azerty standard"
-#~ msgstr "Litouwse azerty standaard"
-
-#~ msgid "Lithuanian qwerty \"numeric\""
-#~ msgstr "Litouws qwerty \"numeriek\""
-
-#~ msgid "Maltese (US layout)"
-#~ msgstr "Maltees (Amerikaanse indeling)"
-
-#~ msgid "Northern Saami (Finland)"
-#~ msgstr "Noord-Lapland (Finland)"
-
-#~ msgid "Northern Saami (Sweden)"
-#~ msgstr "Noord-Lapland (Zweden)"
-
-#~ msgid "Ogh"
-#~ msgstr "Ogh"
-
-#~ msgid "Polish (qwertz)"
-#~ msgstr "Pools (qwertz)"
-
-#~ msgid "Scg"
-#~ msgstr "Scg"
-
-#~ msgid "Slovak (qwerty)"
-#~ msgstr "Slowaaks (qwerty)"
-
-#~ msgid "Sme"
-#~ msgstr "Sme"
-
-#~ msgid "Sv"
-#~ msgstr "Sv"
-
-#~ msgid "Swiss French"
-#~ msgstr "Zwitsers-Frans"
-
-#~ msgid "Tml"
-#~ msgstr "Tml"
-
-#~ msgid "Turkish (F)"
-#~ msgstr "Turks (F)"
-
-#~ msgid "Turkish Alt-Q Layout"
-#~ msgstr "Turkse Alt-Q indeling"
-
-#~ msgid "U.S. English w/ ISO9995-3"
-#~ msgstr "Amerikaans-Engels met ISO9995-3"
-
-#~ msgid "U.S. English w/ dead keys"
-#~ msgstr "Amerikaans-Engels met dode toetsen"
-
-#~ msgid "US"
-#~ msgstr "Amerikaans"
-
-#~ msgid "Yug"
-#~ msgstr "Yug"
-
-#~ msgid "Yugoslavian"
-#~ msgstr "Joegoslavisch"
-
-#~ msgid "bksl"
-#~ msgstr "bksl"
-
-#~ msgid "sefi"
-#~ msgstr "sefi"
-
-#~ msgid "uni/101/qwerty/comma"
-#~ msgstr "uni/101/qwerty/komma"
-
-#~ msgid "uni/101/qwerty/dot"
-#~ msgstr "uni/101/qwerty/punt"
-
-#~ msgid "uni/101/qwertz/comma"
-#~ msgstr "uni/101/qwertz/komma"
-
-#~ msgid "uni/101/qwertz/dot"
-#~ msgstr "uni/101/qwertz/punt"
-
-#~ msgid "uni/102/qwerty/comma"
-#~ msgstr "uni/102/qwerty/komma"
-
-#~ msgid "uni/102/qwerty/dot"
-#~ msgstr "uni/102/qwerty/punt"
-
-#~ msgid "uni/102/qwertz/comma"
-#~ msgstr "uni/102/qwertz/komma"
-
-#~ msgid "uni/102/qwertz/dot"
-#~ msgstr "uni/102/qwertz/punt"
