@@ -1,3 +1,8 @@
+2006-01-22 svu
+
+	* types/level5: Fixed ScrollLock behaviour
+	https://bugs.freedesktop.org/show_bug.cgi?id=5635
+	
 2006-01-15 svu
 
 	* symbols/bd: Corrected Bangladesh layout, closed
