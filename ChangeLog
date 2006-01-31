@@ -1,3 +1,8 @@
+2006-01-31 svu
+
+	* symbols/us: Added single-handed dvoraks
+	https://bugs.freedesktop.org/show_bug.cgi?id=5659
+	
 2006-01-22 svu
 
 	* types/level5: Fixed ScrollLock behaviour

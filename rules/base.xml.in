@@ -733,6 +733,18 @@
         </variant>
         <variant>
           <configItem>
+            <name>dvorak-l</name>
+            <_description>Left handed Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak-r</name>
+            <_description>Right handed Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>rus</name>
             <_description>Russian phonetic</_description>
           </configItem>
