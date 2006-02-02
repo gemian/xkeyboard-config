@@ -1,3 +1,8 @@
+2006-02-01 svu
+
+	* rules/compat/layoutRename.lst: Added cz_qwerty compat rule
+	https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=177362
+	
 2006-01-31 svu
 
 	* symbols/us: Added single-handed dvoraks
