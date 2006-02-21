@@ -7,4 +7,5 @@
   pc98		=	xfree98(pc98)
   abnt2		=	xfree86(abnt2)
   jp106		=	xfree86(jp106)
+  evdev		=	evdev
   *		=	xfree86

@@ -1,3 +1,11 @@
+2006-02-15  Zephaniah E. Hull  <warp@aehallh.com>
+
+	* keycodes/Makefile.am:
+	* keycodes/evdev:
+	* rules/base.m_k.part:
+	Add the evdev keyboard data files. Closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=5903
+
 2006-02-21 svu
 
 	* symbols/inet: Fixed inet(armada)
