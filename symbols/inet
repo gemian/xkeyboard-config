@@ -507,7 +507,10 @@ xkb_symbols "armada" {
     key <I23>	{	[ XF86WWW		]	};
     key <I2E>	{	[ XF86AudioLowerVolume	]	};
     key <I30>	{	[ XF86AudioRaiseVolume	]	};
+    key <I59>   {       [ XF86Launch2           ]       }; // Battery Monitor 
+    key <I5F>   {       [ XF86Standby           ]       }; 
     key <I6F>	{	[ XF86AudioMedia	]	};
+    key <I75>   {       [ XF86Launch0           ]       }; // Info Center 
 };
 
 // Laptop/notebook Compaq (eg. Presario) Internet Keyboard
