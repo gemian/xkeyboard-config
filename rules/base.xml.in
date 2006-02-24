@@ -761,6 +761,27 @@
     </layout>
     <layout>
       <configItem>
+        <name>af</name>
+        <_shortDescription>Afg</_shortDescription>
+        <_description>Afghanistan</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>ps</name>
+            <_description>Pashto</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>uz</name>
+            <_description>Southern Uzbek</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>ara</name>
         <_shortDescription>Ara</_shortDescription>
         <_description>Arabic</_description>

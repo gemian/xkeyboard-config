@@ -1,3 +1,9 @@
+2006-02-24  M. Emal Alekozai <memala@gmx.net>
+
+	* symbols/af, symbols/Makefile.am, rules/base.xml:
+	added Afghan, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=6013
+
 2006-02-15  Zephaniah E. Hull  <warp@aehallh.com>
 
 	* keycodes/Makefile.am:
