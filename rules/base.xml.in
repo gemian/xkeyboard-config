@@ -2125,6 +2125,12 @@
             <_description>Dvorak</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>cat</name>
+            <_description>Catalan variant with middle-dot L</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
