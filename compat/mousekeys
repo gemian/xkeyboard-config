@@ -117,6 +117,29 @@ default partial xkb_compatibility "mousekeys" {
 	action = LockPointerButton(button=default,affect=unlock); 
     };
 
+    // Additional mappings for Solaris keypad compatibility
+    interpret F25 { // aka KP_Divide
+	action = SetPtrDflt(affect=defaultButton,button=1); 
+    };
+    interpret F26 { // aka KP_Multiply
+	action = SetPtrDflt(affect=defaultButton,button=2); 
+    };
+    interpret F27 { // aka KP_Home
+	action = MovePtr(x=-1,y=-1); 
+    };
+    interpret F29 { // aka KP_Prior
+	action = MovePtr(x=+1,y=-1); 
+    };
+    interpret F31 { // aka KP_Begin
+	action = PointerButton(button=default); 
+    };
+    interpret F33 { // aka KP_End
+	action = MovePtr(x=-1,y= +1); 
+    };
+    interpret F35 { // aka KP_Next
+ 	action = MovePtr(x=+1,y=+1); 
+    };
+
     interpret.repeat= False;
 
 

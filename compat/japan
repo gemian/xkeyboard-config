@@ -27,3 +27,22 @@ default partial xkb_compatibility "japan"  {
 	action= NoAction();
     };
 };
+
+// Some Japanese keyboards have an explict Kana Lock key & matching LED
+
+partial xkb_compatibility "kana_lock"  {
+
+    virtual_modifiers Kana_Lock;
+
+    interpret Kana_Lock+AnyOfOrNone(all) {
+        virtualModifier= Kana_Lock;
+        useModMapMods=level1;
+        action= LockGroup(group=+1);
+    };
+
+    indicator "Kana" {
+        !allowExplicit;
+	groups= All-Group1;
+    };
+};
+

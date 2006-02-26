@@ -13,7 +13,7 @@ xkb_symbols "basic" {
 
     include "latin"
 
-    name[Group1]="Turkish";
+    name[Group1]="Turkey";
 
     key <AE01>	{ [         1,    exclam,    onesuperior,    exclamdown ] };
     key <AE02>	{ [         2, apostrophe,      sterling,   twosuperior ] };
@@ -68,7 +68,7 @@ xkb_symbols "f" {
 
     include "latin"
 
-    name[Group1]="Turkish - (F)";
+    name[Group1]="Turkey - (F)";
 
     key <AE01>	{ [         1,     exclam,  onesuperior,   exclamdown ]	};
     key <AE02>	{ [         2,   quotedbl,  twosuperior,   VoidSymbol ]	};
@@ -133,7 +133,7 @@ xkb_symbols "alt" {
 
     include "latin"
 
-    name[Group1]="Turkish - Alt-Q";
+    name[Group1]="Turkey - Alt-Q";
 
     key <AE07>  { [         7,   ampersand,  lowleftcorner,  upleftcorner ] };
     key <AE08>  { [         8,    asterisk,          leftt,          topt ] };
@@ -155,4 +155,22 @@ xkb_symbols "alt" {
     key <SPCE>  { [     space,       space, nobreakspace, nobreakspace ] };
 
     include "level3(ralt_switch)"
+};
+
+
+partial alphanumeric_keys
+xkb_symbols "Sundeadkeys" {
+
+    // For naming consistency
+    include "tr(basic)"
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "sundeadkeys" {
+
+    // For naming consistency
+    include "tr(Sundeadkeys)"
+
+    name[Group1]="Turkey - Sun dead keys";
 };

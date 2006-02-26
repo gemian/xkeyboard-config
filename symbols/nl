@@ -52,3 +52,21 @@ xkb_symbols "basic" {
     include "level3(ralt_switch)"
 };
 
+partial alphanumeric_keys
+xkb_symbols "Sundeadkeys" {
+
+    // For naming consistency
+
+    include "nl(basic)"
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "sundeadkeys" {
+
+     // For naming consistency
+
+    include "nl(Sundeadkeys)"
+    name[Group1]="Netherlands - Sun dead keys";
+};
+

@@ -1204,7 +1204,14 @@
         <_shortDescription>Nld</_shortDescription>
         <_description>Netherlands</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>sundeadkeys</name>
+            <_description>Sun dead keys</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
@@ -1443,6 +1450,12 @@
           <configItem>
             <name>dvorak</name>
             <_description>Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>sundeadkeys</name>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2267,7 +2280,7 @@
       <configItem>
         <name>tr</name>
         <_shortDescription>Tur</_shortDescription>
-        <_description>Turkish </_description>
+        <_description>Turkey</_description>
       </configItem>
       <variantList>
         <variant>
@@ -2280,6 +2293,12 @@
           <configItem>
             <name>alt</name>
             <_description>Alt-Q</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>sundeadkeys</name>
+            <_description>Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2876,6 +2895,18 @@
           <name>eurosign:2</name>
           <_description>Add the EuroSign to the 2 key.</_description>
         </configItem>
+      </option>
+    </group>
+    <group allowMultipleSelection="true">
+      <configItem>
+        <name>japan</name>
+        <description>Japanese Keyboard Options</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>japan:kana_lock</name>
+          <description>Kana Lock key is locking</description>
+       </configItem>
       </option>
     </group>
   </optionList>

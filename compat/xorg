@@ -1,0 +1,11 @@
+//
+// $XKeyboardConfig$
+// Misc optional compat things
+//
+
+default partial xkb_compatibility "lctrl_group1"  {
+    interpret Control_L+Any     {
+        action = SetMods(modifiers=ModMapMods,clearLocks);
+        //action = LatchGroup(group=1,!clearLocks,!latchToLock);
+    };
+};

@@ -2,4 +2,6 @@
   grp_led:caps		=	+ledcaps(group_lock)
   grp_led:scroll	=	+ledscroll(group_lock)
   grp:caps_toggle	=	+ledcaps(group_lock)
+  compat:lctrl_group1	=	+xorg(lctrl_group1)
+  japan:kana_lock	=	+japan(kana_lock)
 

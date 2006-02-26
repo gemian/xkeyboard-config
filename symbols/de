@@ -172,3 +172,23 @@ xkb_symbols "dvorak" {
 
     include "level3(ralt_switch)"
 };
+
+partial alphanumeric_keys
+xkb_symbols "Sundeadkeys" {
+
+    // For naming consistency
+
+    include "de(basic)"
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "sundeadkeys" {
+
+    // For naming consistency
+
+    include "de(Sundeadkeys)"
+
+    name[Group1]="Germany - Sun dead keys";
+};
+
