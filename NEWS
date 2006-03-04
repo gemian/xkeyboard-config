@@ -1,4 +1,6 @@
-0.6	New layouts and keyboard models (mostly media keyboards)
+0.8	Maintenance release. Bugfixes. Updated/new translations. Updated/new layouts.
+	Massive patch from Sun Microsystems incorporated.
+0.7	New layouts and keyboard models (mostly media keyboards)
 	Massive reorganization of the symbols/inet file (huge credits to Frederic Boiteux)
 	Improved RAlt handling (for grp:alts_toggle and lvl3:ralt_switch)
 	A lot of bugs fixed (from fd.o bugzilla)
