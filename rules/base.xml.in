@@ -688,6 +688,12 @@
     </model>
     <model>
       <configItem>
+        <name>acer_ferrari4k</name>
+        <_description>Acer Ferrari 4000</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>power_g5</name>
         <_description>Power G5</_description>
       </configItem>

@@ -67,6 +67,26 @@ xkb_symbols "airkey" {
     key <I63>	{	[ XF86Standby		]	};
 };
 
+// Acer Ferrari 4000 Keyboard
+// From Alex Dubov <oakad@yahoo.com>
+partial alphanumeric_keys
+xkb_symbols "acer_ferrari4k" {
+    key <I20>   {       [ XF86AudioMute         ]       }; //Fn+F8
+    key <I24>   {       [ dollar                ]       };
+    key <I25>   {       [ EuroSign              ]       };
+    key <I26>   {       [ XF86Display           ]       };
+    key <I2E>   {       [ XF86AudioLowerVolume  ]       }; //Fn+Down
+    key <I30>   {       [ XF86AudioRaiseVolume  ]       }; //Fn+Up
+    key <I32>   {       [ XF86WWW               ]       }; //"Saturn" button
+    key <I6C>   {       [ XF86Mail              ]       }; //"mail" button
+    // Missing keycodes - set-up with setkeycodes
+    key <I70>   {       [ Help                  ]       };
+    key <I71>   {       [ XF86Launch1           ]       };
+    key <I72>   {       [ XF86Launch2           ]       };
+    key <I73>   {       [ XF86Launch3           ]       };
+    key <I74>   {       [ XF86Launch4           ]       };
+};
+
 // Azona
 
 // Azona RF2300 wireless Internet Keyboard
