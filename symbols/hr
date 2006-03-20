@@ -12,6 +12,8 @@ xkb_symbols "us" {
 
     name[Group1]= "Croatia - US keyboard with Croatian letters";
 
+    include "us"
+
     key <AD01> { [    any,    any,	backslash	        ] };
     key <AD02> { [    any,    any,	bar      	        ] };
     key <AD03> { [    any,    any, 	EuroSign 	        ] };

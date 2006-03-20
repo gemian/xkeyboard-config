@@ -45,7 +45,7 @@
 	
 2006-02-21 svu
 
-	* symbols/hu: Fixed hr(us)
+	* symbols/hr: Fixed hr(us)
 	https://bugzilla.redhat.com/bugzilla/show_bug.cgi?id=3807
 	
 2006-02-01 svu
