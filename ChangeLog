@@ -1,5 +1,10 @@
 2006-03-21  Sergey Udaltsov
 
+	symbols/kr: added Korean layout, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=6323
+
+2006-03-21  Sergey Udaltsov
+
 	types/pc,symbols/level3: another attempt to fix unfamous
 	RAlt problem, reported in ubuntu:
 	https://launchpad.net/distros/ubuntu/+source/xkeyboard-config/+bug/35845

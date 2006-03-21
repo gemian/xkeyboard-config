@@ -1619,8 +1619,6 @@
             <_description>102/qwerty/dot/Eliminate dead keys</_description>
           </configItem>
         </variant>
-
-
       </variantList>
     </layout>
     <layout>
@@ -2390,6 +2388,14 @@
         <name>vn</name>
         <_shortDescription>Vnm</_shortDescription>
         <_description>Vietnam</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
+        <name>kr</name>
+        <_shortDescription>Kor</_shortDescription>
+        <_description>Korea, Republic Of</_description>
       </configItem>
       <variantList/>
     </layout>
