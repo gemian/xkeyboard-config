@@ -26,7 +26,7 @@ xkb_symbols "ralt_switch_for_alts_toggle" {
     symbols[Group1] = [ Alt_L,  ISO_Prev_Group,  ISO_Prev_Group ]
   };
   key <RALT> {
-    type[Group1]="PC_SYSRQ",
+    type[Group1]="PC_ALT_LEVEL2",
     symbols[Group1] = [ ISO_Level3_Shift, ISO_Next_Group ],
     virtualMods= AltGr
   };

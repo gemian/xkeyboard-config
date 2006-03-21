@@ -17,6 +17,14 @@ partial default xkb_types "default" {
 	level_name[Level2] = "Control";
     };
 
+    type "PC_ALT_LEVEL2" {
+	modifiers = Alt;
+	map[None] = Level1;
+	map[Alt] = Level2;
+	level_name[Level1] = "Base";
+	level_name[Level2] = "Alt";
+    };
+
     type "PC_SYSRQ" {
 	modifiers = Alt+LevelThree;
 	map[None] = Level1;
