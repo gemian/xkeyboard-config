@@ -1,5 +1,10 @@
 2006-03-22  Sergey Udaltsov
 
+	rules/base.xml.in,symbols/tr: added Kurdish, closed
+	https://bugs.freedesktop.org/show_bug.cgi?id=6159
+	
+2006-03-22  Sergey Udaltsov
+
 	rules/base.xml.in: added missing Logitech models, fixed
 	https://bugs.freedesktop.org/show_bug.cgi?id=6350
 	

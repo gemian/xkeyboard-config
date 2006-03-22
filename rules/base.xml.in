@@ -2323,6 +2323,24 @@
             <_description>Sun dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>ku</name>
+            <_description>Kurdish, Latin Q</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku_f</name>
+            <_description>Kurdish, (F)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku_alt</name>
+            <_description>Kurdish, Latin Alt-Q</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

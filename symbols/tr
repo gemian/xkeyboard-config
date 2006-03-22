@@ -174,3 +174,55 @@ xkb_symbols "sundeadkeys" {
 
     name[Group1]="Turkey - Sun dead keys";
 };
+
+// Kurdish Q Layout
+// Erdal Ronahi <erdal.ronahi@gmail.com>, 2006
+// http://ferheng.org
+// http://www.pckurd.net
+
+partial
+xkb_symbols "ku" {
+
+   include "tr(basic)"
+
+   name[Group1]="Turkey - Kurdish, Latin Q";
+
+    key <AD08>	{ [          i,           I,     idotless,            I ] };
+    key <AD11>	{ [          x,           X,       gbreve,       Gbreve ] };
+    key <AD12>	{ [ucircumflex, Ucircumflex,   asciitilde,   dead_macron] };
+    key <AC11>	{ [icircumflex, Icircumflex,   apostrophe,   dead_caron ] };
+    key <AB08>	{ [ecircumflex, Ecircumflex,   odiaeresis,   Odiaeresis ] };
+};
+
+// Kurdish F Layout
+partial
+xkb_symbols "ku_f" {
+
+    include "tr(f)"
+
+    name[Group1]="Turkey - Kurdish, (F)";
+
+    key <AD03>	{ [         x,          X,       gbreve,        Gbreve]	};
+    key <AD04>	{ [         i,          I,    paragraph,   VoidSymbol ] };
+    key <AD05>	{ [         o,          O,  ocircumflex,  Ocircumflex ] };
+
+    key <AC01>	{ [ ucircumflex,  Ucircumflex, udiaeresis, Udiaeresis ] };
+    key <AC02>	{ [ icircumflex,  Icircumflex,          i,  Iabovedot ] };
+    key <AC05>	{ [         u,          U,   udiaeresis,   Udiaeresis ]	};
+    key <AB02>	{ [ecircumflex, Ecircumflex, odiaeresis,  Odiaeresis  ] };
+
+};
+
+// Kurdish Alt-Q Layout
+partial
+xkb_symbols "ku_alt" {
+
+    include "tr(alt)"
+
+    name[Group1]="Turkey - Kurdish, Latin Alt-Q";
+
+    key <AD03>  { [         e,           E,  ecircumflex,  Ecircumflex ] };
+    key <AD07>  { [         u,           U,  ucircumflex,  Ucircumflex ] };
+    key <AD08>  { [         i,           I,  icircumflex,  Icircumflex ] };
+    key <AD09>  { [         o,           O,   odiaeresis,   Odiaeresis ] };
+};
