@@ -502,6 +502,18 @@
     </model>
     <model>
       <configItem>
+        <name>logiinkse</name>
+        <_description>Logitech iTouch Internet Navigator Keyboard SE</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>logiinkseusb</name>
+        <_description>Logitech iTouch Internet Navigator Keyboard SE (USB)</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logiultrax</name>
         <_description>Logitech Ultra-X Keyboard</_description>
       </configItem>
