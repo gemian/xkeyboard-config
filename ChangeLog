@@ -1,3 +1,10 @@
+2006-03-23  Sergey Udaltsov
+
+	symbols/group: another attempt to fix unfamous
+	RAlt problem, reported in ubuntu:
+	https://launchpad.net/distros/ubuntu/+source/xkeyboard-config/+bug/35845
+	Now all types are specified for Group1, to make it consistent
+	
 2006-03-22  Sergey Udaltsov
 
 	rules/base.xml.in,symbols/tr: added Kurdish, closed
