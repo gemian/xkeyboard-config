@@ -4,14 +4,15 @@
 //
 // $XFree86: xc/programs/xkbcomp/symbols/il,v 1.3 2003/01/07 02:03:44 dawes Exp $
 
+// This is a partial implemetation of the Israeli standard SI-1452
+// It does not implement changes to the English layout ("Alt-English"), 
+// as I believe that it is not the job of this layout to modify the English
+// layout.
 partial default alphanumeric_keys 
 xkb_symbols "basic" {
-
     // uses the kbd layout in use in Israel.
 
     name[Group1]= "Israel";
-
-    key <TLDE> { [ semicolon,	asciitilde	]	};
 
     key <AD01> { [ slash,	Q		]	};
     key <AD02> { [ apostrophe,	W		]	};
@@ -46,14 +47,36 @@ xkb_symbols "basic" {
     // Mirrored:
     key <AB08> { [ hebrew_taw,	greater		]	};
     key <AB09> { [ hebrew_finalzade,	less	]	};
-    key <AB10> { [ period,	question	]	};
 
-    // Note the parens mirroring below:
-    key <AD11> { [ bracketright,	braceright	]       };
-    key <AD12> { [ bracketleft,	braceleft	]       };
-    key <AE09> { [ 9         ,	parenright	]       };
-    key <AE10> { [ 0         ,	parenleft	]       };
-    key <BKSL> { [ backslash,    bar             ]       };
+    key.type = "THREE_LEVEL";
+    
+    key <TLDE> { [ semicolon,	asciitilde,0x10005b0	]}; // Sheva
+    key <AB10> { [ period,	question,  0x10005c3	]}; // Sof Pasuq
+  
+    // The following may get overriden by the iso9995-3(basic101) symbols.
+    // therefore they are included here. 
+    // Including them isn't a great idea (for instance: what if group 1 uses
+    // UK keyboard mapping, and maps shift-3 to sterling? This mapping won't
+    // preserve that, and I'm not sure that this is a good feature.
+    key <AE01> { [     1, exclam      , 0x10005b1	]}; // H. Segol
+    key <AE02> { [     2, at          , 0x10005b2	]}; // H. Patah
+    key <AE03> { [     3, numbersign  , 0x10005b3	]}; // H.  Qamats
+    key <AE04> { [     4, dollar      , 0x10005b4	]}; // Hiriq
+    key <AE05> { [     5, percent     , 0x10005b5	]}; // Tsere
+    key <AE06> { [     6, asciicircum , 0x10005b6	]}; // Segol
+    key <AE07> { [     7, ampersand   , 0x10005b7	]}; // Patah
+    key <AE08> { [     8, asterisk    , 0x10005b8	]}; // Qamats
+    // Mirrored: 
+    key <AE09> { [     9, parenright   , 0x10005c2	]}; // Sin dot
+    key <AE10> { [     0, parenleft  , 0x10005c1	]}; // Shin dot
+    key <AE11> { [ minus, underscore  , 0x10005b9	]}; // Holam
+    key <AE12> { [ equal, plus        , 0x10005bc	]}; // Dagesh/Shuruq
+  
+    // Mirrored: 
+    key <AD11> { [ bracketright, braceright, 0x10005bf	]}; // Rafe
+    key <AD12> { [ bracketleft,  braceleft,  0x10005bd	]}; // Meteg
+                                      
+    key <BKSL> { [ backslash,    backslash,  0x10005bb	]}; // Qubuts    
 };
 
 
@@ -111,48 +134,6 @@ xkb_symbols "lyx" {
     key <AE11> { [     minus,	0x10005be	]	}; // H. Hiphen
 };
 
-
-
-// This is a partial implemetation of the Israeli standard SI-1452
-// It does not implement changes to the English layout ("Alt-English"), 
-// as I believe that it is not the job of this layout to modify the English
-// layout. 
-partial alphanumeric_keys 
-xkb_symbols "si1452" {
-    name[Group1]= "Israel - si1452";
-
-    include "il(basic)"
-    
-    key.type = "THREE_LEVEL";
-    
-    key <TLDE> { [ semicolon,	asciitilde,0x10005b0	]}; // Sheva
-    key <AB10> { [ period,	question,  0x10005c3	]}; // Sof Pasuq
-  
-    // The following may get overriden by the iso9995-3(basic101) symbols.
-    // therefore they are included here. 
-    // Including them isn't a great idea (for instance: what if group 1 uses
-    // UK keyboard mapping, and maps shift-3 to sterling? This mapping won't
-    // preserve that, and I'm not sure that this is a good feature.
-    key <AE01> { [     1, exclam      , 0x10005b1	]}; // H. Segol
-    key <AE02> { [     2, at          , 0x10005b2	]}; // H. Patah
-    key <AE03> { [     3, numbersign  , 0x10005b3	]}; // H.  Qamats
-    key <AE04> { [     4, dollar      , 0x10005b4	]}; // Hiriq
-    key <AE05> { [     5, percent     , 0x10005b5	]}; // Tsere
-    key <AE06> { [     6, asciicircum , 0x10005b6	]}; // Segol
-    key <AE07> { [     7, ampersand   , 0x10005b7	]}; // Patah
-    key <AE08> { [     8, asterisk    , 0x10005b8	]}; // Qamats
-    // Mirrored!: 
-    key <AE09> { [     9, parenright   , 0x10005c2	]}; // Sin dot
-    key <AE10> { [     0, parenleft  , 0x10005c1	]}; // Shin dot
-    key <AE11> { [ minus, underscore  , 0x10005b9	]}; // Holam
-    key <AE12> { [ equal, plus        , 0x10005bc	]}; // Dagesh/Shuruq
-  
-    // Mirrored!: 
-    key <AD11> { [ bracketright, braceright, 0x10005bf	]}; // Rafe
-    key <AD12> { [ bracketleft,  braceleft,  0x10005bd	]}; // Meteg
-                                      
-    key <BKSL> { [ backslash,    backslash,  0x10005bb	]}; // Qubuts
-};
 
 partial alphanumeric_keys 
 xkb_symbols "phonetic" {

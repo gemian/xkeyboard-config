@@ -1669,12 +1669,6 @@
         </variant>
         <variant>
           <configItem>
-            <name>si1452</name>
-            <_description>si1452</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>phonetic</name>
             <_description>Phonetic</_description>
           </configItem>
