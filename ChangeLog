@@ -1,3 +1,9 @@
+2006-03-27  Sergey Udaltsov
+
+	keycodes/macintosh,keymap/macintosh,rules/base.m_k.part: fixed
+	Macintosh F13-F15, closed 
+	https://bugs.freedesktop.org/show_bug.cgi?id=6399
+
 2006-03-25  Sergey Udaltsov
 
 	symbols/inet: fixed cymotion,
