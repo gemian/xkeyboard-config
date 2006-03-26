@@ -1951,6 +1951,7 @@ xkb_symbols "cymotionlinux" {
     key <FK17>	{	[	XF86Search		]	};
     key <I02>	{	[	XF86WWW			]	};
     key <I07>	{	[	Undo			]	};
+    key <I0A>	{	[	Redo			]	};
     key <I0F>	{	[	XF86ScrollDown		]	};
     key <I10>	{	[	XF86AudioPrev		]	};
     key <I17>	{	[	XF86Launch2		]	};
@@ -1972,6 +1973,7 @@ xkb_symbols "cymotionlinux" {
     key <I78>	{	[	XF86Copy		]	};
     key <K65>	{	[	XF86Paste		]	};
     key <K6C>	{	[	XF86AudioEject		]	};
+    key <K75>	{	[	XF86ScrollUp		]	};
     key <XFER>	{	[	XF86AudioMedia		]	};
 };
 
