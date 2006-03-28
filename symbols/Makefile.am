@@ -5,7 +5,7 @@ dist_symbols_DATA = \
 ad af al am ara \
 az be bd \
 bg br ba \
-bt by ca \
+bt by ca cd \
 ch cs cz \
 de dk ee \
 es epo fi fo \

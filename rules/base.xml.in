@@ -1143,6 +1143,21 @@
     </layout>
     <layout>
       <configItem>
+        <name>cd</name>
+        <_shortDescription>DRC</_shortDescription>
+        <_description>Congo, Democratic Republic of the</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>generic</name>
+            <_description>Multilingual</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>hr</name>
         <_shortDescription>Hrv</_shortDescription>
         <_description>Croatia</_description>
@@ -2419,7 +2434,7 @@
       <configItem>
         <name>kr</name>
         <_shortDescription>Kor</_shortDescription>
-        <_description>Korea, Republic Of</_description>
+        <_description>Korea, Republic of</_description>
       </configItem>
       <variantList/>
     </layout>
