@@ -1153,14 +1153,7 @@
         <_shortDescription>DRC</_shortDescription>
         <_description>Congo, Democratic Republic of the</_description>
       </configItem>
-      <variantList>
-        <variant>
-          <configItem>
-            <name>generic</name>
-            <_description>Multilingual</_description>
-          </configItem>
-        </variant>
-      </variantList>
+      <variantList/>
     </layout>
     <layout>
       <configItem>
