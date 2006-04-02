@@ -1,3 +1,8 @@
+2006-04-02  Sergey Udaltsov
+
+	symbols/be, rules/base.xml.in: added 'be(wang)'
+	https://bugs.freedesktop.org/show_bug.cgi?id=6474
+
 2006-03-28  Sergey Udaltsov
 
 	symbols/cd, symbols/Makefile.am: added 'cd'

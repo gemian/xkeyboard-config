@@ -100,3 +100,37 @@ xkb_symbols "nodeadkeys" {
     key <AB07>	{ [     comma,   question,      cedilla,    masculine ]	};
     key <AB10>	{ [     equal,       plus,   asciitilde,   asciitilde ]	};
 };
+
+// Wang model 724 azerty Belgium keyboard
+partial alphanumeric_keys
+xkb_symbols "wang" {
+
+    include "be(basic)"
+    name[Group1]="Belgium - Wang model 724 azerty";
+
+    // Engravings on Wang 725-3771-ae
+    key <TLDE> { [ twosuperior, threesuperior,   notsign, asciitilde ] };
+    key <LSGT> { [        less,       greater, backslash,  brokenbar ] };
+
+    // Keypad geometry for Wang 725-3771-ae and 725-3771-uk:
+    //   NmLck Erase/DecTab PrntScrn/SysRq  /
+    //   7<    8>           9^              *
+    //   4[    5]           6$              -
+    //   1&    2@           3#              +
+    //   0'------           .,              ret
+    //key.type[Group1] = "FOUR_LEVEL_KEYPAD";
+    key  <KP7> {  [   KP_Home,       KP_7,         less,         less ]  };
+    key  <KP8> {  [     KP_Up,       KP_8,      greater,      greater ]  };
+    key  <KP9> {  [  KP_Prior,       KP_9,  asciicircum,  asciicircum ]  };
+
+    key  <KP4> {  [   KP_Left,       KP_4,  bracketleft,  bracketleft ]  };
+    key  <KP5> {  [  KP_Begin,       KP_5, bracketright, bracketright ]  };
+    key  <KP6> {  [  KP_Right,       KP_6,       dollar,       dollar ]  };
+
+    key  <KP1> {  [    KP_End,       KP_1,    ampersand,    ampersand ]  };
+    key  <KP2> {  [   KP_Down,       KP_2,           at,           at ]  };
+    key  <KP3> {  [   KP_Next,       KP_3,   numbersign,   numbersign ]  };
+
+    key  <KP0> {  [ KP_Insert,       KP_0,   apostrophe,   apostrophe ]  };
+    key <KPDL> {  [ KP_Delete, KP_Decimal, KP_Separator, KP_Separator ]  };
+};

@@ -921,6 +921,12 @@
             <_description>Sun dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>wang</name>
+            <_description>Wang model 724 azerty</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
