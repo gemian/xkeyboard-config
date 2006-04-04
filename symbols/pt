@@ -11,6 +11,7 @@ xkb_symbols "basic" {
 
     name[Group1]="Portugal";
 
+    key <LSGT>  { [      less,    greater ] };
     key <AE03>	{ [         3, numbersign,     sterling,     sterling ]	};
     key <AE04>	{ [         4,     dollar,      section,       dollar ]	};
     key <AE11>	{ [apostrophe,   question,    backslash, questiondown ]	};
