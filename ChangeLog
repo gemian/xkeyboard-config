@@ -1,5 +1,10 @@
 2006-04-04  Sergey Udaltsov
 
+	symbols/inet: fixed Logitech Access Keyboard
+	https://bugs.freedesktop.org/show_bug.cgi?id=1018
+
+2006-04-04  Sergey Udaltsov
+
 	symbols/pt: added LSGT
 	https://bugs.freedesktop.org/show_bug.cgi?id=970
 

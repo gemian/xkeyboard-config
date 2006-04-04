@@ -1159,10 +1159,11 @@ partial alphanumeric_keys
 xkb_symbols "logiaccess" {
     include "inet(logitech_base)"
 
+    key <FK13>	{	[ XF86MailForward	]	}; 
+    key <FK14>	{	[ XF86Send		]	}; 
     key <I11>	{	[ XF86Messenger		]	};
     key <I12>	{	[ XF86WebCam		]	};
-    key <K62>	{	[ XF86MailForward	]	};
-    key <K63>	{	[ XF86Send		]	};
+    key <I65>	{	[ XF86Search		]	}; 
 };
 
 // Logitech Cordless Desktop iTouch
