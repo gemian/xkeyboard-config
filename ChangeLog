@@ -1,5 +1,11 @@
 2006-04-04  Sergey Udaltsov
 
+	symbols/compose,rules/base.xml.in,rules/base.o_s.part: added
+	compose(lwin)
+	https://bugs.freedesktop.org/show_bug.cgi?id=2396
+
+2006-04-04  Sergey Udaltsov
+
 	symbols/inet,rules/base.xml.in: added Logitech diNovo
 	https://bugs.freedesktop.org/show_bug.cgi?id=1681
 

@@ -2893,6 +2893,12 @@
       </option>
       <option>
         <configItem>
+          <name>compose:lwin</name>
+          <_description>Left Win-key is Compose.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>compose:rwin</name>
           <_description>Right Win-key is Compose.</_description>
         </configItem>
