@@ -1270,6 +1270,24 @@ xkb_symbols "logiultrax" {
     include "inet(logitech_base)"
 };
 
+partial alphanumeric_keys 
+xkb_symbols "dinovo" {
+
+    key <I02>	{	[ XF86HomePage		]	};
+    key <I10>	{	[ XF86AudioPrev		]	};
+    key <I12>	{	[ XF86Standby		]	};
+    key <I17>	{	[ XF86Search		]	};
+    key <I19>	{	[ XF86AudioNext		]	};
+    key <I21>	{	[ XF86AudioRaiseVolume	]	};
+    key <I22>	{	[ XF86AudioPlay, XF86AudioPause ] };
+    key <I24>	{	[ XF86AudioStop		]	};
+    key <I66>	{	[ XF86Start		]	};
+    key <I6C>	{	[ XF86Mail		]	};
+    key <K66>	{	[ XF86AudioLowerVolume	]	};
+    key <KPDC>	{	[ XF86AudioMute		]	};
+    key <XFER>	{	[ XF86AudioMedia	]	};
+};
+
 // Memorex
 
 // Memorex MX1998

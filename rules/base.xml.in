@@ -520,6 +520,12 @@
     </model>
     <model>
       <configItem>
+        <name>dinovo</name>
+        <_description>Logitech diNovo Keyboard</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>mx1998</name>
         <_description>Memorex MX1998</_description>
       </configItem>
