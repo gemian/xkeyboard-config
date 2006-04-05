@@ -1,3 +1,8 @@
+2006-04-05  Sergey Udaltsov
+
+	rules/base.xml.in, changed PC-98xx Series to Japan,
+	https://bugs.freedesktop.org/show_bug.cgi?id=5591
+
 2006-04-04  Sergey Udaltsov
 
 	symbols/compose,rules/base.xml.in,rules/base.o_s.part: added

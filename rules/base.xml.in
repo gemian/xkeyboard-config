@@ -2447,7 +2447,7 @@
       <configItem>
         <name>nec_vndr/jp</name>
         <_shortDescription>Jpn</_shortDescription>
-        <_description>PC-98xx Series</_description>
+        <_description>Japan (PC-98xx Series)</_description>
       </configItem>
       <variantList/>
     </layout>
