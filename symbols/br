@@ -31,11 +31,11 @@ xkb_symbols "abnt2" {
 
     key <AC10>	{ [  ccedilla,   Ccedilla,  dead_acute, dead_doubleacute] };
     key <AC11>	{ [dead_tilde, dead_circumflex, asciitilde, asciicircum ] };
-    key <AC12>  { [bracketright, braceright,  masculine,    masculine   ] };
+    key <BKSL>  { [bracketright, braceright,  masculine,    masculine   ] };
 
     key <TLDE>	{ [apostrophe,   quotedbl,      notsign,      notsign ]	};
 
-    key <BKSL>	{ [ backslash,        bar,    masculine,   dead_breve ]	};
+    key <AC13>	{ [ backslash,        bar,    masculine,   dead_breve ]	};
     key <AB03>	{ [         c,          C,    copyright,    copyright ]	};
     key <AB07>  { [         m,          M,           mu,           mu ] };
     key <AB10>	{ [ semicolon,    colon, dead_belowdot, dead_abovedot ]	};

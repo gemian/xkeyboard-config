@@ -1,5 +1,10 @@
 2006-04-08  Sergey Udaltsov
 
+	keycodes/xfree86,symbols/br: fixed abnt2 keymap and layout
+	https://bugs.freedesktop.org/show_bug.cgi?id=4910
+
+2006-04-08  Sergey Udaltsov
+
 	geometry/macintosh: fixed mac geometry
 	https://bugs.freedesktop.org/show_bug.cgi?id=4714
 

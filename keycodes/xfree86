@@ -407,8 +407,8 @@ xkb_keycodes "jp106" {
 // For brazilian ABNT2 keyboard. by Ricardo Y. Igarashi(iga@that.com.br)
 xkb_keycodes "abnt2" {
     include "xfree86(basic)"
-    <BKSL> = 94;
-    <AC12> = 51;
+    <BKSL> = 51;
+    <AC13> = 94;
     <KPPT> = 134;
 };
 
