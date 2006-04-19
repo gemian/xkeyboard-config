@@ -1,3 +1,8 @@
+2006-04-20  Sergey Udaltsov
+
+	keycodes/evdev: added LSGT, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=6674
+
 2006-04-19  Sergey Udaltsov
 
 	symbols/macintosh_vndr/(be,de,ch): use keypad(comma)

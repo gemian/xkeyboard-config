@@ -346,6 +346,7 @@ default xkb_keycodes "evdev" {
 	// <META> =   156; // <I1C>
 	// <SUPR> =   127; // <U7F>
 	// <HYPR> =   128; // <U80>
+	<LSGT> = 94;
 
 	indicator 1 = "Caps Lock";
 	indicator 2 = "Num Lock";
