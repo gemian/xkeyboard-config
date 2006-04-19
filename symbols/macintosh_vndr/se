@@ -42,11 +42,8 @@ xkb_symbols "basic" {
 			[              at			]	};
     key <LSGT> {        [            less,         greater      ],
                         [             bar,       brokenbar      ]       };
-    key <KPDL> {	[	KP_Delete,    KP_Separator	]	};
 
-
-    // End alphanumeric section
-
+    include "keypad(comma)"
 };
 
 

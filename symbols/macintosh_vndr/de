@@ -85,9 +85,7 @@ xkb_symbols "basic" {
     key <BKSL> {	[ numbersign,	apostrophe	],
 			[ dead_grave			]	};
 
-    // End alphanumeric section, begin "Keypad"
-    key <KPDL> {	[  KP_Delete,	KP_Separator	]	};
-    // End "Keypad" section
+    include "keypad(comma)"
 
     // begin modifier mappings
 //    modifier_map Shift  { Shift_L };

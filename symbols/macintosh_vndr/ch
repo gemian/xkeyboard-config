@@ -116,10 +116,7 @@ xkb_symbols "extended" {
     key <BKSL> { [	dollar,		sterling		],
 		 [	paragraph,	enfilledcircbullet	]	};
 
-    // End alphanumeric section
-    
-    key <KPDL> {[  KP_Separator , KP_Delete	]	};
-
+    include "keypad(comma)"
 };
 
 partial alphanumeric_keys 

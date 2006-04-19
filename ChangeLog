@@ -1,5 +1,9 @@
 2006-04-19  Sergey Udaltsov
 
+	symbols/macintosh_vndr/(be,de,ch): use keypad(comma)
+
+2006-04-19  Sergey Udaltsov
+
 	rules/*, keymap/sgi_vndr/*: shift_toggle -> shifts_toggle,
 	fixing https://bugs.freedesktop.org/show_bug.cgi?id=5078
 
