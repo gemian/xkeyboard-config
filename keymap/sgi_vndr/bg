@@ -4,7 +4,7 @@ default xkb_keymap "indy" {
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols  { 
-	include "us(pc_universal)+bg+group(shift_toggle)"
+	include "us(pc_universal)+bg+group(shifts_toggle)"
     };
     xkb_geometry	{ include "sgi_vndr/indy(pc102)"	};
 };
@@ -13,7 +13,7 @@ xkb_keymap "indigo" {
     xkb_types		{ include "default"		};
     xkb_compatibility	{ include "default"		};
     xkb_symbols { 
-	include "us(pc102)+bg+group(shift_toggle)"
+	include "us(pc102)+bg+group(shifts_toggle)"
     };
     xkb_geometry	{ include "sgi_vndr/indigo(pc102)"	};
 };

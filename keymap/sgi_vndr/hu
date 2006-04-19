@@ -20,7 +20,7 @@ xkb_keymap "indy_shift_toggle" {
     xkb_types		{ include "default"			};
     xkb_compatibility	{ include "default"			};
     xkb_symbols { 
-	include "en_US(pc_universal)+hu(basic)+group(shift_toggle)" 
+	include "en_US(pc_universal)+hu(basic)+group(shifts_toggle)" 
     };
     xkb_geometry	{ include "sgi_vndr/indy(pc102)"		};
 };
@@ -72,7 +72,7 @@ xkb_keymap "indigo_shift_toggle" {
     xkb_types		{ include "default"			};
     xkb_compatibility	{ include "default"			};
     xkb_symbols { 
-	include "en_US(pc102)+hu(basic)+group(shift_toggle)" 
+	include "en_US(pc102)+hu(basic)+group(shifts_toggle)" 
     };
     xkb_geometry	{ include "sgi_vndr/indigo(pc102)"		};
 };

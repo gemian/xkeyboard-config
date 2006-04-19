@@ -19,7 +19,7 @@
 ! option		=	symbols
   grp:switch		=	+group(switch)
   grp:toggle		=	+group(toggle)
-  grp:shift_toggle	=	+group(shift_toggle)
+  grp:shift_toggle	=	+group(shifts_toggle)
   grp:ctrl_shift_toggle	=	+group(ctrl_shift_toggle)
   grp:ctrl_alt_toggle	=	+group(ctrl_alt_toggle)
   ctrl:nocaps		=	+ctrl(nocaps)
