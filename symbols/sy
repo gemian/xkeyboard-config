@@ -150,3 +150,22 @@ xkb_symbols "syc_phonetic" {
     modifier_map Mod2   { Mode_switch };
 
 };
+
+partial alphanumeric_keys
+xkb_symbols "ku" {
+    include "tr(ku)"
+    name[Group1]= "Syria - Kurdish, Latin Q";
+};
+
+partial alphanumeric_keys
+xkb_symbols "ku_f" {
+    include "tr(ku_f)"
+    name[Group1]= "Syria - Kurdish, (F)";
+};
+
+partial alphanumeric_keys
+xkb_symbols "ku_alt" {
+    include "tr(ku_alt)"
+    name[Group1]= "Syria - Kurdish, Latin Alt-Q";
+};
+
