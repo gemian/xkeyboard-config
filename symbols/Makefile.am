@@ -11,7 +11,7 @@ de dk ee \
 es epo fi fo \
 fr gb ge gh \
 gr hr hu \
-ie il in \
+ie il in iq \
 ir is it \
 jp kg kh kr kz la \
 latam latin lk \

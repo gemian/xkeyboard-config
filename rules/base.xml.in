@@ -1304,6 +1304,51 @@
             <_description>Pro Keypad</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>ku</name>
+            <_description>Kurdish, Latin Q</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku_f</name>
+            <_description>Kurdish, (F)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku_alt</name>
+            <_description>Kurdish, Latin Alt-Q</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>iq</name>
+        <_shortDescription>Irq</_shortDescription>
+        <_description>Iraq</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>ku</name>
+            <_description>Kurdish, Latin Q</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku_f</name>
+            <_description>Kurdish, (F)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku_alt</name>
+            <_description>Kurdish, Latin Alt-Q</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -2258,6 +2303,24 @@
           <configItem>
             <name>syc_phonetic</name>
             <_description>Syriac phonetic</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku</name>
+            <_description>Kurdish, Latin Q</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku_f</name>
+            <_description>Kurdish, (F)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku_alt</name>
+            <_description>Kurdish, Latin Alt-Q</_description>
           </configItem>
         </variant>
       </variantList>
