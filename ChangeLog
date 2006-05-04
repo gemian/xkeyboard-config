@@ -1,3 +1,14 @@
+2006-05-04  Sergey Udaltsov
+
+	symbols/inet: fixed cymotionlinux, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=6828
+
+2006-05-04  Sergey Udaltsov
+
+	rules/base.xml.in,symbols/iq,symbols/in,symbols/sy: added Kurdish, 
+	closed https://bugs.freedesktop.org/show_bug.cgi?id=6159
+	one more time
+
 2006-04-20  Sergey Udaltsov
 
 	keycodes/evdev: added LSGT, closing

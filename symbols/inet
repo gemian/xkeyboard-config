@@ -1966,6 +1966,7 @@ xkb_symbols "power_g5" {
 
 partial alphanumeric_keys
 xkb_symbols "cymotionlinux" {
+    key	<RWIN>	{	[	at		]	};
     key	<I68>	{	[	XF86Stop		]	};
     key <FK17>	{	[	XF86Search		]	};
     key <I02>	{	[	XF86WWW			]	};
@@ -1978,14 +1979,16 @@ xkb_symbols "cymotionlinux" {
     key <I1F>	{	[	XF86Launch1		]	};
     key <I20>	{	[	XF86AudioMute		]	};
     key <I21>	{	[	XF86Calculator		]	};
-    key <I22>	{	[	XF86AudioPlay		]	};
+    key <I22>	{	[	XF86AudioPlay, XF86AudioPause	]	};
     key <I24>	{	[	XF86AudioStop		]	};
+    key <I28>	{	[	XF86MenuKB		]	};
     key <I2B>	{	[	XF86Launch3		]	};
     key <I2E>	{	[	XF86AudioLowerVolume	]	};
     key <I30>	{	[	XF86AudioRaiseVolume	]	};
     key <I3C>	{	[	XF86Cut			]	};
     key <I63>   {	[	XF86Standby		]	};
     key <I67>	{	[	XF86Reload		]	};
+    key <I68>	{	[	XF86PowerOff		]	};
     key <I69>	{	[	XF86Forward		]	};
     key <I6A>	{	[	XF86Back		]	};
     key <I6C>	{	[	XF86Mail		]	};
