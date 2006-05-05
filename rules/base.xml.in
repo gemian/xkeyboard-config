@@ -1541,6 +1541,12 @@
             <_description>Sun dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>neo</name>
+            <_description>Neostyle</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

@@ -192,3 +192,107 @@ xkb_symbols "sundeadkeys" {
     name[Group1]="Germany - Sun dead keys";
 };
 
+
+// German NEO Eurokeys-Style
+// adopted 2004 by Hanno Behrens <Hanno.Behrens@gmx.de>
+// inspired by Dvorak/de-ergo  http://www.goebel-consult.de/de-ergo/
+
+partial alphanumeric_keys 
+xkb_symbols "neo" {
+
+    include "us(dvorak)"
+
+    name[Group1]= "Germany - Neostyle";
+
+    key <TLDE> { [ dead_circumflex, degree, notsign, paragraph	] };
+
+    key <AE01> { [	    1,	exclam, exclamdown, onesuperior	] };
+    key <AE02> { [	    2,	quotedbl,   dead_diaeresis, twosuperior ] };
+    key <AE03> { [	    3,	paragraph, sterling, threesuperior ] };
+    key <AE04> { [	    4,	dollar,    currency, onequarter	] };
+    key <AE05> { [	    5,	percent,    bar,	onehalf	] };
+    key <AE06> { [	    6,	ampersand,  brokenbar, threequarters ] };
+    key <AE07> { [	    7,	slash,      braceleft, division	] };
+    key <AE08> { [	    8,	parenleft,  bracketleft, guillemotleft ] };
+    key <AE09> { [	    9,	parenright, bracketright, guillemotright ] };
+    key <AE10> { [	    0,	equal,	    braceright		] };
+    key <AE11> { [	minus,	underscore, hyphen, diaeresis	 ] };
+    key <AE12> { [ dead_acute,dead_grave,   dead_cedilla, dead_ogonek  ] };
+
+    key <AD01> { [ 	    q,  Q,	at			 ] };
+    key <AD02> { [	    v,	V,	masculine, ordfeminine   ] };
+    key <AD03> { [	    l,	L,      lstroke, Lstroke	 ] };
+    key <AD04> { [	    c,	C,      ccedilla,copyright	 ] };
+    key <AD05> { [	    w,	W,	Greek_omega, Greek_OMEGA ] };
+    key <AD06> { [	    k,	K,	Greek_kappa, Greek_KAPPA ] };
+    key <AD07> { [	    h,	H,      Greek_epsilon, Greek_EPSILON ] };
+    key <AD08> { [	    g,	G, 	Greek_gamma, Greek_GAMMA ] };
+    key <AD09> { [	    f,	F,      ordfeminine		 ] };
+    key <AD10> { [	    j,	J,	Greek_iota, Greek_IOTA	 ] };
+    key <AD11> { [  ssharp, question, 	backslash, questiondown  ] };
+    key <AD12> { [	 plus,	asterisk,   dead_tilde,	plusminus ] };
+
+    key <AC01> { [	    u,	U,	Greek_delta, Greek_DELTA ] };
+    key <AC02> { [	    i,	I,      idotless, Iabovedot	 ] };
+    key <AC03> { [	    a,	A,      at, Greek_alpha		 ] };
+    key <AC04> { [	    e,	E,      EuroSign,	cent	 ] };
+    key <AC05> { [	    o,	O,	oslash,	Ooblique	 ] };
+    key <AC06> { [	    s,	S,      Greek_sigma, Greek_SIGMA ] };
+    key <AC07> { [	    n,	N,	Greek_nu, Greek_NU	 ] };
+    key <AC08> { [	    r,	R,      registered,trademark	 ] };
+    key <AC09> { [	    t,	T,      thorn,          THORN	 ] };	//Greek_theta, Greek_THETA/tcedilla, Tcedilla
+    key <AC10> { [	    d,	D,      eth,		ETH	 ] };
+    key <AC11> { [	    y,	Y,      yen			 ] };
+    key <BKSL> { [ numbersign, apostrophe, grave		 ] };
+
+    
+    key <LSGT> { [  less, greater, 	guillemotleft, guillemotright	] };
+    key <AB01> { [ odiaeresis, Odiaeresis, oe, OE		 ] };
+    key <AB02> { [ udiaeresis,Udiaeresis, apostrophe, asciitilde ] };  
+    key <AB03> { [ adiaeresis, Adiaeresis, ae, AE		 ] };
+    key <AB04> { [	    p,	P,      thorn,	THORN		 ] };
+    key <AB05> { [	    z,	Z,	Greek_zeta, Greek_ZETA	 ] };
+    key <AB06> { [	    b,	B,	Greek_beta, Greek_BETA	 ] };
+    key <AB07> { [	    m,	M,	mu, Greek_MU			 ] };
+    key <AB08> { [	comma,	semicolon, dead_cedilla, cedilla ] };
+    key <AB09> { [      period,	colon,  periodcentered		 ] };
+    key <AB10> { [	    x,	X,      multiply		 ] };
+
+    key <SPCE> { [	 space,	space, nobreakspace, nobreakspace ] };
+
+    
+    // End "Editing" section, begin "Keypad"
+//    key <NMLK> {	[  Num_Lock, Pointer_EnableKeys		]	};
+
+// Ungrab cancels server/keyboard/pointer grabs
+//    key <KPDV> {  [KP_Divide, KP_Divide, division]  };
+
+// ClsGrb kills whichever client has a grab in effect
+//    key <KPMU> {  [KP_Multiply, KP_Multiply, periodcentered]  };
+
+// -VMode switches to the previous video mode
+//    key <KPSU> { [ KP_Subtract, KP_Subtract, notsign]   };
+
+    key  <KP7> {	[  KP_Home,	KP_7, seveneighths, oneeighth	]	};
+    key  <KP8> {	[  KP_Up,	KP_8, uparrow, fiveeighths	]	};
+    key  <KP9> {	[  KP_Prior,	KP_9, threeeighths, threeeighths ]	};
+
+// +VMode switches to the next video mode
+//    key <KPAD> {	[  KP_Add, KP_Add, plusminus ]    };
+
+    key  <KP4> {	[  KP_Left,	KP_4, leftarrow, onequarter		]	};
+    key  <KP5> {	[  KP_Begin,	KP_5, dagger, onehalf 			]	};
+    key  <KP6> {	[  KP_Right,	KP_6, rightarrow, threequarters	]	};
+
+    key  <KP1> {	[  KP_End,	KP_1, onesuperior, onesuperior		]	};
+    key  <KP2> {	[  KP_Down,	KP_2, downarrow, twosuperior		]	};
+    key  <KP3> {	[  KP_Next,	KP_3, threesuperior, threesuperior	]	};
+    key <KPEN> {	[  	KP_Enter	]	};
+    key <KPEQ> {	[  	KP_Equal	]	};
+
+    key  <KP0> {	[  KP_Insert,	KP_0, percent, degree			]	};
+    key <KPDL> {  	[  KP_Delete,	KP_Decimal, periodcentered, comma  ]	};
+    // End "Keypad" section
+
+    include "level3(ralt_switch)"
+};
