@@ -88,3 +88,78 @@ xkb_symbols "smi" {
     key <AC10>	{ [odiaeresis, Odiaeresis,       oslash,     Ooblique ]	};
     key <AC11>	{ [adiaeresis, Adiaeresis,           ae,           AE ]	};
 };
+
+// based on a keyboard map from an 'xkb/symbols/fi' file
+//
+// Troy Korjuslommi, 
+// Jan 6, 2006,
+// May 5, 2006.
+// May 6, 2006.
+// May 12, 2006.
+// 
+partial alphanumeric_keys
+xkb_symbols "kotoistus" {
+
+    name[Group1]="Finland - Kotoistus";
+
+    key <SPCE> { [  space,           space,            space,             nobreakspace    ] };
+    key <TLDE> { [  section,         onehalf,          UFE63,             NoSymbol        ] };
+    key <AE01> { [  1,               exclam,           NoSymbol,          exclamdown      ] };
+    key <AE02> { [  2,               quotedbl,         at,                U201D           ] };
+    key <AE03> { [  3,               numbersign,       sterling,          U00BB           ] };
+    key <AE04> { [  4,               currency,         dollar,            U00AB           ] };
+    key <AE05> { [  5,               percent,          U2030,             U201C           ] };
+    key <AE06> { [  6,               ampersand,        U201A,             U201E           ] };
+    key <AE07> { [  7,               slash,            braceleft,         NoSymbol        ] };
+    key <AE08> { [  8,               parenleft,        bracketleft,       NoSymbol        ] };
+    key <AE09> { [  9,               parenright,       bracketright,      NoSymbol        ] };
+    key <AE10> { [  0,               equal,            braceright,        degree          ] };
+    key <AE11> { [  plus,            question,         backslash,         questiondown    ] };
+    key <AE12> { [  dead_acute,      dead_grave,       dead_cedilla,      dead_ogonek     ] };
+    key <AD01> { [  q,               Q,                NoSymbol,          NoSymbol        ] };
+    key <AD02> { [  w,               W,                NoSymbol,          NoSymbol        ] };
+    key <AD03> { [  e,               E,                EuroSign,          NoSymbol        ] };
+    key <AD04> { [  r,               R,                NoSymbol,          NoSymbol        ] };
+    key <AD05> { [  t,               T,                thorn,             THORN           ] };
+    key <AD06> { [  y,               Y,                NoSymbol,          NoSymbol        ] };
+    key <AD07> { [  u,               U,                NoSymbol,          NoSymbol        ] };
+    key <AD08> { [  i,               I,                idotless,          NoSymbol        ] };
+    key <AD09> { [  o,               O,                U0153,             U0152           ] };
+    key <AD10> { [  p,               P,                dead_horn,         dead_hook       ] };
+    key <AD11> { [  aring,           Aring,            dead_doubleacute,  dead_abovering  ] };
+    key <AD12> { [  dead_diaeresis,  dead_circumflex,  dead_tilde,        dead_macron     ] };
+    key <AC01> { [  a,               A,                U0259,             U018F           ] };
+    key <AC02> { [  s,               S,                ssharp,            NoSymbol        ] };
+    key <AC03> { [  d,               D,                eth,               ETH             ] };
+    key <AC04> { [  f,               F,                NoSymbol,          NoSymbol        ] };
+    key <AC05> { [  g,               G,                NoSymbol,          NoSymbol        ] };
+    key <AC06> { [  h,               H,                NoSymbol,          NoSymbol        ] };
+    key <AC07> { [  j,               J,                NoSymbol,          NoSymbol        ] };
+    key <AC08> { [  k,               K,                kra,               NoSymbol        ] };
+    key <AC09> { [  l,               L,                UFE63,             NoSymbol        ] };
+    key <AC10> { [  odiaeresis,      Odiaeresis,       oslash,            Ooblique        ] };
+    key <AC11> { [  adiaeresis,      Adiaeresis,       ae,                AE              ] };
+    key <BKSL> { [  apostrophe,      asterisk,         dead_caron,        dead_breve      ] };
+    key <LSGT> { [  less,            greater,          bar,               NoSymbol        ] };
+    key <AB01> { [  z,               Z,                U0292,             U01B7           ] };
+    key <AB02> { [  x,               X,                multiply,          U00B7           ] };
+    key <AB03> { [  c,               C,                NoSymbol,          NoSymbol        ] };
+    key <AB04> { [  v,               V,                NoSymbol,          NoSymbol        ] };
+    key <AB05> { [  b,               B,                NoSymbol,          NoSymbol        ] };
+    key <AB06> { [  n,               N,                U014B,             U014A           ] };
+    key <AB07> { [  m,               M,                U00B5,             U2014           ] };
+    key <AB08> { [  comma,           semicolon,        U2019,             U2018           ] };
+    key <AB09> { [  period,          colon,            dead_belowdot,     dead_abovedot   ] };
+    key <AB10> { [  minus,           underscore,       U2013,             dead_abovedot   ] };
+
+    include "keypad(comma)"
+
+    include "level3(ralt_switch)"
+
+    include "compose(rwin)"
+};
+
+
+
+
+

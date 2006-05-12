@@ -1385,6 +1385,12 @@
             <_description>Northern Saami</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>kotoistus</name>
+            <_description>Kotoistus</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
