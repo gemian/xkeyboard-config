@@ -1,3 +1,8 @@
+2006-05-17  Sergey Udaltsov
+
+	symbols/inet: fixed power_g5, partially closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=6960
+
 2006-05-13  Sergey Udaltsov
 
 	symbols/fi: added fi(kotoistus)
