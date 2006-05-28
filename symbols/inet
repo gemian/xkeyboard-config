@@ -1121,6 +1121,7 @@ xkb_symbols "logitech_base" {
     key <I5F> { [ XF86Standby ] };
     key <I65> { [ XF86Search ] };
     key <I66> {	[ XF86Favorites	] };
+    key <I69> { [ XF86Forward ] };
     key <I6A> { [ XF86Back ] };
     key <I6C> { [ XF86Mail ] };
     key <I6D> { [ XF86AudioMedia ] };
@@ -1195,13 +1196,20 @@ xkb_symbols "logicink" {
     key <I12>	{	[ XF86VendorHome	]	};
     key <I13>	{	[ XF86Finance		]	};
     key <I14>	{	[ XF86Start		]	};
-    key <I69>	{	[ XF86Forward		]	};
 };
 
 // Logitech iTouch Internet Navigator Keyboard
 partial alphanumeric_keys
 xkb_symbols "logiciink" {
     include "inet(logicinc)"
+};
+
+// Logitech Cordless Desktop LX-300
+partial alphanumeric_keys
+xkb_symbols "logiclx300" {
+    include "inet(logitech_base)"
+
+    key <I21>	{	[ XF86Calculator	]	};
 };
 
 // Logitech iTouch Internet Navigator Keyboard SE
@@ -1219,7 +1227,6 @@ xkb_symbols "logiinkse" {
     key <I13>	{	[ XF86VendorHome	]	};
     key <I14>	{	[ XF86Shop		]	};
     key <I42>	{	[ XF86Save		]	};	// F8
-    key <I69>	{	[ XF86Forward		]	};
 };
 
 // Logitech iTouch Internet Navigator Keyboard SE (USB)

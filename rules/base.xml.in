@@ -418,6 +418,12 @@
     </model>
     <model>
       <configItem>
+        <name>logiclx300</name>
+        <_description>Logitech Cordless Desktop LX-300</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logicdp</name>
         <_description>Logitech Cordless Desktop Pro</_description>
       </configItem>

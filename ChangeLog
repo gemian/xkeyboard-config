@@ -1,5 +1,11 @@
 2006-05-28  Sergey Udaltsov
 
+	symbols/inet,rules/base.xml.in,rules/base.lists.part: 
+	added Logitech Cordless Desktop LX-300
+	https://bugs.freedesktop.org/show_bug.cgi?id=5609
+
+2006-05-28  Sergey Udaltsov
+
 	rules/base.ml_c: fixed compat for jp layout, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=4002
 
