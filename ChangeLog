@@ -1,3 +1,8 @@
+2006-06-01  Sergey Udaltsov
+
+	symbols/am: fixed comma in Armenian, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=7080
+
 2006-05-28  Sergey Udaltsov
 
 	symbols/inet,rules/base.xml.in,rules/base.lists.part: 
