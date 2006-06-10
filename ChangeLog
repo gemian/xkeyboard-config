@@ -1,3 +1,8 @@
+2006-06-10  Sergey Udaltsov
+
+	symbols/level5, compat5/level5: better working Canadian
+	layout, but not complete yet
+
 2006-06-01  Sergey Udaltsov
 
 	symbols/am: fixed comma in Armenian, closing

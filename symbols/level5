@@ -12,7 +12,7 @@ partial modifier_keys
 xkb_symbols "rctrl_switch" {
   key <RCTL> {
     type[Group1]="ONE_LEVEL",
-    symbols[Group1] = [ F35 ]
+    symbols[Group1] = [ F21 ]
     };
-  modifier_map Mod5   { F35 };
+  modifier_map Mod3   { F21 };
 };
