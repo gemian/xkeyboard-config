@@ -41,17 +41,34 @@ xkb_symbols "basic" {
 partial alphanumeric_keys
 xkb_symbols "us" {
 
-    include "mt(basic)"
+    include "latin"
 
     // Describes the differences between the mt
     // keyboard and a US-based physical keyboard
 
     name[Group1]="Malta - US keyboard with Maltian letters";
 
+    // The following four sets are the four additional letters, with the US
+    // equivalents
+    key <TLDE>	{ [ cabovedot,  Cabovedot,        grave,   asciitilde ]	};
+    key <AD11>	{ [ gabovedot,  Gabovedot,  bracketleft,    braceleft ]	};
+    key <AD12>	{ [   hstroke,    Hstroke, bracketright,   braceright ]	};
+    key <LSGT>	{ [ zabovedot,  Zabovedot,    backslash,          bar ]	};
     key <BKSL>	{ [ zabovedot,  Zabovedot,    backslash,          bar ]	};
 
-    key <TLDE>	{ [ cabovedot,  Cabovedot,        grave,   asciitilde ]	};
+    // Euro symbol
+    key <AE03>	{ [         3,   EuroSign,     numbersign             ]	};
 
-    key <AE03>	{ [         3,   EuroSign,   numbersign               ]	};
+    // Long accent
+    key <AE06>	{ [         6, asciicircum, dead_circumflex, dead_circumflex ]	};
+
+    // Normal accented vowels
+    key <AD03>	{ [         e,          E,       egrave,       Egrave ]	};
+    key <AD07>	{ [         u,          U,       ugrave,       Ugrave ]	};
+    key <AD08>	{ [         i,          I,       igrave,       Igrave ]	};
+    key <AD09>	{ [         o,          O,       ograve,       Ograve ]	};
+    key <AC01>	{ [         a,          A,       agrave,       Agrave ]	};
+
+    include "level3(ralt_switch)"
 
 };
