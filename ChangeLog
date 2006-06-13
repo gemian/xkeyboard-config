@@ -1,5 +1,12 @@
 2006-06-13  Sergey Udaltsov
 
+	symbols/level5, compat/level5: replacing F21-F23 with explicit
+	hexadecimal values of XK_ISO_Level5_*. So for next months people could
+	have Canadian layout fixed and, at the same time, do not have to
+	upgrade xorg. Closing https://bugs.freedesktop.org/show_bug.cgi?id=4411
+
+2006-06-13  Sergey Udaltsov
+
 	symbols/ch, symbols/inet, symbols/base.xml.in: added mac stuff from
 	https://bugs.freedesktop.org/show_bug.cgi?id=6960
 
