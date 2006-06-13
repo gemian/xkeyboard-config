@@ -1,10 +1,5 @@
 // $XKeyboardConfig$
-
 // $Xorg: ch,v 1.3 2000/08/17 19:54:42 cpqbld Exp $
-
-
-
-
 // $XFree86: xc/programs/xkbcomp/symbols/ch,v 3.6 2002/11/25 14:05:06 eich Exp $
 
 partial default alphanumeric_keys 
@@ -120,3 +115,91 @@ xkb_symbols "fr_nodeadkeys" {
     key <AE12> { [ asciicircum,    grave,   asciitilde  ] };
     key <AD12> { [   diaeresis,   exclam, bracketright  ] };
 };
+
+// Macintosh layout (Swiss German)
+//
+// 03.01.2003
+// Andreas Tobler <a.tobler@schweiz.ch>
+// modified for Swiss German Apple Extended Keyboard II
+//
+// 2006-05-25, 2006-06-08
+// Hanselmann Michael <xorg-at-hansmi.ch>
+// Fixed keys, reformatted, moved to symbols/ch
+partial alphanumeric_keys 
+xkb_symbols "de_mac" {
+	name[Group1]= "Switzerland - German (Macintosh)";
+	// Alphanumeric section
+	key <AE01> { [	1,	plus,		plusminus,	infinity	] };
+	key <AE02> { [	2,	quotedbl,	leftdoublequotemark,	rightdoublequotemark	] };
+	key <AE03> { [	3,	asterisk,	numbersign,	0x01002039	] };
+	key <AE04> { [	4,	ccedilla,	Ccedilla,	0x01002044	] };
+	key <AE05> { [	5,	percent,	bracketleft,	0x01002039	] };
+	key <AE06> { [	6,	ampersand,	bracketright,	0x0100203A	] };
+	key <AE07> { [	7,	slash,		bar,		backslash	] };
+	key <AE08> { [	8,	parenleft,	braceleft,	Ograve		] };
+	key <AE09> { [	9,	parenright,	braceright,	Ocircumflex	] };
+	key <AE10> { [	0,	equal,		notequal,	Uacute		] };
+	key <AE11> { [	apostrophe,	question,	questiondown,	NoSymbol	] };
+	key <AE12> { [	dead_circumflex, dead_grave,	dead_acute,	asciicircum	] };
+	key <AD01> { [	q,	Q,	oe,		OE		] };
+	key <AD02> { [	w,	W,	Greek_SIGMA,	Aacute		] };
+	key <AD03> { [	e,	E,	EuroSign,	Ediaeresis	] };
+	key <AD04> { [	r,	R,	registered,	Egrave		] };
+	key <AD05> { [	t,	T,	dagger,		Icircumflex	] };
+	key <AD06> { [	z,	Z,	Greek_OMEGA,	Iacute		] };
+	key <AD07> { [	u,	U,	degree,		Ugrave		] };
+	key <AD08> { [	i,	I,	exclamdown,	idotless	] };
+	key <AD09> { [	o,	O,	oslash,		Ooblique	] };
+	key <AD10> { [	p,	P,	Greek_pi,	Greek_PI	] };
+	key <AD11> { [	udiaeresis,	egrave,	section,		ydiaeresis		] };
+	key <AD12> { [	dead_diaeresis,	exclam,	leftsinglequotemark,	rightsinglequotemark	] };
+	key <AC01> { [	a,	A,	aring,		Aring	] };
+	// U+FB01 = ligature fi
+	key <AC02> { [	s,	S,	ssharp,		0x0100fb01	] };
+	// U+2202 = partialderivative, U+FB02 = ligature fl
+	key <AC03> { [	d,	D,	0x01002202,	0x0100fb02	] };
+	key <AC04> { [	f,	F,	function,	doubledagger	] };
+	key <AC05> { [	g,	G,	at,		comma		] };
+	key <AC06> { [	h,	H,	ordfeminine,	periodcentered	] };
+	key <AC07> { [	j,	J,	masculine,	0x010002dc	] };
+	key <AC08> { [	k,	K,	Greek_DELTA,	macron		] };
+	key <AC09> { [	l,	L,	notsign,	caret		] };
+	key <AC10> { [	odiaeresis, eacute,	cent,	breve		] };
+	key <AC11> { [	adiaeresis, agrave,	ae,	AE		] };
+	key <AB01> { [	y,	Y,	yen,		Ydiaeresis	] };
+	key <AB02> { [	x,	X,	similarequal,	trademark	] };
+	key <AB03> { [	c,	C,	copyright,	NoSymbol	] };
+	key <AB04> { [	v,	V,	radical,	diamond		] };
+	key <AB05> { [	b,	B,	integral,	NoSymbol	] };
+	key <AB06> { [	n,	N,	dead_tilde,	abovedot	] };
+	// U+02DA = RING ABOVE
+	key <AB07> { [	m,	M,	mu,		0x010002da	] };
+	key <AB08> { [	comma,	semicolon,	guillemotleft,	guillemotright	] };
+	key <AB09> { [	period,	colon,		ellipsis,	division	] };
+	key <AB10> { [	minus,	underscore,	hyphen,		emdash		] };
+	// U+FB01 = ligature fi, U+2030 = per mille
+	key <TLDE> { [	section, degree,	0x0100fb01,	0x01002030		] };
+	key <SPCE> { [	space,	nobreakspace,	nobreakspace				] };
+	key <LSGT> { [	less,	greater,	lessthanequal,	greaterthanequal	] };
+	key <BKSL> { [	dollar,	sterling,	paragraph,	enfilledcircbullet	] };
+	// End alphanumeric section
+
+	// Other keys
+	key <KPDL> { [	KP_Separator,	KP_Delete	]	};
+	// End of other keys
+};
+
+// Macintosh layout (Swiss French)
+//
+// Describes the differences between a Swiss German keyboard
+// and a Swiss French keyboard
+partial alphanumeric_keys 
+xkb_symbols "fr_mac" {
+	include "ch(de_mac)"
+	name[Group1]= "Switzerland - French (Macintosh)";
+	key <AD11> { [	egrave,	udiaeresis,	bracketleft	] };
+	key <AC10> { [	eacute,	odiaeresis			] };
+	key <AC11> { [	agrave,	adiaeresis,	braceleft	] };
+};
+
+// vim: tabstop=8 syntax=c noexpandtab softtabstop=0 shiftwidth=8

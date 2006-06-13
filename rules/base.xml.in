@@ -724,6 +724,18 @@
     </model>
     <model>
       <configItem>
+        <name>apple</name>
+        <_description>Apple</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>apple_laptop</name>
+        <_description>Apple Laptop</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>silvercrest</name>
         <_description>SILVERCREST Multimedia Wireless Keyboard</_description>
       </configItem>
@@ -2300,6 +2312,18 @@
           <configItem>
             <name>fr_sundeadkeys</name>
             <_description>French, Sun dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>fr_mac</name>
+            <_description>French (Macintosh)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>de_mac</name>
+            <_description>German (Macintosh)</_description>
           </configItem>
         </variant>
       </variantList>

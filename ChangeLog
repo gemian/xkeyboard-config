@@ -1,5 +1,10 @@
 2006-06-13  Sergey Udaltsov
 
+	symbols/ch, symbols/inet, symbols/base.xml.in: added mac stuff from
+	https://bugs.freedesktop.org/show_bug.cgi?id=6960
+
+2006-06-13  Sergey Udaltsov
+
 	symbols/mt: fixed mt(us), closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=1411
 
