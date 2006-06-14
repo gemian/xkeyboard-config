@@ -1,5 +1,9 @@
 2006-06-14  Sergey Udaltsov
 
+	symbols/mt, rules/base.xml.in: fixed the US variant group name
+
+2006-06-14  Sergey Udaltsov
+
 	symbols/gh: fixed 'D' key, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=7216
 

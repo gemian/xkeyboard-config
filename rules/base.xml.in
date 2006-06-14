@@ -1940,7 +1940,7 @@
         <variant>
           <configItem>
             <name>us</name>
-            <_description>US keyboard with Maltian letters</_description>
+            <_description>Maltese keyboard with US layout</_description>
           </configItem>
         </variant>
       </variantList>

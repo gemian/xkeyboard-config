@@ -46,7 +46,7 @@ xkb_symbols "us" {
     // Describes the differences between the mt
     // keyboard and a US-based physical keyboard
 
-    name[Group1]="Malta - US keyboard with Maltian letters";
+    name[Group1]="Malta - Maltese keyboard with US layout";
 
     // The following four sets are the four additional letters, with the US
     // equivalents
