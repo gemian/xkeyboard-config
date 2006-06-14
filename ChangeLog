@@ -1,3 +1,8 @@
+2006-06-14  Sergey Udaltsov
+
+	symbols/gh: fixed 'D' key, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=7216
+
 2006-06-13  Sergey Udaltsov
 
 	symbols/level5, compat/level5: replacing F21-F23 with explicit
