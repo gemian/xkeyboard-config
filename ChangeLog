@@ -1,3 +1,8 @@
+2006-06-22  Sergey Udaltsov
+
+	symbols/inet: fixing double RaiseVolume, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=7095
+
 2006-06-14  Sergey Udaltsov
 
 	symbols/mt, rules/base.xml.in: fixed the US variant group name

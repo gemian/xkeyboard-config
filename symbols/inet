@@ -1109,7 +1109,6 @@ xkb_symbols "logitech_base" {
     key <I22> { [ XF86AudioPlay, XF86AudioPause ] };
     key <I24> { [ XF86AudioStop ] };
     key <I2E> { [ XF86AudioLowerVolume ] };
-    key <I2F> {	[ XF86AudioRaiseVolume ] };
     key <I30> { [ XF86AudioRaiseVolume ] };
     key <I32> { [ XF86HomePage ] };
     key <I3B> { [ XF86New ] };
@@ -1240,6 +1239,13 @@ xkb_symbols "logiinkseusb" {
 partial alphanumeric_keys
 xkb_symbols "logiitc" {
     include "inet(logitech_base)"
+
+    key <I2F> {	[ XF86AudioRaiseVolume ] };
+
+    // Just to override RaiseVolume from logitech_base,
+    // since no keysym can have two keycodes, see
+    // https://bugs.freedesktop.org/show_bug.cgi?id=7095
+    key <I30> {	[ XF86Launch1 ] };
 };
 
 // Logitech Internet Keyboard
