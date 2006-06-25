@@ -1318,3 +1318,188 @@ xkb_geometry "kr106" {
     alias <AA00> = <LCTL>;
 
 }; // End of "kr106" geometry
+
+// Based on the pc(basic) layout. The keypad, sysreq/ScrLk/Break, and multimedia
+// keys are not shown because they are shared with other keys via the <FN> key.
+// This should not be a problem if the normal symbols are used, as the keys will
+// show through normally, they just won't show from xkbprint. For the record,
+// <FN>+<PGUP> = AudioRaise,
+// <FN>+<PGDN> = AudioLower,
+// <FN>+<END> = AudioMute,
+// <FN>+<PRSC> = Sysreq,
+// <FN>+<NMLK> = ScrollLock,
+// <FN>+<BREAK> = <PAUS>,
+// <FN>+7 = KP_7,
+// <FN>+8 = KP_8,
+// <FN>+9 = KP_9,
+// <FN>+0 = KP_MUL,
+// <FN>+U = KP_4,
+// <FN>+I = KP_5,
+// <FN>+O = KP_6,
+// <FN>+P = KP_SUB,
+// <FN>+J = KP_1,
+// <FN>+K = KP_2,
+// <FN>+L = KP_3,
+// <FN>+; = KP_ADD,
+// <FN>+M = KP_INS,
+// <FN>+. = KP_DEL,
+// <FN>+/ = KP_DIV.
+// The other FN combinations aren't passed to X, but are handled by BIOS.
+// <FN> and all keys with <FN> level mappings are marked in grey20.
+//
+// David Cameron Staples <staples@cs.mu.oz.au> 2006-05-12
+
+xkb_geometry "latitude" {
+
+    description= "Dell Latitude";
+    width= 330;
+    height= 210;
+
+    shape.cornerRadius= 1;
+    shape "NORM" { { [ 18  ,18] }, { [2,1  ], [ 16,16] } };
+    shape "FUNC" { { [ 16.2,12] }, { [2,0.5], [ 14,10] } };
+    shape "ESC"  { { [ 18  ,12] }, { [2,0.5], [ 16,10] } };
+    shape "BKSP" { { [ 38  ,18] }, { [2,1  ], [ 36,16] } };
+    shape "TABK" { { [ 28  ,18] }, { [2,1  ], [ 26,16] } };
+    shape "BKSL" { { [ 28  ,18] }, { [2,1  ], [ 26,16] } };
+    shape "RTRN" { { [ 42  ,18] }, { [2,1  ], [ 40,16] } };
+    shape "CAPS" { { [ 33  ,18] }, { [2,1  ], [ 26,16] } };
+    shape "LFSH" { { [ 42  ,18] }, { [2,1  ], [ 40,16] } };
+    shape "RTSH" { { [ 52  ,18] }, { [2,1  ], [ 50,16] } };
+    shape "SPCE" { { [ 95  ,18] }, { [2,1  ], [ 93,16] } };
+    shape "LCTL" { { [ 28  ,14] }, { [2,1  ], [ 26,12] } };
+    shape "LALT" { { [ 22  ,14] }, { [2,1  ], [ 20,12] } };
+    shape "WIN"  { { [ 18  ,14] }, { [2,1  ], [ 16,12] } };
+
+    shape "LED"  { cornerRadius= 0.5, { [  1,  3 ] } };
+
+    indicator.onColor= "green";
+    indicator.offColor= "green30";
+    indicator.top= 37;
+    indicator.shape= "LED";
+    indicator "Num Lock"     { left= 138; };
+    indicator "Caps Lock"    { left= 150; };
+    indicator "Scroll Lock"  { left= 162; };
+    text.top= 33;
+    text.color= "black";
+    text "NumLockLabel"		{ left= 140; text="Num\nLock"; };
+    text "CapsLockLabel"	{ left= 152; text="Caps\nLock"; };
+    text "ScrollLockLabel"	{ left= 164; text="Scroll\nLock"; };
+
+    text "LATITUDE"		{ left= 19; text="L A T I T U D E"; };
+
+    section.left= 19;
+    row.left= 1;
+    key.shape= "NORM";
+    key.gap=  1;
+    section "Function" {
+	top= 32;
+	key.shape= "FUNC";
+	key.color= "grey20";
+	row {
+	    top= 1;
+	    left= 163.8;
+	    keys {  { <MENU>, color="white" }, <PRSC>, <NMLK>, <PAUS>,
+	            { <INS>, 3, color="white" },
+		    { <HOME>, color="white"}, <PGUP>
+            };
+	};
+	row {
+	    top= 14;
+	    keys {  { <ESC>, "ESC" },
+		    { <FK01>, 3 },
+		    { <FK02>, color="white" }, <FK03>,
+		    { <FK04>, color="white" },
+		    { <FK05>, 3 },
+		    { <FK06>, color="white" }, <FK07>, <FK08>,
+		    { <FK09>, 3, color="white" }, <FK10>,
+		    { <FK11>, color="white" }, 
+		    { <FK12>, color="white" },
+		    { <DELE>, 3, color="white" }, <END>, <PGDN> 
+	    };
+	};
+    }; // End of "Function" section
+
+    section "Alpha" {
+	top= 60;
+	row {
+	    top= 1;
+	    keys { <TLDE>, <AE01>, <AE02>, <AE03>, <AE04>,
+		   <AE05>, <AE06>, 
+		   { <AE07>, color="grey20" },
+		   { <AE08>, color="grey20" },
+		   { <AE09>, color="grey20" },
+		   { <AE10>, color="grey20" }, <AE11>, <AE12>,
+		   { <BKSP>, "BKSP" }
+	    };
+	};
+	row {
+	    top= 20;
+	    keys { { <TAB>, "TABK" },
+		   <AD01>, <AD02>, <AD03>, <AD04>, <AD05>, 
+		   <AD06>, 
+		   { <AD07>, color="grey20" },
+		   { <AD08>, color="grey20" },
+		   { <AD09>, color="grey20" },
+		   { <AD10>, color="grey20" },
+		   <AD11>, <AD12>, { <BKSL>, "BKSL" }
+	    };
+	};
+	row {
+	    top= 39;
+	    keys { { <CAPS>, "CAPS" },
+		   <AC01>, <AC02>, <AC03>, <AC04>, <AC05>, 
+		   <AC06>, 
+		   { <AC07>, color="grey20" },
+		   { <AC08>, color="grey20" },
+		   { <AC09>, color="grey20" },
+		   { <AC10>, color="grey20" },
+		   <AC11>, { <RTRN>, "RTRN" }
+	    };
+	};
+	row {
+	    top= 58;
+	    keys { { <LFSH>, "LFSH" },
+		    <AB01>, <AB02>, <AB03>, <AB04>, <AB05>, 
+		    <AB06>, 
+		    { <AB07>, color="grey20" }, <AB08>,
+		    { <AB09>, color="grey20" },
+		    { <AB10>, color="grey20" },
+		    { <RTSH>, "RTSH" }
+	    };
+	};
+	row {
+	    top= 77;
+	    key.shape= "WIN";
+	    keys { { <LCTL>, "LCTL" },
+	           { <FN>, color="grey20" },
+		   <LWIN>,
+		   { <LALT>, "LALT" },
+		   { <SPCE>, "SPCE" },
+		   <RALT>,
+		   { <RCTL>, "LALT" }
+	    };
+	};
+    }; // End of "Alpha" section
+
+    section "Editing" {
+	top= 136;
+	left= 250;
+	key.shape= "FUNC";
+	key.color= "grey20";
+	row {
+	    top= 1;
+	    left= 18.2;
+	    keys { <UP> };
+	};
+	row {
+	    top= 14;
+	    keys { <LEFT>, <DOWN>, <RGHT> };
+	};
+    }; // End of "Editing" section
+
+    alias <AC00> = <CAPS>;
+    alias <AA00> = <LCTL>;
+
+}; // End of "latitude" geometry
+

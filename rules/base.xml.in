@@ -34,6 +34,12 @@
     </model>
     <model>
       <configItem>
+        <name>latitude</name>
+        <_description>Dell Latitude series laptop</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>everex</name>
         <_description>Everex STEPnote</_description>
       </configItem>

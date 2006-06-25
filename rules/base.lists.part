@@ -6,6 +6,9 @@
 //              ru scc sy syr tel th tj tam ua uz
 
 ! $pcmodels = pc101 pc102 pc104 pc105
+
+! $pcgeometries = abnt2 latitude microsoft jp106 kr106
+
 ! $maclaptop = ibook powerbook
 ! $mac = macintosh macintosh_old ibook powerbook
 
