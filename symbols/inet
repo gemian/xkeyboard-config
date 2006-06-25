@@ -50,6 +50,32 @@ xkb_symbols "a4techKBS8" {
     key <I6D>   {       [ XF86AudioMedia        ]       }; 
 };
 
+// A4Tech Wireless Desktop (RFKB-23)
+partial alphanumeric_keys
+xkb_symbols "a4_rfkb23" {
+    name[Group1]= "A4Tech Wireless Desktop RFKB-23";
+    key <I10>   {       [ XF86AudioPrev                 ]       };
+    key <I19>   {       [ XF86AudioNext                 ]       };
+    key <I20>   {       [ XF86AudioMute                 ]       };
+    key <I21>   {       [ XF86Calculator                ]       };
+    key <I22>   {       [ XF86AudioPlay, XF86AudioPause ]       };
+    key <I24>   {       [ XF86AudioStop                 ]       };
+    key <I2E>   {       [ XF86AudioLowerVolume          ]       };
+    key <I30>   {       [ XF86AudioRaiseVolume          ]       };
+    key <I32>   {       [ XF86HomePage                  ]       };
+    key <I32>   {       [ XF86WWW                       ]       };
+    key <I5F>   {       [ XF86Sleep                     ]       };
+    key <I65>   {       [ XF86Search                    ]       };
+    key <I66>   {       [ XF86Favorites                 ]       };
+    key <I67>   {       [ XF86Refresh                   ]       };
+    key <I68>   {       [ XF86Stop                      ]       };
+    key <I69>   {       [ XF86Back                      ]       };
+    key <I6A>   {       [ XF86Forward                   ]       };
+    key <I6B>   {       [ XF86MyComputer                ]       };
+    key <I6C>   {       [ XF86Mail                      ]       };
+    key <I6D>   {       [ XF86AudioMedia                ]       };
+};
+
 // Acer AirKey V
 partial alphanumeric_keys
 xkb_symbols "airkey" {
@@ -757,6 +783,29 @@ xkb_symbols "geniuscomfy2" {
     key <I68>   {       [ XF86Stop              ]       };
 };
 
+// Genius KB-19e NB
+partial alphanumeric_keys
+xkb_symbols "genius_kb19e_nb" {
+    key <FK17>	{	[ XF86Search			]	};
+    key <I02>	{	[ XF86WWW			]	};
+    key <I10>	{	[ XF86AudioPrev			]	};
+    key <I19>	{	[ XF86AudioNext			]	};
+    key <I20>	{	[ XF86AudioMute			]	};
+    key <I21>	{	[ XF86Calculator		]	};
+    key <I22>	{	[ XF86AudioPlay, XF86AudioPause	]	};
+    key <I24>	{	[ XF86AudioStop			]	};
+    key <I2E>	{	[ XF86AudioLowerVolume		]	};
+    key <I30>	{	[ XF86AudioRaiseVolume		]	};
+    key <I5F>   {       [ XF86Sleep                     ]       };
+    key <I66>	{	[ XF86Favorites			]	};
+    key <I67>	{	[ XF86Reload			]	};
+    key	<I68>	{	[ XF86Stop			]	};
+    key <I69>	{	[ XF86Forward			]	};
+    key <I6A>	{	[ XF86Back			]	};
+    key <I6C>	{	[ XF86Mail			]	};
+    key <K67>   {       [ XF86Standby                   ]       };
+    key <XFER>	{	[ XF86AudioMedia		]	};
+};
 
 // Gyration
 
@@ -2106,3 +2155,4 @@ xkb_symbols "dellusbmm" {
     key <K67>  { [ XF86MyComputer ] };
     key <XFER> { [ XF86AudioMedia ] };
 };
+

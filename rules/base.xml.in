@@ -88,6 +88,12 @@
     </model>
     <model>
       <configItem>
+        <name>a4_rfkb23</name>
+        <_description>A4Tech Wireless Desktop RFKB-23</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>abnt2</name>
         <_description>Brazilian ABNT2</_description>
       </configItem>
@@ -300,6 +306,12 @@
       <configItem>
         <name>geniuscomfy2</name>
         <_description>Genius Comfy KB-21e-Scroll</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>genius_kb19e_nb</name>
+        <_description>Genius KB-19e NB</_description>
       </configItem>
     </model>
     <model>

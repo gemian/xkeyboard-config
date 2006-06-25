@@ -9,6 +9,9 @@
 
 <!ELEMENT xkbConfigRegistry (modelList,layoutList,optionList)>
 
+<!ATTLIST xkbConfigRegistry 
+          version CDATA "1.0">
+
 <!ELEMENT modelList (model*)>
 
 <!ELEMENT model (configItem)>
@@ -29,14 +32,26 @@
 
 <!ELEMENT option (configItem)>
 
-<!ELEMENT configItem (name,shortDescription*,description*)>
+<!ELEMENT configItem (name,shortDescription*,description*,countryList?,languageList?)>
+
+<!ATTLIST configItem
+          popularity (standard|exotic) "standard">
 
 <!ELEMENT name (#PCDATA)>
 
 <!ELEMENT shortDescription (#PCDATA)>
 <!ATTLIST shortDescription
-          lang CDATA #IMPLIED>
+          xml:lang CDATA #IMPLIED>
 
 <!ELEMENT description (#PCDATA)>
 <!ATTLIST description
-          lang CDATA #IMPLIED>
+          xml:lang CDATA #IMPLIED>
+
+<!ELEMENT countryList (iso3166Id+)>
+
+<!ELEMENT iso3166Id (#PCDATA)>
+
+<!ELEMENT languageList (iso639Id+)>
+
+<!ELEMENT iso639Id (#PCDATA)>
+

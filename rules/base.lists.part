@@ -14,15 +14,18 @@
 ! $azerty = be fr
 ! $qwertz = al cz de hr hu ro si sk 
 
-! $inetkbds = a4techKB21 a4techKBS8 acer_ferrari4k acer_tm_800 acpi airkey azonaRF2300 \
+! $inetkbds = a4techKB21 a4techKBS8 a4_rfkb23 \
+              acer_ferrari4k acer_tm_800 acpi airkey armada azonaRF2300 \
               brother \
-              btc5113rf btc5126t btc9000 btc9000a btc9001ah btc5090\
+              btc5113rf btc5126t btc9000 btc9000a btc9001ah btc5090 \
               cherryblue cherrybluea cherryblueb cherrycyboard \
               chicony chicony9885 \
-              compaqeak8 compaqik7 compaqik13 compaqik18 cymotionlinux \
-              armada presario ipaq \
+              compaqeak8 compaqik7 compaqik13 compaqik18 \
+              cymotionlinux \
+              presario ipaq \
               dell inspiron dellusbmm dtk2000 \
-              dexxa diamond genius geniuscomfy geniuscomfy2 \
+              dexxa diamond \
+              genius geniuscomfy geniuscomfy2 genius_kb19e_nb \
               emachines ennyah_dkb1008 gyration \
               hpi6 hp2501 hp2505 hp5181 hpxe3gc hpxe3gf hpxe4xxx hpzt11xx \
               hp500fa hp5xx hp5185 \
