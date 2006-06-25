@@ -746,6 +746,12 @@
         <_description>Laptop/notebook eMachines m68xx</_description>
       </configItem>
     </model>
+    <model>
+      <configItem>
+	<name>kr106</name>
+	<_description>Korean 106-key</_description>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>
@@ -2541,12 +2547,19 @@
       <variantList/>
     </layout>
     <layout>
-      <configItem>
+       <configItem>
         <name>kr</name>
         <_shortDescription>Kor</_shortDescription>
         <_description>Korea, Republic of</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+	<variant>
+	  <configItem>
+	    <name>kr104</name>
+	    <_description>101/104 key Compatible</_description>
+	  </configItem>
+	</variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>

@@ -9,6 +9,7 @@
   thinkpad	=	ibm_vndr/thinkpad(common)
  $pcmodels	=	pc(%m)
   jp106		=	pc(jp106)
+  kr106		=	pc(kr106)
   everex	=	everex(STEPnote)
   winbook	=	winbook(XP5)
   pc98		=	nec(pc98)

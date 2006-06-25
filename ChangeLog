@@ -1,3 +1,9 @@
+2006-06-25  Sergey Udaltsov
+
+	geometry/pc, rules/base.lists.part, rules/base.m_g.part,
+	rules/base.xml.in, symbols/kr: updated Korean layouts/geometry
+	https://bugs.freedesktop.org/show_bug.cgi?id=7316
+
 2006-06-22  Sergey Udaltsov
 
 	symbols/inet: fixing double RaiseVolume, closing
