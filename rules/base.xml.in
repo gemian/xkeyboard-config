@@ -2632,6 +2632,13 @@
 	<_description>Esperanto</_description>
       </configItem>
     </layout>
+    <layout>
+      <configItem>
+        <name>np</name>
+        <_shortDescription>Nep</_shortDescription>
+	<_description>Nepal</_description>
+      </configItem>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
