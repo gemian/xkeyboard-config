@@ -7,15 +7,15 @@
 // 
 // The default mapping is the RO_US/Programmers layout because of the lack of 
 // Romanian hardware keyboards. The primary standard layout is implemented as 
-// the "standard" variant. If you're determined to get commas bellow as in 
+// the "std" variant. If you're really determined to get commas bellow as in 
 // ISO-8859-16 (and not cedillas as in ISO-8859-2) use the already defined 
 // variants: "comma" for the default layout or "academic" for the standard one.
-// MS compatible layout included (use the "ms" variant).
+// MS compatible layout included (use the "winkeys" variant).
 // 
 // Created by Cristian Gafton, <gafton@redhat.com> (C) 2000
 // Modified by Marius Andreiana, <mandreiana@yahoo.com> (C) 2001
-// Completed by Misu Moldovan, <dumol@gnome.ro> (C) 2001, 2004, 2005.
-// 
+// Completed by Misu Moldovan, <dumol@gnome.ro> (C) 2001, 2004-2006.
+// v 1.2
 
 
 default partial alphanumeric_keys
@@ -124,10 +124,10 @@ partial alphanumeric_keys
 xkb_symbols "academic" {
     // Academic variant of the standard layout with comma bellow.
     // Implements S and T with comma bellow as in ISO-8859-16.
-    // Hopefully these diacritics should become mainstream in a few years.
+    // Hopefully these should become mainstream in a few years.
     // For now it's the oddest variant (although the perfect one).
 
-    include "ro(standard)"
+    include "ro(std)"
 
     key <AC10> { [ 0x1000219,	   0x1000218 ] };
     key <AC11> { [ 0x100021b,	   0x100021a ] };
