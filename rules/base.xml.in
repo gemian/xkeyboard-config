@@ -478,12 +478,6 @@
     </model>
     <model>
       <configItem>
-        <name>logidak</name>
-        <_description>Logitech Deluxe Access Keyboard</_description>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>logiitc</name>
         <_description>Logitech iTouch Cordless Keyboard (model Y-RB6)</_description>
       </configItem>
@@ -502,26 +496,8 @@
     </model>
     <model>
       <configItem>
-        <name>logiitc</name>
-        <_description>Logitech iTouch Cordless Keyboard (model Y-RB6)</_description>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-        <name>logiik</name>
-        <_description>Logitech Internet Keyboard</_description>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>logicink</name>
         <_description>Logitech Internet Navigator Keyboard</_description>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-        <name>itouchin</name>
-        <_description>Logitech iTouch keyboard Internet Navigator</_description>
       </configItem>
     </model>
     <model>

@@ -1,5 +1,11 @@
 2006-07-02  Sergey Udaltsov
 
+	rules/base.xml.in: fixed mismatch between directory and symbols/inet
+	file.
+	https://bugs.freedesktop.org/show_bug.cgi?id=7398
+	
+2006-07-02  Sergey Udaltsov
+
 	symbols/ro: fixed Romanian academic
 	https://bugs.freedesktop.org/show_bug.cgi?id=7393
 	
