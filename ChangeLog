@@ -1,3 +1,8 @@
+2006-07-04  Sergey Udaltsov
+
+	symbols/ch: fixed KPDL in ch(de_mac), patch from
+	https://bugs.freedesktop.org/show_bug.cgi?id=6960
+
 2006-07-02  Sergey Udaltsov
 
 	rules/base.xml.in: fixed mismatch between directory and symbols/inet

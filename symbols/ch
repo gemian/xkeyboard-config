@@ -185,7 +185,7 @@ xkb_symbols "de_mac" {
 	// End alphanumeric section
 
 	// Other keys
-	key <KPDL> { [	KP_Separator,	KP_Delete	]	};
+	key <KPDL> { [	KP_Delete,	KP_Decimal	]	};
 	// End of other keys
 };
 
