@@ -452,7 +452,7 @@ msgstr "Compaq iPaq Keyboard"
 
 #: ../rules/base.xml.in.h:110
 msgid "Compose key position"
-msgstr "Положение клавиши Control"
+msgstr "Положение клавиши Compose"
 
 #: ../rules/base.xml.in.h:111
 msgid "Croatia"
