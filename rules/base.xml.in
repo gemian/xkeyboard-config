@@ -1571,6 +1571,18 @@
             <_description>Neostyle</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh layout</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac_nodeadkeys</name>
+            <_description>Macintosh layout, eliminate dead keys</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

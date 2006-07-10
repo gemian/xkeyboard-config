@@ -1,3 +1,8 @@
+2006-07-10  Sergey Udaltsov
+
+	symbols/de: added Mac variants, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=6671
+
 2006-07-04  Sergey Udaltsov
 
 	symbols/ch: fixed KPDL in ch(de_mac), patch from
