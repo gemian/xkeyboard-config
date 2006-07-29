@@ -53,7 +53,6 @@ xkb_symbols "a4techKBS8" {
 // A4Tech Wireless Desktop (RFKB-23)
 partial alphanumeric_keys
 xkb_symbols "a4_rfkb23" {
-    name[Group1]= "A4Tech Wireless Desktop RFKB-23";
     key <I10>   {       [ XF86AudioPrev                 ]       };
     key <I19>   {       [ XF86AudioNext                 ]       };
     key <I20>   {       [ XF86AudioMute                 ]       };
