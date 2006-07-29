@@ -1,5 +1,10 @@
 2006-07-29  Sergey Udaltsov
 
+	symbols/bt: fixed Bhutan
+	https://bugs.freedesktop.org/show_bug.cgi?id=7556
+
+2006-07-29  Sergey Udaltsov
+
 	symbols/us: added dvorak-classic, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=7503
 
