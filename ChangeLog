@@ -1,7 +1,12 @@
 2006-07-29  Sergey Udaltsov
 
+	symbols/us: added dvorak-classic, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=7503
+
+2006-07-29  Sergey Udaltsov
+
 	symbols/inet: added acer_c300, closing
-	https://bugs.freedesktop.org/attachment.cgi?id=6361
+	https://bugs.freedesktop.org/show_bug.cgi?id=6361
 
 2006-07-29  Sergey Udaltsov
 

@@ -793,6 +793,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>dvorak-classic</name>
+            <_description>Classic Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>rus</name>
             <_description>Russian phonetic</_description>
           </configItem>
