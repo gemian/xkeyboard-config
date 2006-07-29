@@ -1,5 +1,10 @@
 2006-07-29  Sergey Udaltsov
 
+	symbols/inet: added acer_c300, closing
+	https://bugs.freedesktop.org/attachment.cgi?id=6361
+
+2006-07-29  Sergey Udaltsov
+
 	symbols/lk: updated Sinhala, thanks to Harshula
 
 2006-07-10  Sergey Udaltsov

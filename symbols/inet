@@ -2012,6 +2012,22 @@ xkb_symbols "sp_inet" {
     key <I6C>	{	[ XF86Mail		]	}; 
 };
 
+// Acer C300 Laptop
+partial alphanumeric_keys
+xkb_symbols "acer_c300" {
+
+    key <I1F>   {       [ F13                   ]       };
+    key <I17>   {       [ F14                   ]       };
+    key <I30>   {       [ XF86AudioRaiseVolume  ]       };
+    key <I2E>   {       [ XF86AudioLowerVolume  ]       };
+    key <I20>   {       [ XF86AudioMute         ]       };
+    key <I6C>   {       [ XF86WWW               ]       };
+    key <I32>   {       [ XF86Mail              ]       };
+    key <I75>   {       [ Help                  ]       };
+    key <XFER>  {       [ XF86Launch1           ]       };
+    key <I5E>   {       [ XF86Launch2           ]       };
+};
+
 // Acer Travelmate 800
 xkb_symbols "acer_tm_800" { 
     key <I20>   {       [ XF86AudioMute         ]       };

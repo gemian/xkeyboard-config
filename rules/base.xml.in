@@ -700,6 +700,12 @@
     </model>
     <model>
       <configItem>
+        <name>acer_c300</name>
+        <_description>Acer C300</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>acer_tm_800</name>
         <_description>Acer TravelMate 800</_description>
       </configItem>
