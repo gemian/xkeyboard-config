@@ -1,8 +1,8 @@
 // $XKeyboardConfig$
 
 // X Keyboard Extension file for Sinhala (Sri Lanka) (2004-04-22)
-// Maintainer  : Harshula Jayasuriya <hash@jayasolutions.cjb.net>
-// Last Updated: 2004-11-14
+// Maintainer  : Harshula Jayasuriya <harshula@gmail.com>
+// Last Updated: 2006-07-14
 // This is a static phonetic mapping for a standard US-English keyboard
 // (qwerty)
 // http://www.nongnu.org/sinhala/doc/keymaps/sinhala-keyboard_3.html
@@ -15,11 +15,14 @@
 // manually construct the glyph by typing each of the 3 codepoints.
 // Alt-backslash represents the 'join' key, this requires
 // two codepoints, hence it also has to be manually constructed.
+// Similarly, Alt-Shift-backslash representing the 'touch' key requires
+// two codepoints.
 
 // Repaya = rayanna,AL,ZWJ
 // Rakaransaya = AL,ZWJ,rayanna
 // Yansaya = AL,ZWJ,yayanna
 // join = AL,ZWJ
+// touch = ZWJ,AL
 
 // Where,
 // AL = Al Lakuna = Alt-a
@@ -51,9 +54,9 @@ xkb_symbols "sin_phonetic" {
   key <AC01> { [ 0x01000d85, 0x01000d86, 0x01000dca, 0x01000dcf ] };
   key <AC02> { [ 0x01000dc3, 0x01000dc2, 0x01000dc1, NoSymbol ] };
   key <AC03> { [ 0x01000da9, 0x01000daa, 0x01000daf, 0x01000db0 ] };
-  key <AC04> { [ 0x01000dc6, 0x01000d93, 0x01000ddb, NoSymbol ] };
+  key <AC04> { [ 0x01000dc6, NoSymbol, 0x01000ddb, 0x01000d93 ] };
   key <AC05> { [ 0x01000d9c, 0x01000d9d, 0x01000d9f, NoSymbol ] };
-  key <AC06> { [ 0x01000dc4, 0x01000d96, 0x01000dde, NoSymbol ] };
+  key <AC06> { [ 0x01000dc4, 0x01000d83, 0x01000dde, 0x01000d96 ] };
   key <AC07> { [ 0x01000da2, 0x01000da3, 0x01000da6, NoSymbol ] };
   key <AC08> { [ 0x01000d9a, 0x01000d9b, 0x01000d8f, 0x01000d90 ] };
   key <AC09> { [ 0x01000dbd, 0x01000dc5, 0x01000ddf, 0x01000df3 ] };
@@ -62,9 +65,9 @@ xkb_symbols "sin_phonetic" {
   key <AB01> { [ 0x01000da4, 0x01000da5, NoSymbol, NoSymbol ] };
   key <AB02> { [ 0x01000dac, 0x01000db3, NoSymbol, NoSymbol ] };
   key <AB03> { [ 0x01000da0, 0x01000da1, NoSymbol, NoSymbol ] };
-  key <AB04> { [ 0x01000dc0, 0x01000d82, 0x01000d83, NoSymbol ] };
+  key <AB04> { [ 0x01000dc0, NoSymbol, NoSymbol, NoSymbol ] };
   key <AB05> { [ 0x01000db6, 0x01000db7, NoSymbol, NoSymbol ] };
-  key <AB06> { [ 0x01000db1, 0x01000dab, 0x01000d9e, NoSymbol ] };
+  key <AB06> { [ 0x01000db1, 0x01000dab, 0x01000d82, 0x01000d9e ] };
   key <AB07> { [ 0x01000db8, 0x01000db9, NoSymbol, NoSymbol ] };
 
   // '.' - Fullstop
