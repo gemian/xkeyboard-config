@@ -1,3 +1,8 @@
+2006-07-30  Sergey Udaltsov
+
+	symbols/pl: added pl(csb)
+	https://bugs.freedesktop.org/show_bug.cgi?id=7693
+
 2006-07-29  Sergey Udaltsov
 
 	symbols/bt: fixed Bhutan

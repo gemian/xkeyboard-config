@@ -2041,6 +2041,12 @@
             <_description>Dvorak, Polish quotes on key "1/!"</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>csb</name>
+            <_description>Kashubian</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
