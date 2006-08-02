@@ -45,7 +45,8 @@
               qtronix \
               samsung4500 samsung4510 \
               sk1300 sk2500 sk6200 sk7100 sp_inet \
-              sven symplon toshiba_s3000 trust trustda yahoo
+              sven symplon toshiba_s3000 trust trustda yahoo \
+              evdev
 
 // all layouts with 3rd and 4th groups
 ! $threelevellayouts = al az \

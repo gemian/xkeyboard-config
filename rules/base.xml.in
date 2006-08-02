@@ -752,6 +752,12 @@
 	<_description>Korean 106-key</_description>
       </configItem>
     </model>
+    <model>
+      <configItem>
+	<name>evdev</name>
+	<_description>Evdev-managed keyboard</_description>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>
