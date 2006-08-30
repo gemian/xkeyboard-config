@@ -293,3 +293,15 @@ xkb_symbols "rctrl_toggle" {
 	virtualMods= AltGr
     };
 };
+
+// using the group(alt_caps_toggle) map, pressing:
+//     Alt+Caps Lock toggles group
+//     Caps Lock toggles caps lock
+partial modifier_keys
+xkb_symbols "alt_caps_toggle" {
+    key        <CAPS> {
+       type="PC_SYSRQ",
+       symbols[Group1]= [  Caps_Lock,  ISO_Next_Group]
+    };
+};
+

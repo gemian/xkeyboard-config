@@ -2739,6 +2739,12 @@
       </option>
       <option>
         <configItem>
+          <name>grp:alt_caps_toggle</name>
+          <_description>Alt+CapsLock changes group.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>grp:shifts_toggle</name>
           <_description>Both Shift keys together change group.</_description>
         </configItem>

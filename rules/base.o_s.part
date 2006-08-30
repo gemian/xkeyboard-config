@@ -10,6 +10,7 @@
   grp:ctrl_shift_toggle	=	+group(ctrl_shift_toggle)
   grp:caps_toggle	=	+group(caps_toggle)
   grp:shift_caps_toggle	=	+group(shift_caps_toggle)
+  grp:alt_caps_toggle   =       +group(alt_caps_toggle)
   grp:ctrl_alt_toggle	=	+group(ctrl_alt_toggle)
   grp:alt_shift_toggle	=	+group(alt_shift_toggle)
   grp:menu_toggle	=	+group(menu_toggle)
