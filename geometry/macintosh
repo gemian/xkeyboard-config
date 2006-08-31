@@ -329,3 +329,242 @@ xkb_geometry "applepro" {
     }; // End of "Keypad" section
 
 }; // End of "applepro" geometry
+
+xkb_geometry "macbook78" {
+
+    description= "Apple Laptop 78-key (US)";
+    width= 273;
+    height= 110;
+
+    shape.cornerRadius= 0;
+    shape "ESC"  { { [ 21,9] }, cornerRadius=1, { [0,1], [ 19,8] } };
+    shape "FUNC" { { [ 18,9] }, cornerRadius=1, { [2,1], [ 16,8] } };
+    shape "EJCT" { { [ 20,9] }, cornerRadius=1, { [2,1], [ 20,8] } };
+    shape "DEGR" { { [ 16,18] }, cornerRadius=1, { [0,2], [ 14,16] } };
+    shape "NORM" { { [ 18,18] }, cornerRadius=1, { [2,2], [ 16,16] } };
+    shape "BKSP" { { [ 25,18] }, cornerRadius=1, { [2,2], [ 25,16] } };
+    shape "TABK" { { [ 24,18] }, cornerRadius=1, { [0,2], [ 22,16] } };
+    shape "BKSL" { { [ 17,18] }, cornerRadius=1, { [2,2], [17,16] } };
+    shape "RTRN" { { [ 31,18] }, cornerRadius=1, { [2,2], [31,16] } };
+    shape "CAPS" { { [ 29,18] }, cornerRadius=1, { [0,2], [ 27,16] } };
+    shape "LFSH" { { [ 40,18] }, cornerRadius=1, { [0,2], [ 38,16] } };
+    shape "RTSH" { { [ 39,18] }, cornerRadius=1, { [2,2], [ 39,16] } };
+    shape "APPL" { { [ 23,18] }, cornerRadius=1, { [2,2], [ 21,16] } };
+    shape "SPCE" { { [ 94,18] }, cornerRadius=1, { [2,2], [ 92,16] } };
+    shape "ARRO" { { [ 17,9] }, cornerRadius=1, { [2,1], [ 15,8] } };
+
+    shape "LED"  { cornerRadius= 1, { [  2,  2 ] } };
+
+    indicator.onColor= "green";
+    indicator.offColor= "gray";
+    indicator.shape= "LED";
+    indicator "Num Lock"   { top=4; left= 119; };
+    indicator "Caps Lock"  { top=53; left= 4; };
+
+    section.left=0;
+    row.left= 1;
+    key.shape= "FUNC";
+    key.gap= 1;
+    section "Function" {
+	top= 0;
+	row {
+	    top= 1;
+	    keys {  {<ESC>, "ESC" },
+		    <FK01>, <FK02>, <FK03>, <FK04>,
+		    <FK05>, <FK06>, <FK07>, <FK08>,
+		    <FK09>, <FK10>, <FK11>, <FK12>,
+                    {<K6C>, "EJCT" }
+	    };
+	};
+    }; // End of "Function" section
+
+    key.shape= "NORM";
+    section "Alpha" {
+	top= 10;
+	row {
+	    top= 1;
+	    keys { {<TLDE>, "DEGR"},
+                   <AE01>, <AE02>, <AE03>, <AE04>,
+		   <AE05>, <AE06>, <AE07>, <AE08>,
+                   <AE09>, <AE10>, <AE11>, <AE12>,
+		   { <BKSP>, "BKSP" }
+	    };
+	};
+	row {
+	    top= 20;
+	    keys { { <TAB>, "TABK"},
+		   <AD01>, <AD02>, <AD03>, <AD04>, <AD05>, 
+		   <AD06>, <AD07>, <AD08>, <AD09>, <AD10>, 
+		   <AD11>, <AD12>, 
+                   { <BKSL>, "BKSL" }
+	    };
+	};
+	row {
+	    top= 39;
+	    keys { { <CAPS>, "CAPS" },
+		   <AC01>, <AC02>, <AC03>, <AC04>, <AC05>, 
+		   <AC06>, <AC07>, <AC08>, <AC09>, <AC10>, 
+		   <AC11>, 
+                   { <RTRN>, "RTRN" }
+	    };
+        };
+	row {
+	    top= 58;
+	    keys { { <LFSH>, "LFSH"},
+		   <AB01>, <AB02>, <AB03>, <AB04>, <AB05>, 
+		   <AB06>, <AB07>, <AB08>, <AB09>, <AB10>, 
+		   { <RTSH>, "RTSH" }
+	    };
+	};
+	row {
+	    top= 77;
+	    keys { {<FN>, "DEGR"}, 
+                   <LCTL>, <LALT>, 
+                   {<LMTA>, "APPL"},
+                   {<SPCE>, "SPCE" }, 
+                   {<RMTA>, "APPL"},
+                   <KPEN>
+	    };
+	};
+
+    }; // End of "Alpha" section
+
+    key.shape= "ARRO";
+    section "Editing" {
+        top = 86;
+        left = 217;
+	row {
+	    top= 1;
+	    left= 19;
+	    keys { <UP> };
+	};
+	row {
+	    top= 10;
+	    keys { <LEFT>, <DOWN>, <RGHT> };
+	};
+    }; // End of "Editing" section
+
+    alias <AC00> = <CAPS>;
+    alias <AA00> = <LCTL>;
+
+};
+
+xkb_geometry "macbook79" {
+
+    description= "Apple Laptop 79-key (Intl)";
+    width= 273;
+    height= 110;
+
+    shape.cornerRadius= 0;
+    shape "ESC"  { { [ 21,9] }, cornerRadius=1, { [0,1], [ 19,8] } };
+    shape "FUNC" { { [ 18,9] }, cornerRadius=1, { [2,1], [ 16,8] } };
+    shape "EJCT" { { [ 20,9] }, cornerRadius=1, { [2,1], [ 20,8] } };
+    shape "DEGR" { { [ 16,18] }, cornerRadius=1, { [0,2], [ 14,16] } };
+    shape "NORM" { { [ 18,18] }, cornerRadius=1, { [2,2], [ 16,16] } };
+    shape "BKSP" { { [ 25,18] }, cornerRadius=1, { [2,2], [ 25,16] } };
+    shape "TABK" { { [ 24,18] }, cornerRadius=1, { [0,2], [ 22,16] } };
+    shape "RTRN" { { [ 0,0], [17,0], [17,37], [5,37], [5, 18], [0,18], [0,0] },
+                   cornerRadius=1, 
+	           { [ 2,2], [15,2], [15,35], [7,35], [7, 16], [2,16] } 
+                 };
+    shape "CAPS" { { [ 29,18] }, cornerRadius=1, { [0,2], [ 27,16] } };
+    shape "LFSH" { { [ 21,18] }, cornerRadius=1, { [0,2], [ 19,16] } };
+    shape "RTSH" { { [ 39,18] }, cornerRadius=1, { [2,2], [ 39,16] } };
+    shape "APPL" { { [ 23,18] }, cornerRadius=1, { [2,2], [ 21,16] } };
+    shape "SPCE" { { [ 94,18] }, cornerRadius=1, { [2,2], [ 92,16] } };
+    shape "ARRO" { { [ 17,9] }, cornerRadius=1, { [2,1], [ 15,8] } };
+
+    shape "LED"  { cornerRadius= 1, { [  2,  2 ] } };
+
+    indicator.onColor= "green";
+    indicator.offColor= "gray";
+    indicator.shape= "LED";
+    indicator "Num Lock"   { top=4; left= 119; };
+    indicator "Caps Lock"  { top=53; left= 4; };
+
+    section.left=0;
+    row.left= 1;
+    key.shape= "FUNC";
+    key.gap= 1;
+    section "Function" {
+	top= 0;
+	row {
+	    top= 1;
+	    keys {  {<ESC>, "ESC" },
+		    <FK01>, <FK02>, <FK03>, <FK04>,
+		    <FK05>, <FK06>, <FK07>, <FK08>,
+		    <FK09>, <FK10>, <FK11>, <FK12>,
+                    {<K6C>, "EJCT" }
+	    };
+	};
+    }; // End of "Function" section
+
+    key.shape= "NORM";
+    section "Alpha" {
+	top= 10;
+	row {
+	    top= 1;
+	    keys { {<TLDE>, "DEGR"},
+                   <AE01>, <AE02>, <AE03>, <AE04>,
+		   <AE05>, <AE06>, <AE07>, <AE08>,
+                   <AE09>, <AE10>, <AE11>, <AE12>,
+		   { <BKSP>, "BKSP" }
+	    };
+	};
+	row {
+	    top= 20;
+	    keys { { <TAB>, "TABK"},
+		   <AD01>, <AD02>, <AD03>, <AD04>, <AD05>, 
+		   <AD06>, <AD07>, <AD08>, <AD09>, <AD10>, 
+		   <AD11>, <AD12>, { <RTRN>, "RTRN" }
+	    };
+	};
+	row {
+	    top= 39;
+	    keys { { <CAPS>, "CAPS" },
+		   <AC01>, <AC02>, <AC03>, <AC04>, <AC05>, 
+		   <AC06>, <AC07>, <AC08>, <AC09>, <AC10>, 
+		   <AC11>, <BKSL>
+	    };
+        };
+	row {
+	    top= 58;
+	    keys { { <LFSH>, "LFSH"},
+		   <LSGT>, <AB01>, <AB02>, <AB03>, <AB04>, <AB05>, 
+		   <AB06>, <AB07>, <AB08>, <AB09>, <AB10>,
+		   { <RTSH>, "RTSH" }
+	    };
+	};
+	row {
+	    top= 77;
+	    keys { {<FN>, "DEGR"}, 
+                   <LCTL>, <LALT>, 
+                   {<LWIN>, "APPL"},
+                   {<SPCE>, "SPCE" }, 
+                   {<RALT>, "APPL"},
+                   <KPEN>
+	    };
+	};
+
+    }; // End of "Alpha" section
+
+    key.shape= "ARRO";
+    section "Editing" {
+        top = 86;
+        left = 217;
+	row {
+	    top= 1;
+	    left= 19;
+	    keys { <UP> };
+	};
+	row {
+	    top= 10;
+	    keys { <LEFT>, <DOWN>, <RGHT> };
+	};
+    }; // End of "Editing" section
+
+    alias <AC00> = <CAPS>;
+    alias <AA00> = <LCTL>;
+
+}; // End of "default" geometry
+

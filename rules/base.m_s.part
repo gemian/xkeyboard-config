@@ -1,2 +1,3 @@
-  $maclaptop	=	+macintosh_vndr/apple(laptop_bad_switch)
   $inetkbds     =       +inet(%m)
+  $maclaptop	=	+inet(apple_laptop)
+  $mac	        =	+inet(apple)

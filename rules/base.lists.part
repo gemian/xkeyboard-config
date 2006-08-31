@@ -9,8 +9,9 @@
 
 ! $pcgeometries = abnt2 latitude microsoft jp106 kr106
 
-! $maclaptop = ibook powerbook
-! $mac = macintosh macintosh_old ibook powerbook
+! $macbooks = macbook78 macbook79
+! $maclaptop = ibook powerbook macbook78 macbook79
+! $mac = macintosh macintosh_old ibook powerbook macbook78 macbook79
 
 ! $macvendorlayouts = ch de dk es fi fr gb is it nl no pt se us
 
@@ -41,7 +42,7 @@
               microsoftinet microsoftpro microsoftprousb microsoftprooem microsoftprose \
               microsoftoffice microsoftmult \
               oretec \
-              power_g5 propeller silvercrest scorpius \
+              propeller silvercrest scorpius \
               qtronix \
               samsung4500 samsung4510 \
               sk1300 sk2500 sk6200 sk7100 sp_inet \

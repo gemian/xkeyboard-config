@@ -682,6 +682,18 @@
     </model>
     <model>
       <configItem>
+        <name>macbook78</name>
+        <description>MacBook/MacBook Pro</description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>macbook79</name>
+        <description>MacBook/MacBook Pro (Intl)</description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>macintosh</name>
         <_description>Macintosh</_description>
       </configItem>
@@ -714,12 +726,6 @@
       <configItem>
         <name>acer_ferrari4k</name>
         <_description>Acer Ferrari 4000</_description>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-        <name>power_g5</name>
-        <_description>Power G5</_description>
       </configItem>
     </model>
     <model>

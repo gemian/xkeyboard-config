@@ -11,5 +11,6 @@
   everex	=	everex(STEPnote)
   winbook	=	winbook(XP5)
   pc98		=	nec(pc98)
+ $macbooks      =       macintosh(%m)
  $mac		=	macintosh(macintosh)
   *		=       pc(pc104)

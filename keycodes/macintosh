@@ -37,6 +37,15 @@ default xkb_keycodes "macintosh" {
    <KPEQ> = 157;
    
 };
+
+xkb_keycodes "macbook" {
+    include "macintosh"
+
+// MacBook keyboards switch TLDE and LSGT keycodes
+    <TLDE> =  94;
+    <LSGT> =  49;
+};
+
 xkb_keycodes "old" {
 
     minimum= 8;

@@ -13,6 +13,7 @@
   old_macintosh	$macvendorlayouts	=	macintosh_vndr/us(extended)+macintosh_vndr/%l%(v)
   old_macintosh	$nonlatin		=	macintosh_vndr/us(extended)+%l%(v):2
   old_macintosh	*			=	macintosh_vndr/us(extended)+%l%(v)
+ $macbooks	*			=	pc(pc105)+%l%(v)
  $mac		en_US			=	pc(pc105)+macintosh_vndr/us(extended)
  $mac		$macvendorlayouts	=	pc(pc105)+macintosh_vndr/%l%(v)
  $pcmodels      intl   			=       us(%mcompose)

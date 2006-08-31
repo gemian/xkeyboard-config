@@ -2155,22 +2155,25 @@ xkb_symbols "acer_tm_800" {
 // don't generate scancodes. It is possible to map them to whatever user wants.
 };
 
-// Apple PowerMac G5
-xkb_symbols "power_g5" {
+// Apple keyboards (macbooks, powerbooks, powermac G5, etc)
+partial xkb_symbols "apple" {
+// Really brightness up/down
+    key <II65>  {       [ XF86BrightnessAdjust  ]       };
+    key <I54>   {       [ XF86BrightnessAdjust  ]       };
     key <I20>	{	[ XF86AudioMute		]	};
     key <I2E>	{	[ XF86AudioLowerVolume	]	};
     key <I30>	{	[ XF86AudioRaiseVolume	]	};
+    key <I56>   {       [ XF86RotateWindows	]	};
+// Really keyboard backlight off/up/down
+    key <I57>   {       [ XF86Launch0		]	};
+    key <I58>	{	[ XF86Launch1    	]	};
+    key <I59>	{	[ XF86Launch2   	]	};
     key <K5D>	{	[ F13 ]    };
     key <K5E>	{	[ F14 ]    };
     key <K5F>	{	[ F15 ]    };
     key <K6C>	{	[ XF86Eject ]    };
     key <MDSW>	{	[ F16 ]    };
-};
-
-// Apple keyboard
-partial modifier_keys
-xkb_symbols "apple" {
-    key <KPEQ> { [ KP_Equal ] };
+    key <KPEQ>  {       [ KP_Equal ] };
 };
 
 partial modifier_keys

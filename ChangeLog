@@ -1,5 +1,13 @@
 2006-08-31  Sergey Udaltsov
 
+	geometry/macintosh, keycodes/macintosh, keycodes/xfree86,
+	rules/base.lists.part, rules/base.m_g.part, rules/base.m_k.part,
+	rules/base.m_s.part, rules/base.ml_s.part, rules/base.xml.in,
+	symbols/inet: Added Macbook stuff, partially closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8068
+
+2006-08-31  Sergey Udaltsov
+
 	symbols/group, rules/base.o_s.part: added group:alt_caps_toggle
 	https://bugs.freedesktop.org/show_bug.cgi?id=8047
 

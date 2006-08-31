@@ -9,4 +9,6 @@
   abnt2		=	xfree86(abnt2)
   jp106		=	xfree86(jp106)
   evdev		=	evdev
+ $macbooks	=	macintosh(macbook)
+ $mac   	=	macintosh
   *		=	xfree86
