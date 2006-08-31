@@ -58,3 +58,9 @@ xkb_symbols "alt_super_win" {
     modifier_map Mod1   { Alt_L, Alt_R, Meta_L, Meta_R };
     modifier_map Mod4   { Super_L, Super_R };
 };
+
+partial modifier_keys 
+xkb_symbols "swap_ralt_rwin" {
+    key <RALT> {	[ 	Super_R			]	};
+    key <RWIN> {	[	Alt_R,	Meta_R		]	};
+};

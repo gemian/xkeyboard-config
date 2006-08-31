@@ -26,3 +26,9 @@ xkb_symbols "ku_alt" {
     include "tr(ku_alt)"
     name[Group1]= "Iraq - Kurdish, Latin Alt-Q";
 };
+
+partial alphanumeric_keys
+xkb_symbols "ku_ara" {
+    include "ir(ku_ara)"
+    name[Group1]= "Iraq - Kurdish, Arabic-Latin";
+};

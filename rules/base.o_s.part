@@ -44,6 +44,7 @@
   altwin:super_win	=	+altwin(super_win)
   altwin:hyper_win	=	+altwin(hyper_win)
   altwin:alt_super_win	=	+altwin(alt_super_win)
+  altwin:swap_ralt_rwin	=	+altwin(swap_ralt_rwin)
   compose:ralt		=	+compose(ralt)
   compose:lwin		=	+compose(lwin)
   compose:rwin		=	+compose(rwin)

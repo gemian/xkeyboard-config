@@ -1364,6 +1364,12 @@
             <_description>Kurdish, Latin Alt-Q</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>ku_ara</name>
+            <_description>Kurdish, Arabic-Latin</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1389,6 +1395,12 @@
           <configItem>
             <name>ku_alt</name>
             <_description>Kurdish, Latin Alt-Q</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ku_ara</name>
+            <_description>Kurdish, Arabic-Latin</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3043,6 +3055,12 @@
         <configItem>
           <name>altwin:alt_super_win</name>
           <_description>Alt is mapped to the right Win-key and Super to Menu.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>altwin:swap_ralt_rwin</name>
+          <_description>Right Alt is swapped with right Win-key.</_description>
         </configItem>
       </option>
     </group>
