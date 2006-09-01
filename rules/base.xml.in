@@ -2146,6 +2146,18 @@
             <_description>Tatar</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>os</name>
+            <_description>Ossetian</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>os_winkeys</name>
+            <_description>Ossetian, Winkeys</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3059,8 +3071,8 @@
       </option>
       <option>
         <configItem>
-          <name>altwin:swap_ralt_rwin</name>
-          <_description>Right Alt is swapped with right Win-key.</_description>
+          <name>altwin:swap_lalt_lwin</name>
+          <_description>Left Alt is swapped with left Win-key.</_description>
         </configItem>
       </option>
     </group>

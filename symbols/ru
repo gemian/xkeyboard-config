@@ -183,3 +183,25 @@ xkb_symbols "tt" {
     include "level3(ralt_switch)"
 
 };
+
+partial alphanumeric_keys 
+xkb_symbols "os" {
+    include "ru(basic)"
+
+    name[Group1]= "Russia - Ossetian";
+
+    key	<TLDE> {	[      Cyrillic_e,      Cyrillic_E	]	};
+    key	<AC07> {	[      Cyrillic_o,	Cyrillic_O, Cyrillic_io, Cyrillic_IO	]	};
+    key	<AC11> {	[      0x010004D5,      0x010004D4      ]	};
+};
+
+partial alphanumeric_keys 
+xkb_symbols "os_winkeys" {
+    include "ru(winkeys)"
+
+    name[Group1]= "Russia - Ossetian, Winkeys";
+
+    key	<TLDE> {	[      Cyrillic_e,      Cyrillic_E	]	};
+    key	<AC07> {	[      Cyrillic_o,	Cyrillic_O, Cyrillic_io, Cyrillic_IO	]	};
+    key	<AC11> {	[      0x010004D5,      0x010004D4      ]	};
+};

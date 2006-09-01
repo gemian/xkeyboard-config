@@ -1,5 +1,10 @@
 2006-09-01  Sergey Udaltsov
 
+	symbols/ru, rules/base.xml.in: added Ossetian, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8092
+
+2006-09-01  Sergey Udaltsov
+
 	symbols/ir, symbols/iq, rules/base.xml.in: added Kurdish Arabic-Latin
 
 2006-08-31  Sergey Udaltsov
