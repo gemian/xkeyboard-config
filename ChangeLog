@@ -1,3 +1,8 @@
+2006-09-02  Sergey Udaltsov
+
+	symbols/hr: reverted Croatian
+	https://bugs.freedesktop.org/show_bug.cgi?id=8019
+
 2006-09-01  Sergey Udaltsov
 
 	symbols/ru, rules/base.xml.in: added Ossetian, closing

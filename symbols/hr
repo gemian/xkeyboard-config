@@ -5,6 +5,13 @@ xkb_symbols "basic" {
     name[Group1]="Croatia";
 
     include "cs(latin)"
+
+    // Redefine these keys to match XFree86 Croatian layout
+    key <AE01> { [         1,     exclam,   asciitilde,   dead_tilde ] };
+    key <AE03> { [         3, numbersign,  asciicircum, dead_circumflex ] };
+    key <AE05> { [         5,    percent,       degree, dead_abovering ] };
+    key <AE07> { [         7,      slash,        grave,   dead_grave ] };
+    key <AB10> { [     minus, underscore, dead_belowdot, dead_abovedot ] };
 };
 
 partial alphanumeric_keys 
