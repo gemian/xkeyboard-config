@@ -1,5 +1,10 @@
 2006-09-02  Sergey Udaltsov
 
+	symbols/lt, rules/base.xml.in: added lt(ibm)
+	https://bugs.freedesktop.org/show_bug.cgi?id=3841
+
+2006-09-02  Sergey Udaltsov
+
 	symbols/hr: reverted Croatian
 	https://bugs.freedesktop.org/show_bug.cgi?id=8019
 

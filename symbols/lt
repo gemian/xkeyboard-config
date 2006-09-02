@@ -112,3 +112,48 @@ xkb_symbols "std" {
 
     include "level3(ralt_switch)"
 };
+
+// Lithuanian keyboard map by Piter PUNK <piterpk@terra.com.br> 
+// Describes Lithuanian keymap LST 1205-92
+//
+// This keyboard is also know as IBM layout.
+// We follow the map found at: http://www.kada.lt/litwin/Kbdlta.gif
+// and info from Edis Tamoshauskas <linas_lietus@yahoo.com>
+ 
+partial alphanumeric_keys modifier_keys
+xkb_symbols "ibm" {
+
+    include "latin"
+
+    name[Group1]= "Lithuania - IBM (LST 1205-92)";
+
+    key <TLDE> {[	grave,		asciitilde	]};
+    key <AE01> {[	exclam,		1		]};
+    key <AE02> {[	quotedbl,	2,		at		]};
+    key <AE03> {[	slash,		3,		numbersign	]};
+    key <AE04> {[	semicolon,	4,		dollar		]};
+    key <AE05> {[	colon,		5,		percent		]};
+    key <AE06> {[	comma,		6,		asciicircum	]};
+    key <AE07> {[	period,		7,		ampersand	]};
+    key <AE08> {[	question,	8,		asterisk	]};
+    key <AE09> {[	parenleft,	9		]};
+    key <AE10> {[	parenright,	0		]};
+    key <AE11> {[	underscore,	minus		]};
+    key <AE12> {[	plus,		equal		]};
+    key <AD01> {[	aogonek,	Aogonek,	q,		Q		]};
+    key <AD02> {[	zcaron,		Zcaron,		w,		W		]};
+    key <AD03> {[	e,		E,		EuroSign	]};
+    key <AD11> {[	iogonek,	Iogonek,	bracketleft,	braceleft	]};
+    key <AD12> {[ doublelowquotemark, leftdoublequotemark, bracketright, braceright	]};
+    key <AC10> {[	uogonek,	Uogonek,	semicolon,	colon		]};
+    key <AC11> {[	eabovedot,	Eabovedot,	apostrophe,	quotedbl	]};
+    key <AB02> {[	umacron,	Umacron,	x,		X		]};
+    key <AB08> {[	ccaron,		Ccaron,		comma,		less		]};
+    key <AB09> {[	scaron,		Scaron,		period,		greater		]};
+    key <AB10> {[	eogonek,	Eogonek,	slash,		question	]};
+    key <SPCE> {[	space,		space,		nobreakspace,	nobreakspace	]};
+
+    key <LSGT> {[	less,		greater,	endash		]};
+
+    include "level3(ralt_switch)"
+};

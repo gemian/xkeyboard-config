@@ -1926,6 +1926,12 @@
             <_description>US keyboard with Lithuanian letters</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>ibm</name>
+            <_description>IBM (LST 1205-92)</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
