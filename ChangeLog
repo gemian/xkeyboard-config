@@ -1,3 +1,8 @@
+2006-09-03  Sergey Udaltsov
+
+	rules/base.xml.in: s/guillemot/guillemet/, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8116
+
 2006-09-02  Sergey Udaltsov
 
 	symbols/lt, rules/base.xml.in: added lt(ibm)

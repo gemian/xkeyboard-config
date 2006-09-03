@@ -1089,7 +1089,7 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description> Use guillemots for quotes</_description>
+            <_description> Use guillemets for quotes</_description>
           </configItem>
         </variant>
         <variant>
@@ -1213,7 +1213,7 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>Use guillemots for quotes</_description>
+            <_description>Use guillemets for quotes</_description>
           </configItem>
         </variant>
         <variant>
@@ -2206,13 +2206,13 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>With guillemots</_description>
+            <_description>With guillemets</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinalternatequotes</name>
-            <_description>Latin with guillemots</_description>
+            <_description>Latin with guillemets</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2227,7 +2227,7 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>Use guillemots for quotes</_description>
+            <_description>Use guillemets for quotes</_description>
           </configItem>
         </variant>
         <variant>
