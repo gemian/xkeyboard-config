@@ -1,5 +1,10 @@
 2006-09-03  Sergey Udaltsov
 
+	symbols/vn: getting rid of digits (1 and 2 shift levels),
+	https://bugs.freedesktop.org/show_bug.cgi?id=7807
+
+2006-09-03  Sergey Udaltsov
+
 	rules/base.xml.in: s/guillemot/guillemet/, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8116
 
