@@ -10,7 +10,7 @@ default xkb_symbols "jp106" {
 
     // Alphanumeric section
     key <HZTG> {
-	type="PC_SYSRQ",
+	type[Group1]="PC_SYSRQ",
 	symbols[Group1]= [ Zenkaku_Hankaku, Kanji ]
     };
     key <AE01> { [ kana_NU		]	};
@@ -69,18 +69,18 @@ default xkb_symbols "jp106" {
     key <NFER> { [ Muhenkan		]	};
 
     key <XFER> {
-	type="PC_SYSRQ",
+	type[Group1]="PC_SYSRQ",
 	symbols[Group1]= [ Henkan, Mode_switch ]
     };
     key <HKTG> {
-	type="PC_SYSRQ",
+	type[Group1]="PC_SYSRQ",
 	symbols[Group1]= [ Hiragana_Katakana, Romaji ]
     };
 
     // End alphanumeric section
 
     key <PRSC> {
-        type= "PC_SYSRQ",
+        type[Group1]= "PC_SYSRQ",
         symbols[Group1]= [ Print, Execute ]
     };
 };
@@ -92,7 +92,7 @@ xkb_symbols "latin" {
     include "us"
     // Alphanumeric section
     key <HZTG> {
-	type="PC_SYSRQ",
+	type[Group1]="PC_SYSRQ",
 	symbols[Group1]= [ Zenkaku_Hankaku, Kanji ]
     };
 
@@ -121,16 +121,16 @@ xkb_symbols "latin" {
     key <NFER> { [ Muhenkan		]	};
 
     key <XFER> {
-	type="PC_SYSRQ",
+	type[Group1]="PC_SYSRQ",
 	symbols[Group1]= [ Henkan, Mode_switch ]
     };
     key <HKTG> {
-	type="PC_SYSRQ",
+	type[Group1]="PC_SYSRQ",
 	symbols[Group1]= [ Hiragana_Katakana, Romaji ]
     };
 
     key <PRSC> {
-        type= "PC_SYSRQ",
+        type[Group1]= "PC_SYSRQ",
         symbols[Group1]= [ Print, Execute ]
     };
 };

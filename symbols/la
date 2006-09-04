@@ -67,11 +67,11 @@ xkb_symbols "basic" {
     key <AB10> { [ 0x1000e9d,       parenright	]};
 
 override key <LFSH> {
-	type="PC_SYSRQ",
+	type[Group1]="PC_SYSRQ",
 	[ 	 Shift_L,		ISO_First_Group		]
     };
 override key <RTSH> {
-	type="PC_SYSRQ",
+	type[Group1]="PC_SYSRQ",
 	[ 	Shift_R,		ISO_Last_Group 		]
     };
 };

@@ -48,7 +48,7 @@ xkb_symbols "basic" {
     key <AB08> { [ hebrew_taw,	greater		]	};
     key <AB09> { [ hebrew_finalzade,	less	]	};
 
-    key.type = "THREE_LEVEL";
+    key.type[Group1] = "THREE_LEVEL";
     
     key <TLDE> { [ semicolon,	asciitilde,0x10005b0	]}; // Sheva
     key <AB10> { [ period,	question,  0x10005c3	]}; // Sof Pasuq

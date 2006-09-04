@@ -88,7 +88,7 @@ xkb_symbols "extended" {
 
     name[Group1] = "Greece - Extended";
 
-    key.type = "THREE_LEVEL";
+    key.type[Group1] = "THREE_LEVEL";
 
     key <AE05> { [	5,		percent,	EuroSign	] };
 
@@ -108,7 +108,7 @@ xkb_symbols "polytonic" {
 
     name[Group1] = "Greece - Polytonic";
 
-    key.type = "THREE_LEVEL";
+    key.type[Group1] = "THREE_LEVEL";
 
     key <AD11> { [ 	dead_tilde,	dead_diaeresis,	dead_macron	] };
     key <AD12> { [	dead_iota,	VoidSymbol,	dead_breve	] };

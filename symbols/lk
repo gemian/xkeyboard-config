@@ -36,7 +36,7 @@ xkb_symbols "sin_phonetic" {
   include "us"
 // it is default - no details in the name
   name[Group1] = "Sri Lanka";
-  key.type = "FOUR_LEVEL";
+  key.type[Group1] = "FOUR_LEVEL";
 
   // q - p
   key <AD01> { [ 0x01000d8d, 0x01000d8e, 0x01000dd8, 0x01000df2 ] };

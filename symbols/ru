@@ -165,7 +165,7 @@ xkb_symbols "tt" {
     include "ru(winkeys)"
     name[Group1]= "Russia - Tatar";
 
-    key.type[group2]="FOUR_LEVEL";
+    key.type[group1]="FOUR_LEVEL";
 
     key <TLDE> {       [      0x010004bb,      0x010004ba,
                              Cyrillic_io,     Cyrillic_IO      ]       };

@@ -1,5 +1,11 @@
 2006-09-04  Sergey Udaltsov
 
+	symbols/cd, symbols/gr, symbols/il, symbols/jp, symbols/la,
+	symbols/lk, symbols/ru, symbols/ca: fixing types, on per-group basis,
+	https://bugs.freedesktop.org/show_bug.cgi?id=8121
+
+2006-09-04  Sergey Udaltsov
+
 	symbols/level3: adding level3:ralt_switch_multikey,
 	https://bugs.freedesktop.org/show_bug.cgi?id=7674
 
