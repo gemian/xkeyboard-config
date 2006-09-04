@@ -1,5 +1,12 @@
 2006-09-04  Sergey Udaltsov
 
+	rules/base.lists.part, rules/base.m_g.part, rules/base.m_k.part,
+	rules/base.m_s.part, rules/base.ml1_s.part, rules/base.ml_s.part,
+	rules/base.mlv_s.part: fixing lists,
+	https://bugs.freedesktop.org/show_bug.cgi?id=7817
+
+2006-09-04  Sergey Udaltsov
+
 	symbols/cd, symbols/gr, symbols/il, symbols/jp, symbols/la,
 	symbols/lk, symbols/ru, symbols/ca: fixing types, on per-group basis,
 	https://bugs.freedesktop.org/show_bug.cgi?id=8121

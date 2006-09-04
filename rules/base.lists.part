@@ -5,13 +5,18 @@
 //              in ir iku jp kan kh kr la lao lk mk mm mn mv mal ori pk \
 //              ru scc sy syr tel th tj tam ua uz
 
+// PC models
 ! $pcmodels = pc101 pc102 pc104 pc105
 
-! $pcgeometries = abnt2 latitude microsoft jp106 kr106
+// Microsoft models (using MS geometry)
+! $msmodels = microsoft microsoftpro microsoftprousb microsoftprose
+
+// PC geometries - they have special geometry but symbols are mostly pc105
+! $pcgeometries = abnt2 latitude jp106 kr106
 
 ! $macbooks = macbook78 macbook79
 ! $maclaptop = ibook powerbook macbook78 macbook79
-! $mac = macintosh macintosh_old ibook powerbook macbook78 macbook79
+! $macs = macintosh macintosh_old ibook powerbook macbook78 macbook79
 
 ! $macvendorlayouts = ch de dk es fi fr gb is it nl no pt se us
 

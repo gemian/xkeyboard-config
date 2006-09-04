@@ -10,5 +10,5 @@
   jp106		=	xfree86(jp106)
   evdev		=	evdev
  $macbooks	=	macintosh(macbook)
- $mac   	=	macintosh
+ $macs   	=	macintosh
   *		=	xfree86
