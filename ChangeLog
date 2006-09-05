@@ -1,5 +1,10 @@
 2006-09-05  Sergey Udaltsov
 
+	symbols/gb: s/ralt_switch/ralt_switch_multikey
+	https://bugs.freedesktop.org/show_bug.cgi?id=7674
+
+2006-09-05  Sergey Udaltsov
+
 	rules/base.mlv_s.part: fixing mac rule for nodeadkeys,
 	https://bugs.freedesktop.org/show_bug.cgi?id=8123
 

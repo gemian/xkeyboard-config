@@ -26,7 +26,7 @@ xkb_symbols "basic" {
     key <BKSL>	{ [numbersign, asciitilde,   dead_grave,   dead_breve ]	};
     key <LSGT>	{ [ backslash,        bar,          bar,    brokenbar ]	};
 
-    include "level3(ralt_switch)"
+    include "level3(ralt_switch_multikey)"
 };
 
 partial alphanumeric_keys 
