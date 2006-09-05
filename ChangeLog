@@ -1,3 +1,8 @@
+2006-09-05  Sergey Udaltsov
+
+	rules/base.ml_s.part: s/old_macintosh/macintosh_old/g,
+	https://bugs.freedesktop.org/show_bug.cgi?id=8128
+
 2006-09-04  Sergey Udaltsov
 
 	rules/base.lists.part, rules/base.m_g.part, rules/base.m_k.part,
