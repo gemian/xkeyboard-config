@@ -1,5 +1,10 @@
 2006-09-05  Sergey Udaltsov
 
+	rules/base.mlv_s.part: fixing mac rule for nodeadkeys,
+	https://bugs.freedesktop.org/show_bug.cgi?id=8123
+
+2006-09-05  Sergey Udaltsov
+
 	rules/base.ml_s.part: s/old_macintosh/macintosh_old/g,
 	https://bugs.freedesktop.org/show_bug.cgi?id=8128
 
