@@ -32,27 +32,28 @@
               chicony chicony9885 \
               compaqeak8 compaqik7 compaqik13 compaqik18 \
               cymotionlinux \
-              presario ipaq \
-              dell inspiron dellusbmm dtk2000 \
-              dexxa diamond \
-              genius geniuscomfy geniuscomfy2 genius_kb19e_nb \
-              emachines ennyah_dkb1008 gyration \
-              hpi6 hp2501 hp2505 hp5181 hpxe3gc hpxe3gf hpxe4xxx hpzt11xx \
-              hp500fa hp5xx hp5185 \
+              dell dellusbmm dexxa diamond dinovo dtk2000 \
+              emachines ennyah_dkb1008 evdev \
+              genius geniuscomfy geniuscomfy2 genius_kb19e_nb gyration \
               honeywell_euroboard \
-              rapidaccess rapidaccess2 rapidaccess2a \
-              ltcd logiaccess logicdp logicdpa logicdit logicink logiciink logiclx300 \
-              logiinkse logiinkseusb logiitc logiik itouch logiultrax dinovo \
-              mx1998 mx2500 mx2750 \
+              hp2501 hp2505 hp5xx hp500fa hp5181 hp5185 \
+              hpi6 hpxe3gc hpxe3gf hpxe4xxx hpxt1000 hpzt11xx \
+              ipaq inspiron latitude \
+              logiaccess logicdp logicdpa logicdit logicink logiciink logiclx300 \
+              logiinkse logiinkseusb logiitc logiik itouch logiultrax ltcd \
               microsoftinet microsoftpro microsoftprousb microsoftprooem microsoftprose \
               microsoftoffice microsoftmult \
+              mx1998 mx2500 mx2750 \
               oretec \
-              propeller silvercrest scorpius \
+              presario propeller \
               qtronix \
+              rapidaccess rapidaccess2 rapidaccess2a \
               samsung4500 samsung4510 \
+              scorpius silvercrest \
               sk1300 sk2500 sk6200 sk7100 sp_inet \
-              sven symplon toshiba_s3000 trust trustda yahoo \
-              evdev
+              sven symplon \
+              toshiba_s3000 trust trustda \
+              yahoo
 
 // all layouts with 3rd and 4th groups
 ! $threelevellayouts = al az \

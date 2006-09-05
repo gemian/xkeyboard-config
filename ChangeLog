@@ -1,5 +1,10 @@
 2006-09-05  Sergey Udaltsov
 
+	rules/base.lists.part: adding missing kbds, reordering a bit
+	https://bugs.freedesktop.org/show_bug.cgi?id=7816
+
+2006-09-05  Sergey Udaltsov
+
 	geometry/ibm_vnd, configure.in, rules/base.m_g.part: getting rid of
 	ibm_vndr geometry, fixing rules,
 	https://bugs.freedesktop.org/show_bug.cgi?id=7990
