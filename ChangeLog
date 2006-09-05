@@ -1,5 +1,11 @@
 2006-09-05  Sergey Udaltsov
 
+	geometry/ibm_vnd, configure.in, rules/base.m_g.part: getting rid of
+	ibm_vndr geometry, fixing rules,
+	https://bugs.freedesktop.org/show_bug.cgi?id=7990
+
+2006-09-05  Sergey Udaltsov
+
 	symbols/gb: s/ralt_switch/ralt_switch_multikey
 	https://bugs.freedesktop.org/show_bug.cgi?id=7674
 

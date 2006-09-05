@@ -49,7 +49,6 @@ Makefile
 compat/Makefile
 geometry/Makefile
 geometry/digital_vndr/Makefile
-geometry/ibm_vndr/Makefile
 geometry/sgi_vndr/Makefile
 keycodes/Makefile
 keycodes/digital_vndr/Makefile

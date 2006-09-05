@@ -418,6 +418,12 @@
     </model>
     <model>
       <configItem>
+        <name>thinkpadintl</name>
+        <_description>IBM ThinkPad 560Z/600/600E/A22E, Intl</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logiaccess</name>
         <_description>Logitech Access Keyboard</_description>
       </configItem>
