@@ -64,4 +64,5 @@ xkb_symbols "swap_lalt_lwin" {
     key <LALT> {	[ 	Super_L			]	};
     key <LWIN> {	[	Alt_L,	Meta_L		]	};
     modifier_map Mod1 { <LWIN> };
+    modifier_map Mod4 { <LALT> };
 };

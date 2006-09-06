@@ -1,3 +1,8 @@
+2006-09-06  Sergey Udaltsov
+
+	rules/altwin: mapping LALT to Mod4 modifier,
+	https://bugs.freedesktop.org/show_bug.cgi?id=8068
+
 2006-09-05  Sergey Udaltsov
 
 	rules/base.lists.part: adding missing kbds, reordering a bit
