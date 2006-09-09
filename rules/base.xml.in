@@ -2999,25 +2999,25 @@
       <option>
         <configItem>
           <name>caps:internal</name>
-          <_description>CapsLock uses internal capitalization. Shift cancels CapsLock.</_description>
+          <_description>CapsLock uses internal capitalization. Shift "pauses" CapsLock.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>caps:internal_nocancel</name>
-          <_description>CapsLock uses internal capitalization. Shift doesn't cancel CapsLock.</_description>
+          <_description>CapsLock uses internal capitalization. Shift doesn't affect CapsLock.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>caps:shift</name>
-          <_description>CapsLock acts as Shift with locking. Shift cancels CapsLock.</_description>
+          <_description>CapsLock acts as Shift with locking. Shift "pauses" CapsLock.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>caps:shift_nocancel</name>
-          <_description>CapsLock acts as Shift with locking. Shift doesn't cancel CapsLock.</_description>
+          <_description>CapsLock acts as Shift with locking. Shift doesn't affect CapsLock.</_description>
         </configItem>
       </option>
       <option>
