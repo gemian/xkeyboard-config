@@ -427,6 +427,27 @@ xkb_symbols "btc5090" {
     key <I66>   {       [ XF86Favorites         ]       };
 };
 
+// BTC 9019U
+partial alphanumeric_keys
+xkb_symbols "btc9019u" {
+    key <I02>  {	[ XF86HomePage		]	};
+    key <I66>  {	[ XF86Favorites		]	};
+    key <FK17> {	[ XF86Search		]	};
+    key <I6C>  {	[ XF86Mail		]	};
+
+    key <I2E>  {	[ XF86AudioLowerVolume	]	};
+    key <I30>  {	[ XF86AudioRaiseVolume	]	};
+    key <I20>  {	[ XF86AudioMute		]	};
+    key <I10>  {	[ XF86AudioPrev		]	};
+    key <I22>  {	[ XF86AudioPlay, XF86AudioPause ] };
+    key <I24>  {	[ XF86AudioStop		]	};
+    key <I19>  {	[ XF86AudioNext		]	};
+
+    key <K6C>  {	[ XF86Eject		]	};
+
+    key <I5F>  {	[ XF86Sleep		]	};
+};
+
 // Cherry Blue Line
 
 // Cherry Blue Line CyBo@rd
@@ -716,6 +737,32 @@ xkb_symbols "dell" {
     key <I5F>	{	[ XF86Standby		]	};
 };
 
+// Genius KB-19e NB
+partial alphanumeric_keys
+xkb_symbols "geniuskb19e" {
+    key <I6A>   {      [ XF86Back              ]       };
+    key <I69>   {      [ XF86Forward           ]       };
+    key <I68>   {      [ XF86Stop              ]       };
+    key <I67>   {      [ XF86Refresh           ]       };
+    key <I65>   {      [ XF86Search            ]       };
+    key <I66>   {      [ XF86Favorites         ]       };
+
+    key <I6D>   {      [ XF86AudioMedia        ]       };
+    key <I20>   {      [ XF86AudioMute         ]       };
+    key <I30>   {      [ XF86AudioRaiseVolume  ]       };
+    key <I2E>   {      [ XF86AudioLowerVolume  ]       };
+
+    key <I32>   {      [ XF86HomePage          ]       };
+    key <I6C>   {      [ XF86Mail              ]       };
+    key <I21>   {      [ XF86Calculator        ]       };
+    key <I6B>   {      [ XF86MyComputer        ]       };
+    key <I5F>   {      [ XF86Sleep             ]       };
+
+    key <I22>   {      [ XF86AudioPlay, XF86AudioPause ]       };
+    key <I24>   {      [ XF86AudioStop         ]       };
+    key <I10>   {      [ XF86AudioPrev         ]       };
+    key <I19>   {      [ XF86AudioNext         ]       };
+};
 
 // Laptop/notebook Dell Inspiron 8xxx
 partial alphanumeric_keys
@@ -903,30 +950,6 @@ xkb_symbols "geniuscomfy2" {
     key <I66>   {       [ XF86Favorites         ]       };
     key <I67>   {       [ XF86Refresh           ]       };
     key <I68>   {       [ XF86Stop              ]       };
-};
-
-// Genius KB-19e NB
-partial alphanumeric_keys
-xkb_symbols "genius_kb19e_nb" {
-    key <FK17>	{	[ XF86Search			]	};
-    key <I02>	{	[ XF86WWW			]	};
-    key <I10>	{	[ XF86AudioPrev			]	};
-    key <I19>	{	[ XF86AudioNext			]	};
-    key <I20>	{	[ XF86AudioMute			]	};
-    key <I21>	{	[ XF86Calculator		]	};
-    key <I22>	{	[ XF86AudioPlay, XF86AudioPause	]	};
-    key <I24>	{	[ XF86AudioStop			]	};
-    key <I2E>	{	[ XF86AudioLowerVolume		]	};
-    key <I30>	{	[ XF86AudioRaiseVolume		]	};
-    key <I5F>   {       [ XF86Sleep                     ]       };
-    key <I66>	{	[ XF86Favorites			]	};
-    key <I67>	{	[ XF86Reload			]	};
-    key	<I68>	{	[ XF86Stop			]	};
-    key <I69>	{	[ XF86Forward			]	};
-    key <I6A>	{	[ XF86Back			]	};
-    key <I6C>	{	[ XF86Mail			]	};
-    key <K67>   {       [ XF86Standby                   ]       };
-    key <XFER>	{	[ XF86AudioMedia		]	};
 };
 
 // Gyration

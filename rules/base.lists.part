@@ -28,15 +28,15 @@
               acpi airkey armada azonaRF2300 \
               apple apple_laptop \
               brother \
-              btc5113rf btc5126t btc9000 btc9000a btc9001ah btc5090 \
+              btc5113rf btc5126t btc9000 btc9000a btc9001ah btc5090 btc9019u \
               cherryblue cherrybluea cherryblueb cherrycyboard \
               chicony chicony9885 \
               compaqeak8 compaqik7 compaqik13 compaqik18 \
               cymotionlinux \
               dell dellusbmm dexxa diamond dinovo dtk2000 \
               emachines ennyah_dkb1008 evdev \
-              genius geniuscomfy geniuscomfy2 genius_kb19e_nb gyration \
-              honeywell_euroboard \
+              genius geniuscomfy geniuscomfy2 geniuskb19e \
+              gyration honeywell_euroboard \
               hp2501 hp2505 hp5xx hp500fa hp5181 hp5185 \
               hpi6 hpxe3gc hpxe3gf hpxe4xxx hpxt1000 hpzt11xx \
               ipaq inspiron latitude \
