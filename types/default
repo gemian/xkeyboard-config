@@ -3,6 +3,7 @@
 
 default xkb_types "default" {
     include "basic"
+    include "numpad"
     include "pc"
     include "iso9995"
     include "extra"

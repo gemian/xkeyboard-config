@@ -8,6 +8,7 @@
 
 default xkb_types "complete" {
     include "basic"
+    include "numpad"
     include "mousekeys"
     include "pc"
     include "iso9995"

@@ -51,23 +51,6 @@ partial default xkb_types "default" {
 	level_name[Level4] = "Shift Alt";
     };
 
-    // This enables the four level shifting also for the keypad.
-    type "FOUR_LEVEL_KEYPAD" {
-	modifiers = Shift+NumLock+LevelThree;
-	map[None] = Level1;
-	map[Shift] = Level2;
-	map[NumLock] = Level2;
-	map[Shift+NumLock] = Level1;
-	map[LevelThree] = Level3;
-	map[Shift+LevelThree] = Level4;
-	map[NumLock+LevelThree] = Level4;
-	map[Shift+NumLock+LevelThree] = Level3;
-	level_name[Level1] = "Base";
-	level_name[Level2] = "Number";
-	level_name[Level3] = "Alt Base";
-	level_name[Level4] = "Alt Number";
-    };       
-
 // Special type for keys used in Serbian Latin Unicode map
 // It makes it possible to use all three forms of latin letters 
 // present in Unicode that are made up of two separate letters 
@@ -91,3 +74,45 @@ partial default xkb_types "default" {
     };
 };
 
+// This enables the four level shifting also for the keypad.
+partial xkb_types "keypad" {
+    virtual_modifiers LevelThree;
+
+    type "FOUR_LEVEL_KEYPAD" {
+	modifiers = Shift+NumLock+LevelThree;
+	map[None] = Level1;
+	map[Shift] = Level2;
+	map[NumLock] = Level2;
+	map[Shift+NumLock] = Level1;
+	map[LevelThree] = Level3;
+	map[Shift+LevelThree] = Level4;
+	map[NumLock+LevelThree] = Level4;
+	map[Shift+NumLock+LevelThree] = Level3;
+	level_name[Level1] = "Base";
+	level_name[Level2] = "Number";
+	level_name[Level3] = "Alt Base";
+	level_name[Level4] = "Alt Number";
+    };       
+};
+
+// This enables the four level shifting also for the keypad,
+// but levels 1 and 2, and 3 and 4 are swapped on Mac keypads.
+partial xkb_types "mac_keypad" {
+    virtual_modifiers LevelThree;
+
+    type "FOUR_LEVEL_KEYPAD" {
+	modifiers = Shift+NumLock+LevelThree;
+	map[None] = Level2;
+	map[Shift] = Level1;
+	map[NumLock] = Level1;
+	map[Shift+NumLock] = Level2;
+	map[LevelThree] = Level4;
+	map[Shift+LevelThree] = Level3;
+	map[NumLock+LevelThree] = Level3;
+	map[Shift+NumLock+LevelThree] = Level4;
+	level_name[Level2] = "Base";
+	level_name[Level1] = "Number";
+	level_name[Level4] = "Alt Base";
+	level_name[Level3] = "Alt Number";
+    };       
+};
