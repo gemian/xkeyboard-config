@@ -107,45 +107,45 @@ xkb_symbols "nodeadkeys" {
 // (If you can't read it you probably have no business changing this file anyway:)
 //
 // Les accents circonflexes des principales voyelles sont obtenus avec
-// la touche Alt_Gr, les trémas sont obtenus par Alt_Gr + Shift.
+// la touche Alt_Gr, les trÃ©mas sont obtenus par Alt_Gr + Shift.
 //
 //  ____                                     _________ _____________ _______
-// | S A| S = Shift,  A = AltGr + Shift     | Imprime | Arrêt défil | Pause |
+// | S A| S = Shift,  A = AltGr + Shift     | Imprime | ArrÃªt dÃ©fil | Pause |
 // | s a| s = normal, a = AltGr             |  Exec   |             | Halte |
-//  ¯¯¯¯                                     ¯¯¯¯¯¯¯¯¯ ¯¯¯¯¯¯¯¯¯¯¯¯¯ ¯¯¯¯¯¯¯
+//  Â¯Â¯Â¯Â¯                                     Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯ Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯ Â¯Â¯Â¯Â¯Â¯Â¯Â¯
 //  ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ ____ _______
-// | ½ "| 1 ·| 2 É| 3 ,| 4 '| 5 "| 6 || 7 È| 8 ¯| 9 Ç| 0 À| ° ÿ| + °| <--   |
-// | ¼ "| & '| é ~| " #| ' {| ( [| - || è `| _ \| ç ^| à @| ) ]| = }|       |
+// | Å“ "| 1 Â·| 2 Ã‰| 3 ,| 4 '| 5 "| 6 || 7 Ãˆ| 8 Â¯| 9 Ã‡| 0 Ã€| Â° Ã¿| + Â°| <--   |
+// | Å’ "| & '| Ã© ~| " #| ' {| ( [| - || Ã¨ `| _ \| Ã§ ^| Ã  @| ) ]| = }|       |
 //  ========================================================================
-// | |<-  | A ä| Z Å| E ¢| R Ç| T Þ| Y Ý| U ü| I ï| O ö| P '| " `| $ ë|   , |
-// |  ->| | a â| z å| e ¤| r ç| t þ| y ý| u û| i î| o ô| p ¶| ^ ~| £ ê| <-' |
-//  ===================================================================¬    |
-// |       | Q Ä| S Ø| D Ë| F ª| G Æ| H Ð| J Ü| K Ï| L Ö| M º| % Ù| µ ¥|    |
-// | MAJ   | q Â| s ø| d Ê| f ±| g æ| h ð| j Û| k Î| l Ô| m ¹| ù ²| * ³|    |
+// | |<-  | A Ã¤| Z Ã…| E Â¢| R Ã‡| T Ãž| Y Ã| U Ã¼| I Ã¯| O Ã¶| P '| " `| $ Ã«|   , |
+// |  ->| | a Ã¢| z Ã¥| e â‚¬| r Ã§| t Ã¾| y Ã½| u Ã»| i Ã®| o Ã´| p Â¶| ^ ~| Â£ Ãª| <-' |
+//  ===================================================================Â¬    |
+// |       | Q Ã„| S Ã˜| D Ã‹| F Âª| G Ã†| H Ã| J Ãœ| K Ã| L Ã–| M Âº| % Ã™| Âµ Â¥|    |
+// | MAJ   | q Ã‚| s Ã¸| d ÃŠ| f Â±| g Ã¦| h Ã°| j Ã›| k ÃŽ| l Ã”| m Â¹| Ã¹ Â²| * Â³|    |
 //  ========================================================================
-// | ^   | >  | W  | X  | C  | V  | B  | N  | ?  | .  | /  | §  |     ^     |
-// | |   | < || w «| x »| c ©| v ®| b ß| n ¬| , ¿| ; ×| : ÷| ! ¡|     |     |
+// | ^   | >  | W  | X  | C  | V  | B  | N  | ?  | .  | /  | Â§  |     ^     |
+// | |   | < || w Â«| x Â»| c Â©| v Â®| b ÃŸ| n Â¬| , Â¿| ; Ã—| : Ã·| ! Â¡|     |     |
 //  ========================================================================
 // |      |      |      |                       |       |      |     |      |
 // | Ctrl | Meta | Alt  | Space    Nobreakspace | AltGr | Multi|Menu | Ctrl |
-//  ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ ¯¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯ ¯¯¯¯¯¯
+//  Â¯Â¯Â¯Â¯Â¯Â¯ Â¯Â¯Â¯Â¯Â¯Â¯ Â¯Â¯Â¯Â¯Â¯Â¯ Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯Â¯ Â¯Â¯Â¯Â¯Â¯Â¯Â¯ Â¯Â¯Â¯Â¯Â¯Â¯ Â¯Â¯Â¯Â¯Â¯ Â¯Â¯Â¯Â¯Â¯Â¯
 //
 //
 //		Si les touches mortes fonctionnent, utiliser les accents dits
-//		« morts », i.e. fonctionnant comme l'accent circonflexe & le
-//		tréma des machines à écrire ; sont disponibles :
+//		Â« morts Â», i.e. fonctionnant comme l'accent circonflexe & le
+//		trÃ©ma des machines Ã  Ã©crire ; sont disponibles :
 //
 // (^) : accent circonflexe,
-// Shift+(^) : tréma,
+// Shift+(^) : trÃ©ma,
 // Shift+AltGr (^) : tilde,
 // AltGr (1) : accent aigu,
 // AltGr (7) : accent grave
 //
-// Pour s'en servir, procéder comme avec l'accent circonflexe & le tréma
-// sur les vielles machines à écrire :
+// Pour s'en servir, procÃ©der comme avec l'accent circonflexe & le trÃ©ma
+// sur les vielles machines Ã  Ã©crire :
 //
-// AltGr (1) puis e : é
-// Shift+AltGr (1) puis e : É ...
+// AltGr (1) puis e : Ã©
+// Shift+AltGr (1) puis e : Ã‰ ...
 
 partial alphanumeric_keys
 
@@ -252,7 +252,7 @@ xkb_symbols "latin9_nodeadkeys" {
     key <AD11>	{ [	asciicircum,  	   diaeresis,          asciitilde,           quoteright ] };
 };
 
-// Keymap Dvorak pour le Français
+// Keymap Dvorak pour le FranÃ§ais
 // par Josselin Mouette <josselin.mouette@ens-lyon.org>.
 
 partial alphanumeric_keys
