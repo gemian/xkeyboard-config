@@ -5,7 +5,11 @@ xkb_symbols "basic" {
     // Describes the differences between a very simple mac_US
     // keyboard and a very simple netherland keybaord
 
-    name[Group1]= "Netherland";
+    include "latin"
+
+    name[Group1]= "Netherlands - Mac";
+
+    include "level3(ralt_switch)"
 
 // do just nothing
 

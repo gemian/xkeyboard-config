@@ -5,7 +5,7 @@
 
 xkb_symbols "extended" {
 
-    name[Group1]= "US/ASCII";
+    name[Group1]= "U.S. English";
     key <ESC>  {	[ Escape			]	};
 
     // Alphanumeric section
@@ -67,6 +67,18 @@ xkb_symbols "extended" {
     key <SPCE> {	[  space			]	};
     // End alphanumeric section
 
+    key <NMLK> {	[  Num_Lock,	Pointer_EnableKeys	]	};
+
+    include "keypad"
+
+    key <KPEQ> {	[  equal				]	};
+};
+
+hidden
+xkb_symbols "oldmac" {
+
+    include "macintosh_vndr/us(extended)"
+
     // Begin "Function" section
     key <FK01> {	[  F1		]	};
     key <FK02> {	[  F2		]	};
@@ -99,31 +111,6 @@ xkb_symbols "extended" {
     key <RGHT> {	[  Right	]	};
     // End "Editing" section
 
-    // Begin "Keypad" section
-    key <NMLK> {	[  Num_Lock,	Pointer_EnableKeys	]	};
-    key <KPEQ> {	[  equal				]	};
-    key <KPDV> {	[  KP_Divide				]	};
-    key <KPMU> {	[  KP_Multiply				]	};
-
-    key  <KP7> {	[  KP_7,	KP_Home			]	};
-    key  <KP8> {	[  KP_8,	KP_Up			]	};
-    key  <KP9> {	[  KP_9,	KP_Prior		]	};
-    key <KPSU> {	[  KP_Subtract				]	};
-
-    key  <KP4> {	[  KP_4,	KP_Left			]	};
-    key  <KP5> {	[  KP_5,	KP_Begin		]	};
-    key  <KP6> {	[  KP_6,	KP_Right		]	};
-    key <KPAD> {	[  KP_Add				]	};
-
-    key  <KP1> {	[  KP_1,	KP_End			]	};
-    key  <KP2> {	[  KP_2,	KP_Down			]	};
-    key  <KP3> {	[  KP_3,	KP_Next			]	};
-    key <KPEN> {	[  KP_Enter				]	};
-
-    key  <KP0> {	[  KP_0,	KP_Insert		]	};
-    key <KPDL> { 	[  KP_Decimal,	KP_Delete		]	};
-    // End "Keypad" section
-
     // Begin "Modifier" section
     key <LFSH> {	[  Shift_L	]	};
     key <RTSH> {	[  Shift_R	]	};
@@ -136,69 +123,27 @@ xkb_symbols "extended" {
     // End "Modifier" section
 
     // begin modifier mappings
-    modifier_map Shift  { Shift_L , Shift_R };
-    modifier_map Lock   { Caps_Lock };
+    modifier_map Shift  { Shift_L, Shift_R };
+    modifier_map Lock   { Caps_Lock, ISO_Lock };
     modifier_map Control{ Control_L, Control_R };
-    modifier_map Mod1   { Alt_L, Alt_R, Meta_L, Meta_R };
     modifier_map Mod2   { Num_Lock };
-    modifier_map Mod4   { Super_L, Super_R };
-    modifier_map Mod5   { Scroll_Lock };
+
+    //  Fake keys for virtual<->real modifiers mapping 
+    key <LVL3> {	[ ISO_Level3_Shift	]	};
+    key <MDSW> {	[ Mode_switch 		]	};
+    modifier_map Mod5   { <LVL3>, <MDSW> };
+
+    key <ALT>  {	[ NoSymbol, Alt_L	]	};
+    modifier_map Mod1   { <ALT>, <LALT> };
+
+    key <META> {	[ NoSymbol, Meta_L	]	};
+    modifier_map Mod1   { <META> };
+
+    key <SUPR> {	[ NoSymbol, Super_L	]	};
+    modifier_map Mod4   { <SUPR> };
+
+    key <HYPR> {	[ NoSymbol, Hyper_L	]	};
+    modifier_map Mod4   { <HYPR> };
     // end modifier mappings
-
-    include "compose(rwin)"
-    include "macintosh_vndr/apple(extended)"
-
-// *** FIXME
-//    key <LSGT> {	[ quoteleft,	asciitilde	]	};
-//    key <AE01> {	[	  1,	exclam 		],
-//			[exclamdown,    slash		]	};
-//    key <AE02> {	[	  2,	at		],
-//			[ trademark,    eth		]	};
-//    key <AE03> {	[	  3,	numbersign	],
-//			[ sterling			]	};
-//    key <AE04> {	[	  4,	dollar		],
-//			[      cent			]	};
-//    key <AE05> {	[	  5,	percent		],
-//			[  infinity			]	};
-//    key <AE06> {	[	  6,	asciicircum	],
-//			[ section			]	};
-//    key <AE07> {	[	  7,	ampersand	],
-//			[ paragraph			]	};
-//    key <AE08> {	[	  8,	asterisk	],
-//			[periodcentered			]	};
-//    key <AE09> {	[	  9,	parenleft	],
-//			[ordfeminine			]	};
-//    key <AE12> {	[     equal,	plus		],
-//			[  notequal,    plusminus	]	};
-//    key <AD01> {	[	  q,	Q 		],
-//			[	oe,	OE		]	};
-//    key <AD04> {	[	  r,	R		],
-//			[registered			]	};
-//    key <AD05> {	[	  t,	T		],
-//			[    dagger			]	};
-//    key <BKSL> {	[ backslash,	bar		],
-//			[guillemotleft,guillemotright	]	};
-//    key <AC01> {	[	  a,	A 		],
-//			[     aring,    Aring		]	};
-//    key <AC02> {	[	  s,	S		],
-//			[    ssharp,    Iacute		]	};
-//    key <AC03> {	[	  d,	D		],
-//				eth,	Icircumflex	]	};
-//    key <AC04> {	[	  f,	F		],
-//			[		Idiaeresis	]	};
-//    key <AC05> {	[	  g,	G		],
-//			[ copyright			]	};
-//    key <AC09> {	[	  l,	L		],
-//			[   notsign,    Ograve		]	};
-//    key <AC11> {	[ quoteright,	quotedbl	],
-//			[        ae,	AE		]	};
-//    key <AB03> {	[	  c,	C		],
-//			[ ccedilla,	Ccedilla	]	};
-//    key <AB06> {	[	  n,	N		],
-//			[asciitilde			]	};
-//    key <AB07> {	[	  m,	M		],
-//			[	 mu,	Acircumflex	]	};
-//    key <RALT> {	[ Mode_switch,	Multi_key	]	};
-//    modifier_map Mod3   { Mode_switch };
 
 };

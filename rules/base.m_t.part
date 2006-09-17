@@ -1,1 +1,2 @@
+  $macs		=	complete+numpad(mac)
   *		=	complete

@@ -42,19 +42,13 @@ xkb_symbols "laptop" {
     // the fn-keypad, so use the Enter key (right of <SPC>) for Mode_switch,
     // and use fn+Enter (Apple's code for Menu) for KP_Enter.
     replace key <KPEN> { [ ISO_Level3_Shift ] };
-    modifier_map Mod2  { ISO_Level3_Shift };	
+    modifier_map Mod5  { ISO_Level3_Shift };	
     // Linux kernel bug with Menu on macs means this doesn't work yet
 //    replace key <MENU> { [ KP_Enter ] }; // should be keycode 117
 };
 
 partial modifier_keys
 xkb_symbols "laptop_bad_switch" {
+    // Kept for backward compatibility
     include "macintosh_vndr/apple(laptop)"
-
-    // Before XFree86 4.3, most keymaps were configured to generate the 
-    // third-level shift from the second group as opposed to the third-level
-    // of the first group. These keymaps require this mapping to work as
-    // expected.
-    replace key <KPEN> { [ Mode_switch ] };
-    modifier_map Mod2  { Mode_switch };	
 };

@@ -6,14 +6,15 @@ xkb_symbols "basic" {
     // Describes the differences between a very simple en_US
     // keyboard and a very simple U.K. keyboard layout
 
+    include "latin"
 
-    name[Group1]= "Great Britain";
+    name[Group1]= "United Kingdom - Mac";
 
-    key <AE03> {	[               3,        sterling     	],
-			[      numbersign			]	};
+    key <AE03> {	[               3,        sterling,       numbersign	]	};
 
     // End alphanumeric section
     
+    include "level3(ralt_switch)"
 };
 
 

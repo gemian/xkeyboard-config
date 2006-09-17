@@ -1,3 +1,16 @@
+2006-09-17  Sergey Udaltsov
+	
+	* symbols/keypad, symbols/pc, symbols/us, symbols/macintosh_vndr/*,
+	rules/base.m_t.part, rules/base.ml1_s.part, rules/base.ml_s.part,
+	rules/base.o_t.part, rules/base.xml.in, rules/merge.sh: reorganized
+	Mac stuff, thanks to Denis,
+	https://bugs.freedesktop.org/show_bug.cgi?id=8280
+
+2006-09-17  Sergey Udaltsov
+
+	symbols/pc: modularized numpad stuff,
+	https://bugs.freedesktop.org/show_bug.cgi?id=8312
+	
 2006-09-06  Sergey Udaltsov
 
 	rules/altwin: mapping LALT to Mod4 modifier,

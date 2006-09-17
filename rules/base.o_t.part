@@ -2,4 +2,6 @@
   caps:internal_nocancel	=	+caps(internal_nocancel)
   caps:shift			=	+caps(shift)
   caps:shift_nocancel		=	+caps(shift_nocancel)
+  numpad:pc			=	+numpad(pc)
+  numpad:mac			=	+numpad(mac)
   numpad:microsoft		=	+numpad(microsoft)

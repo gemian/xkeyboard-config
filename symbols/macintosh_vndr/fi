@@ -5,8 +5,8 @@ xkb_symbols "basic" {
     // Describes the differences between a very simple mac_US
     // keyboard and a very simple Swedish(Finland) keybaord
 
-    name[Group1]= "Finnish";
     include "macintosh_vndr/se(basic)" // for consistent naming
+    name[Group1]= "Finland - Mac";
 
 };
 
@@ -14,4 +14,5 @@ xkb_symbols "basic" {
 partial alphanumeric_keys 
 xkb_symbols "nodeadkeys" {
     include "macintosh_vndr/se(basic)"	// for consistent naming
+    name[Group1]= "Finland - Mac, eliminate dead keys";
 };

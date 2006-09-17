@@ -82,8 +82,58 @@ xkb_symbols "overlay2" {
     // End "Keypad" section
 };
 
+partial hidden default keypad_keys
+xkb_symbols "x11" {
+// Ungrab cancels server/keyboard/pointer grabs
+    key <KPDV> {
+        type="CTRL+ALT",
+        symbols[Group1]= [ KP_Divide,	XF86_Ungrab ]
+    };
+
+// ClsGrb kills whichever client has a grab in effect
+    key <KPMU> {
+        type="CTRL+ALT",
+        symbols[Group1]= [ KP_Multiply,	XF86_ClearGrab ]
+    };
+
+// -VMode switches to the previous video mode
+    key <KPSU> {
+        type="CTRL+ALT",
+        symbols[Group1]= [ KP_Subtract,	XF86_Prev_VMode ]
+    };
+
+    key  <KP7> {	[  KP_Home,	KP_7	]	};
+    key  <KP8> {	[  KP_Up,	KP_8	]	};
+    key  <KP9> {	[  KP_Prior,	KP_9	]	};
+
+// +VMode switches to the next video mode
+    key <KPAD> {
+        type="CTRL+ALT",
+        symbols[Group1]= [ KP_Add,	XF86_Next_VMode ]
+    };
+
+    key  <KP4> {	[  KP_Left,	KP_4	]	};
+    key  <KP5> {	[  KP_Begin,	KP_5	]	};
+    key  <KP6> {	[  KP_Right,	KP_6	]	};
+
+    key  <KP1> {	[  KP_End,	KP_1	]	};
+    key  <KP2> {	[  KP_Down,	KP_2	]	};
+    key  <KP3> {	[  KP_Next,	KP_3	]	};
+    key <KPEN> {	[  	KP_Enter	]	};
+    key <KPEQ> {	[  	KP_Equal	]	};
+
+    key  <KP0> {	[  KP_Insert,	KP_0	]	};
+    key <KPDL> {  	[  KP_Delete,	KP_Decimal ]	};
+};
+
 // Some national standards use comma on the keypad instead of decimal dot
 partial keypad_keys
 xkb_symbols "comma" {
     key <KPDL> {       [ KP_Delete, KP_Separator ] };
+};
+
+// Default is decimal dot
+partial keypad_keys
+xkb_symbols "dot" {
+    key <KPDL> {       [ KP_Delete, KP_Decimal ] };
 };

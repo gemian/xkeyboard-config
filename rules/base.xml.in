@@ -3150,6 +3150,18 @@
       </configItem>
       <option>
         <configItem>
+          <name>numpad:pc</name>
+          <_description>Default numpad keys.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>numpad:mac</name>
+          <_description>Numpad keys work as with Mac.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>numpad:microsoft</name>
           <_description>Shift with numpad keys works as in MS Windows.</_description>
         </configItem>

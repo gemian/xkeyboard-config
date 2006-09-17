@@ -10,8 +10,6 @@ xkb_symbols "basic" {
 
     name[Group1]= "U.S. English";
 
-    include "pc(common)"
-
     // Alphanumeric section
     key <TLDE> {	[     grave,	asciitilde	]	};
     key <AE01> {	[	  1,	exclam 		]	};
@@ -63,7 +61,6 @@ xkb_symbols "basic" {
     key <AB09> {	[    period,	greater		]	};
     key <AB10> {	[     slash,	question	]	};
 
-    key <BKSL> {	[ backslash,         bar	]	};
     // End alphanumeric section
 };
 
