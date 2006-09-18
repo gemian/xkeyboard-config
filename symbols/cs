@@ -241,7 +241,7 @@ xkb_symbols "latinunicodeyz" {
 xkb_symbols "alternatequotes" {
   // Another acceptable »pair of quotes« for Serbian 
 
-  name[Group1]= "Serbia and Montenegro - With guillemots";
+  name[Group1]= "Serbia and Montenegro - With guillemets";
 
   include "cs(basic)"
 
@@ -252,7 +252,7 @@ xkb_symbols "alternatequotes" {
 xkb_symbols "latinalternatequotes" {
   // Another acceptable »pair of quotes« for Serbian 
 
-  name[Group1]= "Serbia and Montenegro - Latin with guillemots";
+  name[Group1]= "Serbia and Montenegro - Latin with guillemets";
 
   include "cs(latin)"
 
