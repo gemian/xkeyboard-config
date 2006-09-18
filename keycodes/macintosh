@@ -38,12 +38,14 @@ default xkb_keycodes "macintosh" {
    
 };
 
-xkb_keycodes "macbook" {
-    include "macintosh"
-
-// MacBook keyboards switch TLDE and LSGT keycodes
+xkb_keycodes "badmap" {
     <TLDE> =  94;
     <LSGT> =  49;
+};
+
+xkb_keycodes "goodmap" {
+    <TLDE> =  49;
+    <LSGT> =  94;
 };
 
 xkb_keycodes "old" {

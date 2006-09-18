@@ -2,13 +2,12 @@
   ataritt	=	ataritt(de)
   sun4		=	sun(type4_euro)
   sun5		=	sun(type5_euro)
-  macintosh_old	=	macintosh(old)
-  macintosh	=	macintosh
   powerpcps2	=	powerpcps2
   pc98		=	xfree98(pc98)
   abnt2		=	xfree86(abnt2)
   jp106		=	xfree86(jp106)
   evdev		=	evdev
- $macbooks	=	macintosh(macbook)
+  macintosh_old	=	macintosh(old)
+ $macbooks	=	macintosh+macintosh(badmap)
  $macs   	=	macintosh
   *		=	xfree86

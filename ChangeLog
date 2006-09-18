@@ -1,5 +1,10 @@
 2006-09-18  Sergey Udaltsov
 	
+	* keycodes/macintosh, rules/HDR, rules/Makefile.am,
+	rules/base.m_k.part, rules/base.o_k.part, rules/base.xml.in: split
+	"good" and "bad" apple keycodes, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8242
+
 	* rules/base.lists.part, rules/base.m_s.part, symbols/inet,
 	symbols/level3: lv3:enter_switch added, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8324

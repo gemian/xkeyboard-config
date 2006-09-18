@@ -23,7 +23,8 @@ endif
 if USE_COMPAT_RULES
 base_parts = base.hdr.part  base.lists.part \
 compat/base.lists.part \
-HDR base.m_k.part   HDR base.l1_k.part        HDR base.l_k.part  \
+HDR base.m_k.part   HDR base.l1_k.part     \
+HDR base.l_k.part   HDR base.o_k.part      \
 HDR base.m_g.part \
 HDR compat/base.mlv_s.part base.mlv_s.part \
 HDR compat/base.ml_s.part  base.ml_s.part  \

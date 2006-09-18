@@ -3178,6 +3178,12 @@
           <_description>Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server.</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>apple:badmap</name>
+          <_description>Swap keycodes of two keys when Mac keboards are misdetected by kernel.</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- Special shortcuts for the Euro character -->
