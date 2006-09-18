@@ -2199,18 +2199,6 @@ partial xkb_symbols "apple" {
     key <KPEQ>  {       [ KP_Equal ] };
 };
 
-partial modifier_keys
-xkb_symbols "apple_laptop" {
-    include "inet(apple)"
-
-    // These keyboards only generate a <RALT> when pressing fn+Alt. This makes
-    // it impossible to get to the third shift level on keys that are on
-    // the fn-keypad, so use the Enter key (right of <SPC>) for Mode_switch,
-    // and use fn+Enter (Apple's code for Menu) for KP_Enter.
-    replace key <KPEN> { [ ISO_Level3_Shift ] };
-    modifier_map Mod2  { ISO_Level3_Shift };
-};
-
 partial alphanumeric_keys
 xkb_symbols "cymotionlinux" {
     key	<RWIN>	{	[	at		]	};

@@ -80,20 +80,16 @@ xkb_symbols "menu_switch" {
   modifier_map Mod5   { ISO_Level3_Shift };
 };
 
-// using the level(win_switch) map, the either Windows' logo key
-// temporarily chooses the third shift level.  If you use this map,
-// you should define your keyboard as pc101 or pc102 instead of pc104
-// or pc105.
+// using the level3(win_switch) map, the either Windows' logo key
+// temporarily chooses the third shift level.
 partial modifier_keys
 xkb_symbols "win_switch" {
   include "level3(lwin_switch)"
   include "level3(rwin_switch)"
 };
 
-// using the level(lwin_switch) map, the left Windows' logo key
-// temporarily chooses the third shift level.  If you use this map,
-// you should define your keyboard as pc101 or pc102 instead of pc104
-// or pc105.
+// using the level3(lwin_switch) map, the left Windows' logo key
+// temporarily chooses the third shift level.
 partial modifier_keys
 xkb_symbols "lwin_switch" {
   key <LWIN> {
@@ -110,6 +106,18 @@ xkb_symbols "lwin_switch" {
 partial modifier_keys
 xkb_symbols "rwin_switch" {
   key <RWIN> {
+    type[Group1]="ONE_LEVEL",
+    symbols[Group1] = [ ISO_Level3_Shift ]
+    };
+  modifier_map Mod5   { ISO_Level3_Shift };
+};
+
+// using the level3(enter_switch) map, the Enter key on the keypad
+// temporarily chooses the third shift level.  This is especially
+// useful for Mac laptops which miss the right Alt key.
+partial hidden modifier_keys
+xkb_symbols "enter_switch" {
+  key <KPEN> {
     type[Group1]="ONE_LEVEL",
     symbols[Group1] = [ ISO_Level3_Shift ]
     };

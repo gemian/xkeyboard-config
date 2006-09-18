@@ -1,5 +1,9 @@
 2006-09-18  Sergey Udaltsov
 	
+	* rules/base.lists.part, rules/base.m_s.part, symbols/inet,
+	symbols/level3: lv3:enter_switch added, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8324
+
 	* symbols/ara: added ara(buckwalter), closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8198
 
