@@ -1319,7 +1319,7 @@ xkb_geometry "kr106" {
 
 }; // End of "kr106" geometry
 
-// Based on the pc(basic) layout. The keypad, sysreq/ScrLk/Break, and multimedia
+// Based on the pc(pc105) layout. The keypad, sysreq/ScrLk/Break, and multimedia
 // keys are not shown because they are shared with other keys via the <FN> key.
 // This should not be a problem if the normal symbols are used, as the keys will
 // show through normally, they just won't show from xkbprint. For the record,

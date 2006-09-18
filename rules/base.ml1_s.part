@@ -5,6 +5,5 @@
   macintosh_old	us			=	macintosh_vndr/us(oldmac)
   macintosh_old	$macvendorlayouts	=	macintosh_vndr/us(oldmac)+macintosh_vndr/%l[1]%(v[1])
   macintosh_old	*			=	macintosh_vndr/us(oldmac)+%l[1]%(v[1])
- $macs		$macvendorlayouts	=	pc(pc105)+macintosh_vndr/%l[1]%(v[1])
- $pcmodels	*			=	pc(%m)+%l[1]%(v[1])
-  *		*			=	pc(pc105)+%l[1]%(v[1])
+ $macs		$macvendorlayouts	=	pc+macintosh_vndr/%l[1]%(v[1])
+  *		*			=	pc+%l[1]%(v[1])

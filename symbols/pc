@@ -3,8 +3,8 @@
 //
 // $XFree86: xc/programs/xkbcomp/symbols/pc,v 1.9 2003/06/09 19:59:46 dawes Exp $
 
-partial hidden alphanumeric_keys modifier_keys 
-xkb_symbols "basic" {
+default partial alphanumeric_keys modifier_keys 
+xkb_symbols "pc105" {
 
     key <ESC>  {	[ Escape			]	};
 
@@ -65,25 +65,6 @@ xkb_symbols "basic" {
 
     key <HYPR> {	[ NoSymbol, Hyper_L	]	};
     modifier_map Mod4   { <HYPR> };
-};
-
-// definition for all PC-AT type keyboard, all extra keys are
-// defined in pc(basic).
-xkb_symbols "pc101" {
-    include "pc(basic)"
-};
-
-xkb_symbols "pc102" {
-    include "pc(basic)"
-};
-
-default
-xkb_symbols "pc104" {
-    include "pc(basic)"
-};
-
-xkb_symbols "pc105" {
-    include "pc(pc104)"
 };
 
 partial hidden alphanumeric_keys
