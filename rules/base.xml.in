@@ -895,6 +895,12 @@
             <_description>qwerty/digits</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>buckwalter</name>
+            <_description>Buckwalter</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

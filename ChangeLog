@@ -1,5 +1,8 @@
 2006-09-18  Sergey Udaltsov
 	
+	* symbols/ara: added ara(buckwalter), closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8198
+
 	* symbols/in: fixed layout, Unicode-related bug, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8203
 
