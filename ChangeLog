@@ -1,5 +1,8 @@
 2006-09-18  Sergey Udaltsov
 	
+	* symbols/in: fixed layout, Unicode-related bug, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8203
+
 	* geometry/pc, rules/base.ml1_s.part, rules/base.ml_s.part,
 	rules/compat/ml1_s.sh, rules/compat/ml1v1_s.sh,
 	rules/compat/ml1v_s.sh, rules/compat/ml_s.sh, rules/compat/mlv_s.sh,
