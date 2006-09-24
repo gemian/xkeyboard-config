@@ -293,6 +293,20 @@ The most used schemes are:
             Lock+LevelThree modifiers apply the symbol from the third level
             is taken. This also, shift-cancels-caps variant.
 
+      FOUR_LEVEL_MIXED_KEYPAD
+	    A four-level keypad scheme where the first two levels are similar
+            to the KEYPAD scheme (NumLock+Shift)
+            LevelThree acts as an override providing access to two Shift-ed
+            levels. When LevelThree is active we totally ignore NumLock state
+            Intended for the digit area of the keypad
+
+      FOUR_LEVEL_X
+            A four-level scheme where the base level accepts no modifier,
+            LevelThree provides two more Shift-ed levels like in the previous
+            scheme, and Ctrl+Alt controls the fourth level
+            Intended for the operator part of a keypad, though since NumLock
+            plays no part, it is not keypad-specific
+
 Besides that, there are several schemes for special purposes:
 
       PC_BREAK

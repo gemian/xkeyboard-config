@@ -51,6 +51,40 @@ partial default xkb_types "default" {
 	level_name[Level4] = "Shift Alt";
     };
 
+    // Another four level keypad variant
+    // First two levels are controled by NumLock (with active Shift-ing like
+    // in KEYPAD). LevelThree overrides this mode, with two additional
+    // Shift-ed levels
+    // NumLock state is intentionnaly ignored when LevelThree is active
+    type "FOUR_LEVEL_MIXED_KEYPAD" {
+        modifiers = Shift+NumLock+LevelThree;
+        map[None] = Level1;
+        map[Shift+NumLock] = Level1;
+        map[NumLock] = Level2;
+        map[Shift] = Level2;
+        map[LevelThree] = Level3;
+	map[NumLock+LevelThree] = Level3;
+        map[Shift+LevelThree] = Level4;
+	map[Shift+NumLock+LevelThree] = Level4;
+        level_name[Level1] = "Base";
+        level_name[Level2] = "Number";
+        level_name[Level3] = "Alt Base";
+        level_name[Level4] = "Shift Alt";
+    };
+
+    // Base level, two Shift-ed LevelThree levels, one Ctrl+Alt command level
+    type "FOUR_LEVEL_X" {
+        modifiers = Shift+LevelThree+Control+Alt;
+        map[None] = Level1;
+        map[LevelThree] = Level2;
+	map[Shift+LevelThree] = Level3;
+	map[Control+Alt] = Level4;
+        level_name[Level1] = "Base";
+        level_name[Level2] = "Alt Base";
+        level_name[Level3] = "Shift Alt";
+	level_name[Level4] = "Ctrl+Alt";
+    };
+
 // Special type for keys used in Serbian Latin Unicode map
 // It makes it possible to use all three forms of latin letters 
 // present in Unicode that are made up of two separate letters 

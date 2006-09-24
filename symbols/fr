@@ -81,6 +81,184 @@ xkb_symbols "nodeadkeys" {
     key <AB10>	{ [    exclam,    section, dead_belowdot,    abovedot ]	};
 };
 
+
+// Unicode French derivative
+// Loose refactoring of the historic Linux French keyboard layout
+//
+// Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+//
+// Credits (fr-latin1, fr-latin0, fr-latin9)
+//   © 199x-1996 René Cougnenc ✝
+//   © 1997-2002 Guylhem Aznar <clavier @ externe.net> 
+//   © 2003-2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+//
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+// │ Ø ¸ │ 1 ˇ │ 2 É │ 3 ˘ │ 4 — │ 5 – │ 6 ‑ │ 7 È │ 8 ™ │ 9 Ç │ 0 À │ ° ≠ │ + ± ┃ ⌫ Retour┃
+// │ ø ` │ & ´ │ é ~ │ " # │ ' { │ ( [ │ - | │ è ` │ _ \ │ ç ^ │ à @ │ ) ] │ = } ┃  arrière┃
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+// ┃       ┃ A Æ │ Z Â │ E ¢ │ R Ê │ T Þ │ Y Ÿ │ U Û │ I Î │ O Œ │ P Ô │ ¨ ˚ │ £ ¥ ┃Entrée ┃
+// ┃Tab ↹  ┃ a æ │ z â │ e € │ r ê │ t þ │ y ÿ │ u û │ i î │ o œ │ p ô │ ^ ~ │ $ ³ ┃   ⏎   ┃
+// ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+// ┃        ┃ Q Ä │ S „ │ D Ë │ F ` │ G ' │ H Ð │ J Ü │ K Ï │ L Ŀ │ M Ö │ % Ù │ µ ̄ ┃      ┃
+// ┃Maj ⇬   ┃ q ä │ s ß │ d ë │ f ‘ │ g ’ │ h ð │ j ü │ k ï │ l ŀ │ m ö │ ù ¹ │ * ² ┃      ┃
+// ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━┫
+// ┃       ┃ > ≥ │ W “ │ X ” │ C ® │ V ← │ B ↑ │ N → │ ? … │ . . │ / ∕ │ § − ┃             ┃
+// ┃Shift ⇧┃ < ≤ │ w « │ x » │ c © │ v ⍽ │ b ↓ │ n ¬ │ , ¿ │ ; × │ : ÷ │ ! ¡ ┃Shift ⇧      ┃
+// ┣━━━━━━━╋━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━━┛
+// ┃       ┃       ┃       ┃ ␣              Espace insécable ⍽ ┃       ┃       ┃       ┃
+// ┃Ctrl   ┃Meta   ┃Alt    ┃ ␣ Espace                        ␣ ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+partial alphanumeric_keys
+xkb_symbols "oss" {
+
+    include "latin"
+    include "level3(ralt_switch)"
+    include "keypad(oss)"
+
+    name[Group1]="France - Alternative";
+
+    // First row
+    key <TLDE>	{ [           oslash,         Ooblique,           dead_grave,          dead_cedilla ] }; // ø Ø  ` ¸ 
+    key <AE01>	{ [        ampersand,                1,           dead_acute,            dead_caron ] }; // & 1 ´ ˇ
+    key <AE02>	{ [           eacute,                2,           asciitilde,                Eacute ] }; // é 2 ~ É
+    key <AE03>	{ [         quotedbl,                3,           numbersign,            dead_breve ] }; // " 3 # ˘
+    key <AE04>	{ [       apostrophe,                4,            braceleft,             0x1002014 ] }; // ' 4 { — (tiret cadratin)
+    key <AE05>	{ [        parenleft,                5,          bracketleft,             0x1002013 ] }; // ( 5 } – (tiret demi-cadratin)
+    key <AE06>	{ [            minus,                6,                  bar,             0x1002011 ] }; // - 6 | ‑ (tiret insécable)
+    key <AE07>	{ [           egrave,                7,                grave,                Egrave ] }; // è 7 ` È
+    key <AE08>	{ [       underscore,                8,            backslash,             trademark ] }; // _ 8 \ ™
+    key <AE09>	{ [         ccedilla,                9,          asciicircum,              Ccedilla ] }; // ç 9 ^ Ç
+    key <AE10>	{ [           agrave,                0,                   at,                Agrave ] }; // à 0 @ À
+    key <AE11>	{ [       parenright,           degree,         bracketright,              notequal ] }; // ) ° ] ≠ 
+    key <AE12>	{ [            equal,             plus,           braceright,             plusminus ] }; // = + } ±
+
+    // Second row
+    key <AD01>	{ [                a,                A,                   ae,                    AE ] }; // a A æ Æ
+    key <AD02>	{ [                z,                Z,          acircumflex,           Acircumflex ] }; // z Z â Â
+    key <AD03>	{ [                e,                E,             EuroSign,                  cent ] }; // e E € ¢
+    key <AD04>	{ [                r,                R,          ecircumflex,           Ecircumflex ] }; // r R ê Ê
+    key <AD05>	{ [                t,                T,                thorn,                 THORN ] }; // t T þ Þ
+    key <AD06>	{ [                y,                Y,           ydiaeresis,            Ydiaeresis ] }; // y Y ÿ Ÿ
+    key <AD07>	{ [                u,                U,          ucircumflex,           Ucircumflex ] }; // u U û Û
+    key <AD08>	{ [                i,                I,          icircumflex,           Icircumflex ] }; // i I î Î
+    key <AD09>	{ [                o,                O,                   oe,                    OE ] }; // o O œ Œ
+    key <AD10>	{ [                p,                P,          ocircumflex,           Ocircumflex ] }; // p P ô Ô
+    key <AD11>	{ [  dead_circumflex,   dead_diaeresis,           dead_tilde,        dead_abovering ] }; // ^ ̈ ̃ ˚
+    key <AD12>	{ [           dollar,         sterling,        threesuperior,                   yen ] }; // $ £ ³ ¥
+
+    // Third row
+    key <AC01>	{ [                q,                Q,           adiaeresis,            Adiaeresis ] }; // q Q ä Ä
+    key <AC02>	{ [                s,                S,               ssharp,    doublelowquotemark ] }; // s S ß „ 
+    key <AC03>	{ [                d,                D,           ediaeresis,            Ediaeresis ] }; // d D ë Ë
+    key <AC04>	{ [                f,                F,  leftsinglequotemark,             quoteleft ] }; // f F ‘ `
+    key <AC05>	{ [                g,                G, rightsinglequotemark,            quoteright ] }; // g G ’ '
+    key <AC06>	{ [                h,                H,                  eth,                   ETH ] }; // h H ð Ð
+    key <AC07>	{ [                j,                J,           udiaeresis,            Udiaeresis ] }; // j J ü Ü
+    key <AC08>	{ [                k,                K,           idiaeresis,            Idiaeresis ] }; // k K ï Ï
+    key <AC09>	{ [                l,                L,            0x1000140,             0x100013F ] }; // l L ŀ Ŀ
+    key <AC10>	{ [                m,                M,           odiaeresis,            Odiaeresis ] }; // m M ö Ö
+    key <AC11>	{ [           ugrave,          percent,          onesuperior,                Ugrave ] }; // ù % ¹ Ù
+    key <BKSL>	{ [         asterisk,               mu,          twosuperior,           dead_macron ] }; // * µ ² ̄
+
+    // Fourth row
+    key <LSGT>  { [             less,          greater,        lessthanequal,      greaterthanequal ] }; // < > ≤ ≥
+    key <AB01>  { [                w,                W,        guillemotleft,   leftdoublequotemark ] }; // w W « “
+    key <AB02>  { [                x,                X,       guillemotright,  rightdoublequotemark ] }; // x X » ”
+    key <AB03>  { [                c,                C,            copyright,            registered ] }; // c C © ®
+    key <AB04>  { [                v,                V,            0x100202F,             leftarrow ] }; // v V ⍽ ← (espace fine insécable)
+    key <AB05>  { [                b,                B,            downarrow,               uparrow ] }; // b B ↓ ↑
+    key <AB06>  { [                n,                N,              notsign,            rightarrow ] }; // n N ¬ →
+    key <AB07>  { [            comma,         question,         questiondown,             0x1002026 ] }; // , ? ¿ …
+    key <AB08>  { [        semicolon,           period,             multiply,             0x10022C5 ] }; // ; . × ⋅
+    key <AB09>  { [            colon,            slash,             division,             0x1002215 ] }; // : / ÷ ∕
+    key <AB10>  { [           exclam,          section,           exclamdown,             0x1002212 ] }; // ! § ¡ −
+
+    // Make nobreakspace harder to hit
+    key <SPCE>  { [            space,            space,                space,          nobreakspace ] }; // ␣ ␣ ␣ ⍽ (espace insécable)
+};
+
+partial alphanumeric_keys
+xkb_symbols "oss_latin9" {
+
+    // Restricts the fr(oss) layout to latin9 symbols
+
+    include "fr(oss)"
+    include "keypad(oss_latin9)"
+
+    name[Group1]="France - Alternative, latin-9 only";
+
+    // First row
+    key <AE03>	{ [         quotedbl,                3,           numbersign,            dead_tilde ] }; // " 3 # ~
+    key <AE04>	{ [       apostrophe,                4,            braceleft,            underscore ] }; // ' 4 { _
+    key <AE05>	{ [        parenleft,                5,          bracketleft,                 minus ] }; // ( 5 } -
+    key <AE06>  { [            minus,                6,                  bar,                 minus ] }; // - 6 | -
+    key <AE08>  { [       underscore,                8,            backslash,             backslash ] }; // _ 8 \ \
+
+    // Third row
+    key <AC02>	{ [                s,                S,               ssharp,         guillemotleft ] }; // s S ß « 
+    key <AC04>	{ [                f,                F,            apostophe,             quoteleft ] }; // f F ' `
+    key <AC05>	{ [                g,                G,           apostrophe,            quoteright ] }; // g G ' '
+    key <AC09>  { [                l,                L,       periodcentered,        periodcentered ] }; // l L · ·
+    key <BKSL>	{ [         asterisk,               mu,          twosuperior,       dead_circumflex ] }; // * µ ² ^ 
+
+    // Fourth row
+    key <LSGT>  { [             less,          greater,                 less,               greater ] }; // < > < >
+    key <AB01>  { [                w,                W,        guillemotleft,         guillemotleft ] }; // w W « «
+    key <AB02>  { [                x,                X,       guillemotright,        guillemotright ] }; // x X » »
+    key <AB04>  { [                v,                V,         nobreakspace,                  less ] }; // v V ⍽ < (espace insécable)
+    key <AB05>  { [                b,                B,                minus,           asciicircum ] }; // b B - ^
+    key <AB06>  { [                n,                N,              notsign,               greater ] }; // n N ¬ >
+    key <AB07>  { [            comma,         question,         questiondown,                period ] }; // , ? ¿ .
+    key <AB08>  { [        semicolon,           period,             multiply,        periodcentered ] }; // ; . × ·
+    key <AB09>  { [            colon,            slash,             division,                 slash ] }; // : / ÷ /
+    key <AB10>  { [           exclam,          section,           exclamdown,                 minus ] }; // ! § ¡ -
+};
+
+partial alphanumeric_keys
+xkb_symbols "oss_Sundeadkeys" {
+
+    // Modifies the basic fr(oss) layout to use the Sun dead keys
+
+    include "fr(oss)"
+
+    // First row
+    key <TLDE>	{ [           oslash,         Ooblique,          SunFA_Grave,         SunFA_Cedilla ] }; // ø Ø ` ¸ 
+    key <AE01>	{ [        ampersand,                1,          SunFA_Acute,            dead_caron ] }; // & 1 ´ ˇ
+
+    // Second row
+    key <AD11>	{ [     SunFA_Circum,  SunFA_Diaeresis,          SunFA_Tilde,        dead_abovering ] }; // ^ ̈ ̃ ˚
+};
+
+partial alphanumeric_keys
+xkb_symbols "oss_sundeadkeys" {
+
+    include "fr(oss_Sundeadkeys)"
+
+    name[Group1]="France - Alternative, Sun dead keys";
+};
+
+partial alphanumeric_keys
+xkb_symbols "oss_nodeadkeys" {
+
+    // Modifies the basic fr(oss) layout to eliminate all dead keys
+
+    include "fr(oss)"
+
+    name[Group1]="France - Alternative, eliminate dead keys";
+
+    // First row
+    key <TLDE>	{ [           oslash,         Ooblique,                grave,          dead_cedilla ] }; // ø Ø ` ¸ 
+    key <AE01>	{ [        ampersand,                1,                acute,                 caron ] }; // & 1 ´ ˇ
+    key <AE03>  { [         quotedbl,                3,           numbersign,                 breve ] }; // " 3 # ˘
+
+    // Second row
+    key <AD11>	{ [      asciicircum,  	     diaeresis,           asciitilde,                 Aring ] }; // ^ ̈ ~ Å
+
+    // Third row
+    key <BKSL>  { [         asterisk,               mu,          twosuperior,                macron ] }; // * µ ² ̄
+};
+
+
 // Historic Linux French keyboard layout (fr-latin9)
 // Copyright (c) 199x, 2002 Rene Cougnenc (original work)
 //                          Guylhem Aznar <clavier @ externe.net> (maintainer)
@@ -146,14 +324,13 @@ xkb_symbols "nodeadkeys" {
 //
 // AltGr (1) puis e : é
 // Shift+AltGr (1) puis e : É ...
-
 partial alphanumeric_keys
 
 xkb_symbols "latin9" {
 
     include "latin"
 
-    name[Group1]="France - Alternative";
+    name[Group1]="France - (Legacy) Alternative";
 
     key <TLDE>	{ [              oe,              OE, leftdoublequotemark, rightdoublequotemark ] };
     key <AE01>	{ [       ampersand,               1,          dead_acute,       periodcentered ] };
@@ -234,7 +411,7 @@ xkb_symbols "latin9_sundeadkeys" {
 
     include "fr(latin9_Sundeadkeys)"
 
-    name[Group1]="France - Alternative, Sun dead keys";
+    name[Group1]="France - (Legacy) Alternative, Sun dead keys";
 };
 
 partial alphanumeric_keys
@@ -244,7 +421,7 @@ xkb_symbols "latin9_nodeadkeys" {
 
     include "fr(latin9)"
 
-    name[Group1]="France - Alternative, eliminate dead keys";
+    name[Group1]="France - (Legacy) Alternative, eliminate dead keys";
 
     key <AE01>	{ [       ampersand,               1,          apostrophe,       periodcentered ] };
     key <AE07>	{ [          egrave,               7,               grave,               Egrave ] };

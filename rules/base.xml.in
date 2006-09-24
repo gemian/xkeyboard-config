@@ -1504,20 +1504,44 @@
         </variant>
         <variant>
           <configItem>
-            <name>latin9</name>
+            <name>oss</name>
             <_description>Alternative</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>latin9_nodeadkeys</name>
+            <name>oss_latin9</name>
+            <_description>Alternative, latin-9 only</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>oss_nodeadkeys</name>
             <_description>Alternative, eliminate dead keys</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>latin9_sundeadkeys</name>
+            <name>oss_sundeadkeys</name>
             <_description>Alternative, Sun dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latin9</name>
+            <_description>(Legacy) Alternative</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latin9_nodeadkeys</name>
+            <_description>(Legacy) Alternative, eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latin9_sundeadkeys</name>
+            <_description>(Legacy) Alternative, Sun dead keys</_description>
           </configItem>
         </variant>
         <variant>

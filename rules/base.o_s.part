@@ -56,3 +56,5 @@
   eurosign:e		=	+eurosign(e)
   eurosign:5		=	+eurosign(5)
   eurosign:2		=	+eurosign(2)
+  keypad:oss            =       +keypad(oss)
+  keypad:legacy         =	+keypad(legacy)
