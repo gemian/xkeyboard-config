@@ -122,3 +122,105 @@ xkb_symbols "phonetic" {
     key <AB10> {	[ 0x100002F,  0x100055e ]	};
 
 };
+
+partial alphanumeric_keys
+xkb_symbols "eastern" {
+
+    name[Group1]="Armenia - Eastern";
+
+    // This is the closer phonetic transliteration for Eastern Armenian
+    // than the Windows XP layout for Eastern Armenian, which seems
+    // to have contained a bug, with the reversal of 'g' for keh and 'c' for gim
+    // Also, AE01 (the colon) has been replaced with the Armenian_full_stop and
+    // capital AE07 (ken) with the Armenian ligature ew
+
+    key <TLDE> {	[ Armenian_separation_mark,  Armenian_exclam ]	};
+//  key <AE01> {	[ colon,  		KP_1 ]	};
+    key <AE01> {	[ Armenian_full_stop,  	KP_1 ]	};
+    key <AE02> {	[ Armenian_dza,  	Armenian_DZA ]	};
+    key <AE03> {	[ Armenian_hi,  	Armenian_HI ]	};
+    key <AE04> {	[ Armenian_accent,  	KP_3 ]       };
+    key <AE05> {	[ comma,  		KP_4 ]	};
+    key <AE06> {	[ minus,  		KP_9 ]	};
+    key <AE07> {	[ period,  		Armenian_ligature_ew ]	};
+    key <AE08> {	[ guillemotleft,  	parenleft ]	};
+    key <AE09> {	[ guillemotright,  	parenright ]	};
+    key <AE10> {	[ Armenian_o,  		Armenian_O ]	};
+    key <AE11> {	[ Armenian_ra,  	Armenian_RA ]       };
+    key <AE12> {	[ Armenian_zhe,  	Armenian_ZHE ]	};
+
+    key <LatQ> {	[ Armenian_khe,  	Armenian_KHE ]	};
+    key <LatW> {	[ Armenian_vyun,  	Armenian_VYUN ]	};
+    key <LatE> {	[ Armenian_e,  		Armenian_E ]	};
+    key <LatR> {	[ Armenian_re,  	Armenian_RE ]	};
+    key <LatT> {	[ Armenian_tyun,  	Armenian_TYUN ]	};
+    key <LatY> {	[ Armenian_yech,  	Armenian_YECH ]	};
+    key <LatU> {	[ Armenian_at,  	Armenian_AT ]	};
+    key <LatI> {	[ Armenian_ini,  	Armenian_INI ]	};
+    key <LatO> {	[ Armenian_vo,  	Armenian_VO ]	};
+    key <LatP> {	[ Armenian_pe,  	Armenian_PE ]	};
+    key <AD11> {	[ Armenian_cha,  	Armenian_CHA ]	};
+    key <AD12> {	[ Armenian_je,  	Armenian_JE ]	};
+    key <BKSL> {	[ apostrophe,  		Armenian_question ]	};
+
+    key <LatA> {	[ Armenian_ayb,  	Armenian_AYB ]	};
+    key <LatS> {	[ Armenian_se,  	Armenian_SE ]	};
+    key <LatD> {	[ Armenian_da,  	Armenian_DA ]	};
+    key <LatF> {	[ Armenian_fe,  	Armenian_FE ]	};
+    key <LatG> {	[ Armenian_gim,  	Armenian_GIM ]	};
+    key <LatH> {	[ Armenian_ho,  	Armenian_HO ]	};
+    key <LatJ> {	[ Armenian_tche,  	Armenian_TCHE ]	};
+    key <LatK> {	[ Armenian_ken,  	Armenian_KEN ]	};
+    key <LatL> {	[ Armenian_lyun,  	Armenian_LYUN ]	};
+    key <AC10> {	[ Armenian_to,  	Armenian_TO ]	};
+    key <AC11> {	[ Armenian_pyur,  	Armenian_PYUR ]	};
+
+    key <LatZ> {	[ Armenian_za,  	Armenian_ZA ]	};
+    key <LatX> {	[ Armenian_tso,  	Armenian_TSO ]	};
+    key <LatC> {	[ Armenian_ke,  	Armenian_KE ]	};
+    key <LatV> {	[ Armenian_vev,  	Armenian_VEV ]	};
+    key <LatB> {	[ Armenian_ben,  	Armenian_BEN ]	};
+    key <LatN> {	[ Armenian_nu,  	Armenian_NU ]	};
+    key <LatM> {	[ Armenian_men,  	Armenian_MEN ]	};
+    key <AB08> {	[ Armenian_sha,  	Armenian_SHA ]       };
+    key <AB09> {	[ Armenian_ghat,  	Armenian_GHAT ]       };
+    key <AB10> {	[ Armenian_tsa,  	Armenian_TSA ]	};
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "western" {
+    include "am(eastern)"
+    name[Group1]="Armenia - Western";
+
+    // This is exactly the same layout for Western Armenian
+    // as in Windows XP, except:
+    // AE01 (the colon) has been replaced with the Armenian_full_stop and
+    // capital AE07 (ken) with the Armenian ligature ew
+
+    key <LatW> {	[ Armenian_vev,  	Armenian_VEV ]	};
+    key <LatT> {	[ Armenian_da,  	Armenian_DA ]	};
+    key <LatP> {	[ Armenian_ben,  	Armenian_BEN ]	};
+    key <LatD> {	[ Armenian_tyun,  	Armenian_TYUN ]	};
+    key <LatG> {	[ Armenian_ken,  	Armenian_KEN ]	};
+    key <LatK> {	[ Armenian_ke,  	Armenian_KE ]	};
+    key <LatC> {	[ Armenian_gim,  	Armenian_GIM ]	};
+    key <LatV> {	[ Armenian_vyun,  	Armenian_VYUN ]	};
+    key <LatB> {	[ Armenian_pe,  	Armenian_PE ]	};
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "eastern-alt" {
+    include "am(eastern)"
+    name[Group1]="Armenia - Alternative Eastern";
+
+	// This replicates the Windows XP keyboard layout for Eastern
+	// Armenian exactly (including the bug), except:
+ 	// AE01 (the colon) has been replaced with the Armenian_full_stop and
+	// capital AE07 (ken) with the Armenian ligature ew
+
+    key <LatG> {	[ Armenian_ke,  	Armenian_KE ]	};
+    key <LatC> {	[ Armenian_gim,  	Armenian_GIM ]	};
+
+};

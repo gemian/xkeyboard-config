@@ -924,6 +924,24 @@
             <_description>Phonetic</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>eastern</name>
+            <_description>Eastern</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>western</name>
+            <_description>Western</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>eastern-alt</name>
+            <_description>Alternative Eastern</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
