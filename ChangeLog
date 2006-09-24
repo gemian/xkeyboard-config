@@ -3,6 +3,9 @@
 	* symbols/am, rules/base.xml.in: added am(eastern), am(western),
 	am(eastern-alt), closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8404
+	* rules/base.ml_s.part: macbooks should use the vendor symbols, if
+	possible, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8385
 
 2006-09-18  Sergey Udaltsov
 	
