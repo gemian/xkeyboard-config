@@ -167,7 +167,7 @@ xkb_geometry "common" {
 // 85 keys
 // US/English (FRU 02K4785).
 xkb_geometry "us" {
-    include "ibm_vndr/thinkpad(common)"
+    include "thinkpad(common)"
     description = "IBM ThinkPad 560Z/600/600E/A22E, US";
 
     shape "RTRN" { cornerRadius = 1, { [43, 18] }, { [2.5, 0], [40.5, 14] } };
@@ -217,7 +217,7 @@ xkb_geometry "us" {
 // 86 keys
 // Tested on: DE/German, UK/English (FRU 02K4787).
 xkb_geometry "intl" {
-    include "ibm_vndr/thinkpad(common)"
+    include "thinkpad(common)"
     description = "IBM ThinkPad 560Z/600/600E/A22E, Intl";
 
     shape "RTRN" { cornerRadius = 1, { [28, 0], [28, 37], [4, 37], [4, 18],
