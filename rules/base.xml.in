@@ -3043,6 +3043,25 @@
       </option>
     </group>
     <group allowMultipleSelection="false">
+      <!-- Select a keypad type -->
+      <configItem>
+        <name>keypad</name>
+        <description>Keypad layout selection</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>keypad:legacy</name>
+          <description>Force standard legacy keypad</description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>keypad:oss</name>
+          <description>Use keypad with unicode additions (arrows and math operators)</description>
+       </configItem>
+      </option>
+    </group>
+    <group allowMultipleSelection="false">
       <!-- CapsLock tweaks. 
 	   "Internal" capitalization means capitalization using some internal tables.
 	   Otherwise "as Shift" - means using next group. -->
