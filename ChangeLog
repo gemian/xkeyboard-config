@@ -1,3 +1,9 @@
+2006-09-30  Sergey Udaltsov
+	
+	* rules/base.o_s.part, rules/base.xml.in, symbols/Makefile.am,
+	symbols/nbsp: adding nbsp:* options, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8451
+
 2006-09-29  Sergey Udaltsov
 	
 	* rules/base.xml.in: added keypad:* options, closing
@@ -54,6 +60,11 @@
 	* symbols/pc: modularized numpad stuff,
 	https://bugs.freedesktop.org/show_bug.cgi?id=8312
 	
+2006-09-10  Sergey Udaltsov
+
+	rules/base.list.part, symbols/inet: added 2 models, thanks to
+	Valery V. Inozemtsev
+
 2006-09-06  Sergey Udaltsov
 
 	* rules/altwin: mapping LALT to Mod4 modifier,

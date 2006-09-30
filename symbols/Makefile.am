@@ -25,7 +25,7 @@ sk sy th \
 tj tr ua \
 us uz vn \
 za \
-altwin capslock compose ctrl group inet keypad level3 level5 srvr_ctrl \
+altwin capslock compose ctrl group inet keypad level3 level5 nbsp srvr_ctrl \
 eurosign
                                                                                           
 include $(top_srcdir)/xkbrules.am

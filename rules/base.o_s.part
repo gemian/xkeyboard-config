@@ -58,3 +58,7 @@
   eurosign:2		=	+eurosign(2)
   keypad:oss            =       +keypad(oss)
   keypad:legacy         =	+keypad(legacy)
+  nbsp:none             =	+nbsp(none)
+  nbsp:level2           =	+nbsp(level2)
+  nbsp:level3           =	+nbsp(level3)
+  nbsp:level4           =	+nbsp(level4)

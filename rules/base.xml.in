@@ -3242,7 +3242,7 @@
       <option>
         <configItem>
           <name>apple:badmap</name>
-          <_description>Swap keycodes of two keys when Mac keboards are misdetected by kernel.</_description>
+          <_description>Swap keycodes of two keys when Mac keyboards are misdetected by kernel.</_description>
         </configItem>
       </option>
     </group>
@@ -3268,6 +3268,37 @@
         <configItem>
           <name>eurosign:2</name>
           <_description>Add the EuroSign to the 2 key.</_description>
+        </configItem>
+      </option>
+    </group>
+    <group allowMultipleSelection="false">
+      <!-- Let space output nobreakspace for the desired level -->
+      <configItem>
+        <name>nbsp</name>
+        <_description>Adding the nobreakspace keysym to space key</_description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>nbsp:none</name>
+          <_description>Space key output space at any level.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:level2</name>
+          <_description>Space key output nobreakspace at second level.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:level3</name>
+          <_description>Space key output nobreakspace at third level.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:level4</name>
+          <_description>Space key output nobreakspace at fourth level.</_description>
         </configItem>
       </option>
     </group>
