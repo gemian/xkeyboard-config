@@ -77,3 +77,23 @@ xkb_symbols "dvorak" {
     key <LSGT> { [  backslash,	bar		] };
     key <AD01> { [ apostrophe,	at		] };
 };
+
+// Copied from macintosh_vndr/gb
+partial alphanumeric_keys 
+xkb_symbols "mac" {
+
+    // Describes the differences between a very simple en_US
+    // keyboard and a very simple U.K. keyboard layout
+
+    include "latin"
+
+    name[Group1]= "United Kingdom - Mac";
+
+    key <AE03> {	[               3,        sterling,       numbersign	]	};
+
+    // End alphanumeric section
+    
+    include "level3(ralt_switch)"
+};
+
+
