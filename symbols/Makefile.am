@@ -17,7 +17,7 @@ jp kg kh kr kz la \
 latam latin lk \
 lt lv mao \
 mk mm mn \
-mt mv nl \
+mt mv ng nl \
 no np pc pk \
 pl pt ro \
 ru se si \

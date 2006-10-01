@@ -2765,6 +2765,33 @@
 	<_description>Nepal</_description>
       </configItem>
     </layout>
+    <layout>
+      <configItem>
+        <name>ng</name>
+        <_shortDescription>Nigeria</_shortDescription>
+	<_description>Nigeria</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>igbo</name>
+            <_description>Igbo</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>yoruba</name>
+            <_description>Yoruba</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>hausa</name>
+            <_description>Hausa</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">

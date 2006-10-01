@@ -1,3 +1,8 @@
+2006-10-01  Sergey Udaltsov
+	
+	* rules/base.xml.in, symbols/Makefile.am, symbols/ng: added Nigerian
+	layouts, closing https://bugs.freedesktop.org/show_bug.cgi?id=8467
+
 2006-09-30  Sergey Udaltsov
 	
 	* rules/base.o_s.part, rules/base.xml.in, symbols/Makefile.am,
