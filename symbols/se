@@ -181,7 +181,7 @@ xkb_symbols "mac" {
 
     include "latin"
 
-    name[Group1]= "Sweden - Mac";
+    name[Group1]= "Sweden - Macintosh";
 
     key <TLDE> {	[         section,         degree	]	};
 

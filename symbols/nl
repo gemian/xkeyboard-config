@@ -79,7 +79,7 @@ xkb_symbols "mac" {
 
     include "latin"
 
-    name[Group1]= "Netherlands - Mac";
+    name[Group1]= "Netherlands - Macintosh";
 
     include "level3(ralt_switch)"
 

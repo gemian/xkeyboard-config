@@ -167,5 +167,5 @@ xkb_symbols "mac" {
     // keyboard and a very simple Swedish(Finland) keybaord
 
     include "se(mac)"
-    name[Group1]= "Finland - Mac";
+    name[Group1]= "Finland - Macintosh";
 };

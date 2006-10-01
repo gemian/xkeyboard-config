@@ -72,7 +72,7 @@ xkb_symbols "mac" {
 
     include "latin"
 
-    name[Group1]= "Portugal - Mac";
+    name[Group1]= "Portugal - Macintosh";
 
     key <LSGT> {	[	     less,	   greater, 	      bar,       brokenbar	]	};
     key <AE02> {	[               2,	  quotedbl, 	       at,       oneeighth	]	};
@@ -101,7 +101,7 @@ xkb_symbols "mac" {
 partial alphanumeric_keys 
 xkb_symbols "mac_sundeadkeys" {
     include "pt(mac)"
-    name[Group1]= "Portugal - Mac, Sun dead keys";
+    name[Group1]= "Portugal - Macintosh, Sun dead keys";
     
     key <AE12> {	[	     plus,        asterisk,  SunFA_Diaeresis, SunFA_Diaeresis      ]	};
     key <AC11> {	[     SunFA_Tilde,    SunFA_Circum	]	};
@@ -111,7 +111,7 @@ xkb_symbols "mac_sundeadkeys" {
 partial alphanumeric_keys 
 xkb_symbols "mac_nodeadkeys" {
     include "pt(mac)"
-    name[Group1]= "Portugal - Mac, eliminate dead keys";
+    name[Group1]= "Portugal - Macintosh, eliminate dead keys";
 
     key <AE12> {	[	     plus,        asterisk, 	 quotedbl,        quotedbl      ]	};
     key <AC11> {	[      asciitilde,     asciicircum	]	};

@@ -4,8 +4,8 @@
 	layouts, closing https://bugs.freedesktop.org/show_bug.cgi?id=8467
 	* symbols/dk, symbols/es, symbols/fi, symbols/fr, symbols/gb,
 	symbols/is, symbols/it, symbols/nl, symbols/no, symbols/pt,
-	symbols/se, symbols/us: adding mac variants, closing
-	https://bugs.freedesktop.org/show_bug.cgi?id=8465	
+	symbols/se, symbols/us, rules/base.xml.in: adding mac variants,
+	closing https://bugs.freedesktop.org/show_bug.cgi?id=8465
 
 2006-09-30  Sergey Udaltsov
 	

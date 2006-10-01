@@ -144,7 +144,7 @@ xkb_symbols "mac" {
     // keyboard and a very simple Spanish keybaord
 
     include "latin"
-    name[Group1]= "Spain - Mac";
+    name[Group1]= "Spain - Macintosh";
 
     key <TLDE> {	[     bracketleft,    bracketright,        braceleft,      braceright	]	};
     key <LSGT> {	[            less,         greater,      bracketleft,       braceleft	]	};

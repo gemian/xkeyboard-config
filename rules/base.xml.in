@@ -827,6 +827,12 @@
             <_description>Russian phonetic</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1312,6 +1318,18 @@
             <_description>Eliminate dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac_nodeadkeys</name>
+            <_description>Macintosh, eliminate dead keys</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1325,6 +1343,12 @@
           <configItem>
             <name>sundeadkeys</name>
             <_description>Sun dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1481,6 +1505,12 @@
             <_description>Kotoistus</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1548,6 +1578,12 @@
           <configItem>
             <name>dvorak</name>
             <_description>Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1670,13 +1706,13 @@
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Macintosh layout</_description>
+            <_description>Macintosh</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac_nodeadkeys</name>
-            <_description>Macintosh layout, eliminate dead keys</_description>
+            <_description>Macintosh, eliminate dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1855,6 +1891,12 @@
             <_description>Eliminate dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -1889,6 +1931,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2098,6 +2146,18 @@
             <_description>Northern Saami, eliminate dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac_nodeadkeys</name>
+            <_description>Macintosh, eliminate dead keys</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -2156,6 +2216,24 @@
           <configItem>
             <name>sundeadkeys</name>
             <_description>Sun dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac_nodeadkeys</name>
+            <_description>Macintosh, eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac_sundeadkeys</name>
+            <_description>Macintosh, Sun dead keys</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2368,6 +2446,12 @@
             <_description>Catalan variant with middle-dot L</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -2405,6 +2489,12 @@
           <configItem>
             <name>smi</name>
             <_description>Northern Saami</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2652,6 +2742,12 @@
           <configItem>
             <name>dvorak</name>
             <_description>Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Macintosh</_description>
           </configItem>
         </variant>
       </variantList>

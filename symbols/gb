@@ -87,7 +87,7 @@ xkb_symbols "mac" {
 
     include "latin"
 
-    name[Group1]= "United Kingdom - Mac";
+    name[Group1]= "United Kingdom - Macintosh";
 
     key <AE03> {	[               3,        sterling,       numbersign	]	};
 
