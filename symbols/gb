@@ -89,6 +89,7 @@ xkb_symbols "mac" {
 
     name[Group1]= "United Kingdom - Macintosh";
 
+    key <AE02> {	[               2,              at,         EuroSign	]	};
     key <AE03> {	[               3,        sterling,       numbersign	]	};
 
     // End alphanumeric section

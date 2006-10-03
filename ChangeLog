@@ -1,3 +1,8 @@
+2006-10-03  Sergey Udaltsov
+
+	* symbols/macintosh_vndr/gb, symbols/gb: adding missing Euro
+	character, closing https://bugs.freedesktop.org/show_bug.cgi?id=5227
+
 2006-10-01  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/Makefile.am, symbols/ng: added Nigerian

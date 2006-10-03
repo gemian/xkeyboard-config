@@ -10,6 +10,7 @@ xkb_symbols "basic" {
 
     name[Group1]= "United Kingdom - Mac";
 
+    key <AE02> {	[               2,              at,         EuroSign	]	};
     key <AE03> {	[               3,        sterling,       numbersign	]	};
 
     // End alphanumeric section
