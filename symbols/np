@@ -23,7 +23,7 @@ xkb_symbols "basic" {
       key <AE09> { [      0x100096F	 		]	};
       key <AE10> { [      0x1000966,0x1000970		]	};
       key <AE11> { [      minus, 0x1000952 		]	};
-      key <AE12> { [      equals, 0x100200C 		]	};
+      key <AE12> { [      equal, 0x100200C 		]	};
 
 // q,w,e,r,t,y,u,i,o,p,[,]
 

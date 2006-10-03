@@ -2,6 +2,8 @@
 
 	* symbols/macintosh_vndr/gb, symbols/gb: adding missing Euro
 	character, closing https://bugs.freedesktop.org/show_bug.cgi?id=5227
+	* symbols/bt, symbols/fr, symbols/np: fixing typos, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8495
 
 2006-10-01  Sergey Udaltsov
 

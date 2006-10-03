@@ -123,7 +123,7 @@ xkb_symbols "oss" {
     key <AE02>	{ [           eacute,                2,           asciitilde,                Eacute ] }; // é 2 ~ É
     key <AE03>	{ [         quotedbl,                3,           numbersign,            dead_breve ] }; // " 3 # ˘
     key <AE04>	{ [       apostrophe,                4,            braceleft,             0x1002014 ] }; // ' 4 { — (tiret cadratin)
-    key <AE05>	{ [        parenleft,                5,          bracketleft,             0x1002013 ] }; // ( 5 } – (tiret demi-cadratin)
+    key <AE05>	{ [        parenleft,                5,          bracketleft,             0x1002013 ] }; // ( 5 [ – (tiret demi-cadratin)
     key <AE06>	{ [            minus,                6,                  bar,             0x1002011 ] }; // - 6 | ‑ (tiret insécable)
     key <AE07>	{ [           egrave,                7,                grave,                Egrave ] }; // è 7 ` È
     key <AE08>	{ [       underscore,                8,            backslash,             trademark ] }; // _ 8 \ ™
@@ -190,13 +190,13 @@ xkb_symbols "oss_latin9" {
     // First row
     key <AE03>	{ [         quotedbl,                3,           numbersign,            dead_tilde ] }; // " 3 # ~
     key <AE04>	{ [       apostrophe,                4,            braceleft,            underscore ] }; // ' 4 { _
-    key <AE05>	{ [        parenleft,                5,          bracketleft,                 minus ] }; // ( 5 } -
+    key <AE05>	{ [        parenleft,                5,          bracketleft,                 minus ] }; // ( 5 [ -
     key <AE06>  { [            minus,                6,                  bar,                 minus ] }; // - 6 | -
     key <AE08>  { [       underscore,                8,            backslash,             backslash ] }; // _ 8 \ \
 
     // Third row
     key <AC02>	{ [                s,                S,               ssharp,         guillemotleft ] }; // s S ß « 
-    key <AC04>	{ [                f,                F,            apostophe,             quoteleft ] }; // f F ' `
+    key <AC04>	{ [                f,                F,           apostrophe,             quoteleft ] }; // f F ' `
     key <AC05>	{ [                g,                G,           apostrophe,            quoteright ] }; // g G ' '
     key <AC09>  { [                l,                L,       periodcentered,        periodcentered ] }; // l L · ·
     key <BKSL>	{ [         asterisk,               mu,          twosuperior,       dead_circumflex ] }; // * µ ² ^ 
@@ -305,7 +305,7 @@ xkb_symbols "oss_nodeadkeys" {
 // | |   | < || w «| x »| c ©| v ®| b ß| n ¬| , ¿| ; ×| : ÷| ! ¡|     |     |
 //  ========================================================================
 // |      |      |      |                       |       |      |     |      |
-// | Ctrl | Meta | Alt  | Space    Nobreakspace | AltGr | Multi|Menu | Ctrl |
+// | Ctrl | Super| Alt  | Space    Nobreakspace | AltGr | Super|Menu | Ctrl |
 //  ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯ ¯¯¯¯¯¯¯ ¯¯¯¯¯¯ ¯¯¯¯¯ ¯¯¯¯¯¯
 //
 //
