@@ -116,90 +116,95 @@ xkb_symbols "fr_nodeadkeys" {
     key <AD12> { [   diaeresis,   exclam, bracketright  ] };
 };
 
-// Macintosh layout (Swiss German)
-//
+// Copied from macintosh_vndr/ch
 // 03.01.2003
 // Andreas Tobler <a.tobler@schweiz.ch>
 // modified for Swiss German Apple Extended Keyboard II
-//
-// 2006-05-25, 2006-06-08
-// Hanselmann Michael <xorg-at-hansmi.ch>
-// Fixed keys, reformatted, moved to symbols/ch
-partial alphanumeric_keys 
-xkb_symbols "de_mac" {
-	name[Group1]= "Switzerland - German (Macintosh)";
-	// Alphanumeric section
-	key <AE01> { [	1,	plus,		plusminus,	infinity	] };
-	key <AE02> { [	2,	quotedbl,	leftdoublequotemark,	rightdoublequotemark	] };
-	key <AE03> { [	3,	asterisk,	numbersign,	0x01002039	] };
-	key <AE04> { [	4,	ccedilla,	Ccedilla,	0x01002044	] };
-	key <AE05> { [	5,	percent,	bracketleft,	0x01002039	] };
-	key <AE06> { [	6,	ampersand,	bracketright,	0x0100203A	] };
-	key <AE07> { [	7,	slash,		bar,		backslash	] };
-	key <AE08> { [	8,	parenleft,	braceleft,	Ograve		] };
-	key <AE09> { [	9,	parenright,	braceright,	Ocircumflex	] };
-	key <AE10> { [	0,	equal,		notequal,	Uacute		] };
-	key <AE11> { [	apostrophe,	question,	questiondown,	NoSymbol	] };
-	key <AE12> { [	dead_circumflex, dead_grave,	dead_acute,	asciicircum	] };
-	key <AD01> { [	q,	Q,	oe,		OE		] };
-	key <AD02> { [	w,	W,	Greek_SIGMA,	Aacute		] };
-	key <AD03> { [	e,	E,	EuroSign,	Ediaeresis	] };
-	key <AD04> { [	r,	R,	registered,	Egrave		] };
-	key <AD05> { [	t,	T,	dagger,		Icircumflex	] };
-	key <AD06> { [	z,	Z,	Greek_OMEGA,	Iacute		] };
-	key <AD07> { [	u,	U,	degree,		Ugrave		] };
-	key <AD08> { [	i,	I,	exclamdown,	idotless	] };
-	key <AD09> { [	o,	O,	oslash,		Ooblique	] };
-	key <AD10> { [	p,	P,	Greek_pi,	Greek_PI	] };
-	key <AD11> { [	udiaeresis,	egrave,	section,		ydiaeresis		] };
-	key <AD12> { [	dead_diaeresis,	exclam,	leftsinglequotemark,	rightsinglequotemark	] };
-	key <AC01> { [	a,	A,	aring,		Aring	] };
-	// U+FB01 = ligature fi
-	key <AC02> { [	s,	S,	ssharp,		0x0100fb01	] };
-	// U+2202 = partialderivative, U+FB02 = ligature fl
-	key <AC03> { [	d,	D,	0x01002202,	0x0100fb02	] };
-	key <AC04> { [	f,	F,	function,	doubledagger	] };
-	key <AC05> { [	g,	G,	at,		comma		] };
-	key <AC06> { [	h,	H,	ordfeminine,	periodcentered	] };
-	key <AC07> { [	j,	J,	masculine,	0x010002dc	] };
-	key <AC08> { [	k,	K,	Greek_DELTA,	macron		] };
-	key <AC09> { [	l,	L,	notsign,	caret		] };
-	key <AC10> { [	odiaeresis, eacute,	cent,	breve		] };
-	key <AC11> { [	adiaeresis, agrave,	ae,	AE		] };
-	key <AB01> { [	y,	Y,	yen,		Ydiaeresis	] };
-	key <AB02> { [	x,	X,	similarequal,	trademark	] };
-	key <AB03> { [	c,	C,	copyright,	NoSymbol	] };
-	key <AB04> { [	v,	V,	radical,	diamond		] };
-	key <AB05> { [	b,	B,	integral,	NoSymbol	] };
-	key <AB06> { [	n,	N,	dead_tilde,	abovedot	] };
-	// U+02DA = RING ABOVE
-	key <AB07> { [	m,	M,	mu,		0x010002da	] };
-	key <AB08> { [	comma,	semicolon,	guillemotleft,	guillemotright	] };
-	key <AB09> { [	period,	colon,		ellipsis,	division	] };
-	key <AB10> { [	minus,	underscore,	hyphen,		emdash		] };
-	// U+FB01 = ligature fi, U+2030 = per mille
-	key <TLDE> { [	section, degree,	0x0100fb01,	0x01002030		] };
-	key <SPCE> { [	space,	nobreakspace,	nobreakspace				] };
-	key <LSGT> { [	less,	greater,	lessthanequal,	greaterthanequal	] };
-	key <BKSL> { [	dollar,	sterling,	paragraph,	enfilledcircbullet	] };
-	// End alphanumeric section
 
-	// Other keys
-	key <KPDL> { [	KP_Delete,	KP_Decimal	]	};
-	// End of other keys
+partial alphanumeric_keys
+xkb_symbols "de_mac" {
+    
+    name[Group1]= "Switzerland - German (Macintosh)";
+
+    // Alphanumeric section
+
+    key <AE01> { [	1,	plus, 	plusminus,	infinity		]	};
+    key <AE02> { [	2,	quotedbl, leftdoublequotemark, rightdoublequotemark 	]	};
+    key <AE03> { [	3,	asterisk, 	numbersign,	leftcaret	]	};
+					// not displayed here
+    key <AE04> { [	4,	ccedilla, 	Ccedilla,	slash		]	};
+    key <AE05> { [	5,	percent, 	bracketleft			]	};
+    key <AE06> { [	6,	ampersand, 	bracketright			]	};
+    key <AE07> { [	7,	slash, 	bar,		backslash		]	};
+    key <AE08> { [	8,	parenleft, 	braceleft,	Ograve		]	};
+    key <AE09> { [	9,	parenright, 	braceright,	Ocircumflex	]	};
+    key <AE10> { [	0,	equal, 	notequal,	Uacute			]	};
+    key <AE11> { [	apostrophe,	question, 	questiondown, 	NoSymbol		]	};
+    key <AE12> { [	dead_circumflex,dead_grave, 	dead_acute,	asciicircum		]	};
+    key <AD01> { [	q,	Q, 	oe,		OE			]	};
+    key <AD02> { [	w,	W, 	Greek_SIGMA,	Aacute			]	};
+    key <AD03> { [ 	e,	E, 	EuroSign,	Ediaeresis		]	};
+    key <AD04> { [ 	r,	R, 	registered,	Egrave			]	};
+    key <AD05> { [ 	t,	T, 	dagger,		Icircumflex		]	}; 
+    key <AD06> { [	z,	Z, 	Greek_OMEGA,	Iacute			]	};
+    key <AD07> { [ 	u,	U, 	degree,		Ugrave			]	};
+    key <AD08> { [ 	i,	I, 	exclamdown,	idotless		]	};
+    key <AD09> { [ 	o,	O, 	oslash,		Ooblique		]	};
+    key <AD10> { [ 	p,	P, 	Greek_pi,	Greek_PI		]	};
+    key <AD11> { [	udiaeresis,	egrave, 	section,	ydiaeresis		]	};
+    key <AD12> { [	dead_diaeresis,	exclam, 	grave,		apostrophe		]	};
+    key <AC01> { [ 	a,	A, 	aring,		Aring			]	};
+    key <AC02> { [ 	s,	S, 	ssharp, 	NoSymbol		]	}; 
+					// ligature fl
+    key <AC03> { [ 	d,	D, 	Greek_sigma,	NoSymbol		]	};
+			// partialderivative is not available here att
+    key <AC04> { [ 	f,	F, 	function,	doubledagger		]	};
+    key <AC05> { [ 	g,	G, 	at,		comma			]	};
+    key <AC06> { [ 	h,	H, 	ordfeminine,	periodcentered		]	};
+    key <AC07> { [ 	j,	J,  	masculine,	eth	 		]	};
+    key <AC08> { [ 	k,	K, 	Greek_DELTA,	macron			]	};
+    key <AC09> { [ 	l,	L, 	notsign,	caret			]	};
+    key <AC10> { [	odiaeresis,	eacute, 	cent,		breve	]	};
+    key <AC11> { [	adiaeresis,	agrave, 	ae,		AE	]	};
+    key <AB01> { [	y,	Y, 	yen,		Ydiaeresis		]	};
+    key <AB02> { [ 	x,	X, 	similarequal,	trademark		]	};
+    key <AB03> { [ 	c,	C, 	copyright,	NoSymbol		]	};
+    key <AB04> { [ 	v,	V, 	radical,	diamond			]	};
+    key <AB05> { [ 	b,	B, 	integral,	NoSymbol		]	};  
+    key <AB06> { [ 	n,	N, 	dead_tilde, 	enopencircbullet	]       };
+					// to be fixed att
+    key <AB07> { [ 	m,	M, 	mu,		dead_abovering		]       };
+					// not sure att
+    key <AB08> { [	comma,	semicolon, 	guillemotleft,	guillemotright	]	};
+    key <AB09> { [	period,	colon, 	ellipsis,	division		]	};
+    key <AB10> { [	minus,	underscore, 	hyphen,		emdash		]	};
+    key <TLDE> { [	section,	degree,   	NoSymbol, 	NoSymbol		]	};
+			// ligature fi	// per mille
+    key <SPCE> { [	space, 	nobreakspace,	nobreakspace		]	};
+    key <LSGT> { [	less,	greater, 	lessthanequal,	greaterthanequal	]  	};
+    key <BKSL> { [	dollar,	sterling, 	paragraph,	enfilledcircbullet	]	};
+
+    include "keypad(comma)"
+    include "level3(ralt_switch)"
 };
 
-// Macintosh layout (Swiss French)
-//
-// Describes the differences between a Swiss German keyboard
-// and a Swiss French keyboard
 partial alphanumeric_keys 
 xkb_symbols "fr_mac" {
-	include "ch(de_mac)"
-	name[Group1]= "Switzerland - French (Macintosh)";
-	key <AD11> { [	egrave,	udiaeresis,	bracketleft	] };
-	key <AC10> { [	eacute,	odiaeresis			] };
-	key <AC11> { [	agrave,	adiaeresis,	braceleft	] };
+
+    // Describes the differences between a very simple US/ASCII
+    // keyboard and a very simple Swiss/French keybaord
+
+    include "ch(de_mac)"
+    name[Group1]= "Switzerland - French (Macintosh)";
+
+    override key <AD11> {
+	[ egrave,	udiaeresis,  bracketleft	]
+    };
+    override key <AC10> {
+	[ eacute,	odiaeresis	]
+    };
+    override key <AC11> {
+	[ agrave,	adiaeresis,   braceleft		]
+    };
 };
 
-// vim: tabstop=8 syntax=c noexpandtab softtabstop=0 shiftwidth=8

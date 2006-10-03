@@ -70,32 +70,17 @@ xkb_symbols "mac" {
     // Describes the differences between a very simple en_US
     // keyboard and a very simple Portuguese keybaord
 
-    include "latin"
-
+    include "pt"
     name[Group1]= "Portugal - Macintosh";
 
-    key <LSGT> {	[	     less,	   greater, 	      bar,       brokenbar	]	};
-    key <AE02> {	[               2,	  quotedbl, 	       at,       oneeighth	]	};
-    key <AE04> {	[               4,	    dollar,          section,          dollar	]	};
-    key <AE03> {	[               3,	numbersign,         sterling,        sterling     	]	};
-    key <AE06> {	[               6,       ampersand     	]	};
-    key <AE07> {	[               7,           slash     	]	};
-    key <AE08> {	[               8,       parenleft,      bracketleft,       braceleft     	]	};
-    key <AE09> {	[               9,      parenright,     bracketright,      braceright     	]	};
-    key <AE10> {	[               0,           equal      ]	};
-    key <AE11> {	[      apostrophe,        question      ]	};
-    key <AE12> {	[	     plus,        asterisk,             dead_diaeresis             ]	};
-    key <AB08> {	[           comma,       semicolon     	]	};
-    key <AB09> {	[          period,           colon      ]	};
-    key <AB10> {	[           minus,      underscore      ]	};
-    key <AC10> {	[        ccedilla,        Ccedilla      ]	};
-    key <AC11> {	[      dead_tilde, dead_circumflex	]	};
-    key <AC12> {	[       backslash,	       bar     	]	};
-    key <AD11> {	[       masculine,     ordfeminine      ]	};
-    key <AD12> {	[      dead_acute,      dead_grave 	]	};
-    // End alphanumeric section
-
-    include "level3(ralt_switch)"
+    key <AE06>	{ [         6,  ampersand, threequarters, fiveeighths ]	};
+    key <AE08>	{ [         8,  parenleft,  bracketleft,    braceleft ]	};
+    key <AE09>	{ [         9, parenright, bracketright,   braceright ]	};
+    key <AE12>	{ [      plus,   asterisk, dead_diaeresis     ]	};
+    key <AC11>	{ [ dead_tilde, dead_circumflex       ]	};
+    key <AD11>	{ [ masculine, ordfeminine            ]	};
+    key <BKSL>	{ [ backslash,        bar,   dead_grave,   dead_breve ]	};
+    key <TLDE>	{ [     grave, asciitilde,      notsign,      notsign ]	};
 };
 
 partial alphanumeric_keys 

@@ -4,6 +4,10 @@
 	character, closing https://bugs.freedesktop.org/show_bug.cgi?id=5227
 	* symbols/bt, symbols/fr, symbols/np: fixing typos, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8495
+	* symbols/ch, symbols/de, symbols/dk, symbols/es, symbols/no,
+	symbols/pt, symbols/se, symbols/us: optimized mac variants, overwrite
+	old de and ch mac variants, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8491
 
 2006-10-01  Sergey Udaltsov
 
