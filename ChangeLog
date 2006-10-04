@@ -1,3 +1,8 @@
+2006-10-04  Sergey Udaltsov
+
+	* symbols/fi: s/micron/dead_micron, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8494
+
 2006-10-03  Sergey Udaltsov
 
 	* symbols/macintosh_vndr/gb, symbols/gb: adding missing Euro

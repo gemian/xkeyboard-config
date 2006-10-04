@@ -40,7 +40,7 @@ xkb_symbols "fi" {
     key <AB05> { [       b,          B,         ssharp,        NoSymbol	] };
     key <AB06> { [       n,          N,         ntilde,	         Ntilde	] };
     key <AB07> { [       m,          M,             mu,	       NoSymbol	] };
-    key <AB10> { [   minus, underscore,         hyphen,          macron	] };
+    key <AB10> { [   minus, underscore,         hyphen,     dead_macron	] };
     key <AC02> { [       s,          S,         scaron,          Scaron	] };
     key <AC03> { [       d,          D,            eth,             ETH	] };
     key <AD03> { [       e,          E,       EuroSign,            cent	] };
@@ -70,8 +70,9 @@ xkb_symbols "nodeadkeys" {
 
     name[Group1]="Finland - Eliminate dead keys";
 
-    key <AE12> { [ acute, grave ] };
-    key <AD12> { [ diaeresis, asciicircum, asciitilde, caron ] };
+    key <AE12> { [     acute,       grave ] };
+    key <AD12> { [ diaeresis, asciicircum, asciitilde,  caron ] };
+    key <AB10> { [     minus,  underscore,     hyphen, macron ] };
 };
 
 xkb_symbols "smi" {
