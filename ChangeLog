@@ -1,3 +1,8 @@
+2006-10-07  Sergey Udaltsov
+
+	* types/complete, types/default: putting "numpad" after "extra"
+	hopefully fixes https://bugs.freedesktop.org/show_bug.cgi?id=8402
+
 2006-10-04  Sergey Udaltsov
 
 	* symbols/fi: s/micron/dead_micron, closing
