@@ -1,6 +1,5 @@
 
-default
-xkb_types "pc" {
+partial default xkb_types "pc" {
     type "KEYPAD" {
 	modifiers = Shift+NumLock;
 	map[None] = Level1;
@@ -14,7 +13,7 @@ xkb_types "pc" {
 };
 
 // On Mac keypads, level 1 and 2 are swapped
-xkb_types "mac" {
+partial xkb_types "mac" {
     type "KEYPAD" {
 	modifiers = Shift+NumLock;
 	map[None] = Level2;
@@ -27,7 +26,7 @@ xkb_types "mac" {
     include "extra(mac_keypad)"
 };
 
-xkb_types "microsoft" {
+partial xkb_types "microsoft" {
     type "KEYPAD" {
         modifiers = Shift+NumLock;
         map[None] = Level1;
