@@ -1,6 +1,6 @@
 # Copyright (C) 2002 Free Software Foundation, Inc.
 # Sergey V. Udaltsov<svu@users.sourceforge.net>
-# 
+# Sergey E Kvyato <kvantos@plotinka.ru>, 2006.
 # 
 msgid ""
 msgstr ""
@@ -8,8 +8,8 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-09-08 22:09+0100\n"
 "PO-Revision-Date: 2004-01-09 16:17+0000\n"
-"Last-Translator: Sergey V. Oudaltsov <svu@gnome.org>\n"
-"Language-Team: Russian <ru@li.org>\n"
+"Last-Translator: Sergey E. Kvyato <kvantos@plotinka.ru>\n"
+"Language-Team: <gnome-cyr@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,7 +20,7 @@ msgstr "(F)"
 
 #: ../rules/base.xml.in.h:2
 msgid "101/104 key Compatible"
-msgstr ""
+msgstr "Cовместимая c 101/104 кнопочной"
 
 #: ../rules/base.xml.in.h:3
 msgid "101/qwerty/comma/Dead keys"
@@ -108,11 +108,11 @@ msgstr "Acer AirKey V"
 
 #: ../rules/base.xml.in.h:24
 msgid "Acer C300"
-msgstr ""
+msgstr "Acer C300"
 
 #: ../rules/base.xml.in.h:25
 msgid "Acer Ferrari 4000"
-msgstr ""
+msgstr "Acer Ferrari 4000"
 
 #: ../rules/base.xml.in.h:26
 msgid "Acer TravelMate 800"
@@ -132,7 +132,7 @@ msgstr "Добавить знак Евро к клавише E."
 
 #: ../rules/base.xml.in.h:30
 msgid "Add the standard behavior to Menu key."
-msgstr "Добавить стандартную функцию клавиши Menu"
+msgstr "Назначить обыкновенное поведение на клавишу Menu"
 
 #: ../rules/base.xml.in.h:31
 msgid "Adding the EuroSign to certain keys"
@@ -220,7 +220,7 @@ msgstr "Вариант с апострофом (')"
 
 #: ../rules/base.xml.in.h:52
 msgid "Apple"
-msgstr ""
+msgstr "Apple"
 
 #: ../rules/base.xml.in.h:53
 msgid "Apple Laptop"
@@ -252,7 +252,7 @@ msgstr "Азербайджан"
 
 #: ../rules/base.xml.in.h:60
 msgid "Azona RF2300 wireless Internet Keyboard"
-msgstr "Azona RF2300 wireless Internet Keyboard"
+msgstr "Azona RF2300 беспроводная "интернет" клавиатура"
 
 #: ../rules/base.xml.in.h:61
 msgid "BTC 5090"
@@ -276,7 +276,7 @@ msgstr "BTC 9000A"
 
 #: ../rules/base.xml.in.h:66
 msgid "BTC 9001AH"
-msgstr "BTC·9001AH"
+msgstr "BTC 9001AH"
 
 #: ../rules/base.xml.in.h:67
 msgid "Ban"
@@ -332,19 +332,19 @@ msgstr "Босния и Герцеговина"
 
 #: ../rules/base.xml.in.h:80
 msgid "Both Alt keys together change group."
-msgstr "Две клавиши Alt вместе меняют группу."
+msgstr "Обе клавиши Alt, будучи нажаты вместе, меняют группу."
 
 #: ../rules/base.xml.in.h:81
 msgid "Both Ctrl keys together change group."
-msgstr "Две клавиши Ctrl вместе меняют группу."
+msgstr "Обе клавиши Ctrl, будучи нажаты вместе, меняют группу."
 
 #: ../rules/base.xml.in.h:82
 msgid "Both Shift keys together change group."
-msgstr "Две клавиши Shift вместе меняют группу."
+msgstr "Обе клавиши Shift, будучи нажаты вместе, меняют группу."
 
 #: ../rules/base.xml.in.h:83
 msgid "Both Win-keys switch group while pressed."
-msgstr "Две клавиши Win переключает группу на время нажатия."
+msgstr "Каждая из Win клавиш переключает группу на время нажатия."
 
 #: ../rules/base.xml.in.h:84
 msgid "Bra"
@@ -384,7 +384,7 @@ msgstr "Клавиша Caps Lock соответствует клавише Compo
 
 #: ../rules/base.xml.in.h:93
 msgid "CapsLock LED shows alternative group."
-msgstr "Индикатор CapsLock отображает доп. группу."
+msgstr "Индикатор CapsLock отображает другую группу."
 
 #: ../rules/base.xml.in.h:94
 msgid "CapsLock acts as Shift with locking. Shift \"pauses\" CapsLock."
@@ -409,7 +409,7 @@ msgstr "Клавиша CapsLock меняет группу."
 
 #: ../rules/base.xml.in.h:99
 msgid "CapsLock toggles Shift so all keys are affected."
-msgstr "Включает Shift, относится ко всем клавишам."
+msgstr "CapsLock включает Shift, таким образом что, он действует сразу на все клавиши."
 
 #: ../rules/base.xml.in.h:100
 msgid "CapsLock toggles normal capitalization of alphabetic characters."
@@ -422,11 +422,11 @@ msgstr ""
 
 #: ../rules/base.xml.in.h:102
 msgid "CapsLock uses internal capitalization. Shift doesn't affect CapsLock."
-msgstr "Включает внутреннюю капитализацию. Shift не влияет CapsLock."
+msgstr "Включает внутреннюю капитализацию. Shift не влияет на CapsLock."
 
 #: ../rules/base.xml.in.h:103
 msgid "Catalan variant with middle-dot L"
-msgstr "Каталонская со средней L"
+msgstr "Каталонский вариант со средней L"
 
 #: ../rules/base.xml.in.h:104
 msgid "Che"
@@ -490,7 +490,7 @@ msgstr "Положение клавиши Compose"
 
 #: ../rules/base.xml.in.h:119
 msgid "Congo, Democratic Republic of the"
-msgstr ""
+msgstr "Конго, Демократическая республика"
 
 #: ../rules/base.xml.in.h:120
 msgid "Croatia"
@@ -514,7 +514,7 @@ msgstr "Ctrl+Shift меняют группу."
 
 #: ../rules/base.xml.in.h:125
 msgid "Cyrillic"
-msgstr "Кириллическая"
+msgstr "Кириллица"
 
 #: ../rules/base.xml.in.h:126
 msgid "Cze"
@@ -526,7 +526,7 @@ msgstr "Чехия"
 
 #: ../rules/base.xml.in.h:128
 msgid "DRC"
-msgstr ""
+msgstr "ДРК"
 
 #: ../rules/base.xml.in.h:129
 msgid "DTK2000"
@@ -550,7 +550,7 @@ msgstr "Dell 101-клавишный PC"
 
 #: ../rules/base.xml.in.h:134
 msgid "Dell Latitude series laptop"
-msgstr ""
+msgstr "Лаптопы Dell серии Latitude"
 
 #: ../rules/base.xml.in.h:135
 msgid "Dell USB Multimedia Keybard"
@@ -618,7 +618,7 @@ msgstr "Эстония"
 
 #: ../rules/base.xml.in.h:151
 msgid "Evdev-managed keyboard"
-msgstr ""
+msgstr "Клавиатура управляемая посредством Evdev"
 
 #: ../rules/base.xml.in.h:152
 msgid "Everex STEPnote"
@@ -627,7 +627,6 @@ msgstr "Everex STEPnote"
 #: ../rules/base.xml.in.h:153
 msgid "Ewe"
 msgstr "Эве"
-
 #: ../rules/base.xml.in.h:154
 msgid "Extended"
 msgstr "Расширенная"
@@ -714,7 +713,7 @@ msgstr "Обычный 104-клавишный PC"
 
 #: ../rules/base.xml.in.h:175
 msgid "Generic 105-key (Intl) PC"
-msgstr "Обычный 105-клавишный (инт.) РС"
+msgstr "Обычный 105-клавишный (Инт.) РС"
 
 #: ../rules/base.xml.in.h:176
 msgid "Genius Comfy KB-12e"
@@ -802,11 +801,11 @@ msgstr "Hewlett-Packard Omnibook 500 FA"
 
 #: ../rules/base.xml.in.h:197
 msgid "Hewlett-Packard Omnibook 5xx"
-msgstr "Hewlett-Packard·Omnibook·5xx"
+msgstr "Hewlett-Packard Omnibook 5xx"
 
 #: ../rules/base.xml.in.h:198
 msgid "Hewlett-Packard Omnibook 6000/6100"
-msgstr "Hewlett-Packard·Omnibook·6000/6100"
+msgstr "Hewlett-Packard Omnibook 6000/6100"
 
 #: ../rules/base.xml.in.h:199
 msgid "Hewlett-Packard Omnibook XE3 GC"
@@ -854,7 +853,7 @@ msgstr "Hyper соответствует клавишам Win"
 
 #: ../rules/base.xml.in.h:210
 msgid "IBM (LST 1205-92)"
-msgstr ""
+msgstr "IBM (LST 1205-92)"
 
 #: ../rules/base.xml.in.h:211
 msgid "IBM Rapid Access"
@@ -870,7 +869,7 @@ msgstr "IBM Rapid Access II (альтернативный вариант)"
 
 #: ../rules/base.xml.in.h:214
 msgid "IBM ThinkPad 560Z/600/600E/A22E"
-msgstr "IBM·ThinkPad·560Z/600/600E/A22E"
+msgstr "IBM ThinkPad 560Z/600/600E/A22E"
 
 #: ../rules/base.xml.in.h:215
 msgid "IBM ThinkPad 560Z/600/600E/A22E, Intl"
@@ -966,7 +965,7 @@ msgstr "Каннада"
 
 #: ../rules/base.xml.in.h:238
 msgid "Kashubian"
-msgstr ""
+msgstr "Кашубский"
 
 #: ../rules/base.xml.in.h:239
 msgid "Kaz"
@@ -1006,7 +1005,7 @@ msgstr "Корейская 106-клавишная"
 
 #: ../rules/base.xml.in.h:248
 msgid "Kotoistus"
-msgstr ""
+msgstr "Котоистус"
 
 #: ../rules/base.xml.in.h:249
 msgid "Kurdish, (F)"
@@ -1014,15 +1013,15 @@ msgstr "Курдская, (F)"
 
 #: ../rules/base.xml.in.h:250
 msgid "Kurdish, Arabic-Latin"
-msgstr ""
+msgstr "Курдская, Арабско-латинская"
 
 #: ../rules/base.xml.in.h:251
 msgid "Kurdish, Latin Alt-Q"
-msgstr ""
+msgstr "Курдская, Латиница Alt-Q"
 
 #: ../rules/base.xml.in.h:252
 msgid "Kurdish, Latin Q"
-msgstr ""
+msgstr "Курдская, Латиница Q"
 
 #: ../rules/base.xml.in.h:253
 msgid "Kyr"
@@ -1046,19 +1045,19 @@ msgstr "Лаос"
 
 #: ../rules/base.xml.in.h:258
 msgid "Laptop/notebook Compaq (eg. Armada) Laptop Keyboard"
-msgstr "Клавиатура для компьютеров Compaq (например Armada)"
+msgstr "Клавиатура для лаптопов Compaq (например Armada)"
 
 #: ../rules/base.xml.in.h:259
 msgid "Laptop/notebook Compaq (eg. Presario) Internet Keyboard"
-msgstr "\"Интернет\" клавиатура для компьютеров Compaq (например Presario)"
+msgstr "\"Интернет\" клавиатура для лаптопов Compaq (например Presario)"
 
 #: ../rules/base.xml.in.h:260
 msgid "Laptop/notebook Dell Inspiron 6xxx/8xxx"
-msgstr "Настольная/портативная для Dell Inspiron 6xxx/8xxx"
+msgstr "Лаптопы Dell Inspiron 6xxx/8xxx"
 
 #: ../rules/base.xml.in.h:261
 msgid "Laptop/notebook eMachines m68xx"
-msgstr "Настольная/портативная для eMachines m68xx"
+msgstr "Лаптопы eMachines m68xx"
 
 #: ../rules/base.xml.in.h:262
 msgid "Latin"
@@ -1282,7 +1281,7 @@ msgstr "Клавиша Menu меняет группу."
 
 #: ../rules/base.xml.in.h:317
 msgid "Meta is mapped to the Win-keys."
-msgstr "Мета соответствует клавишам Win"
+msgstr "Meta соответствует клавишам Win"
 
 #: ../rules/base.xml.in.h:318
 msgid "Meta is mapped to the left Win-key."
@@ -1306,7 +1305,7 @@ msgstr "Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro"
 
 #: ../rules/base.xml.in.h:323
 msgid "Microsoft Natural Keyboard Pro OEM"
-msgstr "Microsoft·Natural·Keyboard·Pro·OEM"
+msgstr "Microsoft Natural Keyboard Pro OEM"
 
 #: ../rules/base.xml.in.h:324
 msgid "Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro"
@@ -1366,11 +1365,11 @@ msgstr ""
 
 #: ../rules/base.xml.in.h:338
 msgid "Nep"
-msgstr ""
+msgstr "Неп"
 
 #: ../rules/base.xml.in.h:339
 msgid "Nepal"
-msgstr ""
+msgstr "Непал"
 
 #: ../rules/base.xml.in.h:340
 msgid "Netherlands"
@@ -1390,7 +1389,7 @@ msgstr "Северная Саамская"
 
 #: ../rules/base.xml.in.h:344
 msgid "Northern Saami, eliminate dead keys"
-msgstr "Северная Саамская, исключить специальные клавиши (dead keys)"
+msgstr "Северная Саамская, исключая специальные клавиши (dead keys)"
 
 #: ../rules/base.xml.in.h:345
 msgid "Northgate OmniKey 101"
@@ -1672,7 +1671,7 @@ msgstr "Сербия и Монтенегро"
 #: ../rules/base.xml.in.h:413
 msgid "Shift with numpad keys works as in MS Windows."
 msgstr ""
-"Клавиша Shift с клавишами цифровой клавиатуры работают как в MS Windows."
+"Клавиша Shift с клавишами цифровой клавиатуры работают также как в MS Windows."
 
 #: ../rules/base.xml.in.h:414
 msgid "Shift+CapsLock changes group."
@@ -1700,7 +1699,7 @@ msgstr "Испания"
 
 #: ../rules/base.xml.in.h:420
 msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server."
-msgstr "Специальные клавиши (Ctrl+Alt+&lt;клв&gt;)·обрабатываются сервером."
+msgstr "Специальные клавиши (Ctrl+Alt+&lt;клв&gt;) обрабатываются сервером."
 
 #: ../rules/base.xml.in.h:421
 msgid "SrL"
@@ -1950,7 +1949,7 @@ msgstr "Вьет"
 
 #: ../rules/base.xml.in.h:484
 msgid "Wang model 724 azerty"
-msgstr ""
+msgstr "Wang model 724 azerty"
 
 #: ../rules/base.xml.in.h:485
 msgid "Winbook Model XP5"
@@ -1971,7 +1970,6 @@ msgstr "С французскими кавычками"
 #: ../rules/base.xml.in.h:489
 msgid "Yahoo! Internet Keyboard"
 msgstr "Yahoo! Internet Keyboard"
-
 #: ../rules/base.xml.in.h:490
 msgid "Z and ZHE swapped"
 msgstr "З и Ж переставлены"
@@ -2012,905 +2010,3 @@ msgstr "qwerty/цифры"
 msgid "qwertz"
 msgstr "qwertz"
 
-#~ msgid "Logitech Deluxe Access Keyboard"
-#~ msgstr "Logitech Deluxe Access Keyboard"
-
-#~ msgid "Logitech iTouch keyboard Internet Navigator"
-#~ msgstr "Logitech iTouch keyboard Internet Navigator"
-
-#~ msgid "Power G5"
-#~ msgstr "Power G5"
-
-#~ msgid "US keyboard with Maltian letters"
-#~ msgstr "Клавиатура США с мальтийскими буквами"
-
-#~ msgid "si1452"
-#~ msgstr "si1452"
-
-#~ msgid "Turkish"
-#~ msgstr "Турецкая"
-
-#~ msgid "Khmer"
-#~ msgstr "Кхмер"
-
-#~ msgid "\"Standard\""
-#~ msgstr "\"Стандартная\""
-
-#~ msgid "Romanian standard keyboard"
-#~ msgstr "Румынская стандартная клавиатура"
-
-#~ msgid "Serbia"
-#~ msgstr "Сербия"
-
-#~ msgid "Srp"
-#~ msgstr "Срб"
-
-#~ msgid "Tamil INSCRIPT"
-#~ msgstr "Тамильская INSCRIPT"
-
-#~ msgid "US keyboard with Romanian letters"
-#~ msgstr "Клавиатура США с румынскими буквами"
-
-#~ msgid "Dhivehi"
-#~ msgstr "Дивехи"
-
-#~ msgid "Div"
-#~ msgstr "Див"
-
-#~ msgid "CloGaelach Laptop"
-#~ msgstr "CloGaelach для лаптопов"
-
-#~ msgid "Ogham IS434 laptop"
-#~ msgstr "Огхам лаптоп IS434"
-
-#~ msgid "Ogham laptop"
-#~ msgstr "Огхам лаптоп"
-
-#~ msgid "Sinhala phonetic"
-#~ msgstr "Синхала фонетическая"
-
-#~ msgid "Malayalam with Malayalam digits"
-#~ msgstr "Малайалам с цифрами малайалам"
-
-#~ msgid "Bengali INSCRIPT"
-#~ msgstr "Бенгальская INSCRIPT"
-
-#~ msgid "Devanagari INSCRIPT"
-#~ msgstr "Девангари INSCRIPT"
-
-#~ msgid "Dzo"
-#~ msgstr "Дзо"
-
-#~ msgid "Dzongkha"
-#~ msgstr "Дзонгкха"
-
-#~ msgid "Finish and Swedish"
-#~ msgstr "Финская и Шведская"
-
-#~ msgid "Gurmukhi INSCRIPT"
-#~ msgstr "Гурмукхи INSCRIPT"
-
-#~ msgid "Kannada INSCRIPT"
-#~ msgstr "Каннада INSCRIPT"
-
-#~ msgid "Oriya INSCRIPT"
-#~ msgstr "Орийя INSCRIPT"
-
-#~ msgid "Smi"
-#~ msgstr "Cми"
-
-#~ msgid "Telugu INSCRIPT"
-#~ msgstr "Telugu INSCRIPT"
-
-#~ msgid "Ben"
-#~ msgstr "Бен"
-
-#~ msgid "Deva"
-#~ msgstr "Девн"
-
-#~ msgid "Guj"
-#~ msgstr "Гудж"
-
-#~ msgid "INSCRIPT layout"
-#~ msgstr "Раскладка INSCRIPT"
-
-#~ msgid "Iku"
-#~ msgstr "Инн"
-
-#~ msgid "Ogam"
-#~ msgstr "Огам"
-
-#~ msgid "Ori"
-#~ msgstr "Ори"
-
-#~ msgid "Sin"
-#~ msgstr "Сен"
-
-#~ msgid "Sinhala"
-#~ msgstr "Сенегальская"
-
-#~ msgid "Tam"
-#~ msgstr "Там"
-
-#~ msgid "Tel"
-#~ msgstr "Тел"
-
-#~ msgid "Typewrite-style keymap; TAB encoding"
-#~ msgstr "\"Печатная машинка\", кодировка TAB"
-
-#~ msgid "Typewrite-style keymap; TSCII encoding"
-#~ msgstr "\"Печатная·машинка\",·кодировка·TSCII"
-
-#~ msgid "Urd"
-#~ msgstr "Урд"
-
-#~ msgid "Typewrite-style keymap; Unicode encoding"
-#~ msgstr "\"Печатная·машинка\",·кодировка·Unicode"
-
-#~ msgid "Basic (RALT) variant"
-#~ msgstr "Базовый вариант (RALT)"
-
-#~ msgid "German"
-#~ msgstr "Немецкая"
-
-#~ msgid "Kedmanee"
-#~ msgstr "Кедмани"
-
-#~ msgid "Latin QWERTY"
-#~ msgstr "Латинская QWERTY"
-
-#~ msgid "Latin Unicode QWERTY"
-#~ msgstr "Латинская Unicode QWERTY"
-
-#~ msgid "Norwegian"
-#~ msgstr "Норвежская"
-
-#~ msgid "Old standard"
-#~ msgstr "Старая стандартная"
-
-#~ msgid "abnt2"
-#~ msgstr "abnt2"
-
-#~ msgid "Bosnian"
-#~ msgstr "Боснийская"
-
-#~ msgid "Danish"
-#~ msgstr "Датская"
-
-#~ msgid "Dutch"
-#~ msgstr "Голландская"
-
-#~ msgid "Finnish"
-#~ msgstr "Финская"
-
-#~ msgid "Irish"
-#~ msgstr "Ирландская"
-
-#~ msgid "Italian"
-#~ msgstr "Итальянская"
-
-#~ msgid "Polish"
-#~ msgstr "Польская"
-
-#~ msgid "Spanish"
-#~ msgstr "Испанская"
-
-#~ msgid "Swedish"
-#~ msgstr "Шведская"
-
-#~ msgid "Swiss"
-#~ msgstr "Швейцарская"
-
-#~ msgid "PC104"
-#~ msgstr "PC104"
-
-#~ msgid "CapsLock toggles group."
-#~ msgstr "Клавиша CapsLock меняет группу."
-
-#~ msgid "Toggles the group."
-#~ msgstr "Переключает группу."
-
-#~ msgid "Toggles the group key between two keyboard groups."
-#~ msgstr "Включает клавишу переключения между двумя клавиатурными группами."
-
-#~ msgid "Cyrillic (swap Zhe, Ze)"
-#~ msgstr "Кириллическая (переставлены Ж, З)"
-
-#~ msgid "Polish with Polish quotes on key \"1/!\""
-#~ msgstr "Польская с польскими кавычками на клавише \"1/!\""
-
-#~ msgid "Serbian Latin (swap Y, Z)"
-#~ msgstr "Сербская латинская (переставлены Y, Z)"
-
-#~ msgid "Serbian Latin Unicode (swap ZHE, Z)"
-#~ msgstr "Сербская Латинская Unicode (переставлены Ж, З)"
-
-#~ msgid "Yug"
-#~ msgstr "Юг"
-
-#~ msgid "Yugoslavian"
-#~ msgstr "Югославская"
-
-#~ msgid "Arb"
-#~ msgstr "Араб"
-
-#~ msgid "Burmese"
-#~ msgstr "Бирманская"
-
-#~ msgid "Grc"
-#~ msgstr "Греч"
-
-#~ msgid "Hindi"
-#~ msgstr "Хинди"
-
-#~ msgid "Ogh"
-#~ msgstr "Огх"
-
-#~ msgid "Scg"
-#~ msgstr "Срб"
-
-#~ msgid "Sme"
-#~ msgstr "Саам"
-
-#~ msgid "Tml"
-#~ msgstr "Тамил"
-
-#~ msgid "US"
-#~ msgstr "США"
-
-#~ msgid "Korean"
-#~ msgstr "Корейская"
-
-#~ msgid "Lithuanian azerty standard"
-#~ msgstr "Литовская стандартная azerty"
-
-#~ msgid "uni/101/qwerty/comma"
-#~ msgstr "Unicode pc101, qwerty, запятая"
-
-#~ msgid "uni/101/qwerty/dot"
-#~ msgstr "Unicode pc101, qwerty, точка"
-
-#~ msgid "uni/101/qwertz/comma"
-#~ msgstr "Unicode pc101, qwertz, запятая"
-
-#~ msgid "uni/101/qwertz/dot"
-#~ msgstr "Unicode pc101, qwertz, точка"
-
-#~ msgid "uni/102/qwerty/comma"
-#~ msgstr "Unicode pc102, qwerty, запятая"
-
-#~ msgid "uni/102/qwerty/dot"
-#~ msgstr "Unicode pc102, qwerty, запятая"
-
-#~ msgid "uni/102/qwertz/comma"
-#~ msgstr "Unicode pc102, qwertz, запятая"
-
-#~ msgid "uni/102/qwertz/dot"
-#~ msgstr "Unicode pc102, qwertz, точка"
-
-#~ msgid "Alternate"
-#~ msgstr "Добавочная"
-
-#~ msgid "French Canadian"
-#~ msgstr "Французская Канадская"
-
-#~ msgid "US layout"
-#~ msgstr "Раскладка INSCRIPT"
-
-#~ msgid "Basic"
-#~ msgstr "Базовая"
-
-#~ msgid "Czech (qwerty)"
-#~ msgstr "Чешская (qwerty)"
-
-#~ msgid "Georgian (latin)"
-#~ msgstr "Грузинская \"латинская\""
-
-#~ msgid "Georgian (russian)"
-#~ msgstr "Грузинская \"русская\""
-
-#~ msgid "Israeli phonetic"
-#~ msgstr "Иврит фонетическая"
-
-#~ msgid "Maltese (US layout)"
-#~ msgstr "Мальтийская (Американская раскладка)"
-
-#~ msgid "Northern Saami (Finland)"
-#~ msgstr "Саамская (Финляндия)"
-
-#~ msgid "Northern Saami (Sweden)"
-#~ msgstr "Саамская (Швеция)"
-
-#~ msgid "Polish (qwertz)"
-#~ msgstr "Польская (qwertz)"
-
-#~ msgid "Slovak (qwerty)"
-#~ msgstr "Словацкая (qwerty)"
-
-#~ msgid "Swiss French"
-#~ msgstr "Французская (Швейцария)"
-
-#~ msgid "U.S. English w/ ISO9995-3"
-#~ msgstr "Английская (США) с ISO9995-3"
-
-#~ msgid "U.S. English w/ dead keys"
-#~ msgstr "Английская (США) со специальными клавишами (dead keys)"
-
-#~ msgid "bksl"
-#~ msgstr "bksl"
-
-#~ msgid "sefi"
-#~ msgstr "sefi"
-
-#~ msgid "Sv"
-#~ msgstr "Sv"
-
-#~ msgid "ar(azerty) - No decription"
-#~ msgstr "azerty"
-
-#~ msgid "ar(azerty_digits) - No decription"
-#~ msgstr "azerty, цифры"
-
-#~ msgid "ar(digits) - No decription"
-#~ msgstr "с цифрами"
-
-#~ msgid "ar(qwerty) - No decription"
-#~ msgstr "qwerty"
-
-#~ msgid "ar(qwerty_digits) - No decription"
-#~ msgstr "qwerty, цифры"
-
-#~ msgid "az(cyrillic) - No decription"
-#~ msgstr "кириллица"
-
-#~ msgid "az(latin) - No decription"
-#~ msgstr "латиница"
-
-#~ msgid "be(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "be(iso-alternate) - No decription"
-#~ msgstr "альтернативная iso"
-
-#~ msgid "be(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "bg(phonetic) - No decription"
-#~ msgstr "фонетическая"
-
-#~ msgid "br(abnt2) - No decription"
-#~ msgstr "ABNT2"
-
-#~ msgid "by(winkeys) - No decription"
-#~ msgstr "Microsoft"
-
-#~ msgid "ca(alternate) - No decription"
-#~ msgstr "альтернативная"
-
-#~ msgid "ca(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "ca_enhanced(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "ca_enhanced(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "ca_enhanced(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "cz(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "cz(bksl) - No decription"
-#~ msgstr "bksl"
-
-#~ msgid "cz_qwerty(basic) - No decription"
-#~ msgstr "простая qwerty"
-
-#~ msgid "cz_qwerty(bksl) - No decription"
-#~ msgstr "bksl qwerty"
-
-#~ msgid "de(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "de(deadacute) - No decription"
-#~ msgstr "deadacute"
-
-#~ msgid "de(deadgraveacute) - No decription"
-#~ msgstr "deadgraveacute"
-
-#~ msgid "de_CH(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "de_CH(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "dvorak(no) - No decription"
-#~ msgstr "Норвегия"
-
-#~ msgid "dvorak(se) - No decription"
-#~ msgstr "Швеция SE"
-
-#~ msgid "dvorak(sv) - No decription"
-#~ msgstr "Швеция SV"
-
-#~ msgid "el(extended) - No decription"
-#~ msgstr "Расширенная"
-
-#~ msgid "el(polytonic) - No decription"
-#~ msgstr "Политоническая"
-
-#~ msgid "es(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "es(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "fi(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "fr(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "fr(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "fr-latin9(Sundeadkeys) - No decription"
-#~ msgstr "Latin9, Sundeadkeys"
-
-#~ msgid "fr-latin9(sundeadkeys) - No decription"
-#~ msgstr "Latin9, sundeadkeys"
-
-#~ msgid "fr_CH(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "fr_CH(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "hu(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "hu(l2_101_qwerty_comma) - No decription"
-#~ msgstr "Latin2 pc101, qwerty, запятая"
-
-#~ msgid "hu(l2_101_qwerty_dot) - No decription"
-#~ msgstr "Latin2 pc101, qwerty, точка"
-
-#~ msgid "hu(l2_101_qwertz_comma) - No decription"
-#~ msgstr "Latin2 pc101, qwertz, запятая"
-
-#~ msgid "hu(l2_101_qwertz_dot) - No decription"
-#~ msgstr "Latin2 pc101, qwertz, точка"
-
-#~ msgid "hu(l2_102_qwerty_dot) - No decription"
-#~ msgstr "Latin2 pc102, qwerty, точка"
-
-#~ msgid "hu(l2_102_qwertz_comma) - No decription"
-#~ msgstr "Latin2 pc102, qwertz, запятая"
-
-#~ msgid "hu(l2_102_qwertz_dot) - No decription"
-#~ msgstr "Latin2 pc102, qwertz, точка"
-
-#~ msgid "hu(standard) - No decription"
-#~ msgstr "стандартная"
-
-#~ msgid "hu(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "hu(uni_101_qwerty_comma) - No decription"
-#~ msgstr "Unicode pc101, qwerty, запятая"
-
-#~ msgid "hu(uni_101_qwerty_dot) - No decription"
-#~ msgstr "Unicode pc101, qwerty, точка"
-
-#~ msgid "hu(uni_101_qwertz_comma) - No decription"
-#~ msgstr "Unicode pc101, qwertz, запятая"
-
-#~ msgid "hu(uni_101_qwertz_dot) - No decription"
-#~ msgstr "Unicode pc101, qwertz, точка"
-
-#~ msgid "hu(uni_102_qwerty_comma) - No decription"
-#~ msgstr "Unicode pc102, qwerty, запятая"
-
-#~ msgid "hu(uni_102_qwerty_dot) - No decription"
-#~ msgstr "Unicode pc102, qwerty, точка"
-
-#~ msgid "hu(uni_102_qwertz_comma) - No decription"
-#~ msgstr "Unicode pc102, qwertz, запятая"
-
-#~ msgid "hu(uni_102_qwertz_dot) - No decription"
-#~ msgstr "Unicode pc102, qwertz, точка"
-
-#~ msgid "ie - No decription"
-#~ msgstr "Ирландская"
-
-#~ msgid "ie(CloGaelach) - No decription"
-#~ msgstr "CloGaelach"
-
-#~ msgid "ie(UnicodeExpert) - No decription"
-#~ msgstr "уникод"
-
-#~ msgid "ie(laptop) - No decription"
-#~ msgstr "для настольных ПК"
-
-#~ msgid "il(lyx) - No decription"
-#~ msgstr "lyx"
-
-#~ msgid "il(si1452) - No decription"
-#~ msgstr "sil1452"
-
-#~ msgid "il_phonetic - No decription"
-#~ msgstr "Иврит, фонетическая"
-
-#~ msgid "is(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "la(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "la(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "lt(lt_std) - No decription"
-#~ msgstr "стандартная"
-
-#~ msgid "lt(lt_us) - No decription"
-#~ msgstr "американская"
-
-#~ msgid "lt_std(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "lt_std(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "macintosh - No decription"
-#~ msgstr "Macintosh"
-
-#~ msgid "macintosh_old - No decription"
-#~ msgstr "Старая Macintosh"
-
-#~ msgid "mk(pc104) - No decription"
-#~ msgstr "pc104"
-
-#~ msgid "no(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "ogham(IS434) - No decription"
-#~ msgstr "IS434"
-
-#~ msgid "ogham(IS434laptop) - No decription"
-#~ msgstr "IS434 для настольных ПК"
-
-#~ msgid "ogham(is434) - No decription"
-#~ msgstr "is434"
-
-#~ msgid "ogham(is434laptop) - No decription"
-#~ msgstr "is434 для настольных ПК"
-
-#~ msgid "ogham(laptop) - No decription"
-#~ msgstr "для настольных ПК"
-
-#~ msgid "powerpcps2 - No decription"
-#~ msgstr "PowerPC PS/2"
-
-#~ msgid "pt(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "pt(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "ru(phonetic) - No decription"
-#~ msgstr "фонетическая"
-
-#~ msgid "ru(typewriter) - No decription"
-#~ msgstr "\"Печатная машинка\""
-
-#~ msgid "ru(winkeys) - No decription"
-#~ msgstr "Microsoft"
-
-#~ msgid "sapmi - No decription"
-#~ msgstr "Саамская"
-
-#~ msgid "sapmi(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "sapmi(sefi) - No decription"
-#~ msgstr "шведско-финская"
-
-#~ msgid "se(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "sk(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "sk(bksl) - No decription"
-#~ msgstr "bksl"
-
-#~ msgid "sk_qwerty(basic) - No decription"
-#~ msgstr "простая-qwerty"
-
-#~ msgid "sk_qwerty(bksl) - No decription"
-#~ msgstr "bksl-qwerty"
-
-#~ msgid "ua(phonetic) - No decription"
-#~ msgstr "фонетическая"
-
-#~ msgid "ua(typewriter) - No decription"
-#~ msgstr "\"Печатная машинка\""
-
-#~ msgid "ua(winkeys) - No decription"
-#~ msgstr "Microsoft"
-
-#~ msgid "Us"
-#~ msgstr "Ам"
-
-#~ msgid "en_US"
-#~ msgstr "ам"
-
-#~ msgid "us"
-#~ msgstr "ам"
-
-#~ msgid "Compaq Internet"
-#~ msgstr "Compaq Internet"
-
-#~ msgid "HP Internet"
-#~ msgstr "HP Internet"
-
-#~ msgid "bg(bds_enhanced) - No decription"
-#~ msgstr "расширенная БДС"
-
-#~ msgid "bg(phonetic_enhanced) - No decription"
-#~ msgstr "расширенная фонетическая"
-
-#~ msgid "br(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "br(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "btc9000 - No decription"
-#~ msgstr "btc9000"
-
-#~ msgid "ca(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "ca_enhanced - No decription"
-#~ msgstr "Канадская расширенная "
-
-#~ msgid "dk(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "dk(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "ee(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "ee(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "el(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "en_US(pc101_nodeadkeys) - No decription"
-#~ msgstr "pc101, nodeadkeys"
-
-#~ msgid "en_US(pc102) - No decription"
-#~ msgstr "pc102"
-
-#~ msgid "en_US(pc102_nodeadkeys) - No decription"
-#~ msgstr "pc102, nodeadkeys"
-
-#~ msgid "en_US(pc104) - No decription"
-#~ msgstr "pc104"
-
-#~ msgid "en_US(pc104_nodeadkeys) - No decription"
-#~ msgstr "pc104, nodeadkeys"
-
-#~ msgid "en_US(pc105) - No decription"
-#~ msgstr "pc105"
-
-#~ msgid "en_US(pc105_nodeadkeys) - No decription"
-#~ msgstr "pc105, nodeadkeys"
-
-#~ msgid "en_US(pc_universal) - No decription"
-#~ msgstr "универсальная"
-
-#~ msgid "en_US(pc_universal_nodeadkeys) - No decription"
-#~ msgstr "универсальная, nodeadkeys"
-
-#~ msgid "en_US(sun4) - No decription"
-#~ msgstr "sun4"
-
-#~ msgid "en_US(sun4_nodeadkeys) - No decription"
-#~ msgstr "sun5, nodeadkeys"
-
-#~ msgid "en_US(sun5) - No decription"
-#~ msgstr "sun5"
-
-#~ msgid "en_US(sun5_nodeadkeys) - No decription"
-#~ msgstr "sun5, nodeadkeys"
-
-#~ msgid "gb(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "gb(ibm168) - No decription"
-#~ msgstr "IBM168"
-
-#~ msgid "gb(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "hu_US - No decription"
-#~ msgstr "Венгерская для США"
-
-#~ msgid "hu_US(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "hu_US(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "ir(digits) - No decription"
-#~ msgstr "с цифрами"
-
-#~ msgid "is(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "it(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "it(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "lt(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "lt(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "lt(us_group2) - No decription"
-#~ msgstr "группа2 - американская"
-
-#~ msgid "lv(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "lv(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "mk(group1) - No decription"
-#~ msgstr "группа 1"
-
-#~ msgid "no(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "no(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "pl(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "pl(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "pl2(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "pl2(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "sapmi(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "sapmi(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "se(Sundeadkeys) - No decription"
-#~ msgstr "Sundeadkeys"
-
-#~ msgid "se(fixdollar) - No decription"
-#~ msgstr "со знаком доллара"
-
-#~ msgid "se(sundeadkeys) - No decription"
-#~ msgstr "sundeadkeys"
-
-#~ msgid "se_FI(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "se_NO(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "se_SE(basic) - No decription"
-#~ msgstr "простая"
-
-#~ msgid "tj(winkeys) - No decription"
-#~ msgstr "cо специальными клавишами"
-
-#~ msgid "us(generic101) - No decription"
-#~ msgstr "простая pc101"
-
-#~ msgid "us(pc101compose) - No decription"
-#~ msgstr "pc101, compose"
-
-#~ msgid "us(pc101euro) - No decription"
-#~ msgstr "pc101 \"европейская\""
-
-#~ msgid "us(pc102) - No decription"
-#~ msgstr "pc102"
-
-#~ msgid "us(pc102compose) - No decription"
-#~ msgstr "pc102, compose"
-
-#~ msgid "us(pc102euro) - No decription"
-#~ msgstr "pc102 \"европейская\""
-
-#~ msgid "us(pc104) - No decription"
-#~ msgstr "pc104"
-
-#~ msgid "us(pc104compose) - No decription"
-#~ msgstr "pc104, compose"
-
-#~ msgid "us(pc104euro) - No decription"
-#~ msgstr "pc104 \"европейская\""
-
-#~ msgid "us(pc105) - No decription"
-#~ msgstr "pc105"
-
-#~ msgid "us(pc105compose) - No decription"
-#~ msgstr "pc105, compose"
-
-#~ msgid "us(pc105euro) - No decription"
-#~ msgstr "pc105 \"европейская\""
-
-#~ msgid "us(pc_universal) - No decription"
-#~ msgstr "универсальная"
-
-#~ msgid "us(pc_universal_compose) - No decription"
-#~ msgstr "универсальная, compose"
-
-#~ msgid "us(pc_universal_euro) - No decription"
-#~ msgstr "универсальная \"европейская\""
-
-#~ msgid "vn(generic101) - No decription"
-#~ msgstr "простая pc101"
-
-#~ msgid "vn(pc101) - No decription"
-#~ msgstr "pc101"
-
-#~ msgid "vn(pc101compose) - No decription"
-#~ msgstr "pc101, compose"
-
-#~ msgid "vn(pc101euro) - No decription"
-#~ msgstr "pc101 \"европейская\""
-
-#~ msgid "vn(pc102) - No decription"
-#~ msgstr "pc102"
-
-#~ msgid "vn(pc102compose) - No decription"
-#~ msgstr "pc102, compose"
-
-#~ msgid "vn(pc102euro) - No decription"
-#~ msgstr "pc102 \"европейская\""
-
-#~ msgid "vn(pc104) - No decription"
-#~ msgstr "pc104"
-
-#~ msgid "vn(pc104compose) - No decription"
-#~ msgstr "pc104, compose"
-
-#~ msgid "vn(pc104euro) - No decription"
-#~ msgstr "pc104 \"европейская\""
-
-#~ msgid "vn(pc105) - No decription"
-#~ msgstr "pc105"
-
-#~ msgid "vn(pc105compose) - No decription"
-#~ msgstr "pc105, compose"
-
-#~ msgid "vn(pc105euro) - No decription"
-#~ msgstr "pc105 \"европейская\""
-
-#~ msgid "vn(pc_universal) - No decription"
-#~ msgstr "универсальная"
-
-#~ msgid "vn(toggle) - No decription"
-#~ msgstr "с переключением"
