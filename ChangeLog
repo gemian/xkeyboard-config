@@ -1,3 +1,7 @@
+2006-10-08  Sergey Udaltsov
+
+	* NEWS, configure.in: preparing 0.9
+
 2006-10-07  Sergey Udaltsov
 
 	* types/complete, types/default: putting "numpad" after "extra"
