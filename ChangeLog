@@ -8,6 +8,8 @@
 	* symbols/altwin: Alt keys should be mapped on two shift levels,
 	undoing previous fix, as requested in
 	https://bugs.freedesktop.org/show_bug.cgi?id=8571
+	* symbols/level3: mapping Mod5 to keycode rather than to keysym,
+	hopefully fixing https://bugs.freedesktop.org/show_bug.cgi?id=8572
 
 2006-10-07  Sergey Udaltsov
 

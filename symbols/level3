@@ -14,7 +14,7 @@ xkb_symbols "ralt_switch" {
     type[Group1]="ONE_LEVEL",
     symbols[Group1] = [ ISO_Level3_Shift ]
     };
-  modifier_map Mod5   { ISO_Level3_Shift };
+  modifier_map Mod5   { <RALT> };
 };
 
 partial modifier_keys
@@ -55,7 +55,7 @@ xkb_symbols "lalt_switch" {
     type[Group1]="ONE_LEVEL",
     symbols[Group1] = [ ISO_Level3_Shift ]
     };
-  modifier_map Mod5   { ISO_Level3_Shift };
+  modifier_map Mod5   { <LALT> };
 };
 
 // using the level(switch) map, the right Control key temporarily
@@ -66,7 +66,7 @@ xkb_symbols "switch" {
     type[Group1]="ONE_LEVEL",
     symbols[Group1] = [ ISO_Level3_Shift ]
     };
-  modifier_map Mod5   { ISO_Level3_Shift };
+  modifier_map Mod5   { <RCTL> };
 };
 
 // using the level(menu_switch) map, the Menu key temporarily
@@ -77,7 +77,7 @@ xkb_symbols "menu_switch" {
     type[Group1]="ONE_LEVEL",
     symbols[Group1] = [ ISO_Level3_Shift ]
     };
-  modifier_map Mod5   { ISO_Level3_Shift };
+  modifier_map Mod5   { <MENU> };
 };
 
 // using the level3(win_switch) map, the either Windows' logo key
@@ -96,7 +96,7 @@ xkb_symbols "lwin_switch" {
     type[Group1]="ONE_LEVEL",
     symbols[Group1] = [ ISO_Level3_Shift ]
     };
-  modifier_map Mod5   { ISO_Level3_Shift };
+  modifier_map Mod5   { <LWIN> };
 };
 
 // using the level(rwin_switch) map, the right Windows' logo key
@@ -109,17 +109,17 @@ xkb_symbols "rwin_switch" {
     type[Group1]="ONE_LEVEL",
     symbols[Group1] = [ ISO_Level3_Shift ]
     };
-  modifier_map Mod5   { ISO_Level3_Shift };
+  modifier_map Mod5   { <RWIN> };
 };
 
 // using the level3(enter_switch) map, the Enter key on the keypad
 // temporarily chooses the third shift level.  This is especially
 // useful for Mac laptops which miss the right Alt key.
-partial hidden modifier_keys
+partial modifier_keys
 xkb_symbols "enter_switch" {
   key <KPEN> {
     type[Group1]="ONE_LEVEL",
     symbols[Group1] = [ ISO_Level3_Shift ]
     };
-  modifier_map Mod5   { ISO_Level3_Shift };
+  modifier_map Mod5   { <KPEN> };
 };
