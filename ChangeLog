@@ -1,5 +1,10 @@
 2006-10-09  Sergey Udaltsov
 
+	* symbols/inet,rules/base.xml.in: adding benqa800 model, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8574
+
+2006-10-09  Sergey Udaltsov
+
 	* NEWS, configure.in: preparing 0.9
 
 2006-10-09  Sergey Udaltsov

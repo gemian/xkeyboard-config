@@ -776,6 +776,12 @@
 	<_description>Evdev-managed keyboard</_description>
       </configItem>
     </model>
+    <model>
+      <configItem>
+	<name>benqa800</name>
+	<_description>BenQ X-Touch 800</_description>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>
