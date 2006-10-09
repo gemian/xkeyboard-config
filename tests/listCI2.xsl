@@ -7,10 +7,15 @@
   <xsl:param name="type"/>
   <xsl:param name="parentId"/>
   
+  <xsl:template match="xkbConfigRegistry">
+    <xsl:apply-templates select=".//configItem[(name(..) = $type) and (../../../configItem/name = $parentId or ../../configItem/name = $parentId )]">
+      <xsl:sort select="name"/>
+    </xsl:apply-templates>
+  </xsl:template>
+
   <xsl:template match="configItem">
-    <xsl:if test="name(..) = $type and ( ../../../configItem/name = $parentId or ../../configItem/name = $parentId )">
-      <xsl:value-of select="./name"/>
-    </xsl:if>
+    <xsl:value-of select="./name"/><xsl:text>
+</xsl:text>
   </xsl:template>
 
 </xsl:stylesheet>
