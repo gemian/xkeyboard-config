@@ -1,3 +1,8 @@
+2006-10-10  Sergey Udaltsov
+
+	* symbols/in: fixed Devangari (default) layout, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=4949
+
 2006-10-09  Sergey Udaltsov
 
 	* symbols/inet,rules/base.xml.in: adding benqa800 model, closing
