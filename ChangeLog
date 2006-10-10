@@ -2,6 +2,8 @@
 
 	* symbols/in: fixed Devangari (default) layout, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=4949
+	* configure.in: removing hardcoded prefix, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8448
 
 2006-10-09  Sergey Udaltsov
 
