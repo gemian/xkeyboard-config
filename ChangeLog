@@ -4,6 +4,8 @@
 	https://bugs.freedesktop.org/show_bug.cgi?id=4949
 	* configure.in: removing hardcoded prefix, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8448
+	* symbols/it, added EuroSign to italian mac layout, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=1576
 
 2006-10-09  Sergey Udaltsov
 
