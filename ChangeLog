@@ -1,3 +1,9 @@
+2006-10-11  Sergey Udaltsov
+
+	* symbols/af, symbols/ba, symbols/hr, symbols/kr, symbols/nbsp,
+	symbols/ng, symbols/si, symbols/za: addind missing cvs keyword
+	XKeyboardConfig
+
 2006-10-10  Sergey Udaltsov
 
 	* symbols/in: fixed Devangari (default) layout, closing

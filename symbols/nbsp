@@ -1,4 +1,8 @@
+// $XKeyboardConfig$
+//
+
 // Let space provide nobreakspace for the desired level.
+
 partial
 xkb_symbols "none" {
   key <SPCE> {
