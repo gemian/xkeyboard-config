@@ -15,6 +15,5 @@
   macintosh_old	*			=	macintosh_vndr/us(oldmac)+%l%(v)
  $macs		en_US			=	pc+macintosh_vndr/us(extended)
  $macs		$macvendorlayouts	=	pc+macintosh_vndr/%l%(v)
-  *		jp			=	pc+jp(latin)+jp:2
   *	   	$nonlatin		=	pc+us+%l%(v):2
   *		*			=	pc+%l%(v)

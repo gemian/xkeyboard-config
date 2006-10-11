@@ -1953,7 +1953,14 @@
         <_shortDescription>Jpn</_shortDescription>
         <_description>Japan</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>kana</name>
+            <_description>Kana</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>

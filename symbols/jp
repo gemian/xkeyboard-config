@@ -3,10 +3,62 @@
 // based on:
 // symbols for a Japanese 106 keyboard(by tsuka@kawalab.dnj.ynu.ac.jp)
 
-default xkb_symbols "jp106" {
-    include "srvr_ctrl(xfree86)"
+// latin part of jp keyboard map
+partial default alphanumeric_keys
+xkb_symbols "latin" {
 
     name[Group1]= "Japan";
+
+    include "us"
+    // Alphanumeric section
+    key <HZTG> {
+	type[Group1]="PC_SYSRQ",
+	symbols[Group1]= [ Zenkaku_Hankaku, Kanji ]
+    };
+
+    key <AE02> { [ 2, quotedbl		] };
+
+    key <AE06> { [ 6, ampersand		] };
+    key <AE07> { [ 7, apostrophe	] };
+    key <AE08> { [ 8, parenleft		] };
+    key <AE09> { [ 9, parenright	] };
+    key <AE10> { [ 0,asciitilde		] };
+    key <AE11> { [ minus, equal		] };
+    key <AE12> { [ asciicircum,	asciitilde] };
+    key <AE13> { [ yen, bar 	] };
+
+    key <AD11> { [ at, grave		] };
+    key <AD12> { [ bracketleft,	braceleft ] };
+
+    key <CAPS> { [ Eisu_toggle, Caps_Lock ] };
+
+    key <AC10> { [ semicolon, plus	] };
+    key <AC11> { [ colon, asterisk	] };
+    key <AC12> { [ bracketright, braceright ] };
+
+    key <AB11> { [ backslash, underscore ] };
+
+    key <NFER> { [ Muhenkan		]	};
+
+    key <XFER> {
+	type[Group1]="PC_SYSRQ",
+	symbols[Group1]= [ Henkan, Mode_switch ]
+    };
+    key <HKTG> {
+	type[Group1]="PC_SYSRQ",
+	symbols[Group1]= [ Hiragana_Katakana, Romaji ]
+    };
+
+    key <PRSC> {
+        type[Group1]= "PC_SYSRQ",
+        symbols[Group1]= [ Print, Execute ]
+    };
+};
+
+partial alphanumeric_keys
+xkb_symbols "kana" {
+
+    name[Group1]= "Japan - Kana";
 
     // Alphanumeric section
     key <HZTG> {
@@ -85,52 +137,3 @@ default xkb_symbols "jp106" {
     };
 };
 
-// latin part of jp keyboard map
-partial hidden
-xkb_symbols "latin" {
-
-    include "us"
-    // Alphanumeric section
-    key <HZTG> {
-	type[Group1]="PC_SYSRQ",
-	symbols[Group1]= [ Zenkaku_Hankaku, Kanji ]
-    };
-
-    key <AE02> { [ 2, quotedbl		] };
-
-    key <AE06> { [ 6, ampersand		] };
-    key <AE07> { [ 7, apostrophe	] };
-    key <AE08> { [ 8, parenleft		] };
-    key <AE09> { [ 9, parenright	] };
-    key <AE10> { [ 0,asciitilde		] };
-    key <AE11> { [ minus, equal		] };
-    key <AE12> { [ asciicircum,	asciitilde] };
-    key <AE13> { [ backslash, bar 	] };
-
-    key <AD11> { [ at, grave		] };
-    key <AD12> { [ bracketleft,	braceleft ] };
-
-    key <CAPS> { [ Eisu_toggle, Caps_Lock ] };
-
-    key <AC10> { [ semicolon, plus	] };
-    key <AC11> { [ colon, asterisk	] };
-    key <AC12> { [ bracketright, braceright ] };
-
-    key <AB11> { [ backslash, underscore ] };
-
-    key <NFER> { [ Muhenkan		]	};
-
-    key <XFER> {
-	type[Group1]="PC_SYSRQ",
-	symbols[Group1]= [ Henkan, Mode_switch ]
-    };
-    key <HKTG> {
-	type[Group1]="PC_SYSRQ",
-	symbols[Group1]= [ Hiragana_Katakana, Romaji ]
-    };
-
-    key <PRSC> {
-        type[Group1]= "PC_SYSRQ",
-        symbols[Group1]= [ Print, Execute ]
-    };
-};
