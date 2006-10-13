@@ -1,3 +1,8 @@
+2006-10-13  Sergey Udaltsov
+
+	* xkbrules.am: ability to create .dir files when srcdir != objdir,
+	closing https://bugs.freedesktop.org/show_bug.cgi?id=8629
+
 2006-10-12  Sergey Udaltsov
 
 	* symbols/inet, rules/base.lists.part, rules/base.xml.in: added BenQ
