@@ -1,45 +1,43 @@
 # translation of xkeyboard-config to Hungarian
 # Copyright (C) 2004, 2006 Free Software Foundation, Inc.
 # This file is distributed under the same license as the xkeyboard-config package.
-# Andras Timar <timar@fsf.hu>, 2004.
-# Szilveszter Farkas <Szilveszter.Farkas@gmail.com>, 2006
-# Gabor Kelemen <kelemeng@gnome.hu>, 2006.
 #
+# Andras Timar <timar@fsf.hu>, 2004.
+# Szilveszter Farkas <Szilveszter.Farkas@gmail.com>, 2006.
+# Gabor Kelemen <kelemeng@gnome.hu>, 2006.
 msgid ""
 msgstr ""
 "Project-Id-Version: xkeyboard-config 0.9\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2006-10-01 23:44+0100\n"
-"PO-Revision-Date: 2006-10-02 18:10+0000\n"
+"PO-Revision-Date: 2006-10-13 15:38+0200\n"
 "Last-Translator: Gabor Kelemen <kelemeng@gnome.hu>\n"
 "Language-Team: Hungarian <translation-team-hu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: KBabel 1.10.2\n"
+"X-Generator: KBabel 1.11.2\n"
+"Plural-Forms:  nplurals=2; plural=(n != 1);\n"
 
 #: ../rules/base.xml.in.h:1
 msgid "(F)"
 msgstr "(F)"
 
 #: ../rules/base.xml.in.h:2
-#, fuzzy
 msgid "(Legacy) Alternative"
-msgstr "Alternatív"
+msgstr "(Hagyományos) Alternatív"
 
 #: ../rules/base.xml.in.h:3
-#, fuzzy
 msgid "(Legacy) Alternative, Sun dead keys"
-msgstr "Alternatív, Sun halott billentyűk"
+msgstr "(Hagyományos) Alternatív, Sun halott billentyűk"
 
 #: ../rules/base.xml.in.h:4
-#, fuzzy
 msgid "(Legacy) Alternative, eliminate dead keys"
-msgstr "Alternatív, halott billentyűk tiltása"
+msgstr "(Hagyományos) Alternatív, halott billentyűk tiltása"
 
 #: ../rules/base.xml.in.h:5
 msgid "101/104 key Compatible"
-msgstr ""
+msgstr "101/104 gomb kompatibilis"
 
 #: ../rules/base.xml.in.h:6
 msgid "101/qwerty/comma/Dead keys"
@@ -114,9 +112,8 @@ msgid "A4Tech KBS-8"
 msgstr "A4Tech KBS-8"
 
 #: ../rules/base.xml.in.h:24
-#, fuzzy
 msgid "A4Tech Wireless Desktop RFKB-23"
-msgstr "Dexxa Wireless Desktop billentyűzet"
+msgstr "A4Tech Wireless Desktop RFKB-23"
 
 #: ../rules/base.xml.in.h:25
 msgid "ACPI Standard"
@@ -128,11 +125,11 @@ msgstr "Acer AirKey V"
 
 #: ../rules/base.xml.in.h:27
 msgid "Acer C300"
-msgstr ""
+msgstr "Acer C300"
 
 #: ../rules/base.xml.in.h:28
 msgid "Acer Ferrari 4000"
-msgstr ""
+msgstr "Acer Ferrari 4000"
 
 #: ../rules/base.xml.in.h:29
 msgid "Acer TravelMate 800"
@@ -160,7 +157,7 @@ msgstr "Az Euro jel hozzáadása bizonyos billentyűkhöz"
 
 #: ../rules/base.xml.in.h:35
 msgid "Adding the nobreakspace keysym to space key"
-msgstr ""
+msgstr "Nem törhető szóköz szimbólum hozzáadása a szóköz billentyűhöz"
 
 #: ../rules/base.xml.in.h:36
 msgid "Advance Scorpius KI"
@@ -168,7 +165,7 @@ msgstr "Advance Scorpius KI"
 
 #: ../rules/base.xml.in.h:37
 msgid "Afg"
-msgstr ""
+msgstr "Afg"
 
 #: ../rules/base.xml.in.h:38
 msgid "Afghanistan"
@@ -195,9 +192,8 @@ msgid "Alt is mapped to the right Win-key and Super to Menu."
 msgstr "Az Alt a jobb Win billentyűhöz van rendelve és a Super a menühöz."
 
 #: ../rules/base.xml.in.h:44
-#, fuzzy
 msgid "Alt+CapsLock changes group."
-msgstr "A Shift+CapsLock kombináció megváltoztatja a csoportot."
+msgstr "Az Alt+CapsLock megváltoztatja a csoportot."
 
 #: ../rules/base.xml.in.h:45
 msgid "Alt+Ctrl changes group."
@@ -220,9 +216,8 @@ msgid "Alternative"
 msgstr "Alternatív"
 
 #: ../rules/base.xml.in.h:50
-#, fuzzy
 msgid "Alternative Eastern"
-msgstr "Alternatív"
+msgstr "Alternatív keleti"
 
 #: ../rules/base.xml.in.h:51
 msgid "Alternative international (former us_intl)"
@@ -237,13 +232,12 @@ msgid "Alternative, eliminate dead keys"
 msgstr "Alternatív, halott billentyűk tiltása"
 
 #: ../rules/base.xml.in.h:54
-#, fuzzy
 msgid "Alternative, latin-9 only"
-msgstr "Alternatív, halott billentyűk tiltása"
+msgstr "Alternatív, csak latin-9"
 
 #: ../rules/base.xml.in.h:55
 msgid "And"
-msgstr ""
+msgstr "And"
 
 #: ../rules/base.xml.in.h:56
 msgid "Andorra"
@@ -255,11 +249,11 @@ msgstr "Aposztróf (') változat"
 
 #: ../rules/base.xml.in.h:58
 msgid "Apple"
-msgstr ""
+msgstr "Apple"
 
 #: ../rules/base.xml.in.h:59
 msgid "Apple Laptop"
-msgstr ""
+msgstr "Apple Laptop"
 
 #: ../rules/base.xml.in.h:60
 msgid "Ara"
@@ -314,9 +308,8 @@ msgid "BTC 9001AH"
 msgstr "BTC 9001AH"
 
 #: ../rules/base.xml.in.h:73
-#, fuzzy
 msgid "BTC 9019U"
-msgstr "BTC 9001AH"
+msgstr "BTC 9019U"
 
 #: ../rules/base.xml.in.h:74
 msgid "Ban"
@@ -404,7 +397,7 @@ msgstr "Brother Internet billentyűzet"
 
 #: ../rules/base.xml.in.h:95
 msgid "Buckwalter"
-msgstr ""
+msgstr "Buckwalter"
 
 #: ../rules/base.xml.in.h:96
 msgid "Bulgaria"
@@ -431,14 +424,12 @@ msgid "CapsLock LED shows alternative group."
 msgstr "A CapsLock LED-je mutassa a másik csoportot."
 
 #: ../rules/base.xml.in.h:102
-#, fuzzy
 msgid "CapsLock acts as Shift with locking. Shift \"pauses\" CapsLock."
-msgstr "A CapsLock Shiftként működik zárolással. A Shift megszakítja a nagybetűsítést."
+msgstr "A CapsLock Shiftként működik zárolással. A Shift szünetelteti a nagybetűsítést."
 
 #: ../rules/base.xml.in.h:103
-#, fuzzy
 msgid "CapsLock acts as Shift with locking. Shift doesn't affect CapsLock."
-msgstr "A CapsLock Shiftként működik zárolással. A Shift nem szakítja meg a nagybetűsítést."
+msgstr "A CapsLock Shiftként működik zárolással. A Shift nem befolyásolja a nagybetűsítést."
 
 #: ../rules/base.xml.in.h:104
 msgid "CapsLock just locks the Shift modifier."
@@ -461,18 +452,16 @@ msgid "CapsLock toggles normal capitalization of alphabetic characters."
 msgstr "A CapsLock átváltja az ábécé szerinti karakterek nagybetűsítését."
 
 #: ../rules/base.xml.in.h:109
-#, fuzzy
 msgid "CapsLock uses internal capitalization. Shift \"pauses\" CapsLock."
-msgstr "A CapsLock belső nagybetűkre váltást használ. A Shift megszakítja."
+msgstr "A CapsLock belső nagybetűkre váltást használ. A Shift szünetelteti a nagybetűsítést."
 
 #: ../rules/base.xml.in.h:110
-#, fuzzy
 msgid "CapsLock uses internal capitalization. Shift doesn't affect CapsLock."
-msgstr "A CapsLock belső nagybetűkre váltást használ. A Shift nem szakítja meg."
+msgstr "A CapsLock belső nagybetűkre váltást használ. A Shift nem befolyásolja a nagybetűsítést."
 
 #: ../rules/base.xml.in.h:111
 msgid "Catalan variant with middle-dot L"
-msgstr ""
+msgstr "Katalán változat középső pontos L karakterrel"
 
 #: ../rules/base.xml.in.h:112
 msgid "Che"
@@ -488,7 +477,7 @@ msgstr "Cherry Blue Line CyBo@rd (másik lehetőség)"
 
 #: ../rules/base.xml.in.h:115
 msgid "Cherry CyBo@rd USB-Hub"
-msgstr ""
+msgstr "Cherry CyBo@rd USB-Hub"
 
 #: ../rules/base.xml.in.h:116
 msgid "Cherry CyMotion Master Linux"
@@ -503,9 +492,8 @@ msgid "Chicony KB-9885"
 msgstr "Chicony KB-9885"
 
 #: ../rules/base.xml.in.h:119
-#, fuzzy
 msgid "Classic Dvorak"
-msgstr "Dvorak-féle"
+msgstr "Klasszikus Dvorak"
 
 #: ../rules/base.xml.in.h:120
 msgid "CloGaelach"
@@ -537,7 +525,7 @@ msgstr "A kombináló (Compose) billentyű helyzete"
 
 #: ../rules/base.xml.in.h:127
 msgid "Congo, Democratic Republic of the"
-msgstr ""
+msgstr "Kongói Demokratikus Köztársaság"
 
 #: ../rules/base.xml.in.h:128
 msgid "Croatia"
@@ -573,7 +561,7 @@ msgstr "Csehország"
 
 #: ../rules/base.xml.in.h:136
 msgid "DRC"
-msgstr ""
+msgstr "DRC"
 
 #: ../rules/base.xml.in.h:137
 msgid "DTK2000"
@@ -589,7 +577,7 @@ msgstr "Halott grave (`) ékezet"
 
 #: ../rules/base.xml.in.h:140
 msgid "Default numpad keys."
-msgstr ""
+msgstr "Alapértelmezett numerikus billentyűk."
 
 #: ../rules/base.xml.in.h:141
 msgid "Dell"
@@ -601,7 +589,7 @@ msgstr "Dell 101-gombos PC"
 
 #: ../rules/base.xml.in.h:143
 msgid "Dell Latitude series laptop"
-msgstr ""
+msgstr "Dell Latitude sorozat laptop"
 
 #: ../rules/base.xml.in.h:144
 msgid "Dell USB Multimedia Keybard"
@@ -640,9 +628,8 @@ msgid "Dvorak, Polish quotes on quotemark key"
 msgstr "Dvorak, lengyel idézőjelek az idézőjel billentyűn"
 
 #: ../rules/base.xml.in.h:153
-#, fuzzy
 msgid "Eastern"
-msgstr "eszperantó"
+msgstr "Keleti"
 
 #: ../rules/base.xml.in.h:154
 msgid "Eliminate dead keys"
@@ -654,7 +641,7 @@ msgstr "Ennyah DKB-1008"
 
 #: ../rules/base.xml.in.h:156
 msgid "Epo"
-msgstr ""
+msgstr "Epo"
 
 #: ../rules/base.xml.in.h:157
 msgid "Esp"
@@ -674,7 +661,7 @@ msgstr "Észtország"
 
 #: ../rules/base.xml.in.h:161
 msgid "Evdev-managed keyboard"
-msgstr ""
+msgstr "Evdev által felügyelt billentyűzet"
 
 #: ../rules/base.xml.in.h:162
 msgid "Everex STEPnote"
@@ -725,9 +712,8 @@ msgid "French"
 msgstr "Francia"
 
 #: ../rules/base.xml.in.h:174
-#, fuzzy
 msgid "French (Macintosh)"
-msgstr "Macintosh"
+msgstr "Francia (Macintosh)"
 
 #: ../rules/base.xml.in.h:175
 msgid "French (legacy)"
@@ -747,7 +733,7 @@ msgstr "Francia, halott billentyűk tiltása"
 
 #: ../rules/base.xml.in.h:179
 msgid "Fula"
-msgstr ""
+msgstr "Fula"
 
 #: ../rules/base.xml.in.h:180
 msgid "GBr"
@@ -786,9 +772,8 @@ msgid "Genius Comfy KB-21e-Scroll"
 msgstr "Genius Comfy KB-21e-Scroll"
 
 #: ../rules/base.xml.in.h:189
-#, fuzzy
 msgid "Genius KB-19e NB"
-msgstr "Genius Comfy KB-12e"
+msgstr "Genius KB-19e NB"
 
 #: ../rules/base.xml.in.h:190
 msgid "Geo"
@@ -799,9 +784,8 @@ msgid "Georgia"
 msgstr "Grúzia"
 
 #: ../rules/base.xml.in.h:192
-#, fuzzy
 msgid "German (Macintosh)"
-msgstr "Macintosh"
+msgstr "Német (Macintosh)"
 
 #: ../rules/base.xml.in.h:193
 msgid "German, Sun dead keys"
@@ -817,7 +801,7 @@ msgstr "Németország"
 
 #: ../rules/base.xml.in.h:196
 msgid "Gha"
-msgstr ""
+msgstr "Gha"
 
 #: ../rules/base.xml.in.h:197
 msgid "Ghana"
@@ -913,7 +897,7 @@ msgstr "A Hyper a Win billentyűkhöz van rendelve."
 
 #: ../rules/base.xml.in.h:220
 msgid "IBM (LST 1205-92)"
-msgstr ""
+msgstr "IBM (LST 1205-92)"
 
 #: ../rules/base.xml.in.h:221
 msgid "IBM Rapid Access"
@@ -932,9 +916,8 @@ msgid "IBM ThinkPad 560Z/600/600E/A22E"
 msgstr "IBM ThinkPad 560Z/600/600E/A22E"
 
 #: ../rules/base.xml.in.h:225
-#, fuzzy
 msgid "IBM ThinkPad 560Z/600/600E/A22E, Intl"
-msgstr "IBM ThinkPad 560Z/600/600E/A22E"
+msgstr "IBM ThinkPad 560Z/600/600E/A22E, nemzetközi"
 
 #: ../rules/base.xml.in.h:226
 msgid "ISO Alternate"
@@ -946,7 +929,7 @@ msgstr "Izland"
 
 #: ../rules/base.xml.in.h:228
 msgid "Igbo"
-msgstr ""
+msgstr "Igbo"
 
 #: ../rules/base.xml.in.h:229
 msgid "Ind"
@@ -970,7 +953,7 @@ msgstr "Irán"
 
 #: ../rules/base.xml.in.h:234
 msgid "Iraq"
-msgstr ""
+msgstr "Irak"
 
 #: ../rules/base.xml.in.h:235
 msgid "Ireland"
@@ -986,7 +969,7 @@ msgstr "Irn"
 
 #: ../rules/base.xml.in.h:238
 msgid "Irq"
-msgstr ""
+msgstr "Irq"
 
 #: ../rules/base.xml.in.h:239
 msgid "Isl"
@@ -1014,7 +997,7 @@ msgstr "Japán"
 
 #: ../rules/base.xml.in.h:245
 msgid "Japan (PC-98xx Series)"
-msgstr ""
+msgstr "Japán (PC-98xx sorozat)"
 
 #: ../rules/base.xml.in.h:246
 msgid "Japanese 106-key"
@@ -1030,11 +1013,11 @@ msgstr "Kannada"
 
 #: ../rules/base.xml.in.h:249
 msgid "Kashubian"
-msgstr ""
+msgstr "Kasub"
 
 #: ../rules/base.xml.in.h:250
 msgid "Kaz"
-msgstr ""
+msgstr "Kaz"
 
 #: ../rules/base.xml.in.h:251
 msgid "Kazakh with Russian"
@@ -1054,40 +1037,39 @@ msgstr "Keytronic FlexPro"
 
 #: ../rules/base.xml.in.h:255
 msgid "Khm"
-msgstr ""
+msgstr "Khm"
 
 #: ../rules/base.xml.in.h:256
 msgid "Kor"
-msgstr ""
+msgstr "Kor"
 
 #: ../rules/base.xml.in.h:257
 msgid "Korea, Republic of"
-msgstr ""
+msgstr "Koreai köztársaság"
 
 #: ../rules/base.xml.in.h:258
-#, fuzzy
 msgid "Korean 106-key"
-msgstr "Japán 106 gombos"
+msgstr "Koreai 106 gombos"
 
 #: ../rules/base.xml.in.h:259
 msgid "Kotoistus"
-msgstr ""
+msgstr "Kotoistus"
 
 #: ../rules/base.xml.in.h:260
 msgid "Kurdish, (F)"
-msgstr ""
+msgstr "Kurd, (F)"
 
 #: ../rules/base.xml.in.h:261
 msgid "Kurdish, Arabic-Latin"
-msgstr ""
+msgstr "Kurd, arab-latin"
 
 #: ../rules/base.xml.in.h:262
 msgid "Kurdish, Latin Alt-Q"
-msgstr ""
+msgstr "Kurd, latin Alt-Q"
 
 #: ../rules/base.xml.in.h:263
 msgid "Kurdish, Latin Q"
-msgstr ""
+msgstr "Kurd, latin Q"
 
 #: ../rules/base.xml.in.h:264
 msgid "Kyr"
@@ -1146,18 +1128,16 @@ msgid "Latin qwerty"
 msgstr "Latin qwerty"
 
 #: ../rules/base.xml.in.h:278
-#, fuzzy
 msgid "Latin with guillemets"
-msgstr "Latin »hegyes« idézőjelekkel"
+msgstr "Latin, »csúcsos« idézőjelekkel"
 
 #: ../rules/base.xml.in.h:279
 msgid "Latvia"
 msgstr "Lettország"
 
 #: ../rules/base.xml.in.h:280
-#, fuzzy
 msgid "Left Alt is swapped with left Win-key."
-msgstr "A Meta a bal Win billentyűhöz van rendelve."
+msgstr "A bal Alt fel van cserélve a bal Win billentyűvel."
 
 #: ../rules/base.xml.in.h:281
 msgid "Left Alt key changes group."
@@ -1180,9 +1160,8 @@ msgid "Left Win-key changes group."
 msgstr "A bal Win billentyű megváltoztatja a csoportot."
 
 #: ../rules/base.xml.in.h:286
-#, fuzzy
 msgid "Left Win-key is Compose."
-msgstr "A jobb Win billentyű a kombináló (Compose)."
+msgstr "A bal Win billentyű a kombináló (Compose)."
 
 #: ../rules/base.xml.in.h:287
 msgid "Left Win-key switches group while pressed."
@@ -1205,9 +1184,8 @@ msgid "Logitech Cordless Desktop"
 msgstr "Logitech Cordless Desktop"
 
 #: ../rules/base.xml.in.h:292
-#, fuzzy
 msgid "Logitech Cordless Desktop LX-300"
-msgstr "Logitech Cordless Desktop"
+msgstr "Logitech Cordless Desktop LX-300"
 
 #: ../rules/base.xml.in.h:293
 msgid "Logitech Cordless Desktop Navigator"
@@ -1250,9 +1228,8 @@ msgid "Logitech Ultra-X Keyboard"
 msgstr "Logitech Ultra-X billentyűzet"
 
 #: ../rules/base.xml.in.h:303
-#, fuzzy
 msgid "Logitech diNovo Keyboard"
-msgstr "Logitech Access billentyűzet"
+msgstr "Logitech diNovo billentyűzet"
 
 #: ../rules/base.xml.in.h:304
 msgid "Logitech iTouch"
@@ -1291,14 +1268,12 @@ msgid "Macintosh Old"
 msgstr "Macintosh Old"
 
 #: ../rules/base.xml.in.h:313
-#, fuzzy
 msgid "Macintosh, Sun dead keys"
-msgstr "Német, Sun halott billentyűk"
+msgstr "Macintosh, Sun halott billentyűk"
 
 #: ../rules/base.xml.in.h:314
-#, fuzzy
 msgid "Macintosh, eliminate dead keys"
-msgstr "Német, halott billentyűk tiltása"
+msgstr "Macintosh, halott billentyűk tiltása"
 
 #: ../rules/base.xml.in.h:315
 msgid "Make CapsLock an additional Ctrl."
@@ -1322,7 +1297,7 @@ msgstr "Málta"
 
 #: ../rules/base.xml.in.h:320
 msgid "Maltese keyboard with US layout"
-msgstr ""
+msgstr "Máltai billentyűzet egyesült államokbeli kiosztással"
 
 #: ../rules/base.xml.in.h:321
 msgid "Mao"
@@ -1434,15 +1409,15 @@ msgstr "Myanmar"
 
 #: ../rules/base.xml.in.h:348
 msgid "Neostyle"
-msgstr ""
+msgstr "Neostyle"
 
 #: ../rules/base.xml.in.h:349
 msgid "Nep"
-msgstr ""
+msgstr "Nep"
 
 #: ../rules/base.xml.in.h:350
 msgid "Nepal"
-msgstr ""
+msgstr "Nepál"
 
 #: ../rules/base.xml.in.h:351
 msgid "Netherlands"
@@ -1450,7 +1425,7 @@ msgstr "Hollandia"
 
 #: ../rules/base.xml.in.h:352
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigéria"
 
 #: ../rules/base.xml.in.h:353
 msgid "Nld"
@@ -1481,9 +1456,8 @@ msgid "NumLock LED shows alternative group."
 msgstr "A NumLock LED-je mutassa a másik csoportot."
 
 #: ../rules/base.xml.in.h:360
-#, fuzzy
 msgid "Numpad keys work as with Mac."
-msgstr "A Shift+numerikus billentyűk úgy működjenek, mint az MS Windowsban."
+msgstr "A numerikus billentyűk úgy működjenek, mint Macen."
 
 #: ../rules/base.xml.in.h:361
 msgid "Ogham"
@@ -1502,13 +1476,12 @@ msgid "Oriya"
 msgstr "Orija"
 
 #: ../rules/base.xml.in.h:365
-#, fuzzy
 msgid "Ossetian"
-msgstr "Orosz"
+msgstr "Oszét"
 
 #: ../rules/base.xml.in.h:366
 msgid "Ossetian, Winkeys"
-msgstr ""
+msgstr "Oszét, win gombok"
 
 #: ../rules/base.xml.in.h:367
 msgid "PC-98xx Series"
@@ -1524,7 +1497,7 @@ msgstr "Pakisztán"
 
 #: ../rules/base.xml.in.h:370
 msgid "Pashto"
-msgstr ""
+msgstr "Pastu"
 
 #: ../rules/base.xml.in.h:371
 msgid "Pattachote"
@@ -1567,9 +1540,8 @@ msgid "Press Menu key to choose 3rd level."
 msgstr "A Menü billentyűvel lehet a harmadik szintet választani."
 
 #: ../rules/base.xml.in.h:381
-#, fuzzy
 msgid "Press Right Alt key to choose 3rd level, Shift+Right Alt key is Multi_Key."
-msgstr "A jobb Win billentyűvel lehet a harmadik szintet választani."
+msgstr "A jobb Alt billentyűvel lehet a harmadik szintet választani, a Shift+jobb Alt a Multi_Key."
 
 #: ../rules/base.xml.in.h:382
 msgid "Press Right Alt key to choose 3rd level."
@@ -1705,7 +1677,7 @@ msgstr "orosz kazahhal"
 
 #: ../rules/base.xml.in.h:415
 msgid "SCG"
-msgstr ""
+msgstr "SCG"
 
 #: ../rules/base.xml.in.h:416
 msgid "SILVERCREST Multimedia Wireless Keyboard"
@@ -1773,19 +1745,19 @@ msgstr "déli üzbég"
 
 #: ../rules/base.xml.in.h:432
 msgid "Space key output nobreakspace at fourth level."
-msgstr ""
+msgstr "A szóköz nem törhető szóközt ad a negyedik szinten."
 
 #: ../rules/base.xml.in.h:433
 msgid "Space key output nobreakspace at second level."
-msgstr ""
+msgstr "A szóköz nem törhető szóközt ad a második szinten."
 
 #: ../rules/base.xml.in.h:434
 msgid "Space key output nobreakspace at third level."
-msgstr ""
+msgstr "A szóköz nem törhető szóközt ad a harmadik szinten."
 
 #: ../rules/base.xml.in.h:435
 msgid "Space key output space at any level."
-msgstr ""
+msgstr "A szóköz nem törhető szóközt ad bármely szinten."
 
 #: ../rules/base.xml.in.h:436
 msgid "Spain"
@@ -1843,7 +1815,7 @@ msgstr "Ctrl és Caps Lock felcserélése."
 
 #: ../rules/base.xml.in.h:451
 msgid "Swap keycodes of two keys when Mac keyboards are misdetected by kernel."
-msgstr ""
+msgstr "Két billentyű kódjának felcserélése, ha a kernel rosszul észleli a Mac billentyűzetet."
 
 #: ../rules/base.xml.in.h:452
 msgid "Swe"
@@ -2022,9 +1994,8 @@ msgid "Use Slovenian digraphs"
 msgstr "Szlovén billentyűkombinációk használata"
 
 #: ../rules/base.xml.in.h:496
-#, fuzzy
 msgid "Use guillemets for quotes"
-msgstr "»Csúcsos« idézőjelek használata"
+msgstr "»Csúcsos« idézőjelek használata idézetekhez"
 
 #: ../rules/base.xml.in.h:497
 msgid "Use keyboard LED to show alternative group."
@@ -2048,11 +2019,11 @@ msgstr "Vnm"
 
 #: ../rules/base.xml.in.h:502
 msgid "Wang model 724 azerty"
-msgstr ""
+msgstr "Wang 724-es modell, azerty"
 
 #: ../rules/base.xml.in.h:503
 msgid "Western"
-msgstr ""
+msgstr "Nyugati"
 
 #: ../rules/base.xml.in.h:504
 msgid "Winbook Model XP5"
@@ -2067,7 +2038,6 @@ msgid "With &lt;\\|&gt; key"
 msgstr "Az &lt;\\|&gt; billentyűvel"
 
 #: ../rules/base.xml.in.h:507
-#, fuzzy
 msgid "With guillemets"
 msgstr "»Csúcsos« idézőjelekkel"
 
@@ -2077,7 +2047,7 @@ msgstr "Yahoo! Internet billentyűzet"
 
 #: ../rules/base.xml.in.h:509
 msgid "Yoruba"
-msgstr ""
+msgstr "Joruba"
 
 #: ../rules/base.xml.in.h:510
 msgid "Z and ZHE swapped"
@@ -2085,7 +2055,7 @@ msgstr "A Z és a ZHE felcserélve"
 
 #: ../rules/base.xml.in.h:511
 msgid "Zar"
-msgstr ""
+msgstr "Zar"
 
 #: ../rules/base.xml.in.h:512
 msgid "azerty"
@@ -2118,18 +2088,3 @@ msgstr "qwerty/számjegyek"
 #: ../rules/base.xml.in.h:519
 msgid "qwertz"
 msgstr "qwertz"
-
-#~ msgid "Logitech Deluxe Access Keyboard"
-#~ msgstr "Logitech Deluxe Access billentyűzet"
-
-#~ msgid "Logitech iTouch keyboard Internet Navigator"
-#~ msgstr "Logitech iTouch Keyboard Internet Navigator"
-
-#~ msgid "Power G5"
-#~ msgstr "Power G5"
-
-#~ msgid "US keyboard with Maltian letters"
-#~ msgstr "US billentyűzet máltai betűkkel"
-
-#~ msgid "si1452"
-#~ msgstr "si1452"
