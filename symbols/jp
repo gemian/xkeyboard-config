@@ -25,7 +25,7 @@ xkb_symbols "latin" {
     key <AE10> { [ 0,asciitilde		] };
     key <AE11> { [ minus, equal		] };
     key <AE12> { [ asciicircum,	asciitilde] };
-    key <AE13> { [ backslash, bar 	] };
+    key <AE13> { [ yen, bar 	] };
 
     key <AD11> { [ at, grave		] };
     key <AD12> { [ bracketleft,	braceleft ] };
