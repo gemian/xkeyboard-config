@@ -113,6 +113,19 @@ xkb_symbols "ctrl_shift_toggle" {
     key <RCTL>	{	[	Control_R,	ISO_Next_Group ]	};
 };
 
+// using the group(lctrl_lshift_toggle) map, pressing:
+//     Control_L+Shift_L locks the next group
+// If you have two groups and group wrap is enabled, the effect is
+// indistinguishable.
+partial modifier_keys 
+xkb_symbols "lctrl_lshift_toggle" {
+    key <LFSH> {
+	type[Group1]="PC_BREAK",
+	symbols[Group1]= [ Shift_L,	ISO_Next_Group ]
+    };
+    key <LCTL>	{	[	Control_L,	ISO_Next_Group ]	};
+};
+
 // using the group(caps_toggle) map, pressing:
 //     Caps Lock toggles groups
 //     Shift+Caps Lock toggles caps lock

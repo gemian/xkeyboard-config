@@ -3001,6 +3001,12 @@
       </option>
       <option>
         <configItem>
+          <name>grp:lctrl_lshift_toggle</name>
+          <_description>LCtrl+LShift changes group.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>grp:ctrl_alt_toggle</name>
           <_description>Alt+Ctrl changes group.</_description>
         </configItem>

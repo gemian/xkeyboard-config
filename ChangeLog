@@ -3,6 +3,9 @@
 	* rules/base.m_k.part, rules/base.xml.in, keycodes/Makefile.am,
 	keycodes/powerpcps2: removing obsolete powerpcps2 model. Closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8659
+	* rules/base.o_s.part, rules/base.xml.in, symbols/group: adding
+	grp:lctrl_lshift_toggle, contributed by Alexey Morozov
+	<morozov@gorodok.net>
 
 2006-10-13  Sergey Udaltsov
 
