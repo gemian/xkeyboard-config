@@ -8,6 +8,8 @@
 	<morozov@gorodok.net>
 	* symbols/macintosh_vndr/us: Fix <BKSP> in symbols/macintosh_vndr/us,
 	closing https://bugs.freedesktop.org/show_bug.cgi?id=8668
+	* symbols/level3: assigning mods to keycodes (reverding earlier wrong
+	fix), closing https://bugs.freedesktop.org/show_bug.cgi?id=8670
 
 2006-10-13  Sergey Udaltsov
 
