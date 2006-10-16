@@ -22,9 +22,7 @@ xkb_symbols "extended" {
     key <AE10> {	[	  0,	parenright	]	};
     key <AE11> {	[     minus,	underscore	]	};
     key <AE12> {	[     equal,	plus		]	};
-    key <BKSP> {	[ BackSpace			]	};
 
-    key  <TAB> {	[	Tab,	ISO_Left_Tab	]	};
     key <AD01> {	[	  q,	Q 		]	};
     key <AD02> {	[	  w,	W		]	};
     key <AD03> {	[	  e,	E		]	};
@@ -39,7 +37,6 @@ xkb_symbols "extended" {
     key <AD12> {	[ bracketright,	braceright	]	};
     key <BKSL> {	[ backslash,	bar		]	};
 
-    key <CAPS> {	[	Caps_Lock		]	};
     key <AC01> {	[	  a,	A 		]	};
     key <AC02> {	[	  s,	S		]	};
     key <AC03> {	[	  d,	D		]	};
@@ -51,7 +48,6 @@ xkb_symbols "extended" {
     key <AC09> {	[	  l,	L		]	};
     key <AC10> {	[ semicolon,	colon		]	};
     key <AC11> {	[ quoteright,	quotedbl	]	};
-    key <RTRN> {	[ Return			]	};
 
     key <AB01> {	[	  z,	Z 		]	};
     key <AB02> {	[	  x,	X		]	};
@@ -67,7 +63,6 @@ xkb_symbols "extended" {
     key <SPCE> {	[  space			]	};
     // End alphanumeric section
 
-    key <NMLK> {	[  Num_Lock,	Pointer_EnableKeys	]	};
 
     include "keypad"
 
@@ -110,6 +105,12 @@ xkb_symbols "oldmac" {
     key <DOWN> {	[  Down		]	};
     key <RGHT> {	[  Right	]	};
     // End "Editing" section
+
+    key <BKSP> {	[ BackSpace			]	};
+    key  <TAB> {	[ Tab,	ISO_Left_Tab	]	};
+    key <RTRN> {	[ Return	]	};
+    key <CAPS> {	[ Caps_Lock	]	};
+    key <NMLK> {	[ Num_Lock, Pointer_EnableKeys		]	};
 
     // Begin "Modifier" section
     key <LFSH> {	[  Shift_L	]	};
