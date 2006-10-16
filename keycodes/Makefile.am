@@ -11,7 +11,6 @@ fujitsu \
 hp \
 ibm \
 macintosh \
-powerpcps2 \
 sony \
 sun \
 xfree86 \

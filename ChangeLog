@@ -1,3 +1,9 @@
+2006-10-16  Sergey Udaltsov
+
+	* rules/base.m_k.part, rules/base.xml.in, keycodes/Makefile.am,
+	keycodes/powerpcps2: removing obsolete powerpcps2 model. Closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8659
+
 2006-10-13  Sergey Udaltsov
 
 	* xkbrules.am: ability to create .dir files when srcdir != objdir,
@@ -13,6 +19,9 @@
 	* symbols/af, symbols/ba, symbols/hr, symbols/kr, symbols/nbsp,
 	symbols/ng, symbols/si, symbols/za: addind missing cvs keyword
 	XKeyboardConfig
+	* rules/base.ml_s.part, rules/base.xml.in, symbols/jp: normalizing
+	Japanese rules/variants, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8503
 
 2006-10-10  Sergey Udaltsov
 

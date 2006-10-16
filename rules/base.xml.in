@@ -718,12 +718,6 @@
     </model>
     <model>
       <configItem>
-        <name>powerpcps2</name>
-        <_description>PowerPC PS/2</_description>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>acer_c300</name>
         <_description>Acer C300</_description>
       </configItem>
