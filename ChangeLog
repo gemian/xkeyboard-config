@@ -1,3 +1,9 @@
+2006-10-17  Sergey Udaltsov
+
+	* symbols/macintosh_vndr/dk, symbols/macintosh_vndr/us: adding euro
+	sign to mac us and dk, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8682#add_comment
+
 2006-10-16  Sergey Udaltsov
 
 	* rules/base.m_k.part, rules/base.xml.in, keycodes/Makefile.am,

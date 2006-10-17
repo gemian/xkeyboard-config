@@ -16,7 +16,7 @@ xkb_symbols "basic" {
     key <AE01> {	[        1,          exclam,       exclamdown,     onesuperior	]};
     key <AE02> {	[        2,        quotedbl,               at,     twosuperior	]};
     key <AE03> {	[        3,      numbersign,         sterling,   threesuperior	]};
-    key <AE04> {	[        4,        currency,           dollar,      onequarter	]};
+    key <AE04> {	[        4,        EuroSign,           dollar,      onequarter	]};
     key <AE05> {	[        5,         percent,         NoSymbol,            cent	]};
     key <AE06> {	[        6,       ampersand,              yen,        NoSymbol	]};
     key <AE07> {	[        7,           slash,        braceleft,        division	]};
@@ -44,6 +44,7 @@ xkb_symbols "basic" {
 
     // End alphanumeric section
 
+    include "eurosign(e)"
     include "level3(ralt_switch)"
 };
 
