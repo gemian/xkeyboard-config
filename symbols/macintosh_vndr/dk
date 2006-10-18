@@ -29,7 +29,7 @@ xkb_symbols "basic" {
     key <AB10> {	[    minus,      underscore,           hyphen,          macron	]};
     key <AC01> {        [        a,               A,      ordfeminine,       masculine      ]};
     key <AC03> {        [        d,               D,              eth,             ETH      ]};
-    key <AD03> {        [        e,               E,         NoSymbol,            cent      ]};
+    key <AD03> {        [        e,               E,         EuroSign,            cent      ]};
     key <AD04> {        [        r,               R,       registered,        NoSymbol      ]};
     key <AD05> {        [        t,               T,            thorn,           THORN      ]};
     key <AD08> {        [        i,               I,         NoSymbol,        NoSymbol      ]};

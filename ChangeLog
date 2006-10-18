@@ -1,3 +1,12 @@
+2006-10-18  Sergey Udaltsov
+
+	* rules/base.lists.part, symbols/macintosh_vndr/Makefile.am,
+	symbols/macintosh_vndr/dk, symbols/macintosh_vndr/es,
+	symbols/macintosh_vndr/it, symbols/macintosh_vndr/latam,
+	symbols/macintosh_vndr/no, symbols/macintosh_vndr/pt,
+	symbols/macintosh_vndr/se: missed part from
+	https://bugs.freedesktop.org/show_bug.cgi?id=1576
+
 2006-10-17  Sergey Udaltsov
 
 	* symbols/macintosh_vndr/dk, symbols/macintosh_vndr/us: adding euro

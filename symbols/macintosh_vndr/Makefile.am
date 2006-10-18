@@ -4,5 +4,5 @@ dist_symbols_DATA = \
 apple ch de dk \
 es fi fr \
 gb is it \
-nl no pt \
+latam nl no pt \
 se us

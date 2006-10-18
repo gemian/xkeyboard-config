@@ -34,6 +34,7 @@ xkb_symbols "basic" {
 
     // End alphanumeric section
 
+    include "eurosign(e)"
     include "level3(ralt_switch)"
 };
 

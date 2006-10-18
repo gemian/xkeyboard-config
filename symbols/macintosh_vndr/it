@@ -21,7 +21,7 @@ xkb_symbols "extended" {
 
     key <AD01> {	[           q,  Q 		]	};
     key <AD02> {	[	    z,  Z		]	};
-    key <AD03> {	[	    e,  E		]	};
+    key <AD03> {	[	    e,  E,     EuroSign		]	};
     key <AD04> {	[	    r,  R,   registered			] 	};
     key <AD05> {	[	    t,  T		]	};
     key <AD06> {	[	    y,  Y,       Uacute,	ydiaeresis      ] 	};

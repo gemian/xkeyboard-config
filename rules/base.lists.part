@@ -18,7 +18,7 @@
 ! $maclaptop = ibook powerbook macbook78 macbook79
 ! $macs = macintosh macintosh_old ibook powerbook macbook78 macbook79
 
-! $macvendorlayouts = ch de dk es fi fr gb is it nl no pt se us
+! $macvendorlayouts = ch de dk es fi fr gb is it latam nl no pt se us
 
 ! $azerty = be fr
 ! $qwertz = al cz de hr hu ro si sk 

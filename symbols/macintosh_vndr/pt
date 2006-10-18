@@ -33,6 +33,7 @@ xkb_symbols "basic" {
     key <AD12> {	[      dead_acute,      dead_grave 	]	};
     // End alphanumeric section
 
+    include "eurosign(e)"
     include "level3(ralt_switch)"
 };
 
