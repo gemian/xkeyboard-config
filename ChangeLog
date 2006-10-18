@@ -6,6 +6,9 @@
 	symbols/macintosh_vndr/no, symbols/macintosh_vndr/pt,
 	symbols/macintosh_vndr/se: missed part from
 	https://bugs.freedesktop.org/show_bug.cgi?id=1576
+	* rules/base.xml.in, symbols/jp: adding new Japanese layout, changing
+	latin to 106, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8648
 
 2006-10-17  Sergey Udaltsov
 

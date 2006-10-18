@@ -1960,6 +1960,12 @@
             <_description>Kana</_description>
           </configItem>
         </variant>
+	<variant>
+          <configItem>
+            <name>OADG109A</name>
+            <_description>OADG 109A</_description>
+          </configItem>
+	</variant>
       </variantList>
     </layout>
     <layout>

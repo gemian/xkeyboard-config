@@ -3,42 +3,80 @@
 // based on:
 // symbols for a Japanese 106 keyboard(by tsuka@kawalab.dnj.ynu.ac.jp)
 
-// latin part of jp keyboard map
+// jp106 keyboard map
 partial default alphanumeric_keys
-xkb_symbols "latin" {
-
+xkb_symbols "106" {
+    include "jp(common)"
     name[Group1]= "Japan";
 
-    include "us"
+    key <AE13> { [ backslash, bar 	] };
+};
+
+// common latin part of jp keyboard map
+partial hidden alphanumeric_keys
+xkb_symbols "common" {
+    // "Common" keys for jp 106/109A layout
+
     // Alphanumeric section
     key <HZTG> {
 	type[Group1]="PC_SYSRQ",
 	symbols[Group1]= [ Zenkaku_Hankaku, Kanji ]
     };
 
+    key <AE01> { [ 1, exclam		] };
     key <AE02> { [ 2, quotedbl		] };
-
+    key <AE03> { [ 3, numbersign	] };
+    key <AE04> { [ 4, dollar		] };
+    key <AE05> { [ 5, percent		] };
     key <AE06> { [ 6, ampersand		] };
     key <AE07> { [ 7, apostrophe	] };
     key <AE08> { [ 8, parenleft		] };
     key <AE09> { [ 9, parenright	] };
-    key <AE10> { [ 0,asciitilde		] };
+    key <AE10> { [ 0, asciitilde	] };
     key <AE11> { [ minus, equal		] };
     key <AE12> { [ asciicircum,	asciitilde] };
-    key <AE13> { [ backslash, bar 	] };
 
+    key <AD01> { [ q, Q			] };
+    key <AD02> { [ w, W			] };
+    key <AD03> { [ e, E			] };
+    key <AD04> { [ r, R			] };
+    key <AD05> { [ t, T			] };
+    key <AD06> { [ y, Y			] };
+    key <AD07> { [ u, U			] };
+    key <AD08> { [ i, I			] };
+    key <AD09> { [ o, O			] };
+    key <AD10> { [ p, P			] };
     key <AD11> { [ at, grave		] };
     key <AD12> { [ bracketleft,	braceleft ] };
 
     key <CAPS> { [ Eisu_toggle, Caps_Lock ] };
 
+    key <AC01> { [ a, A			] };
+    key <AC02> { [ s, S			] };
+    key <AC03> { [ d, D			] };
+    key <AC04> { [ f, F			] };
+    key <AC05> { [ g, G			] };
+    key <AC06> { [ h, H			] };
+    key <AC07> { [ j, J			] };
+    key <AC08> { [ k, K			] };
+    key <AC09> { [ l, L			] };
     key <AC10> { [ semicolon, plus	] };
     key <AC11> { [ colon, asterisk	] };
     key <AC12> { [ bracketright, braceright ] };
 
-    key <AB11> { [ backslash, underscore ] };
+    key <AB01> { [ z, Z			] };
+    key <AB02> { [ x, X			] };
+    key <AB03> { [ c, C			] };
+    key <AB04> { [ v, V			] };
+    key <AB05> { [ b, B			] };
+    key <AB06> { [ n, N			] };
+    key <AB07> { [ m, M			] };
+    key <AB08> { [ comma,  less		] };
+    key <AB09> { [ period, greater	] };
+    key <AB10> { [ slash, question	] };
+    key <AB11> { [ backslash, underscore] };
 
-    key <NFER> { [ Muhenkan		]	};
+    key <NFER> { [ Muhenkan		] };
 
     key <XFER> {
 	type[Group1]="PC_SYSRQ",
@@ -53,6 +91,16 @@ xkb_symbols "latin" {
         type[Group1]= "PC_SYSRQ",
         symbols[Group1]= [ Print, Execute ]
     };
+};
+
+// OADG109A map
+partial alphanumeric_keys
+xkb_symbols "OADG109A" {
+
+    include "jp(common)"
+    name[Group1]= "Japan - OADG 109A";
+
+    key <AE13> { [ yen, bar 	] };
 };
 
 partial alphanumeric_keys
