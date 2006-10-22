@@ -1,3 +1,11 @@
+#
+# $Id$
+# The script finds best matching xkb_symbols in symbols/in
+#
+# Parameters: $0 - the name of the file with new xkb_symbols
+#             $1 - max number of non-matching mappings (0 by default)
+#
+
 require "xkbparser.rb"
 
 basedir = "../.."
