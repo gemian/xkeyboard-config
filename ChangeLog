@@ -1,3 +1,9 @@
+2006-10-26  Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added more
+	Dell keyboards, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8761
+
 2006-10-18  Sergey Udaltsov
 
 	* rules/base.lists.part, symbols/macintosh_vndr/Makefile.am,

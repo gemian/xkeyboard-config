@@ -275,7 +275,25 @@
     <model>
       <configItem>
         <name>inspiron</name>
-        <_description>Laptop/notebook Dell Inspiron 6xxx/8xxx</_description>
+        <_description>Dell Laptop/notebook Inspiron 6xxx/8xxx</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>precision_m</name>
+        <description>Dell Laptop/notebook Precision M series</description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>sk8125</name>
+        <description>Dell SK-8125 USB Multimedia Keybard</description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>sk8135</name>
+        <description>Dell SK-8135 USB Multimedia Keybard</description>
       </configItem>
     </model>
     <model>

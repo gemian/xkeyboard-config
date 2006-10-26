@@ -764,6 +764,13 @@ xkb_symbols "geniuskb19e" {
     key <I19>   {      [ XF86AudioNext         ]       };
 };
 
+// Dell USB Multimedia Keyboard
+partial alphanumeric_keys
+xkb_symbols "dellusbmm" {
+    include "inet(dell8135)"
+};
+
+
 // Laptop/notebook Dell Inspiron 8xxx
 partial alphanumeric_keys
 xkb_symbols "inspiron" {
@@ -787,6 +794,60 @@ xkb_symbols "latitude" {
     key <I2E>   {       [ XF86AudioLowerVolume  ]       };
     key <I30>   {       [ XF86AudioRaiseVolume  ]       };
 };
+
+// Laptop/notebook Dell Precision-M series
+partial alphanumeric_keys
+xkb_symbols "precision_m" {
+    // Describes the extra keys on a Precision M series
+    // From Olivier Lahaye <olivier dot lahaye at motorola dot com>
+    key <I10>   {       [ XF86AudioPrev         ]       };
+    key <I19>   {       [ XF86AudioNext         ]       };
+    key <I20>   {       [ XF86AudioMute         ]       };
+    key <I22>   {       [ XF86AudioPlay, XF86AudioPause ] };
+    key <I24>   {       [ XF86AudioStop         ]       };
+    key <I2E>   {       [ XF86AudioLowerVolume  ]       };
+    key <I30>   {       [ XF86AudioRaiseVolume  ]       };
+    key <I32>	{	[ XF86HomePage		]	};
+};
+
+
+// DELL SK-8125 Multimedia Keyboard
+partial alphanumeric_keys
+xkb_symbols "dell8125" {
+    // Describes the extra keys on SK-8125 Multimedia keyboard
+    // From Olivier Lahaye <olivier dot lahaye at motorola dot com>
+    key <I02>	{	[ XF86HomePage		]	};
+    key <I20>	{	[ XF86AudioMute		]	};
+    key <I2E>   {       [ XF86AudioLowerVolume  ]       };
+    key <I30>   {       [ XF86AudioRaiseVolume  ]       };
+    key <I67>	{	[ XF86Reload		]	};
+    key <I68>	{	[ XF86Stop		]	};
+    key <I69>	{	[ XF86Forward		]	};
+    key <I6A>	{	[ XF86Back		]	};
+};
+
+
+// DELL SK-8135 Multimedia Keyboard
+partial alphanumeric_keys
+xkb_symbols "dell8135" {
+    // Describes the extra keys on a SK-8135 Multimedia keyboard
+    // From Olivier Lahaye <olivier dot lahaye at motorola dot com>
+    key <I02>	{	[ XF86HomePage		]	};
+    key <I10>	{	[ XF86AudioPrev		]	};
+    key <I19>	{	[ XF86AudioNext		]	};
+    key <I20>	{	[ XF86AudioMute		]	};
+    key <I21>	{	[ XF86Calculator	]	};
+    key <I22>	{	[ XF86AudioPlay, XF86AudioPause ] };
+    key <I24>	{	[ XF86AudioStop		]	};
+    key <I67>	{	[ XF86Reload		]	};
+    key <I68>	{	[ XF86Stop		]	};
+    key <I69>	{	[ XF86Forward		]	};
+    key <I6A>	{	[ XF86Back		]	};
+    key <I6C>	{	[ XF86Mail		]	};
+    key <K67>	{	[ XF86MyComputer	]	}; 
+    key <XFER>	{	[ XF86AudioMedia	]	};  
+};
+
 
 // Dexxa
 
@@ -2285,27 +2346,6 @@ xkb_symbols "emachines" {
     key <KPDV> {  [ KP_Divide                     ]  };
     key <KPMU> {  [ KP_Multiply                   ]  };
     key <KPSU> {  [ KP_Subtract                   ]  };
-};
-
-//
-// Dell USB Multimedia Keybard
-//
-partial alphanumeric_keys
-xkb_symbols "dellusbmm" {
-    key <I02>  { [ XF86HomePage ] };
-    key <I10>  { [ XF86AudioPrev ] };
-    key <I19>  { [ XF86AudioNext ] };
-    key <I20>  { [ XF86AudioMute ] };
-    key <I21>  { [ XF86Calculator ] };
-    key <I22>  { [ XF86AudioPlay, XF86AudioPause ] };
-    key <I24>  { [ XF86AudioStop ] };
-    key <I67>  { [ XF86Reload ] };
-    key <I68>  { [ XF86Stop ] };
-    key <I69>  { [ XF86Forward ] };
-    key <I6A>  { [ XF86Back ] };
-    key <I6C>  { [ XF86Mail ] };
-    key <K67>  { [ XF86MyComputer ] };
-    key <XFER> { [ XF86AudioMedia ] };
 };
 
 // BenQ
