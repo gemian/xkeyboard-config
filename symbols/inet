@@ -1455,7 +1455,7 @@ xkb_symbols "logicink" {
 // Logitech iTouch Internet Navigator Keyboard
 partial alphanumeric_keys
 xkb_symbols "logiciink" {
-    include "inet(logicinc)"
+    include "inet(logicink)"
 };
 
 // Logitech Cordless Desktop LX-300
