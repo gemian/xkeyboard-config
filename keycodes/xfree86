@@ -156,6 +156,8 @@ xkb_keycodes "basic" {
     <XFER> =   129;		// Henkan
     <NFER> =   131;		// Muhenkan
     <AE13> =   133;		// Yen
+    <EISU> =   210;		// Alphanumeric mode on macintosh
+    <KANA> =   209;		// Kana mode on macintosh
 
     // Keys that are generated on Korean keyboards
 
@@ -321,8 +323,8 @@ xkb_keycodes "basic" {
     <K6E> =   206;		// <I4E>
     <K6F> =   207;		// <I4F>
     alias <K70> = <HKTG>;	// <I50>
-    <K71> =   209;		// <I51>
-    <K72> =   210;		// <I52>
+    alias <K71> = <KANA>;	// <I51>
+    alias <K72> = <EISU>;	// <I52>
     alias <K73> = <AB11>;	// <I53>
     <K74> =   219;		// <I5B>
     <K75> =   220;		// <I5C>

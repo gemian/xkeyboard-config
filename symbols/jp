@@ -87,6 +87,17 @@ xkb_symbols "common" {
 	symbols[Group1]= [ Hiragana_Katakana, Romaji ]
     };
 
+    key <EISU> {
+       type[Group1]="PC_SYSRQ",
+       symbols[Group1]= [ Eisu_toggle ]
+    };
+
+    key <KANA> {
+       type[Group1]="PC_SYSRQ",
+       symbols[Group1]= [ Hiragana_Katakana ]
+    };
+
+
     key <PRSC> {
         type[Group1]= "PC_SYSRQ",
         symbols[Group1]= [ Print, Execute ]
