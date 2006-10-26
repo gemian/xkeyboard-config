@@ -37,6 +37,7 @@ class Symbols < Hash
   end
 
   alias get_original []
+  alias keys_original keys
 
   #
   # Get the symbol, trying first own definitions, then walking through all 
@@ -58,13 +59,20 @@ class Symbols < Hash
   end
 
   #
-  # Approximate size - does not take into account overlapping key definitions
+  # All keys - including the ones specified in the included sections
   #
-  def rough_size()
-    @includedSyms.inject(size) do | sum, symsName |
-        syms = @symbolsList[symsName]
-        syms.size + sum
+  def keys()
+    @includedSyms.inject(keys_original) do | rv, symsName |
+      syms = @symbolsList[symsName]
+      rv | syms.keys
     end
+  end
+
+  #
+  # Size - takes into account overlapping key definitions
+  #
+  def size()
+    keys.size()
   end
 
   #
