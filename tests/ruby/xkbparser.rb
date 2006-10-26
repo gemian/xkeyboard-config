@@ -58,6 +58,16 @@ class Symbols < Hash
   end
 
   #
+  # Approximate size - does not take into account overlapping key definitions
+  #
+  def rough_size()
+    @includedSyms.inject(size) do | sum, symsName |
+        syms = @symbolsList[symsName]
+        syms.size + sum
+    end
+  end
+
+  #
   # Create a hash including all elements of this hash which are not in the
   # other hash, use symbols + and * for marking the elements which existed in
   # the original hash (+ if not existed)

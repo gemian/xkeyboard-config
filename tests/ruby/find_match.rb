@@ -30,7 +30,7 @@ newSyms.find_all do | key, value |
   end
 
   sorted.find_all do | symsName, diff |
-    puts "  #{symsName} (difference #{diff.size})-> #{diff}"
+    puts "  #{symsName}, up to #{allSyms[symsName].rough_size} keys (difference #{diff.size})-> #{diff}"
   end
 
 end
