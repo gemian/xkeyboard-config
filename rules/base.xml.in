@@ -352,6 +352,12 @@
     </model>
     <model>
       <configItem>
+        <name>logitech_g15</name>
+        <_description>Logitech G15 extra keys via G15daemon</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>hpi6</name>
         <_description>Hewlett-Packard Internet Keyboard</_description>
       </configItem>
