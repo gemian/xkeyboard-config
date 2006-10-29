@@ -1,8 +1,10 @@
 2006-10-28  Sergey Udaltsov
 
 	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added
-	logitech_g15 keyboard, closing
+	logitech_g15 model, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8803
+	* symbols/jp: added LCTL definition,
+	https://bugs.freedesktop.org/show_bug.cgi?id=8805
 
 2006-10-26  Sergey Udaltsov
 

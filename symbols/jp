@@ -75,6 +75,7 @@ xkb_symbols "common" {
     key <AB09> { [ period, greater	] };
     key <AB10> { [ slash, question	] };
     key <AB11> { [ backslash, underscore] };
+    key <LCTL> { [ Control_L		] };
 
     key <NFER> { [ Muhenkan		] };
 
@@ -176,6 +177,7 @@ xkb_symbols "kana" {
     key <AB09> { [ kana_RU, kana_fullstop ]	};
     key <AB10> { [ kana_ME, kana_middledot ]	};
     key <AB11> { [ kana_RO		]	};
+    key <LCTL> { [ Control_L		]	};
 
     key <NFER> { [ Muhenkan		]	};
 
