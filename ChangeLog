@@ -2,6 +2,8 @@
 
 	* symbols/fr: some fixes for alternative layouts, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=8853
+	* symbols/fr, rules/base.xml.in: new fr(dvorak*) variants, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8728
 
 2006-10-28  Sergey Udaltsov
 

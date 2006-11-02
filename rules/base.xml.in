@@ -1606,8 +1606,20 @@
         </variant>
         <variant>
           <configItem>
+            <name>bepo</name>
+            <_description>Bepo, ergonomic, Dvorak way</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>bepo_latin9</name>
+            <_description>Bepo, ergonomic, Dvorak way, latin-9 only</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>dvorak</name>
-            <_description>Dvorak</_description>
+            <_description>(Legacy) Dvorak</_description>
           </configItem>
         </variant>
         <variant>

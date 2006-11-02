@@ -432,13 +432,122 @@ xkb_symbols "latin9_nodeadkeys" {
     key <AD11>	{ [	asciicircum,  	   diaeresis,          asciitilde,           quoteright ] };
 };
 
+// Bépo : Improved ergonomic french keymap using Dvorak method.
+// Built by community on 'Dvorak Fr' mailing list :
+// dvorak-fr@gpl.insa-lyon.fr and on its wiki : http://gpl.insa-lyon.fr/Dvorak-Fr/ .
+// XOrg integration in 2006 by Frédéric Boiteux <fboiteux @ free.fr>
+//
+// Bépo layout (6.2.1.1 version) for a pc105 keyboard (french) :
+// ┌────┐
+// │ S A│   S = Shift,  A = AltGr + Shift
+// │ s a│   s = normal, a = AltGr
+// └────┘
+//
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+// │ $   │ 1 ¹ │ 2 ² │ 3 ³ │ 4 ° │ 5 ˚ │ 6   │ 7   │ 8   │ 9   │ 0   │ ^   │ µ   ┃ ⌫ Retour┃
+// │ @ # │ _ { │ " } │ « < │ » > │ ( [ │ ) ] │ + ± │ - ¬ │ * × │ / ÷ │ = ¯ │ %   ┃  arrière┃
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+// ┃       ┃ B   │ É ˊ │ P ¶ │ O Œ │ È ` │ Ç   │ V   │ D Ð │ L   │ F   │ J   │ Z   ┃Entrée ┃
+// ┃Tab ↹  ┃ b | │ é & │ p § │ o œ │ è ` │ ç   │ v   │ d ð │ l £ │ f ª │ j   │ z   ┃   ⏎   ┃
+// ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+// ┃        ┃ A Æ │ U Ù │ I ˇ │ E   │ ?   │ C ¢ │ T Þ │ S   │ N   │ R   │ M   │ !   ┃      ┃
+// ┃Maj ⇬   ┃ a æ │ u ù │ i ̈ │ e € │ , ¿ │ c © │ t þ │ s ß │ n   │ r ® │ m º │ ˆ ¡ ┃      ┃
+// ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━┫
+// ┃       ┃ ù   │ À ˜ │ H   │ Y   │ : · │ K   │ ;   │ Q   │ G   │ X   │ W   ┃             ┃
+// ┃Shift ⇧┃ ê / │ à ~ │ h ! │ y ¥ │ . \ │ k   │ '   │ q   │ g   │ x   │ w   ┃Shift ⇧      ┃
+// ┣━━━━━━━╋━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━━┛
+// ┃       ┃       ┃       ┃ ⍽ Espace insécable              ␣ ┃       ┃       ┃       ┃
+// ┃Ctrl   ┃Meta   ┃Alt    ┃ ␣ Espace                        ␣ ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+partial alphanumeric_keys
+xkb_symbols "bepo" {
+
+    include "keypad(oss)"
+
+    name[Group1]= "France - Bepo, ergonomic, Dvorak way";
+
+    // First row
+    key <TLDE> { [              at,       dollar,     numbersign                 ] }; // @ $ #
+    key <AE01> { [      underscore,            1,      braceleft,    onesuperior ] }; // _ 1 { ¹
+    key <AE02> { [        quotedbl,            2,     braceright,    twosuperior ] }; // " 2 } ²
+    key <AE03> { [   guillemotleft,            3,           less,  threesuperior ] }; // « 3 < ³
+    key <AE04> { [  guillemotright,            4,        greater,         degree ] }; // » 4 > °
+    key <AE05> { [       parenleft,            5,    bracketleft, dead_abovering ] }; // ( 5 [ ˚
+    key <AE06> { [      parenright,            6,   bracketright                 ] }; // ) 6 ]
+    key <AE07> { [            plus,            7,      plusminus                 ] }; // + 7 ±
+    key <AE08> { [           minus,            8,        notsign                 ] }; // - 8 ¬
+    key <AE09> { [        asterisk,            9,       multiply                 ] }; // * 9 ×
+    key <AE10> { [           slash,            0,       division                 ] }; // / 0 ÷
+    key <AE11> { [           equal,  asciicircum,         macron                 ] }; // = ^ ¯
+    key <AE12> { [         percent,           mu                                 ] }; // % µ
+
+    // Second row
+    key <AD01> { [               b,            B,            bar                 ] }; // b B |
+    key <AD02> { [          eacute,       Eacute,      ampersand,     dead_acute ] }; // é É & ˊ
+    key <AD03> { [               p,            P,        section,      paragraph ] }; // p P § ¶
+    key <AD04> { [               o,            O,             oe,             OE ] }; // o O œ Œ
+    key <AD05> { [          egrave,       Egrave,          grave,     dead_grave ] }; // è È ` `
+    key <AD06> { [        ccedilla,     Ccedilla                                 ] }; // ç Ç
+    key <AD07> { [               v,            V                                 ] }; // v V
+    key <AD08> { [               d,            D,            eth,            ETH ] }; // d D ð Ð
+    key <AD09> { [               l,            L,       sterling                 ] }; // l L £
+    key <AD10> { [               f,            F,    ordfeminine                 ] }; // f F ª
+    key <AD11> { [               j,            J                                 ] }; // j J
+    key <AD12> { [               z,            Z                                 ] }; // z Z
+
+    // Third row
+    key <AC01> { [               a,            A,             ae,             AE ] }; // a A æ Æ
+    key <AC02> { [               u,            U,         ugrave,         Ugrave ] }; // u U ù Ù
+    key <AC03> { [               i,            I, dead_diaeresis,     dead_caron ] }; // i I ̈ ˇ
+    key <AC04> { [               e,            E,       EuroSign                 ] }; // e E €
+    key <AC05> { [           comma,     question,   questiondown                 ] }; // , ? ¿
+    key <AC06> { [               c,            C,      copyright,           cent ] }; // c C © ¢
+    key <AC07> { [               t,            T,          thorn,          Thorn ] }; // t T þ Þ
+    key <AC08> { [               s,            S,         ssharp                 ] }; // s S ß
+    key <AC09> { [               n,            N                                 ] }; // n N
+    key <AC10> { [               r,            R,     registered                 ] }; // r R ®
+    key <AC11> { [               m,            M,      masculine                 ] }; // m M º
+    key <BKSL> { [ dead_circumflex,       exclam,     exclamdown                 ] }; // ^ ! ¡
+
+    // Fourth row
+    key <LSGT> { [     ecircumflex,       ugrave,          slash                 ] }; // ê ù /
+    key <AB01> { [          agrave,       Agrave,     asciitilde,     dead_tilde ] }; // à À ~ ~
+    key <AB02> { [               h,            H,         exclam                 ] }; // h H !
+    key <AB03> { [               y,            Y,            yen                 ] }; // y Y ¥
+    key <AB04> { [          period,        colon,      backslash, periodcentered ] }; // . : \ ·
+    key <AB05> { [               k,            K                                 ] }; // k K
+    key <AB06> { [      apostrophe,    semicolon                                 ] }; // ' ;
+    key <AB07> { [               q,            Q,         oslash,       Ooblique ] }; // q Q ø Ø
+    key <AB08> { [               g,            G                                 ] }; // g G
+    key <AB09> { [               x,            X                                 ] }; // x X
+    key <AB10> { [               w,            W                                 ] }; // w W
+
+    key <SPCE> { [           space, nobreakspace,          space,          space ] }; // ␣ ⍽ (espace insécable) ␣ ␣
+
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys
+xkb_symbols "bepo_latin9" {
+
+    // Restricts the fr(bepo) layout to latin9 symbols
+
+    include "keypad(oss_latin9)"
+    include "fr(bepo)"
+
+    name[Group1]="France - Bepo, ergonomic, Dvorak way, latin-9 only";
+
+    // at now, no difference (oss keypad excepted), but will change !
+};
+
+
 // Keymap Dvorak pour le Français
 // par Josselin Mouette <josselin.mouette@ens-lyon.org>.
 
 partial alphanumeric_keys
 xkb_symbols "dvorak" {
 
-    name[Group1]= "France - Dvorak";
+    name[Group1]= "France - (Legacy) Dvorak";
 
     key <TLDE>  { [         oe,       OE,              ae,             AE ] };
 
