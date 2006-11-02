@@ -93,14 +93,14 @@ xkb_symbols "nodeadkeys" {
 //   © 2003-2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 //
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
-// │ Ø ¸ │ 1 ˇ │ 2 É │ 3 ˘ │ 4 — │ 5 – │ 6 ‑ │ 7 È │ 8 ™ │ 9 Ç │ 0 À │ ° ≠ │ + ± ┃ ⌫ Retour┃
-// │ ø ` │ & ´ │ é ~ │ " # │ ' { │ ( [ │ - | │ è ` │ _ \ │ ç ^ │ à @ │ ) ] │ = } ┃  arrière┃
+// │ ³ ¸ │ 1 ̨ │ 2 É │ 3 ˘ │ 4 — │ 5 – │ 6 ‑ │ 7 È │ 8 ™ │ 9 Ç │ 0 À │ ° ≠ │ + ± ┃ ⌫ Retour┃
+// │ ² ¹ │ & ˇ │ é ~ │ " # │ ' { │ ( [ │ - | │ è ` │ _ \ │ ç ^ │ à @ │ ) ] │ = } ┃  arrière┃
 // ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
-// ┃       ┃ A Æ │ Z Â │ E ¢ │ R Ê │ T Þ │ Y Ÿ │ U Û │ I Î │ O Œ │ P Ô │ ¨ ˚ │ £ ¥ ┃Entrée ┃
-// ┃Tab ↹  ┃ a æ │ z â │ e € │ r ê │ t þ │ y ÿ │ u û │ i î │ o œ │ p ô │ ^ ~ │ $ ³ ┃   ⏎   ┃
+// ┃       ┃ A Æ │ Z Â │ E ¢ │ R Ê │ T Þ │ Y Ÿ │ U Û │ I Î │ O Œ │ P Ô │ ¨ ˚ │ £ Ø ┃Entrée ┃
+// ┃Tab ↹  ┃ a æ │ z â │ e € │ r ê │ t þ │ y ÿ │ u û │ i î │ o œ │ p ô │ ^ ~ │ $ ø ┃   ⏎   ┃
 // ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
-// ┃        ┃ Q Ä │ S „ │ D Ë │ F ` │ G ' │ H Ð │ J Ü │ K Ï │ L Ŀ │ M Ö │ % Ù │ µ ̄ ┃      ┃
-// ┃Maj ⇬   ┃ q ä │ s ß │ d ë │ f ‘ │ g ’ │ h ð │ j ü │ k ï │ l ŀ │ m ö │ ù ¹ │ * ² ┃      ┃
+// ┃        ┃ Q Ä │ S „ │ D Ë │ F ‚ │ G ¥ │ H Ð │ J Ü │ K Ï │ L Ŀ │ M Ö │ % Ù │ µ ̄ ┃      ┃
+// ┃Maj ⇬   ┃ q ä │ s ß │ d ë │ f ‘ │ g ’ │ h ð │ j ü │ k ï │ l ŀ │ m ö │ ù ' │ * ` ┃      ┃
 // ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━┫
 // ┃       ┃ > ≥ │ W “ │ X ” │ C ® │ V ← │ B ↑ │ N → │ ? … │ . . │ / ∕ │ § − ┃             ┃
 // ┃Shift ⇧┃ < ≤ │ w « │ x » │ c © │ v ⍽ │ b ↓ │ n ¬ │ , ¿ │ ; × │ : ÷ │ ! ¡ ┃Shift ⇧      ┃
@@ -118,8 +118,8 @@ xkb_symbols "oss" {
     name[Group1]="France - Alternative";
 
     // First row
-    key <TLDE>	{ [           oslash,         Ooblique,           dead_grave,          dead_cedilla ] }; // ø Ø  ` ¸ 
-    key <AE01>	{ [        ampersand,                1,           dead_acute,            dead_caron ] }; // & 1 ´ ˇ
+    key <TLDE>	{ [      twosuperior,    threesuperior,          onesuperior,          dead_cedilla ] }; // ² ³ ¹ ¸ 
+    key <AE01>	{ [        ampersand,                1,           dead_caron,           dead_ogonek ] }; // & 1 ˇ ̨
     key <AE02>	{ [           eacute,                2,           asciitilde,                Eacute ] }; // é 2 ~ É
     key <AE03>	{ [         quotedbl,                3,           numbersign,            dead_breve ] }; // " 3 # ˘
     key <AE04>	{ [       apostrophe,                4,            braceleft,             0x1002014 ] }; // ' 4 { — (tiret cadratin)
@@ -144,21 +144,21 @@ xkb_symbols "oss" {
     key <AD09>	{ [                o,                O,                   oe,                    OE ] }; // o O œ Œ
     key <AD10>	{ [                p,                P,          ocircumflex,           Ocircumflex ] }; // p P ô Ô
     key <AD11>	{ [  dead_circumflex,   dead_diaeresis,           dead_tilde,        dead_abovering ] }; // ^ ̈ ̃ ˚
-    key <AD12>	{ [           dollar,         sterling,        threesuperior,                   yen ] }; // $ £ ³ ¥
+    key <AD12>	{ [           dollar,         sterling,               oslash,              Ooblique ] }; // $ £ ø Ø
 
     // Third row
     key <AC01>	{ [                q,                Q,           adiaeresis,            Adiaeresis ] }; // q Q ä Ä
     key <AC02>	{ [                s,                S,               ssharp,    doublelowquotemark ] }; // s S ß „ 
     key <AC03>	{ [                d,                D,           ediaeresis,            Ediaeresis ] }; // d D ë Ë
-    key <AC04>	{ [                f,                F,  leftsinglequotemark,             quoteleft ] }; // f F ‘ `
-    key <AC05>	{ [                g,                G, rightsinglequotemark,            quoteright ] }; // g G ’ '
+    key <AC04>	{ [                f,                F,  leftsinglequotemark,    singlelowquotemark ] }; // f F ‘ ‚
+    key <AC05>	{ [                g,                G, rightsinglequotemark,                   yen ] }; // g G ’ ¥
     key <AC06>	{ [                h,                H,                  eth,                   ETH ] }; // h H ð Ð
     key <AC07>	{ [                j,                J,           udiaeresis,            Udiaeresis ] }; // j J ü Ü
     key <AC08>	{ [                k,                K,           idiaeresis,            Idiaeresis ] }; // k K ï Ï
     key <AC09>	{ [                l,                L,            0x1000140,             0x100013F ] }; // l L ŀ Ŀ
     key <AC10>	{ [                m,                M,           odiaeresis,            Odiaeresis ] }; // m M ö Ö
-    key <AC11>	{ [           ugrave,          percent,          onesuperior,                Ugrave ] }; // ù % ¹ Ù
-    key <BKSL>	{ [         asterisk,               mu,          twosuperior,           dead_macron ] }; // * µ ² ̄
+    key <AC11>	{ [           ugrave,          percent,           dead_acute,                Ugrave ] }; // ù % ' Ù
+    key <BKSL>	{ [         asterisk,               mu,           dead_grave,           dead_macron ] }; // * µ ` ̄
 
     // Fourth row
     key <LSGT>  { [             less,          greater,        lessthanequal,      greaterthanequal ] }; // < > ≤ ≥
@@ -188,18 +188,20 @@ xkb_symbols "oss_latin9" {
     name[Group1]="France - Alternative, latin-9 only";
 
     // First row
+    key <AE01>	{ [        ampersand,                1,           dead_caron,          dead_cedilla ] }; // & 1 ˇ ¸
     key <AE03>	{ [         quotedbl,                3,           numbersign,            dead_tilde ] }; // " 3 # ~
     key <AE04>	{ [       apostrophe,                4,            braceleft,            underscore ] }; // ' 4 { _
     key <AE05>	{ [        parenleft,                5,          bracketleft,                 minus ] }; // ( 5 [ -
     key <AE06>  { [            minus,                6,                  bar,                 minus ] }; // - 6 | -
     key <AE08>  { [       underscore,                8,            backslash,             backslash ] }; // _ 8 \ \
+    key <AE11>	{ [       parenright,           degree,         bracketright,                 equal ] }; // ) ° ] =
 
     // Third row
     key <AC02>	{ [                s,                S,               ssharp,         guillemotleft ] }; // s S ß « 
-    key <AC04>	{ [                f,                F,           apostrophe,             quoteleft ] }; // f F ' `
-    key <AC05>	{ [                g,                G,           apostrophe,            quoteright ] }; // g G ' '
+    key <AC04>	{ [                f,                F,           apostrophe,            apostrophe ] }; // f F ' '
+    key <AC05>	{ [                g,                G,           apostrophe,                   yen ] }; // g G ' ¥
     key <AC09>  { [                l,                L,       periodcentered,        periodcentered ] }; // l L · ·
-    key <BKSL>	{ [         asterisk,               mu,          twosuperior,       dead_circumflex ] }; // * µ ² ^ 
+    key <BKSL>	{ [         asterisk,               mu,           dead_grave,       dead_circumflex ] }; // * µ ` ^ 
 
     // Fourth row
     key <LSGT>  { [             less,          greater,                 less,               greater ] }; // < > < >
@@ -222,11 +224,14 @@ xkb_symbols "oss_Sundeadkeys" {
     include "fr(oss)"
 
     // First row
-    key <TLDE>	{ [           oslash,         Ooblique,          SunFA_Grave,         SunFA_Cedilla ] }; // ø Ø ` ¸ 
-    key <AE01>	{ [        ampersand,                1,          SunFA_Acute,            dead_caron ] }; // & 1 ´ ˇ
+    key <TLDE>	{ [      twosuperior,    threesuperior,          onesuperior,         SunFA_Cedilla ] }; // ¹ ² ³ ¸ 
 
     // Second row
     key <AD11>	{ [     SunFA_Circum,  SunFA_Diaeresis,          SunFA_Tilde,        dead_abovering ] }; // ^ ̈ ̃ ˚
+
+    //Third row
+    key <AC11>	{ [           ugrave,          percent,          SunFA_Acute,                Ugrave ] }; // ù % ' Ù
+    key <BKSL>	{ [         asterisk,               mu,          SunFA_Grave,           dead_macron ] }; // * µ ` ̄
 };
 
 partial alphanumeric_keys
@@ -246,16 +251,14 @@ xkb_symbols "oss_nodeadkeys" {
 
     name[Group1]="France - Alternative, eliminate dead keys";
 
-    // First row
-    key <TLDE>	{ [           oslash,         Ooblique,                grave,          dead_cedilla ] }; // ø Ø ` ¸ 
-    key <AE01>	{ [        ampersand,                1,                acute,                 caron ] }; // & 1 ´ ˇ
-    key <AE03>  { [         quotedbl,                3,           numbersign,                 breve ] }; // " 3 # ˘
+    key <TLDE>	{ [      twosuperior,    threesuperior,          onesuperior,               cedilla ] }; // ² ³ ¹ ¸ 
+    key <AE01>	{ [        ampersand,                1,                caron,                ogonek ] }; // & 1 ˇ ̨
+    key <AE03>	{ [         quotedbl,                3,           numbersign,                 breve ] }; // " 3 # ˘
 
     // Second row
-    key <AD11>	{ [      asciicircum,  	     diaeresis,           asciitilde,                 Aring ] }; // ^ ̈ ~ Å
-
-    // Third row
-    key <BKSL>  { [         asterisk,               mu,          twosuperior,                macron ] }; // * µ ² ̄
+    key <AD11>	{ [  dead_circumflex,   dead_diaeresis,           asciitilde,                 Aring ] }; // ^ ̈ ̃ Å
+    key <AC11>	{ [           ugrave,          percent,                acute,                Ugrave ] }; // ù % ' Ù
+    key <BKSL>	{ [         asterisk,               mu,                grave,                macron ] }; // * µ ` ̄
 };
 
 

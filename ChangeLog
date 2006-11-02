@@ -1,3 +1,8 @@
+2006-11-02  Sergey Udaltsov
+
+	* symbols/fr: some fixes for alternative layouts, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8853
+
 2006-10-28  Sergey Udaltsov
 
 	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added
