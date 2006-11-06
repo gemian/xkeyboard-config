@@ -68,12 +68,12 @@ xkb.dtd README
 
 rules_DATA = $(all_rules_files)
 
-xml_in_files = base.xml.in
+xml_in_files = base.xml.in sun.xml.in
 xml_DATA = $(xml_in_files:.xml.in=.xml) 
 
 EXTRA_DIST= $(all_rules_files) $(xml_in_files) $(base_parts) xml2lst.pl merge.sh
 
-DISTCLEANFILES=base.xml base.lst
+DISTCLEANFILES=base.xml base.lst sun.xml
 
 rulesdir = $(xkb_base)/rules
 xmldir = $(rulesdir)

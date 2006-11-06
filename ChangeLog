@@ -1,3 +1,9 @@
+2006-11-06  Sergey Udaltsov
+
+	* rules/sun.xml.in, rules/Makefile.am, po/POTFILE.in: Added directory
+	for sun rules, closing
+	http://bugzilla.gnome.org/show_bug.cgi?id=137294
+
 2006-11-02  Sergey Udaltsov
 
 	* symbols/fr: some fixes for alternative layouts, closing
