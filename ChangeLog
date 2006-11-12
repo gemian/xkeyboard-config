@@ -1,3 +1,8 @@
+2006-11-12  Sergey Udaltsov
+
+	* rules/base.o_s.part, rules/base.xml.in, symbols/altwin: adding
+	ctrl_win, closing https://bugs.freedesktop.org/show_bug.cgi?id=8996
+
 2006-11-06  Sergey Udaltsov
 
 	* rules/sun.xml.in, rules/Makefile.am, po/POTFILE.in: Added directory
