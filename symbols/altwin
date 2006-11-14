@@ -11,15 +11,11 @@ xkb_symbols "meta_alt" {
 };
 
 // Control is mapped to the Win-keys (and the usual Ctrl keys).
-// Both Alt keys are Alt.
 partial modifier_keys 
 xkb_symbols "ctrl_win" {
-    key <LALT> {	[ 	Alt_L                   ]	};
-    key <RALT> {	[ 	Alt_R                   ]	};
     key <LWIN> {	[ 	Control_L		]	};
     key <RWIN> {	[ 	Control_R		]	};
     modifier_map Control { <LWIN>, <RWIN> };
-    modifier_map Mod1	{ Alt_L, Alt_R };
 };
 
 partial modifier_keys 
