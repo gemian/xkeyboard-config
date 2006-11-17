@@ -427,6 +427,7 @@ xkb_symbols "dvorak-classic" {
     key <AB08> { [	    w,	W		]	};
     key <AB09> { [	    v,	V		]	};
     key <AB10> { [	    z,	Z		]	};
+    key <BKSL> { [  backslash,  bar             ]       };
 };
 
 // phonetic layout for Russian letters on an US keyboard
