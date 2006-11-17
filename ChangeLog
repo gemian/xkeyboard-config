@@ -2,6 +2,8 @@
 
 	* symbols/us: the backslash/bar definition in the us dvorak variant,
 	closing https://bugs.freedesktop.org/show_bug.cgi?id=9061
+	* symbols/ir: removed problematic copyright notice, with permission of
+	Behnam Esfahbod, https://bugs.freedesktop.org/show_bug.cgi?id=4102
 
 2006-11-14  Sergey Udaltsov
 
