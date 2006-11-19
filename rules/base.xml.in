@@ -1960,6 +1960,12 @@
             <_description>Phonetic</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>biblical</name>
+            <_description>Biblical Hebrew (Tiro)</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

@@ -1,3 +1,8 @@
+2006-11-19  Sergey Udaltsov
+
+	* symbols/il, rules/base.xml.in: added il(biblical), closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=9002
+
 2006-11-17  Sergey Udaltsov
 
 	* symbols/us: the backslash/bar definition in the us dvorak variant,
