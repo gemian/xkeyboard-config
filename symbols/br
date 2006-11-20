@@ -35,7 +35,7 @@ xkb_symbols "abnt2" {
 
     key <TLDE>	{ [apostrophe,   quotedbl,      notsign,      notsign ]	};
 
-    key <AC13>	{ [ backslash,        bar,    masculine,   dead_breve ]	};
+    key <LSGT>	{ [ backslash,        bar,    masculine,   dead_breve ]	};
     key <AB03>	{ [         c,          C,    copyright,    copyright ]	};
     key <AB07>  { [         m,          M,           mu,           mu ] };
     key <AB10>	{ [ semicolon,    colon, dead_belowdot, dead_abovedot ]	};

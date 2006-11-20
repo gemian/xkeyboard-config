@@ -1,3 +1,9 @@
+2006-11-20  Sergey Udaltsov
+
+	* symbols/br, keycodes/xfree86: making abnt2 more compatible with
+	other keyboards, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=4910
+
 2006-11-19  Sergey Udaltsov
 
 	* symbols/il, rules/base.xml.in: added il(biblical), closing
