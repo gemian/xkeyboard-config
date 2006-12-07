@@ -12,10 +12,6 @@ DISTCLEANFILES=intltool-extract intltool-merge intltool-update
 
 # ACLOCAL_AMFLAGS = -I m4
 
-install-compiled:
-	rm -f $(DESTDIR)$(xkb_base)/compiled
-	ln -sf /var/lib/xkb $(DESTDIR)$(xkb_base)/compiled
-
 if CREATE_XKBCOMP_SYMLINK
 install-xkbcomp:
 	ln -sf $(XKBCOMP) $(DESTDIR)$(xkb_base)/xkbcomp
@@ -25,4 +21,4 @@ install-xkbcomp:
 
 endif
 
-install-data-hook: install-compiled install-xkbcomp
+install-data-hook: install-xkbcomp
