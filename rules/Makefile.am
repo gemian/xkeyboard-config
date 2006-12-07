@@ -1,9 +1,9 @@
 SUBDIRS = compat
 
 if CREATE_RULES_SYMLINK
-dnl  extra_rules_file = $(xkb_rules_symlink)
-dnl  extra_dir_file   = $(extra_rules_file).xml 
-dnl  extra_lst_file   = $(extra_rules_file).lst
+#  extra_rules_file = $(xkb_rules_symlink)
+#  extra_dir_file   = $(extra_rules_file).xml 
+#  extra_lst_file   = $(extra_rules_file).lst
 
 install-data-hook:
 	for file in `echo "$(xkb_rules_symlink)" | sed 's/,/ /'` ; do \

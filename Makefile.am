@@ -10,7 +10,7 @@ EXTRA_DIST=config.rpath COPYING CREDITS README \
 
 DISTCLEANFILES=intltool-extract intltool-merge intltool-update
 
-dnl ACLOCAL_AMFLAGS = -I m4
+# ACLOCAL_AMFLAGS = -I m4
 
 install-compiled:
 	rm -f $(DESTDIR)$(xkb_base)/compiled

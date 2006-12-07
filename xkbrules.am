@@ -8,4 +8,4 @@ dirdir = $(xkb_base)
 
 $(subdir).dir:
 	-rm -f $@
-	cd $(srcdir) && $(XKBCOMP) -lfhlpR -o $(CURDIR)/$@ '*'
+	here=$$(pwd); cd $(srcdir) && $(XKBCOMP) -lfhlpR -o $${here}/$@ '*'
