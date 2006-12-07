@@ -3,7 +3,7 @@
 	* Makefile.am, rules/Makefile.am, xkbrules.am: getting rid of
 	gmakisms, closing https://bugs.freedesktop.org/show_bug.cgi?id=9245
 	* Makefile.am: dropping install-compiled target, closing
-	https://bugs.freedesktop.org/show_bug.cgi?id=9245
+	https://bugs.freedesktop.org/show_bug.cgi?id=9246
 
 2006-11-20  Sergey Udaltsov
 
