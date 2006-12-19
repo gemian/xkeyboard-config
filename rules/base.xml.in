@@ -3169,6 +3169,12 @@
           <_description>Press Right Alt key to choose 3rd level, Shift+Right Alt key is Multi_Key.</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>lv3:ralt_alt</name>
+          <_description>Right Alt key never chooses 3rd level.</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="false">
       <!-- Tweaking the position of the "Ctrl" key -->

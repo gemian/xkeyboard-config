@@ -17,6 +17,25 @@ xkb_symbols "ralt_switch" {
   modifier_map Mod5   { ISO_Level3_Shift };
 };
 
+// Right Alt key never chooses 3rd level.
+// This option attempts to undo the effect of a layout's
+// including ralt_switch.  You may also want to select another
+// level3 option that maps the level3 shift to some other key.
+partial modifier_keys
+xkb_symbols "ralt_alt" {
+  key <RALT> { 
+    type[Group1]="TWO_LEVEL",
+    type[Group2]="TWO_LEVEL",
+    type[Group3]="TWO_LEVEL",
+    type[Group4]="TWO_LEVEL",
+    symbols[Group1] = [ Alt_R, Meta_R ], 
+    symbols[Group2] = [ Alt_R, Meta_R ], 
+    symbols[Group3] = [ Alt_R, Meta_R ], 
+    symbols[Group4] = [ Alt_R, Meta_R ]
+    };
+  modifier_map Mod1    { <RALT> };
+};
+
 partial modifier_keys
 xkb_symbols "ralt_switch_multikey" {
   key <RALT> {

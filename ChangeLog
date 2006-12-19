@@ -1,3 +1,9 @@
+2006-12-19  Sergey Udaltsov
+
+	* rules/base.o_s.part, rules/base.xml.in, rules/sun.xml.in,
+	symbols/level3: adding lv3:ralt_alt, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=9070
+
 2006-12-11  Sergey Udaltsov
 
 	* configure.in: getting rid of bashisms, closing

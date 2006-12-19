@@ -34,6 +34,7 @@
   lv3:switch		=	+level3(switch)
   lv3:ralt_switch	=	+level3(ralt_switch)
   lv3:ralt_switch_multikey	=	+level3(ralt_switch_multikey)
+  lv3:ralt_alt		=	+level3(ralt_alt)
   lv3:lalt_switch	=	+level3(lalt_switch)
   lv3:alt_switch	=	+level3(alt_switch)
   lv3:menu_switch	=	+level3(menu_switch)
