@@ -33,12 +33,12 @@ xkb_symbols "pc105" {
 
     key <LFSH> {	[ Shift_L	]	};
     key <LCTL> {	[ Control_L	]	};
-    key <LALT> {	[ Alt_L,	Meta_L		]	};
+
     key <LWIN> {	[ Super_L			]	};
 
     key <RTSH> {	[ Shift_R	]	};
     key <RCTL> {	[ Control_R	]	};
-    key <RALT> {	[ Alt_R,	Meta_R		]	};
+
     key <RWIN> {	[ Super_R			]	};
 
     key <MENU> {	[ Menu			]	};
@@ -55,7 +55,7 @@ xkb_symbols "pc105" {
     modifier_map Mod5   { <LVL3>, <MDSW> };
 
     key <ALT>  {	[ NoSymbol, Alt_L	]	};
-    modifier_map Mod1   { <ALT>, <LALT> };
+    include "altwin(meta_alt)"
 
     key <META> {	[ NoSymbol, Meta_L	]	};
     modifier_map Mod1   { <META> };

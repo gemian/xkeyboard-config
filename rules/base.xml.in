@@ -3323,7 +3323,7 @@
       <option>
         <configItem>
           <name>altwin:meta_alt</name>
-          <_description>Alt and Meta are on the Alt keys (default).</_description>
+          <_description>Alt and Meta are on the Alt keys.</_description>
         </configItem>
       </option>
       <option>
@@ -3347,7 +3347,7 @@
       <option>
         <configItem>
           <name>altwin:super_win</name>
-          <_description>Super is mapped to the Win-keys (default).</_description>
+          <_description>Super is mapped to the Win-keys.</_description>
         </configItem>
       </option>
       <option>
