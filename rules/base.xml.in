@@ -3499,8 +3499,26 @@
       </option>
       <option>
         <configItem>
+          <name>nbsp:level3s</name>
+          <_description>Space key output nobreakspace at third level, nothing at fourth level.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:level3n</name>
+          <_description>Space key output nobreakspace at third level, thin nobreakspace at fourth level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>nbsp:level4</name>
           <_description>Space key output nobreakspace at fourth level.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:level4n</name>
+          <_description>Space key output nobreakspace at fourth level, thin nobreakspace at sixth level</_description>
         </configItem>
       </option>
     </group>

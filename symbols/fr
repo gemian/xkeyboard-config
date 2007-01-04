@@ -105,14 +105,16 @@ xkb_symbols "nodeadkeys" {
 // ┃       ┃ > ≥ │ W “ │ X ” │ C ® │ V ← │ B ↑ │ N → │ ? … │ . . │ / ∕ │ § − ┃             ┃
 // ┃Shift ⇧┃ < ≤ │ w « │ x » │ c © │ v ⍽ │ b ↓ │ n ¬ │ , ¿ │ ; × │ : ÷ │ ! ¡ ┃Shift ⇧      ┃
 // ┣━━━━━━━╋━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━━┛
-// ┃       ┃       ┃       ┃ ␣              Espace insécable ⍽ ┃       ┃       ┃       ┃
-// ┃Ctrl   ┃Meta   ┃Alt    ┃ ␣ Espace                        ␣ ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
+// ┃       ┃       ┃       ┃ ␣         Espace fine insécable ⍽ ┃       ┃       ┃       ┃
+// ┃Ctrl   ┃Meta   ┃Alt    ┃ ␣ Espace       Espace insécable ⍽ ┃AltGr ⇮┃Menu   ┃Ctrl   ┃
 // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
 partial alphanumeric_keys
 xkb_symbols "oss" {
 
     include "latin"
     include "level3(ralt_switch)"
+    include "level5(rctrl_switch)"
+    include "nbsp(level4n)"
     include "keypad(oss)"
 
     name[Group1]="France - Alternative";
@@ -172,9 +174,6 @@ xkb_symbols "oss" {
     key <AB08>  { [        semicolon,           period,             multiply,             0x10022C5 ] }; // ; . × ⋅
     key <AB09>  { [            colon,            slash,             division,             0x1002215 ] }; // : / ÷ ∕
     key <AB10>  { [           exclam,          section,           exclamdown,             0x1002212 ] }; // ! § ¡ −
-
-    // Make nobreakspace harder to hit
-    key <SPCE>  { [            space,            space,                space,          nobreakspace ] }; // ␣ ␣ ␣ ⍽ (espace insécable)
 };
 
 partial alphanumeric_keys
@@ -332,6 +331,7 @@ partial alphanumeric_keys
 xkb_symbols "latin9" {
 
     include "latin"
+    include "nbsp(level3)"
 
     name[Group1]="France - (Legacy) Alternative";
 
@@ -386,8 +386,6 @@ xkb_symbols "latin9" {
     key <AB08>	{ [       semicolon,          period,            multiply		        ] };
     key <AB09>	{ [           colon,           slash,            division                       ] };
     key <AB10>	{ [          exclam,         section,          exclamdown                       ] };
-
-    key <SPCE>  { [           space,           space,        nobreakspace                       ] };
 
     // French uses a comma as decimal separator, but keyboards are labeled with a period
     // Will take effect when KP_Decimal is mapped to the locale decimal separator

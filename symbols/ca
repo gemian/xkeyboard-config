@@ -445,7 +445,7 @@ xkb_symbols "multix" {
     key <AB10>	{ [    eacute,     Eacute,     dead_acute, NoSymbol,
     		   NoSymbol, dead_abovedot ]	};
 
-    key <SPCE>	{ type[Group1]= "FOUR_LEVEL", [     space,      space,   nobreakspace, NoSymbol ]	};
+    include "nbsp(level3s)"
 
     modifier_map Control{ Control_L };
 
