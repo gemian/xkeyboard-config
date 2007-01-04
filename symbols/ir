@@ -175,6 +175,10 @@ xkb_symbols "ku_alt" {
 //
 // Copyright (C) 2006 Erdal Ronahî, published under the GPL v2
 //
+// Special copyright note: author explicitly permitted to license this 
+// layout under MIT/X11 license, for details see
+// https://bugs.freedesktop.org/show_bug.cgi?id=9541
+//
 // Author: Erdal Ronahî  <erdal.ronahi@gmail.com>
 //
 // Kurdish Arabic-Latin Layout for Soranî

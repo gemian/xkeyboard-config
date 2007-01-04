@@ -1,5 +1,10 @@
 2007-01-04  Sergey Udaltsov
 
+	* symbols/ir: settling another licensing issue,
+	https://bugs.freedesktop.org/show_bug.cgi?id=9541
+
+2007-01-04  Sergey Udaltsov
+
 	* rules/base.xml.in, rules/base.o_s.part, symbols/ca, symbols/fr,
 	symbols/nbsp: adding more nbsp options, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=9529
