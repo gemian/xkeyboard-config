@@ -1,3 +1,8 @@
+2007-01-11  Sergey Udaltsov
+
+	* symbols/nl: added nl(std), closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=9603
+
 2007-01-04  Sergey Udaltsov
 
 	* symbols/ir: settling another licensing issue,

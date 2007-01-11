@@ -1381,6 +1381,12 @@
             <_description>Macintosh</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>std</name>
+            <_description>Standard</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
