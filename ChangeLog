@@ -1,7 +1,9 @@
 2007-01-11  Sergey Udaltsov
 
-	* symbols/nl: added nl(std), closing
+	* symbols/nl, rules/base.xml.in: added nl(std), closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=9603
+	* symbols/epo, rules/base.xml.in: added epo(legacy), closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=9556
 
 2007-01-04  Sergey Udaltsov
 

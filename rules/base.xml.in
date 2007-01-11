@@ -2920,6 +2920,14 @@
         <_shortDescription>Epo</_shortDescription>
 	<_description>Esperanto</_description>
       </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>legacy</name>
+            <_description>displaced semicolon and quote (obsolete)</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
