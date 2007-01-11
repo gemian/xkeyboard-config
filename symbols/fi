@@ -127,7 +127,7 @@ xkb_symbols "smi" {
 
 xkb_symbols "kotoistus" {
 
-    name[Group1]="Finnish";
+    name[Group1]="Finland - Kotoistus";
 
     key <SPCE> { [  space,           space,            space,                nobreakspace         ] };
     key <TLDE> { [  section,         onehalf,          UFE63,                NoSymbol             ] };
