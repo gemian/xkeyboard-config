@@ -1,3 +1,8 @@
+2007-01-25  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/am: adding am(phonetic-alt), closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=9018
+
 2007-01-11  Sergey Udaltsov
 
 	* symbols/nl, rules/base.xml.in: added nl(std), closing

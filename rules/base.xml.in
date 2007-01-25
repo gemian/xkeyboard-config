@@ -962,6 +962,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>phonetic-alt</name>
+            <_description>Alternative Phonetic</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>eastern</name>
             <_description>Eastern</_description>
           </configItem>
