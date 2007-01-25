@@ -235,6 +235,8 @@ xkb_symbols "dvorak" {
     key <AB08> { [	    w,	W		]	};
     key <AB09> { [	    v,	V		]	};
     key <AB10> { [	    z,	Z		]	};
+
+    key <BKSL> { [  backslash,  bar             ]       };
 };
 
 // Left and right handed dvorak layouts
