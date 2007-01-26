@@ -14,7 +14,7 @@ xkb_symbols "basic" {
 
     key <AE01>	{ [         1,     exclam,          bar,   exclamdown ]	};
     key <AE03>	{ [         3, periodcentered, numbersign,   sterling ]	};
-    key <AE04>	{ [         4,     dollar,   asciitilde,       dollar ]	};
+    key <AE04>	{ [         4,     dollar,   dead_tilde,       dollar ]	};
     key <AE06>	{ [         6,  ampersand,      notsign,  fiveeighths ]	};
     key <AE11>	{ [apostrophe,   question,    backslash, questiondown ]	};
     key <AE12>	{ [exclamdown, questiondown, asciitilde,   asciitilde ]	};
@@ -55,6 +55,7 @@ xkb_symbols "nodeadkeys" {
 
     name[Group1]="Spain - Eliminate dead keys";
 
+    key <AE04>	{ [         4,     dollar,   asciitilde,       dollar ]	};
     key <AD11>	{ [     grave, asciicircum,  bracketleft,      degree ]	};
     key <AD12>	{ [      plus,   asterisk, bracketright,       macron ]	};
     key <AC10>	{ [    ntilde,     Ntilde,   asciitilde,  doubleacute ]	};
