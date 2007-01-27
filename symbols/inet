@@ -1346,6 +1346,13 @@ xkb_symbols "rapidaccess2a" {
     key <MENU>	{	[ Menu			]	};
 };
 
+// IBM ThinkPad 41
+partial alphanumeric_keys
+xkb_symbols "thinkpad" {
+    key <I69>	{	[ XF86Forward		]	}; 
+    key <I6A>	{	[ XF86Back		]	}; 
+};
+
 
 // Logitech
 
