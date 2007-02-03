@@ -3,6 +3,8 @@
 	* rules/base.ml_g.part, rules/HDR, rules/Makefile.am,
 	rules/base.m_g.part: added (model, layout->geometry) section for
 	thinkpad, https://bugs.freedesktop.org/show_bug.cgi?id=9864
+	* symbols/macintosh_vndr/fr: updated French layout, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=9865
 
 2007-01-27  Sergey Udaltsov
 
