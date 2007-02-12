@@ -1222,6 +1222,56 @@
     </layout>
     <layout>
       <configItem>
+        <name>ma</name>
+        <_description>Morocco</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>french</name>
+            <_description>French</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tifinagh</name>
+            <_description>Tifinagh</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tifinagh-alt</name>
+            <_description>Tifinagh Alternative</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tifinagh-alt-phonetic</name>
+            <_description>Tifinagh Alternative Phonetic</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tifinagh-extended</name>
+            <_description>Tifinagh Extended</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tifinagh-phonetic</name>
+            <_description>Tifinagh Phonetic</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tifinagh-extended-phonetic</name>
+            <_description>Tifinagh Extended Phonetic</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>mm</name>
         <_shortDescription>Mmr</_shortDescription>
         <_description>Myanmar</_description>

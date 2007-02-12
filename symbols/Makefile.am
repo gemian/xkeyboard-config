@@ -15,7 +15,7 @@ ie il in iq \
 ir is it \
 jp kg kh kr kz la \
 latam latin lk \
-lt lv mao \
+lt lv ma mao \
 mk mm mn \
 mt mv ng nl \
 no np pc pk \
