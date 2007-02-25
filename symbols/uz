@@ -19,16 +19,27 @@
 // Cyrillic_ha       to key <AD09> (english 'o'),
 // Cyrillic_hardsign to key <AD10> (english 'p'). 
 //
+// Feb 25, 2007. Mashrab Kuvatov <kmashrab@uni-bremen.de>
+//
+// Made cyrillic and latin variants. Default is cyrillic.
+// Cyrillic variant is standard compliant. The standard
+// was accepted by the official body of Uzbekistan. See
+// http://www.uznet.net/index.php?option=com_content&task=view&id=288&Itemid=58
+//
+// Latin variant is somewhat experimental, since there is no
+// official standard for it. It is a copy of "us" layout, where
+// apostrophe is replaced with U02BB.
+// 
 // $XFree86: xc/programs/xkbcomp/symbols/uz,v 1.2 2003/06/21 13:01:59 pascal Exp $
 
 partial default alphanumeric_keys 
-xkb_symbols "basic" {
+xkb_symbols "cyrillic" {
 
     name[Group1]= "Uzbekistan";
 
     key	<AE01> {	[		1,	    exclam 	]	};
     key	<AE02> {	[		2,        quotedbl	]	};
-    key	<AE03> {	[		3,      numbersign	]	};
+    key	<AE03> {	[		3,      numerosign	]	};
     key	<AE04> {	[		4,       semicolon 	]	};
     key	<AE05> {	[		5,	   percent 	]	};
     key	<AE06> {	[		6,	     colon	]	};
@@ -42,8 +53,8 @@ xkb_symbols "basic" {
 
 key.type[group1]="ALPHABETIC";
 
-    key	<AE11> {	[ Byelorussian_shortu, Byelorussian_SHORTU ]	};
-    key	<AE12> {	[Cyrillic_ka_descender, Cyrillic_KA_descender ]	};
+    key	<AE11> {	[Cyrillic_ghe_bar, Cyrillic_GHE_bar     ]	};
+    key	<AE12> {	[Cyrillic_ha_descender, Cyrillic_HA_descender ]	};
     key	<TLDE> {	[     Cyrillic_io,     Cyrillic_IO	]	};
     key	<AD01> {	[ Cyrillic_shorti, Cyrillic_SHORTI	]	};
     key	<AD02> {	[    Cyrillic_tse,    Cyrillic_TSE	]	};
@@ -53,12 +64,12 @@ key.type[group1]="ALPHABETIC";
     key	<AD06> {	[     Cyrillic_en,     Cyrillic_EN	]	};
     key	<AD07> {	[    Cyrillic_ghe,    Cyrillic_GHE	]	};
     key	<AD08> {	[    Cyrillic_sha,    Cyrillic_SHA	]	};
-    key	<AD09> {	[     Cyrillic_ha,     Cyrillic_HA	]	};
-    key	<AD10> {	[Cyrillic_hardsign,Cyrillic_HARDSIGN    ]	};
-    key	<AD11> {	[Cyrillic_ghe_bar, Cyrillic_GHE_bar     ]	};
-    key	<AD12> {	[Cyrillic_ha_descender, Cyrillic_HA_descender ]	};
+    key	<AD09> {	[ Byelorussian_shortu, Byelorussian_SHORTU ]	};
+    key	<AD10> {	[     Cyrillic_ze,     Cyrillic_ZE      ]	};
+    key	<AD11> {	[     Cyrillic_ha,     Cyrillic_HA      ]	};
+    key	<AD12> {	[Cyrillic_hardsign,Cyrillic_HARDSIGN ]	};
     key	<AC01> {	[     Cyrillic_ef,     Cyrillic_EF	]	};
-    key	<AC02> {	[     Cyrillic_ze,     Cyrillic_ZE	]	};
+    key	<AC02> {	[Cyrillic_ka_descender, Cyrillic_KA_descender ]	};
     key	<AC03> {	[     Cyrillic_ve,     Cyrillic_VE	]	};
     key	<AC04> {	[      Cyrillic_a,	Cyrillic_A	]	};
     key	<AC05> {	[     Cyrillic_pe,     Cyrillic_PE	]	};
@@ -80,3 +91,11 @@ key.type[group1]="ALPHABETIC";
 
     // End alphanumeric section
 };
+
+partial alphanumeric_keys
+xkb_symbols "latin" {
+    include "us"
+    name[Group1]= "Uzbekistan - Latin";
+    key <AC11>  { [0x010002BB, quotedbl] };
+};
+

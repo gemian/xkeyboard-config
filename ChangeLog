@@ -1,3 +1,8 @@
+2007-02-25  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/uz: fixed Uz layout, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=10091
+
 2007-02-12  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/Makefile.am, symbols/ma: added Tifinagh

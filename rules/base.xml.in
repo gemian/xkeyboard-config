@@ -2881,7 +2881,14 @@
         <_shortDescription>Uzb</_shortDescription>
         <_description>Uzbekistan</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>latin</name>
+            <_description>Latin</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
