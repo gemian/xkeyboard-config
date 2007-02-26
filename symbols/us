@@ -103,6 +103,7 @@ xkb_symbols "intl" {
     key <AC01> { [	   a,          A,        aacute,           Aacute ] };
     key <AC02> { [	   s,          S,        ssharp,          section ] };
     key <AC03> { [	   d,          D,           eth,              ETH ] };
+    key <AC08> { [	   k,          K,            oe,               OE ] };
 
     key <AC09> { [	   l,          L,        oslash,         Ooblique ] };
     key <AC10> { [ semicolon,      colon,     paragraph,           degree ] };

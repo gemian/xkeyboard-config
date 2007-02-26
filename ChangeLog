@@ -2,6 +2,8 @@
 
 	* rules/base.xml.in, symbols/uz: fixed Uz layout, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=10091
+	* symbols/us: added French oe character to us(intl), closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=10087
 
 2007-02-12  Sergey Udaltsov
 
