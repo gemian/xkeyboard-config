@@ -2297,7 +2297,7 @@ xkb_symbols "cymotionlinux" {
     key <I6C>	{	[	XF86Mail		]	};
     key <I78>	{	[	XF86Copy		]	};
     key <K65>	{	[	XF86Paste		]	};
-    key <K6C>	{	[	XF86AudioEject		]	};
+    key <K6C>	{	[	XF86Eject		]	};
     key <K75>	{	[	XF86ScrollUp		]	};
     key <XFER>	{	[	XF86AudioMedia		]	};
 };
