@@ -58,7 +58,7 @@ default partial xkb_compatibility "misc"  {
     };
 
     interpret Meta_R	{
-	action = SetMods(modifiers=Alt);
+	action = SetMods(modifiers=Meta_R);
     };
 
     // Sets the "Super" virtual modifier
