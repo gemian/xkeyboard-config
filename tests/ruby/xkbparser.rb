@@ -6,6 +6,8 @@
 # complex XKB format
 #
 
+require "utils.rb"
+
 class Symbols < Hash
 
   #
@@ -66,6 +68,11 @@ class Symbols < Hash
       syms = @symbolsList[symsName]
       rv | syms.keys
     end
+  end
+
+  # Size of all keys
+  def length()
+    keys().length()
   end
 
   #
@@ -136,6 +143,16 @@ class SymbolsList < Hash
       end
     end
     matching
+  end
+
+  def merge()
+    everything = NonuniqueCountingHash.new
+    find_all do | symsName, syms |
+      syms.find_all do | symName, keycode |
+        everything[symName] = keycode
+      end
+    end
+    everything
   end
 
 end

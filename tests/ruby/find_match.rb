@@ -1,3 +1,4 @@
+#!/usr/bin/ruby
 #
 # $Id$
 # The script finds best matching xkb_symbols in symbols/in
@@ -8,11 +9,14 @@
 
 require "xkbparser.rb"
 
-basedir = "../.."
+baseDir = "../.."
+
+symbolsDir = "#{baseDir}/symbols"
+#symbolsDir = "."
 
 parser = Parser.new
 
-allSyms = parser.parse("#{basedir}/symbols/inet")
+allSyms = parser.parse("#{symbolsDir}/inet")
 
 newSyms = parser.parse(ARGV[0])
 limit = ARGV[1].to_i
