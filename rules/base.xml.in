@@ -817,6 +817,12 @@
       <variantList>
         <variant>
           <configItem>
+            <name>euro</name>
+            <_description>With EuroSign on 5</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>intl</name>
             <_description>International (with dead keys)</_description>
           </configItem>

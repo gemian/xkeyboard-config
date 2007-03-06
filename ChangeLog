@@ -1,3 +1,8 @@
+2007-03-06  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/us: added us(euro), after a very hot
+	discussion in the maillist
+
 2007-02-26  Sergey Udaltsov
 
 	* symbols/inet: fixed broken symbol, closing

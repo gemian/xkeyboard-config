@@ -64,6 +64,16 @@ xkb_symbols "basic" {
     // End alphanumeric section
 };
 
+partial alphanumeric_keys
+xkb_symbols "euro" {
+
+    name[Group1]= "U.S. English - With EuroSign on 5";
+
+    include "us(basic)"
+
+    include "eurosign(5)"
+};
+
 
 partial alphanumeric_keys
 xkb_symbols "intl" {
