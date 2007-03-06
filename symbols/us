@@ -72,6 +72,8 @@ xkb_symbols "euro" {
     include "us(basic)"
 
     include "eurosign(5)"
+
+    include "level3(ralt_switch)"
 };
 
 
