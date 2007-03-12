@@ -1,3 +1,8 @@
+2007-03-13  Sergey Udaltsov
+
+	* configure.in: added Korean translation,
+	https://bugs.freedesktop.org/show_bug.cgi?id=10269
+
 2007-03-06  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/us: added us(euro), after a very hot
