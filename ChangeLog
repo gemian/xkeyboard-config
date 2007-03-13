@@ -2,6 +2,8 @@
 
 	* configure.in: added Korean translation,
 	https://bugs.freedesktop.org/show_bug.cgi?id=10269
+	* rules/base.xml.in: s/descr/_descr/g, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=10270
 
 2007-03-06  Sergey Udaltsov
 

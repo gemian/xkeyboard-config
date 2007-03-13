@@ -185,7 +185,7 @@
     <model>
       <configItem>
         <name>cherryblueb</name>
-        <description>Cherry CyMotion Master XPress</description>
+        <_description>Cherry CyMotion Master XPress</_description>
       </configItem>
     </model>
     <model>
@@ -281,19 +281,19 @@
     <model>
       <configItem>
         <name>precision_m</name>
-        <description>Dell Laptop/notebook Precision M series</description>
+        <_description>Dell Laptop/notebook Precision M series</_description>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>sk8125</name>
-        <description>Dell SK-8125 USB Multimedia Keybard</description>
+        <_description>Dell SK-8125 USB Multimedia Keybard</_description>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>sk8135</name>
-        <description>Dell SK-8135 USB Multimedia Keybard</description>
+        <_description>Dell SK-8135 USB Multimedia Keybard</_description>
       </configItem>
     </model>
     <model>
@@ -719,13 +719,13 @@
     <model>
       <configItem>
         <name>macbook78</name>
-        <description>MacBook/MacBook Pro</description>
+        <_description>MacBook/MacBook Pro</_description>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>macbook79</name>
-        <description>MacBook/MacBook Pro (Intl)</description>
+        <_description>MacBook/MacBook Pro (Intl)</_description>
       </configItem>
     </model>
     <model>
@@ -3325,18 +3325,18 @@
       <!-- Select a keypad type -->
       <configItem>
         <name>keypad</name>
-        <description>Keypad layout selection</description>
+        <_description>Keypad layout selection</_description>
       </configItem>
       <option>
         <configItem>
           <name>keypad:legacy</name>
-          <description>Force standard legacy keypad</description>
+          <_description>Force standard legacy keypad</_description>
        </configItem>
       </option>
       <option>
         <configItem>
           <name>keypad:oss</name>
-          <description>Use keypad with unicode additions (arrows and math operators)</description>
+          <_description>Use keypad with unicode additions (arrows and math operators)</_description>
        </configItem>
       </option>
     </group>
@@ -3608,12 +3608,12 @@
     <group allowMultipleSelection="true">
       <configItem>
         <name>japan</name>
-        <description>Japanese Keyboard Options</description>
+        <_description>Japanese Keyboard Options</_description>
       </configItem>
       <option>
         <configItem>
           <name>japan:kana_lock</name>
-          <description>Kana Lock key is locking</description>
+          <_description>Kana Lock key is locking</_description>
        </configItem>
       </option>
     </group>
