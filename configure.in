@@ -11,9 +11,9 @@ if test x$XKBCOMP = xnot_found ; then
 fi
 
 AC_ARG_WITH( xkb_base,
-             [  --with-xkb-base=DIR        XKB base path (by default it is /usr/X11R6/lib/X11/xkb)],
+             [AS_HELP_STRING([--with-xkb-base=DIR],[XKB base path @<:@DATADIR/X11/xkb@:>@])],
              xkb_base="$withval", 
-             xkb_base="\$(prefix)/lib/X11/xkb" )
+             xkb_base="\$(datadir)/X11/xkb" )
 
 AC_ARG_WITH( xkb_rules_symlink,
              [  --with-xkb-rules-symlink=NAME1(,NAME2)*        create symlink(s) to "old style" rules files (xfree86 and/or xorg)],
@@ -72,4 +72,20 @@ types/Makefile
 xkeyboard-config.spec
 docs/Makefile
 ])
+
+echo '***********************************************************'
+echo "  $PACKAGE_NAME is configured with the following parameters:"
+echo "    XKB base directory: $xkb_base"
+if test -z "$xkb_rules_symlink" ; then
+  echo "    Symbolic link(s) to legacy rules are not created"
+else
+  echo "    Symbolic link(s) to legacy rules: $xkb_rules_symlink"
+fi
+
+if test "$enable_compat_rules" == "yes" ; then
+  echo "    Compatibility rules are included"
+else
+  echo "    Compatibility rules are not included"
+fi
+echo '***********************************************************'
 

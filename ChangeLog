@@ -1,3 +1,8 @@
+2007-03-29  Sergey Udaltsov
+
+	* configure.in: improved xkb_base calculation, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=10435
+
 2007-03-13  Sergey Udaltsov
 
 	* configure.in: added Korean translation,
