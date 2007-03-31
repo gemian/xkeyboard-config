@@ -1,3 +1,8 @@
+2007-04-01  Sergey Udaltsov
+
+	* symbols/cd: fixed Congolese layout,
+	https://bugs.freedesktop.org/show_bug.cgi?id=5500
+
 2007-03-29  Sergey Udaltsov
 
 	* configure.in: improved xkb_base calculation, closing
