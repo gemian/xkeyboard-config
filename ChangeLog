@@ -1,3 +1,8 @@
+2007-04-05  Sergey Udaltsov
+
+	* symbols/se, rules/base.xml.in: added se(svdvorak),
+	https://bugs.freedesktop.org/show_bug.cgi?id=10424
+
 2007-04-03  Sergey Udaltsov
 
 	* symbols/cd: fixed Congolese layout one more time,

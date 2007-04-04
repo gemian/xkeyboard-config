@@ -207,3 +207,50 @@ xkb_symbols "mac" {
     include "level3(ralt_switch)"
 };
 
+// Svdvorak
+// This version of Dvorak follows danish and norwegian style in hope for a
+Scandinavian standard.
+partial alphanumeric_keys
+xkb_symbols "svdvorak" {
+
+   name[Group1]="Sweden - Svdvorak";
+
+   include "se(basic)"
+
+   key <AD01> { [ aring, Aring, braceleft ] };
+   key <AD02> { [ comma, semicolon, bracketleft ] };
+   key <AD03> { [ period, colon, bracketright ] };
+   key <AD04> { [ p, P, braceright ] };
+   key <AD05> { [ y, Y ] };
+   key <AD06> { [ f, F ] };
+   key <AD07> { [ g, G ] };
+   key <AD08> { [ c, C ] };
+   key <AD09> { [ r, R ] };
+   key <AD10> { [ l, L ] };
+   key <AD11> { [ apostrophe, asterisk ] };
+
+   key <AC01> { [ a, A ] };
+   key <AC02> { [ o, O, parenleft ] };
+   key <AC03> { [ e, E, parenright ] };
+   key <AC04> { [ u, U ] };
+   key <AC05> { [ i, I ] };
+   key <AC06> { [ d, D ] };
+   key <AC07> { [ h, H ] };
+   key <AC08> { [ t, T ] };
+   key <AC09> { [ n, N ] };
+   key <AC10> { [ s, S, ssharp ] };
+   key <AC11> { [ minus, underscore ] };
+   key <BKSL> { [ less, greater, bar ] };
+
+   key <LSGT> { [ odiaeresis, Odiaeresis ] };
+   key <AB01> { [ adiaeresis, Adiaeresis ] };
+   key <AB02> { [ q, Q ] };
+   key <AB03> { [ j, J ] };
+   key <AB04> { [ k, K ] };
+   key <AB05> { [ x, X ] };
+   key <AB06> { [ b, B ] };
+   key <AB07> { [ m, M ] };
+   key <AB08> { [ w, W ] };
+   key <AB09> { [ v, V ] };
+   key <AB10> { [ z, Z ] };
+};
