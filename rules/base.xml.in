@@ -1752,6 +1752,24 @@
       <variantList>
         <variant>
           <configItem>
+            <name>azerty_tskapo</name>
+            <_description>AZERTY Tskapo</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ergonomic</name>
+            <_description>Ergonomic</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mess</name>
+            <_description>MESS</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>ru</name>
             <_description>Russian</_description>
           </configItem>
