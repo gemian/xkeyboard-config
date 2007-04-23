@@ -912,12 +912,12 @@ xkb_geometry "abnt2" {
 	    keys { { <CAPS>, "CAPS", color="grey20" },
 		   <AC01>, <AC02>, <AC03>, <AC04>, <AC05>, 
 		   <AC06>, <AC07>, <AC08>, <AC09>, <AC10>, 
-		   <AC11>, <AC12>
+		   <AC11>, <BKSL>
 	    };
 	};
 	row {
 	    top= 58;
-	    keys { { <LFSH>, "LFSH", color="grey20" }, <BKSL>,
+	    keys { { <LFSH>, "LFSH", color="grey20" }, <LSGT>,
 		    <AB01>, <AB02>, <AB03>, <AB04>, <AB05>, 
 		    <AB06>, <AB07>, <AB08>, <AB09>, <AB10>, 
 		    <AB11>, { <RTSH>, "RTSH", color="grey20" }

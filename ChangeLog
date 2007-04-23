@@ -1,3 +1,8 @@
+2007-04-23  Sergey Udaltsov
+
+	* geometry/pc: fix for abnt2, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=10725
+
 2007-04-11  Sergey Udaltsov
 
 	* symbols/ge, rules/base.xml.in: added/fixed a lot of Georgian
