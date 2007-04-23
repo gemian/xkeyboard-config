@@ -1434,6 +1434,12 @@ xkb_symbols "logicdit" {
     include "inet(logitech_base)"
 };
 
+// Logitech Cordless Desktop Optical
+partial alphanumeric_keys
+xkb_symbols "logicdo" {
+    include "inet(logitech_base)"
+};
+
 // Logitech Cordless Desktop Pro
 partial alphanumeric_keys
 xkb_symbols "logicdp" {

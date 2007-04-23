@@ -2,6 +2,8 @@
 
 	* geometry/pc: fix for abnt2, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=10725
+	* symbols/inet, rules/base.lists.part: adding missing logicdo, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=10671
 
 2007-04-11  Sergey Udaltsov
 
