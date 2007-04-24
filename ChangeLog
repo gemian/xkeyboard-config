@@ -1,3 +1,8 @@
+2007-04-24  Sergey Udaltsov
+
+	* symbols/ma: fixing alt in Tifinagh, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=10736
+
 2007-04-23  Sergey Udaltsov
 
 	* geometry/pc: fix for abnt2, closing
