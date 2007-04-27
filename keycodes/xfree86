@@ -21,6 +21,7 @@ xkb_keycodes "basic" {
     maximum= 255;
 
     <TLDE> =  49;
+    alias <AE00> = <TLDE>;	// Some geometries use AE00
     <AE01> =  10;
     <AE02> =  11;
     <AE03> =  12;
