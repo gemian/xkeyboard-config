@@ -97,7 +97,7 @@ default xkb_geometry "natural" {
 	angle= 10;
 	row {
 	    top= 1;
-	    keys {	<AE00>, <AE01>, <AE02>, <AE03>, <AE04>,
+	    keys {	<TLDE>, <AE01>, <AE02>, <AE03>, <AE04>,
 			<AE05>, { <AE06>, "KEY6" }
 	    };
 	};
