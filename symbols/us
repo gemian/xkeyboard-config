@@ -62,6 +62,7 @@ xkb_symbols "basic" {
     key <AB10> {	[     slash,	question	]	};
 
     key <BKSL> {	[ backslash,         bar	]	};
+    key <CAPS> {	[ Caps_Lock	]	};
     // End alphanumeric section
 };
 
@@ -508,4 +509,3 @@ xkb_symbols "mac" {
     include "us"
     name[Group1]= "U.S. English - Macintosh";
 };
-
