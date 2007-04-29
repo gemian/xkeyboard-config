@@ -1,3 +1,8 @@
+2007-04-29  Sergey Udaltsov
+
+	* symbols/us: adding explicit BKSL, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=10811
+
 2007-04-27  Sergey Udaltsov
 
 	* geometry/microsoft: replacing non-defined AE00 with TLDE,

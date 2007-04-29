@@ -61,6 +61,7 @@ xkb_symbols "basic" {
     key <AB09> {	[    period,	greater		]	};
     key <AB10> {	[     slash,	question	]	};
 
+    key <BKSL> {	[ backslash,         bar	]	};
     // End alphanumeric section
 };
 
