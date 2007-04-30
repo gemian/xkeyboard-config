@@ -1,3 +1,7 @@
+2007-04-30  Sergey Udaltsov
+
+	* rules/base.xml.in: make descriptions less technical
+
 2007-04-29  Sergey Udaltsov
 
 	* symbols/us: adding explicit BKSL, closing

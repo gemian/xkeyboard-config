@@ -3062,156 +3062,156 @@
       <!-- The key combination used to switch between groups -->
       <configItem>
         <name>grp</name>
-        <_description>Group Shift/Lock behavior</_description>
+        <_description>Layout switching</_description>
       </configItem>
       <option>
         <configItem>
           <name>grp:switch</name>
-          <_description>R-Alt switches group while pressed.</_description>
+          <_description>R-Alt switches layout while pressed.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lswitch</name>
-          <_description>Left Alt key switches group while pressed.</_description>
+          <_description>Left Alt key switches layout while pressed.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lwin_switch</name>
-          <_description>Left Win-key switches group while pressed.</_description>
+          <_description>Left Win-key switches layout while pressed.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rwin_switch</name>
-          <_description>Right Win-key switches group while pressed.</_description>
+          <_description>Right Win-key switches layout while pressed.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:win_switch</name>
-          <_description>Both Win-keys switch group while pressed.</_description>
+          <_description>Both Win-keys switch layout while pressed.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rctrl_switch</name>
-          <_description>Right Ctrl key switches group while pressed.</_description>
+          <_description>Right Ctrl key switches layout while pressed.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:toggle</name>
-          <_description>Right Alt key changes group.</_description>
+          <_description>Right Alt key changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lalt_toggle</name>
-          <_description>Left Alt key changes group.</_description>
+          <_description>Left Alt key changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:caps_toggle</name>
-          <_description>CapsLock key changes group.</_description>
+          <_description>CapsLock key changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:shift_caps_toggle</name>
-          <_description>Shift+CapsLock changes group.</_description>
+          <_description>Shift+CapsLock changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:alt_caps_toggle</name>
-          <_description>Alt+CapsLock changes group.</_description>
+          <_description>Alt+CapsLock changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:shifts_toggle</name>
-          <_description>Both Shift keys together change group.</_description>
+          <_description>Both Shift keys together change layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:alts_toggle</name>
-          <_description>Both Alt keys together change group.</_description>
+          <_description>Both Alt keys together change layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:ctrls_toggle</name>
-          <_description>Both Ctrl keys together change group.</_description>
+          <_description>Both Ctrl keys together change layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:ctrl_shift_toggle</name>
-          <_description>Ctrl+Shift changes group.</_description>
+          <_description>Ctrl+Shift change layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lctrl_lshift_toggle</name>
-          <_description>LCtrl+LShift changes group.</_description>
+          <_description>LCtrl+LShift change layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:ctrl_alt_toggle</name>
-          <_description>Alt+Ctrl changes group.</_description>
+          <_description>Alt+Ctrl change layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:alt_shift_toggle</name>
-          <_description>Alt+Shift changes group.</_description>
+          <_description>Alt+Shift change layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:menu_toggle</name>
-          <_description>Menu key changes group.</_description>
+          <_description>Menu key changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lwin_toggle</name>
-          <_description>Left Win-key changes group.</_description>
+          <_description>Left Win-key changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rwin_toggle</name>
-          <_description>Right Win-key changes group.</_description>
+          <_description>Right Win-key changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lshift_toggle</name>
-          <_description>Left Shift key changes group.</_description>
+          <_description>Left Shift key changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rshift_toggle</name>
-          <_description>Right Shift key changes group.</_description>
+          <_description>Right Shift key changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lctrl_toggle</name>
-          <_description>Left Ctrl key changes group.</_description>
+          <_description>Left Ctrl key changes layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rctrl_toggle</name>
-          <_description>Right Ctrl key changes group.</_description>
+          <_description>Right Ctrl key changes layout.</_description>
         </configItem>
       </option>
     </group>
@@ -3324,24 +3324,24 @@
       <!-- Using startard LEDs to indicate the alternative (not first) group(s) -->
       <configItem>
         <name>grp_led</name>
-        <_description>Use keyboard LED to show alternative group.</_description>
+        <_description>Use keyboard LED to show alternative layout.</_description>
       </configItem>
       <option>
         <configItem>
           <name>grp_led:num</name>
-          <_description>NumLock LED shows alternative group.</_description>
+          <_description>NumLock LED shows alternative layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp_led:caps</name>
-          <_description>CapsLock LED shows alternative group.</_description>
+          <_description>CapsLock LED shows alternative layout.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp_led:scroll</name>
-          <_description>ScrollLock LED shows alternative group.</_description>
+          <_description>ScrollLock LED shows alternative layout.</_description>
         </configItem>
       </option>
     </group>
@@ -3349,7 +3349,7 @@
       <!-- Select a keypad type -->
       <configItem>
         <name>keypad</name>
-        <_description>Keypad layout selection</_description>
+        <_description>Numeric keypad layout selection</_description>
       </configItem>
       <option>
         <configItem>
@@ -3527,19 +3527,19 @@
       <option>
         <configItem>
           <name>numpad:pc</name>
-          <_description>Default numpad keys.</_description>
+          <_description>Default numeric keypad keys.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>numpad:mac</name>
-          <_description>Numpad keys work as with Mac.</_description>
+          <_description>Numeric keypad keys work as with Mac.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>numpad:microsoft</name>
-          <_description>Shift with numpad keys works as in MS Windows.</_description>
+          <_description>Shift with numeric keypad keys works as in MS Windows.</_description>
         </configItem>
       </option>
       <option>
@@ -3584,55 +3584,55 @@
       <!-- Let space output nobreakspace for the desired level -->
       <configItem>
         <name>nbsp</name>
-        <_description>Adding the nobreakspace keysym to space key</_description>
+        <_description>Using space key to input non-breakable space character</_description>
       </configItem>
       <option>
         <configItem>
           <name>nbsp:none</name>
-          <_description>Space key output space at any level.</_description>
+          <_description>Space key outputs usual space at any level.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level2</name>
-          <_description>Space key output nobreakspace at second level.</_description>
+          <_description>Space key outputs non-breakable space character at second level.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level3</name>
-          <_description>Space key output nobreakspace at third level.</_description>
+          <_description>Space key outputs non-breakable space character at third level.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level3s</name>
-          <_description>Space key output nobreakspace at third level, nothing at fourth level.</_description>
+          <_description>Space key outputs non-breakable space character at third level, nothing at fourth level.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level3n</name>
-          <_description>Space key output nobreakspace at third level, thin nobreakspace at fourth level</_description>
+          <_description>Space key outputs non-breakable space character at third level, thin non-breakable space character at fourth level</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level4</name>
-          <_description>Space key output nobreakspace at fourth level.</_description>
+          <_description>Space key outputs non-breakable space character at fourth level.</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level4n</name>
-          <_description>Space key output nobreakspace at fourth level, thin nobreakspace at sixth level</_description>
+          <_description>Space key outputs non-breakable space character at fourth level, thin non-breakable space character at sixth level</_description>
         </configItem>
       </option>
     </group>
     <group allowMultipleSelection="true">
       <configItem>
         <name>japan</name>
-        <_description>Japanese Keyboard Options</_description>
+        <_description>Japanese keyboard options</_description>
       </configItem>
       <option>
         <configItem>
