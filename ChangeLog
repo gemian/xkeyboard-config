@@ -1,3 +1,8 @@
+2007-05-02  Sergey Udaltsov
+
+	* symbols/gr: using Unicode since it is more appropriate for polytonic
+	Greek, https://bugs.freedesktop.org/show_bug.cgi?id=10824
+
 2007-04-30  Sergey Udaltsov
 
 	* rules/base.xml.in: make descriptions less technical
