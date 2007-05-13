@@ -6,174 +6,203 @@
       <configItem>
         <name>pc101</name>
         <_description>Generic 101-key PC</_description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>pc102</name>
         <_description>Generic 102-key (Intl) PC</_description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>pc104</name>
         <_description>Generic 104-key PC</_description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>pc105</name>
         <_description>Generic 105-key (Intl) PC</_description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>dell101</name>
         <_description>Dell 101-key PC</_description>
+        <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>latitude</name>
         <_description>Dell Latitude series laptop</_description>
+        <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>everex</name>
         <_description>Everex STEPnote</_description>
+        <vendor>Everex</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>flexpro</name>
         <_description>Keytronic FlexPro</_description>
+        <vendor>Keytronic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>microsoft</name>
         <_description>Microsoft Natural</_description>
+        <vendor>Microsoft</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>omnikey101</name>
         <_description>Northgate OmniKey 101</_description>
+        <vendor>Northgate</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>winbook</name>
         <_description>Winbook Model XP5</_description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>jp106</name>
         <_description>Japanese 106-key</_description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>pc98</name>
         <_description>PC-98xx Series</_description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>a4techKB21</name>
         <_description>A4Tech KB-21</_description>
+        <vendor>A4Tech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>a4techKBS8</name>
         <_description>A4Tech KBS-8</_description>
+        <vendor>A4Tech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>a4_rfkb23</name>
         <_description>A4Tech Wireless Desktop RFKB-23</_description>
+        <vendor>A4Tech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>abnt2</name>
         <_description>Brazilian ABNT2</_description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>airkey</name>
         <_description>Acer AirKey V</_description>
+        <vendor>Acer</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>acpi</name>
         <_description>ACPI Standard</_description>
+        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>azonaRF2300</name>
         <_description>Azona RF2300 wireless Internet Keyboard</_description>
+        <vendor>Azona</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>scorpius</name>
         <_description>Advance Scorpius KI</_description>
+        <vendor>Scorpius</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>brother</name>
         <_description>Brother Internet Keyboard</_description>
+        <vendor>Brother</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>btc5113rf</name>
         <_description>BTC 5113RF Multimedia</_description>
+        <vendor>BTC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>btc5126t</name>
         <_description>BTC 5126T</_description>
+        <vendor>BTC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>btc9000</name>
         <_description>BTC 9000</_description>
+        <vendor>BTC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>btc9000a</name>
         <_description>BTC 9000A</_description>
+        <vendor>BTC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>btc9001ah</name>
         <_description>BTC 9001AH</_description>
+        <vendor>BTC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>btc5090</name>
         <_description>BTC 5090</_description>
+        <vendor>BTC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>btc9019u</name>
 	<_description>BTC 9019U</_description>
+        <vendor>BTC</vendor>
       </configItem>
     </model>
     <model>
@@ -186,12 +215,14 @@
       <configItem>
         <name>cherryblueb</name>
         <_description>Cherry CyMotion Master XPress</_description>
+        <vendor>Cherry</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>cherrybluea</name>
         <_description>Cherry Blue Line CyBo@rd (alternate option)</_description>
+        <vendor>Cherry</vendor>
       </configItem>
     </model>
     <model>
@@ -204,108 +235,126 @@
       <configItem>
         <name>chicony</name>
         <_description>Chicony Internet Keyboard</_description>
+        <vendor>Chicony</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>chicony9885</name>
         <_description>Chicony KB-9885</_description>
+        <vendor>Chicony</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>compaqeak8</name>
         <_description>Compaq Easy Access Keyboard</_description>
+        <vendor>Compaq</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>compaqik7</name>
         <_description>Compaq Internet Keyboard (7 keys)</_description>
+        <vendor>Compaq</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>compaqik13</name>
         <_description>Compaq Internet Keyboard (13 keys)</_description>
+        <vendor>Compaq</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>compaqik18</name>
         <_description>Compaq Internet Keyboard (18 keys)</_description>
+        <vendor>Compaq</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>cymotionlinux</name>
         <_description>Cherry CyMotion Master Linux</_description>
+        <vendor>Cherry</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>armada</name>
         <_description>Laptop/notebook Compaq (eg. Armada) Laptop Keyboard</_description>
+        <vendor>Compaq</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>presario</name>
         <_description>Laptop/notebook Compaq (eg. Presario) Internet Keyboard</_description>
+        <vendor>Compaq</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>ipaq</name>
         <_description>Compaq iPaq Keyboard</_description>
+        <vendor>Compaq</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>dell</name>
         <_description>Dell</_description>
+        <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>dellusbmm</name>
         <_description>Dell USB Multimedia Keybard</_description>
+        <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>inspiron</name>
         <_description>Dell Laptop/notebook Inspiron 6xxx/8xxx</_description>
+        <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>precision_m</name>
         <_description>Dell Laptop/notebook Precision M series</_description>
+        <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>sk8125</name>
         <_description>Dell SK-8125 USB Multimedia Keybard</_description>
+        <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>sk8135</name>
         <_description>Dell SK-8135 USB Multimedia Keybard</_description>
+        <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>dexxa</name>
         <_description>Dexxa Wireless Desktop Keyboard</_description>
+        <vendor>Dexxa</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>diamond</name>
         <_description>Diamond 9801 / 9802 series</_description>
+        <vendor>Diamond</vendor>
       </configItem>
     </model>
     <model>
@@ -318,330 +367,385 @@
       <configItem>
         <name>ennyah_dkb1008</name>
         <_description>Ennyah DKB-1008</_description>
+        <vendor>Ennyah</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>genius</name>
         <_description>Genius Comfy KB-16M / Genius MM Keyboard KWD-910</_description>
+        <vendor>Genius</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>geniuscomfy</name>
         <_description>Genius Comfy KB-12e</_description>
+        <vendor>Genius</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>geniuscomfy2</name>
         <_description>Genius Comfy KB-21e-Scroll</_description>
+        <vendor>Genius</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>geniuskb19e</name>
         <_description>Genius KB-19e NB</_description>
+        <vendor>Genius</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>gyration</name>
         <_description>Gyration</_description>
+        <vendor>Gyration</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logitech_g15</name>
         <_description>Logitech G15 extra keys via G15daemon</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hpi6</name>
         <_description>Hewlett-Packard Internet Keyboard</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hp2501</name>
         <_description>Hewlett-Packard SK-2501 Multimedia Keyboard</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hp2505</name>
         <_description>Hewlett-Packard SK-2505 Internet Keyboard</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hpxe3gc</name>
         <_description>Hewlett-Packard Omnibook XE3 GC</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hpxe3gf</name>
         <_description>Hewlett-Packard Omnibook XE3 GF</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hpxt1000</name>
         <_description>Hewlett-Packard Omnibook XT1000</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hpzt11xx</name>
         <_description>Hewlett-Packard Pavilion ZT11xx</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hp500fa</name>
         <_description>Hewlett-Packard Omnibook 500 FA</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hp5xx</name>
         <_description>Hewlett-Packard Omnibook 5xx</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>hp6000</name>
         <_description>Hewlett-Packard Omnibook 6000/6100</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>honeywell_euroboard</name>
         <_description>Honeywell Euroboard</_description>
+        <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>rapidaccess</name>
         <_description>IBM Rapid Access</_description>
+        <vendor>IBM</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>rapidaccess2</name>
         <_description>IBM Rapid Access II</_description>
+        <vendor>IBM</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>rapidaccess2a</name>
         <_description>IBM Rapid Access II (alternate option)</_description>
+        <vendor>IBM</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>thinkpad</name>
         <_description>IBM ThinkPad 560Z/600/600E/A22E</_description>
+        <vendor>IBM</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>thinkpadintl</name>
         <_description>IBM ThinkPad 560Z/600/600E/A22E, Intl</_description>
+        <vendor>IBM</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logiaccess</name>
         <_description>Logitech Access Keyboard</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>ltcd</name>
         <_description>Logitech Cordless Desktop</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logicdit</name>
         <_description>Logitech Cordless Desktop iTouch</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logiclx300</name>
         <_description>Logitech Cordless Desktop LX-300</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logicdp</name>
         <_description>Logitech Cordless Desktop Pro</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logicdpa</name>
         <_description>Logitech Cordless Desktop Pro (alternate option)</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logicdpa2</name>
         <_description>Logitech Cordless Desktop Pro (alternate option2)</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logicdo</name>
         <_description>Logitech Cordless Desktop Optical</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logicfn</name>
         <_description>Logitech Cordless Freedom/Desktop Navigator</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logicdn</name>
         <_description>Logitech Cordless Desktop Navigator</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logiitc</name>
         <_description>Logitech iTouch Cordless Keyboard (model Y-RB6)</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logiik</name>
         <_description>Logitech Internet Keyboard</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>itouch</name>
         <_description>Logitech iTouch</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logicink</name>
         <_description>Logitech Internet Navigator Keyboard</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logiinkse</name>
         <_description>Logitech iTouch Internet Navigator Keyboard SE</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logiinkseusb</name>
         <_description>Logitech iTouch Internet Navigator Keyboard SE (USB)</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>logiultrax</name>
         <_description>Logitech Ultra-X Keyboard</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>dinovo</name>
         <_description>Logitech diNovo Keyboard</_description>
+        <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>mx1998</name>
         <_description>Memorex MX1998</_description>
+        <vendor>Memorex</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>mx2500</name>
         <_description>Memorex MX2500 EZ-Access Keyboard</_description>
+        <vendor>Memorex</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>mx2750</name>
         <_description>Memorex MX2750</_description>
+        <vendor>Memorex</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>microsoftinet</name>
         <_description>Microsoft Internet Keyboard</_description>
+        <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>microsoftpro</name>
         <_description>Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro</_description>
+        <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>microsoftprousb</name>
         <_description>Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro</_description>
+        <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>microsoftprooem</name>
         <_description>Microsoft Natural Keyboard Pro OEM</_description>
+        <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>microsoftprose</name>
         <_description>Microsoft Internet Keyboard Pro, Swedish</_description>
+        <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>microsoftoffice</name>
         <_description>Microsoft Office Keyboard</_description>
+        <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>microsoftmult</name> 
         <_description>Microsoft Wireless Multimedia Keyboard 1.0A</_description>
+        <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>oretec</name>
-        <_description>Oretec MCK-800 MM/Internet keyboard</_description>
+        <_description>Ortek MCK-800 MM/Internet keyboard</_description>
+        <vendor>Ortek</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>propeller</name>
         <_description>Propeller Voyager (KTEZ-1000)</_description>
+        <vendor>KeyTronic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>qtronix</name>
         <_description>QTronix Scorpius 98N+</_description>
+        <vendor>QTronix</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>samsung4500</name>
         <_description>Samsung SDM 4500P</_description>
+        <vendor>Samsung</vendor>
       </configItem>
     </model>
     <model>
@@ -654,156 +758,182 @@
       <configItem>
         <name>sk1300</name>
         <_description>SK-1300</_description>
+	<vendor>NEC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>sk2500</name>
         <_description>SK-2500</_description>
+	<vendor>NEC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>sk6200</name>
         <_description>SK-6200</_description>
+	<vendor>NEC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>sk7100</name>
         <_description>SK-7100</_description>
+	<vendor>NEC</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>sp_inet</name>
         <_description>Super Power Multimedia Keyboard</_description>
+	<vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>sven</name>
         <_description>SVEN Ergonomic 2500</_description>
+	<vendor>SVEN</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>symplon</name>
         <_description>Symplon PaceBook (tablet PC)</_description>
+	<vendor>Symplon</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>toshiba_s3000</name>
         <_description>Toshiba Satellite S3000</_description>
+	<vendor>Toshiba</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>trust</name>
         <_description>Trust Wireless Keyboard Classic</_description>
+	<vendor>Trust</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>trustda</name>
         <_description>Trust Direct Access Keyboard</_description>
+	<vendor>Trust</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>yahoo</name>
         <_description>Yahoo! Internet Keyboard</_description>
+	<vendor>Yahoo!</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>macbook78</name>
         <_description>MacBook/MacBook Pro</_description>
+	<vendor>Apple</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>macbook79</name>
         <_description>MacBook/MacBook Pro (Intl)</_description>
+	<vendor>Apple</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>macintosh</name>
         <_description>Macintosh</_description>
+	<vendor>Apple</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>macintosh_old</name>
         <_description>Macintosh Old</_description>
+	<vendor>Apple</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>acer_c300</name>
         <_description>Acer C300</_description>
+	<vendor>Acer</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>acer_tm_800</name>
         <_description>Acer TravelMate 800</_description>
+	<vendor>Acer</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>acer_ferrari4k</name>
         <_description>Acer Ferrari 4000</_description>
+	<vendor>Acer</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>apple</name>
         <_description>Apple</_description>
+	<vendor>Apple</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>apple_laptop</name>
         <_description>Apple Laptop</_description>
+	<vendor>Apple</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>silvercrest</name>
         <_description>SILVERCREST Multimedia Wireless Keyboard</_description>
+	<vendor>Silvercrest</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>emachines</name>
         <_description>Laptop/notebook eMachines m68xx</_description>
+	<vendor>eMachines</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
 	<name>kr106</name>
 	<_description>Korean 106-key</_description>
+	<vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
 	<name>evdev</name>
 	<_description>Evdev-managed keyboard</_description>
+	<vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
 	<name>benqx730</name>
 	<_description>BenQ X-Touch 730</_description>
+	<vendor>BenQ</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
 	<name>benqx800</name>
 	<_description>BenQ X-Touch 800</_description>
+	<vendor>BenQ</vendor>
       </configItem>
     </model>
   </modelList>

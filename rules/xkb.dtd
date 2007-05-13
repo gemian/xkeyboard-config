@@ -32,7 +32,7 @@
 
 <!ELEMENT option (configItem)>
 
-<!ELEMENT configItem (name,shortDescription*,description*,countryList?,languageList?)>
+<!ELEMENT configItem (name,shortDescription*,description*,vendor?,countryList?,languageList?)>
 
 <!ATTLIST configItem
           popularity (standard|exotic) "standard">
@@ -46,6 +46,8 @@
 <!ELEMENT description (#PCDATA)>
 <!ATTLIST description
           xml:lang CDATA #IMPLIED>
+
+<!ELEMENT vendor (#PCDATA)>
 
 <!ELEMENT countryList (iso3166Id+)>
 
