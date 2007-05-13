@@ -76,7 +76,7 @@ xkb_symbols "basic" {
     key <AD11> { [ bracketright, braceright, 0x10005bf	]}; // Rafe
     key <AD12> { [ bracketleft,  braceleft,  0x10005bd	]}; // Meteg
                                       
-    key <BKSL> { [ backslash,    backslash,  0x10005bb	]}; // Qubuts    
+    key <BKSL> { [ backslash,    bar,  0x10005bb	]}; // Qubuts    
 };
 
 
