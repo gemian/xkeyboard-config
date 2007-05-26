@@ -3770,6 +3770,12 @@
           <_description>Kana Lock key is locking</_description>
        </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>japan:nicola_f_bs</name>
+          <_description>NICOLA-F style Backspace</_description>
+       </configItem>
+      </option>
     </group>
   </optionList>
 </xkbConfigRegistry>

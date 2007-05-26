@@ -1,3 +1,9 @@
+2007-05-26  Sergey Udaltsov
+
+	*  rules/base.o_s.part, rules/base.xml.in, symbols/jp: Add
+	"NICOLA-F style Backspace" to "Japanese keyboard options", closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=11064
+
 2007-05-14  Sergey Udaltsov
 
 	*  rules/base.xml.in, rules/xkb.dtd: introducing vendor into

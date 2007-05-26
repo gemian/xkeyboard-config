@@ -198,3 +198,15 @@ xkb_symbols "kana" {
     };
 };
 
+partial modifier_keys
+xkb_symbols "nicola_f_bs" {
+    key <BKSP> {
+       type="",
+       symbols[Group1]= [ bracketright, braceright ]
+    };
+    key <AE10> { [ 0,underscore         ] };
+    key <AD11> { [ colon, asterisk      ] };
+    key <AC11> { [ BackSpace, BackSpace ] };
+    key <AC12> { [ Escape               ] };
+    key <AB11> { [ at, grave            ] };
+};
