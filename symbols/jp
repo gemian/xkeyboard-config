@@ -198,7 +198,7 @@ xkb_symbols "kana" {
     };
 };
 
-partial modifier_keys
+partial alphanumeric_keys
 xkb_symbols "nicola_f_bs" {
     key <BKSP> {
        type="",
