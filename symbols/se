@@ -209,7 +209,7 @@ xkb_symbols "mac" {
 
 // Svdvorak
 // This version of Dvorak follows danish and norwegian style in hope for a
-Scandinavian standard.
+// Scandinavian standard.
 partial alphanumeric_keys
 xkb_symbols "svdvorak" {
 
