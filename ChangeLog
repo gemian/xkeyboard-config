@@ -1,3 +1,8 @@
+2007-06-26  Sergey Udaltsov
+
+	*  rules/xfree98: fixed nec_vndr, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=11176
+
 2007-05-26  Sergey Udaltsov
 
 	*  rules/base.o_s.part, rules/base.xml.in, symbols/jp: Add
