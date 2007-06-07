@@ -1,4 +1,9 @@
-2007-06-26  Sergey Udaltsov
+2007-06-07  Sergey Udaltsov
+
+	*  symbols/in, rules/base.xml.in: added Hindi phonetic,
+	https://bugs.freedesktop.org/show_bug.cgi?id=11195
+
+2007-06-06  Sergey Udaltsov
 
 	*  rules/xfree98: fixed nec_vndr, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=11176

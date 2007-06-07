@@ -1291,6 +1291,12 @@
             <_description>Urdu</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>bolnagri</name>
+            <_description>Hindi Bolnagri</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

@@ -88,6 +88,84 @@ xkb_symbols "deva" {
 	key <SPCE> { [ space, space, U200c, U200d ] };
 };
 
+//Name		:	Bolnagri (Combined)
+//Description	:	A phonetic keyboard layout for Devnagari(Hindi)
+//			http://www.indlinux.org/wiki/index.php/BolNagri
+//NOTE		: 	This is a combined map of bolnagri_matras and bolnagri_vowels.
+//Inspired by "devrom" keymap by Steve Smith for the windows tool "keyman"
+//Original Author :	Noah Levitt<nlevitt at columbia.edu>
+//Past Authors  : Pramod.R <pramodr at gmail.com> and Ravikant <ravikant at sarai.net>
+// Current Main.: G Karunakar <karunakar@sarai.net>
+
+partial alphanumeric_keys
+xkb_symbols "bolnagri" {
+     name[Group1] = "India - Hindi Bolnagri";
+     key.type="FOUR_LEVEL";
+    //Top Alphanumeric row
+    // Roman digits
+    key <TLDE>  { [   U0902,	U0901,		apostrophe, 	asciitilde ] }; // apostrophe: anusvara, candrabindu
+    key <AE01>  { [   1,	exclam,		U0967,		exclam	   ] };
+    key <AE02>  { [   2,	at,		U0968,		at	   ] };
+    key <AE03>  { [   3,    	numbersign, 	U0969,		numbersign ] };
+    key <AE04>  { [   4,	dollar,		U096A,		dollar     ] };
+    key <AE05>  { [   5,	percent,	U096B,		percent    ] };
+    key <AE06>  { [   6,	asciicircum,	U096C,		asciicircum ] };
+    key <AE07>  { [   7,	ampersand,	U096D,		ampersand  ] };
+    key <AE08>  { [   8,	asterisk,	U096E,		asterisk   ] };
+    key <AE09>  { [   9,	parenleft,	U096F,		parenleft  ] };
+    key <AE10>  { [   0,	parenright,	U0966,		parenright ] };
+    key <AE11>	{ [   minus,	underscore	     ] };
+    key <AE12>	{ [   equal,	plus		     ] };
+    key <BKSL>  { [   U0964,	U0965,		pipe,		backlash   ] }; //pipe : danda, double danda
+
+    //Q Row	
+    key <AD01>   { [   U200C, 	U200D   ] };  // Q: ZWNJ, ZWJ
+    key <AD02>   { [   U0935,  	U950	] };  // W: wa, OM
+    key <AD03>   { [   U0947,   U0948,	U090F,	U0910   ] };  // E: e, ai matras
+    key <AD04>   { [   U0930,	U0943  	] };  // R: ra, vocalic Ri
+    key <AD05>   { [   U0924,   U0925   ] };  // T: ta, tha
+    key <AD06>   { [   U092f,	U091E   ] };  // Y: ya, nya
+    key <AD07>   { [   U0941,   U0942,	U0909,	U090A   ] };  // U: u, uu matras
+    key <AD08>   { [   U093F,   U0940,	U0907,	U0908   ] };  // I: i, ii matras
+    key <AD09>   { [   U094B,   U094C,	U0913,	U0914   ] };  // O: o, au matras
+    key <AD10>   { [   U092A,   U092B   ] };  // P: pa, pha
+    key <AD11>   { [   bracketleft,   braceleft   ] };  
+    key <AD12>	 { [   bracketright, braceright   ] };
+    
+    //A Row
+    key <AC01>   { [   U093E,	 U0906,	U0905,	U0906  ] };   // A: aa
+    key <AC02>   { [   U0938,    U0937   ] };  // S: sa, ssa
+    key <AC03>   { [   U0926,    U0927   ] };  // D: da, dha
+    key <AC04>   { [   U091F,    U0920   ] };  // F: TA, THA
+    key <AC05>   { [   U0917,    U0918   ] };  // G: ga, gha
+    key <AC06>   { [   U0939,    U0903   ] };  // H: ha, visarg 
+    key <AC07>   { [   U091C,    U091D   ] };  // J: ja, jha
+    key <AC08>   { [   U0915,    U0916   ] };  // K: ka, kha
+    key <AC09>   { [   U0932,	 U0962   ] };  // L: la, vocalic L or lru matra`
+    key <AC10>   { [   semicolon, colon  ] }; 
+    key <AC11>   { [apostrophe, quotedbl ] };
+
+    //Z Row
+    key <AB01>   { [   U0936,	 U0945 	 ] };  // Z: sha, akaar candra
+    key <AB02>   { [   U094D,    U0949	 ] };  // X: halant, aakaar candra
+    key <AB03>   { [   U091A,    U091B   ] };  // C: ca, cha
+    key <AB04>   { [   U0921,    U0922   ] };  // V: da, dha
+    key <AB05>   { [   U092C,    U092D   ] };  // B: ba, bha
+    key <AB06>   { [   U0928,    U0923   ] };  // N: na, nha
+    key <AB07>   { [   U092E,    U093D,	U092E,	U093D   ] };  // M: ma, avagraha
+    key <AB08>   { [   comma,    U0970	 ] };// comma: comma, dev abbreviation sign
+    key <AB09>   { [   period,   U093C 	 ] };  // period: period, nukta
+    key <AB10>	 { [   slash,   question ] };
+
+   // begin modifier mappings
+//    modifier_map Shift  { Shift_L };
+//    modifier_map Lock   { Caps_Lock };
+//    modifier_map Control{ Control_L };
+//    modifier_map Mod3   { Mode_switch };
+    include "level3(ralt_switch)"
+};
+
+
 // based on a keyboard map from an 'xkb/symbols/ben' file
 //
 // $XFree86: xc/programs/xkbcomp/symbols/ben,v 1.2 2002/11/22 04:03:28 dawes Exp $
