@@ -2585,6 +2585,12 @@
             <_description>Ossetian, Winkeys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>cv</name>
+            <_description>Chuvash</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
