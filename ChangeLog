@@ -2,6 +2,8 @@
 
 	*  symbols/ru, rules/base.xml.in: added ru(cv), closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=11246
+	*  symbols/ge, rules/base.xml.in: added ge(os), again closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=8092
 
 2007-06-07  Sergey Udaltsov
 

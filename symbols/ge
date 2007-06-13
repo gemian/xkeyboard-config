@@ -323,3 +323,13 @@ xkb_symbols "ru" {
     key <AB10> { [ 0x010010f0,  question        ]       };
 
 };
+
+partial alphanumeric_keys
+xkb_symbols "os" {
+
+    include "ru(os)"
+
+    name[Group1]= "Georgia - Ossetian";
+
+};
+

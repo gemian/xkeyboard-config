@@ -1910,6 +1910,12 @@
             <_description>Russian</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>os</name>
+            <_description>Ossetian</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
