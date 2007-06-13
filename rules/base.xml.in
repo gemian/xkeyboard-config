@@ -2597,6 +2597,12 @@
             <_description>Chuvash</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>udm</name>
+            <_description>Udmurt</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
