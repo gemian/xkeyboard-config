@@ -2599,6 +2599,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>cv_latin</name>
+            <_description>Chuvash Latin</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>udm</name>
             <_description>Udmurt</_description>
           </configItem>
