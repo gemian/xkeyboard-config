@@ -1,3 +1,8 @@
+2007-06-16  Sergey Udaltsov
+
+	*  symbols/lk: fixed Sinhala, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=11284
+
 2007-06-15  Sergey Udaltsov
 
 	*  symbols/ru, rules/base.xml.in: added ru(cv_latin), closing
