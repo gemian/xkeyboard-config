@@ -1,3 +1,8 @@
+2007-06-18  Sergey Udaltsov
+
+	*  symbols/Makefile.am, symbols/et, rules/base.xml.in: added
+	et(basic), part of the OLPC works
+
 2007-06-16  Sergey Udaltsov
 
 	*  symbols/lk: fixed Sinhala, closing
