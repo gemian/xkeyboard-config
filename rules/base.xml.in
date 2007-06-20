@@ -3192,7 +3192,7 @@
     <layout>
       <configItem>
         <name>ng</name>
-        <_shortDescription>Nigeria</_shortDescription>
+        <_shortDescription>Nig</_shortDescription>
 	<_description>Nigeria</_description>
       </configItem>
       <variantList>
@@ -3215,6 +3215,14 @@
           </configItem>
         </variant>
       </variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>et</name>
+        <_shortDescription>Eth</_shortDescription>
+        <_description>Ethiopia</_description>
+      </configItem>
+      <variantList/>
     </layout>
   </layoutList>
   <optionList>
