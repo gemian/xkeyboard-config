@@ -1,0 +1,62 @@
+// $XKeyboardConfig$
+
+// 6-dot patterns on the keypad
+partial hidden
+xkb_symbols "keypad" {
+    key <KP4>	{ [ 0xfff1 ] };
+    key <KP1>	{ [ 0xfff2 ] };
+    key <KP0>	{ [ 0xfff3 ] };
+    key <KP5>	{ [ 0xfff4 ] };
+    key <KP6>	{ [ 0xfff5 ] };
+    key <KPAD>	{ [ 0xfff6 ] };
+};
+
+// 10-dot patterns on the home row + v and n
+partial default
+xkb_symbols "home_row" {
+    include "braille(keypad)"
+
+    name[Group1]="Braille";
+
+    key <AC04>	{ [ 0xfff1 ] };
+    key <AC03>	{ [ 0xfff2 ] };
+    key <AC02>	{ [ 0xfff3 ] };
+    key <AC07>	{ [ 0xfff4 ] };
+    key <AC08>	{ [ 0xfff5 ] };
+    key <AC09>	{ [ 0xfff6 ] };
+    key <AC01>	{ [ 0xfff7 ] };
+    key <AC10>	{ [ 0xfff8 ] };
+    key <AB04>	{ [ 0xfff9 ] };
+    key <AB06>	{ [ 0xfffa ] };
+};
+
+// 6-dot patterns for the left hand
+partial
+xkb_symbols "left_hand" {
+    include "braille(keypad)"
+
+    name[Group1]="Braille - Left hand";
+
+    key <AC03>	{ [ 0xfff1 ] };
+    key <AC02>	{ [ 0xfff2 ] };
+    key <AC01>	{ [ 0xfff3 ] };
+    key <AC04>	{ [ 0xfff4 ] };
+    key <AB05>	{ [ 0xfff5 ] };
+    key <AB04>	{ [ 0xfff6 ] };
+};
+
+// 6-dot patterns for the right hand
+partial
+xkb_symbols "right_hand" {
+    include "braille(keypad)"
+
+    name[Group1]="Braille - Right hand";
+
+    key <AC07>	{ [ 0xfff1 ] };
+    key <AB05>	{ [ 0xfff2 ] };
+    key <AB06>	{ [ 0xfff3 ] };
+    key <AC08>	{ [ 0xfff4 ] };
+    key <AC09>	{ [ 0xfff5 ] };
+    key <AC10>	{ [ 0xfff6 ] };
+};
+

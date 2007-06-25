@@ -1,3 +1,8 @@
+2007-06-25  Sergey Udaltsov
+
+	*  symbols/Makefile.am, symbols/braille, rules/base.xml.in: added
+	Braille layout, https://bugs.freedesktop.org/show_bug.cgi?id=11356
+
 2007-06-18  Sergey Udaltsov
 
 	*  symbols/Makefile.am, symbols/et, rules/base.xml.in: added

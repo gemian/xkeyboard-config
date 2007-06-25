@@ -3224,6 +3224,27 @@
       </configItem>
       <variantList/>
     </layout>
+    <layout>
+      <configItem>
+        <name>braille</name>
+        <_shortDescription>Brl</_shortDescription>
+        <_description>Braille</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>left_hand</name>
+            <_description>Left hand</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>right_hand</name>
+            <_description>Right hand</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
