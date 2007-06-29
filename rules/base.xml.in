@@ -963,6 +963,12 @@
             <_description>Alternative international (former us_intl)</_description>
           </configItem>
         </variant>
+	<variant>
+          <configItem>
+            <name>colemak</name>
+            <_description>Colemak</_description>
+          </configItem>
+        </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
