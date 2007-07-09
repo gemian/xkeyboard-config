@@ -43,7 +43,7 @@ xkb_symbols "nodeadkeys" {
     name[Group1]="Germany - Eliminate dead keys";
 
     key <TLDE>	{ [asciicircum,    degree,      notsign,      notsign ]	};
-    key <AE12>	{ [     acute,      grave,      cedilla,      cedilla ]	};
+    key <AE12>	{ [apostrophe,      grave,      cedilla,      cedilla ]	};
     key <AD11>	{ [udiaeresis, Udiaeresis,    diaeresis,    diaeresis ]	};
     key <AD12>	{ [      plus,   asterisk,   asciitilde,       macron ]	};
     key <AC10>	{ [odiaeresis, Odiaeresis,  doubleacute,  doubleacute ]	};
