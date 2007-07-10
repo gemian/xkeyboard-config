@@ -936,6 +936,13 @@
 	<vendor>BenQ</vendor>
       </configItem>
     </model>
+    <model>
+      <configItem>
+	<name>hhk</name>
+	<_description>Happy Hacking Keyboard</_description>
+	<vendor>Fujitsu</vendor>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>

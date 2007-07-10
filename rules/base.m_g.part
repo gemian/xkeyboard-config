@@ -10,4 +10,5 @@
   pc98		=	nec(pc98)
  $macbooks      =       macintosh(%m)
  $macs		=	macintosh(macintosh)
+  hhk		=	hhk(basic)
   *		=       pc(pc104)

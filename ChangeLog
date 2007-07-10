@@ -1,3 +1,9 @@
+2007-07-10  Sergey Udaltsov
+
+	*  geometry/hhk, rules/base.m_g.part, rules/base.xml.in,
+	geometry/Makefile.am: adding hhk geometry,
+	https://bugs.freedesktop.org/show_bug.cgi?id=11519
+
 2007-07-09  Sergey Udaltsov
 
 	*  symbols/de: fixed AE12, closing
