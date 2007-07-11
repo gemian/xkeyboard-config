@@ -331,14 +331,14 @@
     </model>
     <model>
       <configItem>
-        <name>sk8125</name>
+        <name>dell8125</name>
         <_description>Dell SK-8125 USB Multimedia Keybard</_description>
         <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
-        <name>sk8135</name>
+        <name>dell8135</name>
         <_description>Dell SK-8135 USB Multimedia Keybard</_description>
         <vendor>Dell</vendor>
       </configItem>
