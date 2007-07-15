@@ -68,4 +68,12 @@
   nbsp:level3n          =	+nbsp(level3n)
   nbsp:level4           =	+nbsp(level4)
   nbsp:level4n          =	+nbsp(level4n)
-  japan:nicola_f_bs    =	+jp(nicola_f_bs)
+  japan:nicola_f_bs     =	+jp(nicola_f_bs)
+  kpdl:dot              =	+kpdl(dot)
+  kpdl:comma            =	+kpdl(comma)
+  kpdl:dotoss           =	+kpdl(dotoss)
+  kpdl:dotoss_latin9    =	+kpdl(dotoss_latin9)
+  kpdl:commaoss         =	+kpdl(commaoss)
+  kpdl:momayyezoss      =	+kpdl(momayyezoss)
+  kpdl:kposs            =	+kpdl(kposs)
+

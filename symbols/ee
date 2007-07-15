@@ -75,5 +75,5 @@ xkb_symbols "dvorak" {
     key <AB10>	{ [         z,          Z,     zcaron,     Zcaron ]	};
 
     include "level3(ralt_switch)"
-    include "keypad(comma)"
+    include "kpdl(comma)"
 };

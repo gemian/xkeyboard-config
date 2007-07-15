@@ -67,7 +67,7 @@ xkb_symbols "extended" {
     key <LSGT> { [	less,	greater, 	lessthanequal,	greaterthanequal	]  	};
     key <BKSL> { [	dollar,	sterling, 	paragraph,	enfilledcircbullet	]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
     include "level3(ralt_switch)"
 };
 

@@ -22,7 +22,7 @@ xkb_symbols "basic" {
     key <AB03>	{ [         c,          C,       cacute,       Cacute ]	};
     key <AB06>	{ [         n,          N,       nacute,       Nacute ]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     include "level3(ralt_switch)"
 };
@@ -66,7 +66,7 @@ xkb_symbols "qwertz" {
     key <AB03>	{ [         c,          C,         cent,    copyright ]	};
     key <AB10>  { [     minus, underscore, dead_belowdot, dead_abovedot ] };
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     include "level3(ralt_switch)"
 };
@@ -97,7 +97,7 @@ xkb_symbols "dvorak" {
     key <AB09> { [	    v,	V,      zacute, Zacute		]	};
     key <AB10> { [	    z,	Z,   zabovedot, Zabovedot	]	};
     
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     // this to allow writing ALL CAPS with a Shift key
     include "level3(ralt_switch)"
@@ -151,7 +151,7 @@ xkb_symbols "csb" {
     key <AB01>	{ [         z,          Z,    zabovedot,    Zabovedot ]	};
     key <AB06>	{ [         n,          N,       nacute,       Nacute ]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     include "level3(ralt_switch)"
 };

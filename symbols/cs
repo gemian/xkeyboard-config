@@ -75,7 +75,7 @@ xkb_symbols "common" {
   key <AB09> {   [ period,              colon,         any,any ]   }; //
   key <AB10> {   [ minus,               underscore,    any,any ]   }; //
 
-  include "keypad(comma)"
+  include "kpdl(comma)"
 };
 
 partial hidden alphanumeric_keys

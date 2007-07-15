@@ -54,7 +54,7 @@ xkb_symbols "basic" {
     key <AB10> {	[     minus,	underscore	]	};
     key <BKSL> {	[ numbersign,	apostrophe,  dead_grave			]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
     include "level3(ralt_switch)"
 
 };

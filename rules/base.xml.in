@@ -3556,13 +3556,66 @@
       <option>
         <configItem>
           <name>keypad:legacy</name>
-          <_description>Force standard legacy keypad</_description>
+          <_description>Legacy keypad</_description>
        </configItem>
       </option>
       <option>
         <configItem>
           <name>keypad:oss</name>
-          <_description>Use keypad with unicode additions (arrows and math operators)</_description>
+          <_description>Keypad with unicode additions (arrows and math operators)</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>keypad:future</name>
+          <_description>Keypad with unicode additions (arrows and math operators). Math operators on default level.</_description>
+       </configItem>
+      </option>
+    </group>
+    <group allowMultipleSelection="false">
+      <!-- Select a keypad KPDL variant -->
+      <configItem>
+        <name>kpdl</name>
+        <_description>Numeric keypad delete key behaviour</_description>
+      </configItem>
+      <option>
+        <configItem>
+          <!-- Actually, with KP_DECIMAL, as the old keypad(dot) -->
+          <name>kpdl:dot</name>
+          <_description>Legacy key with dot</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>kpdl:comma</name>
+          <!-- Actually, with KP_SEPARATOR, as the old keypad(comma) -->
+          <_description>Legacy key with comma</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>kpdl:dotoss</name>
+          <_description>Four-level key with dot</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>kpdl:commaoss</name>
+          <_description>Four-level key with comma</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>kpdl:momayyezoss</name>
+          <_description>Four-level key with momayyez</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>kpdl:kposs</name>
+          <!-- This assumes the KP_ abstract symbols are actually useful for some apps
+               The description needs to be rewritten -->
+          <_description>Four-level key with abstract separators</_description>
        </configItem>
       </option>
     </group>

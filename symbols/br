@@ -46,7 +46,7 @@ xkb_symbols "abnt2" {
 
     key <KPPT>	{ [ KP_Decimal ]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     include "level3(ralt_switch)"
 };

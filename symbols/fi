@@ -56,7 +56,7 @@ xkb_symbols "fi" {
     key <AD12> { [ dead_diaeresis, dead_circumflex, dead_tilde, dead_caron ] };
 
     // End alphanumeric section, begin "Keypad"
-    include "keypad(comma)"
+    include "kpdl(comma)"
     // End "Keypad" section
 
     include "level3(ralt_switch)"
@@ -179,7 +179,7 @@ xkb_symbols "kotoistus" {
     key <AB09> { [  period,          colon,            dead_belowdot,        dead_abovedot        ] };
     key <AB10> { [  minus,           underscore,       endash,               dead_abovedot        ] };
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     include "level3(ralt_switch)"
 

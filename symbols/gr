@@ -41,7 +41,7 @@ xkb_symbols "basic" {
     key <AB10> {	[     slash,	question	]	};
     key <BKSL> {	[ backslash,	bar		]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 };
 
 hidden partial alphanumeric_keys alternate_group

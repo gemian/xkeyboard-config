@@ -33,7 +33,7 @@ xkb_symbols "basic" {
     key <BKSL> {	[      apostrophe,        asterisk,               at			]	};
     key <LSGT> {        [            less,         greater,              bar,       brokenbar      ]       };
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
     include "eurosign(e)"
     include "level3(ralt_switch)"
 };

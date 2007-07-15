@@ -23,7 +23,7 @@ xkb_symbols "basic" {
 
     key <LSGT>	{ [      less,    greater,    backslash,      notsign ]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     include "level3(ralt_switch)"
 };
@@ -55,7 +55,7 @@ xkb_symbols "mac" {
 
     key <SPCE>	{ [    space,       space, nobreakspace, nobreakspace ]	};
     key <AB10>	{ [    minus,  underscore,       hyphen,       macron ]	};
-    include "keypad(dot)"
+    include "kpdl(dot)"
 };
 
 

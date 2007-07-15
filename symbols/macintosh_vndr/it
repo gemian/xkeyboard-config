@@ -58,7 +58,7 @@ xkb_symbols "extended" {
 
     // End alphanumeric section
 
-    include "keypad(dot)"
+    include "kpdl(dot)"
     include "level3(ralt_switch)"
 };
 

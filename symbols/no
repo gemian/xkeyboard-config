@@ -26,7 +26,7 @@ xkb_symbols "basic" {
     key <BKSL>	{ [apostrophe,   asterisk, dead_doubleacute, multiply ]	};
     key <LSGT>	{ [      less,    greater,      onehalf, threequarters]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     include "level3(ralt_switch)"
 };

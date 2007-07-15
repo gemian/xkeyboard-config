@@ -186,7 +186,7 @@ xkb_symbols "winkeys" {
     key <BKSL> { [ acircumflex, Acircumflex             ]       };
 
     // End alphanumeric section, begin "Keypad"
-    include "keypad(comma)"
+    include "kpdl(comma)"
     // End "Keypad" section
 
     include "level3(ralt_switch)"

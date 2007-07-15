@@ -126,7 +126,7 @@ xkb_symbols "mac" {
 
     // End alphanumeric section
 
-    include "keypad(dot)"
+    include "kpdl(dot)"
     include "level3(ralt_switch)"
 };
 

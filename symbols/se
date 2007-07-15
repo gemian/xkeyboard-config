@@ -28,7 +28,7 @@ xkb_symbols "se" {
 
     key <SPCE>	{ [     space,      space,        space, nobreakspace ]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     include "level3(ralt_switch)"
 };
@@ -203,7 +203,7 @@ xkb_symbols "mac" {
     key <AD12> {	[       diaeresis,     asciicircum, 	asciitilde			]	};
     key <BKSL> {	[      apostrophe,        asterisk,               at			]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
     include "level3(ralt_switch)"
 };
 

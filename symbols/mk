@@ -56,7 +56,7 @@ xkb_symbols "basic" {
     key <AB09> { [          period,           colon	]	};
     key <AB10> { [           slash,        question	]	};
  
-    include "keypad(comma)"
+    include "kpdl(comma)"
 };
 
 partial alphanumeric_keys

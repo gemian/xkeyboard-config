@@ -65,7 +65,7 @@ xkb_symbols "basic" {
 
     key.type[group1]="TWO_LEVEL";
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 };
 
 partial alphanumeric_keys

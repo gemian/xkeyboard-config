@@ -126,53 +126,55 @@ xkb_symbols "x11" {
     key <KPDL> {  	[  KP_Delete,	KP_Decimal ]	};
 };
 
-// Some national standards use comma on the keypad instead of decimal dot
-partial keypad_keys
-xkb_symbols "comma" {
-    key <KPDL> {       [ KP_Delete, KP_Separator ] };
-};
-
-// Default is decimal dot
-partial keypad_keys
-xkb_symbols "dot" {
-    key <KPDL> {       [ KP_Delete, KP_Decimal ] };
-};
-
 
 // Legacy PC keypad definition
-// Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+// Copyright © 2006-2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 keypad_keys
 xkb_symbols "legacy" {
 
     include "keypad(core)"
     include "keypad(legacymath)"
     include "keypad(legacynumber)"
+    include "kpdl(dot)"
 };
 
 
 // Complete new keypad definition
-// Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+// Copyright © 2006-2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 keypad_keys
 xkb_symbols "oss" {
 
     include "keypad(core)"
     include "keypad(ossmath)"
     include "keypad(ossnumber)"
+    include "kpdl(dotoss)"
 };
 
 
 // Latin9 restriction of new keypad definition
-// Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+// Copyright © 2006-2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 keypad_keys
 xkb_symbols "oss_latin9" {
 
     include "keypad(core)"
     include "keypad(ossmath_latin9)"
     include "keypad(legacynumber)"
-
-    key <KPDL> { type="FOUR_LEVEL_MIXED_KEYPAD",
-                 [ KP_Delete,             period, comma, nobreakspace ] }; // <delete> . , ⍽ (no-break space)
+    include "kpdl(dotoss_latin9)"
 };
+
+
+// Forward-looking keypad definition
+// Won't work with applications that make ASCII assumptions
+// Copyright © 2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+keypad_keys
+xkb_symbols "future" {
+
+    include "keypad(core)"
+    include "keypad(futuremath)"
+    include "keypad(ossnumber)"
+    include "kpdl(commaoss)"
+};
+
 
 // Keypad keys nobody changes
 // Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
@@ -241,6 +243,33 @@ xkb_symbols "ossmath" {
 };
 
 
+// Keypad math area with non-CS operators in first levels
+// As demanded by users not interested in legacy pre-unicode junk
+// Copyright © 2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+//
+// ┏━━━━━┱─────┬─────┬─────┐
+// ┃Num  ┃ / ₁ │ * ₂ │ - ₃ │ ₁ <XF86_Ungrab>
+// ┃Lock⇭┃ ∕ ÷ │ . × │ − − │ ₂ <XF86_ClearGrab>
+// ┡━━━━━╃─────┼─────┼─────┤ ₃ <XF86_Prev_VMode>
+//                   │ + ₄ │ ₄ <XF86_Next_VMode>
+//                   │     │
+//                   ┤     │ 1 None
+//                   │     │ 2 Level3 ⇮
+//                   │ + + │ 3 Shift+Level3 ⇧⇮
+//                   ╆━━━━━┪ 4 Ctrl+Alt
+partial keypad_keys
+xkb_symbols "futuremath" {
+
+    key.type[Group1]="FOUR_LEVEL_X" ;
+
+    key <KPDV> { [ 0x1002215,   KP_Divide, 0x10000F7,     XF86_Ungrab ] }; // ∕ / ÷     <XF86_Ungrab>
+    key <KPMU> { [ 0x10022C5, KP_Multiply, 0x10000D7,  XF86_ClearGrab ] }; // ⋅ * ×  <XF86_ClearGrab>
+    key <KPSU> { [ 0x1002212, KP_Subtract, 0x1002212, XF86_Prev_VMode ] }; // − - − <XF86_Prev_VMode>
+
+    key <KPAD> { [ 0x100002B,      KP_Add, 0x100002B, XF86_Next_VMode ] }; // + + + <XF86_Next_VMode>
+};
+
+
 // Keypad math area with non-CS operators, restricted to latin9
 // Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 //
@@ -279,13 +308,13 @@ xkb_symbols "ossmath_latin9" {
 // ├─────┼─────┼─────┤       ␥ Delete
 // │ 4   │ 5   │ 6   │       ⇦⇧⇨⇩ Directions
 // │ ⇦   │     │ ⇨   │
-// ├─────┼─────┼─────╆━━━━━┪
-// │ 1   │ 2   │ 3   ┃Enter┃
-// │ ⇲   │ ⇩   │ ⇟   ┃  ⎆  ┃ 1 None
-// ├─────┴─────┼─────┨     ┃ 2 Num Lock ⇭
-// │ 0         │ .   ┃     ┃
-// │ ⎀         │ ␥   ┃     ┃
-// └───────────┴─────┺━━━━━┛
+// ├─────┼─────┼─────╆
+// │ 1   │ 2   │ 3   ┃
+// │ ⇲   │ ⇩   │ ⇟   ┃        1 None
+// ├─────┴─────┼─────┨        2 Num Lock ⇭
+// │ 0         │
+// │ ⎀         │
+// └───────────┴
 partial keypad_keys
 xkb_symbols "legacynumber" {
 
@@ -304,7 +333,6 @@ xkb_symbols "legacynumber" {
     key <KP3>  { [   KP_Next,       KP_3 ] }; //   <next> 3
 
     key <KP0>  { [ KP_Insert,       KP_0 ] }; // <insert> 0
-    key <KPDL> { [ KP_Delete, KP_Decimal ] }; // <delete> .
 };
 
 
@@ -320,13 +348,13 @@ xkb_symbols "legacynumber" {
 // ├─────┼─────┼─────┤       ␥ Delete
 // │ 4 ⇐ │ 5 ⇔ │ 6 ⇗ │       ⇦⇧⇨⇩ Directions
 // │ ⇦ ← │   ↔ │ ⇨ ↗ │       ⍽ narrow no-break space
-// ├─────┼─────┼─────╆━━━━━┪
-// │ 1 ⇙ │ 2 ⇓ │ 3 ⇘ ┃Enter┃
-// │ ⇲ ↙ │ ⇩ ↓ │ ⇟ ↘ ┃  ⎆  ┃ 1 None
-// ├─────┴─────┼─────┨     ┃ 2 Num Lock ⇭
-// │ 0       ⇕ │ . ⍽ ┃     ┃ 3 Level3 ⇮
-// │ ⎀       ↕ │ ␥ , ┃     ┃ 4 Shift+Level3 ⇧⇮
-// └───────────┴─────┺━━━━━┛
+// ├─────┼─────┼─────╆
+// │ 1 ⇙ │ 2 ⇓ │ 3 ⇘ ┃
+// │ ⇲ ↙ │ ⇩ ↓ │ ⇟ ↘ ┃       1 None
+// ├─────┴─────┼─────┨       2 Num Lock ⇭
+// │ 0       ⇕ │             3 Level3 ⇮
+// │ ⎀       ↕ │             4 Shift+Level3 ⇧⇮
+// └───────────┴
 partial keypad_keys
 xkb_symbols "ossnumber" {
 
@@ -345,7 +373,4 @@ xkb_symbols "ossnumber" {
     key <KP3>  { [   KP_Next,   KP_3, 0x1002198, 0x10021D8 ] }; //   <next> 3 ↘ ⇘
 
     key <KP0>  { [ KP_Insert,   KP_0, 0x1002195, 0x10021D5 ] }; // <insert> 0 ↕ ⇕
-    // We could use KP_Decimal and KP_Separator but we do not want the locale
-    // decimal and separator symbol but locale-insensitive dot and comma
-    key <KPDL> { [ KP_Delete, period,     comma, 0x100202F ] }; // <delete> . , ⍽ (narrow no-break space)
 };

@@ -29,7 +29,7 @@ xkb_symbols "basic" {
     key <BKSL>	{ [numbersign, apostrophe,   dead_grave,   dead_breve ]	};
     key <AB01>	{ [         y,          Y, guillemotleft,        less ]	};
 
-    include "keypad(comma)"
+    include "kpdl(comma)"
 
     include "level3(ralt_switch)"
 };

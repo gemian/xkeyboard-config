@@ -1,3 +1,9 @@
+2007-07-15  Sergey Udaltsov
+
+	* symbols/kpdl, symbols/*, rules/base.xml.in, rules/base.o_s.part:
+	introducing separate KPDL handling,
+	https://bugs.freedesktop.org/show_bug.cgi?id=11611
+
 2007-07-12  Sergey Udaltsov
 
 	* NEWS: preparing release 1.0
