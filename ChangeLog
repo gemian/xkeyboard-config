@@ -1,3 +1,9 @@
+2007-07-16  Sergey Udaltsov
+
+	* rules/base.o_s.part, rules/base.xml.in, symbols/be, symbols/keypad:
+	modularized wang kbd,
+	https://bugs.freedesktop.org/show_bug.cgi?id=8852
+
 2007-07-15  Sergey Udaltsov
 
 	* symbols/kpdl, symbols/*, rules/base.xml.in, rules/base.o_s.part:

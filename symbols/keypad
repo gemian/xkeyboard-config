@@ -139,6 +139,18 @@ xkb_symbols "legacy" {
 };
 
 
+// Legacy Wang 725-3771-ae and 725-3771-uk keypad definition
+// Copyright © 2006-2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+keypad_keys
+xkb_symbols "legacy_wang" {
+
+    include "keypad(core)"
+    include "keypad(legacymath)"
+    include "keypad(legacynumber_wang)"
+    include "kpdl(dot)"
+};
+
+
 // Complete new keypad definition
 // Copyright © 2006-2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 keypad_keys
@@ -163,6 +175,18 @@ xkb_symbols "oss_latin9" {
 };
 
 
+// Wang 725-3771-ae and 725-3771-uk keypad variant of oss keypad
+// Copyright © 2006-2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+keypad_keys
+xkb_symbols "oss_wang" {
+
+    include "keypad(core)"
+    include "keypad(ossmath)"
+    include "keypad(ossnumber_wang)"
+    include "kpdl(dotoss)"
+};
+
+
 // Forward-looking keypad definition
 // Won't work with applications that make ASCII assumptions
 // Copyright © 2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
@@ -172,6 +196,19 @@ xkb_symbols "future" {
     include "keypad(core)"
     include "keypad(futuremath)"
     include "keypad(ossnumber)"
+    include "kpdl(commaoss)"
+};
+
+
+// Forward-looking keypad definition
+// Won't work with applications that make ASCII assumptions
+// Copyright © 2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+keypad_keys
+xkb_symbols "future_wang" {
+
+    include "keypad(core)"
+    include "keypad(futuremath)"
+    include "keypad(ossnumber_wang)"
     include "kpdl(commaoss)"
 };
 
@@ -336,6 +373,48 @@ xkb_symbols "legacynumber" {
 };
 
 
+// Legacy Wang 725-3771-ae and 725-3771-uk keypad number area
+// Copyright © 2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+// This is actually a three-level keypad, declared as four-level
+// to avoid defining a new type
+//
+// ┏━━━━━┱                   ⇱ Home
+// ┃Num  ┃                   ⇲ End
+// ┃Lock⇭┃                   ⇞ Page up
+// ┡━━━━━╃─────┼─────┼       ⇟ Page down
+// │ 7   │ 8   │ 9   │       ⇞ Page up
+// │ ⇱ < │ ⇧ > │ ⇞ ^ │       ⎀ Insert
+// ├─────┼─────┼─────┤       ␥ Delete
+// │ 4   │ 5   │ 6   │       ⇦⇧⇨⇩ Directions
+// │ ⇦ [ │   ] │ ⇨ $ │
+// ├─────┼─────┼─────╆
+// │ 1   │ 2   │ 3   ┃
+// │ ⇲ & │ ⇩ @ │ ⇟ # ┃       1 None
+// ├─────┴─────┼─────┨       2 Num Lock ⇭
+// │ 0         │             3 Level3 ⇮
+// │ ⎀         │
+// └───────────┴
+partial keypad_keys
+xkb_symbols "legacynumber_wang" {
+
+    key.type[Group1]="FOUR_LEVEL_MIXED_KEYPAD" ;
+
+    key <KP7>  { [   KP_Home,   KP_7,         less ] }; //   <home> 7 <
+    key <KP8>  { [     KP_Up,   KP_8,      greater ] }; //     <up> 8 >
+    key <KP9>  { [  KP_Prior,   KP_9,  asciicircum ] }; //  <prior> 9 ^
+ 
+    key <KP4>  { [   KP_Left,   KP_4,  bracketleft ] }; //   <left> 4 [
+    key <KP5>  { [  KP_Begin,   KP_5, bracketright ] }; //  <begin> 5 ]
+    key <KP6>  { [  KP_Right,   KP_6,       dollar ] }; //  <right> 6 $
+
+    key <KP1>  { [    KP_End,   KP_1,    ampersand ] }; //    <end> 1 &
+    key <KP2>  { [   KP_Down,   KP_2,           at ] }; //   <down> 2 @
+    key <KP3>  { [   KP_Next,   KP_3,   numbersign ] }; //   <next> 3 #
+
+    key <KP0>  { [ KP_Insert,   KP_0,   apostrophe ] }; // <insert> 0 '
+};
+
+
 // Keypad number area with arrow symbols
 // Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 //
@@ -373,4 +452,44 @@ xkb_symbols "ossnumber" {
     key <KP3>  { [   KP_Next,   KP_3, 0x1002198, 0x10021D8 ] }; //   <next> 3 ↘ ⇘
 
     key <KP0>  { [ KP_Insert,   KP_0, 0x1002195, 0x10021D5 ] }; // <insert> 0 ↕ ⇕
+};
+
+
+// Wang 725-3771-ae and 725-3771-uk keypad number area with additional arrow symbols
+// Copyright © 2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+//
+// ┏━━━━━┱                   ⇱ Home
+// ┃Num  ┃                   ⇲ End
+// ┃Lock⇭┃                   ⇞ Page up
+// ┡━━━━━╃─────┼─────┼       ⇟ Page down
+// │ 7 ↖ │ 8 ↑ │ 9 ↗ │       ⇞ Page up
+// │ ⇱ < │ ⇧ > │ ⇞ ^ │       ⎀ Insert
+// ├─────┼─────┼─────┤       ␥ Delete
+// │ 4 ← │ 5 ↔ │ 6 → │       ⇦⇧⇨⇩ Directions
+// │ ⇦ [ │   ] │ ⇨ $ │       ⍽ narrow no-break space
+// ├─────┼─────┼─────╆
+// │ 1 ↙ │ 2 ↓ │ 3 ↘ ┃
+// │ ⇲ & │ ⇩ @ │ ⇟ # ┃       1 None
+// ├─────┴─────┼─────┨       2 Num Lock ⇭
+// │ 0       ↕ │             3 Level3 ⇮
+// │ ⎀       ' │             4 Shift+Level3 ⇧⇮
+// └───────────┴
+partial keypad_keys
+xkb_symbols "ossnumber_wang" {
+
+    key.type[Group1]="FOUR_LEVEL_MIXED_KEYPAD" ;
+
+    key <KP7>  { [   KP_Home,   KP_7,         less, 0x1002196 ] }; //   <home> 7 < ↖
+    key <KP8>  { [     KP_Up,   KP_8,      greater, 0x1002191 ] }; //     <up> 8 > ↑
+    key <KP9>  { [  KP_Prior,   KP_9,  asciicircum, 0x1002197 ] }; //  <prior> 9 ^ ↗
+ 
+    key <KP4>  { [   KP_Left,   KP_4,  bracketleft, 0x1002190 ] }; //   <left> 4 [ ←
+    key <KP5>  { [  KP_Begin,   KP_5, bracketright, 0x1002194 ] }; //  <begin> 5 ] ↔
+    key <KP6>  { [  KP_Right,   KP_6,       dollar, 0x1002192 ] }; //  <right> 6 $ →
+
+    key <KP1>  { [    KP_End,   KP_1,    ampersand, 0x1002199 ] }; //    <end> 1 & ↙
+    key <KP2>  { [   KP_Down,   KP_2,           at, 0x1002193 ] }; //   <down> 2 @ ↓
+    key <KP3>  { [   KP_Next,   KP_3,   numbersign, 0x1002198 ] }; //   <next> 3 # ↘
+
+    key <KP0>  { [ KP_Insert,   KP_0,   apostrophe, 0x1002195 ] }; // <insert> 0 ' ↕
 };

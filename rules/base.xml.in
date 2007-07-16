@@ -3571,7 +3571,26 @@
           <_description>Keypad with unicode additions (arrows and math operators). Math operators on default level.</_description>
        </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>keypad:legacy_wang</name>
+          <_description>Legacy Wang 724 keypad</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>keypad:oss_wang</name>
+          <_description>Wang 724 keypad with unicode additions (arrows and math operators)</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>keypad:future_wang</name>
+          <_description>Wang 724 keypad with unicode additions (arrows and math operators). Math operators on default level.</_description>
+       </configItem>
+      </option>
     </group>
+    <!-- This option should override the KPDL key defined in keypad; I hope it's declared in the right place -->
     <group allowMultipleSelection="false">
       <!-- Select a keypad KPDL variant -->
       <configItem>
