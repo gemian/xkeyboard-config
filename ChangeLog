@@ -1,3 +1,8 @@
+2007-07-20  Sergey Udaltsov
+
+	* symbols/gr: adding pound sign,
+	https://bugs.freedesktop.org/show_bug.cgi?id=11608
+
 2007-07-16  Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/be, symbols/keypad:

@@ -90,7 +90,7 @@ xkb_symbols "extended" {
 
     key.type[Group1] = "THREE_LEVEL";
 
-    key <AE05> { [	5,		percent,	EuroSign	] };
+    key <AE03> { [	3,		numbersign,	sterling	] };
 
     key <AD01> { [	semicolon,	colon,		periodcentered	] };
     key <AD03> { [	Greek_epsilon,	Greek_EPSILON,	EuroSign	] };
@@ -99,6 +99,7 @@ xkb_symbols "extended" {
     key <AB09> { [	period,		greater,	guillemotright	] };
 
     include "level3(ralt_switch)"
+    include "eurosign(5)"
 };
 
 partial alphanumeric_keys alternate_group
