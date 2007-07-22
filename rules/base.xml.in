@@ -624,6 +624,13 @@
     </model>
     <model>
       <configItem>
+        <name>logiex110</name>
+        <_description>Logitech Cordless Desktop EX110</_description>
+        <vendor>Logitech</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logiinkse</name>
         <_description>Logitech iTouch Internet Navigator Keyboard SE</_description>
         <vendor>Logitech</vendor>

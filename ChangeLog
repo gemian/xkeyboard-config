@@ -1,3 +1,8 @@
+2007-07-22  Sergey Udaltsov
+
+	* symbols/inet, rules/base.lists.part, rules/base.xml.in: adding
+	logiex110 model, https://bugs.freedesktop.org/show_bug.cgi?id=11686
+
 2007-07-20  Sergey Udaltsov
 
 	* symbols/gr: adding pound sign,

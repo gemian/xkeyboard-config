@@ -1002,8 +1002,6 @@ xkb_symbols "geniuscomfy2" {
     // From Radics Laszlo <garaboncias@mailbox.hu>
     include "inet(geniuscomfy)"
     key <I10>   {       [ XF86AudioPrev         ]       };
-    key <I13>   {       [ XF86Word              ]       };
-    key <I14>   {       [ XF86Excel             ]       };
     key <I19>   {       [ XF86AudioNext         ]       };
     key <I20>   {       [ XF86AudioMute         ]       };
     key <I23>   {       [ Return                ]       };
@@ -1479,6 +1477,34 @@ xkb_symbols "logiclx300" {
     key <I21>	{	[ XF86Calculator	]	};
 };
 
+// Logitech Cordless Desktop EX110
+partial alphanumeric_keys
+xkb_symbols "logiex110" {
+    include "inet(logitech_base)"
+
+    key <I2F>   {       [ XF86Close             ]       };      // Close
+    key <I21>   {       [ XF86Calculator        ]       };
+
+// Extended function keys
+// In the Console before starting X
+// Using setkeycodes e03b 212 e03c 213 e03d 214 e03e 215 e03f 216 e040 217 
+//       setkeycodes e041 218 e042 219 e043 220 e044 221 e057 222 e058 223 6d 206
+// *=keys that are there but need different symbol names.
+
+    key <I3B>   {       [ Help                  ]       };      // F1
+    key <FK13>  {       [ XF86Word              ]       };      // F2
+    key <FK14>  {       [ XF86Excel             ]       };      // F3
+    key <FK15>  {       [ XF86Pictures          ]       };      // F4
+    key <FK16>  {       [ Undo                  ]       };      // F5
+    key <I65>   {       [ Redo                  ]       };      // F6 *
+    key <I42>   {       [ Print                 ]       };      // F7
+    key <I43>   {       [ XF86Save              ]       };      // F8
+    key <I44>   {       [ XF86Launch1           ]       };      // F9 *
+    key <I45>   {       [ XF86Launch2           ]       };      // F10
+    key <I14>   {       [ XF86Launch3           ]       };      // F11
+    key <I4A>   {       [ XF86Launch4           ]       };      // F12
+};
+
 // Logitech iTouch Internet Navigator Keyboard SE
 partial alphanumeric_keys
 xkb_symbols "logiinkse" {
@@ -1785,8 +1811,6 @@ xkb_symbols "microsoftoffice" {
     key <I25>	{	[ XF86AudioRaiseVolume	]	};
     key <I26>	{	[ XF86AudioMute		]	};
     key <I3C>	{	[ XF86Cut		]	};
-    key <I44>	{	[ XF86Word		]	};
-    key <I45>	{	[ XF86Excel		]	};
     key <I4A>	{	[ XF86LogOff		]	};
     key <I54>	{	[ XF86ApplicationLeft	]	};
     key <I55>	{	[ XF86TaskPane		]	};
@@ -2405,7 +2429,6 @@ xkb_symbols "logitech_g15" {
     key  <I04> {         [       XF86Phone ] };
     key  <I08> {         [     XF86LaunchD ] };
     key  <I09> {         [     XF86Support ] };
-    key  <I0A> {         [        XF86Word ] };
     key  <I0F> {         [     XF86LaunchF ] };
     key  <I10> {         [   XF86AudioPrev ] };
     key  <I16> {         [      XF86LogOff ] };
