@@ -58,7 +58,7 @@ xkb_symbols "basic" {
     key <AB04> { [	   v,          V                                  ] };
     key <AB05> { [	   b,          B                                  ] };
     key <AB06> { [	   n,          N                                  ] };
-    key <AB07> { [     comma,   question                              ] };
+    key <AB07> { [     comma,   question,        0x01000327               ] };
     key <AB08> { [ semicolon,     period                              ] };
     key <AB09> { [     colon,      slash                              ] };
     key <AB10> { [    exclam,   apostrophe,     0x01002019           ] };

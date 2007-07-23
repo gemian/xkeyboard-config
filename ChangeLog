@@ -1,3 +1,8 @@
+2007-07-23  Sergey Udaltsov
+
+	* symbols/cd: update Congolese,
+	https://bugs.freedesktop.org/show_bug.cgi?id=5500
+
 2007-07-22  Sergey Udaltsov
 
 	* symbols/inet, rules/base.lists.part, rules/base.xml.in: adding
