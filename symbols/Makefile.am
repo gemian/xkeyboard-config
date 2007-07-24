@@ -10,8 +10,8 @@ ca cd \
 ch cs cz \
 de dk ee \
 es et epo \
-fi fo \
-fr gb ge gh \
+fi fo fr \
+gb ge gh gn \
 gr hr hu \
 ie il in iq \
 ir is it \

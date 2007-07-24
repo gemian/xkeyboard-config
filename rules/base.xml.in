@@ -1901,6 +1901,14 @@
     </layout>
     <layout>
       <configItem>
+        <name>gn</name>
+        <_shortDescription>Gui</_shortDescription>
+        <_description>Guinea</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>ge</name>
         <_shortDescription>Geo</_shortDescription>
         <_description>Georgia</_description>
