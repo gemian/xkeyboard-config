@@ -1,3 +1,5 @@
   $inetkbds     =       +inet(%m)
+  benqx730     =       +inet(benqx)
+  benqx800     =       +inet(benqx)
   $maclaptop	=	+inet(apple)+level3(enter_switch)
   $macs	        =	+inet(apple)

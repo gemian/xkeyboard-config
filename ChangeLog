@@ -1,3 +1,9 @@
+2007-07-25  Sergey Udaltsov
+
+	* symbols/inet, rules/base.lists.part, rules/base.m_s.part,
+	rules/base.xml.in: consolidating benq keyboards,
+	https://bugs.freedesktop.org/show_bug.cgi?id=11713
+
 2007-07-24  Sergey Udaltsov
 
 	* symbols/gn, symbols/Makefile.am, rules/base.xml.in: added Guinea,

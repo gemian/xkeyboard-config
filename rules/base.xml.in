@@ -931,15 +931,8 @@
     </model>
     <model>
       <configItem>
-	<name>benqx730</name>
-	<_description>BenQ X-Touch 730</_description>
-	<vendor>BenQ</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-	<name>benqx800</name>
-	<_description>BenQ X-Touch 800</_description>
+	<name>benqx</name>
+	<_description>BenQ X-Touch</_description>
 	<vendor>BenQ</vendor>
       </configItem>
     </model>
