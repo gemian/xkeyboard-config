@@ -24,7 +24,7 @@
 ! $qwertz = al cz de hr hu ro si sk 
 
 ! $inetkbds = a4techKB21 a4techKBS8 a4_rfkb23 \
-              acer_c300 acer_ferrari4k acer_tm_800 \
+              acer_c300 acer_ferrari4k acer_laptop \
               acpi airkey armada azonaRF2300 \
               apple \
               benqx brother \
@@ -33,16 +33,16 @@
               chicony chicony9885 \
               compaqeak8 compaqik7 compaqik13 compaqik18 \
               cymotionlinux \
-              dell inspiron precision_m dellusbmm dtk2000 dell8125 dell8135 \
+              dell inspiron precision_m dellusbmm dtk2000 \
               emachines ennyah_dkb1008 evdev \
               genius geniuscomfy geniuscomfy2 geniuskb19e \
               gyration honeywell_euroboard \
               hp2501 hp2505 hp5xx hp500fa hp5181 hp5185 \
               hpi6 hpxe3gc hpxe3gf hpxe4xxx hpxt1000 hpzt11xx \
               ipaq inspiron latitude \
-              logiaccess logicdp logicdpa logicdit logicdo logicink \
-              logiex110 logiciink logiclx300 \
-              logiinkse logiinkseusb logiitc logiik itouch logiultrax ltcd \
+              logiaccess logicd logicda logicink \
+              logiex110 logiclx300 \
+              logiinkse logiinkseusb logiitc logiik itouch logiultrax \
               logitech_g15 \
               microsoftinet microsoftpro microsoftprousb microsoftprooem microsoftprose \
               microsoftoffice microsoftmult \

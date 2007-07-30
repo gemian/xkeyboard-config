@@ -331,20 +331,6 @@
     </model>
     <model>
       <configItem>
-        <name>dell8125</name>
-        <_description>Dell SK-8125 USB Multimedia Keybard</_description>
-        <vendor>Dell</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-        <name>dell8135</name>
-        <_description>Dell SK-8135 USB Multimedia Keybard</_description>
-        <vendor>Dell</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>dexxa</name>
         <_description>Dexxa Wireless Desktop Keyboard</_description>
         <vendor>Dexxa</vendor>
@@ -533,20 +519,6 @@
     </model>
     <model>
       <configItem>
-        <name>ltcd</name>
-        <_description>Logitech Cordless Desktop</_description>
-        <vendor>Logitech</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-        <name>logicdit</name>
-        <_description>Logitech Cordless Desktop iTouch</_description>
-        <vendor>Logitech</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>logiclx300</name>
         <_description>Logitech Cordless Desktop LX-300</_description>
         <vendor>Logitech</vendor>
@@ -554,15 +526,15 @@
     </model>
     <model>
       <configItem>
-        <name>logicdp</name>
-        <_description>Logitech Cordless Desktop Pro</_description>
+        <name>logicd</name>
+        <_description>Logitech Cordless Desktop</_description>
         <vendor>Logitech</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
-        <name>logicdpa</name>
-        <_description>Logitech Cordless Desktop Pro (alternate option)</_description>
+        <name>logicda</name>
+        <_description>Logitech Cordless Desktop (alternate option)</_description>
         <vendor>Logitech</vendor>
       </configItem>
     </model>
@@ -570,13 +542,6 @@
       <configItem>
         <name>logicdpa2</name>
         <_description>Logitech Cordless Desktop Pro (alternate option2)</_description>
-        <vendor>Logitech</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-        <name>logicdo</name>
-        <_description>Logitech Cordless Desktop Optical</_description>
         <vendor>Logitech</vendor>
       </configItem>
     </model>
@@ -875,15 +840,15 @@
     </model>
     <model>
       <configItem>
-        <name>acer_tm_800</name>
-        <_description>Acer TravelMate 800</_description>
+        <name>acer_ferrari4k</name>
+        <_description>Acer Ferrari 4000</_description>
 	<vendor>Acer</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
-        <name>acer_ferrari4k</name>
-        <_description>Acer Ferrari 4000</_description>
+        <name>acer_laptop</name>
+        <_description>Acer Laptop</_description>
 	<vendor>Acer</vendor>
       </configItem>
     </model>
