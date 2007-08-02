@@ -977,6 +977,12 @@
             <_description>Macintosh</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>altgr-intl</name>
+            <_description>International (AltGr dead keys)</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

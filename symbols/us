@@ -577,3 +577,48 @@ xkb_symbols "colemak" {
     include "level3(ralt_switch)"
 };
 
+// I do NOT like dead-keys - the International keyboard as defined by Microsoft
+// doesn't fit my needs. Why use two keystrokes for all simple characters (eg '
+// and <space> generates a single ') just to have an é (eacute) in two strokes
+// as well? I type ' more often than é (eacute).
+//
+// This file works just like a regular keyboard, BUT has all dead-keys
+// accessible at level3 (through AltGr). An ë (ediaeresis) is now: AltGr+"
+// followed by an e. In other words, this keyboard is not international as long
+// as you leave the right Alt key alone.
+//
+// The original MS International keyboard was intended for Latin1 (iso8859-1).
+// With the introduction of iso8859-15, the (important) ligature oe (and OE)
+// became available. I added them next to ae. Because I write ediaeresis more
+// often than registered, I moved registered to be next to copyright and added
+// ediaeresis and idiaeresis. - Adriaan
+
+partial alphanumeric_keys
+xkb_symbols "altgr-intl" {
+
+   name[Group1]= "U.S. English - International (AltGr dead keys)";
+
+   include "us(intl)"
+
+// five dead keys moved into level3:
+
+   key <TLDE> { [    grave, asciitilde,  dead_grave,   dead_tilde      ] };
+   key <AE06> { [        6, asciicircum, onequarter,   dead_circumflex ] };
+   key <AC11> { [apostrophe,quotedbl,    dead_acute,   dead_diaeresis  ] };
+
+// diversions from the MS Intl keyboard:
+
+   key <AE01> { [        1, exclam,      onesuperior,  exclamdown      ] };
+   key <AD04> { [        r, R,           ediaeresis,   Ediaeresis      ] };
+   key <AC07> { [        j, J,           idiaeresis,   Idiaeresis      ] };
+   key <AB02> { [        x, X,           oe,           OE              ] };
+   key <AB04> { [        v, V,           registered,   registered      ] };
+
+// onequarter etc (not in iso8859-15) deleted to get three unshifted deadkeys:
+
+   key <AE06> { [        6, asciicircum,       dead_circumflex         ] };
+   key <AE07> { [        7, ampersand,         dead_horn               ] };
+   key <AE08> { [        8, asterisk,          dead_ogonek             ] };
+
+   include "level3(ralt_switch)"
+};
