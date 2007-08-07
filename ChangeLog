@@ -1,3 +1,8 @@
+2007-08-07  Sergey Udaltsov
+
+	* symbols/ara: Patch to Arabic keyboard layout,
+	http://bugs.freedesktop.org/show_bug.cgi?id=11867
+
 2007-08-03  Sergey Udaltsov
 
 	* symbols/us, rules/base.xml.in: added us(altgr-intl), closing
