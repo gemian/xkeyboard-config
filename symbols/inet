@@ -27,7 +27,7 @@ xkb_symbols "media_common" {
     key <I19>   {       [ XF86AudioNext         ] };
     key <I20>   {       [ XF86AudioMute         ] };
     key <I22>   {       [ XF86AudioPlay, XF86AudioPause ] };
-    key <I24>   {       [ XF86AudioStop, XF86AudioEject ] };
+    key <I24>   {       [ XF86AudioStop, XF86Eject ] };
     key <I2E>   {       [ XF86AudioLowerVolume  ] };	
     key <I30>   {       [ XF86AudioRaiseVolume  ] };
 };
