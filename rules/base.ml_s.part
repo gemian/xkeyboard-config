@@ -14,5 +14,6 @@
   macintosh_old	*			=	macintosh_vndr/us(oldmac)+%l%(v)
  $macs		en_US			=	pc+macintosh_vndr/us(extended)
  $macs		$macvendorlayouts	=	pc+macintosh_vndr/%l%(v)
+  thinkpad   	br			=	pc+br(thinkpad)
   *	   	$nonlatin		=	pc+us+%l%(v):2
   *		*			=	pc+%l%(v)

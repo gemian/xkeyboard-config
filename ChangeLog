@@ -1,3 +1,10 @@
+2007-08-10  Sergey Udaltsov
+
+	* symbols/br, rules/base.m_g.part, rules/base.ml1_s.part,
+	rules/base.ml_g.part, rules/base.ml_s.part: Adding br(thinkpad),
+	polishing rules a bit,
+	https://bugs.freedesktop.org/show_bug.cgi?id=11908
+
 2007-08-07  Sergey Udaltsov
 
 	* symbols/ara: Patch to Arabic keyboard layout,

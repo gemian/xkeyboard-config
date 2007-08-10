@@ -1,6 +1,6 @@
 
 // based on 
-// "a very simple Brasilian ABNT2 keybaord
+// "a very simple Brasilian ABNT2 keyboard
 // by Ricardo Y. Igarashi (iga@that.com.br)
 // Adds suport for dead-keys in I18N applications
 // by Conectiva  (http://www.conectiva.com.br)"
@@ -62,4 +62,16 @@ xkb_symbols "nodeadkeys" {
     key <AC10>	{ [  ccedilla,   Ccedilla,        acute,  doubleacute ]	};
     key <AC11>	{ [asciitilde, asciicircum ]	};
     key <AB10>	{ [ semicolon,      colon, dead_belowdot,    abovedot ]	};
+};
+
+// ABNT2 Keyboard to IBM/Lenovo Thinkpads 
+// by Piter PUNK <piterpk@terra.com.br>
+//
+partial alphanumeric_keys
+xkb_symbols "thinkpad" {
+
+    include "br(abnt2)" // for consistent naming
+    name[Group1]="Brazil";
+
+    key <RCTL> { [     slash,   question,       degree, questiondown ] };
 };

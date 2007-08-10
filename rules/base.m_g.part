@@ -6,6 +6,7 @@
  $pcmodels	=	pc(%m)
  $pcgeometries	=	pc(%m)
   everex	=	everex(STEPnote)
+  thinkpad	=	thinkpad(intl)
   winbook	=	winbook(XP5)
   pc98		=	nec(pc98)
  $macbooks      =       macintosh(%m)
