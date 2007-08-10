@@ -2098,7 +2098,7 @@ xkb_symbols "benqx" {
     key <I02> { [ XF86ModeLock ] };
     key <I21> { [ XF86WWW      ]  };
     key <I2B> { [ XF86Go ] };
-    key <I31> { [ XF86Clock ] };
+    key <I31> { [ XF86Calendar ] };
     key <I32> { [ XF86WWW ] };
     key <I5E> { [ XF86PowerOff ]  };
     key <I5F> { [ XF86ScreenSaver ] };
