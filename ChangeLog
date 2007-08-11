@@ -1,3 +1,8 @@
+2007-08-12  Sergey Udaltsov
+
+	* symbols/ru: fixed ebreve in ru(ch),
+	http://bugs.freedesktop.org/show_bug.cgi?id=11246
+
 2007-08-10  Sergey Udaltsov
 
 	* symbols/br, rules/base.m_g.part, rules/base.ml1_s.part,

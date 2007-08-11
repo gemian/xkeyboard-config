@@ -217,7 +217,7 @@ xkb_symbols "cv" {
     key        <AD03> {        [      Cyrillic_u,	Cyrillic_U,
                             0x010004f3,    0x010004f2      ]       };
     key        <AD05> {        [      Cyrillic_ie,     Cyrillic_IE,
-                       ebreve,	Ebreve     ]       };
+                       0x01000115,	0x01000114     ]       };
     key        <AC04> {        [      Cyrillic_a,	Cyrillic_A,
                           abreve,  Abreve      ]       };
     key        <AB03> {        [      Cyrillic_es,     Cyrillic_ES,
@@ -256,10 +256,17 @@ xkb_symbols "cv_latin" {
 
     key.type[group1]="FOUR_LEVEL";
 
+    key        <AD01> {	[	  q,	Q,    0x01000161,       0x01000160 ] };
     key        <AD02> {	[	  w,	W,    udiaeresis,       Udiaeresis ] };
-    key        <AD03> { [         e,	E,        ebreve,           Ebreve ] };
+    key        <AD03> { [         e,	E,    0x01000115,	0x01000114 ] };
+    key        <AD07> {	[	  u,	U,    udiaeresis,       Udiaeresis ] };
+    key        <AD08> {	[	  i,	I,    0x0100012d,       0x0100012c ] };
+    key        <AD09> {	[	  o,	O,    odiaeresis,       Odiaeresis ] };
     key        <AC01> { [	  a,    A,        abreve,           Abreve ] };
     key        <AC02> { [	  s,    S,      scedilla,         Scedilla ] };
+    key        <AC05> { [	  g,    G,        gbreve,           Gbreve ] };
+    key        <AC07> { [	  j,    J,    0x01000131,       0x01000130 ] };
+    key        <AB03> { [         c,    C,      ccedilla,         Ccedilla ] };
 
     include "level3(ralt_switch)"
 
