@@ -2,6 +2,8 @@
 
 	* symbols/ru: fixed ebreve in ru(ch),
 	http://bugs.freedesktop.org/show_bug.cgi?id=11246
+	* rules/base.xml.in: missing Romanian variants added,
+	https://bugs.freedesktop.org/show_bug.cgi?id=11945
 
 2007-08-10  Sergey Udaltsov
 

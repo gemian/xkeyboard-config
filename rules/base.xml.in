@@ -2528,8 +2528,20 @@
       <variantList>
         <variant>
           <configItem>
+            <name>comma</name>
+            <_description>Commabelow</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>std</name>
             <_description>Standard</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>academic</name>
+            <_description>Standard (Commabelow)</_description>
           </configItem>
         </variant>
         <variant>
