@@ -25,8 +25,8 @@
 
 ! $inetkbds = a4techKB21 a4techKBS8 a4_rfkb23 \
               acer_c300 acer_ferrari4k acer_laptop \
-              acpi airkey armada azonaRF2300 \
-              apple \
+              acpi airkey \
+              apple armada asus_laptop azonaRF2300 \
               benqx brother \
               btc5113rf btc5126t btc9000 btc9000a btc9001ah btc5090 btc9019u \
               cherryblue cherrybluea cherryblueb cherrycyboard \

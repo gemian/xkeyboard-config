@@ -854,6 +854,13 @@
     </model>
     <model>
       <configItem>
+        <name>asus_laptop</name>
+        <_description>Asus Laptop</_description>
+	<vendor>Asus</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>apple</name>
         <_description>Apple</_description>
 	<vendor>Apple</vendor>

@@ -1,3 +1,8 @@
+2007-08-14  Sergey Udaltsov
+
+	* symbols/inet, rules/base.xml.in: added asus_laptop,
+	https://bugs.freedesktop.org/show_bug.cgi?id=11936
+
 2007-08-12  Sergey Udaltsov
 
 	* symbols/ru: fixed ebreve in ru(ch),

@@ -209,6 +209,22 @@ xkb_symbols "airkey" {
     key <I63>	{	[ XF86Standby		]	};
 };
 
+// Acer C300 Laptop
+partial alphanumeric_keys
+xkb_symbols "acer_c300" {
+
+    key <I17>   {       [ F14                   ]       };
+    key <I1F>   {       [ F13                   ]       };
+    key <I20>   {       [ XF86AudioMute         ]       };
+    key <I2E>   {       [ XF86AudioLowerVolume  ]       };
+    key <I30>   {       [ XF86AudioRaiseVolume  ]       };
+    key <I32>   {       [ XF86Mail              ]       };
+    key <I5E>   {       [ XF86Launch2           ]       };
+    key <I6C>   {       [ XF86WWW               ]       };
+    key <I75>   {       [ Help                  ]       };
+    key <XFER>  {       [ XF86Launch1           ]       };
+};
+
 // Acer Ferrari 4000 Keyboard
 // From Alex Dubov <oakad@yahoo.com>
 partial alphanumeric_keys
@@ -260,6 +276,14 @@ xkb_symbols "acer_laptop" {
     // to make the keys work
 //  key <K5D>   {       [ EuroSign              ]        }; // Euro (HAL)
 //  key <K5E>   {       [ dollar                ]        }; // Dollar (HAL)
+};
+
+// Asus
+partial alphanumeric_keys
+xkb_symbols "asus_laptop" {
+    include "inet(media_common)"
+    key <I32>   {       [ XF86WWW               ]       };
+    key <I6C>   {       [ XF86Mail              ]       };
 };
 
 // Azona
@@ -1974,22 +1998,6 @@ xkb_symbols "sp_inet" {
     key <I69>	{	[ XF86Forward		]	}; 
     key <I6A>	{	[ XF86Back		]	}; 
     key <I6C>	{	[ XF86Mail		]	}; 
-};
-
-// Acer C300 Laptop
-partial alphanumeric_keys
-xkb_symbols "acer_c300" {
-
-    key <I17>   {       [ F14                   ]       };
-    key <I1F>   {       [ F13                   ]       };
-    key <I30>   {       [ XF86AudioRaiseVolume  ]       };
-    key <I2E>   {       [ XF86AudioLowerVolume  ]       };
-    key <I20>   {       [ XF86AudioMute         ]       };
-    key <I6C>   {       [ XF86WWW               ]       };
-    key <I32>   {       [ XF86Mail              ]       };
-    key <I75>   {       [ Help                  ]       };
-    key <XFER>  {       [ XF86Launch1           ]       };
-    key <I5E>   {       [ XF86Launch2           ]       };
 };
 
 // Apple keyboards (macbooks, powerbooks, powermac G5, etc)
