@@ -915,6 +915,13 @@
 	<vendor>Fujitsu</vendor>
       </configItem>
     </model>
+    <model>
+      <configItem>
+	<name>classmate</name>
+	<_description>Classmate PC</_description>
+	<vendor>Intel</vendor>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>

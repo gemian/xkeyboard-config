@@ -2169,3 +2169,12 @@ xkb_symbols "logitech_g15" {
     key <XFER> {         [     XF86Launch8 ] };
 
 };
+
+// Intel
+
+// Intel Classmate
+partial alphanumeric_keys
+xkb_symbols "classmate" {
+    key <I2E>   {       [ XF86AudioLowerVolume  ] };	
+    key <I30>   {       [ XF86AudioRaiseVolume  ] };
+};

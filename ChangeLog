@@ -1,3 +1,10 @@
+2007-08-18  Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.ml_s.part, rules/base.mlv_s.part,
+	rules/base.xml.in, symbols/inet, symbols/us: added classmate model
+	with specific variants,
+	https://bugs.freedesktop.org/show_bug.cgi?id=11955
+
 2007-08-14  Sergey Udaltsov
 
 	* symbols/inet, rules/base.xml.in: added asus_laptop,
