@@ -1,3 +1,7 @@
+2007-08-19  Sergey Udaltsov
+
+	* symbols/et: added missing dead "c" key
+
 2007-08-18  Sergey Udaltsov
 
 	* rules/base.lists.part, rules/base.ml_s.part, rules/base.mlv_s.part,
