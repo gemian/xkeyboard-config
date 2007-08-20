@@ -114,8 +114,8 @@ xkb_symbols "polytonic" {
     key <AD11> { [ 	dead_tilde,	dead_diaeresis,	dead_macron	] };
     key <AD12> { [	dead_iota,	VoidSymbol,	dead_breve	] };
 
-    key <AC10> { [	dead_acute,		U0313	] };
-    key <AC11> { [	dead_grave,		U0314	] };
+    key <AC10> { [	dead_acute,		dead_horn	] };
+    key <AC11> { [	dead_grave,		dead_ogonek	] };
 
 };
 
