@@ -7,7 +7,7 @@ az be bd \
 bg br ba \
 bt by braille \
 ca cd \
-ch cs cz \
+ch cn cs cz \
 de dk ee \
 es et epo \
 fi fo fr \

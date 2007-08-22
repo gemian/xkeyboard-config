@@ -1473,6 +1473,27 @@
     </layout>
     <layout>
       <configItem>
+        <name>cn</name>
+        <_shortDescription>China</_shortDescription>
+        <_description>China</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>tib</name>
+            <_description>Tibetan</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>tib_asciinum</name>
+            <_description>Tibetan (with ASCII numerals)</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>hr</name>
         <_shortDescription>Hrv</_shortDescription>
         <_description>Croatia</_description>
