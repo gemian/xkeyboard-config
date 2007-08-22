@@ -71,6 +71,8 @@ xkb_symbols "comma" {
 
     include "ro(basic)"
 
+    name[Group1]="Romania - Commabelow";
+
     key <AD05>	{ [ t,                     T,  0x100021b,       0x100021a ] };
     key <AC02>	{ [ s,          	   S,  0x1000219,       0x1000218 ] };
 };
@@ -128,6 +130,8 @@ xkb_symbols "academic" {
     // For now it's the oddest variant (although the perfect one).
 
     include "ro(std)"
+
+    name[Group1]="Romania - Standard (Commabelow)";
 
     key <AC10> { [ 0x1000219,	   0x1000218 ] };
     key <AC11> { [ 0x100021b,	   0x100021a ] };
