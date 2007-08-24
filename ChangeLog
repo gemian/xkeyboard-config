@@ -1,3 +1,7 @@
+2007-08-24  Sergey Udaltsov
+
+	* symbols/us: fixes typos in us(classmate-intl)
+
 2007-08-22  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/Makefile.am, symbols/cn: adding Tibetan

@@ -670,7 +670,7 @@ xkb_symbols "classmate-intl" {
     key <KP6>  { [	KP_Right,		KP_6,
 			oacute,			Oacute		] };
     key <KPSU> { [	KP_Subtract,		KP_Subtract,
-			odiaresis,		Odiaresis	] };
+			odiaeresis,		Odiaeresis	] };
 
     key <KP2>  { [	KP_Down,		KP_2,
 			oe,			OE		] };
@@ -710,7 +710,7 @@ xkb_symbols "classmate-alt-intl" {
 			rightsinglequotemark,	dead_abovering	] };
 
     key <KPAD> { [ 	KP_Add,     		KP_Add,
-			dead_ogonek,		dead_diaresis   ] };
+			dead_ogonek,		dead_diaeresis   ] };
     
     key <KPDL> { [	KP_Delete,		KP_Decimal,
 			dead_abovedot,		dead_circumflex	] }; 
@@ -749,10 +749,10 @@ xkb_symbols "classmate-altgr-intl" {
     key <KP6>  { [	KP_Right,		KP_6,
 			oacute,			Oacute		] };
     key <KPSU> { [	KP_Subtract,		KP_Subtract,
-			odiaresis,		Odiaresis	] };
+			odiaeresis,		Odiaeresis	] };
 
     key <KP1>  { [	KP_End,			KP_1,
-			idiaresis,		Idiaresis	] };
+			idiaeresis,		Idiaeresis	] };
     key <KP2>  { [	KP_Down,		KP_2,
 			oe,			OE		] };
     key <KP3>  { [	KP_Next,		KP_3,
