@@ -1,3 +1,8 @@
+2007-08-26  Sergey Udaltsov
+
+	* rules/compat/variantRename.lst: fixing dvorak layouts compat rule,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12115
+
 2007-08-24  Sergey Udaltsov
 
 	* symbols/us: fixes typos in us(classmate-intl)
