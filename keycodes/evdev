@@ -269,6 +269,14 @@ default xkb_keycodes "evdev" {
 	<I243> = 243;	// #define KEY_DOCUMENTS           235
 	<I244> = 244;	// #define KEY_BATTERY             236
 
+	// Fake keycodes for virtual keys
+	<MDSW> =   241;
+	<LVL3> =   242;
+	<ALT>  =   243;
+	<META> =   244;
+	<SUPR> =   245;
+	<HYPR> =   246;
+
 	indicator 1 = "Caps Lock";
 	indicator 2 = "Num Lock";
 	indicator 3 = "Scroll Lock";

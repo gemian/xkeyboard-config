@@ -1,3 +1,8 @@
+2007-08-27  Sergey Udaltsov
+
+	* keycodes/evdev: missing keycodes for evdev:
+	https://bugs.freedesktop.org/show_bug.cgi?id=12167
+
 2007-08-26  Sergey Udaltsov
 
 	* rules/compat/variantRename.lst: fixing dvorak layouts compat rule,
