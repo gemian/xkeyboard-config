@@ -309,12 +309,12 @@ The most used schemes are:
 
 Besides that, there are several schemes for special purposes:
 
-      PC_BREAK
+      PC_CONTROL_LEVEL2
             It is similar to TWO_LEVEL scheme but it considers the Control
             modifier rather than Shift. That means, the symbol from the sec-
             ond level is chosen by Control rather than by Shift.
 
-      PC_SYSRQ
+      PC_ALT_LEVEL2
             It is similar to TWO_LEVEL scheme but it considers the Alt modi-
             fier rather than Shift. That means, the symbol from the second
             level is chosen by Alt rather than by Shift.
