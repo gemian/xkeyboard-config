@@ -111,12 +111,12 @@ xkb_symbols "pc" {
     key <FK11> {       [	     F11 ] };
     key <FK12> {       [	     F12 ] };
     key <PRSC> {
-	type= "PC_SYSRQ",
+	type= "PC_ALT_LEVEL2",
 	symbols[Group1]= [	     Print,	    Sys_Req ]
     };
     key <SCLK> {       [     Scroll_Lock ] };
     key <PAUS> {
-	type= "PC_BREAK",
+	type= "PC_CONTROL_LEVEL2",
 	symbols[Group1]= [	     Pause,	      Break ]
     };
 

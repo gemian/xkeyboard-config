@@ -1,3 +1,9 @@
+2007-08-28  Sergey Udaltsov
+
+	* symbols/group, symbols/jp, symbols/la, symbols/level3, symbols/pc,
+	symbols/digital_vndr/pc, types/pc: renaming types, giving more
+	sensible names
+
 2007-08-27  Sergey Udaltsov
 
 	* keycodes/evdev: missing keycodes for evdev:

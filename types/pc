@@ -8,13 +8,33 @@ partial default xkb_types "default" {
     // a PC compatible keyboard.
     virtual_modifiers Alt;
     virtual_modifiers LevelThree;
+    virtual_modifiers LAlt;
+    virtual_modifiers RAlt;
+    virtual_modifiers RControl;
+    virtual_modifiers LControl;
 
-    type "PC_BREAK" {
+    type "PC_CONTROL_LEVEL2" {
 	modifiers = Control;
 	map[None] = Level1;
 	map[Control] = Level2;
 	level_name[Level1] = "Base";
 	level_name[Level2] = "Control";
+    };
+
+    type "PC_LCONTROL_LEVEL2" {
+	modifiers = LControl;
+	map[None] = Level1;
+	map[LControl] = Level2;
+	level_name[Level1] = "Base";
+	level_name[Level2] = "LControl";
+    };
+
+    type "PC_RCONTROL_LEVEL2" {
+	modifiers = RControl;
+	map[None] = Level1;
+	map[RControl] = Level2;
+	level_name[Level1] = "Base";
+	level_name[Level2] = "RControl";
     };
 
     type "PC_ALT_LEVEL2" {
@@ -25,14 +45,20 @@ partial default xkb_types "default" {
 	level_name[Level2] = "Alt";
     };
 
-    type "PC_SYSRQ" {
-	modifiers = Alt+LevelThree;
+    type "PC_LALT_LEVEL2" {
+	modifiers = LAlt;
 	map[None] = Level1;
-	map[Alt] = Level2;
-	map[LevelThree] = Level3;
+	map[LAlt] = Level2;
 	level_name[Level1] = "Base";
-	level_name[Level2] = "Alt";
-	level_name[Level3] = "Level3";
+	level_name[Level2] = "LAlt";
+    };
+
+    type "PC_RALT_LEVEL2" {
+	modifiers = RAlt;
+	map[None] = Level1;
+	map[RAlt] = Level2;
+	level_name[Level1] = "Base";
+	level_name[Level2] = "RAlt";
     };
 
     type "CTRL+ALT" {
