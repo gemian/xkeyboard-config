@@ -833,6 +833,13 @@
     </model>
     <model>
       <configItem>
+        <name>macintosh_hhk</name>
+        <_description>Happy Hacking Keyboard for Mac</_description>
+	<vendor>Fujitsu</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>acer_c300</name>
         <_description>Acer C300</_description>
 	<vendor>Acer</vendor>

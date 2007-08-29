@@ -4,6 +4,9 @@
 	https://bugs.freedesktop.org/show_bug.cgi?id=12202
 	* keycodes/xfree86, symbols/inet, symbols/pc: display switch &
 	backlight control, https://bugs.freedesktop.org/show_bug.cgi?id=12203
+	* keycodes/macintosh, rules/base.m_k.part, rules/base.xml.in: adding
+	macintosh_hhk model,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12091
 
 2007-08-28  Sergey Udaltsov
 
