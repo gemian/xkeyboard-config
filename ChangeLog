@@ -1,3 +1,8 @@
+2007-08-29  Sergey Udaltsov
+
+	* keycodes/evdev: updated evdev keycodes,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12202
+
 2007-08-28  Sergey Udaltsov
 
 	* symbols/group, symbols/jp, symbols/la, symbols/level3, symbols/pc,

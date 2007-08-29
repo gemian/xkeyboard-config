@@ -1,7 +1,7 @@
 // translation from evdev scancodes to something resembling xfree86 keycodes.
 
 default xkb_keycodes "evdev" {
-	minimum = 8;
+	minimum = 1;
 	maximum = 255;
 
         # Added for pc105 compatibility
@@ -268,18 +268,35 @@ default xkb_keycodes "evdev" {
 	<I242> = 242;	// #define KEY_SAVE                234
 	<I243> = 243;	// #define KEY_DOCUMENTS           235
 	<I244> = 244;	// #define KEY_BATTERY             236
+	<I245> = 245;	// #define KEY_BLUETOOTH           237
+	<I246> = 246;	// #define KEY_WLAN                238
+	<I247> = 247;	// (not defined in input.h)        239
+	<I248> = 248;	// #define KEY_UNKNOWN             240
+	<I249> = 249;	// #define KEY_VIDEO_NEXT          241
+	<I250> = 250;	// #define KEY_VIDEO_PREV          242
+	<I251> = 251;	// #define KEY_BRIGHTNESS_CYCLE    243
+	<I252> = 252;	// #define KEY_BRIGHTNESS_ZERO     244
+	<I253> = 253;	// #define KEY_DISPLAY_OFF         245
 
 	// Fake keycodes for virtual keys
-	<MDSW> =   241;
-	<LVL3> =   242;
-	<ALT>  =   243;
-	<META> =   244;
-	<SUPR> =   245;
-	<HYPR> =   246;
+	<MDSW> =   1;
+	<LVL3> =   2;
+	<ALT>  =   3;
+	<META> =   4;
+	<SUPR> =   5;
+	<HYPR> =   6;
 
-	indicator 1 = "Caps Lock";
-	indicator 2 = "Num Lock";
-	indicator 3 = "Scroll Lock";
+	indicator 1  = "Caps Lock";
+	indicator 2  = "Num Lock";
+	indicator 3  = "Scroll Lock";
+	indicator 4  = "Compose";
+	indicator 5  = "Kana";
+	indicator 6  = "Sleep";
+	indicator 7  = "Suspend";
+	indicator 8  = "Mute";
+	indicator 9  = "Misc";
+	indicator 10 = "Mail";
+	indicator 11 = "Charging";
 
 	alias <ALGR> = <RALT>;
 };
