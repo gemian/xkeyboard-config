@@ -2,6 +2,8 @@
 
 	* keycodes/evdev: updated evdev keycodes,
 	https://bugs.freedesktop.org/show_bug.cgi?id=12202
+	* keycodes/xfree86, symbols/inet, symbols/pc: display switch &
+	backlight control, https://bugs.freedesktop.org/show_bug.cgi?id=12203
 
 2007-08-28  Sergey Udaltsov
 
