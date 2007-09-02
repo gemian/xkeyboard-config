@@ -258,10 +258,10 @@ default xkb_keycodes "evdev" {
 	<I232> = 232;	// #define KEY_BRIGHTNESSDOWN      224
 	<I233> = 233;	// #define KEY_BRIGHTNESSUP        225
 	<I234> = 234;	// #define KEY_MEDIA               226
-	<I235> = 235;	// #define KEY_SWITCHVIDEOMODE     227
-	<I236> = 236;	// #define KEY_KBDILLUMTOGGLE      228
-	<I237> = 237;	// #define KEY_KBDILLUMDOWN        229
-	<I238> = 238;	// #define KEY_KBDILLUMUP          230
+	<OUTP> = 235;	// #define KEY_SWITCHVIDEOMODE     227
+	<KITG> = 236;	// #define KEY_KBDILLUMTOGGLE      228
+	<KIDN> = 237;	// #define KEY_KBDILLUMDOWN        229
+	<KIUP> = 238;	// #define KEY_KBDILLUMUP          230
 	<I239> = 239;	// #define KEY_SEND                231
 	<I240> = 240;	// #define KEY_REPLY               232
 	<I241> = 241;	// #define KEY_FORWARDMAIL         233

@@ -1,6 +1,7 @@
 2007-09-02  Sergey Udaltsov
 
 	* keycodes/evdev, symbols/inet: more evdev keycodes,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12227
 	https://bugs.freedesktop.org/show_bug.cgi?id=12228
 
 2007-08-29  Sergey Udaltsov
