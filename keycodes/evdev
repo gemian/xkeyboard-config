@@ -154,6 +154,7 @@ default xkb_keycodes "evdev" {
 	<KATA> =  98;	// Katakana
 	<HIRA> =  99;	// Hiragana
 	<JPCM> = 103;	// KPJPComma
+	<RO>   =  97;	// Romaji
 
 	// Keys that are generated on Korean keyboards
 
@@ -183,7 +184,6 @@ default xkb_keycodes "evdev" {
 	// Extended keys that may be generated on "Internet" keyboards.
 	// evdev has standardize names for these.
 
-	<RO> = 97;	// #define KEY_RO                  89
 	<LNFD> = 109;	// #define KEY_LINEFEED            101
 	<I120> = 120;	// #define KEY_MACRO               112
 	<I126> = 126;	// #define KEY_KPPLUSMINUS         118
