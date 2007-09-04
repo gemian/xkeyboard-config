@@ -1,3 +1,8 @@
+2007-09-04  Sergey Udaltsov
+
+	* symbols/it, rules/base.xml.in: added strange one, it(geo),
+	contributed by Vladimir Sichinava
+
 2007-09-02  Sergey Udaltsov
 
 	* keycodes/evdev, symbols/inet: more evdev keycodes,

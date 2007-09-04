@@ -2249,6 +2249,12 @@
             <_description>Macintosh</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>geo</name>
+            <_description>Georgian</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

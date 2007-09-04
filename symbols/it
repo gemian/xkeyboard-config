@@ -130,3 +130,26 @@ xkb_symbols "mac" {
     include "level3(ralt_switch)"
 };
 
+// Used by Georgian people in Italy, 
+// contributed by Vladimer Sichinava
+partial alphanumeric_keys 
+xkb_symbols "geo" {
+    include "it"
+    include "ge(basic)"
+
+    name[Group1]= "Italy - Georgian";
+
+    key <AD11> { [    egrave,     eacute,  bracketleft,    braceleft ]	};
+    key <AD12> { [      plus,   asterisk, bracketright,   braceright ]	};
+   
+    key <AC10> { [    ograve,   ccedilla,           at, dead_cedilla ] };
+    key <AC11> { [    agrave,     degree,   numbersign,       degree ] };
+    key <BKSL> { [    ugrave,    section,   dead_grave,   dead_breve ]	};
+    key <LSGT> { [ less,	greater		]       };
+
+    key <AB08> { [     comma,  semicolon  	]	};    
+    key <AB09> { [    period,  colon		] 	};
+    key <AB10> { [     minus, 	underscore	]	};
+
+};
+
