@@ -754,6 +754,14 @@ xkb_symbols "dell" {
     key <I5F>	{	[ XF86Standby		]	};
 };
 
+// Dell Precision M65
+partial alphanumeric_keys
+xkb_symbols "dellm65" {
+    include "inet(media_common)"
+    key <I04>   {       [ XF86PowerOff          ]       };
+    key <LWIN>  {       [ Super_L               ]       };
+};
+
 // Genius KB-19e NB
 partial alphanumeric_keys
 xkb_symbols "geniuskb19e" {
@@ -2186,3 +2194,4 @@ xkb_symbols "classmate" {
     key <I2E>   {       [ XF86AudioLowerVolume  ] };	
     key <I30>   {       [ XF86AudioRaiseVolume  ] };
 };
+

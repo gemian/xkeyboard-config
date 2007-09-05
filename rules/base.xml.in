@@ -46,6 +46,12 @@
     </model>
     <model>
       <configItem>
+        <name>dellm65</name>
+        <_description>Dell Precision M65</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>everex</name>
         <_description>Everex STEPnote</_description>
         <vendor>Everex</vendor>

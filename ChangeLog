@@ -1,3 +1,9 @@
+2007-09-05  Sergey Udaltsov
+
+	* symbols/inet, geometry/dell, rules/base.m_g.part,
+	rules/base.lists.part: adding dell precision m65,
+	https://bugs.freedesktop.org/show_bug.cgi?id=7992
+
 2007-09-04  Sergey Udaltsov
 
 	* symbols/it, rules/base.xml.in: added strange one, it(geo),
