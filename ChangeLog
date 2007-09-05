@@ -3,6 +3,8 @@
 	* symbols/inet, geometry/dell, rules/base.m_g.part,
 	rules/base.lists.part: adding dell precision m65,
 	https://bugs.freedesktop.org/show_bug.cgi?id=7992
+	* rules/base.m_g.part: fixed rules for the kinesis keyboard,
+	https://bugs.freedesktop.org/show_bug.cgi?id=7991
 
 2007-09-04  Sergey Udaltsov
 
