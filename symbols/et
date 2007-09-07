@@ -23,6 +23,7 @@ xkb_symbols "basic" {
     key <AE09>	{ [        0x01001371,  0x0100137a ] }; // 9
     key <AE10>	{ [        0x0100137b,  0x0100137c ] }; // 0
     key <AE11>	{ [        minus,       underscore ] }; // -_
+    key <AE12>	{ [        equal,       plus       ] }; // =+
 
     key <AD01>	{ [        0x01001240,  0x01001250 ]	}; // q
     key <AD02>	{ [        0x010012C8,  VoidSymbol ]	}; // w
