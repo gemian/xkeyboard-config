@@ -2040,12 +2040,10 @@ partial xkb_symbols "apple" {
 partial alphanumeric_keys
 xkb_symbols "cymotionlinux" {
     include "inet(media_common)"
-    key	<RWIN>	{	[	at		]	};
-    key	<I68>	{	[	XF86Stop		]	};
     key <FK17>	{	[	XF86Search		]	};
     key <I02>	{	[	XF86WWW			]	};
+    key <I05>	{	[	Redo			]	};
     key <I07>	{	[	Undo			]	};
-    key <I0A>	{	[	Redo			]	};
     key <I0F>	{	[	XF86ScrollDown		]	};
     key <I17>	{	[	XF86Launch2		]	};
     key <I1F>	{	[	XF86Launch1		]	};
@@ -2053,9 +2051,10 @@ xkb_symbols "cymotionlinux" {
     key <I28>	{	[	XF86MenuKB		]	};
     key <I2B>	{	[	XF86Launch3		]	};
     key <I3C>	{	[	XF86Cut			]	};
+    key <I47>	{	[	XF86PowerOff		]	};
     key <I63>   {	[	XF86Standby		]	};
     key <I67>	{	[	XF86Reload		]	};
-    key <I68>	{	[	XF86PowerOff		]	};
+    key	<I68>	{	[	XF86Stop		]	};
     key <I69>	{	[	XF86Forward		]	};
     key <I6A>	{	[	XF86Back		]	};
     key <I6C>	{	[	XF86Mail		]	};
@@ -2063,6 +2062,7 @@ xkb_symbols "cymotionlinux" {
     key <K65>	{	[	XF86Paste		]	};
     key <K6C>	{	[	XF86Eject		]	};
     key <K75>	{	[	XF86ScrollUp		]	};
+    key	<RWIN>	{	[	at		]	};
     key <XFER>	{	[	XF86AudioMedia		]	};
 };
 

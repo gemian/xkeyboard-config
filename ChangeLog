@@ -1,3 +1,8 @@
+2007-09-14  Sergey Udaltsov
+
+	* symbols/inet: small fixes in cymotionlinux,
+	https://bugs.freedesktop.org/show_bug.cgi?id=7983
+
 2007-09-05  Sergey Udaltsov
 
 	* symbols/inet, geometry/dell, rules/base.m_g.part,
