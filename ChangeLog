@@ -2,6 +2,8 @@
 
 	* symbols/inet: small fixes in cymotionlinux,
 	https://bugs.freedesktop.org/show_bug.cgi?id=7983
+	* keycodes/evdev: fixed fake keycodes,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12202
 
 2007-09-05  Sergey Udaltsov
 

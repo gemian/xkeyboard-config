@@ -1,7 +1,7 @@
 // translation from evdev scancodes to something resembling xfree86 keycodes.
 
 default xkb_keycodes "evdev" {
-	minimum = 1;
+	minimum = 8;
 	maximum = 255;
 
         # Added for pc105 compatibility
@@ -279,12 +279,12 @@ default xkb_keycodes "evdev" {
 	<I253> = 253;	// #define KEY_DISPLAY_OFF         245
 
 	// Fake keycodes for virtual keys
-	<MDSW> =   1;
-	<LVL3> =   2;
-	<ALT>  =   3;
-	<META> =   4;
-	<SUPR> =   5;
-	<HYPR> =   6;
+	<LVL3> =   92;
+	<MDSW> =   203;
+	<ALT>  =   204;
+	<META> =   205;
+	<SUPR> =   206;
+	<HYPR> =   207;
 
 	indicator 1  = "Caps Lock";
 	indicator 2  = "Num Lock";
