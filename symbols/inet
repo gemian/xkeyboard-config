@@ -1056,6 +1056,7 @@ xkb_symbols "hp5185" {
     key <I5F>   {       [ XF86Standby           ]       };
     key <I65>   {       [ XF86Search            ]       };
     key <I6C>   {       [ XF86Mail              ]       };
+    key <I75>   {       [ Help                  ]       };
 };
 
 // Hewlett-Packard Omnibook XE3 GC, GD, GE and Pavilion N5xxx
