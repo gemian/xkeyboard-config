@@ -1127,7 +1127,7 @@ msgstr "Latinski qwerty"
 
 #: ../rules/base.xml.in.h:278
 msgid "Latin with guillemets"
-msgstr "Latinska z dvojnimi &lt;&gt; (Guillemots)"
+msgstr "Latinska z dvojnimi <> (Guillemots)"
 
 #: ../rules/base.xml.in.h:279
 msgid "Latvia"
@@ -1993,7 +1993,7 @@ msgstr "Uporabi slovenske digrafe"
 
 #: ../rules/base.xml.in.h:496
 msgid "Use guillemets for quotes"
-msgstr "Dvojni &lt;&gt; (guillemets) namesto navednic"
+msgstr "Dvojni <> (guillemets) namesto navednic"
 
 #: ../rules/base.xml.in.h:497
 msgid "Use keyboard LED to show alternative group."
@@ -2037,7 +2037,7 @@ msgstr "Z &lt;\\|&gt; tipkami"
 
 #: ../rules/base.xml.in.h:507
 msgid "With guillemets"
-msgstr "Z dvojnimi &lt;&gt; (Guillemots)"
+msgstr "Z dvojnimi <> (Guillemots)"
 
 #: ../rules/base.xml.in.h:508
 msgid "Yahoo! Internet Keyboard"
