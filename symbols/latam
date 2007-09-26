@@ -20,7 +20,7 @@ xkb_symbols "basic" {
     key <AE12>	{ [questiondown, exclamdown, dead_cedilla, dead_ogonek]	};
 
     key <AD11>	{ [dead_acute, dead_diaeresis, dead_diaeresis, dead_abovering ]	};
-    key <AD12>	{ [      plus,   asterisk,   asciitilde,  dead_macron ]	};
+    key <AD12>	{ [      plus,   asterisk,   dead_tilde,  dead_macron ]	};
 
     key <AC10>	{ [    ntilde,     Ntilde,   asciitilde, dead_doubleacute ] };
     key <AC11>	{ [ braceleft, bracketleft, dead_circumflex, braceleft]	};
