@@ -73,8 +73,8 @@ xkb_symbols "olpc" {
 
     include "ru(basic)"
 
-    key        <TLDE> {        [          U+0451,          U+0401, grave       ]       }; // Ñ‘, Ð
-    key <AE03> {        [               3,      numbersign, U+2116      ]       }; // â„–
+    key        <TLDE> {        [          0x01000451,          0x01000401, grave       ]       }; // Ñ‘, Ð
+    key <AE03> {        [               3,      numbersign, 0x01002116      ]       }; // â„–
     key <AE04> {        [               4,          dollar, semicolon   ]       };
     key <AE05> {        [               5,          percent             ]       };
     key <AE06> {        [               6,      asciicircum, colon      ]       };
