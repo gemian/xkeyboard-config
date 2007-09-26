@@ -148,3 +148,38 @@ xkb_symbols "mac" {
     name[Group1]= "Spain - Macintosh";
 
 };
+
+partial alphanumeric_keys
+xkb_symbols "olpc" {
+
+    include "us(basic)"
+    name[Group1]="Spain";
+
+    key <TLDE> { [          bar,         degree                         ] };
+    key <AE02> { [            2,       quotedbl,              at ] };
+    key <AE03> { [            3,     dead_grave,      numbersign ] };
+    key <AE05> { [            5,       percent, dead_circumflex ] };
+    key <AE06> { [            6,      ampersand,         notsign ] };
+    key <AE07> { [            7,          slash,       backslash ] };
+    key <AE08> { [            8,      parenleft                         ] };
+    key <AE09> { [            9,     parenright                         ] };
+    key <AE10> { [            0,          equal                  ] };
+    key <AE11> { [   apostrophe,       question                  ] };
+    key <AE12> { [   exclamdown,   questiondown                  ] };
+
+    key <AD03> { [            e,              E,        EuroSign ] };
+    key <AD11> { [   dead_acute, dead_diaeresis                         ] };
+    key <AD12> { [  bracketleft,      braceleft                  ] };
+
+    key <AC10> { [       ntilde,        Ntilde                  ] };
+    key <AC11> { [         plus,       asterisk,      dead_tilde ] };
+    key <BKSL> { [ bracketright,     braceright                  ] };
+
+    key <AB08> { [        comma,      semicolon                  ] };
+    key <AB09> { [       period,          colon                  ] };
+    key <AB10> { [        minus,     underscore                  ] };
+  
+    key <I219> { [         less,        greater,  ISO_Next_Group ] };
+
+    include "level3(ralt_switch)"
+};

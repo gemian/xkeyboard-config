@@ -50,8 +50,9 @@ partial hidden modifier_keys
 xkb_symbols "ralt_switch_for_alts_toggle" {
  virtual_modifiers LAlt, AlGr;
   key <LALT> {
-    type[Group1]="PC_ALT_LEVEL2",
-    symbols[Group1] = [ Alt_L,  ISO_Prev_Group,  ISO_Prev_Group ]
+    type[Group1]="PC_RALT_LEVEL2",
+    symbols[Group1] = [ Alt_L,  ISO_Prev_Group,  ISO_Prev_Group ],
+    virtualMods= LAlt
   };
   key <RALT> {
     type[Group1]="PC_ALT_LEVEL2",

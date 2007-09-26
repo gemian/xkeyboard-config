@@ -75,3 +75,38 @@ xkb_symbols "thinkpad" {
 
     key <RCTL> { [     slash,   question,       degree, questiondown ] };
 };
+
+partial alphanumeric_keys
+xkb_symbols "olpc" {
+
+    include "us(basic)"
+    name[Group1]="Brazil";
+
+    key <TLDE> { [   apostrophe,       quotedbl                                ] };
+
+    key <AE01> { [           1,          exclam,   onesuperior                 ] };
+    key <AE02> { [           2,              at,   twosuperior                 ] };
+    key <AE03> { [           3,      numbersign, threesuperior                 ] };
+    key <AE04> { [           4,          dollar,      sterling                 ] };
+    key <AE05> { [           5,         percent,          cent                 ] };
+    key <AE06> { [           6,  dead_diaeresis,       notsign                 ] };
+    key <AE12>  { [       equal,           plus,       section                 ] };
+
+    key <AD03> { [            e,              E,      EuroSign                 ] };
+    key <AD11> { [   dead_acute,      dead_grave                                ] };
+    key <AD12> { [  bracketleft,       braceleft,     0x10000AA                 ] };
+
+    key <AC10> { [     ccedilla,       Ccedilla                                ] };
+    key <AC11> { [   dead_tilde, dead_circumflex                               ] };
+    key <BKSL> { [ bracketright,      braceright,     0x10000BA                        ] };
+
+    key <AB01> { [            z,              Z,           bar                 ] };
+    key <AB03> { [            c,              C,     0x10020A2                 ] };
+    key <AB09> { [       period,        greater,     backslash                 ] };
+    key <AB10> { [    semicolon,           colon                                ] };
+
+    key <I219> { [        slash,       question,        degree, ISO_Next_Group ] };
+
+    include "level3(ralt_switch)"
+};
+

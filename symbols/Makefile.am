@@ -20,7 +20,7 @@ latam latin lk \
 lt lv ma mao \
 mk mm mn \
 mt mv ng nl \
-no np pc pk \
+no np olpc pc pk \
 pl pt ro \
 ru se si \
 sk sy th \

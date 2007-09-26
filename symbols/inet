@@ -18,7 +18,7 @@
 // setxkbmap 'my_kb_layout' -variant 'my_kb_variant' -model 'my_eak_type'
 
 // All keyboards listed here should be also mentioned in
-// xc/programs/xkbcomp/rules/xfree86, xfree86.lst and xfree86.xml.
+// rules/base, base.lst and base.xml.
 
 // Very common set of media keys
 partial hidden alphanumeric_keys

@@ -1,3 +1,12 @@
+2007-09-26  Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.m_k.part, rules/base.ml_c.part,
+	rules/base.ml_s.part, rules/base.xml.in, rules/merge.sh,
+	symbols/Makefile.am, symbols/ara, symbols/br, symbols/es,
+	symbols/group, symbols/inet, symbols/level3, symbols/ng, symbols/olpc,
+	symbols/pk, symbols/ru, symbols/th, symbols/tr, symbols/us: massive
+	patch from OLPC project
+
 2007-09-25  Sergey Udaltsov
 
 	* NEWS, configure.in: preparing release 1.1

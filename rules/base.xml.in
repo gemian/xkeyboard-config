@@ -935,6 +935,13 @@
 	<vendor>Intel</vendor>
       </configItem>
     </model>
+    <model>
+      <configItem>
+	<name>olpc</name>
+	<_description>OLPC</_description>
+	<vendor>OLPC</vendor>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>
@@ -1008,6 +1015,12 @@
           <configItem>
             <name>altgr-intl</name>
             <_description>International (AltGr dead keys)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>olpc2</name>
+            <_description>OLPC with mode toggle on multiply/divide key</_description>
           </configItem>
         </variant>
       </variantList>

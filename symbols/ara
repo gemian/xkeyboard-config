@@ -217,3 +217,59 @@ xkb_symbols "buckwalter" {
 
     // End alphanumeric section
 };
+
+partial alphanumeric_keys
+xkb_symbols "olpc" {
+
+    include "ara(basic)"
+
+    // As part of the olpc design some changes were made to the Arabic
+    // keyboard design. Major changes are:
+    //
+    //  * Removed the lam-alef single character. Poeple type as they
+    //    pronounce, and lam-alef is just a visual formatting of the
+    //    sequence and is not often used on the keyboard. It is
+    //    similar to the Allah single character, which is also not on
+    //    the keyboard.
+    //  * Moved the following keys:
+    //     o Thal from TLDE to AB05: Due to space limitation on the
+    //       keybaord, but also accessibility
+    //     o Shadda from TLDE to AD05
+    //  * Placed currency letters on number keys and moved the ^ and &
+    //    characters to lower keys (This change is worth revisiting
+    //    before end of test period)
+
+    key <TLDE> {  [           grave,      asciitilde  ] };
+
+    key <AE01> {  [       0x1000661,          exclam  ] };
+    key <AE02> {  [       0x1000662,              at  ] };
+    key <AE03> {  [       0x1000663,      numbersign  ] };
+    key <AE04> {  [       0x1000664,          dollar  ] };
+    key <AE05> {  [       0x1000665,         percent  ] };
+    key <AE06> {  [       0x1000666,        sterling  ] };
+    key <AE07> {  [       0x1000667,        EuroSign  ] };
+    key <AE08> {  [       0x1000668,        asterisk  ] };
+    key <AE09> {  [       0x1000669,       parenleft  ] };
+    key <AE10> {  [       0x1000660,      parenright  ] };
+
+    key <AD05> {  [      Arabic_feh,   Arabic_shadda  ] };
+
+    key <AD08> {  [      Arabic_heh,        division  ] };
+    key <AD11> {  [     Arabic_jeem                   ] };
+    key <AD12> {  [      Arabic_dal                   ] };
+
+    key <AC01> {  [    Arabic_sheen,            less  ] };
+    key <AC02> {  [     Arabic_seen,         greater  ] };
+    key <AC05> {  [      Arabic_lam,       ampersand  ] };
+    key <AC10> {  [      Arabic_kaf                   ] };
+    key <AC11> {  [      Arabic_tah                   ] };
+
+    key <BKSL> {  [       backslash,             bar  ] };
+
+
+    // REH isolated form?
+    key <AB04> {  [       Arabic_ra,  Arabic_kasratan ] };
+    key <AB05> {  [     Arabic_thal,      asciicircum ] };
+    // Language key
+    key <I219> {  [  ISO_Next_Group,   ISO_Prev_Group ] };
+};

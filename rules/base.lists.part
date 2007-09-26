@@ -14,6 +14,9 @@
 // PC geometries - they have special geometry but symbols are mostly pc105
 ! $pcgeometries = abnt2 latitude jp106 kr106
 
+// Layouts that provide further specializations for the OLPC
+! $olpclayouts = ara br es ru th tr us
+
 ! $macbooks = macbook78 macbook79
 ! $maclaptop = ibook powerbook macbook78 macbook79
 ! $macs = macintosh macintosh_old ibook powerbook macbook78 macbook79
