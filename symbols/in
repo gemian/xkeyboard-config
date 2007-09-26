@@ -165,7 +165,6 @@ xkb_symbols "bolnagri" {
     include "level3(ralt_switch)"
 };
 
-
 // based on a keyboard map from an 'xkb/symbols/ben' file
 //
 // $XFree86: xc/programs/xkbcomp/symbols/ben,v 1.2 2002/11/22 04:03:28 dawes Exp $
@@ -212,6 +211,7 @@ xkb_symbols "ben" {
       key <AC03> { [      0x10009CD,  0x1000985 ]	};
       key <AC04> { [      0x10009BF,  0x1000987 ]	};
       key <AC05> { [      0x10009C1,  0x1000989 ]	};
+
 
 // Mainly unvoiced consonants
 
@@ -484,6 +484,8 @@ xkb_symbols "mal" {
 
     key <AE11> { [ minus      , 0x01000d03           ] };
     key <AE12> { [ 0x01000d43 , 0x01000d0b           ] };
+    key <BKSL>  { [0x0100200c, backlash ]};//bksl: ZWNJ 
+
   
     // From 'q' to right bracket (])
     
@@ -517,17 +519,91 @@ xkb_symbols "mal" {
     // From 'z' to slash (/)
     
     key <AB01> { [ 0x01000d46 , 0x01000d0e ] };
-    key <AB02> { [ 0x01000d02		      ] };
+    key <AB02> { [ 0x01000d02 , 0x0100200b ] };//X:ZWSP
     key <AB03> { [ 0x01000d2e , 0x01000d23 ] };
-    key <AB04> { [ 0x01000d28		      ] };
+    key <AB04> { [ 0x01000d28 ] };
     key <AB05> { [ 0x01000d35 , 0x01000d34 ] };
     key <AB06> { [ 0x01000d32 , 0x01000d33 ] };
     key <AB07> { [ 0x01000d38 , 0x01000d36 ] };
     key <AB08> { [ comma      , 0x01000d37 ] };
-    key <AB09> { [ period     			 ] };
+    key <AB09> { [ period     , 0x0100200d ] };
     key <AB10> { [ 0x01000d2f , question   ] };
 
 };
+
+//Name		:	Lalitha
+//Description	:	A transliteration keyboard layout for Malayalam
+//Original Author :	Noah Levitt<nlevitt at columbia.edu>
+//Current Main  : 	Jinesh K.J<jinesh.k@gmail.com>, Swathantra Malayalam Computing (SMC)<smc-discuss@googlegroups.com>
+
+partial alphanumeric_keys
+xkb_symbols "mal_lalitha" {
+     name[Group1] = "India - Malayalam Lalitha";
+     key.type="FOUR_LEVEL";
+    //Top Alphanumeric row
+    // Roman digits
+    key <TLDE>  { [   U0D4D,	U0D02,		apostrophe, 	asciitilde ] }; // apostrophe: virama(chandrakala),anusvara
+    key <AE01>  { [   1,	exclam,	U0D67,		exclam	   ] };
+    key <AE02>  { [   2,	at,		U0D68,		at	   ] };
+    key <AE03>  { [   3,    	numbersign, 	U0D69,		numbersign ] };
+    key <AE04>  { [   4,	dollar,		U0D6A,		dollar     ] };
+    key <AE05>  { [   5,	percent,	U0D6B,		percent    ] };
+    key <AE06>  { [   6,	asciicircum,	U0D6C,		asciicircum ] };
+    key <AE07>  { [   7,	ampersand,	U0D6D,		ampersand  ] };
+    key <AE08>  { [   8,	asterisk,	U0D6E,		asterisk   ] };
+    key <AE09>  { [   9,	parenleft,	U0D6F,		parenleft  ] };
+    key <AE10>  { [   0,	parenright,	U0D66,		parenright ] };
+    key <AE11>	{ [   minus,	underscore	     ] };
+    key <AE12>	{ [   equal,	plus		     ] };
+    key <BKSL>  { [   U005C,	U007C,		U200C	] };//backlash:pipe,backlash,ZWNJ 
+
+    //Q Row	
+    key <AD01>   { [   U0D48,	U0D4C,	U0D10,	U0D14  ] }; // Q: ai and au matras 
+    key <AD02>   { [   U0D35	] };  // W: wa, OM
+    key <AD03>   { [   U0D46,   U0D47,	U0D0E,	U0D0F   ] };  // E: e,ee matras
+    key <AD04>   { [   U0D30,	U0D31,	U0D43,	U0D0B  	] };  // R: ra,rra, vocalic Ri
+    key <AD05>   { [   U0D24,   U0D25,	U0D1F,	U0D20   ] };  // T: tha, ttha,ta,tta
+    key <AD06>   { [   U0D2f    ] };  // Y: ya
+    key <AD07>   { [   U0D41,   U0D42,	U0D09,	U0D0A   ] };  // U: u, uu matras
+    key <AD08>   { [   U0D3F,   U0D40,	U0D07,	U0D08   ] };  // I: i, ii matras
+    key <AD09>   { [   U0D4A,   U0D4B,	U0D12,	U0D13   ] };  // O: o, oo matras
+    key <AD10>   { [   U0D2A   ] };  // P: pa
+    key <AD11>   { [   bracketleft,   braceleft   ] };//braceleft:   
+    key <AD12>	 { [   bracketright, braceright   ] };//braceright:
+    
+    //A Row
+    key <AC01>   { [   U0D3E,	 U0D05,	U0D06,	U0D05  ] };   // A: a,aa
+    key <AC02>   { [   U0D38,    U0D37   ] };  // S: sa, ssa
+    key <AC03>   { [   U0D26,    U0D27,	U0D21,	U0D22   ] };  // D: soft da,soft dda,hard da,hard dda,
+    key <AC04>   { [   U0D2B     ] };  // F: pha
+    key <AC05>   { [   U0D17,    U0D18   ] };  // G: ga, gha
+    key <AC06>   { [   U0D39,    U0D03   ] };  // H: ha, visarg 
+    key <AC07>   { [   U0D1C,    U0D1D   ] };  // J: ja, jha
+    key <AC08>   { [   U0D15,    U0D16   ] };  // K: ka, kha
+    key <AC09>   { [   U0D32,	 U0D33   ] };  // L: la, vocalic L or lru matra`
+    key <AC10>   { [   semicolon, colon  ] }; 
+    key <AC11>   { [apostrophe, quotedbl ] };
+
+    //Z Row
+    key <AB01>   { [   U0D34,	 U0D36 	 ] };  // Z: sha,zha
+    key <AB02>   { [   U0D4D,	 U200B  ] };  // X: chandrakala,ZWSP
+    key <AB03>   { [   U0D1A,    U0D1B   ] };  // C: ca, cha
+    key <AB04>   { [   U0D35,	 U200D  ] };  // V: va,ZWJ
+    key <AB05>   { [   U0D2C,    U0D2D   ] };  // B: ba, bha
+    key <AB06>   { [   U0D28,    U0D23,	U0D19,	U0D1E   ] };  // N: na, hard na,nga,nha
+    key <AB07>   { [   U0D2E,	 U0D02  ] };  // M: ma
+    key <AB08>   { [   comma,    U003C ] };// comma: comma
+    key <AB09>   { [   period, 	 U003E ] };  // period: period
+    key <AB10>	 { [   slash,   question ] };
+
+   // begin modifier mappings
+//    modifier_map Shift  { Shift_L };
+//    modifier_map Lock   { Caps_Lock };
+//    modifier_map Control{ Control_L };
+//    modifier_map Mod3   { Mode_switch };
+    include "level3(ralt_switch)"
+};
+
 
 partial alphanumeric_keys 
 xkb_symbols "ori" {

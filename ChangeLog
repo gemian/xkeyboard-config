@@ -1,5 +1,7 @@
 2007-09-26  Sergey Udaltsov
 
+	* rules/base.xml.in, symbols/in: added mal_lalitha, small fixes,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12426
 	* rules/base.lists.part, rules/base.m_k.part, rules/base.ml_c.part,
 	rules/base.ml_s.part, rules/base.xml.in, rules/merge.sh,
 	symbols/Makefile.am, symbols/ara, symbols/br, symbols/es,
