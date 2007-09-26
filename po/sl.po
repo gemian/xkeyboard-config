@@ -1127,7 +1127,7 @@ msgstr "Latinski qwerty"
 
 #: ../rules/base.xml.in.h:278
 msgid "Latin with guillemets"
-msgstr "Latinska z dvojnimi <> (Guillemots)"
+msgstr "Latinska z dvojnimi &lt;&gt; (Guillemots)"
 
 #: ../rules/base.xml.in.h:279
 msgid "Latvia"
