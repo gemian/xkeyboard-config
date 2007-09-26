@@ -2,32 +2,34 @@ SUBDIRS = digital_vndr fujitsu_vndr hp_vndr macintosh_vndr nec_vndr sgi_vndr son
 
 symbolsdir = $(xkb_base)/symbols
 dist_symbols_DATA = \
-ad af al am ara \
-az be bd \
+ad af al \
+am ara az \
+be bd \
 bg br ba \
 bt by braille \
 ca cd \
 ch cn cs cz \
-de dk ee \
-es et epo \
+de dk \
+ee es et epo \
 fi fo fr \
 gb ge gh gn \
 gr hr hu \
 ie il in iq \
-ir is it \
-jp kg kh kr kz la \
-latam latin lk \
-lt lv ma mao \
-mk mm mn \
-mt mv ng nl \
-no np olpc pc pk \
-pl pt ro \
-ru se si \
-sk sy th \
-tj tr ua \
-us uz vn \
+ir is it jp \
+kg kh kr kz \
+la latam latin \
+lk lt lv \
+ma mao mk \
+mm mn mt mv \
+ng nl no np \
+pc pk pl pt \
+ro ru \
+se si sk \
+sy th \
+tj tr \
+ua us uz vn \
 za \
-altwin capslock compose ctrl group inet keypad kpdl level3 level5 nbsp srvr_ctrl \
-eurosign
-                                                                                          
+altwin capslock compose ctrl eurosign group inet \
+keypad kpdl level3 level5 nbsp olpc shift srvr_ctrl
+
 include $(top_srcdir)/xkbrules.am
