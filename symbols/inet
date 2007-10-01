@@ -483,22 +483,13 @@ xkb_symbols "btc5090" {
 // BTC 9019U
 partial alphanumeric_keys
 xkb_symbols "btc9019u" {
-    key <I02>  {	[ XF86HomePage		]	};
-    key <I66>  {	[ XF86Favorites		]	};
+    include "inet(media_common)"
     key <FK17> {	[ XF86Search		]	};
-    key <I6C>  {	[ XF86Mail		]	};
-
-    key <I2E>  {	[ XF86AudioLowerVolume	]	};
-    key <I30>  {	[ XF86AudioRaiseVolume	]	};
-    key <I20>  {	[ XF86AudioMute		]	};
-    key <I10>  {	[ XF86AudioPrev		]	};
-    key <I22>  {	[ XF86AudioPlay, XF86AudioPause ] };
-    key <I24>  {	[ XF86AudioStop		]	};
-    key <I19>  {	[ XF86AudioNext		]	};
-
-    key <K6C>  {	[ XF86Eject		]	};
-
+    key <I02>  {	[ XF86HomePage		]	};
     key <I5F>  {	[ XF86Sleep		]	};
+    key <I66>  {	[ XF86Favorites		]	};
+    key <I6C>  {	[ XF86Mail		]	};
+    key <K6C>  {	[ XF86Eject		]	};
 };
 
 // Cherry Blue Line
