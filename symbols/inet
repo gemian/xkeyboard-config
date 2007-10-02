@@ -778,6 +778,7 @@ xkb_symbols "inspiron" {
     key <I02>   {       [ XF86AudioStop         ]       };
     key <I04>   {       [ XF86AudioNext         ]       };
     key <I21>   {       [ XF86Eject             ]       };
+    key <I56>   {       [ XF86Display           ]       };
     key <NFER>  {       [ XF86AudioPrev         ]       };
     key <XFER>  {       [ XF86AudioPlay, XF86AudioPause ] };
 };

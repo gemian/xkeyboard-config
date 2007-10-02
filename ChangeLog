@@ -1,3 +1,8 @@
+2007-10-02  Sergey Udaltsov
+
+	* symbols/inet: fixing dell inspiron,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12653
+
 2007-09-27  Sergey Udaltsov
 
 	* symbols/shift, symbols/Makefile.am, rules/base.o_s.part: added
