@@ -2,6 +2,8 @@
 
 	* symbols/inet: fixing dell inspiron,
 	https://bugs.freedesktop.org/show_bug.cgi?id=12653
+	* configure.in, rules/Makefile.am, po/ChangeLog: dropping translations
+	from base.xml, let apps/libs use .gmo files instead
 
 2007-09-27  Sergey Udaltsov
 

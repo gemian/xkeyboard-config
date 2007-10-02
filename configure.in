@@ -35,14 +35,23 @@ AM_CONDITIONAL(CREATE_XKBCOMP_SYMLINK, test "x$enable_xkbcomp_symlink" = "xyes")
 
 AM_CONDITIONAL(USE_COMPAT_RULES, test "x$enable_compat_rules" = "xyes")
 
+# ****
+# i18n
+# ****
 AC_PROG_INTLTOOL(0.30)
+
+GETTEXT_PACKAGE=xkeyboard-config
+AC_SUBST(GETTEXT_PACKAGE)
+AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext package])
+
+AM_GLIB_GNU_GETTEXT
 
 ALL_LINGUAS="af az bg cs da el en_GB es fi fr hu it ka ko nl ru rw sk sl sq sr sr@Latn sv tr uk vi zh_CN zh_TW"
 
 AC_SUBST(xkb_base)
 AC_SUBST(xkb_rules_symlink)
 
-AC_OUTPUT([ po/Makefile
+AC_OUTPUT([ po/Makefile.in
 Makefile
 compat/Makefile
 geometry/Makefile

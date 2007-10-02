@@ -1,3 +1,7 @@
+2007-10-02  gettextize  <bug-gnu-gettext@gnu.org>
+
+	* Makefile.in.in: New file, from gettext-0.16.1.
+
 2007-09-25  svu
 
 	* *.po: sync with TP

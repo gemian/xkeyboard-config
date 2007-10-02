@@ -80,4 +80,4 @@ DISTCLEANFILES=base.xml base.lst sun.xml
 rulesdir = $(xkb_base)/rules
 xmldir = $(rulesdir)
 
-@INTLTOOL_XML_RULE@
+@INTLTOOL_XML_NOMERGE_RULE@
