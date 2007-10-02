@@ -20,6 +20,17 @@ install-data-hook:
 
 endif
 
+base_parts_no_compat = base.hdr.part  base.lists.part \
+HDR base.m_k.part   HDR base.l1_k.part  HDR base.l_k.part  \
+HDR base.ml_g.part \
+HDR base.m_g.part   HDR base.mlv_s.part HDR base.ml_s.part \
+HDR base.ml1_s.part HDR \
+HDR base.l2_s.part  HDR base.l3_s.part  HDR base.l4_s.part HDR HDR HDR \
+HDR base.m_s.part   HDR base.ml_c.part  HDR base.ml1_c.part \
+HDR base.m_t.part \
+HDR base.l1o_s.part HDR base.l2o_s.part HDR base.l3o_s.part HDR base.l4o_s.part \
+HDR base.o_s.part   HDR base.o_c.part   HDR base.o_t.part
+
 if USE_COMPAT_RULES
 base_parts = base.hdr.part  base.lists.part \
 compat/base.lists.part \
@@ -43,16 +54,7 @@ HDR base.lo_s.part HDR base.l1o_s.part HDR base.l2o_s.part HDR base.l3o_s.part H
 HDR compat/base.o_s.part base.o_s.part \
 HDR base.o_c.part HDR base.o_t.part
 else
-base_parts = base.hdr.part  base.lists.part \
-HDR base.m_k.part   HDR base.l1_k.part  HDR base.l_k.part  \
-HDR base.ml_g.part \
-HDR base.m_g.part   HDR base.mlv_s.part HDR base.ml_s.part \
-HDR base.ml1_s.part HDR \
-HDR base.l2_s.part  HDR base.l3_s.part  HDR base.l4_s.part HDR HDR HDR \
-HDR base.m_s.part   HDR base.ml_c.part  HDR base.ml1_c.part \
-HDR base.m_t.part \
-HDR base.l1o_s.part HDR base.l2o_s.part HDR base.l3o_s.part HDR base.l4o_s.part \
-HDR base.o_s.part   HDR base.o_c.part   HDR base.o_t.part
+base_parts = $(base_parts_no_compat)
 endif
 
 rules_files = base sgi sun xfree98
@@ -62,8 +64,8 @@ lst_files = base.lst
 %.lst: %.xml
 	perl $(srcdir)/xml2lst.pl < $< > $@
 
-base: $(base_parts)
-	HDR="$(srcdir)/HDR" $(srcdir)/merge.sh $@ $+
+base: $(base_parts_no_compat)
+	HDR="$(srcdir)/HDR" $(srcdir)/merge.sh $@ $(base_parts)
 
 all_rules_files = $(rules_files) $(lst_files) \
 xkb.dtd README
