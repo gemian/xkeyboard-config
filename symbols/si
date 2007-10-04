@@ -6,7 +6,7 @@ xkb_symbols "basic" {
 
     name[Group1]="Slovenia";
 
-    include "cs(latin)"
+    include "rs(latin)"
 };
 
 partial alphanumeric_keys 
@@ -14,7 +14,7 @@ xkb_symbols "us" {
 
     name[Group1]= "Slovenia - US keyboard with Slovenian letters";
 
-    include "cs(latinyz)"
+    include "rs(latinyz)"
 };
 
 
@@ -23,7 +23,7 @@ xkb_symbols "alternatequotes" {
 
     name[Group1]= "Slovenia - Use guillemets for quotes";
 
-    include "cs(latinalternatequotes)"
+    include "rs(latinalternatequotes)"
 };
 
 partial alphanumeric_keys 
@@ -31,7 +31,7 @@ xkb_symbols "unicode" {
 
     name[Group1]= "Slovenia - Use Slovenian digraphs";
 
-    include "cs(latinunicode)"
+    include "rs(latinunicode)"
 };
 
 partial alphanumeric_keys 
@@ -39,5 +39,5 @@ xkb_symbols "unicodeus" {
 
     name[Group1]= "Slovenia - US keyboard with Slovenian digraphs";
 
-    include "cs(latinunicodeyz)"
+    include "rs(latinunicodeyz)"
 };

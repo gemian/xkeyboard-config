@@ -79,4 +79,5 @@
   kpdl:commaoss         =	+kpdl(commaoss)
   kpdl:momayyezoss      =	+kpdl(momayyezoss)
   kpdl:kposs            =	+kpdl(kposs)
+  shift:breaks_caps     =	+shift(breaks_caps)
 

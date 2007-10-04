@@ -948,7 +948,7 @@
       <configItem>
         <name>us</name>
         <_shortDescription>USA</_shortDescription>
-        <_description>U.S. English</_description>
+        <_description>USA</_description>
       </configItem>
       <variantList>
         <variant>
@@ -1020,7 +1020,7 @@
         <variant>
           <configItem>
             <name>olpc2</name>
-            <_description>OLPC with mode toggle on multiply/divide key</_description>
+            <_description>Group toggle on multiply/divide key</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2433,6 +2433,57 @@
     </layout>
     <layout>
       <configItem>
+        <name>me</name>
+        <_shortDescription>MNE</_shortDescription>
+        <_description>Montenegro</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>yz</name>
+            <_description>Z and ZHE swapped</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latin</name>
+            <_description>Latin</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latinunicode</name>
+            <_description>Latin Unicode</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latinyz</name>
+            <_description>Latin qwerty</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latinunicodeyz</name>
+            <_description>Latin Unicode qwerty</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>alternatequotes</name>
+            <_description>With guillemets</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>latinalternatequotes</name>
+            <_description>Latin with guillemets</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>mk</name>
         <_shortDescription>Mkd</_shortDescription>
         <_description>Macedonia</_description>
@@ -2690,9 +2741,9 @@
     </layout>
     <layout>
       <configItem>
-        <name>cs</name>
-        <_shortDescription>SCG</_shortDescription>
-        <_description>Serbia and Montenegro</_description>
+        <name>rs</name>
+        <_shortDescription>SRB</_shortDescription>
+        <_description>Serbia</_description>
       </configItem>
       <variantList>
         <variant>
@@ -3890,6 +3941,12 @@
         <configItem>
           <name>apple:badmap</name>
           <_description>Swap keycodes of two keys when Mac keyboards are misdetected by kernel.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>shift:breaks_caps</name>
+          <_description>Shift cancels CapsLock.</_description>
         </configItem>
       </option>
     </group>

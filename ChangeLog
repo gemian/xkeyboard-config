@@ -1,6 +1,10 @@
 2007-10-04  Sergey Udaltsov
 
 	* symbols/us: s/U.S. English/USA/
+	* rules/base.o_s.part, rules/base.xml.in,
+	rules/compat/layoutRename.lst, symbols/Makefile.am, symbols/cs,
+	symbols/me, symbols/rs: splitting Serbia and Montenegro 
+	https://bugs.freedesktop.org/show_bug.cgi?id=12390
 
 2007-10-02  Sergey Udaltsov
 

@@ -6,7 +6,7 @@ xkb_symbols "basic" {
 
     name[Group1]="Croatia";
 
-    include "cs(latin)"
+    include "rs(latin)"
 
     // Redefine these keys to match XFree86 Croatian layout
     key <AE01> { [         1,     exclam,   asciitilde,   dead_tilde ] };
@@ -56,7 +56,7 @@ xkb_symbols "alternatequotes" {
 
     name[Group1]= "Croatia - Use guillemets for quotes";
 
-    include "cs(latinalternatequotes)"
+    include "rs(latinalternatequotes)"
 };
 
 partial alphanumeric_keys 
@@ -64,7 +64,7 @@ xkb_symbols "unicode" {
 
     name[Group1]= "Croatia - Use Croatian digraphs";
 
-    include "cs(latinunicode)"
+    include "rs(latinunicode)"
 };
 
 partial alphanumeric_keys 
@@ -72,5 +72,5 @@ xkb_symbols "unicodeus" {
 
     name[Group1]= "Croatia - US keyboard with Croatian digraphs";
 
-    include "cs(latinunicodeyz)"
+    include "rs(latinunicodeyz)"
 };

@@ -8,7 +8,7 @@ be bd \
 bg br ba \
 bt by braille \
 ca cd \
-ch cn cs cz \
+ch cn cz \
 de dk \
 ee es et epo \
 fi fo fr \
@@ -19,11 +19,11 @@ ir is it jp \
 kg kh kr kz \
 la latam latin \
 lk lt lv \
-ma mao mk \
+ma mao me mk \
 mm mn mt mv \
 ng nl no np \
 pc pk pl pt \
-ro ru \
+ro rs ru \
 se si sk \
 sy th \
 tj tr \
