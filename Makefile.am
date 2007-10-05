@@ -22,3 +22,6 @@ install-xkbcomp:
 endif
 
 install-data-hook: install-xkbcomp
+
+sync-po:
+	rsync -Lrtvz translationproject.org::tp/latest/xkeyboard-config/  po
