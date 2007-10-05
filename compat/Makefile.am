@@ -6,7 +6,7 @@ default iso9995 \
 japan keypad ledcaps \
 lednum ledscroll level5 \
 misc mousekeys norepeat \
-pc pc98 xfree86 \
+olpc pc pc98 xfree86 \
 xtest README
 
 include $(top_srcdir)/xkbrules.am
