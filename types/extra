@@ -106,7 +106,6 @@ partial default xkb_types "default" {
         level_name[Level3] = "AltGr Base";
         level_name[Level4] = "Shift AltGr";
     };
-};
 
 // type for e.g. german ssharp which is capitalized SS.
 // CHARACTERISTICS:
@@ -140,6 +139,7 @@ partial default xkb_types "default" {
         level_name[Level4] = "Shift Alt";
         level_name[Level5] = "Lock";
     };
+};
 
 // This enables the four level shifting also for the keypad.
 partial xkb_types "keypad" {
