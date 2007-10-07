@@ -1,6 +1,7 @@
 2007-10-07  Sergey Udaltsov
 
-	* symbols/kz, rules/base.lists.part: kz(olpc)
+	* symbols/kz, rules/base.lists.part: added kz(olpc)
+	* symbols/pk: fixed pk(olpc)
 
 2007-10-04  Sergey Udaltsov
 
