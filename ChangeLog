@@ -7,6 +7,8 @@
 	* symbols/inet, rules/base.lists.part, rules/base.xml.in: added
 	chicony0108 model,
 	https://bugs.freedesktop.org/show_bug.cgi?id=6914
+	* symbols/de, types/extra: SS hangling,
+	https://bugs.freedesktop.org/show_bug.cgi?id=7642
 
 2007-10-04  Sergey Udaltsov
 

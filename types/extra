@@ -108,6 +108,39 @@ partial default xkb_types "default" {
     };
 };
 
+// type for e.g. german ssharp which is capitalized SS.
+// CHARACTERISTICS:
+// It is FOUR_LEVEL with the exception that the fifth level
+// is mapped to the Lock modifier.
+// If other modifiers are used, the Lock state is ignored.
+// DETAILS ABOUT GERMAN:
+// The capital form of ssharp (called sharp s) only exists for
+// completely capitalized Text, not at the beginning of sentences
+// or nouns (nouns have a captial letter at the beginning in german).
+// The ssharp key, to the right of the zero key, takes this into
+// account and has a questionmark mapped on shift-ssharp since
+// normally no capital version is needed.
+// When typing with active capsLock, this key type is needed to
+// output two capital letters S because this is the only german key
+// whose capital letter is not the same as the one typed with shift.
+
+    type "FOUR_LEVEL_PLUS_LOCK" {
+        modifiers = Shift+Lock+LevelThree;
+        map[None] = Level1;
+        map[Shift] = Level2;
+        map[LevelThree] = Level3;
+        map[Shift+LevelThree] = Level4;
+        map[Lock]  = Level5;
+        map[Lock+Shift] = Level2;
+        map[Lock+LevelThree] = Level3;
+        map[Lock+Shift+LevelThree] = Level4;
+        level_name[Level1] = "Base";
+        level_name[Level2] = "Shift";
+        level_name[Level3] = "Alt Base";
+        level_name[Level4] = "Shift Alt";
+        level_name[Level5] = "Lock";
+    };
+
 // This enables the four level shifting also for the keypad.
 partial xkb_types "keypad" {
     virtual_modifiers LevelThree;
