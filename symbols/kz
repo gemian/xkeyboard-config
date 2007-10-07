@@ -197,3 +197,20 @@ key.type[group1] = "FOUR_LEVEL_ALPHABETIC";
     key	<AB08> { [ Cyrillic_be,             Cyrillic_BE ] };
     key	<AB09> { [ Cyrillic_yu,             Cyrillic_YU ] };
 };
+
+partial alphanumeric_keys
+xkb_symbols "olpc" {
+
+// Contact: Walter Bender <walter@laptop.org>
+
+// We moved the Cyrillic IO off of the Tilde Key as an Alt-GR character
+// and moved it onto the Backslash key, making Backslash and Bar available
+// through the Latin side of the keyboard.
+
+   include "kz(basic)"
+
+   name[Group1] = "Kazakhstan";
+
+   key <TLDE> { [ parenleft,               parenright ] };
+   key <BKSL> { [ Cyrillic_io,             Cyrillic_IO ] };
+};
