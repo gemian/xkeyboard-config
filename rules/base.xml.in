@@ -48,6 +48,7 @@
       <configItem>
         <name>dellm65</name>
         <_description>Dell Precision M65</_description>
+        <vendor>Dell</vendor>
       </configItem>
     </model>
     <model>
@@ -730,6 +731,7 @@
       <configItem>
         <name>samsung4510</name>
         <_description>Samsung SDM 4510P</_description>
+        <vendor>Samsung</vendor>
       </configItem>
     </model>
     <model>
