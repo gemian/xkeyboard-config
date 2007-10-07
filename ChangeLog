@@ -4,6 +4,9 @@
 	* symbols/pk: fixed pk(olpc)
 	* rules/base.xml.in: lost vendors,
 	https://bugs.freedesktop.org/show_bug.cgi?id=12719
+	* symbols/inet, rules/base.lists.part, rules/base.xml.in: added
+	chicony0108 model,
+	https://bugs.freedesktop.org/show_bug.cgi?id=6914
 
 2007-10-04  Sergey Udaltsov
 

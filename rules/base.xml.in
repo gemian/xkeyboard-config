@@ -236,12 +236,20 @@
       <configItem>
         <name>cherrycyboard</name>
         <_description>Cherry CyBo@rd USB-Hub</_description>
+        <vendor>Cherry</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>chicony</name>
         <_description>Chicony Internet Keyboard</_description>
+        <vendor>Chicony</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>chicony0108</name>
+        <_description>Chicony KU-0108</_description>
         <vendor>Chicony</vendor>
       </configItem>
     </model>

@@ -614,6 +614,13 @@ xkb_symbols "chicony" {
     key <I63>	{	[ XF86BrightnessAdjust	]	};
 };
 
+// Chicony KU-0108
+partial alphanumeric_keys 
+xkb_symbols "chicony0108" {
+    include "inet(cherrycyboard)"
+    key <I66>	{	[ XF86New		]	};
+};
+
 // Chicony KB-9885
 partial alphanumeric_keys
 xkb_symbols "chicony9885" {
