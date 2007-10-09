@@ -1,3 +1,8 @@
+2007-10-09  Sergey Udaltsov
+
+	* geometry/microsoft: added "elite" geometry,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12753
+
 2007-10-07  Sergey Udaltsov
 
 	* symbols/kz, rules/base.lists.part: added kz(olpc)
