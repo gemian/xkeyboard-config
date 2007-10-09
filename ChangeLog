@@ -2,6 +2,7 @@
 
 	* geometry/microsoft: added "elite" geometry,
 	https://bugs.freedesktop.org/show_bug.cgi?id=12753
+	* symbols/us: fix for olpc
 
 2007-10-07  Sergey Udaltsov
 

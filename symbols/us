@@ -783,8 +783,8 @@ xkb_symbols "olpc" {
    key <TLDE> { [     grave, asciitilde,    dead_grave, dead_tilde ] };
    key <AE01> { [         1,     exclam,    exclamdown, exclamdown ] };
    key <AE02> { [         2,         at,       notsign,    notsign ] };
-   key <AE03> { [         3, numbersign,     0x1000301,  0x1000301 ] }; // combining acute
-   key <AE04> { [         4,     dollar,     0x1000300,  0x1000300 ] }; // combining grave
+   key <AE03> { [         3, numbersign,     0x1000300,  0x1000300 ] }; // combining grave
+   key <AE04> { [         4,     dollar,     0x1000301,  0x1000301 ] }; // combining acute
    key <AE05> { [         5,    percent,     0x1000306,  0x1000306 ] }; // combining breve above
    key <AE06> { [         6,asciicircum,     0x100030A,  0x100030A ] }; // combining ring above
    key <AE07> { [         7,  ampersand,     0x1000302,  0x1000302 ] }; // combining circumflex above
