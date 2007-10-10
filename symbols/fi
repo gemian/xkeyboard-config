@@ -95,7 +95,12 @@ xkb_symbols "smi" {
 // May 5, 2006.
 // May 6, 2006.
 // May 12, 2006.
-//
+// Oct 10, 2007.
+// 
+// Oct 10, 2007.
+// -Changed space column 3 to nobreakspace (from space).
+// -Changed UFE63 entries to dead_stroke.
+// 
 // Nov 29, 2006.
 // UFE63 can be changed to dead_stroke starting with version 7.0.7. of the X server.
 //
@@ -129,8 +134,8 @@ xkb_symbols "kotoistus" {
 
     name[Group1]="Finland - Kotoistus";
 
-    key <SPCE> { [  space,           space,            space,                nobreakspace         ] };
-    key <TLDE> { [  section,         onehalf,          UFE63,                NoSymbol             ] };
+    key <SPCE> { [  space,           space,            nobreakspace,         nobreakspace         ] };
+    key <TLDE> { [  section,         onehalf,          dead_stroke,          NoSymbol             ] };
     key <AE01> { [  1,               exclam,           NoSymbol,             exclamdown           ] };
     key <AE02> { [  2,               quotedbl,         at,                   rightdoublequotemark ] };
     key <AE03> { [  3,               numbersign,       sterling,             guillemotright       ] };
@@ -163,7 +168,7 @@ xkb_symbols "kotoistus" {
     key <AC06> { [  h,               H,                h,                    H                    ] };
     key <AC07> { [  j,               J,                j,                    J                    ] };
     key <AC08> { [  k,               K,                kra,                  NoSymbol             ] };
-    key <AC09> { [  l,               L,                UFE63,                NoSymbol             ] };
+    key <AC09> { [  l,               L,                dead_stroke,          NoSymbol             ] };
     key <AC10> { [  odiaeresis,      Odiaeresis,       oslash,               Ooblique             ] };
     key <AC11> { [  adiaeresis,      Adiaeresis,       ae,                   AE                   ] };
     key <BKSL> { [  apostrophe,      asterisk,         dead_caron,           dead_breve           ] };
