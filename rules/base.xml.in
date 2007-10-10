@@ -238,7 +238,6 @@
         <_description>Cherry CyBo@rd USB-Hub</_description>
         <vendor>Cherry</vendor>
       </configItem>
-      </configItem>
     </model>
     <model>
       <configItem>
@@ -705,6 +704,13 @@
       <configItem>
         <name>microsoftmult</name> 
         <_description>Microsoft Wireless Multimedia Keyboard 1.0A</_description>
+        <vendor>Microsoft Inc.</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>microsoftelite</name> 
+        <_description>Microsoft Natural Keyboard Elite</_description>
         <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
