@@ -1440,8 +1440,7 @@ xkb_symbols "logiultrax" {
 };
 
 partial alphanumeric_keys 
-xkb_symbols "dinovo" {
-
+xkb_symbols "logidinovo" {
     include "inet(media_common)"
     key <I02>	{	[ XF86HomePage		]	};
     key <I12>	{	[ XF86Standby		]	};
@@ -1451,6 +1450,16 @@ xkb_symbols "dinovo" {
     key <I6C>	{	[ XF86Mail		]	};
     key <K66>	{	[ XF86AudioLowerVolume	]	};
     key <KPDC>	{	[ XF86AudioMute		]	};
+    key <XFER>	{	[ XF86AudioMedia	]	};
+};
+
+partial alphanumeric_keys 
+xkb_symbols "logidinovoedge" {
+    include "inet(media_common)"
+    key <I02>	{	[ XF86HomePage		]	};
+    key <I5F>	{	[ XF86Standby		]	};
+    key <I6C>	{	[ XF86Mail		]	};
+    key <FK17>  {       [ XF86Search            ]       };
     key <XFER>	{	[ XF86AudioMedia	]	};
 };
 

@@ -632,8 +632,15 @@
     </model>
     <model>
       <configItem>
-        <name>dinovo</name>
+        <name>logidinovo</name>
         <_description>Logitech diNovo Keyboard</_description>
+        <vendor>Logitech</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>logidinovoedge</name>
+        <_description>Logitech diNovo Edge Keyboard</_description>
         <vendor>Logitech</vendor>
       </configItem>
     </model>
