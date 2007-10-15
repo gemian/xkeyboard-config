@@ -10,7 +10,7 @@ xkb_symbols "basic" {
     include "fi(fi)"
 };
 
-partial alphanumeric_keys
+hidden partial alphanumeric_keys
 xkb_symbols "fi" {
 
     // a Finnish keyboard with dead key support and all of
