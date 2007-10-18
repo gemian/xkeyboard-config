@@ -1,3 +1,9 @@
+2007-10-18  Sergey Udaltsov
+
+	* geometry/pc, rules/base.xml.in, rules/compat/base.lists.part,
+	symbols/br, symbols/pt: added some br and pt layouts,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12816
+
 2007-10-13  Sergey Udaltsov
 
 	* symbols/inet, rules/base.lists.part, rules/base.xml.in: added diNovo

@@ -1399,6 +1399,36 @@
             <_description>Eliminate dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>thinkpad</name>
+            <description>Thinkpad</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <description>Dvorak</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>nativo</name>
+            <description>Nativo</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>nativo-us</name>
+            <description>Nativo for USA keyboards</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>nativo-epo</name>
+            <description>Nativo for Esperanto</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -2663,6 +2693,24 @@
           <configItem>
             <name>mac_sundeadkeys</name>
             <_description>Macintosh, Sun dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>nativo</name>
+            <description>Nativo</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>nativo-us</name>
+            <description>Nativo for USA keyboards</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>nativo-epo</name>
+            <description>Nativo for Esperanto</description>
           </configItem>
         </variant>
       </variantList>
