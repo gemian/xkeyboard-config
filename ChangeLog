@@ -3,6 +3,8 @@
 	* geometry/pc, rules/base.xml.in, rules/compat/base.lists.part,
 	symbols/br, symbols/pt: added some br and pt layouts,
 	https://bugs.freedesktop.org/show_bug.cgi?id=12816
+	* rules/base.xml.in symbols/dk: added dk(dvorak),
+	https://bugs.freedesktop.org/show_bug.cgi?id=12837
 
 2007-10-13  Sergey Udaltsov
 
