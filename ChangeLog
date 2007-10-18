@@ -7,6 +7,8 @@
 
 	* rules/base.xml.in, rules/base.m_g.part: added microsoftelite model,
 	https://bugs.freedesktop.org/show_bug.cgi?id=12753
+	* symbols/fi: fixed fi(kotoistus),
+	https://bugs.freedesktop.org/show_bug.cgi?id=12764
 
 2007-10-09  Sergey Udaltsov
 
