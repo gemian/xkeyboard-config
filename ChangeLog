@@ -1,3 +1,8 @@
+2007-10-19  Sergey Udaltsov
+
+	* symbols/tr, rules/base.xml.in: added tr(intl),
+	https://bugs.freedesktop.org/show_bug.cgi?id=12856
+
 2007-10-18  Sergey Udaltsov
 
 	* geometry/pc, rules/base.xml.in, rules/compat/base.lists.part,

@@ -3201,6 +3201,12 @@
             <_description>Kurdish, Latin Alt-Q</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>intl</name>
+            <_description>International (with dead keys)</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
