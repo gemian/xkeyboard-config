@@ -2,6 +2,8 @@
 
 	* symbols/us, rules/base.xml.in: added us(dvorak-intl),
 	https://bugs.freedesktop.org/show_bug.cgi?id=12867
+	* symbols/macintosh_vndr/dk: dk(macbookpro),
+	https://bugs.freedesktop.org/show_bug.cgi?id=12716
 
 2007-10-19  Sergey Udaltsov
 
