@@ -1,3 +1,8 @@
+2007-10-21  Sergey Udaltsov
+
+	* symbols/us, rules/base.xml.in: added us(dvorak-intl),
+	https://bugs.freedesktop.org/show_bug.cgi?id=12867
+
 2007-10-19  Sergey Udaltsov
 
 	* symbols/tr, rules/base.xml.in: added tr(intl),

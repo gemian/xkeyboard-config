@@ -1007,6 +1007,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>dvorak-intl</name>
+            <_description>Dvorak international</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>dvorak-l</name>
             <_description>Left handed Dvorak</_description>
           </configItem>

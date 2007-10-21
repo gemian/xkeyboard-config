@@ -254,6 +254,53 @@ xkb_symbols "dvorak" {
     key <BKSL> { [  backslash,  bar             ]       };
 };
 
+// Dvorak international
+// Stephane Magnenat (stephane at magnenat dot net, http://stephane.magnenat.net)
+// Based on information from http://www.poupinou.org/dvorak/index.html
+//
+//  `   1   2   3   4   5   6   7   8   9   0   [   ]   \
+//                  €
+//
+//      '   ,   .   p   y   f   g   c   r   l   /   =
+//          ä   ê   ë   ü           ç
+//
+//      a   o   e   u   i   d   h   t   n   s   -
+//      à   ô   é   û   î                   ß
+//
+//      ;   q   j   k   x   b   m   w   v   z
+//      â   ö   è   ù   ï
+
+partial alphanumeric_keys
+xkb_symbols "dvorak-intl" {
+
+    name[Group1]= "USA - Dvorak international";
+
+    include "us(dvorak)"
+
+    key <AE04> { [         4,  dollar,    EuroSign ] };
+
+    key <AD02> { [     comma,    less,  adiaeresis,       dead_caron ] };
+    key <AD03> { [    period, greater, ecircumflex,   periodcentered	] };
+    key <AD04> { [         p,       P,  ediaeresis,     dead_cedilla ] };
+    key <AD05> { [         y,       Y,  udiaeresis ] };
+    key <AD08> { [         c,       C,    ccedilla,    dead_abovedot ] };
+
+    key <AC01> { [         a,       A,      agrave ] };
+    key <AC02> { [         o,       O, ocircumflex ] };
+    key <AC03> { [         e,       E,      eacute ] };
+    key <AC04> { [         u,       U, ucircumflex ] };
+    key <AC05> { [         i,       I, icircumflex ] };
+    key <AC10> { [         s,       S,      ssharp ] };
+
+    key <AB01> { [ semicolon,   colon, acircumflex ] };
+    key <AB02> { [         q,       Q,  odiaeresis,      dead_ogonek ] };
+    key <AB03> { [         j,       J,i     egrave, dead_doubleacute ] };
+    key <AB04> { [         k,       K,      ugrave ] };
+    key <AB05> { [         x,       X,  idiaeresis ] };
+
+    include "level3(ralt_switch)"
+};
+
 // Left and right handed dvorak layouts
 // by sqweek <sqweek@gmail.com> 2006-01-30
 // Based on the corresponding layouts in the console-tools package.
@@ -697,7 +744,7 @@ xkb_symbols "classmate-intl" {
 partial alphanumeric_keys
 xkb_symbols "classmate-alt-intl" {
     include "us(alt-intl)"
-    name[Group1]= "USA - ClassmatePC (Alternative International)";
+    name[Group1]= "USA - ClassmatePC (Alternative international)";
     key.type[Group1]="FOUR_LEVEL";
 
     key <LSGT> { [ backslash,	bar,		backslash,	bar ] };
