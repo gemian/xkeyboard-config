@@ -9,6 +9,6 @@
   olpc		=	evdev
   macintosh_hhk	=	macintosh(hhk)
   macintosh_old	=	macintosh(old)
- $macbooks	=	macintosh+macintosh(badmap)
+ $macbooks	=	macintosh+macintosh(goodmap)
  $macs   	=	macintosh
   *		=	xfree86
