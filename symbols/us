@@ -294,7 +294,7 @@ xkb_symbols "dvorak-intl" {
 
     key <AB01> { [ semicolon,   colon, acircumflex ] };
     key <AB02> { [         q,       Q,  odiaeresis,      dead_ogonek ] };
-    key <AB03> { [         j,       J,i     egrave, dead_doubleacute ] };
+    key <AB03> { [         j,       J,      egrave, dead_doubleacute ] };
     key <AB04> { [         k,       K,      ugrave ] };
     key <AB05> { [         x,       X,  idiaeresis ] };
 
