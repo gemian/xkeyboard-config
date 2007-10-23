@@ -2821,6 +2821,12 @@
             <_description>Udmurt</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>kom</name>
+            <_description>Komi</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

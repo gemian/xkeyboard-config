@@ -1,3 +1,8 @@
+2007-10-23  Sergey Udaltsov
+
+	* symbols/ru, rules/base.xml.in: added ru(kom),
+	https://bugs.freedesktop.org/show_bug.cgi?id=12893
+
 2007-10-21  Sergey Udaltsov
 
 	* symbols/us, rules/base.xml.in: added us(dvorak-intl),

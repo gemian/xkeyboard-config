@@ -291,3 +291,29 @@ xkb_symbols "cv_latin" {
 
 };
 
+// Komi language layout
+// based on
+// russian standard keyboard
+// Vlad Shakhov <lumpen.intellectual@gmail.com>
+// Last Changes 2007/10/23 by Vlad Shakhov <lumpen.intellectual@gmail.com>
+
+partial alphanumeric_keys 
+xkb_symbols "kom" {
+
+    include "ru(winkeys)"
+
+    name[Group1]= "Russia - Komi";
+
+    key.type[group1]="FOUR_LEVEL_ALPHABETIC";
+
+// cyrilllic o with diaeresis 
+    key	<AC07> { [ 	Cyrillic_o,		Cyrillic_O,		
+			U04E7,  		U04E6		] };
+    
+// hard I as additional key for soft Cyrillic_I 
+    key <AB05> { [      Cyrillic_i,		Cyrillic_I,
+			Ukrainian_i,     	Ukrainian_I     ] };
+
+    include "level3(ralt_switch)"
+};
+
