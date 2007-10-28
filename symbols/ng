@@ -107,8 +107,8 @@ xkb_symbols "olpc" {
    key <AB05>  { [         b,          B,    0x1000253,               0x1000181 ] }; // B with hook
    key <AB06>  { [         n,          N,          eng,                     ENG ] };
    key <AB07>  { [         m,          M,    0x1001E45,        0x1001E44 ] }; // N with dot above
-   key <AB08>  { [     comma,     less, guillemontleft,   guillemontleft ] };
-   key <AB09>  { [    period, greater, guillemontright,  guillemontright ] };
+   key <AB08>  { [     comma,     less, guillemotleft,   guillemotleft ] };
+   key <AB09>  { [    period, greater, guillemotright,  guillemotright ] };
    key <AB10>  { [     slash,   question, questiondown,     questiondown ] };
 
    key <I219>  { [ ISO_Next_Group, ISO_Prev_Group ] };
