@@ -95,7 +95,7 @@ xkb_symbols "olpc" {
     key <AE12>  { [       equal,           plus,       section                 ] };
 
     key <AD03> { [            e,              E,      EuroSign                 ] };
-    key <AD11> { [   dead_acute,      dead_grave                                ] };
+    key <AD11> { [   dead_acute,      dead_grave,        acute,          grave ] };
     key <AD12> { [  bracketleft,       braceleft,     0x10000AA                 ] };
 
     key <AC10> { [     ccedilla,       Ccedilla                                ] };

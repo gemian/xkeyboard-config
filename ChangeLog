@@ -1,3 +1,7 @@
+2007-10-28  Sergey Udaltsov
+
+	* symbols/ara, symbols/us, symbols/es, symbols/us: OLPC fixlets
+
 2007-10-23  Sergey Udaltsov
 
 	* symbols/ru, rules/base.xml.in: added ru(kom),

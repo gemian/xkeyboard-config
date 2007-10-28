@@ -157,8 +157,8 @@ xkb_symbols "olpc" {
 
     key <TLDE> { [          bar,         degree                         ] };
     key <AE02> { [            2,       quotedbl,              at ] };
-    key <AE03> { [            3,     dead_grave,      numbersign ] };
-    key <AE05> { [            5,       percent, dead_circumflex ] };
+    key <AE03> { [            3,     dead_grave,      numbersign,   grave           ] };
+    key <AE05> { [            5,        percent,     asciicircum,   dead_circumflex ] };
     key <AE06> { [            6,      ampersand,         notsign ] };
     key <AE07> { [            7,          slash,       backslash ] };
     key <AE08> { [            8,      parenleft                         ] };
@@ -168,7 +168,7 @@ xkb_symbols "olpc" {
     key <AE12> { [   exclamdown,   questiondown                  ] };
 
     key <AD03> { [            e,              E,        EuroSign ] };
-    key <AD11> { [   dead_acute, dead_diaeresis                         ] };
+    key <AD11> { [   dead_acute, dead_diaeresis,           acute,   dead_abovering  ] };
     key <AD12> { [  bracketleft,      braceleft                  ] };
 
     key <AC10> { [       ntilde,        Ntilde                  ] };

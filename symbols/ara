@@ -245,21 +245,21 @@ xkb_symbols "olpc" {
     key <AE02> {  [       0x1000662,              at  ] };
     key <AE03> {  [       0x1000663,      numbersign  ] };
     key <AE04> {  [       0x1000664,          dollar  ] };
-    key <AE05> {  [       0x1000665,         percent  ] };
+    key <AE05> {  [       0x1000665,  Arabic_percent  ] };
     key <AE06> {  [       0x1000666,        sterling  ] };
     key <AE07> {  [       0x1000667,        EuroSign  ] };
     key <AE08> {  [       0x1000668,        asterisk  ] };
-    key <AE09> {  [       0x1000669,       parenleft  ] };
-    key <AE10> {  [       0x1000660,      parenright  ] };
+    key <AE09> {  [       0x1000669,      parenright  ] };
+    key <AE10> {  [       0x1000660,       parenleft  ] };
 
     key <AD05> {  [      Arabic_feh,   Arabic_shadda  ] };
 
     key <AD08> {  [      Arabic_heh,        division  ] };
-    key <AD11> {  [     Arabic_jeem                   ] };
-    key <AD12> {  [      Arabic_dal                   ] };
+    key <AD11> {  [     Arabic_jeem,      braceright  ] };
+    key <AD12> {  [      Arabic_dal,       braceleft  ] };
 
-    key <AC01> {  [    Arabic_sheen,            less  ] };
-    key <AC02> {  [     Arabic_seen,         greater  ] };
+    key <AC01> {  [    Arabic_sheen,         greater  ] };
+    key <AC02> {  [     Arabic_seen,            less  ] };
     key <AC05> {  [      Arabic_lam,       ampersand  ] };
     key <AC10> {  [      Arabic_kaf                   ] };
     key <AC11> {  [      Arabic_tah                   ] };
@@ -268,7 +268,8 @@ xkb_symbols "olpc" {
 
 
     // REH isolated form?
-    key <AB04> {  [       Arabic_ra,  Arabic_kasratan ] };
+    key <AB03> {  [ Arabic_hamzaonwaw,   Arabic_kasra ] };
+    key <AB04> {  [       Arabic_ra,  Arabic_kasratan ] };    
     key <AB05> {  [     Arabic_thal,      asciicircum ] };
     // Language key
     key <I219> {  [  ISO_Next_Group,   ISO_Prev_Group ] };
