@@ -1,3 +1,8 @@
+2007-11-01  Sergey Udaltsov
+
+	* symbols/fi, rules/base.xml.in: swapping fi(basic) and fi(kotoistus),
+	https://bugs.freedesktop.org/show_bug.cgi?id=12764
+
 2007-10-28  Sergey Udaltsov
 
 	* symbols/ara, symbols/us, symbols/es, symbols/us, symbols/ng: OLPC

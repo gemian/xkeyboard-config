@@ -1852,8 +1852,8 @@
         </variant>
         <variant>
           <configItem>
-            <name>kotoistus</name>
-            <_description>Kotoistus</_description>
+            <name>classic</name>
+            <_description>Classic</_description>
           </configItem>
         </variant>
         <variant>
