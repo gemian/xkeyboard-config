@@ -1,3 +1,8 @@
+2007-11-14  Sergey Udaltsov
+
+	* symbols/inet, keycodes/evdev: revert #12203
+	https://bugs.freedesktop.org/show_bug.cgi?id=12227
+
 2007-11-01  Sergey Udaltsov
 
 	* symbols/fi, rules/base.xml.in: swapping fi(basic) and fi(kotoistus),
