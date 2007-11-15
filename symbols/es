@@ -155,7 +155,8 @@ xkb_symbols "olpc" {
     include "us(basic)"
     name[Group1]="Spain";
 
-    key <TLDE> { [          bar,         degree                         ] };
+    key <TLDE> { [    masculine,    ordfeminine      ] };
+    key <AE01> { [            1,         exclam,             bar ] };
     key <AE02> { [            2,       quotedbl,              at ] };
     key <AE03> { [            3,     dead_grave,      numbersign,   grave           ] };
     key <AE05> { [            5,        percent,     asciicircum,   dead_circumflex ] };
