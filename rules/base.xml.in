@@ -3248,6 +3248,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>unicode</name>
+            <description>Unicode</description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>rstu</name>
 <!-- RSTU 2019-91 -->
             <_description>Standard RSTU</_description>
