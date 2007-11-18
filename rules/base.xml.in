@@ -2736,8 +2736,8 @@
       <variantList>
         <variant>
           <configItem>
-            <name>comma</name>
-            <_description>Commabelow</_description>
+            <name>cedilla</name>
+            <_description>Cedilla below</_description>
           </configItem>
         </variant>
         <variant>
@@ -2748,8 +2748,8 @@
         </variant>
         <variant>
           <configItem>
-            <name>academic</name>
-            <_description>Standard (Commabelow)</_description>
+            <name>std_cedilla</name>
+            <_description>Standard (Cedilla below)</_description>
           </configItem>
         </variant>
         <variant>

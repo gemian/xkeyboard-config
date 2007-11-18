@@ -15,6 +15,7 @@
 // Created by Cristian Gafton, <gafton@redhat.com> (C) 2000
 // Modified by Marius Andreiana, <mandreiana@yahoo.com> (C) 2001
 // Completed by Misu Moldovan, <dumol@gnome.ro> (C) 2001, 2004-2006.
+// Updated by Alexandru Szasz, <alexxed@gmail.com>
 // v 1.2
 
 
@@ -45,13 +46,13 @@ xkb_symbols "basic" {
     key <AD01> { [ q,                      Q,  acircumflex,   Acircumflex ] };
     key <AD02> { [ w,                      W,  ssharp	 	          ] };
     key <AD03> { [ e,                      E,  EuroSign  	          ] };
-    key <AD05> { [ t,                      T,  tcedilla,	 Tcedilla ] };
+    key <AD05> { [ t,                     T,  0x100021b,       0x100021a ] };
     key <AD08> { [ i,                      I,  icircumflex,   Icircumflex ] };
     key <AD10> { [ p,                      P,  section 			  ] };
     key <AD11> { [ bracketleft,    braceleft,  doublelowquotemark 	  ] };
     key <AD12> { [ bracketright,  braceright,  rightdoublequotemark 	  ] };
     key <AC01> { [ a,                      A,  abreve,             Abreve ] };
-    key <AC02> { [ s,                      S,  scedilla,	 Scedilla ] };
+    key <AC02> { [ s,          	   S,  0x1000219,       0x1000218 ] };
     key <AC03> { [ d,                      D,  dstroke,  	  Dstroke ] };
     key <AC09> { [ l,                      L,  lstroke,  	  Lstroke ] };
     key <LSGT> { [ backslash,            bar                              ] };
@@ -63,18 +64,16 @@ xkb_symbols "basic" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "comma" {
-    // Variant of the basic layout with comma below.
-    // Implements S and T with comma bellow as in ISO-8859-16.
-    // Hopefully these should become mainstream in the near future.
-    // For now it's just an odd variant (although the correct one).
+xkb_symbols "cedilla" {
+    // Variant of the basic layout with cedilla below for historical reference only
+    // Implements the old wrong S and T with cedilla
 
     include "ro(basic)"
 
-    name[Group1]="Romania - Commabelow";
-
-    key <AD05>	{ [ t,                     T,  0x100021b,       0x100021a ] };
-    key <AC02>	{ [ s,          	   S,  0x1000219,       0x1000218 ] };
+    name[Group1]="Romania - Cedilla below";
+    
+    key <AC02> { [ s,                      S,  scedilla,	 Scedilla ] };
+    key <AD05> { [ t,                      T,  tcedilla,	 Tcedilla ] };
 };
 
 partial alphanumeric_keys
@@ -109,8 +108,8 @@ xkb_symbols "std" {
     key <AC02> { [ s, 			   S,  ssharp			  ] };
     key <AC03> { [ d,                      D,  dstroke,  	  Dstroke ] };
     key <AC09> { [ l,                      L,  lstroke,  	  Lstroke ] };
-    key <AC10> { [ scedilla, 	    Scedilla,  semicolon, 	    colon ] };
-    key <AC11> { [ tcedilla, 	    Tcedilla,  apostrophe, 	 quotedbl ] };
+    key <AC10> { [ 0x1000219,	   0x1000218,  semicolon, 	    colon ] };
+    key <AC11> { [ 0x100021b,	   0x100021a,  apostrophe, 	 quotedbl ] };
     key <LSGT> { [ backslash,            bar                              ] };
     key <AB03> { [ c,                      C,  copyright 	       	  ] };
     key <AB08> { [ comma, 	   semicolon,  less, 	    guillemotleft ] };
@@ -123,18 +122,17 @@ xkb_symbols "std" {
 
 
 partial alphanumeric_keys
-xkb_symbols "academic" {
-    // Academic variant of the standard layout with comma bellow.
-    // Implements S and T with comma bellow as in ISO-8859-16.
-    // Hopefully these should become mainstream in a few years.
-    // For now it's the oddest variant (although the perfect one).
+xkb_symbols "std_cedilla" {
+    // Academic variant of the standard layout with WRONG cedilla below for historical reference
+    // Implements old S and T with cedilla below
 
     include "ro(std)"
 
-    name[Group1]="Romania - Standard (Commabelow)";
+    name[Group1]="Romania - Standard (Cedilla below)";
 
-    key <AC10> { [ 0x1000219,	   0x1000218 ] };
-    key <AC11> { [ 0x100021b,	   0x100021a ] };
+    
+    key <AC10> { [ scedilla, 	    Scedilla,  semicolon, 	    colon ] };
+    key <AC11> { [ tcedilla, 	    Tcedilla,  apostrophe, 	 quotedbl ] };
 };
 
 
