@@ -3398,7 +3398,14 @@
         <_shortDescription>Pak</_shortDescription>
         <_description>Pakistan</_description>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>ara</name>
+            <_description>Arabic</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>

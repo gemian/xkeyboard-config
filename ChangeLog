@@ -2,6 +2,7 @@
 
 	* symbols/af, symbols/kz, symbols/ng, rules/base.xml.in: OLPC fixes
 	from Bernardo
+	* symbols/pk, rules/base.xml.in: fixing pk(ara) - it is not default
 
 2007-11-18  Sergey Udaltsov
 
