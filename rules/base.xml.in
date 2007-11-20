@@ -1082,6 +1082,24 @@
             <_description>Southern Uzbek</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>olpc-ps</name>
+            <_description>OLPC Pashto</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>olpc-da</name>
+            <_description>OLPC Dari</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>olpc-uz</name>
+            <_description>OLPC Southern Uzbek</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

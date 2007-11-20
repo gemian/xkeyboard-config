@@ -1,3 +1,8 @@
+2007-11-20  Sergey Udaltsov
+
+	* symbols/af, symbols/kz, symbols/ng, rules/base.xml.in: OLPC fixes
+	from Bernardo
+
 2007-11-18  Sergey Udaltsov
 
 	* symbols/ro, rules/base.xml.in, rules/compat/variantRename.lst:
