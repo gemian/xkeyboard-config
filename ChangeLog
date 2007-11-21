@@ -1,6 +1,7 @@
 2007-11-21  Sergey Udaltsov
 
 	* symbols/np, rules/base.lists.part: added np(olpc)
+	* symbols/et, rules/base.lists.part: added et(olpc)
 
 2007-11-20  Sergey Udaltsov
 
