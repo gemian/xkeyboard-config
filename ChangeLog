@@ -1,3 +1,7 @@
+2007-11-21  Sergey Udaltsov
+
+	* symbols/np, rules/base.lists.part: added np(olpc)
+
 2007-11-20  Sergey Udaltsov
 
 	* symbols/af, symbols/kz, symbols/ng, rules/base.xml.in: OLPC fixes
