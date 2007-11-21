@@ -2,6 +2,8 @@
 
 	* symbols/np, rules/base.lists.part: added np(olpc)
 	* symbols/et, rules/base.lists.part: added et(olpc)
+	* symbols/in: small fix in in(ben_probhat),
+	https://bugs.freedesktop.org/show_bug.cgi?id=12038
 
 2007-11-20  Sergey Udaltsov
 

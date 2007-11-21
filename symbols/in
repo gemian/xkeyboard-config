@@ -240,7 +240,7 @@ xkb_symbols "ben_probhat" {
    key <ESC>  { [ Escape ] };
 
 // numbers
-   key <TLDE> { [ quoteleft, asciitilde   ] };
+   key <TLDE> { [ 0x100200D, asciitilde   ] };
    key <AE01> { [ 0x10009E7, exclam       ] };
    key <AE02> { [ 0x10009E8, at           ] };
    key <AE03> { [ 0x10009E9, numbersign   ] };
@@ -251,8 +251,8 @@ xkb_symbols "ben_probhat" {
    key <AE08> { [ 0x10009EE, 0x10009CE    ] };
    key <AE09> { [ 0x10009EF, parenleft    ] };
    key <AE10> { [ 0x10009E6, parenright   ] };
-   key <AE11> { [ 0x100200C, underscore   ] };
-   key <AE12> { [ equal,     0x100200D    ] };
+   key <AE11> { [ minus,     underscore   ] };
+   key <AE12> { [ equal,     plus         ] };
    key <BKSP> { [ BackSpace               ] };
 
 // tab, q to ] 
@@ -297,7 +297,7 @@ xkb_symbols "ben_probhat" {
    key <AB08> { [   comma,      0x10009C3  ] };
    key <AB09> { [   0x1000964,  0x1000981  ] };
    key <AB10> { [   0x10009CD,  question   ] };
-   key <BKSL> { [   backslash,  0x1000965  ] };
+   key <BKSL> { [   0x100200C,  0x1000965  ] };
 
 //   key <LCTL> { [   Control_L              ] };
 //   key <SPCE> { [   space                  ] };
