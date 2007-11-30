@@ -1,6 +1,8 @@
 2007-11-30  Sergey Udaltsov
 
 	* symbols/us: small olpc fix
+	* symbols/inet: introducing nav_common and media_nav_common,
+	https://bugs.freedesktop.org/show_bug.cgi?id=13461
 
 2007-11-21  Sergey Udaltsov
 

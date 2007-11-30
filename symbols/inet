@@ -32,6 +32,19 @@ xkb_symbols "media_common" {
     key <I30>   {       [ XF86AudioRaiseVolume  ] };
 };
 
+// popular web navigation combination
+partial hidden alphanumeric_keys
+xkb_symbols "nav_common" {
+    key <I69>   {       [ XF86Forward           ]       };
+    key <I6A>   {       [ XF86Back              ]       };
+};
+
+partial hidden alphanumeric_keys
+xkb_symbols "media_nav_common" {
+    include "inet(media_common)"
+    include "inet(nav_common)"
+};
+
 // Evdev Standardized Keycodes
 partial alphanumeric_keys
 xkb_symbols "evdev" {
@@ -160,14 +173,12 @@ xkb_symbols "evdev" {
 // A4Tech KB-21
 partial alphanumeric_keys
 xkb_symbols "a4techKB21" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I32>   {       [ XF86HomePage          ]       };
     key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
     key <I67>   {       [ XF86Refresh           ]       };
     key <I68>   {       [ XF86Stop              ]       };
-    key <I69>   {       [ XF86Forward           ]       };
-    key <I6A>   {       [ XF86Back              ]       };
     key <I6B>   {       [ XF86MyComputer        ]       };
     key <I6C>   {       [ XF86Mail              ]       };
 };
@@ -193,8 +204,10 @@ xkb_symbols "a4_rfkb23" {
     key <I66>   {       [ XF86Favorites                 ]       };
     key <I67>   {       [ XF86Refresh                   ]       };
     key <I68>   {       [ XF86Stop                      ]       };
+// should they be swapped?
     key <I69>   {       [ XF86Back                      ]       };
     key <I6A>   {       [ XF86Forward                   ]       };
+
     key <I6B>   {       [ XF86MyComputer                ]       };
     key <I6C>   {       [ XF86Mail                      ]       };
     key <I6D>   {       [ XF86AudioMedia                ]       };
@@ -313,7 +326,6 @@ xkb_symbols "azonaRF2300" {
     key <I5F>   {       [ XF86Standby           ]       };
     key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
-    key <I69>   {       [ XF86Forward           ]       };
     key <I6A>   {       [ XF86Back              ]       };
     key <I6C>   {       [ XF86Mail              ]       };
     key <I78>   {       [ XF86Cut               ]       };
@@ -334,7 +346,7 @@ xkb_symbols "acpi" {
 // Advance Scorpius KI
 partial alphanumeric_keys
 xkb_symbols "scorpius" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
     key <I5E>	{	[ XF86PowerOff		]	};
@@ -344,8 +356,6 @@ xkb_symbols "scorpius" {
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6B>	{	[ XF86MyComputer	]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <I6D>	{	[ XF86AudioMedia	]	};
@@ -497,6 +507,7 @@ xkb_symbols "btc9019u" {
 // Cherry Blue Line CyBo@rd
 partial alphanumeric_keys
 xkb_symbols "cherryblue" {
+    include "inet(nav_common)"
     key <FK16>	{	[ XF86Reload		]	};
     key <I02>	{	[ XF86HomePage		]	};
     key <I17>	{	[ XF86AudioStop		]	};
@@ -511,8 +522,6 @@ xkb_symbols "cherryblue" {
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86MyComputer	]	};
     key <I68>	{	[ XF86Stop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <PRSC>	{	[ XF86Terminal		]	};
     key <XFER>	{	[ XF86Go		]	};
@@ -521,7 +530,7 @@ xkb_symbols "cherryblue" {
 // Cherry CyMotion Master XPress
 partial alphanumeric_keys
 xkb_symbols "cherryblueb" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <FK16>  {       [ XF86Reload            ]       };
     key <I02>   {       [ XF86HomePage          ]       };
     key <I07>   {       [ XF86Forward           ]       };
@@ -542,8 +551,6 @@ xkb_symbols "cherryblueb" {
     key <I66>   {       [ XF86MyComputer        ]       };
     key <I67>   {       [ XF86AudioRewind       ]       };
     key <I68>   {       [ XF86Stop              ]       };
-    key <I69>   {       [ XF86Forward           ]       };
-    key <I6A>   {       [ XF86Back              ]       };
     key <I6C>   {       [ XF86Mail              ]       };
     key <I6D>   {       [ XF86AudioMedia        ]       };
     key <I70>   {       [ XF86Eject             ]       };
@@ -556,7 +563,7 @@ xkb_symbols "cherryblueb" {
 // Cherry Blue Line CyBo@rd (alternate option)
 partial alphanumeric_keys
 xkb_symbols "cherrybluea" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
     key <I5F>	{	[ XF86Standby		]	};
@@ -564,8 +571,6 @@ xkb_symbols "cherrybluea" {
     key <I66>	{	[ XF86MyComputer	]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6B>	{	[ XF86Terminal		]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <I6D>	{	[ XF86Go		]	};
@@ -574,7 +579,7 @@ xkb_symbols "cherrybluea" {
 // Cherry CyBo@rd USB-Hub
 partial alphanumeric_keys
 xkb_symbols "cherrycyboard" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <FK17>    {   [ XF86Search        ]   };
     key <I02> {   [ XF86HomePage      ]   };
     key <I21> {   [ XF86Calculator    ]   };
@@ -582,8 +587,6 @@ xkb_symbols "cherrycyboard" {
     key <I66> {   [ XF86MyComputer    ]   };
     key <I67> {   [ XF86Reload        ]   };
     key <I68> {   [ XF86Stop          ]   };
-    key <I69> {   [ XF86Forward       ]   };
-    key <I6A> {   [ XF86Back          ]   };
     key <I6C> {   [ XF86Mail          ]   };
     key <K67> {   [ XF86Terminal      ]   };
     key <XFER>    {   [ XF86AudioMedia    ]   };
@@ -763,7 +766,7 @@ xkb_symbols "dellm65" {
 // Genius KB-19e NB
 partial alphanumeric_keys
 xkb_symbols "geniuskb19e" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I21>   {      [ XF86Calculator        ]       };
     key <I32>   {      [ XF86HomePage          ]       };
     key <I5F>   {      [ XF86Sleep             ]       };
@@ -771,8 +774,6 @@ xkb_symbols "geniuskb19e" {
     key <I66>   {      [ XF86Favorites         ]       };
     key <I67>   {      [ XF86Refresh           ]       };
     key <I68>   {      [ XF86Stop              ]       };
-    key <I69>   {      [ XF86Forward           ]       };
-    key <I6A>   {      [ XF86Back              ]       };
     key <I6B>   {      [ XF86MyComputer        ]       };
     key <I6C>   {      [ XF86Mail              ]       };
     key <I6D>   {      [ XF86AudioMedia        ]       };
@@ -809,13 +810,11 @@ partial alphanumeric_keys
 xkb_symbols "dellusbmm" {
     // Describes the extra keys on a SK-8135 Multimedia keyboard
     // From Olivier Lahaye <olivier dot lahaye at motorola dot com>
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I02>	{	[ XF86HomePage		]	};
     key <I21>	{	[ XF86Calculator	]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <K67>	{	[ XF86MyComputer	]	}; 
     key <XFER>	{	[ XF86AudioMedia	]	};  
@@ -841,7 +840,7 @@ xkb_symbols "dexxa" {
 // Diamond 9801 / 9802 series
 partial alphanumeric_keys
 xkb_symbols "diamond" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
     key <I5E>	{	[ XF86PowerOff		]	};
@@ -851,8 +850,6 @@ xkb_symbols "diamond" {
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6B>	{	[ XF86MyComputer	]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <I6D>	{	[ XF86Go		]	};
@@ -865,7 +862,7 @@ partial alphanumeric_keys
 xkb_symbols "dtk2000" {
     // Describes the extra keys on a DTK2000 Internet keyboard.
     // From Radics Laszlo <garaboncias@mailbox.hu>
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I21>   {       [ XF86Calculator        ]       };
     key <I32>   {       [ XF86HomePage          ]       };
     key <I5E>   {       [ XF86PowerOff          ]       };
@@ -875,8 +872,6 @@ xkb_symbols "dtk2000" {
     key <I66>   {       [ XF86Favorites         ]       };
     key <I67>   {       [ XF86Refresh           ]       };
     key <I68>   {       [ XF86Stop              ]       };
-    key <I69>   {       [ XF86Forward           ]       };
-    key <I6A>   {       [ XF86Back              ]       };
     key <I6B>   {       [ XF86MyComputer        ]       };
     key <I6C>   {       [ XF86Mail              ]       };
     key <I6D>   {       [ XF86AudioMedia        ]       };
@@ -888,7 +883,7 @@ xkb_symbols "dtk2000" {
 // Ennyah DKB-1008
 partial alphanumeric_keys
 xkb_symbols "ennyah_dkb1008" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I32>	{	[ XF86HomePage		]	};
     key <I5E>   {	[ XF86PowerOff		]	};
     key <I5F>   {	[ XF86Standby		]	};
@@ -897,8 +892,6 @@ xkb_symbols "ennyah_dkb1008" {
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Refresh		]	};
     key <I68>	{	[ XF86Stop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <XFER>  {	[ XF86AudioMedia	]	};
 };
@@ -932,12 +925,10 @@ partial alphanumeric_keys
 xkb_symbols "geniuscomfy" {
     // Describes the extra keys on a Genius Comfy KB-12e
     // From Jurica Vukadin <jura@webit.hr>
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I21>   {       [ XF86Calculator        ]       };
     key <I32>   {       [ XF86WWW	        ]       };
     key <I5F>   {       [ XF86Sleep             ]       };
-    key <I69>   {       [ XF86Forward           ]       };
-    key <I6A>   {       [ XF86Back              ]       };
     key <I6B>   {       [ XF86MyComputer        ]       };
     key <I6C>   {       [ XF86Mail              ]       };
     key <I6D>   {       [ XF86AudioMedia        ]       };
@@ -961,6 +952,7 @@ xkb_symbols "geniuscomfy2" {
 
 partial alphanumeric_keys
 xkb_symbols "gyration" {
+    include "inet(nav_common)"
     key <FK16>	{	[ XF86Reload		]	};
     key <I02>	{	[ XF86WWW		]	};
     key <I17>	{	[ XF86AudioStop		]	};
@@ -973,8 +965,6 @@ xkb_symbols "gyration" {
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I68>	{	[ XF86Stop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6C>	{	[ XF86Mail		]	};
 };
 
@@ -1243,8 +1233,7 @@ xkb_symbols "rapidaccess2a" {
 // IBM ThinkPad 41
 partial alphanumeric_keys
 xkb_symbols "thinkpad" {
-    key <I69>	{	[ XF86Forward		]	}; 
-    key <I6A>	{	[ XF86Back		]	}; 
+    include "inet(nav_common)"
 };
 
 
@@ -1254,7 +1243,7 @@ xkb_symbols "thinkpad" {
 partial hidden alphanumeric_keys
 xkb_symbols "logitech_base" {
 
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I01> {	[ XF86AudioMedia ] };
     key <I02> { [ XF86WWW ] };
     key <I15> { [ XF86Community ] };
@@ -1270,8 +1259,6 @@ xkb_symbols "logitech_base" {
     key <I5F> { [ XF86Standby ] };
     key <I65> { [ XF86Search ] };
     key <I66> {	[ XF86Favorites	] };
-    key <I69> { [ XF86Forward ] };
-    key <I6A> { [ XF86Back ] };
     key <I6C> { [ XF86Mail ] };
     key <I6D> { [ XF86AudioMedia ] };
 };
@@ -1514,15 +1501,13 @@ xkb_symbols "mx2500" {
 // Memorex MX2750
 partial alphanumeric_keys
 xkb_symbols "mx2750" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I32>	{	[ XF86Launch0		]	};
     key <I5E>	{	[ XF86PowerOff		]	};
     key <I5F>	{	[ XF86Standby		]	};
     key <I63>	{	[ XF86WakeUp		]	};
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6C>	{	[ XF86Mail		]	};
 };
 
@@ -1532,14 +1517,13 @@ xkb_symbols "mx2750" {
 // Microsoft Internet Keyboard
 partial alphanumeric_keys
 xkb_symbols "microsoftinet" {
+    include "inet(nav_common)"
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86WWW		]	};
     key <I5F>	{	[ XF86Standby		]	};
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I68>	{	[ XF86AudioStop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6B>	{	[ XF86MyComputer	]	};
     key <I6C>	{	[ XF86Mail		]	};
 };
@@ -1547,7 +1531,7 @@ xkb_symbols "microsoftinet" {
 // Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro
 partial alphanumeric_keys 
 xkb_symbols "microsoftpro" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
     key <I5F>	{	[ XF86Standby		]	};
@@ -1555,8 +1539,6 @@ xkb_symbols "microsoftpro" {
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6B>	{	[ XF86MyComputer	]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <I6D>	{	[ XF86AudioMedia	]	};
@@ -1568,6 +1550,7 @@ xkb_symbols "microsoftpro" {
 // Microsoft Natural Keyboard Pro USB  
 partial alphanumeric_keys  
  xkb_symbols "microsoftprousb" {  
+    include "inet(nav_common)"
      key <FK16>   {   [ XF86Reload      ]   };  
      key <I01>   {   [ XF86AudioMedia   ]   };  
      key <I02>   {   [ XF86HomePage      ]   };  
@@ -1583,8 +1566,6 @@ partial alphanumeric_keys
      key <I65>   {   [ XF86Search      ]   };  
      key <I66>   {   [ XF86Favorites      ]   };  
      key <I68>   {   [ XF86Stop      ]   };  
-     key <I69>   {   [ XF86Forward      ]   };  
-     key <I6A>   {   [ XF86Back      ]   };  
      key <I6C>   {   [ XF86Mail      ]   };  
  //   Internet Section -- Left Side  
  //   Multimedia Section -- Right Side  
@@ -1596,7 +1577,7 @@ partial alphanumeric_keys
 // Microsoft Natural Keyboard Pro OEM 
 partial alphanumeric_keys  
 xkb_symbols "microsoftprooem" { 
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <FK17>	{	[ XF86Search		]	}; 
     key <I01>	{	[ XF86AudioMedia	]	}; 
     key <I02>	{	[ XF86HomePage		]	}; 
@@ -1605,8 +1586,6 @@ xkb_symbols "microsoftprooem" {
     key <I66>	{	[ XF86Favorites		]	}; 
     key <I67>	{	[ XF86Reload		]	}; 
     key <I68>	{	[ XF86Stop		]	}; 
-    key <I69>	{	[ XF86Forward		]	}; 
-    key <I6A>	{	[ XF86Back		]	}; 
     key <I6C>	{	[ XF86Mail		]	}; 
     key <K67>	{	[ XF86MyComputer	]	}; 
 //   Internet Section -- Left Side 
@@ -1617,6 +1596,7 @@ xkb_symbols "microsoftprooem" {
 // Microsoft Internet Keyboard Pro, Swedish
 partial alphanumeric_keys
 xkb_symbols "microsoftprose" {
+    include "inet(nav_common)"
     key <FK16>	{	[ XF86Reload		]	};
     key <I02>	{	[ XF86HomePage		]	};
     key <I17>	{	[ XF86AudioStop		]	};
@@ -1631,8 +1611,6 @@ xkb_symbols "microsoftprose" {
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I68>	{	[ XF86AudioStop		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <PRSC>	{	[ XF86MyComputer	]	};
     key <XFER>	{	[ XF86AudioMedia	]	};
@@ -1641,6 +1619,7 @@ xkb_symbols "microsoftprose" {
 // Microsoft Office Keyboard
 partial alphanumeric_keys
 xkb_symbols "microsoftoffice" {
+    include "inet(nav_common)"
     key <BRK>	{	[ XF86Calendar		]	};
     key <END>	{	[ Undo			]	};
     key <I02>	{	[ XF86WWW		]	};
@@ -1661,8 +1640,6 @@ xkb_symbols "microsoftoffice" {
     key <I62>	{	[ Help			]	};
     key <I64>	{	[ XF86Save		]	};
     key <I67>	{	[ Print			]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <I6D>	{	[ XF86OfficeHome	]	};
     key <I70>	{	[ Redo			]	};
@@ -1955,15 +1932,13 @@ xkb_symbols "toshiba_s3000" {
 // Trust Wireless Keyboard Classic
 partial alphanumeric_keys
 xkb_symbols "trust" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I11>	{	[ XF86ScreenSaver	]	};
     key <I1E>	{	[ XF86Eject		]	};
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86WWW		]	};
     key <I5F>	{	[ XF86Standby		]	};
     key <I63>	{	[ XF86WakeUp		]	};
-    key <I69>	{	[ XF86Forward		]	};
-    key <I6A>	{	[ XF86Back		]	};
     key <I6C>	{	[ XF86Mail		]	};
 };
 
@@ -2012,7 +1987,7 @@ xkb_symbols "yahoo" {
  
 // Super Power Multimedia Keyboard 
 xkb_symbols "sp_inet" { 
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I32>	{	[ XF86HomePage		]	}; 
     key <I5E>	{	[ XF86PowerOff		]	}; 
     key <I5F>	{	[ XF86Standby		]	}; 
@@ -2020,8 +1995,6 @@ xkb_symbols "sp_inet" {
     key <I66>	{	[ XF86Favorites		]	}; 
     key <I67>	{	[ XF86Refresh		]	}; 
     key <I68>	{	[ XF86Stop		]	}; 
-    key <I69>	{	[ XF86Forward		]	}; 
-    key <I6A>	{	[ XF86Back		]	}; 
     key <I6C>	{	[ XF86Mail		]	}; 
 };
 
@@ -2048,7 +2021,7 @@ partial xkb_symbols "apple" {
 
 partial alphanumeric_keys
 xkb_symbols "cymotionlinux" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <FK17>	{	[	XF86Search		]	};
     key <I02>	{	[	XF86WWW			]	};
     key <I05>	{	[	Redo			]	};
@@ -2064,8 +2037,6 @@ xkb_symbols "cymotionlinux" {
     key <I63>   {	[	XF86Standby		]	};
     key <I67>	{	[	XF86Reload		]	};
     key	<I68>	{	[	XF86Stop		]	};
-    key <I69>	{	[	XF86Forward		]	};
-    key <I6A>	{	[	XF86Back		]	};
     key <I6C>	{	[	XF86Mail		]	};
     key <I78>	{	[	XF86Copy		]	};
     key <K65>	{	[	XF86Paste		]	};
@@ -2078,13 +2049,11 @@ xkb_symbols "cymotionlinux" {
 
 partial alphanumeric_keys 
 xkb_symbols "silvercrest" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I02>	{	[ XF86HomePage		]	};    
     key <I21>	{	[ XF86Launch2		]	};
     key <I5F>	{	[ XF86Standby		]	};
     key <I66>	{	[ XF86Favorites		]	};    
-    key <I69>	{	[ XF86Go		]	};
-    key <I6A>	{	[ XF86Back		]	};    
     key <I6C>	{	[ XF86Mail		]	};    
     key <I6D>	{	[ XF86AudioMedia	]	};
     key <K67>	{	[ XF86Launch1		]	};
@@ -2128,7 +2097,7 @@ xkb_symbols "emachines" {
 // setkeycodes e075 171 # KEY_CONFIG from /usr/include/linux/input.h
 partial alphanumeric_keys
 xkb_symbols "benqx" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I02> { [ XF86ModeLock ] };
     key <I21> { [ XF86WWW      ]  };
     key <I2B> { [ XF86Go ] };
@@ -2139,8 +2108,6 @@ xkb_symbols "benqx" {
     key <I63> { [ XF86WakeUp   ]  };
     key <I65> { [ XF86Search ] };
     key <I66> { [ XF86Favorites ] };
-    key <I69> { [ XF86Forward ] };
-    key <I6A> { [ XF86Back ] };
     key <I6C> { [ XF86Mail ] };
     key <I6D> { [ XF86AudioMedia ] };
 };
