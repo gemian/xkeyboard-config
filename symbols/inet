@@ -313,6 +313,7 @@ xkb_symbols "asus_laptop" {
 partial alphanumeric_keys
 xkb_symbols "azonaRF2300" {
     // From Radics Laszlo <garaboncias@mailbox.hu>
+    include "inet(nav_common)"
     key <I02>   {       [ XF86WWW               ]       };
     key <I17>   {       [ XF86AudioStop         ]       };
     key <I1E>   {       [ XF86AudioRaiseVolume  ]       };
@@ -326,7 +327,6 @@ xkb_symbols "azonaRF2300" {
     key <I5F>   {       [ XF86Standby           ]       };
     key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
-    key <I6A>   {       [ XF86Back              ]       };
     key <I6C>   {       [ XF86Mail              ]       };
     key <I78>   {       [ XF86Cut               ]       };
 //  key <RCTL>  {       [ XF86Paste             ]       };
