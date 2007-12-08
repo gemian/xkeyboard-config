@@ -2,6 +2,8 @@
 
 	* symbols/inet, rules/base.xml.in, rules/base.lists.part: added
 	fscaa1667g model, thanks to Matthew W. S. Bell
+	* symbols/gr: updated greek symbols,
+	https://bugs.freedesktop.org/show_bug.cgi?id=13570
 
 2007-11-30  Sergey Udaltsov
 
