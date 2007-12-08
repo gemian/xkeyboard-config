@@ -373,6 +373,13 @@
     </model>
     <model>
       <configItem>
+        <name>fscaa1667g</name>
+        <_description>Fujitsu-Siemens Computers AMILO A1667G laptop</_description>
+        <vendor>Fujitsu-Siemens</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>genius</name>
         <_description>Genius Comfy KB-16M / Genius MM Keyboard KWD-910</_description>
         <vendor>Genius</vendor>

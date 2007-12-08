@@ -1,3 +1,8 @@
+2007-12-08  Sergey Udaltsov
+
+	* symbols/inet, rules/base.xml.in, rules/base.lists.part: added
+	fscaa1667g model, thanks to Matthew W. S. Bell
+
 2007-11-30  Sergey Udaltsov
 
 	* symbols/us: small olpc fix

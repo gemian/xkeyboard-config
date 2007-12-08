@@ -897,6 +897,17 @@ xkb_symbols "ennyah_dkb1008" {
 };
 
 
+// Fujitsu-Siemens Computers
+
+// Fujitsu-Siemens Computers AMILO A1667G laptop
+partial alphanumeric_keys
+xkb_symbols "fscaa1667g" {
+   include "inet(media_common)"
+   key <I32>   {       [ XF86Info              ]       };
+   key <I6C>   {       [ XF86Mail              ]       };
+};
+
+
 // Genius
 
 // Genius Comfy KB-16M / Genius MM Keyboard KWD-910
