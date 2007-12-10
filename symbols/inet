@@ -1244,7 +1244,7 @@ xkb_symbols "rapidaccess2a" {
 // IBM ThinkPad 41
 partial alphanumeric_keys
 xkb_symbols "thinkpad" {
-    include "inet(nav_common)"
+    include "inet(media_nav_common)"
 };
 
 

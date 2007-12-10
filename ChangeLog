@@ -1,3 +1,8 @@
+2007-12-10  Sergey Udaltsov
+
+	* symbols/inet: fixed thinkpad,
+	https://bugs.freedesktop.org/show_bug.cgi?id=13461
+
 2007-12-08  Sergey Udaltsov
 
 	* symbols/inet, rules/base.xml.in, rules/base.lists.part: added
