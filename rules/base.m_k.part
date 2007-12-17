@@ -2,6 +2,7 @@
   ataritt	=	ataritt(de)
   sun4		=	sun(type4_euro)
   sun5		=	sun(type5_euro)
+  sun6		=	sun(type6_usb)
   pc98		=	xfree98(pc98)
   abnt2		=	xfree86(abnt2)
   jp106		=	xfree86(jp106)

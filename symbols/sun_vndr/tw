@@ -30,7 +30,7 @@
 //
 // Taiwanese layout for a Type 4 Sun keyboard
 xkb_symbols "type4" {
-    include "sun/us(type4basic)"
+    include "sun_vndr/us(type4basic)"
 
     key <BKSL> { [ backslash, bar	], [ brokenbar	]		};
 

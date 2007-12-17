@@ -76,8 +76,8 @@ xkb_symbols "sunbasic" {
     key <FK08> { [ F8			]			};
     key <FK09> { [ F9			]			};
     key <FK10> { [ F10			]			};
-    key <FK11> { [ SunF36		]			};
-    key <FK12> { [ SunF37		]			};
+    key <FK11> { [ F11			]			};
+    key <FK12> { [ F12			]			};
     key <STOP> { [ L1,	L1		], [ SunStop	]	};
     key <AGAI> { [ L2,	L2		], [ SunAgain	]	};
     key <PROP> { [ L3,	L3		], [ SunProps	]	};
@@ -151,7 +151,7 @@ xkb_symbols "sunbasic" {
 
 // US/ASCII layout for a Type 4 Sun keyboard
 xkb_symbols "type4basic" {
-    include "sun/us(sunbasic)"
+    include "sun_vndr/us(sunbasic)"
 
     // A few alphanumeric keys are different
     key <AE04> { [ 4, dollar		], [ EuroSign	]	};
@@ -178,14 +178,14 @@ xkb_symbols "type4basic" {
 };
 
 xkb_symbols "type4" {
-    include "sun/us(type4basic)"
+    include "sun_vndr/us(type4basic)"
 
     key <BKSL> { [ backslash, bar	], [ brokenbar	]	};
 };
 
 // US/ASCII layout for a Type 5 Sun keyboard
 xkb_symbols "type5basic" {
-    include "sun/us(sunbasic)"
+    include "sun_vndr/us(sunbasic)"
 
     // Begin "Editing" section
     key <PRSC> { [ R2, R2 		], [ Print, SunSys_Req	]	};
@@ -214,15 +214,15 @@ xkb_symbols "type5basic" {
     key <POWR> { [ SunPowerSwitch,	SunPowerSwitchShift	]	};
 
     // begin modifier mappings
-    modifier_map Shift          { Shift_R, Shift_L };
-    modifier_map Mod1           { Alt_L };
-    modifier_map Mod2           { Alt_R, Mode_switch };
-    modifier_map Mod3           { Num_Lock };
-    modifier_map Mod4           { Meta_L, Meta_R };
+    modifier_map Shift  	{ Shift_R, Shift_L };
+    modifier_map Mod1   	{ Meta_L, Meta_R };
+    modifier_map Mod2   	{ Mode_switch };
+    modifier_map Mod3   	{ Num_Lock };
+    modifier_map Mod4		{ Alt_L };
 };
 
 xkb_symbols "type5" {
-    include "sun/us(type5basic)"
+    include "sun_vndr/us(type5basic)"
 
     // A few alphanumeric keys are different
     key <AE04> { [ 4, dollar		], [ EuroSign	]	};
@@ -232,17 +232,17 @@ xkb_symbols "type5" {
 };
 
 xkb_symbols "type6" {
-    include "sun/us(type5)"
+    include "sun_vndr/us(type5)"
 };
 
 
 // US/ASCII layout for a Type 5 Sun keyboard
 xkb_symbols "type5hobobasic" {
-    include "sun/us(type5basic)"
+    include "sun_vndr/us(type5basic)"
 };
 
 xkb_symbols "type5hobo" {
-    include "sun/us(type5hobobasic)"
+    include "sun_vndr/us(type5hobobasic)"
 
     // A few alphanumeric keys are different
     key <AE04> { [ 4, dollar		], [ EuroSign 	]	};

@@ -73,5 +73,5 @@ xkb_symbols "type5" {
 
 partial 
 xkb_symbols "type6" {
-    include "sun/it(type5)"
+    include "sun_vndr/it(type5)"
 };

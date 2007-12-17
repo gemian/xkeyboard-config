@@ -1,3 +1,15 @@
+2007-12-17  Sergey Udaltsov
+
+	* keycodes/sun, rules/base.m_k.part, rules/base.ml_s.part,
+	symbols/sun_vndr/cs, symbols/sun_vndr/cz, symbols/sun_vndr/de,
+	symbols/sun_vndr/dk, symbols/sun_vndr/fr, symbols/sun_vndr/gb,
+	symbols/sun_vndr/gr, symbols/sun_vndr/it, symbols/sun_vndr/jp,
+	symbols/sun_vndr/ko, symbols/sun_vndr/nl, symbols/sun_vndr/no,
+	symbols/sun_vndr/pl, symbols/sun_vndr/ru, symbols/sun_vndr/sw,
+	symbols/sun_vndr/tr, symbols/sun_vndr/tuv, symbols/sun_vndr/tw,
+	symbols/sun_vndr/us: added sun type 6 support,
+	https://bugs.freedesktop.org/show_bug.cgi?id=13664
+
 2007-12-10  Sergey Udaltsov
 
 	* symbols/inet: fixed thinkpad,

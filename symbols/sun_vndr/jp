@@ -653,8 +653,8 @@ xkb_symbols "type6" {
 };
 
 xkb_symbols "x86" {
-    include "sun/us(pc101)"
-    include "sun/jp(basic)"
+    include "sun_vndr/us(pc101)"
+    include "sun_vndr/jp(basic)"
     key <TLDE> { [ Henkan_Mode, Henkan_Mode ], [ Henkan_Mode ] };
 
     key <AE10> { [ 0, asciitilde	    ], [ kana_WA, kana_WO	]};
@@ -669,7 +669,7 @@ xkb_symbols "x86" {
 };
 
 xkb_symbols "J3100" {
-    include "sun/us(pc101)"
+    include "sun_vndr/us(pc101)"
 
     // Alphanumeric section
     key <AE01> { [ 1, exclam 		], [ kana_NU		]	};
@@ -780,7 +780,7 @@ xkb_symbols "J3100" {
 };
 
 xkb_symbols "Muhenkan_x86" {
-    include "sun/jp(x86)"
+    include "sun_vndr/jp(x86)"
 
     key <EXEC> { [ Muhenkan ] };
 };
@@ -789,7 +789,7 @@ xkb_symbols "Muhenkan_x86" {
 
 partial
 xkb_symbols "type7" {
-    include "sun/jp(type6)"
+    include "sun_vndr/jp(type6)"
     key <AE10> { [ 0, asciitilde       ], [ kana_WA, kana_WO   ]       };
     key <HZTG> { [ Henkan_Mode ] };
     key <HENK> { [ Kana_Lock, Mode_switch ] };

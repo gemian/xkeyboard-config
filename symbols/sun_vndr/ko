@@ -30,7 +30,7 @@
 //
 // Korean layout for a Type 4 Sun keyboard
 xkb_symbols "type4" {
-    include "sun/us(type4basic)"
+    include "sun_vndr/us(type4basic)"
 
     key <BKSL> { [ backslash, bar	], [ brokenbar	]		};
 
@@ -42,7 +42,7 @@ xkb_symbols "type4" {
 
 // Korean layout for a Type 5 Sun keyboard
 xkb_symbols "type5" {
-//    include "sun/us(type5basic)"
+//    include "sun_vndr/us(type5basic)"
 
     // A few keys are different
     key <ALGR> { [ Hangul		]				  };
@@ -53,7 +53,7 @@ xkb_symbols "type5" {
 // Korean layout for a Type 6 Sun keyboard
 partial
 xkb_symbols "type6" {
-//    include "sun/us(type5basic)"
+//    include "sun_vndr/us(type5basic)"
 
     // A few keys are different
     key <ALGR> { [ Hangul		]				  };

@@ -29,7 +29,7 @@
 //
 
 xkb_symbols "type4" {
-    include "sun/us(type4basic)"
+    include "sun_vndr/us(type4basic)"
     // A few keys are different
 
     key <BKSL> { [ bar, section		]			};

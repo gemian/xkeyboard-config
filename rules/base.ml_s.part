@@ -8,6 +8,9 @@
   sun4		*			=	latin+sun_vndr/us(sun4)+%l%(v)
   sun5		$nonlatin		=	latin+sun_vndr/us(sun5)+%l%(v):2
   sun5		*			=	latin+sun_vndr/us(sun5)+%l%(v)
+  sun6		us			=	pc+sun_vndr/us(type6)
+  sun6		en_US			=	pc+sun_vndr/us(type6)+iso9995-3(basic)
+  sun6		*			=	pc+sun_vndr/us(type6)+%l%(v)
   pc98		nec_vndr/jp		=	nec_vndr/jp(pc98)
   macintosh_old	us			=	macintosh_vndr/us(oldmac)
   macintosh_old	en_US			=	macintosh_vndr/us(oldmac)

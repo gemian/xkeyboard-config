@@ -28,7 +28,7 @@
 // of the copyright holder.
 //
 xkb_symbols "type4" {
-    include "sun/us(type4basic)"
+    include "sun_vndr/us(type4basic)"
     // A few keys are different
     key <AE01> { [ 1, exclam		], [brokenbar	]	};
     key <AE03> { [ 3, sterling		], [numbersign	]	};
@@ -49,5 +49,5 @@ xkb_symbols "type5" {
 
 partial
 xkb_symbols "type6" {
-  include "sun/gb(type5)"
+  include "sun_vndr/gb(type5)"
 };

@@ -29,7 +29,7 @@
 //
 
 xkb_symbols "type5" {
-    include "sun/us(type5)"
+    include "sun_vndr/us(type5)"
     include "cz"
 
     // A few keys are different

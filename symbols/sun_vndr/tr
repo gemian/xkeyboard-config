@@ -28,7 +28,7 @@
 // of the copyright holder.
 //
 xkb_symbols "basic" {
-   include "sun/tr(type6Q)"
+   include "sun_vndr/tr(type6Q)"
 };
 
 xkb_symbols "type6Q" {

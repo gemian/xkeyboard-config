@@ -41,7 +41,7 @@ xkb_symbols "basic" {
 // layout for a Sun Type 6 Russian keyboard
 partial
 xkb_symbols "type6" {
-    include "sun/ru(basic)"
+    include "sun_vndr/ru(basic)"
 
     key <AE03> {        [               3,      numbersign      ],
                         [               3,      numerosign      ]       };

@@ -28,7 +28,7 @@
 // of the copyright holder.
 //
 xkb_symbols "type4de" {
-    include "sun/us(type4basic)"
+    include "sun_vndr/us(type4basic)"
     // A few keys are different
     key <BKSL> { [ less, braceleft      ]                       };
 
@@ -66,7 +66,7 @@ xkb_symbols "type4de" {
 };
 
 xkb_symbols "type4fr" {
-    include "sun/us(type4basic)"
+    include "sun_vndr/us(type4basic)"
     // A few keys are different
     key <BKSL> { [ less, braceleft	]			};
 

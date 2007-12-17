@@ -129,7 +129,7 @@ xkb_symbols "type4basic" {
 };
 
 xkb_symbols "type4" {
-    include "sun/us(type4basic)"
+    include "sun_vndr/us(type4basic)"
 
     // A few alphanumeric keys are different
     key <AE04> { [ 4, dollar		], [ EuroSign	]	};
@@ -230,7 +230,7 @@ xkb_symbols "type5basic" {
 };
 
 xkb_symbols "type5" {
-    include "sun/us(type5basic)"
+    include "sun_vndr/us(type5basic)"
 
     // A few alphanumeric keys are different
     key <AE04> { [ 4, dollar		], [ EuroSign	]	};

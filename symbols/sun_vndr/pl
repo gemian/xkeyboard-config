@@ -29,7 +29,7 @@
 //
 
 xkb_symbols "type5" {
-    include "sun/us(type5basic)"
+    include "sun_vndr/us(type5basic)"
     // A few keys are different
     key <TLDE> { [ quoteleft, asciitilde], [ degree, degree ]	};
     key <AE02> { [ 2, quotedbl		], [ at		]	};

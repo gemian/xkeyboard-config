@@ -32,7 +32,7 @@
 // French Swiss symbols are in sw
 
 xkb_symbols "type4" {
-    include "sun/us(type4basic)"
+    include "sun_vndr/us(type4basic)"
 
     key <BKSL> { [ bracketleft, braceleft ]			};
     key <BRCR> { [ bracketright, braceright ]			};
@@ -84,7 +84,7 @@ xkb_symbols "type5" {
 };
 
 xkb_symbols "type6" {
-    include "sun/us(type6)"
+    include "sun_vndr/us(type6)"
     include "fr"
 
     key <LSGT> { [ less, greater	]				};
