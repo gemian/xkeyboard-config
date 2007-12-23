@@ -2538,20 +2538,20 @@
       <variantList>
         <variant>
           <configItem>
-            <name>yz</name>
-            <_description>Z and ZHE swapped</_description>
+            <name>cyrillic</name>
+            <_description>Cyrillic</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>latin</name>
-            <_description>Latin</_description>
+            <name>cyrillicyz</name>
+            <_description>Cyrillic, Z and ZHE swapped</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinunicode</name>
-            <_description>Latin Unicode</_description>
+            <_description>Latin unicode</_description>
           </configItem>
         </variant>
         <variant>
@@ -2563,13 +2563,13 @@
         <variant>
           <configItem>
             <name>latinunicodeyz</name>
-            <_description>Latin Unicode qwerty</_description>
+            <_description>Latin unicode qwerty</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>alternatequotes</name>
-            <_description>With guillemets</_description>
+            <name>cyrillicalternatequotes</name>
+            <_description>Cyrillic with guillemets</_description>
           </configItem>
         </variant>
         <variant>
