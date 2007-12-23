@@ -126,7 +126,7 @@ xkb_symbols "evdev" {
     key <I208>   {      [ XF86AudioPlay         ]       };
     key <I209>   {      [ XF86AudioPause        ]       };
     key <I210>   {      [ XF86Launch3           ]       };
-    key <I211>   {      [ XF86Launch4           ]       };
+    key <AB11>   {      [ XF86Launch4           ]       };
     key <I213>   {      [ XF86Standby           ]       };
     key <I214>   {      [ XF86Close             ]       };
     key <I215>   {      [ XF86AudioPlay         ]       };

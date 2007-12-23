@@ -235,7 +235,7 @@ default xkb_keycodes "evdev" {
 	<I208> = 208;	// #define KEY_PLAYCD              200
 	<I209> = 209;	// #define KEY_PAUSECD             201
 	<I210> = 210;	// #define KEY_PROG3               202
-	<I211> = 211;	// #define KEY_PROG4               203
+	//<I211> = 211;	// #define KEY_PROG4               203 conflicts with AB11
 	<I213> = 213;	// #define KEY_SUSPEND             205
 	<I214> = 214;	// #define KEY_CLOSE               206
 	<I215> = 215;	// #define KEY_PLAY                207
