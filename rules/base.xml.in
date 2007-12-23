@@ -639,6 +639,13 @@
     </model>
     <model>
       <configItem>
+        <name>logiultraxc</name>
+        <_description>Logitech Ultra-X Cordless Media Desktop Keyboard</_description>
+        <vendor>Logitech</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logidinovo</name>
         <_description>Logitech diNovo Keyboard</_description>
         <vendor>Logitech</vendor>

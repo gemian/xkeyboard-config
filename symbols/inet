@@ -1437,6 +1437,17 @@ xkb_symbols "logiultrax" {
     include "inet(logitech_base)"
 };
 
+// Logitech UltraX Cordless Media Desktop
+partial alphanumeric_keys
+xkb_symbols "logiultraxc" {
+    key <FK16>  {       [ XF86AudioMute ]       };
+    key <FK17>  {       [ XF86AudioLowerVolume  ]       };
+    key <I2B>   {       [ XF86AudioNext ]       };
+    key <I2D>   {       [ XF86AudioPrev ]       };
+    key <I2C>   {       [ XF86AudioPlay, XF86AudioPause ]       };
+    key <KPDC>  {       [ XF86AudioRaiseVolume  ]       };
+};
+
 partial alphanumeric_keys 
 xkb_symbols "logidinovo" {
     include "inet(media_common)"

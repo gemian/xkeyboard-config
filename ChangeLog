@@ -1,3 +1,8 @@
+2007-12-23  Sergey Udaltsov
+
+	* symbols/inet, rules/base.xml.in: add logiultrax model,
+	https://bugs.freedesktop.org/show_bug.cgi?id=13028
+
 2007-12-17  Sergey Udaltsov
 
 	* keycodes/sun, rules/base.m_k.part, rules/base.ml_s.part,
