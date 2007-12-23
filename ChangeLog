@@ -2,6 +2,8 @@
 
 	* symbols/inet, rules/base.xml.in: add logiultrax model,
 	https://bugs.freedesktop.org/show_bug.cgi?id=13028
+	* symbols/me, rules/base.xml.in: use Latin as default Montenegro
+	variant, https://bugs.freedesktop.org/show_bug.cgi?id=13777
 
 2007-12-17  Sergey Udaltsov
 
