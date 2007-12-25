@@ -1,9 +1,15 @@
+2007-12-25  Sergey Udaltsov
+
+	* symbols/eurosign, rules/base.xml.in, rules/base.o_s.part: add
+	eurosign(4)
+
 2007-12-23  Sergey Udaltsov
 
 	* symbols/inet, rules/base.xml.in: add logiultrax model,
 	https://bugs.freedesktop.org/show_bug.cgi?id=13028
 	* symbols/me, rules/base.xml.in: use Latin as default Montenegro
 	variant, https://bugs.freedesktop.org/show_bug.cgi?id=13777
+	* symbols/inet, keycodes/evdev: Kill off the I211 key in evdev
 
 2007-12-17  Sergey Udaltsov
 
