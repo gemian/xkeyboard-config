@@ -21,7 +21,6 @@ xkb_symbols "basic" {
     key <AE11>	{ [      plus,   question,    backslash, questiondown ]	};
     key <AE12>	{ [dead_acute, dead_grave,        grave,   apostrophe ]	};
 
-    key <AD03>	{ [         e,          E,     EuroSign,     EuroSign ]	};
     key <AD11>	{ [udiaeresis, Udiaeresis, dead_diaeresis, dead_abovering ] };
     key <AD12>	{ [    otilde,     Otilde,      section,  dead_macron ]	};
 
@@ -36,6 +35,7 @@ xkb_symbols "basic" {
     key <AB09>	{ [    period,      colon,      greater,     division ]	};
 
     include "level3(ralt_switch)"
+    include "eurosign(e)"
 };
 
 partial alphanumeric_keys
@@ -64,7 +64,6 @@ xkb_symbols "dvorak" {
    
     key <AE03>	{ [         3, numbersign,   sterling ]	};
     key <AE04>	{ [         4,     dollar,    section,   currency ]	};
-    key <AE05>	{ [         5,    percent,   EuroSign ]	};
     key <AE08>	{ [         8,   asterisk,    onehalf ]	};
 
     key <AC01>	{ [         a,          A, adiaeresis, Adiaeresis ]	};
@@ -76,4 +75,29 @@ xkb_symbols "dvorak" {
 
     include "level3(ralt_switch)"
     include "kpdl(comma)"
+    include "eurosign(5)"
+};
+
+// Estonian few characters on basic US keymap.
+// by Elan Ruusamäe <glen@delfi.ee>
+partial alphanumeric_keys
+xkb_symbols "us" {
+    include "us(euro)"
+    name[Group1] = "Estonia - US keyboard with Estonian letters";
+
+    // ž, Ž
+    key <AB01>	{ [           z,  Z,          zcaron,     Zcaron     ]	};
+    // ¢
+    key <AB03>	{ [           c,  C,          cent,       cent       ]	};
+    // š, Š
+    key <AC02>	{ [           s,  S,          scaron,     Scaron     ]	};
+    key <AC10>	{ [ semicolon,    colon,      odiaeresis, Odiaeresis ]	};
+    key <AC11>	{ [ quoteright,   quotedbl,   adiaeresis, Adiaeresis ]	};
+    key <AD11>	{ [ bracketleft,  braceleft,  udiaeresis, Udiaeresis ]	};
+    key <AD12>	{ [ bracketright, braceright, otilde,     Otilde     ]	};
+    // £
+    key <AE03>	{ [           3,  numbersign, sterling,   sterling   ]	};
+
+    include "level3(ralt_switch)"
+    include "eurosign(e)"
 };

@@ -1762,6 +1762,12 @@
             <_description>Dvorak</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>us</name>
+            <_description>US keyboard with Estonian letters</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
