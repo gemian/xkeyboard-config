@@ -1,3 +1,9 @@
+2007-12-27  Sergey Udaltsov
+
+	* rules/base.o_s.part, rules/base.xml.in, symbols/capslock: adding xkb
+	option caps:swapescape,
+	https://bugs.freedesktop.org/show_bug.cgi?id=13824
+
 2007-12-26  Sergey Udaltsov
 
 	* symbols/ee, rules/base.xml.in: adding ee(us), polishing eurosign

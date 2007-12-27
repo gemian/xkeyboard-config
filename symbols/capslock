@@ -17,3 +17,8 @@ xkb_symbols "grouplock" {
     key <CAPS> {	[	ISO_Next_Group,	Caps_Lock	]	};
 };
 
+partial hidden modifier_keys
+xkb_symbols "swapescape" {
+    key <CAPS> {        [       Escape  ]       };
+    key <ESC>  {        [     Caps_Lock    ]       };
+};

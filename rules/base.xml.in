@@ -3946,6 +3946,12 @@
       </option>
       <option>
         <configItem>
+          <name>caps:swapescape</name>
+          <_description>Swap ESC and CapsLock.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>caps:shiftlock</name>
           <_description>CapsLock toggles Shift so all keys are affected.</_description>
         </configItem>
