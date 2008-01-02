@@ -3,6 +3,10 @@
 	* symbols/ro, rules/base.xml.in: small fixes for Romanian visible
 	strings from
 	https://bugs.freedesktop.org/show_bug.cgi?id=13277
+	* rules/base.xml.in, rules/compat/variantRename.lst, symbols/fr,
+	symbols/ge: moving ge(azerty_tscapo) to fr(geo), since that layout is
+	only used in France, closing
+	https://bugs.freedesktop.org/show_bug.cgi?id=13644
 
 2007-12-31  Sergey Udaltsov
 

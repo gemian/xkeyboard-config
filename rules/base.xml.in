@@ -1987,6 +1987,12 @@
             <_description>Macintosh</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>geo</name>
+            <_description>Georgian AZERTY Tskapo</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -2049,12 +2055,6 @@
         <_description>Georgia</_description>
       </configItem>
       <variantList>
-        <variant>
-          <configItem>
-            <name>azerty_tskapo</name>
-            <_description>AZERTY Tskapo</_description>
-          </configItem>
-        </variant>
         <variant>
           <configItem>
             <name>ergonomic</name>
