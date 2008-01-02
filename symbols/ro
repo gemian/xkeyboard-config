@@ -7,15 +7,15 @@
 // 
 // The default mapping is the RO_US/Programmers layout because of the lack of 
 // Romanian hardware keyboards. The primary standard layout is implemented as 
-// the "std" variant. If you're really determined to get commas bellow as in 
-// ISO-8859-16 (and not cedillas as in ISO-8859-2) use the already defined 
-// variants: "comma" for the default layout or "academic" for the standard one.
+// the "std_cedilla" variant. If you're determined to get commabelows as in
+// ISO-8859-16 (and not cedillas as in ISO-8859-2) use the defined variants  
+// "comma" for the default layout or "std_comma" for the standard one.
 // MS compatible layout included (use the "winkeys" variant).
 // 
 // Created by Cristian Gafton, <gafton@redhat.com> (C) 2000
 // Modified by Marius Andreiana, <mandreiana@yahoo.com> (C) 2001
-// Completed by Misu Moldovan, <dumol@gnome.ro> (C) 2001, 2004-2006.
-// v 1.2
+// Completed by Misu Moldovan, <dumol@gnome.ro> (C) 2001, 2004-2007.
+// v 1.3
 
 
 default partial alphanumeric_keys
@@ -64,14 +64,14 @@ xkb_symbols "basic" {
 
 partial alphanumeric_keys
 xkb_symbols "comma" {
-    // Variant of the basic layout with comma below.
-    // Implements S and T with comma bellow as in ISO-8859-16.
+    // Variant of the basic layout with commabelow.
+    // Implements S and T with commabelow as in ISO-8859-16.
     // Hopefully these should become mainstream in the near future.
     // For now it's just an odd variant (although the correct one).
 
     include "ro(basic)"
 
-    name[Group1]="Romania - Comma below";
+    name[Group1]="Romania - Commabelow";
 
     key <AD05>	{ [ t,                     T,  0x100021b,       0x100021a ] };
     key <AC02>	{ [ s,          	   S,  0x1000219,       0x1000218 ] };
@@ -86,7 +86,7 @@ xkb_symbols "std_cedilla" {
 
     include "us"
 
-    name[Group1]="Romania - Standard (Cedilla below)";
+    name[Group1]="Romania - Standard (Cedilla)";
 
     key <TLDE> { [ doublelowquotemark, rightdoublequotemark, grave, asciitilde ] };
     key <AE01> { [ 1,                 exclam,  dead_tilde		  ] };
@@ -124,14 +124,14 @@ xkb_symbols "std_cedilla" {
 
 partial alphanumeric_keys
 xkb_symbols "std_comma" {
-    // Academic variant of the standard layout with comma bellow.
-    // Implements S and T with comma bellow as in ISO-8859-16.
+    // Academic variant of the standard layout with commabelow.
+    // Implements S and T with commabelow as in ISO-8859-16.
     // Hopefully these should become mainstream in a few years.
     // For now it's the oddest variant (although the perfect one).
 
     include "ro(std_cedilla)"
 
-    name[Group1]="Romania - Standard (Comma below)";
+    name[Group1]="Romania - Standard (Commabelow)";
 
     key <AC10> { [ 0x1000219,	   0x1000218 ] };
     key <AC11> { [ 0x100021b,	   0x100021a ] };

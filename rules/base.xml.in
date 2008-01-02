@@ -2775,19 +2775,19 @@
         <variant>
           <configItem>
             <name>comma</name>
-            <_description>Comma below</_description>
+            <_description>Commabelow</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>std_comma</name>
-            <_description>Standard (Comma below)</_description>
+            <_description>Standard (Commabelow)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>std_cedilla</name>
-            <_description>Standard (Cedilla below)</_description>
+            <_description>Standard (Cedilla)</_description>
           </configItem>
         </variant>
         <variant>

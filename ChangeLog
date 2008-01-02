@@ -1,3 +1,9 @@
+2008-01-02  Sergey Udaltsov
+
+	* symbols/ro, rules/base.xml.in: small fixes for Romanian visible
+	strings from
+	https://bugs.freedesktop.org/show_bug.cgi?id=13277
+
 2007-12-31  Sergey Udaltsov
 
 	* symbols/ro, rules/base.xml.in, rules/compat/variantRename.lst:
