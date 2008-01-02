@@ -7,6 +7,8 @@
 	symbols/ge: moving ge(azerty_tscapo) to fr(geo), since that layout is
 	only used in France, closing
 	https://bugs.freedesktop.org/show_bug.cgi?id=13644
+	* symbols/ara: remove presentation forms from Arabic layout,
+	https://bugs.freedesktop.org/show_bug.cgi?id=13894
 
 2007-12-31  Sergey Udaltsov
 
