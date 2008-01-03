@@ -1,3 +1,8 @@
+2008-01-03  Sergey Udaltsov
+
+	* symbols/pl, rules/base.xml.in: added pl(ru_phonetic_dvorak),
+	https://bugs.freedesktop.org/show_bug.cgi?id=13900
+
 2008-01-02  Sergey Udaltsov
 
 	* symbols/ro, rules/base.xml.in: small fixes for Romanian visible

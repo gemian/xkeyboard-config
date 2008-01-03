@@ -155,3 +155,116 @@ xkb_symbols "csb" {
 
     include "level3(ralt_switch)"
 };
+
+// Russian Polish-phonetic Dvorak
+// by Adrian Dziubek <adrian.dziubek@gmail.com>
+//
+// This layout aims to enable Polish Dvorak users to type with Russian
+// Cyrillic alphabet by using the sound correspondence between Polish and
+// Russian languages.
+//
+// This keyboard should be intuitive. Please let me know, if my intuition
+// lets You down.
+//
+// The guidelines used:
+// - no Cyrillic symbols are placed on punctuation symbols,
+// - visual similarities are ignored if there is a sound correspondence:
+//   no Cyrillic_es on c, no Cyrillic_er on p, no Cyrillic_ha on x etc.,
+// - the Latin symbols that have close sound correspondence (as read in Polish)
+//   to Cyrillic symbols (as read in Russian) are mapped respectively:
+//         * j -> Cyrillic_shorti,
+//         * k -> Cyrillic_ka,
+//         * b -> Cyrillic_be,
+//         * m -> Cyrillic_em,
+//         * w -> Cyrillic_ve,
+//         * z -> Cyrillic_ze
+//         * a -> Cyrillic_a,
+//         * o -> Cyrillic_o,
+//         * u -> Cyrillic_u,
+//         * i -> Cyrillic_i,
+//         * d -> Cyrillic_de,
+//         * h -> Cyrillic_ha,
+//         * t -> Cyrillic_te,
+//         * n -> Cyrillic_en,
+//         * s -> Cyrillic_es,
+//         * p -> Cyrillic_pe,
+//         * y -> Cyrillic_yeru,
+//         * f -> Cyrillic_ef,
+//         * g -> Cyrillic_ghe,
+//         * c -> Cyrillic_tse,
+//         * r -> Cyrillic_er,
+//         * l -> Cyrillic_el,
+// - ...and little more distant:
+//         * AltGr + s (sacute) -> Cyrillic_sha,
+//         * AltGr + z (zabovedot) -> Cyrillic_zhe,
+//         * AltGr + c (cacute) -> Cyrillic_che,
+// - the soft versions of Russian vowels are accessible through AltGr + vowel:
+//         * AltGr + a -> Cyrillic_ya,
+//         * AltGr + o -> Cyrillic_io,
+//         * AltGr + u -> Cyrillic_yu,
+// - ...except for Cyrillic_ie which is more frequently used than Cyrillic_e:
+//         * AltGr + e -> Cyrillic_e,
+//         * e -> Cyrillic_ie,
+// - q is also mapped to Cyrillic_ya, following the US phonetic keyboard
+//   choice, as Cyrillic_ya and Cyrillic_a are both often used:
+//         * q -> Cyrillic_ya,
+// - the soft and hard symbols that have no Polish counterparts are mapped
+//   to rarely used in Polish x character:
+//         * x -> Cyrillic_softsign
+//         * AltGr + x -> Cyrillic_hardsign,
+// - the soft sign is additionally available as AltGr + consonant combination
+//   for every consonant that can be softened or separated by soft sign:
+//         * AltGr + l -> Cyrillic_softsign,
+//         * AltGr + d -> Cyrillic_softsign,
+//         * AltGr + n -> Cyrillic_softsign,
+//         * AltGr + r -> Cyrillic_softsign,
+//         * AltGr + t -> Cyrillic_softsign,
+//         * AltGr + p -> Cyrillic_softsign,
+// - ...and also because of visual similarity under level3 b:
+//         * AltGr + b -> Cyrillic_softsign,
+//         * Shift + AltGr + b -> Cyrillic_hardsign,
+// - the Cyrillic_shcha symbol is placed under AltGr + w (visual similarity):
+//         * AltGr + w -> Cyrillic_shcha
+// - v, also rarely unused in Polish is mapped like w:
+//         * v -> Cyrillic_ve,
+//
+partial alphanumeric_keys
+xkb_symbols "ru_phonetic_dvorak" {
+   include "us(dvorak)"
+
+   name[Group1] = "Poland - Russian phonetic Dvorak";
+
+   // lower row
+   key <AB02> { [ Cyrillic_ya, Cyrillic_YA ] };
+   key <AB03> { [ Cyrillic_shorti, Cyrillic_SHORTI ] };
+   key <AB04> { [ Cyrillic_ka, Cyrillic_KA ] };
+   key <AB05> { [ Cyrillic_shcha, Cyrillic_SHCHA ] };
+   key <AB06> { [ Cyrillic_be, Cyrillic_BE, Cyrillic_hardsign, Cyrillic_HARDSIGN ] };
+   key <AB07> { [ Cyrillic_em, Cyrillic_EM ] };
+   key <AB08> { [ Cyrillic_ve, Cyrillic_VE, Cyrillic_shcha, Cyrillic_SHCHA ] };
+   key <AB09> { [ Cyrillic_ve, Cyrillic_VE, Cyrillic_shcha, Cyrillic_SHCHA ] };
+   key <AB10> { [ Cyrillic_ze, Cyrillic_ZE, Cyrillic_zhe, Cyrillic_ZHE ] };
+   // home row
+   key <AC01> { [ Cyrillic_a, Cyrillic_A, Cyrillic_ya, Cyrillic_YA  ] };
+   key <AC02> { [ Cyrillic_o, Cyrillic_O, Cyrillic_io, Cyrillic_IO ] };
+   key <AC03> { [ Cyrillic_ie, Cyrillic_IE, Cyrillic_e, Cyrillic_E ] };
+   key <AC04> { [ Cyrillic_u, Cyrillic_U, Cyrillic_yu, Cyrillic_YU  ] };
+   key <AC05> { [ Cyrillic_i, Cyrillic_I ] };
+   key <AC06> { [ Cyrillic_de, Cyrillic_DE, Cyrillic_softsign, Cyrillic_SOFTSIGN ] };
+   key <AC07> { [ Cyrillic_ha, Cyrillic_HA ] };
+   key <AC08> { [ Cyrillic_te, Cyrillic_TE, Cyrillic_softsign, Cyrillic_SOFTSIGN ] };
+   key <AC09> { [ Cyrillic_en, Cyrillic_EN, Cyrillic_softsign, Cyrillic_SOFTSIGN ] };
+   key <AC10> { [ Cyrillic_es, Cyrillic_ES, Cyrillic_sha, Cyrillic_SHA ] };
+   // upper row
+   key <AD04> { [ Cyrillic_pe, Cyrillic_PE, Cyrillic_softsign, Cyrillic_SOFTSIGN ] };
+   key <AD05> { [ Cyrillic_yeru, Cyrillic_YERU ] };
+   key <AD06> { [ Cyrillic_ef, Cyrillic_EF ] };
+   key <AD07> { [ Cyrillic_ghe, Cyrillic_GHE ] };
+   key <AD08> { [ Cyrillic_tse, Cyrillic_TSE, Cyrillic_che, Cyrillic_CHE ] };
+   key <AD09> { [ Cyrillic_er, Cyrillic_ER, Cyrillic_softsign, Cyrillic_SOFTSIGN ] };
+   key <AD10> { [ Cyrillic_el, Cyrillic_EL, Cyrillic_softsign, Cyrillic_SOFTSIGN ] };
+
+   include "kpdl(comma)"
+
+   include "level3(ralt_switch)"
+};

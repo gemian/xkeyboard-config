@@ -2706,6 +2706,12 @@
             <_description>Kashubian</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>ru_phonetic_dvorak</name>
+            <_description>Russian phonetic Dvorak</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
