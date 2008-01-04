@@ -1,3 +1,8 @@
+2008-01-04  Sergey Udaltsov
+
+	* symbols/inet, rules/base.lists.part, rules/base.xml.in: adding BTC
+	6301URF, https://bugs.freedesktop.org/show_bug.cgi?id=13913
+
 2008-01-03  Sergey Udaltsov
 
 	* symbols/pl, rules/base.xml.in: added pl(ru_phonetic_dvorak),

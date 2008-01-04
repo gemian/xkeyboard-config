@@ -179,6 +179,13 @@
     </model>
     <model>
       <configItem>
+        <name>btc6301urf</name>
+        <_description>BTC 6301URF</_description>
+        <vendor>BTC</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>btc9000</name>
         <_description>BTC 9000</_description>
         <vendor>BTC</vendor>

@@ -419,6 +419,14 @@ xkb_symbols "btc5126t" {
     key <I6C>	{	[ XF86Mail		]	};
 };
 
+// BTC 6301URF
+partial alphanumeric_keys
+xkb_symbols "btc6301urf" {
+    include "inet(media_nav_common)"
+    include "inet(btc5126t)"
+    key <I66>	{	[ XF86Favorites		]	};
+};
+
 // BTC 9000
 partial alphanumeric_keys
 xkb_symbols "btc9000" {
