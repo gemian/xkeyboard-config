@@ -2,6 +2,8 @@
 
 	* symbols/inet, rules/base.lists.part, rules/base.xml.in: adding BTC
 	6301URF, https://bugs.freedesktop.org/show_bug.cgi?id=13913
+	* symbols/macintosh_vndr/fr: added nodeadkeys,
+	https://bugs.freedesktop.org/show_bug.cgi?id=13934
 
 2008-01-03  Sergey Udaltsov
 

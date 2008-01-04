@@ -26,6 +26,7 @@
 // Apple mark and the oe/OE character; others I may have simply not
 // found.)
 
+default
 xkb_symbols "extended" {
 
     name[Group1]= "France - Mac";
@@ -96,3 +97,14 @@ xkb_symbols "extended" {
 };
 
 
+
+xkb_symbols "nodeadkeys" {
+include "macintosh_vndr/fr(extended)"
+    name[Group1]= "France - Mac, eliminate dead keys";
+    
+    key <AE01> {	[   ampersand,	  1,	  	VoidSymbol,	  	acute	]	}; // MISSING: Apple
+    key <AD11> {	[asciicircum,diaeresis,ocircumflex, 		Ocircumflex	]	};
+    key <BKSL> {	[ grave,	sterling,	at,			numbersign	]	};
+
+    key <AB06> {	[	  n,	N,		asciitilde,		dead_tilde	]	};
+};
