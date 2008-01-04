@@ -5,7 +5,7 @@
 
 xkb_symbols "extended" {
 
-    name[Group1]= "U.S. English";
+    name[Group1]= "USA";
     key <ESC>  {	[ Escape			]	};
 
     // Alphanumeric section
