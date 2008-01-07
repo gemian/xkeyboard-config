@@ -541,6 +541,13 @@
     </model>
     <model>
       <configItem>
+        <name>thinkpad60</name>
+        <_description>IBM ThinkPad R60/T60/Z60m/Z60t/R61/T61/Z61m/Z61t</_description>
+        <vendor>IBM</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logiaccess</name>
         <_description>Logitech Access Keyboard</_description>
         <vendor>Logitech</vendor>

@@ -1256,6 +1256,15 @@ xkb_symbols "thinkpad" {
 };
 
 
+// IBM ThinkPad 60 series
+partial alphanumeric_keys
+xkb_symbols "thinkpad60" {
+    include "inet(media_nav_common)"
+
+    key <I1F> { [ XF86VendorHome ] };
+};
+
+
 // Logitech
 
 // Logitech common definitions

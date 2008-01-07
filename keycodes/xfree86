@@ -415,3 +415,9 @@ xkb_keycodes "abnt2" {
     include "xfree86(xfree86)"
     <KPPT> = 134;
 };
+
+// IBM ThinkPad 60 series
+xkb_keycodes "thinkpad60" {
+    include "xfree86(xfree86)"
+    <MENU> = 227;
+};

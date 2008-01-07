@@ -265,3 +265,207 @@ xkb_geometry "intl" {
 	};
     }; // End of "Alpha" section
 };
+
+xkb_geometry "60" {
+    width = 290;
+    height = 140;
+    baseColor = "grey80";
+    labelColor = "white";
+
+    shape "NORM" { cornerRadius = 1, { [18,   18] }, { [2, 0], [16, 16] } };
+
+    shape "ESC"  { cornerRadius = 1, { [17,   13] }, { [1.5, 0], [15.5, 12] } };
+    shape "FN0"  { cornerRadius = 1, { [17,   11] }, { [1.5, 0], [15.5, 10] } };
+
+    shape "BKSP" { cornerRadius = 1, { [37,   18] }, { [2, 0], [35, 16] } };
+
+    shape "TABK" { cornerRadius = 1, { [27.5, 18] }, { [2, 0], [25.5, 16] } };
+    shape "BKSL" { cornerRadius = 1, { [27.5, 18] }, { [2, 0], [25.5, 16] } };
+
+    shape "CAPS" { cornerRadius = 1, { [30.5, 18] }, { [2, 0], [28.5, 16] } };
+    shape "RTRN" { cornerRadius = 1, { [43.5, 18] }, { [2, 0], [41.5, 16] } };
+
+    shape "LFSH" { cornerRadius = 1, { [40,   18] }, { [2, 0], [38, 16] } };
+    shape "RTSH" { cornerRadius = 1, { [53,   18] }, { [2, 0], [51, 16] } };
+
+    shape "LCTL" { cornerRadius = 1, { [21,   18] }, { [2, 0], [19, 16] } };
+    shape "LWIN" { cornerRadius = 1, { [15,   18] }, { [1.5, 0], [13.5, 16] } };
+
+    shape "SPCE" { cornerRadius = 1, { [97,   18] }, { [2, 0], [95, 16] } };
+
+    shape "ARR1" { cornerRadius = 1, { [17,   13] }, { [1.5, 0], [15.5, 12] } };
+    shape "ARR2" { cornerRadius = 1, { [17,   11] }, { [1.5, 0], [15.5, 10] } };
+
+    shape "VOL"  { cornerRadius = 2.5, { [5, 5] } };
+    shape "TVTG" { cornerRadius = 0.5, { [0, 1], [17, 1], [17, 4], [0, 4] } };
+
+    shape "KEYS" { cornerRadius = 2,
+                   { [0, 0], [19, 0], [19, 16], [172, 16],
+	             [172, 4], [286, 4], [286, 133], [231, 133],
+	             [231, 126], [0, 126] } };
+
+    solid "KeyPanel" {
+	shape = "KEYS";
+	left = 2;
+	top = 3;
+	color = "black";
+    };
+
+    shape "NULL0" { cornerRadius = 0.5,
+                    { [0, 26],
+		      [72, 26], [72, 14], [76, 14], [76, 26],
+		      [149, 26], [149, 14], [153, 14], [153, 26],
+		      [226, 26], [226, 2], [230, 2], [230, 26],
+		      [284, 26], [284, 27],
+		      [0, 27] } };
+
+    solid "NullPanel0" {
+	shape = "NULL0";
+	left = 3;
+	top = 6;
+	color = "grey80";
+    };
+
+    shape "NULL1" { cornerRadius = 0.5, { [0, 12], [17, 12], [17, 13], [0, 13] } };
+
+    solid "NullPanel1" {
+	shape = "NULL1";
+	left = 3;
+	top = 6;
+	color = "grey80";
+    };
+
+    shape "MEDIA" { cornerRadius = 0.5, { [0, 0], [55, 0], [55, 10], [0, 10] } };
+
+    solid "MediaPanel" {
+	shape = "MEDIA";
+	left = 25.5;
+	top = 6;
+	color = "black";
+    };
+
+    section "Volume" {
+	left = 22;
+	top = 8.5;
+	key.shape = "VOL";
+	key.gap = 6;
+	key.color = "grey20";
+
+	row {
+	    keys { <MUTE>, <VOL->, <VOL+>, {<I1F>, "TVTG", color = "blue"} };
+	};
+    };
+
+    key.gap = 1;
+    key.color = "grey60";
+
+    section "Function" {
+	left = 2;
+	top = 3;
+	key.shape = "FN0";
+	row {
+	    key.shape = "ESC";
+	    top = 1;
+	    keys {  <ESC> };
+	};
+	row {
+	    top = 5;
+	    keys { { <PRSC>, 173 }, <SCLK>, <PAUS> };
+	};
+	row {
+	    top = 17;
+	    keys {  <FK01>, <FK02>, <FK03>, <FK04>,
+		    { <FK05>, 6 }, <FK06>, <FK07>, <FK08>,
+		    { <FK09>, 6 }, <FK10>, <FK11>, <FK12>
+	    };
+	};
+    }; // End of "Function" section
+
+    section "Control" {
+	left = 2;
+	top = 109;
+	key.shape = "NORM";
+	row {
+	    top = 1;
+	    keys { <FN>, { <LCTL>, "LCTL" }, { <LWIN>, "LWIN" }, <LALT>,
+		   { <SPCE>, "SPCE" }, <RALT>, <MENU>, <RCTL>
+	    };
+	};
+    }; // End of "Control" section
+
+    section "Editing" {
+	top = 7;
+	left = 233;
+        key.shape = "FN0";
+	row {
+	    top = 1;
+	    keys { <INS>, <HOME>, <PGUP> };
+	};
+        row {
+	    top = 13;
+	    keys { <DELE>, <END>, <PGDN> };
+	};
+    }; // End of "Editing" section
+
+    section "Navigation" {
+	top = 109;
+	left = 233;
+	row {
+	    key.shape = "ARR1";
+	    top = 1;
+	    keys { <I6A>, <UP>, <I69> };
+	};
+	row {
+	    key.shape = "ARR2";
+	    top = 15;
+	    keys { <LEFT>, <DOWN>, <RGHT> };
+	};
+    }; // End of "Navigation" section
+    
+    shape "STIK" { cornerRadius = 3.5, { [7, 7] } };
+
+    solid "STIK" {
+	priority = 255;
+	color = "red";
+	shape = "STIK";
+	top = 85.5;
+	left = 125.5;
+    };
+
+    section "Alpha" {
+	left = 2;
+	top = 33;
+	key.shape = "NORM";
+	row {
+	    top = 1;
+	    keys { <TLDE>, <AE01>, <AE02>, <AE03>, <AE04>,
+		   <AE05>, <AE06>, <AE07>, <AE08>, <AE09>,
+		   <AE10>, <AE11>, <AE12>, { <BKSP>, "BKSP" }
+	    };
+	};
+	row {
+	    top = 20;
+	    keys { { <TAB>, "TABK" },
+		   <AD01>, <AD02>, <AD03>, <AD04>, <AD05>, 
+		   <AD06>, <AD07>, <AD08>, <AD09>, <AD10>, 
+		   <AD11>, <AD12>, { <BKSL>, "BKSL" }
+	    };
+	};
+	row {
+	    top = 39;
+	    keys { { <CAPS>, "CAPS" },
+		   <AC01>, <AC02>, <AC03>, <AC04>, <AC05>, 
+		   <AC06>, <AC07>, <AC08>, <AC09>, <AC10>, 
+		   <AC11>, { <RTRN>, "RTRN", color = "blue" }
+	    };
+	};
+	row {
+	    top = 58;
+	    keys { { <LFSH>, "LFSH" },
+		   <AB01>, <AB02>, <AB03>, <AB04>, <AB05>, 
+		   <AB06>, <AB07>, <AB08>, <AB09>, <AB10>,
+		   { <RTSH>, "RTSH" }
+	    };
+	};
+    }; // End of "Alpha" section
+};

@@ -12,4 +12,5 @@
   macintosh_old	=	macintosh(old)
  $macbooks	=	macintosh+macintosh(goodmap)
  $macs   	=	macintosh
+  thinkpad60	=	xfree86(thinkpad60)
   *		=	xfree86

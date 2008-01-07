@@ -1,3 +1,10 @@
+2008-01-07  Sergey Udaltsov
+
+	* geometry/thinkpad, keycodes/xfree86, rules/base.lists.part,
+	rules/base.m_g.part, rules/base.m_k.part, rules/base.xml.in,
+	symbols/inet: added thinkpad60 model (with geometry),
+	https://bugs.freedesktop.org/show_bug.cgi?id=13954
+
 2008-01-05  Sergey Udaltsov
 
 	* symbols/us: add (left,right)singlequotemark to us(-altgr)-intl
