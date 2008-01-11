@@ -1,3 +1,8 @@
+2008-01-11  Sergey Udaltsov
+
+	* rules/base.lists.part, symbols/in: added in(olpc), by Bernardo
+	Innocenti
+
 2008-01-07  Sergey Udaltsov
 
 	* geometry/thinkpad, keycodes/xfree86, rules/base.lists.part,
