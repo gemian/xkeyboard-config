@@ -137,8 +137,8 @@ xkb_symbols "polytonic" {
     key <AD11> { [ dead_tilde, dead_diaeresis, dead_macron ] }; // ~ ¨ ¯
     key <AD12> { [  dead_iota,     VoidSymbol,  dead_breve ] }; // ͺ   ˘
 
-    key <AC10> { [ dead_acute, dead_horn   ] }; // ´ ̓ 
-    key <AC11> { [ dead_grave, dead_ogonek ] }; // ` ̔
+    key <AC10> { [ dead_acute, dead_psili  ] }; // ´ ̓ 
+    key <AC11> { [ dead_grave, dead_dasia  ] }; // ` ̔
 };
 
 partial alphanumeric_keys alternate_group

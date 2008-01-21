@@ -1,3 +1,8 @@
+2008-01-21  Sergey Udaltsov
+
+	* symbols/gr: Polytonic Greek: Use new keysyms for dead psili and
+	dasia, http://bugs.freedesktop.org/show_bug.cgi?id=13275
+
 2008-01-11  Sergey Udaltsov
 
 	* rules/base.lists.part, symbols/in: added in(olpc), by Bernardo
