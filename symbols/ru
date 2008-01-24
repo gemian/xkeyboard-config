@@ -83,8 +83,9 @@ xkb_symbols "olpc" {
     key <AE09> {        [               9,          parenleft, acute    ]       };
     key        <AC12> {        [       backslash,          bar, slash          ]       };
     key <AB10> {        [          period,          comma               ]       };
-    key <I219> {        [  ISO_Next_Group,          ISO_Prev_Group      ]       };
     key <BKSL> {        [       backslash,          slash               ]       };
+
+    include "group(olpc)"
 };
 
 partial alphanumeric_keys

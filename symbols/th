@@ -245,5 +245,5 @@ xkb_symbols "olpc" {
     key <AB09> { [ 0x1000E43,  0x1000E2C ] };
     key <AB10> { [ 0x1000E1D,  0x1000E26 ] };
 
-    key <I219> { [ ISO_Next_Group, ISO_Prev_Group ] };
+    include "group(olpc)"
 };

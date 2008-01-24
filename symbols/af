@@ -269,8 +269,7 @@ xkb_symbols "olpc-ps" {
    key <AB09> { [ 0x1000696, 0x100002E, 0x10006C7 ] }; // Arabic reh with dot below and dot above, full stop, Arabic letter U
    key <AB10> { [ slash, 0x100061F, 0x10006C9 ] }; // Arabic question mark, Arabic kirghiz yu
 
-   //language key
-   key <I219> {  [ISO_Next_Group  ,  ISO_Prev_Group      ]     };
+   include "group(olpc)"
 };
 
 partial alphanumeric_keys 
@@ -331,8 +330,7 @@ xkb_symbols "olpc-da" {
    key <AB09> { [ period, less, 0x10006C7 ] }; // Arabic u
    key <AB10> { [ slash, 0x100061F, 0x10006C9 ] }; // Arabic question mark, Arabic kirghiz yu
 
-   //language key
-   key <I219> { [ ISO_Next_Group,  ISO_Prev_Group ] };
+   include "group(olpc)"
 };
 
 partial alphanumeric_keys 
@@ -393,6 +391,5 @@ xkb_symbols "olpc-uz" {
    key <AB09> { [ period, less ] };
    key <AB10> { [ slash, 0x100061F, 0x1000655 ] }; // Arabic question mark, Arabic hamza below
 
-   //language key
-   key <I219> { [ ISO_Next_Group,  ISO_Prev_Group ] };
+   include "group(olpc)"
 };

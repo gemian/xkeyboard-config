@@ -1100,6 +1100,6 @@ xkb_symbols "olpc" {
   key <AB10> { [	0x100092F,	0x100095F ] }; // DEVANAGARI LETTER YA; DEVANAGARI LETTER YYA
 
   key <SPCE> { [	0x100200C,	0x100200D ] }; // ZERO-WIDTH-NON-JOINER (ZWNJ); ZERO-WIDTH-JOINER (ZWJ)
-  // language key
-  key <I219> {  [ISO_Next_Group  ,  ISO_Prev_Group      ]     };
+
+  include "group(olpc)"
 };

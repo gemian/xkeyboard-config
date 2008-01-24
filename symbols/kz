@@ -213,5 +213,6 @@ xkb_symbols "olpc" {
 
    key <TLDE> { [ parenleft,               parenright ] };
    key <BKSL> { [ Cyrillic_io,             Cyrillic_IO ] };
-   key <I219> { [ ISO_Next_Group,          ISO_Prev_Group ] };
+
+   include "group(olpc)"
 };

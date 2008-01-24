@@ -216,6 +216,5 @@ xkb_symbols "olpc" {
    key <AB09> {  [ 0x10006D4, 0x1000656 ] };
    key <AB10> {  [ slash,     0x100061F ] };
 
-   //language key
-   key <I219> {  [ISO_Next_Group  ,  ISO_Prev_Group      ]     };
+   include "group(olpc)"
 };

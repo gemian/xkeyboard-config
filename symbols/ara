@@ -271,6 +271,6 @@ xkb_symbols "olpc" {
     key <AB03> {  [ Arabic_hamzaonwaw,   Arabic_kasra ] };
     key <AB04> {  [       Arabic_ra,  Arabic_kasratan ] };    
     key <AB05> {  [     Arabic_thal,      asciicircum ] };
-    // Language key
-    key <I219> {  [  ISO_Next_Group,   ISO_Prev_Group ] };
+
+    include "group(olpc)"
 };

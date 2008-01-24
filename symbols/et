@@ -69,7 +69,7 @@ xkb_symbols "olpc" {
     key <AB09>	{ [        0x01001364,  VoidSymbol ]	}; // >
     key <AB10>  { [        VoidSymbol,  question   ]    }; // ?
 
-
     key <BKSL> {  [        backslash,   VoidSymbol ]    }; // bksl
 
+    include "group(olpc)"
 };

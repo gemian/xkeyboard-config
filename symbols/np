@@ -120,5 +120,5 @@ xkb_symbols "olpc" {
       key <AB08> { [      comma,  0x1000935		]       }; // VA
       key <AB09> { [      0x1000964,  0x1000965		]       }; // PURNA VIRAM, DIRGHA VIRAM
 
-      key <I219> { [ ISO_Next_Group, ISO_Prev_Group	]	};  //language key
+      include "group(olpc)"
 };

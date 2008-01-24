@@ -1,3 +1,10 @@
+2008-01-24  Sergey Udaltsov
+
+	* symbols/af, symbols/ara, symbols/et, symbols/group, symbols/in,
+	symbols/kz, symbols/np, symbols/pk, symbols/ru, symbols/th,
+	symbols/us: separating group(olpc), closing
+	http://bugs.freedesktop.org/show_bug.cgi?id=14225
+
 2008-01-21  Sergey Udaltsov
 
 	* symbols/gr: Polytonic Greek: Use new keysyms for dead psili and
