@@ -1,3 +1,7 @@
+2008-01-29  Sergey Udaltsov
+
+	* NEWS, configure.in: preparing release 1.2
+
 2008-01-24  Sergey Udaltsov
 
 	* symbols/af, symbols/ara, symbols/et, symbols/group, symbols/in,

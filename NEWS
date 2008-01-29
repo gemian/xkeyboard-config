@@ -1,6 +1,5 @@
-1.0	First time-based release. Bugfixes (27). Updated/new translations, renewed relations with TP. Renamed (for clarity) types. Some new layouts and models.
-0.9	Maintenance release. Bugfixes (76). Updated/new translations. Updated/new layouts.
-0.8	Maintenance release. Bugfixes. Updated/new translations. Updated/new layouts.
+1.2	Bugfixes (36). Updated/new translations, renewed relations with TP. Some new layouts and models. A lot of changes from OLPC project. Changed base.xml merging schema (.gmo files are installed and used explicitly)
+1.1	First time-based release. Bugfixes (27). Updated/new translations, renewed relations with TP. Renamed (for clarity) types. Some new layouts and models.
 1.0	Maintenance release. Bugfixes (72). Updated/new translations. Updated/new layouts and models.
 0.9	Maintenance release. Bugfixes (76). Updated/new translations. Updated/new layouts.
 0.8	Maintenance release. Bugfixes. Updated/new translations. Updated/new layouts.
