@@ -217,7 +217,7 @@ xkb_symbols "olpc-ps" {
    name[Group1]= "Afghanistan - Pashto";
 
    key <TLDE> { [ 0x100200D, 0x1000654, grave ] }; // zero width joiner, Arabic hamza above
-   key <AE01> { [ 0x10006F1, exclam, tilde ] }; // Arabic one
+   key <AE01> { [ 0x10006F1, exclam, asciitilde ] }; // Arabic one
    key <AE02> { [ 0x10006F2, 0x100066C. at ] }; // Arabic two, Arabic thousands separator
    key <AE03> { [ 0x10006F3, 0x100066B, numbersign ] }; // Arabic three, Arabic decimal separator
    key <AE04> { [ 0x10006F4, 0x100060B, dollar ] }; // Arabic four, Afghani sign
@@ -277,7 +277,7 @@ xkb_symbols "olpc-da" {
 
    name[Group1]= "Afghanistan - Dari";
 
-   key <TLDE> { [ 0x100200D, divide, tilde ] }; // zero width joiner
+   key <TLDE> { [ 0x100200D, divide, asciitilde ] }; // zero width joiner
    key <AE01> { [ 0x10006F1, exclam, grave ] }; // Arabic one
    key <AE02> { [ 0x10006F2, 0x100066C. at ] }; // Arabic two, Arabic thousands separator
    key <AE03> { [ 0x10006F3, 0x100066B, numbersign ] }; // Arabic three, Arabic decimal separator
@@ -338,7 +338,7 @@ xkb_symbols "olpc-uz" {
 
    name[Group1]= "Afghanistan - Uzbek";
 
-   key <TLDE> { [ 0x100200D, divide, tilde ] }; // zero width joiner
+   key <TLDE> { [ 0x100200D, divide, asciitilde ] }; // zero width joiner
    key <AE01> { [ 0x10006F1, exclam, grave ] }; // Arabic one
    key <AE02> { [ 0x10006F2, 0x100066C. at ] }; // Arabic two, Arabic thousands separator
    key <AE03> { [ 0x10006F3, 0x100066B, numbersign ] }; // Arabic three, Arabic decimal separator
