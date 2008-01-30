@@ -1599,6 +1599,12 @@
             <_description>Inuktitut</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>shs</name>
+            <_description>Secwepemctsin</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

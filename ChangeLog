@@ -1,3 +1,8 @@
+2008-01-30  Sergey Udaltsov
+
+	* symbols/ca, rules/base.xml.in: adding ca(shs), closing
+	http://bugs.freedesktop.org/show_bug.cgi?id=14308
+
 2008-01-29  Sergey Udaltsov
 
 	* NEWS, configure.in: preparing release 1.2
