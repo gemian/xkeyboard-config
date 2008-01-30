@@ -10,6 +10,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=14277
 	* symbols/am, rules/base.lists.part: added am(olpc),
 	http://bugs.freedesktop.org/show_bug.cgi?id=14226
+	* symbols/af: fixed some keysyms,
+	http://bugs.freedesktop.org/show_bug.cgi?id=14309
 
 2008-01-29  Sergey Udaltsov
 

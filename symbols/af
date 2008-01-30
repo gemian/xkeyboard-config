@@ -283,7 +283,7 @@ xkb_symbols "olpc-da" {
    key <AE03> { [ 0x10006F3, 0x100066B, numbersign ] }; // Arabic three, Arabic decimal separator
    key <AE04> { [ 0x10006F4, 0x100060B, dollar ] }; // Arabic four, Afghani sign
    key <AE05> { [ 0x10006F5, 0x100066A, percent ] }; // Arabic five, Arabic percent sign
-   key <AE06> { [ 0x10006F6, multiply, circumflex ] }; // Arabic six
+   key <AE06> { [ 0x10006F6, multiply, asciicircum ] }; // Arabic six
    key <AE07> { [ 0x10006F7, 0x100060C, ampersand ] }; // Arabic seven, Arabic comma
    key <AE08> { [ 0x10006F8, asterisk, enfilledcircbullet ] }; // Arabic eight, 
    key <AE09> { [ 0x10006F9, parenright, 0x100200E ] }; // Arabic nine, left-to-right mark
@@ -293,7 +293,7 @@ xkb_symbols "olpc-da" {
 
    key <AD01> { [ 0x1000636, 0x1000652, degree ] }; // Arabic dad, Arabic sukun
    key <AD02> { [ 0x1000635, 0x100064C ] }; // Arabic sad, Arabic dammatan
-   key <AD03> { [ 0x100062B, 0x100064D, eurosign ] }; // Arabic theh, Arabic kasratan
+   key <AD03> { [ 0x100062B, 0x100064D, EuroSign ] }; // Arabic theh, Arabic kasratan
    key <AD04> { [ 0x1000642, 0x100064B, 0x100FD3E ] }; // Arabic qaf, Arabic fathatan, ornate left paren
    key <AD05> { [ 0x1000641, 0x100064F, 0x100FD3F ] }; // Arabic feh, Arabic damma, ornate right paren
    key <AD06> { [ 0x100063A, 0x1000650, 0x1000656 ] }; // Arabic ghain, Arabic kasra, Arabic subscript alef
@@ -344,7 +344,7 @@ xkb_symbols "olpc-uz" {
    key <AE03> { [ 0x10006F3, 0x100066B, numbersign ] }; // Arabic three, Arabic decimal separator
    key <AE04> { [ 0x10006F4, 0x100060B, dollar ] }; // Arabic four, Afghani sign
    key <AE05> { [ 0x10006F5, 0x100066A, percent ] }; // Arabic five, Arabic percent sign
-   key <AE06> { [ 0x10006F6, multiply, circumflex ] }; // Arabic six
+   key <AE06> { [ 0x10006F6, multiply, asciicircum ] }; // Arabic six
    key <AE07> { [ 0x10006F7, 0x100060C, ampersand ] }; // Arabic seven, Arabic comma
    key <AE08> { [ 0x10006F8, asterisk, enfilledcircbullet ] }; // Arabic eight, 
    key <AE09> { [ 0x10006F9, parenright, 0x100200E ] }; // Arabic nine, left-to-right mark
@@ -354,7 +354,7 @@ xkb_symbols "olpc-uz" {
 
    key <AD01> { [ 0x1000636, 0x1000652, degree ] }; // Arabic dad, Arabic sukun
    key <AD02> { [ 0x1000635, 0x100064C, 0x1000653 ] }; // Arabic sad, Arabic dammatan, Arabic maddah above
-   key <AD03> { [ 0x100062B, 0x100064D, eurosign ] }; // Arabic theh, Arabic kasratan
+   key <AD03> { [ 0x100062B, 0x100064D, EuroSign ] }; // Arabic theh, Arabic kasratan
    key <AD04> { [ 0x1000642, 0x100064B, 0x100FD3E ] }; // Arabic qaf, Arabic fathatan, ornate left paren
    key <AD05> { [ 0x1000641, 0x100064F, 0x100FD3F ] }; // Arabic feh, Arabic damma, ornate right paren
    key <AD06> { [ 0x100063A, 0x1000650, 0x1000656 ] }; // Arabic ghain, Arabic kasra, Arabic subscript alef
