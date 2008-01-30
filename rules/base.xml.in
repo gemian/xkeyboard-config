@@ -3031,6 +3031,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>ast</name>
+            <_description>Asturian variant with bottom-dot H and bottom-dot L</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>cat</name>
             <_description>Catalan variant with middle-dot L</_description>
           </configItem>
