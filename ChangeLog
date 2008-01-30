@@ -8,6 +8,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=14286
 	* symbols/es, rules/base.xml.in: added es(ast),
 	http://bugs.freedesktop.org/show_bug.cgi?id=14277
+	* symbols/am, rules/base.lists.part: added am(olpc),
+	http://bugs.freedesktop.org/show_bug.cgi?id=14226
 
 2008-01-29  Sergey Udaltsov
 
