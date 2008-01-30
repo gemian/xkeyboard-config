@@ -15,7 +15,7 @@ xkb_symbols "basic" {
 
     name[Group1]="Turkey";
 
-    key <AE01>	{ [         1,    exclam,    onesuperior,    exclamdown ] };
+    key <AE01>	{ [         1,    exclam,        greater,    exclamdown ] };
     key <AE02>	{ [         2, apostrophe,      sterling,   twosuperior ] };
     key <AE03>	{ [        3, asciicircum,    numbersign, threesuperior ] };
     key <AE04>	{ [         4,       plus,        dollar,    onequarter ] };
@@ -25,7 +25,7 @@ xkb_symbols "basic" {
     key <AE09>	{ [         9, parenright,  bracketright,     plusminus ] };
     key <AE10>	{ [         0,      equal,    braceright,        degree ] };
     key <AE11>	{ [  asterisk,   question,     backslash,  questiondown ] };
-    key <AE12>	{ [     minus, underscore,      division,    VoidSymbol ] };
+    key <AE12>	{ [     minus, underscore,           bar,    VoidSymbol ] };
 
     key <AD02>	{ [         w,          W,   VoidSymbol,   VoidSymbol ]	};
     key <AD03>	{ [         e,          E,     EuroSign,   VoidSymbol ]	};
@@ -49,15 +49,15 @@ xkb_symbols "basic" {
     key <AC10>	{ [  scedilla,   Scedilla,        acute,   dead_acute ]	};
     key <AC11>	{ type[group1] = "FOUR_LEVEL_SEMIALPHABETIC", 
                   [ i,  Iabovedot,   apostrophe,   dead_caron ]	};
-    key <TLDE>	{ [  quotedbl,  backslash,    plusminus,       degree ]	};
+    key <TLDE>	{ [  quotedbl,     eacute,         less,       degree ]	};
 
     key <BKSL>	{ [     comma,  semicolon,        grave,   dead_grave ]	};
     key <LSGT>	{ [      less,    greater,          bar,    brokenbar ]	};
     key <AB08>	{ [odiaeresis, Odiaeresis,     multiply,   VoidSymbol ]	};
     key <AB09>	{ [  ccedilla,   Ccedilla, periodcentered,     division ] };
     key <AB10>	{ [    period,      colon, dead_abovedot, dead_abovedot ] };
-    key <SPCE>	{ [     space,      space, nobreakspace,   nobreakspace ] };
 
+    include "kpdl(comma)"
     include "level3(ralt_switch)"
 };
 
@@ -80,7 +80,7 @@ xkb_symbols "f" {
     key <AE09>	{ [         9, parenright, bracketright,    plusminus ]	};
     key <AE10>	{ [         0,      equal,   braceright,       degree ]	};
     key <AE11>	{ [     slash,   question,    backslash, questiondown ]	};
-    key <AE12>	{ [     minus, underscore,     division,   VoidSymbol ]	};
+    key <AE12>	{ [     minus, underscore,          bar,   VoidSymbol ]	};
 
     key <AD01>	{ [         f,          F,           at,   VoidSymbol ]	};
     key <AD02>	{ [         g,          G,   VoidSymbol,   VoidSymbol ]	};
@@ -121,9 +121,9 @@ xkb_symbols "f" {
     key <AB08>	{ [         b,          B,     multiply, nobreakspace ]	};
     key <AB09>	{ [    period,      colon,     division, dead_abovedot]	};
     key <AB10>	{ [     comma,  semicolon, periodcentered, VoidSymbol ]	};
-    key <SPCE>	{ [    space,       space, nobreakspace, nobreakspace ]	};
     key <LSGT>	{ [     less,     greater,          bar,    brokenbar ]	};
-   
+
+    include "kpdl(comma)"
     include "level3(ralt_switch)"
 };
 
@@ -152,7 +152,6 @@ xkb_symbols "alt" {
     key <AC05>  { [         g,           G,       gbreve,       Gbreve ] };
 
     key <AB03>  { [         c,           C,     ccedilla,     Ccedilla ] };
-    key <SPCE>  { [     space,       space, nobreakspace, nobreakspace ] };
 
     include "level3(ralt_switch)"
 };
