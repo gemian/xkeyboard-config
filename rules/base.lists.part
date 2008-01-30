@@ -15,7 +15,7 @@
 ! $pcgeometries = abnt2 latitude jp106 kr106
 
 // Layouts that provide further specializations for the OLPC
-! $olpclayouts = ara br es et kz in np ru th tr us
+! $olpclayouts = ara br es et kz in mn np ru th tr us
 
 ! $macbooks = macbook78 macbook79
 ! $maclaptop = ibook powerbook macbook78 macbook79

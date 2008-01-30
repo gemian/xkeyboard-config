@@ -2,6 +2,8 @@
 
 	* symbols/ca, rules/base.xml.in: adding ca(shs), closing
 	http://bugs.freedesktop.org/show_bug.cgi?id=14308
+	* symbols/mn: added mn(olpc),
+	http://bugs.freedesktop.org/show_bug.cgi?id=14307
 
 2008-01-29  Sergey Udaltsov
 
