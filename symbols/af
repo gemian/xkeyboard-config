@@ -228,7 +228,7 @@ xkb_symbols "olpc-ps" {
    key <AE09> { [ 0x10006F9, parenright ] }; // Arabic nine
    key <AE10> { [ 0x10006F0, parenleft, degree ] }; // Arabic zero
    key <AE11> { [ minus, 0x1000640, underscore ] }; // Arabic_tatweel
-   key <AE12> { [ plus, equal, slash ] };
+   key <AE12> { [ plus, equal, division ] };
 
    key <AD01> { [ 0x1000636, 0x1000652, EuroSign ] }; // Arabic dad, Arabic sukun
    key <AD02> { [ 0x1000635, 0x100064C, 0x1000671 ] }; // Arabic sad, Arabic dammatan, Arabic alef walsa
@@ -277,7 +277,7 @@ xkb_symbols "olpc-da" {
 
    name[Group1]= "Afghanistan - Dari";
 
-   key <TLDE> { [ 0x100200D, slash, asciitilde ] }; // zero width joiner
+   key <TLDE> { [ 0x100200D, division, asciitilde ] }; // zero width joiner
    key <AE01> { [ 0x10006F1, exclam, grave ] }; // Arabic one
    key <AE02> { [ 0x10006F2, 0x100066C, at ] }; // Arabic two, Arabic thousands separator
    key <AE03> { [ 0x10006F3, 0x100066B, numbersign ] }; // Arabic three, Arabic decimal separator
@@ -285,7 +285,7 @@ xkb_symbols "olpc-da" {
    key <AE05> { [ 0x10006F5, 0x100066A, percent ] }; // Arabic five, Arabic percent sign
    key <AE06> { [ 0x10006F6, multiply, circumflex ] }; // Arabic six
    key <AE07> { [ 0x10006F7, 0x100060C, ampersand ] }; // Arabic seven, Arabic comma
-   key <AE08> { [ 0x10006F8, asterisk ] }; // Arabic eight, 
+   key <AE08> { [ 0x10006F8, asterisk, enfilledcircbullet ] }; // Arabic eight, 
    key <AE09> { [ 0x10006F9, parenright, 0x100200E ] }; // Arabic nine, left-to-right mark
    key <AE10> { [ 0x10006F0, parenleft, 0x100200F ] }; // Arabic zero, right-to-left mark
    key <AE11> { [ minus, 0x1000640, underscore ] }; // Arabic_tatweel
@@ -338,7 +338,7 @@ xkb_symbols "olpc-uz" {
 
    name[Group1]= "Afghanistan - Uzbek";
 
-   key <TLDE> { [ 0x100200D, slash, asciitilde ] }; // zero width joiner
+   key <TLDE> { [ 0x100200D, division, asciitilde ] }; // zero width joiner
    key <AE01> { [ 0x10006F1, exclam, grave ] }; // Arabic one
    key <AE02> { [ 0x10006F2, 0x100066C, at ] }; // Arabic two, Arabic thousands separator
    key <AE03> { [ 0x10006F3, 0x100066B, numbersign ] }; // Arabic three, Arabic decimal separator
@@ -346,7 +346,7 @@ xkb_symbols "olpc-uz" {
    key <AE05> { [ 0x10006F5, 0x100066A, percent ] }; // Arabic five, Arabic percent sign
    key <AE06> { [ 0x10006F6, multiply, circumflex ] }; // Arabic six
    key <AE07> { [ 0x10006F7, 0x100060C, ampersand ] }; // Arabic seven, Arabic comma
-   key <AE08> { [ 0x10006F8, asterisk ] }; // Arabic eight, 
+   key <AE08> { [ 0x10006F8, asterisk, enfilledcircbullet ] }; // Arabic eight, 
    key <AE09> { [ 0x10006F9, parenright, 0x100200E ] }; // Arabic nine, left-to-right mark
    key <AE10> { [ 0x10006F0, parenleft, 0x100200F ] }; // Arabic zero, right-to-left mark
    key <AE11> { [ minus, 0x1000640, underscore ] }; // Arabic_tatweel
