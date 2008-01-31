@@ -1118,7 +1118,7 @@
         </variant>
         <variant>
           <configItem>
-            <name>olpc-da</name>
+            <name>olpc-fa</name>
             <_description>OLPC Dari</_description>
           </configItem>
         </variant>
