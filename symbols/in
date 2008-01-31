@@ -1099,7 +1099,7 @@ xkb_symbols "olpc" {
   key <AB09> { [	period,		0x1000964 ] }; // DEVANAGARI DANDA
   key <AB10> { [	0x100092F,	0x100095F ] }; // DEVANAGARI LETTER YA; DEVANAGARI LETTER YYA
 
-  key <SPCE> { [	0x100200C,	0x100200D ] }; // ZERO-WIDTH-NON-JOINER (ZWNJ); ZERO-WIDTH-JOINER (ZWJ)
+  key <SPCE> { [	space,		space,	0x100200C,	0x100200D ] }; // ZERO-WIDTH-NON-JOINER (ZWNJ); ZERO-WIDTH-JOINER (ZWJ)
 
   include "group(olpc)"
 };

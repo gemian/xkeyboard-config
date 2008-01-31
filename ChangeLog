@@ -3,6 +3,8 @@
 	* symbols/af, rules/base.xml.in, rules/base.lists.part: changing
 	af(olpc-da) to af(olpc-fa),
 	http://bugs.freedesktop.org/show_bug.cgi?id=14319
+	* symbols/in: fixed space in in(olpc),
+	http://bugs.freedesktop.org/show_bug.cgi?id=14224
 
 2008-01-30  Sergey Udaltsov
 
