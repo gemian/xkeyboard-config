@@ -157,3 +157,157 @@ xkb_symbols "ibm" {
 
     include "level3(ralt_switch)"
 };
+
+
+
+// LEKP, LEKPa and Baltic+ layouts 1.0 for Linux.
+// Copyright (c) 2007 Tautrimas Pajarskas
+// For more info go to http://lekp.info
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "lekp" {
+    name[Group1]="Lithuania - LEKP";
+    key <TLDE>  { [     grave,   asciitilde, acute ] };
+    key <AE01>	{ [     slash,   numbersign,               bar ] };
+    key <AE02>	{ [ backslash,           at,           section ] };
+    key <AE03>	{ [    period,    braceleft ] };
+    key <AE04>	{ [     comma,   braceright ] };
+    key <AE05>	{ [         f, 	          F ] };
+    key <AE06>	{ [    exclam,       endash ] };
+    key <AE07>	{ [         w,            W ] };
+    key <AE08>	{ [   uogonek,      Uogonek ] };
+    key <AE09>	{ [   iogonek,      Iogonek ] };
+    key <AE10>	{ [ parenleft,  doublelowquotemark, registered ] };
+    key <AE11>	{ [ parenright, leftdoublequotemark, copyright ] };
+    key <AE12>  { [      colon,           ampersand, trademark ] };
+
+    key <BKSL>  { [ apostrophe,          underscore ] };
+
+    key <AD01>  { [          q,                  Q,   EuroSign ] };
+    key <AD02>  { [          g,                  G,          7 ] };
+    key <AD03>  { [          r,                  R,          8 ] };
+    key <AD04>  { [          l,                  L,          9 ] };
+    key <AD05>  { [          d,                  D,    percent ] };
+    key <AD06>  { [     ccaron,             Ccaron ] };
+    key <AD07>  { [          j,                  J ] };
+    key <AD08>  { [          u,                  U,     period ] };
+    key <AD09>  { [  eabovedot,          Eabovedot,      minus ] };
+    key <AD10>  { [    eogonek,            Eogonek,      slash ] };
+    key <AD11>  { [   question,        bracketleft,   division ] };
+    key <AD12>  { [      equal,       bracketright ] };
+
+    key <CAPS>  { [  BackSpace ] };
+    key <AC01>  { [          a,                  A,          0 ] };
+    key <AC02>  { [          k,                  K,          4 ] };
+    key <AC03>  { [          s,                  S,          5 ] };
+    key <AC04>  { [          t,                  T,          6 ] };
+    key <AC05>  { [          m,                  M,     dollar ] };
+    key <AC06>  { [          p,                  P ] };
+    key <AC07>  { [          n,                  N ] };
+    key <AC08>  { [          e,                  E,      comma ] };
+    key <AC09>  { [          i,                  I,       plus ] };
+    key <AC10>  { [          o,                  O,   asterisk ] };
+    key <AC11>  { [          y,                  Y,   multiply ] };
+
+    key <AB01>  { [          z,                  Z, asciicircum ] };
+    key <AB02>  { [          x,                  X,          1 ] };
+    key <AB03>  { [          c,                  C,          2 ] };
+    key <AB04>  { [          v,                  V,          3 ] };
+    key <AB05>  { [     zcaron,             Zcaron ] };
+    key <AB06>  { [     scaron,             Scaron ] };
+    key <AB07>  { [          b,                  B,     degree ] };
+    key <AB08>  { [    umacron,            Umacron,       less ] };
+    key <AB09>  { [    aogonek,            Aogonek,    greater ] };
+    key <AB10>  { [          h,                  H ] };
+
+    key <LSGT>  { [  semicolon,           quotedbl,   sterling ] };
+
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "lekpa" {
+    name[Group1]="Lithuania - LEKPa";
+    key <TLDE>  { [     grave,   asciitilde,             acute ] };
+    key <AE01>	{ [     slash,     quotedbl,               bar ] };
+    key <AE02>	{ [ backslash,           at,           section ] };
+    key <AE03>	{ [    period,    braceleft,        numbersign ] };
+    key <AE04>	{ [     comma,   braceright,          sterling ] };
+    key <AE05>	{ [         f, 	          F,         ampersand ] };
+    key <AE06>	{ [    exclam,       endash ] };
+    key <AE07>	{ [         w,            W ] };
+    key <AE08>	{ [   uogonek,      Uogonek ] };
+    key <AE09>	{ [   iogonek,      Iogonek ] };
+    key <AE10>	{ [ parenleft, doublelowquotemark,  registered ] };
+    key <AE11>	{ [ parenright, leftdoublequotemark, copyright ] };
+    key <AE12>  { [      colon,   semicolon,         trademark ] };
+
+    key <BKSL>  { [ apostrophe,          underscore ] };
+
+    key <AD01>  { [          q,                  Q,   EuroSign ] };
+    key <AD02>  { [          g,                  G,          7 ] };
+    key <AD03>  { [          r,                  R,          8 ] };
+    key <AD04>  { [          l,                  L,          9 ] };
+    key <AD05>  { [          d,                  D,    percent ] };
+    key <AD06>  { [     ccaron,             Ccaron ] };
+    key <AD07>  { [          j,                  J ] };
+    key <AD08>  { [          u,                  U,     period ] };
+    key <AD09>  { [  eabovedot,          Eabovedot,      minus ] };
+    key <AD10>  { [    eogonek,            Eogonek,      slash ] };
+    key <AD11>  { [   question,        bracketleft,   division ] };
+    key <AD12>  { [      equal,       bracketright ] };
+
+    key <CAPS>  { [  BackSpace ] };
+    key <AC01>  { [          a,                  A,          0 ] };
+    key <AC02>  { [          k,                  K,          4 ] };
+    key <AC03>  { [          s,                  S,          5 ] };
+    key <AC04>  { [          t,                  T,          6 ] };
+    key <AC05>  { [          m,                  M,     dollar ] };
+    key <AC06>  { [          p,                  P ] };
+    key <AC07>  { [          n,                  N ] };
+    key <AC08>  { [          e,                  E,      comma ] };
+    key <AC09>  { [          i,                  I,       plus ] };
+    key <AC10>  { [          o,                  O,   asterisk ] };
+    key <AC11>  { [          y,                  Y,   multiply ] };
+
+    key <AB01>  { [          z,                  Z, asciicircum ] };
+    key <AB02>  { [          x,                  X,          1 ] };
+    key <AB03>  { [          c,                  C,          2 ] };
+    key <AB04>  { [          v,                  V,          3 ] };
+    key <AB05>  { [     zcaron,             Zcaron ] };
+    key <AB06>  { [     scaron,             Scaron ] };
+    key <AB07>  { [          b,                  B,     degree ] };
+    key <AB08>  { [    umacron,            Umacron,       less ] };
+    key <AB09>  { [    aogonek,            Aogonek,    greater ] };
+    key <AB10>  { [          h,                  H ] };
+
+
+    include "level3(ralt_switch)"
+};
+
+partial alphanumeric_keys modifier_keys
+xkb_symbols "balticplus" {
+    include "latin"
+    name[Group1]="Lithuania - Baltic+";
+    key <AE01>  { [   aogonek,      Aogonek,        1,      exclam ]    };
+    key <AE02>  { [    ccaron,       Ccaron,        2,          at ]    };
+    key <AE03>  { [   eogonek,      Eogonek,        3,  numbersign ]    };
+    key <AE04>  { [ eabovedot,    Eabovedot,        4,      dollar ]    };
+    key <AE05>  { [   iogonek,      Iogonek,        5,     percent ]    };
+    key <AE06>  { [    scaron,       Scaron,        6, asciicircum ]    };
+    key <AE07>  { [   uogonek,      Uogonek,        7,   ampersand ]    };
+    key <AE08>  { [   umacron,      Umacron,        8,    asterisk ]    };
+    key <AE09>  { [ parenleft, doublelowquotemark,  9 ] };
+    key <AE10>  { [ parenright, leftdoublequotemark, 0 ] };
+    key <AE11>  { [     minus,   underscore,    minus,  section ] };
+    key <AE12>  { [    zcaron,       Zcaron,    equal,        plus ]    };
+    key <CAPS>  { [ BackSpace ] };
+    key <NFER>  { [ backslash,         bar,   endash ] };
+    key <AD03>  { [         e,            E, EuroSign ] };
+    key <AD04>  { [         r,            R, registered ] };
+    key <AD05>  { [         t,            T, trademark ] };
+    key <AB03>  { [         c,            C, copyright ] };
+    key <AB08>  { [     comma,         less,  degree ] };
+    include "level3(ralt_switch)"
+};
+

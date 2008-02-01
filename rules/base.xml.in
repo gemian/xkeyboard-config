@@ -2518,6 +2518,24 @@
             <_description>IBM (LST 1205-92)</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>lekp</name>
+            <_description>LEKP</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>lekpa</name>
+            <_description>LEKPa</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>balticplus</name>
+            <_description>Baltic+</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
