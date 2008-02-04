@@ -1,3 +1,8 @@
+2008-02-04  Sergey Udaltsov
+
+	* symbols/kh, rules/base.lists.part: added kh(olpc),
+	http://bugs.freedesktop.org/show_bug.cgi?id=14376
+
 2008-02-02  Sergey Udaltsov
 
 	* symbols/lt, rules/base.xml.in: added lt(lekp) etc,
