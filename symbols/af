@@ -225,7 +225,7 @@ xkb_symbols "olpc-ps" {
    key <AE06> { [ 0x10006F6, multiply, asciicircum ] }; // Arabic six
    key <AE07> { [ 0x10006F7, guillemotright, ampersand ] }; // Arabic seven
    key <AE08> { [ 0x10006F8, guillemotleft, 0x100066D ] }; // Arabic eight, Arabic five-pointed star
-   key <AE09> { [ 0x10006F9, parenright ] }; // Arabic nine
+   key <AE09> { [ 0x10006F9, parenright, enfilledcircbullet ] }; // Arabic nine
    key <AE10> { [ 0x10006F0, parenleft, degree ] }; // Arabic zero
    key <AE11> { [ minus, 0x1000640, underscore ] }; // Arabic_tatweel
    key <AE12> { [ plus, equal, division ] };

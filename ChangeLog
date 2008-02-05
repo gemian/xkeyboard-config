@@ -1,3 +1,8 @@
+2008-02-05  Sergey Udaltsov
+
+	* symbols/af: fixed AE09 in af(olpc-ps),
+	http://bugs.freedesktop.org/show_bug.cgi?id=14379
+
 2008-02-04  Sergey Udaltsov
 
 	* symbols/kh, rules/base.lists.part: added kh(olpc),
