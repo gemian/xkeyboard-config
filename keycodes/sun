@@ -554,8 +554,37 @@ xkb_keycodes "type6_euro" {
     include "sun(type5_euro)"
 };
 
+// Even though this is labeled as _usb, I verified these keycodes as accurate
+// on my type5 serial and type6 serial keyboards as well on linux-2.6 boxes.
+// I'm not sure where the "type5" keycodes above are coming from...
 xkb_keycodes "type6_usb" {
     include "xfree86"
+
+    <STOP> = 232;
+    <AGAI> = 133;
+    <PROP> = 134;
+    <UNDO> = 135;
+    <FRNT> = 140;
+    <COPY> = 248;
+    <OPEN> = 191;
+    <PAST> = 192;
+    <FIND> = 122;
+    <CUT>  = 188;
+
+    <HELP> = 245;
+
+    // The blank has keycode 239 on my type6 serial kb, but 134 on
+    // my type6 usb keyboard (same as <PROP>)
+    <BLNK> = 239;
+
+    // AltGr + PrScr actually sends a different keycode
+    <SYRQ> = 92;
+
+    <MUTE> = 160;
+    <VOL-> = 174;
+    <VOL+> = 176;
+    <POWR> = 222;
+
     indicator 4 = "Compose";
 };
 

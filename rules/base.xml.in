@@ -994,6 +994,13 @@
 	<vendor>OLPC</vendor>
       </configItem>
     </model>
+    <model>
+      <configItem>
+        <name>sun6</name>
+        <_description>Sun Type 5/6</_description>
+        <vendor>Sun Microsystems</vendor>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>

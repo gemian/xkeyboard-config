@@ -1,3 +1,9 @@
+2008-02-12  Sergey Udaltsov
+
+	* keycodes/sun, symbols/sun_vndr/us, rules/base.ml_s.part,
+	rules/base.xml.in: sun type6 kbd,
+	http://bugs.freedesktop.org/show_bug.cgi?id=13664
+
 2008-02-05  Sergey Udaltsov
 
 	* symbols/af: fixed AE09 in af(olpc-ps),
