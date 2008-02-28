@@ -9,6 +9,7 @@ xkb_symbols "106" {
     include "jp(common)"
     name[Group1]= "Japan";
 
+    key <AE10> { [ 0, asciitilde	] };
     key <AE13> { [ backslash, bar 	] };
 };
 
@@ -32,7 +33,6 @@ xkb_symbols "common" {
     key <AE07> { [ 7, apostrophe	] };
     key <AE08> { [ 8, parenleft		] };
     key <AE09> { [ 9, parenright	] };
-    key <AE10> { [ 0, asciitilde	] };
     key <AE11> { [ minus, equal		] };
     key <AE12> { [ asciicircum,	asciitilde] };
 
@@ -112,6 +112,7 @@ xkb_symbols "OADG109A" {
     include "jp(common)"
     name[Group1]= "Japan - OADG 109A";
 
+    key <AE10> { [ 0		] };
     key <AE13> { [ yen, bar 	] };
 };
 

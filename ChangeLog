@@ -2,6 +2,8 @@
 
 	* rules/base.xml.in, symbols/in: added in(jhelum), other indian fixes,
 	http://bugs.freedesktop.org/show_bug.cgi?id=14595
+	* symbols/jp: small fix,
+	http://bugs.freedesktop.org/show_bug.cgi?id=8648
 
 2008-02-16  Sergey Udaltsov
 
