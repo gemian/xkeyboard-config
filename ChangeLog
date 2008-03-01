@@ -1,3 +1,10 @@
+2008-03-01  Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.m_s.part, rules/base.xml.in,
+	symbols/inet: reorganizing keyboard in symbols/inet. Some models are
+	now implemented as "virtual" (by rules only).
+	http://bugs.freedesktop.org/show_bug.cgi?id=14665
+
 2008-02-28  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/in: added in(jhelum), other indian fixes,

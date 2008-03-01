@@ -332,6 +332,20 @@
     </model>
     <model>
       <configItem>
+        <name>dellsk8125</name>
+        <_description>Dell SK-8125</_description>
+        <vendor>Dell</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>dellsk8135</name>
+        <_description>Dell SK-8135</_description>
+        <vendor>Dell</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>dellusbmm</name>
         <_description>Dell USB Multimedia Keybard</_description>
         <vendor>Dell</vendor>
@@ -422,6 +436,13 @@
     </model>
     <model>
       <configItem>
+        <name>logitech_base</name>
+        <_description>Logitech Generic Keyboard</_description>
+        <vendor>Logitech</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logitech_g15</name>
         <_description>Logitech G15 extra keys via G15daemon</_description>
         <vendor>Logitech</vendor>
@@ -487,6 +508,27 @@
       <configItem>
         <name>hp5xx</name>
         <_description>Hewlett-Packard Omnibook 5xx</_description>
+        <vendor>Hewlett-Packard</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>hp5181</name>
+        <_description>Hewlett-Packard Internet Keyboard 5181</_description>
+        <vendor>Hewlett-Packard</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>hp5185</name>
+        <_description>Hewlett-Packard Internet Keyboard 5185</_description>
+        <vendor>Hewlett-Packard</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>hpnx9020</name>
+        <_description>Hewlett-Packard nx9020</_description>
         <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
@@ -562,8 +604,43 @@
     </model>
     <model>
       <configItem>
+        <name>logii350</name>
+        <_description>Logitech Internet 350 Keyboard</_description>
+        <vendor>Logitech</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>logimel</name>
+        <_description>Logitech Media Elite Keyboard</_description>
+        <vendor>Logitech</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logicd</name>
         <_description>Logitech Cordless Desktop</_description>
+        <vendor>Logitech</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>logicd_it</name>
+        <_description>Logitech Cordless Desktop iTouch</_description>
+        <vendor>Logitech</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>logicd_nav</name>
+        <_description>Logitech Cordless Desktop Navigator</_description>
+        <vendor>Logitech</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>logicd_opt</name>
+        <_description>Logitech Cordless Desktop Optical</_description>
         <vendor>Logitech</vendor>
       </configItem>
     </model>
@@ -719,6 +796,13 @@
         <name>microsoftprooem</name>
         <_description>Microsoft Natural Keyboard Pro OEM</_description>
         <vendor>Microsoft Inc.</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>vsonku306</name>
+        <_description>ViewSonic KU-306 Internet Keyboard</_description>
+        <vendor>ViewSonic</vendor>
       </configItem>
     </model>
     <model>
@@ -970,6 +1054,20 @@
       <configItem>
 	<name>benqx</name>
 	<_description>BenQ X-Touch</_description>
+	<vendor>BenQ</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+	<name>benqx730</name>
+	<_description>BenQ X-Touch 730</_description>
+	<vendor>BenQ</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+	<name>benqx800</name>
+	<_description>BenQ X-Touch 800</_description>
 	<vendor>BenQ</vendor>
       </configItem>
     </model>

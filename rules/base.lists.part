@@ -43,9 +43,10 @@
               hp2501 hp2505 hp5xx hp500fa hp5181 hp5185 \
               hpi6 hpxe3gc hpxe3gf hpxe4xxx hpxt1000 hpzt11xx \
               ipaq inspiron intel latitude \
-              logiaccess logicd logicda logicink \
+              logiaccess logicda logicink \
               logiex110 logiclx300 \
-              logiinkse logiinkseusb logiitc logiik itouch logiultrax \
+              logiinkse logiinkseusb logiitc logiik \
+              logitech_base itouch logiultrax \
               logitech_g15 \
 	      logidinovo logidinovoedge \
               microsoftinet microsoftpro microsoftprousb microsoftprooem microsoftprose \
