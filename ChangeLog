@@ -4,6 +4,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=14749
 	* symbols/lv: fixed lv accented characters,
 	http://bugs.freedesktop.org/show_bug.cgi?id=14765
+	* rules/base.lists.part, symbols/it: added it(olpc),
+	http://bugs.freedesktop.org/show_bug.cgi?id=14793
 
 2008-03-01  Sergey Udaltsov
 
