@@ -1,3 +1,8 @@
+2008-03-03  Sergey Udaltsov
+
+	* rules/base.lists.part, symbols/fr: added fr(olpc),
+	http://bugs.freedesktop.org/show_bug.cgi?id=14749
+
 2008-03-01  Sergey Udaltsov
 
 	* rules/base.lists.part, rules/base.m_s.part, rules/base.xml.in,
