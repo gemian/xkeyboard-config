@@ -2,6 +2,8 @@
 
 	* rules/base.lists.part, symbols/fr: added fr(olpc),
 	http://bugs.freedesktop.org/show_bug.cgi?id=14749
+	* symbols/lv: fixed lv accented characters,
+	http://bugs.freedesktop.org/show_bug.cgi?id=14765
 
 2008-03-01  Sergey Udaltsov
 

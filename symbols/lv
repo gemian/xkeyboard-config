@@ -85,9 +85,8 @@ xkb_symbols "basic" {
         key <BKSL>      {[backslash, bar, grave, breve]};
         
         key <SPCE>	{[space, space, space, space]};
-	key <RALT>	{type[Group1]="ONE_LEVEL", [ISO_Level3_Shift]};
-	modifier_map Mod5 { <RALT> };
 
+	include "level3(ralt_switch)"
 };
 
 partial alphanumeric_keys modifier_keys
