@@ -1,3 +1,8 @@
+2008-03-06  Sergey Udaltsov
+
+	* rules/base.lists.part, symbols/ca, symbols/fr: added ca(olpc),
+	removed fr(olpc), http://bugs.freedesktop.org/show_bug.cgi?id=14749
+
 2008-03-03  Sergey Udaltsov
 
 	* rules/base.lists.part, symbols/fr: added fr(olpc),

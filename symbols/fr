@@ -755,10 +755,3 @@ xkb_symbols "geo" {
 
 };
 
-// OLPC Section
-xkb_symbols "olpc" {
-
-    include "basic"
-
-    key <AE03>	{ [          3,    slash,          ograve,        Ograve ] };
-};

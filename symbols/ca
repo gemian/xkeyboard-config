@@ -478,3 +478,11 @@ xkb_symbols "shs" {
 
     include "level3(ralt_switch)"
 };
+
+// OLPC Section
+xkb_symbols "olpc" {
+
+    include "fr"
+
+    key <AE03>	{ [          3,    slash,          ograve,        Ograve ] };
+};
