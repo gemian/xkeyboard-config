@@ -1,3 +1,8 @@
+2008-03-22  Sergey Udaltsov
+
+	* symbols/fr: fixed fr(oss_nodeadkeys),
+	http://bugs.freedesktop.org/show_bug.cgi?id=15140
+
 2008-03-06  Sergey Udaltsov
 
 	* rules/base.lists.part, symbols/ca, symbols/fr: added ca(olpc),
