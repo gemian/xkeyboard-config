@@ -4221,6 +4221,12 @@
           <_description>Caps Lock is Compose.</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>compose:102</name>
+          <_description>Less-than/Greater-than is Compose.</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <configItem>
