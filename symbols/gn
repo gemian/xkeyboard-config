@@ -11,8 +11,8 @@ xkb_symbols "basic" {
     key <AE01>	{ [0x010007F1, 0x010007C1 ]	};
     key <AE02>	{ [0x010007EB, 0x010007C2 ]	};
     key <AE03>	{ [0x010007F5, 0x010007C3,  numbersign,     sterling ]	};
-    key <AE04>	{ [0x010007F4, 0x010007C4, 0x010002E1C,       dollar ]	};
-    key <AE05>	{ [ parenleft, 0x010007C5, 0x010002E1D				 ]	};
+    key <AE04>	{ [0x010007F4, 0x010007C4,  0x01002E1C,       dollar ]	};
+    key <AE05>	{ [ parenleft, 0x010007C5,  0x01002E1D				 ]	};
     key <AE06>	{ [     minus, 0x010007C6,         bar				 ]	};
     key <AE07>	{ [0x010007EC, 0x010007C7,       grave				 ]	};
     key <AE08>	{ [0x010007FA, 0x010007C8,   backslash				 ]	};

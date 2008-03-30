@@ -97,7 +97,7 @@ xkb_symbols "olpc" {
    key <AC06>  { [         h,          H,    0x1001EE5,               0x1001EE4 ] }; // U with dot below
    key <AC07>  { [         j,          J,    0x1001ECB,               0x1001ECA ] }; // I with dot below
    key <AC08>  { [         k,          K,    0x1000199,               0x1000198 ] }; // K with hook
-   key <AC09>  { [         l,          L,    0x10001E37,       0x1001E36 ] }; // L with dot below
+   key <AC09>  { [         l,          L,    0x1001E37,        0x1001E36 ] }; // L with dot below
    key <AC10>  { [ semicolon,      colon,    masculine,      ordfeminine ] };
    key <AC11>  { [ apostrophe,  quotedbl,     currency,         currency ] };
    key <BKSL>  { [ backslash,        bar,      section,          section ] };

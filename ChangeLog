@@ -1,3 +1,8 @@
+2008-03-30  Sergey Udaltsov
+
+	* symbols/gn, symbols/ng: fixed unicode sequences,
+	http://bugs.freedesktop.org/show_bug.cgi?id=15273
+
 2008-03-28  Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/compose: added
