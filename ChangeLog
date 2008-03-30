@@ -2,6 +2,8 @@
 
 	* symbols/gn, symbols/ng: fixed unicode sequences,
 	http://bugs.freedesktop.org/show_bug.cgi?id=15273
+	* rules/base.xml.in, symbols/ua: added ua(homophonic),
+	http://bugs.freedesktop.org/show_bug.cgi?id=15240
 
 2008-03-28  Sergey Udaltsov
 

@@ -3465,6 +3465,12 @@
             <_description>Standard RSTU on Russian layout</_description>
           </configItem>
         </variant>
+	<variant>
+          <configItem>
+            <name>homophonic</name>
+            <_description>Homophonic</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
