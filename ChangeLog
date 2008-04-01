@@ -1,3 +1,8 @@
+2008-04-01  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/gb: added gb(colemak),
+	http://bugs.freedesktop.org/show_bug.cgi?id=15303
+
 2008-03-30  Sergey Udaltsov
 
 	* symbols/gn, symbols/ng: fixed unicode sequences,
