@@ -141,6 +141,14 @@ xkb_symbols "shift_caps_toggle" {
     key	<CAPS> {	[  Caps_Lock,		ISO_Next_Group	]	};
 };
 
+// using the group(shift_caps_switch) map, pressing:
+// Caps Lock selects the first group
+// Shift+Caps Lock selects the last group
+partial modifier_keys
+xkb_symbols "shift_caps_switch" {
+    key <CAPS> { [ ISO_First_Group, ISO_Last_Group ] };
+};
+
 // using the group(ctrl_alt_toggle) map, pressing:
 //     Control_L+Alt_L locks the previous group
 //     Control_R+Alt_R locks the next group

@@ -20,6 +20,7 @@
   grp:lctrl_lshift_toggle	=	+group(lctrl_lshift_toggle)
   grp:caps_toggle	=	+group(caps_toggle)
   grp:shift_caps_toggle	=	+group(shift_caps_toggle)
+  grp:shift_caps_switch	=	+group(shift_caps_switch)
   grp:alt_caps_toggle   =       +group(alt_caps_toggle)
   grp:ctrl_alt_toggle	=	+group(ctrl_alt_toggle)
   grp:alt_shift_toggle	=	+group(alt_shift_toggle)

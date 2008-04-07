@@ -3763,6 +3763,12 @@
       </option>
       <option>
         <configItem>
+          <name>grp:shift_caps_switch</name>
+          <_description>CapsLock switch to first layout, Shift+CapsLock switch to last layout.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>grp:alt_caps_toggle</name>
           <_description>Alt+CapsLock changes layout.</_description>
         </configItem>

@@ -1,3 +1,9 @@
+2008-04-07  Sergey Udaltsov
+
+	* symbols/group, rules/base.xml.in, rules/base.o_s.part: added
+	group(shift_caps_switch)
+	http://bugs.freedesktop.org/show_bug.cgi?id=15383
+
 2008-04-01  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/gb: added gb(colemak),
