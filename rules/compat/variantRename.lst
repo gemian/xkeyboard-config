@@ -28,6 +28,8 @@ ro	de		ro	winkeys
 ro	us		ro	std_comma
 ro	std		ro	std_cedilla
 ro	academic	ro	std_comma
+ru	winkeys		ru	basic
+ru	os		ru	os_legacy
 sapmi	basic		no	smi
 sapmi	nodeadkeys	no	smi_nodeadkeys
 sapmi	sefi		fi	smi

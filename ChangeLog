@@ -1,3 +1,9 @@
+2008-04-19  Sergey Udaltsov
+
+	* symbols/ru, rules/base.xml.in, rules/compat/variantRename.lst:
+	changed ru(winkeys) to default
+	* rules/base.xml.in: put a lot of country/language info in
+
 2008-04-12  Sergey Udaltsov
 
 	* symbols/it: fixed it(geo),

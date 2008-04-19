@@ -8,10 +8,26 @@
 //
 // $XFree86: xc/programs/xkbcomp/symbols/ru,v 1.3 2003/02/15 22:27:05 dawes Exp $
 
-partial default alphanumeric_keys 
+// Windows layout, former winkeys
+partial default alphanumeric_keys
 xkb_symbols "basic" {
+    include "ru(common)"
 
     name[Group1]= "Russia";
+
+    key <AE03> {        [               3,      numerosign      ]       };
+    key <AE04> {        [               4,       semicolon      ]       };
+    key <AE05> {        [               5,         percent      ]       };
+    key <AE06> {        [               6,           colon      ]       };
+    key <AE07> {        [               7,        question      ]       };
+    key <AE08> {        [               8,        asterisk      ]       };
+
+    key <AB10> {        [          period,           comma      ]       };
+    key <BKSL> {        [       backslash,           slash      ]       };
+};
+
+partial hidden alphanumeric_keys 
+xkb_symbols "common" {
 
     key	<AE01> {	[		1,	    exclam 	]	};
     key	<AE02> {	[		2,        quotedbl	]	};
@@ -69,6 +85,13 @@ xkb_symbols "basic" {
 };
 
 partial alphanumeric_keys
+xkb_symbols "legacy" {
+    include "ru(common)"
+
+    name[Group1]= "Russia - Legacy";
+};
+
+partial alphanumeric_keys
 xkb_symbols "olpc" {
 
     include "ru(basic)"
@@ -76,35 +99,17 @@ xkb_symbols "olpc" {
     key        <TLDE> {        [          0x01000451,          0x01000401, grave       ]       }; // Ñ‘, Ð
     key <AE03> {        [               3,      numbersign, 0x01002116      ]       }; // â„–
     key <AE04> {        [               4,          dollar, semicolon   ]       };
-    key <AE05> {        [               5,          percent             ]       };
     key <AE06> {        [               6,      asciicircum, colon      ]       };
     key <AE07> {        [               7,          ampersand           ]       };
-    key <AE08> {        [               8,          asterisk            ]       };
     key <AE09> {        [               9,          parenleft, acute    ]       };
-    key        <AC12> {        [       backslash,          bar, slash          ]       };
-    key <AB10> {        [          period,          comma               ]       };
-    key <BKSL> {        [       backslash,          slash               ]       };
+    key <AC12> {        [       backslash,          bar, slash          ]       };
 
     include "group(olpc)"
 };
 
 partial alphanumeric_keys
-xkb_symbols "winkeys" {
-    include "ru(basic)"
-    name[Group1]= "Russia - Winkeys";
-    key <AE03> {        [               3,      numerosign      ]       };
-    key <AE04> {        [               4,       semicolon      ]       };
-    key <AE05> {        [               5,         percent      ]       };
-    key <AE06> {        [               6,           colon      ]       };
-    key <AE07> {        [               7,        question      ]       };
-    key <AE08> {        [               8,        asterisk      ]       };
-    key <AB10> {        [          period,           comma      ]       };
-    key <BKSL> {        [       backslash,           slash      ]       };
-};
-
-partial alphanumeric_keys
 xkb_symbols "typewriter" {
-    include "ru(basic)"
+    include "ru(common)"
     name[Group1]= "Russia - Typewriter";
     key	<TLDE> {	[      apostrophe,	  quotedbl	] 	};
     key	<AE01> {	[	   exclam,		 1 	]	};
@@ -182,7 +187,7 @@ xkb_symbols "phonetic" {
 
 partial alphanumeric_keys
 xkb_symbols "tt" {
-    include "ru(winkeys)"
+    include "ru(basic)"
     name[Group1]= "Russia - Tatar";
 
     key.type[group1]="FOUR_LEVEL";
@@ -205,10 +210,10 @@ xkb_symbols "tt" {
 };
 
 partial alphanumeric_keys 
-xkb_symbols "os" {
-    include "ru(basic)"
+xkb_symbols "os_legacy" {
+    include "ru(common)"
 
-    name[Group1]= "Russia - Ossetian";
+    name[Group1]= "Russia - Ossetian, legacy";
 
     key	<TLDE> {	[      Cyrillic_e,      Cyrillic_E	]	};
     key	<AC07> {	[      Cyrillic_o,	Cyrillic_O, Cyrillic_io, Cyrillic_IO	]	};
@@ -217,7 +222,7 @@ xkb_symbols "os" {
 
 partial alphanumeric_keys 
 xkb_symbols "os_winkeys" {
-    include "ru(winkeys)"
+    include "ru(basic)"
 
     name[Group1]= "Russia - Ossetian, Winkeys";
 
@@ -228,7 +233,7 @@ xkb_symbols "os_winkeys" {
 
 partial alphanumeric_keys
 xkb_symbols "cv" {
-    include "ru(winkeys)"
+    include "ru(basic)"
 
     name[Group1]= "Russia - Chuvash";
 
@@ -248,7 +253,7 @@ xkb_symbols "cv" {
 
 partial alphanumeric_keys
 xkb_symbols "udm" {
-    include "ru(winkeys)"
+    include "ru(basic)"
 
     name[Group1]= "Russia - Udmurt";
 
@@ -301,7 +306,7 @@ xkb_symbols "cv_latin" {
 partial alphanumeric_keys 
 xkb_symbols "kom" {
 
-    include "ru(winkeys)"
+    include "ru(basic)"
 
     name[Group1]= "Russia - Komi";
 
