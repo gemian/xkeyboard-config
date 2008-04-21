@@ -1,3 +1,7 @@
+2008-04-21  Sergey Udaltsov
+
+	* rules/base.xml.in: fixed some ISO codes
+
 2008-04-19  Sergey Udaltsov
 
 	* symbols/ru, rules/base.xml.in, rules/compat/variantRename.lst:

@@ -3421,7 +3421,8 @@
         <name>ch</name>
         <_shortDescription>Che</_shortDescription>
         <_description>Switzerland</_description>
-        <languageList><iso639Id>gsw</iso639Id></languageList>
+        <languageList><iso639Id>ger</iso639Id>
+                      <iso639Id>gsw</iso639Id></languageList>
       </configItem>
       <variantList>
         <variant>
