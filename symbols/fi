@@ -48,7 +48,6 @@ xkb_symbols "kotoistus" {
 
     name[Group1]="Finland";
 
-    key <SPCE> { [  space,           space,            nobreakspace,         nobreakspace         ] };
     key <TLDE> { [  section,         onehalf,          dead_stroke,          NoSymbol             ] };
     key <AE01> { [  1,               exclam,           NoSymbol,             exclamdown           ] };
     key <AE02> { [  2,               quotedbl,         at,                   rightdoublequotemark ] };
