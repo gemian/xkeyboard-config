@@ -67,4 +67,45 @@ partial default xkb_types "default" {
 	level_name[Level1] = "Base";
 	level_name[Level2] = "Ctrl+Alt";
     };
+
+   // Local eight level
+   // Needed when you want part of your layout eight-level but can not use
+   // LevelFive as modifier, as this will take over right ctrl by default
+   // for all the layout and is too invasive for your average four-level user
+   // Needed to fix bug #9529
+   // FIXME Should really use RControl but it's seems not to be enabled by
+   // default and touching this requires a lot of testing
+   type "LOCAL_EIGHT_LEVEL" {
+	modifiers = Shift+Lock+LevelThree+Control;
+
+	map[None]       = Level1;
+	map[Lock+Shift] = Level1;
+	map[Shift] = Level2;
+	map[Lock]  = Level2;
+
+	map[LevelThree]            = Level3;
+	map[Lock+Shift+LevelThree] = Level3;
+	map[Shift+LevelThree] = Level4;
+	map[Lock+LevelThree]  = Level4;
+
+	map[Control]            = Level5;
+	map[Lock+Shift+Control] = Level5;
+	map[Shift+Control] = Level6;
+	map[Lock+Control]  = Level6;
+
+	map[LevelThree+Control]            = Level7;
+	map[Lock+Shift+LevelThree+Control] = Level7;
+	map[Shift+LevelThree+Control] = Level8;
+	map[Lock+LevelThree+Control]  = Level8;
+
+	level_name[Level1] = "Base";
+	level_name[Level2] = "Shift";
+	level_name[Level3] = "Level3";
+	level_name[Level4] = "Shift Level3";
+	level_name[Level5] = "Ctrl";
+	level_name[Level6] = "Shift Ctrl";
+	level_name[Level7] = "Level3 Ctrl";
+	level_name[Level8] = "Shift Level3 Ctrl";
+    };
+
 };

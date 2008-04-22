@@ -85,11 +85,11 @@ xkb_symbols "nodeadkeys" {
 // Unicode French derivative
 // Loose refactoring of the historic Linux French keyboard layout
 //
-// Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
+// Copyright © 2006-2008 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 //
 // Credits (fr-latin1, fr-latin0, fr-latin9)
 //   © 199x-1996 René Cougnenc ✝
-//   © 1997-2002 Guylhem Aznar <clavier @ externe.net> 
+//   © 1997-2002 Guylhem Aznar <clavier @ externe.net>
 //   © 2003-2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 //
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
@@ -113,8 +113,7 @@ xkb_symbols "oss" {
 
     include "latin"
     include "level3(ralt_switch)"
-    include "level5(rctrl_switch)"
-    include "nbsp(level4n)"
+    include "nbsp(level4nl)"
     include "keypad(oss)"
 
     name[Group1]="France - Alternative";

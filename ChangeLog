@@ -1,3 +1,9 @@
+2008-04-22  Sergey Udaltsov
+
+	* rules/base.o_s.part, rules/base.xml.in, symbols/fr, symbols/nbsp,
+	types/pc: options for nonbreakspace handling,
+	http://bugs.freedesktop.org/show_bug.cgi?id=9529
+
 2008-04-21  Sergey Udaltsov
 
 	* rules/base.xml.in: fixed some ISO codes

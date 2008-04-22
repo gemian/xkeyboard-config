@@ -1739,46 +1739,37 @@
         <name>ca</name>
         <_shortDescription>Can</_shortDescription>
         <_description>Canada</_description>
-        <languageList><iso639Id>eng</iso639Id>
-                      <iso639Id>fra</iso639Id></languageList>
+        <languageList><iso639Id>fra</iso639Id></languageList>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>fr-dvorak</name>
             <_description>French Dvorak</_description>
-            <languageList><iso639Id>fra</iso639Id></languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>fr-legacy</name>
             <_description>French (legacy)</_description>
-            <languageList><iso639Id>fra</iso639Id></languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>multix</name>
             <_description>Multilingual</_description>
-            <languageList><iso639Id>eng</iso639Id>
-                          <iso639Id>fra</iso639Id></languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>multi</name>
             <_description>Multilingual, first part</_description>
-            <languageList><iso639Id>eng</iso639Id>
-                          <iso639Id>fra</iso639Id></languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>multi-2gr</name>
             <_description>Multilingual, second part</_description>
-            <languageList><iso639Id>eng</iso639Id>
-                          <iso639Id>fra</iso639Id></languageList>
           </configItem>
         </variant>
         <variant>
@@ -4587,6 +4578,12 @@
         <configItem>
           <name>nbsp:level4n</name>
           <_description>Space key outputs non-breakable space character at fourth level, thin non-breakable space character at sixth level</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>nbsp:level4nl</name>
+          <_description>Space key outputs non-breakable space character at fourth level, thin non-breakable space character at sixth level; uses hardcoded control instead of iso-level-5 to access high levels.</_description>
         </configItem>
       </option>
     </group>

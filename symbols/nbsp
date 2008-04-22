@@ -62,11 +62,21 @@ xkb_symbols "level4" {
 };
 
 // level4n provides narrow no-breaking space in addition to the normal one
-// Used by fr(oss), be(oss)…
 partial
 xkb_symbols "level4n" {
  key <SPCE> {
    type[Group1]="EIGHT_LEVEL",
+   symbols[Group1]= [ space, space, space, nobreakspace, space, 0x100202F, NoSymbol, NoSymbol ]
+ };
+};
+
+// level4nl provides narrow no-breaking space in addition to the normal one
+// without forcing the use of level5 for mostly four-level layouts
+// Used by fr(oss), be(oss)…
+partial
+xkb_symbols "level4nl" {
+ key <SPCE> {
+   type[Group1]="LOCAL_EIGHT_LEVEL",
    symbols[Group1]= [ space, space, space, nobreakspace, space, 0x100202F, NoSymbol, NoSymbol ]
  };
 };
