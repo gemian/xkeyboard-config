@@ -463,20 +463,14 @@ xkb_symbols "shs" {
 
     name[Group1]= "Canada - Secwepemctsin";
 
-    key <AD01> {	[   q,	Q, UF7EB, UF7EA ]	};
-    key <AD02> {	[   w,	W, UF83B, UF83A ]	};
-    key <AD04> {	[   r,	R, UF7FB, UF7FA ]	};
-    key <AD05> {	[   t,	T, UF81B, UF81A ]	};
-    key <AD06> {	[   y,	Y, UF6AB, UF6AA ]	};
-    key <AD10> {	[   p,	P, UF7DB, UF7DA ]	};
+    //Using Dead key to get COMBINING COMMA ABOVE for ejectives on
+    //q, l, t, s, m, g, k, p, w, y, r
+    //XCompose key is used for the other accute and grave.
 
-    key <AC02> {	[   s,	S, UF80B, UF80A	]	};
-    key <AC05> {	[   g,	G, UF76B, UF76A	]	};
-    key <AC08> {	[   k,	K, UF79B, UF79A ]	};
-    key <AC09> {	[   l,	L, UF7AB, UF7AA ]	};
-    key <AB07> {	[   m,	M, UF7BB, UF7BA ]	};
+    key <AB08> {        [ comma, less, U0313    ]	};
 
     include "level3(ralt_switch)"
+    include "compose(rctrl)"
 };
 
 // OLPC Section

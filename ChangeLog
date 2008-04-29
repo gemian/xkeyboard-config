@@ -1,3 +1,8 @@
+2008-04-29  Sergey Udaltsov
+
+	* symbols/ca: fixed ca(shs),
+	http://bugs.freedesktop.org/show_bug.cgi?id=15756
+
 2008-04-23  Sergey Udaltsov
 
 	* symbols/es: revert broken idea about dead tilde,
