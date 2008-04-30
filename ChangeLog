@@ -1,3 +1,8 @@
+2008-04-30  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/us: added us(dvp),
+	http://bugs.freedesktop.org/show_bug.cgi?id=15727
+
 2008-04-29  Sergey Udaltsov
 
 	* symbols/ca: fixed ca(shs),

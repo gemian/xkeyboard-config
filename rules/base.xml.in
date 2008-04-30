@@ -1165,6 +1165,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>dvp</name>
+            <_description>Programmer Dvorak</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>rus</name>
             <_description>Russian phonetic</_description>
           </configItem>
