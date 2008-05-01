@@ -1,3 +1,9 @@
+2008-05-01  Sergey Udaltsov
+
+	* po/POTFILES.in, rules/Makefile.am, rules/sgi*, rules/sun*: dropping
+	legacy unsupported rules. Confirmed with Alan Coopersmith (Sun
+	Microsystems)
+
 2008-04-30  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/us: added us(dvp),

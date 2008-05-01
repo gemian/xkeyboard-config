@@ -57,7 +57,7 @@ else
 base_parts = $(base_parts_no_compat)
 endif
 
-rules_files = base sgi sun xfree98
+rules_files = base xfree98
 
 lst_files = base.lst
 
@@ -72,12 +72,12 @@ xkb.dtd README
 
 rules_DATA = $(all_rules_files)
 
-xml_in_files = base.xml.in sun.xml.in
+xml_in_files = base.xml.in
 xml_DATA = $(xml_in_files:.xml.in=.xml) 
 
 EXTRA_DIST= $(all_rules_files) $(xml_in_files) $(base_parts) xml2lst.pl merge.sh
 
-DISTCLEANFILES=base.xml base.lst sun.xml
+DISTCLEANFILES=base.xml base.lst
 
 rulesdir = $(xkb_base)/rules
 xmldir = $(rulesdir)
