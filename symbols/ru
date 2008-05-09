@@ -8,9 +8,9 @@
 //
 // $XFree86: xc/programs/xkbcomp/symbols/ru,v 1.3 2003/02/15 22:27:05 dawes Exp $
 
-// Windows layout, former winkeys
+// Windows layout
 partial default alphanumeric_keys
-xkb_symbols "basic" {
+xkb_symbols "winkeys" {
     include "ru(common)"
 
     name[Group1]= "Russia";

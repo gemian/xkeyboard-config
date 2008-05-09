@@ -1,3 +1,8 @@
+2008-05-09  Sergey Udaltsov
+
+	* rules/compat/variantRename.lst, symbols/ru: default variant is
+	winkeys (till Daniel fixes xkbcomp)
+
 2008-05-01  Sergey Udaltsov
 
 	* po/POTFILES.in, rules/Makefile.am, rules/sgi*, rules/sun*: dropping
