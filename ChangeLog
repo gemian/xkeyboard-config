@@ -2,6 +2,7 @@
 
 	* rules/compat/variantRename.lst, symbols/ru: default variant is
 	winkeys (till Daniel fixes xkbcomp)
+	* symbols/ua: small fix, from Andriy
 
 2008-05-01  Sergey Udaltsov
 

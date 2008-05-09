@@ -163,7 +163,7 @@ xkb_symbols "phonetic" {
   key <LatE> {   [ Cyrillic_ie,       Cyrillic_IE         ]    };
   key <LatR> {   [ Cyrillic_er,       Cyrillic_ER         ]    };
   key <LatT> {   [ Cyrillic_te,       Cyrillic_TE         ]    };
-  key <LatY> {   [ Cyrillic_i,        Cyrillic_i          ]    };
+  key <LatY> {   [ Cyrillic_i,        Cyrillic_I          ]    };
   key <LatU> {   [ Cyrillic_u,        Cyrillic_U          ]    };
   key <LatI> {   [ Ukrainian_i,       Ukrainian_I         ]    };
   key <LatO> {   [ Cyrillic_o,        Cyrillic_O          ]    };
@@ -279,7 +279,7 @@ xkb_symbols "homophonic" {
   key <LatE> {   [ Cyrillic_ie,       Cyrillic_IE         ]    };
   key <LatR> {   [ Cyrillic_er,       Cyrillic_ER         ]    };
   key <LatT> {   [ Cyrillic_te,       Cyrillic_TE         ]    };
-  key <LatY> {   [ Cyrillic_i,        Cyrillic_i          ]    };
+  key <LatY> {   [ Cyrillic_i,        Cyrillic_I          ]    };
   key <LatU> {   [ Cyrillic_u,        Cyrillic_U          ]    };
   key <LatI> {   [ Ukrainian_i,       Ukrainian_I         ]    };
   key <LatO> {   [ Cyrillic_o,        Cyrillic_O          ]    };
