@@ -3095,14 +3095,14 @@
       <variantList>
         <variant>
           <configItem>
-            <name>comma</name>
-            <_description>Commabelow</_description>
+            <name>cedilla</name>
+            <_description>Cedilla</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>std_comma</name>
-            <_description>Standard (Commabelow)</_description>
+            <name>std</name>
+            <_description>Standard</_description>
           </configItem>
         </variant>
         <variant>

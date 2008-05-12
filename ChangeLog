@@ -1,3 +1,8 @@
+2008-05-12  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/ro: changed default Romanian variant to
+	the right one, http://bugs.freedesktop.org/show_bug.cgi?id=13277
+
 2008-05-09  Sergey Udaltsov
 
 	* rules/compat/variantRename.lst, symbols/ru: default variant is

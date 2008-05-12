@@ -7,19 +7,18 @@
 // 
 // The default mapping is the RO_US/Programmers layout because of the lack of 
 // Romanian hardware keyboards. The primary standard layout is implemented as 
-// the "std_cedilla" variant. If you're determined to get commabelows as in
-// ISO-8859-16 (and not cedillas as in ISO-8859-2) use the defined variants  
-// "comma" for the default layout or "std_comma" for the standard one.
-// MS compatible layout included (use the "winkeys" variant).
+// the "std" variant. If you're determined to get cedillas as in ISO-8859-2  
+// (and not commabelow accents as in ISO-8859-16) use the defined variants 
+// "cedilla" for the default layout or "std_cedilla" for the standard one. 
+// Pre-Vista MS compatible layout included (use the "winkeys" variant).
 // 
 // Created by Cristian Gafton, <gafton@redhat.com> (C) 2000
 // Modified by Marius Andreiana, <mandreiana@yahoo.com> (C) 2001
-// Completed by Misu Moldovan, <dumol@gnome.ro> (C) 2001, 2004-2007.
-// v 1.3
+// Completed by Misu Moldovan, <dumol@gnome.ro> (C) 2001, 2004-2008.
+// v 1.4
 
 
-default partial alphanumeric_keys
-
+partial default alphanumeric_keys
 xkb_symbols "basic" {
 // This RO_US/Programmers layout, although the secondary layout in the 
 // Romanian standard, has always been the "de facto" standard in the 
@@ -45,13 +44,13 @@ xkb_symbols "basic" {
     key <AD01> { [ q,                      Q,  acircumflex,   Acircumflex ] };
     key <AD02> { [ w,                      W,  ssharp	 	          ] };
     key <AD03> { [ e,                      E,  EuroSign  	          ] };
-    key <AD05> { [ t,                      T,  tcedilla,	 Tcedilla ] };
+    key <AD05> { [ t,                      T,  0x100021b,       0x100021a ] };
     key <AD08> { [ i,                      I,  icircumflex,   Icircumflex ] };
     key <AD10> { [ p,                      P,  section 			  ] };
     key <AD11> { [ bracketleft,    braceleft,  doublelowquotemark 	  ] };
     key <AD12> { [ bracketright,  braceright,  rightdoublequotemark 	  ] };
     key <AC01> { [ a,                      A,  abreve,             Abreve ] };
-    key <AC02> { [ s,                      S,  scedilla,	 Scedilla ] };
+    key <AC02> { [ s,                      S,  0x1000219,       0x1000218 ] };
     key <AC03> { [ d,                      D,  dstroke,  	  Dstroke ] };
     key <AC09> { [ l,                      L,  lstroke,  	  Lstroke ] };
     key <LSGT> { [ backslash,            bar                              ] };
@@ -63,22 +62,21 @@ xkb_symbols "basic" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "comma" {
-    // Variant of the basic layout with commabelow.
-    // Implements S and T with commabelow as in ISO-8859-16.
-    // Hopefully these should become mainstream in the near future.
-    // For now it's just an odd variant (although the correct one).
+xkb_symbols "cedilla" {
+    // Variant of the basic layout with cedillas.
+    // Implements S and T with cedilllas as in ISO-8859-2.
+    // Included for compatibility reasons (this used to be the def variant).
 
     include "ro(basic)"
 
-    name[Group1]="Romania - Commabelow";
+    name[Group1]="Romania - Cedilla";
 
-    key <AD05>	{ [ t,                     T,  0x100021b,       0x100021a ] };
-    key <AC02>	{ [ s,          	   S,  0x1000219,       0x1000218 ] };
+    key <AD05> { [ t,                      T,  tcedilla,	 Tcedilla ] };
+    key <AC02> { [ s,                      S,  scedilla,	 Scedilla ] };
 };
 
 partial alphanumeric_keys
-xkb_symbols "std_cedilla" {
+xkb_symbols "std" {
     // Primary layout in the new Romanian standard.
     // Implemented here as a variant because of the lack of hardware 
     // Romanian keyboards and because of the predilection of Romanian
@@ -86,7 +84,7 @@ xkb_symbols "std_cedilla" {
 
     include "us"
 
-    name[Group1]="Romania - Standard (Cedilla)";
+    name[Group1]="Romania - Standard";
 
     key <TLDE> { [ doublelowquotemark, rightdoublequotemark, grave, asciitilde ] };
     key <AE01> { [ 1,                 exclam,  dead_tilde		  ] };
@@ -109,8 +107,8 @@ xkb_symbols "std_cedilla" {
     key <AC02> { [ s, 			   S,  ssharp			  ] };
     key <AC03> { [ d,                      D,  dstroke,  	  Dstroke ] };
     key <AC09> { [ l,                      L,  lstroke,  	  Lstroke ] };
-    key <AC10> { [ scedilla, 	    Scedilla,  semicolon, 	    colon ] };
-    key <AC11> { [ tcedilla, 	    Tcedilla,  apostrophe, 	 quotedbl ] };
+    key <AC10> { [ 0x1000219,	   0x1000218,  semicolon, 	    colon ] };
+    key <AC11> { [ 0x100021b,	   0x100021a,  apostrophe, 	 quotedbl ] };
     key <LSGT> { [ backslash,            bar                              ] };
     key <AB03> { [ c,                      C,  copyright 	       	  ] };
     key <AB08> { [ comma, 	   semicolon,  less, 	    guillemotleft ] };
@@ -123,18 +121,17 @@ xkb_symbols "std_cedilla" {
 
 
 partial alphanumeric_keys
-xkb_symbols "std_comma" {
-    // Academic variant of the standard layout with commabelow.
-    // Implements S and T with commabelow as in ISO-8859-16.
-    // Hopefully these should become mainstream in a few years.
-    // For now it's the oddest variant (although the perfect one).
+xkb_symbols "std_cedilla" {
+    // Variant of the "std" layout with cedillas.
+    // Implements S and T with cedillas as in ISO-8859-2.
+    // Included for compatibility reasons.
 
-    include "ro(std_cedilla)"
+    include "ro(std)"
 
-    name[Group1]="Romania - Standard (Commabelow)";
+    name[Group1]="Romania - Standard (Cedilla)";
 
-    key <AC10> { [ 0x1000219,	   0x1000218 ] };
-    key <AC11> { [ 0x100021b,	   0x100021a ] };
+    key <AC10> { [ scedilla, 	    Scedilla ] };
+    key <AC11> { [ tcedilla, 	    Tcedilla ] };
 };
 
 
