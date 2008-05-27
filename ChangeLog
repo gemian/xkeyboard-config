@@ -5,6 +5,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=7310
 	* symbols/us: fixed one-handed dvorak variants (dropped second group),
 	http://bugs.freedesktop.org/show_bug.cgi?id=5659
+	* symbols/fi: returned nbsp to 3rd level of space,
+	http://bugs.freedesktop.org/show_bug.cgi?id=12764
 
 2008-05-12  Sergey Udaltsov
 
