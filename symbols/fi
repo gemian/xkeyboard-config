@@ -97,7 +97,7 @@ xkb_symbols "kotoistus" {
     key <AB09> { [  period,          colon,            dead_belowdot,        dead_abovedot        ] };
     key <AB10> { [  minus,           underscore,       endash,               dead_abovedot        ] };
 
-    key <SPCE> { [  space,           space,            space,                 nobreakspace        ] };
+    key <SPCE> { [  space,           space,            nobreakspace,         nobreakspace        ] };
 
     include "kpdl(comma)"
 
