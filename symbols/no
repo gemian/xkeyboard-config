@@ -107,7 +107,7 @@ xkb_symbols "dvorak" {
 // keyboard and a Norwegian Northern Sami keyboard (with
 // dead key support) according to the spec on
 // http://www.hum.uit.no/a/trond/se-lat9-no-keys.html
-// Written by Børre Gaup <boerre.gaup@pc.nu>
+// Written by BÃ¸rre Gaup <boerre.gaup@pc.nu>
 //
 // $XFree86: xc/programs/xkbcomp/symbols/sapmi,v 1.2 2002/11/22 04:03:28 dawes Exp $
 
