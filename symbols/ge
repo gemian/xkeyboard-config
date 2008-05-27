@@ -267,7 +267,7 @@ xkb_symbols "ru" {
 partial alphanumeric_keys
 xkb_symbols "os" {
 
-    include "ru(os)"
+    include "ru(os_legacy)"
 
     name[Group1]= "Georgia - Ossetian";
 

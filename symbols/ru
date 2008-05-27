@@ -94,7 +94,7 @@ xkb_symbols "legacy" {
 partial alphanumeric_keys
 xkb_symbols "olpc" {
 
-    include "ru(basic)"
+    include "ru(common)"
 
     key        <TLDE> {        [          0x01000451,          0x01000401, grave       ]       }; // Ñ‘, Ð
     key <AE03> {        [               3,      numbersign, 0x01002116      ]       }; // â„–
@@ -187,7 +187,7 @@ xkb_symbols "phonetic" {
 
 partial alphanumeric_keys
 xkb_symbols "tt" {
-    include "ru(basic)"
+    include "ru(common)"
     name[Group1]= "Russia - Tatar";
 
     key.type[group1]="FOUR_LEVEL";
@@ -222,7 +222,7 @@ xkb_symbols "os_legacy" {
 
 partial alphanumeric_keys 
 xkb_symbols "os_winkeys" {
-    include "ru(basic)"
+    include "ru(common)"
 
     name[Group1]= "Russia - Ossetian, Winkeys";
 
@@ -233,7 +233,7 @@ xkb_symbols "os_winkeys" {
 
 partial alphanumeric_keys
 xkb_symbols "cv" {
-    include "ru(basic)"
+    include "ru(common)"
 
     name[Group1]= "Russia - Chuvash";
 
@@ -253,7 +253,7 @@ xkb_symbols "cv" {
 
 partial alphanumeric_keys
 xkb_symbols "udm" {
-    include "ru(basic)"
+    include "ru(common)"
 
     name[Group1]= "Russia - Udmurt";
 
@@ -306,7 +306,7 @@ xkb_symbols "cv_latin" {
 partial alphanumeric_keys 
 xkb_symbols "kom" {
 
-    include "ru(basic)"
+    include "ru(common)"
 
     name[Group1]= "Russia - Komi";
 
