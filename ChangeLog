@@ -1,3 +1,9 @@
+2008-05-27  Sergey Udaltsov
+
+	* symbols/inet: WWW is mapped to I02, because of some changes in
+	kernel or X server (on nx9020),
+	http://bugs.freedesktop.org/show_bug.cgi?id=7310
+
 2008-05-12  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/ro: changed default Romanian variant to

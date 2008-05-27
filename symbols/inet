@@ -1050,6 +1050,7 @@ xkb_symbols "hp5181" {
 partial alphanumeric_keys
 xkb_symbols "hp5185" {
     include "inet(media_common)"
+    key <I02>   {       [ XF86WWW               ]       };
     key <I12>   {       [ XF86Go                ]       };
     key <I14>   {       [ XF86VendorHome        ]       };
     key <I15>   {       [ XF86Community         ]       };
