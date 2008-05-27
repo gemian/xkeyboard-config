@@ -231,7 +231,7 @@ xkb_symbols "rstu" {
 // Andrew Porokhnyak <aop@porokhnyak.org>
 partial alphanumeric_keys
 xkb_symbols "rstu_ru" {
-    include "ru(basic)"
+    include "ru(common)"
     name[Group1]= "Ukraine - Standard RSTU on Russian layout";
 
     key <TLDE> {        [      apostrophe,        question      ]       };
