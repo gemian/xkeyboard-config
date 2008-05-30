@@ -1,3 +1,8 @@
+2008-05-30  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/ca: added ca(kut),
+	http://bugs.freedesktop.org/show_bug.cgi?id=16048
+
 2008-05-27  Sergey Udaltsov
 
 	* symbols/inet: WWW is mapped to I02, because of some changes in

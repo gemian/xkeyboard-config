@@ -1792,6 +1792,12 @@
             <!-- No ISO code in ISO639-2, only draft ISO693-3 -->
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>kut</name>
+            <_description>Ktunaxa</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
