@@ -1,3 +1,8 @@
+2008-05-31  Sergey Udaltsov
+
+	* symbols/ru: fixed some includes, from common to winkeys (broken in
+	previous release)
+
 2008-05-30  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/ca: added ca(kut),

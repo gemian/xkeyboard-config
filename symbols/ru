@@ -187,7 +187,7 @@ xkb_symbols "phonetic" {
 
 partial alphanumeric_keys
 xkb_symbols "tt" {
-    include "ru(common)"
+    include "ru(winkeys)"
     name[Group1]= "Russia - Tatar";
 
     key.type[group1]="FOUR_LEVEL";
@@ -222,7 +222,7 @@ xkb_symbols "os_legacy" {
 
 partial alphanumeric_keys 
 xkb_symbols "os_winkeys" {
-    include "ru(common)"
+    include "ru(winkeys)"
 
     name[Group1]= "Russia - Ossetian, Winkeys";
 
@@ -233,7 +233,7 @@ xkb_symbols "os_winkeys" {
 
 partial alphanumeric_keys
 xkb_symbols "cv" {
-    include "ru(common)"
+    include "ru(winkeys)"
 
     name[Group1]= "Russia - Chuvash";
 
@@ -253,7 +253,7 @@ xkb_symbols "cv" {
 
 partial alphanumeric_keys
 xkb_symbols "udm" {
-    include "ru(common)"
+    include "ru(winkeys)"
 
     name[Group1]= "Russia - Udmurt";
 
@@ -306,7 +306,7 @@ xkb_symbols "cv_latin" {
 partial alphanumeric_keys 
 xkb_symbols "kom" {
 
-    include "ru(common)"
+    include "ru(winkeys)"
 
     name[Group1]= "Russia - Komi";
 
