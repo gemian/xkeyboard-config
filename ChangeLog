@@ -2,6 +2,9 @@
 
 	* rules/base.xml.in, rules/base.lists.part, symbols/inet: added
 	microsoft7000, http://bugs.freedesktop.org/show_bug.cgi?id=16087
+	* keycodes/xfree86, rules/base.m_g.part, rules/base.m_k.part,
+	rules/base.m_s.part, rules/base.xml.in: added model thinkpadz60,
+	http://bugs.freedesktop.org/attachment.cgi?id=16677
 
 2008-05-31  Sergey Udaltsov
 
