@@ -772,6 +772,13 @@
     </model>
     <model>
       <configItem>
+        <name>microsoft7000</name>
+        <description>Microsoft Natural Wireless Ergonomic Keyboard 7000</description>
+        <vendor>Microsoft Inc.</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>microsoftinet</name>
         <_description>Microsoft Internet Keyboard</_description>
         <vendor>Microsoft Inc.</vendor>

@@ -1,3 +1,8 @@
+2008-06-01  Sergey Udaltsov
+
+	* rules/base.xml.in, rules/base.lists.part, symbols/inet: added
+	microsoft7000, http://bugs.freedesktop.org/show_bug.cgi?id=16087
+
 2008-05-31  Sergey Udaltsov
 
 	* symbols/gb, symbols/hu: fixed utf8
