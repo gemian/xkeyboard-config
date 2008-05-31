@@ -85,7 +85,7 @@ xkb_symbols "colemak" {
 
 
 // Dvorak (UK) keymap (by odaen) allowing the usage of
-// the £ and ? key and swapping the @ and " keys.
+// the Â£ and ? key and swapping the @ and " keys.
 
 partial alphanumeric_keys
 xkb_symbols "dvorak" {

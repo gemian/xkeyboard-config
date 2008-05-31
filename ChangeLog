@@ -1,5 +1,9 @@
 2008-05-31  Sergey Udaltsov
 
+	* symbols/gb, symbols/hu: fixed utf8
+
+2008-05-31  Sergey Udaltsov
+
 	* symbols/ru: fixed some includes, from common to winkeys (broken in
 	previous release)
 
