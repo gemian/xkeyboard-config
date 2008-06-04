@@ -3214,6 +3214,13 @@
             <languageList><iso639Id>kom</iso639Id></languageList>
           </configItem>
         </variant>
+	<variant>
+          <configItem>
+            <name>sah</name>
+            <_description>Yakut</_description>
+            <languageList><iso639Id>sah</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

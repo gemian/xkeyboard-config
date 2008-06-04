@@ -1,3 +1,8 @@
+2008-06-04  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/ru: added ru(sah),
+	http://bugs.freedesktop.org/show_bug.cgi?id=15872
+
 2008-06-01  Sergey Udaltsov
 
 	* rules/base.xml.in, rules/base.lists.part, symbols/inet: added
