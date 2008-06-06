@@ -30,7 +30,7 @@ default xkb_geometry "pc101" {
 
     description= "Generic 101";
     width= 470;
-    height= 210;
+    height= 180;
 
     shape.cornerRadius= 1;
     shape "NORM" { { [ 18,18] }, { [2,1], [ 16,16] } };
@@ -50,19 +50,19 @@ default xkb_geometry "pc101" {
     shape "LED"  { cornerRadius= 0, { [  5,  1 ] } };
     solid "LedPanel" {
 	shape= "LEDS";
-	top=  52;
+	top=  22;
 	left= 377;
 	color= "grey10";
     };
 
     indicator.onColor= "green";
     indicator.offColor= "green30";
-    indicator.top= 67;
+    indicator.top= 37;
     indicator.shape= "LED";
     indicator "Num Lock"     { left= 382; };
     indicator "Caps Lock"    { left= 407; };
     indicator "Scroll Lock"  { left= 433; };
-    text.top= 55;
+    text.top= 25;
     text.color= "black";
     text "NumLockLabel"		{ left= 378; text="Num\nLock"; };
     text "CapsLockLabel"	{ left= 403; text="Caps\nLock"; };
@@ -73,7 +73,7 @@ default xkb_geometry "pc101" {
     key.shape= "NORM";
     key.gap=  1;
     section "Function" {
-	top= 52;
+	top= 22;
 	row {
 	    top= 1;
 	    keys {  { <ESC>, color="grey20" },
@@ -86,7 +86,7 @@ default xkb_geometry "pc101" {
     }; // End of "Function" section
 
     section "Alpha" {
-	top= 91;
+	top= 61;
 	row {
 	    top= 1;
 	    keys { <TLDE>, <AE01>, <AE02>, <AE03>, <AE04>,
@@ -131,7 +131,7 @@ default xkb_geometry "pc101" {
     }; // End of "Alpha" section
 
     section "Editing" {
-	top= 91;
+	top= 61;
 	left= 312;
 	key.color= "grey20";
 	row {
@@ -154,7 +154,7 @@ default xkb_geometry "pc101" {
     }; // End of "Editing" section
 
     section "Keypad" {
-	top= 91;
+	top= 61;
 	left= 376;
 	row {
 	    top= 1;
@@ -188,7 +188,7 @@ xkb_geometry "pc102" {
 
     description= "Generic 102";
     width= 470;
-    height= 210;
+    height= 180;
 
     shape.cornerRadius= 1;
     shape "NORM" { { [ 18,18] }, { [2,1], [ 16,16] } };
@@ -210,19 +210,19 @@ xkb_geometry "pc102" {
     shape "LED"  { cornerRadius= 0, { [  5,  1 ] } };
     solid "LedPanel" {
 	shape= "LEDS";
-	top=  52;
+	top=  22;
 	left= 377;
 	color= "grey10";
     };
 
     indicator.onColor= "green";
     indicator.offColor= "green30";
-    indicator.top= 67;
+    indicator.top= 37;
     indicator.shape= "LED";
     indicator "Num Lock"     { left= 382; };
     indicator "Caps Lock"    { left= 407; };
     indicator "Scroll Lock"  { left= 433; };
-    text.top= 55;
+    text.top= 25;
     text.color= "black";
     text "NumLockLabel"		{ left= 378; text="Num\nLock"; };
     text "CapsLockLabel"	{ left= 403; text="Caps\nLock"; };
@@ -233,7 +233,7 @@ xkb_geometry "pc102" {
     key.shape= "NORM";
     key.gap=  1;
     section "Function" {
-	top= 52;
+	top= 22;
 	row {
 	    top= 1;
 	    keys {  { <ESC>, "TABK", color="grey20" },
@@ -246,7 +246,7 @@ xkb_geometry "pc102" {
     }; // End of "Function" section
 
     section "Alpha" {
-	top= 91;
+	top= 61;
 	row {
 	    top= 1;
 	    keys { <TLDE>, <AE01>, <AE02>, <AE03>, <AE04>,
@@ -291,7 +291,7 @@ xkb_geometry "pc102" {
     }; // End of "Alpha" section
 
     section "Editing" {
-	top= 91;
+	top= 61;
 	left= 312;
 	key.color= "grey20";
 	row {
@@ -314,7 +314,7 @@ xkb_geometry "pc102" {
     }; // End of "Editing" section
 
     section "Keypad" {
-	top= 91;
+	top= 61;
 	left= 376;
 	row {
 	    top= 1;
@@ -348,7 +348,7 @@ xkb_geometry "pc104" {
 
     description= "Generic 104";
     width= 470;
-    height= 210;
+    height= 180;
 
     shape.cornerRadius= 1;
     shape "NORM" { { [ 18,18] }, { [2,1], [ 16,16] } };
@@ -369,19 +369,19 @@ xkb_geometry "pc104" {
     shape "LED"  { cornerRadius= 0, { [  5,  1 ] } };
     solid "LedPanel" {
 	shape= "LEDS";
-	top=  52;
+	top=  22;
 	left= 377;
 	color= "grey10";
     };
 
     indicator.onColor= "green";
     indicator.offColor= "green30";
-    indicator.top= 67;
+    indicator.top= 37;
     indicator.shape= "LED";
     indicator "Num Lock"     { left= 382; };
     indicator "Caps Lock"    { left= 407; };
     indicator "Scroll Lock"  { left= 433; };
-    text.top= 55;
+    text.top= 25;
     text.color= "black";
     text "NumLockLabel"		{ left= 378; text="Num\nLock"; };
     text "CapsLockLabel"	{ left= 403; text="Caps\nLock"; };
@@ -392,7 +392,7 @@ xkb_geometry "pc104" {
     key.shape= "NORM";
     key.gap=  1;
     section "Function" {
-	top= 52;
+	top= 22;
 	row {
 	    top= 1;
 	    keys {  { <ESC>, color="grey20" },
@@ -405,7 +405,7 @@ xkb_geometry "pc104" {
     }; // End of "Function" section
 
     section "Alpha" {
-	top= 91;
+	top= 61;
 	row {
 	    top= 1;
 	    keys { <TLDE>, <AE01>, <AE02>, <AE03>, <AE04>,
@@ -450,7 +450,7 @@ xkb_geometry "pc104" {
     }; // End of "Alpha" section
 
     section "Editing" {
-	top= 91;
+	top= 61;
 	left= 312;
 	key.color= "grey20";
 	row {
@@ -473,7 +473,7 @@ xkb_geometry "pc104" {
     }; // End of "Editing" section
 
     section "Keypad" {
-	top= 91;
+	top= 61;
 	left= 376;
 	row {
 	    top= 1;
@@ -507,7 +507,7 @@ xkb_geometry "pc105" {
 
     description= "Generic 105";
     width= 470;
-    height= 210;
+    height= 180;
 
     shape.cornerRadius= 1;
     shape "NORM" { { [ 18,18] }, { [2,1], [ 16,16] } };
@@ -528,19 +528,19 @@ xkb_geometry "pc105" {
     shape "LED"  { cornerRadius= 0, { [  5,  1 ] } };
     solid "LedPanel" {
 	shape= "LEDS";
-	top=  52;
+	top=  22;
 	left= 377;
 	color= "grey10";
     };
 
     indicator.onColor= "green";
     indicator.offColor= "green30";
-    indicator.top= 67;
+    indicator.top= 37;
     indicator.shape= "LED";
     indicator "Num Lock"     { left= 382; };
     indicator "Caps Lock"    { left= 407; };
     indicator "Scroll Lock"  { left= 433; };
-    text.top= 55;
+    text.top= 25;
     text.color= "black";
     text "NumLockLabel"		{ left= 378; text="Num\nLock"; };
     text "CapsLockLabel"	{ left= 403; text="Caps\nLock"; };
@@ -551,7 +551,7 @@ xkb_geometry "pc105" {
     key.shape= "NORM";
     key.gap=  1;
     section "Function" {
-	top= 52;
+	top= 22;
 	row {
 	    top= 1;
 	    keys {  { <ESC>, color="grey20" },
@@ -564,7 +564,7 @@ xkb_geometry "pc105" {
     }; // End of "Function" section
 
     section "Alpha" {
-	top= 91;
+	top= 61;
 	row {
 	    top= 1;
 	    keys { <TLDE>, <AE01>, <AE02>, <AE03>, <AE04>,
@@ -609,7 +609,7 @@ xkb_geometry "pc105" {
     }; // End of "Alpha" section
 
     section "Editing" {
-	top= 91;
+	top= 61;
 	left= 312;
 	key.color= "grey20";
 	row {
@@ -632,7 +632,7 @@ xkb_geometry "pc105" {
     }; // End of "Editing" section
 
     section "Keypad" {
-	top= 91;
+	top= 61;
 	left= 376;
 	row {
 	    top= 1;
@@ -842,7 +842,7 @@ xkb_geometry "abnt2" {
     key.shape= "NORM";
     key.gap=  1;
     section "Alpha" {
-	top= 91;
+	top= 61;
 	row {
 	    top= 20;
 	    keys { { <TAB>, "TABK", color="grey20" },
@@ -870,7 +870,7 @@ xkb_geometry "abnt2" {
     }; // End of "Alpha" section
 
     section "Keypad" {
-	top= 91;
+	top= 61;
 	left= 376;
 	row {
 	    top= 20;
@@ -1058,7 +1058,7 @@ xkb_geometry "kr106" {
 
     description= "Korean 106";
     width= 470;
-    height= 210;
+    height= 180;
 
     shape.cornerRadius= 1;
     shape "NORM" { { [ 18,18] }, { [2,1], [ 16,16] } };
@@ -1079,19 +1079,19 @@ xkb_geometry "kr106" {
     shape "LED"  { cornerRadius= 0, { [  5,  1 ] } };
     solid "LedPanel" {
 	shape= "LEDS";
-	top=  52;
+	top=  22;
 	left= 377;
 	color= "grey10";
     };
 
     indicator.onColor= "green";
     indicator.offColor= "green30";
-    indicator.top= 67;
+    indicator.top= 37;
     indicator.shape= "LED";
     indicator "Num Lock"     { left= 382; };
     indicator "Caps Lock"    { left= 407; };
     indicator "Scroll Lock"  { left= 433; };
-    text.top= 55;
+    text.top= 25;
     text.color= "black";
     text "NumLockLabel"		{ left= 378; text="Num\nLock"; };
     text "CapsLockLabel"	{ left= 403; text="Caps\nLock"; };
@@ -1102,7 +1102,7 @@ xkb_geometry "kr106" {
     key.shape= "NORM";
     key.gap=  1;
     section "Function" {
-	top= 52;
+	top= 22;
 	row {
 	    top= 1;
 	    keys {  { <ESC>, color="grey20" },
@@ -1115,7 +1115,7 @@ xkb_geometry "kr106" {
     }; // End of "Function" section
 
     section "Alpha" {
-	top= 91;
+	top= 61;
 	row {
 	    top= 1;
 	    keys { <TLDE>, <AE01>, <AE02>, <AE03>, <AE04>,
@@ -1162,7 +1162,7 @@ xkb_geometry "kr106" {
     }; // End of "Alpha" section
 
     section "Editing" {
-	top= 91;
+	top= 61;
 	left= 312;
 	key.color= "grey20";
 	row {
@@ -1185,7 +1185,7 @@ xkb_geometry "kr106" {
     }; // End of "Editing" section
 
     section "Keypad" {
-	top= 91;
+	top= 61;
 	left= 376;
 	row {
 	    top= 1;

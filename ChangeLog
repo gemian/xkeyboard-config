@@ -1,3 +1,8 @@
+2008-06-06  Sergey Udaltsov
+
+	* geometry/pc: removed unneeded space,
+	http://bugs.freedesktop.org/show_bug.cgi?id=16258
+
 2008-06-04  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/ru: added ru(sah),
