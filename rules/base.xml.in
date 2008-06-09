@@ -1125,6 +1125,13 @@
       <variantList>
         <variant>
           <configItem>
+            <name>chr</name>
+            <_description>Cherokee</_description>
+            <languageList><iso639Id>chr</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>euro</name>
             <_description>With EuroSign on 5</_description>
           </configItem>
