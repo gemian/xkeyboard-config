@@ -1,3 +1,8 @@
+2008-06-12  Sergey Udaltsov
+
+	* rules/base.o_s.part, rules/base.xml.in, symbols/keypad: added
+	keypad:phone_hex, http://bugs.freedesktop.org/show_bug.cgi?id=16298
+
 2008-06-09  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/us: added us(chr),

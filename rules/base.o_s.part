@@ -68,6 +68,7 @@
   keypad:legacy_wang    =	+keypad(legacy_wang)
   keypad:oss_wang       =	+keypad(oss_wang)
   keypad:future_wang    =	+keypad(future_wang)
+  keypad:phone_hex      =	+keypad(phone_hex)
   nbsp:none             =	+nbsp(none)
   nbsp:level2           =	+nbsp(level2)
   nbsp:level3           =	+nbsp(level3)
