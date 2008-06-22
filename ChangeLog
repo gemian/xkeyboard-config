@@ -1,3 +1,8 @@
+2008-06-22  Sergey Udaltsov
+
+	* symbols/tj: sorted and fixed tj layout,
+	http://bugs.freedesktop.org/show_bug.cgi?id=16448
+
 2008-06-12  Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/keypad: added
