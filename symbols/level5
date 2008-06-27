@@ -12,7 +12,7 @@ partial modifier_keys
 xkb_symbols "rctrl_switch" {
   key <RCTL> {
     type[Group1]="ONE_LEVEL",
-    symbols[Group1] = [ 0xfe11 ]
+    symbols[Group1] = [ ISO_Level5_Shift ]
     };
-  modifier_map Mod3   { 0xfe11 };
+  modifier_map Mod3   { ISO_Level5_Shift };
 };

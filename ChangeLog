@@ -1,3 +1,7 @@
+2008-06-27  Sergey Udaltsov
+
+	* symbols/level5: using normal level5 keysyms
+
 2008-06-22  Sergey Udaltsov
 
 	* symbols/tj: sorted and fixed tj layout,
