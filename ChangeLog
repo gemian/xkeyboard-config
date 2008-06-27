@@ -1,6 +1,10 @@
 2008-06-27  Sergey Udaltsov
 
 	* symbols/level5: using normal level5 keysyms
+	* rules/compat/ln_s.sh, rules/compat/lnv_s.sh, rules/compat/ml1_s.sh,
+	rules/compat/ml1v1_s.sh, rules/compat/ml1v_s.sh, rules/compat/ml_s.sh,
+	rules/compat/mlv_s.sh: fixed build process, thanks to Oswald
+	Buddenhagen
 
 2008-06-22  Sergey Udaltsov
 
