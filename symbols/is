@@ -165,3 +165,35 @@ xkb_symbols "mac" {
     include "level3(ralt_switch)"
 };
 
+// This is a modified version of the English Dvorak layout that allows
+// you to type all Icelandic letters under X. It's not a full attempt at
+// nationalizing the layout as e.g. the Norwegian, Swedish and French
+// layouts which modify the primary keys of the basic Dvorak layout
+// extensively.
+
+// Rather it's a simple modification of 5 keys of the US Dvorak layout,
+// it adds Germanic/Icelandic style quotation marks („“), eth (ðÐ), ae
+// (æÆ), endash and emdash (–—) and thorn (þÞ). These keys aren't used in
+// the US version making this IS version a superset of it.
+
+// Maybe someone else will make a "full" attempt at an Icelandic layout
+// but I was mostly interested in continuing to type English comfortably
+// as a primary function while being able to type the full Icelandic
+// alphabet as a secondary function.
+//     -- Ævar Arnfjörð Bjarmason <avar@cpan.org>
+
+// Icelandic Dvorak
+partial alphanumeric_keys 
+xkb_symbols "dvorak" {
+    name[Group1]= "Iceland - Dvorak";
+
+    include "us(dvorak)"
+
+    key <AD11> { [      slash,  question,    U201e,   U201c   ] };
+    key <AC06> { [       d,     D,           eth,     ETH     ] };
+    key <AC10> { [       s,     S,           ae,      AE      ] };
+    key <AC11> { [   minus,     underscore,  endash,  emdash  ] };
+    key <AB10> { [       z,     Z,           thorn,   Thorn   ] };
+
+    include "level3(ralt_switch)"
+};
