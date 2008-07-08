@@ -1,3 +1,8 @@
+2008-07-08  Sergey Udaltsov
+
+	* symbols/us: fixing us(mac),
+	https://bugs.freedesktop.org/show_bug.cgi?id=16641
+
 2008-07-01  Sergey Udaltsov
 
 	* symbols/is, rules/base.xml.in: added is(dvorak),
