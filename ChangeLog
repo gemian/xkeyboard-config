@@ -1,3 +1,8 @@
+2008-07-20  Sergey Udaltsov
+
+	* symbols/inet: fixed typo,
+	http://bugs.freedesktop.org/show_bug.cgi?id=16752
+
 2008-07-08  Sergey Udaltsov
 
 	* symbols/us: fixing us(mac),

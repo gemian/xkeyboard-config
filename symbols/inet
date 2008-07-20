@@ -2191,7 +2191,7 @@ xkb_symbols "logitech_g15" {
     key  <I76> {         [      XF86iTouch ] };
     key  <I77> {         [     XF86Launch3 ] };
     key  <I79> {         [    XF86ToDoList ] };
-    key  <I7B> {         [  XF86Calculater ] };
+    key  <I7B> {         [  XF86Calculator ] };
  
     key  <K5A> {         [  XF86VendorHome ] };
     key  <K5D> {         [        XF86Away ] };
