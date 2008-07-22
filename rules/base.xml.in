@@ -347,7 +347,7 @@
     <model>
       <configItem>
         <name>dellusbmm</name>
-        <_description>Dell USB Multimedia Keybard</_description>
+        <_description>Dell USB Multimedia Keyboard</_description>
         <vendor>Dell</vendor>
       </configItem>
     </model>
