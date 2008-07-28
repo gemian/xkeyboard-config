@@ -597,6 +597,13 @@
     </model>
     <model>
       <configItem>
+        <name>ibm_spacesaver</name>
+        <_description>IBM Space Saver</_description>
+        <vendor>IBM</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logiaccess</name>
         <_description>Logitech Access Keyboard</_description>
         <vendor>Logitech</vendor>

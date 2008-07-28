@@ -1,3 +1,9 @@
+2008-07-28  Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added
+	ibm_spacesaver model,
+	http://bugs.freedesktop.org/show_bug.cgi?id=16767
+
 2008-07-22  Sergey Udaltsov
 
 	* rules/base.xml.in: fixed typo,

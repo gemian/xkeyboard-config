@@ -1266,6 +1266,12 @@ xkb_symbols "thinkpad60" {
 };
 
 
+// IBM Space Saver
+partial alphanumeric_keys
+xkb_symbols "ibm_spacesaver" {
+    key <NMLK>  { [ Num_Lock, Num_Lock ] };
+};
+
 // Logitech
 
 // Logitech common definitions
