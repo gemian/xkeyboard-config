@@ -2,6 +2,8 @@
 
 	* rules/compat/variantRename.lst: fixing compat rules for Romania,
 	http://bugs.freedesktop.org/show_bug.cgi?id=16872
+	* symbols/mt: fixed Maltese layout,
+	http://bugs.freedesktop.org/show_bug.cgi?id=16966
 
 2008-07-28  Sergey Udaltsov
 
