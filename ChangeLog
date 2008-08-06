@@ -1,3 +1,10 @@
+2008-08-06  Sergey Udaltsov
+
+	* compat/Makefile.am, geometry/Makefile.am, keycodes/Makefile.am,
+	keymap/Makefile.am, rules/compat/Makefile.am, semantics/Makefile.am,
+	symbols/Makefile.am, types/Makefile.am, xkbrules.am: improving the
+	build, http://bugs.freedesktop.org/show_bug.cgi?id=17008
+
 2008-08-03  Sergey Udaltsov
 
 	* rules/compat/variantRename.lst: fixing compat rules for Romania,
