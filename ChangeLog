@@ -3,6 +3,8 @@
 	* rules/evdev.m_k.part, rules/evdev.m_s.part, keycodes/evdev,
 	po/POTFILES.in, po/xkeyboard-config.pot, rules/Makefile.am: implement
 	special ruleset for evdev driver
+	* added missing chars to Gurmukhi,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17163
 
 2008-08-06  Sergey Udaltsov
 
