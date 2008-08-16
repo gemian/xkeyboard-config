@@ -306,14 +306,13 @@ xkb_keycodes "jp106" {
     include "evdev(evdev)"
 };
 
-
 // For brazilian ABNT2 keyboard.
 xkb_keycodes "abnt2" {
     include "evdev(evdev)"
 };
 
-// IBM ThinkPad Z60m/Z60t/Z61m/Z61t
-xkb_keycodes "thinkpadz60" {
+// PC98
+xkb_keycodes "pc98" {
     include "evdev(evdev)"
 };
 
