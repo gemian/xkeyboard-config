@@ -1,3 +1,9 @@
+2008-08-16  Sergey Udaltsov
+
+	* rules/evdev.m_k.part, keycodes/evdev, po/POTFILES.in,
+	po/xkeyboard-config.pot, rules/Makefile.am: implement special ruleset
+	for evdev driver
+
 2008-08-06  Sergey Udaltsov
 
 	* compat/Makefile.am, geometry/Makefile.am, keycodes/Makefile.am,
