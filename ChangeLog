@@ -4,6 +4,9 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=17389
 	* symbols/fr: fixed invalid keysym,
 	http://bugs.freedesktop.org/show_bug.cgi?id=17388
+	* rules/base.xml.in: some fixes for minor issues
+	* rules/base.xml.in, symbols/gb: added gb(dvorakukp),
+	http://bugs.freedesktop.org/show_bug.cgi?id=17370
 
 2008-08-16  Sergey Udaltsov
 

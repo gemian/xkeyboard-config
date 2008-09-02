@@ -1655,12 +1655,6 @@
         </variant>
         <variant>
           <configItem>
-            <name>thinkpad</name>
-            <description>Thinkpad</description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>dvorak</name>
             <description>Dvorak</description>
           </configItem>
@@ -2244,7 +2238,7 @@
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>(Legacy) Dvorak</_description>
+            <_description>Dvorak</_description>
           </configItem>
         </variant>
         <variant>
@@ -3746,8 +3740,20 @@
         </variant>
         <variant>
           <configItem>
+            <name>dvorakukp</name>
+            <_description>Dvorak (UK Punctuation)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>mac</name>
             <_description>Macintosh</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <_description>Colemak</_description>
           </configItem>
         </variant>
       </variantList>
