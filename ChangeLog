@@ -2,6 +2,8 @@
 
 	* symbols/inet: fixed fscaa1667g,
 	http://bugs.freedesktop.org/show_bug.cgi?id=17389
+	* symbols/fr: fixed invalid keysym,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17388
 
 2008-08-16  Sergey Udaltsov
 

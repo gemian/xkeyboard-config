@@ -254,7 +254,7 @@ xkb_symbols "oss_nodeadkeys" {
     key <AE03>	{ [         quotedbl,                3,           numbersign,                 breve ] }; // " 3 # ˘
 
     // Second row
-    key <AD11>	{ [  circumflex,   diaeresis,           asciitilde,                 Aring ] }; // ^ ̈ ̃ Å
+    key <AD11>	{ [  asciicircum,   diaeresis,           asciitilde,                 Aring ] }; // ^ ̈ ̃ Å
     key <AC11>	{ [           ugrave,          percent,                acute,                Ugrave ] }; // ù % ' Ù
     key <BKSL>	{ [         asterisk,               mu,                grave,                macron ] }; // * µ ` ̄
 };
