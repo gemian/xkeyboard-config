@@ -911,7 +911,7 @@ xkb_symbols "ennyah_dkb1008" {
 partial alphanumeric_keys
 xkb_symbols "fscaa1667g" {
    include "inet(media_common)"
-   key <I32>   {       [ XF86Info              ]       };
+   key <I32>   {       [ XF86WWW               ]       };
    key <I6C>   {       [ XF86Mail              ]       };
 };
 
