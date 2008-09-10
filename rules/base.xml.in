@@ -933,6 +933,13 @@
     </model>
     <model>
       <configItem>
+        <name>sven303</name>
+        <_description>SVEN Slim 303</_description>
+	<vendor>SVEN</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>symplon</name>
         <_description>Symplon PaceBook (tablet PC)</_description>
 	<vendor>Symplon</vendor>

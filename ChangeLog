@@ -1,3 +1,8 @@
+2008-09-10  Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added model
+	sven303, http://bugs.freedesktop.org/show_bug.cgi?id=17518
+
 2008-09-02  Sergey Udaltsov
 
 	* symbols/inet: fixed fscaa1667g,

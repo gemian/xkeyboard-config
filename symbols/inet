@@ -1943,6 +1943,14 @@ xkb_symbols "sven" {
     key <I68>	{	[ XF86Back		]	};
 };
 
+// SVEN Slim 303
+partial alphanumeric_keys
+xkb_symbols "sven303" {
+    key <I11>	{	[ XF86PowerOff		]	};
+    key <I12>	{	[ XF86Sleep		]	};
+    key <I16>	{	[ XF86WakeUp		]	};
+};
+
 
 // Symplon
 
