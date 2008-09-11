@@ -1,3 +1,8 @@
+2008-09-12  Sergey Udaltsov
+
+	* geometry/pc: added another pc geometry, with L-shaped Enter,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17513
+
 2008-09-10  Sergey Udaltsov
 
 	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added model
