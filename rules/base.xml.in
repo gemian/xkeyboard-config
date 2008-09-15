@@ -1922,6 +1922,12 @@
             <_description>qwerty, extended Backslash</_description>
           </configItem>
         </variant>
+	<variant>
+	  <configItem>
+	    <name>ucw</name>
+	    <_description>UCW layout (accented letters only)</_description>
+	 </configItem>
+	</variant>
       </variantList>
     </layout>
     <layout>
@@ -4012,6 +4018,12 @@
       </option>
       <option>
         <configItem>
+          <name>grp:caps_switch</name>
+          <description>CapsLock key switches layout while pressed, Alt+CapsLock does the original capslock action.</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>grp:rctrl_switch</name>
           <_description>Right Ctrl key switches layout while pressed.</_description>
         </configItem>
@@ -4412,6 +4424,12 @@
         <configItem>
           <name>caps:swapescape</name>
           <_description>Swap ESC and CapsLock.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>caps:groupshift</name>
+          <description>CapsLock key switches layout while pressed, Alt+CapsLock does the original capslock action.</description>
         </configItem>
       </option>
       <option>
