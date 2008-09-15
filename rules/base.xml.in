@@ -2445,6 +2445,12 @@
       <variantList>
         <variant>
           <configItem>
+            <name>simple</name>
+            <_description>Simple</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>extended</name>
             <_description>Extended</_description>
           </configItem>
