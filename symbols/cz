@@ -111,7 +111,7 @@ xkb_symbols "ucw" {
     // accented characters only, no 'latin' set.
     // 2008 by Milan Vancura <mvancura@suse.cz>
 
-    name[Group1]= "Czechia - ucw";
+    name[Group1]= "Czechia - UCW layout (accented letters only)";
 
     key <AB01> { [zcaron,      Zcaron      ] };
     key <AB02> { [ssharp                   ] };
