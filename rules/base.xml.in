@@ -4679,7 +4679,7 @@
       <option>
         <configItem>
           <name>nbsp:level4nl</name>
-          <_description>Space key outputs non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift</_description>
+          <_description>Space key outputs non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)</_description>
         </configItem>
       </option>
     </group>
