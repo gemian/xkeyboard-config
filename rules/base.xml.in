@@ -4416,12 +4416,6 @@
       </option>
       <option>
         <configItem>
-          <name>caps:shift_lock</name>
-          <_description>CapsLock just locks the Shift modifier.</_description>
-        </configItem>
-      </option>
-      <option>
-        <configItem>
           <name>caps:capslock</name>
           <_description>CapsLock toggles normal capitalization of alphabetic characters.</_description>
         </configItem>

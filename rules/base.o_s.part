@@ -30,6 +30,7 @@
   grp:rwin_toggle	=	+group(rwin_toggle)
   grp:lshift_toggle	=	+group(lshift_toggle)
   grp:rshift_toggle	=	+group(rshift_toggle)
+  grp:rshift_switch	=	+group(rshift_switch)
   grp:lctrl_toggle	=	+group(lctrl_toggle)
   grp:rctrl_toggle	=	+group(rctrl_toggle)
   grp:lalt_toggle	=	+group(lalt_toggle)
