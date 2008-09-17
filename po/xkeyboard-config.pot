@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
-"POT-Creation-Date: 2008-09-17 00:48+0100\n"
+"POT-Creation-Date: 2008-09-17 21:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -2158,484 +2158,478 @@ msgstr ""
 msgid "Shift+CapsLock changes layout."
 msgstr ""
 
-#: ../rules/base.xml.in.h:538
+#: ../rules/base.xml.in.h:538 ../rules/evdev.xml.in.h:538
 msgid "Simple"
 msgstr ""
 
-#: ../rules/base.xml.in.h:539 ../rules/evdev.xml.in.h:538
+#: ../rules/base.xml.in.h:539 ../rules/evdev.xml.in.h:539
 msgid "Slovakia"
 msgstr ""
 
-#: ../rules/base.xml.in.h:540 ../rules/evdev.xml.in.h:539
+#: ../rules/base.xml.in.h:540 ../rules/evdev.xml.in.h:540
 msgid "Slovenia"
 msgstr ""
 
-#: ../rules/base.xml.in.h:541 ../rules/evdev.xml.in.h:540
+#: ../rules/base.xml.in.h:541 ../rules/evdev.xml.in.h:541
 msgid "South Africa"
 msgstr ""
 
-#: ../rules/base.xml.in.h:542 ../rules/evdev.xml.in.h:541
+#: ../rules/base.xml.in.h:542 ../rules/evdev.xml.in.h:542
 msgid "Southern Uzbek"
 msgstr ""
 
-#: ../rules/base.xml.in.h:543 ../rules/evdev.xml.in.h:542
+#: ../rules/base.xml.in.h:543 ../rules/evdev.xml.in.h:543
 msgid ""
 "Space key outputs non-breakable space character at fourth level, thin non-"
 "breakable space character at sixth level"
 msgstr ""
 
-#: ../rules/base.xml.in.h:544
+#: ../rules/base.xml.in.h:544 ../rules/evdev.xml.in.h:544
 msgid ""
 "Space key outputs non-breakable space character at fourth level, thin non-"
 "breakable space character at sixth level (via Ctrl+Shift)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:545 ../rules/evdev.xml.in.h:544
+#: ../rules/base.xml.in.h:545 ../rules/evdev.xml.in.h:545
 msgid "Space key outputs non-breakable space character at fourth level."
 msgstr ""
 
-#: ../rules/base.xml.in.h:546 ../rules/evdev.xml.in.h:545
+#: ../rules/base.xml.in.h:546 ../rules/evdev.xml.in.h:546
 msgid "Space key outputs non-breakable space character at second level."
 msgstr ""
 
-#: ../rules/base.xml.in.h:547 ../rules/evdev.xml.in.h:546
+#: ../rules/base.xml.in.h:547 ../rules/evdev.xml.in.h:547
 msgid ""
 "Space key outputs non-breakable space character at third level, nothing at "
 "fourth level."
 msgstr ""
 
-#: ../rules/base.xml.in.h:548 ../rules/evdev.xml.in.h:547
+#: ../rules/base.xml.in.h:548 ../rules/evdev.xml.in.h:548
 msgid ""
 "Space key outputs non-breakable space character at third level, thin non-"
 "breakable space character at fourth level"
 msgstr ""
 
-#: ../rules/base.xml.in.h:549 ../rules/evdev.xml.in.h:548
+#: ../rules/base.xml.in.h:549 ../rules/evdev.xml.in.h:549
 msgid "Space key outputs non-breakable space character at third level."
 msgstr ""
 
-#: ../rules/base.xml.in.h:550 ../rules/evdev.xml.in.h:549
+#: ../rules/base.xml.in.h:550 ../rules/evdev.xml.in.h:550
 msgid "Space key outputs usual space at any level."
 msgstr ""
 
-#: ../rules/base.xml.in.h:551 ../rules/evdev.xml.in.h:550
+#: ../rules/base.xml.in.h:551 ../rules/evdev.xml.in.h:551
 msgid "Spain"
 msgstr ""
 
-#: ../rules/base.xml.in.h:552 ../rules/evdev.xml.in.h:551
+#: ../rules/base.xml.in.h:552 ../rules/evdev.xml.in.h:552
 msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server."
 msgstr ""
 
-#: ../rules/base.xml.in.h:553 ../rules/evdev.xml.in.h:552
+#: ../rules/base.xml.in.h:553 ../rules/evdev.xml.in.h:553
 msgid "SrL"
 msgstr ""
 
-#: ../rules/base.xml.in.h:554 ../rules/evdev.xml.in.h:553
+#: ../rules/base.xml.in.h:554 ../rules/evdev.xml.in.h:554
 msgid "Sri Lanka"
 msgstr ""
 
-#: ../rules/base.xml.in.h:555 ../rules/evdev.xml.in.h:554
+#: ../rules/base.xml.in.h:555 ../rules/evdev.xml.in.h:555
 msgid "Standard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:556 ../rules/evdev.xml.in.h:555
+#: ../rules/base.xml.in.h:556 ../rules/evdev.xml.in.h:556
 msgid "Standard (Cedilla)"
 msgstr ""
 
 #. RSTU 2019-91
-#: ../rules/base.xml.in.h:558 ../rules/evdev.xml.in.h:557
+#: ../rules/base.xml.in.h:558 ../rules/evdev.xml.in.h:558
 msgid "Standard RSTU"
 msgstr ""
 
 #. RSTU 2019-91
-#: ../rules/base.xml.in.h:560 ../rules/evdev.xml.in.h:559
+#: ../rules/base.xml.in.h:560 ../rules/evdev.xml.in.h:560
 msgid "Standard RSTU on Russian layout"
 msgstr ""
 
-#: ../rules/base.xml.in.h:561 ../rules/evdev.xml.in.h:560
+#: ../rules/base.xml.in.h:561 ../rules/evdev.xml.in.h:561
 msgid "Sun Type 5/6"
 msgstr ""
 
-#: ../rules/base.xml.in.h:562 ../rules/evdev.xml.in.h:561
+#: ../rules/base.xml.in.h:562 ../rules/evdev.xml.in.h:562
 msgid "Sun dead keys"
 msgstr ""
 
-#: ../rules/base.xml.in.h:563 ../rules/evdev.xml.in.h:562
+#: ../rules/base.xml.in.h:563 ../rules/evdev.xml.in.h:563
 msgid "Super Power Multimedia Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:564 ../rules/evdev.xml.in.h:563
+#: ../rules/base.xml.in.h:564 ../rules/evdev.xml.in.h:564
 msgid "Super is mapped to the Win-keys."
 msgstr ""
 
-#: ../rules/base.xml.in.h:565 ../rules/evdev.xml.in.h:564
+#: ../rules/base.xml.in.h:565 ../rules/evdev.xml.in.h:565
 msgid "Svdvorak"
 msgstr ""
 
-#: ../rules/base.xml.in.h:566 ../rules/evdev.xml.in.h:565
+#: ../rules/base.xml.in.h:566 ../rules/evdev.xml.in.h:566
 msgid "Svk"
 msgstr ""
 
-#: ../rules/base.xml.in.h:567 ../rules/evdev.xml.in.h:566
+#: ../rules/base.xml.in.h:567 ../rules/evdev.xml.in.h:567
 msgid "Svn"
 msgstr ""
 
-#: ../rules/base.xml.in.h:568 ../rules/evdev.xml.in.h:567
+#: ../rules/base.xml.in.h:568 ../rules/evdev.xml.in.h:568
 msgid "Swap Ctrl and CapsLock."
 msgstr ""
 
-#: ../rules/base.xml.in.h:569 ../rules/evdev.xml.in.h:568
+#: ../rules/base.xml.in.h:569 ../rules/evdev.xml.in.h:569
 msgid "Swap ESC and CapsLock."
 msgstr ""
 
-#: ../rules/base.xml.in.h:570 ../rules/evdev.xml.in.h:569
+#: ../rules/base.xml.in.h:570 ../rules/evdev.xml.in.h:570
 msgid "Swap keycodes of two keys when Mac keyboards are misdetected by kernel."
 msgstr ""
 
-#: ../rules/base.xml.in.h:571 ../rules/evdev.xml.in.h:570
+#: ../rules/base.xml.in.h:571 ../rules/evdev.xml.in.h:571
 msgid "Swe"
 msgstr ""
 
-#: ../rules/base.xml.in.h:572 ../rules/evdev.xml.in.h:571
+#: ../rules/base.xml.in.h:572 ../rules/evdev.xml.in.h:572
 msgid "Sweden"
 msgstr ""
 
-#: ../rules/base.xml.in.h:573 ../rules/evdev.xml.in.h:572
+#: ../rules/base.xml.in.h:573 ../rules/evdev.xml.in.h:573
 msgid "Switzerland"
 msgstr ""
 
-#: ../rules/base.xml.in.h:574 ../rules/evdev.xml.in.h:573
+#: ../rules/base.xml.in.h:574 ../rules/evdev.xml.in.h:574
 msgid "Symplon PaceBook (tablet PC)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:575 ../rules/evdev.xml.in.h:574
+#: ../rules/base.xml.in.h:575 ../rules/evdev.xml.in.h:575
 msgid "Syr"
 msgstr ""
 
-#: ../rules/base.xml.in.h:576 ../rules/evdev.xml.in.h:575
+#: ../rules/base.xml.in.h:576 ../rules/evdev.xml.in.h:576
 msgid "Syria"
 msgstr ""
 
-#: ../rules/base.xml.in.h:577 ../rules/evdev.xml.in.h:576
+#: ../rules/base.xml.in.h:577 ../rules/evdev.xml.in.h:577
 msgid "Syriac"
 msgstr ""
 
-#: ../rules/base.xml.in.h:578 ../rules/evdev.xml.in.h:577
+#: ../rules/base.xml.in.h:578 ../rules/evdev.xml.in.h:578
 msgid "Syriac phonetic"
 msgstr ""
 
-#: ../rules/base.xml.in.h:579 ../rules/evdev.xml.in.h:578
+#: ../rules/base.xml.in.h:579 ../rules/evdev.xml.in.h:579
 msgid "TIS-820.2538"
 msgstr ""
 
-#: ../rules/base.xml.in.h:580 ../rules/evdev.xml.in.h:579
+#: ../rules/base.xml.in.h:580 ../rules/evdev.xml.in.h:580
 msgid "Tajikistan"
 msgstr ""
 
-#: ../rules/base.xml.in.h:581 ../rules/evdev.xml.in.h:580
+#: ../rules/base.xml.in.h:581 ../rules/evdev.xml.in.h:581
 msgid "Tamil"
 msgstr ""
 
-#: ../rules/base.xml.in.h:582 ../rules/evdev.xml.in.h:581
+#: ../rules/base.xml.in.h:582 ../rules/evdev.xml.in.h:582
 msgid "Tamil TAB Typewriter"
 msgstr ""
 
-#: ../rules/base.xml.in.h:583 ../rules/evdev.xml.in.h:582
+#: ../rules/base.xml.in.h:583 ../rules/evdev.xml.in.h:583
 msgid "Tamil TSCII Typewriter"
 msgstr ""
 
-#: ../rules/base.xml.in.h:584 ../rules/evdev.xml.in.h:583
+#: ../rules/base.xml.in.h:584 ../rules/evdev.xml.in.h:584
 msgid "Tamil Unicode"
 msgstr ""
 
-#: ../rules/base.xml.in.h:585 ../rules/evdev.xml.in.h:584
+#: ../rules/base.xml.in.h:585 ../rules/evdev.xml.in.h:585
 msgid "Tatar"
 msgstr ""
 
-#: ../rules/base.xml.in.h:586 ../rules/evdev.xml.in.h:585
+#: ../rules/base.xml.in.h:586 ../rules/evdev.xml.in.h:586
 msgid "Telugu"
 msgstr ""
 
-#: ../rules/base.xml.in.h:587 ../rules/evdev.xml.in.h:586
+#: ../rules/base.xml.in.h:587 ../rules/evdev.xml.in.h:587
 msgid "Tha"
 msgstr ""
 
-#: ../rules/base.xml.in.h:588 ../rules/evdev.xml.in.h:587
+#: ../rules/base.xml.in.h:588 ../rules/evdev.xml.in.h:588
 msgid "Thailand"
 msgstr ""
 
-#: ../rules/base.xml.in.h:589 ../rules/evdev.xml.in.h:588
+#: ../rules/base.xml.in.h:589 ../rules/evdev.xml.in.h:589
 msgid "Third level choosers"
 msgstr ""
 
-#: ../rules/base.xml.in.h:590 ../rules/evdev.xml.in.h:589
+#: ../rules/base.xml.in.h:590 ../rules/evdev.xml.in.h:590
 msgid "Tibetan"
 msgstr ""
 
-#: ../rules/base.xml.in.h:591 ../rules/evdev.xml.in.h:590
+#: ../rules/base.xml.in.h:591 ../rules/evdev.xml.in.h:591
 msgid "Tibetan (with ASCII numerals)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:592 ../rules/evdev.xml.in.h:591
+#: ../rules/base.xml.in.h:592 ../rules/evdev.xml.in.h:592
 msgid "Tifinagh"
 msgstr ""
 
-#: ../rules/base.xml.in.h:593 ../rules/evdev.xml.in.h:592
+#: ../rules/base.xml.in.h:593 ../rules/evdev.xml.in.h:593
 msgid "Tifinagh Alternative"
 msgstr ""
 
-#: ../rules/base.xml.in.h:594 ../rules/evdev.xml.in.h:593
+#: ../rules/base.xml.in.h:594 ../rules/evdev.xml.in.h:594
 msgid "Tifinagh Alternative Phonetic"
 msgstr ""
 
-#: ../rules/base.xml.in.h:595 ../rules/evdev.xml.in.h:594
+#: ../rules/base.xml.in.h:595 ../rules/evdev.xml.in.h:595
 msgid "Tifinagh Extended"
 msgstr ""
 
-#: ../rules/base.xml.in.h:596 ../rules/evdev.xml.in.h:595
+#: ../rules/base.xml.in.h:596 ../rules/evdev.xml.in.h:596
 msgid "Tifinagh Extended Phonetic"
 msgstr ""
 
-#: ../rules/base.xml.in.h:597 ../rules/evdev.xml.in.h:596
+#: ../rules/base.xml.in.h:597 ../rules/evdev.xml.in.h:597
 msgid "Tifinagh Phonetic"
 msgstr ""
 
-#: ../rules/base.xml.in.h:598 ../rules/evdev.xml.in.h:597
+#: ../rules/base.xml.in.h:598 ../rules/evdev.xml.in.h:598
 msgid "Tilde (~) variant"
 msgstr ""
 
-#: ../rules/base.xml.in.h:599 ../rules/evdev.xml.in.h:598
+#: ../rules/base.xml.in.h:599 ../rules/evdev.xml.in.h:599
 msgid "Tjk"
 msgstr ""
 
-#: ../rules/base.xml.in.h:600 ../rules/evdev.xml.in.h:599
+#: ../rules/base.xml.in.h:600 ../rules/evdev.xml.in.h:600
 msgid "Toshiba Satellite S3000"
 msgstr ""
 
-#: ../rules/base.xml.in.h:601 ../rules/evdev.xml.in.h:600
+#: ../rules/base.xml.in.h:601 ../rules/evdev.xml.in.h:601
 msgid "Trust Direct Access Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:602 ../rules/evdev.xml.in.h:601
+#: ../rules/base.xml.in.h:602 ../rules/evdev.xml.in.h:602
 msgid "Trust Wireless Keyboard Classic"
 msgstr ""
 
-#: ../rules/base.xml.in.h:603 ../rules/evdev.xml.in.h:602
+#: ../rules/base.xml.in.h:603 ../rules/evdev.xml.in.h:603
 msgid "Tur"
 msgstr ""
 
-#: ../rules/base.xml.in.h:604 ../rules/evdev.xml.in.h:603
+#: ../rules/base.xml.in.h:604 ../rules/evdev.xml.in.h:604
 msgid "Turkey"
 msgstr ""
 
-#: ../rules/base.xml.in.h:605 ../rules/evdev.xml.in.h:604
+#: ../rules/base.xml.in.h:605 ../rules/evdev.xml.in.h:605
 msgid "Typewriter"
 msgstr ""
 
-#: ../rules/base.xml.in.h:606
+#: ../rules/base.xml.in.h:606 ../rules/evdev.xml.in.h:606
 msgid "UCW layout (accented letters only)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:607 ../rules/evdev.xml.in.h:605
+#: ../rules/base.xml.in.h:607 ../rules/evdev.xml.in.h:607
 msgid "US keyboard with Bosnian digraphs"
 msgstr ""
 
-#: ../rules/base.xml.in.h:608 ../rules/evdev.xml.in.h:606
+#: ../rules/base.xml.in.h:608 ../rules/evdev.xml.in.h:608
 msgid "US keyboard with Bosnian letters"
 msgstr ""
 
-#: ../rules/base.xml.in.h:609 ../rules/evdev.xml.in.h:607
+#: ../rules/base.xml.in.h:609 ../rules/evdev.xml.in.h:609
 msgid "US keyboard with Croatian digraphs"
 msgstr ""
 
-#: ../rules/base.xml.in.h:610 ../rules/evdev.xml.in.h:608
+#: ../rules/base.xml.in.h:610 ../rules/evdev.xml.in.h:610
 msgid "US keyboard with Croatian letters"
 msgstr ""
 
-#: ../rules/base.xml.in.h:611 ../rules/evdev.xml.in.h:609
+#: ../rules/base.xml.in.h:611 ../rules/evdev.xml.in.h:611
 msgid "US keyboard with Estonian letters"
 msgstr ""
 
-#: ../rules/base.xml.in.h:612 ../rules/evdev.xml.in.h:610
+#: ../rules/base.xml.in.h:612 ../rules/evdev.xml.in.h:612
 msgid "US keyboard with Lithuanian letters"
 msgstr ""
 
-#: ../rules/base.xml.in.h:613 ../rules/evdev.xml.in.h:611
+#: ../rules/base.xml.in.h:613 ../rules/evdev.xml.in.h:613
 msgid "US keyboard with Slovenian digraphs"
 msgstr ""
 
-#: ../rules/base.xml.in.h:614 ../rules/evdev.xml.in.h:612
+#: ../rules/base.xml.in.h:614 ../rules/evdev.xml.in.h:614
 msgid "US keyboard with Slovenian letters"
 msgstr ""
 
-#: ../rules/base.xml.in.h:615 ../rules/evdev.xml.in.h:613
+#: ../rules/base.xml.in.h:615 ../rules/evdev.xml.in.h:615
 msgid "USA"
 msgstr ""
 
-#: ../rules/base.xml.in.h:616 ../rules/evdev.xml.in.h:614
+#: ../rules/base.xml.in.h:616 ../rules/evdev.xml.in.h:616
 msgid "Udmurt"
 msgstr ""
 
-#: ../rules/base.xml.in.h:617 ../rules/evdev.xml.in.h:615
+#: ../rules/base.xml.in.h:617 ../rules/evdev.xml.in.h:617
 msgid "Ukr"
 msgstr ""
 
-#: ../rules/base.xml.in.h:618 ../rules/evdev.xml.in.h:616
+#: ../rules/base.xml.in.h:618 ../rules/evdev.xml.in.h:618
 msgid "Ukraine"
 msgstr ""
 
-#: ../rules/base.xml.in.h:619 ../rules/evdev.xml.in.h:617
+#: ../rules/base.xml.in.h:619 ../rules/evdev.xml.in.h:619
 msgid "UnicodeExpert"
 msgstr ""
 
-#: ../rules/base.xml.in.h:620 ../rules/evdev.xml.in.h:618
+#: ../rules/base.xml.in.h:620 ../rules/evdev.xml.in.h:620
 msgid "United Kingdom"
 msgstr ""
 
-#: ../rules/base.xml.in.h:621 ../rules/evdev.xml.in.h:619
+#: ../rules/base.xml.in.h:621 ../rules/evdev.xml.in.h:621
 msgid "Urdu"
 msgstr ""
 
-#: ../rules/base.xml.in.h:622 ../rules/evdev.xml.in.h:620
+#: ../rules/base.xml.in.h:622 ../rules/evdev.xml.in.h:622
 msgid "Use Bosnian digraphs"
 msgstr ""
 
-#: ../rules/base.xml.in.h:623 ../rules/evdev.xml.in.h:621
+#: ../rules/base.xml.in.h:623 ../rules/evdev.xml.in.h:623
 msgid "Use Croatian digraphs"
 msgstr ""
 
-#: ../rules/base.xml.in.h:624 ../rules/evdev.xml.in.h:622
+#: ../rules/base.xml.in.h:624 ../rules/evdev.xml.in.h:624
 msgid "Use Slovenian digraphs"
 msgstr ""
 
-#: ../rules/base.xml.in.h:625 ../rules/evdev.xml.in.h:623
+#: ../rules/base.xml.in.h:625 ../rules/evdev.xml.in.h:625
 msgid "Use guillemets for quotes"
 msgstr ""
 
-#: ../rules/base.xml.in.h:626 ../rules/evdev.xml.in.h:624
+#: ../rules/base.xml.in.h:626 ../rules/evdev.xml.in.h:626
 msgid "Use keyboard LED to show alternative layout."
 msgstr ""
 
-#: ../rules/base.xml.in.h:627 ../rules/evdev.xml.in.h:625
+#: ../rules/base.xml.in.h:627 ../rules/evdev.xml.in.h:627
 msgid "Using space key to input non-breakable space character"
 msgstr ""
 
-#: ../rules/base.xml.in.h:628 ../rules/evdev.xml.in.h:626
+#: ../rules/base.xml.in.h:628 ../rules/evdev.xml.in.h:628
 msgid "Uzb"
 msgstr ""
 
-#: ../rules/base.xml.in.h:629 ../rules/evdev.xml.in.h:627
+#: ../rules/base.xml.in.h:629 ../rules/evdev.xml.in.h:629
 msgid "Uzbekistan"
 msgstr ""
 
-#: ../rules/base.xml.in.h:630 ../rules/evdev.xml.in.h:628
+#: ../rules/base.xml.in.h:630 ../rules/evdev.xml.in.h:630
 msgid "Vietnam"
 msgstr ""
 
-#: ../rules/base.xml.in.h:631 ../rules/evdev.xml.in.h:629
+#: ../rules/base.xml.in.h:631 ../rules/evdev.xml.in.h:631
 msgid "ViewSonic KU-306 Internet Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:632 ../rules/evdev.xml.in.h:630
+#: ../rules/base.xml.in.h:632 ../rules/evdev.xml.in.h:632
 msgid "Vnm"
 msgstr ""
 
-#: ../rules/base.xml.in.h:633 ../rules/evdev.xml.in.h:631
+#: ../rules/base.xml.in.h:633 ../rules/evdev.xml.in.h:633
 msgid "Wang 724 keypad with unicode additions (arrows and math operators)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:634 ../rules/evdev.xml.in.h:632
+#: ../rules/base.xml.in.h:634 ../rules/evdev.xml.in.h:634
 msgid ""
 "Wang 724 keypad with unicode additions (arrows and math operators). Math "
 "operators on default level."
 msgstr ""
 
-#: ../rules/base.xml.in.h:635 ../rules/evdev.xml.in.h:633
+#: ../rules/base.xml.in.h:635 ../rules/evdev.xml.in.h:635
 msgid "Wang model 724 azerty"
 msgstr ""
 
-#: ../rules/base.xml.in.h:636 ../rules/evdev.xml.in.h:634
+#: ../rules/base.xml.in.h:636 ../rules/evdev.xml.in.h:636
 msgid "Western"
 msgstr ""
 
-#: ../rules/base.xml.in.h:637 ../rules/evdev.xml.in.h:635
+#: ../rules/base.xml.in.h:637 ../rules/evdev.xml.in.h:637
 msgid "Winbook Model XP5"
 msgstr ""
 
-#: ../rules/base.xml.in.h:638 ../rules/evdev.xml.in.h:636
+#: ../rules/base.xml.in.h:638 ../rules/evdev.xml.in.h:638
 msgid "Winkeys"
 msgstr ""
 
-#: ../rules/base.xml.in.h:639 ../rules/evdev.xml.in.h:637
+#: ../rules/base.xml.in.h:639 ../rules/evdev.xml.in.h:639
 msgid "With &lt;\\|&gt; key"
 msgstr ""
 
-#: ../rules/base.xml.in.h:640 ../rules/evdev.xml.in.h:638
+#: ../rules/base.xml.in.h:640 ../rules/evdev.xml.in.h:640
 msgid "With EuroSign on 5"
 msgstr ""
 
-#: ../rules/base.xml.in.h:641 ../rules/evdev.xml.in.h:639
+#: ../rules/base.xml.in.h:641 ../rules/evdev.xml.in.h:641
 msgid "With guillemets"
 msgstr ""
 
-#: ../rules/base.xml.in.h:642 ../rules/evdev.xml.in.h:640
+#: ../rules/base.xml.in.h:642 ../rules/evdev.xml.in.h:642
 msgid "Yahoo! Internet Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:643 ../rules/evdev.xml.in.h:641
+#: ../rules/base.xml.in.h:643 ../rules/evdev.xml.in.h:643
 msgid "Yakut"
 msgstr ""
 
-#: ../rules/base.xml.in.h:644 ../rules/evdev.xml.in.h:642
+#: ../rules/base.xml.in.h:644 ../rules/evdev.xml.in.h:644
 msgid "Yoruba"
 msgstr ""
 
-#: ../rules/base.xml.in.h:645 ../rules/evdev.xml.in.h:643
+#: ../rules/base.xml.in.h:645 ../rules/evdev.xml.in.h:645
 msgid "Z and ZHE swapped"
 msgstr ""
 
-#: ../rules/base.xml.in.h:646 ../rules/evdev.xml.in.h:644
+#: ../rules/base.xml.in.h:646 ../rules/evdev.xml.in.h:646
 msgid "Zar"
 msgstr ""
 
-#: ../rules/base.xml.in.h:647 ../rules/evdev.xml.in.h:645
+#: ../rules/base.xml.in.h:647 ../rules/evdev.xml.in.h:647
 msgid "azerty"
 msgstr ""
 
-#: ../rules/base.xml.in.h:648 ../rules/evdev.xml.in.h:646
+#: ../rules/base.xml.in.h:648 ../rules/evdev.xml.in.h:648
 msgid "azerty/digits"
 msgstr ""
 
-#: ../rules/base.xml.in.h:649 ../rules/evdev.xml.in.h:647
+#: ../rules/base.xml.in.h:649 ../rules/evdev.xml.in.h:649
 msgid "digits"
 msgstr ""
 
-#: ../rules/base.xml.in.h:650 ../rules/evdev.xml.in.h:648
+#: ../rules/base.xml.in.h:650 ../rules/evdev.xml.in.h:650
 msgid "displaced semicolon and quote (obsolete)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:651 ../rules/evdev.xml.in.h:649
+#: ../rules/base.xml.in.h:651 ../rules/evdev.xml.in.h:651
 msgid "lyx"
 msgstr ""
 
-#: ../rules/base.xml.in.h:652 ../rules/evdev.xml.in.h:650
+#: ../rules/base.xml.in.h:652 ../rules/evdev.xml.in.h:652
 msgid "qwerty"
 msgstr ""
 
-#: ../rules/base.xml.in.h:653 ../rules/evdev.xml.in.h:651
+#: ../rules/base.xml.in.h:653 ../rules/evdev.xml.in.h:653
 msgid "qwerty, extended Backslash"
 msgstr ""
 
-#: ../rules/base.xml.in.h:654 ../rules/evdev.xml.in.h:652
+#: ../rules/base.xml.in.h:654 ../rules/evdev.xml.in.h:654
 msgid "qwerty/digits"
 msgstr ""
 
-#: ../rules/base.xml.in.h:655 ../rules/evdev.xml.in.h:653
+#: ../rules/base.xml.in.h:655 ../rules/evdev.xml.in.h:655
 msgid "qwertz"
-msgstr ""
-
-#: ../rules/evdev.xml.in.h:543
-msgid ""
-"Space key outputs non-breakable space character at fourth level, thin non-"
-"breakable space character at sixth level (via Ctrl+Shift"
 msgstr ""
