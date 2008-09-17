@@ -4434,12 +4434,6 @@
       </option>
       <option>
         <configItem>
-          <name>caps:groupshift</name>
-          <description>CapsLock key switches layout while pressed, Alt+CapsLock does the original capslock action.</description>
-        </configItem>
-      </option>
-      <option>
-        <configItem>
           <name>caps:shiftlock</name>
           <_description>CapsLock toggles Shift so all keys are affected.</_description>
         </configItem>
