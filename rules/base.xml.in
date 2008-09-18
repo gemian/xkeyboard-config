@@ -4363,6 +4363,12 @@
       </option>
       <option>
         <configItem>
+          <name>kpdl:dotoss_latin9</name>
+          <_description>Four-level key with dot, latin-9 restriction</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>kpdl:commaoss</name>
           <_description>Four-level key with comma</_description>
        </configItem>
