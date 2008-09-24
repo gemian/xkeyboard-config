@@ -787,7 +787,7 @@
     <model>
       <configItem>
         <name>microsoft7000</name>
-        <description>Microsoft Natural Wireless Ergonomic Keyboard 7000</description>
+        <_description>Microsoft Natural Wireless Ergonomic Keyboard 7000</_description>
         <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
@@ -1663,25 +1663,25 @@
         <variant>
           <configItem>
             <name>dvorak</name>
-            <description>Dvorak</description>
+            <_description>Dvorak</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo</name>
-            <description>Nativo</description>
+            <_description>Nativo</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-us</name>
-            <description>Nativo for USA keyboards</description>
+            <_description>Nativo for USA keyboards</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-epo</name>
-            <description>Nativo for Esperanto</description>
+            <_description>Nativo for Esperanto</_description>
             <languageList><iso639Id>epo</iso639Id></languageList>
           </configItem>
         </variant>
@@ -3120,19 +3120,19 @@
         <variant>
           <configItem>
             <name>nativo</name>
-            <description>Nativo</description>
+            <_description>Nativo</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-us</name>
-            <description>Nativo for USA keyboards</description>
+            <_description>Nativo for USA keyboards</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-epo</name>
-            <description>Nativo for Esperanto</description>
+            <_description>Nativo for Esperanto</_description>
             <languageList><iso639Id>epo</iso639Id></languageList>
           </configItem>
         </variant>
@@ -3712,7 +3712,7 @@
         <variant>
           <configItem>
             <name>unicode</name>
-            <description>Unicode</description>
+            <_description>Unicode</_description>
           </configItem>
         </variant>
         <variant>
@@ -4025,7 +4025,7 @@
       <option>
         <configItem>
           <name>grp:caps_switch</name>
-          <description>CapsLock key switches layout while pressed, Alt+CapsLock does the original capslock action.</description>
+          <_description>CapsLock key switches layout while pressed, Alt+CapsLock does the original capslock action.</_description>
         </configItem>
       </option>
       <option>
