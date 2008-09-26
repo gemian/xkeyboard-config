@@ -1,3 +1,8 @@
+2008-09-26  Sergey Udaltsov
+
+	* symbols/is: fixed AC11 mapping,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17786
+
 2008-09-24  Sergey Udaltsov
 
 	* rules/base.xml.in: all descriptions are prefixed with underscore,
