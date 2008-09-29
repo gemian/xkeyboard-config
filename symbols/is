@@ -22,7 +22,7 @@ xkb_symbols "basic" {
     key <AD12>	{ [apostrophe,   question,   asciitilde,  dead_macron ]	};
 
     key <AC10>	{ [        ae,         AE,  asciicircum, dead_doubleacute ] };
-    key <AC11>	{ [dead_acute, dead_circumflex, dead_circumflex ] }
+    key <AC11>	{ [dead_acute, dead_circumflex, dead_circumflex ] };
     key <TLDE>	{ [    degree,  diaeresis,      notsign,      notsign ]	};
 
     key <BKSL>	{ [      plus,   asterisk,        grave,   dead_breve ]	};
