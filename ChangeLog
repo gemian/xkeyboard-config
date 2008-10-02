@@ -1,5 +1,8 @@
 2008-09-30  Sergey Udaltsov
 
+	* rules/base.o_s.part, rules/base.xml.in, symbols/altwin: added
+	Mac-like modifiers positioning,
+	http://bugs.freedesktop.org/show_bug.cgi?id=15655
 	* NEWS, configure.in: preparing 1.4
 
 2008-09-26  Sergey Udaltsov

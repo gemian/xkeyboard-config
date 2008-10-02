@@ -4465,6 +4465,12 @@
       </option>
       <option>
         <configItem>
+          <name>altwin:ctrl_alt_win</name>
+          <_description>Control is mapped to the Alt-keys, Alt is mapped to the Win-keys.</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>altwin:meta_win</name>
           <_description>Meta is mapped to the Win-keys.</_description>
         </configItem>
