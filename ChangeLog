@@ -1,3 +1,8 @@
+2008-10-03  Sergey Udaltsov
+
+	* symbols/ru: fix typewriter layout,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17881
+
 2008-09-30  Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/altwin: added
