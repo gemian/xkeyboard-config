@@ -4608,7 +4608,7 @@ i       </variant>
       <option>
         <configItem>
           <name>numpad:shift3</name>
-          <_description>Shift does not cancel NumLock, gives third level instead</_description>
+          <_description>Shift does not cancel NumLock, chooses 3d level instead</_description>
         </configItem>
       </option>
       <option>
