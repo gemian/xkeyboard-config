@@ -4,6 +4,9 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=17855
 	* rules/base.xml.in, symbols/tj: added 2 new variants, std and legacy,
 	http://bugs.freedesktop.org/show_bug.cgi?id=17975
+	* rules/base.o_t.part, rules/base.xml.in, types/numpad: added
+	numpad(shift3) option,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17110
 
 2008-10-03  Sergey Udaltsov
 

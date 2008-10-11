@@ -4607,6 +4607,12 @@ i       </variant>
       </option>
       <option>
         <configItem>
+          <name>numpad:shift3</name>
+          <_description>Shift does not cancel NumLock, gives third level instead</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>srvrkeys:none</name>
           <_description>Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server.</_description>
         </configItem>
