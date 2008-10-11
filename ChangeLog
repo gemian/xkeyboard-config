@@ -1,3 +1,8 @@
+2008-10-11  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/de: added Lower Sorbian variants,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17855
+
 2008-10-03  Sergey Udaltsov
 
 	* symbols/ru: fix typewriter layout,

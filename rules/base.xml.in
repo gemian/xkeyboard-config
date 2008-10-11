@@ -2433,6 +2433,20 @@
             <_description>Macintosh, eliminate dead keys</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>dsb</name>
+            <_description>Lower Sorbian</_description>
+            <languageList><iso639Id>dsb</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dsb_qwertz</name>
+            <_description>Lower Sorbian (qwertz)</_description>
+            <languageList><iso639Id>dsb</iso639Id></languageList>
+          </configItem>
+i       </variant>
       </variantList>
     </layout>
     <layout>
