@@ -3594,7 +3594,20 @@ i       </variant>
         <_description>Tajikistan</_description>
         <languageList><iso639Id>tgk</iso639Id></languageList>
       </configItem>
-      <variantList/>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>std</name>
+            <_description>Standard</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>legacy</name>
+            <_description>Legacy</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>
