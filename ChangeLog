@@ -1,3 +1,9 @@
+2008-10-13  Sergey Udaltsov
+
+	* keycodes/evdev: fixed keycode comment from Peter Hutterer
+	* rules/base.xml.in, symbols/tj: cleaning the mess with tj variants,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17975
+
 2008-10-11  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/de: added Lower Sorbian variants,
