@@ -4348,12 +4348,6 @@
           <_description>Wang 724 keypad with unicode additions (arrows and math operators). Math operators on default level.</_description>
        </configItem>
       </option>
-      <option>
-        <configItem>
-          <name>keypad:phone_hex</name>
-          <_description>ATM/phone-style hexadecimal keypad</_description>
-        </configItem>
-      </option>
     </group>
     <!-- This option should override the KPDL key defined in keypad; I hope it's declared in the right place -->
     <group allowMultipleSelection="false">
