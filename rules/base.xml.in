@@ -4348,6 +4348,18 @@
           <_description>Wang 724 keypad with unicode additions (arrows and math operators). Math operators on default level.</_description>
        </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>keypad:hex</name>
+          <_description>Hexadecimal keypad</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>keypad:atm</name>
+          <_description>ATM/phone-style keypad</_description>
+       </configItem>
+      </option>
     </group>
     <!-- This option should override the KPDL key defined in keypad; I hope it's declared in the right place -->
     <group allowMultipleSelection="false">
@@ -4400,6 +4412,12 @@
           <!-- This assumes the KP_ abstract symbols are actually useful for some apps
                The description needs to be rewritten -->
           <_description>Four-level key with abstract separators</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>kpdl:semi</name>
+          <_description>Semi-colon on third level</_description>
        </configItem>
       </option>
     </group>
