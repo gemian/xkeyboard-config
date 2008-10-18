@@ -2447,6 +2447,12 @@
             <languageList><iso639Id>dsb</iso639Id></languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>qwerty</name>
+            <_description>qwerty</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
