@@ -5,6 +5,11 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=17110
 	* rules/base.xml.in, symbols/de: added de(qwerty)
 
+2008-11-06  Sergey Udaltsov
+
+	* rules/base.o_s.part, rules/base.xml.in, symbols/capslock: added
+	capslock(escape)
+
 2008-10-14  Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/keypad: removed
