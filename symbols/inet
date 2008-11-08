@@ -347,11 +347,9 @@ xkb_symbols "acpi" {
 partial alphanumeric_keys
 xkb_symbols "scorpius" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Reload		]	};
@@ -367,6 +365,7 @@ xkb_symbols "scorpius" {
 // Brother Internet Keyboard
 partial alphanumeric_keys
 xkb_symbols "brother" {
+    include "inet(acpi)"
     key <I10>	{	[ XF86ScrollUp		]	};
     key <I12>	{	[ XF86AudioPlay, XF86AudioPause ] };
     key <I17>	{	[ XF86AudioPrev		]	};
@@ -382,9 +381,6 @@ xkb_symbols "brother" {
     key <I2E>	{	[ XF86AudioNext		]	};
     key <I30>	{	[ XF86AudioRaiseVolume	]	};
     key <I32>	{	[ XF86ZoomIn		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
     key <I68>	{	[ XF86AudioLowerVolume	]	};
 };
 
@@ -394,6 +390,7 @@ xkb_symbols "brother" {
 // BTC 5113RF Multimedia
 partial alphanumeric_keys
 xkb_symbols "btc5113rf" {
+    include "inet(acpi)"
     key <I10>	{	[ XF86AudioStop		]	};
     key <I12>	{	[ XF86AudioMute		]	};
     key <I19>	{	[ XF86AudioPlay, XF86AudioPause ] };
@@ -406,9 +403,6 @@ xkb_symbols "btc5113rf" {
     key <I26>	{	[ XF86Back		]	};
     key <I30>	{	[ XF86WWW		]	};
     key <I32>	{	[ XF86Search		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
 };
 
 // BTC 5126T
@@ -430,6 +424,7 @@ xkb_symbols "btc6301urf" {
 // BTC 9000
 partial alphanumeric_keys
 xkb_symbols "btc9000" {
+    include "inet(acpi)"
     key <I10>	{	[ XF86AudioStop		]	};
     key <I12>	{	[ XF86AudioMute		]	};
     key <I19>	{	[ XF86AudioPlay, XF86AudioPause ] };
@@ -443,14 +438,12 @@ xkb_symbols "btc9000" {
     key <I2E>	{	[ XF86Mail		]	};
     key <I30>	{	[ XF86HomePage		]	};
     key <I32>	{	[ XF86Search		]	};
-    key <I5E>   {	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>   {	[ XF86WakeUp		]	};
 };
 
 // BTC 9000A
 partial alphanumeric_keys
 xkb_symbols "btc9000a" {
+    include "inet(acpi)"
     key <I10>	{	[ XF86AudioStop		]	};
     key <I12>	{	[ XF86AudioMute		]	};
     key <I19>	{	[ XF86AudioPlay, XF86AudioPause ] };
@@ -464,9 +457,6 @@ xkb_symbols "btc9000a" {
     key <I2E>	{	[ Help			]	};
     key <I30>	{	[ XF86WWW		]	};
     key <I32>	{	[ XF86Search		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
 };
 
 // BTC 9001AH
@@ -488,12 +478,10 @@ xkb_symbols "btc9001ah" {
 partial alphanumeric_keys
 xkb_symbols "btc5090" {
     include "inet(media_common)"
+    include "inet(acpi)"
     key <I26>   {       [ XF86Start             ]       };
     key <I32>   {       [ XF86WWW               ]       };
     key <I33>   {       [ XF86Eject             ]       };
-    key <I5E>   {       [ XF86PowerOff          ]       };
-    key <I5F>   {       [ XF86Standby           ]       };
-    key <I63>   {       [ XF86WakeUp            ]       };
     key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
 };
@@ -635,6 +623,7 @@ xkb_symbols "chicony0108" {
 // Chicony KB-9885
 partial alphanumeric_keys
 xkb_symbols "chicony9885" {
+    include "inet(acpi)"
     key <I12>	{	[ XF86AudioMute		]	};
     key <I17>	{	[ XF86Mail		]	};
     key <I19>	{	[ XF86AudioLowerVolume	]	};
@@ -649,9 +638,6 @@ xkb_symbols "chicony9885" {
     key <I2E>	{	[ XF86LaunchC		]	};
     key <I30>	{	[ XF86LaunchA		]	};
     key <I32>	{	[ XF86WWW		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
 };
 
 
@@ -849,11 +835,9 @@ xkb_symbols "dexxa" {
 partial alphanumeric_keys
 xkb_symbols "diamond" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Reload		]	};
@@ -871,11 +855,9 @@ xkb_symbols "dtk2000" {
     // Describes the extra keys on a DTK2000 Internet keyboard.
     // From Radics Laszlo <garaboncias@mailbox.hu>
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I21>   {       [ XF86Calculator        ]       };
     key <I32>   {       [ XF86HomePage          ]       };
-    key <I5E>   {       [ XF86PowerOff          ]       };
-    key <I5F>   {       [ XF86Sleep             ]       };
-    key <I63>   {       [ XF86WakeUp            ]       };
     key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
     key <I67>   {       [ XF86Refresh           ]       };
@@ -892,10 +874,8 @@ xkb_symbols "dtk2000" {
 partial alphanumeric_keys
 xkb_symbols "ennyah_dkb1008" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I32>	{	[ XF86HomePage		]	};
-    key <I5E>   {	[ XF86PowerOff		]	};
-    key <I5F>   {	[ XF86Standby		]	};
-    key <I63>   {	[ XF86WakeUp		]	};
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Refresh		]	};
@@ -1529,10 +1509,8 @@ xkb_symbols "mx2500" {
 partial alphanumeric_keys
 xkb_symbols "mx2750" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I32>	{	[ XF86Launch0		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I6C>	{	[ XF86Mail		]	};
@@ -1743,6 +1721,7 @@ xkb_symbols "microsoftmult" {
 // Oretec MCK-800 MM/Internet keyboard
 partial alphanumeric_keys
 xkb_symbols "oretec" {
+    include "inet(acpi)"
     key <I10>	{	[ XF86ScrollUp		]	};
     key <I12>	{	[ XF86AudioPlay, XF86AudioPause ] };
     key <I17>	{	[ XF86AudioPrev		]	};
@@ -1758,9 +1737,6 @@ xkb_symbols "oretec" {
     key <I2E>	{	[ XF86AudioNext		]	};
     key <I30>	{	[ XF86AudioRaiseVolume	]	};
     key <I32>	{	[ XF86ZoomIn		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
     key <I68>	{	[ XF86AudioLowerVolume	]	};
 };
 
@@ -1916,6 +1892,7 @@ xkb_symbols "sk7100" {
 // SVEN Ergonomic 2500
 partial alphanumeric_keys
 xkb_symbols "sven" {
+    include "inet(acpi)"
     key <I10>	{	[ XF86AudioPlay, XF86AudioPause ] };
     key <I12>	{	[ XF86Forward		]	};
     key <I17>	{	[ XF86AudioRaiseVolume	]	};
@@ -1936,10 +1913,7 @@ xkb_symbols "sven" {
     key <I30>	{	[ XF86Favorites		]	};
     key <I31>	{	[ XF86ScrollUp		]	};
     key <I32>	{	[ XF86ScrollDown	]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <I62>	{	[ XF86AudioNext		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
     key <I68>	{	[ XF86Back		]	};
 };
 
@@ -2027,6 +2001,7 @@ xkb_symbols "trustda" {
 // Yahoo! Internet Keyboard
 partial alphanumeric_keys
 xkb_symbols "yahoo" {
+    include "inet(acpi)"
     key <I11>	{	[ XF86AudioPrev		]	};
     key <I12>	{	[ XF86AudioPlay, XF86AudioPause ] };
     key <I1E>	{	[ XF86AudioStop		]	};
@@ -2040,9 +2015,6 @@ xkb_symbols "yahoo" {
     key <I26>	{	[ Help			]	};
     key <I27>	{	[ XF86Mail		]	};
     key <I28>	{	[ XF86WWW		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I63>	{	[ XF86WakeUp		]	};
 };
 
 // Super Power Internet Keyboard 
@@ -2050,10 +2022,8 @@ xkb_symbols "yahoo" {
 // Super Power Multimedia Keyboard 
 xkb_symbols "sp_inet" { 
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I32>	{	[ XF86HomePage		]	}; 
-    key <I5E>	{	[ XF86PowerOff		]	}; 
-    key <I5F>	{	[ XF86Standby		]	}; 
-    key <I63>	{	[ XF86WakeUp		]	};       
     key <I66>	{	[ XF86Favorites		]	}; 
     key <I67>	{	[ XF86Refresh		]	}; 
     key <I68>	{	[ XF86Stop		]	}; 
@@ -2073,6 +2043,7 @@ partial xkb_symbols "apple" {
     key <I57>   {       [ XF86Launch0		]	};
     key <I58>	{	[ XF86Launch1    	]	};
     key <I59>	{	[ XF86Launch2   	]	};
+    key <I5E>	{	[ XF86PowerOff          ]       };
     key <K5D>	{	[ F13 ]    };
     key <K5E>	{	[ F14 ]    };
     key <K5F>	{	[ F15 ]    };
@@ -2160,14 +2131,12 @@ xkb_symbols "emachines" {
 partial alphanumeric_keys
 xkb_symbols "benqx" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I02> { [ XF86ModeLock ] };
     key <I21> { [ XF86WWW      ]  };
     key <I2B> { [ XF86Go ] };
     key <I31> { [ XF86Calendar ] };
     key <I32> { [ XF86WWW ] };
-    key <I5E> { [ XF86PowerOff ]  };
-    key <I5F> { [ XF86ScreenSaver ] };
-    key <I63> { [ XF86WakeUp   ]  };
     key <I65> { [ XF86Search ] };
     key <I66> { [ XF86Favorites ] };
     key <I6C> { [ XF86Mail ] };
