@@ -1,3 +1,8 @@
+2008-11-20  Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added HP dv5
+	keyboard, thanks to Giuseppe Bilotta
+
 2008-11-18  Sergey Udaltsov
 
 	* symbols/it: fixing it(olpc),

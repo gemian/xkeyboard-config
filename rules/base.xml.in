@@ -492,6 +492,13 @@
     </model>
     <model>
       <configItem>
+        <name>hpdv5</name>
+        <_description>Hewlett-Packard Pavilion dv5</_description>
+        <vendor>Hewlett-Packard</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>hpzt11xx</name>
         <_description>Hewlett-Packard Pavilion ZT11xx</_description>
         <vendor>Hewlett-Packard</vendor>

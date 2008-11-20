@@ -1105,12 +1105,25 @@ xkb_symbols "hpzt11xx" {
     key <I74>	{	[ XF86Launch1		]	};
 };
 
+// Hewlett-Packard Pavilion dv5
+partial alphanumeric_keys
+xkb_symbols "hpdv5" {
+    // Describes the OneTouch buttons on HP Pavilion dv5 models.
+    // See http://sourceforge.net/projects/omke for details on enabling
+    // these keys
+    include "inet(media_common)"
+    key <I12>  {       [ XF86ScreenSaver       ]       };
+    key <I32>  {       [ XF86WWW               ]       };
+    key <I75>  {       [ Help                  ]       };
+    key <K6D>  {       [ XF86Launch1           ]       };
+};
+
 // Hewlett-Packard Omnibook XE4xxx and ZE4xxx
 partial alphanumeric_keys
 xkb_symbols "hpxe4xxx" {
     // Describes the OneTouch buttons on HP Omnibook XE4xxx and ZE4xxx
-    // See http://sourceforge.net/projects/omke for details on enabling
     // models.
+    // See http://sourceforge.net/projects/omke for details on enabling
     // these keys
     include "inet(media_common)"
     key <I32>	{	[ XF86WWW		]	};
@@ -1143,7 +1156,6 @@ xkb_symbols "hp5xx" {
 
 
 // Honeywell
-
 
 // Honeywell Euroboard
 partial alphanumeric_keys
