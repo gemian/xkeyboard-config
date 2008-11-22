@@ -26,6 +26,7 @@
   grp:alt_caps_toggle   =       +group(alt_caps_toggle)
   grp:ctrl_alt_toggle	=	+group(ctrl_alt_toggle)
   grp:alt_shift_toggle	=	+group(alt_shift_toggle)
+  grp:alt_space_toggle	=	+group(alt_space_toggle)
   grp:menu_toggle	=	+group(menu_toggle)
   grp:lwin_toggle	=	+group(lwin_toggle)
   grp:rwin_toggle	=	+group(rwin_toggle)

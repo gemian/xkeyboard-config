@@ -1,3 +1,9 @@
+2008-11-22  Sergey Udaltsov
+
+	* rules/base.o_s.part, rules/base.xml.in, symbols/group: added
+	grp(alt_space_toggle) option,
+	http://bugs.freedesktop.org/show_bug.cgi?id=15772
+
 2008-11-20  Sergey Udaltsov
 
 	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added HP dv5

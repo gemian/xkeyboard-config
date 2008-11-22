@@ -319,3 +319,10 @@ xkb_symbols "olpc" {
   key <I219>  { [ ISO_Next_Group, ISO_Prev_Group ] };
 };
 
+partial modifier_keys
+xkb_symbols "alt_space_toggle" {
+    key <SPCE> {
+    type[Group1]="PC_ALT_LEVEL2",
+    symbols[Group1]= [ space,   ISO_Next_Group ]
+    };
+};

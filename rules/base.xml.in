@@ -4148,6 +4148,12 @@
       </option>
       <option>
         <configItem>
+          <name>grp:alt_space_toggle</name>
+          <_description>Alt+Space change layout</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>grp:menu_toggle</name>
           <_description>Menu key changes layout</_description>
         </configItem>
