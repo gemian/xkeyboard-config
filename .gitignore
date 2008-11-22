@@ -75,3 +75,8 @@ rules/compat/base.ml_s.part
 rules/compat/base.mlv_s.part
 tests/mxkbledpanel/mxkbledpanel
 tests/mxkbledpanel/mxkbledpanel._man
+po/stamp-it
+rules/evdev
+rules/evdev.lst
+rules/evdev.xml
+rules/evdev.xml.in
