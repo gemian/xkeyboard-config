@@ -51,7 +51,7 @@ xkb_keycodes "goodmap" {
 xkb_keycodes "old" {
 
     minimum= 8;
-    maximum= 134;
+    maximum= 255;
 
     <ESC>  = 61;
     <TLDE> = 58;

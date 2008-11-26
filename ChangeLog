@@ -2,6 +2,10 @@
 
 	* keycodes/evdev: fixed ABNT2 keycodes,
 	http://bugs.freedesktop.org/show_bug.cgi?id=18712
+	* keycodes/amiga, keycodes/ataritt, keycodes/fujitsu,
+	keycodes/macintosh, keycodes/sgi_vndr/indigo, keycodes/sgi_vndr/indy,
+	keycodes/sun, keycodes/xfree98: set keycode ranges 8-255, universally,
+	https://bugs.freedesktop.org/show_bug.cgi?id=12538
 
 2008-11-22  Sergey Udaltsov
 
