@@ -248,6 +248,13 @@
     </model>
     <model>
       <configItem>
+        <name>cherrycmexpert</name>
+        <_description>Cherry CyMotion Expert</_description>
+        <vendor>Cherry</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>chicony</name>
         <_description>Chicony Internet Keyboard</_description>
         <vendor>Chicony</vendor>

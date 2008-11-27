@@ -588,6 +588,17 @@ xkb_symbols "cherrycyboard" {
     key <XFER>    {   [ XF86AudioMedia    ]   };
 };
 
+// Cherry CyMotion Expert
+partial alphanumeric_keys 
+xkb_symbols "cherrycmexpert" {
+    include "inet(cherryblueb)"
+    key <FK15>	{	[ XF86Mail		]	};
+    key <I5F>	{	[ XF86PowerOff		]	};
+    key <I66>	{	[ XF86HomePage		]	};
+    key <I67>	{	[ XF86Reload, XF86Refresh]	};
+    key <I6B>	{	[ XF86MyComputer	]	};
+};
+
 
 // Chicony
 
