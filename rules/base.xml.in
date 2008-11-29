@@ -4772,5 +4772,23 @@
        </configItem>
       </option>
     </group>
+    <group allowMultipleSelection="false">
+      <configItem>
+        <name>esperanto</name>
+        <_description>Adding Esperanto circumflexes (supersigno)</_description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>esperanto:qwerty</name>
+          <_description>Add circumflexes (supersigno) to the corresponding key in a Qwerty keyboard.</_description>
+       </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>esperanto:dvorak</name>
+          <_description>Add circumflexes (supersigno) to the corresponding key in a Dvorak keyboard.</_description>
+       </configItem>
+      </option>
+    </group>
   </optionList>
 </xkbConfigRegistry>

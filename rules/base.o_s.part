@@ -93,4 +93,6 @@
   kpdl:kposs            =	+kpdl(kposs)
   kpdl:semi             =	+kpdl(semi)
   shift:breaks_caps     =	+shift(breaks_caps)
+  esperanto:qwerty      =	+epo(qwerty)
+  esperanto:dvorak      =	+epo(dvorak)
 
