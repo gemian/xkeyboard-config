@@ -1,3 +1,8 @@
+2008-11-29  Sergey Udaltsov
+
+	* compat/level5: finally using Level5 characters,
+	https://bugs.freedesktop.org/show_bug.cgi?id=4411
+
 2008-11-27  Sergey Udaltsov
 
 	* ChangeLog, rules/base.lists.part, rules/base.xml.in, symbols/inet:
