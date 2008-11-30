@@ -1002,11 +1002,12 @@ xkb_symbols "hpi6" {
     key <I75>   {       [ Help                  ]       };
 };
 
-// Hewlett-Packard SK-2501 Multimedia Keyboard
+// Hewlett-Packard SK-2501, SK-2505 Multimedia Keyboard
 partial alphanumeric_keys
-xkb_symbols "hp2501" {
+xkb_symbols "hp250x" {
     key <I12>	{	[ XF86Tools		]	};
     key <I17>	{	[ XF86Search		]	};
+    key <I18>	{	[ XF86Eject		]	};
     key <I1E>	{	[ XF86Mail		]	};
     key <I20>	{	[ XF86AudioMute		]	};
     key <I21>	{	[ XF86Launch5		]	};
@@ -1017,16 +1018,6 @@ xkb_symbols "hp2501" {
     key <I26>	{	[ Help			]	};
     key <I2E>	{	[ XF86AudioLowerVolume	]	};
     key <I30>	{	[ XF86AudioRaiseVolume	]	};
-    key <I32>	{	[ XF86WWW		]	};
-};
-
-// Hewlett-Packard SK-2505 Internet Keyboard
-partial alphanumeric_keys
-xkb_symbols "hp2505" {
-    include "inet(media_common)"
-    key <I18>	{	[ XF86Eject		]	};
-    key <I1E>	{	[ XF86Mail		]	};
-    key <I25>	{	[ XF86Standby		]	};
     key <I32>	{	[ XF86WWW		]	};
 };
 

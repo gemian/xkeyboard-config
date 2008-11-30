@@ -464,15 +464,8 @@
     </model>
     <model>
       <configItem>
-        <name>hp2501</name>
-        <_description>Hewlett-Packard SK-2501 Multimedia Keyboard</_description>
-        <vendor>Hewlett-Packard</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-        <name>hp2505</name>
-        <_description>Hewlett-Packard SK-2505 Internet Keyboard</_description>
+        <name>hp250x</name>
+        <_description>Hewlett-Packard SK-250x Multimedia Keyboard</_description>
         <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
