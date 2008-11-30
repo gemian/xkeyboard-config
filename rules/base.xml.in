@@ -527,20 +527,6 @@
     </model>
     <model>
       <configItem>
-        <name>hp5181</name>
-        <_description>Hewlett-Packard Internet Keyboard 5181</_description>
-        <vendor>Hewlett-Packard</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-        <name>hp5185</name>
-        <_description>Hewlett-Packard Internet Keyboard 5185</_description>
-        <vendor>Hewlett-Packard</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>hpnx9020</name>
         <_description>Hewlett-Packard nx9020</_description>
         <vendor>Hewlett-Packard</vendor>

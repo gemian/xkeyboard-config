@@ -984,9 +984,22 @@ xkb_symbols "gyration" {
 partial alphanumeric_keys 
 xkb_symbols "hpi6" {
     include "inet(media_common)"
+    key <I02>   {       [ XF86WWW               ]       };
     key <I12>	{	[ XF86Search		]	};
+    key <I14>	{	[ XF86VendorHome	]	};
+    key <I15>	{	[ XF86Community		]	};
+    key <I16>	{	[ XF86AudioMedia	]	};
+    key <I18>	{	[ XF86Eject		]	};
+    key <I1E>	{	[ XF86Shop		]	};
+    key <I1F>	{	[ XF86Launch1		]	};
     key <I26>	{	[ Help			]	};
+    key <I27>	{	[ XF86Finance		]	};
+    key <I32>	{	[ XF86HomePage		]	};
+    key <I39>	{	[ Print			]	};
     key <I5F>	{	[ XF86Standby		]	};
+    key <I65>   {       [ XF86Search            ]       };
+    key <I6C>	{	[ XF86Mail		]	};
+    key <I75>   {       [ Help                  ]       };
 };
 
 // Hewlett-Packard SK-2501 Multimedia Keyboard
@@ -1015,47 +1028,6 @@ xkb_symbols "hp2505" {
     key <I1E>	{	[ XF86Mail		]	};
     key <I25>	{	[ XF86Standby		]	};
     key <I32>	{	[ XF86WWW		]	};
-};
-
-// Hewlett-Packard 5181 Internet Keyboard
-partial alphanumeric_keys
-xkb_symbols "hp5181" {
-    include "inet(media_common)"
-    key <I12>	{	[ XF86Search		]	};
-    key <I14>	{	[ XF86VendorHome	]	};
-    key <I15>	{	[ XF86Community		]	};
-    key <I16>	{	[ XF86AudioMedia	]	};
-    key <I18>	{	[ XF86Eject		]	};
-    key <I1E>	{	[ XF86Shop		]	};
-    key <I1F>	{	[ XF86Launch1		]	};
-    key <I26>	{	[ Help			]	};
-    key <I27>	{	[ XF86Finance		]	};
-    key <I32>	{	[ XF86HomePage		]	};
-    key <I39>	{	[ Print			]	};
-    key <I5F>	{	[ XF86Standby		]	};
-    key <I6C>	{	[ XF86Mail		]	};
-};
-
-// Hewlett-Packard 5185 Internet Keyboard
-partial alphanumeric_keys
-xkb_symbols "hp5185" {
-    include "inet(media_common)"
-    key <I02>   {       [ XF86WWW               ]       };
-    key <I12>   {       [ XF86Go                ]       };
-    key <I14>   {       [ XF86VendorHome        ]       };
-    key <I15>   {       [ XF86Community         ]       };
-    key <I16>   {       [ XF86AudioMedia        ]       };
-    key <I18>   {       [ XF86Eject             ]       };
-    key <I1E>   {       [ XF86Shop              ]       };
-    key <I1F>   {       [ XF86Pictures          ]       };
-    key <I26>   {       [ Help                  ]       };
-    key <I27>   {       [ XF86Finance           ]       };
-    key <I32>   {       [ XF86WWW               ]       };
-    key <I39>   {       [ Print                 ]       };
-    key <I5F>   {       [ XF86Standby           ]       };
-    key <I65>   {       [ XF86Search            ]       };
-    key <I6C>   {       [ XF86Mail              ]       };
-    key <I75>   {       [ Help                  ]       };
 };
 
 // Hewlett-Packard Omnibook XE3 GC, GD, GE and Pavilion N5xxx
