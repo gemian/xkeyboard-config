@@ -198,7 +198,6 @@ xkb_symbols "a4_rfkb23" {
     include "inet(media_common)"
     key <I21>   {       [ XF86Calculator                ]       };
     key <I32>   {       [ XF86HomePage                  ]       };
-    key <I32>   {       [ XF86WWW                       ]       };
     key <I5F>   {       [ XF86Sleep                     ]       };
     key <I65>   {       [ XF86Search                    ]       };
     key <I66>   {       [ XF86Favorites                 ]       };
@@ -1231,25 +1230,6 @@ xkb_symbols "rapidaccess2" {
     key <I30>	{	[ XF86MyComputer	]	};
     key <I32>	{	[ XF86VendorHome	]	};
     key <I5F>	{	[ XF86Standby		]	};
-};
-
-// IBM Rapid Access II (alternate option)
-partial alphanumeric_keys
-xkb_symbols "rapidaccess2a" {
-    key <I12>	{	[ XF86AudioNext		]	};
-    key <I17>	{	[ XF86Favorites		]	};
-    key <I1E>	{	[ XF86AudioMute		]	};
-    key <I20>	{	[ XF86AudioStop		]	};
-    key <I21>	{	[ XF86AudioLowerVolume	]	};
-    key <I22>	{	[ XF86AudioPlay, XF86AudioPause ] };
-    key <I23>	{	[ XF86AudioRaiseVolume	]	};
-    key <I24>	{	[ XF86AudioPrev		]	};
-    key <I25>	{	[ XF86WWW		]	};
-    key <I26>	{	[ XF86Shop		]	};
-    key <I2E>	{	[ Help			]	};
-    key <I30>	{	[ XF86Option		]	};
-    key <I32>	{	[ XF86VendorHome	]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <MENU>	{	[ Menu			]	};
 };
 
@@ -2054,7 +2034,8 @@ xkb_symbols "sp_inet" {
 };
 
 // Apple keyboards (macbooks, powerbooks, powermac G5, etc)
-partial xkb_symbols "apple" {
+partial alphanumeric_keys
+xkb_symbols "apple" {
 // Really brightness up/down
     key <II65>  {       [ XF86BrightnessAdjust  ]       };
     key <I54>   {       [ XF86BrightnessAdjust  ]       };

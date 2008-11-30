@@ -576,13 +576,6 @@
     </model>
     <model>
       <configItem>
-        <name>rapidaccess2a</name>
-        <_description>IBM Rapid Access II (alternate option)</_description>
-        <vendor>IBM</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>thinkpad</name>
         <_description>IBM ThinkPad 560Z/600/600E/A22E</_description>
         <vendor>IBM</vendor>
