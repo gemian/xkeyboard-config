@@ -1,3 +1,8 @@
+2008-11-30  Sergey Udaltsov
+
+	* symbols/gr: added ralt switch to Greek default layout,
+	http://bugs.freedesktop.org/show_bug.cgi?id=18819
+
 2008-11-29  Sergey Udaltsov
 
 	* compat/level5: finally using Level5 characters,
