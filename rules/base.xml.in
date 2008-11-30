@@ -4074,7 +4074,13 @@
       <option>
         <configItem>
           <name>grp:shift_caps_switch</name>
-          <_description>CapsLock switch to first layout, Shift+CapsLock switch to last layout</_description>
+          <_description>CapsLock switches to first layout, Shift+CapsLock switch to last layout</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>grp:win_menu_switch</name>
+          <_description>LWIN switches to first layout, RWIN/MENU switch to last layout.</_description>
         </configItem>
       </option>
       <option>

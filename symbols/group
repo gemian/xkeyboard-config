@@ -135,6 +135,26 @@ xkb_symbols "shift_caps_switch" {
     key <CAPS> { [ ISO_First_Group, ISO_Last_Group ] };
 };
 
+// using the group(win_menu_switch) map, pressing:
+// LWIN selects the first group
+// RWIN or MENU selects the last group
+partial modifier_keys
+xkb_symbols "win_menu_switch" {
+    virtual_modifiers AltGr;
+    key <LWIN> {
+        virtualMods= AltGr,
+        symbols[Group1] = [ ISO_First_Group ]
+    };
+    key <MENU> {
+        virtualMods= AltGr,
+        symbols[Group1] = [ ISO_Last_Group ]
+    };
+    key <RWIN> {
+        virtualMods= AltGr,
+        symbols[Group1] = [ ISO_Last_Group ]
+    };
+};
+
 // using the group(ctrl_alt_toggle) map, pressing:
 //     Control_L+Alt_L locks the previous group
 //     Control_R+Alt_R locks the next group
