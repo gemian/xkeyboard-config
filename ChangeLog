@@ -1,3 +1,8 @@
+2008-12-12  Sergey Udaltsov
+
+	* symbols/fr: fixed bepo variant,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17821
+
 2008-11-30  Sergey Udaltsov
 
 	* symbols/gr: added ralt switch to Greek default layout,
