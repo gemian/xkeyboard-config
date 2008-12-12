@@ -1113,6 +1113,13 @@
         <vendor>Sun Microsystems</vendor>
       </configItem>
     </model>
+    <model>
+      <configItem>
+        <name>targa_v811</name>
+        <_description>Targa Visionary 811</_description>
+        <vendor>Targa</vendor>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>

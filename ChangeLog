@@ -4,6 +4,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=17821
 	* symbols/ara: restoring presentation forms,
 	http://bugs.freedesktop.org/show_bug.cgi?id=18833
+	* rules/base.xml.in, rules/base.m_s.part: added targa_v811 model,
+	https://bugs.freedesktop.org/show_bug.cgi?id=5722
 
 2008-11-30  Sergey Udaltsov
 
