@@ -3267,6 +3267,13 @@
             <languageList><iso639Id>sah</iso639Id></languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>xal</name>
+            <_description>Kalmyk</_description>
+            <languageList><iso639Id>xal</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

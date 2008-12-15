@@ -368,3 +368,45 @@ xkb_symbols "sah" {
 
     include "level3(ralt_switch)"
 };
+
+
+//Kalmyk language layout
+//based on the Kalmyk language layout: http://soft.oyrat.org/
+//Nikolay Korneev <halmg@oyrat.org>
+//Toli Miron <mirontoli@gmail.com>
+        
+partial alphanumeric_keys
+xkb_symbols "xal" {
+    include "ru(winkeys)"
+
+    name[Group1]= "Russia - Kalmyk";
+
+    key.type[group1]="FOUR_LEVEL";
+
+    key <AE01> {        [                     question,                  exclam,               1      ]       };
+    key <AE02> {        [      	            numerosign,                quotedbl,               2      ]       };
+    key <AE03> {        [      Cyrillic_u_straight_bar, Cyrillic_U_straight_bar,               3      ]       };
+    key <AE04> {        [               Cyrillic_schwa,          Cyrillic_SCHWA,               4      ]       }; 
+    key <AE05> {        [                     asterisk,                 percent,               5      ]       };
+    key <AE06> {        [        Cyrillic_en_descender,   Cyrillic_EN_descender,               6      ]       };
+    key <AE07> {        [               Cyrillic_o_bar,          Cyrillic_O_bar,               7      ]       }; 
+    key <AE08> {        [                Cyrillic_shha,           Cyrillic_SHHA,               8      ]       }; 
+    key <AE09> {        [                   0x01000497,              0x01000496,               9      ]       }; //Zhje
+    key <AE10> {        [                    semicolon,                   colon,               0      ]       };
+
+    key <TLDE> {        [                    parenleft,               parenright, Cyrillic_io, Cyrillic_IO    ]       };
+
+    key <AD02> {        [                 Cyrillic_tse,             Cyrillic_TSE,         dollar      ]       };
+    key <AD03> {        [                   Cyrillic_u,               Cyrillic_U,       EuroSign      ]       }; 
+    key <AD04> {        [                  Cyrillic_ka,              Cyrillic_KA,     registered      ]       }; 
+    key <AD05> {        [                  Cyrillic_ie,              Cyrillic_IE,      trademark      ]       }; 
+    key <AD11> {        [                  Cyrillic_ha,              Cyrillic_HA,    bracketleft      ]       }; 
+    key <AD12> {        [            Cyrillic_hardsign,        Cyrillic_HARDSIGN,   bracketright      ]       };
+    key <AC11> {        [                   Cyrillic_e,               Cyrillic_E,     apostrophe      ]       };
+    key <AB03> {        [                  Cyrillic_es,              Cyrillic_ES,      copyright      ]       }; 
+    key <AB08> {        [                  Cyrillic_be,              Cyrillic_BE,           less      ]       };
+    key <AB09> {        [                  Cyrillic_yu,              Cyrillic_YU,        greater      ]       };
+
+    include "level3(ralt_switch)"
+};
+        
