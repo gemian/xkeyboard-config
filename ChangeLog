@@ -1,3 +1,9 @@
+2008-12-17  Sergey Udaltsov
+
+	* symbols/capslock, symbols/compose, symbols/ctrl: fix lock modifier
+	for jp, making "CAPS" replace key,
+	http://bugs.freedesktop.org/show_bug.cgi?id=8805
+
 2008-12-15  Sergey Udaltsov
 
 	* symbols/ru: added Kalmyk variant, thanks to Anatoly Mironov and
