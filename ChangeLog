@@ -1,3 +1,9 @@
+2008-12-18  Sergey Udaltsov
+
+	* keycodes/macintosh, rules/base.m_k.part, rules/base.o_k.part:
+	dropped the goodmap and badmap keycodes for apple - needed for a very
+	old kernels only. http://bugs.freedesktop.org/show_bug.cgi?id=9095
+	
 2008-12-17  Sergey Udaltsov
 
 	* symbols/capslock, symbols/compose, symbols/ctrl: fix lock modifier
