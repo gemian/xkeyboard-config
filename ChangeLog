@@ -8,6 +8,8 @@
 	model http://bugs.freedesktop.org/show_bug.cgi?id=9772
 	* symbols/inet: changing globally XF86Refresh to XF86Reload,
 	http://bugs.freedesktop.org/show_bug.cgi?id=10751
+	* COPYING: added missing copyright notices,
+	http://bugs.freedesktop.org/show_bug.cgi?id=11095
 
 2008-12-18  Sergey Udaltsov
 
