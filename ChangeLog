@@ -1,3 +1,8 @@
+2008-12-21  Sergey Udaltsov
+
+	* docs/README.enhancing: fixing the location of XKB proto docs,
+	http://bugs.freedesktop.org/show_bug.cgi?id=9764
+
 2008-12-18  Sergey Udaltsov
 
 	* keycodes/macintosh, rules/base.m_k.part, rules/base.o_k.part:
