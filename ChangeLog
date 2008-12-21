@@ -2,6 +2,8 @@
 
 	* docs/README.enhancing: fixing the location of XKB proto docs,
 	http://bugs.freedesktop.org/show_bug.cgi?id=9764
+	* rules/base.xml.in, symbols/be: added oss variants,
+	http://bugs.freedesktop.org/show_bug.cgi?id=8854
 
 2008-12-18  Sergey Udaltsov
 

@@ -1444,6 +1444,24 @@
       <variantList>
         <variant>
           <configItem>
+            <name>oss</name>
+            <_description>Alternative</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>oss_latin9</name>
+            <_description>Alternative, latin-9 only</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>oss_sundeadkeys</name>
+            <_description>Alternative, Sun dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>iso-alternate</name>
             <_description>ISO Alternate</_description>
           </configItem>
