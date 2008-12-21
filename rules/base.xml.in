@@ -842,6 +842,13 @@
     </model>
     <model>
       <configItem>
+        <name>microsoftccurve2k</name> 
+        <_description>Microsoft Comfort Curve Keyboard 2000</_description>
+        <vendor>Microsoft Inc.</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>oretec</name>
         <_description>Ortek MCK-800 MM/Internet keyboard</_description>
         <vendor>Ortek</vendor>

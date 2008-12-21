@@ -26,5 +26,6 @@
   logiciink     =       +inet(logicink)
   $maclaptop    =       +inet(apple)+level3(enter_switch)
   $macs	        =       +inet(apple)
+  microsoftccurve2k =   +inet(microsoftprooem)
   targa_v811    =       +inet(a4techKBS8)
   thinkpadz60   =       +inet(thinkpad60)
