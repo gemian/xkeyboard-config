@@ -6,6 +6,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=8854
 	* rules/base.m_s.part, rules/base.xml.in: added microsoftccurve2k
 	model http://bugs.freedesktop.org/show_bug.cgi?id=9772
+	* symbols/inet: changing globally XF86Refresh to XF86Reload,
+	http://bugs.freedesktop.org/show_bug.cgi?id=10751
 
 2008-12-18  Sergey Udaltsov
 

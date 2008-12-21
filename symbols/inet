@@ -113,7 +113,7 @@ xkb_symbols "evdev" {
 //  key <I178>   {      [ ]       }; // KEY_ISO
     key <I179>   {      [ XF86Tools             ]       };
     key <I180>   {      [ XF86HomePage          ]       };
-    key <I181>   {      [ XF86Refresh           ]       };
+    key <I181>   {      [ XF86Reload           ]       };
     key <I182>   {      [ XF86Close             ]       };
 //  key <I183>   {      [ ]       }; // KEY_MOVE
 //  key <I184>   {      [ ]       }; // KEY_EDIT
@@ -177,7 +177,7 @@ xkb_symbols "a4techKB21" {
     key <I32>   {       [ XF86HomePage          ]       };
     key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
-    key <I67>   {       [ XF86Refresh           ]       };
+    key <I67>   {       [ XF86Reload           ]       };
     key <I68>   {       [ XF86Stop              ]       };
     key <I6B>   {       [ XF86MyComputer        ]       };
     key <I6C>   {       [ XF86Mail              ]       };
@@ -201,7 +201,7 @@ xkb_symbols "a4_rfkb23" {
     key <I5F>   {       [ XF86Sleep                     ]       };
     key <I65>   {       [ XF86Search                    ]       };
     key <I66>   {       [ XF86Favorites                 ]       };
-    key <I67>   {       [ XF86Refresh                   ]       };
+    key <I67>   {       [ XF86Reload                   ]       };
     key <I68>   {       [ XF86Stop                      ]       };
 // should they be swapped?
     key <I69>   {       [ XF86Back                      ]       };
@@ -594,7 +594,7 @@ xkb_symbols "cherrycmexpert" {
     key <FK15>	{	[ XF86Mail		]	};
     key <I5F>	{	[ XF86PowerOff		]	};
     key <I66>	{	[ XF86HomePage		]	};
-    key <I67>	{	[ XF86Reload, XF86Refresh]	};
+    key <I67>	{	[ XF86Reload		]	};
     key <I6B>	{	[ XF86MyComputer	]	};
 };
 
@@ -776,7 +776,7 @@ xkb_symbols "geniuskb19e" {
     key <I5F>   {      [ XF86Sleep             ]       };
     key <I65>   {      [ XF86Search            ]       };
     key <I66>   {      [ XF86Favorites         ]       };
-    key <I67>   {      [ XF86Refresh           ]       };
+    key <I67>   {      [ XF86Reload           ]       };
     key <I68>   {      [ XF86Stop              ]       };
     key <I6B>   {      [ XF86MyComputer        ]       };
     key <I6C>   {      [ XF86Mail              ]       };
@@ -870,7 +870,7 @@ xkb_symbols "dtk2000" {
     key <I32>   {       [ XF86HomePage          ]       };
     key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
-    key <I67>   {       [ XF86Refresh           ]       };
+    key <I67>   {       [ XF86Reload           ]       };
     key <I68>   {       [ XF86Stop              ]       };
     key <I6B>   {       [ XF86MyComputer        ]       };
     key <I6C>   {       [ XF86Mail              ]       };
@@ -888,7 +888,7 @@ xkb_symbols "ennyah_dkb1008" {
     key <I32>	{	[ XF86HomePage		]	};
     key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
-    key <I67>	{	[ XF86Refresh		]	};
+    key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <XFER>  {	[ XF86AudioMedia	]	};
@@ -953,7 +953,7 @@ xkb_symbols "geniuscomfy2" {
     key <I23>   {       [ Return                ]       };
     key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
-    key <I67>   {       [ XF86Refresh           ]       };
+    key <I67>   {       [ XF86Reload           ]       };
     key <I68>   {       [ XF86Stop              ]       };
 };
 
@@ -1991,7 +1991,7 @@ xkb_symbols "sp_inet" {
     include "inet(acpi)"
     key <I32>	{	[ XF86HomePage		]	}; 
     key <I66>	{	[ XF86Favorites		]	}; 
-    key <I67>	{	[ XF86Refresh		]	}; 
+    key <I67>	{	[ XF86Reload		]	}; 
     key <I68>	{	[ XF86Stop		]	}; 
     key <I6C>	{	[ XF86Mail		]	}; 
 };
