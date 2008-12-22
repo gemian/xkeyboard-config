@@ -1127,6 +1127,13 @@
         <vendor>Targa</vendor>
       </configItem>
     </model>
+    <model>
+      <configItem>
+        <name>unitek_kb1925</name>
+        <_description>KB-1925</_description>
+        <vendor>Unitek Group</vendor>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>

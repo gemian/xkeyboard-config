@@ -2170,3 +2170,21 @@ xkb_symbols "classmate" {
     key <I30>   {       [ XF86AudioRaiseVolume  ] };
 };
 
+// Unitek
+
+partial alphanumeric_keys
+xkb_symbols "unitek_kb1925" {
+    include "inet(media_nav_common)"
+    key <I0C> { [ XF86AudioMute ] };
+    key <I11> { [ XF86PowerOff ] };
+    key <I12> { [ XF86Sleep ] };
+    key <I16> { [ XF86WakeUp ] };
+    key <I18> { [ XF86Search ] };
+    key <I1A> { [ XF86Reload ] };
+    key <I21> { [ XF86Calculator ] };
+    key <I32> { [ XF86HomePage ] };
+    key <I6B> { [ XF86MyComputer ] };
+    key <I6C> { [ XF86Mail ] };
+    key <I6D> { [ XF86AudioMedia ] };
+};
+

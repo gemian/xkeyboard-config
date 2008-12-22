@@ -10,6 +10,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=10751
 	* COPYING: added missing copyright notices,
 	http://bugs.freedesktop.org/show_bug.cgi?id=11095
+	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added model
+	unitek_kb1925, http://bugs.freedesktop.org/show_bug.cgi?id=11579
 
 2008-12-18  Sergey Udaltsov
 
