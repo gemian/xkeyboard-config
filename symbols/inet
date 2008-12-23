@@ -36,8 +36,9 @@ xkb_symbols "media_common" {
 // popular web navigation combination
 partial hidden alphanumeric_keys
 xkb_symbols "nav_common" {
-    key <I69>   {       [ XF86Forward           ]       };
-    key <I6A>   {       [ XF86Back              ]       };
+    key <I65>   {       [ XF86Search            ] };
+    key <I69>   {       [ XF86Forward           ] };
+    key <I6A>   {       [ XF86Back              ] };
 };
 
 partial hidden alphanumeric_keys
@@ -176,7 +177,6 @@ partial alphanumeric_keys
 xkb_symbols "a4techKB21" {
     include "inet(media_nav_common)"
     key <I32>   {       [ XF86HomePage          ]       };
-    key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
     key <I67>   {       [ XF86Reload           ]       };
     key <I68>   {       [ XF86Stop              ]       };
@@ -196,18 +196,13 @@ xkb_symbols "a4techKBS8" {
 // A4Tech Wireless Desktop (RFKB-23)
 partial alphanumeric_keys
 xkb_symbols "a4_rfkb23" {
-    include "inet(media_common)"
+    include "inet(media_nav_common)"
     key <I21>   {       [ XF86Calculator                ]       };
     key <I32>   {       [ XF86HomePage                  ]       };
     key <I5F>   {       [ XF86Sleep                     ]       };
-    key <I65>   {       [ XF86Search                    ]       };
     key <I66>   {       [ XF86Favorites                 ]       };
     key <I67>   {       [ XF86Reload                   ]       };
     key <I68>   {       [ XF86Stop                      ]       };
-// should they be swapped?
-    key <I69>   {       [ XF86Back                      ]       };
-    key <I6A>   {       [ XF86Forward                   ]       };
-
     key <I6B>   {       [ XF86MyComputer                ]       };
     key <I6C>   {       [ XF86Mail                      ]       };
     key <I6D>   {       [ XF86AudioMedia                ]       };
@@ -325,7 +320,6 @@ xkb_symbols "azonaRF2300" {
     key <I26>   {       [ XF86AudioMute         ]       };
     key <I3C>   {       [ XF86Copy              ]       };
     key <I5F>   {       [ XF86Standby           ]       };
-    key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
     key <I6C>   {       [ XF86Mail              ]       };
     key <I78>   {       [ XF86Cut               ]       };
@@ -350,7 +344,6 @@ xkb_symbols "scorpius" {
     include "inet(acpi)"
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
@@ -515,7 +508,6 @@ xkb_symbols "cherryblue" {
     key <I25>	{	[ XF86AudioLowerVolume	]	};
     key <I26>	{	[ XF86AudioMute		]	};
     key <I63>	{	[ XF86Standby		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86MyComputer	]	};
     key <I68>	{	[ XF86Stop		]	};
     key <I6C>	{	[ XF86Mail		]	};
@@ -543,7 +535,6 @@ xkb_symbols "cherryblueb" {
     key <I2C>   {       [ XF86Book              ]       };
     key <I32>   {       [ XF86Finance           ]       };
     key <I63>   {       [ XF86Standby                   ] };
-    key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86MyComputer        ]       };
     key <I67>   {       [ XF86AudioRewind       ]       };
     key <I68>   {       [ XF86Stop              ]       };
@@ -563,7 +554,6 @@ xkb_symbols "cherrybluea" {
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
     key <I5F>	{	[ XF86Standby		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86MyComputer	]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
@@ -775,7 +765,6 @@ xkb_symbols "geniuskb19e" {
     key <I21>   {      [ XF86Calculator        ]       };
     key <I32>   {      [ XF86HomePage          ]       };
     key <I5F>   {      [ XF86Sleep             ]       };
-    key <I65>   {      [ XF86Search            ]       };
     key <I66>   {      [ XF86Favorites         ]       };
     key <I67>   {      [ XF86Reload           ]       };
     key <I68>   {      [ XF86Stop              ]       };
@@ -849,7 +838,6 @@ xkb_symbols "diamond" {
     include "inet(acpi)"
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
@@ -869,7 +857,6 @@ xkb_symbols "dtk2000" {
     include "inet(acpi)"
     key <I21>   {       [ XF86Calculator        ]       };
     key <I32>   {       [ XF86HomePage          ]       };
-    key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
     key <I67>   {       [ XF86Reload           ]       };
     key <I68>   {       [ XF86Stop              ]       };
@@ -887,7 +874,6 @@ xkb_symbols "ennyah_dkb1008" {
     include "inet(media_nav_common)"
     include "inet(acpi)"
     key <I32>	{	[ XF86HomePage		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
@@ -952,7 +938,6 @@ xkb_symbols "geniuscomfy2" {
     // From Radics Laszlo <garaboncias@mailbox.hu>
     include "inet(geniuscomfy)"
     key <I23>   {       [ Return                ]       };
-    key <I65>   {       [ XF86Search            ]       };
     key <I66>   {       [ XF86Favorites         ]       };
     key <I67>   {       [ XF86Reload           ]       };
     key <I68>   {       [ XF86Stop              ]       };
@@ -972,7 +957,6 @@ xkb_symbols "gyration" {
     key <I24>	{	[ XF86AudioPrev		]	};
     key <I25>	{	[ XF86AudioLowerVolume	]	};
     key <I26>	{	[ XF86AudioMute		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I68>	{	[ XF86Stop		]	};
     key <I6C>	{	[ XF86Mail		]	};
@@ -1238,7 +1222,6 @@ xkb_symbols "logitech_base" {
     key <I57> { [ XF86Pictures ] };
     key <I58> { [ XF86Music ] };
     key <I5F> { [ XF86Standby ] };
-    key <I65> { [ XF86Search ] };
     key <I66> {	[ XF86Favorites	] };
     key <I6C> { [ XF86Mail ] };
     key <I6D> { [ XF86AudioMedia ] };
@@ -1273,7 +1256,6 @@ xkb_symbols "logiaccess" {
     key <FK14>	{	[ XF86Send		]	}; 
     key <I11>	{	[ XF86Messenger		]	};
     key <I12>	{	[ XF86WebCam		]	};
-    key <I65>	{	[ XF86Search		]	}; 
 };
 
 // Logitech Cordless Desktop (alternate option)
@@ -1477,7 +1459,6 @@ xkb_symbols "mx2750" {
     include "inet(media_nav_common)"
     include "inet(acpi)"
     key <I32>	{	[ XF86Launch0		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I6C>	{	[ XF86Mail		]	};
 };
@@ -1501,7 +1482,6 @@ xkb_symbols "microsoft7000" {
     key <I5A>	{	[ XF86Send		]	};
     key <I62>	{	[ Help			]	};
     key <I64>	{	[ XF86Reply		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <I76>	{	[ parenleft		]	};
@@ -1519,7 +1499,6 @@ xkb_symbols "microsoftinet" {
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86WWW		]	};
     key <I5F>	{	[ XF86Standby		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I68>	{	[ XF86AudioStop		]	};
     key <I6B>	{	[ XF86MyComputer	]	};
@@ -1533,7 +1512,6 @@ xkb_symbols "microsoftpro" {
     key <I21>	{	[ XF86Calculator	]	};
     key <I32>	{	[ XF86HomePage		]	};
     key <I5F>	{	[ XF86Standby		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I67>	{	[ XF86Reload		]	};
     key <I68>	{	[ XF86Stop		]	};
@@ -1561,7 +1539,6 @@ partial alphanumeric_keys
      key <I25>   {   [ XF86AudioLowerVolume   ]   };  
      key <I26>   {   [ XF86AudioMute      ]   };  
      key <I63>   {   [ XF86Standby      ]   };  
-     key <I65>   {   [ XF86Search      ]   };  
      key <I66>   {   [ XF86Favorites      ]   };  
      key <I68>   {   [ XF86Stop      ]   };  
      key <I6C>   {   [ XF86Mail      ]   };  
@@ -1605,7 +1582,6 @@ xkb_symbols "microsoftprose" {
     key <I25>	{	[ XF86AudioLowerVolume	]	};
     key <I26>	{	[ XF86AudioMute		]	};
     key <I63>	{	[ XF86Standby		]	};
-    key <I65>	{	[ XF86Search		]	};
     key <I66>	{	[ XF86Favorites		]	};
     key <I68>	{	[ XF86AudioStop		]	};
     key <I6C>	{	[ XF86Mail		]	};
@@ -2103,7 +2079,6 @@ xkb_symbols "benqx" {
     key <I2B> { [ XF86Go ] };
     key <I31> { [ XF86Calendar ] };
     key <I32> { [ XF86WWW ] };
-    key <I65> { [ XF86Search ] };
     key <I66> { [ XF86Favorites ] };
     key <I6C> { [ XF86Mail ] };
     key <I6D> { [ XF86AudioMedia ] };
