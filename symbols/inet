@@ -23,6 +23,7 @@
 // Very common set of media keys
 partial hidden alphanumeric_keys
 xkb_symbols "media_common" {
+    key <I01>   {       [ XF86AudioMedia        ] }; 
     key <I10>   {       [ XF86AudioPrev         ] };
     key <I19>   {       [ XF86AudioNext         ] };
     key <I20>   {       [ XF86AudioMute         ] };
@@ -1225,7 +1226,6 @@ partial alphanumeric_keys
 xkb_symbols "logitech_base" {
 
     include "inet(media_nav_common)"
-    key <I01> {	[ XF86AudioMedia ] };
     key <I02> { [ XF86WWW ] };
     key <I15> { [ XF86Community ] };
     key <I16> { [ XF86ScrollClick ] };
@@ -1577,7 +1577,6 @@ partial alphanumeric_keys
 xkb_symbols "microsoftprooem" { 
     include "inet(media_nav_common)"
     key <FK17>	{	[ XF86Search		]	}; 
-    key <I01>	{	[ XF86AudioMedia	]	}; 
     key <I02>	{	[ XF86HomePage		]	}; 
     key <I21>	{	[ XF86Calculator	]	}; 
     key <I63>	{	[ XF86Standby		]	}; 
