@@ -4681,12 +4681,6 @@
       </option>
       <option>
         <configItem>
-          <name>apple:badmap</name>
-          <_description>Swap keycodes of two keys when Mac keyboards are misdetected by kernel</_description>
-        </configItem>
-      </option>
-      <option>
-        <configItem>
           <name>shift:breaks_caps</name>
           <_description>Shift cancels CapsLock</_description>
         </configItem>
