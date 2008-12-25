@@ -1,3 +1,8 @@
+2008-12-25  Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added
+	chicony0420 model, http://bugs.freedesktop.org/show_bug.cgi?id=15813
+
 2008-12-24  Sergey Udaltsov
 
 	* symbols/inet: consolidated a lot of mappings into nav_common

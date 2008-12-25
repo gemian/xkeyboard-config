@@ -561,6 +561,15 @@ xkb_symbols "chicony0108" {
     include "inet(cherrycyboard)"
 };
 
+// Chicony KU-0420 AKA Targus Slim Internet Media USB Keyboard
+partial alphanumeric_keys
+xkb_symbols "chicony0420" {
+    include "inet(media_nav_common)"
+    key <I01>   {       [ XF86AudioMedia        ]       };
+    key <I5F>   {       [ XF86Sleep             ]       };
+    key <K67>   {       [ XF86MyComputer        ]       };
+};
+
 // Chicony KB-9885
 partial alphanumeric_keys
 xkb_symbols "chicony9885" {

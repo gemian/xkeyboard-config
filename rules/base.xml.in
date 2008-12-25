@@ -269,6 +269,13 @@
     </model>
     <model>
       <configItem>
+        <name>chicony0420</name>
+        <_description>Chicony KU-0420</_description>
+        <vendor>Chicony</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>chicony9885</name>
         <_description>Chicony KB-9885</_description>
         <vendor>Chicony</vendor>
