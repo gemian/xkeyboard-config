@@ -2,6 +2,8 @@
 
 	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added
 	chicony0420 model, http://bugs.freedesktop.org/show_bug.cgi?id=15813
+	* symbols/inet: updated cymotionlinux model,
+	http://bugs.freedesktop.org/show_bug.cgi?id=15783
 
 2008-12-24  Sergey Udaltsov
 
