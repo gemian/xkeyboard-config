@@ -1,3 +1,8 @@
+2008-12-26  Sergey Udaltsov
+
+	* symbols/inet: using acpi_common wherever possible, dropping
+	(aliasing) unneeded models
+
 2008-12-25  Sergey Udaltsov
 
 	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added
