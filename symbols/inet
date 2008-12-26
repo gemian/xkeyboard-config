@@ -208,24 +208,6 @@ xkb_symbols "evdev" {
 };
 
 
-// A4Tech KB-21
-partial alphanumeric_keys
-xkb_symbols "a4techKB21" {
-    include "inet(media_nav_common)"
-};
-
-// A4 KBS-8. Contributed by ojo at force dot sk
-partial alphanumeric_keys 
-xkb_symbols "a4techKBS8" { 
-    include "inet(media_nav_acpi_common)"
-};
-
-// A4Tech Wireless Desktop (RFKB-23)
-partial alphanumeric_keys
-xkb_symbols "a4_rfkb23" {
-    include "inet(media_nav_acpi_common)"
-};
-
 // Acer AirKey V
 partial alphanumeric_keys
 xkb_symbols "airkey" {
@@ -304,12 +286,6 @@ xkb_symbols "acer_laptop" {
 //  key <K5E>   {       [ dollar                ]        }; // Dollar (HAL)
 };
 
-// Asus
-partial alphanumeric_keys
-xkb_symbols "asus_laptop" {
-    include "inet(media_common)"
-};
-
 // Azona
 
 // Azona RF2300 wireless Internet Keyboard
@@ -328,14 +304,6 @@ xkb_symbols "azonaRF2300" {
     key <I3C>   {       [ XF86Copy              ]       };
     key <I78>   {       [ XF86Cut               ]       };
 //  key <RCTL>  {       [ XF86Paste             ]       };
-};
-
-// Advance
-
-// Advance Scorpius KI
-partial alphanumeric_keys
-xkb_symbols "scorpius" {
-    include "inet(media_nav_acpi_common)"
 };
 
 
@@ -384,17 +352,6 @@ xkb_symbols "btc5113rf" {
     key <I32>	{	[ XF86Search		]	};
 };
 
-// BTC 5126T
-partial alphanumeric_keys
-xkb_symbols "btc5126t" {
-    include "inet(nav_acpi_common)"
-};
-
-// BTC 6301URF
-partial alphanumeric_keys
-xkb_symbols "btc6301urf" {
-    include "inet(media_nav_acpi_common)"
-};
 
 // BTC 9000
 partial alphanumeric_keys
@@ -710,12 +667,6 @@ xkb_symbols "dellm65" {
     key <LWIN>  {       [ Super_L               ]       };
 };
 
-// Genius KB-19e NB
-partial alphanumeric_keys
-xkb_symbols "geniuskb19e" {
-    include "inet(media_nav_acpi_common)"
-};
-
 // Laptop/notebook Dell Inspiron 8xxx
 partial alphanumeric_keys
 xkb_symbols "inspiron" {
@@ -726,19 +677,6 @@ xkb_symbols "inspiron" {
     key <I56>   {       [ XF86Display           ]       };
     key <NFER>  {       [ XF86AudioPrev         ]       };
     key <XFER>  {       [ XF86AudioPlay, XF86AudioPause ] };
-};
-
-partial alphanumeric_keys
-xkb_symbols "latitude" {
-    include "inet(media_common)"
-};
-
-// Laptop/notebook Dell Precision-M series
-partial alphanumeric_keys
-xkb_symbols "precision_m" {
-    // Describes the extra keys on a Precision M series
-    // From Olivier Lahaye <olivier dot lahaye at motorola dot com>
-    include "inet(media_nav_common)"
 };
 
 // DELL USB Multimedia Keyboard (former 8135, generalized, superset of 8125)
@@ -753,15 +691,6 @@ xkb_symbols "dellusbmm" {
 };
 
 
-// Dexxa
-
-// Dexxa Wireless Desktop Keyboard
-partial alphanumeric_keys
-xkb_symbols "dexxa" {
-    include "inet(media_nav_common)"
-};
-
-
 // Diamond
 
 // Diamond 9801 / 9802 series
@@ -769,16 +698,6 @@ partial alphanumeric_keys
 xkb_symbols "diamond" {
     include "inet(media_nav_acpi_common)"
     key <I6D>	{	[ XF86Go		]	};
-};
-
-// DTK
-
-// DTK2000
-partial alphanumeric_keys
-xkb_symbols "dtk2000" {
-    // Describes the extra keys on a DTK2000 Internet keyboard.
-    // From Radics Laszlo <garaboncias@mailbox.hu>
-    include "inet(media_nav_acpi_common)"
 };
 
 
@@ -789,15 +708,6 @@ partial alphanumeric_keys
 xkb_symbols "ennyah_dkb1008" {
     include "inet(media_nav_acpi_common)"
     key <XFER>  {	[ XF86AudioMedia	]	};
-};
-
-
-// Fujitsu-Siemens Computers
-
-// Fujitsu-Siemens Computers AMILO A1667G laptop
-partial alphanumeric_keys
-xkb_symbols "fscaa1667g" {
-   include "inet(media_nav_common)"
 };
 
 
@@ -818,14 +728,6 @@ xkb_symbols "genius" {
     key <I2E>   {	[ XF86Mail		]	};
     key <I30>   {	[ XF86Eject		]	};
     key <I32>   {	[ XF86WWW		]	};
-};
-
-
-partial alphanumeric_keys
-xkb_symbols "geniuscomfy" {
-    // Describes the extra keys on a Genius Comfy KB-12e
-    // From Jurica Vukadin <jura@webit.hr>
-    include "inet(media_nav_acpi_common)"
 };
 
 
@@ -1060,20 +962,12 @@ xkb_symbols "rapidaccess2" {
     key <I32>	{	[ XF86VendorHome	]	};
 };
 
-// IBM ThinkPad 41
-partial alphanumeric_keys
-xkb_symbols "thinkpad" {
-    include "inet(media_nav_common)"
-};
-
-
 // IBM ThinkPad 60 series
 partial alphanumeric_keys
 xkb_symbols "thinkpad60" {
     include "inet(media_nav_common)"
     key <I1F> { [ XF86VendorHome ] };
 };
-
 
 // IBM Space Saver
 partial alphanumeric_keys
@@ -1084,7 +978,7 @@ xkb_symbols "ibm_spacesaver" {
 // Logitech
 
 // Logitech common definitions
-partial alphanumeric_keys
+partial hidden alphanumeric_keys
 xkb_symbols "logitech_base" {
     include "inet(media_nav_acpi_common)"
     key <I02> { [ XF86HomePage ] };
@@ -1382,12 +1276,6 @@ partial alphanumeric_keys
 xkb_symbols "microsoftinet" {
     include "inet(nav_acpi_common)"
     key <I68>	{	[ XF86AudioStop		]	};
-};
-
-// Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro
-partial alphanumeric_keys 
-xkb_symbols "microsoftpro" {
-    include "inet(media_nav_acpi_common)"
 };
 
 // Microsoft Natural Keyboard Pro USB  
@@ -1788,13 +1676,6 @@ xkb_symbols "yahoo" {
     key <I26>	{	[ Help			]	};
     key <I27>	{	[ XF86Mail		]	};
     key <I28>	{	[ XF86WWW		]	};
-};
-
-// Super Power Internet Keyboard 
- 
-// Super Power Multimedia Keyboard 
-xkb_symbols "sp_inet" { 
-    include "inet(media_nav_acpi_common)"
 };
 
 // Apple keyboards (macbooks, powerbooks, powermac G5, etc)

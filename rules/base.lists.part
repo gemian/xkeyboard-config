@@ -26,40 +26,39 @@
 ! $azerty = be fr
 ! $qwertz = al cz de hr hu ro si sk 
 
-! $inetkbds = a4techKB21 a4techKBS8 a4_rfkb23 \
-              acer_c300 acer_ferrari4k acer_laptop \
-              acpi airkey \
-              apple armada asus_laptop azonaRF2300 \
+! $inetkbds = acer_c300 acer_ferrari4k acer_laptop \
+              airkey \
+              apple armada azonaRF2300 \
               benqx brother \
-              btc5113rf btc5126t btc6301urf btc9000 btc9000a btc9001ah btc5090 btc9019u \
+              btc5113rf btc9000 btc9000a btc9001ah btc5090 btc9019u \
               cherryblue cherrybluea cherryblueb \
               cherrycyboard cherrycmexpert \
               chicony chicony0108 chicony0420 chicony9885 \
               compaqeak8 compaqik7 compaqik13 compaqik18 \
               cymotionlinux \
-              dell dellm65 inspiron precision_m dellusbmm dtk2000 \
-              emachines ennyah_dkb1008 evdev fscaa1667g \
-              genius geniuscomfy geniuscomfy2 geniuskb19e \
+              dell dellm65 inspiron dellusbmm \
+              emachines ennyah_dkb1008 evdev \
+              genius geniuscomfy2 \
               gyration honeywell_euroboard \
               hp250x hp5xx hp500fa hpdv5 \
               hpi6 hpxe3gc hpxe3gf hpxe4xxx hpxt1000 hpzt11xx \
-              ibm_spacesaver ipaq inspiron intel latitude \
+              ibm_spacesaver ipaq inspiron intel \
               logiaccess logicda logicink \
               logiex110 logiclx300 \
               logiinkse logiinkseusb logiitc logiik \
               logitech_base itouch logiultrax \
               logitech_g15 \
 	      logidinovo logidinovoedge \
-              microsoft7000 microsoftinet microsoftpro microsoftprousb microsoftprooem microsoftprose \
+              microsoft7000 microsoftinet microsoftprousb microsoftprooem microsoftprose \
               microsoftoffice microsoftmult \
               mx1998 mx2500 mx2750 \
               oretec \
               presario propeller \
               qtronix \
-              rapidaccess rapidaccess2 thinkpad thinkpad60 \
+              rapidaccess rapidaccess2 thinkpad60 \
               samsung4500 samsung4510 \
-              scorpius silvercrest \
-              sk1300 sk2500 sk6200 sk7100 sp_inet \
+              silvercrest \
+              sk1300 sk2500 sk6200 sk7100 \
               sven sven303 symplon \
               toshiba_s3000 trust trustda \
               unitek_kb1925 yahoo
