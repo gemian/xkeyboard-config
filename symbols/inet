@@ -189,15 +189,15 @@ xkb_symbols "a4techKB21" {
 // A4 KBS-8. Contributed by ojo at force dot sk
 partial alphanumeric_keys 
 xkb_symbols "a4techKBS8" { 
-    include "inet(a4techKB21)"
-    key <I5F>   {       [ XF86Standby           ]       }; 
+    include "inet(media_nav_common)"
+    include "inet(acpi)"
 };
 
 // A4Tech Wireless Desktop (RFKB-23)
 partial alphanumeric_keys
 xkb_symbols "a4_rfkb23" {
     include "inet(media_nav_common)"
-    key <I5F>   {       [ XF86Sleep                     ]       };
+    include "inet(acpi)"
 };
 
 // Acer AirKey V
@@ -254,6 +254,7 @@ xkb_symbols "acer_ferrari4k" {
 partial alphanumeric_keys
 xkb_symbols "acer_laptop" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I17>   {       [ XF86Launch2           ]        }; // "P" or "P2" (HAL)
     key <I1F>   {       [ XF86Launch1           ]        }; // "e" or "P1" (HAL)
 
@@ -261,7 +262,6 @@ xkb_symbols "acer_laptop" {
     // Launch Keys
     // Device keys
     key <I56>   {       [ XF86Display           ]        }; // Fn+F5 (HAL)
-    key <I5F>   {       [ XF86Sleep             ]        }; // Fn+F4
     key <I71>   {       [ XF86Launch4           ]        }; // Fn+F3 (HAL)
     key <I72>   {       [ XF86LaunchB           ]        }; // Bluetooth (HAL)
     key <I73>   {       [ XF86LaunchA           ]        }; // Wireless (HAL)
@@ -292,6 +292,7 @@ partial alphanumeric_keys
 xkb_symbols "azonaRF2300" {
     // From Radics Laszlo <garaboncias@mailbox.hu>
     include "inet(nav_common)"
+    include "inet(acpi)"
     key <I02>   {       [ XF86HomePage          ]       };
     key <I17>   {       [ XF86AudioStop         ]       };
     key <I1E>   {       [ XF86AudioRaiseVolume  ]       };
@@ -301,7 +302,6 @@ xkb_symbols "azonaRF2300" {
     key <I25>   {       [ XF86AudioLowerVolume  ]       };
     key <I26>   {       [ XF86AudioMute         ]       };
     key <I3C>   {       [ XF86Copy              ]       };
-    key <I5F>   {       [ XF86Standby           ]       };
     key <I78>   {       [ XF86Cut               ]       };
 //  key <RCTL>  {       [ XF86Paste             ]       };
 };
@@ -374,14 +374,14 @@ xkb_symbols "btc5113rf" {
 partial alphanumeric_keys
 xkb_symbols "btc5126t" {
     include "inet(nav_common)"
-    key <I5F>	{	[ XF86Standby		]	};
+    include "inet(acpi)"
 };
 
 // BTC 6301URF
 partial alphanumeric_keys
 xkb_symbols "btc6301urf" {
     include "inet(media_nav_common)"
-    include "inet(btc5126t)"
+    include "inet(acpi)"
 };
 
 // BTC 9000
@@ -424,6 +424,7 @@ xkb_symbols "btc9000a" {
 
 // BTC 9001AH
 xkb_symbols "btc9001ah" {
+    include "inet(acpi)"
     key <I02>   {       [ XF86HomePage          ]       };
     key <I17>   {       [ XF86AudioStop         ]       };
     key <I1E>   {       [ XF86AudioRaiseVolume  ]       };
@@ -432,7 +433,6 @@ xkb_symbols "btc9001ah" {
     key <I24>   {       [ XF86AudioPrev         ]       };
     key <I25>   {       [ XF86AudioLowerVolume  ]       };
     key <I26>   {       [ XF86AudioMute         ]       };
-    key <I5F>   {       [ XF86PowerOff          ]       };
     key <I6C>   {       [ XF86Mail              ]       };
     key <RWIN>  {       [ XF86Eject             ]       };
 };
@@ -450,9 +450,9 @@ xkb_symbols "btc5090" {
 partial alphanumeric_keys
 xkb_symbols "btc9019u" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <FK17> {	[ XF86Search		]	};
     key <I02>  {	[ XF86HomePage		]	};
-    key <I5F>  {	[ XF86Sleep		]	};
     key <K6C>  {	[ XF86Eject		]	};
 };
 
@@ -507,7 +507,7 @@ xkb_symbols "cherryblueb" {
 partial alphanumeric_keys
 xkb_symbols "cherrybluea" {
     include "inet(media_nav_common)"
-    key <I5F>	{	[ XF86Standby		]	};
+    include "inet(acpi)"
     key <I6D>	{	[ XF86Go		]	};
 };
 
@@ -515,9 +515,9 @@ xkb_symbols "cherrybluea" {
 partial alphanumeric_keys
 xkb_symbols "cherrycyboard" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <FK17>    {   [ XF86Search        ]   };
     key <I02> {   [ XF86HomePage      ]   };
-    key <I5F> {   [ XF86Standby       ]   };
     key <K67> {   [ XF86Terminal      ]   };
     key <XFER>    {   [ XF86AudioMedia    ]   };
 };
@@ -526,8 +526,8 @@ xkb_symbols "cherrycyboard" {
 partial alphanumeric_keys 
 xkb_symbols "cherrycmexpert" {
     include "inet(cherryblueb)"
+    include "inet(acpi)"
     key <FK15>	{	[ XF86Mail		]	};
-    key <I5F>	{	[ XF86PowerOff		]	};
 };
 
 
@@ -536,6 +536,7 @@ xkb_symbols "cherrycmexpert" {
 // Chicony Internet Keyboard
 partial alphanumeric_keys 
 xkb_symbols "chicony" {
+    include "inet(acpi)"
     key <I12>	{	[ XF86AudioMute		]	};
     key <I17>	{	[ XF86Mail		]	};
     key <I19>	{	[ XF86AudioLowerVolume	]	};
@@ -550,7 +551,6 @@ xkb_symbols "chicony" {
     key <I2E>	{	[ XF86LaunchC		]	};
     key <I30>	{	[ XF86LaunchA		]	};
     key <I32>	{	[ XF86WWW		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
     key <I5F>	{	[ XF86ContrastAdjust	]	};
     key <I63>	{	[ XF86BrightnessAdjust	]	};
 };
@@ -565,8 +565,8 @@ xkb_symbols "chicony0108" {
 partial alphanumeric_keys
 xkb_symbols "chicony0420" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I01>   {       [ XF86AudioMedia        ]       };
-    key <I5F>   {       [ XF86Sleep             ]       };
     key <K67>   {       [ XF86MyComputer        ]       };
 };
 
@@ -622,18 +622,19 @@ xkb_symbols "compaqik7" {
 partial alphanumeric_keys
 xkb_symbols "compaqik13" {
     include "inet(media_common)"
+    include "inet(acpi)"
     key <I1E>	{	[ XF86Mail		]	};
     key <I1F>	{	[ XF86Go		]	};
     key <I21>	{	[ XF86Search		]	};
     key <I23>	{	[ XF86WWW		]	};
     key <I32>	{	[ XF86Shop		]	};
-    key <I5F>	{	[ XF86Standby		]	};
 };
 
 // Compaq Internet Keyboard (18 keys)
 partial alphanumeric_keys
 xkb_symbols "compaqik18" {
     include "inet(media_common)"
+    include "inet(acpi)"
     key <I12>	{	[ XF86LightBulb		]	};
     key <I18>	{	[ XF86Eject		]	};
     key <I1E>	{	[ XF86Mail		]	};
@@ -643,7 +644,6 @@ xkb_symbols "compaqik18" {
     key <I25>	{	[ XF86VendorHome	]	};
     key <I26>	{	[ XF86Community		]	};
     key <I32>	{	[ XF86Shop		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <I68>	{	[ Print			]	};
 };
 
@@ -652,12 +652,12 @@ xkb_symbols "compaqik18" {
 partial alphanumeric_keys
 xkb_symbols "armada" {
     include "inet(media_common)"
+    include "inet(acpi)"
     key <I1A>	{	[ XF86Search		]	};
     key <I1E>	{	[ XF86Mail		]	};
     key <I1F>	{	[ XF86HomePage		]	};
     key <I23>	{	[ XF86WWW		]	};
     key <I59>   {       [ XF86Launch2           ]       }; // Battery Monitor 
-    key <I5F>   {       [ XF86Standby           ]       }; 
     key <I6F>	{	[ XF86AudioMedia	]	};
     key <I75>   {       [ XF86Launch0           ]       }; // Info Center 
 };
@@ -666,13 +666,13 @@ xkb_symbols "armada" {
 partial alphanumeric_keys
 xkb_symbols "presario" {
     include "inet(media_common)"
+    include "inet(acpi)"
     key <I14>	{	[ XF86Q			]	};
     key <I18>	{	[ XF86Launch2		]	};
     key <I1E>	{	[ XF86Mail		]	};
     key <I1F>	{	[ XF86Launch1		]	};
     key <I23>	{	[ XF86WWW		]	};
     key <I32>	{	[ XF86Shop		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <I75>	{	[ XF86AudioMedia	]	};
 };
 
@@ -693,10 +693,10 @@ xkb_symbols "ipaq" {
 
 partial alphanumeric_keys
 xkb_symbols "dell" {
+    include "inet(acpi)"
     key <I12>	{	[ XF86Mail		]	};
     key <I1E>	{	[ XF86Search		]	};
     key <I26>	{	[ XF86HomePage		]	};
-    key <I5F>	{	[ XF86Standby		]	};
 };
 
 // Dell Precision M65
@@ -711,7 +711,7 @@ xkb_symbols "dellm65" {
 partial alphanumeric_keys
 xkb_symbols "geniuskb19e" {
     include "inet(media_nav_common)"
-    key <I5F>   {      [ XF86Sleep             ]       };
+    include "inet(acpi)"
 };
 
 // Laptop/notebook Dell Inspiron 8xxx
@@ -807,16 +807,14 @@ xkb_symbols "fscaa1667g" {
 // Genius Comfy KB-16M / Genius MM Keyboard KWD-910
 partial alphanumeric_keys
 xkb_symbols "genius" {
+    include "inet(media_common)"
     include "inet(acpi)"
     key <I12>   {	[ XF86AudioRaiseVolume	]	};
     key <I17>   {	[ XF86Calculator	]	};
     key <I19>   {	[ XF86AudioLowerVolume	]	};
     key <I1E>   {	[ XF86Forward		]	};
-    key <I20>   {	[ XF86AudioMute		]	};
     key <I21>   {	[ XF86AudioNext		]	};
-    key <I22>   {	[ XF86AudioPlay, XF86AudioPause ] };
     key <I23>	{	[ XF86AudioPrev		]	};
-    key <I24>   {	[ XF86AudioStop		]	};
     key <I25>   {	[ XF86Back		]	};
     key <I26>   {	[ XF86ScreenSaver	]	};
     key <I2E>   {	[ XF86Mail		]	};
@@ -830,7 +828,7 @@ xkb_symbols "geniuscomfy" {
     // Describes the extra keys on a Genius Comfy KB-12e
     // From Jurica Vukadin <jura@webit.hr>
     include "inet(media_nav_common)"
-    key <I5F>   {       [ XF86Sleep             ]       };
+    include "inet(acpi)"
 };
 
 
@@ -839,7 +837,8 @@ partial alphanumeric_keys
 xkb_symbols "geniuscomfy2" {
     // Describes the extra keys on a Genius Comfy KB-21e-Scroll
     // From Radics Laszlo <garaboncias@mailbox.hu>
-    include "inet(geniuscomfy)"
+    include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I23>   {       [ Return                ]       };
 };
 
@@ -866,6 +865,7 @@ xkb_symbols "gyration" {
 partial alphanumeric_keys 
 xkb_symbols "hpi6" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I02>   {       [ XF86HomePage          ]       };
     key <I12>	{	[ XF86Search		]	};
     key <I14>	{	[ XF86VendorHome	]	};
@@ -877,7 +877,6 @@ xkb_symbols "hpi6" {
     key <I26>	{	[ Help			]	};
     key <I27>	{	[ XF86Finance		]	};
     key <I39>	{	[ Print			]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <I75>   {       [ Help                  ]       };
 };
 
@@ -1050,6 +1049,7 @@ xkb_symbols "rapidaccess" {
 // IBM Rapid Access II
 partial alphanumeric_keys 
 xkb_symbols "rapidaccess2" {
+    include "inet(acpi)"
     key <I12>	{	[ XF86AudioNext		]	};
     key <I17>	{	[ XF86Favorites		]	};
     key <I1E>	{	[ XF86AudioMute		]	};
@@ -1063,7 +1063,6 @@ xkb_symbols "rapidaccess2" {
     key <I2E>	{	[ XF86Search		]	};
     key <I30>	{	[ XF86MyComputer	]	};
     key <I32>	{	[ XF86VendorHome	]	};
-    key <I5F>	{	[ XF86Standby		]	};
 };
 
 // IBM ThinkPad 41
@@ -1093,6 +1092,7 @@ xkb_symbols "ibm_spacesaver" {
 partial alphanumeric_keys
 xkb_symbols "logitech_base" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I02> { [ XF86HomePage ] };
     key <I15> { [ XF86Community ] };
     key <I16> { [ XF86ScrollClick ] };
@@ -1103,7 +1103,6 @@ xkb_symbols "logitech_base" {
     key <I44> { [ XF86Documents ] };
     key <I57> { [ XF86Pictures ] };
     key <I58> { [ XF86Music ] };
-    key <I5F> { [ XF86Standby ] };
 };
 
 // Logitech second set of common keys
@@ -1267,12 +1266,54 @@ xkb_symbols "logidinovo" {
 partial alphanumeric_keys 
 xkb_symbols "logidinovoedge" {
     include "inet(media_common)"
+    include "inet(acpi)"
     key <I02>	{	[ XF86HomePage		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <I6C>	{	[ XF86Mail		]	};
     key <FK17>  {       [ XF86Search            ]       };
     key <XFER>	{	[ XF86AudioMedia	]	};
 };
+
+partial alphanumeric_keys
+xkb_symbols "logitech_g15" {
+    include "inet(media_nav_common)"
+    include "inet(acpi)"
+    key <AE13> {         [   XF86Messenger ] };
+    key <HKTG> {         [     XF86Launch7 ] };
+    key  <I02> {         [     XF86Launch9 ] };
+    key  <I04> {         [       XF86Phone ] };
+    key  <I08> {         [     XF86LaunchD ] };
+    key  <I09> {         [     XF86Support ] };
+    key  <I0F> {         [     XF86LaunchF ] };
+    key  <I16> {         [      XF86LogOff ] };
+    key  <I18> {         [     XF86Launch5 ] };
+    key  <I21> {         [      XF86Travel ] };
+    key  <I23> {         [       XF86Spell ] };
+    key  <I31> {         [     XF86Launch4 ] };
+    key  <I3C> {         [       XF86Music ] };
+    key  <I42> {         [     XF86Forward ] };
+    key  <I43> {         [        XF86Send ] };
+    key  <I57> {         [        XF86Save ] };
+    key  <I64> {         [    XF86Pictures ] };
+    key  <I67> {         [     XF86LaunchA ] };
+    key  <I76> {         [      XF86iTouch ] };
+    key  <I77> {         [     XF86Launch3 ] };
+    key  <I79> {         [    XF86ToDoList ] };
+    key  <I7B> {         [  XF86Calculator ] };
+    key  <K5A> {         [  XF86VendorHome ] };
+    key  <K5D> {         [        XF86Away ] };
+    key  <K5E> {         [      XF86WebCam ] };
+    key  <K5F> {         [     XF86Launch0 ] };
+    key  <K63> {         [     XF86Launch6 ] };
+    key  <K6D> {         [    XF86Calendar ] };
+    key  <K71> {         [     XF86LaunchB ] };
+    key  <K72> {         [     XF86LaunchC ] };
+    key  <K74> {         [         XF86WWW ] };
+    key  <K75> {         [     XF86LaunchE ] };
+    key <MDSW> {         [     XF86Launch1 ] };
+    key <NFER> {         [     XF86Launch2 ] };
+    key <XFER> {         [     XF86Launch8 ] };
+};
+
 
 // Memorex
 
@@ -1280,6 +1321,7 @@ xkb_symbols "logidinovoedge" {
 partial alphanumeric_keys
 xkb_symbols "mx1998" {
     include "inet(media_common)"
+    include "inet(acpi)"
     key <DOWN>	{	[ XF86ScrollDown	]	};
     key <I12>	{	[ XF86AudioRewind	]	};
     key <I17>	{	[ XF86Close		]	};
@@ -1291,8 +1333,6 @@ xkb_symbols "mx1998" {
     key <I26>	{	[ Menu			]	};
     key <I32>	{	[ XF86WWW		]	};
     key <I57>	{	[ XF86WakeUp		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <I68>	{	[ XF86DOS		]	};
     key <I7A>	{	[ XF86ScreenSaver	]	};
     key <UP>	{	[ XF86ScrollUp		]	};
@@ -1302,6 +1342,7 @@ xkb_symbols "mx1998" {
 partial alphanumeric_keys
 xkb_symbols "mx2500" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I12>	{	[ XF86Clear		]	};
     key <I13>	{	[ XF86Phone		]	};
     key <I14>	{	[ XF86DOS		]	};
@@ -1310,8 +1351,6 @@ xkb_symbols "mx2500" {
     key <I1E>	{	[ XF86Eject		]	};
     key <I1F>	{	[ XF86Documents		]	};
     key <I26>	{	[ XF86News		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <I6B>	{	[ XF86WakeUp		]	};
     key <I6D>	{	[ XF86RotateWindows	]	};
 };
@@ -1353,7 +1392,7 @@ xkb_symbols "microsoft7000" {
 partial alphanumeric_keys
 xkb_symbols "microsoftinet" {
     include "inet(nav_common)"
-    key <I5F>	{	[ XF86Standby		]	};
+    include "inet(acpi)"
     key <I68>	{	[ XF86AudioStop		]	};
 };
 
@@ -1361,10 +1400,7 @@ xkb_symbols "microsoftinet" {
 partial alphanumeric_keys 
 xkb_symbols "microsoftpro" {
     include "inet(media_nav_common)"
-    key <I5F>	{	[ XF86Standby		]	};
-//   Internet Section -- Left Side
-//   Multimedia Section -- Right Side
-//   My Computer Section -- Far Right
+    include "inet(acpi)"
 };
 
 // Microsoft Natural Keyboard Pro USB  
@@ -1425,6 +1461,7 @@ xkb_symbols "microsoftprose" {
 partial alphanumeric_keys
 xkb_symbols "microsoftoffice" {
     include "inet(nav_common)"
+    include "inet(acpi)"
     key <BRK>	{	[ XF86Calendar		]	};
     key <END>	{	[ Undo			]	};
     key <I02>	{	[ XF86HomePage		]	};
@@ -1440,7 +1477,6 @@ xkb_symbols "microsoftoffice" {
     key <I58>	{	[ XF86New		]	};
     key <I59>	{	[ XF86Open		]	};
     key <I5A>	{	[ XF86Close		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <I62>	{	[ Help			]	};
     key <I64>	{	[ XF86Save		]	};
     key <I67>	{	[ Print			]	};
@@ -1458,6 +1494,7 @@ xkb_symbols "microsoftoffice" {
 partial alphanumeric_keys 
 xkb_symbols "microsoftmult" { 
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <AE13>  {       [ XF86Messenger         ]       }; 
     key <FK14>	{	[ XF86New		]	}; 
     key <FK15>	{	[ XF86Open		]	}; 
@@ -1473,7 +1510,6 @@ xkb_symbols "microsoftmult" {
     key <I43>	{	[ XF86Send		]	}; 
     key <I57>	{	[ XF86Save		]	}; 
     key <I58>	{	[ Print			]	}; 
-    key <I5F>   {       [ XF86Sleep             ]       }; 
     key <I64>   {       [ XF86Pictures  ]       }; 
     key <I80>   {       [ XF86Documents ]       }; 
 //   Control Section -- Far Right 
@@ -1562,6 +1598,7 @@ xkb_symbols "qtronix" {
 partial alphanumeric_keys
 xkb_symbols "samsung4500" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <AE13>	{	[ XF86Launch4		]	};
     key <I02>	{	[ XF86Launch1		]	};
     key <I04>	{	[ XF86Launch3		]	};
@@ -1571,7 +1608,6 @@ xkb_symbols "samsung4500" {
     key <I18>	{	[ XF86Eject		]	};
     key <I26>	{	[ Help			]	};
     key <I59>	{	[ XF86Explorer		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <NFER>	{	[ XF86Launch2		]	};
 };
 
@@ -1579,10 +1615,10 @@ xkb_symbols "samsung4500" {
 partial alphanumeric_keys
 xkb_symbols "samsung4510" {
     include "inet(media_common)"
+    include "inet(acpi)"
     key <I02>	{	[ XF86Launch1		]	};
     key <I04>	{	[ XF86Launch3		]	};
     key <I18>	{	[ XF86Eject		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <NFER>	{	[ XF86Launch2		]	};
 };
 
@@ -1620,6 +1656,7 @@ xkb_symbols "sk2500" {
 // SK-6200
 partial alphanumeric_keys
 xkb_symbols "sk6200" {
+    include "inet(acpi)"
     key <I12>	{	[ XF86Favorites		]	};
     key <I14>	{	[ XF86AudioLowerVolume	]	};
     key <I16>	{	[ XF86AudioRaiseVolume	]	};
@@ -1632,8 +1669,6 @@ xkb_symbols "sk6200" {
     key <I23>	{	[ XF86AudioPrev		]	};
     key <I24>	{	[ XF86AudioStop		]	};
     key <I32>	{	[ XF86Mail		]	};
-    key <I5E>	{	[ XF86PowerOff		]	};
-    key <I5F>	{	[ XF86Standby		]	};
 };
 
 // SK-7100
@@ -1695,6 +1730,7 @@ xkb_symbols "sven303" {
 partial alphanumeric_keys
 xkb_symbols "symplon" {
     include "inet(nav_common)"
+    include "inet(acpi)"
     key <HOME>	{	[ XF86RotationPB	]	};
     key <I13>	{	[ XF86SplitScreen	]	};
     key <I14>	{	[ XF86Support		]	};
@@ -1702,7 +1738,6 @@ xkb_symbols "symplon" {
     key <I21>	{	[ XF86User2KB		]	};
     key <I25>	{	[ XF86RotationKB	]	};
     key <I26>	{	[ XF86MenuKB		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <I6B>	{	[ XF86User1KB		]	};
     key <PAUS>	{	[ XF86UserPB		]	};
     key <UP>	{	[ XF86MenuPB		]	};
@@ -1808,6 +1843,7 @@ xkb_symbols "apple" {
 partial alphanumeric_keys
 xkb_symbols "cymotionlinux" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I07>	{	[	Undo			]	};
     key <I0A>	{	[	Redo			]	};
     key <I0F>	{	[	XF86ScrollDown		]	};
@@ -1816,8 +1852,6 @@ xkb_symbols "cymotionlinux" {
     key <I28>	{	[	XF86MenuKB		]	};
     key <I2B>	{	[	XF86Launch3		]	};
     key <I3C>	{	[	XF86Cut			]	};
-    key <I5F>	{	[	XF86PowerOff		]	};
-    key <I63>   {	[	XF86Standby		]	};
     key <I78>	{	[	XF86Copy		]	};
     key <K65>	{	[	XF86Paste		]	};
     key <K6C>	{	[	XF86Eject		]	};
@@ -1828,9 +1862,9 @@ xkb_symbols "cymotionlinux" {
 partial alphanumeric_keys 
 xkb_symbols "silvercrest" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I02>	{	[ XF86HomePage		]	};    
     key <I21>	{	[ XF86Launch2		]	};
-    key <I5F>	{	[ XF86Standby		]	};
     key <K67>	{	[ XF86Launch1		]	};
 };
 
@@ -1839,8 +1873,8 @@ xkb_symbols "silvercrest" {
 partial alphanumeric_keys
 xkb_symbols "emachines" {
     include "inet(media_nav_common)"
+    include "inet(acpi)"
     key <I32>  {  [ XF86iTouch                    ]  };
-    key <I5F>  {  [ XF86Sleep                     ]  };
     key <KP0>  {  [ KP_0                          ]  };
     key <KP1>  {  [ KP_1                          ]  };
     key <KP2>  {  [ KP_2                          ]  };
@@ -1875,47 +1909,6 @@ xkb_symbols "benqx" {
     key <I21> { [ XF86WWW      ]  };
     key <I2B> { [ XF86Go ] };
     key <I31> { [ XF86Calendar ] };
-};
-
-partial alphanumeric_keys
-xkb_symbols "logitech_g15" {
-    include "inet(media_nav_common)"
-    key <AE13> {         [   XF86Messenger ] };
-    key <HKTG> {         [     XF86Launch7 ] };
-    key  <I02> {         [     XF86Launch9 ] };
-    key  <I04> {         [       XF86Phone ] };
-    key  <I08> {         [     XF86LaunchD ] };
-    key  <I09> {         [     XF86Support ] };
-    key  <I0F> {         [     XF86LaunchF ] };
-    key  <I16> {         [      XF86LogOff ] };
-    key  <I18> {         [     XF86Launch5 ] };
-    key  <I21> {         [      XF86Travel ] };
-    key  <I23> {         [       XF86Spell ] };
-    key  <I31> {         [     XF86Launch4 ] };
-    key  <I3C> {         [       XF86Music ] };
-    key  <I42> {         [     XF86Forward ] };
-    key  <I43> {         [        XF86Send ] };
-    key  <I57> {         [        XF86Save ] };
-    key  <I5F> {         [       XF86Sleep ] };
-    key  <I64> {         [    XF86Pictures ] };
-    key  <I67> {         [     XF86LaunchA ] };
-    key  <I76> {         [      XF86iTouch ] };
-    key  <I77> {         [     XF86Launch3 ] };
-    key  <I79> {         [    XF86ToDoList ] };
-    key  <I7B> {         [  XF86Calculator ] };
-    key  <K5A> {         [  XF86VendorHome ] };
-    key  <K5D> {         [        XF86Away ] };
-    key  <K5E> {         [      XF86WebCam ] };
-    key  <K5F> {         [     XF86Launch0 ] };
-    key  <K63> {         [     XF86Launch6 ] };
-    key  <K6D> {         [    XF86Calendar ] };
-    key  <K71> {         [     XF86LaunchB ] };
-    key  <K72> {         [     XF86LaunchC ] };
-    key  <K74> {         [         XF86WWW ] };
-    key  <K75> {         [     XF86LaunchE ] };
-    key <MDSW> {         [     XF86Launch1 ] };
-    key <NFER> {         [     XF86Launch2 ] };
-    key <XFER> {         [     XF86Launch8 ] };
 };
 
 // Intel
