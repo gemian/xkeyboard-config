@@ -1,3 +1,8 @@
+2008-12-28  Sergey Udaltsov
+
+	*  rules/base.xml.in, symbols/de: updated neo variant,
+	http://bugs.freedesktop.org/show_bug.cgi?id=19308
+
 2008-12-26  Sergey Udaltsov
 
 	* rules/base.lists.part, rules/base.m_s.part, symbols/inet: using
