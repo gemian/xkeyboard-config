@@ -1780,7 +1780,7 @@ xkb_symbols "classmate" {
 // Unitek
 
 partial alphanumeric_keys
-xkb_symbols "unitek_kb1925" {
+xkb_symbols "unitekkb1925" {
     include "inet(media_nav_common)"
     key <I0C> { [ XF86AudioMute ] };
     key <I11> { [ XF86PowerOff ] };
