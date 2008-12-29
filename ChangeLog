@@ -4,6 +4,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=15820
 	* rules/base.m_s.part, rules/base.xml.in: added btc9116u model,
 	http://bugs.freedesktop.org/show_bug.cgi?id=15871
+	* symbols/gb: fixed gb dvorak,
+	http://bugs.freedesktop.org/show_bug.cgi?id=18244
 
 2008-12-28  Sergey Udaltsov
 

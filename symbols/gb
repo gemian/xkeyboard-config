@@ -93,11 +93,12 @@ xkb_symbols "dvorak" {
 
     name[Group1]="United Kingdom - Dvorak";
 
-    key <BKSL> { [ numbersign,	asciitilde	] };
+    key <AD01> { [ apostrophe,	at		] };
     key <AE02> { [	    2,	quotedbl,  twosuperior,   NoSymbol	] };
     key <AE03> { [	    3,	sterling,  threesuperior, NoSymbol	] };
+    key <BKSL> { [ numbersign,	asciitilde	] };
     key <LSGT> { [  backslash,	bar		] };
-    key <AD01> { [ apostrophe,	at		] };
+    key <TLDE> { [	grave,	notsign,   bar,           bar		] };
 };
 
 // Dvorak letter positions, but punctuation all in the normal UK positions.
