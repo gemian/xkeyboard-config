@@ -7,6 +7,7 @@
   benqx730      =       +inet(benqx)
   benqx800      =       +inet(benqx)
   btc5126t      =       +inet(nav_acpi_common)
+  btc9116u      =       +inet(btc9019u)
   btc6301urf    =       +inet(media_nav_acpi_common)
   dellsk8125    =       +inet(dell)
   dellsk8135    =       +inet(dell)

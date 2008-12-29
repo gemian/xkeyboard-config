@@ -221,6 +221,12 @@
     </model>
     <model>
       <configItem>
+        <name>btc9116u</name>
+	<_description>BTC 9116U Mini Wireless Internet and Gaming</_description>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>cherryblue</name>
         <_description>Cherry Blue Line CyBo@rd</_description>
       </configItem>
