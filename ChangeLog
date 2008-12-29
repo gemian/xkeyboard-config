@@ -6,6 +6,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=15871
 	* symbols/gb: fixed gb dvorak,
 	http://bugs.freedesktop.org/show_bug.cgi?id=18244
+	* symbols/us: removed explicit CAPS mapping,
+	http://bugs.freedesktop.org/show_bug.cgi?id=18320
 
 2008-12-28  Sergey Udaltsov
 
