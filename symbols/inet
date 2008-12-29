@@ -1790,3 +1790,13 @@ xkb_symbols "unitek_kb1925" {
     key <I1A> { [ XF86Reload ] };
 };
 
+// Compal
+
+// Compal FL90
+partial alphanumeric_keys
+xkb_symbols "compalfl90" {
+    include "inet(media_nav_acpi_common)"
+    key <I54>   {       [ XF86MonBrightnessUp   ]       };
+    key <II65>  {       [ XF86MonBrightnessDown ]       };
+};
+

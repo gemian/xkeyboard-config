@@ -1137,8 +1137,15 @@
     <model>
       <configItem>
         <name>unitek_kb1925</name>
-        <_description>KB-1925</_description>
+        <_description>Unitek KB-1925</_description>
         <vendor>Unitek Group</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>compalfl90</name>
+        <_description>FL90</_description>
+        <vendor>Compal Electronics Inc.</vendor>
       </configItem>
     </model>
   </modelList>
