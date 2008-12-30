@@ -1,3 +1,8 @@
+2008-12-30  Sergey Udaltsov
+
+	* symbols/fi: updated 2 mappings according to the new standard,
+	http://bugs.freedesktop.org/show_bug.cgi?id=18742
+
 2008-12-29  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/inet: added compal fl90,
