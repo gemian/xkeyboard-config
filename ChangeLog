@@ -1,3 +1,9 @@
+2009-01-03  Sergey Udaltsov
+
+	* rules/compat/ln_s.sh, rules/compat/ml1_s.sh: fixed compat layout
+	renaming involving variants on replacement, part of the fix for
+	http://bugs.freedesktop.org/show_bug.cgi?id=8452
+
 2008-12-30  Sergey Udaltsov
 
 	* symbols/fi: updated 2 mappings according to the new standard,

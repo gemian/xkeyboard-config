@@ -8,7 +8,9 @@ OUTFILE=base.l${variant}_s.part
 > $OUTFILE
 
 awk '{ 
-  printf "  %s		=	+%s%%(v['${variant}']):'${variant}'\n", $1, $2; 
+  if (index($2, "(") == 0) {
+    printf "  %s		=	+%s%%(v['${variant}']):'${variant}'\n", $1, $2; 
+  }
 }' < $INDIR/layoutRename.lst >> $OUTFILE
 
 awk '{ 
