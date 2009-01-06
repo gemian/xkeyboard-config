@@ -1,3 +1,8 @@
+2009-01-06  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/es, symbols/latam: added dead tilde
+	variants, http://bugs.freedesktop.org/show_bug.cgi?id=12568
+
 2009-01-03  Sergey Udaltsov
 
 	* rules/compat/ln_s.sh, rules/compat/ml1_s.sh: fixed compat layout

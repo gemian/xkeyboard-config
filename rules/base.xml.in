@@ -2866,6 +2866,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>deadtilde</name>
+            <_description>Include dead tilde</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>sundeadkeys</name>
             <_description>Sun dead keys</_description>
           </configItem>
@@ -3454,6 +3460,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <_description>Eliminate dead keys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>deadtilde</name>
+            <_description>Include dead tilde</_description>
           </configItem>
         </variant>
         <variant>
