@@ -2,6 +2,9 @@
 
 	* rules/base.xml.in, symbols/es, symbols/latam: added dead tilde
 	variants, http://bugs.freedesktop.org/show_bug.cgi?id=12568
+	* rules/base.xml.in, rules/compat/variantRename.lst, symbols/in,
+	symbols/pk: updated Urdu variants,
+	https://bugs.freedesktop.org/show_bug.cgi?id=8091
 
 2009-01-03  Sergey Udaltsov
 

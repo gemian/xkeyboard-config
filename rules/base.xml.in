@@ -1643,8 +1643,22 @@
         </variant>
         <variant>
           <configItem>
-            <name>urd</name>
-            <_description>Urdu</_description>
+            <name>urd-phonetic</name>
+            <_description>Urdu, Phonetic</_description>
+            <languageList><iso639Id>urd</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>urd-phonetic3</name>
+            <_description>Urdu, Alternative phonetic</_description>
+            <languageList><iso639Id>urd</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>urd-winkeys</name>
+            <_description>Urdu, Winkeys</_description>
             <languageList><iso639Id>urd</iso639Id></languageList>
           </configItem>
         </variant>
@@ -3964,6 +3978,20 @@
         <languageList><iso639Id>urd</iso639Id></languageList>
       </configItem>
       <variantList>
+        <variant>
+          <configItem>
+            <name>urd-crulp</name>
+            <_description>CRULP</_description>
+            <languageList><iso639Id>urd</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>urd-nla</name>
+            <_description>NLA</_description>
+            <languageList><iso639Id>urd</iso639Id></languageList>
+          </configItem>
+        </variant>
         <variant>
           <configItem>
             <name>ara</name>

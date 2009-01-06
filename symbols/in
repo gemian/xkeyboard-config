@@ -969,9 +969,21 @@ xkb_symbols "tel" {
 };
 
 partial alphanumeric_keys 
-xkb_symbols "urd" {
-    include "pk(urd)"
-    name[Group1]= "India - Urdu";
+xkb_symbols "urd-phonetic" {
+    include "pk(urd-phonetic)"
+    name[Group1]= "India - Urdu, Phonetic";
+};
+
+partial alphanumeric_keys 
+xkb_symbols "urd-phonetic3" {
+    include "pk(urd-crulp)"
+    name[Group1]= "India - Urdu, Alternative phonetic";
+};
+
+partial alphanumeric_keys 
+xkb_symbols "urd-winkeys" {
+    include "pk(urd-nla)"
+    name[Group1]= "India - Urdu, Winkeys";
 };
 
 // based on a keyboard map from an 'xkb/symbols/gur' file
