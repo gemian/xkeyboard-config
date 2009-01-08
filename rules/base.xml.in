@@ -4109,180 +4109,180 @@
       <!-- The key combination used to switch between groups -->
       <configItem>
         <name>grp</name>
-        <_description>Layout switching</_description>
+        <_description>Key(s) to change layout</_description>
       </configItem>
       <option>
         <configItem>
           <name>grp:switch</name>
-          <_description>R-Alt switches layout while pressed</_description>
+          <_description>R-Alt (while pressed)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lswitch</name>
-          <_description>Left Alt key switches layout while pressed</_description>
+          <_description>Left Alt (while pressed)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lwin_switch</name>
-          <_description>Left Win-key switches layout while pressed</_description>
+          <_description>Left Win (while pressed)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rwin_switch</name>
-          <_description>Right Win-key switches layout while pressed</_description>
+          <_description>Right Win (while pressed)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:win_switch</name>
-          <_description>Both Win-keys switch layout while pressed</_description>
+          <_description>Any Win key (while pressed)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:caps_switch</name>
-          <_description>CapsLock key switches layout while pressed, Alt+CapsLock does the original capslock action</_description>
+          <_description>CapsLock (while pressed), Alt+CapsLock does the original capslock action</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rctrl_switch</name>
-          <_description>Right Ctrl key switches layout while pressed</_description>
+          <_description>Right Ctrl (while pressed)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:toggle</name>
-          <_description>Right Alt key changes layout</_description>
+          <_description>Right Alt</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lalt_toggle</name>
-          <_description>Left Alt key changes layout</_description>
+          <_description>Left Alt</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:caps_toggle</name>
-          <_description>CapsLock key changes layout</_description>
+          <_description>CapsLock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:shift_caps_toggle</name>
-          <_description>Shift+CapsLock changes layout</_description>
+          <_description>Shift+CapsLock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:shift_caps_switch</name>
-          <_description>CapsLock switches to first layout, Shift+CapsLock switch to last layout</_description>
+          <_description>CapsLock (to first layout), Shift+CapsLock (to last layout)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:win_menu_switch</name>
-          <_description>LWIN switches to first layout, RWIN/MENU switch to last layout.</_description>
+          <_description>LWIN (to first layout), RWIN/MENU (to last layout)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:alt_caps_toggle</name>
-          <_description>Alt+CapsLock changes layout</_description>
+          <_description>Alt+CapsLock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:shifts_toggle</name>
-          <_description>Both Shift keys together change layout</_description>
+          <_description>Both Shift keys together</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:alts_toggle</name>
-          <_description>Both Alt keys together change layout</_description>
+          <_description>Both Alt keys together</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:ctrls_toggle</name>
-          <_description>Both Ctrl keys together change layout</_description>
+          <_description>Both Ctrl keys together</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:ctrl_shift_toggle</name>
-          <_description>Ctrl+Shift change layout</_description>
+          <_description>Ctrl+Shift</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lctrl_lshift_toggle</name>
-          <_description>LCtrl+LShift change layout</_description>
+          <_description>LCtrl+LShift</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:ctrl_alt_toggle</name>
-          <_description>Alt+Ctrl change layout</_description>
+          <_description>Alt+Ctrl</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:alt_shift_toggle</name>
-          <_description>Alt+Shift change layout</_description>
+          <_description>Alt+Shift</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:alt_space_toggle</name>
-          <_description>Alt+Space change layout</_description>
+          <_description>Alt+Space</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:menu_toggle</name>
-          <_description>Menu key changes layout</_description>
+          <_description>Menu</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lwin_toggle</name>
-          <_description>Left Win-key changes layout</_description>
+          <_description>Left Win</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rwin_toggle</name>
-          <_description>Right Win-key changes layout</_description>
+          <_description>Right Win</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lshift_toggle</name>
-          <_description>Left Shift key changes layout</_description>
+          <_description>Left Shift</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rshift_toggle</name>
-          <_description>Right Shift key changes layout</_description>
+          <_description>Right Shift</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:lctrl_toggle</name>
-          <_description>Left Ctrl key changes layout</_description>
+          <_description>Left Ctrl</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp:rctrl_toggle</name>
-          <_description>Right Ctrl key changes layout</_description>
+          <_description>Right Ctrl</_description>
         </configItem>
       </option>
     </group>
