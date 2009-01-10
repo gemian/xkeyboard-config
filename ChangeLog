@@ -1,3 +1,8 @@
+2009-01-10  Sergey Udaltsov
+
+	* rules/base.xml.in: More improvements(?) in descriptions, to make
+	them shorter
+
 2009-01-08  Sergey Udaltsov
 
 	* rules/base.xml.in: slightly reorganized descriptions for the group

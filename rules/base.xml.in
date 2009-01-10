@@ -4114,7 +4114,7 @@
       <option>
         <configItem>
           <name>grp:switch</name>
-          <_description>R-Alt (while pressed)</_description>
+          <_description>Right Alt (while pressed)</_description>
         </configItem>
       </option>
       <option>
@@ -4186,7 +4186,7 @@
       <option>
         <configItem>
           <name>grp:win_menu_switch</name>
-          <_description>LWIN (to first layout), RWIN/MENU (to last layout)</_description>
+          <_description>Left Win (to first layout), Right Win/Menu (to last layout)</_description>
         </configItem>
       </option>
       <option>
@@ -4222,7 +4222,7 @@
       <option>
         <configItem>
           <name>grp:lctrl_lshift_toggle</name>
-          <_description>LCtrl+LShift</_description>
+          <_description>Left Ctrl+Left Shift</_description>
         </configItem>
       </option>
       <option>
@@ -4291,60 +4291,60 @@
 	   level of symbols -->
       <configItem>
         <name>lv3</name>
-        <_description>Third level choosers</_description>
+        <_description>Key to choose 3rd level</_description>
       </configItem>
       <option>
         <configItem>
           <name>lv3:switch</name>
-          <_description>Press Right Ctrl to choose 3rd level</_description>
+          <_description>Right Ctrl</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv3:menu_switch</name>
-          <_description>Press Menu key to choose 3rd level</_description>
+          <_description>Menu</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv3:win_switch</name>
-          <_description>Press any of Win-keys to choose 3rd level</_description>
+          <_description>Any Win key</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv3:lwin_switch</name>
-          <_description>Press Left Win-key to choose 3rd level</_description>
+          <_description>Left Win</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv3:rwin_switch</name>
-          <_description>Press Right Win-key to choose 3rd level</_description>
+          <_description>Right Win</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv3:alt_switch</name>
-          <_description>Press any of Alt keys to choose 3rd level</_description>
+          <_description>Any Alt key</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv3:lalt_switch</name>
-          <_description>Press Left Alt key to choose 3rd level</_description>
+          <_description>Left Alt</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv3:ralt_switch</name>
-          <_description>Press Right Alt key to choose 3rd level</_description>
+          <_description>Right Alt</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv3:ralt_switch_multikey</name>
-          <_description>Press Right Alt key to choose 3rd level, Shift+Right Alt key is Multi_Key</_description>
+          <_description>Right Alt, Shift+Right Alt key is Multi_Key</_description>
         </configItem>
       </option>
       <option>
@@ -4375,19 +4375,19 @@
       <option>
         <configItem>
           <name>ctrl:ctrl_ac</name>
-          <_description>Ctrl key at left of 'A'</_description>
+          <_description>At left of 'A'</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>ctrl:ctrl_aa</name>
-          <_description>Ctrl key at bottom left</_description>
+          <_description>At bottom left</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>ctrl:ctrl_ra</name>
-          <_description>Right Ctrl key works as Right Alt</_description>
+          <_description>Right Ctrl as Right Alt</_description>
         </configItem>
       </option>
     </group>
@@ -4400,19 +4400,19 @@
       <option>
         <configItem>
           <name>grp_led:num</name>
-          <_description>NumLock LED shows alternative layout</_description>
+          <_description>NumLock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp_led:caps</name>
-          <_description>CapsLock LED shows alternative layout</_description>
+          <_description>CapsLock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>grp_led:scroll</name>
-          <_description>ScrollLock LED shows alternative layout</_description>
+          <_description>ScrollLock</_description>
         </configItem>
       </option>
     </group>
@@ -4425,25 +4425,25 @@
       <option>
         <configItem>
           <name>keypad:legacy</name>
-          <_description>Legacy keypad</_description>
+          <_description>Legacy</_description>
        </configItem>
       </option>
       <option>
         <configItem>
           <name>keypad:oss</name>
-          <_description>Keypad with unicode additions (arrows and math operators)</_description>
+          <_description>Unicode additions (arrows and math operators)</_description>
        </configItem>
       </option>
       <option>
         <configItem>
           <name>keypad:future</name>
-          <_description>Keypad with unicode additions (arrows and math operators). Math operators on default level</_description>
+          <_description>Unicode additions (arrows and math operators). Math operators on default level</_description>
        </configItem>
       </option>
       <option>
         <configItem>
           <name>keypad:legacy_wang</name>
-          <_description>Legacy Wang 724 keypad</_description>
+          <_description>Legacy Wang 724</_description>
        </configItem>
       </option>
       <option>
@@ -4461,13 +4461,13 @@
       <option>
         <configItem>
           <name>keypad:hex</name>
-          <_description>Hexadecimal keypad</_description>
+          <_description>Hexadecimal</_description>
        </configItem>
       </option>
       <option>
         <configItem>
           <name>keypad:atm</name>
-          <_description>ATM/phone-style keypad</_description>
+          <_description>ATM/phone-style</_description>
        </configItem>
       </option>
     </group>
@@ -4603,55 +4603,55 @@
       <option>
         <configItem>
           <name>altwin:meta_alt</name>
-          <_description>Alt and Meta are on the Alt keys</_description>
+          <_description>Alt and Meta are on Alt keys</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>altwin:ctrl_win</name>
-          <_description>Control is mapped to the Win-keys (and the usual Ctrl keys)</_description>
+          <_description>Control is mapped to Win keys (and the usual Ctrl keys)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>altwin:ctrl_alt_win</name>
-          <_description>Control is mapped to the Alt-keys, Alt is mapped to the Win-keys</_description>
+          <_description>Control is mapped to Alt keys, Alt is mapped to Win keys</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>altwin:meta_win</name>
-          <_description>Meta is mapped to the Win-keys</_description>
+          <_description>Meta is mapped to Win keys</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>altwin:left_meta_win</name>
-          <_description>Meta is mapped to the left Win-key</_description>
+          <_description>Meta is mapped to Left Win</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>altwin:super_win</name>
-          <_description>Super is mapped to the Win-keys</_description>
+          <_description>Super is mapped to Win keys</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>altwin:hyper_win</name>
-          <_description>Hyper is mapped to the Win-keys</_description>
+          <_description>Hyper is mapped to Win-keys</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>altwin:alt_super_win</name>
-          <_description>Alt is mapped to the right Win-key and Super to Menu</_description>
+          <_description>Alt is mapped to Right Win, Super to Menu</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>altwin:swap_lalt_lwin</name>
-          <_description>Left Alt is swapped with left Win-key</_description>
+          <_description>Left Alt is swapped with Left Win</_description>
         </configItem>
       </option>
     </group>
@@ -4664,43 +4664,43 @@
       <option>
         <configItem>
           <name>compose:ralt</name>
-          <_description>Right Alt is Compose</_description>
+          <_description>Right Alt</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>compose:lwin</name>
-          <_description>Left Win-key is Compose</_description>
+          <_description>Left Win</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>compose:rwin</name>
-          <_description>Right Win-key is Compose</_description>
+          <_description>Right Win</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>compose:menu</name>
-          <_description>Menu is Compose</_description>
+          <_description>Menu</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>compose:rctrl</name>
-          <_description>Right Ctrl is Compose</_description>
+          <_description>Right Ctrl</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>compose:caps</name>
-          <_description>Caps Lock is Compose</_description>
+          <_description>Caps Lock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>compose:102</name>
-          <_description>Less-than/Greater-than is Compose</_description>
+          <_description>Less-than/Greater-than</_description>
         </configItem>
       </option>
     </group>
@@ -4755,25 +4755,25 @@
       <option>
         <configItem>
           <name>eurosign:e</name>
-          <_description>Add the EuroSign to the E key</_description>
+          <_description>E</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>eurosign:2</name>
-          <_description>Add the EuroSign to the 2 key</_description>
+          <_description>2</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>eurosign:4</name>
-          <_description>Add the EuroSign to the 4 key</_description>
+          <_description>4</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>eurosign:5</name>
-          <_description>Add the EuroSign to the 5 key</_description>
+          <_description>5</_description>
         </configItem>
       </option>
     </group>
@@ -4786,49 +4786,49 @@
       <option>
         <configItem>
           <name>nbsp:none</name>
-          <_description>Space key outputs usual space at any level</_description>
+          <_description>Usual space at any level</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level2</name>
-          <_description>Space key outputs non-breakable space character at second level</_description>
+          <_description>Non-breakable space character at second level</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level3</name>
-          <_description>Space key outputs non-breakable space character at third level</_description>
+          <_description>Non-breakable space character at third level</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level3s</name>
-          <_description>Space key outputs non-breakable space character at third level, nothing at fourth level</_description>
+          <_description>Non-breakable space character at third level, nothing at fourth level</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level3n</name>
-          <_description>Space key outputs non-breakable space character at third level, thin non-breakable space character at fourth level</_description>
+          <_description>Non-breakable space character at third level, thin non-breakable space character at fourth level</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level4</name>
-          <_description>Space key outputs non-breakable space character at fourth level</_description>
+          <_description>Non-breakable space character at fourth level</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level4n</name>
-          <_description>Space key outputs non-breakable space character at fourth level, thin non-breakable space character at sixth level</_description>
+          <_description>Non-breakable space character at fourth level, thin non-breakable space character at sixth level</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>nbsp:level4nl</name>
-          <_description>Space key outputs non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)</_description>
+          <_description>Non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)</_description>
         </configItem>
       </option>
     </group>
@@ -4858,13 +4858,13 @@
       <option>
         <configItem>
           <name>esperanto:qwerty</name>
-          <_description>Add circumflexes (supersigno) to the corresponding key in a Qwerty keyboard.</_description>
+          <_description>To the corresponding key in a Qwerty keyboard.</_description>
        </configItem>
       </option>
       <option>
         <configItem>
           <name>esperanto:dvorak</name>
-          <_description>Add circumflexes (supersigno) to the corresponding key in a Dvorak keyboard.</_description>
+          <_description>To the corresponding key in a Dvorak keyboard.</_description>
        </configItem>
       </option>
     </group>
