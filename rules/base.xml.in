@@ -4750,7 +4750,7 @@
       <!-- Special shortcuts for the Euro character -->
       <configItem>
         <name>eurosign</name>
-        <_description>Adding the EuroSign to certain keys</_description>
+        <_description>Adding EuroSign to certain keys</_description>
       </configItem>
       <option>
         <configItem>
