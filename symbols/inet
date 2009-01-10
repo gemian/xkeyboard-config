@@ -1385,12 +1385,8 @@ xkb_symbols "microsoftmult" {
     key <I58>	{	[ Print			]	}; 
     key <I64>   {       [ XF86Pictures  ]       }; 
     key <I80>   {       [ XF86Documents ]       }; 
-//   Control Section -- Far Right 
-//   F-Locked Function keys 
-//   Internet Section -- Right Side 
-//   Multimedia Section -- Centre 
-//   My Computer Section -- Left Side 
 }; 
+
 
 // Oretec
 
