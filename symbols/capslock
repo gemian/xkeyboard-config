@@ -37,3 +37,8 @@ xkb_symbols "escape" {
     key <ESC>  {        [       None    ]       };
 };
 
+partial hidden modifier_keys
+xkb_symbols "backspace" {
+    key <CAPS> {        [       BackSpace  ]       };
+};
+

@@ -4583,6 +4583,12 @@
       </option>
       <option>
         <configItem>
+          <name>caps:backspace</name>
+          <_description>Make CapsLock an additional Backspace</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>caps:shiftlock</name>
           <_description>CapsLock toggles Shift so all keys are affected</_description>
         </configItem>
