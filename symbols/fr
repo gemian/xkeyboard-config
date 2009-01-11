@@ -673,6 +673,105 @@ xkb_symbols "dvorak" {
   key <SPCE> { [            space,            space,    nobreakspace,     nobreakspace ] };
 };
 
+// C'WHERTY: Breton keyboard. Ar c'hlavier brezhoneg.
+// Copyright © 2009 Dominique Pellé <dominique.pelle@gmail.com>
+// Version: 0.1
+//
+// ┌────┐
+// │ S A│   S = Reol = Shift,  A = ArErl + Pennlizherenn = AltGr + Shift
+// │ s a│   s = normal,        a = AltGr
+// └────┘
+//
+// ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
+// │ $ Γ │ 1 Δ │ 2 Θ │ 3 Λ │ 4 Ξ │ 5 Π │ 6 Σ │ 7 Φ │ 8 Ψ │ 9 Ç │ 0 Ω │ ° ß │ + ¬ ┃ ⌫ Souzañ┃
+// │ ² ˙ │ & ¯ │ é ´ │ " # │ ' { │ ( [ │ - | │ è ` │ - \ │ ç ± │ à @ │ ) ] │ = } ┃         ┃
+// ┢━━━━━┷━┱───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┴─┬───┺━┳━━━━━━━┫
+// ┃Toalenn┃ C'h │ W ω │ E ε │ R ρ │ T τ │ Y ψ │ U υ │ I ι │ O OE│ P π │ ¨ ¥ │ * £ ┃Enankañ┃
+// ┃     ↹ ┃ c'h │ w   │ e € │ r   │ t   │ y   │ u   │ i ı │ o oe│ p   │ ^ « │ / » ┃   ⏎   ┃
+// ┣━━━━━━━┻┱────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┴┬────┺┓      ┃
+// ┃Prenn   ┃ A Æ │ S σ │ D δ │ F φ │ G γ │ H η │ J ς │ K κ │ L λ │ M μ │ Ù ® │ ! ¡ ┃      ┃
+// ┃Pennli ⇬┃ a æ │ s   │ d $ │ f   │ g   │ h   │ j   │ k   │ l   │ m   │ ù ŭ │ ? ¿ ┃      ┃
+// ┣━━━━━━━┳┹────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┬┴────┲┷━━━━━┻━━━━━━┫
+// ┃       ┃ Q θ │ Z ζ │ X ξ │ C χ │ V   │ B β │ N ν │ CH  │ Ñ   │ : © │ ;   ┃             ┃
+// ┃Shift ⇧┃ q < │ z > │ x   │ c ¢ │ v   │ b   │ n   │ ch  │ ñ   │ .   │ ,   ┃Shift ⇧      ┃
+// ┣━━━━━━━╋━━━━━┷━┳━━━┷━━━┱─┴─────┴─────┴─────┴─────┴─────┴───┲━┷━━━━━╈━━━━━┻━┳━━━━━━━┳━━━┛
+// ┃       ┃       ┃       ┃ ⍽ Espace insécable              ␣ ┃       ┃       ┃       ┃
+// ┃Reol   ┃Meta   ┃Erl    ┃ ␣ Espace                        ␣ ┃ArErl ⇮┃Menu   ┃Reol   ┃
+// ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
+partial alphanumeric_keys
+xkb_symbols "bre" {
+
+    include "keypad(oss)"
+
+    name[Group1]= "France - Breton";
+
+    // First row
+    key <TLDE> { [     twosuperior,     dead_tilde,   dead_abovedot,    Greek_GAMMA ] };
+    key <AE01> { [       ampersand,              1,     dead_macron,    Greek_DELTA ] };
+    key <AE02> { [          eacute,              2,      dead_acute,    Greek_THETA ] };
+    key <AE03> { [        quotedbl,              3,      numbersign,    Greek_LAMDA ] };
+    key <AE04> { [      apostrophe,              4,       braceleft,       Greek_XI ] };
+    key <AE05> { [       parenleft,              5,     bracketleft,       Greek_PI ] };
+    key <AE06> { [           minus,              6,             bar,    Greek_SIGMA ] };
+    key <AE07> { [          egrave,              7,      dead_grave,      Greek_PHI ] };
+    key <AE08> { [      underscore,              8,       backslash,      Greek_PSI ] };
+    key <AE09> { [        ccedilla,              9,       plusminus,       Ccedilla ] };
+    key <AE10> { [          agrave,              0,              at,    Greek_OMEGA ] };
+    key <AE11> { [      parenright, dead_abovering,    bracketright,         ssharp ] };
+    key <AE12> { [           equal,           plus,      braceright,        notsign ] };
+
+    // Second row
+    // Handling the C'H key correctly requires an inputmethod (XIM)
+    // See https://bugs.freedesktop.org/show_bug.cgi?id=19506
+ // key <AD01> { [    trigraph_c_h,   trigraph_C_h,    trigraph_C_H,    Greek_alpha ] };
+    key <AD01> { [           UF8FD,          UF8FE,           UF8FF,    Greek_alpha ] };
+    key <AD02> { [               w,              W,     Greek_omega,    Greek_omega ] };
+    key <AD03> { [               e,              E,        EuroSign,  Greek_epsilon ] };
+    key <AD04> { [               r,              R,       Greek_rho,      Greek_rho ] };
+    key <AD05> { [               t,              T,       Greek_tau,      Greek_tau ] };
+    key <AD06> { [               y,              Y,       Greek_psi,      Greek_psi ] };
+    key <AD07> { [               u,              U,   Greek_upsilon,  Greek_upsilon ] };
+    key <AD08> { [               i,              I,        idotless,     Greek_iota ] };
+    key <AD09> { [               o,              O,              oe,             OE ] };
+    key <AD10> { [               p,              P,        Greek_pi,       Greek_pi ] };
+    key <AD11> { [ dead_circumflex, dead_diaeresis,   guillemotleft,            yen ] };
+    key <AD12> { [           slash,       asterisk,  guillemotright,       sterling ] };
+
+    // Third row
+    key <AC01> { [               a,              A,              ae,             AE ] };
+    key <AC02> { [               s,              S,     Greek_sigma,    Greek_sigma ] };
+    key <AC03> { [               d,              D,          dollar,    Greek_delta ] };
+    key <AC04> { [               f,              F,       Greek_phi,      Greek_phi ] };
+    key <AC05> { [               g,              G,     Greek_gamma,    Greek_gamma ] };
+    key <AC06> { [               h,              H,       Greek_eta,      Greek_eta ] };
+    key <AC07> { [               j,              J, Greek_finalsmallsigma, Greek_finalsmallsigma ] };
+    key <AC08> { [               k,              K,       Greek_kappa,  Greek_kappa ] };
+    key <AC09> { [               l,              L,       Greek_lamda, Greek_lambda ] };
+    key <AC10> { [               m,              M,          Greek_mu,     Greek_mu ] };
+    key <AC11> { [          ugrave,         Ugrave,            ubreve,   registered ] };
+    key <BKSL> { [        question,         exclam,      questiondown,   exclamdown ] };
+
+    // Fourth row
+    key <LSGT> { [               q,              Q,            less,    Greek_theta ] };
+    key <AB01> { [               z,              Z,         greater,     Greek_zeta ] };
+    key <AB02> { [               x,              X,        Greek_xi,       Greek_xi ] };
+    key <AB03> { [               c,              C,            cent,      Greek_chi ] };
+    key <AB04> { [               v,              V                                  ] };
+    key <AB05> { [               b,              B,      Greek_beta,     Greek_beta ] };
+    key <AB06> { [               n,              N,        Greek_nu,       Greek_nu ] };
+    // Handling the CH key correctly requires an inputmethod (XIM)
+    // See https://bugs.freedesktop.org/show_bug.cgi?id=19506
+ // key <AB07> { [      digraph_ch,     digraph_Ch,      digraph_CH,  Greek_omicron ] };
+    key <AB07> { [           UF8FA,          UF8FB,           UF8FC,  Greek_omicron ] };
+    key <AB08> { [          ntilde,         Ntilde                                  ] };
+    key <AB09> { [          period,          colon,         section,      copyright ] };
+    key <AB10> { [           comma,      semicolon,         percent                 ] };
+
+    key <SPCE> { [           space,   nobreakspace,           space,   nobreakspace ] };
+
+    include "level3(ralt_switch)"
+};
+
 // Marc.Shapiro@inria.fr 19-sep-1998
 // modifications : Etienne Herlent <eherlent@linux-france.org> june 2000
 // adapted to the new input layer :

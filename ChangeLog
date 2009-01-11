@@ -5,6 +5,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=19508
 	* rules/base.xml.in, symbols/lt: removed unneeded variant,
 	http://bugs.freedesktop.org/show_bug.cgi?id=14096
+	* rules/base.xml.in, symbols/fr: added Breton variant,
+	http://bugs.freedesktop.org/show_bug.cgi?id=19506
 
 2009-01-10  Sergey Udaltsov
 

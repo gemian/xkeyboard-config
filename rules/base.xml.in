@@ -2321,6 +2321,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>bre</name>
+            <_description>Breton</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>geo</name>
             <_description>Georgian AZERTY Tskapo</_description>
             <languageList><iso639Id>geo</iso639Id></languageList>
