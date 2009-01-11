@@ -3,6 +3,8 @@
 	* rules/base.o_s.part, rules/base.xml.in, symbols/capslock: added
 	option to use capslock as backspace,
 	http://bugs.freedesktop.org/show_bug.cgi?id=19508
+	* rules/base.xml.in, symbols/lt: removed unneeded variant,
+	http://bugs.freedesktop.org/show_bug.cgi?id=14096
 
 2009-01-10  Sergey Udaltsov
 
