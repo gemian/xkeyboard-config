@@ -1,3 +1,8 @@
+2009-01-12  Sergey Udaltsov
+
+	* rules/Makefile.am, rules/merge.sh: fix the build (thanks to Oswald
+	Buddenhagen)
+
 2009-01-11  Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/capslock: added

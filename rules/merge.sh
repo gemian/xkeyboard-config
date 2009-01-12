@@ -1,5 +1,6 @@
 #!/bin/bash
 
+INDIR=`dirname $0`
 DEST=$1
 shift
 
@@ -15,8 +16,10 @@ for i in $*; do
     echo >> $DEST;
     read hdr
     echo "$hdr" >> $DEST
+  elif test -f $i; then
+    cat $i >> $DEST || exit 1
   else
-    cat $i >> $DEST;
+    cat $INDIR/$i >> $DEST || exit 1
   fi
 done < $HDR
 
