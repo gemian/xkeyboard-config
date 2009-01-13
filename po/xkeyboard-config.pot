@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
-"POT-Creation-Date: 2009-01-13 23:02+0000\n"
+"POT-Creation-Date: 2009-01-13 23:12+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -160,652 +160,652 @@ msgstr ""
 msgid "Adding EuroSign to certain keys"
 msgstr ""
 
-#: ../rules/base.xml.in.h:37 ../rules/evdev.xml.in.h:38
+#: ../rules/base.xml.in.h:37 ../rules/evdev.xml.in.h:37
 msgid "Advance Scorpius KI"
 msgstr ""
 
-#: ../rules/base.xml.in.h:38 ../rules/evdev.xml.in.h:39
+#: ../rules/base.xml.in.h:38 ../rules/evdev.xml.in.h:38
 msgid "Afg"
 msgstr ""
 
-#: ../rules/base.xml.in.h:39 ../rules/evdev.xml.in.h:40
+#: ../rules/base.xml.in.h:39 ../rules/evdev.xml.in.h:39
 msgid "Afghanistan"
 msgstr ""
 
-#: ../rules/base.xml.in.h:40 ../rules/evdev.xml.in.h:41
+#: ../rules/base.xml.in.h:40 ../rules/evdev.xml.in.h:40
 msgid "Akan"
 msgstr ""
 
-#: ../rules/base.xml.in.h:41 ../rules/evdev.xml.in.h:42
+#: ../rules/base.xml.in.h:41 ../rules/evdev.xml.in.h:41
 msgid "Alb"
 msgstr ""
 
-#: ../rules/base.xml.in.h:42 ../rules/evdev.xml.in.h:43
+#: ../rules/base.xml.in.h:42 ../rules/evdev.xml.in.h:42
 msgid "Albania"
 msgstr ""
 
-#: ../rules/base.xml.in.h:43 ../rules/evdev.xml.in.h:44
+#: ../rules/base.xml.in.h:43 ../rules/evdev.xml.in.h:43
 msgid "Alt and Meta are on Alt keys"
 msgstr ""
 
-#: ../rules/base.xml.in.h:44 ../rules/evdev.xml.in.h:45
+#: ../rules/base.xml.in.h:44 ../rules/evdev.xml.in.h:44
 msgid "Alt is mapped to Right Win, Super to Menu"
 msgstr ""
 
-#: ../rules/base.xml.in.h:45 ../rules/evdev.xml.in.h:46
+#: ../rules/base.xml.in.h:45 ../rules/evdev.xml.in.h:45
 msgid "Alt+CapsLock"
 msgstr ""
 
-#: ../rules/base.xml.in.h:46 ../rules/evdev.xml.in.h:47
+#: ../rules/base.xml.in.h:46 ../rules/evdev.xml.in.h:46
 msgid "Alt+Ctrl"
 msgstr ""
 
-#: ../rules/base.xml.in.h:47 ../rules/evdev.xml.in.h:48
+#: ../rules/base.xml.in.h:47 ../rules/evdev.xml.in.h:47
 msgid "Alt+Shift"
 msgstr ""
 
-#: ../rules/base.xml.in.h:48 ../rules/evdev.xml.in.h:49
+#: ../rules/base.xml.in.h:48 ../rules/evdev.xml.in.h:48
 msgid "Alt+Space"
 msgstr ""
 
-#: ../rules/base.xml.in.h:49 ../rules/evdev.xml.in.h:50
+#: ../rules/base.xml.in.h:49 ../rules/evdev.xml.in.h:49
 msgid "Alt-Q"
 msgstr ""
 
-#: ../rules/base.xml.in.h:50 ../rules/evdev.xml.in.h:51
+#: ../rules/base.xml.in.h:50 ../rules/evdev.xml.in.h:50
 msgid "Alt/Win key behavior"
 msgstr ""
 
-#: ../rules/base.xml.in.h:51 ../rules/evdev.xml.in.h:52
+#: ../rules/base.xml.in.h:51 ../rules/evdev.xml.in.h:51
 msgid "Alternative"
 msgstr ""
 
-#: ../rules/base.xml.in.h:52 ../rules/evdev.xml.in.h:53
+#: ../rules/base.xml.in.h:52 ../rules/evdev.xml.in.h:52
 msgid "Alternative Eastern"
 msgstr ""
 
-#: ../rules/base.xml.in.h:53 ../rules/evdev.xml.in.h:54
+#: ../rules/base.xml.in.h:53 ../rules/evdev.xml.in.h:53
 msgid "Alternative Phonetic"
 msgstr ""
 
-#: ../rules/base.xml.in.h:54 ../rules/evdev.xml.in.h:55
+#: ../rules/base.xml.in.h:54 ../rules/evdev.xml.in.h:54
 msgid "Alternative international (former us_intl)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:55 ../rules/evdev.xml.in.h:56
+#: ../rules/base.xml.in.h:55 ../rules/evdev.xml.in.h:55
 msgid "Alternative, Sun dead keys"
 msgstr ""
 
-#: ../rules/base.xml.in.h:56 ../rules/evdev.xml.in.h:57
+#: ../rules/base.xml.in.h:56 ../rules/evdev.xml.in.h:56
 msgid "Alternative, eliminate dead keys"
 msgstr ""
 
-#: ../rules/base.xml.in.h:57 ../rules/evdev.xml.in.h:58
+#: ../rules/base.xml.in.h:57 ../rules/evdev.xml.in.h:57
 msgid "Alternative, latin-9 only"
 msgstr ""
 
-#: ../rules/base.xml.in.h:58 ../rules/evdev.xml.in.h:59
+#: ../rules/base.xml.in.h:58 ../rules/evdev.xml.in.h:58
 msgid "And"
 msgstr ""
 
-#: ../rules/base.xml.in.h:59 ../rules/evdev.xml.in.h:60
+#: ../rules/base.xml.in.h:59 ../rules/evdev.xml.in.h:59
 msgid "Andorra"
 msgstr ""
 
-#: ../rules/base.xml.in.h:60 ../rules/evdev.xml.in.h:61
+#: ../rules/base.xml.in.h:60 ../rules/evdev.xml.in.h:60
 msgid "Any Alt key"
 msgstr ""
 
-#: ../rules/base.xml.in.h:61 ../rules/evdev.xml.in.h:62
+#: ../rules/base.xml.in.h:61 ../rules/evdev.xml.in.h:61
 msgid "Any Win key"
 msgstr ""
 
-#: ../rules/base.xml.in.h:62 ../rules/evdev.xml.in.h:63
+#: ../rules/base.xml.in.h:62 ../rules/evdev.xml.in.h:62
 msgid "Any Win key (while pressed)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:63 ../rules/evdev.xml.in.h:64
+#: ../rules/base.xml.in.h:63 ../rules/evdev.xml.in.h:63
 msgid "Apostrophe (') variant"
 msgstr ""
 
-#: ../rules/base.xml.in.h:64 ../rules/evdev.xml.in.h:65
+#: ../rules/base.xml.in.h:64 ../rules/evdev.xml.in.h:64
 msgid "Apple"
 msgstr ""
 
-#: ../rules/base.xml.in.h:65 ../rules/evdev.xml.in.h:66
+#: ../rules/base.xml.in.h:65 ../rules/evdev.xml.in.h:65
 msgid "Apple Laptop"
 msgstr ""
 
-#: ../rules/base.xml.in.h:66 ../rules/evdev.xml.in.h:67
+#: ../rules/base.xml.in.h:66 ../rules/evdev.xml.in.h:66
 msgid "Ara"
 msgstr ""
 
-#: ../rules/base.xml.in.h:67 ../rules/evdev.xml.in.h:68
+#: ../rules/base.xml.in.h:67 ../rules/evdev.xml.in.h:67
 msgid "Arabic"
 msgstr ""
 
-#: ../rules/base.xml.in.h:68 ../rules/evdev.xml.in.h:69
+#: ../rules/base.xml.in.h:68 ../rules/evdev.xml.in.h:68
 msgid "Arm"
 msgstr ""
 
-#: ../rules/base.xml.in.h:69 ../rules/evdev.xml.in.h:70
+#: ../rules/base.xml.in.h:69 ../rules/evdev.xml.in.h:69
 msgid "Armenia"
 msgstr ""
 
-#: ../rules/base.xml.in.h:70 ../rules/evdev.xml.in.h:71
+#: ../rules/base.xml.in.h:70 ../rules/evdev.xml.in.h:70
 msgid "Asturian variant with bottom-dot H and bottom-dot L"
 msgstr ""
 
-#: ../rules/base.xml.in.h:71 ../rules/evdev.xml.in.h:72
+#: ../rules/base.xml.in.h:71 ../rules/evdev.xml.in.h:71
 msgid "Asus Laptop"
 msgstr ""
 
-#: ../rules/base.xml.in.h:72 ../rules/evdev.xml.in.h:73
+#: ../rules/base.xml.in.h:72 ../rules/evdev.xml.in.h:72
 msgid "At bottom left"
 msgstr ""
 
-#: ../rules/base.xml.in.h:73 ../rules/evdev.xml.in.h:74
+#: ../rules/base.xml.in.h:73 ../rules/evdev.xml.in.h:73
 msgid "At left of 'A'"
 msgstr ""
 
-#: ../rules/base.xml.in.h:74 ../rules/evdev.xml.in.h:75
+#: ../rules/base.xml.in.h:74 ../rules/evdev.xml.in.h:74
 msgid "Aze"
 msgstr ""
 
-#: ../rules/base.xml.in.h:75 ../rules/evdev.xml.in.h:76
+#: ../rules/base.xml.in.h:75 ../rules/evdev.xml.in.h:75
 msgid "Azerbaijan"
 msgstr ""
 
-#: ../rules/base.xml.in.h:76 ../rules/evdev.xml.in.h:77
+#: ../rules/base.xml.in.h:76 ../rules/evdev.xml.in.h:76
 msgid "Azona RF2300 wireless Internet Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:77 ../rules/evdev.xml.in.h:78
+#: ../rules/base.xml.in.h:77 ../rules/evdev.xml.in.h:77
 msgid "BTC 5090"
 msgstr ""
 
-#: ../rules/base.xml.in.h:78 ../rules/evdev.xml.in.h:79
+#: ../rules/base.xml.in.h:78 ../rules/evdev.xml.in.h:78
 msgid "BTC 5113RF Multimedia"
 msgstr ""
 
-#: ../rules/base.xml.in.h:79 ../rules/evdev.xml.in.h:80
+#: ../rules/base.xml.in.h:79 ../rules/evdev.xml.in.h:79
 msgid "BTC 5126T"
 msgstr ""
 
-#: ../rules/base.xml.in.h:80 ../rules/evdev.xml.in.h:81
+#: ../rules/base.xml.in.h:80 ../rules/evdev.xml.in.h:80
 msgid "BTC 6301URF"
 msgstr ""
 
-#: ../rules/base.xml.in.h:81 ../rules/evdev.xml.in.h:82
+#: ../rules/base.xml.in.h:81 ../rules/evdev.xml.in.h:81
 msgid "BTC 9000"
 msgstr ""
 
-#: ../rules/base.xml.in.h:82 ../rules/evdev.xml.in.h:83
+#: ../rules/base.xml.in.h:82 ../rules/evdev.xml.in.h:82
 msgid "BTC 9000A"
 msgstr ""
 
-#: ../rules/base.xml.in.h:83 ../rules/evdev.xml.in.h:84
+#: ../rules/base.xml.in.h:83 ../rules/evdev.xml.in.h:83
 msgid "BTC 9001AH"
 msgstr ""
 
-#: ../rules/base.xml.in.h:84 ../rules/evdev.xml.in.h:85
+#: ../rules/base.xml.in.h:84 ../rules/evdev.xml.in.h:84
 msgid "BTC 9019U"
 msgstr ""
 
-#: ../rules/base.xml.in.h:85 ../rules/evdev.xml.in.h:86
+#: ../rules/base.xml.in.h:85 ../rules/evdev.xml.in.h:85
 msgid "BTC 9116U Mini Wireless Internet and Gaming"
 msgstr ""
 
-#: ../rules/base.xml.in.h:86 ../rules/evdev.xml.in.h:87
+#: ../rules/base.xml.in.h:86 ../rules/evdev.xml.in.h:86
 msgid "Ban"
 msgstr ""
 
-#: ../rules/base.xml.in.h:87 ../rules/evdev.xml.in.h:88
+#: ../rules/base.xml.in.h:87 ../rules/evdev.xml.in.h:87
 msgid "Bangladesh"
 msgstr ""
 
-#: ../rules/base.xml.in.h:88 ../rules/evdev.xml.in.h:89
+#: ../rules/base.xml.in.h:88 ../rules/evdev.xml.in.h:88
 msgid "Bel"
 msgstr ""
 
-#: ../rules/base.xml.in.h:89 ../rules/evdev.xml.in.h:90
+#: ../rules/base.xml.in.h:89 ../rules/evdev.xml.in.h:89
 msgid "Belarus"
 msgstr ""
 
-#: ../rules/base.xml.in.h:90 ../rules/evdev.xml.in.h:91
+#: ../rules/base.xml.in.h:90 ../rules/evdev.xml.in.h:90
 msgid "Belgium"
 msgstr ""
 
-#: ../rules/base.xml.in.h:91 ../rules/evdev.xml.in.h:92
+#: ../rules/base.xml.in.h:91 ../rules/evdev.xml.in.h:91
 msgid "BenQ X-Touch"
 msgstr ""
 
-#: ../rules/base.xml.in.h:92 ../rules/evdev.xml.in.h:93
+#: ../rules/base.xml.in.h:92 ../rules/evdev.xml.in.h:92
 msgid "BenQ X-Touch 730"
 msgstr ""
 
-#: ../rules/base.xml.in.h:93 ../rules/evdev.xml.in.h:94
+#: ../rules/base.xml.in.h:93 ../rules/evdev.xml.in.h:93
 msgid "BenQ X-Touch 800"
 msgstr ""
 
-#: ../rules/base.xml.in.h:94 ../rules/evdev.xml.in.h:95
+#: ../rules/base.xml.in.h:94 ../rules/evdev.xml.in.h:94
 msgid "Bengali"
 msgstr ""
 
-#: ../rules/base.xml.in.h:95 ../rules/evdev.xml.in.h:96
+#: ../rules/base.xml.in.h:95 ../rules/evdev.xml.in.h:95
 msgid "Bengali Probhat"
 msgstr ""
 
-#: ../rules/base.xml.in.h:96 ../rules/evdev.xml.in.h:97
+#: ../rules/base.xml.in.h:96 ../rules/evdev.xml.in.h:96
 msgid "Bepo, ergonomic, Dvorak way"
 msgstr ""
 
-#: ../rules/base.xml.in.h:97 ../rules/evdev.xml.in.h:98
+#: ../rules/base.xml.in.h:97 ../rules/evdev.xml.in.h:97
 msgid "Bepo, ergonomic, Dvorak way, latin-9 only"
 msgstr ""
 
-#: ../rules/base.xml.in.h:98 ../rules/evdev.xml.in.h:99
+#: ../rules/base.xml.in.h:98 ../rules/evdev.xml.in.h:98
 msgid "Bgr"
 msgstr ""
 
-#: ../rules/base.xml.in.h:99 ../rules/evdev.xml.in.h:100
+#: ../rules/base.xml.in.h:99 ../rules/evdev.xml.in.h:99
 msgid "Bhu"
 msgstr ""
 
-#: ../rules/base.xml.in.h:100 ../rules/evdev.xml.in.h:101
+#: ../rules/base.xml.in.h:100 ../rules/evdev.xml.in.h:100
 msgid "Bhutan"
 msgstr ""
 
-#: ../rules/base.xml.in.h:101 ../rules/evdev.xml.in.h:102
+#: ../rules/base.xml.in.h:101 ../rules/evdev.xml.in.h:101
 msgid "Biblical Hebrew (Tiro)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:102 ../rules/evdev.xml.in.h:103
+#: ../rules/base.xml.in.h:102 ../rules/evdev.xml.in.h:102
 msgid "Bih"
 msgstr ""
 
-#: ../rules/base.xml.in.h:103 ../rules/evdev.xml.in.h:104
+#: ../rules/base.xml.in.h:103 ../rules/evdev.xml.in.h:103
 msgid "Blr"
 msgstr ""
 
-#: ../rules/base.xml.in.h:104 ../rules/evdev.xml.in.h:105
+#: ../rules/base.xml.in.h:104 ../rules/evdev.xml.in.h:104
 msgid "Bosnia and Herzegovina"
 msgstr ""
 
-#: ../rules/base.xml.in.h:105 ../rules/evdev.xml.in.h:106
+#: ../rules/base.xml.in.h:105 ../rules/evdev.xml.in.h:105
 msgid "Both Alt keys together"
 msgstr ""
 
-#: ../rules/base.xml.in.h:106 ../rules/evdev.xml.in.h:107
+#: ../rules/base.xml.in.h:106 ../rules/evdev.xml.in.h:106
 msgid "Both Ctrl keys together"
 msgstr ""
 
-#: ../rules/base.xml.in.h:107 ../rules/evdev.xml.in.h:108
+#: ../rules/base.xml.in.h:107 ../rules/evdev.xml.in.h:107
 msgid "Both Shift keys together"
 msgstr ""
 
-#: ../rules/base.xml.in.h:108 ../rules/evdev.xml.in.h:109
+#: ../rules/base.xml.in.h:108 ../rules/evdev.xml.in.h:108
 msgid "Bra"
 msgstr ""
 
-#: ../rules/base.xml.in.h:109 ../rules/evdev.xml.in.h:110
+#: ../rules/base.xml.in.h:109 ../rules/evdev.xml.in.h:109
 msgid "Braille"
 msgstr ""
 
-#: ../rules/base.xml.in.h:110 ../rules/evdev.xml.in.h:111
+#: ../rules/base.xml.in.h:110 ../rules/evdev.xml.in.h:110
 msgid "Brazil"
 msgstr ""
 
-#: ../rules/base.xml.in.h:111 ../rules/evdev.xml.in.h:112
+#: ../rules/base.xml.in.h:111 ../rules/evdev.xml.in.h:111
 msgid "Brazilian ABNT2"
 msgstr ""
 
-#: ../rules/base.xml.in.h:112 ../rules/evdev.xml.in.h:113
+#: ../rules/base.xml.in.h:112 ../rules/evdev.xml.in.h:112
 msgid "Breton"
 msgstr ""
 
-#: ../rules/base.xml.in.h:113 ../rules/evdev.xml.in.h:114
+#: ../rules/base.xml.in.h:113 ../rules/evdev.xml.in.h:113
 msgid "Brl"
 msgstr ""
 
-#: ../rules/base.xml.in.h:114 ../rules/evdev.xml.in.h:115
+#: ../rules/base.xml.in.h:114 ../rules/evdev.xml.in.h:114
 msgid "Brother Internet Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:115 ../rules/evdev.xml.in.h:116
+#: ../rules/base.xml.in.h:115 ../rules/evdev.xml.in.h:115
 msgid "Buckwalter"
 msgstr ""
 
-#: ../rules/base.xml.in.h:116 ../rules/evdev.xml.in.h:117
+#: ../rules/base.xml.in.h:116 ../rules/evdev.xml.in.h:116
 msgid "Bulgaria"
 msgstr ""
 
-#: ../rules/base.xml.in.h:117 ../rules/evdev.xml.in.h:118
+#: ../rules/base.xml.in.h:117 ../rules/evdev.xml.in.h:117
 msgid "CRULP"
 msgstr ""
 
-#: ../rules/base.xml.in.h:118 ../rules/evdev.xml.in.h:119
+#: ../rules/base.xml.in.h:118 ../rules/evdev.xml.in.h:118
 msgid "Cambodia"
 msgstr ""
 
-#: ../rules/base.xml.in.h:119 ../rules/evdev.xml.in.h:120
+#: ../rules/base.xml.in.h:119 ../rules/evdev.xml.in.h:119
 msgid "Can"
 msgstr ""
 
-#: ../rules/base.xml.in.h:120 ../rules/evdev.xml.in.h:121
+#: ../rules/base.xml.in.h:120 ../rules/evdev.xml.in.h:120
 msgid "Canada"
 msgstr ""
 
-#: ../rules/base.xml.in.h:121 ../rules/evdev.xml.in.h:122
+#: ../rules/base.xml.in.h:121 ../rules/evdev.xml.in.h:121
 msgid "Caps Lock"
 msgstr ""
 
-#: ../rules/base.xml.in.h:122 ../rules/evdev.xml.in.h:123
+#: ../rules/base.xml.in.h:122 ../rules/evdev.xml.in.h:122
 msgid "CapsLock"
 msgstr ""
 
-#: ../rules/base.xml.in.h:123 ../rules/evdev.xml.in.h:124
+#: ../rules/base.xml.in.h:123 ../rules/evdev.xml.in.h:123
 msgid "CapsLock (to first layout), Shift+CapsLock (to last layout)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:124 ../rules/evdev.xml.in.h:125
+#: ../rules/base.xml.in.h:124 ../rules/evdev.xml.in.h:124
 msgid ""
 "CapsLock (while pressed), Alt+CapsLock does the original capslock action"
 msgstr ""
 
-#: ../rules/base.xml.in.h:125 ../rules/evdev.xml.in.h:126
+#: ../rules/base.xml.in.h:125 ../rules/evdev.xml.in.h:125
 msgid "CapsLock acts as Shift with locking. Shift \"pauses\" CapsLock"
 msgstr ""
 
-#: ../rules/base.xml.in.h:126 ../rules/evdev.xml.in.h:127
+#: ../rules/base.xml.in.h:126 ../rules/evdev.xml.in.h:126
 msgid "CapsLock acts as Shift with locking. Shift doesn't affect CapsLock"
 msgstr ""
 
-#: ../rules/base.xml.in.h:127 ../rules/evdev.xml.in.h:128
+#: ../rules/base.xml.in.h:127 ../rules/evdev.xml.in.h:127
 msgid "CapsLock key behavior"
 msgstr ""
 
-#: ../rules/base.xml.in.h:128 ../rules/evdev.xml.in.h:129
+#: ../rules/base.xml.in.h:128 ../rules/evdev.xml.in.h:128
 msgid "CapsLock toggles Shift so all keys are affected"
 msgstr ""
 
-#: ../rules/base.xml.in.h:129 ../rules/evdev.xml.in.h:130
+#: ../rules/base.xml.in.h:129 ../rules/evdev.xml.in.h:129
 msgid "CapsLock toggles normal capitalization of alphabetic characters"
 msgstr ""
 
-#: ../rules/base.xml.in.h:130 ../rules/evdev.xml.in.h:131
+#: ../rules/base.xml.in.h:130 ../rules/evdev.xml.in.h:130
 msgid "CapsLock uses internal capitalization. Shift \"pauses\" CapsLock"
 msgstr ""
 
-#: ../rules/base.xml.in.h:131 ../rules/evdev.xml.in.h:132
+#: ../rules/base.xml.in.h:131 ../rules/evdev.xml.in.h:131
 msgid "CapsLock uses internal capitalization. Shift doesn't affect CapsLock"
 msgstr ""
 
-#: ../rules/base.xml.in.h:132 ../rules/evdev.xml.in.h:133
+#: ../rules/base.xml.in.h:132 ../rules/evdev.xml.in.h:132
 msgid "Catalan variant with middle-dot L"
 msgstr ""
 
-#: ../rules/base.xml.in.h:133 ../rules/evdev.xml.in.h:134
+#: ../rules/base.xml.in.h:133 ../rules/evdev.xml.in.h:133
 msgid "Cedilla"
 msgstr ""
 
-#: ../rules/base.xml.in.h:134 ../rules/evdev.xml.in.h:135
+#: ../rules/base.xml.in.h:134 ../rules/evdev.xml.in.h:134
 msgid "Che"
 msgstr ""
 
-#: ../rules/base.xml.in.h:135 ../rules/evdev.xml.in.h:136
+#: ../rules/base.xml.in.h:135 ../rules/evdev.xml.in.h:135
 msgid "Cherokee"
 msgstr ""
 
-#: ../rules/base.xml.in.h:136 ../rules/evdev.xml.in.h:137
+#: ../rules/base.xml.in.h:136 ../rules/evdev.xml.in.h:136
 msgid "Cherry Blue Line CyBo@rd"
 msgstr ""
 
-#: ../rules/base.xml.in.h:137 ../rules/evdev.xml.in.h:138
+#: ../rules/base.xml.in.h:137 ../rules/evdev.xml.in.h:137
 msgid "Cherry Blue Line CyBo@rd (alternate option)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:138 ../rules/evdev.xml.in.h:139
+#: ../rules/base.xml.in.h:138 ../rules/evdev.xml.in.h:138
 msgid "Cherry CyBo@rd USB-Hub"
 msgstr ""
 
-#: ../rules/base.xml.in.h:139 ../rules/evdev.xml.in.h:140
+#: ../rules/base.xml.in.h:139 ../rules/evdev.xml.in.h:139
 msgid "Cherry CyMotion Expert"
 msgstr ""
 
-#: ../rules/base.xml.in.h:140 ../rules/evdev.xml.in.h:141
+#: ../rules/base.xml.in.h:140 ../rules/evdev.xml.in.h:140
 msgid "Cherry CyMotion Master Linux"
 msgstr ""
 
-#: ../rules/base.xml.in.h:141 ../rules/evdev.xml.in.h:142
+#: ../rules/base.xml.in.h:141 ../rules/evdev.xml.in.h:141
 msgid "Cherry CyMotion Master XPress"
 msgstr ""
 
-#: ../rules/base.xml.in.h:142 ../rules/evdev.xml.in.h:143
+#: ../rules/base.xml.in.h:142 ../rules/evdev.xml.in.h:142
 msgid "Chicony Internet Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:143 ../rules/evdev.xml.in.h:144
+#: ../rules/base.xml.in.h:143 ../rules/evdev.xml.in.h:143
 msgid "Chicony KB-9885"
 msgstr ""
 
-#: ../rules/base.xml.in.h:144 ../rules/evdev.xml.in.h:145
+#: ../rules/base.xml.in.h:144 ../rules/evdev.xml.in.h:144
 msgid "Chicony KU-0108"
 msgstr ""
 
-#: ../rules/base.xml.in.h:145 ../rules/evdev.xml.in.h:146
+#: ../rules/base.xml.in.h:145 ../rules/evdev.xml.in.h:145
 msgid "Chicony KU-0420"
 msgstr ""
 
-#: ../rules/base.xml.in.h:146 ../rules/evdev.xml.in.h:147
+#: ../rules/base.xml.in.h:146 ../rules/evdev.xml.in.h:146
 msgid "China"
 msgstr ""
 
-#: ../rules/base.xml.in.h:147 ../rules/evdev.xml.in.h:148
+#: ../rules/base.xml.in.h:147 ../rules/evdev.xml.in.h:147
 msgid "Chuvash"
 msgstr ""
 
-#: ../rules/base.xml.in.h:148 ../rules/evdev.xml.in.h:149
+#: ../rules/base.xml.in.h:148 ../rules/evdev.xml.in.h:148
 msgid "Chuvash Latin"
 msgstr ""
 
-#: ../rules/base.xml.in.h:149 ../rules/evdev.xml.in.h:150
+#: ../rules/base.xml.in.h:149 ../rules/evdev.xml.in.h:149
 msgid "Classic"
 msgstr ""
 
-#: ../rules/base.xml.in.h:150 ../rules/evdev.xml.in.h:151
+#: ../rules/base.xml.in.h:150 ../rules/evdev.xml.in.h:150
 msgid "Classic Dvorak"
 msgstr ""
 
-#: ../rules/base.xml.in.h:151 ../rules/evdev.xml.in.h:152
+#: ../rules/base.xml.in.h:151 ../rules/evdev.xml.in.h:151
 msgid "Classmate PC"
 msgstr ""
 
-#: ../rules/base.xml.in.h:152 ../rules/evdev.xml.in.h:153
+#: ../rules/base.xml.in.h:152 ../rules/evdev.xml.in.h:152
 msgid "CloGaelach"
 msgstr ""
 
-#: ../rules/base.xml.in.h:153 ../rules/evdev.xml.in.h:154
+#: ../rules/base.xml.in.h:153 ../rules/evdev.xml.in.h:153
 msgid "Colemak"
 msgstr ""
 
-#: ../rules/base.xml.in.h:154 ../rules/evdev.xml.in.h:155
+#: ../rules/base.xml.in.h:154 ../rules/evdev.xml.in.h:154
 msgid "Compaq Easy Access Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:155 ../rules/evdev.xml.in.h:156
+#: ../rules/base.xml.in.h:155 ../rules/evdev.xml.in.h:155
 msgid "Compaq Internet Keyboard (13 keys)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:156 ../rules/evdev.xml.in.h:157
+#: ../rules/base.xml.in.h:156 ../rules/evdev.xml.in.h:156
 msgid "Compaq Internet Keyboard (18 keys)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:157 ../rules/evdev.xml.in.h:158
+#: ../rules/base.xml.in.h:157 ../rules/evdev.xml.in.h:157
 msgid "Compaq Internet Keyboard (7 keys)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:158 ../rules/evdev.xml.in.h:159
+#: ../rules/base.xml.in.h:158 ../rules/evdev.xml.in.h:158
 msgid "Compaq iPaq Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:159 ../rules/evdev.xml.in.h:160
+#: ../rules/base.xml.in.h:159 ../rules/evdev.xml.in.h:159
 msgid "Compose key position"
 msgstr ""
 
-#: ../rules/base.xml.in.h:160 ../rules/evdev.xml.in.h:161
+#: ../rules/base.xml.in.h:160 ../rules/evdev.xml.in.h:160
 msgid "Congo, Democratic Republic of the"
 msgstr ""
 
-#: ../rules/base.xml.in.h:161 ../rules/evdev.xml.in.h:162
+#: ../rules/base.xml.in.h:161 ../rules/evdev.xml.in.h:161
 msgid "Control is mapped to Alt keys, Alt is mapped to Win keys"
 msgstr ""
 
-#: ../rules/base.xml.in.h:162 ../rules/evdev.xml.in.h:163
+#: ../rules/base.xml.in.h:162 ../rules/evdev.xml.in.h:162
 msgid "Control is mapped to Win keys (and the usual Ctrl keys)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:163 ../rules/evdev.xml.in.h:164
+#: ../rules/base.xml.in.h:163 ../rules/evdev.xml.in.h:163
 msgid "Croatia"
 msgstr ""
 
-#: ../rules/base.xml.in.h:164 ../rules/evdev.xml.in.h:165
+#: ../rules/base.xml.in.h:164 ../rules/evdev.xml.in.h:164
 msgid "Ctrl key position"
 msgstr ""
 
-#: ../rules/base.xml.in.h:165 ../rules/evdev.xml.in.h:166
+#: ../rules/base.xml.in.h:165 ../rules/evdev.xml.in.h:165
 msgid "Ctrl+Shift"
 msgstr ""
 
-#: ../rules/base.xml.in.h:166 ../rules/evdev.xml.in.h:167
+#: ../rules/base.xml.in.h:166 ../rules/evdev.xml.in.h:166
 msgid "Cyrillic"
 msgstr ""
 
-#: ../rules/base.xml.in.h:167 ../rules/evdev.xml.in.h:168
+#: ../rules/base.xml.in.h:167 ../rules/evdev.xml.in.h:167
 msgid "Cyrillic with guillemets"
 msgstr ""
 
-#: ../rules/base.xml.in.h:168 ../rules/evdev.xml.in.h:169
+#: ../rules/base.xml.in.h:168 ../rules/evdev.xml.in.h:168
 msgid "Cyrillic, Z and ZHE swapped"
 msgstr ""
 
-#: ../rules/base.xml.in.h:169 ../rules/evdev.xml.in.h:170
+#: ../rules/base.xml.in.h:169 ../rules/evdev.xml.in.h:169
 msgid "Cze"
 msgstr ""
 
-#: ../rules/base.xml.in.h:170 ../rules/evdev.xml.in.h:171
+#: ../rules/base.xml.in.h:170 ../rules/evdev.xml.in.h:170
 msgid "Czechia"
 msgstr ""
 
-#: ../rules/base.xml.in.h:171 ../rules/evdev.xml.in.h:172
+#: ../rules/base.xml.in.h:171 ../rules/evdev.xml.in.h:171
 msgid "DRC"
 msgstr ""
 
-#: ../rules/base.xml.in.h:172 ../rules/evdev.xml.in.h:173
+#: ../rules/base.xml.in.h:172 ../rules/evdev.xml.in.h:172
 msgid "DTK2000"
 msgstr ""
 
-#: ../rules/base.xml.in.h:173 ../rules/evdev.xml.in.h:174
+#: ../rules/base.xml.in.h:173 ../rules/evdev.xml.in.h:173
 msgid "Dan"
 msgstr ""
 
-#: ../rules/base.xml.in.h:174 ../rules/evdev.xml.in.h:175
+#: ../rules/base.xml.in.h:174 ../rules/evdev.xml.in.h:174
 msgid "Dead acute"
 msgstr ""
 
-#: ../rules/base.xml.in.h:175 ../rules/evdev.xml.in.h:176
+#: ../rules/base.xml.in.h:175 ../rules/evdev.xml.in.h:175
 msgid "Dead grave acute"
 msgstr ""
 
-#: ../rules/base.xml.in.h:176 ../rules/evdev.xml.in.h:177
+#: ../rules/base.xml.in.h:176 ../rules/evdev.xml.in.h:176
 msgid "Default numeric keypad keys"
 msgstr ""
 
-#: ../rules/base.xml.in.h:177 ../rules/evdev.xml.in.h:178
+#: ../rules/base.xml.in.h:177 ../rules/evdev.xml.in.h:177
 msgid "Dell"
 msgstr ""
 
-#: ../rules/base.xml.in.h:178 ../rules/evdev.xml.in.h:179
+#: ../rules/base.xml.in.h:178 ../rules/evdev.xml.in.h:178
 msgid "Dell 101-key PC"
 msgstr ""
 
-#: ../rules/base.xml.in.h:179 ../rules/evdev.xml.in.h:180
+#: ../rules/base.xml.in.h:179 ../rules/evdev.xml.in.h:179
 msgid "Dell Laptop/notebook Inspiron 6xxx/8xxx"
 msgstr ""
 
-#: ../rules/base.xml.in.h:180 ../rules/evdev.xml.in.h:181
+#: ../rules/base.xml.in.h:180 ../rules/evdev.xml.in.h:180
 msgid "Dell Laptop/notebook Precision M series"
 msgstr ""
 
-#: ../rules/base.xml.in.h:181 ../rules/evdev.xml.in.h:182
+#: ../rules/base.xml.in.h:181 ../rules/evdev.xml.in.h:181
 msgid "Dell Latitude series laptop"
 msgstr ""
 
-#: ../rules/base.xml.in.h:182 ../rules/evdev.xml.in.h:183
+#: ../rules/base.xml.in.h:182 ../rules/evdev.xml.in.h:182
 msgid "Dell Precision M65"
 msgstr ""
 
-#: ../rules/base.xml.in.h:183 ../rules/evdev.xml.in.h:184
+#: ../rules/base.xml.in.h:183 ../rules/evdev.xml.in.h:183
 msgid "Dell SK-8125"
 msgstr ""
 
-#: ../rules/base.xml.in.h:184 ../rules/evdev.xml.in.h:185
+#: ../rules/base.xml.in.h:184 ../rules/evdev.xml.in.h:184
 msgid "Dell SK-8135"
 msgstr ""
 
-#: ../rules/base.xml.in.h:185 ../rules/evdev.xml.in.h:186
+#: ../rules/base.xml.in.h:185 ../rules/evdev.xml.in.h:185
 msgid "Dell USB Multimedia Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:186 ../rules/evdev.xml.in.h:187
+#: ../rules/base.xml.in.h:186 ../rules/evdev.xml.in.h:186
 msgid "Denmark"
 msgstr ""
 
-#: ../rules/base.xml.in.h:187 ../rules/evdev.xml.in.h:188
+#: ../rules/base.xml.in.h:187 ../rules/evdev.xml.in.h:187
 msgid "Deu"
 msgstr ""
 
-#: ../rules/base.xml.in.h:188 ../rules/evdev.xml.in.h:189
+#: ../rules/base.xml.in.h:188 ../rules/evdev.xml.in.h:188
 msgid "Dexxa Wireless Desktop Keyboard"
 msgstr ""
 
-#: ../rules/base.xml.in.h:189 ../rules/evdev.xml.in.h:190
+#: ../rules/base.xml.in.h:189 ../rules/evdev.xml.in.h:189
 msgid "Diamond 9801 / 9802 series"
 msgstr ""
 
-#: ../rules/base.xml.in.h:190 ../rules/evdev.xml.in.h:191
+#: ../rules/base.xml.in.h:190 ../rules/evdev.xml.in.h:190
 msgid "Dvorak"
 msgstr ""
 
-#: ../rules/base.xml.in.h:191 ../rules/evdev.xml.in.h:192
+#: ../rules/base.xml.in.h:191 ../rules/evdev.xml.in.h:191
 msgid "Dvorak (UK Punctuation)"
 msgstr ""
 
-#: ../rules/base.xml.in.h:192 ../rules/evdev.xml.in.h:193
+#: ../rules/base.xml.in.h:192 ../rules/evdev.xml.in.h:192
 msgid "Dvorak international"
 msgstr ""
 
-#: ../rules/base.xml.in.h:193 ../rules/evdev.xml.in.h:194
+#: ../rules/base.xml.in.h:193 ../rules/evdev.xml.in.h:193
 msgid "Dvorak, Polish quotes on key \"1/!\""
 msgstr ""
 
-#: ../rules/base.xml.in.h:194 ../rules/evdev.xml.in.h:195
+#: ../rules/base.xml.in.h:194 ../rules/evdev.xml.in.h:194
 msgid "Dvorak, Polish quotes on quotemark key"
 msgstr ""
 
-#: ../rules/base.xml.in.h:195 ../rules/evdev.xml.in.h:196
+#: ../rules/base.xml.in.h:195 ../rules/evdev.xml.in.h:195
 msgid "E"
 msgstr ""
 
-#: ../rules/base.xml.in.h:196 ../rules/evdev.xml.in.h:197
+#: ../rules/base.xml.in.h:196 ../rules/evdev.xml.in.h:196
 msgid "Eastern"
 msgstr ""
 
-#: ../rules/base.xml.in.h:197 ../rules/evdev.xml.in.h:198
+#: ../rules/base.xml.in.h:197 ../rules/evdev.xml.in.h:197
 msgid "Eliminate dead keys"
 msgstr ""
 
-#: ../rules/base.xml.in.h:198
+#: ../rules/base.xml.in.h:198 ../rules/evdev.xml.in.h:198
 msgid "Enable extra typographic characters"
 msgstr ""
 
@@ -2694,8 +2694,4 @@ msgstr ""
 
 #: ../rules/base.xml.in.h:671 ../rules/evdev.xml.in.h:671
 msgid "qwertz"
-msgstr ""
-
-#: ../rules/evdev.xml.in.h:37
-msgid "Adding typographic layout"
 msgstr ""
