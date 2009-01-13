@@ -4754,7 +4754,7 @@
       <option>
         <configItem>
           <name>misc:typo</name>
-          <_description>Adding typographic layout</_description>
+          <_description>Enable extra typographic characters</_description>
         </configItem>
       </option>
     </group>
