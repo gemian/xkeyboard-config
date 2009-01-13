@@ -1,3 +1,11 @@
+2009-01-13  Sergey Udaltsov
+
+	* symbols/typo, rules/base.l1o_s.part, rules/base.l2o_s.part,
+	rules/base.l3o_s.part, rules/base.l4o_s.part, rules/base.lo_s.part,
+	rules/base.xml.in, symbols/Makefile.am: added (inactive so far)
+	misc:typo option, first step to close
+	https://bugs.freedesktop.org/show_bug.cgi?id=14022
+
 2009-01-12  Sergey Udaltsov
 
 	* rules/Makefile.am, rules/merge.sh: fix the build (thanks to Oswald

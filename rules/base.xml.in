@@ -4751,6 +4751,12 @@
           <_description>Shift cancels CapsLock</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>misc:typo</name>
+          <_description>Adding typographic layout</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- Special shortcuts for the Euro character -->
