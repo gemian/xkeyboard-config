@@ -3,6 +3,11 @@
 // typographic keyboard
 // Sergei Stolyarov <sergei@regolit.com>
 //
+// Initial contribution by Alexey Ten <alexeyten+b.fd.o@gmail.com>
+//
+// Based on the layout proposed by Ilya Birman, 
+// http://ilyabirman.ru/typography-layout/
+//
 
 // default layout
 default partial
