@@ -4,11 +4,37 @@
 // $XFree86: xc/programs/xkbcomp/symbols/fi,v 1.9 2003/01/29 17:17:31 dawes Exp $
 
 // Troy Korjuslommi, 
-// Jan 6, 2006,
-// May 5, 2006.
-// May 6, 2006.
-// May 12, 2006.
-// Oct 10, 2007.
+// Jan  6, 2006
+// May  5, 2006
+// May  6, 2006
+// May 12, 2006
+// Oct 10, 2007
+// Nov 11, 2008
+// Nov 29, 2008
+// Dec 31, 2008
+// Jan 22, 2009
+//
+//
+// Jan 22, 2009
+// Submit requests to change all remaining Uxxxx values to named versions
+// in keysymdef.h.
+// ezh      : U0292: LATIN SMALL LETTER EZH
+// Ezh      : U01B7: LATIN CAPITAL LETTER EZH
+// permille : U2030: PER MILLE SIGN
+// 
+// Dec 31, 2008
+// U0326 replaced with dead_belowcomma.
+// 
+// Nov 29, 2008
+// dead_belowcomma has been added to keysymdef.h, so the U0326 can be replaced with
+// it, as long as the version of X11 is built with the new keysymdef.h file.
+// 
+// Nov 11, 2008.
+// (a) Changed <AC10> level 4 from Ooblique to Oslash. The two names are synonyms. Since level 3 is already
+//     specified as oslash, the change adds consistency.
+// (b) The new Finnish keyboard standard (SFS 5966) reserves <AB10> level 4 for U0326, the combining comma below. 
+//     Removed the previous dead_abovedot entry there and replaced it with U0326, which can be replaced
+//     with dead_commabelow if that is added to keysymdef.h.
 // 
 // Oct 10, 2007.
 // -Changed space column 3 to nobreakspace (from space).
@@ -95,7 +121,7 @@ xkb_symbols "kotoistus" {
     key <AB07> { [  m,               M,                mu,                   emdash               ] };
     key <AB08> { [  comma,           semicolon,        rightsinglequotemark, leftsinglequotemark  ] };
     key <AB09> { [  period,          colon,            dead_belowdot,        dead_abovedot        ] };
-    key <AB10> { [  minus,           underscore,       endash,               dead_commabelow      ] };
+    key <AB10> { [  minus,           underscore,       endash,               dead_belowcomma      ] };
 
     include "nbsp(level3)"
 
