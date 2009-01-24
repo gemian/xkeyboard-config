@@ -1,3 +1,8 @@
+2009-01-24  Sergey Udaltsov
+
+	* rules/base.xml.in: added SV and US to the country list for latam,
+	http://bugs.freedesktop.org/show_bug.cgi?id=19710
+
 2009-01-22  Sergey Udaltsov
 
 	* symbols/fi: updated default Finnish variant,

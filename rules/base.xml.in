@@ -2872,6 +2872,8 @@
           <iso3166Id>PE</iso3166Id>
           <iso3166Id>PR</iso3166Id>
           <iso3166Id>PY</iso3166Id>
+          <iso3166Id>SV</iso3166Id>
+          <iso3166Id>US</iso3166Id>
           <iso3166Id>UY</iso3166Id>
           <iso3166Id>VE</iso3166Id>
         </countryList>
