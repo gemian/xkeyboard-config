@@ -18,7 +18,7 @@ xkb_symbols "basic"
 {
 	name[Group1] = "Tajikistan";
 
-    	include "keypad(comma)"
+    	include "kpdl(comma)"
 	include "level3(ralt_switch)"
 
 	key <AB01> { [    Cyrillic_ya,    Cyrillic_YA                                 ] }; // я Я 
@@ -84,7 +84,7 @@ xkb_symbols "legacy"
 {
 	name[Group1] = "Tajikistan - Legacy";
 
-	include "keypad(comma)"
+	include "kpdl(comma)"
 	include "level3(ralt_switch)"
 
 	key <AB01> { [    Cyrillic_ya,    Cyrillic_YA                                 ] }; // я Я 
