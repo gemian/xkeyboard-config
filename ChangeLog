@@ -6,6 +6,7 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=19751
 	* symbols/fr: fixed . on numpad, period->KP_Decimal,
 	http://bugs.freedesktop.org/show_bug.cgi?id=19756
+	* NEWS, configure.in: preparing 1.5
 
 2009-01-24  Sergey Udaltsov
 
