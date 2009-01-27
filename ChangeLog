@@ -1,3 +1,8 @@
+2009-01-27  Sergey Udaltsov
+
+	* symbols/typo: fixed text selection,
+	http://bugs.freedesktop.org/show_bug.cgi?id=14022
+
 2009-01-24  Sergey Udaltsov
 
 	* rules/base.xml.in: added SV and US to the country list for latam,
