@@ -4,6 +4,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=14022
 	* symbols/be: added missing character,
 	http://bugs.freedesktop.org/show_bug.cgi?id=19751
+	* symbols/fr: fixed . on numpad, period->KP_Decimal,
+	http://bugs.freedesktop.org/show_bug.cgi?id=19756
 
 2009-01-24  Sergey Udaltsov
 

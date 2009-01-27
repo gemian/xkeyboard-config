@@ -388,7 +388,7 @@ xkb_symbols "latin9" {
 
     // French uses a comma as decimal separator, but keyboards are labeled with a period
     // Will take effect when KP_Decimal is mapped to the locale decimal separator
-    key <KPDL>  { [       KP_Delete,          period,           KP_Delete,           KP_Decimal ] };
+    key <KPDL>  { [       KP_Delete,      KP_Decimal,           KP_Delete,           KP_Decimal ] };
 
     include "level3(ralt_switch)"
 };
