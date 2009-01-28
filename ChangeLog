@@ -2,6 +2,9 @@
 
 	* rules/base.ml_s.part: fixed sun-related rules,
 	http://bugs.freedesktop.org/show_bug.cgi?id=15782
+	* rules/base.m_s.part, rules/base.xml.in, symbols/inet: added
+	geniuskkb2050hs model,
+	http://bugs.freedesktop.org/show_bug.cgi?id=19694
 
 2009-01-27  Sergey Udaltsov
 

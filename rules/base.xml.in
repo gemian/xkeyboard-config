@@ -449,6 +449,13 @@
     </model>
     <model>
       <configItem>
+        <name>geniuskkb2050hs</name>
+        <_description>Genius KKB-2050HS</_description>
+        <vendor>Genius</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>gyration</name>
         <_description>Gyration</_description>
         <vendor>Gyration</vendor>

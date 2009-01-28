@@ -16,6 +16,7 @@
   fscaa1667g    =       +inet(media_nav_common)
   geniuskb19e   =       +inet(media_nav_acpi_common)
   geniuscomfy   =       +inet(media_nav_acpi_common)
+  geniuskkb2050hs =     +inet(dellusbmm)
   hpnx9020      =       +inet(hpi6)
   latitude      =       +inet(media_common)
   logicd        =       +inet(logitech_base)
