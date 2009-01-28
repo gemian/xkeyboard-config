@@ -674,7 +674,7 @@
     <model>
       <configItem>
         <name>logicdpa2</name>
-        <_description>Logitech Cordless Desktop Pro (alternate option2)</_description>
+        <_description>Logitech Cordless Desktop Pro (alternate option 2)</_description>
         <vendor>Logitech</vendor>
       </configItem>
     </model>
