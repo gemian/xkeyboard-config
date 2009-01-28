@@ -10,6 +10,8 @@
 	* rules/base.xml.in, symbols/Makefile.am, symbols/brai,
 	symbols/braille: moved Braille symbols to the proper location,
 	http://bugs.freedesktop.org/show_bug.cgi?id=19695
+	* symbols/capslock: keep Escape working in caps:escape,
+	http://bugs.freedesktop.org/show_bug.cgi?id=19795
 
 2009-01-27  Sergey Udaltsov
 

@@ -34,7 +34,6 @@ xkb_symbols "groupshift" {
 partial hidden modifier_keys
 xkb_symbols "escape" {
     key <CAPS> {        [       Escape  ]       };
-    key <ESC>  {        [       None    ]       };
 };
 
 partial hidden modifier_keys
