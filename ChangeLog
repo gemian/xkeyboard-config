@@ -14,6 +14,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=19795
 	* rules/base.o_s.part, rules/base.xml.in, symbols/level3: added
 	lv3:enter_switch, http://bugs.freedesktop.org/show_bug.cgi?id=19773
+	* rules/base.xml.in, symbols/ca: added ca(eng) for convenience,
+	http://bugs.freedesktop.org/show_bug.cgi?id=19707
 
 2009-01-27  Sergey Udaltsov
 

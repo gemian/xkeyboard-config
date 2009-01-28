@@ -1893,6 +1893,13 @@
             <_description>Ktunaxa</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>eng</name>
+            <_description>English</_description>
+            <languageList><iso639Id>eng</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

@@ -516,3 +516,10 @@ xkb_symbols "kut" {
     //MODIFIER LETTER RIGHT HALF RING
     key <AC10> {	[ semicolon,	colon,U02BE,U02BE	]	};
 };
+
+partial alphanumeric_keys 
+xkb_symbols "eng" {
+    name[Group1] = "Canada - English";
+    include "us(basic)"
+};
+
