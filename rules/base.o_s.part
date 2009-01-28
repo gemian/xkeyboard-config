@@ -47,6 +47,7 @@
   lv3:win_switch	=	+level3(win_switch)
   lv3:lwin_switch	=	+level3(lwin_switch)
   lv3:rwin_switch	=	+level3(rwin_switch)
+  lv3:enter_switch	=	+level3(enter_switch)
   caps:capslock		=	+capslock(capslock)
   caps:shiftlock	=	+capslock(shiftlock)
   caps:swapescape	=	+capslock(swapescape)

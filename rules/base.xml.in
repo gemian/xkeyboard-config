@@ -4362,6 +4362,12 @@
           <_description>Right Alt key never chooses 3rd level</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>lv3:enter_switch</name>
+          <_description>Enter on keypad</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="false">
       <!-- Tweaking the position of the "Ctrl" key -->
