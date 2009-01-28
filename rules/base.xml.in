@@ -4093,7 +4093,7 @@
     </layout>
     <layout>
       <configItem>
-        <name>braille</name>
+        <name>brai</name>
         <_shortDescription>Brl</_shortDescription>
         <_description>Braille</_description>
       </configItem>

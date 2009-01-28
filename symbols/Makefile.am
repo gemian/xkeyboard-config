@@ -6,7 +6,7 @@ ad af al \
 am ara az \
 be bd \
 bg br ba \
-bt by braille \
+bt by brai \
 ca cd \
 ch cn cz \
 de dk \
