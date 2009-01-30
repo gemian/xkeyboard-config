@@ -1,2717 +1,2770 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Crimean Tatar (Crimean Turkish) translations for xkeyboard-config (currently based on pre-existing Turkish translations).
+# Copyright (C) 2009 Free Software Foundation, Inc.
+# This file is distributed under the same license as the xkeyboard-config package.
 #
-#, fuzzy
+# Reşat SABIQ <tilde.birlik@gmail.com>, 2009.
+# (adapted from: Nilgün Belma Bugüner <nilgun@buguner.name.tr>, 2003, ..., 2007).
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
+"Project-Id-Version: xkeyboard-config 1.5\n"
+"Report-Msgid-Bugs-To: tilde.birlik@gmail.com\n"
 "POT-Creation-Date: 2009-01-24 18:44-0600\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2009-01-24 21:19-0600\n"
+"Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
+"Language-Team: Qırımtatarca (Qırım Türkçesi)\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 
+# tüylü
 #: ../rules/base.xml.in.h:1 ../rules/evdev.xml.in.h:1
 msgid "(F)"
-msgstr ""
+msgstr "F serimi"
 
 #: ../rules/base.xml.in.h:2 ../rules/evdev.xml.in.h:2
 msgid "(Legacy) Alternative"
-msgstr ""
+msgstr "(Qadim) Alternativ"
 
 #: ../rules/base.xml.in.h:3 ../rules/evdev.xml.in.h:3
 msgid "(Legacy) Alternative, Sun dead keys"
-msgstr ""
+msgstr "(Qadim) Alternativ, Sun ölü tuşlar"
 
 #: ../rules/base.xml.in.h:4 ../rules/evdev.xml.in.h:4
 msgid "(Legacy) Alternative, eliminate dead keys"
-msgstr ""
+msgstr "(Qadim) Alternativ, ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:5 ../rules/evdev.xml.in.h:5
 msgid "101/104 key Compatible"
-msgstr ""
+msgstr "101/104 tuş Qabili Telif"
 
 #: ../rules/base.xml.in.h:6 ../rules/evdev.xml.in.h:6
 msgid "101/qwerty/comma/Dead keys"
-msgstr ""
+msgstr "101/qwerty/virgül/Ölü tuşlar"
 
 #: ../rules/base.xml.in.h:7 ../rules/evdev.xml.in.h:7
 msgid "101/qwerty/comma/Eliminate dead keys"
-msgstr ""
+msgstr "101/qwerty/virgül/Ölü tuşsuz"
 
+# tüylü: benek?
 #: ../rules/base.xml.in.h:8 ../rules/evdev.xml.in.h:8
 msgid "101/qwerty/dot/Dead keys"
-msgstr ""
+msgstr "101/qwerty/noqta/Ölü tuşlar"
 
 #: ../rules/base.xml.in.h:9 ../rules/evdev.xml.in.h:9
 msgid "101/qwerty/dot/Eliminate dead keys"
-msgstr ""
+msgstr "101/qwerty/noqta/Ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:10 ../rules/evdev.xml.in.h:10
 msgid "101/qwertz/comma/Dead keys"
-msgstr ""
+msgstr "101/qwertz/virgül/Ölü tuşlar"
 
 #: ../rules/base.xml.in.h:11 ../rules/evdev.xml.in.h:11
 msgid "101/qwertz/comma/Eliminate dead keys"
-msgstr ""
+msgstr "101/qwertz/virgül/Ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:12 ../rules/evdev.xml.in.h:12
 msgid "101/qwertz/dot/Dead keys"
-msgstr ""
+msgstr "101/qwertz/noqta/Ölü tuşlar"
 
 #: ../rules/base.xml.in.h:13 ../rules/evdev.xml.in.h:13
 msgid "101/qwertz/dot/Eliminate dead keys"
-msgstr ""
+msgstr "101/qwertz/noqta/Ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:14 ../rules/evdev.xml.in.h:14
 msgid "102/qwerty/comma/Dead keys"
-msgstr ""
+msgstr "102/qwerty/virgül/Ölü tuşlar"
 
 #: ../rules/base.xml.in.h:15 ../rules/evdev.xml.in.h:15
 msgid "102/qwerty/comma/Eliminate dead keys"
-msgstr ""
+msgstr "102/qwerty/virgül/Ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:16 ../rules/evdev.xml.in.h:16
 msgid "102/qwerty/dot/Dead keys"
-msgstr ""
+msgstr "102/qwerty/noqta/Ölü tuşlar"
 
 #: ../rules/base.xml.in.h:17 ../rules/evdev.xml.in.h:17
 msgid "102/qwerty/dot/Eliminate dead keys"
-msgstr ""
+msgstr "102/qwerty/noqta/Ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:18 ../rules/evdev.xml.in.h:18
 msgid "102/qwertz/comma/Dead keys"
-msgstr ""
+msgstr "102/qwertz/virgül/Ölü tuşlar"
 
 #: ../rules/base.xml.in.h:19 ../rules/evdev.xml.in.h:19
 msgid "102/qwertz/comma/Eliminate dead keys"
-msgstr ""
+msgstr "102/qwertz/virgül/Ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:20 ../rules/evdev.xml.in.h:20
 msgid "102/qwertz/dot/Dead keys"
-msgstr ""
+msgstr "102/qwertz/noqta/Ölü tuşlar"
 
 #: ../rules/base.xml.in.h:21 ../rules/evdev.xml.in.h:21
 msgid "102/qwertz/dot/Eliminate dead keys"
-msgstr ""
+msgstr "102/qwertz/noqta/Ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:22 ../rules/evdev.xml.in.h:22
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: ../rules/base.xml.in.h:23 ../rules/evdev.xml.in.h:23
 msgid "4"
-msgstr ""
+msgstr "4"
 
 #: ../rules/base.xml.in.h:24 ../rules/evdev.xml.in.h:24
 msgid "5"
-msgstr ""
+msgstr "5"
 
 #: ../rules/base.xml.in.h:25 ../rules/evdev.xml.in.h:25
 msgid "A4Tech KB-21"
-msgstr ""
+msgstr "A4Tech KB-21"
 
 #: ../rules/base.xml.in.h:26 ../rules/evdev.xml.in.h:26
 msgid "A4Tech KBS-8"
-msgstr ""
+msgstr "A4Tech KBS-8"
 
 #: ../rules/base.xml.in.h:27 ../rules/evdev.xml.in.h:27
 msgid "A4Tech Wireless Desktop RFKB-23"
-msgstr ""
+msgstr "A4Tech Telsiz Masaüstü RFKB-23"
 
 #: ../rules/base.xml.in.h:28 ../rules/evdev.xml.in.h:28
 msgid "ACPI Standard"
-msgstr ""
+msgstr "ACPI Standartı"
 
+# tüylü
 #: ../rules/base.xml.in.h:29 ../rules/evdev.xml.in.h:29
 msgid "ATM/phone-style"
-msgstr ""
+msgstr "ATM/telefon-uslûbı"
 
 #: ../rules/base.xml.in.h:30 ../rules/evdev.xml.in.h:30
 msgid "Acer AirKey V"
-msgstr ""
+msgstr "Acer AirKey V"
 
 #: ../rules/base.xml.in.h:31 ../rules/evdev.xml.in.h:31
 msgid "Acer C300"
-msgstr ""
+msgstr "Acer C300"
 
 #: ../rules/base.xml.in.h:32 ../rules/evdev.xml.in.h:32
 msgid "Acer Ferrari 4000"
-msgstr ""
+msgstr "Acer Ferrari 4000"
 
 #: ../rules/base.xml.in.h:33 ../rules/evdev.xml.in.h:33
 msgid "Acer Laptop"
-msgstr ""
+msgstr "Acer Tizüstü"
 
 #: ../rules/base.xml.in.h:34 ../rules/evdev.xml.in.h:34
 msgid "Add the standard behavior to Menu key"
-msgstr ""
+msgstr "Menü tuşuna standart davranışnı ekle."
 
 #: ../rules/base.xml.in.h:35 ../rules/evdev.xml.in.h:35
 msgid "Adding Esperanto circumflexes (supersigno)"
-msgstr ""
+msgstr "Esperanto qıyışıq-yaylarınıñ (circumflex) eklenüvi (supersigno)"
 
 #: ../rules/base.xml.in.h:36 ../rules/evdev.xml.in.h:36
 msgid "Adding EuroSign to certain keys"
-msgstr ""
+msgstr "Belli tuşlara € remziniñ eklenüvi"
 
 #: ../rules/base.xml.in.h:37 ../rules/evdev.xml.in.h:37
 msgid "Advance Scorpius KI"
-msgstr ""
+msgstr "Advance Scorpius KI"
 
 #: ../rules/base.xml.in.h:38 ../rules/evdev.xml.in.h:38
 msgid "Afg"
-msgstr ""
+msgstr "Afg"
 
 #: ../rules/base.xml.in.h:39 ../rules/evdev.xml.in.h:39
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afğanistan"
 
 #: ../rules/base.xml.in.h:40 ../rules/evdev.xml.in.h:40
 msgid "Akan"
-msgstr ""
+msgstr "Akan"
 
 #: ../rules/base.xml.in.h:41 ../rules/evdev.xml.in.h:41
 msgid "Alb"
-msgstr ""
+msgstr "Arn"
 
 #: ../rules/base.xml.in.h:42 ../rules/evdev.xml.in.h:42
 msgid "Albania"
-msgstr ""
+msgstr "Arnavutlıq"
 
 #: ../rules/base.xml.in.h:43 ../rules/evdev.xml.in.h:43
 msgid "Alt and Meta are on Alt keys"
-msgstr ""
+msgstr "Alt ve Meta, Alt tuşlarındadır"
 
 #: ../rules/base.xml.in.h:44 ../rules/evdev.xml.in.h:44
 msgid "Alt is mapped to Right Win, Super to Menu"
-msgstr ""
+msgstr "Alt, Sağ Pencereler (Win) tuşuna, Süper ise Menü tuşuna haritalandırılır"
 
 #: ../rules/base.xml.in.h:45 ../rules/evdev.xml.in.h:45
 msgid "Alt+CapsLock"
-msgstr ""
+msgstr "Alt+CapsLock"
 
 #: ../rules/base.xml.in.h:46 ../rules/evdev.xml.in.h:46
 msgid "Alt+Ctrl"
-msgstr ""
+msgstr "Alt+Ctrl"
 
 #: ../rules/base.xml.in.h:47 ../rules/evdev.xml.in.h:47
 msgid "Alt+Shift"
-msgstr ""
+msgstr "Alt+Shift"
 
 #: ../rules/base.xml.in.h:48 ../rules/evdev.xml.in.h:48
 msgid "Alt+Space"
-msgstr ""
+msgstr "Alt+Boşluq"
 
 #: ../rules/base.xml.in.h:49 ../rules/evdev.xml.in.h:49
 msgid "Alt-Q"
-msgstr ""
+msgstr "Alt-Q (yazılımcı klavyesi)"
 
 #: ../rules/base.xml.in.h:50 ../rules/evdev.xml.in.h:50
 msgid "Alt/Win key behavior"
-msgstr ""
+msgstr "Alt/Pencereler tuşu davranışı"
 
 #: ../rules/base.xml.in.h:51 ../rules/evdev.xml.in.h:51
 msgid "Alternative"
-msgstr ""
+msgstr "Alternativ"
 
 #: ../rules/base.xml.in.h:52 ../rules/evdev.xml.in.h:52
 msgid "Alternative Eastern"
-msgstr ""
+msgstr "Alternativ Şarqiy"
 
 #: ../rules/base.xml.in.h:53 ../rules/evdev.xml.in.h:53
 msgid "Alternative Phonetic"
-msgstr ""
+msgstr "Alternativ Fonetik"
 
 #: ../rules/base.xml.in.h:54 ../rules/evdev.xml.in.h:54
 msgid "Alternative international (former us_intl)"
-msgstr ""
+msgstr "Alternativ milletlerara (Q klavyesi; evelki us_intl)"
 
 #: ../rules/base.xml.in.h:55 ../rules/evdev.xml.in.h:55
 msgid "Alternative, Sun dead keys"
-msgstr ""
+msgstr "Alternativ, Sun ölü tuşlar"
 
 #: ../rules/base.xml.in.h:56 ../rules/evdev.xml.in.h:56
 msgid "Alternative, eliminate dead keys"
-msgstr ""
+msgstr "Alternativ, ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:57 ../rules/evdev.xml.in.h:57
 msgid "Alternative, latin-9 only"
-msgstr ""
+msgstr "Alternativ, faqat latin-9"
 
 #: ../rules/base.xml.in.h:58 ../rules/evdev.xml.in.h:58
 msgid "And"
-msgstr ""
+msgstr "And"
 
 #: ../rules/base.xml.in.h:59 ../rules/evdev.xml.in.h:59
 msgid "Andorra"
-msgstr ""
+msgstr "Andora"
 
 #: ../rules/base.xml.in.h:60 ../rules/evdev.xml.in.h:60
 msgid "Any Alt key"
-msgstr ""
+msgstr "Er angi Alt tuşu"
 
 #: ../rules/base.xml.in.h:61 ../rules/evdev.xml.in.h:61
 msgid "Any Win key"
-msgstr ""
+msgstr "Er angi Pencereler (Win) tuşu"
 
+# tüylü
 #: ../rules/base.xml.in.h:62 ../rules/evdev.xml.in.h:62
 msgid "Any Win key (while pressed)"
-msgstr ""
+msgstr "Er angi Pencereler (Win) tuşu (basıq olğanda)"
 
 #: ../rules/base.xml.in.h:63 ../rules/evdev.xml.in.h:63
 msgid "Apostrophe (') variant"
-msgstr ""
+msgstr "Apostrof (') variantı"
 
 #: ../rules/base.xml.in.h:64 ../rules/evdev.xml.in.h:64
 msgid "Apple"
-msgstr ""
+msgstr "Apple"
 
 #: ../rules/base.xml.in.h:65 ../rules/evdev.xml.in.h:65
 msgid "Apple Laptop"
-msgstr ""
+msgstr "Apple Tizüstü"
 
 #: ../rules/base.xml.in.h:66 ../rules/evdev.xml.in.h:66
 msgid "Ara"
-msgstr ""
+msgstr "Ara"
 
 #: ../rules/base.xml.in.h:67 ../rules/evdev.xml.in.h:67
 msgid "Arabic"
-msgstr ""
+msgstr "Arapça"
 
 #: ../rules/base.xml.in.h:68 ../rules/evdev.xml.in.h:68
 msgid "Arm"
-msgstr ""
+msgstr "Erm"
 
 #: ../rules/base.xml.in.h:69 ../rules/evdev.xml.in.h:69
 msgid "Armenia"
-msgstr ""
+msgstr "Ermenistan"
 
 #: ../rules/base.xml.in.h:70 ../rules/evdev.xml.in.h:70
 msgid "Asturian variant with bottom-dot H and bottom-dot L"
-msgstr ""
+msgstr "Alt-noqtalı H ve alt-noqatlı L ile Asturian variant"
 
 #: ../rules/base.xml.in.h:71 ../rules/evdev.xml.in.h:71
 msgid "Asus Laptop"
-msgstr ""
+msgstr "Asus Tizüstü"
 
 #: ../rules/base.xml.in.h:72 ../rules/evdev.xml.in.h:72
 msgid "At bottom left"
-msgstr ""
+msgstr "Tüpniñ solunda"
 
 #: ../rules/base.xml.in.h:73 ../rules/evdev.xml.in.h:73
 msgid "At left of 'A'"
-msgstr ""
+msgstr "'A'nıñ solunda"
 
 #: ../rules/base.xml.in.h:74 ../rules/evdev.xml.in.h:74
 msgid "Aze"
-msgstr ""
+msgstr "Aze"
 
 #: ../rules/base.xml.in.h:75 ../rules/evdev.xml.in.h:75
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaycan"
 
+# tüylü
 #: ../rules/base.xml.in.h:76 ../rules/evdev.xml.in.h:76
 msgid "Azona RF2300 wireless Internet Keyboard"
-msgstr ""
+msgstr "Azona RF2300 telsiz İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:77 ../rules/evdev.xml.in.h:77
 msgid "BTC 5090"
-msgstr ""
+msgstr "BTC 5090"
 
+# tüylü
 #: ../rules/base.xml.in.h:78 ../rules/evdev.xml.in.h:78
 msgid "BTC 5113RF Multimedia"
-msgstr ""
+msgstr "BTC 5113RF Çoqlumüit"
 
 #: ../rules/base.xml.in.h:79 ../rules/evdev.xml.in.h:79
 msgid "BTC 5126T"
-msgstr ""
+msgstr "BTC 5126T"
 
 #: ../rules/base.xml.in.h:80 ../rules/evdev.xml.in.h:80
 msgid "BTC 6301URF"
-msgstr ""
+msgstr "BTC 6301URF"
 
 #: ../rules/base.xml.in.h:81 ../rules/evdev.xml.in.h:81
 msgid "BTC 9000"
-msgstr ""
+msgstr "BTC 9000"
 
 #: ../rules/base.xml.in.h:82 ../rules/evdev.xml.in.h:82
 msgid "BTC 9000A"
-msgstr ""
+msgstr "BTC 9000A"
 
 #: ../rules/base.xml.in.h:83 ../rules/evdev.xml.in.h:83
 msgid "BTC 9001AH"
-msgstr ""
+msgstr "BTC 9001AH"
 
 #: ../rules/base.xml.in.h:84 ../rules/evdev.xml.in.h:84
 msgid "BTC 9019U"
-msgstr ""
+msgstr "BTC 9019U"
 
 #: ../rules/base.xml.in.h:85 ../rules/evdev.xml.in.h:85
 msgid "BTC 9116U Mini Wireless Internet and Gaming"
-msgstr ""
+msgstr "BTC 9116U Mini Telsiz İnternet ve Oyunlav"
 
 #: ../rules/base.xml.in.h:86 ../rules/evdev.xml.in.h:86
 msgid "Ban"
-msgstr ""
+msgstr "Ban"
 
 #: ../rules/base.xml.in.h:87 ../rules/evdev.xml.in.h:87
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladeş"
 
 #: ../rules/base.xml.in.h:88 ../rules/evdev.xml.in.h:88
 msgid "Bel"
-msgstr ""
+msgstr "Bel"
 
 #: ../rules/base.xml.in.h:89 ../rules/evdev.xml.in.h:89
 msgid "Belarus"
-msgstr ""
+msgstr "Belarus"
 
 #: ../rules/base.xml.in.h:90 ../rules/evdev.xml.in.h:90
 msgid "Belgium"
-msgstr ""
+msgstr "Belçika"
 
 #: ../rules/base.xml.in.h:91 ../rules/evdev.xml.in.h:91
 msgid "BenQ X-Touch"
-msgstr ""
+msgstr "BenQ X-Touch"
 
 #: ../rules/base.xml.in.h:92 ../rules/evdev.xml.in.h:92
 msgid "BenQ X-Touch 730"
-msgstr ""
+msgstr "BenQ X-Touch 730"
 
 #: ../rules/base.xml.in.h:93 ../rules/evdev.xml.in.h:93
 msgid "BenQ X-Touch 800"
-msgstr ""
+msgstr "BenQ X-Touch 800"
 
 #: ../rules/base.xml.in.h:94 ../rules/evdev.xml.in.h:94
 msgid "Bengali"
-msgstr ""
+msgstr "Bengali"
 
 #: ../rules/base.xml.in.h:95 ../rules/evdev.xml.in.h:95
 msgid "Bengali Probhat"
-msgstr ""
+msgstr "Bengali Probhat"
 
 #: ../rules/base.xml.in.h:96 ../rules/evdev.xml.in.h:96
 msgid "Bepo, ergonomic, Dvorak way"
-msgstr ""
+msgstr "Bepo, ergonomik, Dvorak yolu"
 
 #: ../rules/base.xml.in.h:97 ../rules/evdev.xml.in.h:97
 msgid "Bepo, ergonomic, Dvorak way, latin-9 only"
-msgstr ""
+msgstr "Bepo, ergonomik, Dvorak yolu, faqat latin-9"
 
 #: ../rules/base.xml.in.h:98 ../rules/evdev.xml.in.h:98
 msgid "Bgr"
-msgstr ""
+msgstr "Bgr"
 
 #: ../rules/base.xml.in.h:99 ../rules/evdev.xml.in.h:99
 msgid "Bhu"
-msgstr ""
+msgstr "Bhu"
 
 #: ../rules/base.xml.in.h:100 ../rules/evdev.xml.in.h:100
 msgid "Bhutan"
-msgstr ""
+msgstr "Butan"
 
 #: ../rules/base.xml.in.h:101 ../rules/evdev.xml.in.h:101
 msgid "Biblical Hebrew (Tiro)"
-msgstr ""
+msgstr "İnciliy İbraniyce (Tiro)"
 
 #: ../rules/base.xml.in.h:102 ../rules/evdev.xml.in.h:102
 msgid "Bih"
-msgstr ""
+msgstr "Bih"
 
 #: ../rules/base.xml.in.h:103 ../rules/evdev.xml.in.h:103
 msgid "Blr"
-msgstr ""
+msgstr "Blr"
 
 #: ../rules/base.xml.in.h:104 ../rules/evdev.xml.in.h:104
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Bosna-Hersek"
 
 #: ../rules/base.xml.in.h:105 ../rules/evdev.xml.in.h:105
 msgid "Both Alt keys together"
-msgstr ""
+msgstr "Alt tuşlarınıñ ekisi de"
 
 #: ../rules/base.xml.in.h:106 ../rules/evdev.xml.in.h:106
 msgid "Both Ctrl keys together"
-msgstr ""
+msgstr "Ctrl tuşlarınıñ ekisi de"
 
 #: ../rules/base.xml.in.h:107 ../rules/evdev.xml.in.h:107
 msgid "Both Shift keys together"
-msgstr ""
+msgstr "Shift tuşlarınıñ ekisi de"
 
 #: ../rules/base.xml.in.h:108 ../rules/evdev.xml.in.h:108
 msgid "Bra"
-msgstr ""
+msgstr "Bra"
 
+# tınış
 #: ../rules/base.xml.in.h:109 ../rules/evdev.xml.in.h:109
 msgid "Braille"
-msgstr ""
+msgstr "Körler elifbesi"
 
 #: ../rules/base.xml.in.h:110 ../rules/evdev.xml.in.h:110
 msgid "Brazil"
-msgstr ""
+msgstr "Brezilya"
 
 #: ../rules/base.xml.in.h:111 ../rules/evdev.xml.in.h:111
 msgid "Brazilian ABNT2"
-msgstr ""
+msgstr "Brazilya dili ABNT2"
 
+# tüylü
 #: ../rules/base.xml.in.h:112 ../rules/evdev.xml.in.h:112
 msgid "Breton"
-msgstr ""
+msgstr "Breton"
 
 #: ../rules/base.xml.in.h:113 ../rules/evdev.xml.in.h:113
 msgid "Brl"
-msgstr ""
+msgstr "Brl"
 
 #: ../rules/base.xml.in.h:114 ../rules/evdev.xml.in.h:114
 msgid "Brother Internet Keyboard"
-msgstr ""
+msgstr "Brother İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:115 ../rules/evdev.xml.in.h:115
 msgid "Buckwalter"
-msgstr ""
+msgstr "Bükvalter"
 
 #: ../rules/base.xml.in.h:116 ../rules/evdev.xml.in.h:116
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bulgaristan"
 
+# tüylü
 #: ../rules/base.xml.in.h:117 ../rules/evdev.xml.in.h:117
 msgid "CRULP"
-msgstr ""
+msgstr "CRULP"
 
 #: ../rules/base.xml.in.h:118 ../rules/evdev.xml.in.h:118
 msgid "Cambodia"
-msgstr ""
+msgstr "Kamboçya"
 
 #: ../rules/base.xml.in.h:119 ../rules/evdev.xml.in.h:119
 msgid "Can"
-msgstr ""
+msgstr "Kan"
 
 #: ../rules/base.xml.in.h:120 ../rules/evdev.xml.in.h:120
 msgid "Canada"
-msgstr ""
+msgstr "Kanada"
 
+# tüylü
 #: ../rules/base.xml.in.h:121 ../rules/evdev.xml.in.h:121
 msgid "Caps Lock"
-msgstr ""
+msgstr "Caps Lock"
 
 #: ../rules/base.xml.in.h:122 ../rules/evdev.xml.in.h:122
 msgid "CapsLock"
-msgstr ""
+msgstr "CapsLock"
 
 #: ../rules/base.xml.in.h:123 ../rules/evdev.xml.in.h:123
 msgid "CapsLock (to first layout), Shift+CapsLock (to last layout)"
-msgstr ""
+msgstr "CapsLock (birinci serimge almaştırır), Shift+CapsLock (soñkisine)"
 
 #: ../rules/base.xml.in.h:124 ../rules/evdev.xml.in.h:124
-msgid ""
-"CapsLock (while pressed), Alt+CapsLock does the original capslock action"
+msgid "CapsLock (while pressed), Alt+CapsLock does the original capslock action"
 msgstr ""
+"CapsLock tuşu (basıq olğanda), Alt+CapsLock asliy CapsLock "
+"amelini yapar"
 
 #: ../rules/base.xml.in.h:125 ../rules/evdev.xml.in.h:125
 msgid "CapsLock acts as Shift with locking. Shift \"pauses\" CapsLock"
 msgstr ""
+"CapsLock kilitlemeli Shift kibi çalışır. Shift ise CapsLock tuşunu \"tınışlar"
+"\""
 
 #: ../rules/base.xml.in.h:126 ../rules/evdev.xml.in.h:126
 msgid "CapsLock acts as Shift with locking. Shift doesn't affect CapsLock"
 msgstr ""
+"CapsLock kilitlemeli Shift kibi çalışır. Shift tuşu Caps Lock davranışına "
+"tesirlemez."
 
 #: ../rules/base.xml.in.h:127 ../rules/evdev.xml.in.h:127
 msgid "CapsLock key behavior"
-msgstr ""
+msgstr "CapsLock tuşunıñ davranışı"
 
+# bundan alfabetik olmayan tuşlar da etkilenir.
 #: ../rules/base.xml.in.h:128 ../rules/evdev.xml.in.h:128
 msgid "CapsLock toggles Shift so all keys are affected"
-msgstr ""
+msgstr "CapsLock Shift davranışını tuşlarnıñ episi tesirlenecek şekilde almaştırır"
 
+# tuşu büyük/küçük harf geçişi yapar.
 #: ../rules/base.xml.in.h:129 ../rules/evdev.xml.in.h:129
 msgid "CapsLock toggles normal capitalization of alphabetic characters"
-msgstr ""
+msgstr "CapsLock elifbe remizleriniñ normal başlaştırılmasını almaştırır"
 
 #: ../rules/base.xml.in.h:130 ../rules/evdev.xml.in.h:130
 msgid "CapsLock uses internal capitalization. Shift \"pauses\" CapsLock"
-msgstr ""
+msgstr "CapsLock içki başlaştırmanı qullanır. Shift Caps Lock tuşunu \"tınışlar\""
 
 #: ../rules/base.xml.in.h:131 ../rules/evdev.xml.in.h:131
 msgid "CapsLock uses internal capitalization. Shift doesn't affect CapsLock"
-msgstr ""
+msgstr "CapsLock içki başlaştırmanı qullanır. Shift CapsLock davranışına tesirlemez."
 
 #: ../rules/base.xml.in.h:132 ../rules/evdev.xml.in.h:132
 msgid "Catalan variant with middle-dot L"
-msgstr ""
+msgstr "Ortası noqtalı L'li Katalan yerleşimi"
 
 #: ../rules/base.xml.in.h:133 ../rules/evdev.xml.in.h:133
 msgid "Cedilla"
-msgstr ""
+msgstr "Sedilla"
 
 #: ../rules/base.xml.in.h:134 ../rules/evdev.xml.in.h:134
 msgid "Che"
-msgstr ""
+msgstr "Che"
 
 #: ../rules/base.xml.in.h:135 ../rules/evdev.xml.in.h:135
 msgid "Cherokee"
-msgstr ""
+msgstr "Çeroki"
 
 #: ../rules/base.xml.in.h:136 ../rules/evdev.xml.in.h:136
 msgid "Cherry Blue Line CyBo@rd"
-msgstr ""
+msgstr "Cherry Blue Line CyBo@rd"
 
 #: ../rules/base.xml.in.h:137 ../rules/evdev.xml.in.h:137
 msgid "Cherry Blue Line CyBo@rd (alternate option)"
-msgstr ""
+msgstr "Cherry Blue Line CyBo@rd (diğer seçenek)"
 
 #: ../rules/base.xml.in.h:138 ../rules/evdev.xml.in.h:138
 msgid "Cherry CyBo@rd USB-Hub"
-msgstr ""
+msgstr "Cherry CyBo@rd USB-Hub"
 
 #: ../rules/base.xml.in.h:139 ../rules/evdev.xml.in.h:139
 msgid "Cherry CyMotion Expert"
-msgstr ""
+msgstr "Cherry CyMotion Expert"
 
 #: ../rules/base.xml.in.h:140 ../rules/evdev.xml.in.h:140
 msgid "Cherry CyMotion Master Linux"
-msgstr ""
+msgstr "Cherry CyMotion Master Linux"
 
 #: ../rules/base.xml.in.h:141 ../rules/evdev.xml.in.h:141
 msgid "Cherry CyMotion Master XPress"
-msgstr ""
+msgstr "Cherry CyMotion Master XPress"
 
 #: ../rules/base.xml.in.h:142 ../rules/evdev.xml.in.h:142
 msgid "Chicony Internet Keyboard"
-msgstr ""
+msgstr "Chicony İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:143 ../rules/evdev.xml.in.h:143
 msgid "Chicony KB-9885"
-msgstr ""
+msgstr "Chicony KB-9885"
 
 #: ../rules/base.xml.in.h:144 ../rules/evdev.xml.in.h:144
 msgid "Chicony KU-0108"
-msgstr ""
+msgstr "Chicony KU-0108"
 
 #: ../rules/base.xml.in.h:145 ../rules/evdev.xml.in.h:145
 msgid "Chicony KU-0420"
-msgstr ""
+msgstr "Chicony KU-0420"
 
 #: ../rules/base.xml.in.h:146 ../rules/evdev.xml.in.h:146
 msgid "China"
-msgstr ""
+msgstr "Çin"
 
 #: ../rules/base.xml.in.h:147 ../rules/evdev.xml.in.h:147
 msgid "Chuvash"
-msgstr ""
+msgstr "Çuvaşça"
 
 #: ../rules/base.xml.in.h:148 ../rules/evdev.xml.in.h:148
 msgid "Chuvash Latin"
-msgstr ""
+msgstr "Çuvaşça Latin"
 
 #: ../rules/base.xml.in.h:149 ../rules/evdev.xml.in.h:149
 msgid "Classic"
-msgstr ""
+msgstr "Klassik"
 
 #: ../rules/base.xml.in.h:150 ../rules/evdev.xml.in.h:150
 msgid "Classic Dvorak"
-msgstr ""
+msgstr "Klassik Dvorak"
 
 #: ../rules/base.xml.in.h:151 ../rules/evdev.xml.in.h:151
 msgid "Classmate PC"
-msgstr ""
+msgstr "Classmate Şahsiy Bilgisayar (PC)"
 
 #: ../rules/base.xml.in.h:152 ../rules/evdev.xml.in.h:152
 msgid "CloGaelach"
-msgstr ""
+msgstr "CloGaelach"
 
 #: ../rules/base.xml.in.h:153 ../rules/evdev.xml.in.h:153
 msgid "Colemak"
-msgstr ""
+msgstr "Colemak"
 
 #: ../rules/base.xml.in.h:154 ../rules/evdev.xml.in.h:154
 msgid "Compaq Easy Access Keyboard"
-msgstr ""
+msgstr "Compaq Kolay Erişim Klavyesi"
 
 #: ../rules/base.xml.in.h:155 ../rules/evdev.xml.in.h:155
 msgid "Compaq Internet Keyboard (13 keys)"
-msgstr ""
+msgstr "Compaq İnternet Klavyesi (13 tuşlu)"
 
 #: ../rules/base.xml.in.h:156 ../rules/evdev.xml.in.h:156
 msgid "Compaq Internet Keyboard (18 keys)"
-msgstr ""
+msgstr "Compaq İnternet Klavyesi (18 tuşlu)"
 
 #: ../rules/base.xml.in.h:157 ../rules/evdev.xml.in.h:157
 msgid "Compaq Internet Keyboard (7 keys)"
-msgstr ""
+msgstr "İnternet Klavyesi (7 tuşlu)"
 
 #: ../rules/base.xml.in.h:158 ../rules/evdev.xml.in.h:158
 msgid "Compaq iPaq Keyboard"
-msgstr ""
+msgstr "Compaq iPaq Klavyesi"
 
 #: ../rules/base.xml.in.h:159 ../rules/evdev.xml.in.h:159
 msgid "Compose key position"
-msgstr ""
+msgstr "Telif (Compose) tuşu qonumı"
 
 #: ../rules/base.xml.in.h:160 ../rules/evdev.xml.in.h:160
 msgid "Congo, Democratic Republic of the"
-msgstr ""
+msgstr "Kongo Demokratik Cumhuriyeti"
 
 #: ../rules/base.xml.in.h:161 ../rules/evdev.xml.in.h:161
 msgid "Control is mapped to Alt keys, Alt is mapped to Win keys"
 msgstr ""
+"Control (Muraqabe), Alt tuşlarına haritalandırılır, Alt ise Pencereler "
+"(Win) tuşlarına haritalandırılır"
 
 #: ../rules/base.xml.in.h:162 ../rules/evdev.xml.in.h:162
 msgid "Control is mapped to Win keys (and the usual Ctrl keys)"
 msgstr ""
+"Control (Muraqabe), Pencereler (Win) tuşlarına (ve adetiy Ctrl tuşlarına) "
+"haritalandırılır"
 
 #: ../rules/base.xml.in.h:163 ../rules/evdev.xml.in.h:163
 msgid "Crimean Tatar (Dobruca-1 Q)"
-msgstr ""
+msgstr "Qırımtatarca (Dobruca-1 Q)"
 
 #: ../rules/base.xml.in.h:164 ../rules/evdev.xml.in.h:164
 msgid "Crimean Tatar (Dobruca-2 Q)"
-msgstr ""
+msgstr "Qırımtatarca (Dobruca-2 Q)"
 
 #: ../rules/base.xml.in.h:165 ../rules/evdev.xml.in.h:165
 msgid "Crimean Tatar (Turkish Alt-Q)"
-msgstr ""
+msgstr "Qırımtatarca (Türkçe Alt-Q)"
 
 #: ../rules/base.xml.in.h:166 ../rules/evdev.xml.in.h:166
 msgid "Crimean Tatar (Turkish F)"
-msgstr ""
+msgstr "Qırımtatarca (Türkçe F)"
 
 #: ../rules/base.xml.in.h:167 ../rules/evdev.xml.in.h:167
 msgid "Crimean Tatar (Turkish Q)"
-msgstr ""
+msgstr "Qırımtatarca (Türkçe Q)"
 
 #: ../rules/base.xml.in.h:168 ../rules/evdev.xml.in.h:168
 msgid "Croatia"
-msgstr ""
+msgstr "Hırvatistan"
 
 #: ../rules/base.xml.in.h:169 ../rules/evdev.xml.in.h:169
 msgid "Ctrl key position"
-msgstr ""
+msgstr "Ctrl tuşunıñ mevamı"
 
 #: ../rules/base.xml.in.h:170 ../rules/evdev.xml.in.h:170
 msgid "Ctrl+Shift"
-msgstr ""
+msgstr "Ctrl+Shift"
 
 #: ../rules/base.xml.in.h:171 ../rules/evdev.xml.in.h:171
 msgid "Cyrillic"
-msgstr ""
+msgstr "Kiril"
 
 #: ../rules/base.xml.in.h:172 ../rules/evdev.xml.in.h:172
 msgid "Cyrillic with guillemets"
-msgstr ""
+msgstr "Köşeli qavuslarnen Kiril"
 
 #: ../rules/base.xml.in.h:173 ../rules/evdev.xml.in.h:173
 msgid "Cyrillic, Z and ZHE swapped"
-msgstr ""
+msgstr "Kiril, Z ile J almaştırılğan"
 
 #: ../rules/base.xml.in.h:174 ../rules/evdev.xml.in.h:174
 msgid "Cze"
-msgstr ""
+msgstr "Çek"
 
 #: ../rules/base.xml.in.h:175 ../rules/evdev.xml.in.h:175
 msgid "Czechia"
-msgstr ""
+msgstr "Çek Cumhuriyeti"
 
 #: ../rules/base.xml.in.h:176 ../rules/evdev.xml.in.h:176
 msgid "DRC"
-msgstr ""
+msgstr "DRC"
 
 #: ../rules/base.xml.in.h:177 ../rules/evdev.xml.in.h:177
 msgid "DTK2000"
-msgstr ""
+msgstr "DTK2000"
 
 #: ../rules/base.xml.in.h:178 ../rules/evdev.xml.in.h:178
 msgid "Dan"
-msgstr ""
+msgstr "Dan"
 
 #: ../rules/base.xml.in.h:179 ../rules/evdev.xml.in.h:179
 msgid "Dead acute"
-msgstr ""
+msgstr "Ölü acute (´)"
 
 #: ../rules/base.xml.in.h:180 ../rules/evdev.xml.in.h:180
 msgid "Dead grave acute"
-msgstr ""
+msgstr "Ölü grave acute (`)"
 
 #: ../rules/base.xml.in.h:181 ../rules/evdev.xml.in.h:181
 msgid "Default numeric keypad keys"
-msgstr ""
+msgstr "Ög-belgilengen sayısal tuştaqımı tuşları"
 
 #: ../rules/base.xml.in.h:182 ../rules/evdev.xml.in.h:182
 msgid "Dell"
-msgstr ""
+msgstr "Dell"
 
 #: ../rules/base.xml.in.h:183 ../rules/evdev.xml.in.h:183
 msgid "Dell 101-key PC"
-msgstr ""
+msgstr "Dell 101 tuşlu PC"
 
 #: ../rules/base.xml.in.h:184 ../rules/evdev.xml.in.h:184
 msgid "Dell Laptop/notebook Inspiron 6xxx/8xxx"
-msgstr ""
+msgstr "Dizüstü/defter Dell Inspiron 6xxx/8xxx"
 
 #: ../rules/base.xml.in.h:185 ../rules/evdev.xml.in.h:185
 msgid "Dell Laptop/notebook Precision M series"
-msgstr ""
+msgstr "Dell Dizüstü/defter Precision M series"
 
 #: ../rules/base.xml.in.h:186 ../rules/evdev.xml.in.h:186
 msgid "Dell Latitude series laptop"
-msgstr ""
+msgstr "Dell Latitude serisi Dizüstü"
 
 #: ../rules/base.xml.in.h:187 ../rules/evdev.xml.in.h:187
 msgid "Dell Precision M65"
-msgstr ""
+msgstr "Dell Precision M65"
 
 #: ../rules/base.xml.in.h:188 ../rules/evdev.xml.in.h:188
 msgid "Dell SK-8125"
-msgstr ""
+msgstr "Dell SK-8125"
 
 #: ../rules/base.xml.in.h:189 ../rules/evdev.xml.in.h:189
 msgid "Dell SK-8135"
-msgstr ""
+msgstr "Dell SK-8135"
 
+# tüylü
 #: ../rules/base.xml.in.h:190 ../rules/evdev.xml.in.h:190
 msgid "Dell USB Multimedia Keyboard"
-msgstr ""
+msgstr "Dell USB Çoqlumüit Klavyesi"
 
 #: ../rules/base.xml.in.h:191 ../rules/evdev.xml.in.h:191
 msgid "Denmark"
-msgstr ""
+msgstr "Danimarka"
 
 #: ../rules/base.xml.in.h:192 ../rules/evdev.xml.in.h:192
 msgid "Deu"
-msgstr ""
+msgstr "Alm"
 
 #: ../rules/base.xml.in.h:193 ../rules/evdev.xml.in.h:193
 msgid "Dexxa Wireless Desktop Keyboard"
-msgstr ""
+msgstr "Dexxa Kablosuz Masaüstü Klavyesi"
 
 #: ../rules/base.xml.in.h:194 ../rules/evdev.xml.in.h:194
 msgid "Diamond 9801 / 9802 series"
-msgstr ""
+msgstr "Diamond 9801 / 9802 serileri"
 
 #: ../rules/base.xml.in.h:195 ../rules/evdev.xml.in.h:195
 msgid "Dvorak"
-msgstr ""
+msgstr "Dvorak"
 
 #: ../rules/base.xml.in.h:196 ../rules/evdev.xml.in.h:196
 msgid "Dvorak (UK Punctuation)"
-msgstr ""
+msgstr "Dvorak (Birleşken Qırallıq Noqtalaması)"
 
 #: ../rules/base.xml.in.h:197 ../rules/evdev.xml.in.h:197
 msgid "Dvorak international"
-msgstr ""
+msgstr "Dvorak milletlerara"
 
 #: ../rules/base.xml.in.h:198 ../rules/evdev.xml.in.h:198
 msgid "Dvorak, Polish quotes on key \"1/!\""
-msgstr ""
+msgstr "Dvorak, \"1/!\" tuşunda Lehçe tırnaklar"
 
 #: ../rules/base.xml.in.h:199 ../rules/evdev.xml.in.h:199
 msgid "Dvorak, Polish quotes on quotemark key"
-msgstr ""
+msgstr "Dvorak, çift tırnak tuşunda Lehçe tırnaklar"
 
 #: ../rules/base.xml.in.h:200 ../rules/evdev.xml.in.h:200
 msgid "E"
-msgstr ""
+msgstr "E"
 
 #: ../rules/base.xml.in.h:201 ../rules/evdev.xml.in.h:201
 msgid "Eastern"
-msgstr ""
+msgstr "Doğu"
 
 #: ../rules/base.xml.in.h:202 ../rules/evdev.xml.in.h:202
 msgid "Eliminate dead keys"
-msgstr ""
+msgstr "Ölü tuşları normal yapar"
 
 #: ../rules/base.xml.in.h:203 ../rules/evdev.xml.in.h:203
 msgid "Enable extra typographic characters"
-msgstr ""
+msgstr "Ziyade matbaa remizlerini qabilleştir"
 
 #: ../rules/base.xml.in.h:204 ../rules/evdev.xml.in.h:204
 msgid "Ennyah DKB-1008"
-msgstr ""
+msgstr "Ennyah DKB-1008"
 
 #: ../rules/base.xml.in.h:205 ../rules/evdev.xml.in.h:205
 msgid "Epo"
-msgstr ""
+msgstr "Epo"
 
 #: ../rules/base.xml.in.h:206 ../rules/evdev.xml.in.h:206
 msgid "Ergonomic"
-msgstr ""
+msgstr "Ergonomik"
 
 #: ../rules/base.xml.in.h:207 ../rules/evdev.xml.in.h:207
 msgid "Esp"
-msgstr ""
+msgstr "Esp"
 
 #: ../rules/base.xml.in.h:208 ../rules/evdev.xml.in.h:208
 msgid "Esperanto"
-msgstr ""
+msgstr "Esperanto"
 
 #: ../rules/base.xml.in.h:209 ../rules/evdev.xml.in.h:209
 msgid "Est"
-msgstr ""
+msgstr "Est"
 
 #: ../rules/base.xml.in.h:210 ../rules/evdev.xml.in.h:210
 msgid "Estonia"
-msgstr ""
+msgstr "Estonya"
 
 #: ../rules/base.xml.in.h:211 ../rules/evdev.xml.in.h:211
 msgid "Eth"
-msgstr ""
+msgstr "Ety"
 
 #: ../rules/base.xml.in.h:212 ../rules/evdev.xml.in.h:212
 msgid "Ethiopia"
-msgstr ""
+msgstr "Habeşistan"
 
 #: ../rules/base.xml.in.h:213 ../rules/evdev.xml.in.h:213
 msgid "Evdev-managed keyboard"
-msgstr ""
+msgstr "Evdev yönetimli klavye"
 
 #: ../rules/base.xml.in.h:214 ../rules/evdev.xml.in.h:214
 msgid "Everex STEPnote"
-msgstr ""
+msgstr "Everex STEPnote"
 
 #: ../rules/base.xml.in.h:215 ../rules/evdev.xml.in.h:215
 msgid "Ewe"
-msgstr ""
+msgstr "Eve"
 
 #: ../rules/base.xml.in.h:216 ../rules/evdev.xml.in.h:216
 msgid "Extended"
-msgstr ""
+msgstr "Gelişmiş"
 
 #: ../rules/base.xml.in.h:217 ../rules/evdev.xml.in.h:217
 msgid "Extended Backslash"
-msgstr ""
+msgstr "Gelişmiş Gerisilme"
 
 #: ../rules/base.xml.in.h:218 ../rules/evdev.xml.in.h:218
 msgid "F-letter (F) variant"
-msgstr ""
+msgstr "F harfli (F) türü"
 
 #: ../rules/base.xml.in.h:219 ../rules/evdev.xml.in.h:219
 msgid "FL90"
-msgstr ""
+msgstr "FL90"
 
 #: ../rules/base.xml.in.h:220 ../rules/evdev.xml.in.h:220
 msgid "Fao"
-msgstr ""
+msgstr "Fao"
 
 #: ../rules/base.xml.in.h:221 ../rules/evdev.xml.in.h:221
 msgid "Faroe Islands"
-msgstr ""
+msgstr "Faroe Adaları"
 
 #: ../rules/base.xml.in.h:222 ../rules/evdev.xml.in.h:222
 msgid "Fin"
-msgstr ""
+msgstr "Fin"
 
 #: ../rules/base.xml.in.h:223 ../rules/evdev.xml.in.h:223
 msgid "Finland"
-msgstr ""
+msgstr "Finlandiya"
 
 #. This assumes the KP_ abstract symbols are actually useful for some apps
 #. The description needs to be rewritten
 #: ../rules/base.xml.in.h:226 ../rules/evdev.xml.in.h:226
 msgid "Four-level key with abstract separators"
-msgstr ""
+msgstr "Mücerret ayırğıçlarnen dördünci seviye tuşu"
 
 #: ../rules/base.xml.in.h:227 ../rules/evdev.xml.in.h:227
 msgid "Four-level key with comma"
-msgstr ""
+msgstr "Virgülnen dördünci seviye tuşu"
 
 #: ../rules/base.xml.in.h:228 ../rules/evdev.xml.in.h:228
 msgid "Four-level key with dot"
-msgstr ""
+msgstr "Noqtanen dördünci seviye tuşu"
 
 #: ../rules/base.xml.in.h:229 ../rules/evdev.xml.in.h:229
 msgid "Four-level key with dot, latin-9 restriction"
-msgstr ""
+msgstr "Noqtanen dördünci seviye tuşu, latin-9 sıñırlaması"
 
 #: ../rules/base.xml.in.h:230 ../rules/evdev.xml.in.h:230
 msgid "Four-level key with momayyez"
-msgstr ""
+msgstr "Momayyez ile dördünci seviye tuşu"
 
 #: ../rules/base.xml.in.h:231 ../rules/evdev.xml.in.h:231
 msgid "Fra"
-msgstr ""
+msgstr "Fra"
 
 #: ../rules/base.xml.in.h:232 ../rules/evdev.xml.in.h:232
 msgid "France"
-msgstr ""
+msgstr "Fransa"
 
 #: ../rules/base.xml.in.h:233 ../rules/evdev.xml.in.h:233
 msgid "French"
-msgstr ""
+msgstr "Fransızca"
 
 #: ../rules/base.xml.in.h:234 ../rules/evdev.xml.in.h:234
 msgid "French (Macintosh)"
-msgstr ""
+msgstr "Fransız (Makintoş)"
 
 #: ../rules/base.xml.in.h:235 ../rules/evdev.xml.in.h:235
 msgid "French (legacy)"
-msgstr ""
+msgstr "Fransızca (qadim)"
 
 #: ../rules/base.xml.in.h:236 ../rules/evdev.xml.in.h:236
 msgid "French Dvorak"
-msgstr ""
+msgstr "Fransızca Dvorak"
 
 #: ../rules/base.xml.in.h:237 ../rules/evdev.xml.in.h:237
 msgid "French, Sun dead keys"
-msgstr ""
+msgstr "Fransızca, Sun ölü tuşlar"
 
 #: ../rules/base.xml.in.h:238 ../rules/evdev.xml.in.h:238
 msgid "French, eliminate dead keys"
-msgstr ""
+msgstr "Fransızca, ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:239 ../rules/evdev.xml.in.h:239
 msgid "Fujitsu-Siemens Computers AMILO laptop"
-msgstr ""
+msgstr "Fujitsu-Siemens Bilgisayarları AMILO tizüstü"
 
 #: ../rules/base.xml.in.h:240 ../rules/evdev.xml.in.h:240
 msgid "Fula"
-msgstr ""
+msgstr "Fula"
 
 #: ../rules/base.xml.in.h:241 ../rules/evdev.xml.in.h:241
 msgid "GBr"
-msgstr ""
+msgstr "GBr"
 
 #: ../rules/base.xml.in.h:242 ../rules/evdev.xml.in.h:242
 msgid "Ga"
-msgstr ""
+msgstr "Ga"
 
 #: ../rules/base.xml.in.h:243 ../rules/evdev.xml.in.h:243
 msgid "Generic 101-key PC"
-msgstr ""
+msgstr "Soysal 101 tuşlu PC"
 
 #: ../rules/base.xml.in.h:244 ../rules/evdev.xml.in.h:244
 msgid "Generic 102-key (Intl) PC"
-msgstr ""
+msgstr "Soysal 102 tuşlu (Uluslararası) PC"
 
 #: ../rules/base.xml.in.h:245 ../rules/evdev.xml.in.h:245
 msgid "Generic 104-key PC"
-msgstr ""
+msgstr "Soysal 104 tuşlu PC"
 
 #: ../rules/base.xml.in.h:246 ../rules/evdev.xml.in.h:246
 msgid "Generic 105-key (Intl) PC"
-msgstr ""
+msgstr "Soysal 105 tuşlu (uluslararası) PC"
 
 #: ../rules/base.xml.in.h:247 ../rules/evdev.xml.in.h:247
 msgid "Genius Comfy KB-12e"
-msgstr ""
+msgstr "Genius Comfy KB-12e"
 
 #: ../rules/base.xml.in.h:248 ../rules/evdev.xml.in.h:248
 msgid "Genius Comfy KB-16M / Genius MM Keyboard KWD-910"
-msgstr ""
+msgstr "Genius Comfy KB-16M / Genius MM Keyboard KWD-910"
 
 #: ../rules/base.xml.in.h:249 ../rules/evdev.xml.in.h:249
 msgid "Genius Comfy KB-21e-Scroll"
-msgstr ""
+msgstr "Genius Comfy KB-21e-Scroll"
 
 #: ../rules/base.xml.in.h:250 ../rules/evdev.xml.in.h:250
 msgid "Genius KB-19e NB"
-msgstr ""
+msgstr "Genius KB-19e NB"
 
 #: ../rules/base.xml.in.h:251 ../rules/evdev.xml.in.h:251
 msgid "Geo"
-msgstr ""
+msgstr "Geo"
 
 #: ../rules/base.xml.in.h:252 ../rules/evdev.xml.in.h:252
 msgid "Georgia"
-msgstr ""
+msgstr "Gürcistan"
 
 #: ../rules/base.xml.in.h:253 ../rules/evdev.xml.in.h:253
 msgid "Georgian"
-msgstr ""
+msgstr "Gürci"
 
 #: ../rules/base.xml.in.h:254 ../rules/evdev.xml.in.h:254
 msgid "Georgian AZERTY Tskapo"
-msgstr ""
+msgstr "Gürci AZERTY Tskapo"
 
 #: ../rules/base.xml.in.h:255 ../rules/evdev.xml.in.h:255
 msgid "German (Macintosh)"
-msgstr ""
+msgstr "Alman (Makintoş)"
 
 #: ../rules/base.xml.in.h:256 ../rules/evdev.xml.in.h:256
 msgid "German, Sun dead keys"
-msgstr ""
+msgstr "Almanca, Sun ölü tuşlar"
 
 #: ../rules/base.xml.in.h:257 ../rules/evdev.xml.in.h:257
 msgid "German, eliminate dead keys"
-msgstr ""
+msgstr "Almanca, ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:258 ../rules/evdev.xml.in.h:258
 msgid "Germany"
-msgstr ""
+msgstr "Almanya"
 
 #: ../rules/base.xml.in.h:259 ../rules/evdev.xml.in.h:259
 msgid "Gha"
-msgstr ""
+msgstr "Gha"
 
 #: ../rules/base.xml.in.h:260 ../rules/evdev.xml.in.h:260
 msgid "Ghana"
-msgstr ""
+msgstr "Gana"
 
 #: ../rules/base.xml.in.h:261 ../rules/evdev.xml.in.h:261
 msgid "Gre"
-msgstr ""
+msgstr "Gre"
 
 #: ../rules/base.xml.in.h:262 ../rules/evdev.xml.in.h:262
 msgid "Greece"
-msgstr ""
+msgstr "Yunanistan"
 
 #: ../rules/base.xml.in.h:263 ../rules/evdev.xml.in.h:263
 msgid "Group toggle on multiply/divide key"
-msgstr ""
+msgstr "Arttır/Böl tuşu üzerine zümreni almaştır"
 
 #: ../rules/base.xml.in.h:264 ../rules/evdev.xml.in.h:264
 msgid "Gui"
-msgstr ""
+msgstr "Qıllanıcı Arayüzü (Gui)"
 
 #: ../rules/base.xml.in.h:265 ../rules/evdev.xml.in.h:265
 msgid "Guinea"
-msgstr ""
+msgstr "Gine"
 
 #: ../rules/base.xml.in.h:266 ../rules/evdev.xml.in.h:266
 msgid "Gujarati"
-msgstr ""
+msgstr "Batı Hint dili"
 
 #: ../rules/base.xml.in.h:267 ../rules/evdev.xml.in.h:267
 msgid "Gurmukhi"
-msgstr ""
+msgstr "Gurmuki"
 
 #: ../rules/base.xml.in.h:268 ../rules/evdev.xml.in.h:268
 msgid "Gurmukhi Jhelum"
-msgstr ""
+msgstr "Gurmuki Jhelum"
 
 #: ../rules/base.xml.in.h:269 ../rules/evdev.xml.in.h:269
 msgid "Gyration"
-msgstr ""
+msgstr "Çekimsel"
 
 #: ../rules/base.xml.in.h:270 ../rules/evdev.xml.in.h:270
 msgid "Happy Hacking Keyboard"
-msgstr ""
+msgstr "Happy Hacking Klavyesi"
 
 #: ../rules/base.xml.in.h:271 ../rules/evdev.xml.in.h:271
 msgid "Happy Hacking Keyboard for Mac"
-msgstr ""
+msgstr "Mac içün Happy Hacking Klavyesi"
 
 #: ../rules/base.xml.in.h:272 ../rules/evdev.xml.in.h:272
 msgid "Hausa"
-msgstr ""
+msgstr "Havza"
 
 #: ../rules/base.xml.in.h:273 ../rules/evdev.xml.in.h:273
 msgid "Hewlett-Packard Internet Keyboard"
-msgstr ""
+msgstr "Hewlett-Packard İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:274 ../rules/evdev.xml.in.h:274
 msgid "Hewlett-Packard Omnibook 500 FA"
-msgstr ""
+msgstr "Hewlett-Packard Omnibook 500 FA"
 
 #: ../rules/base.xml.in.h:275 ../rules/evdev.xml.in.h:275
 msgid "Hewlett-Packard Omnibook 5xx"
-msgstr ""
+msgstr "Hewlett-Packard Omnibook 5xx"
 
 #: ../rules/base.xml.in.h:276 ../rules/evdev.xml.in.h:276
 msgid "Hewlett-Packard Omnibook 6000/6100"
-msgstr ""
+msgstr "Hewlett-Packard Omnibook 6000/6100"
 
 #: ../rules/base.xml.in.h:277 ../rules/evdev.xml.in.h:277
 msgid "Hewlett-Packard Omnibook XE3 GC"
-msgstr ""
+msgstr "Hewlett-Packard Omnibook XE3 GC"
 
 #: ../rules/base.xml.in.h:278 ../rules/evdev.xml.in.h:278
 msgid "Hewlett-Packard Omnibook XE3 GF"
-msgstr ""
+msgstr "Hewlett-Packard Omnibook XE3 GF"
 
 #: ../rules/base.xml.in.h:279 ../rules/evdev.xml.in.h:279
 msgid "Hewlett-Packard Omnibook XT1000"
-msgstr ""
+msgstr "Hewlett-Packard Omnibook XT1000"
 
 #: ../rules/base.xml.in.h:280 ../rules/evdev.xml.in.h:280
 msgid "Hewlett-Packard Pavilion ZT11xx"
-msgstr ""
+msgstr "Hewlett-Packard Pavilion ZT11xx"
 
 #: ../rules/base.xml.in.h:281 ../rules/evdev.xml.in.h:281
 msgid "Hewlett-Packard Pavilion dv5"
-msgstr ""
+msgstr "Hewlett-Packard Pavilion dv5"
 
 #: ../rules/base.xml.in.h:282 ../rules/evdev.xml.in.h:282
 msgid "Hewlett-Packard SK-250x Multimedia Keyboard"
-msgstr ""
+msgstr "Hewlett-Packard SK-250x Çoqlumüit Klavyesi"
 
 #: ../rules/base.xml.in.h:283 ../rules/evdev.xml.in.h:283
 msgid "Hewlett-Packard nx9020"
-msgstr ""
+msgstr "Hewlett-Packard nx9020"
 
+# tüylü
 #: ../rules/base.xml.in.h:284 ../rules/evdev.xml.in.h:284
 msgid "Hexadecimal"
-msgstr ""
+msgstr "Onaltıdalıq"
 
 #: ../rules/base.xml.in.h:285 ../rules/evdev.xml.in.h:285
 msgid "Hindi Bolnagri"
-msgstr ""
+msgstr "Hindi Bolnagri"
 
 #: ../rules/base.xml.in.h:286 ../rules/evdev.xml.in.h:286
 msgid "Homophonic"
-msgstr ""
+msgstr "Davuştaş (Homophonic)"
 
 #: ../rules/base.xml.in.h:287 ../rules/evdev.xml.in.h:287
 msgid "Honeywell Euroboard"
-msgstr ""
+msgstr "Honeywell Euroboard"
 
 #: ../rules/base.xml.in.h:288 ../rules/evdev.xml.in.h:288
 msgid "Hrv"
-msgstr ""
+msgstr "Hrv"
 
 #: ../rules/base.xml.in.h:289 ../rules/evdev.xml.in.h:289
 msgid "Hun"
-msgstr ""
+msgstr "Mcr"
 
 #: ../rules/base.xml.in.h:290 ../rules/evdev.xml.in.h:290
 msgid "Hungary"
-msgstr ""
+msgstr "Macaristan"
 
 #: ../rules/base.xml.in.h:291 ../rules/evdev.xml.in.h:291
 msgid "Hyper is mapped to Win-keys"
-msgstr ""
+msgstr "Hyper, Pencereler-tuşlarına (Win) haritalandırılır"
 
 #: ../rules/base.xml.in.h:292 ../rules/evdev.xml.in.h:292
 msgid "IBM (LST 1205-92)"
-msgstr ""
+msgstr "IBM (LST 1205-92)"
 
 #: ../rules/base.xml.in.h:293 ../rules/evdev.xml.in.h:293
 msgid "IBM Rapid Access"
-msgstr ""
+msgstr "IBM Hızlı Erişim"
 
 #: ../rules/base.xml.in.h:294 ../rules/evdev.xml.in.h:294
 msgid "IBM Rapid Access II"
-msgstr ""
+msgstr "IBM Hızlı Erişim II"
 
 #: ../rules/base.xml.in.h:295 ../rules/evdev.xml.in.h:295
 msgid "IBM Space Saver"
-msgstr ""
+msgstr "IBM Feza Saqlayıcı (Space Saver)"
 
 #: ../rules/base.xml.in.h:296 ../rules/evdev.xml.in.h:296
 msgid "IBM ThinkPad 560Z/600/600E/A22E"
-msgstr ""
+msgstr "IBM ThinkPad 560Z/600/600E/A22E"
 
 #: ../rules/base.xml.in.h:297 ../rules/evdev.xml.in.h:297
 msgid "IBM ThinkPad 560Z/600/600E/A22E, Intl"
-msgstr ""
+msgstr "IBM ThinkPad 560Z/600/600E/A22E, Intl"
 
 #: ../rules/base.xml.in.h:298 ../rules/evdev.xml.in.h:298
 msgid "IBM ThinkPad R60/T60/R61/T61"
-msgstr ""
+msgstr "IBM ThinkPad R60/T60/R61/T61"
 
 #: ../rules/base.xml.in.h:299 ../rules/evdev.xml.in.h:299
 msgid "IBM ThinkPad Z60m/Z60t/Z61m/Z61t"
-msgstr ""
+msgstr "IBM ThinkPad Z60m/Z60t/Z61m/Z61t"
 
 #: ../rules/base.xml.in.h:300 ../rules/evdev.xml.in.h:300
 msgid "ISO Alternate"
-msgstr ""
+msgstr "ISO diğer"
 
 #: ../rules/base.xml.in.h:301 ../rules/evdev.xml.in.h:301
 msgid "Iceland"
-msgstr ""
+msgstr "İzlanda"
 
 #: ../rules/base.xml.in.h:302 ../rules/evdev.xml.in.h:302
 msgid "Igbo"
-msgstr ""
+msgstr "Igbo"
 
 #: ../rules/base.xml.in.h:303 ../rules/evdev.xml.in.h:303
 msgid "Include dead tilde"
-msgstr ""
+msgstr "Ölü tildeni kirset"
 
 #: ../rules/base.xml.in.h:304 ../rules/evdev.xml.in.h:304
 msgid "Ind"
-msgstr ""
+msgstr "Ind"
 
 #: ../rules/base.xml.in.h:305 ../rules/evdev.xml.in.h:305
 msgid "India"
-msgstr ""
+msgstr "Hindistan"
 
 #: ../rules/base.xml.in.h:306 ../rules/evdev.xml.in.h:306
 msgid "International (AltGr dead keys)"
-msgstr ""
+msgstr "Milletlerara (AltGr ölü tuşlarınen)"
 
 #: ../rules/base.xml.in.h:307 ../rules/evdev.xml.in.h:307
 msgid "International (with dead keys)"
-msgstr ""
+msgstr "Uluslararası (ölü tuşlarla)"
 
 #: ../rules/base.xml.in.h:308 ../rules/evdev.xml.in.h:308
 msgid "Inuktitut"
-msgstr ""
+msgstr "Inuktitut"
 
 #: ../rules/base.xml.in.h:309 ../rules/evdev.xml.in.h:309
 msgid "Iran"
-msgstr ""
+msgstr "İran"
 
 #: ../rules/base.xml.in.h:310 ../rules/evdev.xml.in.h:310
 msgid "Iraq"
-msgstr ""
+msgstr "Irak"
 
 #: ../rules/base.xml.in.h:311 ../rules/evdev.xml.in.h:311
 msgid "Ireland"
-msgstr ""
+msgstr "İrlanda"
 
 #: ../rules/base.xml.in.h:312 ../rules/evdev.xml.in.h:312
 msgid "Irl"
-msgstr ""
+msgstr "İrl"
 
 #: ../rules/base.xml.in.h:313 ../rules/evdev.xml.in.h:313
 msgid "Irn"
-msgstr ""
+msgstr "Irn"
 
 #: ../rules/base.xml.in.h:314 ../rules/evdev.xml.in.h:314
 msgid "Irq"
-msgstr ""
+msgstr "Irk"
 
 #: ../rules/base.xml.in.h:315 ../rules/evdev.xml.in.h:315
 msgid "Isl"
-msgstr ""
+msgstr "Izl"
 
 #: ../rules/base.xml.in.h:316 ../rules/evdev.xml.in.h:316
 msgid "Isr"
-msgstr ""
+msgstr "İbr"
 
 #: ../rules/base.xml.in.h:317 ../rules/evdev.xml.in.h:317
 msgid "Israel"
-msgstr ""
+msgstr "İsrail"
 
 #: ../rules/base.xml.in.h:318 ../rules/evdev.xml.in.h:318
 msgid "Ita"
-msgstr ""
+msgstr "İta"
 
 #: ../rules/base.xml.in.h:319 ../rules/evdev.xml.in.h:319
 msgid "Italy"
-msgstr ""
+msgstr "İtalya"
 
 #: ../rules/base.xml.in.h:320 ../rules/evdev.xml.in.h:320
 msgid "Japan"
-msgstr ""
+msgstr "Japonya"
 
 #: ../rules/base.xml.in.h:321 ../rules/evdev.xml.in.h:321
 msgid "Japan (PC-98xx Series)"
-msgstr ""
+msgstr "Japon (PC-98xx Series)"
 
 #: ../rules/base.xml.in.h:322 ../rules/evdev.xml.in.h:322
 msgid "Japanese 106-key"
-msgstr ""
+msgstr "Japonca 106 tuşlu"
 
 #: ../rules/base.xml.in.h:323 ../rules/evdev.xml.in.h:323
 msgid "Japanese keyboard options"
-msgstr ""
+msgstr "Japonca klavye seçenekleri"
 
 #: ../rules/base.xml.in.h:324 ../rules/evdev.xml.in.h:324
 msgid "Jpn"
-msgstr ""
+msgstr "Jpn"
 
 #: ../rules/base.xml.in.h:325 ../rules/evdev.xml.in.h:325
 msgid "Kalmyk"
-msgstr ""
+msgstr "Qalmıqça"
 
 #: ../rules/base.xml.in.h:326 ../rules/evdev.xml.in.h:326
 msgid "Kana"
-msgstr ""
+msgstr "Kana"
 
 #: ../rules/base.xml.in.h:327 ../rules/evdev.xml.in.h:327
 msgid "Kana Lock key is locking"
-msgstr ""
+msgstr "Kana Lock tuşu kilitler"
 
 #: ../rules/base.xml.in.h:328 ../rules/evdev.xml.in.h:328
 msgid "Kannada"
-msgstr ""
+msgstr "Güney Hint dili"
 
 #: ../rules/base.xml.in.h:329 ../rules/evdev.xml.in.h:329
 msgid "Kashubian"
-msgstr ""
+msgstr "Kaşubyalı"
 
 #: ../rules/base.xml.in.h:330 ../rules/evdev.xml.in.h:330
 msgid "Kaz"
-msgstr ""
+msgstr "Kaz"
 
 #: ../rules/base.xml.in.h:331 ../rules/evdev.xml.in.h:331
 msgid "Kazakh with Russian"
-msgstr ""
+msgstr "Kazak (rus)"
 
 #: ../rules/base.xml.in.h:332 ../rules/evdev.xml.in.h:332
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Kazakistan"
 
 #: ../rules/base.xml.in.h:333 ../rules/evdev.xml.in.h:333
 msgid "Key to choose 3rd level"
-msgstr ""
+msgstr "3. seviyeni saylaycaq tuş"
 
 #: ../rules/base.xml.in.h:334 ../rules/evdev.xml.in.h:334
 msgid "Key(s) to change layout"
-msgstr ""
+msgstr "Serimni deñiştirecek tuş(lar)"
 
 #: ../rules/base.xml.in.h:335 ../rules/evdev.xml.in.h:335
 msgid "Keypad"
-msgstr ""
+msgstr "Tuştaqımı"
 
 #: ../rules/base.xml.in.h:336 ../rules/evdev.xml.in.h:336
 msgid "Keytronic FlexPro"
-msgstr ""
+msgstr "Keytronic FlexPro"
 
 #: ../rules/base.xml.in.h:337 ../rules/evdev.xml.in.h:337
 msgid "Khm"
-msgstr ""
+msgstr "Kım"
 
 #: ../rules/base.xml.in.h:338 ../rules/evdev.xml.in.h:338
 msgid "Kir"
-msgstr ""
+msgstr "Kir"
 
 #: ../rules/base.xml.in.h:339 ../rules/evdev.xml.in.h:339
 msgid "Komi"
-msgstr ""
+msgstr "Komice"
 
 #: ../rules/base.xml.in.h:340 ../rules/evdev.xml.in.h:340
 msgid "Kor"
-msgstr ""
+msgstr "Kor"
 
 #: ../rules/base.xml.in.h:341 ../rules/evdev.xml.in.h:341
 msgid "Korea, Republic of"
-msgstr ""
+msgstr "Kore Cumhuriyeti"
 
 #: ../rules/base.xml.in.h:342 ../rules/evdev.xml.in.h:342
 msgid "Korean 106-key"
-msgstr ""
+msgstr "Korece 106 tuşlu"
 
+# tüylü
 #: ../rules/base.xml.in.h:343 ../rules/evdev.xml.in.h:343
 msgid "Ktunaxa"
-msgstr ""
+msgstr "Ktunaxa"
 
 #: ../rules/base.xml.in.h:344 ../rules/evdev.xml.in.h:344
 msgid "Kurdish, (F)"
-msgstr ""
+msgstr "Kürtçe (Türkçe F klavye)"
 
 #: ../rules/base.xml.in.h:345 ../rules/evdev.xml.in.h:345
 msgid "Kurdish, Arabic-Latin"
-msgstr ""
+msgstr "Kürtçe (Arapça-Latin)"
 
 #: ../rules/base.xml.in.h:346 ../rules/evdev.xml.in.h:346
 msgid "Kurdish, Latin Alt-Q"
-msgstr ""
+msgstr "Kürtçe (Türkçe Alt-Q klavye)"
 
 #: ../rules/base.xml.in.h:347 ../rules/evdev.xml.in.h:347
 msgid "Kurdish, Latin Q"
-msgstr ""
+msgstr "Kürtçe (Türkçe Q klavye)"
 
 #: ../rules/base.xml.in.h:348 ../rules/evdev.xml.in.h:348
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kırgızistan"
 
 #: ../rules/base.xml.in.h:349 ../rules/evdev.xml.in.h:349
 msgid "LAm"
-msgstr ""
+msgstr "LAm"
 
+# tüylü
 #: ../rules/base.xml.in.h:350 ../rules/evdev.xml.in.h:350
 msgid "LEKP"
-msgstr ""
+msgstr "LEKP"
 
 #: ../rules/base.xml.in.h:351 ../rules/evdev.xml.in.h:351
 msgid "LEKPa"
-msgstr ""
+msgstr "LEKPa"
 
 #: ../rules/base.xml.in.h:352 ../rules/evdev.xml.in.h:352
 msgid "Lao"
-msgstr ""
+msgstr "Lao"
 
 #: ../rules/base.xml.in.h:353 ../rules/evdev.xml.in.h:353
 msgid "Laos"
-msgstr ""
+msgstr "Laos"
 
 #: ../rules/base.xml.in.h:354 ../rules/evdev.xml.in.h:354
 msgid "Laptop/notebook Compaq (eg. Armada) Laptop Keyboard"
-msgstr ""
+msgstr "Dizüstü/defter Compaq (örn. Armada) Dizüstü Klavyesi"
 
 #: ../rules/base.xml.in.h:355 ../rules/evdev.xml.in.h:355
 msgid "Laptop/notebook Compaq (eg. Presario) Internet Keyboard"
-msgstr ""
+msgstr "Dizüstü/defter Compaq (örn. Presario) İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:356 ../rules/evdev.xml.in.h:356
 msgid "Laptop/notebook eMachines m68xx"
-msgstr ""
+msgstr "Dizüstü/defter eMachines m68xx"
 
 #: ../rules/base.xml.in.h:357 ../rules/evdev.xml.in.h:357
 msgid "Latin"
-msgstr ""
+msgstr "Latin"
 
 #: ../rules/base.xml.in.h:358 ../rules/evdev.xml.in.h:358
 msgid "Latin American"
-msgstr ""
+msgstr "Latin Amerikanca"
 
 #: ../rules/base.xml.in.h:359 ../rules/evdev.xml.in.h:359
 msgid "Latin Unicode"
-msgstr ""
+msgstr "Latin Unicode"
 
 #: ../rules/base.xml.in.h:360 ../rules/evdev.xml.in.h:360
 msgid "Latin Unicode qwerty"
-msgstr ""
+msgstr "Latin Unicode qwerty"
 
 #: ../rules/base.xml.in.h:361 ../rules/evdev.xml.in.h:361
 msgid "Latin qwerty"
-msgstr ""
+msgstr "Latin qwerty"
 
 #: ../rules/base.xml.in.h:362 ../rules/evdev.xml.in.h:362
 msgid "Latin unicode"
-msgstr ""
+msgstr "Latin unikod"
 
 #: ../rules/base.xml.in.h:363 ../rules/evdev.xml.in.h:363
 msgid "Latin unicode qwerty"
-msgstr ""
+msgstr "Latin unikod qwerty"
 
 #: ../rules/base.xml.in.h:364 ../rules/evdev.xml.in.h:364
 msgid "Latin with guillemets"
-msgstr ""
+msgstr "Açılı ayraçlarla Latin"
 
 #: ../rules/base.xml.in.h:365 ../rules/evdev.xml.in.h:365
 msgid "Latvia"
-msgstr ""
+msgstr "Letonya"
 
 #: ../rules/base.xml.in.h:366 ../rules/evdev.xml.in.h:366
 msgid "Lav"
-msgstr ""
+msgstr "Lav"
 
 #: ../rules/base.xml.in.h:367 ../rules/evdev.xml.in.h:367
 msgid "Left Alt"
-msgstr ""
+msgstr "Sol Alt"
 
 #: ../rules/base.xml.in.h:368 ../rules/evdev.xml.in.h:368
 msgid "Left Alt (while pressed)"
-msgstr ""
+msgstr "Sol Alt tuşu (basıq olğanda)"
 
 #: ../rules/base.xml.in.h:369 ../rules/evdev.xml.in.h:369
 msgid "Left Alt is swapped with Left Win"
-msgstr ""
+msgstr "Sol Alt tuşu, sol Pencereler (Win) tuşunen almaştırılır"
 
 #: ../rules/base.xml.in.h:370 ../rules/evdev.xml.in.h:370
 msgid "Left Ctrl"
-msgstr ""
+msgstr "Sol Ctrl"
 
 #: ../rules/base.xml.in.h:371 ../rules/evdev.xml.in.h:371
 msgid "Left Ctrl+Left Shift"
-msgstr ""
+msgstr "Sol Ctrl+Sol Shift"
 
 #: ../rules/base.xml.in.h:372 ../rules/evdev.xml.in.h:372
 msgid "Left Shift"
-msgstr ""
+msgstr "Sol Shift"
 
 #: ../rules/base.xml.in.h:373 ../rules/evdev.xml.in.h:373
 msgid "Left Win"
-msgstr ""
+msgstr "Sol Win"
 
 #: ../rules/base.xml.in.h:374 ../rules/evdev.xml.in.h:374
 msgid "Left Win (to first layout), Right Win/Menu (to last layout)"
-msgstr ""
+msgstr "Sol Pencereler (Win) (birinci serimge almaştırır), Sağ Pencereler/Menü (soñkisine)"
 
 #: ../rules/base.xml.in.h:375 ../rules/evdev.xml.in.h:375
 msgid "Left Win (while pressed)"
-msgstr ""
+msgstr "Sol Pencereler (Win) tuşu (basıq olğanda)"
 
 #: ../rules/base.xml.in.h:376 ../rules/evdev.xml.in.h:376
 msgid "Left hand"
-msgstr ""
+msgstr "Solak"
 
 #: ../rules/base.xml.in.h:377 ../rules/evdev.xml.in.h:377
 msgid "Left handed Dvorak"
-msgstr ""
+msgstr "Solak Dvorak"
 
 #: ../rules/base.xml.in.h:378 ../rules/evdev.xml.in.h:378
 msgid "Legacy"
-msgstr ""
+msgstr "Qadim"
 
 #: ../rules/base.xml.in.h:379 ../rules/evdev.xml.in.h:379
 msgid "Legacy Wang 724"
-msgstr ""
+msgstr "Qadim Wang 724"
 
 #. Actually, with KP_SEPARATOR, as the old keypad(comma)
 #: ../rules/base.xml.in.h:381 ../rules/evdev.xml.in.h:381
 msgid "Legacy key with comma"
-msgstr ""
+msgstr "Virgülnen qadim tuş"
 
 #: ../rules/base.xml.in.h:382 ../rules/evdev.xml.in.h:382
 msgid "Legacy key with dot"
-msgstr ""
+msgstr "Noqtanen qadim tuş"
 
 #: ../rules/base.xml.in.h:383 ../rules/evdev.xml.in.h:383
 msgid "Less-than/Greater-than"
-msgstr ""
+msgstr "Daa kiçik/Daa büyük"
 
 #: ../rules/base.xml.in.h:384 ../rules/evdev.xml.in.h:384
 msgid "Lithuania"
-msgstr ""
+msgstr "Litvanya"
 
 #: ../rules/base.xml.in.h:385 ../rules/evdev.xml.in.h:385
 msgid "Logitech Access Keyboard"
-msgstr ""
+msgstr "Logitech Access Keyboard"
 
 #: ../rules/base.xml.in.h:386 ../rules/evdev.xml.in.h:386
 msgid "Logitech Cordless Desktop"
-msgstr ""
+msgstr "Logitech Kabelsiz Masaüstü"
 
+# tüylü
 #: ../rules/base.xml.in.h:387 ../rules/evdev.xml.in.h:387
 msgid "Logitech Cordless Desktop (alternate option)"
-msgstr ""
+msgstr "Logitech Kabelsiz Masaüstü (alternativ ihtiyariyat)"
 
 #: ../rules/base.xml.in.h:388 ../rules/evdev.xml.in.h:388
 msgid "Logitech Cordless Desktop EX110"
-msgstr ""
+msgstr "Logitech Kabelsiz Masaüstü EX110"
 
 #: ../rules/base.xml.in.h:389 ../rules/evdev.xml.in.h:389
 msgid "Logitech Cordless Desktop LX-300"
-msgstr ""
+msgstr "Logitech Kablosuz Masaüstü LX-300"
 
 #: ../rules/base.xml.in.h:390 ../rules/evdev.xml.in.h:390
 msgid "Logitech Cordless Desktop Navigator"
-msgstr ""
+msgstr "Logitech Kablosuz Masaüstü Yürsetici"
 
 #: ../rules/base.xml.in.h:391 ../rules/evdev.xml.in.h:391
 msgid "Logitech Cordless Desktop Optical"
-msgstr ""
+msgstr "Logitech Kablosuz Masaüstü Optik"
 
 #: ../rules/base.xml.in.h:392 ../rules/evdev.xml.in.h:392
 msgid "Logitech Cordless Desktop Pro (alternate option2)"
-msgstr ""
+msgstr "Logitech Kablosuz Masaüstü Pro (diğer 2. seçenek)"
 
 #: ../rules/base.xml.in.h:393 ../rules/evdev.xml.in.h:393
 msgid "Logitech Cordless Desktop iTouch"
-msgstr ""
+msgstr "Logitech Kablosuz Masaüstü iTouch"
 
 #: ../rules/base.xml.in.h:394 ../rules/evdev.xml.in.h:394
 msgid "Logitech Cordless Freedom/Desktop Navigator"
-msgstr ""
+msgstr "Logitech Kablosuz Özgür/Masaüstü Yürsetici"
 
 #: ../rules/base.xml.in.h:395 ../rules/evdev.xml.in.h:395
 msgid "Logitech G15 extra keys via G15daemon"
-msgstr ""
+msgstr "Logitech G15, G15daemon üzerinden ek tuşlu"
 
 #: ../rules/base.xml.in.h:396 ../rules/evdev.xml.in.h:396
 msgid "Logitech Generic Keyboard"
-msgstr ""
+msgstr "Logitech Umumiy Klavyesi"
 
 #: ../rules/base.xml.in.h:397 ../rules/evdev.xml.in.h:397
 msgid "Logitech Internet 350 Keyboard"
-msgstr ""
+msgstr "Logitech İnternet 350 Klavyesi"
 
 #: ../rules/base.xml.in.h:398 ../rules/evdev.xml.in.h:398
 msgid "Logitech Internet Keyboard"
-msgstr ""
+msgstr "Logitech İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:399 ../rules/evdev.xml.in.h:399
 msgid "Logitech Internet Navigator Keyboard"
-msgstr ""
+msgstr "Logitech İnternet Yürsetici Klavyesi"
 
 #: ../rules/base.xml.in.h:400 ../rules/evdev.xml.in.h:400
 msgid "Logitech Media Elite Keyboard"
-msgstr ""
+msgstr "Logitech Vasta Elit Klavye"
 
 #: ../rules/base.xml.in.h:401 ../rules/evdev.xml.in.h:401
 msgid "Logitech Ultra-X Cordless Media Desktop Keyboard"
-msgstr ""
+msgstr "Logitech Ultra-X Kabelsiz Vasta Masaüstü Klavyesi"
 
 #: ../rules/base.xml.in.h:402 ../rules/evdev.xml.in.h:402
 msgid "Logitech Ultra-X Keyboard"
-msgstr ""
+msgstr "Logitech Ultra-X Keyboard"
 
 #: ../rules/base.xml.in.h:403 ../rules/evdev.xml.in.h:403
 msgid "Logitech diNovo Edge Keyboard"
-msgstr ""
+msgstr "Logitech diNovo Edge Klavyesi"
 
 #: ../rules/base.xml.in.h:404 ../rules/evdev.xml.in.h:404
 msgid "Logitech diNovo Keyboard"
-msgstr ""
+msgstr "Logitech Access Klavye"
 
 #: ../rules/base.xml.in.h:405 ../rules/evdev.xml.in.h:405
 msgid "Logitech iTouch"
-msgstr ""
+msgstr "Logitech iTouch"
 
 #: ../rules/base.xml.in.h:406 ../rules/evdev.xml.in.h:406
 msgid "Logitech iTouch Cordless Keyboard (model Y-RB6)"
-msgstr ""
+msgstr "Logitech iTouch Kablosuz Klavyesi (model Y-RB6)"
 
 #: ../rules/base.xml.in.h:407 ../rules/evdev.xml.in.h:407
 msgid "Logitech iTouch Internet Navigator Keyboard SE"
-msgstr ""
+msgstr "Logitech iTouch İnternet Yürsetici Klavyesi SE"
 
 #: ../rules/base.xml.in.h:408 ../rules/evdev.xml.in.h:408
 msgid "Logitech iTouch Internet Navigator Keyboard SE (USB)"
-msgstr ""
+msgstr "Logitech iTouch İnternet Yürsetici Klavyesi SE (USB)"
 
+# tüylü
 #: ../rules/base.xml.in.h:409 ../rules/evdev.xml.in.h:409
 msgid "Lower Sorbian"
-msgstr ""
+msgstr "Alt Sorbian"
 
 #: ../rules/base.xml.in.h:410 ../rules/evdev.xml.in.h:410
 msgid "Lower Sorbian (qwertz)"
-msgstr ""
+msgstr "Alt Sorbian (qwertz)"
 
 #: ../rules/base.xml.in.h:411 ../rules/evdev.xml.in.h:411
 msgid "Ltu"
-msgstr ""
+msgstr "Ltu"
 
 #: ../rules/base.xml.in.h:412 ../rules/evdev.xml.in.h:412
 msgid "MESS"
-msgstr ""
+msgstr "MESS"
 
+# tüylü
 #: ../rules/base.xml.in.h:413 ../rules/evdev.xml.in.h:413
 msgid "MNE"
-msgstr ""
+msgstr "MNE"
 
 #: ../rules/base.xml.in.h:414 ../rules/evdev.xml.in.h:414
 msgid "MacBook/MacBook Pro"
-msgstr ""
+msgstr "MacBook/MacBook Pro"
 
 #: ../rules/base.xml.in.h:415 ../rules/evdev.xml.in.h:415
 msgid "MacBook/MacBook Pro (Intl)"
-msgstr ""
+msgstr "MacBook/MacBook Pro (Uluslararası)"
 
 #: ../rules/base.xml.in.h:416 ../rules/evdev.xml.in.h:416
 msgid "Macedonia"
-msgstr ""
+msgstr "Makedonya"
 
 #: ../rules/base.xml.in.h:417 ../rules/evdev.xml.in.h:417
 msgid "Macintosh"
-msgstr ""
+msgstr "Macintosh"
 
 #: ../rules/base.xml.in.h:418 ../rules/evdev.xml.in.h:418
 msgid "Macintosh Old"
-msgstr ""
+msgstr "Eski Macintosh"
 
 #: ../rules/base.xml.in.h:419 ../rules/evdev.xml.in.h:419
 msgid "Macintosh, Sun dead keys"
-msgstr ""
+msgstr "Makintoş, Sun ölü tuşlar"
 
 #: ../rules/base.xml.in.h:420 ../rules/evdev.xml.in.h:420
 msgid "Macintosh, eliminate dead keys"
-msgstr ""
+msgstr "Makintoş, ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:421 ../rules/evdev.xml.in.h:421
 msgid "Make CapsLock an additional Backspace"
-msgstr ""
+msgstr "CapsLock tuşunu ek bir Kerisilme (Backspace) yap"
 
 #: ../rules/base.xml.in.h:422 ../rules/evdev.xml.in.h:422
 msgid "Make CapsLock an additional Ctrl"
-msgstr ""
+msgstr "CapsLock tuşunu ek bir Ctrl yap"
 
 #: ../rules/base.xml.in.h:423 ../rules/evdev.xml.in.h:423
 msgid "Make CapsLock an additional ESC"
-msgstr ""
+msgstr "CapsLock tuşunu ek bir ESC yap"
 
 #: ../rules/base.xml.in.h:424 ../rules/evdev.xml.in.h:424
 msgid "Mal"
-msgstr ""
+msgstr "Mal"
 
 #: ../rules/base.xml.in.h:425 ../rules/evdev.xml.in.h:425
 msgid "Malayalam"
-msgstr ""
+msgstr "Malayalam tili"
 
 #: ../rules/base.xml.in.h:426 ../rules/evdev.xml.in.h:426
 msgid "Malayalam Lalitha"
-msgstr ""
+msgstr "Malayalam Lalitha tili"
 
 #: ../rules/base.xml.in.h:427 ../rules/evdev.xml.in.h:427
 msgid "Maldives"
-msgstr ""
+msgstr "Maldivler"
 
 #: ../rules/base.xml.in.h:428 ../rules/evdev.xml.in.h:428
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 #: ../rules/base.xml.in.h:429 ../rules/evdev.xml.in.h:429
 msgid "Maltese keyboard with US layout"
-msgstr ""
+msgstr "Ameriken yerleşimli Maltız klavyesi"
 
 #: ../rules/base.xml.in.h:430 ../rules/evdev.xml.in.h:430
 msgid "Mao"
-msgstr ""
+msgstr "Mao"
 
 #: ../rules/base.xml.in.h:431 ../rules/evdev.xml.in.h:431
 msgid "Maori"
-msgstr ""
+msgstr "Mayorka"
 
 #: ../rules/base.xml.in.h:432 ../rules/evdev.xml.in.h:432
 msgid "Memorex MX1998"
-msgstr ""
+msgstr "Memorex MX1998"
 
 #: ../rules/base.xml.in.h:433 ../rules/evdev.xml.in.h:433
 msgid "Memorex MX2500 EZ-Access Keyboard"
-msgstr ""
+msgstr "Memorex MX2500 EZ Erişim Klavyesi"
 
 #: ../rules/base.xml.in.h:434 ../rules/evdev.xml.in.h:434
 msgid "Memorex MX2750"
-msgstr ""
+msgstr "Memorex MX2750"
 
 #: ../rules/base.xml.in.h:435 ../rules/evdev.xml.in.h:435
 msgid "Menu"
-msgstr ""
+msgstr "Menü"
 
 #: ../rules/base.xml.in.h:436 ../rules/evdev.xml.in.h:436
 msgid "Meta is mapped to Left Win"
-msgstr ""
+msgstr "Meta, sol Pencereler tuşuna (Win) haritalandırılır"
 
 #: ../rules/base.xml.in.h:437 ../rules/evdev.xml.in.h:437
 msgid "Meta is mapped to Win keys"
-msgstr ""
+msgstr "Meta, Pencereler tuşlarına (Win) haritalandırılır"
 
 #: ../rules/base.xml.in.h:438 ../rules/evdev.xml.in.h:438
 msgid "Microsoft Comfort Curve Keyboard 2000"
-msgstr ""
+msgstr "Microsoft Comfort Curve Keyboard 2000"
 
 #: ../rules/base.xml.in.h:439 ../rules/evdev.xml.in.h:439
 msgid "Microsoft Internet Keyboard"
-msgstr ""
+msgstr "Microsoft İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:440 ../rules/evdev.xml.in.h:440
 msgid "Microsoft Internet Keyboard Pro, Swedish"
-msgstr ""
+msgstr "Microsoft İnternet Klavyesi Pro, İsveçce"
 
 #: ../rules/base.xml.in.h:441 ../rules/evdev.xml.in.h:441
 msgid "Microsoft Natural"
-msgstr ""
+msgstr "Microsoft Basit"
 
 #: ../rules/base.xml.in.h:442 ../rules/evdev.xml.in.h:442
 msgid "Microsoft Natural Keyboard Elite"
-msgstr ""
+msgstr "Microsoft Tabiiy Klavye Elit"
 
 #: ../rules/base.xml.in.h:443 ../rules/evdev.xml.in.h:443
 msgid "Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro"
-msgstr ""
+msgstr "Microsoft Basit Klavye Pro / Microsoft İnternet Klavyesi Pro"
 
 #: ../rules/base.xml.in.h:444 ../rules/evdev.xml.in.h:444
 msgid "Microsoft Natural Keyboard Pro OEM"
-msgstr ""
+msgstr "Microsoft Basit Klavye Pro OEM"
 
 #: ../rules/base.xml.in.h:445 ../rules/evdev.xml.in.h:445
 msgid "Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro"
-msgstr ""
+msgstr "Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro"
 
 #: ../rules/base.xml.in.h:446 ../rules/evdev.xml.in.h:446
 msgid "Microsoft Natural Wireless Ergonomic Keyboard 7000"
-msgstr ""
+msgstr "Microsoft Tabiiy Telsiz Ergonomik Klavye 7000"
 
 #: ../rules/base.xml.in.h:447 ../rules/evdev.xml.in.h:447
 msgid "Microsoft Office Keyboard"
-msgstr ""
+msgstr "Microsoft Ofis Klavyesi"
 
 #: ../rules/base.xml.in.h:448 ../rules/evdev.xml.in.h:448
 msgid "Microsoft Wireless Multimedia Keyboard 1.0A"
-msgstr ""
+msgstr "Microsoft Wireless Multimedia Keyboard 1.0A"
 
 #: ../rules/base.xml.in.h:449 ../rules/evdev.xml.in.h:449
 msgid "Miscellaneous compatibility options"
-msgstr ""
+msgstr "Çeşitli uyumluluk seçenekleri"
 
 #: ../rules/base.xml.in.h:450 ../rules/evdev.xml.in.h:450
 msgid "Mkd"
-msgstr ""
+msgstr "Mkd"
 
 #: ../rules/base.xml.in.h:451 ../rules/evdev.xml.in.h:451
 msgid "Mlt"
-msgstr ""
+msgstr "Mlt"
 
 #: ../rules/base.xml.in.h:452 ../rules/evdev.xml.in.h:452
 msgid "Mmr"
-msgstr ""
+msgstr "Mmr"
 
 #: ../rules/base.xml.in.h:453 ../rules/evdev.xml.in.h:453
 msgid "Mng"
-msgstr ""
+msgstr "Moğ"
 
 #: ../rules/base.xml.in.h:454 ../rules/evdev.xml.in.h:454
 msgid "Mongolia"
-msgstr ""
+msgstr "Moğolistan"
 
 #: ../rules/base.xml.in.h:455 ../rules/evdev.xml.in.h:455
 msgid "Montenegro"
-msgstr ""
+msgstr "Qaradağ"
 
 #: ../rules/base.xml.in.h:456 ../rules/evdev.xml.in.h:456
 msgid "Morocco"
-msgstr ""
+msgstr "Fas"
 
 #: ../rules/base.xml.in.h:457 ../rules/evdev.xml.in.h:457
 msgid "Multilingual"
-msgstr ""
+msgstr "Çokdilli"
 
 #: ../rules/base.xml.in.h:458 ../rules/evdev.xml.in.h:458
 msgid "Multilingual, first part"
-msgstr ""
+msgstr "Çokdilli, ilk bölüm"
 
 #: ../rules/base.xml.in.h:459 ../rules/evdev.xml.in.h:459
 msgid "Multilingual, second part"
-msgstr ""
+msgstr "Çokdilli, ikinci bölüm"
 
 #: ../rules/base.xml.in.h:460 ../rules/evdev.xml.in.h:460
 msgid "Myanmar"
-msgstr ""
+msgstr "Miyanmar"
 
 #: ../rules/base.xml.in.h:461 ../rules/evdev.xml.in.h:461
 msgid "NICOLA-F style Backspace"
-msgstr ""
+msgstr "NICOLA-F uslûbı Kerisilme"
 
 #: ../rules/base.xml.in.h:462 ../rules/evdev.xml.in.h:462
 msgid "NLA"
-msgstr ""
+msgstr "NLA"
 
+# tüylü
 #: ../rules/base.xml.in.h:463 ../rules/evdev.xml.in.h:463
 msgid "Nativo"
-msgstr ""
+msgstr "Nativo"
 
 #: ../rules/base.xml.in.h:464 ../rules/evdev.xml.in.h:464
 msgid "Nativo for Esperanto"
-msgstr ""
+msgstr "Esperanto içün Nativo"
 
 #: ../rules/base.xml.in.h:465 ../rules/evdev.xml.in.h:465
 msgid "Nativo for USA keyboards"
-msgstr ""
+msgstr "AQŞ klavyeleri içün Nativo"
 
 #: ../rules/base.xml.in.h:466 ../rules/evdev.xml.in.h:466
 msgid "Neo 2"
-msgstr ""
+msgstr "Neo 2"
 
 #: ../rules/base.xml.in.h:467 ../rules/evdev.xml.in.h:467
 msgid "Nep"
-msgstr ""
+msgstr "Nep"
 
 #: ../rules/base.xml.in.h:468 ../rules/evdev.xml.in.h:468
 msgid "Nepal"
-msgstr ""
+msgstr "Nepal"
 
 #: ../rules/base.xml.in.h:469 ../rules/evdev.xml.in.h:469
 msgid "Netherlands"
-msgstr ""
+msgstr "Hollanda"
 
 #: ../rules/base.xml.in.h:470 ../rules/evdev.xml.in.h:470
 msgid "Nig"
-msgstr ""
+msgstr "Nij"
 
 #: ../rules/base.xml.in.h:471 ../rules/evdev.xml.in.h:471
 msgid "Nigeria"
-msgstr ""
+msgstr "Nijerya"
 
 #: ../rules/base.xml.in.h:472 ../rules/evdev.xml.in.h:472
 msgid "Nld"
-msgstr ""
+msgstr "Hol"
 
 #: ../rules/base.xml.in.h:473 ../rules/evdev.xml.in.h:473
 msgid "Non-breakable space character at fourth level"
-msgstr ""
+msgstr "Dördünci seviyede qırılamaz boşluq remzi"
 
 #: ../rules/base.xml.in.h:474 ../rules/evdev.xml.in.h:474
 msgid ""
 "Non-breakable space character at fourth level, thin non-breakable space "
 "character at sixth level"
 msgstr ""
+"Dördünci seviyede qırılamaz boşluq remzi, altıncı seviyede ise "
+"ince qırılamaz boşluq remzi"
 
 #: ../rules/base.xml.in.h:475 ../rules/evdev.xml.in.h:475
 msgid ""
 "Non-breakable space character at fourth level, thin non-breakable space "
 "character at sixth level (via Ctrl+Shift)"
 msgstr ""
+"Dördünci seviyede qırılamaz boşluq remzi, altıncı seviyede ise "
+"ince qırılamaz boşluq remzi (Ctrl+Shift vastasınen)"
 
 #: ../rules/base.xml.in.h:476 ../rules/evdev.xml.in.h:476
 msgid "Non-breakable space character at second level"
-msgstr ""
+msgstr "Ekinci seviyede qırılamaz boşluq remzi"
 
 #: ../rules/base.xml.in.h:477 ../rules/evdev.xml.in.h:477
 msgid "Non-breakable space character at third level"
-msgstr ""
+msgstr "Üçünci seviyede qırılamaz boşluq remzi"
 
 #: ../rules/base.xml.in.h:478 ../rules/evdev.xml.in.h:478
 msgid "Non-breakable space character at third level, nothing at fourth level"
 msgstr ""
+"Üçünci seviyede qırılamaz boşluq remzi, dördünci seviyede "
+"iç bir şey"
 
 #: ../rules/base.xml.in.h:479 ../rules/evdev.xml.in.h:479
 msgid ""
 "Non-breakable space character at third level, thin non-breakable space "
 "character at fourth level"
 msgstr ""
+"Dördünci seviyede qırılamaz boşluq remzi, dördünci seviyede ise "
+"ince qırılamaz boşluq remzi"
 
 #: ../rules/base.xml.in.h:480 ../rules/evdev.xml.in.h:480
 msgid "Nor"
-msgstr ""
+msgstr "Nor"
 
 #: ../rules/base.xml.in.h:481 ../rules/evdev.xml.in.h:481
 msgid "Northern Saami"
-msgstr ""
+msgstr "Kuzey Sami"
 
 #: ../rules/base.xml.in.h:482 ../rules/evdev.xml.in.h:482
 msgid "Northern Saami, eliminate dead keys"
-msgstr ""
+msgstr "Kuzey Sami, ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:483 ../rules/evdev.xml.in.h:483
 msgid "Northgate OmniKey 101"
-msgstr ""
+msgstr "Northgate OmniKey 101"
 
 #: ../rules/base.xml.in.h:484 ../rules/evdev.xml.in.h:484
 msgid "Norway"
-msgstr ""
+msgstr "Norveç"
 
+# tüylü
 #: ../rules/base.xml.in.h:485 ../rules/evdev.xml.in.h:485
 msgid "NumLock"
-msgstr ""
+msgstr "NumLock"
 
 #: ../rules/base.xml.in.h:486 ../rules/evdev.xml.in.h:486
 msgid "Numeric keypad delete key behaviour"
-msgstr ""
+msgstr "Sayısal tuştaqımı sil tuşu davranışı"
 
 #: ../rules/base.xml.in.h:487 ../rules/evdev.xml.in.h:487
 msgid "Numeric keypad keys work as with Mac"
-msgstr ""
+msgstr "Sayısal tuştaqımı tuşları Mac ile olğanı kibi çalışır"
 
 #: ../rules/base.xml.in.h:488 ../rules/evdev.xml.in.h:488
 msgid "Numeric keypad layout selection"
-msgstr ""
+msgstr "Sayısal tuştakımı yerleşimi seçimi"
 
 #: ../rules/base.xml.in.h:489 ../rules/evdev.xml.in.h:489
 msgid "OADG 109A"
-msgstr ""
+msgstr "OADG 109A"
 
 #: ../rules/base.xml.in.h:490 ../rules/evdev.xml.in.h:490
 msgid "OLPC"
-msgstr ""
+msgstr "Bala Başına Bir Tizüstü (OLPC)"
 
 #: ../rules/base.xml.in.h:491 ../rules/evdev.xml.in.h:491
 msgid "OLPC Dari"
-msgstr ""
+msgstr "OLPC Dari"
 
 #: ../rules/base.xml.in.h:492 ../rules/evdev.xml.in.h:492
 msgid "OLPC Pashto"
-msgstr ""
+msgstr "OLPC Paşto"
 
 #: ../rules/base.xml.in.h:493 ../rules/evdev.xml.in.h:493
 msgid "OLPC Southern Uzbek"
-msgstr ""
+msgstr "OLPC Cenübiy Özbekistan"
 
 #: ../rules/base.xml.in.h:494 ../rules/evdev.xml.in.h:494
 msgid "Ogham"
-msgstr ""
+msgstr "Ogham"
 
 #: ../rules/base.xml.in.h:495 ../rules/evdev.xml.in.h:495
 msgid "Ogham IS434"
-msgstr ""
+msgstr "Ogham IS434"
 
 #: ../rules/base.xml.in.h:496 ../rules/evdev.xml.in.h:496
 msgid "Oriya"
-msgstr ""
+msgstr "Orissa dili"
 
 #: ../rules/base.xml.in.h:497 ../rules/evdev.xml.in.h:497
 msgid "Ortek MCK-800 MM/Internet keyboard"
-msgstr ""
+msgstr "Oretec MCK-800 MM/İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:498 ../rules/evdev.xml.in.h:498
 msgid "Ossetian"
-msgstr ""
+msgstr "Osetçe"
 
 #: ../rules/base.xml.in.h:499 ../rules/evdev.xml.in.h:499
 msgid "Ossetian, Winkeys"
-msgstr ""
+msgstr "Osetçe, Pencereler tuşları"
 
 #: ../rules/base.xml.in.h:500 ../rules/evdev.xml.in.h:500
 msgid "Ossetian, legacy"
-msgstr ""
+msgstr "Osetçe, qadim"
 
 #: ../rules/base.xml.in.h:501 ../rules/evdev.xml.in.h:501
 msgid "PC-98xx Series"
-msgstr ""
+msgstr "PC-98xx Serisi"
 
 #: ../rules/base.xml.in.h:502 ../rules/evdev.xml.in.h:502
 msgid "Pak"
-msgstr ""
+msgstr "Pak"
 
 #: ../rules/base.xml.in.h:503 ../rules/evdev.xml.in.h:503
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistan"
 
 #: ../rules/base.xml.in.h:504 ../rules/evdev.xml.in.h:504
 msgid "Pashto"
-msgstr ""
+msgstr "Paşto"
 
 #: ../rules/base.xml.in.h:505 ../rules/evdev.xml.in.h:505
 msgid "Pattachote"
-msgstr ""
+msgstr "Pataküte"
 
 #: ../rules/base.xml.in.h:506 ../rules/evdev.xml.in.h:506
 msgid "Phonetic"
-msgstr ""
+msgstr "Fonetik"
 
 #: ../rules/base.xml.in.h:507 ../rules/evdev.xml.in.h:507
 msgid "Pol"
-msgstr ""
+msgstr "Pol"
 
 #: ../rules/base.xml.in.h:508 ../rules/evdev.xml.in.h:508
 msgid "Poland"
-msgstr ""
+msgstr "Polonya"
 
 #: ../rules/base.xml.in.h:509 ../rules/evdev.xml.in.h:509
 msgid "Polytonic"
-msgstr ""
+msgstr "Politonik"
 
 #: ../rules/base.xml.in.h:510 ../rules/evdev.xml.in.h:510
 msgid "Portugal"
-msgstr ""
+msgstr "Portekiz"
 
 #: ../rules/base.xml.in.h:511 ../rules/evdev.xml.in.h:511
 msgid "Pro"
-msgstr ""
+msgstr "Pro"
 
 #: ../rules/base.xml.in.h:512 ../rules/evdev.xml.in.h:512
 msgid "Pro Keypad"
-msgstr ""
+msgstr "Pro Klavye"
 
 #: ../rules/base.xml.in.h:513 ../rules/evdev.xml.in.h:513
 msgid "Probhat"
-msgstr ""
+msgstr "Probat"
 
 #: ../rules/base.xml.in.h:514 ../rules/evdev.xml.in.h:514
 msgid "Programmer Dvorak"
-msgstr ""
+msgstr "Programcı Dvorak"
 
 #: ../rules/base.xml.in.h:515 ../rules/evdev.xml.in.h:515
 msgid "Propeller Voyager (KTEZ-1000)"
-msgstr ""
+msgstr "Propeller Voyager (KTEZ-1000)"
 
 #: ../rules/base.xml.in.h:516 ../rules/evdev.xml.in.h:516
 msgid "Prt"
-msgstr ""
+msgstr "Prt"
 
 #: ../rules/base.xml.in.h:517 ../rules/evdev.xml.in.h:517
 msgid "QTronix Scorpius 98N+"
-msgstr ""
+msgstr "QTronix Scorpius 98N+"
 
 #: ../rules/base.xml.in.h:518 ../rules/evdev.xml.in.h:518
 msgid "Right Alt"
-msgstr ""
+msgstr "Sağ Alt"
 
 #: ../rules/base.xml.in.h:519 ../rules/evdev.xml.in.h:519
 msgid "Right Alt (while pressed)"
-msgstr ""
+msgstr "Sağ Alt (basıq olğanda)"
 
 #: ../rules/base.xml.in.h:520 ../rules/evdev.xml.in.h:520
 msgid "Right Alt key never chooses 3rd level"
-msgstr ""
+msgstr "Sağ Alt tuşu 3. seviyeni asla saylamaz"
 
 #: ../rules/base.xml.in.h:521 ../rules/evdev.xml.in.h:521
 msgid "Right Alt, Shift+Right Alt key is Multi_Key"
 msgstr ""
+"Sağ Alt, Shift+Sağ Alt tuşu ise "
+"Çoqlu_Tuştır (Multi_Key)"
 
 #: ../rules/base.xml.in.h:522 ../rules/evdev.xml.in.h:522
 msgid "Right Ctrl"
-msgstr ""
+msgstr "Sağ Ctrl"
 
 #: ../rules/base.xml.in.h:523 ../rules/evdev.xml.in.h:523
 msgid "Right Ctrl (while pressed)"
-msgstr ""
+msgstr "Sağ Ctrl (basıq olğanda)"
 
 #: ../rules/base.xml.in.h:524 ../rules/evdev.xml.in.h:524
 msgid "Right Ctrl as Right Alt"
-msgstr ""
+msgstr "Sağ Ctrl tuşu Sağ Alt'tır"
 
 #: ../rules/base.xml.in.h:525 ../rules/evdev.xml.in.h:525
 msgid "Right Shift"
-msgstr ""
+msgstr "Sağ Shift"
 
 #: ../rules/base.xml.in.h:526 ../rules/evdev.xml.in.h:526
 msgid "Right Win"
-msgstr ""
+msgstr "Sağ Pencereler (Win)"
 
 #: ../rules/base.xml.in.h:527 ../rules/evdev.xml.in.h:527
 msgid "Right Win (while pressed)"
-msgstr ""
+msgstr "Sağ Pencereler (Win) (basıq olğanda)"
 
 #: ../rules/base.xml.in.h:528 ../rules/evdev.xml.in.h:528
 msgid "Right hand"
-msgstr ""
+msgstr "Sağ el"
 
 #: ../rules/base.xml.in.h:529 ../rules/evdev.xml.in.h:529
 msgid "Right handed Dvorak"
-msgstr ""
+msgstr "Sağ elle Dvorak"
 
 #: ../rules/base.xml.in.h:530 ../rules/evdev.xml.in.h:530
 msgid "Romania"
-msgstr ""
+msgstr "Romenya"
 
 #: ../rules/base.xml.in.h:531 ../rules/evdev.xml.in.h:531
 msgid "Romanian keyboard with German letters"
-msgstr ""
+msgstr "Alman harfleriyle Romanya klavyesi"
 
 #: ../rules/base.xml.in.h:532 ../rules/evdev.xml.in.h:532
 msgid "Romanian keyboard with German letters, eliminate dead keys"
-msgstr ""
+msgstr "Alman harfleriyle Romanya klavyesi, ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:533 ../rules/evdev.xml.in.h:533
 msgid "Rou"
-msgstr ""
+msgstr "Rou"
 
 #: ../rules/base.xml.in.h:534 ../rules/evdev.xml.in.h:534
 msgid "Rus"
-msgstr ""
+msgstr "Rus"
 
 #: ../rules/base.xml.in.h:535 ../rules/evdev.xml.in.h:535
 msgid "Russia"
-msgstr ""
+msgstr "Rusya"
 
 #: ../rules/base.xml.in.h:536 ../rules/evdev.xml.in.h:536
 msgid "Russian"
-msgstr ""
+msgstr "Rusça"
 
 #: ../rules/base.xml.in.h:537 ../rules/evdev.xml.in.h:537
 msgid "Russian phonetic"
-msgstr ""
+msgstr "Rusça fonetik"
 
 #: ../rules/base.xml.in.h:538 ../rules/evdev.xml.in.h:538
 msgid "Russian phonetic Dvorak"
-msgstr ""
+msgstr "Rusça fonetik Dvorak"
 
 #: ../rules/base.xml.in.h:539 ../rules/evdev.xml.in.h:539
 msgid "Russian phonetic, eliminate dead keys"
-msgstr ""
+msgstr "Rusça fonetik, ölü tuşsuz"
 
 #: ../rules/base.xml.in.h:540 ../rules/evdev.xml.in.h:540
 msgid "Russian with Kazakh"
-msgstr ""
+msgstr "Rusça (kazak)"
 
 #: ../rules/base.xml.in.h:541 ../rules/evdev.xml.in.h:541
 msgid "SILVERCREST Multimedia Wireless Keyboard"
-msgstr ""
+msgstr "SILVERCREST Çokluortam Kablosuz Klavyesi"
 
 #: ../rules/base.xml.in.h:542 ../rules/evdev.xml.in.h:542
 msgid "SK-1300"
-msgstr ""
+msgstr "SK-1300"
 
 #: ../rules/base.xml.in.h:543 ../rules/evdev.xml.in.h:543
 msgid "SK-2500"
-msgstr ""
+msgstr "SK-2500"
 
 #: ../rules/base.xml.in.h:544 ../rules/evdev.xml.in.h:544
 msgid "SK-6200"
-msgstr ""
+msgstr "SK-6200"
 
 #: ../rules/base.xml.in.h:545 ../rules/evdev.xml.in.h:545
 msgid "SK-7100"
-msgstr ""
+msgstr "SK-7100"
 
+# tüylü
 #: ../rules/base.xml.in.h:546 ../rules/evdev.xml.in.h:546
 msgid "SRB"
-msgstr ""
+msgstr "SRB"
 
 #: ../rules/base.xml.in.h:547 ../rules/evdev.xml.in.h:547
 msgid "SVEN Ergonomic 2500"
-msgstr ""
+msgstr "SVEN Ergonomik 2500"
 
+# tüylü
 #: ../rules/base.xml.in.h:548 ../rules/evdev.xml.in.h:548
 msgid "SVEN Slim 303"
-msgstr ""
+msgstr "SVEN Zarif 303"
 
 #: ../rules/base.xml.in.h:549 ../rules/evdev.xml.in.h:549
 msgid "Samsung SDM 4500P"
-msgstr ""
+msgstr "Samsung SDM 4500P"
 
 #: ../rules/base.xml.in.h:550 ../rules/evdev.xml.in.h:550
 msgid "Samsung SDM 4510P"
-msgstr ""
+msgstr "Samsung SDM 4510P"
 
 #: ../rules/base.xml.in.h:551 ../rules/evdev.xml.in.h:551
 msgid "ScrollLock"
-msgstr ""
+msgstr "Taydırma Kiliti (ScrollLock)"
 
+# tüylü
 #: ../rules/base.xml.in.h:552 ../rules/evdev.xml.in.h:552
 msgid "Secwepemctsin"
-msgstr ""
+msgstr "Secwepemctsin"
 
 #: ../rules/base.xml.in.h:553 ../rules/evdev.xml.in.h:553
 msgid "Semi-colon on third level"
-msgstr ""
+msgstr "Üçünci seviyede noqtalı virgül"
 
 #: ../rules/base.xml.in.h:554 ../rules/evdev.xml.in.h:554
 msgid "Serbia"
-msgstr ""
+msgstr "Sırbistan"
 
 #: ../rules/base.xml.in.h:555 ../rules/evdev.xml.in.h:555
 msgid "Shift cancels CapsLock"
-msgstr ""
+msgstr "Shift CapsLock'nı lâğu eter"
 
 #: ../rules/base.xml.in.h:556 ../rules/evdev.xml.in.h:556
 msgid "Shift does not cancel NumLock, chooses 3d level instead"
-msgstr ""
+msgstr "Shift NumLock'nı lâğu etmez, onıñ yerine 3. seviyeni saylar"
 
 #: ../rules/base.xml.in.h:557 ../rules/evdev.xml.in.h:557
 msgid "Shift with numeric keypad keys works as in MS Windows"
-msgstr ""
+msgstr "Shift ile sayısal tuştaqımı tuşları MS Windows'taki kibi çalışır"
 
 #: ../rules/base.xml.in.h:558 ../rules/evdev.xml.in.h:558
 msgid "Shift+CapsLock"
-msgstr ""
+msgstr "Shift+CapsLock"
 
 #: ../rules/base.xml.in.h:559 ../rules/evdev.xml.in.h:559
 msgid "Simple"
-msgstr ""
+msgstr "Basit"
 
 #: ../rules/base.xml.in.h:560 ../rules/evdev.xml.in.h:560
 msgid "Slovakia"
-msgstr ""
+msgstr "Slovakya"
 
 #: ../rules/base.xml.in.h:561 ../rules/evdev.xml.in.h:561
 msgid "Slovenia"
-msgstr ""
+msgstr "Slovenya"
 
 #: ../rules/base.xml.in.h:562 ../rules/evdev.xml.in.h:562
 msgid "South Africa"
-msgstr ""
+msgstr "Güney Afrika"
 
 #: ../rules/base.xml.in.h:563 ../rules/evdev.xml.in.h:563
 msgid "Southern Uzbek"
-msgstr ""
+msgstr "Güney Özbekistan"
 
 #: ../rules/base.xml.in.h:564 ../rules/evdev.xml.in.h:564
 msgid "Spain"
-msgstr ""
+msgstr "İspanya"
 
 #: ../rules/base.xml.in.h:565 ../rules/evdev.xml.in.h:565
 msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
-msgstr ""
+msgstr "Mahsus tuşlar (Ctrl+Alt+&lt;tuş&gt;) bir serverde qollanır"
 
 #: ../rules/base.xml.in.h:566 ../rules/evdev.xml.in.h:566
 msgid "SrL"
-msgstr ""
+msgstr "SrL"
 
 #: ../rules/base.xml.in.h:567 ../rules/evdev.xml.in.h:567
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 #: ../rules/base.xml.in.h:568 ../rules/evdev.xml.in.h:568
 msgid "Standard"
-msgstr ""
+msgstr "Standart"
 
 #: ../rules/base.xml.in.h:569 ../rules/evdev.xml.in.h:569
 msgid "Standard (Cedilla)"
-msgstr ""
+msgstr "Standard (Sedilla)"
 
 #. RSTU 2019-91
 #: ../rules/base.xml.in.h:571 ../rules/evdev.xml.in.h:571
 msgid "Standard RSTU"
-msgstr ""
+msgstr "Standart RSTU"
 
 #. RSTU 2019-91
 #: ../rules/base.xml.in.h:573 ../rules/evdev.xml.in.h:573
 msgid "Standard RSTU on Russian layout"
-msgstr ""
+msgstr "Rusça yerleşimde standart RSTU"
 
 #: ../rules/base.xml.in.h:574 ../rules/evdev.xml.in.h:574
 msgid "Sun Type 5/6"
-msgstr ""
+msgstr "Sun Tür 5/6"
 
 #: ../rules/base.xml.in.h:575 ../rules/evdev.xml.in.h:575
 msgid "Sun dead keys"
-msgstr ""
+msgstr "Sun ölü tuşlar"
 
 #: ../rules/base.xml.in.h:576 ../rules/evdev.xml.in.h:576
 msgid "Super Power Multimedia Keyboard"
-msgstr ""
+msgstr "Super Power Multimedia Keyboard"
 
 #: ../rules/base.xml.in.h:577 ../rules/evdev.xml.in.h:577
 msgid "Super is mapped to Win keys"
-msgstr ""
+msgstr "Super, Pencereler (Win) tuşlarına haritalandırılır"
 
 #: ../rules/base.xml.in.h:578 ../rules/evdev.xml.in.h:578
 msgid "Svdvorak"
-msgstr ""
+msgstr "Svdvorak"
 
 #: ../rules/base.xml.in.h:579 ../rules/evdev.xml.in.h:579
 msgid "Svk"
-msgstr ""
+msgstr "Svk"
 
 #: ../rules/base.xml.in.h:580 ../rules/evdev.xml.in.h:580
 msgid "Svn"
-msgstr ""
+msgstr "Svn"
 
 #: ../rules/base.xml.in.h:581 ../rules/evdev.xml.in.h:581
 msgid "Swap Ctrl and CapsLock"
-msgstr ""
+msgstr "Ctrl ile CapsLock yerlerini almaştır"
 
 #: ../rules/base.xml.in.h:582 ../rules/evdev.xml.in.h:582
 msgid "Swap ESC and CapsLock"
-msgstr ""
+msgstr "ESC ile CapsLock yerlerini almaştır"
 
 #: ../rules/base.xml.in.h:583 ../rules/evdev.xml.in.h:583
 msgid "Swe"
-msgstr ""
+msgstr "İsve"
 
 #: ../rules/base.xml.in.h:584 ../rules/evdev.xml.in.h:584
 msgid "Sweden"
-msgstr ""
+msgstr "İsveç"
 
 #: ../rules/base.xml.in.h:585 ../rules/evdev.xml.in.h:585
 msgid "Switzerland"
-msgstr ""
+msgstr "İsviçre"
 
 #: ../rules/base.xml.in.h:586 ../rules/evdev.xml.in.h:586
 msgid "Symplon PaceBook (tablet PC)"
-msgstr ""
+msgstr "Symplon PaceBook (tablet PC)"
 
 #: ../rules/base.xml.in.h:587 ../rules/evdev.xml.in.h:587
 msgid "Syr"
-msgstr ""
+msgstr "Sur"
 
 #: ../rules/base.xml.in.h:588 ../rules/evdev.xml.in.h:588
 msgid "Syria"
-msgstr ""
+msgstr "Suriye"
 
 #: ../rules/base.xml.in.h:589 ../rules/evdev.xml.in.h:589
 msgid "Syriac"
-msgstr ""
+msgstr "Suriye"
 
 #: ../rules/base.xml.in.h:590 ../rules/evdev.xml.in.h:590
 msgid "Syriac phonetic"
-msgstr ""
+msgstr "Suriye fonetik"
 
 #: ../rules/base.xml.in.h:591 ../rules/evdev.xml.in.h:591
 msgid "TIS-820.2538"
-msgstr ""
+msgstr "TIS-820.2538"
 
 #: ../rules/base.xml.in.h:592 ../rules/evdev.xml.in.h:592
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tacikistan"
 
 #: ../rules/base.xml.in.h:593 ../rules/evdev.xml.in.h:593
 msgid "Tamil"
-msgstr ""
+msgstr "Tamil dili"
 
 #: ../rules/base.xml.in.h:594 ../rules/evdev.xml.in.h:594
 msgid "Tamil TAB Typewriter"
-msgstr ""
+msgstr "Tamil TAB Daktilo"
 
 #: ../rules/base.xml.in.h:595 ../rules/evdev.xml.in.h:595
 msgid "Tamil TSCII Typewriter"
-msgstr ""
+msgstr "Tamil TSCII Daktilo"
 
 #: ../rules/base.xml.in.h:596 ../rules/evdev.xml.in.h:596
 msgid "Tamil Unicode"
-msgstr ""
+msgstr "Tamil Unicode"
 
 #: ../rules/base.xml.in.h:597 ../rules/evdev.xml.in.h:597
 msgid "Targa Visionary 811"
-msgstr ""
+msgstr "Targa Visionary 811"
 
 #: ../rules/base.xml.in.h:598 ../rules/evdev.xml.in.h:598
 msgid "Tatar"
-msgstr ""
+msgstr "Tatar"
 
 #: ../rules/base.xml.in.h:599 ../rules/evdev.xml.in.h:599
 msgid "Telugu"
-msgstr ""
+msgstr "Telugu dili"
 
 #: ../rules/base.xml.in.h:600 ../rules/evdev.xml.in.h:600
 msgid "Tha"
-msgstr ""
+msgstr "Tha"
 
 #: ../rules/base.xml.in.h:601 ../rules/evdev.xml.in.h:601
 msgid "Thailand"
-msgstr ""
+msgstr "Tayland"
 
 #: ../rules/base.xml.in.h:602 ../rules/evdev.xml.in.h:602
 msgid "Tibetan"
-msgstr ""
+msgstr "Tibetçe"
 
 #: ../rules/base.xml.in.h:603 ../rules/evdev.xml.in.h:603
 msgid "Tibetan (with ASCII numerals)"
-msgstr ""
+msgstr "Tibetçe (ASCII sayılarnen)"
 
 #: ../rules/base.xml.in.h:604 ../rules/evdev.xml.in.h:604
 msgid "Tifinagh"
-msgstr ""
+msgstr "Tifinagh"
 
 #: ../rules/base.xml.in.h:605 ../rules/evdev.xml.in.h:605
 msgid "Tifinagh Alternative"
-msgstr ""
+msgstr "Tifinagh Diğer"
 
 #: ../rules/base.xml.in.h:606 ../rules/evdev.xml.in.h:606
 msgid "Tifinagh Alternative Phonetic"
-msgstr ""
+msgstr "Tifinagh Diğer Fonetik"
 
 #: ../rules/base.xml.in.h:607 ../rules/evdev.xml.in.h:607
 msgid "Tifinagh Extended"
-msgstr ""
+msgstr "Tifinagh Gelişkin"
 
 #: ../rules/base.xml.in.h:608 ../rules/evdev.xml.in.h:608
 msgid "Tifinagh Extended Phonetic"
-msgstr ""
+msgstr "Tifinagh Gelişmiş Fonetik"
 
 #: ../rules/base.xml.in.h:609 ../rules/evdev.xml.in.h:609
 msgid "Tifinagh Phonetic"
-msgstr ""
+msgstr "Tifinagh Fonetik"
 
 #: ../rules/base.xml.in.h:610 ../rules/evdev.xml.in.h:610
 msgid "Tilde (~) variant"
-msgstr ""
+msgstr "Tilde (~) tuşlu"
 
 #: ../rules/base.xml.in.h:611 ../rules/evdev.xml.in.h:611
 msgid "Tjk"
-msgstr ""
+msgstr "Tck"
 
 #: ../rules/base.xml.in.h:612 ../rules/evdev.xml.in.h:612
 msgid "To the corresponding key in a Dvorak keyboard."
-msgstr ""
+msgstr "Dvorak klavyesindeki muqabil tuşqa."
 
 #: ../rules/base.xml.in.h:613 ../rules/evdev.xml.in.h:613
 msgid "To the corresponding key in a Qwerty keyboard."
-msgstr ""
+msgstr "Qwerty klavyesindeki muqabil tuşqa."
 
 #: ../rules/base.xml.in.h:614 ../rules/evdev.xml.in.h:614
 msgid "Toshiba Satellite S3000"
-msgstr ""
+msgstr "Toshiba Satellite S3000"
 
 #: ../rules/base.xml.in.h:615 ../rules/evdev.xml.in.h:615
 msgid "Trust Direct Access Keyboard"
-msgstr ""
+msgstr "Trust Doğrudan Erişimli Klavye"
 
 #: ../rules/base.xml.in.h:616 ../rules/evdev.xml.in.h:616
 msgid "Trust Wireless Keyboard Classic"
-msgstr ""
+msgstr "Trust Kablosuz Klasik Klavye"
 
 #: ../rules/base.xml.in.h:617 ../rules/evdev.xml.in.h:617
 msgid "Tur"
-msgstr ""
+msgstr "Trk"
 
 #: ../rules/base.xml.in.h:618 ../rules/evdev.xml.in.h:618
 msgid "Turkey"
-msgstr ""
+msgstr "Türkiye"
 
 #: ../rules/base.xml.in.h:619 ../rules/evdev.xml.in.h:619
 msgid "Typewriter"
-msgstr ""
+msgstr "Daktilo"
 
+# tüylü
 #: ../rules/base.xml.in.h:620 ../rules/evdev.xml.in.h:620
 msgid "UCW layout (accented letters only)"
-msgstr ""
+msgstr "UCW serimi (ancaq urğulı arifler)"
 
 #: ../rules/base.xml.in.h:621 ../rules/evdev.xml.in.h:621
 msgid "US keyboard with Bosnian digraphs"
-msgstr ""
+msgstr "Bosna ikil harfleriyle amerikan klavyesi"
 
 #: ../rules/base.xml.in.h:622 ../rules/evdev.xml.in.h:622
 msgid "US keyboard with Bosnian letters"
-msgstr ""
+msgstr "Bosna harfleriyle amerikan klavyesi"
 
 #: ../rules/base.xml.in.h:623 ../rules/evdev.xml.in.h:623
 msgid "US keyboard with Croatian digraphs"
-msgstr ""
+msgstr "Hırvat ikil harfleriyle amerikan klavyesi"
 
 #: ../rules/base.xml.in.h:624 ../rules/evdev.xml.in.h:624
 msgid "US keyboard with Croatian letters"
-msgstr ""
+msgstr "Hırvat harfleriyle amerikan klavyesi"
 
 #: ../rules/base.xml.in.h:625 ../rules/evdev.xml.in.h:625
 msgid "US keyboard with Estonian letters"
-msgstr ""
+msgstr "Eston ariflernen Amerikan klavyesi"
 
 #: ../rules/base.xml.in.h:626 ../rules/evdev.xml.in.h:626
 msgid "US keyboard with Lithuanian letters"
-msgstr ""
+msgstr "Litvanya harfleriyle amerikan klavyesi"
 
 #: ../rules/base.xml.in.h:627 ../rules/evdev.xml.in.h:627
 msgid "US keyboard with Slovenian digraphs"
-msgstr ""
+msgstr "Sloven ikil harfleriyle amerikan klavyesi"
 
 #: ../rules/base.xml.in.h:628 ../rules/evdev.xml.in.h:628
 msgid "US keyboard with Slovenian letters"
-msgstr ""
+msgstr "Sloven harfleriyle amerikan klavyesi"
 
 #: ../rules/base.xml.in.h:629 ../rules/evdev.xml.in.h:629
 msgid "USA"
-msgstr ""
+msgstr "ABD"
 
 #: ../rules/base.xml.in.h:630 ../rules/evdev.xml.in.h:630
 msgid "Udmurt"
-msgstr ""
+msgstr "Udmurt"
 
 #: ../rules/base.xml.in.h:631 ../rules/evdev.xml.in.h:631
 msgid "Ukr"
-msgstr ""
+msgstr "Ukr"
 
 #: ../rules/base.xml.in.h:632 ../rules/evdev.xml.in.h:632
 msgid "Ukraine"
-msgstr ""
+msgstr "Ukrayna"
 
 #: ../rules/base.xml.in.h:633 ../rules/evdev.xml.in.h:633
 msgid "Unicode"
-msgstr ""
+msgstr "Unikod"
 
 #: ../rules/base.xml.in.h:634 ../rules/evdev.xml.in.h:634
 msgid "Unicode additions (arrows and math operators)"
-msgstr ""
+msgstr "Unikod eklemeleri (oqlar ve riyaziy işleticiler)"
 
 #: ../rules/base.xml.in.h:635 ../rules/evdev.xml.in.h:635
 msgid ""
 "Unicode additions (arrows and math operators). Math operators on default "
 "level"
 msgstr ""
+"Unikod eklemeleri (oqlar ve riyaziy işleticiler). Riyaziyat "
+"işleticileri ög-belgilengen seviyede"
 
 #: ../rules/base.xml.in.h:636 ../rules/evdev.xml.in.h:636
 msgid "UnicodeExpert"
-msgstr ""
+msgstr "Unicode Uzman"
 
 #: ../rules/base.xml.in.h:637 ../rules/evdev.xml.in.h:637
 msgid "United Kingdom"
-msgstr ""
+msgstr "İngiltere"
 
 #: ../rules/base.xml.in.h:638 ../rules/evdev.xml.in.h:638
 msgid "Unitek KB-1925"
-msgstr ""
+msgstr "Unitek KB-1925"
 
 #: ../rules/base.xml.in.h:639 ../rules/evdev.xml.in.h:639
 msgid "Urdu, Alternative phonetic"
-msgstr ""
+msgstr "Urdu, Alternativ fonetik"
 
 #: ../rules/base.xml.in.h:640 ../rules/evdev.xml.in.h:640
 msgid "Urdu, Phonetic"
-msgstr ""
+msgstr "Urdu, Fonetik"
 
 #: ../rules/base.xml.in.h:641 ../rules/evdev.xml.in.h:641
 msgid "Urdu, Winkeys"
-msgstr ""
+msgstr "Urdu, Pencereler-tuşları (Win)"
 
 #: ../rules/base.xml.in.h:642 ../rules/evdev.xml.in.h:642
 msgid "Use Bosnian digraphs"
-msgstr ""
+msgstr "Bosna ikil harflerini kullanır"
 
 #: ../rules/base.xml.in.h:643 ../rules/evdev.xml.in.h:643
 msgid "Use Croatian digraphs"
-msgstr ""
+msgstr "Hırvat ikil harflerini kullanır"
 
 #: ../rules/base.xml.in.h:644 ../rules/evdev.xml.in.h:644
 msgid "Use Slovenian digraphs"
-msgstr ""
+msgstr "Sloven ikil harflerini kullanır"
 
 #: ../rules/base.xml.in.h:645 ../rules/evdev.xml.in.h:645
 msgid "Use guillemets for quotes"
-msgstr ""
+msgstr "Tırnakların yerine açılı ayraçlar kullanılır"
 
+# tüylü
 #: ../rules/base.xml.in.h:646 ../rules/evdev.xml.in.h:646
 msgid "Use keyboard LED to show alternative layout"
-msgstr ""
+msgstr "Alternativ serimni köstermek içün klavye LED'ini qullan"
 
 #: ../rules/base.xml.in.h:647 ../rules/evdev.xml.in.h:647
 msgid "Using space key to input non-breakable space character"
-msgstr ""
+msgstr "nobreakspace'i yazmak için boşluk tuşu kullanımı"
 
 #: ../rules/base.xml.in.h:648 ../rules/evdev.xml.in.h:648
 msgid "Usual space at any level"
-msgstr ""
+msgstr "Er seviyede adetiy boşluq"
 
 #: ../rules/base.xml.in.h:649 ../rules/evdev.xml.in.h:649
 msgid "Uzb"
-msgstr ""
+msgstr "Özb"
 
 #: ../rules/base.xml.in.h:650 ../rules/evdev.xml.in.h:650
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Özbekistan"
 
 #: ../rules/base.xml.in.h:651 ../rules/evdev.xml.in.h:651
 msgid "Vietnam"
-msgstr ""
+msgstr "Vietnam"
 
 #: ../rules/base.xml.in.h:652 ../rules/evdev.xml.in.h:652
 msgid "ViewSonic KU-306 Internet Keyboard"
-msgstr ""
+msgstr "ViewSonic KU-306 İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:653 ../rules/evdev.xml.in.h:653
 msgid "Vnm"
-msgstr ""
+msgstr "Vnm"
 
+# tüylü
 #: ../rules/base.xml.in.h:654 ../rules/evdev.xml.in.h:654
 msgid "Wang 724 keypad with unicode additions (arrows and math operators)"
-msgstr ""
+msgstr "Wang 724 tuştaqımı Unikod eklemelerinen (oqlar ve riyaziy işleticiler)"
 
 #: ../rules/base.xml.in.h:655 ../rules/evdev.xml.in.h:655
 msgid ""
 "Wang 724 keypad with unicode additions (arrows and math operators). Math "
 "operators on default level"
 msgstr ""
+"Wang 724 tuştaqımı Unikod eklemelerinen (oqlar ve riyaziy işleticiler). "
+"Riyaziy tuşlar ög-belgilengen seviyede"
 
 #: ../rules/base.xml.in.h:656 ../rules/evdev.xml.in.h:656
 msgid "Wang model 724 azerty"
-msgstr ""
+msgstr "Wang model 724 azerty"
 
 #: ../rules/base.xml.in.h:657 ../rules/evdev.xml.in.h:657
 msgid "Western"
-msgstr ""
+msgstr "Batı"
 
 #: ../rules/base.xml.in.h:658 ../rules/evdev.xml.in.h:658
 msgid "Winbook Model XP5"
-msgstr ""
+msgstr "Winbook Model XP5"
 
 #: ../rules/base.xml.in.h:659 ../rules/evdev.xml.in.h:659
 msgid "Winkeys"
-msgstr ""
+msgstr "Win tuşları"
 
 #: ../rules/base.xml.in.h:660 ../rules/evdev.xml.in.h:660
 msgid "With &lt;\\|&gt; key"
-msgstr ""
+msgstr "&lt;\\|&gt; tuşuyla"
 
 #: ../rules/base.xml.in.h:661 ../rules/evdev.xml.in.h:661
 msgid "With EuroSign on 5"
-msgstr ""
+msgstr "€ sembolü ile 5 tuşu"
 
 #: ../rules/base.xml.in.h:662 ../rules/evdev.xml.in.h:662
 msgid "With guillemets"
-msgstr ""
+msgstr "Açılı ayraçlarla"
 
 #: ../rules/base.xml.in.h:663 ../rules/evdev.xml.in.h:663
 msgid "Yahoo! Internet Keyboard"
-msgstr ""
+msgstr "Yahoo! İnternet Klavyesi"
 
 #: ../rules/base.xml.in.h:664 ../rules/evdev.xml.in.h:664
 msgid "Yakut"
-msgstr ""
+msgstr "Sahaca"
 
 #: ../rules/base.xml.in.h:665 ../rules/evdev.xml.in.h:665
 msgid "Yoruba"
-msgstr ""
+msgstr "Yoruba"
 
 #: ../rules/base.xml.in.h:666 ../rules/evdev.xml.in.h:666
 msgid "Z and ZHE swapped"
-msgstr ""
+msgstr "Z ile J almaştırılır"
 
 #: ../rules/base.xml.in.h:667 ../rules/evdev.xml.in.h:667
 msgid "Zar"
-msgstr ""
+msgstr "Zar"
 
 #: ../rules/base.xml.in.h:668 ../rules/evdev.xml.in.h:668
 msgid "azerty"
-msgstr ""
+msgstr "azerty"
 
 #: ../rules/base.xml.in.h:669 ../rules/evdev.xml.in.h:669
 msgid "azerty/digits"
-msgstr ""
+msgstr "azerty/rakamlar"
 
 #: ../rules/base.xml.in.h:670 ../rules/evdev.xml.in.h:670
 msgid "digits"
-msgstr ""
+msgstr "rakamlar"
 
 #: ../rules/base.xml.in.h:671 ../rules/evdev.xml.in.h:671
 msgid "displaced semicolon and quote (obsolete)"
-msgstr ""
+msgstr "noqtalı virgül ve çift tırnak kalkar (atıl)"
 
 #: ../rules/base.xml.in.h:672 ../rules/evdev.xml.in.h:672
 msgid "lyx"
-msgstr ""
+msgstr "lyx"
 
 #: ../rules/base.xml.in.h:673 ../rules/evdev.xml.in.h:673
 msgid "qwerty"
-msgstr ""
+msgstr "qwerty"
 
 #: ../rules/base.xml.in.h:674 ../rules/evdev.xml.in.h:674
 msgid "qwerty, extended Backslash"
-msgstr ""
+msgstr "qwerty, galişmiş Gerisilme"
 
 #: ../rules/base.xml.in.h:675 ../rules/evdev.xml.in.h:675
 msgid "qwerty/digits"
-msgstr ""
+msgstr "qwerty/rakamlar"
 
 #: ../rules/base.xml.in.h:676 ../rules/evdev.xml.in.h:676
 msgid "qwertz"
-msgstr ""
+msgstr "qwertz"
+

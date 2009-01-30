@@ -1767,6 +1767,27 @@
             <_description>Phonetic</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>crh</name>
+            <_description>Crimean Tatar (Turkish Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_f</name>
+            <_description>Crimean Tatar (Turkish F)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_alt</name>
+            <_description>Crimean Tatar (Turkish Alt-Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3178,6 +3199,27 @@
             <languageList><iso639Id>rus</iso639Id></languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>crh</name>
+            <_description>Crimean Tatar (Turkish Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_f</name>
+            <_description>Crimean Tatar (Turkish F)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_alt</name>
+            <_description>Crimean Tatar (Turkish Alt-Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3269,6 +3311,41 @@
           <configItem>
             <name>winkeys</name>
             <_description>Winkeys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh</name>
+            <_description>Crimean Tatar (Turkish Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_f</name>
+            <_description>Crimean Tatar (Turkish F)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_alt</name>
+            <_description>Crimean Tatar (Turkish Alt-Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_dobruca1</name>
+            <_description>Crimean Tatar (Dobruca-1 Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_dobruca2</name>
+            <_description>Crimean Tatar (Dobruca-2 Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
           </configItem>
         </variant>
       </variantList>
@@ -3802,6 +3879,27 @@
             <_description>International (with dead keys)</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>crh</name>
+            <_description>Crimean Tatar (Turkish Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_f</name>
+            <_description>Crimean Tatar (Turkish F)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_alt</name>
+            <_description>Crimean Tatar (Turkish Alt-Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3854,6 +3952,27 @@
           <configItem>
             <name>homophonic</name>
             <_description>Homophonic</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh</name>
+            <_description>Crimean Tatar (Turkish Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_f</name>
+            <_description>Crimean Tatar (Turkish F)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_alt</name>
+            <_description>Crimean Tatar (Turkish Alt-Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
           </configItem>
         </variant>
       </variantList>
@@ -3910,6 +4029,27 @@
           <configItem>
             <name>latin</name>
             <_description>Latin</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh</name>
+            <_description>Crimean Tatar (Turkish Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_f</name>
+            <_description>Crimean Tatar (Turkish F)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>crh_alt</name>
+            <_description>Crimean Tatar (Turkish Alt-Q)</_description>
+            <languageList><iso639Id>crh</iso639Id></languageList>
           </configItem>
         </variant>
       </variantList>

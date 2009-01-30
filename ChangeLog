@@ -1,3 +1,11 @@
+2009-01-30  Reşat SABIQ
+
+	* configure.in (new locale), po/crh.po (new locale file),
+	po/xkeyboard-config.pot (5 new locale strings), rules/base.xml.in,
+	symbols/bg, symbols/pl, symbols/ro, symbols/tr, symbols/ua, symbols/uz:
+	Added Crimean Tatar (Crimean Turkish) layouts;
+	http://bugs.freedesktop.org/show_bug.cgi?id=19730
+
 2009-01-28  Sergey Udaltsov
 
 	* rules/base.ml_s.part: fixed sun-related rules,
