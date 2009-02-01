@@ -5,6 +5,8 @@
 	* rules/base.lists.part, rules/evdev.m_s.part: some kbds need tweaking
 	even with evdev, adding $evdevkbds (asked by Peter)
 	* symbols/inet: added battery key (asked by Peter)
+	* README: fixed docs url,
+	http://bugs.freedesktop.org/show_bug.cgi?id=9764
 
 2009-01-30  Reşat SABIQ
 
