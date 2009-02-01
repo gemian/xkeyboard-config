@@ -2251,7 +2251,8 @@
           <configItem>
             <name>smi</name>
             <_description>Northern Saami</_description>
-            <languageList><iso639Id>smi</iso639Id></languageList>
+            <languageList><iso639Id>smi</iso639Id>
+                          <iso639Id>sme</iso639Id></languageList>
           </configItem>
         </variant>
         <variant>

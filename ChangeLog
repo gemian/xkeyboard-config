@@ -1,3 +1,8 @@
+2009-02-01  Reşat SABIQ
+
+	* rules/base.xml.in: fixed metainfo for fi(smi),
+	http://bugs.freedesktop.org/show_bug.cgi?id=19841
+
 2009-01-30  Reşat SABIQ
 
 	* configure.in (new locale), po/crh.po (new locale file),
