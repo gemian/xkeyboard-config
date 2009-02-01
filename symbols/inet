@@ -196,7 +196,7 @@ xkb_symbols "evdev" {
     key <I241>   {      [ XF86MailForward       ]       };
     key <I242>   {      [ XF86Save              ]       };
     key <I243>   {      [ XF86Documents         ]       };
-//  key <I244>   {      [ ]       }; // KEY_BATTERY
+    key <I244>   {      [ XF86Battery           ]       }; // KEY_BATTERY
 //  key <I245>   {      [ ]       }; // KEY_BLUETOOTH
 //  key <I246>   {      [ ]       }; // KEY_WLAN
 //  key <I249>   {      [ ]       }; // KEY_VIDEO_NEXT  --  drive next video source
