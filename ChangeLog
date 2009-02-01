@@ -1,7 +1,9 @@
-2009-02-01  Reşat SABIQ
+2009-02-01  Sergey Udaltsov
 
 	* rules/base.xml.in: fixed metainfo for fi(smi),
 	http://bugs.freedesktop.org/show_bug.cgi?id=19841
+	* rules/base.lists.part, rules/evdev.m_s.part: some kbds need tweaking
+	even with evdev, adding $evdevkbds (asked by Peter)
 
 2009-01-30  Reşat SABIQ
 
