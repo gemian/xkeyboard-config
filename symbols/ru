@@ -409,4 +409,19 @@ xkb_symbols "xal" {
 
     include "level3(ralt_switch)"
 };
-        
+
+partial alphanumeric_keys
+xkb_symbols "dos" {
+
+    include "ru(common)"
+
+    name[Group1]= "Russia - DOS";
+
+    key        <TLDE> {        [   parenright,  parenleft   ] };
+    key        <AE04> {        [   4,           currency    ] };
+    key        <AE09> {        [   9,           question    ] };
+    key        <AE10> {        [   0,           percent     ] };
+
+    key        <AB10> {        [   Cyrillic_io, Cyrillic_IO ] };
+};
+

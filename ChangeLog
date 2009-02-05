@@ -1,3 +1,8 @@
+2009-02-04  Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/ru: added ru(dos),
+	http://bugs.freedesktop.org/show_bug.cgi?id=19880
+
 2009-02-01  Sergey Udaltsov
 
 	* rules/base.xml.in: fixed metainfo for fi(smi),

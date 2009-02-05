@@ -3440,6 +3440,12 @@
             <languageList><iso639Id>xal</iso639Id></languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>dos</name>
+            <_description>DOS</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
