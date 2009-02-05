@@ -277,25 +277,3 @@ xkb_symbols "ru_phonetic_dvorak" {
 
    include "level3(ralt_switch)"
 };
-
-// Crimean Tatar (Crimean Turkish) layouts.
-partial
-xkb_symbols "crh" {
-    include "tr(crh)"
-
-    name[Group1]="Poland - Crimean Tatar (Crimean Turkish), Q";
-};
-
-partial
-xkb_symbols "crh_f" {
-    include "tr(crh_f)"
-
-    name[Group1]="Poland - Crimean Tatar (Crimean Turkish), F";
-};
-
-partial
-xkb_symbols "crh_alt" {
-    include "tr(crh_alt)"
-
-    name[Group1]="Poland - Crimean Tatar (Crimean Turkish), Alt-Q";
-};
