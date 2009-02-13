@@ -2,6 +2,8 @@
 
 	* symbols/inet: adding missing mappings to evdev,
 	http://bugs.freedesktop.org/show_bug.cgi?id=18854
+	* rules/base.xml.in: added lost lt(balticplus),
+	http://bugs.freedesktop.org/show_bug.cgi?id=20092
 
 2009-02-05  Sergey Udaltsov
 
