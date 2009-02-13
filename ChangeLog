@@ -1,3 +1,8 @@
+2009-02-13  Sergey Udaltsov
+
+	* symbols/inet: adding missing mappings to evdev,
+	http://bugs.freedesktop.org/show_bug.cgi?id=18854
+
 2009-02-05  Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/in: added in(hin-wx),

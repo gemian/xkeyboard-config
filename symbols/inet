@@ -196,9 +196,9 @@ xkb_symbols "evdev" {
     key <I241>   {      [ XF86MailForward       ]       };
     key <I242>   {      [ XF86Save              ]       };
     key <I243>   {      [ XF86Documents         ]       };
-    key <I244>   {      [ XF86Battery           ]       }; // KEY_BATTERY
-//  key <I245>   {      [ ]       }; // KEY_BLUETOOTH
-//  key <I246>   {      [ ]       }; // KEY_WLAN
+    key <I244>   {      [ XF86Battery           ]       };
+    key <I245>   {      [ XF86Bluetooth         ]       };
+    key <I246>   {      [ XF86WLAN              ]       };
 //  key <I249>   {      [ ]       }; // KEY_VIDEO_NEXT  --  drive next video source
 //  key <I250>   {      [ ]       }; // KEY_VIDEO_PREV  --  drive previous video source
 //  key <I251>   {      [ ]       }; // KEY_BRIGHTNESS_CYCLE  --  bright up, max++ == min
