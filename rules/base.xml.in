@@ -2960,6 +2960,12 @@
             <_description>LEKPa</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>balticplus</name>
+            <_description>Baltic+</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -4109,6 +4115,15 @@
         <_shortDescription>Eth</_shortDescription>
         <_description>Ethiopia</_description>
         <languageList><iso639Id>amh</iso639Id></languageList>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
+        <name>sn</name>
+        <shortDescription>Sen</shortDescription>
+        <description>Senegal</description>
+        <languageList><iso639Id>wol</iso639Id></languageList>
       </configItem>
       <variantList/>
     </layout>

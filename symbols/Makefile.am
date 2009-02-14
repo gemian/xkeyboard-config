@@ -24,7 +24,7 @@ mm mn mt mv \
 ng nl no np \
 pc pk pl pt \
 ro rs ru \
-se si sk \
+se si sk sn \
 sy th \
 tj tr \
 ua us uz vn \
