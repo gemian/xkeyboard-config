@@ -31,23 +31,3 @@ xkb_symbols "alternatequotes" {
 
     key <TLDE> { type[Group1]="TWO_LEVEL", [ cedilla, diaeresis ] };
 };
-
-partial alphanumeric_keys 
-xkb_symbols "unicode" {
-
-    name[Group1]= "Slovenia - Use Slovenian digraphs";
-
-    include "rs(latinunicode)"
-
-    key <TLDE> { type[Group1]="TWO_LEVEL", [ cedilla, diaeresis ] };
-};
-
-partial alphanumeric_keys 
-xkb_symbols "unicodeus" {
-
-    name[Group1]= "Slovenia - US keyboard with Slovenian digraphs";
-
-    include "rs(latinunicodeyz)"
-
-    key <TLDE> { type[Group1]="TWO_LEVEL", [ cedilla, diaeresis ] };
-};
