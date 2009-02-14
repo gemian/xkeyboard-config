@@ -3452,18 +3452,6 @@
         </variant>
         <variant>
           <configItem>
-            <name>unicode</name>
-            <_description>Use Slovenian digraphs</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>unicodeus</name>
-            <_description>US keyboard with Slovenian digraphs</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>us</name>
             <_description>US keyboard with Slovenian letters</_description>
           </configItem>
