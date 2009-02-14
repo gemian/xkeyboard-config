@@ -4120,6 +4120,15 @@
     </layout>
     <layout>
       <configItem>
+        <name>sn</name>
+        <shortDescription>Sen</shortDescription>
+        <description>Senegal</description>
+        <languageList><iso639Id>wol</iso639Id></languageList>
+      </configItem>
+      <variantList/>
+    </layout>
+    <layout>
+      <configItem>
         <name>brai</name>
         <_shortDescription>Brl</_shortDescription>
         <_description>Braille</_description>
