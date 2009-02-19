@@ -1,3 +1,8 @@
+2009-02-149 Sergey Udaltsov
+
+	* keycodes/evdev, keycodes/xfree86, rules/base.m_k.part: merged
+	xfree86(jp106) section to basic xfree86 keycodes
+
 2009-02-14  Sergey Udaltsov
 
 	* symbols/sn, rules/base.xml.in, symbols/Makefile.am: added wolof

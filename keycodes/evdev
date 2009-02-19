@@ -50,6 +50,7 @@ default xkb_keycodes "evdev" {
 	<AC09> = 46;
 	<AC10> = 47;
 	<AC11> = 48;
+	<AC12> = 51;
 
 	<LFSH> = 50;
 	<AB01> = 52;
@@ -305,7 +306,6 @@ default xkb_keycodes "evdev" {
 xkb_keycodes "jp106" {
     include "evdev(evdev)"
     <HZTG> = 49;
-    <AC12> = 51;
 };
 
 // For brazilian ABNT2 keyboard.

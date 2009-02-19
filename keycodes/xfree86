@@ -63,6 +63,7 @@ xkb_keycodes "basic" {
     <AC09> =  46;
     <AC10> =  47;
     <AC11> =  48;
+    <AC12> =  51;
 
     <LFSH> =  50;
     <AB01> =  52;
@@ -397,16 +398,6 @@ xkb_keycodes "102" {
     <KPDV> = 125;
 
     <KPEN> = 124;
-};
-
-
-// For japanese 106 keyboard. by tsuka(tsuka@kawalab.dnj.ynu.ac.jp)
-//
-// All of the keycodes here are now in the basic "xfree86" set.
-//
-xkb_keycodes "jp106" {
-    include "xfree86(basic)"
-    <AC12> = 51;
 };
 
 
