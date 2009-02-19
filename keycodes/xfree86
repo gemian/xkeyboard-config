@@ -12,6 +12,7 @@
 default xkb_keycodes "xfree86" {
     include "xfree86(basic)"
     <BKSL> =  51;
+    alias <AC12> = <BKSL>;
     <LSGT> =  94;
 };
 
@@ -63,7 +64,6 @@ xkb_keycodes "basic" {
     <AC09> =  46;
     <AC10> =  47;
     <AC11> =  48;
-    <AC12> =  51;
 
     <LFSH> =  50;
     <AB01> =  52;

@@ -36,6 +36,7 @@ default xkb_keycodes "evdev" {
 	<AD11> = 34;
 	<AD12> = 35;
 	<BKSL> = 51;
+	alias <AC12> = <BKSL>;
 	<RTRN> = 36;
 
 	<CAPS> = 66;
@@ -50,7 +51,6 @@ default xkb_keycodes "evdev" {
 	<AC09> = 46;
 	<AC10> = 47;
 	<AC11> = 48;
-	<AC12> = 51;
 
 	<LFSH> = 50;
 	<AB01> = 52;

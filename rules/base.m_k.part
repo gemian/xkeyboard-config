@@ -5,7 +5,6 @@
   sun6		=	sun(type6_usb)
   pc98		=	xfree98(pc98)
   abnt2		=	xfree86(abnt2)
-  jp106		=	xfree86(jp106)
   evdev		=	evdev
   olpc		=	evdev
   macintosh_hhk	=	macintosh(hhk)
