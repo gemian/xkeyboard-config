@@ -1771,7 +1771,15 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>Phonetic</_description>
+            <_description>Traditional Phonetic</_description>
+          </configItem>
+        </variant>
+      </variantList>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>bas_phonetic</name>
+            <_description>Standard Phonetic</_description>
           </configItem>
         </variant>
       </variantList>
