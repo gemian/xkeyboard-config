@@ -1,4 +1,9 @@
-2009-02-149 Sergey Udaltsov
+2009-02-25 Sergey Udaltsov
+
+	* symbols/ru: missing minus and underscore are added to ru(phonetic),
+	http://bugs.freedesktop.org/show_bug.cgi?id=20093
+
+2009-02-19 Sergey Udaltsov
 
 	* keycodes/evdev, keycodes/xfree86, rules/base.m_k.part: merged
 	xfree86(jp106) section to basic xfree86 keycodes
