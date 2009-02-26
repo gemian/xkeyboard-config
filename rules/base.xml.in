@@ -88,13 +88,6 @@
     </model>
     <model>
       <configItem>
-        <name>jp106</name>
-        <_description>Japanese 106-key</_description>
-        <vendor>Generic</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>pc98</name>
         <_description>PC-98xx Series</_description>
         <vendor>Generic</vendor>
@@ -119,13 +112,6 @@
         <name>a4_rfkb23</name>
         <_description>A4Tech Wireless Desktop RFKB-23</_description>
         <vendor>A4Tech</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-        <name>abnt2</name>
-        <_description>Brazilian ABNT2</_description>
-        <vendor>Generic</vendor>
       </configItem>
     </model>
     <model>
@@ -1075,13 +1061,6 @@
         <name>emachines</name>
         <_description>Laptop/notebook eMachines m68xx</_description>
 	<vendor>eMachines</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
-	<name>kr106</name>
-	<_description>Korean 106-key</_description>
-	<vendor>Generic</vendor>
       </configItem>
     </model>
     <model>

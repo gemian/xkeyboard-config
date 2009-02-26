@@ -12,7 +12,7 @@
 ! $msmodels = microsoft microsoft7000 microsoftpro microsoftprousb microsoftprose
 
 // PC geometries - they have special geometry but symbols are mostly pc105
-! $pcgeometries = abnt2 latitude jp106 kr106
+! $pcgeometries = latitude
 
 // Layouts that provide further specializations for the OLPC
 ! $olpclayouts = af am ara br ca es et it kh kz in mn np ru th tr us 

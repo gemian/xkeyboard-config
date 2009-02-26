@@ -2,6 +2,11 @@
 
 	* symbols/fi: added missing (in pc101) mappings, on 4th level,
 	https://bugs.freedesktop.org/show_bug.cgi?id=20300
+	* keycodes/evdev, keycodes/xfree86, keymap/xfree86,
+	rules/base.lists.part, rules/base.m_k.part, rules/base.xml.in,
+	rules/evdev.m_k.part: dropping national-specific models abnt2, jp106,
+	kr106. The corresponding geometries are left in the codebase, for some
+	while
 
 2009-02-25 Sergey Udaltsov
 

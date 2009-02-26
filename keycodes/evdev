@@ -146,7 +146,8 @@ default xkb_keycodes "evdev" {
 
 	// Keys that are generated on Japanese keyboards
 
-	<HZTG> =  93;	// Hankaku/Zenkakau toggle
+	//<HZTG> =  93;	// Hankaku/Zenkakau toggle - not actually used
+	alias <HZTG> = <TLDE>;
 	<HKTG> = 101;	// Hiragana/Katakana toggle
 	<AB11> = 97;	// backslash/underscore
 	<HENK> = 100;	// Henkan
@@ -300,18 +301,9 @@ default xkb_keycodes "evdev" {
 	indicator 11 = "Charging";
 
 	alias <ALGR> = <RALT>;
-};
 
-// For japanese 106 keyboard.
-xkb_keycodes "jp106" {
-    include "evdev(evdev)"
-    <HZTG> = 49;
-};
-
-// For brazilian ABNT2 keyboard.
-xkb_keycodes "abnt2" {
-    include "evdev(evdev)"
-    <KPPT> = 129;
+	// For Brazilian ABNT2
+	alias <KPPT> = <I129>;
 };
 
 // PC98

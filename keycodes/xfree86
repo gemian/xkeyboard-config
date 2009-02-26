@@ -368,6 +368,9 @@ xkb_keycodes "basic" {
     indicator 3 = "Scroll Lock";
 
     alias <ALGR> = <RALT>;
+
+    // For Brazilian ABNT2
+    alias <KPPT> = <I06>;
 };
 
 // What keyboard is this?
@@ -400,12 +403,6 @@ xkb_keycodes "102" {
     <KPEN> = 124;
 };
 
-
-// For brazilian ABNT2 keyboard. by Ricardo Y. Igarashi(iga@that.com.br)
-xkb_keycodes "abnt2" {
-    include "xfree86(xfree86)"
-    <KPPT> = 134;
-};
 
 // IBM ThinkPad Z60m/Z60t/Z61m/Z61t
 xkb_keycodes "thinkpadz60" {
