@@ -82,8 +82,8 @@ xkb_symbols "kotoistus" {
     key <AE05> { [  5,               percent,          U2030,                leftdoublequotemark  ] };
     key <AE06> { [  6,               ampersand,        singlelowquotemark,   doublelowquotemark   ] };
     key <AE07> { [  7,               slash,            braceleft,            NoSymbol             ] };
-    key <AE08> { [  8,               parenleft,        bracketleft,          NoSymbol             ] };
-    key <AE09> { [  9,               parenright,       bracketright,         NoSymbol             ] };
+    key <AE08> { [  8,               parenleft,        bracketleft,          less                 ] };
+    key <AE09> { [  9,               parenright,       bracketright,         greater              ] };
     key <AE10> { [  0,               equal,            braceright,           degree               ] };
     key <AE11> { [  plus,            question,         backslash,            questiondown         ] };
     key <AE12> { [  dead_acute,      dead_grave,       dead_cedilla,         dead_ogonek          ] };
@@ -94,7 +94,7 @@ xkb_symbols "kotoistus" {
     key <AD05> { [  t,               T,                thorn,                THORN                ] };
     key <AD06> { [  y,               Y,                y,                    Y                    ] };
     key <AD07> { [  u,               U,                u,                    U                    ] };
-    key <AD08> { [  i,               I,                idotless,             NoSymbol             ] };
+    key <AD08> { [  i,               I,                idotless,             bar                  ] };
     key <AD09> { [  o,               O,                oe,                   OE                   ] };
     key <AD10> { [  p,               P,                dead_horn,            dead_hook            ] };
     key <AD11> { [  aring,           Aring,            dead_doubleacute,     dead_abovering       ] };
@@ -107,7 +107,7 @@ xkb_symbols "kotoistus" {
     key <AC06> { [  h,               H,                h,                    H                    ] };
     key <AC07> { [  j,               J,                j,                    J                    ] };
     key <AC08> { [  k,               K,                kra,                  NoSymbol             ] };
-    key <AC09> { [  l,               L,                dead_stroke,          NoSymbol             ] };
+    key <AC09> { [  l,               L,                dead_stroke,          brokenbar            ] };
     key <AC10> { [  odiaeresis,      Odiaeresis,       oslash,               Oslash               ] };
     key <AC11> { [  adiaeresis,      Adiaeresis,       ae,                   AE                   ] };
     key <BKSL> { [  apostrophe,      asterisk,         dead_caron,           dead_breve           ] };

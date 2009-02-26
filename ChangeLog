@@ -1,3 +1,8 @@
+2009-02-26 Sergey Udaltsov
+
+	* symbols/fi: added missing (in pc101) mappings, on 4th level,
+	https://bugs.freedesktop.org/show_bug.cgi?id=20300
+
 2009-02-25 Sergey Udaltsov
 
 	* symbols/ru: missing minus and underscore are added to ru(phonetic),
