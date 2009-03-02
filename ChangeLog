@@ -1,3 +1,9 @@
+2009-03-02 Sergey Udaltsov
+
+	* po/POTFILES.in: removed evdev.xml.in, which is exact copy of
+	base.xml.in (and not distributed),
+	http://bugs.freedesktop.org/show_bug.cgi?id=20107
+
 2009-02-26 Sergey Udaltsov
 
 	* symbols/fi: added missing (in pc101) mappings, on 4th level,
