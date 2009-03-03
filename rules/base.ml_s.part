@@ -20,6 +20,6 @@
  $macs		$macvendorlayouts	=	pc+macintosh_vndr/%l%(v)
   olpc		$olpclayouts		=	olpc+%l%(m)
   olpc		*			=	olpc+%l%(v)
-  thinkpad   	br			=	pc+br(thinkpad)
+ $thinkpads   	br			=	pc+br(thinkpad)
   *	   	$nonlatin		=	pc+us+%l%(v):2
   *		*			=	pc+%l%(v)

@@ -1,3 +1,9 @@
+2009-03-03 Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.ml1_s.part, rules/base.ml_s.part:
+	use br(thinkpad) for all thinkpads,
+	http://bugs.freedesktop.org/show_bug.cgi?id=20425
+
 2009-03-02 Sergey Udaltsov
 
 	* po/POTFILES.in: removed evdev.xml.in, which is exact copy of
