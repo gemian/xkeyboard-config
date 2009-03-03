@@ -2336,6 +2336,13 @@
         </variant>
         <variant>
           <configItem>
+            <name>oci</name>
+            <_description>Occitan</_description>
+            <languageList><iso639Id>oci</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>geo</name>
             <_description>Georgian AZERTY Tskapo</_description>
             <languageList><iso639Id>geo</iso639Id></languageList>
