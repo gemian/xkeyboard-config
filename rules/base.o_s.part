@@ -4,7 +4,6 @@
   altwin:ctrl_alt_win	=	+altwin(ctrl_alt_win)
   altwin:meta_win	=	+altwin(meta_win)
   altwin:left_meta_win	=	+altwin(left_meta_win)
-  altwin:super_win	=	+altwin(super_win)
   altwin:hyper_win	=	+altwin(hyper_win)
   altwin:alt_super_win	=	+altwin(alt_super_win)
   altwin:swap_lalt_lwin	=	+altwin(swap_lalt_lwin)

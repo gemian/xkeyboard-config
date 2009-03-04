@@ -4671,12 +4671,6 @@
       </option>
       <option>
         <configItem>
-          <name>altwin:super_win</name>
-          <_description>Super is mapped to Win keys</_description>
-        </configItem>
-      </option>
-      <option>
-        <configItem>
           <name>altwin:hyper_win</name>
           <_description>Hyper is mapped to Win-keys</_description>
         </configItem>

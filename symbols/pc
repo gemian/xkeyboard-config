@@ -35,11 +35,13 @@ xkb_symbols "pc105" {
     key <LCTL> {	[ Control_L	]	};
 
     key <LWIN> {	[ Super_L			]	};
+    modifier_map Mod4   { <LWIN> };
 
     key <RTSH> {	[ Shift_R	]	};
     key <RCTL> {	[ Control_R	]	};
 
     key <RWIN> {	[ Super_R			]	};
+    modifier_map Mod4   { <RWIN> };
 
     key <MENU> {	[ Menu			]	};
 

@@ -49,13 +49,6 @@ xkb_symbols "left_meta_win" {
 };
 
 partial modifier_keys 
-xkb_symbols "super_win" {
-    key <LWIN> {	[ 	Super_L			]	};
-    key <RWIN> {	[ 	Super_R			]	};
-    modifier_map Mod4	{ Super_L, Super_R };
-};
-
-partial modifier_keys 
 xkb_symbols "hyper_win" {
     key <LWIN> {	[ 	Hyper_L			]	};
     key <RWIN> {	[ 	Hyper_R			]	};
