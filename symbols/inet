@@ -167,7 +167,7 @@ xkb_symbols "evdev" {
     key <I209>   {      [ XF86AudioPause        ]       };
     key <I210>   {      [ XF86Launch3           ]       };
     key <I211>   {      [ XF86Launch4           ]       };
-    key <I213>   {      [ XF86Standby           ]       };
+    key <I213>   {      [ XF86Suspend           ]       };
     key <I214>   {      [ XF86Close             ]       };
     key <I215>   {      [ XF86AudioPlay         ]       };
     key <I216>   {      [ XF86Forward           ]       };
@@ -206,6 +206,8 @@ xkb_symbols "evdev" {
 //  key <I251>   {      [ ]       }; // KEY_BRIGHTNESS_CYCLE  --  bright up, max++ == min
 //  key <I252>   {      [ ]       }; // KEY_BRIGHTNESS_ZERO  --  brightness off
 //  key <I253>   {      [ ]       }; // KEY_DISPLAY_OFF  --  turn off display
+//  key <I254>   {      [ ]       }; // KEY_WIMAX
+    key <I255>   {      [ XF86Hibernate         ]       }; // KEY_HIBERNATE
  
 };
 
