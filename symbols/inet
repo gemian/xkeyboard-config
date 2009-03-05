@@ -103,7 +103,9 @@ xkb_symbols "evdev" {
     key <HELP>   {      [ Help                  ]       };
     key <LNFD>   {      [ Linefeed              ]       };
 
-    key <HZTG>   {      [ Zenkaku_Hankaku       ]       };
+// Commented out because HZTG has same keycode as TLDE
+//    key <HZTG>   {      [ Zenkaku_Hankaku       ]       };
+
     key <HKTG>   {      [ Hiragana_Katakana     ]       };
     key <HENK>   {      [ Henkan                ]       };
     key <MUHE>   {      [ Muhenkan              ]       };
