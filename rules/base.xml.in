@@ -967,6 +967,13 @@
     </model>
     <model>
       <configItem>
+        <name>trust_slimline</name>
+        <_description>Trust Slimline</_description>
+	<vendor>Trust</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>yahoo</name>
         <_description>Yahoo! Internet Keyboard</_description>
 	<vendor>Yahoo!</vendor>
