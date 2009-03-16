@@ -2826,7 +2826,14 @@
         <_description>Kyrgyzstan</_description>
         <languageList><iso639Id>kir</iso639Id></languageList>
       </configItem>
-      <variantList/>
+      <variantList>
+       <variant>
+          <configItem>
+            <name>phonetic</name>
+            <_description>Phonetic</_description>
+          </configItem>
+        </variant>
+      </variantList>
     </layout>
     <layout>
       <configItem>

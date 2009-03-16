@@ -1,3 +1,8 @@
+2009-03-16 Sergey Udaltsov
+
+	* rules/base.lists.part, rules/base.xml.in, symbols/kg: fixed Kyrgyz
+	variants, http://bugs.freedesktop.org/show_bug.cgi?id=17505
+
 2009-03-07 Sergey Udaltsov
 
 	* rules/base.m_s.part, rules/base.xml.in: added trust_slimline model,
