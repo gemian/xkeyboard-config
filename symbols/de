@@ -32,12 +32,21 @@ xkb_symbols "basic" {
     key <AD11>	{ [udiaeresis, Udiaeresis, dead_diaeresis, dead_abovering ] };
     key <AD12>	{ [      plus,   asterisk,   dead_tilde,  dead_macron ]	};
 
-    key <AC10>	{ [odiaeresis, Odiaeresis, dead_doubleacute, dead_doubleacute ] };
-    key <AC11>	{ [adiaeresis, Adiaeresis, dead_circumflex, dead_caron]	};
-    key <TLDE>	{ [dead_circumflex, degree,     notsign,      notsign ]	};
+    key <AC02>  { [         s,          S,                U017F,     U1E9E    ] };
+    key <AC07>  { [         j,          J,        dead_belowdot, dead_abovedot   ] };
+    key <AC10>	{ [odiaeresis, Odiaeresis, dead_doubleacute, dead_belowdot ] };
+    key <AC11>	{ [adiaeresis, Adiaeresis, dead_circumflex, dead_caron ] };
+    key <TLDE>	{ [dead_circumflex, degree,	U2032,    U2033	] };
 
     key <BKSL>	{ [numbersign, apostrophe,   dead_grave,   dead_breve ]	};
-    key <AB01>	{ [         y,          Y, guillemotleft,        less ]	};
+    key <AB01>	{ [         y,          Y,       guillemotright,    U203A 	] };
+    key <AB02>	{ [         x,          X,        guillemotleft,    U2039 	] };
+    key <AB04>	{ [         v,          V,   doublelowquotemark, singlelowquotemark ]	};
+    key <AB05>	{ [         b,          B,  leftdoublequotemark, leftsinglequotemark ] };
+    key <AB06>	{ [         n,          N, rightdoublequotemark, rightsinglequotemark ]	};    
+    key <AB08>  { [     comma,  semicolon,       periodcentered,     multiply	] };
+    key <AB09>	{ [    period,      colon,                U2026,     division 	] };
+    key <AB10>	{ [     minus, underscore,               endash,     emdash	] };
 
     include "kpdl(comma)"
 
