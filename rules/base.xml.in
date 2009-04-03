@@ -4144,6 +4144,22 @@
         </variant>
       </variantList>
     </layout>
+    <layout>
+      <configItem>
+        <name>tm</name>
+        <shortDescription>Tkm</shortDescription>
+        <_description>Turkmenistan</_description>
+        <languageList><iso639Id>tuk</iso639Id></languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>alt</name>
+            <_description>Alt-Q</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">

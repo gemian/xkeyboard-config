@@ -26,7 +26,7 @@ pc pk pl pt \
 ro rs ru \
 se si sk sn \
 sy th \
-tj tr \
+tj tm tr \
 ua us uz vn \
 za \
 altwin capslock compose ctrl eurosign group inet \

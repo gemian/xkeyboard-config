@@ -1,3 +1,8 @@
+2009-04-03 Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/tm: added Turkmen layout+variant,
+	http://bugs.freedesktop.org/show_bug.cgi?id=21015
+
 2009-03-17 Sergey Udaltsov
 
 	* symbols/de: some useful symbols added on high shift levels,
