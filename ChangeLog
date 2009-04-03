@@ -4,6 +4,8 @@
 	http://bugs.freedesktop.org/show_bug.cgi?id=21015
 	* symbols/rs: splitting latlevel3 and cyrlevel3,
 	http://bugs.freedesktop.org/show_bug.cgi?id=21044
+	* rules/base.m_s.part, rules/base.xml.in: Cherry B.UMLIMITED dummy
+	model, http://bugs.freedesktop.org/show_bug.cgi?id=21002
 
 2009-03-17 Sergey Udaltsov
 

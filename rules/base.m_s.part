@@ -11,6 +11,7 @@
   btc6301urf    =       +inet(media_nav_acpi_common)
   dellsk8125    =       +inet(dell)
   dellsk8135    =       +inet(dell)
+  cherrybunlim  =       +inet(nav_common)
   dexxa         =       +inet(media_nav_common)
   dtk2000       =       +inet(media_nav_acpi_common)
   fscaa1667g    =       +inet(media_nav_common)

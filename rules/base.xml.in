@@ -247,6 +247,13 @@
     </model>
     <model>
       <configItem>
+        <name>cherrybunlim</name>
+        <_description>Cherry B.UNLIMITED</_description>
+        <vendor>Cherry</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>chicony</name>
         <_description>Chicony Internet Keyboard</_description>
         <vendor>Chicony</vendor>
