@@ -2,6 +2,8 @@
 
 	* rules/base.xml.in, symbols/tm: added Turkmen layout+variant,
 	http://bugs.freedesktop.org/show_bug.cgi?id=21015
+	* symbols/rs: splitting latlevel3 and cyrlevel3,
+	http://bugs.freedesktop.org/show_bug.cgi?id=21044
 
 2009-03-17 Sergey Udaltsov
 
