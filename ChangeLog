@@ -1,3 +1,8 @@
+2009-04-14 Sergey Udaltsov
+
+	* symbols/kg: small update of the Kyrgyz layout,
+	http://bugs.freedesktop.org/show_bug.cgi?id=17505
+
 2009-04-03 Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/tm: added Turkmen layout+variant,
