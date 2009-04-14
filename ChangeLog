@@ -2,6 +2,8 @@
 
 	* symbols/kg: small update of the Kyrgyz layout,
 	http://bugs.freedesktop.org/show_bug.cgi?id=17505
+	* rules/base.xml.in, symbols/gb: added gb(extd),
+	http://bugs.freedesktop.org/show_bug.cgi?id=21121
 
 2009-04-03 Sergey Udaltsov
 

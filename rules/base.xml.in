@@ -3891,6 +3891,12 @@
       <variantList>
         <variant>
           <configItem>
+            <name>extd</name>
+            <_description>Extended - Winkeys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>intl</name>
             <_description>International (with dead keys)</_description>
           </configItem>
