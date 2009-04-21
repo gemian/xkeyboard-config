@@ -1803,3 +1803,7 @@ xkb_symbols "compalfl90" {
     key <II65>  {       [ XF86MonBrightnessDown ]       };
 };
 
+partial alphanumeric_keys
+xkb_symbols "pc105" {
+    include "inet(media_nav_acpi_common)"
+};
