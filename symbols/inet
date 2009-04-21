@@ -31,6 +31,7 @@ xkb_symbols "media_common" {
     key <I24>   {       [ XF86AudioStop, XF86Eject ] };
     key <I2E>   {       [ XF86AudioLowerVolume  ] };	
     key <I30>   {       [ XF86AudioRaiseVolume  ] };
+    key <K5A>   {       [ XF86Eject             ] };
 };
 
 // popular web navigation combination
@@ -55,6 +56,9 @@ xkb_symbols "acpi_common" {
     key <I5E>	{	[ XF86PowerOff		]	};
     key <I5F>	{	[ XF86Standby		]	};
     key <I63>	{	[ XF86WakeUp		]	};
+    key <I74>	{	[ XF86Battery		]	};
+    key <I76>	{	[ XF86WLAN		]	};
+    key <I16>	{	[ XF86Sleep		]	};
 };
 
 // Combined sections, for simplicity
