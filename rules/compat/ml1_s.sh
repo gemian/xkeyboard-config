@@ -8,6 +8,8 @@ OUTFILE=base.ml1_s.part
 awk '{ 
   if (index($2, "(") == 0) {
     printf "  *		%s			=	pc+%s%%(v[1])\n", $1, $2; 
+  } else {
+    printf "  *		%s			=	pc+%s\n", $1, $2; 
   }
 }' < $INDIR/layoutRename.lst >> $OUTFILE
 

@@ -1,3 +1,8 @@
+2009-04-22 Sergey Udaltsov
+
+	* rules/compat/ln_s.sh, rules/compat/ml1_s.sh: improved compat rules,
+	hopefully fixing http://bugs.freedesktop.org/show_bug.cgi?id=8452
+
 2009-04-15 Sergey Udaltsov
 
 	* symbols/kr: fixed ordering issue,
