@@ -3855,8 +3855,8 @@
         </variant>
         <variant>
           <configItem>
-            <name>unicode</name>
-            <_description>Unicode</_description>
+            <name>legacy</name>
+            <_description>Legacy</_description>
           </configItem>
         </variant>
         <variant>
