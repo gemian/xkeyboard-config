@@ -98,4 +98,6 @@
   shift:breaks_caps     =	+shift(breaks_caps)
   esperanto:qwerty      =	+epo(qwerty)
   esperanto:dvorak      =	+epo(dvorak)
+  terminate:ctrl_alt_bksp =	+terminate(ctrl_alt_bksp)
+
 

@@ -26,6 +26,7 @@ pc pk pl pt \
 ro rs ru \
 se si sk sn \
 sy th \
+terminate \
 tj tm tr \
 ua us uz vn \
 za \

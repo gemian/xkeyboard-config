@@ -4956,5 +4956,17 @@
        </configItem>
       </option>
     </group>
+    <group allowMultipleSelection="true">
+      <configItem>
+        <name>terminate</name>
+        <_description>Key sequence to kill the X server</_description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>terminate:ctrl_alt_bksp</name>
+          <_description>Control + Alt + Backspace</_description>
+        </configItem>
+      </option>
+    </group>
   </optionList>
 </xkbConfigRegistry>
