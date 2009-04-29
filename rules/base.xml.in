@@ -2829,7 +2829,7 @@
     <layout>
       <configItem>
         <name>kg</name>
-        <_shortDescription>Kir</_shortDescription>
+        <_shortDescription>Kgz</_shortDescription>
         <_description>Kyrgyzstan</_description>
         <languageList><iso639Id>kir</iso639Id></languageList>
       </configItem>

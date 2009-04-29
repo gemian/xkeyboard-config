@@ -1,3 +1,8 @@
+2009-04-29 Sergey Udaltsov
+
+	* rules/base.xml.in: fixed wrong locale code,
+	http://bugs.freedesktop.org/show_bug.cgi?id=21451
+
 2009-04-25 Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/Makefile.am,
