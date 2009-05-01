@@ -3318,6 +3318,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>phonetic_winkeys</name>
+            <_description>Phonetic Winkeys</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>typewriter</name>
             <_description>Typewriter</_description>
           </configItem>

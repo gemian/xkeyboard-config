@@ -1,3 +1,8 @@
+2009-05-01 Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/ru: added ru(phonetic_winkeys),
+	http://bugs.freedesktop.org/show_bug.cgi?id=21474
+
 2009-04-29 Sergey Udaltsov
 
 	* rules/base.xml.in: fixed wrong locale code,
