@@ -398,13 +398,13 @@ xkb_symbols "xal" {
 
     key <AE01> {        [                     question,                  exclam,               1      ]       };
     key <AE02> {        [      	            numerosign,                quotedbl,               2      ]       };
-    key <AE03> {        [      Cyrillic_u_straight_bar, Cyrillic_U_straight_bar,               3      ]       };
+    key <AE03> {        [          Cyrillic_u_straight,     Cyrillic_U_straight,               3      ]       };
     key <AE04> {        [               Cyrillic_schwa,          Cyrillic_SCHWA,               4      ]       }; 
     key <AE05> {        [                     asterisk,                 percent,               5      ]       };
     key <AE06> {        [        Cyrillic_en_descender,   Cyrillic_EN_descender,               6      ]       };
     key <AE07> {        [               Cyrillic_o_bar,          Cyrillic_O_bar,               7      ]       }; 
     key <AE08> {        [                Cyrillic_shha,           Cyrillic_SHHA,               8      ]       }; 
-    key <AE09> {        [                   0x01000497,              0x01000496,               9      ]       }; //Zhje
+    key <AE09> {        [       Cyrillic_zhe_descender,  Cyrillic_ZHE_descender,               9      ]       };
     key <AE10> {        [                    semicolon,                   colon,               0      ]       };
 
     key <TLDE> {        [                    parenleft,               parenright, Cyrillic_io, Cyrillic_IO    ]       };

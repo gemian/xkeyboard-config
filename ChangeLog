@@ -1,3 +1,7 @@
+2009-05-07 Sergey Udaltsov
+
+	* symbols/ru: fixed Kalmyk variant
+
 2009-05-01 Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/ru: added ru(phonetic_winkeys),
