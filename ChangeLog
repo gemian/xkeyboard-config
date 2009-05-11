@@ -1,3 +1,10 @@
+2009-05-11  Reşat SABIQ
+
+	* configure.in (new locale), rules/base.xml.in,
+	symbols/ro, symbols/tr, symbols/ua, symbols/uz:
+	Added Crimean Tatar (Crimean Turkish) layouts;
+	http://bugs.freedesktop.org/show_bug.cgi?id=19730
+
 2009-05-07 Sergey Udaltsov
 
 	* symbols/ru: fixed Kalmyk variant
