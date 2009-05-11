@@ -304,7 +304,7 @@ xkb_symbols "olpc" {
 // Reşat SABIQ <tilde.birlik@gmail.com>, 2009
 
 // Crimean Tatar (Crimean Turkish) Q Layout
-default partial
+partial
 xkb_symbols "crh" {
 
     include "tr(basic)"
@@ -321,7 +321,7 @@ xkb_symbols "crh" {
 };
 
 // Crimean Tatar (Crimean Turkish) F Layout
-default partial
+partial
 xkb_symbols "crh_f" {
 
     include "tr(f)"
