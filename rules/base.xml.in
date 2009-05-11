@@ -3190,7 +3190,7 @@
         <variant>
           <configItem>
             <name>dvorak_altquotes</name>
-            <_description>Dvorak, Polish quotes on key "1/!"</_description>
+            <_description>Dvorak, Polish quotes on key 1</_description>
           </configItem>
         </variant>
         <variant>

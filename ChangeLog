@@ -1,3 +1,8 @@
+2009-05-11 Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/pl: polished the description for
+	pl(dvorak_altquotes)
+
 2009-05-11  Reşat SABIQ
 
 	* configure.in (new locale), rules/base.xml.in,
