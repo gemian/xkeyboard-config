@@ -1,3 +1,10 @@
+2009-05-12  Reşat SABIQ
+
+	* configure.in (new locale), po/crh.po:
+	Added crh.po as well (as was done originally on January 30), 
+	based on Peter Hutterer's feedback regarding build process;
+	http://bugs.freedesktop.org/show_bug.cgi?id=19730
+
 2009-05-11 Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/pl: polished the description for
