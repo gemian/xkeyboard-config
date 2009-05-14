@@ -24,6 +24,7 @@ base_parts_no_compat = base.hdr.part base.lists.part \
 HDR base.m_k.part \
 HDR base.l1_k.part \
 HDR base.l_k.part \
+HDR \
 HDR base.ml_g.part \
 HDR base.m_g.part \
 HDR base.mlv_s.part \
@@ -38,6 +39,7 @@ HDR base.m_s.part \
 HDR base.ml_c.part \
 HDR base.ml1_c.part \
 HDR base.m_t.part \
+HDR \
 HDR base.l1o_s.part \
 HDR base.l2o_s.part \
 HDR base.l3o_s.part \
@@ -50,6 +52,7 @@ evdev_parts_no_compat = base.hdr.part base.lists.part \
 HDR evdev.m_k.part \
 HDR base.l1_k.part \
 HDR base.l_k.part  \
+HDR \
 HDR base.ml_g.part \
 HDR base.m_g.part \
 HDR base.mlv_s.part \
@@ -64,6 +67,7 @@ HDR evdev.m_s.part \
 HDR base.ml_c.part \
 HDR base.ml1_c.part \
 HDR base.m_t.part \
+HDR \
 HDR base.l1o_s.part \
 HDR base.l2o_s.part \
 HDR base.l3o_s.part \
