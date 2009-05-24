@@ -109,7 +109,7 @@ xkb_symbols "legacy" {
 
 partial alphanumeric_keys
 xkb_symbols "winkeys" {
-    include "ua(basic)"
+    include "ua(legacy)"
  
     name[Group1]= "Ukraine - Winkeys";
 
@@ -124,7 +124,7 @@ xkb_symbols "winkeys" {
 
 partial alphanumeric_keys
 xkb_symbols "typewriter" {
-    include "ua(basic)"
+    include "ua(legacy)"
 
     name[Group1]= "Ukraine - Typewriter";
 
@@ -153,7 +153,7 @@ xkb_symbols "typewriter" {
 
 partial alphanumeric_keys
 xkb_symbols "phonetic" {
-  include "ua(basic)"
+  include "ua(legacy)"
   
   name[Group1]= "Ukraine - Phonetic";
 
@@ -199,7 +199,7 @@ xkb_symbols "phonetic" {
 // Andrew Porokhnyak <aop@porokhnyak.org>
 partial alphanumeric_keys
 xkb_symbols "rstu" {
-    include "ua(basic)"
+    include "ua(legacy)"
 
     name[Group1]= "Ukraine - Standard RSTU";
 
@@ -256,7 +256,7 @@ key.type[group1]="ALPHABETIC";
 //Existing layout "phonetic" used as template.
 partial alphanumeric_keys
 xkb_symbols "homophonic" {
-  include "ua(basic)"
+  include "ua(legacy)"
   name[Group1]= "Ukraine - Homophonic";
 
   key <TLDE> {	 [          grave,	underscore	]	};

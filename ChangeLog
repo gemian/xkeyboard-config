@@ -1,3 +1,8 @@
+2009-05-24 Sergey Udaltsov
+
+	* symbols/ua: fixed all references, from ua(basic) to ua(legacy),
+	finalizing http://bugs.freedesktop.org/show_bug.cgi?id=21302
+
 2009-05-18 Sergey Udaltsov
 
 	* symbols/de: adding acute to de(nodeadkeys),
