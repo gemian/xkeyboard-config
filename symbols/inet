@@ -174,7 +174,7 @@ xkb_symbols "evdev" {
     key <I213>   {      [ XF86Suspend           ]       };
     key <I214>   {      [ XF86Close             ]       };
     key <I215>   {      [ XF86AudioPlay         ]       };
-    key <I216>   {      [ XF86Forward           ]       };
+    key <I216>   {      [ XF86AudioForward      ]       };
 //  key <I217>   {      [ ]       }; // KEY_BASSBOOST
     key <I218>   {      [ Print                 ]       };
 //  key <I219>   {      [ ]       }; // KEY_HP
