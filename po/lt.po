@@ -1,106 +1,103 @@
-# Crimean Tatar (Crimean Turkish) translation for xkeyboard-config.
+# Lithuanian message catalog for xkeyboard-config.
 # Copyright (C) 2009 Free Software Foundation, Inc.
 # This file is distributed under the same license as the xkeyboard-config package.
+# Gintautas Miliauskas <gintautas@miliauskas.lt>, 2009.
 #
-# Reşat SABIQ <tilde.birlik@gmail.com>, 2009.
-# Özgür Qarahan <karahan@vatankirim.net>, 2009.
-# Şimdilik, bazan Türkçe tercimeler qullanıla.
 msgid ""
 msgstr ""
 "Project-Id-Version: xkeyboard-config 1.6pre1\n"
 "Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
 "POT-Creation-Date: 2009-05-12 23:49+0100\n"
-"PO-Revision-Date: 2009-05-25 03:22-0500\n"
-"Last-Translator: Reşat SABIQ <tilde.birlik@gmail.com>\n"
-"Language-Team: Crimean Tatar (Crimean Turkish) <tilde-birlik-tercime@lists.sourceforge.net>\n"
+"PO-Revision-Date: 2009-05-26 12:47+0300\n"
+"Last-Translator: Gintautas Miliauskas <gintautas@miliauskas.lt>\n"
+"Language-Team: Lithuanian <komp_lt@konferencijos.lt>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-# tüklü
 #: ../rules/base.xml.in.h:1
 msgid "(F)"
-msgstr "F tizilimi"
+msgstr "(F)"
 
 #: ../rules/base.xml.in.h:2
 msgid "(Legacy) Alternative"
-msgstr "(Qadim) Alternativ"
+msgstr "(Senasis) alternatyvus"
 
 #: ../rules/base.xml.in.h:3
 msgid "(Legacy) Alternative, Sun dead keys"
-msgstr "(Qadim) Alternativ, Sun ölü tuşlar"
+msgstr "(Senasis) alternatyvus, su Sun tęsties ženklais"
 
 #: ../rules/base.xml.in.h:4
 msgid "(Legacy) Alternative, eliminate dead keys"
-msgstr "(Qadim) Alternativ, ölü tuşsuz"
+msgstr "(Senasis) alternatyvus, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:5
 msgid "101/104 key Compatible"
-msgstr "101/104 tuş Qabili Telif"
+msgstr "101/104 klavišų suderinama"
 
 #: ../rules/base.xml.in.h:6
 msgid "101/qwerty/comma/Dead keys"
-msgstr "101/qwerty/virgül/Ölü tuşlar"
+msgstr "101 klavišo, QWERTY, dešimtainis kablelis, su tęsties ženklais"
 
 #: ../rules/base.xml.in.h:7
 msgid "101/qwerty/comma/Eliminate dead keys"
-msgstr "101/qwerty/virgül/Ölü tuşsuz"
+msgstr "101 klavišo, QWERTY, dešimtainis kablelis, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:8
 msgid "101/qwerty/dot/Dead keys"
-msgstr "101/qwerty/noqta/Ölü tuşlar"
+msgstr "101 klavišo, QWERTY, dešimtainis taškas, su tęsties ženklais"
 
 #: ../rules/base.xml.in.h:9
 msgid "101/qwerty/dot/Eliminate dead keys"
-msgstr "101/qwerty/noqta/Ölü tuşsuz"
+msgstr "101 klavišo, QWERTY, dešimtainis taškas, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:10
 msgid "101/qwertz/comma/Dead keys"
-msgstr "101/qwertz/virgül/Ölü tuşlar"
+msgstr "101 klavišo, QWERTZ, dešimtainis kablelis, su tęsties ženklais"
 
 #: ../rules/base.xml.in.h:11
 msgid "101/qwertz/comma/Eliminate dead keys"
-msgstr "101/qwertz/virgül/Ölü tuşsuz"
+msgstr "101 klavišo, QWERTZ, dešimtainis kablelis, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:12
 msgid "101/qwertz/dot/Dead keys"
-msgstr "101/qwertz/noqta/Ölü tuşlar"
+msgstr "101 klavišo, QWERTZ, dešimtainis taškas, su tęsties ženklais"
 
 #: ../rules/base.xml.in.h:13
 msgid "101/qwertz/dot/Eliminate dead keys"
-msgstr "101/qwertz/noqta/Ölü tuşsuz"
+msgstr "101 klavišo, QWERTZ, dešimtainis taškas, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:14
 msgid "102/qwerty/comma/Dead keys"
-msgstr "102/qwerty/virgül/Ölü tuşlar"
+msgstr "102 klavišų, QWERTY, dešimtainis kablelis, su tęsties ženklais"
 
 #: ../rules/base.xml.in.h:15
 msgid "102/qwerty/comma/Eliminate dead keys"
-msgstr "102/qwerty/virgül/Ölü tuşsuz"
+msgstr "102 klavišų, QWERTY, dešimtainis kablelis, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:16
 msgid "102/qwerty/dot/Dead keys"
-msgstr "102/qwerty/noqta/Ölü tuşlar"
+msgstr "102 klavišų, QWERTY, dešimtainis taškas, su tęsties ženklais"
 
 #: ../rules/base.xml.in.h:17
 msgid "102/qwerty/dot/Eliminate dead keys"
-msgstr "102/qwerty/noqta/Ölü tuşsuz"
+msgstr "102 klavišų, QWERTY, dešimtainis taškas, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:18
 msgid "102/qwertz/comma/Dead keys"
-msgstr "102/qwertz/virgül/Ölü tuşlar"
+msgstr "102 klavišų, QWERTZ, dešimtainis kablelis, su tęsties ženklais"
 
 #: ../rules/base.xml.in.h:19
 msgid "102/qwertz/comma/Eliminate dead keys"
-msgstr "102/qwertz/virgül/Ölü tuşsuz"
+msgstr "102 klavišų, QWERTZ, dešimtainis kablelis, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:20
 msgid "102/qwertz/dot/Dead keys"
-msgstr "102/qwertz/noqta/Ölü tuşlar"
+msgstr "102 klavišų, QWERTZ, dešimtainis taškas, su tęsties ženklais"
 
 #: ../rules/base.xml.in.h:21
 msgid "102/qwertz/dot/Eliminate dead keys"
-msgstr "102/qwertz/noqta/Ölü tuşsuz"
+msgstr "102 klavišų, QWERTZ, dešimtainis taškas, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:22
 msgid "2"
@@ -124,16 +121,15 @@ msgstr "A4Tech KBS-8"
 
 #: ../rules/base.xml.in.h:27
 msgid "A4Tech Wireless Desktop RFKB-23"
-msgstr "A4Tech Telsiz Masaüstü RFKB-23"
+msgstr "A4Tech Wireless Desktop RFKB-23"
 
 #: ../rules/base.xml.in.h:28
 msgid "ACPI Standard"
-msgstr "ACPI Standartı"
+msgstr "Įprastinė ACPI"
 
-# tüklü
 #: ../rules/base.xml.in.h:29
 msgid "ATM/phone-style"
-msgstr "ATM/telefon-uslûbı"
+msgstr "Bankomato/telefono tipo"
 
 #: ../rules/base.xml.in.h:30
 msgid "Acer AirKey V"
@@ -149,19 +145,19 @@ msgstr "Acer Ferrari 4000"
 
 #: ../rules/base.xml.in.h:33
 msgid "Acer Laptop"
-msgstr "Acer Tizüstü"
+msgstr "Acer nešiojamasis kompiuteris"
 
 #: ../rules/base.xml.in.h:34
 msgid "Add the standard behavior to Menu key"
-msgstr "Menü tuşuna standart davranışnı ekle."
+msgstr "Meniu klavišui priskirti standartinę veikseną"
 
 #: ../rules/base.xml.in.h:35
 msgid "Adding Esperanto circumflexes (supersigno)"
-msgstr "Esperanto qıyışıq-yaylarınıñ (circumflex) eklenüvi (supersigno)"
+msgstr "Esperanto cirkumfleksų („supersigno“) įvedimas"
 
 #: ../rules/base.xml.in.h:36
 msgid "Adding EuroSign to certain keys"
-msgstr "Belli tuşlarğa € remziniñ eklenüvi"
+msgstr "Euro ženklo įvedimas pasirinktais klavišais"
 
 #: ../rules/base.xml.in.h:37
 msgid "Advance Scorpius KI"
@@ -173,7 +169,7 @@ msgstr "Afg"
 
 #: ../rules/base.xml.in.h:39
 msgid "Afghanistan"
-msgstr "Afğanistan"
+msgstr "Afganistanas"
 
 #: ../rules/base.xml.in.h:40
 msgid "Akan"
@@ -181,71 +177,71 @@ msgstr "Akan"
 
 #: ../rules/base.xml.in.h:41
 msgid "Alb"
-msgstr "Arn"
+msgstr "Alb"
 
 #: ../rules/base.xml.in.h:42
 msgid "Albania"
-msgstr "Arnavutlıq"
+msgstr "Albanija"
 
 #: ../rules/base.xml.in.h:43
 msgid "Alt and Meta are on Alt keys"
-msgstr "Alt ve Meta, Alt tuşlarındadır"
+msgstr "Alt ir Meta funkcijos priskirtos Alt klavišams"
 
 #: ../rules/base.xml.in.h:44
 msgid "Alt is mapped to Right Win, Super to Menu"
-msgstr "Alt, Sağ Pencereler (Win) tuşuna, Süper ise Menü tuşuna haritalandırılır"
+msgstr "Dešiniajam Win klavišui priskirti Alt funkciją, o Meniu klavišui – Super funkciją"
 
 #: ../rules/base.xml.in.h:45
 msgid "Alt+CapsLock"
-msgstr "Alt+CapsLock"
+msgstr "Alt+Didž"
 
 #: ../rules/base.xml.in.h:46
 msgid "Alt+Ctrl"
-msgstr "Alt+Ctrl"
+msgstr "Alt+Vald"
 
 #: ../rules/base.xml.in.h:47
 msgid "Alt+Shift"
-msgstr "Alt+Shift"
+msgstr "Alt+Lyg2"
 
 #: ../rules/base.xml.in.h:48
 msgid "Alt+Space"
-msgstr "Alt+Boşluq"
+msgstr "Alt+Tarpas"
 
 #: ../rules/base.xml.in.h:49
 msgid "Alt-Q"
-msgstr "Alt-Q (yazılımcı klavyesi)"
+msgstr "Alt-Q"
 
 #: ../rules/base.xml.in.h:50
 msgid "Alt/Win key behavior"
-msgstr "Alt/Win tuşu davranışı"
+msgstr "Alt ir Win klavišų elgsena"
 
 #: ../rules/base.xml.in.h:51
 msgid "Alternative"
-msgstr "Alternativ"
+msgstr "Alternatyvi"
 
 #: ../rules/base.xml.in.h:52
 msgid "Alternative Eastern"
-msgstr "Alternativ Şarqiy"
+msgstr "Alternatyvi Rytų"
 
 #: ../rules/base.xml.in.h:53
 msgid "Alternative Phonetic"
-msgstr "Alternativ Fonetik"
+msgstr "Alternatyvi fonetinė"
 
 #: ../rules/base.xml.in.h:54
 msgid "Alternative international (former us_intl)"
-msgstr "Alternativ milletlerara (Q klavyesi; evelki us_intl)"
+msgstr "Alternatyvi tarptautinė (anksčiau: us_intl)"
 
 #: ../rules/base.xml.in.h:55
 msgid "Alternative, Sun dead keys"
-msgstr "Alternativ, Sun ölü tuşlar"
+msgstr "Alternatyvi, su Sun tęsties klavišais"
 
 #: ../rules/base.xml.in.h:56
 msgid "Alternative, eliminate dead keys"
-msgstr "Alternativ, ölü tuşsuz"
+msgstr "Alternatyvi, be tęsties klavišų"
 
 #: ../rules/base.xml.in.h:57
 msgid "Alternative, latin-9 only"
-msgstr "Alternativ, faqat latin-9"
+msgstr "Alternatyvi, tik latin-9 simboliai"
 
 #: ../rules/base.xml.in.h:58
 msgid "And"
@@ -257,20 +253,19 @@ msgstr "Andora"
 
 #: ../rules/base.xml.in.h:60
 msgid "Any Alt key"
-msgstr "Er angi Alt tuşu"
+msgstr "Bet kuris Alt klavišas"
 
 #: ../rules/base.xml.in.h:61
 msgid "Any Win key"
-msgstr "Er angi Pencereler (Win) tuşu"
+msgstr "Bet kuris Win klavišas"
 
-# tüklü
 #: ../rules/base.xml.in.h:62
 msgid "Any Win key (while pressed)"
-msgstr "Er angi Pencereler (Win) tuşu (basıq olğanda)"
+msgstr "Bet kuris Win klavišas (kol paspaustas)"
 
 #: ../rules/base.xml.in.h:63
 msgid "Apostrophe (') variant"
-msgstr "Apostrof (') variantı"
+msgstr "Apostrofo (') variantas"
 
 #: ../rules/base.xml.in.h:64
 msgid "Apple"
@@ -278,7 +273,7 @@ msgstr "Apple"
 
 #: ../rules/base.xml.in.h:65
 msgid "Apple Laptop"
-msgstr "Apple Tizüstü"
+msgstr "Apple nešiojamasis kompiuteris"
 
 #: ../rules/base.xml.in.h:66
 msgid "Ara"
@@ -286,31 +281,31 @@ msgstr "Ara"
 
 #: ../rules/base.xml.in.h:67
 msgid "Arabic"
-msgstr "Arapça"
+msgstr "Arabų"
 
 #: ../rules/base.xml.in.h:68
 msgid "Arm"
-msgstr "Erm"
+msgstr "Arm"
 
 #: ../rules/base.xml.in.h:69
 msgid "Armenia"
-msgstr "Ermenistan"
+msgstr "Armėnija"
 
 #: ../rules/base.xml.in.h:70
 msgid "Asturian variant with bottom-dot H and bottom-dot L"
-msgstr "Alt-noqtalı H ve alt-noqatlı L ile Asturian variant"
+msgstr "Asturiškasis variantas su taškais po H ir L raidėmis"
 
 #: ../rules/base.xml.in.h:71
 msgid "Asus Laptop"
-msgstr "Asus Tizüstü"
+msgstr "Asus nešiojamasis kompiuteris"
 
 #: ../rules/base.xml.in.h:72
 msgid "At bottom left"
-msgstr "Tüpniñ solunda"
+msgstr "Apačioje kairėje"
 
 #: ../rules/base.xml.in.h:73
 msgid "At left of 'A'"
-msgstr "'A'nıñ solunda"
+msgstr "Kairėje nuo klavišo „A“"
 
 #: ../rules/base.xml.in.h:74
 msgid "Aze"
@@ -318,21 +313,19 @@ msgstr "Aze"
 
 #: ../rules/base.xml.in.h:75
 msgid "Azerbaijan"
-msgstr "Azerbaycan"
+msgstr "Azerbaidžanas"
 
-# tüklü
 #: ../rules/base.xml.in.h:76
 msgid "Azona RF2300 wireless Internet Keyboard"
-msgstr "Azona RF2300 telsiz İnternet Klavyesi"
+msgstr "Azona RF2300 wireless Internet Keyboard"
 
 #: ../rules/base.xml.in.h:77
 msgid "BTC 5090"
 msgstr "BTC 5090"
 
-# tüklü
 #: ../rules/base.xml.in.h:78
 msgid "BTC 5113RF Multimedia"
-msgstr "BTC 5113RF Çoqlumüit"
+msgstr "BTC 5113RF Multimedia"
 
 #: ../rules/base.xml.in.h:79
 msgid "BTC 5126T"
@@ -360,11 +353,11 @@ msgstr "BTC 9019U"
 
 #: ../rules/base.xml.in.h:85
 msgid "BTC 9116U Mini Wireless Internet and Gaming"
-msgstr "BTC 9116U Mini Telsiz İnternet ve Oyunlav"
+msgstr "BTC 9116U Mini Wireless Internet and Gaming"
 
 #: ../rules/base.xml.in.h:86
 msgid "Baltic+"
-msgstr "Baltıq+"
+msgstr ""
 
 #: ../rules/base.xml.in.h:87
 msgid "Ban"
@@ -372,7 +365,7 @@ msgstr "Ban"
 
 #: ../rules/base.xml.in.h:88
 msgid "Bangladesh"
-msgstr "Bangladeş"
+msgstr "Bangladešas"
 
 #: ../rules/base.xml.in.h:89
 msgid "Bel"
@@ -380,11 +373,11 @@ msgstr "Bel"
 
 #: ../rules/base.xml.in.h:90
 msgid "Belarus"
-msgstr "Belarus"
+msgstr "Baltarusija"
 
 #: ../rules/base.xml.in.h:91
 msgid "Belgium"
-msgstr "Belçika"
+msgstr "Belgija"
 
 #: ../rules/base.xml.in.h:92
 msgid "BenQ X-Touch"
@@ -400,19 +393,19 @@ msgstr "BenQ X-Touch 800"
 
 #: ../rules/base.xml.in.h:95
 msgid "Bengali"
-msgstr "Bengali"
+msgstr "Bengalų"
 
 #: ../rules/base.xml.in.h:96
 msgid "Bengali Probhat"
-msgstr "Bengali Probhat"
+msgstr "Bengalų Probhat"
 
 #: ../rules/base.xml.in.h:97
 msgid "Bepo, ergonomic, Dvorak way"
-msgstr "Bepo, ergonomik, Dvorak yolu"
+msgstr "Bepo, ergonominė pagal Dvoraką"
 
 #: ../rules/base.xml.in.h:98
 msgid "Bepo, ergonomic, Dvorak way, latin-9 only"
-msgstr "Bepo, ergonomik, Dvorak yolu, faqat latin-9"
+msgstr "Bepo, ergonominė pagal Dvoraką, tik Latin-9"
 
 #: ../rules/base.xml.in.h:99
 msgid "Bgr"
@@ -424,11 +417,11 @@ msgstr "Bhu"
 
 #: ../rules/base.xml.in.h:101
 msgid "Bhutan"
-msgstr "Butan"
+msgstr "Butanas"
 
 #: ../rules/base.xml.in.h:102
 msgid "Biblical Hebrew (Tiro)"
-msgstr "İnciliy İbraniyce (Tiro)"
+msgstr "Biblinė hebrajų"
 
 #: ../rules/base.xml.in.h:103
 msgid "Bih"
@@ -440,37 +433,35 @@ msgstr "Blr"
 
 #: ../rules/base.xml.in.h:105
 msgid "Bosnia and Herzegovina"
-msgstr "Bosna-Hersek"
+msgstr "Bosnija ir Hercegovina"
 
 #: ../rules/base.xml.in.h:106
 msgid "Both Alt keys together"
-msgstr "Alt tuşlarınıñ ekisi de"
+msgstr "Vienu metu paspausti abu Alternatyvos klavišai"
 
 #: ../rules/base.xml.in.h:107
 msgid "Both Ctrl keys together"
-msgstr "Ctrl tuşlarınıñ ekisi de"
+msgstr "Vienu metu paspausti abu Valdymo (Ctrl) klavišai"
 
 #: ../rules/base.xml.in.h:108
 msgid "Both Shift keys together"
-msgstr "Shift tuşlarınıñ ekisi de"
+msgstr "Vienu metu paspausti abu Antrojo lygio (Shift) klavišai"
 
 #: ../rules/base.xml.in.h:109
 msgid "Bra"
 msgstr "Bra"
 
-# tınış
 #: ../rules/base.xml.in.h:110
 msgid "Braille"
-msgstr "Körler elifbesi"
+msgstr "Brailio terminalas"
 
 #: ../rules/base.xml.in.h:111
 msgid "Brazil"
-msgstr "Brezilya"
+msgstr "Brazilija"
 
-# tüklü
 #: ../rules/base.xml.in.h:112
 msgid "Breton"
-msgstr "Breton"
+msgstr "Bretonų"
 
 #: ../rules/base.xml.in.h:113
 msgid "Brl"
@@ -478,87 +469,83 @@ msgstr "Brl"
 
 #: ../rules/base.xml.in.h:114
 msgid "Brother Internet Keyboard"
-msgstr "Brother İnternet Klavyesi"
+msgstr "Brother Internet Keyboard"
 
 #: ../rules/base.xml.in.h:115
 msgid "Buckwalter"
-msgstr "Bükvalter"
+msgstr "Buckwalter"
 
 #: ../rules/base.xml.in.h:116
 msgid "Bulgaria"
-msgstr "Bulgaristan"
+msgstr "Bulgarija"
 
-# tüklü
 #: ../rules/base.xml.in.h:117
 msgid "CRULP"
 msgstr "CRULP"
 
 #: ../rules/base.xml.in.h:118
 msgid "Cambodia"
-msgstr "Kamboçya"
+msgstr "Kambodža"
 
 #: ../rules/base.xml.in.h:119
 msgid "Can"
-msgstr "Kan"
+msgstr "Can"
 
 #: ../rules/base.xml.in.h:120
 msgid "Canada"
 msgstr "Kanada"
 
-# tüklü
 #: ../rules/base.xml.in.h:121
 msgid "Caps Lock"
-msgstr "Caps Lock"
+msgstr "Didžiosios raidės"
 
 #: ../rules/base.xml.in.h:122
 msgid "CapsLock"
-msgstr "CapsLock"
+msgstr "Didžiosios raidės"
 
 #: ../rules/base.xml.in.h:123
 msgid "CapsLock (to first layout), Shift+CapsLock (to last layout)"
-msgstr "CapsLock (birinci tizilimge almaştırır), Shift+CapsLock (soñkisine)"
+msgstr "Didž (į pirmąjį išdėstymą), Lyg2+Didž (į paskutinį išdėstymą)"
 
 #: ../rules/base.xml.in.h:124
 msgid "CapsLock (while pressed), Alt+CapsLock does the original capslock action"
-msgstr "CapsLock tuşu (basıq olğanda), Alt+CapsLock asliy CapsLock amelini yapar"
+msgstr "Didž (kol nuspaustas); Alt+Didž atlieka pirminę Didž klavišo funkciją"
 
 #: ../rules/base.xml.in.h:125
 msgid "CapsLock acts as Shift with locking. Shift \"pauses\" CapsLock"
-msgstr "CapsLock kilitlemeli Shift kibi çalışır. Shift ise CapsLock tuşunı \"tınışlar\""
+msgstr "Didž klavišas veikia kaip įprasta; Lyg2 „pristabdo“ Didž veikseną"
 
 #: ../rules/base.xml.in.h:126
 msgid "CapsLock acts as Shift with locking. Shift doesn't affect CapsLock"
-msgstr "CapsLock kilitlemeli Shift kibi çalışır. Shift tuşu Caps Lock davranışına tesirlemez."
+msgstr "Didž klavišas veikia kaip įprasta; Lyg2 neįtakoja Didž veiksenos"
 
 #: ../rules/base.xml.in.h:127
 msgid "CapsLock key behavior"
-msgstr "CapsLock tuşunıñ davranışı"
+msgstr "Didžiųjų raidžių klavišo veiksena"
 
-# bundan alfabetik olmayan tuşlar da etkilenir.
 #: ../rules/base.xml.in.h:128
 msgid "CapsLock toggles Shift so all keys are affected"
-msgstr "CapsLock Shift davranışını tuşlarnıñ episi tesirlenecek şekilde almaştırır"
+msgstr "Didž klavišas veikia kaip nuolat nuspaustas Lyg2 (įtakoja visus klavišus)"
 
-# tuşu büyük/küçük harf geçişi yapar.
 #: ../rules/base.xml.in.h:129
 msgid "CapsLock toggles normal capitalization of alphabetic characters"
-msgstr "CapsLock elifbe remizleriniñ normal başlaştırılmasını almaştırır"
+msgstr "Didž klavišas įjungia įprastą raidžių vertimą didžiosiomis"
 
 #: ../rules/base.xml.in.h:130
 msgid "CapsLock uses internal capitalization. Shift \"pauses\" CapsLock"
-msgstr "CapsLock içki başlaştırmanı qullanır. Shift CapsLock tuşunı \"tınışlar\""
+msgstr "Didž įjungia įtaisytąjį raidžių vertimą didžiosiomis. Lyg2 „pristabdo“ Didž klavišo veikimą"
 
 #: ../rules/base.xml.in.h:131
 msgid "CapsLock uses internal capitalization. Shift doesn't affect CapsLock"
-msgstr "CapsLock içki başlaştırmanı qullanır. Shift CapsLock davranışına tesirlemez."
+msgstr "Didž įjungia įtaisytąjį raidžių vertimą didžiosiomis. Lyg2 neįtakoja Didž veiksenos"
 
 #: ../rules/base.xml.in.h:132
 msgid "Catalan variant with middle-dot L"
-msgstr "Ortası noqtalı L'li Katalan yerleşimi"
+msgstr "Kataloniškasis variantas su tašku L raidės centre"
 
 #: ../rules/base.xml.in.h:133
 msgid "Cedilla"
-msgstr "Sedilla"
+msgstr "Sedilė"
 
 #: ../rules/base.xml.in.h:134
 msgid "Che"
@@ -566,11 +553,11 @@ msgstr "Che"
 
 #: ../rules/base.xml.in.h:135
 msgid "Cherokee"
-msgstr "Çeroki"
+msgstr "Čerokių"
 
 #: ../rules/base.xml.in.h:136
 msgid "Cherry B.UNLIMITED"
-msgstr "Cherry B.UNLIMITED"
+msgstr ""
 
 #: ../rules/base.xml.in.h:137
 msgid "Cherry Blue Line CyBo@rd"
@@ -578,7 +565,7 @@ msgstr "Cherry Blue Line CyBo@rd"
 
 #: ../rules/base.xml.in.h:138
 msgid "Cherry Blue Line CyBo@rd (alternate option)"
-msgstr "Cherry Blue Line CyBo@rd (diğer seçenek)"
+msgstr "Cherry Blue Line CyBo@rd (alternatyvus variantas)"
 
 #: ../rules/base.xml.in.h:139
 msgid "Cherry CyBo@rd USB-Hub"
@@ -598,7 +585,7 @@ msgstr "Cherry CyMotion Master XPress"
 
 #: ../rules/base.xml.in.h:143
 msgid "Chicony Internet Keyboard"
-msgstr "Chicony İnternet Klavyesi"
+msgstr "Chicony Internet Keyboard"
 
 #: ../rules/base.xml.in.h:144
 msgid "Chicony KB-9885"
@@ -614,27 +601,27 @@ msgstr "Chicony KU-0420"
 
 #: ../rules/base.xml.in.h:147
 msgid "China"
-msgstr "Çin"
+msgstr "Kinija"
 
 #: ../rules/base.xml.in.h:148
 msgid "Chuvash"
-msgstr "Çuvaşça"
+msgstr "Čuvašų"
 
 #: ../rules/base.xml.in.h:149
 msgid "Chuvash Latin"
-msgstr "Çuvaşça Latin"
+msgstr "Čuvašų, lotyniški rašmenys"
 
 #: ../rules/base.xml.in.h:150
 msgid "Classic"
-msgstr "Klassik"
+msgstr "Klasikinė"
 
 #: ../rules/base.xml.in.h:151
 msgid "Classic Dvorak"
-msgstr "Klassik Dvorak"
+msgstr "Klasikinė Dvorako"
 
 #: ../rules/base.xml.in.h:152
 msgid "Classmate PC"
-msgstr "Classmate Şahsiy Bilgisayar (PC)"
+msgstr "Classmate PC"
 
 #: ../rules/base.xml.in.h:153
 msgid "CloGaelach"
@@ -646,99 +633,99 @@ msgstr "Colemak"
 
 #: ../rules/base.xml.in.h:155
 msgid "Compaq Easy Access Keyboard"
-msgstr "Compaq Kolay Erişim Klavyesi"
+msgstr "Compaq Easy Access Keyboard"
 
 #: ../rules/base.xml.in.h:156
 msgid "Compaq Internet Keyboard (13 keys)"
-msgstr "Compaq İnternet Klavyesi (13 tuşlu)"
+msgstr "Compaq Internet Keyboard (13 klavišų)"
 
 #: ../rules/base.xml.in.h:157
 msgid "Compaq Internet Keyboard (18 keys)"
-msgstr "Compaq İnternet Klavyesi (18 tuşlu)"
+msgstr "Compaq Internet Keyboard (18 klavišų)"
 
 #: ../rules/base.xml.in.h:158
 msgid "Compaq Internet Keyboard (7 keys)"
-msgstr "İnternet Klavyesi (7 tuşlu)"
+msgstr "Compaq Internet Keyboard (7 klavišai)"
 
 #: ../rules/base.xml.in.h:159
 msgid "Compaq iPaq Keyboard"
-msgstr "Compaq iPaq Klavyesi"
+msgstr "Compaq iPaq klaviatūra"
 
 #: ../rules/base.xml.in.h:160
 msgid "Compose key position"
-msgstr "Telif (Compose) tuşu qonumı"
+msgstr "Compose klavišo pozicija"
 
 #: ../rules/base.xml.in.h:161
 msgid "Congo, Democratic Republic of the"
-msgstr "Kongo Demokratik Cumhuriyeti"
+msgstr "Kongo demokratinė respublika"
 
 #: ../rules/base.xml.in.h:162
 msgid "Control + Alt + Backspace"
-msgstr "Control + Alt + Kerisilme"
+msgstr ""
 
 #: ../rules/base.xml.in.h:163
 msgid "Control is mapped to Alt keys, Alt is mapped to Win keys"
-msgstr "Control (Muraqabe), Alt tuşlarına haritalandırılır, Alt ise Pencereler (Win) tuşlarına haritalandırılır"
+msgstr "Vald funkciją priskirti Alt klavišams, o Alt funkciją – Win klavišams"
 
 #: ../rules/base.xml.in.h:164
 msgid "Control is mapped to Win keys (and the usual Ctrl keys)"
-msgstr "Control (Muraqabe), Pencereler (Win) tuşlarına (ve adetiy Ctrl tuşlarına) haritalandırılır"
+msgstr "Vald funkciją priskirti Win klavišams bei įprastiems Vald klavišams"
 
 #: ../rules/base.xml.in.h:165
 msgid "Crimean Tatar (Dobruca-1 Q)"
-msgstr "Qırımtatarca (Dobruca-1 Q)"
+msgstr "Krymo totorių (Dobruca-1 Q)"
 
 #: ../rules/base.xml.in.h:166
 msgid "Crimean Tatar (Dobruca-2 Q)"
-msgstr "Qırımtatarca (Dobruca-2 Q)"
+msgstr "Krymo totorių (Dobruca-2 Q)"
 
 #: ../rules/base.xml.in.h:167
 msgid "Crimean Tatar (Turkish Alt-Q)"
-msgstr "Qırımtatarca (Türkçe Alt-Q)"
+msgstr "Krymo totorių (turkiškas Alt-Q)"
 
 #: ../rules/base.xml.in.h:168
 msgid "Crimean Tatar (Turkish F)"
-msgstr "Qırımtatarca (Türkçe F)"
+msgstr "Krymo totorių (turkiškas F)"
 
 #: ../rules/base.xml.in.h:169
 msgid "Crimean Tatar (Turkish Q)"
-msgstr "Qırımtatarca (Türkçe Q)"
+msgstr "Krymo totorių (turkiškas Q)"
 
 #: ../rules/base.xml.in.h:170
 msgid "Croatia"
-msgstr "Hırvatistan"
+msgstr "Kroatija"
 
 #: ../rules/base.xml.in.h:171
 msgid "Ctrl key position"
-msgstr "Ctrl tuşunıñ mevamı"
+msgstr "Valdymo (Ctrl) klavišo pozicija"
 
 #: ../rules/base.xml.in.h:172
 msgid "Ctrl+Shift"
-msgstr "Ctrl+Shift"
+msgstr "Vald+Lyg2"
 
 #: ../rules/base.xml.in.h:173
 msgid "Cyrillic"
-msgstr "Kiril"
+msgstr "Kiriliškasis"
 
 #: ../rules/base.xml.in.h:174
 msgid "Cyrillic with guillemets"
-msgstr "Köşeli qavuslarnen Kiril"
+msgstr "Kiriliškasis, su kampinėmis kabutėmis"
 
 #: ../rules/base.xml.in.h:175
 msgid "Cyrillic, Z and ZHE swapped"
-msgstr "Kiril, Z ile J almaştırılğan"
+msgstr "Kriliškasis, raidės Z ir Ž sukeistos"
 
 #: ../rules/base.xml.in.h:176
 msgid "Cze"
-msgstr "Çek"
+msgstr "Cze"
 
 #: ../rules/base.xml.in.h:177
 msgid "Czechia"
-msgstr "Çek Cumhuriyeti"
+msgstr "Čekija"
 
 #: ../rules/base.xml.in.h:178
 msgid "DOS"
-msgstr "DOS"
+msgstr ""
 
 #: ../rules/base.xml.in.h:179
 msgid "DRC"
@@ -754,15 +741,15 @@ msgstr "Dan"
 
 #: ../rules/base.xml.in.h:182
 msgid "Dead acute"
-msgstr "Ölü acute (´)"
+msgstr "Tęsties ženklas – dešininis kirtis"
 
 #: ../rules/base.xml.in.h:183
 msgid "Dead grave acute"
-msgstr "Ölü grave acute (`)"
+msgstr "Tęsties ženklai – kairinis ir dešininis kirtis"
 
 #: ../rules/base.xml.in.h:184
 msgid "Default numeric keypad keys"
-msgstr "Ög-belgilengen sayısal tuştaqımı tuşları"
+msgstr "Numatytieji skaitmenų srities klavišai"
 
 #: ../rules/base.xml.in.h:185
 msgid "Dell"
@@ -770,19 +757,19 @@ msgstr "Dell"
 
 #: ../rules/base.xml.in.h:186
 msgid "Dell 101-key PC"
-msgstr "Dell 101 tuşlu PC"
+msgstr "Dell 101 klavišo PC klaviatūra"
 
 #: ../rules/base.xml.in.h:187
 msgid "Dell Laptop/notebook Inspiron 6xxx/8xxx"
-msgstr "Tizüstü/defter Dell Inspiron 6xxx/8xxx"
+msgstr "Dell Inspiron 6xxx/8xxx serijos skreitinukas"
 
 #: ../rules/base.xml.in.h:188
 msgid "Dell Laptop/notebook Precision M series"
-msgstr "Dell Tizüstü/defter Precision M series"
+msgstr "Dell Precision M serijos skreitinukas"
 
 #: ../rules/base.xml.in.h:189
 msgid "Dell Latitude series laptop"
-msgstr "Dell Latitude serisi Tizüstü"
+msgstr "Dell Latitude serijos skreitinukas"
 
 #: ../rules/base.xml.in.h:190
 msgid "Dell Precision M65"
@@ -796,47 +783,46 @@ msgstr "Dell SK-8125"
 msgid "Dell SK-8135"
 msgstr "Dell SK-8135"
 
-# tüklü
 #: ../rules/base.xml.in.h:193
 msgid "Dell USB Multimedia Keyboard"
-msgstr "Dell USB Çoqlumüit Klavyesi"
+msgstr "Dell USB Multimedia Keyboard"
 
 #: ../rules/base.xml.in.h:194
 msgid "Denmark"
-msgstr "Danimarka"
+msgstr "Danija"
 
 #: ../rules/base.xml.in.h:195
 msgid "Deu"
-msgstr "Alm"
+msgstr "Deu"
 
 #: ../rules/base.xml.in.h:196
 msgid "Dexxa Wireless Desktop Keyboard"
-msgstr "Dexxa Kablosuz Masaüstü Klavyesi"
+msgstr "Dexxa Wireless Desktop Keyboard"
 
 #: ../rules/base.xml.in.h:197
 msgid "Diamond 9801 / 9802 series"
-msgstr "Diamond 9801 / 9802 serileri"
+msgstr "Diamond 9801 / 9802 serija"
 
 #: ../rules/base.xml.in.h:198
 msgid "Dvorak"
-msgstr "Dvorak"
+msgstr "Dvorako"
 
 #: ../rules/base.xml.in.h:199
 msgid "Dvorak (UK Punctuation)"
-msgstr "Dvorak (Birleşken Qırallıq Noqtalaması)"
+msgstr "Dvorako (JK skyryba)"
 
 #: ../rules/base.xml.in.h:200
 msgid "Dvorak international"
-msgstr "Dvorak milletlerara"
+msgstr "Dvorako tarptautinis"
 
 #: ../rules/base.xml.in.h:201
 #, fuzzy
 msgid "Dvorak, Polish quotes on key 1"
-msgstr "Dvorak, \"1/!\" tuşunda Lehçe tırnaqlar"
+msgstr "Dvorako, lenkiškos kabutės ant klavišo \"1/!\""
 
 #: ../rules/base.xml.in.h:202
 msgid "Dvorak, Polish quotes on quotemark key"
-msgstr "Dvorak, tırnaq-tamğası tuşunda Lehçe tırnaqlar"
+msgstr "Dvorako, lenkiškos kabutės ant kabučių klavišo"
 
 #: ../rules/base.xml.in.h:203
 msgid "E"
@@ -844,27 +830,28 @@ msgstr "E"
 
 #: ../rules/base.xml.in.h:204
 msgid "Eastern"
-msgstr "Şarqiy"
+msgstr "Rytų"
 
 #: ../rules/base.xml.in.h:205
 msgid "Eliminate dead keys"
-msgstr "Ölü tuşları normal yapar"
+msgstr "Be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:206
 msgid "Enable extra typographic characters"
-msgstr "Ziyade matbaa remizlerini qabilleştir"
+msgstr "Įjungti papildomus tipografinius simbolius"
 
 #: ../rules/base.xml.in.h:207
 msgid "English"
-msgstr "İnglizce"
+msgstr ""
 
 #: ../rules/base.xml.in.h:208
 msgid "Ennyah DKB-1008"
 msgstr "Ennyah DKB-1008"
 
 #: ../rules/base.xml.in.h:209
+#, fuzzy
 msgid "Enter on keypad"
-msgstr "Tuştaqımında kirsetilsin"
+msgstr "Pro, Skaitmenų sritis"
 
 #: ../rules/base.xml.in.h:210
 msgid "Epo"
@@ -872,7 +859,7 @@ msgstr "Epo"
 
 #: ../rules/base.xml.in.h:211
 msgid "Ergonomic"
-msgstr "Ergonomik"
+msgstr "Ergonominis"
 
 #: ../rules/base.xml.in.h:212
 msgid "Esp"
@@ -888,19 +875,19 @@ msgstr "Est"
 
 #: ../rules/base.xml.in.h:215
 msgid "Estonia"
-msgstr "Estonya"
+msgstr "Estija"
 
 #: ../rules/base.xml.in.h:216
 msgid "Eth"
-msgstr "Ety"
+msgstr "Eth"
 
 #: ../rules/base.xml.in.h:217
 msgid "Ethiopia"
-msgstr "Habeşistan"
+msgstr "Etiopija"
 
 #: ../rules/base.xml.in.h:218
 msgid "Evdev-managed keyboard"
-msgstr "Evdev yönetimli klavye"
+msgstr "Evdev valdoma klaviatūra"
 
 #: ../rules/base.xml.in.h:219
 msgid "Everex STEPnote"
@@ -908,23 +895,24 @@ msgstr "Everex STEPnote"
 
 #: ../rules/base.xml.in.h:220
 msgid "Ewe"
-msgstr "Eve"
+msgstr "Ewe"
 
 #: ../rules/base.xml.in.h:221
 msgid "Extended"
-msgstr "Uzatılğan"
+msgstr "Išplėstasis"
 
 #: ../rules/base.xml.in.h:222
+#, fuzzy
 msgid "Extended - Winkeys"
-msgstr "Uzatılğan - Win-tuşları"
+msgstr "Išplėstasis"
 
 #: ../rules/base.xml.in.h:223
 msgid "Extended Backslash"
-msgstr "Uzatılğan Kerisilme"
+msgstr "Išplėstas kairinis brūkšnys"
 
 #: ../rules/base.xml.in.h:224
 msgid "F-letter (F) variant"
-msgstr "F harfli (F) türü"
+msgstr "F raidės (F) variantas"
 
 #: ../rules/base.xml.in.h:225
 msgid "FL90"
@@ -936,7 +924,7 @@ msgstr "Fao"
 
 #: ../rules/base.xml.in.h:227
 msgid "Faroe Islands"
-msgstr "Faroe Adaları"
+msgstr "Farerai"
 
 #: ../rules/base.xml.in.h:228
 msgid "Fin"
@@ -944,29 +932,29 @@ msgstr "Fin"
 
 #: ../rules/base.xml.in.h:229
 msgid "Finland"
-msgstr "Finlandiya"
+msgstr "Suomija"
 
 #. This assumes the KP_ abstract symbols are actually useful for some apps
 #. The description needs to be rewritten
 #: ../rules/base.xml.in.h:232
 msgid "Four-level key with abstract separators"
-msgstr "Mücerret ayırğıçlarnen dördünci seviye tuşu"
+msgstr "Keturių lygių, su abstrakčiais skyrikliais"
 
 #: ../rules/base.xml.in.h:233
 msgid "Four-level key with comma"
-msgstr "Virgülnen dördünci seviye tuşu"
+msgstr "Keturių lygių, pirmajame kablelis"
 
 #: ../rules/base.xml.in.h:234
 msgid "Four-level key with dot"
-msgstr "Noqtanen dördünci seviye tuşu"
+msgstr "Keturių lygių, pirmajame taškas"
 
 #: ../rules/base.xml.in.h:235
 msgid "Four-level key with dot, latin-9 restriction"
-msgstr "Noqtanen dördünci seviye tuşu, latin-9 sıñırlaması"
+msgstr "Keturių lygių, pirmajame taškas, Latin-9 ribojimas"
 
 #: ../rules/base.xml.in.h:236
 msgid "Four-level key with momayyez"
-msgstr "Momayyez ile dördünci seviye tuşu"
+msgstr "Keturių lygių, pirmajame persiškas skyriklis (momayyez)"
 
 #: ../rules/base.xml.in.h:237
 msgid "Fra"
@@ -974,35 +962,35 @@ msgstr "Fra"
 
 #: ../rules/base.xml.in.h:238
 msgid "France"
-msgstr "Fransa"
+msgstr "Prancūzija"
 
 #: ../rules/base.xml.in.h:239
 msgid "French"
-msgstr "Fransızca"
+msgstr "Prancūzų"
 
 #: ../rules/base.xml.in.h:240
 msgid "French (Macintosh)"
-msgstr "Fransız (Makintoş)"
+msgstr "Prancūzų (Macintosh)"
 
 #: ../rules/base.xml.in.h:241
 msgid "French (legacy)"
-msgstr "Fransızca (qadim)"
+msgstr "Prancūzų (senasis)"
 
 #: ../rules/base.xml.in.h:242
 msgid "French Dvorak"
-msgstr "Fransızca Dvorak"
+msgstr "Prancūziškas Dvorako"
 
 #: ../rules/base.xml.in.h:243
 msgid "French, Sun dead keys"
-msgstr "Fransızca, Sun ölü tuşlar"
+msgstr "Prancūzų, su Sun tęsties ženklais"
 
 #: ../rules/base.xml.in.h:244
 msgid "French, eliminate dead keys"
-msgstr "Fransızca, ölü tuşsuz"
+msgstr "Prancūzų, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:245
 msgid "Fujitsu-Siemens Computers AMILO laptop"
-msgstr "Fujitsu-Siemens Bilgisayarları AMILO tizüstü"
+msgstr "Fujitsu-Siemens Computers AMILO skreitinukas"
 
 #: ../rules/base.xml.in.h:246
 msgid "Fula"
@@ -1018,19 +1006,19 @@ msgstr "Ga"
 
 #: ../rules/base.xml.in.h:249
 msgid "Generic 101-key PC"
-msgstr "Soysal 101 tuşlu PC"
+msgstr "Įprastinė PC 101 klavišo"
 
 #: ../rules/base.xml.in.h:250
 msgid "Generic 102-key (Intl) PC"
-msgstr "Soysal 102 tuşlu (Uluslararası) PC"
+msgstr "Įprastinė PC 102 klavišų (europinė)"
 
 #: ../rules/base.xml.in.h:251
 msgid "Generic 104-key PC"
-msgstr "Soysal 104 tuşlu PC"
+msgstr "Įprastinė PC 104 klavišų"
 
 #: ../rules/base.xml.in.h:252
 msgid "Generic 105-key (Intl) PC"
-msgstr "Soysal 105 tuşlu (uluslararası) PC"
+msgstr "Įprastinė PC 105 klavišų (europinė)"
 
 #: ../rules/base.xml.in.h:253
 msgid "Genius Comfy KB-12e"
@@ -1049,8 +1037,9 @@ msgid "Genius KB-19e NB"
 msgstr "Genius KB-19e NB"
 
 #: ../rules/base.xml.in.h:257
+#, fuzzy
 msgid "Genius KKB-2050HS"
-msgstr "Genius KKB-2050HS"
+msgstr "Genius Comfy KB-12e"
 
 #: ../rules/base.xml.in.h:258
 msgid "Geo"
@@ -1058,31 +1047,31 @@ msgstr "Geo"
 
 #: ../rules/base.xml.in.h:259
 msgid "Georgia"
-msgstr "Gürcistan"
+msgstr "Gruzija"
 
 #: ../rules/base.xml.in.h:260
 msgid "Georgian"
-msgstr "Gürci"
+msgstr "Gruzinų"
 
 #: ../rules/base.xml.in.h:261
 msgid "Georgian AZERTY Tskapo"
-msgstr "Gürci AZERTY Tskapo"
+msgstr "Gruzinų AZERTY Tskapo"
 
 #: ../rules/base.xml.in.h:262
 msgid "German (Macintosh)"
-msgstr "Alman (Makintoş)"
+msgstr "Vokiečių (Macintosh)"
 
 #: ../rules/base.xml.in.h:263
 msgid "German, Sun dead keys"
-msgstr "Almanca, Sun ölü tuşlar"
+msgstr "Vokiečių, su Sun tęsties ženklais"
 
 #: ../rules/base.xml.in.h:264
 msgid "German, eliminate dead keys"
-msgstr "Almanca, ölü tuşsuz"
+msgstr "Vokiečių, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:265
 msgid "Germany"
-msgstr "Almanya"
+msgstr "Vokietija"
 
 #: ../rules/base.xml.in.h:266
 msgid "Gha"
@@ -1098,51 +1087,51 @@ msgstr "Gre"
 
 #: ../rules/base.xml.in.h:269
 msgid "Greece"
-msgstr "Yunanistan"
+msgstr "Graikija"
 
 #: ../rules/base.xml.in.h:270
 msgid "Group toggle on multiply/divide key"
-msgstr "Arttır/Böl tuşu üzerine zümreni almaştır"
+msgstr "Grupė perjungiama daugybos/dalybos klavišu"
 
 #: ../rules/base.xml.in.h:271
 msgid "Gui"
-msgstr "Qıllanıcı Arayüzü (Gui)"
+msgstr "Gui"
 
 #: ../rules/base.xml.in.h:272
 msgid "Guinea"
-msgstr "Gine"
+msgstr "Gvinėja"
 
 #: ../rules/base.xml.in.h:273
 msgid "Gujarati"
-msgstr "Batı Hint dili"
+msgstr "Gudžarati"
 
 #: ../rules/base.xml.in.h:274
 msgid "Gurmukhi"
-msgstr "Gurmuki"
+msgstr "Gurmukhi"
 
 #: ../rules/base.xml.in.h:275
 msgid "Gurmukhi Jhelum"
-msgstr "Gurmuki Jhelum"
+msgstr "Gurmukhi Jhelum"
 
 #: ../rules/base.xml.in.h:276
 msgid "Gyration"
-msgstr "Çekimsel"
+msgstr "Gyration"
 
 #: ../rules/base.xml.in.h:277
 msgid "Happy Hacking Keyboard"
-msgstr "Happy Hacking Klavyesi"
+msgstr "Happy Hacking Keyboard"
 
 #: ../rules/base.xml.in.h:278
 msgid "Happy Hacking Keyboard for Mac"
-msgstr "Mac içün Happy Hacking Klavyesi"
+msgstr "Happy Hacking Keyboard for Mac"
 
 #: ../rules/base.xml.in.h:279
 msgid "Hausa"
-msgstr "Havza"
+msgstr "Hausa"
 
 #: ../rules/base.xml.in.h:280
 msgid "Hewlett-Packard Internet Keyboard"
-msgstr "Hewlett-Packard İnternet Klavyesi"
+msgstr "Hewlett-Packard Internet Keyboard"
 
 #: ../rules/base.xml.in.h:281
 msgid "Hewlett-Packard Omnibook 500 FA"
@@ -1178,28 +1167,27 @@ msgstr "Hewlett-Packard Pavilion dv5"
 
 #: ../rules/base.xml.in.h:289
 msgid "Hewlett-Packard SK-250x Multimedia Keyboard"
-msgstr "Hewlett-Packard SK-250x Çoqlumüit Klavyesi"
+msgstr "Hewlett-Packard SK-250x Multimedia Keyboard"
 
 #: ../rules/base.xml.in.h:290
 msgid "Hewlett-Packard nx9020"
 msgstr "Hewlett-Packard nx9020"
 
-# tüklü
 #: ../rules/base.xml.in.h:291
 msgid "Hexadecimal"
-msgstr "Onaltıdalıq"
+msgstr "Šešioliktainė"
 
 #: ../rules/base.xml.in.h:292
 msgid "Hindi Bolnagri"
-msgstr "Hindce Bolnagri"
+msgstr "Hindi Bolnagri"
 
 #: ../rules/base.xml.in.h:293
 msgid "Hindi Wx"
-msgstr "Hindce Wx"
+msgstr ""
 
 #: ../rules/base.xml.in.h:294
 msgid "Homophonic"
-msgstr "Davuştaş (Homophonic)"
+msgstr "Homofoninė"
 
 #: ../rules/base.xml.in.h:295
 msgid "Honeywell Euroboard"
@@ -1211,15 +1199,15 @@ msgstr "Hrv"
 
 #: ../rules/base.xml.in.h:297
 msgid "Hun"
-msgstr "Mcr"
+msgstr "Hun"
 
 #: ../rules/base.xml.in.h:298
 msgid "Hungary"
-msgstr "Macaristan"
+msgstr "Vengrija"
 
 #: ../rules/base.xml.in.h:299
 msgid "Hyper is mapped to Win-keys"
-msgstr "Hyper, Pencereler-tuşlarına (Win) haritalandırılır"
+msgstr "Win klavišams priskirti Hyper funkciją"
 
 #: ../rules/base.xml.in.h:300
 msgid "IBM (LST 1205-92)"
@@ -1227,15 +1215,15 @@ msgstr "IBM (LST 1205-92)"
 
 #: ../rules/base.xml.in.h:301
 msgid "IBM Rapid Access"
-msgstr "IBM Hızlı Erişim"
+msgstr "IBM Rapid Access"
 
 #: ../rules/base.xml.in.h:302
 msgid "IBM Rapid Access II"
-msgstr "IBM Hızlı Erişim II"
+msgstr "IBM Rapid Access II"
 
 #: ../rules/base.xml.in.h:303
 msgid "IBM Space Saver"
-msgstr "IBM Feza Saqlayıcı (Space Saver)"
+msgstr "IBM Space Saver"
 
 #: ../rules/base.xml.in.h:304
 msgid "IBM ThinkPad 560Z/600/600E/A22E"
@@ -1243,7 +1231,7 @@ msgstr "IBM ThinkPad 560Z/600/600E/A22E"
 
 #: ../rules/base.xml.in.h:305
 msgid "IBM ThinkPad 560Z/600/600E/A22E, Intl"
-msgstr "IBM ThinkPad 560Z/600/600E/A22E, Intl"
+msgstr "IBM ThinkPad 560Z/600/600E/A22E (europinė)"
 
 #: ../rules/base.xml.in.h:306
 msgid "IBM ThinkPad R60/T60/R61/T61"
@@ -1255,11 +1243,11 @@ msgstr "IBM ThinkPad Z60m/Z60t/Z61m/Z61t"
 
 #: ../rules/base.xml.in.h:308
 msgid "ISO Alternate"
-msgstr "ISO diğer"
+msgstr "ISO alternatyvusis"
 
 #: ../rules/base.xml.in.h:309
 msgid "Iceland"
-msgstr "İzlanda"
+msgstr "Islandija"
 
 #: ../rules/base.xml.in.h:310
 msgid "Igbo"
@@ -1267,7 +1255,7 @@ msgstr "Igbo"
 
 #: ../rules/base.xml.in.h:311
 msgid "Include dead tilde"
-msgstr "Ölü tildeni kirset"
+msgstr "Tildė veikia kaip tęsties ženklas"
 
 #: ../rules/base.xml.in.h:312
 msgid "Ind"
@@ -1275,35 +1263,35 @@ msgstr "Ind"
 
 #: ../rules/base.xml.in.h:313
 msgid "India"
-msgstr "Hindistan"
+msgstr "Indija"
 
 #: ../rules/base.xml.in.h:314
 msgid "International (AltGr dead keys)"
-msgstr "Milletlerara (AltGr ölü tuşlarınen)"
+msgstr "Tarptautinis (tęsties ženklai pasiekiami per Lyg3 klavišą)"
 
 #: ../rules/base.xml.in.h:315
 msgid "International (with dead keys)"
-msgstr "Milletlerara (ölü tuşlarnen)"
+msgstr "Tarptautinis (su tęsties ženklais)"
 
 #: ../rules/base.xml.in.h:316
 msgid "Inuktitut"
-msgstr "Inuktitut"
+msgstr "Inuktitutas"
 
 #: ../rules/base.xml.in.h:317
 msgid "Iran"
-msgstr "İran"
+msgstr "Iranas"
 
 #: ../rules/base.xml.in.h:318
 msgid "Iraq"
-msgstr "Irak"
+msgstr "Irakas"
 
 #: ../rules/base.xml.in.h:319
 msgid "Ireland"
-msgstr "İrlanda"
+msgstr "Airija"
 
 #: ../rules/base.xml.in.h:320
 msgid "Irl"
-msgstr "İrl"
+msgstr "Irl"
 
 #: ../rules/base.xml.in.h:321
 msgid "Irn"
@@ -1311,39 +1299,39 @@ msgstr "Irn"
 
 #: ../rules/base.xml.in.h:322
 msgid "Irq"
-msgstr "Irk"
+msgstr "Irq"
 
 #: ../rules/base.xml.in.h:323
 msgid "Isl"
-msgstr "Izl"
+msgstr "Isl"
 
 #: ../rules/base.xml.in.h:324
 msgid "Isr"
-msgstr "İbr"
+msgstr "Isr"
 
 #: ../rules/base.xml.in.h:325
 msgid "Israel"
-msgstr "İsrail"
+msgstr "Izraelis"
 
 #: ../rules/base.xml.in.h:326
 msgid "Ita"
-msgstr "İta"
+msgstr "Ita"
 
 #: ../rules/base.xml.in.h:327
 msgid "Italy"
-msgstr "İtalya"
+msgstr "Italija"
 
 #: ../rules/base.xml.in.h:328
 msgid "Japan"
-msgstr "Japonya"
+msgstr "Japonija"
 
 #: ../rules/base.xml.in.h:329
 msgid "Japan (PC-98xx Series)"
-msgstr "Japon (PC-98xx Series)"
+msgstr "Japoniška (PC-98xx serijos)"
 
 #: ../rules/base.xml.in.h:330
 msgid "Japanese keyboard options"
-msgstr "Japonca klavye ihtiyariyatı"
+msgstr "Nuostatos japoniškai klaviatūrai"
 
 #: ../rules/base.xml.in.h:331
 msgid "Jpn"
@@ -1351,7 +1339,7 @@ msgstr "Jpn"
 
 #: ../rules/base.xml.in.h:332
 msgid "Kalmyk"
-msgstr "Qalmıqça"
+msgstr "Kalmukų"
 
 #: ../rules/base.xml.in.h:333
 msgid "Kana"
@@ -1359,15 +1347,15 @@ msgstr "Kana"
 
 #: ../rules/base.xml.in.h:334
 msgid "Kana Lock key is locking"
-msgstr "Kana Lock tuşu kilitler"
+msgstr "Kana Lock klavišas fiksuojantis"
 
 #: ../rules/base.xml.in.h:335
 msgid "Kannada"
-msgstr "Güney Hint dili"
+msgstr "Kannada"
 
 #: ../rules/base.xml.in.h:336
 msgid "Kashubian"
-msgstr "Kaşubyalı"
+msgstr "Kašubų"
 
 #: ../rules/base.xml.in.h:337
 msgid "Kaz"
@@ -1375,44 +1363,44 @@ msgstr "Kaz"
 
 #: ../rules/base.xml.in.h:338
 msgid "Kazakh with Russian"
-msgstr "Kazak (rus)"
+msgstr "Kazachų, su rusiškomis raidėmis"
 
 #: ../rules/base.xml.in.h:339
 msgid "Kazakhstan"
-msgstr "Kazakistan"
+msgstr "Kazachstanas"
 
-# # tüklü
 #: ../rules/base.xml.in.h:340
 msgid "Key sequence to kill the X server"
-msgstr "X sunucısını öldürmek içün tuş silsilesi"
+msgstr ""
 
 #: ../rules/base.xml.in.h:341
 msgid "Key to choose 3rd level"
-msgstr "3. seviyeni saylaycaq tuş"
+msgstr "Klavišai trečiajam lygiui pasirinkti"
 
 #: ../rules/base.xml.in.h:342
 msgid "Key(s) to change layout"
-msgstr "Tizilimni deñiştirecek tuş(lar)"
+msgstr "Klavišai išdėstymui pakeisti"
 
 #: ../rules/base.xml.in.h:343
 msgid "Keypad"
-msgstr "Tuştaqımı"
+msgstr "Skaitmenų sritis"
 
 #: ../rules/base.xml.in.h:344
 msgid "Keytronic FlexPro"
 msgstr "Keytronic FlexPro"
 
 #: ../rules/base.xml.in.h:345
+#, fuzzy
 msgid "Kgz"
-msgstr "Kgz"
+msgstr "Kaz"
 
 #: ../rules/base.xml.in.h:346
 msgid "Khm"
-msgstr "Kım"
+msgstr "Khm"
 
 #: ../rules/base.xml.in.h:347
 msgid "Komi"
-msgstr "Komice"
+msgstr "Komija"
 
 #: ../rules/base.xml.in.h:348
 msgid "Kor"
@@ -1420,38 +1408,36 @@ msgstr "Kor"
 
 #: ../rules/base.xml.in.h:349
 msgid "Korea, Republic of"
-msgstr "Kore Cumhuriyeti"
+msgstr "Korėjos respublika"
 
-# tüklü
 #: ../rules/base.xml.in.h:350
 msgid "Ktunaxa"
-msgstr "Ktunaxa"
+msgstr "Kutenajų"
 
 #: ../rules/base.xml.in.h:351
 msgid "Kurdish, (F)"
-msgstr "Kürtçe (Türkçe F klavye)"
+msgstr "Kurdų, (F)"
 
 #: ../rules/base.xml.in.h:352
 msgid "Kurdish, Arabic-Latin"
-msgstr "Kürtçe (Arapça-Latin)"
+msgstr "Kurdų, arabų-lotynų"
 
 #: ../rules/base.xml.in.h:353
 msgid "Kurdish, Latin Alt-Q"
-msgstr "Kürtçe (Türkçe Alt-Q klavye)"
+msgstr "Kurdų (lotyniškas Alt-Q)"
 
 #: ../rules/base.xml.in.h:354
 msgid "Kurdish, Latin Q"
-msgstr "Kürtçe (Türkçe Q klavye)"
+msgstr "Kurdų (lotyniškas Q)"
 
 #: ../rules/base.xml.in.h:355
 msgid "Kyrgyzstan"
-msgstr "Kırgızistan"
+msgstr "Kirgizija"
 
 #: ../rules/base.xml.in.h:356
 msgid "LAm"
 msgstr "LAm"
 
-# tüklü
 #: ../rules/base.xml.in.h:357
 msgid "LEKP"
 msgstr "LEKP"
@@ -1466,55 +1452,55 @@ msgstr "Lao"
 
 #: ../rules/base.xml.in.h:360
 msgid "Laos"
-msgstr "Laos"
+msgstr "Laosas"
 
 #: ../rules/base.xml.in.h:361
 msgid "Laptop/notebook Compaq (eg. Armada) Laptop Keyboard"
-msgstr "Tizüstü/defter Compaq (örn. Armada) Tizüstü Klavyesi"
+msgstr "Skreitinuko Compaq (pvz., Armada) klaviatūra"
 
 #: ../rules/base.xml.in.h:362
 msgid "Laptop/notebook Compaq (eg. Presario) Internet Keyboard"
-msgstr "Tizüstü/defter Compaq (örn. Presario) İnternet Klavyesi"
+msgstr "Skreitinukas Compaq (pvz., Presario), internetinė klaviatūra"
 
 #: ../rules/base.xml.in.h:363
 msgid "Laptop/notebook eMachines m68xx"
-msgstr "Tizüstü/defter eMachines m68xx"
+msgstr "Skreitinukas eMachines m68xx"
 
 #: ../rules/base.xml.in.h:364
 msgid "Latin"
-msgstr "Latin"
+msgstr "Lotyniškasis"
 
 #: ../rules/base.xml.in.h:365
 msgid "Latin American"
-msgstr "Latin Amerikan"
+msgstr "Lotynų Amerika"
 
 #: ../rules/base.xml.in.h:366
 msgid "Latin Unicode"
-msgstr "Latin Unicode"
+msgstr "Lotyniškasis unikodinis"
 
 #: ../rules/base.xml.in.h:367
 msgid "Latin Unicode qwerty"
-msgstr "Latin Unicode qwerty"
+msgstr "Lotyniškasis unikodinis, QWERTY"
 
 #: ../rules/base.xml.in.h:368
 msgid "Latin qwerty"
-msgstr "Latin qwerty"
+msgstr "Lotyniškasis QWERTY"
 
 #: ../rules/base.xml.in.h:369
 msgid "Latin unicode"
-msgstr "Latin unikod"
+msgstr "Lotyniškasis unikodinis"
 
 #: ../rules/base.xml.in.h:370
 msgid "Latin unicode qwerty"
-msgstr "Latin unikod qwerty"
+msgstr "Lotyniškasis unikodinis, raidės Z ir Ž sukeistos"
 
 #: ../rules/base.xml.in.h:371
 msgid "Latin with guillemets"
-msgstr "Açılı ayraçlarla Latin"
+msgstr "Lotyniškasis, su kampinėmis kabutėmis"
 
 #: ../rules/base.xml.in.h:372
 msgid "Latvia"
-msgstr "Letonya"
+msgstr "Latvija"
 
 #: ../rules/base.xml.in.h:373
 msgid "Lav"
@@ -1522,72 +1508,72 @@ msgstr "Lav"
 
 #: ../rules/base.xml.in.h:374
 msgid "Left Alt"
-msgstr "Sol Alt"
+msgstr "Kairysis Alt"
 
 #: ../rules/base.xml.in.h:375
 msgid "Left Alt (while pressed)"
-msgstr "Sol Alt tuşu (basıq olğanda)"
+msgstr "Kairysis Alt (kol nuspaustas)"
 
 #: ../rules/base.xml.in.h:376
 msgid "Left Alt is swapped with Left Win"
-msgstr "Sol Alt tuşu, sol Pencereler (Win) tuşunen almaştırılır"
+msgstr "Kairysis Alt sukeistas su kairiuoju Win"
 
 #: ../rules/base.xml.in.h:377
 msgid "Left Ctrl"
-msgstr "Sol Ctrl"
+msgstr "Kairysis Vald"
 
 #: ../rules/base.xml.in.h:378
 msgid "Left Ctrl+Left Shift"
-msgstr "Sol Ctrl+Sol Shift"
+msgstr "Kairysis Vald+kairysis Lyg2"
 
 #: ../rules/base.xml.in.h:379
 msgid "Left Shift"
-msgstr "Sol Shift"
+msgstr "Kairysis Lyg2"
 
 #: ../rules/base.xml.in.h:380
 msgid "Left Win"
-msgstr "Sol Win"
+msgstr "Kairysis Win"
 
 #: ../rules/base.xml.in.h:381
 msgid "Left Win (to first layout), Right Win/Menu (to last layout)"
-msgstr "Sol Pencereler (Win) (birinci tizilimge almaştırır), Sağ Pencereler/Menü (soñkisine)"
+msgstr "Kairysis Win (į pirmąjį išdėstymą), dešinysis Win/Meniu (į paskutinį išdėstymą)"
 
 #: ../rules/base.xml.in.h:382
 msgid "Left Win (while pressed)"
-msgstr "Sol Pencereler (Win) tuşu (basıq olğanda)"
+msgstr "Kairysis Win (kol nuspaustas)"
 
 #: ../rules/base.xml.in.h:383
 msgid "Left hand"
-msgstr "Solak"
+msgstr "Kairei rankai"
 
 #: ../rules/base.xml.in.h:384
 msgid "Left handed Dvorak"
-msgstr "Solak Dvorak"
+msgstr "Dvorako kairiarankiams"
 
 #: ../rules/base.xml.in.h:385
 msgid "Legacy"
-msgstr "Qadim"
+msgstr "Senasis"
 
 #: ../rules/base.xml.in.h:386
 msgid "Legacy Wang 724"
-msgstr "Qadim Wang 724"
+msgstr "Senasis Wang 724"
 
 #. Actually, with KP_SEPARATOR, as the old keypad(comma)
 #: ../rules/base.xml.in.h:388
 msgid "Legacy key with comma"
-msgstr "Virgülnen qadim tuş"
+msgstr "Paveldėtasis klavišas su kableliu"
 
 #: ../rules/base.xml.in.h:389
 msgid "Legacy key with dot"
-msgstr "Noqtanen qadim tuş"
+msgstr "Paveldėtasis klavišas su tašku"
 
 #: ../rules/base.xml.in.h:390
 msgid "Less-than/Greater-than"
-msgstr "Daa kiçik/Daa büyük"
+msgstr "Mažiau/Daugiau"
 
 #: ../rules/base.xml.in.h:391
 msgid "Lithuania"
-msgstr "Litvanya"
+msgstr "Lietuva"
 
 #: ../rules/base.xml.in.h:392
 msgid "Logitech Access Keyboard"
@@ -1595,68 +1581,68 @@ msgstr "Logitech Access Keyboard"
 
 #: ../rules/base.xml.in.h:393
 msgid "Logitech Cordless Desktop"
-msgstr "Logitech Kabelsiz Masaüstü"
+msgstr "Logitech Cordless Desktop"
 
-# tüklü
 #: ../rules/base.xml.in.h:394
 msgid "Logitech Cordless Desktop (alternate option)"
-msgstr "Logitech Kabelsiz Masaüstü (alternativ ihtiyariyat)"
+msgstr "Logitech Cordless Desktop (alternatyvus variantas)"
 
 #: ../rules/base.xml.in.h:395
 msgid "Logitech Cordless Desktop EX110"
-msgstr "Logitech Kabelsiz Masaüstü EX110"
+msgstr "Logitech Cordless Desktop EX110"
 
 #: ../rules/base.xml.in.h:396
 msgid "Logitech Cordless Desktop LX-300"
-msgstr "Logitech Kablosuz Masaüstü LX-300"
+msgstr "Logitech Cordless Desktop LX-300"
 
 #: ../rules/base.xml.in.h:397
 msgid "Logitech Cordless Desktop Navigator"
-msgstr "Logitech Kablosuz Masaüstü Yürsetici"
+msgstr "Logitech Cordless Desktop Navigator"
 
 #: ../rules/base.xml.in.h:398
 msgid "Logitech Cordless Desktop Optical"
-msgstr "Logitech Kablosuz Masaüstü Optik"
+msgstr "Logitech Cordless Desktop Optical"
 
 #: ../rules/base.xml.in.h:399
+#, fuzzy
 msgid "Logitech Cordless Desktop Pro (alternate option 2)"
-msgstr "Logitech Kabelsiz Masaüstü Pro (almaşıq ihtiyar 2)"
+msgstr "Logitech Cordless Desktop Pro (alternatyvus variantas2)"
 
 #: ../rules/base.xml.in.h:400
 msgid "Logitech Cordless Desktop iTouch"
-msgstr "Logitech Kablosuz Masaüstü iTouch"
+msgstr "Logitech Cordless Desktop iTouch"
 
 #: ../rules/base.xml.in.h:401
 msgid "Logitech Cordless Freedom/Desktop Navigator"
-msgstr "Logitech Kablosuz Özgür/Masaüstü Yürsetici"
+msgstr "Logitech Cordless Freedom/Desktop Navigator"
 
 #: ../rules/base.xml.in.h:402
 msgid "Logitech G15 extra keys via G15daemon"
-msgstr "Logitech G15, G15daemon üzerinden ek tuşlu"
+msgstr "Logitech G15 (papildomi klavišai G15daemon pagalba)"
 
 #: ../rules/base.xml.in.h:403
 msgid "Logitech Generic Keyboard"
-msgstr "Logitech Umumiy Klavyesi"
+msgstr "Logitech Generic Keyboard"
 
 #: ../rules/base.xml.in.h:404
 msgid "Logitech Internet 350 Keyboard"
-msgstr "Logitech İnternet 350 Klavyesi"
+msgstr "Logitech Internet 350 Keyboard"
 
 #: ../rules/base.xml.in.h:405
 msgid "Logitech Internet Keyboard"
-msgstr "Logitech İnternet Klavyesi"
+msgstr "Logitech Internet Keyboard"
 
 #: ../rules/base.xml.in.h:406
 msgid "Logitech Internet Navigator Keyboard"
-msgstr "Logitech İnternet Yürsetici Klavyesi"
+msgstr "Logitech Internet Navigator Keyboard"
 
 #: ../rules/base.xml.in.h:407
 msgid "Logitech Media Elite Keyboard"
-msgstr "Logitech Vasta Elit Klavye"
+msgstr "Logitech Media Elite Keyboard"
 
 #: ../rules/base.xml.in.h:408
 msgid "Logitech Ultra-X Cordless Media Desktop Keyboard"
-msgstr "Logitech Ultra-X Kabelsiz Vasta Masaüstü Klavyesi"
+msgstr "Logitech Ultra-X Cordless Media Desktop Keyboard"
 
 #: ../rules/base.xml.in.h:409
 msgid "Logitech Ultra-X Keyboard"
@@ -1664,11 +1650,11 @@ msgstr "Logitech Ultra-X Keyboard"
 
 #: ../rules/base.xml.in.h:410
 msgid "Logitech diNovo Edge Keyboard"
-msgstr "Logitech diNovo Edge Klavyesi"
+msgstr "Logitech diNovo Edge Keyboard"
 
 #: ../rules/base.xml.in.h:411
 msgid "Logitech diNovo Keyboard"
-msgstr "Logitech Access Klavye"
+msgstr "Logitech diNovo Keyboard"
 
 #: ../rules/base.xml.in.h:412
 msgid "Logitech iTouch"
@@ -1676,24 +1662,23 @@ msgstr "Logitech iTouch"
 
 #: ../rules/base.xml.in.h:413
 msgid "Logitech iTouch Cordless Keyboard (model Y-RB6)"
-msgstr "Logitech iTouch Kablosuz Klavyesi (model Y-RB6)"
+msgstr "Logitech iTouch Cordless Keyboard (modelis Y-RB6)"
 
 #: ../rules/base.xml.in.h:414
 msgid "Logitech iTouch Internet Navigator Keyboard SE"
-msgstr "Logitech iTouch İnternet Yürsetici Klavyesi SE"
+msgstr "Logitech iTouch Internet Navigator Keyboard SE"
 
 #: ../rules/base.xml.in.h:415
 msgid "Logitech iTouch Internet Navigator Keyboard SE (USB)"
-msgstr "Logitech iTouch İnternet Yürsetici Klavyesi SE (USB)"
+msgstr "Logitech iTouch Internet Navigator Keyboard SE (USB)"
 
-# tüklü
 #: ../rules/base.xml.in.h:416
 msgid "Lower Sorbian"
-msgstr "Alt Sorbian"
+msgstr "Žemutinių sorbų"
 
 #: ../rules/base.xml.in.h:417
 msgid "Lower Sorbian (qwertz)"
-msgstr "Alt Sorbian (qwertz)"
+msgstr "Žemutinių sorbų (QWERTZ)"
 
 #: ../rules/base.xml.in.h:418
 msgid "Ltu"
@@ -1703,7 +1688,6 @@ msgstr "Ltu"
 msgid "MESS"
 msgstr "MESS"
 
-# tüklü
 #: ../rules/base.xml.in.h:420
 msgid "MNE"
 msgstr "MNE"
@@ -1714,11 +1698,11 @@ msgstr "MacBook/MacBook Pro"
 
 #: ../rules/base.xml.in.h:422
 msgid "MacBook/MacBook Pro (Intl)"
-msgstr "MacBook/MacBook Pro (Milletlerara)"
+msgstr "MacBook/MacBook Pro (europinė)"
 
 #: ../rules/base.xml.in.h:423
 msgid "Macedonia"
-msgstr "Makedonya"
+msgstr "Makedonija"
 
 #: ../rules/base.xml.in.h:424
 msgid "Macintosh"
@@ -1726,27 +1710,27 @@ msgstr "Macintosh"
 
 #: ../rules/base.xml.in.h:425
 msgid "Macintosh Old"
-msgstr "Eski Macintosh"
+msgstr "Macintosh (senoji)"
 
 #: ../rules/base.xml.in.h:426
 msgid "Macintosh, Sun dead keys"
-msgstr "Makintoş, Sun ölü tuşlar"
+msgstr "Macintosh, su Sun tęsties ženklais"
 
 #: ../rules/base.xml.in.h:427
 msgid "Macintosh, eliminate dead keys"
-msgstr "Makintoş, ölü tuşsuz"
+msgstr "Macintosh, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:428
 msgid "Make CapsLock an additional Backspace"
-msgstr "CapsLock tuşunı ek bir Kerisilme (Backspace) yap"
+msgstr "Didžiųjų raidžių klavišą paversti papildomu Naikinimo kairėn (Backspace) klavišu"
 
 #: ../rules/base.xml.in.h:429
 msgid "Make CapsLock an additional Ctrl"
-msgstr "CapsLock tuşunı ek bir Ctrl yap"
+msgstr "Didžiųjų raidžių klavišą paversti papildomu Valdymo klavišu"
 
 #: ../rules/base.xml.in.h:430
 msgid "Make CapsLock an additional ESC"
-msgstr "CapsLock tuşunı ek bir ESC yap"
+msgstr "Didžiųjų raidžių klavišą paversti papildomu Grįžimo (Esc) klavišu"
 
 #: ../rules/base.xml.in.h:431
 msgid "Mal"
@@ -1754,15 +1738,15 @@ msgstr "Mal"
 
 #: ../rules/base.xml.in.h:432
 msgid "Malayalam"
-msgstr "Malayalam tili"
+msgstr "Malajalių"
 
 #: ../rules/base.xml.in.h:433
 msgid "Malayalam Lalitha"
-msgstr "Malayalam Lalitha tili"
+msgstr "Malajalių Lalitha"
 
 #: ../rules/base.xml.in.h:434
 msgid "Maldives"
-msgstr "Maldivler"
+msgstr "Maldyvai"
 
 #: ../rules/base.xml.in.h:435
 msgid "Malta"
@@ -1770,7 +1754,7 @@ msgstr "Malta"
 
 #: ../rules/base.xml.in.h:436
 msgid "Maltese keyboard with US layout"
-msgstr "Ameriken yerleşimli Maltız klavyesi"
+msgstr "Maltiečių klaviatūra su JAV išdėstymu"
 
 #: ../rules/base.xml.in.h:437
 msgid "Mao"
@@ -1778,7 +1762,7 @@ msgstr "Mao"
 
 #: ../rules/base.xml.in.h:438
 msgid "Maori"
-msgstr "Mayorka"
+msgstr "Maorių"
 
 #: ../rules/base.xml.in.h:439
 msgid "Memorex MX1998"
@@ -1786,7 +1770,7 @@ msgstr "Memorex MX1998"
 
 #: ../rules/base.xml.in.h:440
 msgid "Memorex MX2500 EZ-Access Keyboard"
-msgstr "Memorex MX2500 EZ Erişim Klavyesi"
+msgstr "Memorex MX2500 EZ-Access Keyboard"
 
 #: ../rules/base.xml.in.h:441
 msgid "Memorex MX2750"
@@ -1794,15 +1778,15 @@ msgstr "Memorex MX2750"
 
 #: ../rules/base.xml.in.h:442
 msgid "Menu"
-msgstr "Menü"
+msgstr "Meniu"
 
 #: ../rules/base.xml.in.h:443
 msgid "Meta is mapped to Left Win"
-msgstr "Meta, sol Pencereler tuşuna (Win) haritalandırılır"
+msgstr "Kairiajam Win klavišui priskirti Meta funkciją"
 
 #: ../rules/base.xml.in.h:444
 msgid "Meta is mapped to Win keys"
-msgstr "Meta, Pencereler tuşlarına (Win) haritalandırılır"
+msgstr "Win klavišams priskirti Meta funkciją"
 
 #: ../rules/base.xml.in.h:445
 msgid "Microsoft Comfort Curve Keyboard 2000"
@@ -1810,27 +1794,27 @@ msgstr "Microsoft Comfort Curve Keyboard 2000"
 
 #: ../rules/base.xml.in.h:446
 msgid "Microsoft Internet Keyboard"
-msgstr "Microsoft İnternet Klavyesi"
+msgstr "Microsoft Internet Keyboard"
 
 #: ../rules/base.xml.in.h:447
 msgid "Microsoft Internet Keyboard Pro, Swedish"
-msgstr "Microsoft İnternet Klavyesi Pro, İsveçce"
+msgstr "Microsoft Internet Keyboard Pro, Švediška"
 
 #: ../rules/base.xml.in.h:448
 msgid "Microsoft Natural"
-msgstr "Microsoft Basit"
+msgstr "Microsoft Natural"
 
 #: ../rules/base.xml.in.h:449
 msgid "Microsoft Natural Keyboard Elite"
-msgstr "Microsoft Tabiiy Klavye Elit"
+msgstr "Microsoft Natural Keyboard Elite"
 
 #: ../rules/base.xml.in.h:450
 msgid "Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro"
-msgstr "Microsoft Basit Klavye Pro / Microsoft İnternet Klavyesi Pro"
+msgstr "Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro"
 
 #: ../rules/base.xml.in.h:451
 msgid "Microsoft Natural Keyboard Pro OEM"
-msgstr "Microsoft Basit Klavye Pro OEM"
+msgstr "Microsoft Natural Keyboard Pro OEM"
 
 #: ../rules/base.xml.in.h:452
 msgid "Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro"
@@ -1838,11 +1822,11 @@ msgstr "Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro"
 
 #: ../rules/base.xml.in.h:453
 msgid "Microsoft Natural Wireless Ergonomic Keyboard 7000"
-msgstr "Microsoft Tabiiy Telsiz Ergonomik Klavye 7000"
+msgstr "Microsoft Natural Wireless Ergonomic Keyboard 7000"
 
 #: ../rules/base.xml.in.h:454
 msgid "Microsoft Office Keyboard"
-msgstr "Microsoft Ofis Klavyesi"
+msgstr "Microsoft Office Keyboard"
 
 #: ../rules/base.xml.in.h:455
 msgid "Microsoft Wireless Multimedia Keyboard 1.0A"
@@ -1850,7 +1834,7 @@ msgstr "Microsoft Wireless Multimedia Keyboard 1.0A"
 
 #: ../rules/base.xml.in.h:456
 msgid "Miscellaneous compatibility options"
-msgstr "Müteferriq telif qabiliyeti ihtiyariyatı"
+msgstr "Įvairios suderinamumo nuostatos"
 
 #: ../rules/base.xml.in.h:457
 msgid "Mkd"
@@ -1866,56 +1850,55 @@ msgstr "Mmr"
 
 #: ../rules/base.xml.in.h:460
 msgid "Mng"
-msgstr "Moğ"
+msgstr "Mng"
 
 #: ../rules/base.xml.in.h:461
 msgid "Mongolia"
-msgstr "Moğolistan"
+msgstr "Mongolija"
 
 #: ../rules/base.xml.in.h:462
 msgid "Montenegro"
-msgstr "Qaradağ"
+msgstr "Juodkalnija"
 
 #: ../rules/base.xml.in.h:463
 msgid "Morocco"
-msgstr "Fas"
+msgstr "Marokas"
 
 #: ../rules/base.xml.in.h:464
 msgid "Multilingual"
-msgstr "Çokdilli"
+msgstr "Daugiakalbis"
 
 #: ../rules/base.xml.in.h:465
 msgid "Multilingual, first part"
-msgstr "Çokdilli, ilk bölüm"
+msgstr "Daugiakalbis, pirmoji dalis"
 
 #: ../rules/base.xml.in.h:466
 msgid "Multilingual, second part"
-msgstr "Çokdilli, ikinci bölüm"
+msgstr "Daugiakalbis, antroji dalis"
 
 #: ../rules/base.xml.in.h:467
 msgid "Myanmar"
-msgstr "Miyanmar"
+msgstr "Mianmaras"
 
 #: ../rules/base.xml.in.h:468
 msgid "NICOLA-F style Backspace"
-msgstr "NICOLA-F uslûbı Kerisilme"
+msgstr "NICOLA-F tipo naikinimas kairėn"
 
 #: ../rules/base.xml.in.h:469
 msgid "NLA"
 msgstr "NLA"
 
-# tüklü
 #: ../rules/base.xml.in.h:470
 msgid "Nativo"
 msgstr "Nativo"
 
 #: ../rules/base.xml.in.h:471
 msgid "Nativo for Esperanto"
-msgstr "Esperanto içün Nativo"
+msgstr "Nativo Esperanto"
 
 #: ../rules/base.xml.in.h:472
 msgid "Nativo for USA keyboards"
-msgstr "AQŞ klavyeleri içün Nativo"
+msgstr "Nativo JAV klaviatūroms"
 
 #: ../rules/base.xml.in.h:473
 msgid "Neo 2"
@@ -1927,51 +1910,51 @@ msgstr "Nep"
 
 #: ../rules/base.xml.in.h:475
 msgid "Nepal"
-msgstr "Nepal"
+msgstr "Nepalas"
 
 #: ../rules/base.xml.in.h:476
 msgid "Netherlands"
-msgstr "Hollanda"
+msgstr "Nyderlandai"
 
 #: ../rules/base.xml.in.h:477
 msgid "Nig"
-msgstr "Nij"
+msgstr "Nig"
 
 #: ../rules/base.xml.in.h:478
 msgid "Nigeria"
-msgstr "Nijerya"
+msgstr "Nigerija"
 
 #: ../rules/base.xml.in.h:479
 msgid "Nld"
-msgstr "Hol"
+msgstr "Nld"
 
 #: ../rules/base.xml.in.h:480
 msgid "Non-breakable space character at fourth level"
-msgstr "Dördünci seviyede qırılamaz boşluq remzi"
+msgstr "Jungiamasis tarpas ketvirtajame lygyje"
 
 #: ../rules/base.xml.in.h:481
 msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level"
-msgstr "Dördünci seviyede qırılamaz boşluq remzi, altıncı seviyede ise ince qırılamaz boşluq remzi"
+msgstr "Jungiamasis tarpas ketvirtajame lygyje, siauras jungiamasis tarpas šeštajame lygyje"
 
 #: ../rules/base.xml.in.h:482
 msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)"
-msgstr "Dördünci seviyede qırılamaz boşluq remzi, altıncı seviyede ise ince qırılamaz boşluq remzi (Ctrl+Shift vastasınen)"
+msgstr "Jungiamasis tarpas ketvirtajame lygyje, siauras jungiamasis tarpas šeštajame lygyje (Vald+Lyg2)"
 
 #: ../rules/base.xml.in.h:483
 msgid "Non-breakable space character at second level"
-msgstr "Ekinci seviyede qırılamaz boşluq remzi"
+msgstr "Jungiamasis tarpas antrajame lygyje"
 
 #: ../rules/base.xml.in.h:484
 msgid "Non-breakable space character at third level"
-msgstr "Üçünci seviyede qırılamaz boşluq remzi"
+msgstr "Jungiamasis tarpas trečiajame lygyje"
 
 #: ../rules/base.xml.in.h:485
 msgid "Non-breakable space character at third level, nothing at fourth level"
-msgstr "Üçünci seviyede qırılamaz boşluq remzi, dördünci seviyede iç bir şey"
+msgstr "Jungiamasis tarpas trečiajame lygyje, ketvirtajame lygyje nieko"
 
 #: ../rules/base.xml.in.h:486
 msgid "Non-breakable space character at third level, thin non-breakable space character at fourth level"
-msgstr "Dördünci seviyede qırılamaz boşluq remzi, dördünci seviyede ise ince qırılamaz boşluq remzi"
+msgstr "Jungiamasis tarpas trečiajame lygyje, siauras jungiamasis tarpas ketvirtajame lygyje"
 
 #: ../rules/base.xml.in.h:487
 msgid "Nor"
@@ -1979,11 +1962,11 @@ msgstr "Nor"
 
 #: ../rules/base.xml.in.h:488
 msgid "Northern Saami"
-msgstr "Kuzey Sami"
+msgstr "Šiaurės samių"
 
 #: ../rules/base.xml.in.h:489
 msgid "Northern Saami, eliminate dead keys"
-msgstr "Kuzey Sami, ölü tuşsuz"
+msgstr "Šiaurės samių, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:490
 msgid "Northgate OmniKey 101"
@@ -1991,24 +1974,23 @@ msgstr "Northgate OmniKey 101"
 
 #: ../rules/base.xml.in.h:491
 msgid "Norway"
-msgstr "Norveç"
+msgstr "Norvegija"
 
-# tüklü
 #: ../rules/base.xml.in.h:492
 msgid "NumLock"
-msgstr "NumLock"
+msgstr "Skaitmenys"
 
 #: ../rules/base.xml.in.h:493
 msgid "Numeric keypad delete key behaviour"
-msgstr "Sayısal tuştaqımı sil tuşu davranışı"
+msgstr "Skaitmenų srities Šalinimo klavišo veiksena"
 
 #: ../rules/base.xml.in.h:494
 msgid "Numeric keypad keys work as with Mac"
-msgstr "Sayısal tuştaqımı tuşları Mac ile olğanı kibi çalışır"
+msgstr "Skaitmenų srities klavišai veikia kaip Mac'e"
 
 #: ../rules/base.xml.in.h:495
 msgid "Numeric keypad layout selection"
-msgstr "Sayısal tuştaqımı tizilimi saylamı"
+msgstr "Skaitmenų srities išdėstymo parinkimas"
 
 #: ../rules/base.xml.in.h:496
 msgid "OADG 109A"
@@ -2016,7 +1998,7 @@ msgstr "OADG 109A"
 
 #: ../rules/base.xml.in.h:497
 msgid "OLPC"
-msgstr "Bala Başına Bir Tizüstü (BBBT; OLPC)"
+msgstr "OLPC"
 
 #: ../rules/base.xml.in.h:498
 msgid "OLPC Dari"
@@ -2024,15 +2006,15 @@ msgstr "OLPC Dari"
 
 #: ../rules/base.xml.in.h:499
 msgid "OLPC Pashto"
-msgstr "OLPC Paşto"
+msgstr "OLPC Puštu"
 
 #: ../rules/base.xml.in.h:500
 msgid "OLPC Southern Uzbek"
-msgstr "OLPC Cenübiy Özbekçe"
+msgstr "OLPC Pietų Uzbekijos"
 
 #: ../rules/base.xml.in.h:501
 msgid "Occitan"
-msgstr "Occitan"
+msgstr ""
 
 #: ../rules/base.xml.in.h:502
 msgid "Ogham"
@@ -2044,27 +2026,27 @@ msgstr "Ogham IS434"
 
 #: ../rules/base.xml.in.h:504
 msgid "Oriya"
-msgstr "Orissa dili"
+msgstr "Orijų"
 
 #: ../rules/base.xml.in.h:505
 msgid "Ortek MCK-800 MM/Internet keyboard"
-msgstr "Oretec MCK-800 MM/İnternet Klavyesi"
+msgstr "Ortek MCK-800 MM/Internet keyboard"
 
 #: ../rules/base.xml.in.h:506
 msgid "Ossetian"
-msgstr "Osetçe"
+msgstr "Ossetian"
 
 #: ../rules/base.xml.in.h:507
 msgid "Ossetian, Winkeys"
-msgstr "Osetçe, Win-tuşları"
+msgstr "Osetinų, Windows išdėstymas"
 
 #: ../rules/base.xml.in.h:508
 msgid "Ossetian, legacy"
-msgstr "Osetçe, qadim"
+msgstr "Osetų, senasis"
 
 #: ../rules/base.xml.in.h:509
 msgid "PC-98xx Series"
-msgstr "PC-98xx Serisi"
+msgstr "PC-98xx Series"
 
 #: ../rules/base.xml.in.h:510
 msgid "Pak"
@@ -2072,23 +2054,24 @@ msgstr "Pak"
 
 #: ../rules/base.xml.in.h:511
 msgid "Pakistan"
-msgstr "Pakistan"
+msgstr "Pakistanas"
 
 #: ../rules/base.xml.in.h:512
 msgid "Pashto"
-msgstr "Paşto"
+msgstr "Puštu"
 
 #: ../rules/base.xml.in.h:513
 msgid "Pattachote"
-msgstr "Pataküte"
+msgstr ""
 
 #: ../rules/base.xml.in.h:514
 msgid "Phonetic"
-msgstr "Fonetik"
+msgstr "Fonetinis"
 
 #: ../rules/base.xml.in.h:515
+#, fuzzy
 msgid "Phonetic Winkeys"
-msgstr "Fonetik, Win-tuşları"
+msgstr "Osetinų, Windows išdėstymas"
 
 #: ../rules/base.xml.in.h:516
 msgid "Pol"
@@ -2096,15 +2079,15 @@ msgstr "Pol"
 
 #: ../rules/base.xml.in.h:517
 msgid "Poland"
-msgstr "Polonya"
+msgstr "Lenkija"
 
 #: ../rules/base.xml.in.h:518
 msgid "Polytonic"
-msgstr "Politonik"
+msgstr "Politoninis"
 
 #: ../rules/base.xml.in.h:519
 msgid "Portugal"
-msgstr "Portekiz"
+msgstr "Portugalija"
 
 #: ../rules/base.xml.in.h:520
 msgid "Pro"
@@ -2112,15 +2095,15 @@ msgstr "Pro"
 
 #: ../rules/base.xml.in.h:521
 msgid "Pro Keypad"
-msgstr "Pro Klavye"
+msgstr "Pro, Skaitmenų sritis"
 
 #: ../rules/base.xml.in.h:522
 msgid "Probhat"
-msgstr "Probat"
+msgstr ""
 
 #: ../rules/base.xml.in.h:523
 msgid "Programmer Dvorak"
-msgstr "Programcı Dvorak"
+msgstr "Dvorako programuotojų"
 
 #: ../rules/base.xml.in.h:524
 msgid "Propeller Voyager (KTEZ-1000)"
@@ -2136,63 +2119,63 @@ msgstr "QTronix Scorpius 98N+"
 
 #: ../rules/base.xml.in.h:527
 msgid "Right Alt"
-msgstr "Sağ Alt"
+msgstr "Dešinysis Alt"
 
 #: ../rules/base.xml.in.h:528
 msgid "Right Alt (while pressed)"
-msgstr "Sağ Alt (basıq olğanda)"
+msgstr "Dešinysis Alt (kol nuspaustas)"
 
 #: ../rules/base.xml.in.h:529
 msgid "Right Alt key never chooses 3rd level"
-msgstr "Sağ Alt tuşu 3. seviyeni asla saylamaz"
+msgstr "Dešinysis Alt niekada neįjungia trečiojo lygio"
 
 #: ../rules/base.xml.in.h:530
 msgid "Right Alt, Shift+Right Alt key is Multi_Key"
-msgstr "Sağ Alt, Shift+Sağ Alt tuşu ise Çoqlu_Tuştır (Multi_Key)"
+msgstr "Dešinysis Alt, Lyg2+dešinysis Alt atlieka Multi_Key (Compose) funkciją"
 
 #: ../rules/base.xml.in.h:531
 msgid "Right Ctrl"
-msgstr "Sağ Ctrl"
+msgstr "Dešinysis Vald"
 
 #: ../rules/base.xml.in.h:532
 msgid "Right Ctrl (while pressed)"
-msgstr "Sağ Ctrl (basıq olğanda)"
+msgstr "Dešinysis Vald (kol nuspaustas)"
 
 #: ../rules/base.xml.in.h:533
 msgid "Right Ctrl as Right Alt"
-msgstr "Sağ Ctrl tuşu Sağ Alt'tır"
+msgstr "Dešiniajam Vald klavišui priskirti dešiniojo Alt funkciją"
 
 #: ../rules/base.xml.in.h:534
 msgid "Right Shift"
-msgstr "Sağ Shift"
+msgstr "Dešinysis Lyg2"
 
 #: ../rules/base.xml.in.h:535
 msgid "Right Win"
-msgstr "Sağ Pencereler (Win)"
+msgstr "Dešinysis Win"
 
 #: ../rules/base.xml.in.h:536
 msgid "Right Win (while pressed)"
-msgstr "Sağ Pencereler (Win) (basıq olğanda)"
+msgstr "Dešinysis Win (kol nuspaustas)"
 
 #: ../rules/base.xml.in.h:537
 msgid "Right hand"
-msgstr "Sağ el"
+msgstr "Dešinei rankai"
 
 #: ../rules/base.xml.in.h:538
 msgid "Right handed Dvorak"
-msgstr "Oñaqay Dvorak"
+msgstr "Dvorako dešiniarankiams"
 
 #: ../rules/base.xml.in.h:539
 msgid "Romania"
-msgstr "Romaniya"
+msgstr "Rumunija"
 
 #: ../rules/base.xml.in.h:540
 msgid "Romanian keyboard with German letters"
-msgstr "Alman harfleriyle Romanya klavyesi"
+msgstr "Rumunų klaviatūra su vokiškomis raidėmis"
 
 #: ../rules/base.xml.in.h:541
 msgid "Romanian keyboard with German letters, eliminate dead keys"
-msgstr "Alman harfleriyle Romanya klavyesi, ölü tuşsuz"
+msgstr "Rumunų klaviatūra su vokiškomis raidėmis, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:542
 msgid "Rou"
@@ -2204,31 +2187,31 @@ msgstr "Rus"
 
 #: ../rules/base.xml.in.h:544
 msgid "Russia"
-msgstr "Rusiye"
+msgstr "Rusija"
 
 #: ../rules/base.xml.in.h:545
 msgid "Russian"
-msgstr "Rusça"
+msgstr "Rusų"
 
 #: ../rules/base.xml.in.h:546
 msgid "Russian phonetic"
-msgstr "Rusça fonetik"
+msgstr "Rusų fonetinis"
 
 #: ../rules/base.xml.in.h:547
 msgid "Russian phonetic Dvorak"
-msgstr "Rusça fonetik Dvorak"
+msgstr "Rusų fonetinis Dvorako"
 
 #: ../rules/base.xml.in.h:548
 msgid "Russian phonetic, eliminate dead keys"
-msgstr "Rusça fonetik, ölü tuşsuz"
+msgstr "Rusų fonetinis, be tęsties ženklų"
 
 #: ../rules/base.xml.in.h:549
 msgid "Russian with Kazakh"
-msgstr "Rusça (kazak)"
+msgstr "Rusų, su kazachų raidėmis"
 
 #: ../rules/base.xml.in.h:550
 msgid "SILVERCREST Multimedia Wireless Keyboard"
-msgstr "SILVERCREST Çokluortam Kablosuz Klavyesi"
+msgstr "SILVERCREST Multimedia Wireless Keyboard"
 
 #: ../rules/base.xml.in.h:551
 msgid "SK-1300"
@@ -2246,19 +2229,17 @@ msgstr "SK-6200"
 msgid "SK-7100"
 msgstr "SK-7100"
 
-# tüklü
 #: ../rules/base.xml.in.h:555
 msgid "SRB"
 msgstr "SRB"
 
 #: ../rules/base.xml.in.h:556
 msgid "SVEN Ergonomic 2500"
-msgstr "SVEN Ergonomik 2500"
+msgstr "SVEN Ergonomic 2500"
 
-# tüklü
 #: ../rules/base.xml.in.h:557
 msgid "SVEN Slim 303"
-msgstr "SVEN Zarif 303"
+msgstr "SVEN Slim 303"
 
 #: ../rules/base.xml.in.h:558
 msgid "Samsung SDM 4500P"
@@ -2269,69 +2250,70 @@ msgid "Samsung SDM 4510P"
 msgstr "Samsung SDM 4510P"
 
 #: ../rules/base.xml.in.h:560
+#, fuzzy
 msgid "Scroll Lock"
-msgstr "Taydırma Kiliti (Scroll Lock)"
+msgstr "Ekrano slinkimas"
 
 #: ../rules/base.xml.in.h:561
 msgid "ScrollLock"
-msgstr "Taydırma Kiliti (ScrollLock)"
+msgstr "Ekrano slinkimas"
 
-# tüklü
 #: ../rules/base.xml.in.h:562
+#, fuzzy
 msgid "Secwepemctsin"
-msgstr "Secwepemctsin"
+msgstr "Šušvapų"
 
 #: ../rules/base.xml.in.h:563
 msgid "Semi-colon on third level"
-msgstr "Üçünci seviyede noqtalı virgül"
+msgstr "Kabliataškis trečiąjame lygyje"
 
 #: ../rules/base.xml.in.h:564
 msgid "Serbia"
-msgstr "Sırbistan"
+msgstr "Serbija"
 
 #: ../rules/base.xml.in.h:565
 msgid "Shift cancels CapsLock"
-msgstr "Shift CapsLock'nı lâğu eter"
+msgstr "Lyg2 atšaukia Didžiąsias raides"
 
 #: ../rules/base.xml.in.h:566
 msgid "Shift does not cancel NumLock, chooses 3d level instead"
-msgstr "Shift NumLock'nı lâğu etmez, onıñ yerine 3. seviyeni saylar"
+msgstr "Lyg2 neatšaukia didžiųjų raidžių, o įjungia 3-iąjį lygį"
 
 #: ../rules/base.xml.in.h:567
 msgid "Shift with numeric keypad keys works as in MS Windows"
-msgstr "Shift ile sayısal tuştaqımı tuşları MS Windows'taki kibi çalışır"
+msgstr "Lyg2 su skaitmenų srities klavišais veikia kaip MS Windows sistemoje"
 
 #: ../rules/base.xml.in.h:568
 msgid "Shift+CapsLock"
-msgstr "Shift+CapsLock"
+msgstr "Lyg2+Didž"
 
 #: ../rules/base.xml.in.h:569
 msgid "Simple"
-msgstr "Basit"
+msgstr "Paprastasis"
 
 #: ../rules/base.xml.in.h:570
 msgid "Slovakia"
-msgstr "Slovakya"
+msgstr "Slovakija"
 
 #: ../rules/base.xml.in.h:571
 msgid "Slovenia"
-msgstr "Slovenya"
+msgstr "Slovėnija"
 
 #: ../rules/base.xml.in.h:572
 msgid "South Africa"
-msgstr "Cenübiy Afrika"
+msgstr "Pietų Afrika"
 
 #: ../rules/base.xml.in.h:573
 msgid "Southern Uzbek"
-msgstr "Cenübiy Özbekçe"
+msgstr "Pietų Uzbekijos"
 
 #: ../rules/base.xml.in.h:574
 msgid "Spain"
-msgstr "İspanya"
+msgstr "Ispanija"
 
 #: ../rules/base.xml.in.h:575
 msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
-msgstr "Mahsus tuşlar (Ctrl+Alt+&lt;tuş&gt;) bir sunucıda qollanır"
+msgstr "Specialiosios sekos (Vald+Alt+&lt;klavišas&gt;) apdorojamos serveryje"
 
 #: ../rules/base.xml.in.h:576
 msgid "SrL"
@@ -2339,37 +2321,38 @@ msgstr "SrL"
 
 #: ../rules/base.xml.in.h:577
 msgid "Sri Lanka"
-msgstr "Sri Lanka"
+msgstr "Šri lanka"
 
 #: ../rules/base.xml.in.h:578
 msgid "Standard"
-msgstr "Standart"
+msgstr "Standartinis"
 
 #: ../rules/base.xml.in.h:579
 msgid "Standard (Cedilla)"
-msgstr "Standart (Sedilla)"
+msgstr "Standartinis (su sedile)"
 
 #: ../rules/base.xml.in.h:580
+#, fuzzy
 msgid "Standard Phonetic"
-msgstr "Standart Fonetik"
+msgstr "Urdu, fonetinis"
 
 #. RSTU 2019-91
 #: ../rules/base.xml.in.h:582
 msgid "Standard RSTU"
-msgstr "Standart RSTU"
+msgstr "Standartinis RSTU"
 
 #. RSTU 2019-91
 #: ../rules/base.xml.in.h:584
 msgid "Standard RSTU on Russian layout"
-msgstr "Rusça tizilim üzerinde standart RSTU"
+msgstr "Standartinis RSTU ant rusiško išdėstymo"
 
 #: ../rules/base.xml.in.h:585
 msgid "Sun Type 5/6"
-msgstr "Sun Tür 5/6"
+msgstr "Sun Type 5/6"
 
 #: ../rules/base.xml.in.h:586
 msgid "Sun dead keys"
-msgstr "Sun ölü tuşlar"
+msgstr "Sun su tęsties ženklais"
 
 #: ../rules/base.xml.in.h:587
 msgid "Super Power Multimedia Keyboard"
@@ -2389,43 +2372,43 @@ msgstr "Svn"
 
 #: ../rules/base.xml.in.h:591
 msgid "Swap Ctrl and CapsLock"
-msgstr "Ctrl ile CapsLock yerlerini almaştır"
+msgstr "Sukeisti Valdymo ir Didžiųjų raidžių klavišus"
 
 #: ../rules/base.xml.in.h:592
 msgid "Swap ESC and CapsLock"
-msgstr "ESC ile CapsLock yerlerini almaştır"
+msgstr "Sukeisti Grįžimo (Esc) ir Didžiųjų raidžių klavišus"
 
 #: ../rules/base.xml.in.h:593
 msgid "Swe"
-msgstr "İsve"
+msgstr "Swe"
 
 #: ../rules/base.xml.in.h:594
 msgid "Sweden"
-msgstr "İsveç"
+msgstr "Švedija"
 
 #: ../rules/base.xml.in.h:595
 msgid "Switzerland"
-msgstr "İsviçre"
+msgstr "Šveicarija"
 
 #: ../rules/base.xml.in.h:596
 msgid "Symplon PaceBook (tablet PC)"
-msgstr "Symplon PaceBook (tablet PC)"
+msgstr "Symplon PaceBook (planšetinis kompiuteris)"
 
 #: ../rules/base.xml.in.h:597
 msgid "Syr"
-msgstr "Sur"
+msgstr "Syr"
 
 #: ../rules/base.xml.in.h:598
 msgid "Syria"
-msgstr "Suriye"
+msgstr "Sirija"
 
 #: ../rules/base.xml.in.h:599
 msgid "Syriac"
-msgstr "Suriye"
+msgstr "Sirijos"
 
 #: ../rules/base.xml.in.h:600
 msgid "Syriac phonetic"
-msgstr "Suriye fonetik"
+msgstr "Sirijos fonetinis"
 
 #: ../rules/base.xml.in.h:601
 msgid "TIS-820.2538"
@@ -2433,23 +2416,23 @@ msgstr "TIS-820.2538"
 
 #: ../rules/base.xml.in.h:602
 msgid "Tajikistan"
-msgstr "Tacikistan"
+msgstr "Tadžikistanas"
 
 #: ../rules/base.xml.in.h:603
 msgid "Tamil"
-msgstr "Tamil dili"
+msgstr "Tamilų"
 
 #: ../rules/base.xml.in.h:604
 msgid "Tamil TAB Typewriter"
-msgstr "Tamil TAB Daktilo"
+msgstr "Tamilų TAB rašomoji mašinėlė"
 
 #: ../rules/base.xml.in.h:605
 msgid "Tamil TSCII Typewriter"
-msgstr "Tamil TSCII Daktilo"
+msgstr "Tamilų TSCII rašomoji mašinėlė"
 
 #: ../rules/base.xml.in.h:606
 msgid "Tamil Unicode"
-msgstr "Tamil Unicode"
+msgstr "Tamilų unikodinis"
 
 #: ../rules/base.xml.in.h:607
 msgid "Targa Visionary 811"
@@ -2457,11 +2440,11 @@ msgstr "Targa Visionary 811"
 
 #: ../rules/base.xml.in.h:608
 msgid "Tatar"
-msgstr "İdil Tatarcası"
+msgstr "Totorių"
 
 #: ../rules/base.xml.in.h:609
 msgid "Telugu"
-msgstr "Telugu dili"
+msgstr "Telugu"
 
 #: ../rules/base.xml.in.h:610
 msgid "Tha"
@@ -2469,132 +2452,133 @@ msgstr "Tha"
 
 #: ../rules/base.xml.in.h:611
 msgid "Thailand"
-msgstr "Tayland"
+msgstr "Tailandas"
 
 #: ../rules/base.xml.in.h:612
 msgid "Tibetan"
-msgstr "Tibetçe"
+msgstr "Tibetiečių"
 
 #: ../rules/base.xml.in.h:613
 msgid "Tibetan (with ASCII numerals)"
-msgstr "Tibetçe (ASCII sayılarnen)"
+msgstr "Tibetiečių (su ASCII skaitmenimis)"
 
 #: ../rules/base.xml.in.h:614
 msgid "Tifinagh"
-msgstr "Tifinagh"
+msgstr "Berberų"
 
 #: ../rules/base.xml.in.h:615
 msgid "Tifinagh Alternative"
-msgstr "Tifinagh Diğer"
+msgstr "Berberų alternatyvusis"
 
 #: ../rules/base.xml.in.h:616
 msgid "Tifinagh Alternative Phonetic"
-msgstr "Tifinagh Diğer Fonetik"
+msgstr "Berberų alternatyvusis fonetinis"
 
 #: ../rules/base.xml.in.h:617
 msgid "Tifinagh Extended"
-msgstr "Tifinagh Gelişkin"
+msgstr "Berberų išplėstasis"
 
 #: ../rules/base.xml.in.h:618
 msgid "Tifinagh Extended Phonetic"
-msgstr "Tifinagh Gelişmiş Fonetik"
+msgstr "Berberų išplėstasis fonetinis"
 
 #: ../rules/base.xml.in.h:619
 msgid "Tifinagh Phonetic"
-msgstr "Tifinagh Fonetik"
+msgstr "Berberų fonetinis"
 
 #: ../rules/base.xml.in.h:620
 msgid "Tilde (~) variant"
-msgstr "Tilde (~) variantı"
+msgstr "Tildės (~) variantas"
 
 #: ../rules/base.xml.in.h:621
 msgid "Tjk"
-msgstr "Tck"
+msgstr "Tjk"
 
 #: ../rules/base.xml.in.h:622
 msgid "To the corresponding key in a Dvorak keyboard."
-msgstr "Dvorak klavyesindeki muqabil tuşqa."
+msgstr "Ant atitinkamų Dvorako klaviatūros klavišų"
 
 #: ../rules/base.xml.in.h:623
 msgid "To the corresponding key in a Qwerty keyboard."
-msgstr "Qwerty klavyesindeki muqabil tuşqa."
+msgstr "Ant atitinkamų QWERTY klaviatūros klavišų"
 
 #: ../rules/base.xml.in.h:624
 msgid "Toshiba Satellite S3000"
 msgstr "Toshiba Satellite S3000"
 
 #: ../rules/base.xml.in.h:625
+#, fuzzy
 msgid "Traditional Phonetic"
-msgstr "Ananeviy Fonetik"
+msgstr "Berberų fonetinis"
 
 #: ../rules/base.xml.in.h:626
 msgid "Trust Direct Access Keyboard"
-msgstr "Trust Doğrudan İrişim Klavyesi"
+msgstr "Trust Direct Access Keyboard"
 
 #: ../rules/base.xml.in.h:627
 msgid "Trust Slimline"
-msgstr "Trust Slimline"
+msgstr ""
 
 #: ../rules/base.xml.in.h:628
 msgid "Trust Wireless Keyboard Classic"
-msgstr "Trust Kabelsiz Klasik Klavye"
+msgstr "Trust Wireless Keyboard Classic"
 
 #: ../rules/base.xml.in.h:629
 msgid "Tur"
-msgstr "Trk"
+msgstr "Tur"
 
 #: ../rules/base.xml.in.h:630
 msgid "Turkey"
-msgstr "Türkiye"
+msgstr "Turkija"
 
 #: ../rules/base.xml.in.h:631
+#, fuzzy
 msgid "Turkmenistan"
-msgstr "Türkmenistan"
+msgstr "Tadžikistanas"
 
 #: ../rules/base.xml.in.h:632
 msgid "Typewriter"
-msgstr "Daktilo"
+msgstr "Spausdinimo mašinėlės išdėstymas"
 
-# tüklü
 #: ../rules/base.xml.in.h:633
 msgid "UCW layout (accented letters only)"
-msgstr "UCW tizilimi (ancaq urğulı arifler)"
+msgstr "UCW išdėstymas (tik raidės su diakritikais)"
 
 #: ../rules/base.xml.in.h:634
 msgid "US keyboard with Bosnian digraphs"
-msgstr "Bosna ikil harfleriyle amerikan klavyesi"
+msgstr "JAV klaviatūra su bosniškais dviraidžiais"
 
 #: ../rules/base.xml.in.h:635
 msgid "US keyboard with Bosnian letters"
-msgstr "Bosna harfleriyle amerikan klavyesi"
+msgstr "JAV klaviatūra su bosniškais rašmenimis"
 
 #: ../rules/base.xml.in.h:636
 msgid "US keyboard with Croatian digraphs"
-msgstr "Hırvat ikil harfleriyle amerikan klavyesi"
+msgstr "JAV klaviatūra su kroatiškais dviraidžiais"
 
 #: ../rules/base.xml.in.h:637
 msgid "US keyboard with Croatian letters"
-msgstr "Hırvat harfleriyle amerikan klavyesi"
+msgstr "JAV klaviatūra su kroatiškais rašmenimis"
 
 #: ../rules/base.xml.in.h:638
 msgid "US keyboard with Estonian letters"
-msgstr "Eston ariflernen Amerikan klavyesi"
+msgstr "JAV klaviatūra su estiškais rašmenimis"
 
 #: ../rules/base.xml.in.h:639
 msgid "US keyboard with Lithuanian letters"
-msgstr "Litvanya harfleriyle amerikan klavyesi"
+msgstr "JAV klaviatūra su lietuviškais rašmenimis"
 
 #: ../rules/base.xml.in.h:640
 msgid "US keyboard with Slovenian letters"
-msgstr "Sloven harfleriyle amerikan klavyesi"
+msgstr "JAV klaviatūra su slovėniškais rašmenimis"
 
 #: ../rules/base.xml.in.h:641
 msgid "USA"
-msgstr "ABD"
+msgstr "JAV"
 
 #: ../rules/base.xml.in.h:642
 msgid "Udmurt"
-msgstr "Udmurtça"
+msgstr "Udmurtų"
 
 #: ../rules/base.xml.in.h:643
 msgid "Ukr"
@@ -2606,19 +2590,19 @@ msgstr "Ukraina"
 
 #: ../rules/base.xml.in.h:645
 msgid "Unicode additions (arrows and math operators)"
-msgstr "Unikod eklemeleri (oqlar ve riyaziy işleticiler)"
+msgstr "Unikodiniai priedai (rodyklės ir matematiniai operatoriai)"
 
 #: ../rules/base.xml.in.h:646
 msgid "Unicode additions (arrows and math operators). Math operators on default level"
-msgstr "Unikod eklemeleri (oqlar ve riyaziy işleticiler). Riyaziyat işleticileri ög-belgilengen seviyede"
+msgstr "Unikodiniai priedai (rodyklės ir matematiniai operatoriai). Matematiniai operatoriai numatytame lygyje"
 
 #: ../rules/base.xml.in.h:647
 msgid "UnicodeExpert"
-msgstr "Unicode Uzman"
+msgstr "UnicodeExpert"
 
 #: ../rules/base.xml.in.h:648
 msgid "United Kingdom"
-msgstr "İngiltere"
+msgstr "Jungtinė karalystė"
 
 #: ../rules/base.xml.in.h:649
 msgid "Unitek KB-1925"
@@ -2626,113 +2610,111 @@ msgstr "Unitek KB-1925"
 
 #: ../rules/base.xml.in.h:650
 msgid "Urdu, Alternative phonetic"
-msgstr "Urdu, Alternativ fonetik"
+msgstr "Urdu, alternatyvus fonetinis"
 
 #: ../rules/base.xml.in.h:651
 msgid "Urdu, Phonetic"
-msgstr "Urdu, Fonetik"
+msgstr "Urdu, fonetinis"
 
 #: ../rules/base.xml.in.h:652
 msgid "Urdu, Winkeys"
-msgstr "Urdu, Win-tuşları"
+msgstr "Urdu, Windows išdėstymas"
 
 #: ../rules/base.xml.in.h:653
 msgid "Use Bosnian digraphs"
-msgstr "Bosna ikil harflerini kullanır"
+msgstr "Bosniški dviraidžiai"
 
 #: ../rules/base.xml.in.h:654
 msgid "Use Croatian digraphs"
-msgstr "Hırvat ikil harflerini kullanır"
+msgstr "Kroatiški dviraidžiai"
 
 #: ../rules/base.xml.in.h:655
 msgid "Use guillemets for quotes"
-msgstr "Tırnakların yerine açılı ayraçlar kullanılır"
+msgstr "Kampinės kabutės"
 
-# tüklü
 #: ../rules/base.xml.in.h:656
 msgid "Use keyboard LED to show alternative layout"
-msgstr "Alternativ tizilimni köstermek içün klavye LED'ini qullan"
+msgstr "Klaviatūros diodu indikuoti nepagrindinius išdėstymus"
 
 #: ../rules/base.xml.in.h:657
 msgid "Using space key to input non-breakable space character"
-msgstr "Qırılmaz boşluq remzini kirdilemek içün boşluq tuşu qullanımı"
+msgstr "Tarpo klavišo naudojimas jungiamajam tarpui įvesti"
 
 #: ../rules/base.xml.in.h:658
 msgid "Usual space at any level"
-msgstr "Er seviyede adetiy boşluq"
+msgstr "Įprastas tarpas visuose lygiuose"
 
 #: ../rules/base.xml.in.h:659
 msgid "Uzb"
-msgstr "Özb"
+msgstr "Uzb"
 
 #: ../rules/base.xml.in.h:660
 msgid "Uzbekistan"
-msgstr "Özbekistan"
+msgstr "Uzbekistanas"
 
 #: ../rules/base.xml.in.h:661
 msgid "Vietnam"
-msgstr "Vietnam"
+msgstr "Vietnamas"
 
 #: ../rules/base.xml.in.h:662
 msgid "ViewSonic KU-306 Internet Keyboard"
-msgstr "ViewSonic KU-306 İnternet Klavyesi"
+msgstr "ViewSonic KU-306 Internet Keyboard"
 
 #: ../rules/base.xml.in.h:663
 msgid "Vnm"
 msgstr "Vnm"
 
-# tüklü
 #: ../rules/base.xml.in.h:664
 msgid "Wang 724 keypad with unicode additions (arrows and math operators)"
-msgstr "Wang 724 tuştaqımı Unikod eklemelerinen (oqlar ve riyaziy işleticiler)"
+msgstr "Wang 724 skaitmenų sritis su unikodiniais priedais (rodyklėmis ir matematiniais operatoriais)"
 
 #: ../rules/base.xml.in.h:665
 msgid "Wang 724 keypad with unicode additions (arrows and math operators). Math operators on default level"
-msgstr "Wang 724 tuştaqımı Unikod eklemelerinen (oqlar ve riyaziy işleticiler). Riyaziy tuşlar ög-belgilengen seviyede"
+msgstr "Wang 724 skaitmenų sritis su unikodiniais priedais (rodyklėmis ir matematiniais operatoriais). Matematiniai operatoriai numatytame lygyje"
 
 #: ../rules/base.xml.in.h:666
 msgid "Wang model 724 azerty"
-msgstr "Wang model 724 azerty"
+msgstr "Wang 724, AZERTY modelis"
 
 #: ../rules/base.xml.in.h:667
 msgid "Western"
-msgstr "Ğarbiy"
+msgstr "Vakarietiškasis"
 
 #: ../rules/base.xml.in.h:668
 msgid "Winbook Model XP5"
-msgstr "Winbook Model XP5"
+msgstr "Winbook XP5 modelis"
 
 #: ../rules/base.xml.in.h:669
 msgid "Winkeys"
-msgstr "Win-tuşları"
+msgstr "Windows išdėstymas"
 
 #: ../rules/base.xml.in.h:670
 msgid "With &lt;\\|&gt; key"
-msgstr "&lt;\\|&gt; tuşunen"
+msgstr "Su &lt;\\|&gt; klavišu"
 
 #: ../rules/base.xml.in.h:671
 msgid "With EuroSign on 5"
-msgstr "€ sembolü ile 5 tuşu"
+msgstr "Euro ženklas ant klavišo 5"
 
 #: ../rules/base.xml.in.h:672
 msgid "With guillemets"
-msgstr "Açılı ayraçlarla"
+msgstr "Su kampinėmis kabutėmis"
 
 #: ../rules/base.xml.in.h:673
 msgid "Yahoo! Internet Keyboard"
-msgstr "Yahoo! İnternet Klavyesi"
+msgstr "Yahoo! Internet Keyboard"
 
 #: ../rules/base.xml.in.h:674
 msgid "Yakut"
-msgstr "Sahaca"
+msgstr "Jakutų"
 
 #: ../rules/base.xml.in.h:675
 msgid "Yoruba"
-msgstr "Yoruba"
+msgstr "Jorubų"
 
 #: ../rules/base.xml.in.h:676
 msgid "Z and ZHE swapped"
-msgstr "Z ile J almaştırılır"
+msgstr "Raidės Z ir Ž sukeistos"
 
 #: ../rules/base.xml.in.h:677
 msgid "Zar"
@@ -2740,19 +2722,19 @@ msgstr "Zar"
 
 #: ../rules/base.xml.in.h:678
 msgid "azerty"
-msgstr "azerty"
+msgstr "AZERTY"
 
 #: ../rules/base.xml.in.h:679
 msgid "azerty/digits"
-msgstr "azerty/raqamlar"
+msgstr "AZERTY/skaitmenys"
 
 #: ../rules/base.xml.in.h:680
 msgid "digits"
-msgstr "raqamlar"
+msgstr "skaitmenys"
 
 #: ../rules/base.xml.in.h:681
 msgid "displaced semicolon and quote (obsolete)"
-msgstr "noqtalı virgül ve qoştırnaq yersizleştirilgen (eskirtilgen)"
+msgstr "nukeltas kabliataškis ir kabutė (nenaudotina)"
 
 #: ../rules/base.xml.in.h:682
 msgid "lyx"
@@ -2760,40 +2742,40 @@ msgstr "lyx"
 
 #: ../rules/base.xml.in.h:683
 msgid "qwerty"
-msgstr "qwerty"
+msgstr "QWERTY"
 
 #: ../rules/base.xml.in.h:684
 msgid "qwerty, extended Backslash"
-msgstr "qwerty, uzatılğan Kerisilme"
+msgstr "QWERTY, išplėstas kairinis brūkšnys"
 
 #: ../rules/base.xml.in.h:685
 msgid "qwerty/digits"
-msgstr "qwerty/raqamlar"
+msgstr "QWERTY/skaitmenys"
 
 #: ../rules/base.xml.in.h:686
 msgid "qwertz"
-msgstr "qwertz"
+msgstr "QWERTZ"
 
 #~ msgid "Brazilian ABNT2"
-#~ msgstr "Brazilya dili ABNT2"
+#~ msgstr "Brazilų ABNT2"
 
 #~ msgid "Japanese 106-key"
-#~ msgstr "Japonca 106 tuşlu"
+#~ msgstr "Japoniška 106 klavišų"
 
 #~ msgid "Kir"
 #~ msgstr "Kir"
 
 #~ msgid "Korean 106-key"
-#~ msgstr "Korece 106 tuşlu"
+#~ msgstr "Korėjiečių 106 klavišų"
 
 #~ msgid "Super is mapped to Win keys"
-#~ msgstr "Super, Pencereler (Win) tuşlarına haritalandırılır"
+#~ msgstr "Win klavišams priskirti Super funkciją"
 
 #~ msgid "US keyboard with Slovenian digraphs"
-#~ msgstr "Sloven ikil harfleriyle amerikan klavyesi"
+#~ msgstr "JAV klaviatūra su slovėniškais dviraidžiais"
 
 #~ msgid "Unicode"
-#~ msgstr "Unikod"
+#~ msgstr "Unikodinis"
 
 #~ msgid "Use Slovenian digraphs"
-#~ msgstr "Sloven ikil harflerini kullanır"
+#~ msgstr "Slovėniški dviraidžiai"
