@@ -1,3 +1,9 @@
+2009-05-31 Sergey Udaltsov
+
+	* symbols/altwin: setting explicit TWO_LEVEL on sections mapping RALT
+	, it is often ONE_LEVEL because of LEVEL3. Fixed
+	http://bugs.freedesktop.org/show_bug.cgi?id=21761
+
 2009-05-24 Sergey Udaltsov
 
 	* symbols/ua: fixed all references, from ua(basic) to ua(legacy),
