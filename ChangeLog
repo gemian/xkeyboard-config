@@ -2,6 +2,8 @@
 
 	* symbols/ng: fixing 'e with dot below' in ng(olpc),
 	https://bugs.freedesktop.org/show_bug.cgi?id=20010
+	* rules/base.ml1_s.part: fixing misspeled variant name,
+	https://bugs.freedesktop.org/show_bug.cgi?id=15782
 
 2009-05-31 Sergey Udaltsov
 
