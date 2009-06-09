@@ -3431,6 +3431,13 @@
             <_description>DOS</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>bak</name>
+            <_description>Bashkirian</_description>
+            <languageList><iso639Id>bak</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

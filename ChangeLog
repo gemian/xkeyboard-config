@@ -6,6 +6,8 @@
 	https://bugs.freedesktop.org/show_bug.cgi?id=15782
 	* symbols/tr: lost credits added,
 	https://bugs.freedesktop.org/show_bug.cgi?id=22079
+	* rules/base.xml.in, symbols/ru: added ru(bak),
+	https://bugs.freedesktop.org/show_bug.cgi?id=22101
 
 2009-05-31 Sergey Udaltsov
 
