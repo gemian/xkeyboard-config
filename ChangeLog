@@ -1,3 +1,8 @@
+2009-06-09 Sergey Udaltsov
+
+	* symbols/ng: fixing 'e with dot below' in ng(olpc),
+	https://bugs.freedesktop.org/show_bug.cgi?id=20010
+
 2009-05-31 Sergey Udaltsov
 
 	* symbols/altwin: setting explicit TWO_LEVEL on sections mapping RALT
