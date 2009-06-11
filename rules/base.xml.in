@@ -4775,6 +4775,12 @@
       </option>
       <option>
         <configItem>
+          <name>caps:super</name>
+          <_description>Make CapsLock an additional Super</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>caps:shiftlock</name>
           <_description>CapsLock toggles Shift so all keys are affected</_description>
         </configItem>
