@@ -1154,6 +1154,13 @@
         <vendor>Compal Electronics Inc.</vendor>
       </configItem>
     </model>
+    <model>
+      <configItem>
+        <name>creativedw7000</name>
+        <_description>Creative Desktop Wireless 7000</_description>
+        <vendor>Creative</vendor>
+      </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>

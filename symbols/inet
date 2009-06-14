@@ -1797,6 +1797,15 @@ xkb_symbols "unitekkb1925" {
     key <I1A> { [ XF86Reload ] };
 };
 
+// Creative
+
+// Creative Desktop Wireless 7000
+partial alphanumeric_keys
+xkb_symbols "creativedw7000" {
+    include "inet(media_nav_acpi_common)"
+    key <I66>   {       [ XF86Pictures ]       };
+};
+
 // Compal
 
 // Compal FL90
