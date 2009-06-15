@@ -1,3 +1,8 @@
+2009-06-15 Sergey Udaltsov
+
+	* symbols/inet: fixing ABNT2-specific mapping for keypad dot key,
+	http://bugs.freedesktop.org/show_bug.cgi?id=22303
+
 2009-06-14 Sergey Udaltsov
 
 	* rules/base.lists.part, rules/base.xml.in, symbols/inet: added
