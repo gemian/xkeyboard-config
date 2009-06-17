@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE xkbConfigRegistry SYSTEM "xkb.dtd">
+<xkbConfigRegistry>
+  <modelList/>
+  <layoutList>
+    <layout>
+      <configItem>
+        <name>apl</name>
+        <_shortDescription>APL</_shortDescription>
+        <_description>APL</_description>
+      </configItem>
+      <variantList/>
+    </layout>
+  </layoutList>
+  <optionList/>
+</xkbConfigRegistry>

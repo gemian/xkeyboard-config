@@ -22,4 +22,5 @@
   olpc		*			=	olpc+%l%(v)
  $thinkpads   	br			=	pc+br(thinkpad)
   *	   	$nonlatin		=	pc+us+%l%(v):2
+  *		$extralayouts		=	pc+extras/%l%(v)
   *		*			=	pc+%l%(v)

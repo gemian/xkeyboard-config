@@ -56,6 +56,7 @@ po/*.gmo
 po/*.pot
 po/messages.mo
 po/stamp-po
+rules/base.extras.xml
 rules/base.xml
 rules/base.lst
 rules/base

@@ -162,7 +162,7 @@ dist_files = xkb.dtd README
 
 rules_DATA = $(rules_files) $(lst_files) $(dist_files)
 
-xml_in_files = base.xml.in evdev.xml.in
+xml_in_files = base.xml.in evdev.xml.in base.extras.xml.in
 xml_DATA = $(xml_in_files:.xml.in=.xml) 
 
 $(srcdir)/evdev.xml.in: base.xml.in
@@ -174,7 +174,7 @@ EXTRA_DIST= $(xml_in_files) xfree98 \
             $(base_parts_compat_dist) \
             xml2lst.pl merge.sh $(dist_files)
 
-CLEANFILES = base base.xml base.lst evdev evdev.xml evdev.lst
+CLEANFILES = base base.xml base.lst evdev evdev.xml evdev.lst base.extras.xml
 MAINTAINERCLEANFILES = $(srcdir)/evdev.xml.in
 
 rulesdir = $(xkb_base)/rules
