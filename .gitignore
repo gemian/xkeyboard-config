@@ -80,6 +80,7 @@ tests/mxkbledpanel/mxkbledpanel._man
 po/stamp-it
 rules/evdev
 rules/evdev.extras.xml
+rules/evdev.extras.xml.in
 rules/evdev.lst
 rules/evdev.xml
 rules/evdev.xml.in
