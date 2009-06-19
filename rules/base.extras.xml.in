@@ -8,7 +8,7 @@
         <name>apl</name>
         <_shortDescription>APL</_shortDescription>
         <_description>APL</_description>
-        <languageList><iso639Id>apl</iso639Id></languageList>
+        <languageList><iso639Id>eng</iso639Id></languageList>
       </configItem>
       <variantList/>
     </layout>
