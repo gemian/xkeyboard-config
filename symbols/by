@@ -17,6 +17,8 @@ xkb_symbols "basic" {
     key	<AE05> {	[		5,	     percent	]	};
     key	<AE06> {	[		6,	     colon	]	};
     key	<AE07> {	[		7,	    question	]	};
+    key	<AE11> {	[	    minus,	    underscore	]	};
+    key	<AE12> {	[	    equal,	    plus	]	};
 
     key	<AD01> {	[ Cyrillic_shorti, Cyrillic_SHORTI	]	};
     key	<AD02> {	[    Cyrillic_tse,    Cyrillic_TSE	]	};
@@ -63,8 +65,8 @@ partial alphanumeric_keys
 xkb_symbols "winkeys" {
     include "by(basic)"
     name[Group1]= "Belarus - Winkeys";
-    key	<AE04> {	[		4,       semicolon	]	};
     key	<AE03> {	[		3,      numbersign	]	};
+    key	<AE04> {	[		4,       semicolon	]	};
     key	<AE05> {	[		5,	   percent	]	};
     key	<AE06> {	[		6,	     colon	]	};
     key	<AE07> {	[		7,	  question	]	};

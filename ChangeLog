@@ -1,3 +1,13 @@
+2009-06-20 Sergey Udaltsov
+
+	* symbols/by: missing mappings,
+	https://bugs.freedesktop.org/show_bug.cgi?id=22386
+
+2009-06-19 Sergey Udaltsov
+
+	* symbols/de: small fix for a numbersign key,
+	http://bugs.freedesktop.org/show_bug.cgi?id=19934
+
 2009-06-15 Sergey Udaltsov
 
 	* symbols/inet: fixing ABNT2-specific mapping for keypad dot key,
