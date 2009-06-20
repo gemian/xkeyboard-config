@@ -2,6 +2,8 @@
 
 	* symbols/by: missing mappings,
 	https://bugs.freedesktop.org/show_bug.cgi?id=22386
+	* symbols/ca: fixed a couple of mappings in ca(shs)
+	http://bugs.freedesktop.org/show_bug.cgi?id=22388
 
 2009-06-19 Sergey Udaltsov
 
