@@ -65,6 +65,17 @@ semantics/semantics.dir
 symbols/symbols.dir
 tests/*.lst
 types/types.dir
+rules/extras/base.l1v1_s.part
+rules/extras/base.l2_s.part
+rules/extras/base.l2v2_s.part
+rules/extras/base.l3_s.part
+rules/extras/base.l3v3_s.part
+rules/extras/base.l4_s.part
+rules/extras/base.l4v4_s.part
+rules/extras/base.ml1_s.part
+rules/extras/base.ml1v1_s.part
+rules/extras/base.ml_s.part
+rules/extras/base.mlv_s.part
 rules/compat/base.l2_s.part
 rules/compat/base.l3_s.part
 rules/compat/base.l4_s.part
