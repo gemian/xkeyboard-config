@@ -1,3 +1,20 @@
+2009-06-22 Sergey Udaltsov
+
+	* .gitignore, configure.in, rules/Makefile.am,
+	rules/base.extras.xml.in, rules/base.l2_s.part, rules/base.l3_s.part,
+	rules/base.l4_s.part, rules/base.lists.part, rules/base.ml_s.part,
+	rules/bin/Makefile.am, rules/compat/ln_s.sh -> rules/bin/ln_s.sh,
+	rules/compat/lnv_s.sh -> rules/bin/lnv_s.sh, rules/compat/ml1_s.sh ->
+	rules/bin/ml1_s.sh, rules/compat/ml1v1_s.sh -> rules/bin/ml1v1_s.sh,
+	rules/compat/ml1v_s.sh -> rules/bin/ml1v_s.sh, rules/compat/ml_s.sh ->
+	rules/bin/ml_s.sh, rules/compat/mlv_s.sh -> rules/bin/mlv_s.sh,
+	rules/compat/Makefile.am, rules/compat/layoutsMapping.lst,
+	rules/compat/variantsMapping.lst, rules/extras/Makefile.am,
+	rules/extras/layoutsMapping.lst, symbols/extras/Makefile.am,
+	symbols/extras/rs: serious restructuring of the rules generation
+	scripts, for compat and extras. Also, adding exotic rs(combiningkeys)
+	variant, http://bugs.freedesktop.org/show_bug.cgi?id=21047
+
 2009-06-20 Sergey Udaltsov
 
 	* symbols/by: missing mappings,
