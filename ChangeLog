@@ -1,3 +1,11 @@
+2009-06-27 Sergey Udaltsov
+
+	* symbols/extras/us, rules/base.extras.xml.in,
+	rules/extras/variantsMapping.lst, symbols/extras/Makefile.am: Added 3
+	exotic us variants: ats, intl-unicode, alt-intl-unicode
+	http://bugs.freedesktop.org/show_bug.cgi?id=22004
+	http://bugs.freedesktop.org/show_bug.cgi?id=22446
+
 2009-06-22 Sergey Udaltsov
 
 	* .gitignore, configure.in, rules/Makefile.am,
