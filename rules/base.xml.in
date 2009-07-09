@@ -1771,7 +1771,7 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>Traditional Phonetic</_description>
+            <_description>Traditional phonetic</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1779,7 +1779,7 @@
         <variant>
           <configItem>
             <name>bas_phonetic</name>
-            <_description>Standard Phonetic</_description>
+            <_description>New phonetic</_description>
           </configItem>
         </variant>
       </variantList>

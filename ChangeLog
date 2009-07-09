@@ -1,3 +1,8 @@
+2009-07-09 Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/bg: updated bg variants,
+	http://bugs.freedesktop.org/show_bug.cgi?id=22666
+
 2009-06-27 Sergey Udaltsov
 
 	* symbols/extras/us, rules/base.extras.xml.in,
