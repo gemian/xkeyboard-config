@@ -39,6 +39,13 @@
             <!-- No ISO code in ISO639-2, only draft ISO693-3 -->
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>crd</name>
+            <_description>Couer D'alene Salish</_description>
+            <languageList><iso639Id>crd</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>

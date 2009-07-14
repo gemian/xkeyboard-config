@@ -1,3 +1,9 @@
+2009-07-14 Sergey Udaltsov
+
+	* rules/base.extras.xml.in, rules/extras/variantsMapping.lst,
+	symbols/extras/us: added us(crd) to extras,
+	http://bugs.freedesktop.org/show_bug.cgi?id=22635
+
 2009-07-09 Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/bg: updated bg variants,

@@ -117,3 +117,31 @@ xkb_symbols "ats" {
     include "compose(rctrl)"
 };
 
+partial alphanumeric_keys
+xkb_symbols "crd" {
+
+  include "us"
+
+  name[Group1]= "USA - Couer D'alene Salish";
+
+  // Alphanumeric section
+  key <AD02> { [         w,           W, U02B7, U02B7 ] }; 
+  key <AE07> { [         7,   ampersand, U0294        ] }; 
+  key <AD01> { [         q,           Q, U221A        ] }; 
+  key <AB04> { [         v,           V, U0259        ] }; 
+  key <BKSL> { [ backslash,         bar, U026B        ] }; 
+  key <AD03> { [         e,           E, U025B        ] }; 
+  key <AD08> { [         i,           I, U026A        ] }; 
+  key <AC07> { [         j,           J, U01F0        ] }; 
+  key <AE06> { [         6, asciicircum, U0295        ] }; 
+  key <AC02> { [         s,           S, U0161        ] }; 
+  key <AB03> { [         c,           C, U010D        ] }; 
+  key <AD09> { [         o,           O, U0254        ] }; 
+  key <AB09> { [    period,     greater, U0323        ] }; 
+
+  include "level3(ralt_switch)"
+  include "compose(rctrl)"
+
+  // End alphanumeric section
+};
+
