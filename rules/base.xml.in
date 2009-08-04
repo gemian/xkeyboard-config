@@ -981,6 +981,41 @@
     </model>
     <model>
       <configItem>
+        <name>tm2020</name>
+        <description>TypeMatrix EZ-Reach 2020</description>
+        <vendor>TypeMatrix</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>tm2030PS2</name>
+        <description>TypeMatrix EZ-Reach 2030 PS2</description>
+        <vendor>TypeMatrix</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>tm2030USB</name>
+        <description>TypeMatrix EZ-Reach 2030 USB</description>
+        <vendor>TypeMatrix</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>tm2030USB-102</name>
+        <description>TypeMatrix EZ-Reach 2030 USB (102/105:EU mode)</description>
+        <vendor>TypeMatrix</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>tm2030USB-106</name>
+        <description>TypeMatrix EZ-Reach 2030 USB (106:JP mode)</description>
+        <vendor>TypeMatrix</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>yahoo</name>
         <_description>Yahoo! Internet Keyboard</_description>
 	<vendor>Yahoo!</vendor>
