@@ -2839,6 +2839,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>us</name>
+            <_description>US keyboard with Italian letters</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>geo</name>
             <_description>Georgian</_description>
             <languageList><iso639Id>geo</iso639Id></languageList>

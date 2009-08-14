@@ -2,6 +2,8 @@
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/capslock: added
 	caps:none option, http://bugs.freedesktop.org/show_bug.cgi?id=23243
+	* rules/base.xml.in, symbols/it: added it(us),
+	http://bugs.freedesktop.org/show_bug.cgi?id=23263
 
 2009-08-04 Sergey Udaltsov
 
