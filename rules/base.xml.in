@@ -4827,6 +4827,12 @@
           <_description>CapsLock toggles Shift so all keys are affected</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>caps:none</name>
+          <_description>CapsLock is disabled</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="false">
       <!-- Using special PC keys (Win, Menu) to work as standard X keys (Super, Hyper, etc.) -->
