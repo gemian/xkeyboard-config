@@ -48,6 +48,12 @@ xkb_symbols "super" {
 };
 
 partial hidden modifier_keys
+xkb_symbols "hyper" {
+    key <CAPS> {        [       Hyper_L  ]       };
+    modifier_map Mod4   { <CAPS> };
+};
+
+partial hidden modifier_keys
 xkb_symbols "none" {
     key <CAPS> {        [       VoidSymbol  ]       };
 };

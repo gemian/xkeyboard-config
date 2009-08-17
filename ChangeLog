@@ -1,3 +1,7 @@
+2009-08-18 Peter Hutterer
+	* rules/base.o_s.part, rules/base.xml.in, symbols/capslock: added
+	caps:hyper, http://bugs.freedesktop.org/show_bug.cgi?id=23356
+
 2009-08-14 Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/capslock: added

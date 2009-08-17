@@ -54,6 +54,7 @@
   caps:escape		=	+capslock(escape)
   caps:backspace	=	+capslock(backspace)
   caps:super		=	+capslock(super)
+  caps:hyper		=	+capslock(hyper)
   caps:none		=	+capslock(none)
   ctrl:nocaps		=	+ctrl(nocaps)
   ctrl:swapcaps		=	+ctrl(swapcaps)

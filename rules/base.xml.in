@@ -4829,6 +4829,12 @@
       </option>
       <option>
         <configItem>
+          <name>caps:hyper</name>
+          <_description>Make CapsLock an additional Hyper</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>caps:shiftlock</name>
           <_description>CapsLock toggles Shift so all keys are affected</_description>
         </configItem>
