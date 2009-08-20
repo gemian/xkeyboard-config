@@ -58,3 +58,8 @@ xkb_symbols "none" {
     key <CAPS> {        [       VoidSymbol  ]       };
 };
 
+partial hidden modifier_keys
+xkb_symbols "numlock" {
+    key <CAPS> {        [       Num_Lock  ]       };
+};
+

@@ -4805,6 +4805,12 @@
       </option>
       <option>
         <configItem>
+          <name>caps:numlock</name>
+          <_description>Make CapsLock an additional NumLock</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>caps:swapescape</name>
           <_description>Swap ESC and CapsLock</_description>
         </configItem>
