@@ -745,19 +745,25 @@ xkb_symbols "tam_unicode" {
     name[Group1]= "India - Tamil Unicode";
 
     // granthas
-    key <AE01> {  [ U0b83 ] } ;
-    key <AE03> {  [ U0b9c ] } ;
-    key <AE04> {  [ U0bb7 ] } ;
-    key <AE05> {  [ U0bb8 ] } ;
-    key <AE06> {  [ U0bb9 ] } ;
-	
+    key <AE01> {  [ U0031 ] } ;
+    key <AE02> {  [ U0032 ] } ;
+    key <AE03> {  [ U0033 ] } ;
+    key <AE04> {  [ U0034 ] } ;
+    key <AE05> {  [ U0035 ] } ;
+    key <AE06> {  [ U0036 ] } ;
+    key <AE07> {  [ U0037 ] } ;
+    key <AE08> {  [ U0038 ] } ;
+    key <AE09> {  [ U0039 ] } ;
+    key <AE10> {  [ U0030 ] } ;
+
+
     // Qrow
-    key <AD01> {  [ U0b9e ] };
-    key <AD02> {  [ U0bb1 ] };
-    key <AD03> {  [ U0ba8 ] };
-    key <AD04> {  [ U0b9a ] };
-    key <AD05> {  [ U0bb5 ] };
-    key <AD06> {  [ U0bb2 ] };
+    key <AD01> {  [ U0b9e, U0b83 ] };
+    key <AD02> {  [ U0bb1, U0b9c ] };
+    key <AD03> {  [ U0ba8, U0bb6 ] };
+    key <AD04> {  [ U0b9a, U0bb7 ] };
+    key <AD05> {  [ U0bb5, U0bb8 ] };
+    key <AD06> {  [ U0bb2, U0bb9 ] };
     key <AD07> {  [ U0bb0 ] };
     key <AD08> {  [ U0bc8, U0b90 ] };
     key <AD09> {  [ U0bca, U0bcb ] };
