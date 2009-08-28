@@ -1,3 +1,8 @@
+2009-08-28 Sergey Udaltsov
+
+	* symbols/no: updated layout,
+	http://bugs.freedesktop.org/show_bug.cgi?id=23518
+
 2009-08-20 Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/capslock: added
