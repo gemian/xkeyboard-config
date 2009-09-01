@@ -1497,8 +1497,8 @@
       <variantList>
         <variant>
           <configItem>
-            <name>winkeys</name>
-            <_description>Winkeys</_description>
+            <name>legacy</name>
+            <_description>Legacy</_description>
           </configItem>
         </variant>
         <variant>

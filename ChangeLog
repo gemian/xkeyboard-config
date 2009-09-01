@@ -1,3 +1,8 @@
+2009-09-02 Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/by: restructured Belarussian variants,
+	https://bugs.freedesktop.org/show_bug.cgi?id=23604
+
 2009-08-28 Sergey Udaltsov
 
 	* symbols/no: updated layout,
