@@ -54,15 +54,3 @@ xkb_symbols "latin" {
 	include "level3(ralt_switch)"
 };
 
-partial alphanumeric_keys
-xkb_symbols "common" {
-	include "ru(winkeys)"
-	name[Group1]= "Belarus - Common";
-
-	key	<AD09> {	[	Byelorussian_shortu,	Byelorussian_SHORTU,	Cyrillic_shcha,	Cyrillic_SHCHA	]	};
-	key	<AD12> {	[	apostrophe,	apostrophe, Cyrillic_hardsign,	Cyrillic_HARDSIGN		]	};
-	key	<AB05> {	[	Ukrainian_i,	Ukrainian_I,	Cyrillic_i,		Cyrillic_I	]	};
-
-	
-	include "level3(ralt_switch)"    
-};
