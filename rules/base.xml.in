@@ -2161,20 +2161,8 @@
       <variantList>
         <variant>
           <configItem>
-            <name>pro</name>
-            <_description>Pro</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>keypad</name>
-            <_description>Keypad</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>pro_keypad</name>
-            <_description>Pro Keypad</_description>
+            <name>pes_keypad</name>
+            <_description>Persian, with Persian Keypad</_description>
           </configItem>
         </variant>
         <variant>
