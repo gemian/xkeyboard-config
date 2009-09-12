@@ -1657,6 +1657,13 @@
         </variant>
         <variant>
           <configItem>
+            <name>tam_keyboard_with_numerals</name>
+            <description>Tamil Keyboard with Numerals</description>
+            <languageList><iso639Id>tam</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>tam_TAB</name>
             <_description>Tamil TAB Typewriter</_description>
             <languageList><iso639Id>tam</iso639Id></languageList>
