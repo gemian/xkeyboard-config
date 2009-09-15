@@ -1,3 +1,8 @@
+2009-09-15 Sergey Udaltsov
+
+	* symbols/es: addind dead_tilde,
+	https://bugs.freedesktop.org/show_bug.cgi?id=23876
+
 2009-09-08 Gaetan Nadon
 
 	* **/.cvsignore: remove cvsignore files.
