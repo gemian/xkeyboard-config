@@ -2,6 +2,9 @@
 
 	* symbols/es: addind dead_tilde,
 	https://bugs.freedesktop.org/show_bug.cgi?id=23876
+	* keycodes/sun, rules/base.m_k.part, rules/base.ml_s.part,
+	symbols/sun_vndr/us: fixed Sun keyboard model for type6,
+	https://bugs.freedesktop.org/show_bug.cgi?id=3952
 
 2009-09-08 Gaetan Nadon
 
