@@ -18,6 +18,7 @@
   grp:alts_toggle	=	+group(alts_toggle)
   grp:ctrl_shift_toggle	=	+group(ctrl_shift_toggle)
   grp:lctrl_lshift_toggle	=	+group(lctrl_lshift_toggle)
+  grp:rctrl_rshift_toggle	=	+group(rctrl_rshift_toggle)
   grp:caps_toggle	=	+capslock(grouplock)
   grp:caps_switch       =       +capslock(groupshift)
   grp:shift_caps_toggle	=	+group(shift_caps_toggle)

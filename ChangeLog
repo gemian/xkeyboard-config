@@ -1,3 +1,9 @@
+2009-09-30 Sergey Udaltsov
+
+	* rules/base.o_s.part, rules/base.xml.in, symbols/group: added
+	grp:rctrl_rshift_toggle option,
+	http://bugs.freedesktop.org/show_bug.cgi?id=24234
+
 2009-09-29 Sergey Udaltsov
 
 	* configure.in, NEWS, po/*.po: preparing 1.7

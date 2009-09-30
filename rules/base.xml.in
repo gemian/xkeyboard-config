@@ -4444,6 +4444,12 @@
       </option>
       <option>
         <configItem>
+          <name>grp:rctrl_rshift_toggle</name>
+          <_description>Right Ctrl+Right Shift</_description>
+        </configItem>
+      </option>      
+      <option>
+        <configItem>
           <name>grp:ctrl_alt_toggle</name>
           <_description>Alt+Ctrl</_description>
         </configItem>
