@@ -1,3 +1,9 @@
+2009-10-12 Sergey Udaltsov
+
+	* rules/base.xml.in: USA Russian Phonetic keyboard layout not found in
+	search by Languages - Russian,
+	http://bugs.freedesktop.org/show_bug.cgi?id=24485
+
 2009-09-30 Sergey Udaltsov
 
 	* rules/base.o_s.part, rules/base.xml.in, symbols/group: added

@@ -1277,6 +1277,7 @@
           <configItem>
             <name>rus</name>
             <_description>Russian phonetic</_description>
+            <languageList><iso639Id>rus</iso639Id></languageList>
           </configItem>
         </variant>
         <variant>
