@@ -1,3 +1,9 @@
+2009-10-13 Sergey Udaltsov
+
+	* rules/base.lists.part, symbols/macintosh_vndr/Makefile.am,
+	symbols/macintosh_vndr/es: Spanish mac layout just included the
+	general one
+
 2009-10-12 Sergey Udaltsov
 
 	* rules/base.xml.in: USA Russian Phonetic keyboard layout not found in
