@@ -3,6 +3,8 @@
 	* rules/base.lists.part, symbols/macintosh_vndr/Makefile.am,
 	symbols/macintosh_vndr/es: Spanish mac layout just included the
 	general one
+	* rules/base.xml.in, symbols/ch: fixed Swiss default layout, added
+	legacy variant, http://bugs.freedesktop.org/show_bug.cgi?id=24490
 
 2009-10-12 Sergey Udaltsov
 

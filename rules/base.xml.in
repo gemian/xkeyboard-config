@@ -3706,6 +3706,12 @@
       <variantList>
         <variant>
           <configItem>
+            <name>legacy</name>
+            <_description>Legacy</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>de_nodeadkeys</name>
             <_description>German, eliminate dead keys</_description>
           </configItem>
