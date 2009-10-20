@@ -89,6 +89,8 @@ xkb_symbols "sunbasic" {
     key <NMLK> { [ Num_Lock, Pointer_EnableKeys	] };
     key <SPCE> { [ space                        ] };
 
+    key <BKSP> {         [       BackSpace ] };
+
     // By default, we use the same symbols as other XKB implementations
     // for greater compatibility & AccessX MouseKeys support, but it is 
     // different than the traditional Sun key mappings that date back to the

@@ -1,3 +1,8 @@
+2009-10-20 Sergey Udaltsov
+
+	* symbols/sun_vndr/us: added backspace mapping,
+	https://bugs.freedesktop.org/show_bug.cgi?id=24554
+
 2009-10-13 Sergey Udaltsov
 
 	* rules/base.lists.part, symbols/macintosh_vndr/Makefile.am,
