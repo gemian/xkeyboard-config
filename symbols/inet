@@ -1821,3 +1821,13 @@ partial alphanumeric_keys
 xkb_symbols "pc105" {
     include "inet(media_nav_acpi_common)"
 };
+
+// TypeMatrix
+
+// TypeMatrix 2030USB
+partial alphanumeric_keys
+xkb_symbols "tm2030USB" {
+    include "inet(media_nav_acpi_common)"
+
+    key <K6C>  {	[ XF86Eject	]	};
+};
