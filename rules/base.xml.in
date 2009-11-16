@@ -582,13 +582,6 @@
     </model>
     <model>
       <configItem>
-        <name>thinkpadintl</name>
-        <_description>IBM ThinkPad 560Z/600/600E/A22E, Intl</_description>
-        <vendor>IBM</vendor>
-      </configItem>
-    </model>
-    <model>
-      <configItem>
         <name>thinkpad60</name>
         <_description>IBM ThinkPad R60/T60/R61/T61</_description>
         <vendor>IBM</vendor>
