@@ -554,6 +554,13 @@
     </model>
     <model>
       <configItem>
+        <name>hpmini110</name>
+        <_description>HP Mini 110 Notebook</_description>
+        <vendor>Hewlett-Packard</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>rapidaccess</name>
         <_description>IBM Rapid Access</_description>
         <vendor>IBM</vendor>
