@@ -6,6 +6,7 @@
   flexpro	=	keytronic(FlexPro)
   hp6000	=	hp(omnibook)
   hpmini110	=	hp(mini110)
+  hpdv5		=	hp(dv5)
   omnikey101	=	northgate(omnikey101)
  $pcmodels	=	pc(%m)
  $pcgeometries	=	pc(%m)
