@@ -1,3 +1,8 @@
+2009-11-18 Sergey Udaltsov
+
+	* symbols/tm: small fix for tm layout, related to Ctrl+? shortcuts
+	https://bugs.freedesktop.org/show_bug.cgi?id=25074
+
 2009-10-20 Sergey Udaltsov
 
 	* symbols/sun_vndr/us: added backspace mapping,
