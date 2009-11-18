@@ -67,6 +67,7 @@
   compose:lwin		=	+compose(lwin)
   compose:rwin		=	+compose(rwin)
   compose:menu		=	+compose(menu)
+  compose:lctrl		=	+compose(lctrl)
   compose:rctrl		=	+compose(rctrl)
   compose:caps		=	+compose(caps)
   compose:102		=	+compose(102)

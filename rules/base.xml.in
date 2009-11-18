@@ -4953,6 +4953,12 @@
       </option>
       <option>
         <configItem>
+          <name>compose:lctrl</name>
+          <_description>Left Ctrl</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>compose:rctrl</name>
           <_description>Right Ctrl</_description>
         </configItem>
