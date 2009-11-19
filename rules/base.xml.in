@@ -555,7 +555,7 @@
     <model>
       <configItem>
         <name>hpmini110</name>
-        <_description>HP Mini 110 Notebook</_description>
+        <_description>Hewlett-Packard Mini 110 Notebook</_description>
         <vendor>Hewlett-Packard</vendor>
       </configItem>
     </model>
