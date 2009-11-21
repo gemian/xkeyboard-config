@@ -1,3 +1,8 @@
+2009-11-21 Sergey Udaltsov
+
+	* ../rules/base.xml.in, ../symbols/pl: added pl(dvp),
+	http://bugs.freedesktop.org/show_bug.cgi?id=25200
+
 2009-11-18 Sergey Udaltsov
 
 	* symbols/tm: small fix for tm layout, related to Ctrl+? shortcuts
