@@ -1,3 +1,8 @@
+2009-11-24 Sergey Udaltsov
+
+	* rules/base.xml.in, symbols/lt: removed unneeded lt(balticplus),
+	http://bugs.freedesktop.org/show_bug.cgi?id=25263
+
 2009-11-21 Sergey Udaltsov
 
 	* ../rules/base.xml.in, ../symbols/pl: added pl(dvp),

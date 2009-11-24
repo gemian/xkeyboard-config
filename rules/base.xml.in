@@ -3026,12 +3026,6 @@
             <_description>LEKPa</_description>
           </configItem>
         </variant>
-        <variant>
-          <configItem>
-            <name>balticplus</name>
-            <_description>Baltic+</_description>
-          </configItem>
-        </variant>
       </variantList>
     </layout>
     <layout>
