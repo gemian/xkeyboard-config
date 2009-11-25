@@ -1,3 +1,8 @@
+2009-11-25 Sergey Udaltsov
+
+	* rules/base.m_s.part, symbols/inet: a bit of optimization, K6C to map
+	to Eject, always in media section
+
 2009-11-24 Sergey Udaltsov
 
 	* rules/base.xml.in, symbols/lt: removed unneeded lt(balticplus),
