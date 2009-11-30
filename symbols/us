@@ -253,7 +253,7 @@ xkb_symbols "dvorak" {
     key <BKSL> { [  backslash,  bar             ]       };
 };
 
-// Dvorak international
+// Dvorak international without dead keys
 // Stephane Magnenat (stephane at magnenat dot net, http://stephane.magnenat.net)
 // Based on information from http://www.poupinou.org/dvorak/index.html
 //
@@ -270,9 +270,9 @@ xkb_symbols "dvorak" {
 //      â   ö   è   ù   ï
 
 partial alphanumeric_keys
-xkb_symbols "dvorak-intl" {
+xkb_symbols "dvorak-alt-intl" {
 
-    name[Group1]= "USA - Dvorak international";
+    name[Group1]= "USA - Dvorak alternative international (no dead keys; former dvorak-intl)";
 
     include "us(dvorak)"
 
