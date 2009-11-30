@@ -1245,6 +1245,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>dvorak-intl</name>
+            <_description>Dvorak international (with dead keys)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>dvorak-alt-intl</name>
             <_description>Dvorak alternative international (no dead keys; former dvorak-intl)</_description>
           </configItem>
