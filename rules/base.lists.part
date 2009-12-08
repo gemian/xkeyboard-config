@@ -11,6 +11,9 @@
 // Microsoft models (using MS geometry)
 ! $msmodels = microsoft microsoft7000 microsoftpro microsoftprousb microsoftprose
 
+// Nokia devices and keyboards
+! $nokiamodels = nokiasu8w nokiarx44 nokiarx51
+
 // PC geometries - they have special geometry but symbols are mostly pc105
 ! $pcgeometries = latitude
 
