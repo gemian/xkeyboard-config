@@ -4421,6 +4421,12 @@
       </option>
       <option>
         <configItem>
+          <name>grp:lctrl_rctrl_switch</name>
+          <_description>Left Ctrl (to first layout), Right Ctrl (to last layout)</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>grp:alt_caps_toggle</name>
           <_description>Alt+CapsLock</_description>
         </configItem>

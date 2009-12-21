@@ -2,6 +2,9 @@
 
 	* symbols/ru: Added ru(typewriter-legacy),
 	https://bugs.freedesktop.org/show_bug.cgi?id=25726
+	* rules/base.o_s.part, rules/base.xml.in, symbols/group: added
+	grp(lctrl_rctrl_switch),
+	https://bugs.freedesktop.org/show_bug.cgi?id=25727
 
 2009-11-27 Sergey Udaltsov
 

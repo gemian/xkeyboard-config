@@ -168,6 +168,22 @@ xkb_symbols "win_menu_switch" {
     };
 };
 
+// using the group(lctrl_rctrl_switch) map, pressing:
+// Left Control selects the first group
+// Right Control selects the last group
+partial modifier_keys
+xkb_symbols "lctrl_rctrl_switch" {
+    virtual_modifiers AltGr;
+    key <LCTL> {
+        virtualMods= AltGr,
+        symbols[Group1] = [ ISO_First_Group ]
+    };
+    key <RCTL> {
+        virtualMods= AltGr,
+        symbols[Group1] = [ ISO_Last_Group ]
+    };
+};
+
 // using the group(ctrl_alt_toggle) map, pressing:
 //     Control_L+Alt_L locks the previous group
 //     Control_R+Alt_R locks the next group
