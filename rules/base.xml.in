@@ -3408,6 +3408,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>typewriter-legacy</name>
+            <_description>Typewriter, legacy</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>tt</name>
             <_description>Tatar</_description>
             <languageList><iso639Id>tat</iso639Id></languageList>

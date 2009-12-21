@@ -1,3 +1,8 @@
+2009-12-21 Sergey Udaltsov
+
+	* symbols/ru: Added ru(typewriter-legacy),
+	https://bugs.freedesktop.org/show_bug.cgi?id=25726
+
 2009-11-27 Sergey Udaltsov
 
 	* symbols/se: Reintroduced the broken bar in the Swedish symbol
