@@ -1100,6 +1100,27 @@
     </model>
     <model>
       <configItem>
+        <name>applealu_ansi</name>
+        <_description>Apple Aluminium Keyboard (ANSI)</_description>
+	<vendor>Apple</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>applealu_iso</name>
+        <_description>Apple Aluminium Keyboard (ISO)</_description>
+	<vendor>Apple</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>applealu_jis</name>
+        <_description>Apple Aluminium Keyboard (JIS)</_description>
+	<vendor>Apple</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>silvercrest</name>
         <_description>SILVERCREST Multimedia Wireless Keyboard</_description>
 	<vendor>Silvercrest</vendor>
