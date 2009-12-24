@@ -2888,6 +2888,12 @@
             <_description>OADG 109A</_description>
           </configItem>
 	</variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <description>Macintosh</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
