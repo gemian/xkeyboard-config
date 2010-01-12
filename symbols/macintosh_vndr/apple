@@ -125,3 +125,18 @@ xkb_symbols "alukbd" {
       symbols[Group1]= [ NoSymbol, XF86AudioRaiseVolume, NoSymbol, XF86_Switch_VT_12 ]
     };
 };
+
+// Aluminium Keyboard: make F13, F14, F15 PC-ish (Print, Scroll_Lock, Pause)
+partial function_keys keypad_keys
+xkb_symbols "alupckeys" {
+    key <FK13> {
+      type= "PC_ALT_LEVEL2",
+      symbols[Group1]= [ Print, Sys_Req ]
+    };
+    key <FK14> { [ Scroll_Lock ] };
+    key <FK15> {
+      type= "PC_CONTROL_LEVEL2",
+      symbols[Group1]= [ Pause, Break ]
+    };
+    override key <NMLK> { [ Num_Lock, Pointer_EnableKeys ] };
+};
