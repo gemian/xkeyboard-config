@@ -2059,6 +2059,12 @@
 	    <_description>UCW layout (accented letters only)</_description>
 	 </configItem>
 	</variant>
+	<variant>
+	  <configItem>
+	    <name>dvorak-ucw</name>
+	    <_description>US Dvorak with CZ UCW support</_description>
+	 </configItem>
+	</variant>
       </variantList>
     </layout>
     <layout>
