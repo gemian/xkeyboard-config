@@ -4344,19 +4344,19 @@
       <variantList>
         <variant>
           <configItem>
-            <name>fross</name>
+            <name>fr-oss</name>
             <description>Français (France Alternative)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>usmac</name>
+            <name>us-mac</name>
             <description>English (USA Macintosh)</description>
           </configItem>
         </variant>
         <variant>
           <configItem>
-            <name>usintl</name>
+            <name>us-intl</name>
             <description>English (USA International)</description>
           </configItem>
         </variant>

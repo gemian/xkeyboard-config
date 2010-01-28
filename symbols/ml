@@ -17,7 +17,7 @@ xkb_symbols "basic" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "fross" {
+xkb_symbols "fr-oss" {
 
     include "fr(oss)"
 
@@ -39,7 +39,7 @@ xkb_symbols "fross" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "usmac" {
+xkb_symbols "us-mac" {
 
     include "us(mac)"
 
@@ -62,7 +62,7 @@ xkb_symbols "usmac" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "usintl" {
+xkb_symbols "us-intl" {
 
     include "us(intl)"
 
