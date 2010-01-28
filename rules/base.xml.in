@@ -4339,7 +4339,6 @@
         <shortDescription>Mli</shortDescription>
         <description>Mali</description>
         <languageList><iso639Id>bam</iso639Id></languageList>
-        <countryList><iso3166Id>ML</iso3166Id></countryList>
       </configItem>
       <variantList>
         <variant>
