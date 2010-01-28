@@ -19,8 +19,9 @@ ir is it jp \
 kg kh kr kz \
 la latam latin \
 lk lt lv \
-ma mao me mk \
-mm mn mt mv \
+ma mao me \
+mk ml mm \
+mn mt mv \
 ng nl no np \
 pc pk pl pt \
 ro rs ru \
