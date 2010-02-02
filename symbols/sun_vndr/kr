@@ -10,7 +10,7 @@
 // copyright notice(s) and this permission notice appear in all copies of
 // the Software and that both the above copyright notice(s) and this
 // permission notice appear in supporting documentation.
-//
+// 
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
 // OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
 // MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT
@@ -20,13 +20,14 @@
 // FROM LOSS OF USE, DATA OR PROFITS, WHETHER IN AN ACTION OF CONTRACT,
 // NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF OR IN CONNECTION
 // WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
-//
+// 
 // Except as contained in this notice, the name of a copyright holder
 // shall not be used in advertising or otherwise to promote the sale, use
 // or other dealings in this Software without prior written authorization
 // of the copyright holder.
 //
- 
+//
+
 //
 // CDDL HEADER START
 //
@@ -48,43 +49,50 @@
 // CDDL HEADER END
 //
 
-partial default alphanumeric_keys
+// Korean layout for a Type 6 Sun keyboard
+partial
 xkb_symbols "type6" {
 
-    name[Group1]="Finland";
+    // A few keys are different
+    key <ALGR> { [ Hangul                       ]       };
+    key <COMP> { [ Hangul_Hanja                 ]       };
+    key <KANA> { [ Hangul                       ]       };
+    key <EISU> { [ Hangul_Hanja                 ]       };
+    key <BKSL> { [ backslash, bar,  brokenbar   ]       };
 
-    key <TLDE> { [  section,         onehalf                                  ] };
-    key <AE01> { [  1,               exclam                                   ] };
-    key <AE02> { [  2,               quotedbl,         at                     ] };
-    key <AE03> { [  3,               numbersign,       sterling               ] };
-    key <AE04> { [  4,               currency,         dollar                 ] };
-    key <AE05> { [  5,               percent                                  ] };
-    key <AE06> { [  6,               ampersand                                ] };
-    key <AE07> { [  7,               slash,            braceleft              ] };
-    key <AE08> { [  8,               parenleft,        bracketleft            ] };
-    key <AE09> { [  9,               parenright,       bracketright           ] };
-    key <AE10> { [  0,               equal,            braceright             ] };
-    key <AE11> { [  plus,            question,         backslash              ] };
-    key <AE12> { [  dead_acute,      dead_grave                               ] };
-    key <AD03> { [  e,               E,                EuroSign               ] };
-    key <AD11> { [  aring,           Aring                                    ] };
-    key <AD12> { [  dead_diaeresis,  asciicircum,      asciitilde             ] };
-    key <AC10> { [  odiaeresis,      Odiaeresis                               ] };
-    key <AC11> { [  adiaeresis,      Adiaeresis                               ] };
-    key <BKSL> { [  apostrophe,      asterisk,         quoteleft              ] };
-    key <LSGT> { [  less,            greater,          bar                    ] };
-    key <AB08> { [  comma,           semicolon                                ] };
-    key <AB09> { [  period,          colon                                    ] };
-    key <AB10> { [  minus,           underscore                               ] };
-
-	include "level3(ralt_switch)"
-	include "kpdl(comma)"
+        include "level3(ralt_switch)"
 
 };
 
 
-partial alphanumeric_keys
+// Korean layout for a Type 4 Sun keyboard
+xkb_symbols "type4" {
+
+    key <BKSL> { [ backslash, bar,  brokenbar	]		};
+
+    key <LNFD> { [ Hangul		]			};
+    key <RALT> { [ Linefeed		]			};
+    key <COMP> { [ Hangul_Hanja		]			};
+
+	include "level3(ralt_switch)"
+
+};
+
+// Korean layout for a Type 5 Sun keyboard
+xkb_symbols "type5" {
+
+    // A few keys are different
+    key <ALGR> { [ Hangul		]				  };
+    key <COMP> { [ Hangul_Hanja		]				  };
+    key <BKSL> { [ backslash, bar,  brokenbar			] };
+
+	include "level3(ralt_switch)"
+
+};
+
+
+partial default alphanumeric_keys
 	xkb_symbols "basic" {
-	include "sun_vndr/fi(type6)"
+	include "sun_vndr/kr(type6)"
 };
 
