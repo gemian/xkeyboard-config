@@ -117,7 +117,7 @@ xkb_symbols "type4" {
     key <AE09> { [ 9, parenright, braceright  ]       };
     key <AE10> { [ 0, quoteright, quoteleft   ]       };
     key <AE11> { [ slash, question, backslash  ]        };
-    key <AE12> { [ degree, SunFA_Tilde, SunFA_Cedilla]      };
+    key <AE12> { [ degree, dead_tilde, dead_cedilla]      };
     key <AD03> { [ e, E, EuroSign, Eacute    ]};
     key <AD11> { [ dead_diaeresis, dead_circumflex, asciitilde, asciicircum]};
     key <AD12> { [ asterisk, bar, asciitilde  ]       };
