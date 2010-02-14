@@ -289,7 +289,7 @@ xkb_symbols "dvorak-intl" {
     key <AD08> { [	   c,          C,     copyright,             cent ] };
     key <AD09> { [	   r,          R,    registered,       registered ] };
     key <AD10> { [	   l,          L,        oslash,         Ooblique ] };
-    // key <AD11> { [     slash,   question,  questiondown,        dead_hook ] };
+    key <AD11> { [     slash,   question,  questiondown,        dead_hook ] };
     // key <AD12> { [     equal,       plus,      multiply,         division ] };
 
     key <AC01> { [	   a,          A,        aacute,           Aacute ] };
