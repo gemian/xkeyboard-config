@@ -2903,9 +2903,9 @@
     </layout>
     <layout>
       <configItem>
-	<name>kz</name>
-	<_shortDescription>Kaz</_shortDescription>
-	<_description>Kazakhstan</_description>
+        <name>kz</name>
+        <_shortDescription>Kaz</_shortDescription>
+        <_description>Kazakhstan</_description>
         <languageList><iso639Id>kaz</iso639Id></languageList>
       </configItem>
       <variantList>
