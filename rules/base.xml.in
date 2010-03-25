@@ -982,35 +982,35 @@
     <model>
       <configItem>
         <name>tm2020</name>
-        <description>TypeMatrix EZ-Reach 2020</description>
+        <_description>TypeMatrix EZ-Reach 2020</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>tm2030PS2</name>
-        <description>TypeMatrix EZ-Reach 2030 PS2</description>
+        <_description>TypeMatrix EZ-Reach 2030 PS2</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>tm2030USB</name>
-        <description>TypeMatrix EZ-Reach 2030 USB</description>
+        <_description>TypeMatrix EZ-Reach 2030 USB</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>tm2030USB-102</name>
-        <description>TypeMatrix EZ-Reach 2030 USB (102/105:EU mode)</description>
+        <_description>TypeMatrix EZ-Reach 2030 USB (102/105:EU mode)</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>tm2030USB-106</name>
-        <description>TypeMatrix EZ-Reach 2030 USB (106:JP mode)</description>
+        <_description>TypeMatrix EZ-Reach 2030 USB (106:JP mode)</_description>
         <vendor>TypeMatrix</vendor>
       </configItem>
     </model>
@@ -1659,7 +1659,7 @@
         <variant>
           <configItem>
             <name>tam_keyboard_with_numerals</name>
-            <description>Tamil Keyboard with Numerals</description>
+            <_description>Tamil Keyboard with Numerals</_description>
             <languageList><iso639Id>tam</iso639Id></languageList>
           </configItem>
         </variant>
@@ -4296,8 +4296,8 @@
     <layout>
       <configItem>
         <name>sn</name>
-        <shortDescription>Sen</shortDescription>
-        <description>Senegal</description>
+        <_shortDescription>Sen</_shortDescription>
+        <_description>Senegal</_description>
         <languageList><iso639Id>wol</iso639Id></languageList>
       </configItem>
       <variantList/>
@@ -4326,7 +4326,7 @@
     <layout>
       <configItem>
         <name>tm</name>
-        <shortDescription>Tkm</shortDescription>
+        <_shortDescription>Tkm</_shortDescription>
         <_description>Turkmenistan</_description>
         <languageList><iso639Id>tuk</iso639Id></languageList>
       </configItem>
@@ -4342,27 +4342,27 @@
     <layout>
       <configItem>
         <name>ml</name>
-        <shortDescription>Mli</shortDescription>
-        <description>Mali</description>
+        <_shortDescription>Mli</_shortDescription>
+        <_description>Mali</_description>
         <languageList><iso639Id>bam</iso639Id></languageList>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>fr-oss</name>
-            <description>Français (France Alternative)</description>
+            <_description>Français (France Alternative)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us-mac</name>
-            <description>English (USA Macintosh)</description>
+            <_description>English (USA Macintosh)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us-intl</name>
-            <description>English (USA International)</description>
+            <_description>English (USA International)</_description>
           </configItem>
         </variant>
       </variantList>
