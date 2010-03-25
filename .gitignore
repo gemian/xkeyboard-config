@@ -64,6 +64,7 @@ rules/sun.xml
 semantics/semantics.dir
 symbols/symbols.dir
 tests/*.lst
+tests/*.sd
 types/types.dir
 rules/extras/base.l1v1_s.part
 rules/extras/base.l2_s.part
