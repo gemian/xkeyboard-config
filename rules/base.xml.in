@@ -1301,6 +1301,14 @@
             <_description>Group toggle on multiply/divide key</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>srp</name>
+            <_description>Serbian</_description>
+            <languageList><iso639Id>eng</iso639Id>
+                          <iso639Id>srp</iso639Id> </languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
@@ -3485,6 +3493,14 @@
           <configItem>
             <name>dos</name>
             <_description>DOS</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>srp</name>
+            <_description>Serbian</_description>
+            <languageList><iso639Id>rus</iso639Id>
+                          <iso639Id>srp</iso639Id></languageList>
           </configItem>
         </variant>
         <variant>
