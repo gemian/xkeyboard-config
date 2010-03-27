@@ -164,7 +164,7 @@ xkb_symbols "intl" {
 partial alphanumeric_keys
 xkb_symbols "alt-intl" {
 
-  name[Group1]= "USA - Alternative international (former us_intl)";
+  name[Group1]= "USA - Alternative international";
 
   include "us"
 
@@ -339,7 +339,7 @@ xkb_symbols "dvorak-intl" {
 partial alphanumeric_keys
 xkb_symbols "dvorak-alt-intl" {
 
-    name[Group1]= "USA - Dvorak alternative international (no dead keys; former dvorak-intl)";
+    name[Group1]= "USA - Dvorak alternative international (no dead keys)";
 
     include "us(dvorak)"
 

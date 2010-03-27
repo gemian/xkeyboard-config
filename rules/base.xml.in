@@ -1228,7 +1228,7 @@
         <variant>
           <configItem>
             <name>alt-intl</name>
-            <_description>Alternative international (former us_intl)</_description>
+            <_description>Alternative international</_description>
           </configItem>
         </variant>
 	<variant>
@@ -1252,7 +1252,7 @@
         <variant>
           <configItem>
             <name>dvorak-alt-intl</name>
-            <_description>Dvorak alternative international (no dead keys; former dvorak-intl)</_description>
+            <_description>Dvorak alternative international (no dead keys)</_description>
           </configItem>
         </variant>
         <variant>
