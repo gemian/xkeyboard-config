@@ -4705,6 +4705,18 @@
           <_description>Enter on keypad</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>lv3:caps_switch</name>
+          <description>CapsLock</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv3:bksl_switch</name>
+          <description>&lt;BKSL&gt;-Key</description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="false">
       <!-- Tweaking the position of the "Ctrl" key -->
@@ -5157,6 +5169,12 @@
           <_description>Enable extra typographic characters</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>shift:both_capslock</name>
+          <description>Both Shift-Keys together toggle CapsLock</description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- Special shortcuts for the Euro character -->
@@ -5186,6 +5204,24 @@
         <configItem>
           <name>eurosign:5</name>
           <_description>5</_description>
+        </configItem>
+      </option>
+    </group>
+    <group allowMultipleSelection="true">
+      <configItem>
+        <name>lv5</name>
+        <description>5th level options</description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>lv5:lsgt_switch_lock</name>
+          <description>&lt;LSGT&gt;-Key chooses 5th level and toggles level5-Lock when pressed together with another 5th-level-chooser</description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>lv5:ralt_switch_lock</name>
+          <description>Right Alt chooses 5th level and toggles level5-Lock when pressed together with another 5th-level-chooser</description>
         </configItem>
       </option>
     </group>
