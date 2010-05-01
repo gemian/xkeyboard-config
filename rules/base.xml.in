@@ -2478,6 +2478,19 @@
             <languageList><iso639Id>hau</iso639Id></languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>avn</name>
+            <description>Avatime</description>
+            <languageList><iso639Id>avn</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>gillbt</name>
+            <description>GILLBT</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
