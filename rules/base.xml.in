@@ -2481,14 +2481,14 @@
         <variant>
           <configItem>
             <name>avn</name>
-            <description>Avatime</description>
+            <_description>Avatime</_description>
             <languageList><iso639Id>avn</iso639Id></languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>gillbt</name>
-            <description>GILLBT</description>
+            <_description>GILLBT</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2911,7 +2911,7 @@
         <variant>
           <configItem>
             <name>mac</name>
-            <description>Macintosh</description>
+            <_description>Macintosh</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4708,13 +4708,13 @@
       <option>
         <configItem>
           <name>lv3:caps_switch</name>
-          <description>CapsLock</description>
+          <_description>CapsLock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv3:bksl_switch</name>
-          <description>&lt;BKSL&gt;-Key</description>
+          <_description>Backslash</_description>
         </configItem>
       </option>
     </group>
@@ -5154,7 +5154,7 @@
       <option>
         <configItem>
           <name>apple:alupckeys</name>
-          <description>Apple Aluminium Keyboard: emulate PC keys (Print, Scroll_Lock, Pause, NumLock)</description>
+          <_description>Apple Aluminium Keyboard: emulate PC keys (Print, Scroll_Lock, Pause, NumLock)</_description>
         </configItem>
       </option>
       <option>
@@ -5172,7 +5172,7 @@
       <option>
         <configItem>
           <name>shift:both_capslock</name>
-          <description>Both Shift-Keys together toggle CapsLock</description>
+          <_description>Both Shift-Keys together toggle CapsLock</_description>
         </configItem>
       </option>
     </group>
@@ -5210,54 +5210,54 @@
     <group allowMultipleSelection="true">
       <configItem>
         <name>lv5</name>
-        <description>Key to choose 5th level</description>
+        <_description>Key to choose 5th level</_description>
       </configItem>
       <option>
         <configItem>
           <name>lv5:lsgt_switch_lock</name>
-	  <description>&lt;Less/Greater&gt; chooses 5th level and locks it when pressed together with another 5th-level-chooser</description>
+	  <_description>&lt;Less/Greater&gt; chooses 5th level and locks it when pressed together with another 5th-level-chooser</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv5:ralt_switch_lock</name>
-          <description>Right Alt chooses 5th level and locks it when pressed together with another 5th-level-chooser</description>
+          <_description>Right Alt chooses 5th level and locks it when pressed together with another 5th-level-chooser</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv5:lwin_switch_lock</name>
-          <description>Left Win chooses 5th level and locks it when pressed together with another 5th-level-chooser</description>
+          <_description>Left Win chooses 5th level and locks it when pressed together with another 5th-level-chooser</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv5:rwin_switch_lock</name>
-          <description>Right Win chooses 5th level and locks it when pressed together with another 5th-level-chooser</description>
+          <_description>Right Win chooses 5th level and locks it when pressed together with another 5th-level-chooser</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv5:lsgt_switch_lock_cancel</name>
-	  <description>&lt;Less/Greater&gt; chooses 5th level and locks it when pressed together with another 5th-level-chooser, one press releases the lock</description>
+	  <_description>&lt;Less/Greater&gt; chooses 5th level and locks it when pressed together with another 5th-level-chooser, one press releases the lock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv5:ralt_switch_lock_cancel</name>
-          <description>Right Alt chooses 5th level and locks it when pressed together with another 5th-level-chooser, one press releases the lock</description>
+          <_description>Right Alt chooses 5th level and locks it when pressed together with another 5th-level-chooser, one press releases the lock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv5:lwin_switch_lock_cancel</name>
-          <description>Left Win chooses 5th level and locks it when pressed together with another 5th-level-chooser, one press releases the lock</description>
+          <_description>Left Win chooses 5th level and locks it when pressed together with another 5th-level-chooser, one press releases the lock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>lv5:rwin_switch_lock_cancel</name>
-          <description>Right Win chooses 5th level and locks it when pressed together with another 5th-level-chooser, one press releases the lock</description>
+          <_description>Right Win chooses 5th level and locks it when pressed together with another 5th-level-chooser, one press releases the lock</_description>
         </configItem>
       </option>
     </group>
