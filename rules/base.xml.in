@@ -2295,8 +2295,14 @@
       <variantList>
         <variant>
           <configItem>
+            <name>classic</name>
+            <_description>Classic</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>nodeadkeys</name>
-            <_description>Eliminate dead keys</_description>
+            <_description>Classic, eliminate dead keys</_description>
           </configItem>
         </variant>
         <variant>
@@ -2305,12 +2311,6 @@
             <_description>Northern Saami</_description>
             <languageList><iso639Id>smi</iso639Id>
                           <iso639Id>sme</iso639Id></languageList>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>classic</name>
-            <_description>Classic</_description>
           </configItem>
         </variant>
         <variant>
