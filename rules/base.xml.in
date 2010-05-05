@@ -3594,6 +3594,13 @@
             <_description>Latin with guillemets</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>rue</name>
+            <_description>Pannonian Rusyn Homophonic</_description>
+            <languageList><iso639Id>rue</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
