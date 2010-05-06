@@ -1311,7 +1311,7 @@
         <variant>
           <configItem>
             <name>olpc2</name>
-            <_description>Group toggle on multiply/divide key</_description>
+            <_description>Layout toggle on multiply/divide key</_description>
           </configItem>
         </variant>
         <variant>
