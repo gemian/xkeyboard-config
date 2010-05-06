@@ -4447,6 +4447,14 @@
         </variant>
       </variantList>
     </layout>
+    <layout>
+      <configItem>
+        <name>bw</name>
+        <_shortDescription>Bwa</_shortDescription>
+	<_description>Botswana</_description>
+        <languageList><iso639Id>tsn</iso639Id></languageList>
+      </configItem>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
