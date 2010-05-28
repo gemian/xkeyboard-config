@@ -181,7 +181,7 @@ xkb_symbols "mac" {
 // but I was mostly interested in continuing to type English comfortably
 // as a primary function while being able to type the full Icelandic
 // alphabet as a secondary function.
-//     -- Ævar Arnfjörð Bjarmason <avar@cpan.org>
+//     -- Ævar Arnfjörð Bjarmason <avarab@gmail.com>
 
 // Icelandic Dvorak
 partial alphanumeric_keys 
