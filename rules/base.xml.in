@@ -556,42 +556,42 @@
       <configItem>
         <name>rapidaccess</name>
         <_description>IBM Rapid Access</_description>
-        <vendor>IBM</vendor>
+        <vendor>Lenovo (previously IBM)</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>rapidaccess2</name>
         <_description>IBM Rapid Access II</_description>
-        <vendor>IBM</vendor>
+        <vendor>Lenovo (previously IBM)</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>thinkpad</name>
         <_description>IBM ThinkPad 560Z/600/600E/A22E</_description>
-        <vendor>IBM</vendor>
+        <vendor>Lenovo (previously IBM)</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>thinkpad60</name>
         <_description>IBM ThinkPad R60/T60/R61/T61</_description>
-        <vendor>IBM</vendor>
+        <vendor>Lenovo (previously IBM)</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>thinkpadz60</name>
         <_description>IBM ThinkPad Z60m/Z60t/Z61m/Z61t</_description>
-        <vendor>IBM</vendor>
+        <vendor>Lenovo (previously IBM)</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
         <name>ibm_spacesaver</name>
         <_description>IBM Space Saver</_description>
-        <vendor>IBM</vendor>
+        <vendor>Lenovo (previously IBM)</vendor>
       </configItem>
     </model>
     <model>
