@@ -4271,6 +4271,13 @@
             <languageList><iso639Id>ara</iso639Id></languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>snd</name>
+            <_description>Sindhi</_description>
+            <languageList><iso639Id>sd</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
