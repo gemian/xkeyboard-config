@@ -449,6 +449,13 @@
     </model>
     <model>
       <configItem>
+        <name>kinesis</name>
+        <_description>Kinesis</_description>
+        <vendor>Kinesis</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>logitech_base</name>
         <_description>Logitech Generic Keyboard</_description>
         <vendor>Logitech</vendor>
