@@ -180,7 +180,7 @@ xkb_symbols "olpc" {
 
     key <AC10> { [       ntilde,        Ntilde                  ] };
     key <AC11> { [         plus,       asterisk,      dead_tilde ] };
-    key <BKSL> { [ bracketright,     braceright                  ] };
+    key <BKSL> { [ bracketright,     braceright,      section    ] };
 
     key <AB08> { [        comma,      semicolon                  ] };
     key <AB09> { [       period,          colon                  ] };
