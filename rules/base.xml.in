@@ -1783,6 +1783,12 @@
             <languageList><iso639Id>hin</iso639Id></languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>rupee</name>
+            <_description>With RupeeSign</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
