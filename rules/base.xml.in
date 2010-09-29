@@ -1785,8 +1785,9 @@
         </variant>
         <variant>
           <configItem>
-            <name>rupee</name>
-            <_description>With RupeeSign</_description>
+            <name>eng</name>
+            <_description>English with RupeeSign</_description>
+            <languageList><iso639Id>eng</iso639Id></languageList>
           </configItem>
         </variant>
       </variantList>
@@ -5308,30 +5309,36 @@
       <!-- Special shortcuts for the Euro character -->
       <configItem>
         <name>eurosign</name>
-        <_description>Adding EuroSign to certain keys</_description>
+        <_description>Adding currency signs to certain keys</_description>
       </configItem>
       <option>
         <configItem>
           <name>eurosign:e</name>
-          <_description>E</_description>
+          <_description>Euro on E</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>eurosign:2</name>
-          <_description>2</_description>
+          <_description>Euro on 2</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>eurosign:4</name>
-          <_description>4</_description>
+          <_description>Euro on 4</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>eurosign:5</name>
-          <_description>5</_description>
+          <_description>Euro on 5</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>rupeesign:4</name>
+          <_description>Rupee on 4</_description>
         </configItem>
       </option>
     </group>

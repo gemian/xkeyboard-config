@@ -1334,9 +1334,9 @@ xkb_symbols "hin-wx" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "rupee" {
+xkb_symbols "eng" {
 
-    name[Group1]= "India - USA With Rupee";
+    name[Group1]= "India - English with RupeeSign";
 
     include "us(basic)"
 
