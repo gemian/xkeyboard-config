@@ -449,6 +449,13 @@
     </model>
     <model>
       <configItem>
+        <name>htcdream</name>
+        <_description>HTC Dream</_description>
+        <vendor>HTC</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>kinesis</name>
         <_description>Kinesis</_description>
         <vendor>Kinesis</vendor>
