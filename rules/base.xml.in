@@ -1217,6 +1217,13 @@
         <vendor>Creative</vendor>
       </configItem>
     </model>
+    <model>
+      <configItem>
+       <name>htcdream</name>
+       <_description>Htc Dream phone</_description>
+       <vendor>htc</vendor>
+     </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>

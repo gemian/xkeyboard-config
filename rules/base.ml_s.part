@@ -38,3 +38,4 @@
  $thinkpads   	br			=	pc+br(thinkpad)
   *	   	$nonlatin		=	pc+us+%l%(v):2
   *		*			=	pc+%l%(v)
+  htcdream	us de it		=	%l(htcdream)
