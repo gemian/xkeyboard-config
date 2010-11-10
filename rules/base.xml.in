@@ -5304,6 +5304,12 @@
           <description>Both Shift-Keys together toggle ShiftLock</description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>keypad:pointerkeys</name>
+          <_description>Toggle PointerKeys with Shift + NumLock.</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- Special shortcuts for the Euro character -->
