@@ -4531,6 +4531,130 @@
         <languageList><iso639Id>tsn</iso639Id></languageList>
       </configItem>
     </layout>
+    <layout>
+      <configItem>
+        <name>ph</name>
+        <_shortDescription>Phi</_shortDescription>
+        <_description>Philippines</_description>
+        <languageList><iso639Id>eng</iso639Id>
+                     <iso639Id>bik</iso639Id>
+                      <iso639Id>ceb</iso639Id>
+                      <iso639Id>fil</iso639Id>
+                      <iso639Id>hil</iso639Id>
+                      <iso639Id>ilo</iso639Id>
+                      <iso639Id>pam</iso639Id>
+                      <iso639Id>pag</iso639Id>
+                      <iso639Id>phi</iso639Id>
+                      <iso639Id>tgl</iso639Id>
+                      <iso639Id>war</iso639Id></languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>qwerty-bay</name>
+            <_description>QWERTY (Baybayin)</_description>
+            <languageList><iso639Id>bik</iso639Id>
+                          <iso639Id>ceb</iso639Id>
+                          <iso639Id>fil</iso639Id>
+                          <iso639Id>hil</iso639Id>
+                          <iso639Id>ilo</iso639Id>
+                          <iso639Id>pam</iso639Id>
+                          <iso639Id>pag</iso639Id>
+                          <iso639Id>phi</iso639Id>
+                          <iso639Id>tgl</iso639Id>
+                          <iso639Id>war</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>capewell-dvorak</name>
+            <_description>Capewell-Dvorak (Latin)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>capewell-dvorak-bay</name>
+            <_description>Capewell-Dvorak (Baybayin)</_description>
+            <languageList><iso639Id>bik</iso639Id>
+                          <iso639Id>ceb</iso639Id>
+                          <iso639Id>fil</iso639Id>
+                          <iso639Id>hil</iso639Id>
+                          <iso639Id>ilo</iso639Id>
+                          <iso639Id>pam</iso639Id>
+                          <iso639Id>pag</iso639Id>
+                          <iso639Id>phi</iso639Id>
+                          <iso639Id>tgl</iso639Id>
+                          <iso639Id>war</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>capewell-qwerf2k6</name>
+            <_description>Capewell-QWERF 2006 (Latin)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>capewell-qwerf2k6-bay</name>
+            <_description>Capewell-QWERF 2006 (Baybayin)</_description>
+            <languageList><iso639Id>bik</iso639Id>
+                          <iso639Id>ceb</iso639Id>
+                          <iso639Id>fil</iso639Id>
+                          <iso639Id>hil</iso639Id>
+                          <iso639Id>ilo</iso639Id>
+                          <iso639Id>pam</iso639Id>
+                          <iso639Id>pag</iso639Id>
+                          <iso639Id>phi</iso639Id>
+                          <iso639Id>tgl</iso639Id>
+                          <iso639Id>war</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak</name>
+            <_description>Colemak (Latin)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>colemak-bay</name>
+            <_description>Colemak (Baybayin)</_description>
+            <languageList><iso639Id>bik</iso639Id>
+                          <iso639Id>ceb</iso639Id>
+                          <iso639Id>fil</iso639Id>
+                          <iso639Id>hil</iso639Id>
+                          <iso639Id>ilo</iso639Id>
+                          <iso639Id>pam</iso639Id>
+                          <iso639Id>pag</iso639Id>
+                          <iso639Id>phi</iso639Id>
+                          <iso639Id>tgl</iso639Id>
+                          <iso639Id>war</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak</name>
+            <_description>Dvorak (Latin)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>dvorak-bay</name>
+            <_description>Dvorak (Baybayin)</_description>
+            <languageList><iso639Id>bik</iso639Id>
+                          <iso639Id>ceb</iso639Id>
+                          <iso639Id>fil</iso639Id>
+                          <iso639Id>hil</iso639Id>
+                          <iso639Id>ilo</iso639Id>
+                          <iso639Id>pam</iso639Id>
+                          <iso639Id>pag</iso639Id>
+                          <iso639Id>phi</iso639Id>
+                          <iso639Id>tgl</iso639Id>
+                          <iso639Id>war</iso639Id></languageList>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
