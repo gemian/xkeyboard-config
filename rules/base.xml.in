@@ -897,6 +897,13 @@
     </model>
     <model>
       <configItem>
+        <name>sanwaskbkg3</name>
+        <description>Sanwa Supply SKB-KG3</description>
+        <vendor>Sanwa Supply Inc.</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>sk1300</name>
         <_description>SK-1300</_description>
 	<vendor>NEC</vendor>
@@ -2952,6 +2959,12 @@
             <_description>Kana</_description>
           </configItem>
         </variant>
+	<variant>
+          <configItem>
+            <name>kana86</name>
+            <_description>Kana 86</_description>
+          </configItem>
+	</variant>
 	<variant>
           <configItem>
             <name>OADG109A</name>
