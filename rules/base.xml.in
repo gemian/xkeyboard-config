@@ -1344,9 +1344,12 @@
         </variant>
         <variant>
           <configItem>
-            <name>srp</name>
-            <_description>Serbian</_description>
+            <name>hbs</name>
+            <_description>Serbo-Croatian</_description>
             <languageList><iso639Id>eng</iso639Id>
+                          <iso639Id>bos</iso639Id>
+                          <iso639Id>hbs</iso639Id>
+                          <iso639Id>hrv</iso639Id>
                           <iso639Id>srp</iso639Id> </languageList>
           </configItem>
         </variant>
