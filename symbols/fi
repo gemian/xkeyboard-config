@@ -86,6 +86,7 @@ xkb_symbols "kotoistus" {
     key <AB10> { [  minus,           underscore,       endash,                dead_belowcomma       ] };
 
     include "nbsp(level3)"
+    include "nbsp(level4)"
     include "kpdl(comma)"
     include "level3(ralt_switch)"
     include "compose(rwin)"
