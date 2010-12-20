@@ -3622,6 +3622,13 @@
             <languageList><iso639Id>bak</iso639Id></languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>chm</name>
+            <_description>Mari</_description>
+            <languageList><iso639Id>chm</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
