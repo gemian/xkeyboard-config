@@ -312,4 +312,3 @@ default xkb_keycodes "evdev" {
 xkb_keycodes "pc98" {
     include "evdev(evdev)"
 };
-
