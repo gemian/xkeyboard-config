@@ -126,6 +126,7 @@ xkb_symbols "evdev" {
 
 //  key <I120>   {      [ ]       }; // KEY_MACRO 
     key <I126>   {      [ plusminus             ]       };
+    key <I128>   {      [ XF86LaunchA           ]       };
     key <I147>   {      [ XF86MenuKB            ]       };
     key <I148>   {      [ XF86Calculator        ]       };
 //  key <I149>   {      [ ]       }; // KEY_SETUP
@@ -174,6 +175,7 @@ xkb_symbols "evdev" {
     key <I209>   {      [ XF86AudioPause        ]       };
     key <I210>   {      [ XF86Launch3           ]       };
     key <I211>   {      [ XF86Launch4           ]       };
+    key <I212>   {      [ XF86LaunchB           ]       };
     key <I213>   {      [ XF86Suspend           ]       };
     key <I214>   {      [ XF86Close             ]       };
     key <I215>   {      [ XF86AudioPlay         ]       };
