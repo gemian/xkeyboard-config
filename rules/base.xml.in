@@ -5295,6 +5295,12 @@
           <_description>Caps Lock is disabled</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>caps:ctrl_modifier</name>
+          <_description>Make Caps Lock an additional Control but keep the Caps_Lock keysym</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="false">
       <!-- Using special PC keys (Win, Menu) to work as standard X keys (Super, Hyper, etc.) -->
