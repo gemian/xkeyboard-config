@@ -1271,7 +1271,6 @@ partial alphanumeric_keys
 xkb_symbols "microsoft4000" {
     include "inet(media_nav_common)"
     key <I192>  {       [ XF86Launch1           ]       };
-    key <I192>  {       [ XF86Launch2           ]       };
     key <I193>  {       [ XF86Launch3           ]       };
     key <I194>  {       [ XF86Launch4           ]       };
     key <I195>  {       [ XF86Launch5           ]       };
