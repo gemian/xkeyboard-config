@@ -40,12 +40,8 @@
 <!ELEMENT name (#PCDATA)>
 
 <!ELEMENT shortDescription (#PCDATA)>
-<!ATTLIST shortDescription
-          xml:lang CDATA #IMPLIED>
 
 <!ELEMENT description (#PCDATA)>
-<!ATTLIST description
-          xml:lang CDATA #IMPLIED>
 
 <!ELEMENT vendor (#PCDATA)>
 
