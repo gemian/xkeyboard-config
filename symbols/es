@@ -208,7 +208,7 @@ xkb_symbols "olpc2" {
     // Contact: Sayamindu Dasgupta <sayamindu@laptop.org>
 
     include "us(olpc)"
-    name[Group1]="Spain (OLPC2)";
+    name[Group1]="Spain - OLPC2";
 
     key <AE03> { [  3, numbersign,   dead_grave,  dead_grave] }; // combining grave
     key <I236>  { [ XF86Start ] };
