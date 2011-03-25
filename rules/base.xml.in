@@ -4050,8 +4050,8 @@
     <layout>
       <configItem>
         <name>es</name>
-        <_shortDescription>Esp</_shortDescription>
-        <_description>Spain</_description>
+        <_shortDescription>es</_shortDescription>
+        <_description>Spanish</_description>
         <languageList>
           <iso639Id>spa</iso639Id>
         </languageList>
@@ -4060,31 +4060,31 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Spain - Eliminate dead keys</_description>
+            <_description>Spanish (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>deadtilde</name>
-            <_description>Spain - Include dead tilde</_description>
+            <_description>Spanish (include dead tilde)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>Spain - Sun dead keys</_description>
+            <_description>Spanish (Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>Spain - Dvorak</_description>
+            <_description>Spanish (Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ast</name>
-            <_description>Spain - Asturian variant with bottom-dot H and bottom-dot L</_description>
+            <_description>Spanish (Asturian variant with bottom-dot H and bottom-dot L)</_description>
             <languageList>
               <iso639Id>ast</iso639Id>
             </languageList>
@@ -4093,7 +4093,7 @@
         <variant>
           <configItem>
             <name>cat</name>
-            <_description>Spain - Catalan variant with middle-dot L</_description>
+            <_description>Spanish (Catalan variant with middle-dot L)</_description>
             <languageList>
               <iso639Id>cat</iso639Id>
             </languageList>
@@ -4102,7 +4102,7 @@
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Spain - Macintosh</_description>
+            <_description>Spanish (Mac)</_description>
           </configItem>
         </variant>
       </variantList>
