@@ -1391,7 +1391,8 @@
         <variant>
           <configItem>
             <name>ps</name>
-            <_description>Afghanistan - Pashto</_description>
+            <_shortDescription>ps</_shortDescription>
+            <_description>Pashto</_description>
             <languageList>
               <iso639Id>pus</iso639Id>
             </languageList>
@@ -1400,7 +1401,8 @@
         <variant>
           <configItem>
             <name>uz</name>
-            <_description>Afghanistan - Southern Uzbek</_description>
+            <_shortDescription>uz</_shortDescription>
+            <_description>Uzbek (Afghanistan)</_description>
             <languageList>
               <iso639Id>uzb</iso639Id>
             </languageList>
@@ -1409,7 +1411,8 @@
         <variant>
           <configItem>
             <name>olpc-ps</name>
-            <_description>Afghanistan - OLPC Pashto</_description>
+            <_shortDescription>ps</_shortDescription>
+            <_description>Pashto (Afghanistan, OLPC)</_description>
             <languageList>
               <iso639Id>pus</iso639Id>
             </languageList>
@@ -1418,13 +1421,15 @@
         <variant>
           <configItem>
             <name>fa-olpc</name>
-            <_description>Afghanistan - OLPC Dari</_description>
+            <_shortDescription>fa</_shortDescription>
+            <_description>Persian (Afghanistan, Dari OLPC)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>uz-olpc</name>
-            <_description>Afghanistan - OLPC Southern Uzbek</_description>
+            <_shortDescription>uz</_shortDescription>
+            <_description>Uzbek (Afghanistan, OLPC)</_description>
             <languageList>
               <iso639Id>uzb</iso639Id>
             </languageList>
