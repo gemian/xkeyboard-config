@@ -4527,8 +4527,8 @@
     <layout>
       <configItem>
         <name>tw</name>
-        <_shortDescription>Twn</_shortDescription>
-        <_description>Taiwan</_description>
+        <_shortDescription>twn</_shortDescription>
+        <_description>Taiwanese</_description>
         <languageList>
           <iso639Id>trv</iso639Id>
         </languageList>
@@ -4537,7 +4537,7 @@
         <variant>
           <configItem>
             <name>indigenous</name>
-            <_description>Taiwan - Indigenous</_description>
+            <_description>Taiwanese (indigenous)</_description>
             <languageList>
               <iso639Id>ami</iso639Id>
               <iso639Id>tay</iso639Id>
