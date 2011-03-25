@@ -1330,7 +1330,7 @@
           <configItem>
             <name>rus</name>
             <_shortDescription>ru</_shortDescription>
-            <_description>Russian phonetic (US)</_description>
+            <_description>Russian (US, phonetic)</_description>
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
@@ -2787,7 +2787,8 @@
         <variant>
           <configItem>
             <name>ru</name>
-            <_description>Georgia - Russian</_description>
+            <_shortDescription>ru</_shortDescription>
+            <_description>Russian (Georgia)</_description>
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
@@ -2901,7 +2902,7 @@
         <variant>
           <configItem>
             <name>ru</name>
-            <_description>German (Russian phonetic)</_description>
+            <_description>Russian (Germany, phonetic)</_description>
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
@@ -3254,7 +3255,8 @@
         <variant>
           <configItem>
             <name>ruskaz</name>
-            <_description>Kazakhstan - Russian with Kazakh</_description>
+            <_shortDescription>ru</_shortDescription>
+            <_description>Russian (Kazakhstan, with Kazakh)</_description>
             <languageList><iso639Id>kaz</iso639Id>
                           <iso639Id>rus</iso639Id></languageList>
           </configItem>
@@ -3626,7 +3628,8 @@
         <variant>
           <configItem>
             <name>ru_phonetic_dvorak</name>
-            <_description>Poland - Russian phonetic Dvorak</_description>
+            <_shortDescription>ru</_shortDescription>
+            <_description>Russian (Poland, phonetic Dvorak</_description>
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
@@ -3778,8 +3781,8 @@
     <layout>
       <configItem>
         <name>ru</name>
-        <_shortDescription>Rus</_shortDescription>
-        <_description>Russia</_description>
+        <_shortDescription>ru</_shortDescription>
+        <_description>Russian</_description>
         <languageList>
           <iso639Id>rus</iso639Id>
         </languageList>
@@ -3788,37 +3791,37 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>Russia - Phonetic</_description>
+            <_description>Russian (phonetic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>phonetic_winkeys</name>
-            <_description>Russia - Phonetic Winkeys</_description>
+            <_description>Russian (phonetic WinKeys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>typewriter</name>
-            <_description>Russia - Typewriter</_description>
+            <_description>Russian (typewriter)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>legacy</name>
-            <_description>Russia - Legacy</_description>
+            <_description>Russian (legacy)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>typewriter-legacy</name>
-            <_description>Russia - Typewriter, legacy</_description>
+            <_description>Russian (typewriter, legacy)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>tt</name>
-            <_description>Russia - Tatar</_description>
+            <_description>Russian (Tatar)</_description>
             <languageList>
               <iso639Id>tat</iso639Id>
             </languageList>
@@ -3827,7 +3830,7 @@
         <variant>
           <configItem>
             <name>os_legacy</name>
-            <_description>Russia - Ossetian, legacy</_description>
+            <_description>Russian (Ossetian, legacy)</_description>
             <languageList>
               <iso639Id>oss</iso639Id>
             </languageList>
@@ -3836,7 +3839,7 @@
         <variant>
           <configItem>
             <name>os_winkeys</name>
-            <_description>Russia - Ossetian, Winkeys</_description>
+            <_description>Russian (Ossetian, WinKeys)</_description>
             <languageList>
               <iso639Id>oss</iso639Id>
             </languageList>
@@ -3845,7 +3848,7 @@
         <variant>
           <configItem>
             <name>cv</name>
-            <_description>Russia - Chuvash</_description>
+            <_description>Russian (Chuvash)</_description>
             <languageList>
               <iso639Id>chv</iso639Id>
             </languageList>
@@ -3854,7 +3857,7 @@
         <variant>
           <configItem>
             <name>cv_latin</name>
-            <_description>Russia - Chuvash Latin</_description>
+            <_description>Russian (Chuvash Latin)</_description>
             <languageList>
               <iso639Id>chv</iso639Id>
             </languageList>
@@ -3863,7 +3866,7 @@
         <variant>
           <configItem>
             <name>udm</name>
-            <_description>Russia - Udmurt</_description>
+            <_description>Russian (Udmurt)</_description>
             <languageList>
               <iso639Id>udm</iso639Id>
             </languageList>
@@ -3872,7 +3875,7 @@
         <variant>
           <configItem>
             <name>kom</name>
-            <_description>Russia - Komi</_description>
+            <_description>Russian (Komi)</_description>
             <languageList>
               <iso639Id>kom</iso639Id>
             </languageList>
@@ -3881,7 +3884,7 @@
         <variant>
           <configItem>
             <name>sah</name>
-            <_description>Russia - Yakut</_description>
+            <_description>Russian (Yakut)</_description>
             <languageList>
               <iso639Id>sah</iso639Id>
             </languageList>
@@ -3890,7 +3893,7 @@
         <variant>
           <configItem>
             <name>xal</name>
-            <_description>Russia - Kalmyk</_description>
+            <_description>Russian (Kalmyk)</_description>
             <languageList>
               <iso639Id>xal</iso639Id>
             </languageList>
@@ -3899,13 +3902,13 @@
         <variant>
           <configItem>
             <name>dos</name>
-            <_description>Russia - DOS</_description>
+            <_description>Russian (DOS)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>srp</name>
-            <_description>Russia - Serbian</_description>
+            <_description>Russian (Serbian)</_description>
             <languageList><iso639Id>rus</iso639Id>
                           <iso639Id>srp</iso639Id></languageList>
           </configItem>
@@ -3913,7 +3916,7 @@
         <variant>
           <configItem>
             <name>bak</name>
-            <_description>Russia - Bashkirian</_description>
+            <_description>Russian (Bashkirian)</_description>
             <languageList>
               <iso639Id>bak</iso639Id>
             </languageList>
@@ -3922,7 +3925,7 @@
         <variant>
           <configItem>
             <name>chm</name>
-            <_description>Russia - Mari</_description>
+            <_description>Russian (Mari)</_description>
             <languageList>
               <iso639Id>chm</iso639Id>
             </languageList>
@@ -4132,7 +4135,8 @@
         <variant>
           <configItem>
             <name>rus</name>
-            <_description>Sweden - Russian phonetic</_description>
+            <_shortDescription>ru</_shortDescription>
+            <_description>Russian (Sweden, phonetic)</_description>
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
@@ -4141,7 +4145,8 @@
         <variant>
           <configItem>
             <name>rus_nodeadkeys</name>
-            <_description>Sweden - Russian phonetic, eliminate dead keys</_description>
+            <_shortDescription>ru</_shortDescription>
+            <_description>Russian (Sweden, phonetic, eliminate dead keys)</_description>
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
