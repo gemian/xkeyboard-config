@@ -2443,7 +2443,8 @@
         <variant>
           <configItem>
             <name>ku</name>
-            <_description>Iran - Kurdish, Latin Q</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Iran, Latin Q)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -2452,7 +2453,8 @@
         <variant>
           <configItem>
             <name>ku_f</name>
-            <_description>Iran - Kurdish, (F)</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Iran, F)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -2461,7 +2463,8 @@
         <variant>
           <configItem>
             <name>ku_alt</name>
-            <_description>Iran - Kurdish, Latin Alt-Q</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Iran, latin alt-Q)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -2470,7 +2473,8 @@
         <variant>
           <configItem>
             <name>ku_ara</name>
-            <_description>Iran - Kurdish, Arabic-Latin</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Iran, Arabic-Latin)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -2490,7 +2494,8 @@
         <variant>
           <configItem>
             <name>ku</name>
-            <_description>Iraq - Kurdish, Latin Q</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Iraq, Latin Q)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -2499,7 +2504,8 @@
         <variant>
           <configItem>
             <name>ku_f</name>
-            <_description>Iraq - Kurdish, (F)</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Iraq, F)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -2508,7 +2514,8 @@
         <variant>
           <configItem>
             <name>ku_alt</name>
-            <_description>Iraq - Kurdish, Latin Alt-Q</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Iraq, Latin Alt-Q)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -2517,7 +2524,8 @@
         <variant>
           <configItem>
             <name>ku_ara</name>
-            <_description>Iraq - Kurdish, Arabic-Latin</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Iraq, Arabic-Latin)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -4293,7 +4301,8 @@
         <variant>
           <configItem>
             <name>ku</name>
-            <_description>Syria - Kurdish, Latin Q</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Syria, Latin Q)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -4302,7 +4311,8 @@
         <variant>
           <configItem>
             <name>ku_f</name>
-            <_description>Syria - Kurdish, (F)</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Syria, F)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -4311,7 +4321,8 @@
         <variant>
           <configItem>
             <name>ku_alt</name>
-            <_description>Syria - Kurdish, Latin Alt-Q</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Syria, Latin Alt-Q)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -4394,8 +4405,8 @@
     <layout>
       <configItem>
         <name>tr</name>
-        <_shortDescription>Tur</_shortDescription>
-        <_description>Turkey</_description>
+        <_shortDescription>tr</_shortDescription>
+        <_description>Turkish</_description>
         <languageList>
           <iso639Id>tur</iso639Id>
         </languageList>
@@ -4404,25 +4415,26 @@
         <variant>
           <configItem>
             <name>f</name>
-            <_description>Turkey - (F)</_description>
+            <_description>Turkish (F)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>alt</name>
-            <_description>Turkey - Alt-Q</_description>
+            <_description>Turkish (Alt-Q)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>Turkey - Sun dead keys</_description>
+            <_description>Turkish (Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ku</name>
-            <_description>Turkey - Kurdish, Latin Q</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Turkey, Latin Q)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -4431,7 +4443,8 @@
         <variant>
           <configItem>
             <name>ku_f</name>
-            <_description>Turkey - Kurdish, (F)</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Turkey, F)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -4440,7 +4453,8 @@
         <variant>
           <configItem>
             <name>ku_alt</name>
-            <_description>Turkey - Kurdish, Latin Alt-Q</_description>
+            <_shortDescription>ku</_shortDescription>
+            <_description>Kurdish (Turkey, Latin Alt-Q)</_description>
             <languageList>
               <iso639Id>kur</iso639Id>
             </languageList>
@@ -4449,13 +4463,13 @@
         <variant>
           <configItem>
             <name>intl</name>
-            <_description>Turkey - International (with dead keys)</_description>
+            <_description>Turkish (international with dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>crh</name>
-            <_description>Turkey - Crimean Tatar (Turkish Q)</_description>
+            <_description>Turkish (Crimean Tatar Turkish Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -4464,7 +4478,7 @@
         <variant>
           <configItem>
             <name>crh_f</name>
-            <_description>Turkey - Crimean Tatar (Turkish F)</_description>
+            <_description>Turkish (Crimean Tatar Turkish F)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -4473,7 +4487,7 @@
         <variant>
           <configItem>
             <name>crh_alt</name>
-            <_description>Turkey - Crimean Tatar (Turkish Alt-Q)</_description>
+            <_description>Turkish (Crimean Tatar Turkish Alt-Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
