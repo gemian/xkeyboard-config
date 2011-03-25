@@ -3124,8 +3124,8 @@
     <layout>
       <configItem>
         <name>is</name>
-        <_shortDescription>Isl</_shortDescription>
-        <_description>Iceland</_description>
+        <_shortDescription>is</_shortDescription>
+        <_description>Icelandic</_description>
         <languageList>
           <iso639Id>ice</iso639Id>
         </languageList>
@@ -3134,25 +3134,25 @@
         <variant>
           <configItem>
             <name>Sundeadkeys</name>
-            <_description>Iceland - Sun dead keys</_description>
+            <_description>Icelandic (Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Iceland - Eliminate dead keys</_description>
+            <_description>Icelandic (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Iceland - Macintosh</_description>
+            <_description>Icelandic (Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>Iceland - Dvorak</_description>
+            <_description>Icelandic (Dvorak)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3160,8 +3160,8 @@
     <layout>
       <configItem>
         <name>il</name>
-        <_shortDescription>Isr</_shortDescription>
-        <_description>Israel</_description>
+        <_shortDescription>he</_shortDescription>
+        <_description>Hebrew</_description>
         <languageList>
           <iso639Id>heb</iso639Id>
         </languageList>
@@ -3170,19 +3170,19 @@
         <variant>
           <configItem>
             <name>lyx</name>
-            <_description>Israel - lyx</_description>
+            <_description>Hebrew (lyx)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>Israel - Phonetic</_description>
+            <_description>Hebrew (Phonetic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>biblical</name>
-            <_description>Israel - Biblical Hebrew (Tiro)</_description>
+            <_description>Hebrew (Tiro)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3265,8 +3265,8 @@
     <layout>
       <configItem>
         <name>kg</name>
-        <_shortDescription>Kgz</_shortDescription>
-        <_description>Kyrgyzstan</_description>
+        <_shortDescription>ki</_shortDescription>
+        <_description>Kyrgyz</_description>
         <languageList>
           <iso639Id>kir</iso639Id>
         </languageList>
@@ -3275,7 +3275,7 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>Kyrgyzstan - Phonetic</_description>
+            <_description>Kyrgyz (phonetic)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3283,8 +3283,8 @@
     <layout>
       <configItem>
         <name>kh</name>
-        <_shortDescription>Khm</_shortDescription>
-        <_description>Cambodia</_description>
+        <_shortDescription>km</_shortDescription>
+        <_description>Khmer (Cambodian)</_description>
         <languageList>
           <iso639Id>khm</iso639Id>
         </languageList>
@@ -3294,8 +3294,8 @@
     <layout>
       <configItem>
         <name>kz</name>
-        <_shortDescription>Kaz</_shortDescription>
-        <_description>Kazakhstan</_description>
+        <_shortDescription>kk</_shortDescription>
+        <_description>Kazakh</_description>
         <languageList>
           <iso639Id>kaz</iso639Id>
         </languageList>
@@ -3313,7 +3313,7 @@
         <variant>
           <configItem>
             <name>kazrus</name>
-            <_description>Kazakhstan - Kazakh with Russian</_description>
+            <_description>Kazakh (with Russian)</_description>
             <languageList><iso639Id>kaz</iso639Id>
                           <iso639Id>rus</iso639Id></languageList>
           </configItem>
@@ -3323,8 +3323,8 @@
     <layout>
       <configItem>
         <name>la</name>
-        <_shortDescription>Lao</_shortDescription>
-        <_description>Laos</_description>
+        <_shortDescription>lo</_shortDescription>
+        <_description>Lao</_description>
         <languageList>
           <iso639Id>lao</iso639Id>
         </languageList>
@@ -3333,7 +3333,7 @@
         <variant>
           <configItem>
             <name>stea</name>
-            <_description>Laos - STEA (proposed standard layout)</_description>
+            <_description>Lao (STEA proposed standard layout)</_description>
             <languageList><iso639Id>lao</iso639Id>
             </languageList>
           </configItem>
@@ -3343,8 +3343,8 @@
     <layout>
       <configItem>
         <name>latam</name>
-        <_shortDescription>Esp</_shortDescription>
-        <_description>Latin American</_description>
+        <_shortDescription>es</_shortDescription>
+        <_description>Spanish (Latin American)</_description>
         <countryList>
           <iso3166Id>AR</iso3166Id>
           <iso3166Id>BO</iso3166Id>
@@ -3376,19 +3376,19 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Latin American - Eliminate dead keys</_description>
+            <_description>Spanish (Latin American, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>deadtilde</name>
-            <_description>Latin American - Include dead tilde</_description>
+            <_description>Spanish (Latin American, include dead tilde)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>Latin American - Sun dead keys</_description>
+            <_description>Spanish (Latin American, sun dead keys)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3396,8 +3396,8 @@
     <layout>
       <configItem>
         <name>lt</name>
-        <_shortDescription>Ltu</_shortDescription>
-        <_description>Lithuania</_description>
+        <_shortDescription>lt</_shortDescription>
+        <_description>Lithuanian</_description>
         <languageList>
           <iso639Id>lit</iso639Id>
         </languageList>
@@ -3406,31 +3406,31 @@
         <variant>
           <configItem>
             <name>std</name>
-            <_description>Lithuania - Standard</_description>
+            <_description>Lithuanian (standard)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us</name>
-            <_description>Lithuania - US keyboard with Lithuanian letters</_description>
+            <_description>Lithuanian (US keyboard with Lithuanian letters)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ibm</name>
-            <_description>Lithuania - IBM (LST 1205-92)</_description>
+            <_description>Lithuanian (IBM LST 1205-92)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>lekp</name>
-            <_description>Lithuania - LEKP</_description>
+            <_description>Lithuanian (LEKP)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>lekpa</name>
-            <_description>Lithuania - LEKPa</_description>
+            <_description>Lithuanian (LEKPa)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3438,8 +3438,8 @@
     <layout>
       <configItem>
         <name>lv</name>
-        <_shortDescription>Lva</_shortDescription>
-        <_description>Latvia</_description>
+        <_shortDescription>lv</_shortDescription>
+        <_description>Latvian</_description>
         <languageList>
           <iso639Id>lav</iso639Id>
         </languageList>
@@ -3448,19 +3448,19 @@
         <variant>
           <configItem>
             <name>apostrophe</name>
-            <_description>Latvia - Apostrophe (') variant</_description>
+            <_description>Latvian (Apostrophe ' variant)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>tilde</name>
-            <_description>Latvia - Tilde (~) variant</_description>
+            <_description>Latvian (Tilde ~ variant)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>fkey</name>
-            <_description>Latvia - F-letter (F) variant</_description>
+            <_description>Latvian (F variant)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3468,8 +3468,8 @@
     <layout>
       <configItem>
         <name>mao</name>
-        <_shortDescription>Mao</_shortDescription>
-        <_description>Maori</_description>
+        <_shortDescription>mi</_shortDescription>
+        <_description>Māori</_description>
         <languageList>
           <iso639Id>mao</iso639Id>
         </languageList>
@@ -3479,8 +3479,8 @@
     <layout>
       <configItem>
         <name>me</name>
-        <_shortDescription>MNE</_shortDescription>
-        <_description>Montenegro</_description>
+        <_shortDescription>srp</_shortDescription>
+        <_description>Montenegrin</_description>
         <languageList>
           <iso639Id>srp</iso639Id>
         </languageList>
@@ -3489,43 +3489,43 @@
         <variant>
           <configItem>
             <name>cyrillic</name>
-            <_description>Montenegro - Cyrillic</_description>
+            <_description>Montenegrin (Cyrillic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>cyrillicyz</name>
-            <_description>Montenegro - Cyrillic, Z and ZHE swapped</_description>
+            <_description>Montenegrin (Cyrillic, Z and ZHE swapped)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinunicode</name>
-            <_description>Montenegro - Latin unicode</_description>
+            <_description>Montenegrin (Latin unicode)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinyz</name>
-            <_description>Montenegro - Latin qwerty</_description>
+            <_description>Montenegrin (Latin qwerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinunicodeyz</name>
-            <_description>Montenegro - Latin unicode qwerty</_description>
+            <_description>Montenegrin (Latin unicode qwerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>cyrillicalternatequotes</name>
-            <_description>Montenegro - Cyrillic with guillemets</_description>
+            <_description>Montenegrin (Cyrillic with guillemets)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinalternatequotes</name>
-            <_description>Montenegro - Latin with guillemets</_description>
+            <_description>Montenegrin (Latin with guillemets)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3533,8 +3533,8 @@
     <layout>
       <configItem>
         <name>mk</name>
-        <_shortDescription>Mkd</_shortDescription>
-        <_description>Macedonia</_description>
+        <_shortDescription>mk</_shortDescription>
+        <_description>Macedonian</_description>
         <languageList>
           <iso639Id>mkd</iso639Id>
         </languageList>
@@ -3543,7 +3543,7 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Macedonia - Eliminate dead keys</_description>
+            <_description>Macedonian (eliminate dead keys)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3551,8 +3551,8 @@
     <layout>
       <configItem>
         <name>mt</name>
-        <_shortDescription>Mlt</_shortDescription>
-        <_description>Malta</_description>
+        <_shortDescription>mt</_shortDescription>
+        <_description>Maltese</_description>
         <languageList>
           <iso639Id>mlt</iso639Id>
         </languageList>
@@ -3561,7 +3561,7 @@
         <variant>
           <configItem>
             <name>us</name>
-            <_description>Malta - Maltese keyboard with US layout</_description>
+            <_description>Maltese (with US layout)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3569,8 +3569,8 @@
     <layout>
       <configItem>
         <name>mn</name>
-        <_shortDescription>Mng</_shortDescription>
-        <_description>Mongolia</_description>
+        <_shortDescription>mn</_shortDescription>
+        <_description>Mongolian</_description>
         <languageList>
           <iso639Id>mng</iso639Id>
         </languageList>
@@ -3580,8 +3580,8 @@
     <layout>
       <configItem>
         <name>no</name>
-        <_shortDescription>Nor</_shortDescription>
-        <_description>Norway</_description>
+        <_shortDescription>no</_shortDescription>
+        <_description>Norwegian</_description>
         <languageList>
           <iso639Id>nor</iso639Id>
         </languageList>
@@ -3590,19 +3590,19 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Norway - Eliminate dead keys</_description>
+            <_description>Norwegian (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>Norway - Dvorak</_description>
+            <_description>Norwegian (Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>smi</name>
-            <_description>Norway - Northern Saami</_description>
+            <_description>Norwegian (Northern Saami</_description>
             <languageList>
               <iso639Id>sme</iso639Id>
             </languageList>
@@ -3611,7 +3611,7 @@
         <variant>
           <configItem>
             <name>smi_nodeadkeys</name>
-            <_description>Norway - Northern Saami, eliminate dead keys</_description>
+            <_description>Norwegian (northern Saami, eliminate dead keys)</_description>
             <languageList>
               <iso639Id>sme</iso639Id>
             </languageList>
@@ -3620,13 +3620,13 @@
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Norway - Macintosh</_description>
+            <_description>Norwegian (Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac_nodeadkeys</name>
-            <_description>Norway - Macintosh, eliminate dead keys</_description>
+            <_description>Norwegian (Mac, eliminate dead keys)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -3985,8 +3985,8 @@
     <layout>
       <configItem>
         <name>rs</name>
-        <_shortDescription>Srb</_shortDescription>
-        <_description>Serbia</_description>
+        <_shortDescription>sr</_shortDescription>
+        <_description>Serbian</_description>
         <languageList>
           <iso639Id>srp</iso639Id>
         </languageList>
@@ -3995,49 +3995,49 @@
         <variant>
           <configItem>
             <name>yz</name>
-            <_description>Serbia - Z and ZHE swapped</_description>
+            <_description>Serbian (Z and ZHE swapped)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latin</name>
-            <_description>Serbia - Latin</_description>
+            <_description>Serbian (Latin)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinunicode</name>
-            <_description>Serbia - Latin Unicode</_description>
+            <_description>Serbian (Latin Unicode)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinyz</name>
-            <_description>Serbia - Latin qwerty</_description>
+            <_description>Serbian (Latin qwerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinunicodeyz</name>
-            <_description>Serbia - Latin Unicode qwerty</_description>
+            <_description>Serbian (Latin Unicode qwerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>Serbia - With guillemets</_description>
+            <_description>Serbian (with guillemets)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latinalternatequotes</name>
-            <_description>Serbia - Latin with guillemets</_description>
+            <_description>Serbian (Latin with guillemets)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>rue</name>
-            <_description>Serbia - Pannonian Rusyn Homophonic</_description>
+            <_description>Serbian (Pannonian Rusyn Homophonic)</_description>
             <languageList>
               <iso639Id>rue</iso639Id>
             </languageList>
@@ -4048,8 +4048,8 @@
     <layout>
       <configItem>
         <name>si</name>
-        <_shortDescription>Svn</_shortDescription>
-        <_description>Slovenia</_description>
+        <_shortDescription>sl</_shortDescription>
+        <_description>Slovene</_description>
         <languageList>
           <iso639Id>slv</iso639Id>
         </languageList>
@@ -4058,13 +4058,13 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>Slovenia - Use guillemets for quotes</_description>
+            <_description>Slovene (use guillemets for quotes)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us</name>
-            <_description>Slovenia - US keyboard with Slovenian letters</_description>
+            <_description>Slovene (US keyboard with Slovenian letters)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4072,8 +4072,8 @@
     <layout>
       <configItem>
         <name>sk</name>
-        <_shortDescription>Svk</_shortDescription>
-        <_description>Slovakia</_description>
+        <_shortDescription>sk</_shortDescription>
+        <_description>Slovak</_description>
         <languageList>
           <iso639Id>slo</iso639Id>
         </languageList>
@@ -4082,19 +4082,19 @@
         <variant>
           <configItem>
             <name>bksl</name>
-            <_description>Slovakia - Extended Backslash</_description>
+            <_description>Slovak (extended Backslash)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty</name>
-            <_description>Slovakia - qwerty</_description>
+            <_description>Slovak (qwerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty_bksl</name>
-            <_description>Slovakia - qwerty, extended Backslash</_description>
+            <_description>Slovak (qwerty, extended Backslash)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4162,8 +4162,8 @@
     <layout>
       <configItem>
         <name>se</name>
-        <_shortDescription>Swe</_shortDescription>
-        <_description>Sweden</_description>
+        <_shortDescription>sv</_shortDescription>
+        <_description>Swedish</_description>
         <languageList>
           <iso639Id>swe</iso639Id>
         </languageList>
@@ -4172,13 +4172,13 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Sweden - Eliminate dead keys</_description>
+            <_description>Swedish (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>Sweden - Dvorak</_description>
+            <_description>Swedish (Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
@@ -4204,7 +4204,7 @@
         <variant>
           <configItem>
             <name>smi</name>
-            <_description>Sweden - Northern Saami</_description>
+            <_description>Swedish (northern Saami)</_description>
             <languageList>
               <iso639Id>sme</iso639Id>
             </languageList>
@@ -4213,13 +4213,13 @@
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Sweden - Macintosh</_description>
+            <_description>Swedish (Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>svdvorak</name>
-            <_description>Sweden - Svdvorak</_description>
+            <_description>Swedish (Svdvorak)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4227,8 +4227,8 @@
     <layout>
       <configItem>
         <name>ch</name>
-        <_shortDescription>Che</_shortDescription>
-        <_description>Switzerland</_description>
+        <_shortDescription>che</_shortDescription>
+        <_description>Swiss</_description>
         <languageList><iso639Id>ger</iso639Id>
                       <iso639Id>gsw</iso639Id></languageList>
       </configItem>
@@ -4236,25 +4236,28 @@
         <variant>
           <configItem>
             <name>legacy</name>
-            <_description>Switzerland - Legacy</_description>
+            <_description>Swiss (legacy)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>de_nodeadkeys</name>
-            <_description>Switzerland - German, eliminate dead keys</_description>
+            <_shortDescription>de</_shortDescription>
+            <_description>German (Switzerland, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>de_sundeadkeys</name>
-            <_description>Switzerland - German, Sun dead keys</_description>
+            <_shortDescription>de</_shortDescription>
+            <_description>German (Switzerland, Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>fr</name>
-            <_description>Switzerland - French</_description>
+            <_shortDescription>fr</_shortDescription>
+            <_description>French (Switzerland)</_description>
             <languageList>
               <iso639Id>fra</iso639Id>
             </languageList>
@@ -4263,7 +4266,8 @@
         <variant>
           <configItem>
             <name>fr_nodeadkeys</name>
-            <_description>Switzerland - French, eliminate dead keys</_description>
+            <_shortDescription>fr</_shortDescription>
+            <_description>French (Switzerland, eliminate dead keys)</_description>
             <languageList>
               <iso639Id>fra</iso639Id>
             </languageList>
@@ -4272,7 +4276,8 @@
         <variant>
           <configItem>
             <name>fr_sundeadkeys</name>
-            <_description>Switzerland - French, Sun dead keys</_description>
+            <_shortDescription>fr</_shortDescription>
+            <_description>French (Switzerland, Sun dead keys)</_description>
             <languageList>
               <iso639Id>fra</iso639Id>
             </languageList>
@@ -4281,7 +4286,8 @@
         <variant>
           <configItem>
             <name>fr_mac</name>
-            <_description>Switzerland - French (Macintosh)</_description>
+            <_shortDescription>fr</_shortDescription>
+            <_description>French (Switzerland, Mac)</_description>
             <languageList>
               <iso639Id>fra</iso639Id>
             </languageList>
@@ -4290,7 +4296,8 @@
         <variant>
           <configItem>
             <name>de_mac</name>
-            <_description>Switzerland - German (Macintosh)</_description>
+            <_shortDescription>de</_shortDescription>
+            <_description>German (Switzerland, Mac)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4298,8 +4305,8 @@
     <layout>
       <configItem>
         <name>sy</name>
-        <_shortDescription>Syr</_shortDescription>
-        <_description>Syria</_description>
+        <_shortDescription>ar</_shortDescription>
+        <_description>Arabic (Syria)</_description>
         <languageList>
           <iso639Id>syr</iso639Id>
         </languageList>
@@ -4308,13 +4315,15 @@
         <variant>
           <configItem>
             <name>syc</name>
-            <_description>Syria - Syriac</_description>
+            <_shortDescription>syc</_shortDescription>
+            <_description>Syriac</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>syc_phonetic</name>
-            <_description>Syria - Syriac phonetic</_description>
+            <_shortDescription>syc</_shortDescription>
+            <_description>Syriac (phonetic)</_description>
           </configItem>
         </variant>
         <variant>
@@ -4352,8 +4361,8 @@
     <layout>
       <configItem>
         <name>tj</name>
-        <_shortDescription>Tjk</_shortDescription>
-        <_description>Tajikistan</_description>
+        <_shortDescription>tg</_shortDescription>
+        <_description>Tajik</_description>
         <languageList>
           <iso639Id>tgk</iso639Id>
         </languageList>
@@ -4362,7 +4371,7 @@
         <variant>
           <configItem>
             <name>legacy</name>
-            <_description>Tajikistan - Legacy</_description>
+            <_description>Tajik (legacy)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4370,8 +4379,8 @@
     <layout>
       <configItem>
         <name>lk</name>
-        <_shortDescription>Lka</_shortDescription>
-        <_description>Sri Lanka</_description>
+        <_shortDescription>si</_shortDescription>
+        <_description>Sinhala</_description>
         <languageList>
           <iso639Id>sin</iso639Id>
         </languageList>
@@ -4380,7 +4389,8 @@
         <variant>
           <configItem>
             <name>tam_unicode</name>
-            <_description>Sri Lanka - Tamil Unicode</_description>
+            <_shortDescription>ta</_shortDescription>
+            <_description>Tamil (Sri Lanka, Unicode)</_description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -4389,7 +4399,7 @@
         <variant>
           <configItem>
             <name>tam_TAB</name>
-            <_description>Sri Lanka - Tamil TAB Typewriter</_description>
+            <_description>Tamil (Sri Lanka, TAB Typewriter)</_description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -4400,8 +4410,8 @@
     <layout>
       <configItem>
         <name>th</name>
-        <_shortDescription>Tha</_shortDescription>
-        <_description>Thailand</_description>
+        <_shortDescription>th</_shortDescription>
+        <_description>Thai</_description>
         <languageList>
           <iso639Id>tha</iso639Id>
         </languageList>
@@ -4410,13 +4420,13 @@
         <variant>
           <configItem>
             <name>tis</name>
-            <_description>Thailand - TIS-820.2538</_description>
+            <_description>Thai (TIS-820.2538)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>pat</name>
-            <_description>Thailand - Pattachote</_description>
+            <_description>Thai (Pattachote)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4546,9 +4556,10 @@
         <variant>
           <configItem>
             <name>saisiyat</name>
-            <_description>Taiwan - Saisiyat</_description>
+            <_shortDescription>xsy</_shortDescription>
+            <_description>Saisiyat (Taiwan)</_description>
             <languageList>
-              <iso639Id>xsf</iso639Id>
+              <iso639Id>xsy</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -4557,8 +4568,8 @@
     <layout>
       <configItem>
         <name>ua</name>
-        <_shortDescription>Ukr</_shortDescription>
-        <_description>Ukraine</_description>
+        <_shortDescription>uk</_shortDescription>
+        <_description>Ukrainian</_description>
         <languageList>
           <iso639Id>ukr</iso639Id>
         </languageList>
@@ -4567,49 +4578,49 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>Ukraine - Phonetic</_description>
+            <_description>Ukrainian (phonetic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>typewriter</name>
-            <_description>Ukraine - Typewriter</_description>
+            <_description>Ukrainian (typewriter)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>winkeys</name>
-            <_description>Ukraine - Winkeys</_description>
+            <_description>Ukrainian (WinKeys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>legacy</name>
-            <_description>Ukraine - Legacy</_description>
+            <_description>Ukrainian (legacy)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>rstu</name>
-            <_description>Ukraine - Standard RSTU</_description>
+            <_description>Ukrainian (standard RSTU)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>rstu_ru</name>
-            <_description>Ukraine - Standard RSTU on Russian layout</_description>
+            <_description>Ukrainian (standard RSTU on Russian layout)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>homophonic</name>
-            <_description>Ukraine - Homophonic</_description>
+            <_description>Ukrainian (homophonic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>crh</name>
-            <_description>Ukraine - Crimean Tatar (Turkish Q)</_description>
+            <_description>Ukrainian (Crimean Tatar Turkish Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -4618,7 +4629,7 @@
         <variant>
           <configItem>
             <name>crh_f</name>
-            <_description>Ukraine - Crimean Tatar (Turkish F)</_description>
+            <_description>Ukrainian (Crimean Tatar Turkish F)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -4627,7 +4638,7 @@
         <variant>
           <configItem>
             <name>crh_alt</name>
-            <_description>Ukraine - Crimean Tatar (Turkish Alt-Q)</_description>
+            <_description>Ukrainian (Crimean Tatar Turkish Alt-Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -4692,8 +4703,8 @@
     <layout>
       <configItem>
         <name>uz</name>
-        <_shortDescription>Uzb</_shortDescription>
-        <_description>Uzbekistan</_description>
+        <_shortDescription>uz</_shortDescription>
+        <_description>Uzbek</_description>
         <languageList>
           <iso639Id>uzb</iso639Id>
         </languageList>
@@ -4702,13 +4713,13 @@
         <variant>
           <configItem>
             <name>latin</name>
-            <_description>Uzbekistan - Latin</_description>
+            <_description>Uzbek (Latin)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>crh</name>
-            <_description>Uzbekistan - Crimean Tatar (Turkish Q)</_description>
+            <_description>Uzbek (Crimean Tatar Turkish Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -4717,7 +4728,7 @@
         <variant>
           <configItem>
             <name>crh_f</name>
-            <_description>Uzbekistan - Crimean Tatar (Turkish F)</_description>
+            <_description>Uzbek (Crimean Tatar Turkish F)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -4726,7 +4737,7 @@
         <variant>
           <configItem>
             <name>crh_alt</name>
-            <_description>Uzbekistan - Crimean Tatar (Turkish Alt-Q)</_description>
+            <_description>Uzbek (Crimean Tatar Turkish Alt-Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -4737,8 +4748,8 @@
     <layout>
       <configItem>
         <name>vn</name>
-        <_shortDescription>Vnm</_shortDescription>
-        <_description>Vietnam</_description>
+        <_shortDescription>vi</_shortDescription>
+        <_description>Vietnamese</_description>
         <languageList>
           <iso639Id>vie</iso639Id>
         </languageList>
@@ -4748,8 +4759,8 @@
     <layout>
       <configItem>
         <name>kr</name>
-        <_shortDescription>Kor</_shortDescription>
-        <_description>Korea, Republic of</_description>
+        <_shortDescription>ko</_shortDescription>
+        <_description>Korean</_description>
         <languageList>
           <iso639Id>kor</iso639Id>
         </languageList>
@@ -4758,7 +4769,7 @@
         <variant>
           <configItem>
             <name>kr104</name>
-            <_description>Korea, Republic of - 101/104 key Compatible</_description>
+            <_description>Korean (101/104 key compatible)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4819,8 +4830,8 @@
     <layout>
       <configItem>
         <name>pk</name>
-        <_shortDescription>Pak</_shortDescription>
-        <_description>Pakistan</_description>
+        <_shortDescription>ur</_shortDescription>
+        <_description>Urdu (Pakistan)</_description>
         <languageList>
           <iso639Id>urd</iso639Id>
         </languageList>
@@ -4829,7 +4840,7 @@
         <variant>
           <configItem>
             <name>urd-crulp</name>
-            <_description>Pakistan - CRULP</_description>
+            <_description>Urdu (Pakistan, CRULP)</_description>
             <languageList>
               <iso639Id>urd</iso639Id>
             </languageList>
@@ -4838,7 +4849,7 @@
         <variant>
           <configItem>
             <name>urd-nla</name>
-            <_description>Pakistan - NLA</_description>
+            <_description>Urdu (Pakistan, NLA)</_description>
             <languageList>
               <iso639Id>urd</iso639Id>
             </languageList>
@@ -4857,7 +4868,8 @@
         <variant>
           <configItem>
             <name>snd</name>
-            <_description>Pakistan - Sindhi</_description>
+            <_shortDescription>sd</_shortDescription>
+            <_description>Sindhi</_description>
             <languageList>
               <iso639Id>sd</iso639Id>
             </languageList>
@@ -4868,8 +4880,8 @@
     <layout>
       <configItem>
         <name>mv</name>
-        <_shortDescription>Mdv</_shortDescription>
-        <_description>Maldives</_description>
+        <_shortDescription>dv</_shortDescription>
+        <_description>Dhivehi</_description>
         <languageList>
           <iso639Id>div</iso639Id>
         </languageList>
@@ -4879,8 +4891,8 @@
     <layout>
       <configItem>
         <name>za</name>
-        <_shortDescription>Zaf</_shortDescription>
-        <_description>South Africa</_description>
+        <_shortDescription>en</_shortDescription>
+        <_description>English (South Africa)</_description>
         <languageList>
           <iso639Id>eng</iso639Id>
         </languageList>
@@ -4889,7 +4901,7 @@
     <layout>
       <configItem>
         <name>epo</name>
-        <_shortDescription>Epo</_shortDescription>
+        <_shortDescription>eo</_shortDescription>
         <_description>Esperanto</_description>
         <languageList>
           <iso639Id>epo</iso639Id>
@@ -4899,7 +4911,7 @@
         <variant>
           <configItem>
             <name>legacy</name>
-            <_description>Esperanto - displaced semicolon and quote (obsolete)</_description>
+            <_description>Esperanto (displaced semicolon and quote, obsolete)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4907,8 +4919,8 @@
     <layout>
       <configItem>
         <name>np</name>
-        <_shortDescription>Npl</_shortDescription>
-        <_description>Nepal</_description>
+        <_shortDescription>ne</_shortDescription>
+        <_description>Nepali</_description>
         <languageList>
           <iso639Id>nep</iso639Id>
         </languageList>
@@ -4917,8 +4929,8 @@
     <layout>
       <configItem>
         <name>ng</name>
-        <_shortDescription>Nga</_shortDescription>
-        <_description>Nigeria</_description>
+        <_shortDescription>en</_shortDescription>
+        <_description>English (Nigeria)</_description>
         <languageList>
           <iso639Id>eng</iso639Id>
         </languageList>
@@ -4927,7 +4939,8 @@
         <variant>
           <configItem>
             <name>igbo</name>
-            <_description>Nigeria - Igbo</_description>
+            <_shortDescription>ig</_shortDescription>
+            <_description>Igbo</_description>
             <languageList>
               <iso639Id>ibo</iso639Id>
             </languageList>
@@ -4936,7 +4949,8 @@
         <variant>
           <configItem>
             <name>yoruba</name>
-            <_description>Nigeria - Yoruba</_description>
+            <_shortDescription>yo</_shortDescription>
+            <_description>Yoruba</_description>
             <languageList>
               <iso639Id>yor</iso639Id>
             </languageList>
@@ -4945,7 +4959,8 @@
         <variant>
           <configItem>
             <name>hausa</name>
-            <_description>Nigeria - Hausa</_description>
+            <_shortDescription>ha</_shortDescription>
+            <_description>Hausa</_description>
             <languageList>
               <iso639Id>hau</iso639Id>
             </languageList>
