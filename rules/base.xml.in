@@ -3646,8 +3646,8 @@
     <layout>
       <configItem>
         <name>pt</name>
-        <_shortDescription>Prt</_shortDescription>
-        <_description>Portugal</_description>
+        <_shortDescription>pt</_shortDescription>
+        <_description>Portuguese</_description>
         <languageList>
           <iso639Id>por</iso639Id>
         </languageList>
@@ -3656,49 +3656,49 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Portugal - Eliminate dead keys</_description>
+            <_description>Portuguese (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>Portugal - Sun dead keys</_description>
+            <_description>Portuguese (Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Portugal - Macintosh</_description>
+            <_description>Portuguese (Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac_nodeadkeys</name>
-            <_description>Portugal - Macintosh, eliminate dead keys</_description>
+            <_description>Portuguese (Mac, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac_sundeadkeys</name>
-            <_description>Portugal - Macintosh, Sun dead keys</_description>
+            <_description>Portuguese (Mac, Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo</name>
-            <_description>Portugal - Nativo</_description>
+            <_description>Portuguese (Nativo)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-us</name>
-            <_description>Portugal - Nativo for USA keyboards</_description>
+            <_description>Portuguese (Nativo for USA keyboards)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-epo</name>
-            <_description>Portugal - Nativo for Esperanto</_description>
+            <_description>Portuguese (Nativo for Esperanto)</_description>
             <languageList>
               <iso639Id>epo</iso639Id>
             </languageList>
