@@ -2182,8 +2182,8 @@
     <layout>
       <configItem>
         <name>cn</name>
-        <_shortDescription>Chn</_shortDescription>
-        <_description>China</_description>
+        <_shortDescription>zh</_shortDescription>
+        <_description>Chinese</_description>
         <languageList>
           <iso639Id>chi</iso639Id>
         </languageList>
@@ -2192,7 +2192,7 @@
         <variant>
           <configItem>
             <name>tib</name>
-            <_description>China - Tibetan</_description>
+            <_description>Chinese (Tibetan)</_description>
             <languageList>
               <iso639Id>tib</iso639Id>
             </languageList>
@@ -2201,7 +2201,7 @@
         <variant>
           <configItem>
             <name>tib_asciinum</name>
-            <_description>China - Tibetan (with ASCII numerals)</_description>
+            <_description>Chinese (Tibetan with ASCII numerals)</_description>
             <languageList>
               <iso639Id>tib</iso639Id>
             </languageList>
@@ -2210,7 +2210,7 @@
         <variant>
           <configItem>
             <name>uig</name>
-            <_description>China - Uyghur</_description>
+            <_description>Chinese (Uyghur)</_description>
             <languageList>
               <iso639Id>uig</iso639Id>
             </languageList>
