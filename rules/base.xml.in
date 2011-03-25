@@ -2093,8 +2093,8 @@
     <layout>
       <configItem>
         <name>ca</name>
-        <_shortDescription>Can</_shortDescription>
-        <_description>Canada</_description>
+        <_shortDescription>en</_shortDescription>
+        <_description>English (Canada)</_description>
         <languageList>
           <iso639Id>fra</iso639Id>
         </languageList>
@@ -2103,37 +2103,40 @@
         <variant>
           <configItem>
             <name>fr-dvorak</name>
-            <_description>Canada - French Dvorak</_description>
+            <_shortDescription>fr</_shortDescription>
+            <_description>French (Canada, Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>fr-legacy</name>
-            <_description>Canada - French (legacy)</_description>
+            <_shortDescription>fr</_shortDescription>
+            <_description>French (Canada, legacy)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>multix</name>
-            <_description>Canada - Multilingual</_description>
+            <_description>Canadian Multilingual</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>multi</name>
-            <_description>Canada - Multilingual, first part</_description>
+            <_description>Canadian Multilingual (first part)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>multi-2gr</name>
-            <_description>Canada - Multilingual, second part</_description>
+            <_description>Canadian Multilingual (second part)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ike</name>
-            <_description>Canada - Inuktitut</_description>
+            <_shortDescription>ike</_shortDescription>
+            <_description>Inuktitut</_description>
             <languageList>
               <iso639Id>iku</iso639Id>
             </languageList>
@@ -2142,19 +2145,22 @@
         <variant>
           <configItem>
             <name>shs</name>
-            <_description>Canada - Secwepemctsin</_description>
+            <_shortDescription>shs</_shortDescription>
+            <_description>Secwepemctsin</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>kut</name>
-            <_description>Canada - Ktunaxa</_description>
+            <_shortDescription>kut</_shortDescription>
+            <_description>Kutenai</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>eng</name>
-            <_description>Canada - English</_description>
+            <_shortDescription>en</_shortDescription>
+            <_description>English (Canada)</_description>
             <languageList>
               <iso639Id>eng</iso639Id>
             </languageList>
