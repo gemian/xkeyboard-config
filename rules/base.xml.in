@@ -3180,8 +3180,8 @@
     <layout>
       <configItem>
         <name>jp</name>
-        <_shortDescription>Jpn</_shortDescription>
-        <_description>Japan</_description>
+        <_shortDescription>ja</_shortDescription>
+        <_description>Japanese</_description>
         <languageList>
           <iso639Id>jpn</iso639Id>
         </languageList>
@@ -3190,25 +3190,25 @@
         <variant>
           <configItem>
             <name>kana</name>
-            <_description>Japan - Kana</_description>
+            <_description>Japanese (Kana)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>kana86</name>
-            <_description>Japan - Kana 86</_description>
+            <_description>Japanese (Kana 86)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>OADG109A</name>
-            <_description>Japan - OADG 109A</_description>
+            <_description>Japanese (OADG 109A)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Japan - Macintosh</_description>
+            <_description>Japanese (Mac)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4711,8 +4711,8 @@
     <layout>
       <configItem>
         <name>nec_vndr/jp</name>
-        <_shortDescription>Jpn</_shortDescription>
-        <_description>Japan (PC-98xx Series)</_description>
+        <_shortDescription>ja</_shortDescription>
+        <_description>Japanese (PC-98xx Series)</_description>
         <countryList>
           <iso3166Id>JP</iso3166Id>
         </countryList>
