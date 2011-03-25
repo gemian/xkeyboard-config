@@ -1435,7 +1435,7 @@
     <layout>
       <configItem>
         <name>ara</name>
-        <_shortDescription>Ara</_shortDescription>
+        <_shortDescription>ar</_shortDescription>
         <_description>Arabic</_description>
         <countryList>
           <iso3166Id>AE</iso3166Id>
@@ -1466,37 +1466,37 @@
         <variant>
           <configItem>
             <name>azerty</name>
-            <_description>Arabic - azerty</_description>
+            <_description>Arabic (azerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>azerty_digits</name>
-            <_description>Arabic - azerty/digits</_description>
+            <_description>Arabic (azerty/digits)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>digits</name>
-            <_description>Arabic - digits</_description>
+            <_description>Arabic (digits)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty</name>
-            <_description>Arabic - qwerty</_description>
+            <_description>Arabic (qwerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty_digits</name>
-            <_description>Arabic - qwerty/digits</_description>
+            <_description>Arabic (qwerty/digits)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>buckwalter</name>
-            <_description>Arabic - Buckwalter</_description>
+            <_description>Arabic (Buckwalter)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -4792,7 +4792,8 @@
         <variant>
           <configItem>
             <name>ara</name>
-            <_description>Pakistan - Arabic</_description>
+            <_shortDescription>ar</_shortDescription>
+            <_description>Arabic (Pakistan)</_description>
             <languageList>
               <iso639Id>ara</iso639Id>
             </languageList>
