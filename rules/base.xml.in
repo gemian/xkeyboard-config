@@ -3709,8 +3709,8 @@
     <layout>
       <configItem>
         <name>ro</name>
-        <_shortDescription>Rou</_shortDescription>
-        <_description>Romania</_description>
+        <_shortDescription>ro</_shortDescription>
+        <_description>Romanian</_description>
         <languageList>
           <iso639Id>rum</iso639Id>
         </languageList>
@@ -3719,31 +3719,31 @@
         <variant>
           <configItem>
             <name>cedilla</name>
-            <_description>Romania - Cedilla</_description>
+            <_description>Romanian (cedilla)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>std</name>
-            <_description>Romania - Standard</_description>
+            <_description>Romanian (standard)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>std_cedilla</name>
-            <_description>Romania - Standard (Cedilla)</_description>
+            <_description>Romanian (standard cedilla)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>winkeys</name>
-            <_description>Romania - Winkeys</_description>
+            <_description>Romanian (WinKeys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>crh_f</name>
-            <_description>Romania - Crimean Tatar (Turkish F)</_description>
+            <_description>Romanian (Crimean Tatar Turkish F)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -3752,7 +3752,7 @@
         <variant>
           <configItem>
             <name>crh_alt</name>
-            <_description>Romania - Crimean Tatar (Turkish Alt-Q)</_description>
+            <_description>Romanian (Crimean Tatar Turkish Alt-Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -3761,7 +3761,7 @@
         <variant>
           <configItem>
             <name>crh_dobruca1</name>
-            <_description>Romania - Crimean Tatar (Dobruca-1 Q)</_description>
+            <_description>Romanian (Crimean Tatar Dobruca-1 Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
@@ -3770,7 +3770,7 @@
         <variant>
           <configItem>
             <name>crh_dobruca2</name>
-            <_description>Romania - Crimean Tatar (Dobruca-2 Q)</_description>
+            <_description>Romanian (Crimean Tatar Dobruca-2 Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>
