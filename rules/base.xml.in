@@ -2807,8 +2807,8 @@
     <layout>
       <configItem>
         <name>de</name>
-        <_shortDescription>Deu</_shortDescription>
-        <_description>Germany</_description>
+        <_shortDescription>de</_shortDescription>
+        <_description>German</_description>
         <languageList>
           <iso639Id>ger</iso639Id>
         </languageList>
@@ -2817,67 +2817,67 @@
         <variant>
           <configItem>
             <name>deadacute</name>
-            <_description>Germany - Dead acute</_description>
+            <_description>German (dead acute)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>deadgraveacute</name>
-            <_description>Germany - Dead grave acute</_description>
+            <_description>German (dead grave acute)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Germany - Eliminate dead keys</_description>
+            <_description>German (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ro</name>
-            <_description>Germany - Romanian keyboard with German letters</_description>
+            <_description>German (Romanian keyboard with German letters)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ro_nodeadkeys</name>
-            <_description>Germany - Romanian keyboard with German letters, eliminate dead keys</_description>
+            <_description>German (Romanian keyboard with German letters, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>Germany - Dvorak</_description>
+            <_description>German (Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>Germany - Sun dead keys</_description>
+            <_description>German (Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>neo</name>
-            <_description>Germany - Neo 2</_description>
+            <_description>German (Neo 2)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Germany - Macintosh</_description>
+            <_description>German (Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac_nodeadkeys</name>
-            <_description>Germany - Macintosh, eliminate dead keys</_description>
+            <_description>German (Mac, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dsb</name>
-            <_description>Germany - Lower Sorbian</_description>
+            <_description>German (lower Sorbian)</_description>
             <languageList>
               <iso639Id>dsb</iso639Id>
             </languageList>
@@ -2886,7 +2886,7 @@
         <variant>
           <configItem>
             <name>dsb_qwertz</name>
-            <_description>Germany - Lower Sorbian (qwertz)</_description>
+            <_description>German (lower Sorbian qwertz)</_description>
             <languageList>
               <iso639Id>dsb</iso639Id>
             </languageList>
@@ -2895,13 +2895,13 @@
         <variant>
           <configItem>
             <name>qwerty</name>
-            <_description>Germany - qwerty</_description>
+            <_description>German (qwerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ru</name>
-            <_description>Germany - Russian phonetic</_description>
+            <_description>German (Russian phonetic)</_description>
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
