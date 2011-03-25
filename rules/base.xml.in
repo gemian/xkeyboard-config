@@ -2765,8 +2765,8 @@
     <layout>
       <configItem>
         <name>ge</name>
-        <_shortDescription>Geo</_shortDescription>
-        <_description>Georgia</_description>
+        <_shortDescription>ka</_shortDescription>
+        <_description>Georgian</_description>
         <languageList>
           <iso639Id>geo</iso639Id>
         </languageList>
@@ -2775,13 +2775,13 @@
         <variant>
           <configItem>
             <name>ergonomic</name>
-            <_description>Georgia - Ergonomic</_description>
+            <_description>Georgian (ergonomic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mess</name>
-            <_description>Georgia - MESS</_description>
+            <_description>Georgian (MESS)</_description>
           </configItem>
         </variant>
         <variant>
@@ -2797,7 +2797,7 @@
         <variant>
           <configItem>
             <name>os</name>
-            <_description>Georgia - Ossetian</_description>
+            <_description>Georgian (Ossetian)</_description>
             <languageList>
               <iso639Id>oss</iso639Id>
             </languageList>
