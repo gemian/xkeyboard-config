@@ -3141,8 +3141,8 @@
     <layout>
       <configItem>
         <name>it</name>
-        <_shortDescription>Ita</_shortDescription>
-        <_description>Italy</_description>
+        <_shortDescription>it</_shortDescription>
+        <_description>Italian</_description>
         <languageList>
           <iso639Id>ita</iso639Id>
         </languageList>
@@ -3151,25 +3151,25 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Italy - Eliminate dead keys</_description>
+            <_description>Italian (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Italy - Macintosh</_description>
+            <_description>Italian (Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us</name>
-            <_description>Italy - US keyboard with Italian letters</_description>
+            <_description>Italian (US keyboard with Italian letters)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>geo</name>
-            <_description>Italy - Georgian</_description>
+            <_description>Italian (Georgian)</_description>
             <languageList>
               <iso639Id>geo</iso639Id>
             </languageList>
