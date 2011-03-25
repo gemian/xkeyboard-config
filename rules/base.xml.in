@@ -2912,8 +2912,8 @@
     <layout>
       <configItem>
         <name>gr</name>
-        <_shortDescription>Grc</_shortDescription>
-        <_description>Greece</_description>
+        <_shortDescription>gr</_shortDescription>
+        <_description>Greek</_description>
         <languageList>
           <iso639Id>gre</iso639Id>
         </languageList>
@@ -2922,25 +2922,25 @@
         <variant>
           <configItem>
             <name>simple</name>
-            <_description>Greece - Simple</_description>
+            <_description>Greek (simple)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>extended</name>
-            <_description>Greece - Extended</_description>
+            <_description>Greek (extended)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Greece - Eliminate dead keys</_description>
+            <_description>Greek (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>polytonic</name>
-            <_description>Greece - Polytonic</_description>
+            <_description>Greek (polytonic)</_description>
           </configItem>
         </variant>
       </variantList>
