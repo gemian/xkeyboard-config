@@ -1701,14 +1701,15 @@
     <layout>
       <configItem>
         <name>in</name>
-        <_shortDescription>Ind</_shortDescription>
-        <_description>India</_description>
+        <_shortDescription>in</_shortDescription>
+        <_description>Indian</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>ben</name>
-            <_description>India - Bengali</_description>
+            <_shortDescription>bn</_shortDescription>
+            <_description>Bengali</_description>
             <languageList>
               <iso639Id>ben</iso639Id>
             </languageList>
@@ -1717,7 +1718,8 @@
         <variant>
           <configItem>
             <name>ben_probhat</name>
-            <_description>India - Bengali Probhat</_description>
+            <_shortDescription>bn</_shortDescription>
+            <_description>Bengali (Probhat)</_description>
             <languageList>
               <iso639Id>ben</iso639Id>
             </languageList>
@@ -1726,7 +1728,8 @@
         <variant>
           <configItem>
             <name>guj</name>
-            <_description>India - Gujarati</_description>
+            <_shortDescription>gu</_shortDescription>
+            <_description>Gujarati</_description>
             <languageList>
               <iso639Id>guj</iso639Id>
             </languageList>
@@ -1735,7 +1738,8 @@
         <variant>
           <configItem>
             <name>guru</name>
-            <_description>India - Gurmukhi</_description>
+            <_shortDescription>pa</_shortDescription>
+            <_description>Punjabi (Gurmukhi)</_description>
             <languageList>
               <iso639Id>pan</iso639Id>
             </languageList>
@@ -1744,7 +1748,8 @@
         <variant>
           <configItem>
             <name>jhelum</name>
-            <_description>India - Gurmukhi Jhelum</_description>
+            <_shortDescription>pa</_shortDescription>
+            <_description>Punjabi (Gurmukhi Jhelum)</_description>
             <languageList>
               <iso639Id>pan</iso639Id>
             </languageList>
@@ -1753,7 +1758,8 @@
         <variant>
           <configItem>
             <name>kan</name>
-            <_description>India - Kannada</_description>
+            <_shortDescription>kn</_shortDescription>
+            <_description>Kannada</_description>
             <languageList>
               <iso639Id>kan</iso639Id>
             </languageList>
@@ -1762,7 +1768,8 @@
         <variant>
           <configItem>
             <name>mal</name>
-            <_description>India - Malayalam</_description>
+            <_shortDescription>ml</_shortDescription>
+            <_description>Malayalam</_description>
             <languageList>
               <iso639Id>mal</iso639Id>
             </languageList>
@@ -1771,7 +1778,8 @@
         <variant>
           <configItem>
             <name>mal_lalitha</name>
-            <_description>India - Malayalam Lalitha</_description>
+            <_shortDescription>ml</_shortDescription>
+            <_description>Malayalam (Lalitha)</_description>
             <languageList>
               <iso639Id>mal</iso639Id>
             </languageList>
@@ -1779,15 +1787,17 @@
         </variant>
         <variant>
           <configItem>
-             <name>mal_enhanced</name>
-             <_description>India - Malayalam enhanced Inscript with Rupee Sign</_description>
-             <languageList><iso639Id>mal</iso639Id></languageList>
+            <name>mal_enhanced</name>
+            <_shortDescription>ml</_shortDescription>
+            <_description>Malayalam (enhanced Inscript with Rupee Sign)</_description>
+            <languageList><iso639Id>mal</iso639Id></languageList>
           </configItem>
          </variant>
          <variant>
            <configItem>
             <name>ori</name>
-            <_description>India - Oriya</_description>
+            <_shortDescription>or</_shortDescription>
+            <_description> Oriya</_description>
             <languageList>
               <iso639Id>ori</iso639Id>
             </languageList>
@@ -1796,7 +1806,8 @@
         <variant>
           <configItem>
             <name>tam_unicode</name>
-            <_description>India - Tamil Unicode</_description>
+            <_shortDescription>ta</_shortDescription>
+            <_description>Tamil (Unicode)</_description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -1805,7 +1816,8 @@
         <variant>
           <configItem>
             <name>tam_keyboard_with_numerals</name>
-            <_description>India - Tamil Keyboard with Numerals</_description>
+            <_shortDescription>ta</_shortDescription>
+            <_description>Tamil (keyboard with numerals)</_description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -1814,7 +1826,8 @@
         <variant>
           <configItem>
             <name>tam_TAB</name>
-            <_description>India - Tamil TAB Typewriter</_description>
+            <_shortDescription>ta</_shortDescription>
+            <_description>Tamil (TAB typewriter)</_description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -1823,7 +1836,8 @@
         <variant>
           <configItem>
             <name>tam_TSCII</name>
-            <_description>India - Tamil TSCII Typewriter</_description>
+            <_shortDescription>ta</_shortDescription>
+            <_description>Tamil (TSCII typewriter)</_description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -1832,7 +1846,8 @@
         <variant>
           <configItem>
             <name>tam</name>
-            <_description>India - Tamil</_description>
+            <_shortDescription>ta</_shortDescription>
+            <_description>Tamil</_description>
             <languageList>
               <iso639Id>tam</iso639Id>
             </languageList>
@@ -1841,7 +1856,8 @@
         <variant>
           <configItem>
             <name>tel</name>
-            <_description>India - Telugu</_description>
+            <_shortDescription>te</_shortDescription>
+            <_description>Telugu</_description>
             <languageList>
               <iso639Id>tel</iso639Id>
             </languageList>
@@ -1850,7 +1866,8 @@
         <variant>
           <configItem>
             <name>urd-phonetic</name>
-            <_description>India - Urdu, Phonetic</_description>
+            <_shortDescription>ur</_shortDescription>
+            <_description>Urdu (phonetic)</_description>
             <languageList>
               <iso639Id>urd</iso639Id>
             </languageList>
@@ -1859,7 +1876,8 @@
         <variant>
           <configItem>
             <name>urd-phonetic3</name>
-            <_description>India - Urdu, Alternative phonetic</_description>
+            <_shortDescription>ur</_shortDescription>
+            <_description>Urdu (alternative phonetic)</_description>
             <languageList>
               <iso639Id>urd</iso639Id>
             </languageList>
@@ -1868,7 +1886,8 @@
         <variant>
           <configItem>
             <name>urd-winkeys</name>
-            <_description>India - Urdu, Winkeys</_description>
+            <_shortDescription>ur</_shortDescription>
+            <_description>Urdu (WinKeys)</_description>
             <languageList>
               <iso639Id>urd</iso639Id>
             </languageList>
@@ -1877,7 +1896,8 @@
         <variant>
           <configItem>
             <name>bolnagri</name>
-            <_description>India - Hindi Bolnagri</_description>
+            <_shortDescription>hi</_shortDescription>
+            <_description>Hindi (Bolnagri)</_description>
             <languageList>
               <iso639Id>hin</iso639Id>
             </languageList>
@@ -1886,7 +1906,8 @@
         <variant>
           <configItem>
             <name>hin-wx</name>
-            <_description>India - Hindi Wx</_description>
+            <_shortDescription>hi</_shortDescription>
+            <_description>Hindi (Wx)</_description>
             <languageList>
               <iso639Id>hin</iso639Id>
             </languageList>
@@ -1895,7 +1916,8 @@
         <variant>
           <configItem>
             <name>eng</name>
-            <_description>India - English with RupeeSign</_description>
+            <_shortDescription>en</_shortDescription>
+            <_description>English (India, with RupeeSign)</_description>
             <languageList>
               <iso639Id>eng</iso639Id>
             </languageList>
