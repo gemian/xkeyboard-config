@@ -1373,8 +1373,8 @@
     <layout>
       <configItem>
         <name>ad</name>
-        <_shortDescription>And</_shortDescription>
-        <_description>Andorra</_description>
+        <_shortDescription>ca</_shortDescription>
+        <_description>Catalan</_description>
         <languageList>
           <iso639Id>cat</iso639Id>
         </languageList>
@@ -1509,8 +1509,8 @@
     <layout>
       <configItem>
         <name>al</name>
-        <_shortDescription>Alb</_shortDescription>
-        <_description>Albania</_description>
+        <_shortDescription>sq</_shortDescription>
+        <_description>Albanian</_description>
         <languageList>
           <iso639Id>alb</iso639Id>
         </languageList>
@@ -1520,8 +1520,8 @@
     <layout>
       <configItem>
         <name>am</name>
-        <_shortDescription>Arm</_shortDescription>
-        <_description>Armenia</_description>
+        <_shortDescription>hy</_shortDescription>
+        <_description>Armenian</_description>
         <languageList>
           <iso639Id>hye</iso639Id>
         </languageList>
@@ -1530,31 +1530,31 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>Armenia - Phonetic</_description>
+            <_description>Armenian (phonetic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>phonetic-alt</name>
-            <_description>Armenia - Alternative Phonetic</_description>
+            <_description>Armenian (alternative phonetic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>eastern</name>
-            <_description>Armenia - Eastern</_description>
+            <_description>Armenian (eastern)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>western</name>
-            <_description>Armenia - Western</_description>
+            <_description>Armenian (western)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>eastern-alt</name>
-            <_description>Armenia - Alternative Eastern</_description>
+            <_description>Armenian (alternative eastern)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1562,8 +1562,8 @@
     <layout>
       <configItem>
         <name>at</name>
-        <_shortDescription>Aut</_shortDescription>
-        <_description>Austria</_description>
+        <_shortDescription>de</_shortDescription>
+        <_description>German (Austria)</_description>
         <languageList>
           <iso639Id>ger</iso639Id>
         </languageList>
@@ -1572,19 +1572,19 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Austria - Eliminate dead keys</_description>
+            <_description>German (Austria, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>Austria - Sun dead keys</_description>
+            <_description>German (Austria, Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Austria - Macintosh</_description>
+            <_description>German (Austria, Mac)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1592,8 +1592,8 @@
     <layout>
       <configItem>
         <name>az</name>
-        <_shortDescription>Aze</_shortDescription>
-        <_description>Azerbaijan</_description>
+        <_shortDescription>az</_shortDescription>
+        <_description>Azerbaijani</_description>
         <languageList>
           <iso639Id>aze</iso639Id>
         </languageList>
@@ -1602,7 +1602,7 @@
         <variant>
           <configItem>
             <name>cyrillic</name>
-            <_description>Azerbaijan - Cyrillic</_description>
+            <_description>Azerbaijan (Cyrillic)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1610,8 +1610,8 @@
     <layout>
       <configItem>
         <name>by</name>
-        <_shortDescription>Blr</_shortDescription>
-        <_description>Belarus</_description>
+        <_shortDescription>be</_shortDescription>
+        <_description>Belarusian</_description>
         <languageList>
           <iso639Id>bel</iso639Id>
         </languageList>
@@ -1620,13 +1620,13 @@
         <variant>
           <configItem>
             <name>legacy</name>
-            <_description>Belarus - Legacy</_description>
+            <_description>Belarusian (legacy)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latin</name>
-            <_description>Belarus - Latin</_description>
+            <_description>Belarusian (Latin)</_description>
           </configItem>
         </variant>
       </variantList>
