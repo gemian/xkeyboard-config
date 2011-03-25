@@ -4725,8 +4725,8 @@
     <layout>
       <configItem>
         <name>ie</name>
-        <_shortDescription>Irl</_shortDescription>
-        <_description>Ireland</_description>
+        <_shortDescription>ie</_shortDescription>
+        <_description>Irish</_description>
         <languageList>
           <iso639Id>eng</iso639Id>
         </languageList>
@@ -4735,7 +4735,7 @@
         <variant>
           <configItem>
             <name>CloGaelach</name>
-            <_description>Ireland - CloGaelach</_description>
+            <_description>Irish (CloGaelach)</_description>
             <languageList>
               <iso639Id>gla</iso639Id>
             </languageList>
@@ -4744,19 +4744,19 @@
         <variant>
           <configItem>
             <name>UnicodeExpert</name>
-            <_description>Ireland - UnicodeExpert</_description>
+            <_description>Irish (UnicodeExpert)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ogam</name>
-            <_description>Ireland - Ogham</_description>
+            <_description>Irish (Ogham)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ogam_is434</name>
-            <_description>Ireland - Ogham IS434</_description>
+            <_description>Irish (Ogham IS434)</_description>
           </configItem>
         </variant>
       </variantList>
