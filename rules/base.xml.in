@@ -2562,8 +2562,8 @@
     <layout>
       <configItem>
         <name>fr</name>
-        <_shortDescription>Fra</_shortDescription>
-        <_description>France</_description>
+        <_shortDescription>fr</_shortDescription>
+        <_description>French</_description>
         <languageList>
           <iso639Id>fra</iso639Id>
         </languageList>
@@ -2572,91 +2572,91 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>France - Eliminate dead keys</_description>
+            <_description>French (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>France - Sun dead keys</_description>
+            <_description>French (Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>oss</name>
-            <_description>France - Alternative</_description>
+            <_description>French (alternative)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>oss_latin9</name>
-            <_description>France - Alternative, latin-9 only</_description>
+            <_description>French (alternative, latin-9 only)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>oss_nodeadkeys</name>
-            <_description>France - Alternative, eliminate dead keys</_description>
+            <_description>French (alternative, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>oss_sundeadkeys</name>
-            <_description>France - Alternative, Sun dead keys</_description>
+            <_description>French (alternative, Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latin9</name>
-            <_description>France - (Legacy) Alternative</_description>
+            <_description>French (legacy alternative)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latin9_nodeadkeys</name>
-            <_description>France - (Legacy) Alternative, eliminate dead keys</_description>
+            <_description>French (legacy, alternative, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>latin9_sundeadkeys</name>
-            <_description>France - (Legacy) Alternative, Sun dead keys</_description>
+            <_description>French (legacy, alternative, Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>bepo</name>
-            <_description>France - Bepo, ergonomic, Dvorak way</_description>
+            <_description>French (Bepo, ergonomic, Dvorak way)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>bepo_latin9</name>
-            <_description>France - Bepo, ergonomic, Dvorak way, latin-9 only</_description>
+            <_description>French (Bepo, ergonomic, Dvorak way, latin-9 only)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>France - Dvorak</_description>
+            <_description>French (Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>France - Macintosh</_description>
+            <_description>French (Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>bre</name>
-            <_description>France - Breton</_description>
+            <_description>French (Breton)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>oci</name>
-            <_description>France - Occitan</_description>
+            <_description>French (Occitan)</_description>
             <languageList>
               <iso639Id>oci</iso639Id>
             </languageList>
@@ -2665,7 +2665,7 @@
         <variant>
           <configItem>
             <name>geo</name>
-            <_description>France - Georgian AZERTY Tskapo</_description>
+            <_description>French (Georgian AZERTY Tskapo)</_description>
             <languageList>
               <iso639Id>geo</iso639Id>
             </languageList>
