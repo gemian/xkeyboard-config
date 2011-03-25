@@ -1243,8 +1243,8 @@
     <layout>
       <configItem>
         <name>us</name>
-        <_shortDescription>USA</_shortDescription>
-        <_description>USA</_description>
+        <_shortDescription>en</_shortDescription>
+        <_description>English (US)</_description>
         <languageList>
           <iso639Id>eng</iso639Id>
         </languageList>
@@ -1253,7 +1253,8 @@
         <variant>
           <configItem>
             <name>chr</name>
-            <_description>USA - Cherokee</_description>
+            <_shortDescription>chr</_shortDescription>
+            <_description>Cherokee</_description>
             <languageList>
               <iso639Id>chr</iso639Id>
             </languageList>
@@ -1262,73 +1263,74 @@
         <variant>
           <configItem>
             <name>euro</name>
-            <_description>USA - With EuroSign on 5</_description>
+            <_description>English (US, with euro on 5)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>intl</name>
-            <_description>USA - International (with dead keys)</_description>
+            <_description>English (US, international with dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>alt-intl</name>
-            <_description>USA - Alternative international</_description>
+            <_description>English (US, alternative international)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>colemak</name>
-            <_description>USA - Colemak</_description>
+            <_description>English (Colemak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>USA - Dvorak</_description>
+            <_description>English (Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak-intl</name>
-            <_description>USA - Dvorak international (with dead keys)</_description>
+            <_description>English (Dvorak international with dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak-alt-intl</name>
-            <_description>USA - Dvorak alternative international (no dead keys)</_description>
+            <_description>English (Dvorak alternative international no dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak-l</name>
-            <_description>USA - Left handed Dvorak</_description>
+            <_description>English (left handed Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak-r</name>
-            <_description>USA - Right handed Dvorak</_description>
+            <_description>English (right handed Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak-classic</name>
-            <_description>USA - Classic Dvorak</_description>
+            <_description>English (classic Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvp</name>
-            <_description>USA - Programmer Dvorak</_description>
+            <_description>English (programmer Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>rus</name>
-            <_description>USA - Russian phonetic</_description>
+            <_shortDescription>ru</_shortDescription>
+            <_description>Russian phonetic (US)</_description>
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
@@ -1337,13 +1339,13 @@
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>USA - Macintosh</_description>
+            <_description>English (Macintosh)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>altgr-intl</name>
-            <_description>USA - International (AltGr dead keys)</_description>
+            <_description>English (international AltGr dead keys)</_description>
             <languageList><iso639Id>eng</iso639Id>
                           <iso639Id>fra</iso639Id>
                           <iso639Id>ger</iso639Id></languageList>
@@ -1352,13 +1354,13 @@
         <variant>
           <configItem>
             <name>olpc2</name>
-            <_description>USA - Layout toggle on multiply/divide key</_description>
+            <_description>English (layout toggle on multiply/divide key)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>hbs</name>
-            <_description>USA - Serbo-Croatian</_description>
+            <_description>Serbo-Croatian (US)</_description>
             <languageList><iso639Id>eng</iso639Id>
                           <iso639Id>bos</iso639Id>
                           <iso639Id>hbs</iso639Id>
