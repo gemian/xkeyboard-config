@@ -2949,8 +2949,8 @@
     <layout>
       <configItem>
         <name>hu</name>
-        <_shortDescription>Hun</_shortDescription>
-        <_description>Hungary</_description>
+        <_shortDescription>hu</_shortDescription>
+        <_description>Hungarian</_description>
         <languageList>
           <iso639Id>hun</iso639Id>
         </languageList>
@@ -2959,115 +2959,115 @@
         <variant>
           <configItem>
             <name>standard</name>
-            <_description>Hungary - Standard</_description>
+            <_description>Hungarian (standard)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Hungary - Eliminate dead keys</_description>
+            <_description>Hungarian (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty</name>
-            <_description>Hungary - qwerty</_description>
+            <_description>Hungarian (qwerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>101_qwertz_comma_dead</name>
-            <_description>Hungary - 101/qwertz/comma/Dead keys</_description>
+            <_description>Hungarian (101/qwertz/comma/dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>101_qwertz_comma_nodead</name>
-            <_description>Hungary - 101/qwertz/comma/Eliminate dead keys</_description>
+            <_description>Hungarian (101/qwertz/comma/eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>101_qwertz_dot_dead</name>
-            <_description>Hungary - 101/qwertz/dot/Dead keys</_description>
+            <_description>Hungarian (101/qwertz/dot/dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>101_qwertz_dot_nodead</name>
-            <_description>Hungary - 101/qwertz/dot/Eliminate dead keys</_description>
+            <_description>Hungarian (101/qwertz/dot/eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>101_qwerty_comma_dead</name>
-            <_description>Hungary - 101/qwerty/comma/Dead keys</_description>
+            <_description>Hungarian (101/qwerty/comma/dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>101_qwerty_comma_nodead</name>
-            <_description>Hungary - 101/qwerty/comma/Eliminate dead keys</_description>
+            <_description>Hungarian (101/qwerty/comma/eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>101_qwerty_dot_dead</name>
-            <_description>Hungary - 101/qwerty/dot/Dead keys</_description>
+            <_description>Hungarian (101/qwerty/dot/dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>101_qwerty_dot_nodead</name>
-            <_description>Hungary - 101/qwerty/dot/Eliminate dead keys</_description>
+            <_description>Hungarian (101/qwerty/dot/eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>102_qwertz_comma_dead</name>
-            <_description>Hungary - 102/qwertz/comma/Dead keys</_description>
+            <_description>Hungarian (102/qwertz/comma/dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>102_qwertz_comma_nodead</name>
-            <_description>Hungary - 102/qwertz/comma/Eliminate dead keys</_description>
+            <_description>Hungarian (102/qwertz/comma/eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>102_qwertz_dot_dead</name>
-            <_description>Hungary - 102/qwertz/dot/Dead keys</_description>
+            <_description>Hungarian (102/qwertz/dot/dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>102_qwertz_dot_nodead</name>
-            <_description>Hungary - 102/qwertz/dot/Eliminate dead keys</_description>
+            <_description>Hungarian (102/qwertz/dot/eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>102_qwerty_comma_dead</name>
-            <_description>Hungary - 102/qwerty/comma/Dead keys</_description>
+            <_description>Hungarian (102/qwerty/comma/dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>102_qwerty_comma_nodead</name>
-            <_description>Hungary - 102/qwerty/comma/Eliminate dead keys</_description>
+            <_description>Hungarian (102/qwerty/comma/eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>102_qwerty_dot_dead</name>
-            <_description>Hungary - 102/qwerty/dot/Dead keys</_description>
+            <_description>Hungarian (102/qwerty/dot/dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>102_qwerty_dot_nodead</name>
-            <_description>Hungary - 102/qwerty/dot/Eliminate dead keys</_description>
+            <_description>Hungarian (102/qwerty/dot/eliminate dead keys)</_description>
           </configItem>
         </variant>
       </variantList>
