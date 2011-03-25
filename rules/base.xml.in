@@ -4579,7 +4579,7 @@
       <configItem>
         <name>gb</name>
         <_shortDescription>GBr</_shortDescription>
-        <_description>United Kingdom</_description>
+        <_description>English (UK)</_description>
         <languageList>
           <iso639Id>eng</iso639Id>
         </languageList>
@@ -4588,43 +4588,43 @@
         <variant>
           <configItem>
             <name>extd</name>
-            <_description>United Kingdom - Extended - Winkeys</_description>
+            <_description>English (UK, extended, WinKeys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>intl</name>
-            <_description>United Kingdom - International (with dead keys)</_description>
+            <_description>English (UK, international with dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>United Kingdom - Dvorak</_description>
+            <_description>English (UK, Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorakukp</name>
-            <_description>United Kingdom - Dvorak (UK Punctuation)</_description>
+            <_description>English (UK, Dvorak UK punctuation)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>United Kingdom - Macintosh</_description>
+            <_description>English (UK, Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac_intl</name>
-            <_description>United Kingdom - Macintosh (International)</_description>
+            <_description>English (UK, Mac international)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>colemak</name>
-            <_description>United Kingdom - Colemak</_description>
+            <_description>English (UK, Colemak)</_description>
           </configItem>
         </variant>
       </variantList>
