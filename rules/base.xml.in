@@ -1634,8 +1634,8 @@
     <layout>
       <configItem>
         <name>be</name>
-        <_shortDescription>Bel</_shortDescription>
-        <_description>Belgium</_description>
+        <_shortDescription>be</_shortDescription>
+        <_description>Belgian</_description>
         <languageList><iso639Id>ger</iso639Id>
                       <iso639Id>nld</iso639Id>
                       <iso639Id>fra</iso639Id></languageList>
@@ -1644,43 +1644,43 @@
         <variant>
           <configItem>
             <name>oss</name>
-            <_description>Belgium - Alternative</_description>
+            <_description>Belgian (alternative)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>oss_latin9</name>
-            <_description>Belgium - Alternative, latin-9 only</_description>
+            <_description>Belgian (alternative, latin-9 only)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>oss_sundeadkeys</name>
-            <_description>Belgium - Alternative, Sun dead keys</_description>
+            <_description>Belgian (alternative, Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>iso-alternate</name>
-            <_description>Belgium - ISO Alternate</_description>
+            <_description>Belgian (ISO alternate)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Belgium - Eliminate dead keys</_description>
+            <_description>Belgian (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>Belgium - Sun dead keys</_description>
+            <_description>Belgian (Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>wang</name>
-            <_description>Belgium - Wang model 724 azerty</_description>
+            <_description>Belgian (Wang model 724 azerty)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1688,8 +1688,8 @@
     <layout>
       <configItem>
         <name>bd</name>
-        <_shortDescription>Bgd</_shortDescription>
-        <_description>Bangladesh</_description>
+        <_shortDescription>bn</_shortDescription>
+        <_description>Bengali</_description>
         <languageList>
           <iso639Id>ben</iso639Id>
         </languageList>
@@ -1698,7 +1698,7 @@
         <variant>
           <configItem>
             <name>probhat</name>
-            <_description>Bangladesh - Probhat</_description>
+            <_description>Bengali (Probhat)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1933,8 +1933,8 @@
     <layout>
       <configItem>
         <name>ba</name>
-        <_shortDescription>Bih</_shortDescription>
-        <_description>Bosnia and Herzegovina</_description>
+        <_shortDescription>bs</_shortDescription>
+        <_description>Bosnian</_description>
         <languageList>
           <iso639Id>bos</iso639Id>
         </languageList>
@@ -1943,25 +1943,25 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>Bosnia and Herzegovina -  Use guillemets for quotes</_description>
+            <_description>Bosnian (use guillemets for quotes)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>unicode</name>
-            <_description>Bosnia and Herzegovina - Use Bosnian digraphs</_description>
+            <_description>Bosnian (use Bosnian digraphs)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>unicodeus</name>
-            <_description>Bosnia and Herzegovina - US keyboard with Bosnian digraphs</_description>
+            <_description>Bosnian (US keyboard with Bosnian digraphs)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us</name>
-            <_description>Bosnia and Herzegovina - US keyboard with Bosnian letters</_description>
+            <_description>Bosnian (US keyboard with Bosnian letters)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -1969,8 +1969,8 @@
     <layout>
       <configItem>
         <name>br</name>
-        <_shortDescription>Bra</_shortDescription>
-        <_description>Brazil</_description>
+        <_shortDescription>pt</_shortDescription>
+        <_description>Portuguese (Brazil)</_description>
         <languageList>
           <iso639Id>por</iso639Id>
         </languageList>
@@ -1979,31 +1979,31 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Brazil - Eliminate dead keys</_description>
+            <_description>Portuguese (Brazil, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>Brazil - Dvorak</_description>
+            <_description>Portuguese (Brazil, Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo</name>
-            <_description>Brazil - Nativo</_description>
+            <_description>Portuguese (Brazil, nativo)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-us</name>
-            <_description>Brazil - Nativo for USA keyboards</_description>
+            <_description>Portuguese (Brazil, nativo for USA keyboards)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nativo-epo</name>
-            <_description>Brazil - Nativo for Esperanto</_description>
+            <_description>Portuguese (Brazil, nativo for Esperanto)</_description>
             <languageList>
               <iso639Id>epo</iso639Id>
             </languageList>
@@ -2014,8 +2014,8 @@
     <layout>
       <configItem>
         <name>bg</name>
-        <_shortDescription>Bgr</_shortDescription>
-        <_description>Bulgaria</_description>
+        <_shortDescription>bg</_shortDescription>
+        <_description>Bulgarian</_description>
         <languageList>
           <iso639Id>bul</iso639Id>
         </languageList>
@@ -2024,13 +2024,13 @@
         <variant>
           <configItem>
             <name>phonetic</name>
-            <_description>Bulgaria - Traditional phonetic</_description>
+            <_description>Bulgarian (traditional phonetic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>bas_phonetic</name>
-            <_description>Bulgaria - New phonetic</_description>
+            <_description>Bulgarian (new phonetic)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2038,13 +2038,15 @@
     <layout>
       <configItem>
         <name>ma</name>
-        <_description>Morocco</_description>
+        <_shortDescription>ar</_shortDescription>
+        <_description>Arabic (Morocco)</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>french</name>
-            <_description>Morocco - French</_description>
+            <_shortDescription>fr</_shortDescription>
+            <_description>French (Morocco)</_description>
             <languageList>
               <iso639Id>fra</iso639Id>
             </languageList>
@@ -2053,7 +2055,8 @@
         <variant>
           <configItem>
             <name>tifinagh</name>
-            <_description>Morocco - Tifinagh</_description>
+            <_shortDescription>ber</_shortDescription>
+            <_description>Berber (Morocco, Tifinagh)</_description>
             <languageList>
               <iso639Id>ber</iso639Id>
             </languageList>
@@ -2062,7 +2065,8 @@
         <variant>
           <configItem>
             <name>tifinagh-alt</name>
-            <_description>Morocco - Tifinagh alternative</_description>
+            <_shortDescription>ber</_shortDescription>
+            <_description>Berber (Morocco, Tifinagh alternative)</_description>
             <languageList>
               <iso639Id>ber</iso639Id>
             </languageList>
@@ -2071,7 +2075,8 @@
         <variant>
           <configItem>
             <name>tifinagh-alt-phonetic</name>
-            <_description>Morocco - Tifinagh alternative phonetic</_description>
+            <_shortDescription>ber</_shortDescription>
+            <_description>Berber (Morocco, Tifinagh alternative phonetic)</_description>
             <languageList>
               <iso639Id>ber</iso639Id>
             </languageList>
@@ -2080,7 +2085,8 @@
         <variant>
           <configItem>
             <name>tifinagh-extended</name>
-            <_description>Morocco - Tifinagh extended</_description>
+            <_shortDescription>ber</_shortDescription>
+            <_description>Berber (Morocco, Tifinagh extended)</_description>
             <languageList>
               <iso639Id>ber</iso639Id>
             </languageList>
@@ -2089,7 +2095,8 @@
         <variant>
           <configItem>
             <name>tifinagh-phonetic</name>
-            <_description>Morocco - Tifinagh phonetic</_description>
+            <_shortDescription>ber</_shortDescription>
+            <_description>Berber (Morocco, Tifinagh phonetic)</_description>
             <languageList>
               <iso639Id>ber</iso639Id>
             </languageList>
@@ -2098,7 +2105,8 @@
         <variant>
           <configItem>
             <name>tifinagh-extended-phonetic</name>
-            <_description>Morocco - Tifinagh extended phonetic</_description>
+            <_shortDescription>ber</_shortDescription>
+            <_description>Berber (Morocco, Tifinagh extended phonetic)</_description>
             <languageList>
               <iso639Id>ber</iso639Id>
             </languageList>
@@ -2109,8 +2117,8 @@
     <layout>
       <configItem>
         <name>mm</name>
-        <_shortDescription>Mmr</_shortDescription>
-        <_description>Myanmar</_description>
+        <_shortDescription>my</_shortDescription>
+        <_description>Burmese</_description>
         <languageList>
           <iso639Id>mya</iso639Id>
         </languageList>
@@ -2198,8 +2206,8 @@
     <layout>
       <configItem>
         <name>cd</name>
-        <_shortDescription>COD</_shortDescription>
-        <_description>Congo, Democratic Republic of the</_description>
+        <_shortDescription>fr</_shortDescription>
+        <_description>French (Democratic Republic of the Congo)</_description>
         <languageList>
           <iso639Id>fra</iso639Id>
         </languageList>
@@ -2248,8 +2256,8 @@
     <layout>
       <configItem>
         <name>hr</name>
-        <_shortDescription>Hrv</_shortDescription>
-        <_description>Croatia</_description>
+        <_shortDescription>hr</_shortDescription>
+        <_description>Croatian</_description>
         <languageList>
           <iso639Id>scr</iso639Id>
         </languageList>
@@ -2258,25 +2266,25 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>Croatia - Use guillemets for quotes</_description>
+            <_description>Croatian (Use guillemets for quotes)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>unicode</name>
-            <_description>Croatia - Use Croatian digraphs</_description>
+            <_description>Croatian (Use Croatian digraphs)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>unicodeus</name>
-            <_description>Croatia - US keyboard with Croatian digraphs</_description>
+            <_description>Croatian (US keyboard with Croatian digraphs)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us</name>
-            <_description>Croatia - US keyboard with Croatian letters</_description>
+            <_description>Croatian (US keyboard with Croatian letters)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2284,8 +2292,8 @@
     <layout>
       <configItem>
         <name>cz</name>
-        <_shortDescription>Cze</_shortDescription>
-        <_description>Czechia</_description>
+        <_shortDescription>cs</_shortDescription>
+        <_description>Czech</_description>
         <languageList>
           <iso639Id>cze</iso639Id>
         </languageList>
@@ -2294,31 +2302,31 @@
         <variant>
           <configItem>
             <name>bksl</name>
-            <_description>Czechia - With &lt;\|&gt; key</_description>
+            <_description>Czech (With &lt;\|&gt; key)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty</name>
-            <_description>Czechia - qwerty</_description>
+            <_description>Czech (qwerty)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>qwerty_bksl</name>
-            <_description>Czechia - qwerty, extended Backslash</_description>
+            <_description>Czech (qwerty, extended Backslash)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>ucw</name>
-            <_description>Czechia - UCW layout (accented letters only)</_description>
+            <_description>Czech (UCW layout accented letters only)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak-ucw</name>
-            <_description>Czechia - US Dvorak with CZ UCW support</_description>
+            <_description>Czech (US Dvorak with CZ UCW support)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2326,8 +2334,8 @@
     <layout>
       <configItem>
         <name>dk</name>
-        <_shortDescription>Dnk</_shortDescription>
-        <_description>Denmark</_description>
+        <_shortDescription>da</_shortDescription>
+        <_description>Danish</_description>
         <languageList>
           <iso639Id>dan</iso639Id>
         </languageList>
@@ -2336,25 +2344,25 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Denmark - Eliminate dead keys</_description>
+            <_description>Danish (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Denmark - Macintosh</_description>
+            <_description>Danish (Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac_nodeadkeys</name>
-            <_description>Denmark - Macintosh, eliminate dead keys</_description>
+            <_description>Danish (Mac, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>Denmark - Dvorak</_description>
+            <_description>Danish (Dvorak)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2362,8 +2370,8 @@
     <layout>
       <configItem>
         <name>nl</name>
-        <_shortDescription>Nld</_shortDescription>
-        <_description>Netherlands</_description>
+        <_shortDescription>nl</_shortDescription>
+        <_description>Dutch</_description>
         <languageList>
           <iso639Id>nld</iso639Id>
         </languageList>
@@ -2372,19 +2380,19 @@
         <variant>
           <configItem>
             <name>sundeadkeys</name>
-            <_description>Netherlands - Sun dead keys</_description>
+            <_description>Dutch (Sun dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Netherlands - Macintosh</_description>
+            <_description>Dutch (Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>std</name>
-            <_description>Netherlands - Standard</_description>
+            <_description>Dutch (standard)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2392,8 +2400,8 @@
     <layout>
       <configItem>
         <name>bt</name>
-        <_shortDescription>Btn</_shortDescription>
-        <_description>Bhutan</_description>
+        <_shortDescription>dz</_shortDescription>
+        <_description>Dzongkha</_description>
         <languageList>
           <iso639Id>dzo</iso639Id>
         </languageList>
@@ -2402,8 +2410,8 @@
     <layout>
       <configItem>
         <name>ee</name>
-        <_shortDescription>Est</_shortDescription>
-        <_description>Estonia</_description>
+        <_shortDescription>et</_shortDescription>
+        <_description>Estonian</_description>
         <languageList>
           <iso639Id>est</iso639Id>
         </languageList>
@@ -2412,19 +2420,19 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Estonia - Eliminate dead keys</_description>
+            <_description>Estonian (eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>Estonia - Dvorak</_description>
+            <_description>Estonian (Dvorak)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us</name>
-            <_description>Estonia - US keyboard with Estonian letters</_description>
+            <_description>Estonian (US keyboard with Estonian letters)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2432,8 +2440,8 @@
     <layout>
       <configItem>
         <name>ir</name>
-        <_shortDescription>Irn</_shortDescription>
-        <_description>Iran</_description>
+        <_shortDescription>fa</_shortDescription>
+        <_description>Persian</_description>
         <languageList>
           <iso639Id>per</iso639Id>
         </languageList>
@@ -2442,7 +2450,7 @@
         <variant>
           <configItem>
             <name>pes_keypad</name>
-            <_description>Iran - Persian, with Persian Keypad</_description>
+            <_description>Persian (with Persian Keypad)</_description>
           </configItem>
         </variant>
         <variant>
@@ -2490,8 +2498,8 @@
     <layout>
       <configItem>
         <name>iq</name>
-        <_shortDescription>Irq</_shortDescription>
-        <_description>Iraq</_description>
+        <_shortDescription>irq</_shortDescription>
+        <_description>Iraqi</_description>
         <languageList><iso639Id>ara</iso639Id>
                       <iso639Id>kur</iso639Id></languageList>
       </configItem>
@@ -2541,8 +2549,8 @@
     <layout>
       <configItem>
         <name>fo</name>
-        <_shortDescription>Fro</_shortDescription>
-        <_description>Faroe Islands</_description>
+        <_shortDescription>fo</_shortDescription>
+        <_description>Faroese</_description>
         <languageList>
           <iso639Id>fao</iso639Id>
         </languageList>
@@ -2551,7 +2559,7 @@
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Faroe Islands - Eliminate dead keys</_description>
+            <_description>Faroese (eliminate dead keys)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2559,8 +2567,8 @@
     <layout>
       <configItem>
         <name>fi</name>
-        <_shortDescription>Fin</_shortDescription>
-        <_description>Finland</_description>
+        <_shortDescription>fi</_shortDescription>
+        <_description>Finnish</_description>
         <languageList>
           <iso639Id>fin</iso639Id>
         </languageList>
@@ -2569,19 +2577,19 @@
         <variant>
           <configItem>
             <name>classic</name>
-            <_description>Finland - Classic</_description>
+            <_description>Finnish (classic)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>nodeadkeys</name>
-            <_description>Finland - Classic, eliminate dead keys</_description>
+            <_description>Finnish (classic, eliminate dead keys)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>smi</name>
-            <_description>Finland - Northern Saami</_description>
+            <_description>Finnish (northern Saami)</_description>
             <languageList><iso639Id>smi</iso639Id>
                           <iso639Id>sme</iso639Id></languageList>
           </configItem>
@@ -2589,7 +2597,7 @@
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Finland - Macintosh</_description>
+            <_description>Finnish (Mac)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2711,8 +2719,8 @@
     <layout>
       <configItem>
         <name>gh</name>
-        <_shortDescription>Gha</_shortDescription>
-        <_description>Ghana</_description>
+        <_shortDescription>en</_shortDescription>
+        <_description>English (Ghana)</_description>
         <languageList>
           <iso639Id>eng</iso639Id>
         </languageList>
@@ -2721,13 +2729,14 @@
         <variant>
           <configItem>
             <name>generic</name>
-            <_description>Ghana - Multilingual</_description>
+            <_description>English (Ghana, multilingual)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>akan</name>
-            <_description>Ghana - Akan</_description>
+            <_shortDescription>ak</_shortDescription>
+            <_description>Akan</_description>
             <languageList>
               <iso639Id>aka</iso639Id>
             </languageList>
@@ -2736,7 +2745,8 @@
         <variant>
           <configItem>
             <name>ewe</name>
-            <_description>Ghana - Ewe</_description>
+            <_shortDescription>ee</_shortDescription>
+            <_description>Ewe</_description>
             <languageList>
               <iso639Id>ewe</iso639Id>
             </languageList>
@@ -2745,7 +2755,8 @@
         <variant>
           <configItem>
             <name>fula</name>
-            <_description>Ghana - Fula</_description>
+            <_shortDescription>ff</_shortDescription>
+            <_description>Fula</_description>
             <languageList>
               <iso639Id>ful</iso639Id>
             </languageList>
@@ -2754,7 +2765,8 @@
         <variant>
           <configItem>
             <name>ga</name>
-            <_description>Ghana - Ga</_description>
+            <_shortDescription>gaa</_shortDescription>
+            <_description>Ga</_description>
             <languageList>
               <iso639Id>gaa</iso639Id>
             </languageList>
@@ -2763,7 +2775,8 @@
         <variant>
           <configItem>
             <name>hausa</name>
-            <_description>Ghana - Hausa</_description>
+            <_shortDescription>ha</_shortDescription>
+            <_description>Hausa</_description>
             <languageList>
               <iso639Id>hau</iso639Id>
             </languageList>
@@ -2772,7 +2785,8 @@
         <variant>
           <configItem>
             <name>avn</name>
-            <_description>Ghana - Avatime</_description>
+            <_shortDescription>avn</_shortDescription>
+            <_description>Avatime</_description>
             <languageList>
               <iso639Id>avn</iso639Id>
             </languageList>
@@ -2781,7 +2795,7 @@
         <variant>
           <configItem>
             <name>gillbt</name>
-            <_description>Ghana - GILLBT</_description>
+            <_description>English (Ghana, GILLBT)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -2789,8 +2803,8 @@
     <layout>
       <configItem>
         <name>gn</name>
-        <_shortDescription>Gin</_shortDescription>
-        <_description>Guinea</_description>
+        <_shortDescription>fr</_shortDescription>
+        <_description>French (Guinea)</_description>
         <languageList>
           <iso639Id>fra</iso639Id>
         </languageList>
