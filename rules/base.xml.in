@@ -4971,8 +4971,8 @@
     <layout>
       <configItem>
         <name>et</name>
-        <_shortDescription>Eth</_shortDescription>
-        <_description>Ethiopia</_description>
+        <_shortDescription>am</_shortDescription>
+        <_description>Amharic</_description>
         <languageList>
           <iso639Id>amh</iso639Id>
         </languageList>
@@ -4982,8 +4982,8 @@
     <layout>
       <configItem>
         <name>sn</name>
-        <_shortDescription>Sen</_shortDescription>
-        <_description>Senegal</_description>
+        <_shortDescription>wo</_shortDescription>
+        <_description>Wolof</_description>
         <languageList>
           <iso639Id>wol</iso639Id>
         </languageList>
@@ -4993,20 +4993,20 @@
     <layout>
       <configItem>
         <name>brai</name>
-        <_shortDescription>Brl</_shortDescription>
+        <_shortDescription>brl</_shortDescription>
         <_description>Braille</_description>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>left_hand</name>
-            <_description>Braille - Left hand</_description>
+            <_description>Braille (left hand)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>right_hand</name>
-            <_description>Braille - Right hand</_description>
+            <_description>Braille (right hand)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -5014,8 +5014,8 @@
     <layout>
       <configItem>
         <name>tm</name>
-        <_shortDescription>Tkm</_shortDescription>
-        <_description>Turkmenistan</_description>
+        <_shortDescription>tk</_shortDescription>
+        <_description>Turkmen</_description>
         <languageList>
           <iso639Id>tuk</iso639Id>
         </languageList>
@@ -5024,7 +5024,7 @@
         <variant>
           <configItem>
             <name>alt</name>
-            <_description>Turkmenistan - Alt-Q</_description>
+            <_description>Turkmen (Alt-Q)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -5032,8 +5032,8 @@
     <layout>
       <configItem>
         <name>ml</name>
-        <_shortDescription>Mli</_shortDescription>
-        <_description>Mali</_description>
+        <_shortDescription>bm</_shortDescription>
+        <_description>Bambara</_description>
         <languageList>
           <iso639Id>bam</iso639Id>
         </languageList>
@@ -5042,19 +5042,22 @@
         <variant>
           <configItem>
             <name>fr-oss</name>
-            <_description>Mali - Français (France Alternative)</_description>
+            <_shortDescription>fr</_shortDescription>
+            <_description>French (Mali, alternative)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us-mac</name>
-            <_description>Mali - English (USA Macintosh)</_description>
+            <_shortDescription>en</_shortDescription>
+            <_description>English (Mali, USA Mac)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>us-intl</name>
-            <_description>Mali - English (USA International)</_description>
+            <_shortDescription>en</_shortDescription>
+            <_description>English (Mali, USA international)</_description>
           </configItem>
         </variant>
       </variantList>
@@ -5062,8 +5065,8 @@
     <layout>
       <configItem>
         <name>tz</name>
-        <_shortDescription>Tza</_shortDescription>
-        <_description>Tanzania</_description>
+        <_shortDescription>sw</_shortDescription>
+        <_description>Swahili (Tanzania)</_description>
         <languageList>
           <iso639Id>swa</iso639Id>
         </languageList>
@@ -5072,8 +5075,8 @@
     <layout>
       <configItem>
         <name>ke</name>
-        <_shortDescription>Ken</_shortDescription>
-        <_description>Kenya</_description>
+        <_shortDescription>sw</_shortDescription>
+        <_description>Swahili (Kenya)</_description>
         <languageList>
           <iso639Id>swa</iso639Id>
         </languageList>
@@ -5082,7 +5085,8 @@
         <variant>
           <configItem>
             <name>kik</name>
-            <_description>Kenya - Kikuyu</_description>
+            <_shortDescription>ki</_shortDescription>
+            <_description>Kikuyu</_description>
             <languageList>
               <iso639Id>kik</iso639Id>
             </languageList>
@@ -5093,8 +5097,8 @@
     <layout>
       <configItem>
         <name>bw</name>
-        <_shortDescription>Bwa</_shortDescription>
-        <_description>Botswana</_description>
+        <_shortDescription>tn</_shortDescription>
+        <_description>Tswana</_description>
         <languageList>
           <iso639Id>tsn</iso639Id>
         </languageList>
@@ -5103,8 +5107,8 @@
     <layout>
       <configItem>
         <name>ph</name>
-        <_shortDescription>Phi</_shortDescription>
-        <_description>Philippines</_description>
+        <_shortDescription>ph</_shortDescription>
+        <_description>Filipino</_description>
         <languageList><iso639Id>eng</iso639Id>
                      <iso639Id>bik</iso639Id>
                       <iso639Id>ceb</iso639Id>
@@ -5121,7 +5125,7 @@
         <variant>
           <configItem>
             <name>qwerty-bay</name>
-            <_description>Philippines - QWERTY (Baybayin)</_description>
+            <_description>Filipino (QWERTY Baybayin)</_description>
             <languageList><iso639Id>bik</iso639Id>
                           <iso639Id>ceb</iso639Id>
                           <iso639Id>fil</iso639Id>
@@ -5137,13 +5141,13 @@
         <variant>
           <configItem>
             <name>capewell-dvorak</name>
-            <_description>Philippines - Capewell-Dvorak (Latin)</_description>
+            <_description>Filipino (Capewell-Dvorak Latin)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>capewell-dvorak-bay</name>
-            <_description>Philippines - Capewell-Dvorak (Baybayin)</_description>
+            <_description>Filipino (Capewell-Dvorak Baybayin)</_description>
             <languageList><iso639Id>bik</iso639Id>
                           <iso639Id>ceb</iso639Id>
                           <iso639Id>fil</iso639Id>
@@ -5159,13 +5163,13 @@
         <variant>
           <configItem>
             <name>capewell-qwerf2k6</name>
-            <_description>Philippines - Capewell-QWERF 2006 (Latin)</_description>
+            <_description>Filipino (Capewell-QWERF 2006 Latin)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>capewell-qwerf2k6-bay</name>
-            <_description>Philippines - Capewell-QWERF 2006 (Baybayin)</_description>
+            <_description>Filipino (Capewell-QWERF 2006 Baybayin)</_description>
             <languageList><iso639Id>bik</iso639Id>
                           <iso639Id>ceb</iso639Id>
                           <iso639Id>fil</iso639Id>
@@ -5181,13 +5185,13 @@
         <variant>
           <configItem>
             <name>colemak</name>
-            <_description>Philippines - Colemak (Latin)</_description>
+            <_description>Filipino (Colemak Latin)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>colemak-bay</name>
-            <_description>Philippines - Colemak (Baybayin)</_description>
+            <_description>Filipino (Colemak Baybayin)</_description>
             <languageList><iso639Id>bik</iso639Id>
                           <iso639Id>ceb</iso639Id>
                           <iso639Id>fil</iso639Id>
@@ -5203,7 +5207,7 @@
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>Philippines - Dvorak (Latin)</_description>
+            <_description>Filipino (Dvorak Latin)</_description>
           </configItem>
         </variant>
         <variant>
