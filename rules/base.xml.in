@@ -3792,19 +3792,9 @@
         </variant>
         <variant>
           <configItem>
-            <name>crh_dobruca1</name>
+            <name>crh_dobruja</name>
             <_shortDescription>crh</_shortDescription>
-            <_description>Crimean Tatar (Dobruja-1 Q)</_description>
-            <languageList>
-              <iso639Id>crh</iso639Id>
-            </languageList>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
-            <name>crh_dobruca2</name>
-            <_shortDescription>crh</_shortDescription>
-            <_description>Crimean Tatar (Dobruja-2 Q)</_description>
+            <_description>Crimean Tatar (Dobruja Q)</_description>
             <languageList>
               <iso639Id>crh</iso639Id>
             </languageList>

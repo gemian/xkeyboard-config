@@ -192,39 +192,24 @@ xkb_symbols "winkeys" {
 
 };
 
-// Romania-specific Crimean Tatar (Crimean Turkish) layouts.
-// F layout is not included, at least for the time being, given that the common
-// F layout is now available in the UI (which is now locale-based) right next to
-// these country-specific layouts (in addition, Q (qwerty) physical keyboards
-// are usually used in Romania).
-// There is only 1 Alt-Q layout variant, so there is no longer any need to
-// include it here, assuming locale-based keyboard layout listing is provided by
-// the UI going forward.
-// Reşat SABIQ <tilde.birlik @ gmail . com>, 2009
-// Özgür Qarahan <qarahan @ gmail . com>, 2009
 partial
-xkb_symbols "crh_dobruca1" {
+xkb_symbols "crh_dobruja" {
+    // Romania-specific Crimean Tatar (Crimean Turkish) Q layout.
+    // This layout is not yet standard. Common Alt-Q and F layouts are now also 
+    // available right next to this layout in the new language-centric UI.
+    // Reşat SABIQ <tilde.birlik @ gmail . com>, 2009, 2011
+    // Özgür Qarahan <qarahan @ gmail . com>, 2009
+
     include "tr(crh)"
 
-    name[Group1]="Romania - Crimean Tatar (Dobruca-1 Q)";
+    name[Group1]="Romania - Crimean Tatar (Dobruja Q)";
 
-    key <AD05>	{ [         t,          T,       tcedilla,       Tcedilla ]	};
-    key <AD10>	{ [         p,          P,         abreve,         Abreve ]	};
-
-    key <AC04>	{ [         f,          F,         ibreve,         Ibreve ]	};
-    key <AC07>	{ [    iacute,     Iacute,              j,              J ]	};
-
-    key <AB07>	{ [         m,          M,      trademark,      masculine ]	};
-};
-
-partial
-xkb_symbols "crh_dobruca2" {
-    include "ro(crh_dobruca1)"
-
-    name[Group1]="Romania - Crimean Tatar (Dobruca-2 Q)";
-
-    key <AC04>	{ [         f,          F,          iacute,          Iacute ]	};
-    key <AC07>	{ [    ibreve,     Ibreve,               j,               J ]	};
+    key <AD02>	{ [         w,          W,         abreve,         Abreve ] };
+    key <AD05>	{ [         t,          T,      0x100021b,      0x100021a ] };
+    key <AD10>	{ [         p,          P,        section 	          ] };
+    key <AC02>	{ [         s,          S,      0x1000219,      0x1000218 ] };
+    key <AC07>	{ [    ibreve,     Ibreve,              j,              J ] };
+    key <AB07>	{ [         m,          M,      trademark,      masculine ] };
 };
 
 // EXTRAS:
