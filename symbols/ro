@@ -192,21 +192,16 @@ xkb_symbols "winkeys" {
 
 };
 
-// Crimean Tatar (Crimean Turkish) layouts.
-partial
-xkb_symbols "crh_f" {
-    include "tr(crh_f)"
-
-    name[Group1]="Romania - Crimean Tatar (Turkish F)";
-};
-
-partial
-xkb_symbols "crh_alt" {
-    include "tr(crh_alt)"
-
-    name[Group1]="Romania - Crimean Tatar (Turkish Alt-Q)";
-};
-
+// Romania-specific Crimean Tatar (Crimean Turkish) layouts.
+// F layout is not included, at least for the time being, given that the common
+// F layout is now available in the UI (which is now locale-based) right next to
+// these country-specific layouts (in addition, Q (qwerty) physical keyboards
+// are usually used in Romania).
+// There is only 1 Alt-Q layout variant, so there is no longer any need to
+// include it here, assuming locale-based keyboard layout listing is provided by
+// the UI going forward.
+// Reşat SABIQ <tilde.birlik @ gmail . com>, 2009
+// Özgür Qarahan <qarahan @ gmail . com>, 2009
 partial
 xkb_symbols "crh_dobruca1" {
     include "tr(crh)"
