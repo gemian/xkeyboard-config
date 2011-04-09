@@ -29,7 +29,7 @@
 partial default alphanumeric_keys modifier_keys
 xkb_symbols "basic" {
 
-    name[Group1]= "Latvia";
+    name[Group1]= "Latvian";
 
         key <TLDE>      {[grave, asciitilde, acute, asciitilde]};
         key <AE01>      {[1, exclam, onesuperior, exclamdown]};
@@ -92,7 +92,7 @@ xkb_symbols "apostrophe" {
 
     include "lv(basic)"
 
-    name[Group1]= "Latvia - Apostrophe (') variant";
+    name[Group1]= "Latvian (apostrophe ' variant)";
 
 	key <AC11>	{[ISO_Level3_Latch, quotedbl, apostrophe, quotedbl]};
         key <SPCE>      {[space, space, apostrophe]};
@@ -105,7 +105,7 @@ xkb_symbols "tilde" {
 
     include "lv(basic)"
 
-    name[Group1]= "Latvia - Tilde (~) variant";
+    name[Group1]= "Latvian (tilde ~ variant)";
 
 	key <TLDE>	{[ISO_Level3_Latch, asciitilde, grave, acute]}; 
         key <SPCE>      {[space, space, asciitilde]};
@@ -118,7 +118,7 @@ xkb_symbols "fkey" {
 
     include "lv(basic)"
 
-    name[Group1]= "Latvia - F-letter (F) variant";
+    name[Group1]= "Latvian (F variant)";
 
         key <AC04>      {[ISO_Level3_Latch, ISO_Level3_Latch, f, F]};
         key <SPCE>      {[space, space, f, F]};
