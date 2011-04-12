@@ -3449,19 +3449,37 @@
         <variant>
           <configItem>
             <name>apostrophe</name>
-            <_description>Latvian (apostrophe ' variant)</_description>
+            <_description>Latvian (apostrophe variant)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>tilde</name>
-            <_description>Latvian (tilde ~ variant)</_description>
+            <_description>Latvian (tilde variant)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>fkey</name>
             <_description>Latvian (F variant)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>modern</name>
+            <_description>Latvian (modern)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ergonomic</name>
+            <_description>Latvian (ergonomic, ŪGJRMV)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>adapted</name>
+            <_description>Latvian (adapted)</_description>
           </configItem>
         </variant>
       </variantList>
