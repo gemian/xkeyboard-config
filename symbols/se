@@ -166,7 +166,7 @@ xkb_symbols "smi" {
 
     include "fi(smi)"
 
-    name[Group1]= "Saami (Sweden)";
+    name[Group1]= "Northern Saami (Sweden)";
 };
 
 // Copied from macintosh_vndr/se

@@ -2589,7 +2589,7 @@
         <variant>
           <configItem>
             <name>smi</name>
-            <_description>Saami (Finland)</_description>
+	    <_description>Northern Saami (Finland)</_description>
             <languageList><iso639Id>sme</iso639Id></languageList>
           </configItem>
         </variant>
@@ -3621,7 +3621,7 @@
         <variant>
           <configItem>
             <name>smi</name>
-            <_description>Saami (Norway)</_description>
+            <_description>Northern Saami (Norway)</_description>
             <languageList>
               <iso639Id>sme</iso639Id>
             </languageList>
@@ -3630,7 +3630,7 @@
         <variant>
           <configItem>
             <name>smi_nodeadkeys</name>
-            <_description>Saami (Norway, eliminate dead keys)</_description>
+            <_description>Northern Saami (Norway, eliminate dead keys)</_description>
             <languageList>
               <iso639Id>sme</iso639Id>
             </languageList>
@@ -4197,7 +4197,7 @@
         <variant>
           <configItem>
             <name>smi</name>
-            <_description>Saami (Sweden)</_description>
+            <_description>Northern Saami (Sweden)</_description>
             <languageList>
               <iso639Id>sme</iso639Id>
             </languageList>
