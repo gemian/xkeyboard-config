@@ -492,6 +492,14 @@ xkb_symbols "olpc" {
 };
 
 partial alphanumeric_keys 
+xkb_symbols "eng" {
+    name[Group1] = "English (Canada)";
+    include "us(basic)"
+};
+
+// EXTRAS:
+
+partial alphanumeric_keys 
 xkb_symbols "kut" {
 
     //Ejective U0313  and compose accents are from shs layout
@@ -518,10 +526,4 @@ xkb_symbols "kut" {
 
     //MODIFIER LETTER RIGHT HALF RING
     key <AC10> {	[ semicolon,	colon,U02BE,U02BE	]	};
-};
-
-partial alphanumeric_keys 
-xkb_symbols "eng" {
-    name[Group1] = "English (Canada)";
-    include "us(basic)"
 };
