@@ -90,6 +90,7 @@ rules/compat/base.ml_s.part
 rules/compat/base.mlv_s.part
 tests/mxkbledpanel/mxkbledpanel
 tests/mxkbledpanel/mxkbledpanel._man
+tests/reg2ll.lstbase
 po/stamp-it
 rules/evdev
 rules/evdev.extras.xml
