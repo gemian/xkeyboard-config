@@ -6,7 +6,7 @@
     <layout>
       <configItem>
         <name>apl</name>
-        <_shortDescription>APL</_shortDescription>
+        <_shortDescription>apl</_shortDescription>
         <_description>APL Keyboard Symbols</_description>
         <languageList><iso639Id>eng</iso639Id></languageList>
       </configItem>
@@ -39,7 +39,7 @@
     <layout>
       <configItem>
         <name>ir</name>
-        <_shortDescription>Iran</_shortDescription>
+        <_shortDescription>fa</_shortDescription>
         <_description>Persian</_description>
         <languageList><iso639Id>per</iso639Id></languageList>
       </configItem>
@@ -56,7 +56,7 @@
     <layout>
       <configItem>
         <name>lt</name>
-        <_shortDescription>Ltu</_shortDescription>
+        <_shortDescription>lt</_shortDescription>
         <_description>Lithuanian</_description>
         <languageList><iso639Id>lit</iso639Id></languageList>
       </configItem>
@@ -184,7 +184,7 @@
     <layout>
       <configItem>
         <name>ro</name>
-        <_shortDescription>Rou</_shortDescription>
+        <_shortDescription>ro</_shortDescription>
         <_description>Romanian</_description>
         <languageList><iso639Id>rum</iso639Id></languageList>
       </configItem>
@@ -200,7 +200,7 @@
     <layout>
       <configItem>
         <name>rs</name>
-        <_shortDescription>Srb</_shortDescription>
+        <_shortDescription>sr</_shortDescription>
         <_description>Serbian</_description>
         <languageList><iso639Id>srp</iso639Id></languageList>
       </configItem>
@@ -216,7 +216,7 @@
     <layout>
       <configItem>
         <name>ru</name>
-        <_shortDescription>Rus</_shortDescription>
+        <_shortDescription>ru</_shortDescription>
         <_description>Russian</_description>
       </configItem>
       <variantList>
