@@ -63,12 +63,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>dvorak</name>
-            <_description>Lithuanian (Dvorak)</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>us_dvorak</name>
             <_description>Lithuanian (US Dvorak with Lithuanian letters)</_description>
           </configItem>
