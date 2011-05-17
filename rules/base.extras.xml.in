@@ -251,8 +251,8 @@
       <variantList>
         <variant>
           <configItem>
-            <name>phonetic-alt</name>
-            <_description>Armenian (alternative phonetic)</_description>
+            <name>olpc-phonetic</name>
+            <_description>Armenian (alternative phonetic for OLPC)</_description>
           </configItem>
         </variant>
       </variantList>
