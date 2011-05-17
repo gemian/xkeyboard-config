@@ -227,6 +227,16 @@
             <languageList><iso639Id>chu</iso639Id></languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>ruu</name>
+            <_shortDescription>ru</_shortDescription>
+            <_description>Russian (with UKR and BEL layout)</_description>
+            <languageList><iso639Id>rus</iso639Id>
+                          <iso639Id>ukr</iso639Id>
+                          <iso639Id>bel</iso639Id></languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
