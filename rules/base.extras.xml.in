@@ -229,6 +229,24 @@
         </variant>
       </variantList>
     </layout>
+    <layout>
+      <configItem>
+        <name>am</name>
+        <_shortDescription>hy</_shortDescription>
+        <_description>Armenian</_description>
+        <languageList>
+          <iso639Id>hye</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>phonetic-alt</name>
+            <_description>Armenian (alternative phonetic)</_description>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
   </layoutList>
   <optionList/>
 </xkbConfigRegistry>
