@@ -262,7 +262,7 @@
           <configItem>
             <name>ruu</name>
             <_shortDescription>ru</_shortDescription>
-            <_description>Russian (with UKR and BEL layout)</_description>
+            <_description>Russian (with Ukrainian-Belorussian layout)</_description>
             <languageList><iso639Id>rus</iso639Id>
                           <iso639Id>ukr</iso639Id>
                           <iso639Id>bel</iso639Id></languageList>
