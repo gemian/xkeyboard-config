@@ -23,6 +23,7 @@ endif
 if USE_COMPAT_RULES
 
 base_parts = base.hdr.part base.lists.part \
+base.lists.base.part \
 compat/base.lists.part \
 HDR base.m_k.part \
 HDR base.l1_k.part \
@@ -60,6 +61,7 @@ HDR base.o_c.part \
 HDR base.o_t.part
 
 evdev_parts = base.hdr.part base.lists.part \
+evdev.lists.part \
 compat/base.lists.part \
 HDR evdev.m_k.part \
 HDR base.l1_k.part \
@@ -99,6 +101,7 @@ HDR base.o_t.part
 else
 
 base_parts = base.hdr.part base.lists.part \
+base.lists.base.part \
 HDR base.m_k.part \
 HDR base.l1_k.part \
 HDR base.l_k.part \
@@ -135,6 +138,7 @@ HDR base.o_c.part \
 HDR base.o_t.part
 
 evdev_parts = base.hdr.part base.lists.part \
+evdev.lists.part \
 HDR evdev.m_k.part \
 HDR base.l1_k.part \
 HDR base.l_k.part  \
@@ -174,6 +178,8 @@ endif
 
 all_parts_dist = HDR base.hdr.part \
 base.lists.part \
+base.lists.base.part \
+evdev.lists.part \
 base.m_k.part \
 base.l1_k.part \
 base.l_k.part \
