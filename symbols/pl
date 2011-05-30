@@ -62,6 +62,7 @@ xkb_symbols "legacy" {
     name[Group1]="Polish (legacy)";
 
     key <AD03>	{ [         e,          E,      eogonek,      Eogonek ]	};
+    key <AD07>  { [         u,          U,	EuroSign,     cent    ] };
     key <AD09>	{ [         o,          O,       oacute,       Oacute ]	};
 
     key <AC01>	{ [         a,          A,      aogonek,      Aogonek ]	};
