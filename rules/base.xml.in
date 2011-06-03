@@ -627,6 +627,7 @@
         <name>logii350</name>
         <_description>Logitech Internet 350 Keyboard</_description>
         <vendor>Logitech</vendor>
+        <hwList> <hwId>046d:c313</hwId></hwList>
       </configItem>
     </model>
     <model>
