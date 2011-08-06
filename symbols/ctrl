@@ -47,3 +47,11 @@ xkb_symbols "ctrl_menu" {
   replace key <MENU> { [ Control_R, Control_R ] };
   modifier_map Control { Control_L, <MENU> };
 };
+
+// right alt functions as another ctrl key
+partial modifier_keys 
+xkb_symbols "ctrl_ralt" {
+    replace key <RALT> { type[Group1]    = "TWO_LEVEL",
+                         symbols[Group1] = [ Control_R, Control_R ] };
+    modifier_map Control { <RALT> }; 
+};

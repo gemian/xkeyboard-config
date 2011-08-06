@@ -5641,6 +5641,12 @@
           <_description>Right Ctrl is mapped to Menu</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>ctrl:ctrl_ralt</name>
+          <_description>Right Alt functions as Ctrl</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- Using startard LEDs to indicate the alternative (not first) group(s) -->
