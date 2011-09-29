@@ -2235,7 +2235,7 @@
         <variant>
           <configItem>
             <name>dvorak</name>
-            <_description>English (Cameroon Dvorak)</_description>
+            <_description>Cameroon Multilingual (Dvorak)</_description>
           </configItem>
         </variant>
       </variantList>
