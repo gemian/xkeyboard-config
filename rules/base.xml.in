@@ -1627,7 +1627,7 @@
       <configItem>
         <name>by</name>
         <!-- Keyboard indicator for Belarusian layouts -->
-        <_shortDescription>be</_shortDescription>
+        <_shortDescription>by</_shortDescription>
         <_description>Belarusian</_description>
         <languageList>
           <iso639Id>bel</iso639Id>
