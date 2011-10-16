@@ -6209,7 +6209,7 @@
       <option>
         <configItem>
           <name>numpad:mac</name>
-          <_description>Numeric keypad keys always enter digits</_description>
+          <_description>Numeric keypad keys always enter digits (as in Mac OS)</_description>
         </configItem>
       </option>
       <option>
