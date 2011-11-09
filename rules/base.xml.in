@@ -6499,6 +6499,12 @@
           <_description>NICOLA-F style Backspace</_description>
        </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>japan:hztg_escape</name>
+          <_description>Make Zenkaku Hankaku an additional ESC</_description>
+       </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="false">
       <configItem>
