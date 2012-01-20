@@ -6532,6 +6532,12 @@
           <_description>Allow breaking grabs with keyboard actions (warning: security risk)</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>grab:debug_actions</name>
+          <_description>Allow grab and window tree logging</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- Special shortcuts for the Euro character -->
