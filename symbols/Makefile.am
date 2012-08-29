@@ -21,7 +21,7 @@ ke kg kh \
 kr kz \
 la latam latin \
 lk lt lv \
-ma mao me \
+ma mao md me \
 mk ml mm \
 mn mt mv \
 ng nl no np \
