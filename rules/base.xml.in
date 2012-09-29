@@ -3937,6 +3937,13 @@
         </variant>
         <variant>
           <configItem>
+            <name>szl</name>
+            <description>Silesian</description>
+            <languageList><iso639Id>szl</iso639Id></languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>ru_phonetic_dvorak</name>
             <!-- Keyboard indicator for Russian layouts -->
             <_shortDescription>ru</_shortDescription>

@@ -305,6 +305,38 @@ xkb_symbols "dvp" {
     // or layout +level3(ralt_switch_multikey) to revert standard behaviour
 };
 
+// Silesian keyboard layout by Grzegorz Kulik <poslunsku@gmail.com>
+// and Przemysław Buczkowski <przemub@yahoo.pl>.
+// See http://poslunsku.eu/2012/07/slonsko-slabikorzowo-klawiatura-na-windows-i-ubuntu/
+// for a description.
+
+partial alphanumeric_keys
+xkb_symbols "szl" {
+
+    include "latin"
+
+    name[Group1]="Silesian";
+
+    key <AD01>  { [         q,          Q ] };
+    key <AD02>  { [         w,          W ] };
+    key <AD03>	{ [         e,          E,      atilde,      Atilde ]	};
+    key <AD09>	{ [         o,          O,       ocircumflex,       Ocircumflex ]	};
+    key <AD07>  { [         u,          U,       omacron,       Omacron ]        };
+    key <AD10>	{ [         p,          P,       otilde,       Otilde ]	};
+
+    key <AC01>	{ [         a,          A,      U014F,      U014E ]	};
+    key <AC02>	{ [         s,          S,       sacute,       Sacute ]	};
+    key <AC04>  { [         f,          F ] };
+
+    key <AB01>	{ [         z,          Z,    zabovedot,    Zabovedot ]	};
+    key <AB02>	{ [         x,          X,       zacute,       Zacute ]	};
+    key <AB03>	{ [         c,          C,       cacute,       Cacute ]	};
+    key <AB06>	{ [         n,          N,       nacute,       Nacute ]	};
+
+    include "kpdl(comma)"
+
+    include "level3(ralt_switch)"
+};
 
 partial alphanumeric_keys
 xkb_symbols "csb" {
