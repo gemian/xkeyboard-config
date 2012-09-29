@@ -3898,6 +3898,12 @@
       <variantList>
         <variant>
           <configItem>
+            <name>legacy</name>
+            <_description>Polish (legacy)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>qwertz</name>
             <_description>Polish (qwertz)</_description>
           </configItem>
