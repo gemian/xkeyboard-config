@@ -259,7 +259,7 @@ xkb_symbols "dvorak" {
 partial alphanumeric_keys
 xkb_symbols "dvorak-intl" {
 
-    name[Group1]= "English (Dvorak international with dead keys)";
+    name[Group1]= "English (Dvorak, international with dead keys)";
 
     include "us(dvorak)"
 
