@@ -180,7 +180,9 @@ xkb_symbols "polytonic" {
     key <AD12> { [  dead_iota,     VoidSymbol,  dead_breve ] }; // ͺ   ˘
 
     key <AC10> { [ dead_acute, dead_psili  ] }; // ´ ̓ 
-    key <AC11> { [ dead_grave, dead_dasia  ] }; // ` ̔
+    key <AC11> { type[Group1]="FOUR_LEVEL",
+                 [ dead_grave, dead_dasia, apostrophe, quotedbl  ] };
+                 // ` ̔  ' "
 };
 
 partial alphanumeric_keys alternate_group
