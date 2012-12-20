@@ -73,7 +73,7 @@ xkb_symbols "simple" {
     key <AE12> { [        equal,        plus ] }; // = +
 
     key <AD11> { [  bracketleft,   braceleft ] }; // [ {
-    key <AD12> { [ bracketright,  braceright ] }; // [ {
+    key <AD12> { [ bracketright,  braceright ] }; // ] }
 
     key <AC11> { [   apostrophe,    quotedbl ] }; // ' "
 
