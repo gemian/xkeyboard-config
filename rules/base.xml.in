@@ -6349,7 +6349,7 @@
     <group allowMultipleSelection="true">
       <!-- Special shortcuts for the Euro character -->
       <configItem>
-        <name>eurosign</name>
+        <name>currencysign</name>
         <_description>Adding currency signs to certain keys</_description>
       </configItem>
       <option>
