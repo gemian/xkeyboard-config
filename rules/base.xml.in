@@ -5377,6 +5377,9 @@
             <!-- Keyboard indicator for English layouts -->
             <_shortDescription>en</_shortDescription>
             <_description>English (Mali, US Macintosh)</_description>
+            <languageList>
+              <iso639Id>eng</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
@@ -5385,6 +5388,9 @@
             <!-- Keyboard indicator for English layouts -->
             <_shortDescription>en</_shortDescription>
             <_description>English (Mali, US international)</_description>
+            <languageList>
+              <iso639Id>eng</iso639Id>
+            </languageList>
           </configItem>
         </variant>
       </variantList>
