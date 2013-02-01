@@ -5174,7 +5174,7 @@
             <_shortDescription>sd</_shortDescription>
             <_description>Sindhi</_description>
             <languageList>
-              <iso639Id>sd</iso639Id>
+              <iso639Id>snd</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -5362,7 +5362,7 @@
             <_shortDescription>fr</_shortDescription>
             <_description>French (Mali, alternative)</_description>
             <languageList>
-              <iso639Id>fr</iso639Id>
+              <iso639Id>fra</iso639Id>
             </languageList>
           </configItem>
         </variant>
