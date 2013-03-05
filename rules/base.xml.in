@@ -6135,6 +6135,12 @@
           <_description>LeftCtrl+LeftWin (to first layout), RightCtrl+Menu (to second layout)</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>grp:lctrl_lwin_toggle</name>
+          <_description>LeftCtrl+LeftWin</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- The key combination used to choose the 3rd (and 4th, together with Shift)
