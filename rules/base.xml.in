@@ -5115,7 +5115,7 @@
             <name>CloGaelach</name>
             <_description>CloGaelach</_description>
             <languageList>
-              <iso639Id>gla</iso639Id>
+              <iso639Id>gle</iso639Id>
             </languageList>
           </configItem>
         </variant>
