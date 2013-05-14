@@ -4266,6 +4266,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>mac</name>
+            <_description>Russian (Macintosh)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>srp</name>
             <_description>Serbian (Russia)</_description>
             <languageList><iso639Id>rus</iso639Id>
