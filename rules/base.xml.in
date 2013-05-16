@@ -3223,6 +3223,8 @@
         <variant>
           <configItem>
             <name>ru</name>
+            <!-- Keyboard indicator for Russian layouts -->
+            <_shortDescription>ru</_shortDescription>
             <_description>Russian (Germany, phonetic)</_description>
             <languageList>
               <iso639Id>rus</iso639Id>
