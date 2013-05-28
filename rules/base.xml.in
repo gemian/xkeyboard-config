@@ -1642,12 +1642,6 @@
       <variantList>
         <variant>
           <configItem>
-            <name>legacy</name>
-            <_description>German (legacy)</_description>
-          </configItem>
-        </variant>
-        <variant>
-          <configItem>
             <name>nodeadkeys</name>
             <_description>German (Austria, eliminate dead keys)</_description>
           </configItem>
@@ -3229,6 +3223,12 @@
             <languageList>
               <iso639Id>rus</iso639Id>
             </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>legacy</name>
+            <_description>German (legacy)</_description>
           </configItem>
         </variant>
       </variantList>
