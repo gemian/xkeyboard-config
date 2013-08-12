@@ -2045,6 +2045,39 @@
         </variant>
         <variant>
           <configItem>
+            <name>hin-kagapa</name>
+            <!-- Keyboard indicator for Hindi layouts -->
+            <_shortDescription>hi</_shortDescription>
+            <_description>Hindi (KaGaPa phonetic)</_description>
+            <languageList>
+              <iso639Id>hin</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>san-kagapa</name>
+            <!-- Keyboard indicator for Sanskrit layouts -->
+            <_shortDescription>sa</_shortDescription>
+            <_description>Sanskrit (KaGaPa phonetic)</_description>
+            <languageList>
+              <iso639Id>san</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mar-kagapa</name>
+            <!-- Keyboard indicator for Sanskrit layouts -->
+            <_shortDescription>mr</_shortDescription>
+            <_description>Marathi (KaGaPa phonetic)</_description>
+            <languageList>
+              <iso639Id>mar</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>eng</name>
             <!-- Keyboard indicator for English layouts -->
             <_shortDescription>en</_shortDescription>
