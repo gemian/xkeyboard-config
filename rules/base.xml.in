@@ -1414,7 +1414,7 @@
         <variant>
           <configItem>
             <name>olpc2</name>
-            <_description>English (layout toggle on multiply/divide key)</_description>
+            <_description>English (the divide/multiply keys toggle the layout)</_description>
           </configItem>
         </variant>
         <variant>
@@ -1724,7 +1724,7 @@
         <variant>
           <configItem>
             <name>oss_latin9</name>
-            <_description>Belgian (alternative, latin-9 only)</_description>
+            <_description>Belgian (alternative, Latin-9 only)</_description>
           </configItem>
         </variant>
         <variant>
@@ -2180,7 +2180,7 @@
         <variant>
           <configItem>
             <name>nativo-us</name>
-            <_description>Portuguese (Brazil, nativo for USA keyboards)</_description>
+            <_description>Portuguese (Brazil, nativo for US keyboards)</_description>
           </configItem>
         </variant>
         <variant>
@@ -2935,7 +2935,7 @@
         <variant>
           <configItem>
             <name>oss_latin9</name>
-            <_description>French (alternative, latin-9 only)</_description>
+            <_description>French (alternative, Latin-9 only)</_description>
           </configItem>
         </variant>
         <variant>
@@ -2977,7 +2977,7 @@
         <variant>
           <configItem>
             <name>bepo_latin9</name>
-            <_description>French (Bepo, ergonomic, Dvorak way, latin-9 only)</_description>
+            <_description>French (Bepo, ergonomic, Dvorak way, Latin-9 only)</_description>
           </configItem>
         </variant>
         <variant>
@@ -4142,7 +4142,7 @@
         <variant>
           <configItem>
             <name>nativo-us</name>
-            <_description>Portuguese (Nativo for USA keyboards)</_description>
+            <_description>Portuguese (Nativo for US keyboards)</_description>
           </configItem>
         </variant>
         <variant>
@@ -5924,7 +5924,7 @@
       <option>
         <configItem>
           <name>lv3:ralt_switch_multikey</name>
-          <_description>Right Alt, Shift+Right Alt key is Multi_Key</_description>
+          <_description>Right Alt, Shift+Right Alt key is Compose</_description>
         </configItem>
       </option>
       <option>
@@ -6141,7 +6141,7 @@
       <option>
         <configItem>
           <name>kpdl:dotoss_latin9</name>
-          <_description>Four-level key with dot, latin-9 restriction</_description>
+          <_description>Four-level key with dot, Latin-9 only</_description>
        </configItem>
       </option>
       <option>
@@ -6167,7 +6167,7 @@
       <option>
         <configItem>
           <name>kpdl:semi</name>
-          <_description>Semi-colon on third level</_description>
+          <_description>Semicolon on third level</_description>
        </configItem>
       </option>
     </group>
@@ -6248,7 +6248,7 @@
       <option>
         <configItem>
           <name>caps:shiftlock</name>
-          <_description>Caps Lock toggles Shift so all keys are affected</_description>
+          <_description>Caps Lock toggles ShiftLock (affects all keys)</_description>
         </configItem>
       </option>
       <option>
@@ -6502,25 +6502,25 @@
       <option>
         <configItem>
           <name>shift:both_capslock</name>
-          <_description>Both Shift-Keys together toggle Caps Lock</_description>
+          <_description>Both Shift keys together toggle Caps Lock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>shift:both_capslock_cancel</name>
-          <_description>Both Shift-Keys together activate Caps Lock, one Shift-Key deactivates</_description>
+          <_description>Both Shift keys together activate Caps Lock, one Shift key deactivates</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>shift:both_shiftlock</name>
-          <_description>Both Shift-Keys together toggle ShiftLock</_description>
+          <_description>Both Shift keys together toggle ShiftLock</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>keypad:pointerkeys</name>
-          <_description>Toggle PointerKeys with Shift + NumLock.</_description>
+          <_description>Shift + NumLock toggles PointerKeys</_description>
         </configItem>
       </option>
       <option>
@@ -6765,18 +6765,18 @@
     <group allowMultipleSelection="false">
       <configItem>
         <name>esperanto</name>
-        <_description>Adding Esperanto circumflexes (supersigno)</_description>
+        <_description>Adding Esperanto supersigned letters</_description>
       </configItem>
       <option>
         <configItem>
           <name>esperanto:qwerty</name>
-          <_description>To the corresponding key in a Qwerty keyboard.</_description>
+          <_description>To the corresponding key in a Qwerty layout</_description>
        </configItem>
       </option>
       <option>
         <configItem>
           <name>esperanto:dvorak</name>
-          <_description>To the corresponding key in a Dvorak keyboard.</_description>
+          <_description>To the corresponding key in a Dvorak layout</_description>
        </configItem>
       </option>
     </group>
