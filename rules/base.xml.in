@@ -1882,6 +1882,17 @@
         </variant>
         <variant>
           <configItem>
+            <name>kan-kagapa</name>
+            <!-- Keyboard indicator for Kannada layouts -->
+            <_shortDescription>kn</_shortDescription>
+            <_description>Kannada (KaGaPa phonetic)</_description>
+            <languageList>
+              <iso639Id>kan</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>mal</name>
             <!-- Keyboard indicator for Malayalam layouts -->
             <_shortDescription>ml</_shortDescription>
@@ -1990,6 +2001,17 @@
         </variant>
         <variant>
           <configItem>
+            <name>tel-kagapa</name>
+            <!-- Keyboard indicator for Telugu layouts -->
+            <_shortDescription>te</_shortDescription>
+            <_description>Telugu (KaGaPa phonetic)</_description>
+            <languageList>
+              <iso639Id>tel</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>urd-phonetic</name>
             <!-- Keyboard indicator for Urdu layouts -->
             <_shortDescription>ur</_shortDescription>
@@ -2068,7 +2090,7 @@
         <variant>
           <configItem>
             <name>mar-kagapa</name>
-            <!-- Keyboard indicator for Sanskrit layouts -->
+            <!-- Keyboard indicator for Marathi layouts -->
             <_shortDescription>mr</_shortDescription>
             <_description>Marathi (KaGaPa phonetic)</_description>
             <languageList>
