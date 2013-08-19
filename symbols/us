@@ -853,7 +853,7 @@ xkb_symbols "altgr-intl" {
 partial alphanumeric_keys
 xkb_symbols "classmate" {
     include "us(basic)"
-    name[Group1]= "USA - ClassmatePC";
+    name[Group1]= "English (US)";
 
     key <LSGT> { [ backslash,	bar,		backslash,	bar ] };
 
@@ -1059,7 +1059,7 @@ xkb_symbols "olpc2" {
 xkb_symbols "olpcm" {
 
    include "us(basic)"
-   name[Group1]= "USA";
+   name[Group1]= "English (US)";
 
    // Mechanical (non-membrane) OLPC int'l US English keyboard layout.
    // See: http://wiki.laptop.org/go/OLPC_English_Non-membrane_Keyboard
