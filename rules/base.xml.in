@@ -6779,6 +6779,12 @@
           <_description>To the corresponding key in a Dvorak layout</_description>
        </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>esperanto:colemak</name>
+          <_description>To the corresponding key in a Colemak layout</_description>
+       </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <configItem>
