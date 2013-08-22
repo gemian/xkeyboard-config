@@ -5659,7 +5659,7 @@
       <!-- The key combination used to switch between groups -->
       <configItem>
         <name>grp</name>
-        <_description>Key(s) to change layout</_description>
+        <_description>Switching to another layout</_description>
       </configItem>
       <option>
         <configItem>
@@ -6260,7 +6260,7 @@
       <option>
         <configItem>
           <name>caps:ctrl_modifier</name>
-          <_description>Make Caps Lock an additional Control but keep the Caps_Lock keysym</_description>
+          <_description>Make Caps Lock an additional Ctrl</_description>
         </configItem>
       </option>
     </group>
@@ -6291,13 +6291,13 @@
       <option>
         <configItem>
           <name>altwin:ctrl_win</name>
-          <_description>Control is mapped to Win keys (and the usual Ctrl keys)</_description>
+          <_description>Ctrl is mapped to Win keys (and the usual Ctrl keys)</_description>
         </configItem>
       </option>
       <option>
         <configItem>
           <name>altwin:ctrl_alt_win</name>
-          <_description>Control is mapped to Alt keys, Alt is mapped to Win keys</_description>
+          <_description>Ctrl is mapped to Alt keys, Alt is mapped to Win keys</_description>
         </configItem>
       </option>
       <option>
@@ -6806,7 +6806,7 @@
       <option>
         <configItem>
           <name>terminate:ctrl_alt_bksp</name>
-          <_description>Control + Alt + Backspace</_description>
+          <_description>Ctrl + Alt + Backspace</_description>
         </configItem>
       </option>
     </group>
