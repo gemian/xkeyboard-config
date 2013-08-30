@@ -52,11 +52,11 @@ xkb_symbols "ralt_switch_multikey" {
   include "level3(modifier_mapping)"
 };
 
-// special case or right Alt switch - for use with grp:alts_toggle
+// Special case of right-Alt switch -- for use with grp:alts_toggle.
 //
 partial hidden modifier_keys
 xkb_symbols "ralt_switch_for_alts_toggle" {
- virtual_modifiers LAlt, AlGr;
+  virtual_modifiers LAlt, AltGr;
   key <LALT> {
     type[Group1]="PC_RALT_LEVEL2",
     symbols[Group1] = [ Alt_L,  ISO_Prev_Group,  ISO_Prev_Group ],
