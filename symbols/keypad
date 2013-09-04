@@ -324,19 +324,19 @@ xkb_symbols "ossmath_latin9" {
 // Legacy keypad number area
 // Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 //
-// ┏━━━━━┱                   ⇱ Home
-// ┃Num  ┃                   ⇲ End
-// ┃Lock⇭┃                   ⇞ Page up
-// ┡━━━━━╃─────┼─────┼       ⇟ Page down
-// │ 7   │ 8   │ 9   │       ⇞ Page up
+// ┏━━━━━┱
+// ┃Num  ┃                   ⇱ Home
+// ┃Lock⇭┃                   ⇲ End
+// ┡━━━━━╃─────┼─────┼       ⇞ Page up
+// │ 7   │ 8   │ 9   │       ⇟ Page down
 // │ ⇱   │ ⇧   │ ⇞   │       ⎀ Insert
 // ├─────┼─────┼─────┤       ␥ Delete
 // │ 4   │ 5   │ 6   │       ⇦⇧⇨⇩ Directions
 // │ ⇦   │     │ ⇨   │
 // ├─────┼─────┼─────╆
 // │ 1   │ 2   │ 3   ┃
-// │ ⇲   │ ⇩   │ ⇟   ┃        1 None
-// ├─────┴─────┼─────┨        2 Num Lock ⇭
+// │ ⇲   │ ⇩   │ ⇟   ┃       1 None
+// ├─────┴─────┼─────┨       2 Num Lock ⇭
 // │ 0         │
 // │ ⎀         │
 // └───────────┴
@@ -366,11 +366,11 @@ xkb_symbols "legacynumber" {
 // This is actually a three-level keypad, declared as four-level
 // to avoid defining a new type
 //
-// ┏━━━━━┱                   ⇱ Home
-// ┃Num  ┃                   ⇲ End
-// ┃Lock⇭┃                   ⇞ Page up
-// ┡━━━━━╃─────┼─────┼       ⇟ Page down
-// │ 7   │ 8   │ 9   │       ⇞ Page up
+// ┏━━━━━┱
+// ┃Num  ┃                   ⇱ Home
+// ┃Lock⇭┃                   ⇲ End
+// ┡━━━━━╃─────┼─────┼       ⇞ Page up
+// │ 7   │ 8   │ 9   │       ⇟ Page down
 // │ ⇱ < │ ⇧ > │ ⇞ ^ │       ⎀ Insert
 // ├─────┼─────┼─────┤       ␥ Delete
 // │ 4   │ 5   │ 6   │       ⇦⇧⇨⇩ Directions
@@ -406,15 +406,15 @@ xkb_symbols "legacynumber_wang" {
 // Keypad number area with arrow symbols
 // Copyright © 2006 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 //
-// ┏━━━━━┱                   ⇱ Home
-// ┃Num  ┃                   ⇲ End
-// ┃Lock⇭┃                   ⇞ Page up
-// ┡━━━━━╃─────┼─────┼       ⇟ Page down
-// │ 7 ⇖ │ 8 ⇑ │ 9 ⇗ │       ⇞ Page up
+// ┏━━━━━┱
+// ┃Num  ┃                   ⇱ Home
+// ┃Lock⇭┃                   ⇲ End
+// ┡━━━━━╃─────┼─────┼       ⇞ Page up
+// │ 7 ⇖ │ 8 ⇑ │ 9 ⇗ │       ⇟ Page down
 // │ ⇱ ↖ │ ⇧ ↑ │ ⇞ ↗ │       ⎀ Insert
 // ├─────┼─────┼─────┤       ␥ Delete
-// │ 4 ⇐ │ 5 ⇔ │ 6 ⇗ │       ⇦⇧⇨⇩ Directions
-// │ ⇦ ← │   ↔ │ ⇨ ↗ │       ⍽ narrow no-break space
+// │ 4 ⇐ │ 5 ⇔ │ 6 ⇒ │       ⇦⇧⇨⇩ Directions
+// │ ⇦ ← │   ↔ │ ⇨ → │       ⍽ narrow no-break space
 // ├─────┼─────┼─────╆
 // │ 1 ⇙ │ 2 ⇓ │ 3 ⇘ ┃
 // │ ⇲ ↙ │ ⇩ ↓ │ ⇟ ↘ ┃       1 None
@@ -446,11 +446,11 @@ xkb_symbols "ossnumber" {
 // Wang 725-3771-ae and 725-3771-uk keypad number area with additional arrow symbols
 // Copyright © 2007 Nicolas Mailhot <nicolas.mailhot @ laposte.net>
 //
-// ┏━━━━━┱                   ⇱ Home
-// ┃Num  ┃                   ⇲ End
-// ┃Lock⇭┃                   ⇞ Page up
-// ┡━━━━━╃─────┼─────┼       ⇟ Page down
-// │ 7 ↖ │ 8 ↑ │ 9 ↗ │       ⇞ Page up
+// ┏━━━━━┱
+// ┃Num  ┃                   ⇱ Home
+// ┃Lock⇭┃                   ⇲ End
+// ┡━━━━━╃─────┼─────┼       ⇞ Page up
+// │ 7 ↖ │ 8 ↑ │ 9 ↗ │       ⇟ Page down
 // │ ⇱ < │ ⇧ > │ ⇞ ^ │       ⎀ Insert
 // ├─────┼─────┼─────┤       ␥ Delete
 // │ 4 ← │ 5 ↔ │ 6 → │       ⇦⇧⇨⇩ Directions
