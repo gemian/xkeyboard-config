@@ -29,7 +29,6 @@ xkb_symbols "basic" {
     key <AC12> {	[       backslash,	       bar     	]	};
     key <AD11> {	[       masculine,     ordfeminine      ]	};
     key <AD12> {	[      dead_acute,      dead_grave 	]	};
-    // End alphanumeric section
 
     include "eurosign(e)"
     include "level3(ralt_switch)"

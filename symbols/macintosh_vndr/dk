@@ -40,8 +40,6 @@ xkb_symbols "basic" {
     key <AE12> {   	[ dead_acute,      dead_grave,              bar,       brokenbar	]};
     key <AD12> {   	[ dead_diaeresis, dead_circumflex,       dead_tilde,      dead_caron      ]};
 
-    // End alphanumeric section
-
     include "eurosign(e)"
     include "level3(ralt_switch)"
 };

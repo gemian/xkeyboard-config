@@ -30,8 +30,6 @@ xkb_symbols "basic" {
     key <BKSL> {	[              at,        asterisk	]	};
     key <LSGT> {	[            less,         greater	]	};
 
-    // End alphanumeric section
-
     include "eurosign(e)"
     include "level3(ralt_switch)"
 };

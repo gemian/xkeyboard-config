@@ -31,7 +31,5 @@ xkb_symbols "basic" {
     key <AC11> {	[       semicolon,    	     colon 	]	};
     key <BKSL> {	[      apostrophe,        quotedbl	]	};
 
-    // End alphanumeric section
-
     include "level3(ralt_switch)"
 };

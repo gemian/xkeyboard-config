@@ -903,7 +903,6 @@ xkb_symbols "mac" {
 
     name[Group1]= "French (Macintosh)";
 
-    // Alphanumeric section
     key <TLDE> {	[          at,     numbersign, periodcentered,  Ydiaeresis	]	}; // MISSING: Ydiaeresis; eherlent : ok in Latin9
     key <AE01> {	[   ampersand,    1,   VoidSymbol,    dead_acute	]	}; // MISSING: Apple
     key <AE02> {	[      eacute,    2,   ediaeresis,        Eacute	]	};
@@ -958,7 +957,6 @@ xkb_symbols "mac" {
     key <AB10> {	[     equal,   plus, VoidSymbol,        plusminus	]	};
 
     key <SPCE> {	[     space,  space, nobreakspace,   nobreakspace	]	};
-    // End alphanumeric section
 
     key <KPDL> {	[  comma,KP_Decimal	]	};
 

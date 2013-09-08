@@ -61,8 +61,6 @@ xkb_symbols "basic" {
     key <AB08> {  [      Arabic_waw,         comma        ]     };
     key <AB09> {  [     Arabic_zain,         period       ]     };
     key <AB10> {  [      Arabic_zah, Arabic_question_mark ]     };
-
-    // End alphanumeric section
 };
 
 partial alphanumeric_keys
@@ -235,8 +233,6 @@ xkb_symbols "buckwalter" {
     // ARABIC FULL STOP (Urdu)
     key <AB09> {  [    0x10006d4,      Arabic_hamzaonalef ]       };
     key <AB10> {  [    VoidSymbol,     Arabic_question_mark ]     };
-
-    // End alphanumeric section
 };
 
 partial alphanumeric_keys
@@ -286,7 +282,6 @@ xkb_symbols "olpc" {
     key <AC11> {  [      Arabic_tah                   ] };
 
     key <BKSL> {  [       backslash,             bar  ] };
-
 
     // REH isolated form?
     key <AB03> {  [ Arabic_hamzaonwaw,   Arabic_kasra ] };

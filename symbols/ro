@@ -143,7 +143,6 @@ xkb_symbols "winkeys" {
 
     name[Group1]="Romanian (WinKeys)";
 
-    // Alphanumeric section
     key <TLDE> { [ bracketright, bracketleft            ]       };
 
     key <AE01> { [            1,      exclam,  asciitilde, asciitilde   ] };
@@ -184,12 +183,9 @@ xkb_symbols "winkeys" {
 
     key <BKSL> { [ acircumflex, Acircumflex             ]       };
 
-    // End alphanumeric section, begin "Keypad"
     include "kpdl(comma)"
-    // End "Keypad" section
 
     include "level3(ralt_switch)"
-
 };
 
 partial

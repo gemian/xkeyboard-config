@@ -8,8 +8,6 @@ xkb_symbols "extended" {
     
     name[Group1]= "Switzerland - German, Mac";
 
-    // Alphanumeric section
-
     key <AE01> { [	1,	plus, 	plusminus,	infinity		]	};
     key <AE02> { [	2,	quotedbl, leftdoublequotemark, rightdoublequotemark 	]	};
     key <AE03> { [	3,	asterisk, 	numbersign,	leftcaret	]	};
@@ -77,9 +75,6 @@ xkb_symbols "de" {
 
 partial alphanumeric_keys 
 xkb_symbols "fr" {
-
-    // Describes the differences between a very simple US/ASCII
-    // keyboard and a very simple Swiss/French keybaord
 
     include "macintosh_vndr/ch(extended)"
     name[Group1]= "Switzerland - French, Mac";
