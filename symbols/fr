@@ -134,7 +134,7 @@ xkb_symbols "oss" {
     name[Group1]="French (alternative)";
 
     // First row
-    key <TLDE>	{ [      twosuperior,    threesuperior,          onesuperior,          dead_cedilla ] }; // ² ³ ¹ ¸ 
+    key <TLDE>	{ [      twosuperior,    threesuperior,          onesuperior,          dead_cedilla ] }; // ² ³ ¹ ¸
     key <AE01>	{ [        ampersand,                1,           dead_caron,           dead_ogonek ] }; // & 1 ˇ ̨
     key <AE02>	{ [           eacute,                2,           asciitilde,                Eacute ] }; // é 2 ~ É
     key <AE03>	{ [         quotedbl,                3,           numbersign,            dead_breve ] }; // " 3 # ˘
@@ -145,7 +145,7 @@ xkb_symbols "oss" {
     key <AE08>	{ [       underscore,                8,            backslash,             trademark ] }; // _ 8 \ ™
     key <AE09>	{ [         ccedilla,                9,          asciicircum,              Ccedilla ] }; // ç 9 ^ Ç
     key <AE10>	{ [           agrave,                0,                   at,                Agrave ] }; // à 0 @ À
-    key <AE11>	{ [       parenright,           degree,         bracketright,              notequal ] }; // ) ° ] ≠ 
+    key <AE11>	{ [       parenright,           degree,         bracketright,              notequal ] }; // ) ° ] ≠
     key <AE12>	{ [            equal,             plus,           braceright,             plusminus ] }; // = + } ±
 
     // Second row
@@ -164,7 +164,7 @@ xkb_symbols "oss" {
 
     // Third row
     key <AC01>	{ [                q,                Q,           adiaeresis,            Adiaeresis ] }; // q Q ä Ä
-    key <AC02>	{ [                s,                S,               ssharp,    doublelowquotemark ] }; // s S ß „ 
+    key <AC02>	{ [                s,                S,               ssharp,    doublelowquotemark ] }; // s S ß „
     key <AC03>	{ [                d,                D,           ediaeresis,            Ediaeresis ] }; // d D ë Ë
     key <AC04>	{ [                f,                F,  leftsinglequotemark,    singlelowquotemark ] }; // f F ‘ ‚
     key <AC05>	{ [                g,                G, rightsinglequotemark,                   yen ] }; // g G ’ ¥
@@ -205,16 +205,16 @@ xkb_symbols "oss_latin9" {
     key <AE03>	{ [         quotedbl,                3,           numbersign,            dead_tilde ] }; // " 3 # ~
     key <AE04>	{ [       apostrophe,                4,            braceleft,            underscore ] }; // ' 4 { _
     key <AE05>	{ [        parenleft,                5,          bracketleft,                 minus ] }; // ( 5 [ -
-    key <AE06>  { [            minus,                6,                  bar,                 minus ] }; // - 6 | -
-    key <AE08>  { [       underscore,                8,            backslash,             backslash ] }; // _ 8 \ \
+    key <AE06>	{ [            minus,                6,                  bar,                 minus ] }; // - 6 | -
+    key <AE08>	{ [       underscore,                8,            backslash,             backslash ] }; // _ 8 \ \
     key <AE11>	{ [       parenright,           degree,         bracketright,                 equal ] }; // ) ° ] =
 
     // Third row
-    key <AC02>	{ [                s,                S,               ssharp,         guillemotleft ] }; // s S ß « 
+    key <AC02>	{ [                s,                S,               ssharp,         guillemotleft ] }; // s S ß «
     key <AC04>	{ [                f,                F,           apostrophe,            apostrophe ] }; // f F ' '
     key <AC05>	{ [                g,                G,           apostrophe,                   yen ] }; // g G ' ¥
-    key <AC09>  { [                l,                L,       periodcentered,        periodcentered ] }; // l L · ·
-    key <BKSL>	{ [         asterisk,               mu,           dead_grave,       dead_circumflex ] }; // * µ ` ^ 
+    key <AC09>	{ [                l,                L,       periodcentered,        periodcentered ] }; // l L · ·
+    key <BKSL>	{ [         asterisk,               mu,           dead_grave,       dead_circumflex ] }; // * µ ` ^
 
     // Fourth row
     key <LSGT>  { [             less,          greater,                 less,               greater ] }; // < > < >
@@ -236,15 +236,12 @@ xkb_symbols "oss_Sundeadkeys" {
 
     include "fr(oss)"
 
-    // First row
-    key <TLDE>	{ [      twosuperior,    threesuperior,          onesuperior,         dead_cedilla ] }; // ¹ ² ³ ¸ 
+    key <TLDE>	{ [      twosuperior,    threesuperior,          onesuperior,          dead_cedilla ] }; // ¹ ² ³ ¸
 
-    // Second row
-    key <AD11>	{ [     dead_circumflex,  dead_diaeresis,          dead_tilde,        dead_abovering ] }; // ^ ̈ ̃ ˚
+    key <AD11>	{ [  dead_circumflex,   dead_diaeresis,           dead_tilde,        dead_abovering ] }; // ^ ̈ ̃ ˚
 
-    //Third row
-    key <AC11>	{ [           ugrave,          percent,          dead_acute,                Ugrave ] }; // ù % ' Ù
-    key <BKSL>	{ [         asterisk,               mu,          dead_grave,           dead_macron ] }; // * µ ` ̄
+    key <AC11>	{ [           ugrave,          percent,           dead_acute,                Ugrave ] }; // ù % ' Ù
+    key <BKSL>	{ [         asterisk,               mu,           dead_grave,           dead_macron ] }; // * µ ` ̄
 };
 
 partial alphanumeric_keys
@@ -264,7 +261,7 @@ xkb_symbols "oss_nodeadkeys" {
 
     name[Group1]="French (alternative, eliminate dead keys)";
 
-    key <TLDE>	{ [      twosuperior,    threesuperior,          onesuperior,               cedilla ] }; // ² ³ ¹ ¸ 
+    key <TLDE>	{ [      twosuperior,    threesuperior,          onesuperior,               cedilla ] }; // ² ³ ¹ ¸
     key <AE01>	{ [        ampersand,                1,                caron,                ogonek ] }; // & 1 ˇ ̨
     key <AE03>	{ [         quotedbl,                3,           numbersign,                 breve ] }; // " 3 # ˘
 
@@ -791,7 +788,7 @@ xkb_symbols "bre" {
 // Differences from OSS French keyboard :
 // - add á, í, ò, ó et ú, Á, Í, Ò, Ó, Ú, ñ, Ñ
 // - change position of æ, ü, î, û, œ, ô, ö, ï, â, ë
-// 
+//
 // ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
 // │ ³ ¸ │ 1 ̨  │ 2 É │ 3 ˘ │ 4 — │ 5 – │ 6 ‑ │ 7 È │ 8 ™ │ 9 Ç │ 0 À │ ° ≠ │ + ± ┃ ⌫ Retour┃
 // │ ² ¹ │ & ˇ │ é ~ │ " # │ ' { │ ( [ │ - | │ è ` │ _ \ │ ç ^ │ à @ │ ) ] │ = } ┃  arrière┃
@@ -839,7 +836,7 @@ xkb_symbols "oci" {
 // modifications : Etienne Herlent <eherlent@linux-france.org> june 2000
 // adapted to the new input layer :
 //        Martin Costabel <costabel@wanadoo.fr> 3-jan-2001
-// adapted for Latin9 alphabet (ISO-8859-15): 
+// adapted for Latin9 alphabet (ISO-8859-15):
 //        Etienne Herlent <eherlent@linux-france.org> march 2005
 
 // This map is an almost-complete mapping of the standard French
