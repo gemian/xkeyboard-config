@@ -1,5 +1,3 @@
-// based on a keyboard map from an 'xkb/symbols/fr' file
-
 partial default alphanumeric_keys
 xkb_symbols "basic" {
 
@@ -285,16 +283,16 @@ xkb_symbols "oss_nodeadkeys" {
 // This layout has long been distributed and refined outside official channels.
 // To this day it remains more feature-rich and popular than the 'fr' layout.
 //
-// This file is derived from an original version by Guylhem Aznar.  The
-// original version is always available from:
+// This layout is derived from an original version by Guylhem Aznar.
+// The original version is always available from:
 // http://en.tldp.org/HOWTO/Francophones-HOWTO.html
 // and is distributed under a GPL license.
 //
 // The author has given permission for this derived version to be distributed
 // under the standard XFree86 license. He would like all changes to this
-// version be send to him at <clavier @ externe.net> so he can sync the
-// identically named linux console map (kbd, linux-console) and this
-// fileout-of-tree GPL version.
+// version to be sent to him at <clavier @ externe.net>, so he can sync
+// the identically named linux console map (kbd, linux-console) and his
+// out-of-tree GPL version.
 //
 // Now follows the keyboard design description in French.
 // (If you can't read it you probably have no business changing this file anyway:)
@@ -788,9 +786,9 @@ xkb_symbols "bre" {
 
 // Occitan layout
 // Author : 2009 Thomas Metz <tmetz @ free.fr>
-// Derivated from the layout defined at http://www.panoccitan.org
+// Derived from the layout defined at http://www.panoccitan.org
 // Version: 0.1
-// From OSS french keyboard :
+// Differences from OSS French keyboard :
 // - add á, í, ò, ó et ú, Á, Í, Ò, Ó, Ú, ñ, Ñ
 // - change position of æ, ü, î, û, œ, ô, ö, ï, â, ë
 // 
@@ -865,7 +863,7 @@ xkb_symbols "mac" {
 
     name[Group1]= "French (Macintosh)";
 
-    key <TLDE> {	[          at,     numbersign, periodcentered,  Ydiaeresis	]	}; // MISSING: Ydiaeresis; eherlent : ok in Latin9
+    key <TLDE> {	[          at, numbersign, periodcentered,  Ydiaeresis	]	}; // MISSING: Ydiaeresis; eherlent : ok in Latin9
     key <AE01> {	[   ampersand,    1,   VoidSymbol,    dead_acute	]	}; // MISSING: Apple
     key <AE02> {	[      eacute,    2,   ediaeresis,        Eacute	]	};
     key <AE03> {	[    quotedbl,    3,   VoidSymbol,    VoidSymbol	] 	}; // CHECK all quotemarks
@@ -881,19 +879,19 @@ xkb_symbols "mac" {
     key <AE12> {	[       minus, underscore, emdash,        endash	]	}; // CHECK dashes
 
     key <AD01> {	[           a,  A,           ae,          AE	]	};
-    key <AD02> {	[           z,  Z,  Acircumflex,       Aring		]	};
+    key <AD02> {	[           z,  Z,  Acircumflex,       Aring	]	};
     key <AD03> {	[           e,  E,  ecircumflex, Ecircumflex	]	};
     key <AD04> {	[           r,  R,   registered,    currency	]	};
     key <AD05> {	[           t,  T,   VoidSymbol,  VoidSymbol	]	};
     key <AD06> {	[           y,  Y,       Uacute,  Ydiaeresis	]	}; // MISSING: Ydiaeresis; eherlent : ok in Latin9
     key <AD07> {	[           u,  U,   VoidSymbol, ordfeminine	]	}; // MISSING: ordmasculine?
     key <AD08> {	[           i,  I,  icircumflex,  idiaeresis	]	};
-    key <AD09> {	[           o,  O,           oe,          OE      	]	}; // MISSING: oe, OE lacking in Latin1; eherlent ok in Latin9
+    key <AD09> {	[           o,  O,           oe,          OE	]	}; // MISSING: oe, OE lacking in Latin1; eherlent ok in Latin9
     key <AD10> {	[           p,  P,   VoidSymbol,  VoidSymbol	]	};
     key <AD11> {	[dead_circumflex,dead_diaeresis, ocircumflex, Ocircumflex	]	};
-    key <AD12> {	[      dollar, asterisk,   EuroSign, yen		]	}; // eherlent : EuroSign in Latin9
+    key <AD12> {	[      dollar, asterisk,   EuroSign, yen	]	}; // eherlent : EuroSign in Latin9
 
-    key <AC01> {	[         q, Q, acircumflex,         Agrave		]	};
+    key <AC01> {	[         q, Q, acircumflex,         Agrave	]	};
     key <AC02> {	[         s, S,      Ograve,     VoidSymbol	]	};
     key <AC03> {	[         d, D,  VoidSymbol,     VoidSymbol	]	};
     key <AC04> {	[         f, F,  VoidSymbol, periodcentered	]	}; // MISSING: oblong script f??
@@ -907,7 +905,7 @@ xkb_symbols "mac" {
     key <BKSL> {	[ dead_grave, sterling,  at,     numbersign	]	};
 
     key <LSGT> {	[      less, greater, VoidSymbol, VoidSymbol	]	};
-    key <AB01> {	[         w, W, VoidSymbol,   VoidSymbol	]	};	// MISSING: half-guillemot (single angle bracket)
+    key <AB01> {	[         w, W, VoidSymbol,   VoidSymbol	]	}; // MISSING: half-guillemot (single angle bracket)
     key <AB02> {	[         x, X, VoidSymbol,   VoidSymbol	]	}; // CHECK similarequal; MISSING: extra-slanted slash
     key <AB03> {	[         c, C,  copyright,         cent	]	};
     key <AB04> {	[         v, V,    diamond,  leftradical	]	}; // CHECK diamond, leftradical
