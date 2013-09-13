@@ -330,15 +330,16 @@ xkb_symbols "oss_nodeadkeys" {
 //
 // (^) : accent circonflexe,
 // Shift+(^) : tréma,
-// Shift+AltGr (^) : tilde,
-// AltGr (1) : accent aigu,
-// AltGr (7) : accent grave
+// Shift+AltGr+(^) : tilde,
+// AltGr+(1) : accent aigu,
+// AltGr+(7) : accent grave
 //
 // Pour s'en servir, procéder comme avec l'accent circonflexe & le tréma
 // sur les vielles machines à écrire :
 //
-// AltGr (1) puis e : é
-// Shift+AltGr (1) puis e : É ...
+// AltGr+(1) puis e : é
+// AltGr+(1) puis E : É
+//
 partial alphanumeric_keys
 
 xkb_symbols "latin9" {
