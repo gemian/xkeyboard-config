@@ -4412,7 +4412,7 @@
         <variant>
           <configItem>
             <name>rue</name>
-            <_description>Pannonian Rusyn (homophonic)</_description>
+            <_description>Pannonian Rusyn</_description>
             <languageList>
               <iso639Id>rue</iso639Id>
             </languageList>
