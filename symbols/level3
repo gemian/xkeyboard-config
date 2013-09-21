@@ -1,16 +1,6 @@
 // These partial variants assign ISO_Level3_Shift to various XKB keycodes
 // so that the third shift level can be reached.
 
-// Ensure a mapping to a real modifier for LevelThree.
-partial modifier_keys
-xkb_symbols "modifier_mapping" {
-  replace key <LVL3> {
-    type[Group1] = "ONE_LEVEL";
-    symbols[Group1] = [ ISO_Level3_Shift ]
-  };
-  modifier_map Mod5 { <LVL3> };
-};
-
 // The default behaviour:
 // the right Alt key (AltGr) chooses the third symbol engraved on a key.
 default partial modifier_keys
@@ -20,6 +10,16 @@ xkb_symbols "ralt_switch" {
     symbols[Group1] = [ ISO_Level3_Shift ]
   };
   include "level3(modifier_mapping)"
+};
+
+// Ensure a mapping to a real modifier for LevelThree.
+partial modifier_keys
+xkb_symbols "modifier_mapping" {
+  replace key <LVL3> {
+    type[Group1] = "ONE_LEVEL";
+    symbols[Group1] = [ ISO_Level3_Shift ]
+  };
+  modifier_map Mod5 { <LVL3> };
 };
 
 // The right Alt key never chooses the third level.
