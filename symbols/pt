@@ -1,5 +1,3 @@
-// based on a keyboard map from an 'xkb/symbols/pt' file
-
 default  partial alphanumeric_keys
 xkb_symbols "basic" {
 
@@ -98,11 +96,10 @@ xkb_symbols "mac_nodeadkeys" {
 
 
 //
-// Teclado Nativo Portugues                                2005-07-19
-// Portuguese Nativo Keyboard
-//      This is a Dvorak-based layout, designed for the Portuguese language
+// Portuguese Nativo layout.
+//     This is a Dvorak-based layout, designed for the Portuguese language.
 //
-// Ari Caldeira     ari@tecladobrasileiro.com.br
+// Ari Caldeira    <ari@tecladobrasileiro.com.br>    2005-07-19
 //
 partial alphanumeric_keys
 xkb_symbols "nativo" {
@@ -169,15 +166,13 @@ xkb_symbols "nativo" {
 
 // Configures the use of the AltGr key
     include "level3(ralt_switch)"
-
 };
 
 
 //
-// Teclado Nativo Portugues para o teclado estadunidense   2005-07-19
-// Portuguese Nativo Keyboard for USA keyboards
+// Portuguese Nativo layout for US keyboards.
 //
-// Ari Caldeira     ari@tecladobrasileiro.com.br
+// Ari Caldeira    <ari@tecladobrasileiro.com.br>    2005-07-19
 //
 partial alphanumeric_keys
 xkb_symbols "nativo-us" {
@@ -185,18 +180,15 @@ xkb_symbols "nativo-us" {
 
     name[Group1]="Portuguese (Nativo for US keyboards)";
 
-// Lower row
     key <AB01> { [            y,               Y,              ccedilla,        Ccedilla ] };
     key <AB02> { [ guillemotleft, guillemotright,           0x01002039,       0x0100203A ] };
-
 };
 
 
 //
-// Teclado Nativo Portugues para digitacao em Esperanto    2005-07-19
-// Portuguese Nativo Keyboard for typing Esperanto
+// Portuguese Nativo layout for typing Esperanto.
 //
-// Ari Caldeira     ari@tecladobrasileiro.com.br
+// Ari Caldeira    <ari@tecladobrasileiro.com.br>    2005-07-19
 //
 partial alphanumeric_keys
 xkb_symbols "nativo-epo" {
@@ -204,16 +196,13 @@ xkb_symbols "nativo-epo" {
 
     name[Group1]="Esperanto (Portugal, Nativo)";
 
-// Upper row Esperanto
     key <AD04> { [            h,               H,          hcircumflex,      Hcircumflex ] };
     key <AD05> { [  ccircumflex,     Ccircumflex,                    x,                X ] };
     key <AD06> { [       ubreve,          Ubreve,                    w,                W ] };
 
-// Lower row Esperanto
     key <AB01> { [  jcircumflex,     Jcircumflex,                    y,                Y ] };
     key <AB02> { [  scircumflex,     Scircumflex,             ccedilla,         Ccedilla ] };
     key <AB06> { [  gcircumflex,     Gcircumflex,                    q,                Q ] };
-
 };
 
 // EXTRAS:

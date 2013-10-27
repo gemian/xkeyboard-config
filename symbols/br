@@ -111,7 +111,7 @@ xkb_symbols "olpc" {
 
 
 //
-// Brazilian Dvorak keyboard                               2005-04-18
+// Brazilian Dvorak layout                                 2005-04-18
 // "Teclado Simplificado Brasileiro" ou "Dvorak Brasileiro"
 //
 // Heitor Moraes    heitor.moraes@gmail.com
@@ -194,11 +194,10 @@ xkb_symbols "dvorak" {
 
 
 //
-// Teclado Nativo Brasileiro                               2005-07-19
-// Brazilian Nativo Keyboard
-//      This is a Dvorak-based layout, designed for the Portuguese language
+// Brazilian Nativo layout.
+//     This is a Dvorak-based layout, designed for the Portuguese language.
 //
-// Ari Caldeira     ari@tecladobrasileiro.com.br
+// Ari Caldeira    <ari@tecladobrasileiro.com.br>    2005-07-19
 //
 partial alphanumeric_keys
 xkb_symbols "nativo" {
@@ -269,15 +268,13 @@ xkb_symbols "nativo" {
 
 // Configures the use of the AltGr key
     include "level3(ralt_switch)"
-
 };
 
 
 //
-// Teclado Nativo Brasileiro para o teclado estadunidense  2005-07-19
-// Brazilian Nativo Keyboard for USA keyboards
+// Brazilian Nativo layout for US keyboards.
 //
-// Ari Caldeira     ari@tecladobrasileiro.com.br
+// Ari Caldeira    <ari@tecladobrasileiro.com.br>    2005-07-19
 //
 partial alphanumeric_keys
 xkb_symbols "nativo-us" {
@@ -285,18 +282,15 @@ xkb_symbols "nativo-us" {
 
     name[Group1]="Portuguese (Brazil, Nativo for US keyboards)";
 
-// Lower row
     key <AB01> { [            y,               Y,              ccedilla,        Ccedilla ] };
     key <AB02> { [    semicolon,           colon,             backslash,             bar ] };
-
 };
 
 
 //
-// Teclado Nativo Brasileiro para digitacao em Esperanto   2005-07-19
-// Brazilian Nativo Keyboard for typing Esperanto
+// Brazilian Nativo layout for typing Esperanto.
 //
-// Ari Caldeira     ari@tecladobrasileiro.com.br
+// Ari Caldeira    <ari@tecladobrasileiro.com.br>    2005-07-19
 //
 partial alphanumeric_keys
 xkb_symbols "nativo-epo" {
@@ -304,16 +298,13 @@ xkb_symbols "nativo-epo" {
 
     name[Group1]="Esperanto (Brazil, Nativo)";
 
-// Upper row Esperanto
     key <AD04> { [            h,               H,          hcircumflex,      Hcircumflex ] };
     key <AD05> { [  ccircumflex,     Ccircumflex,                    x,                X ] };
     key <AD06> { [       ubreve,          Ubreve,                    w,                W ] };
 
-// Lower row Esperanto
     key <AB01> { [  jcircumflex,     Jcircumflex,                    y,                Y ] };
     key <AB02> { [  scircumflex,     Scircumflex,             ccedilla,         Ccedilla ] };
     key <AB06> { [  gcircumflex,     Gcircumflex,                    q,                Q ] };
-
 };
 
 // EXTRAS:
