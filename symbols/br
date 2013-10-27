@@ -203,7 +203,7 @@ xkb_symbols "dvorak" {
 partial alphanumeric_keys
 xkb_symbols "nativo" {
 
-    name[Group1]="Portuguese (Brazil, nativo)";
+    name[Group1]="Portuguese (Brazil, Nativo)";
 
 // Numeric row
     key <TLDE> { [        equal,            plus,              section,        plusminus ] };
@@ -283,7 +283,7 @@ partial alphanumeric_keys
 xkb_symbols "nativo-us" {
     include "br(nativo)"
 
-    name[Group1]="Portuguese (Brazil, nativo for US keyboards)";
+    name[Group1]="Portuguese (Brazil, Nativo for US keyboards)";
 
 // Lower row
     key <AB01> { [            y,               Y,              ccedilla,        Ccedilla ] };
@@ -302,7 +302,7 @@ partial alphanumeric_keys
 xkb_symbols "nativo-epo" {
     include "br(nativo)"
 
-    name[Group1]="Portuguese (Brazil, nativo for Esperanto)";
+    name[Group1]="Esperanto (Brazil, Nativo)";
 
 // Upper row Esperanto
     key <AD04> { [            h,               H,          hcircumflex,      Hcircumflex ] };
