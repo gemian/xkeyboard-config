@@ -1,13 +1,10 @@
-//
-// based on 
-// "a very simple Brasilian ABNT2 keyboard
-// by Ricardo Y. Igarashi (iga@that.com.br)
-// Adds suport for dead-keys in I18N applications
-// by Conectiva  (http://www.conectiva.com.br)"
-//
-
 default
 xkb_symbols "abnt2" {
+
+    // Based on a very simple Brazilian ABNT2 keyboard,
+    // by Ricardo Y. Igarashi (iga@that.com.br).
+    // With added support for dead keys in I18N applications,
+    // by Conectiva  (http://www.conectiva.com.br).
 
     include "latin"
     name[Group1]="Portuguese (Brazil)";
@@ -19,8 +16,8 @@ xkb_symbols "abnt2" {
     key <AE06>	{ [         6, dead_diaeresis,  notsign,    diaeresis ]	};
     key <AE12>	{ [     equal,       plus,      section,  dead_ogonek ]	};
 
-    key <AD01>  { [         q,          Q,        slash,        slash ] };   
-    key <AD02>  { [         w,          W,     question,     question ] };   
+    key <AD01>  { [         q,          Q,        slash,        slash ] };
+    key <AD02>  { [         w,          W,     question,     question ] };
     key <AD03>	{ [         e,          E,     EuroSign,     EuroSign ]	};
     key <AD04>	{ [         r,          R,   registered,   registered ]	};
     key <AD11>	{ [dead_acute, dead_grave,        acute,        grave ]	};
@@ -37,8 +34,7 @@ xkb_symbols "abnt2" {
     key <AB07>  { [         m,          M,           mu,           mu ] };
     key <AB10>	{ [ semicolon,    colon, dead_belowdot, dead_abovedot ]	};
 
-// ABNT-2 keyboard has this special key
-
+    // The ABNT-2 keyboard has this special key:
     key <AB11>	{ [     slash,   question,       degree, questiondown ]	};
 
     modifier_map Mod3   { Scroll_Lock };
@@ -51,7 +47,7 @@ xkb_symbols "abnt2" {
 partial alphanumeric_keys
 xkb_symbols "nodeadkeys" {
 
-    include "br(abnt2)" // for consistent naming
+    include "br(abnt2)"
     name[Group1]="Portuguese (Brazil, eliminate dead keys)";
 
     key <AE06>	{ [         6,  diaeresis,      notsign,      notsign ]	};
@@ -62,13 +58,13 @@ xkb_symbols "nodeadkeys" {
 };
 
 
-// ABNT2 Keyboard to IBM/Lenovo Thinkpads 
-// by Piter PUNK <piterpk@terra.com.br>
+// The ABNT2 keyboard on IBM/Lenovo Thinkpads,
+// by Piter PUNK <piterpk@terra.com.br>.
 //
 partial alphanumeric_keys
 xkb_symbols "thinkpad" {
 
-    include "br(abnt2)" // for consistent naming
+    include "br(abnt2)"
     name[Group1]="Portuguese (Brazil)";
 
     key <RCTL> { [     slash,   question,       degree, questiondown ] };
@@ -89,20 +85,20 @@ xkb_symbols "olpc" {
     key <AE04> { [           4,          dollar,      sterling                 ] };
     key <AE05> { [           5,         percent,          cent                 ] };
     key <AE06> { [           6,  dead_diaeresis,       notsign                 ] };
-    key <AE12>  { [       equal,           plus,       section                 ] };
+    key <AE12> { [       equal,            plus,       section                 ] };
 
     key <AD03> { [            e,              E,      EuroSign                 ] };
     key <AD11> { [   dead_acute,      dead_grave,        acute,          grave ] };
-    key <AD12> { [  bracketleft,       braceleft,     0x10000AA                 ] };
+    key <AD12> { [  bracketleft,       braceleft,    0x10000AA                 ] };
 
     key <AC10> { [     ccedilla,       Ccedilla                                ] };
     key <AC11> { [   dead_tilde, dead_circumflex                               ] };
-    key <BKSL> { [ bracketright,      braceright,     0x10000BA                        ] };
+    key <BKSL> { [ bracketright,      braceright,    0x10000BA                 ] };
 
     key <AB01> { [            z,              Z,           bar                 ] };
     key <AB03> { [            c,              C,     0x10020A2                 ] };
     key <AB09> { [       period,        greater,     backslash                 ] };
-    key <AB10> { [    semicolon,           colon                                ] };
+    key <AB10> { [    semicolon,          colon                                ] };
 
     key <I219> { [        slash,       question,        degree, ISO_Next_Group ] };
 
@@ -278,6 +274,7 @@ xkb_symbols "nativo" {
 //
 partial alphanumeric_keys
 xkb_symbols "nativo-us" {
+
     include "br(nativo)"
 
     name[Group1]="Portuguese (Brazil, Nativo for US keyboards)";
@@ -294,6 +291,7 @@ xkb_symbols "nativo-us" {
 //
 partial alphanumeric_keys
 xkb_symbols "nativo-epo" {
+
     include "br(nativo)"
 
     name[Group1]="Esperanto (Brazil, Nativo)";
