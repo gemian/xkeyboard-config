@@ -9,33 +9,32 @@ xkb_symbols "abnt2" {
     include "latin"
     name[Group1]="Portuguese (Brazil)";
 
-    key <AE02>	{ [         2,         at,  twosuperior,      onehalf ]	};
-    key <AE03>	{ [         3, numbersign, threesuperior, threequarters ] };
-    key <AE04>	{ [         4,     dollar,     sterling,   onequarter ]	};
-    key <AE05>	{ [         5,    percent,         cent, threeeighths ]	};
-    key <AE06>	{ [         6, dead_diaeresis,  notsign,    diaeresis ]	};
-    key <AE12>	{ [     equal,       plus,      section,  dead_ogonek ]	};
+    key <TLDE> { [   apostrophe,       quotedbl,       notsign,         notsign ] };
+    key <AE02> { [            2,             at,   twosuperior,         onehalf ] };
+    key <AE03> { [            3,     numbersign, threesuperior,   threequarters ] };
+    key <AE04> { [            4,         dollar,      sterling,      onequarter ] };
+    key <AE05> { [            5,        percent,          cent,    threeeighths ] };
+    key <AE06> { [            6, dead_diaeresis,       notsign,       diaeresis ] };
+    key <AE12> { [        equal,           plus,       section,     dead_ogonek ] };
 
-    key <AD01>  { [         q,          Q,        slash,        slash ] };
-    key <AD02>  { [         w,          W,     question,     question ] };
-    key <AD03>	{ [         e,          E,     EuroSign,     EuroSign ]	};
-    key <AD04>	{ [         r,          R,   registered,   registered ]	};
-    key <AD11>	{ [dead_acute, dead_grave,        acute,        grave ]	};
-    key <AD12>	{ [bracketleft,  braceleft, ordfeminine,  dead_macron ]	};
+    key <AD01> { [            q,              Q,         slash,           slash ] };
+    key <AD02> { [            w,              W,      question,        question ] };
+    key <AD03> { [            e,              E,      EuroSign,        EuroSign ] };
+    key <AD04> { [            r,              R,    registered,      registered ] };
+    key <AD11> { [   dead_acute,     dead_grave,         acute,           grave ] };
+    key <AD12> { [  bracketleft,      braceleft,   ordfeminine,     dead_macron ] };
+    key <BKSL> { [ bracketright,     braceright,     masculine,       masculine ] };
 
-    key <AC10>	{ [  ccedilla,   Ccedilla,  dead_acute, dead_doubleacute] };
-    key <AC11>	{ [dead_tilde, dead_circumflex, asciitilde, asciicircum ] };
-    key <BKSL>  { [bracketright, braceright,  masculine,    masculine   ] };
+    key <AC10> { [     ccedilla,       Ccedilla,    dead_acute,dead_doubleacute ] };
+    key <AC11> { [   dead_tilde,dead_circumflex,    asciitilde,     asciicircum ] };
 
-    key <TLDE>	{ [apostrophe,   quotedbl,      notsign,      notsign ]	};
-
-    key <LSGT>	{ [ backslash,        bar,    masculine,   dead_breve ]	};
-    key <AB03>	{ [         c,          C,    copyright,    copyright ]	};
-    key <AB07>  { [         m,          M,           mu,           mu ] };
-    key <AB10>	{ [ semicolon,    colon, dead_belowdot, dead_abovedot ]	};
+    key <LSGT> { [    backslash,            bar,     masculine,      dead_breve ] };
+    key <AB03> { [            c,              C,     copyright,       copyright ] };
+    key <AB07> { [            m,              M,            mu,              mu ] };
+    key <AB10> { [    semicolon,          colon, dead_belowdot,   dead_abovedot ] };
 
     // The ABNT-2 keyboard has this special key:
-    key <AB11>	{ [     slash,   question,       degree, questiondown ]	};
+    key <AB11> { [        slash,       question,        degree,    questiondown ] };
 
     modifier_map Mod3   { Scroll_Lock };
 
@@ -50,11 +49,11 @@ xkb_symbols "nodeadkeys" {
     include "br(abnt2)"
     name[Group1]="Portuguese (Brazil, eliminate dead keys)";
 
-    key <AE06>	{ [         6,  diaeresis,      notsign,      notsign ]	};
-    key <AD11>	{ [apostrophe,      grave ]	};
-    key <AC10>	{ [  ccedilla,   Ccedilla,        acute,  doubleacute ]	};
-    key <AC11>	{ [asciitilde, asciicircum ]	};
-    key <AB10>	{ [ semicolon,      colon, dead_belowdot,    abovedot ]	};
+    key <AE06> { [            6,      diaeresis,       notsign,         notsign ] };
+    key <AD11> { [   apostrophe,          grave                                 ] };
+    key <AC10> { [     ccedilla,       Ccedilla,         acute,     doubleacute ] };
+    key <AC11> { [   asciitilde,    asciicircum                                 ] };
+    key <AB10> { [    semicolon,          colon, dead_belowdot,        abovedot ] };
 };
 
 
@@ -67,7 +66,7 @@ xkb_symbols "thinkpad" {
     include "br(abnt2)"
     name[Group1]="Portuguese (Brazil)";
 
-    key <RCTL> { [     slash,   question,       degree, questiondown ] };
+    key <RCTL> { [        slash,       question,        degree,    questiondown ] };
 };
 
 
@@ -77,30 +76,29 @@ xkb_symbols "olpc" {
     include "us(basic)"
     name[Group1]="Portuguese (Brazil)";
 
-    key <TLDE> { [   apostrophe,       quotedbl                                ] };
+    key <TLDE> { [   apostrophe,        quotedbl                                ] };
+    key <AE01> { [            1,          exclam,   onesuperior                 ] };
+    key <AE02> { [            2,              at,   twosuperior                 ] };
+    key <AE03> { [            3,      numbersign, threesuperior                 ] };
+    key <AE04> { [            4,          dollar,      sterling                 ] };
+    key <AE05> { [            5,         percent,          cent                 ] };
+    key <AE06> { [            6,  dead_diaeresis,       notsign                 ] };
+    key <AE12> { [        equal,            plus,       section                 ] };
 
-    key <AE01> { [           1,          exclam,   onesuperior                 ] };
-    key <AE02> { [           2,              at,   twosuperior                 ] };
-    key <AE03> { [           3,      numbersign, threesuperior                 ] };
-    key <AE04> { [           4,          dollar,      sterling                 ] };
-    key <AE05> { [           5,         percent,          cent                 ] };
-    key <AE06> { [           6,  dead_diaeresis,       notsign                 ] };
-    key <AE12> { [       equal,            plus,       section                 ] };
+    key <AD03> { [            e,               E,      EuroSign                 ] };
+    key <AD11> { [   dead_acute,      dead_grave,         acute,          grave ] };
+    key <AD12> { [  bracketleft,       braceleft,     0x10000AA                 ] };
+    key <BKSL> { [ bracketright,      braceright,     0x10000BA                 ] };
 
-    key <AD03> { [            e,              E,      EuroSign                 ] };
-    key <AD11> { [   dead_acute,      dead_grave,        acute,          grave ] };
-    key <AD12> { [  bracketleft,       braceleft,    0x10000AA                 ] };
+    key <AC10> { [     ccedilla,        Ccedilla                                ] };
+    key <AC11> { [   dead_tilde, dead_circumflex                                ] };
 
-    key <AC10> { [     ccedilla,       Ccedilla                                ] };
-    key <AC11> { [   dead_tilde, dead_circumflex                               ] };
-    key <BKSL> { [ bracketright,      braceright,    0x10000BA                 ] };
+    key <AB01> { [            z,               Z,           bar                 ] };
+    key <AB03> { [            c,               C,     0x10020A2                 ] };
+    key <AB09> { [       period,         greater,     backslash                 ] };
+    key <AB10> { [    semicolon,           colon                                ] };
 
-    key <AB01> { [            z,              Z,           bar                 ] };
-    key <AB03> { [            c,              C,     0x10020A2                 ] };
-    key <AB09> { [       period,        greater,     backslash                 ] };
-    key <AB10> { [    semicolon,          colon                                ] };
-
-    key <I219> { [        slash,       question,        degree, ISO_Next_Group ] };
+    key <I219> { [        slash,        question,        degree, ISO_Next_Group ] };
 
     include "level3(ralt_switch)"
 };
@@ -142,7 +140,7 @@ xkb_symbols "dvorak" {
     key <AD03> { [       period,         greater,           0x01002022,   periodcentered ] };
     key <AD04> { [            p,               P,                thorn,            THORN ] };
     key <AD05> { [            y,               Y,                  yen,              yen ] };
-    key <AD06> { [            f,               F,  leftdoublequotemark, leftsinglequotemark ] };
+    key <AD06> { [            f,               F,  leftdoublequotemark,  leftsinglequotemark ] };
     key <AD07> { [            g,               G, rightdoublequotemark, rightsinglequotemark ] };
     key <AD08> { [            c,               C,              uparrow,        copyright ] };
     key <AD09> { [            r,               R,           registered,       registered ] };
@@ -185,7 +183,6 @@ xkb_symbols "dvorak" {
 
 // Configures the use of the AltGr key
     include "level3(ralt_switch)"
-
 };
 
 
@@ -251,8 +248,8 @@ xkb_symbols "nativo" {
     key <AB04> { [            b,               B,        guillemotleft,       0x01002039 ] };
     key <AB05> { [            k,               K,       guillemotright,       0x0100203A ] };
     key <AB06> { [            q,               Q,           0x01000259,       0x0100018F ] };
-    key <AB07> { [            v,               V,   doublelowquotemark, singlelowquotemark ] };
-    key <AB08> { [            g,               G,  leftdoublequotemark, leftsinglequotemark ] };
+    key <AB07> { [            v,               V,   doublelowquotemark,   singlelowquotemark ] };
+    key <AB08> { [            g,               G,  leftdoublequotemark,  leftsinglequotemark ] };
     key <AB09> { [            f,               F, rightdoublequotemark, rightsinglequotemark ] };
     key <AB10> { [            z,               Z,           0x0100201F,       0x0100201B ] };
     key <AB11> { [    backslash,             bar,             currency,        brokenbar ] };
