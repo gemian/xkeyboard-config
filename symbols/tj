@@ -55,7 +55,7 @@ xkb_symbols "basic"
 	key <AE01> { [              1,         exclam,      0x10000a7                 ] }; // 1 ! § 
 	key <AE02> { [              2,       quotedbl,      0x10000ab,      0x10000bb ] }; // 2 " « » 
 	key <AE03> { [              3,     numerosign                                 ] }; // 3 № 
-	key <AE04> { [              4,      semicolon                                 ] }; // 4 ; 
+	key <AE04> { [              4,      semicolon                                 ] }; // 4 ;
 	key <AE05> { [              5,        percent                                 ] }; // 5 % 
 	key <AE06> { [              6,          colon,      0x1002013                 ] }; // 6 : – 
 	key <AE07> { [              7,       question,      ampersand                 ] }; // 7 ? & 
@@ -121,7 +121,7 @@ xkb_symbols "legacy"
 	key <AE01> { [              1,         exclam,      0x10000a7                 ] }; // 1 ! § 
 	key <AE02> { [              2,       quotedbl,      0x10000ab,      0x10000bb ] }; // 2 " « » 
 	key <AE03> { [              3,     numerosign                                 ] }; // 3 № 
-	key <AE04> { [              4,      semicolon                                 ] }; // 4 ; 
+	key <AE04> { [              4,      semicolon                                 ] }; // 4 ;
 	key <AE05> { [              5,        percent                                 ] }; // 5 % 
 	key <AE06> { [              6,          colon,      0x1002013                 ] }; // 6 : – 
 	key <AE07> { [              7,       question,      ampersand                 ] }; // 7 ? & 

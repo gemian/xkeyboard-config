@@ -19,7 +19,7 @@
 // Very common set of media keys
 partial hidden alphanumeric_keys
 xkb_symbols "media_common" {
-    key <I01>   {       [ XF86AudioMedia        ] }; 
+    key <I01>   {       [ XF86AudioMedia        ] };
     key <I10>   {       [ XF86AudioPrev         ] };
     key <I19>   {       [ XF86AudioNext         ] };
     key <I20>   {       [ XF86AudioMute         ] };
@@ -34,7 +34,7 @@ xkb_symbols "media_common" {
 // popular web navigation combination
 partial hidden alphanumeric_keys
 xkb_symbols "nav_common" {
-    key <I21>   {       [ XF86Calculator        ] }; 
+    key <I21>   {       [ XF86Calculator        ] };
     key <I32>   {       [ XF86WWW               ] };
     key <I65>   {       [ XF86Search            ] };
     key <I66>   {       [ XF86Favorites         ] };
@@ -44,7 +44,7 @@ xkb_symbols "nav_common" {
     key <I6A>   {       [ XF86Back              ] };
     key <I6B>   {       [ XF86MyComputer        ] };
     key <I6C>   {       [ XF86Mail              ] };
-    key <I6D>   {       [ XF86AudioMedia        ] }; 
+    key <I6D>   {       [ XF86AudioMedia        ] };
 };
 
 // ACPI Standard
@@ -220,7 +220,7 @@ xkb_symbols "evdev" {
 //  key <I253>   {      [ ]       }; // KEY_DISPLAY_OFF  --  turn off display
 //  key <I254>   {      [ ]       }; // KEY_WIMAX
     key <I255>   {      [ XF86Hibernate         ]       }; // KEY_HIBERNATE
- 
+
     key <FK13>   {      [ XF86Tools         ]       };
     key <FK14>   {      [ XF86Launch5       ]       };
     key <FK15>   {      [ XF86Launch6       ]       };
@@ -509,7 +509,7 @@ xkb_symbols "cherrycyboard" {
 };
 
 // Cherry CyMotion Expert
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "cherrycmexpert" {
     include "inet(cherryblueb)"
     include "inet(acpi_common)"
@@ -520,7 +520,7 @@ xkb_symbols "cherrycmexpert" {
 // Chicony
 
 // Chicony Internet Keyboard
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "chicony" {
     include "inet(acpi_common)"
     key <I12>	{	[ XF86AudioMute		]	};
@@ -542,7 +542,7 @@ xkb_symbols "chicony" {
 };
 
 // Chicony KU-0108
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "chicony0108" {
     include "inet(cherrycyboard)"
 };
@@ -592,7 +592,7 @@ xkb_symbols "compaqeak8" {
 };
 
 // Compaq Internet Keyboard (7 keys)
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "compaqik7" {
     key <I12>	{	[ XF86LightBulb		]	};
     key <I1E>	{	[ XF86Mail		]	};
@@ -707,8 +707,8 @@ xkb_symbols "dellusbmm" {
     // From Olivier Lahaye <olivier dot lahaye at motorola dot com>
     include "inet(media_nav_acpi_common)"
     key <I02>	{	[ XF86HomePage		]	};
-    key <K67>	{	[ XF86MyComputer	]	}; 
-    key <XFER>	{	[ XF86AudioMedia	]	};  
+    key <K67>	{	[ XF86MyComputer	]	};
+    key <XFER>	{	[ XF86AudioMedia	]	};
 };
 
 
@@ -781,7 +781,7 @@ xkb_symbols "gyration" {
 // Hewlett-Packard
 
 // Hewlett-Packard Internet Keyboard
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "hpi6" {
     include "inet(media_nav_acpi_common)"
     key <I02>   {       [ XF86HomePage          ]       };
@@ -946,7 +946,7 @@ xkb_symbols "honeywell_euroboard" {
 
 
 // IBM Rapid Access
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "rapidaccess" {
     key <I12>	{	[ XF86AudioMute		]	};
     key <I17>	{	[ XF86Launch2		]	};
@@ -965,7 +965,7 @@ xkb_symbols "rapidaccess" {
 };
 
 // IBM Rapid Access II
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "rapidaccess2" {
     include "inet(acpi_common)"
     key <I12>	{	[ XF86AudioNext		]	};
@@ -1041,8 +1041,8 @@ xkb_symbols "logitech_set3" {
 partial alphanumeric_keys
 xkb_symbols "logiaccess" {
     include "inet(logitech_base)"
-    key <FK13>	{	[ XF86MailForward	]	}; 
-    key <FK14>	{	[ XF86Send		]	}; 
+    key <FK13>	{	[ XF86MailForward	]	};
+    key <FK14>	{	[ XF86Send		]	};
     key <I11>	{	[ XF86Messenger		]	};
     key <I12>	{	[ XF86WebCam		]	};
 };
@@ -1163,7 +1163,7 @@ xkb_symbols "logiultraxc" {
     key <KPDC>  {       [ XF86AudioRaiseVolume  ]       };
 };
 
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "logidinovo" {
     include "inet(media_nav_common)"
     key <I02>	{	[ XF86HomePage		]	};
@@ -1175,7 +1175,7 @@ xkb_symbols "logidinovo" {
     key <XFER>	{	[ XF86AudioMedia	]	};
 };
 
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "logidinovoedge" {
     include "inet(media_acpi_common)"
     key <I02>	{	[ XF86HomePage		]	};
@@ -1316,35 +1316,35 @@ xkb_symbols "microsoftinet" {
 };
 
 // Microsoft Natural Keyboard Pro USB  
-partial alphanumeric_keys  
+partial alphanumeric_keys
  xkb_symbols "microsoftprousb" {  
     include "inet(nav_common)"
-     key <FK16>   {   [ XF86Reload      ]   };  
-     key <I01>   {   [ XF86AudioMedia   ]   };  
-     key <I02>   {   [ XF86HomePage      ]   };  
-     key <I17>   {   [ XF86AudioStop      ]   };  
-     key <I1E>   {   [ XF86AudioRaiseVolume   ]   };  
-     key <I1F>   {   [ XF86AudioPlay, XF86AudioPause ] };  
-     key <I22>   {   [ XF86AudioNext      ]   };  
-     key <I24>   {   [ XF86AudioPrev      ]   };  
-     key <I25>   {   [ XF86AudioLowerVolume   ]   };  
-     key <I26>   {   [ XF86AudioMute      ]   };  
-     key <I63>   {   [ XF86Standby      ]   };  
+     key <FK16>   {   [ XF86Reload      ]   };
+     key <I01>   {   [ XF86AudioMedia   ]   };
+     key <I02>   {   [ XF86HomePage      ]   };
+     key <I17>   {   [ XF86AudioStop      ]   };
+     key <I1E>   {   [ XF86AudioRaiseVolume   ]   };
+     key <I1F>   {   [ XF86AudioPlay, XF86AudioPause ] };
+     key <I22>   {   [ XF86AudioNext      ]   };
+     key <I24>   {   [ XF86AudioPrev      ]   };
+     key <I25>   {   [ XF86AudioLowerVolume   ]   };
+     key <I26>   {   [ XF86AudioMute      ]   };
+     key <I63>   {   [ XF86Standby      ]   };
  //   Internet Section -- Left Side  
  //   Multimedia Section -- Right Side  
  //   My Computer Section -- Far Right  
  //  My computer maps to printscreen, so leaving commented out for now   
- //  key <PRSC>   {   [ XF86MyComputer   ]   };  
-}; 
+ //  key <PRSC>   {   [ XF86MyComputer   ]   };
+};
 
 // Microsoft Natural Keyboard Pro OEM 
-partial alphanumeric_keys  
+partial alphanumeric_keys
 xkb_symbols "microsoftprooem" { 
     include "inet(media_nav_common)"
-    key <FK17>	{	[ XF86Search		]	}; 
-    key <I02>	{	[ XF86HomePage		]	}; 
-    key <I63>	{	[ XF86Standby		]	}; 
-    key <K67>	{	[ XF86MyComputer	]	}; 
+    key <FK17>	{	[ XF86Search		]	};
+    key <I02>	{	[ XF86HomePage		]	};
+    key <I63>	{	[ XF86Standby		]	};
+    key <K67>	{	[ XF86MyComputer	]	};
 //   Internet Section -- Left Side 
 //   Multimedia Section -- Right Side 
 //   My Computer Section -- Far Right 
@@ -1402,27 +1402,27 @@ xkb_symbols "microsoftoffice" {
 };
 
 // Microsoft Wireless Multimedia Keyboard 1.0A 
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "microsoftmult" { 
     include "inet(media_nav_acpi_common)"
-    key <AE13>  {       [ XF86Messenger         ]       }; 
-    key <FK14>	{	[ XF86New		]	}; 
-    key <FK15>	{	[ XF86Open		]	}; 
-    key <FK16>	{	[ XF86Close		]	}; 
-    key <FK17>	{	[ XF86Reply		]	}; 
-    key <I07>	{	[ Redo			]	}; 
-    key <I08>	{	[ Undo			]	}; 
-    key <I16>   {       [ XF86LogOff            ]       }; 
-    key <I23>	{	[ XF86Spell		]	}; 
-    key <I3B>	{	[ Help			]	}; 
-    key <I3C>   {       [ XF86Music     ]       }; 
-    key <I42>	{	[ XF86Forward		]	}; 
-    key <I43>	{	[ XF86Send		]	}; 
-    key <I57>	{	[ XF86Save		]	}; 
-    key <I58>	{	[ Print			]	}; 
-    key <I64>   {       [ XF86Pictures  ]       }; 
-    key <I80>   {       [ XF86Documents ]       }; 
-}; 
+    key <AE13>  {       [ XF86Messenger         ]       };
+    key <FK14>	{	[ XF86New		]	};
+    key <FK15>	{	[ XF86Open		]	};
+    key <FK16>	{	[ XF86Close		]	};
+    key <FK17>	{	[ XF86Reply		]	};
+    key <I07>	{	[ Redo			]	};
+    key <I08>	{	[ Undo			]	};
+    key <I16>   {       [ XF86LogOff            ]       };
+    key <I23>	{	[ XF86Spell		]	};
+    key <I3B>	{	[ Help			]	};
+    key <I3C>   {       [ XF86Music     ]       };
+    key <I42>	{	[ XF86Forward		]	};
+    key <I43>	{	[ XF86Send		]	};
+    key <I57>	{	[ XF86Save		]	};
+    key <I58>	{	[ Print			]	};
+    key <I64>   {       [ XF86Pictures  ]       };
+    key <I80>   {       [ XF86Documents ]       };
+};
 
 
 // Oretec
@@ -1751,10 +1751,10 @@ xkb_symbols "cymotionlinux" {
     key <XFER>	{	[	XF86AudioMedia		]	};
 };
 
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "silvercrest" {
     include "inet(media_nav_acpi_common)"
-    key <I02>	{	[ XF86HomePage		]	};    
+    key <I02>	{	[ XF86HomePage		]	};
     key <I21>	{	[ XF86Launch2		]	};
     key <K67>	{	[ XF86Launch1		]	};
 };

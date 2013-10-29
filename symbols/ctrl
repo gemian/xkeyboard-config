@@ -1,5 +1,5 @@
 // Eliminate CapsLock, making it another Ctrl.
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "nocaps" {
     replace key <CAPS>	{ [ Control_L, Control_L ] };
     modifier_map  Control { <CAPS>, <LCTL> };
@@ -11,7 +11,7 @@ xkb_symbols "lctrl_meta" {
 };
 
 // Swap the functions of the CapsLock key and the left Ctrl key.
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "swapcaps" {
     replace key <CAPS>	{ [ Control_L ] };
     replace key <LCTL>	{ [ Caps_Lock ] };
@@ -20,7 +20,7 @@ xkb_symbols "swapcaps" {
 // Move Ctrl to the leftmost key on the middle row and CapsLock to the
 // leftmost key on the bottom row.  Only works if the geometry or keycodes
 // file has defined appropriate aliases for the keys in question.
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "ac_ctrl" {
     replace key <AC00>	{ [ Control_L ] };
     replace key <AA00>	{ [ Caps_Lock ] };
@@ -29,14 +29,14 @@ xkb_symbols "ac_ctrl" {
 // Move Ctrl to the leftmost key on the bottom row and CapsLock to the
 // leftmost key on the middle row.  Only works if the geometry or keycodes
 // file has defined appropriate aliases for the keys in question.
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "aa_ctrl" {
     replace key <AA00>	{ [ Control_L ] };
     replace key <AC00>	{ [ Caps_Lock ] };
 };
 
 // Right Ctrl key functions as another right Alt.
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "rctrl_ralt" {
     key <RCTL>	{ symbols[Group1]= [ Alt_R ] };
 };
@@ -49,9 +49,9 @@ xkb_symbols "menu_rctrl" {
 };
 
 // Right Alt key functions as another right Ctrl.
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "ralt_rctrl" {
     replace key <RALT> { type[Group1] = "TWO_LEVEL",
                          symbols[Group1] = [ Control_R, Control_R ] };
-    modifier_map Control { <RALT> }; 
+    modifier_map Control { <RALT> };
 };

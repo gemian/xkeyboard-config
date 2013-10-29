@@ -24,7 +24,7 @@ xkb_symbols "basic" {
     key <AE10> {  [               0,       parenleft      ]     };
     key <AE11> {  [           minus,      underscore      ]     };
     key <AE12> {  [           equal,            plus      ]     };
-						
+
     key <AD01> {  [      Arabic_dad,     Arabic_fatha     ]     };
     key <AD02> {  [      Arabic_sad,     Arabic_fathatan  ]     };
     key <AD03> {  [     Arabic_theh,     Arabic_damma     ]     };
@@ -149,7 +149,7 @@ partial alphanumeric_keys
 xkb_symbols "azerty_digits" {
     include "ara(azerty)"
     name[Group1]= "Arabic (azerty/digits)";
-	
+
     key <AE01> {  [       ampersand,       0x1000661      ]       };
     key <AE02> {  [          eacute,       0x1000662      ]       };
     key <AE03> {  [        quotedbl,       0x1000663      ]       };
@@ -168,7 +168,7 @@ xkb_symbols "azerty_digits" {
 
 // symbol names: see /usr/X11R6/include/X11/keysymdef.h (XFree86-devel.rpm)
 
-partial alphanumeric_keys 
+partial alphanumeric_keys
 xkb_symbols "buckwalter" {
     name[Group1]= "Arabic (Buckwalter)";
 
@@ -191,7 +191,7 @@ xkb_symbols "buckwalter" {
     key <AE10> {  [       0x1000660,   0x100fd3f          ]       };
     key <AE11> {  [       minus,       Arabic_tatweel     ]       };
     key <AE12> {  [       equal,       plus               ]       };
-						
+
     key <AD01> {  [      Arabic_qaf,   VoidSymbol         ]       };
     key <AD02> {  [      Arabic_waw,   Arabic_hamzaonwaw  ]       };
     key <AD03> {  [      VoidSymbol,   Arabic_ain         ]       };
@@ -285,7 +285,7 @@ xkb_symbols "olpc" {
 
     // REH isolated form?
     key <AB03> {  [ Arabic_hamzaonwaw,   Arabic_kasra ] };
-    key <AB04> {  [       Arabic_ra,  Arabic_kasratan ] };    
+    key <AB04> {  [       Arabic_ra,  Arabic_kasratan ] };
     key <AB05> {  [     Arabic_thal,      asciicircum ] };
 
     include "group(olpc)"

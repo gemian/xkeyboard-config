@@ -1,7 +1,7 @@
 // using the group(switch) map, the right alt key temporarily chooses 
 // the second keyboard group (until it is released).
 //
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "switch" {
     key <RALT>	{ 	
 	symbols[Group1]= [	Mode_switch, Multi_key 	],
@@ -12,7 +12,7 @@ xkb_symbols "switch" {
 // using the group(lswitch) map, the left alt key temporarily chooses
 // the second keyboard group (until it is released).
 //
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "lswitch" {
     key <LALT>	{ 	
 	symbols[Group1]= [	Mode_switch, Multi_key 	],
@@ -66,7 +66,7 @@ xkb_symbols "rctrl_switch" {
 
 // using the group(toggle) map, pressing the right alt key switches to
 // the next sequential group (until the next explicit group change).
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "toggle" {
     virtual_modifiers AltGr;
     key <RALT>	{	
@@ -79,7 +79,7 @@ xkb_symbols "toggle" {
 // locks the next or previous sequential keyboard group 
 // (depending on which shift is pressed first - right or left, 
 // correspongingly)
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "shifts_toggle" {
     key <LFSH>	{	[	Shift_L,	ISO_Prev_Group ]	};
     key <RTSH>	{	[	Shift_R,	ISO_Next_Group ]	};
@@ -140,7 +140,7 @@ xkb_symbols "lctrl_rctrl_switch" {
 //
 // CTRL-SHIFT toggle section
 //
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "lctrl_lshift_toggle" {
     key <LFSH> {
         type[Group1]="PC_CONTROL_LEVEL2",
@@ -149,7 +149,7 @@ xkb_symbols "lctrl_lshift_toggle" {
     key <LCTL> { [ Control_L, ISO_Next_Group ] };
 };
 
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "lctrl_lshift_toggle_rev" {
     key <LFSH> {
         type[Group1]="PC_CONTROL_LEVEL2",
@@ -167,13 +167,13 @@ xkb_symbols "rctrl_rshift_toggle" {
     key <RCTL> { [ Control_R, ISO_Next_Group ] };
 };
 
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "ctrl_shift_toggle" {
     include "group(lctrl_lshift_toggle)"
     include "group(rctrl_rshift_toggle)"
 };
 
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "ctrl_shift_toggle_bidir" {
     include "group(lctrl_lshift_toggle_rev)"
     include "group(rctrl_rshift_toggle)"
@@ -225,13 +225,13 @@ xkb_symbols "rctrl_ralt_toggle" {
     };
 };
 
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "ctrl_alt_toggle" {
     include "group(lctrl_lalt_toggle)"
     include "group(rctrl_ralt_toggle)"
 };
 
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "ctrl_alt_toggle_bidir" {
     include "group(lctrl_lalt_toggle_rev)"
     include "group(rctrl_ralt_toggle)"
@@ -280,13 +280,13 @@ xkb_symbols "ralt_rshift_toggle" {
     };
 };
 
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "alt_shift_toggle" {
     include "group(lalt_lshift_toggle)"
     include "group(ralt_rshift_toggle)"
 };
 
-partial modifier_keys 
+partial modifier_keys
 xkb_symbols "alt_shift_toggle_bidir" {
     include "group(lalt_lshift_toggle_rev)"
     include "group(ralt_rshift_toggle)"

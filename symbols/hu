@@ -353,7 +353,7 @@ hidden partial keypad_keys
 xkb_symbols "def_dot" { 	 
     key <KPDL>  { [    KP_Delete,   KP_Decimal                                     ] }; 	 
 }; 	 
- 
+
 
 // def_dead:
 // Dead keys support part
