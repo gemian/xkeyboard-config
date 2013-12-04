@@ -6033,6 +6033,24 @@
           <_description>Right Alt as Right Ctrl</_description>
         </configItem>
       </option>
+      <option>
+        <configItem>
+          <name>ctrl:swap_lalt_lctl</name>
+          <_description>Swap Left Alt key with Left Ctrl key</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>ctrl:swap_lwin_lctl</name>
+          <_description>Swap Left Win key with Left Ctrl key</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>ctrl:swap_lalt_lctl_lwin</name>
+          <_description>Left Alt as Ctrl, Left Ctrl as Win, Left Win as Alt</_description>
+        </configItem>
+      </option>
     </group>
     <group allowMultipleSelection="true">
       <!-- Using startard LEDs to indicate the alternative (not first) group(s) -->
