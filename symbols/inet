@@ -139,8 +139,8 @@ xkb_symbols "evdev" {
     key <I158>   {      [ XF86WWW               ]       };
     key <I159>   {      [ XF86DOS               ]       };
     key <I160>   {      [ XF86ScreenSaver       ]       };
-//  key <I161>   {      [ ]       }; // KEY_DIRECTION
-    key <I162>   {      [ XF86RotateWindows     ]       };
+    key <I161>   {      [ XF86RotateWindows     ]       };
+    key <I162>   {      [ XF86TaskPane          ]       };
     key <I163>   {      [ XF86Mail              ]       };
     key <I164>   {      [ XF86Favorites         ]       };
     key <I165>   {      [ XF86MyComputer        ]       };
