@@ -32,8 +32,11 @@ xkb_symbols "ctrl_alt_win" {
                  symbols[Group1] = [ Control_R, Control_R ] };
     key <LWIN> { [ Alt_L, Meta_L ] };
     key <RWIN> { [ Alt_R, Meta_R ] };
+    key <LCTL> { [ Super_L ] };
+    key <RCTL> { [ Super_R ] };
     modifier_map Control { <RALT>, <LALT> };
     modifier_map Mod1 { <LWIN>, <RWIN> };
+    modifier_map Mod4 { <LCTL>, <RCTL> };
 };
 
 // Meta is mapped to the Win keys.
