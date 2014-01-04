@@ -17,7 +17,7 @@ partial xkb_types "internal" {
 	map[LevelThree] = Level3;
 	map[Shift+LevelThree] = Level4;
 	map[Lock+LevelThree] =  Level3;
-        map[Lock+Shift+LevelThree] = Level3;
+	map[Lock+Shift+LevelThree] = Level3;
 	preserve[Lock+LevelThree] = Lock;
 	level_name[Level1] = "Base";
 	level_name[Level2] = "Shift";
@@ -33,7 +33,7 @@ partial xkb_types "internal" {
 	map[LevelThree] = Level3;
 	map[Shift+LevelThree] = Level4;
 	map[Lock+LevelThree] =  Level3;
-        map[Lock+Shift+LevelThree] = Level4;
+	map[Lock+Shift+LevelThree] = Level4;
 	preserve[Lock+LevelThree] = Lock;
 	preserve[Lock+Shift+LevelThree] = Lock;
 	level_name[Level1] = "Base";
@@ -113,7 +113,7 @@ partial xkb_types "shift" {
 	map[LevelThree] = Level3;
 	map[Shift+LevelThree] = Level4;
 	map[Lock+LevelThree] =  Level3;
-        map[Lock+Shift+LevelThree] = Level4;
+	map[Lock+Shift+LevelThree] = Level4;
 	preserve[Lock+LevelThree] = Lock;
 	preserve[Lock+Shift+LevelThree] = Lock;
 	level_name[Level1] = "Base";
@@ -160,7 +160,7 @@ partial xkb_types "shift_nocancel" {
 	map[LevelThree] = Level3;
 	map[Shift+LevelThree] = Level4;
 	map[Lock+LevelThree] =  Level3;
-        map[Lock+Shift+LevelThree] = Level4;
+	map[Lock+Shift+LevelThree] = Level4;
 	preserve[Lock+LevelThree] = Lock;
 	preserve[Lock+Shift+LevelThree] = Lock;
 	level_name[Level1] = "Base";

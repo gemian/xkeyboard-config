@@ -19,11 +19,11 @@ default xkb_types "basic" {
     };
 
     type "ALPHABETIC" {
-        modifiers = Shift+Lock;
-        map[Shift] = Level2;
-        map[Lock] = Level2;
-        level_name[Level1] = "Base";
-        level_name[Level2] = "Caps";
+	modifiers = Shift+Lock;
+	map[Shift] = Level2;
+	map[Lock] = Level2;
+	level_name[Level1] = "Base";
+	level_name[Level2] = "Caps";
     };
 
 };

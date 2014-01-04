@@ -6,15 +6,15 @@ partial default xkb_types "default" {
     virtual_modifiers LevelThree;
 
     type "FOUR_LEVEL" {
-        modifiers = Shift+LevelThree;
+	modifiers = Shift+LevelThree;
 	map[None] = Level1;
 	map[Shift] = Level2;
 	map[LevelThree] = Level3;
 	map[Shift+LevelThree] = Level4;
 	level_name[Level1] = "Base";
 	level_name[Level2] = "Shift";
-	level_name[Level3] = "Alt Base";  
-	level_name[Level4] = "Shift Alt";  
+	level_name[Level3] = "Alt Base";
+	level_name[Level4] = "Shift Alt";
     };
 
     type "FOUR_LEVEL_ALPHABETIC" {
@@ -40,7 +40,7 @@ partial default xkb_types "default" {
 	map[LevelThree] = Level3;
 	map[Shift+LevelThree] = Level4;
 	map[Lock+LevelThree] =  Level3;
-        map[Lock+Shift+LevelThree] = Level4;
+	map[Lock+Shift+LevelThree] = Level4;
 	preserve[Lock+LevelThree] = Lock;
 	preserve[Lock+Shift+LevelThree] = Lock;
 	level_name[Level1] = "Base";
@@ -59,9 +59,9 @@ partial default xkb_types "default" {
         map[NumLock] = Level2;
         map[Shift] = Level2;
         map[LevelThree] = Level3;
-	map[NumLock+LevelThree] = Level3;
+        map[NumLock+LevelThree] = Level3;
         map[Shift+LevelThree] = Level4;
-	map[Shift+NumLock+LevelThree] = Level4;
+        map[Shift+NumLock+LevelThree] = Level4;
         level_name[Level1] = "Base";
         level_name[Level2] = "Number";
         level_name[Level3] = "Alt Base";
@@ -73,17 +73,17 @@ partial default xkb_types "default" {
         modifiers = Shift+LevelThree+Control+Alt;
         map[None] = Level1;
         map[LevelThree] = Level2;
-	map[Shift+LevelThree] = Level3;
-	map[Control+Alt] = Level4;
+        map[Shift+LevelThree] = Level3;
+        map[Control+Alt] = Level4;
         level_name[Level1] = "Base";
         level_name[Level2] = "Alt Base";
         level_name[Level3] = "Shift Alt";
-	level_name[Level4] = "Ctrl+Alt";
+        level_name[Level4] = "Ctrl+Alt";
     };
 
 // A special type for keys used in the Serbian Latin Unicode keymap.
-// It makes it possible to use all three forms of latin letters 
-// present in Unicode that are made up of two separate letters 
+// It makes it possible to use all three forms of latin letters
+// present in Unicode that are made up of two separate letters
 // (forms like LJ, Lj, and lj; NJ, Nj, and nj; etcetera).
 
     type "SEPARATE_CAPS_AND_SHIFT_ALPHABETIC" {
@@ -154,5 +154,5 @@ partial xkb_types "keypad" {
 	level_name[Level2] = "Number";
 	level_name[Level3] = "Alt Base";
 	level_name[Level4] = "Alt Number";
-    };       
+    };
 };
