@@ -1,7 +1,7 @@
 default xkb_types "basic" {
 
     // Fairly standard definitions for
-    // the four required key types
+    // the three required key types.
 
     virtual_modifiers NumLock;
 

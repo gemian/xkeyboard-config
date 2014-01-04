@@ -1,7 +1,7 @@
 partial default xkb_types "default" {
-    // Definition for a key type used for the czech keymap, for instance.
-    // Defines style a with four level shift. It is similar to three_level
-    // type used for iso9995 but it lets the shift key behave "normally".
+
+    // Defines a type with an eight-level shift, similar to the three-level
+    // type used for iso9995, but it lets the Shift key behave "normally".
 
     virtual_modifiers LevelThree,ScrollLock,LevelFive;
 
