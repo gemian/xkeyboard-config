@@ -1,4 +1,4 @@
-partial xkb_compatibility "caps_lock"  {
+partial xkb_compatibility "caps_lock" {
     // Keysym Caps_Lock locks the Lock modifier.
     // With this definition, the keysym Caps_Lock can be used without binding
     // the whole key to a real modifier.  This is essential when you don't

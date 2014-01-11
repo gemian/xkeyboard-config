@@ -1,4 +1,4 @@
-default xkb_compatibility "xtest"  {
+default xkb_compatibility "xtest" {
 
     // Minimal set of symbol interpretations to provide
     // reasonable behavior for testing.
@@ -11,7 +11,7 @@ default xkb_compatibility "xtest"  {
     // just set the corresponding modifier so that xtest
     // will see the behavior it expects.
 
-    virtual_modifiers NumLock,AltGr;
+    virtual_modifiers  NumLock,AltGr;
 
     interpret.repeat= False;
     setMods.clearLocks= True;
@@ -42,7 +42,7 @@ default xkb_compatibility "xtest"  {
     group 4 = AltGr;
 
     indicator.allowExplicit= False;
-    indicator "Caps Lock" { 
+    indicator "Caps Lock" {
 	modifiers= Lock;
     };
     indicator "Num Lock" {

@@ -5,7 +5,7 @@
 // interpretation (which would have these keys set
 // to the same modifier as the level one symbol).
 
-default partial xkb_compatibility "japan"  {
+default partial xkb_compatibility "japan" {
 
     interpret.repeat= False;
 
@@ -28,14 +28,14 @@ default partial xkb_compatibility "japan"  {
 
 // Some Japanese keyboards have an explict
 // Kana Lock key and matching LED.
-partial xkb_compatibility "kana_lock"  {
+partial xkb_compatibility "kana_lock" {
 
-    virtual_modifiers Kana_Lock;
+    virtual_modifiers  Kana_Lock;
 
     interpret Kana_Lock+AnyOfOrNone(all) {
-        virtualModifier= Kana_Lock;
-        useModMapMods=level1;
-        action= LockGroup(group=+1);
+	virtualModifier= Kana_Lock;
+	useModMapMods=level1;
+	action= LockGroup(group=+1);
     };
 
     indicator "Kana" {
