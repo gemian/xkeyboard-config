@@ -1,7 +1,7 @@
 //
-// Created by Bernardo Innocenti <bernie@codewiz.org>
+// Map the OLPC game keys to virtual modifiers.
 //
-// Map the OLPC game keys to virtual modifiers
+// Created by Bernardo Innocenti <bernie@codewiz.org>
 //
 
 default xkb_compatibility "olpc"  {
@@ -11,41 +11,41 @@ default xkb_compatibility "olpc"  {
 
     interpret KP_Home+Any     {
         //useModMapMods= level1;
-       virtualModifier= Square;
-       action = SetMods(modifiers=modMapMods);
+        virtualModifier= Square;
+        action = SetMods(modifiers=modMapMods);
     };
 
     interpret KP_Home  {
-       action = SetMods(modifiers=Square);
+        action = SetMods(modifiers=Square);
     };
 
     interpret KP_Next+Any     {
         //useModMapMods= level1;
-       virtualModifier= Cross;
-       action = SetMods(modifiers=modMapMods);
+        virtualModifier= Cross;
+        action = SetMods(modifiers=modMapMods);
     };
 
     interpret KP_Next  {
-       action = SetMods(modifiers=Cross);
+        action = SetMods(modifiers=Cross);
     };
 
     interpret KP_End+Any     {
         //useModMapMods= level1;
-       virtualModifier= Circle;
-       action = SetMods(modifiers=modMapMods);
+        virtualModifier= Circle;
+        action = SetMods(modifiers=modMapMods);
     };
 
     interpret KP_End   {
-       action = SetMods(modifiers=Circle);
+        action = SetMods(modifiers=Circle);
     };
 
     interpret KP_Prior+Any     {
         //useModMapMods= level1;
-       virtualModifier= Triangle;
-       action = SetMods(modifiers=modMapMods);
+        virtualModifier= Triangle;
+        action = SetMods(modifiers=modMapMods);
     };
 
     interpret KP_Prior {
-       action = SetMods(modifiers=Triangle);
+        action = SetMods(modifiers=Triangle);
     };
 };

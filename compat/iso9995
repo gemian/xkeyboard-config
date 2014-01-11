@@ -1,5 +1,5 @@
 // Fairly complete set of symbol interpretations 
-// to provide reasonable default behavior
+// to provide reasonable default behavior.
 
 default partial xkb_compatibility "default"  {
     virtual_modifiers LevelThree,AltGr;

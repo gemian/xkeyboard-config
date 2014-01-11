@@ -1,4 +1,4 @@
-//  XFree86 special keysyms
+// XFree86 special keysyms.
 
 default partial xkb_compatibility "basic"  {
 

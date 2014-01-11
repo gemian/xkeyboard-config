@@ -1,4 +1,5 @@
-// Use Caps Lock LED to show either Caps Lock, Group, or Shift Lock state
+// Use the Caps Lock LED to show either
+// Caps Lock, Group, or Shift Lock state.
 
 default partial xkb_compatibility "caps_lock"   {
    indicator "Caps Lock" {

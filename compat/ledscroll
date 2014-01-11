@@ -1,4 +1,5 @@
-// Use Scroll Lock LED to show either Scroll Lock, Group, or Shift Lock state
+// Use the Scroll Lock LED to show either
+// Scroll Lock, Group, or Shift Lock state.
 
 default partial xkb_compatibility "scroll_lock"   {
    indicator "Scroll Lock" {

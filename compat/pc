@@ -1,6 +1,6 @@
 default partial xkb_compatibility "pc"  {
 
-    // Sets the "Alt" virtual modifier
+    // Sets the "Alt" virtual modifier.
 
     virtual_modifiers	Alt;
 
