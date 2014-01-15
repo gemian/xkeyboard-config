@@ -2132,13 +2132,13 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>Bosnian (use guillemets for quotes)</_description>
+            <_description>Bosnian (with guillemets for quotes)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>unicode</name>
-            <_description>Bosnian (use Bosnian digraphs)</_description>
+            <_description>Bosnian (with Bosnian digraphs)</_description>
           </configItem>
         </variant>
         <variant>
@@ -2559,13 +2559,13 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>Croatian (use guillemets for quotes)</_description>
+            <_description>Croatian (with guillemets for quotes)</_description>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>unicode</name>
-            <_description>Croatian (use Croatian digraphs)</_description>
+            <_description>Croatian (with Croatian digraphs)</_description>
           </configItem>
         </variant>
         <variant>
@@ -4443,7 +4443,7 @@
         <variant>
           <configItem>
             <name>alternatequotes</name>
-            <_description>Slovenian (use guillemets for quotes)</_description>
+            <_description>Slovenian (with guillemets for quotes)</_description>
           </configItem>
         </variant>
         <variant>
