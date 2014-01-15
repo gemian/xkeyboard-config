@@ -1660,7 +1660,7 @@ xkb_symbols "hin-wx" {
 partial alphanumeric_keys
 xkb_symbols "eng" {
 
-    name[Group1]= "English (India, with RupeeSign)";
+    name[Group1]= "English (India, with Rupee sign)";
 
     include "us(basic)"
 
@@ -1681,7 +1681,7 @@ xkb_symbols "eng" {
 partial alphanumeric_keys
 xkb_symbols "mal_enhanced" {
 
-    name[Group1] = "Malayalam (enhanced Inscript with Rupee Sign)";
+    name[Group1] = "Malayalam (enhanced Inscript, with Rupee sign)";
 
    //From grave to backslash (\)
 
