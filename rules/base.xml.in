@@ -2749,7 +2749,7 @@
         <variant>
           <configItem>
             <name>pes_keypad</name>
-            <_description>Persian (with Persian Keypad)</_description>
+            <_description>Persian (with Persian keypad)</_description>
           </configItem>
         </variant>
         <variant>
@@ -6343,7 +6343,7 @@
       <option>
         <configItem>
           <name>altwin:hyper_win</name>
-          <_description>Hyper is mapped to Win-keys</_description>
+          <_description>Hyper is mapped to Win keys</_description>
         </configItem>
       </option>
       <option>
