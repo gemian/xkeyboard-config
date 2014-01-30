@@ -776,6 +776,17 @@
         </variant>
 	  </variantList>
 	</layout>
+    <layout>
+      <configItem>
+	<name>eu</name>
+	<!-- Keyboard indicator for European layouts -->
+	<_shortDescription>eu</_shortDescription>
+	<_description>EurKEY (US based layout with european letters)</_description>
+	  <languageList>
+	    <iso639Id>eng</iso639Id>
+	</languageList>
+      </configItem>
+    </layout>
   </layoutList>
   <optionList/>
 </xkbConfigRegistry>
