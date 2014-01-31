@@ -1,14 +1,15 @@
-// based on
-// ukrainian standard keyboard 
+// Keyboard layouts for the Ukraine.
 // AEN <aen@logic.ru> & Leon Kanter <leon@geon.donetsk.ua>
-// Last Changes 2007/10/03 by Andriy Rysin <arysin@yahoo.com>
+// last changes 2007/10/03 by Andriy Rysin <arysin@yahoo.com>
 
-// Unicode - 3d level added with some Unicode symbols (typographic quotes, m-dash, n-dash etc), 
-// some often used cyrillics from other slavic languages and some ASCII symbols used often (slash, brackets...)
+// The legacy WinKeys layout extended on the third and fourth level with
+// some Unicode symbols (typographic quotes, m-dash, n-dash, ...), some
+// often-used Cyrillics from other Slavic languages, and some often-used
+// ASCII symbols (slash, brackets, ...).
 default  partial alphanumeric_keys
 xkb_symbols "unicode" {
-    include "ua(winkeys)"
 
+    include "ua(winkeys)"
     name[Group1]= "Ukrainian";
 
     key <TLDE> {    [           U2019, 	apostrophe,    U0301,   asciitilde     ]       };	// Apostrophe and Stress symbol
@@ -104,8 +105,8 @@ xkb_symbols "legacy" {
 
 partial alphanumeric_keys
 xkb_symbols "winkeys" {
-    include "ua(legacy)"
 
+    include "ua(legacy)"
     name[Group1]= "Ukrainian (WinKeys)";
 
     key <AE03> {        [               3,      numerosign      ]       };
@@ -119,8 +120,8 @@ xkb_symbols "winkeys" {
 
 partial alphanumeric_keys
 xkb_symbols "typewriter" {
-    include "ua(legacy)"
 
+    include "ua(legacy)"
     name[Group1]= "Ukrainian (typewriter)";
 
     key	<TLDE> {	[      apostrophe,	  quotedbl	] 	};
@@ -140,7 +141,6 @@ xkb_symbols "typewriter" {
     key	<AC02> {	[      Cyrillic_i,	Cyrillic_I	]	};
 
     key	<AB05> {	[     Ukrainian_i,     Ukrainian_I	]	};
-
     key	<AB10> {	[    Ukrainian_yi,    Ukrainian_YI	]	};
 
     key	<BKSL> {	[	parenleft,	parenright	]	};
@@ -148,8 +148,8 @@ xkb_symbols "typewriter" {
 
 partial alphanumeric_keys
 xkb_symbols "phonetic" {
-  include "ua(legacy)"
 
+  include "ua(legacy)"
   name[Group1]= "Ukrainian (phonetic)";
 
   key <LatQ> {   [ Cyrillic_ya,       Cyrillic_YA         ]    };
@@ -190,12 +190,12 @@ xkb_symbols "phonetic" {
   key <AB10> {   [ slash,             question            ]    };
 };
 
-// ukrainian keyboard layout RSTU 2019-91 (Respublikanskij STandart Ukrajiny)
+// Ukrainian RSTU 2019-91 keyboard layout (Respublikanskij STandart Ukrajiny).
 // Andrew Porokhnyak <aop@porokhnyak.org>
 partial alphanumeric_keys
 xkb_symbols "rstu" {
-    include "ua(legacy)"
 
+    include "ua(legacy)"
     name[Group1]= "Ukrainian (standard RSTU)";
 
     key	<TLDE> {	[      apostrophe,	  question	] 	};
@@ -221,10 +221,11 @@ xkb_symbols "rstu" {
     key	<BKSL> {	[	    slash,	   percent	]	};
 };
 
-// russian keyboard layout RSTU 2019-91 (Respublikanskij STandart Ukrajiny)
+// Russian RSTU 2019-91 keyboard layout (Respublikanskij STandart Ukrajiny).
 // Andrew Porokhnyak <aop@porokhnyak.org>
 partial alphanumeric_keys
 xkb_symbols "rstu_ru" {
+
     include "ru(common)"
     name[Group1]= "Russian (Ukraine, standard RSTU)";
 
@@ -246,11 +247,12 @@ key.type[group1]="ALPHABETIC";
     key <AB10> {        [     Cyrillic_io,     Cyrillic_IO      ]       };
 };
 
-//Homophonic keyboard layout (Tomas Marko Miljenović)
-//Based on Ukrainian National Transliteration, commonly used phonetic layouts for Mac and Win.
-//Existing layout "phonetic" used as template.
+// Homophonic keyboard layout (by Tomas Marko Miljenović),
+// based on the Ukrainian National Transliteration,
+// commonly used phonetic layouts for Mac and Win.
 partial alphanumeric_keys
 xkb_symbols "homophonic" {
+
   include "ua(legacy)"
   name[Group1]= "Ukrainian (homophonic)";
 
