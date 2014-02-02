@@ -1839,7 +1839,7 @@
         <variant>
           <configItem>
             <name>eeyek</name>
-            <description>Manipuri (Eeyek)</description>
+            <_description>Manipuri (Eeyek)</_description>
             <languageList><iso639Id>mni</iso639Id></languageList>
           </configItem>
         </variant>
@@ -3280,7 +3280,7 @@
         <variant>
           <configItem>
             <name>tr</name>
-            <description>Turkish (Germany)</description>
+            <_description>Turkish (Germany)</_description>
             <languageList>
               <iso639Id>tr</iso639Id>
             </languageList>
@@ -4088,7 +4088,7 @@
         <variant>
           <configItem>
             <name>szl</name>
-            <description>Silesian</description>
+            <_description>Silesian</_description>
             <languageList><iso639Id>szl</iso639Id></languageList>
           </configItem>
         </variant>
