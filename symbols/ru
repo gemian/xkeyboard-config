@@ -77,8 +77,6 @@ xkb_symbols "common" {
     key <AB08> { [       Cyrillic_be,       Cyrillic_BE  ] };
     key <AB09> { [       Cyrillic_yu,       Cyrillic_YU  ] };
 
-    key.type[group1]="TWO_LEVEL";
-
     include "kpdl(comma)"
 };
 
