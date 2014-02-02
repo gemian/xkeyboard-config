@@ -3279,6 +3279,15 @@
         </variant>
         <variant>
           <configItem>
+            <name>tr</name>
+            <description>Turkish (Germany)</description>
+            <languageList>
+              <iso639Id>tr</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>ru</name>
             <!-- Keyboard indicator for Russian layouts -->
             <_shortDescription>ru</_shortDescription>
