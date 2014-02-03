@@ -1925,7 +1925,7 @@
             <name>mal_enhanced</name>
             <!-- Keyboard indicator for Malayalam layouts -->
             <_shortDescription>ml</_shortDescription>
-            <_description>Malayalam (enhanced Inscript, with Rupee sign)</_description>
+            <_description>Malayalam (enhanced Inscript, with rupee sign)</_description>
             <languageList><iso639Id>mal</iso639Id></languageList>
           </configItem>
          </variant>
@@ -2110,7 +2110,7 @@
             <name>eng</name>
             <!-- Keyboard indicator for English layouts -->
             <_shortDescription>en</_shortDescription>
-            <_description>English (India, with Rupee sign)</_description>
+            <_description>English (India, with rupee sign)</_description>
             <languageList>
               <iso639Id>eng</iso639Id>
             </languageList>

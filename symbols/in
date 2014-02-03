@@ -1654,7 +1654,7 @@ partial alphanumeric_keys
 xkb_symbols "eng" {
 
     include "us(basic)"
-    name[Group1]= "English (India, with Rupee sign)";
+    name[Group1]= "English (India, with rupee sign)";
 
     include "rupeesign(4)"
     include "level3(ralt_switch)"
@@ -1672,7 +1672,7 @@ xkb_symbols "eng" {
 partial alphanumeric_keys
 xkb_symbols "mal_enhanced" {
 
-    name[Group1] = "Malayalam (enhanced Inscript, with Rupee sign)";
+    name[Group1] = "Malayalam (enhanced Inscript, with rupee sign)";
 
    //From grave to backslash (\)
 
@@ -1773,7 +1773,7 @@ xkb_symbols "hin-kagapa" {
     key <AE01>  { [   1,            exclam,       U0967          ] };
     key <AE02>  { [   2,            at,           U0968,  U20A8  ] };  // U20A8: generic rupee sign (Rs)
     key <AE03>  { [   3,            numbersign,   U0969          ] };
-    key <AE04>  { [   4,            dollar,       U096A,  U20B9  ] };  // U20B9: new Indian Rupee sign
+    key <AE04>  { [   4,            dollar,       U096A,  U20B9  ] };  // U20B9: new Indian rupee sign
     key <AE05>  { [   5,            percent,      U096B          ] };
     key <AE06>  { [   6,            asciicircum,  U096C,  U200C  ] };  // ZWNJ
     key <AE07>  { [   7,            ampersand,    U096D,  U200D  ] };  // ZWJ
@@ -1864,7 +1864,7 @@ xkb_symbols "kan-kagapa" {
     key <AE01>  { [   1,            exclam,       U0CE7          ] };
     key <AE02>  { [   2,            at,           U0CE8,  U20A8  ] };  // U20A8: generic rupee sign (Rs)
     key <AE03>  { [   3,            numbersign,   U0CE9          ] };
-    key <AE04>  { [   4,            dollar,       U0CEA,  U20B9  ] };  // U20B9: new Indian Rupee sign
+    key <AE04>  { [   4,            dollar,       U0CEA,  U20B9  ] };  // U20B9: new Indian rupee sign
     key <AE05>  { [   5,            percent,      U0CEB          ] };
     key <AE06>  { [   6,            asciicircum,  U0CEC,  U200C  ] };  // ZWNJ
     key <AE07>  { [   7,            ampersand,    U0CED,  U200D  ] };  // ZWJ
@@ -1941,7 +1941,7 @@ xkb_symbols "tel-kagapa" {
     key <AE01>  { [   1,            exclam,       U0C67          ] };
     key <AE02>  { [   2,            at,           U0C68,  U20A8  ] };  // U20A8: generic rupee sign (Rs)
     key <AE03>  { [   3,            numbersign,   U0C69          ] };
-    key <AE04>  { [   4,            dollar,       U0C6A,  U20B9  ] };  // U20B9: new Indian Rupee sign
+    key <AE04>  { [   4,            dollar,       U0C6A,  U20B9  ] };  // U20B9: new Indian rupee sign
     key <AE05>  { [   5,            percent,      U0C6B          ] };
     key <AE06>  { [   6,            asciicircum,  U0C6C,  U200C  ] };  // ZWNJ
     key <AE07>  { [   7,            ampersand,    U0C6D,  U200D  ] };  // ZWJ
