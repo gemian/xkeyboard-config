@@ -52,23 +52,23 @@ xkb_symbols "common" {
 
     key.type[Group1] = "FOUR_LEVEL";
 
-    key <TLDE> { [ grave,          asciitilde,     any, any ] }; //
-    key <AE01> { [ 1,              exclam,         any, any ] }; //
-    key <AE02> { [ 2,              quotedbl,       any, any ] }; //
-    key <AE03> { [ 3,              numbersign,     any, any ] }; //
-    key <AE04> { [ 4,              dollar,         any, any ] }; //
-    key <AE05> { [ 5,              percent,        any, any ] }; //
-    key <AE06> { [ 6,              ampersand,      any, any ] }; //
-    key <AE07> { [ 7,              slash,          any, any ] }; //
-    key <AE08> { [ 8,              parenleft,      any, any ] }; //
-    key <AE09> { [ 9,              parenright,     any, any ] }; //
-    key <AE10> { [ 0,              equal,          any, any ] }; //
-    key <AE11> { [ apostrophe,     question,       any, any ] }; //
-    key <AE12> { [ plus,           asterisk,       any, any ] }; //
+    key <TLDE> { [ grave,          asciitilde,     any, any ] };
+    key <AE01> { [ 1,              exclam,         any, any ] };
+    key <AE02> { [ 2,              quotedbl,       any, any ] };
+    key <AE03> { [ 3,              numbersign,     any, any ] };
+    key <AE04> { [ 4,              dollar,         any, any ] };
+    key <AE05> { [ 5,              percent,        any, any ] };
+    key <AE06> { [ 6,              ampersand,      any, any ] };
+    key <AE07> { [ 7,              slash,          any, any ] };
+    key <AE08> { [ 8,              parenleft,      any, any ] };
+    key <AE09> { [ 9,              parenright,     any, any ] };
+    key <AE10> { [ 0,              equal,          any, any ] };
+    key <AE11> { [ apostrophe,     question,       any, any ] };
+    key <AE12> { [ plus,           asterisk,       any, any ] };
 
-    key <AB08> { [ comma,          semicolon,      any, any ] }; //
-    key <AB09> { [ period,         colon,          any, any ] }; //
-    key <AB10> { [ minus,          underscore,     any, any ] }; //
+    key <AB08> { [ comma,          semicolon,      any, any ] };
+    key <AB09> { [ period,         colon,          any, any ] };
+    key <AB10> { [ minus,          underscore,     any, any ] };
 
     include "kpdl(comma)"
 };
@@ -119,12 +119,12 @@ xkb_symbols "latalpha" {
 
     key.type[Group1] = "FOUR_LEVEL_ALPHABETIC";
 
-    key <AD11> { [ scaron,         Scaron,         any, any ] }; //
-    key <AD12> { [ dstroke,        Dstroke,        any, any ] }; //
+    key <AD11> { [ scaron,         Scaron,         any, any ] }; // [ {
+    key <AD12> { [ dstroke,        Dstroke,        any, any ] }; // ] }
 
-    key <AC10> { [ ccaron,         Ccaron,         any, any ] }; //
-    key <AC11> { [ cacute,         Cacute,         any, any ] }; //
-    key <BKSL> { [ zcaron,         Zcaron,         any, any ] }; //
+    key <AC10> { [ ccaron,         Ccaron,         any, any ] }; // ; :
+    key <AC11> { [ cacute,         Cacute,         any, any ] }; // ' "
+    key <BKSL> { [ zcaron,         Zcaron,         any, any ] }; // \ |
 };
 
 partial hidden alphanumeric_keys
