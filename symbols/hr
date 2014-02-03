@@ -4,7 +4,7 @@ xkb_symbols "basic" {
     include "rs(latin)"
     name[Group1]="Croatian";
 
-    // Redefine these keys to match XFree86 Croatian layout
+    // Redefine these keys to match the XFree86 Croatian layout.
     key <AE01> { [         1,     exclam,   asciitilde,   dead_tilde ] };
     key <AE03> { [         3, numbersign,  asciicircum, dead_circumflex ] };
     key <AE05> { [         5,    percent,       degree, dead_abovering ] };
