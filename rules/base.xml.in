@@ -2644,6 +2644,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>winkeys</name>
+            <_description>Danish (Winkeys)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>mac</name>
             <_description>Danish (Macintosh)</_description>
           </configItem>
@@ -2894,6 +2900,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <_description>Finnish (classic, eliminate dead keys)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>winkeys</name>
+            <_description>Finnish (Winkeys)</_description>
           </configItem>
         </variant>
         <variant>
@@ -3556,6 +3568,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>winkeys</name>
+            <_description>Italian (Winkeys)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>mac</name>
             <_description>Italian (Macintosh)</_description>
           </configItem>
@@ -3989,6 +4007,12 @@
           <configItem>
             <name>nodeadkeys</name>
             <_description>Norwegian (eliminate dead keys)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>winkeys</name>
+            <_description>Norwegian (Winkeys)</_description>
           </configItem>
         </variant>
         <variant>
@@ -4509,6 +4533,13 @@
           <configItem>
             <name>nodeadkeys</name>
             <_description>Spanish (eliminate dead keys)</_description>
+          </configItem>
+        </variant>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>winkeys</name>
+            <_description>Spanish (Winkeys)</_description>
           </configItem>
         </variant>
         <variant>
