@@ -33,8 +33,6 @@ xkb_symbols "basic" {
 
     key <LSGT>	{ [      less,    greater,guillemotleft,guillemotright] };
 
-    include "kpdl(comma)"
-
     include "level3(ralt_switch)"
 };
 
