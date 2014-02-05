@@ -4535,7 +4535,6 @@
             <_description>Spanish (eliminate dead keys)</_description>
           </configItem>
         </variant>
-      <variantList>
         <variant>
           <configItem>
             <name>winkeys</name>
