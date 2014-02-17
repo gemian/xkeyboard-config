@@ -1230,7 +1230,7 @@ xkb_symbols "tam_TSCII" {
     key <AB06> { [ 0x10000b6, 0x10000aa ] }; // au
     key <AB07> { [ 0x10000ab, 0x10000ac ] }; // a, A
     key <AB08> { [ 0x10000fe, 0x10000ae ] }; // i, I
-
+};
 
 partial alphanumeric_keys
 xkb_symbols "tam_TAB" {
