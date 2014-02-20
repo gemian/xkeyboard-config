@@ -62,7 +62,7 @@ xkb_symbols "basic" {
 // ┃       ┃       ┃       ┃                                   ┃       ┃       ┃       ┃
 // ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
 
-partial hidden alphanumeric_keys
+hidden partial alphanumeric_keys
 xkb_symbols "common" {
 	name[Group1]= "APL";
 
@@ -473,7 +473,7 @@ xkb_symbols "dyalog_box" {
 	key <KP9>  { [ U2510 ] };	// box drawing light down and left
 	key <KPDL> { [ U2502 ] };	// box drawing light vertical
 
-}; 
+};
 
 xkb_symbols "dyalog_codes" {
 	name[Group1]="Dyalog Codes";

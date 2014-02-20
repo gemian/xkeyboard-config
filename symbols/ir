@@ -36,7 +36,7 @@ xkb_symbols "pes_keypad" {
     include "level3(ralt_switch)"
 };
 
-partial hidden alphanumeric_keys
+hidden partial alphanumeric_keys
 xkb_symbols "pes_part_basic" {
 
     // Persian digits
@@ -94,7 +94,7 @@ xkb_symbols "pes_part_basic" {
     key <BKSL> { [ backslash,		bar,			0x1002010	] };
 };
 
-partial hidden alphanumeric_keys
+hidden partial alphanumeric_keys
 xkb_symbols "pes_part_ext" {
 
     // Persian and ASCII digits
@@ -110,7 +110,7 @@ xkb_symbols "pes_part_ext" {
     key <AE10> { [ Farsi_0,	parenleft,	0x100200f,		0	] };
 };
 
-partial hidden alphanumeric_keys
+hidden partial alphanumeric_keys
 xkb_symbols "pes_part_keypad" {
 
     // Persian digits and Mathematical operators
