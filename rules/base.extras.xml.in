@@ -8,7 +8,9 @@
         <name>apl</name>
         <_shortDescription>apl</_shortDescription>
         <_description>APL keyboard symbols</_description>
-        <languageList><iso639Id>eng</iso639Id></languageList>
+        <languageList>
+          <iso639Id>eng</iso639Id>
+        </languageList>
       </configItem>
       <variantList>
         <variant>
@@ -60,7 +62,9 @@
         <name>ca</name>
         <_shortDescription>fr</_shortDescription>
         <_description>French (Canada)</_description>
-        <languageList><iso639Id>fra</iso639Id></languageList>
+        <languageList>
+          <iso639Id>fra</iso639Id>
+        </languageList>
       </configItem>
       <variantList>
         <variant>
@@ -133,14 +137,18 @@
         <name>ir</name>
         <_shortDescription>fa</_shortDescription>
         <_description>Persian</_description>
-        <languageList><iso639Id>per</iso639Id></languageList>
+        <languageList>
+          <iso639Id>per</iso639Id>
+        </languageList>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>ave</name>
             <_description>Avestan</_description>
-            <languageList><iso639Id>ave</iso639Id></languageList>
+            <languageList>
+              <iso639Id>ave</iso639Id>
+            </languageList>
           </configItem>
         </variant>
       </variantList>
@@ -150,7 +158,9 @@
         <name>lt</name>
         <_shortDescription>lt</_shortDescription>
         <_description>Lithuanian</_description>
-        <languageList><iso639Id>lit</iso639Id></languageList>
+        <languageList>
+          <iso639Id>lit</iso639Id>
+        </languageList>
       </configItem>
       <variantList>
         <variant>
@@ -238,7 +248,9 @@
         <name>us</name>
         <_shortDescription>en</_shortDescription>
         <_description>English (US)</_description>
-        <languageList><iso639Id>eng</iso639Id></languageList>
+        <languageList>
+          <iso639Id>eng</iso639Id>
+        </languageList>
       </configItem>
       <variantList>
         <variant>
@@ -264,17 +276,21 @@
           <configItem>
             <name>crd</name>
             <_description>Coeur d'Alene Salish</_description>
-            <languageList><iso639Id>crd</iso639Id></languageList>
+            <languageList>
+              <iso639Id>crd</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
           <configItem>
             <name>cz_sk_de</name>
             <_description>Czech Slovak and German (US)</_description>
-            <languageList><iso639Id>eng</iso639Id>
-                          <iso639Id>cze</iso639Id>
-                          <iso639Id>slo</iso639Id>
-                          <iso639Id>ger</iso639Id> </languageList>
+            <languageList>
+              <iso639Id>eng</iso639Id>
+              <iso639Id>cze</iso639Id>
+              <iso639Id>slo</iso639Id>
+              <iso639Id>ger</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
@@ -296,7 +312,9 @@
         <name>pl</name>
         <_shortDescription>pl</_shortDescription>
         <_description>Polish</_description>
-        <languageList><iso639Id>pol</iso639Id></languageList>
+        <languageList>
+          <iso639Id>pol</iso639Id>
+        </languageList>
       </configItem>
       <variantList>
         <variant>
@@ -324,7 +342,9 @@
         <name>ro</name>
         <_shortDescription>ro</_shortDescription>
         <_description>Romanian</_description>
-        <languageList><iso639Id>rum</iso639Id></languageList>
+        <languageList>
+          <iso639Id>rum</iso639Id>
+        </languageList>
       </configItem>
       <variantList>
         <variant>
@@ -356,7 +376,9 @@
         <name>rs</name>
         <_shortDescription>sr</_shortDescription>
         <_description>Serbian</_description>
-        <languageList><iso639Id>srp</iso639Id></languageList>
+        <languageList>
+          <iso639Id>srp</iso639Id>
+        </languageList>
       </configItem>
       <variantList>
         <variant>
@@ -378,7 +400,9 @@
           <configItem>
             <name>chu</name>
             <_description>Church Slavonic</_description>
-            <languageList><iso639Id>chu</iso639Id></languageList>
+            <languageList>
+              <iso639Id>chu</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
@@ -386,9 +410,11 @@
             <name>ruu</name>
             <_shortDescription>ru</_shortDescription>
             <_description>Russian (with Ukrainian-Belorussian layout)</_description>
-            <languageList><iso639Id>rus</iso639Id>
-                          <iso639Id>ukr</iso639Id>
-                          <iso639Id>bel</iso639Id></languageList>
+            <languageList>
+              <iso639Id>rus</iso639Id>
+              <iso639Id>ukr</iso639Id>
+              <iso639Id>bel</iso639Id>
+            </languageList>
           </configItem>
         </variant>
         <variant>
@@ -422,14 +448,18 @@
         <name>il</name>
         <_shortDescription>he</_shortDescription>
         <_description>Hebrew</_description>
-        <languageList><iso639Id>heb</iso639Id></languageList>
+        <languageList>
+          <iso639Id>heb</iso639Id>
+        </languageList>
       </configItem>
       <variantList>
         <variant>
           <configItem>
             <name>biblicalSIL</name>
             <_description>Hebrew (Biblical, SIL phonetic)</_description>
-            <languageList><iso639Id>heb</iso639Id></languageList>
+            <languageList>
+              <iso639Id>heb</iso639Id>
+            </languageList>
           </configItem>
         </variant>
       </variantList>
