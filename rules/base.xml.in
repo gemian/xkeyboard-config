@@ -856,21 +856,21 @@
     </model>
     <model>
       <configItem>
-        <name>microsoftmult</name> 
+        <name>microsoftmult</name>
         <_description>Microsoft Wireless Multimedia Keyboard 1.0A</_description>
         <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
-        <name>microsoftelite</name> 
+        <name>microsoftelite</name>
         <_description>Microsoft Natural Keyboard Elite</_description>
         <vendor>Microsoft Inc.</vendor>
       </configItem>
     </model>
     <model>
       <configItem>
-        <name>microsoftccurve2k</name> 
+        <name>microsoftccurve2k</name>
         <_description>Microsoft Comfort Curve Keyboard 2000</_description>
         <vendor>Microsoft Inc.</vendor>
       </configItem>
@@ -4099,7 +4099,7 @@
             <_description>Norwegian (Macintosh, eliminate dead keys)</_description>
           </configItem>
         </variant>
-	<variant>
+        <variant>
           <configItem>
             <name>colemak</name>
             <_description>Norwegian (Colemak)</_description>
@@ -5907,7 +5907,7 @@
           <name>grp:rctrl_rshift_toggle</name>
           <_description>Right Ctrl+Right Shift</_description>
         </configItem>
-      </option>      
+      </option>
       <option>
         <configItem>
           <name>grp:ctrl_alt_toggle</name>
@@ -6322,7 +6322,7 @@
       </option>
     </group>
     <group allowMultipleSelection="false">
-      <!-- Caps Lock tweaks. 
+      <!-- Caps Lock tweaks.
            "Internal" capitalization means capitalization using some internal tables.
            Otherwise "as Shift" - means using next group. -->
       <configItem>
