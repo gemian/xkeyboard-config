@@ -73,7 +73,7 @@ xkb_symbols "bksl" {
     // Use <BKSL> instead of <LSGT> (useful for keyboards without <LSGT> key).
 
     include "cz(basic)"
-    name[Group1]= "Czech (with <|> key)";
+    name[Group1]= "Czech (with <\|> key)";
 
     key <BKSL>  { [ backslash,        bar,        slash,     NoSymbol ] };
 };
