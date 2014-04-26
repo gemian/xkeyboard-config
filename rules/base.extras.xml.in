@@ -120,6 +120,12 @@
             <_description>German (Sun Type 6/7)</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>adnw</name>
+            <_description>German (Aus der Neo-Welt)</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
