@@ -6604,7 +6604,7 @@
       </option>
       <option>
         <configItem>
-          <name>grab:debug_actions</name>
+          <name>grab:debug</name>
           <_description>Allow grab and window tree logging</_description>
         </configItem>
       </option>
