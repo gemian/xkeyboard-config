@@ -6103,6 +6103,11 @@
           <name>ctrl:swap_lwin_lctl</name>
           <_description>Swap Left Win key with Left Ctrl key</_description>
         </configItem>
+      </option><option>
+        <configItem>
+          <name>ctrl:swap_rwin_rctl</name>
+          <_description>Swap Right Win key with Right Ctrl key</_description>
+        </configItem>
       </option>
       <option>
         <configItem>
