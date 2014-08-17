@@ -3513,6 +3513,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>mac_legacy</name>
+            <_description>Icelandic (Macintosh, legacy)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>mac</name>
             <_description>Icelandic (Macintosh)</_description>
           </configItem>
