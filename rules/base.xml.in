@@ -6930,6 +6930,30 @@
        </configItem>
       </option>
     </group>
+    <group allowMultipleSelection="true">
+      <configItem>
+        <name>korean</name>
+        <_description>Korean Hangul/Hanja keys</_description>
+      </configItem>
+      <option>
+        <configItem>
+          <name>korean:hw_keys</name>
+          <_description>Hardware Hangul/Hanja keys</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>korean:ralt_rctrl</name>
+          <_description>Right Alt as Hangul, right Ctrl as Hanja</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
+          <name>korean:rctrl_ralt</name>
+          <_description>Right Ctrl as Hangul, right Alt as Hanja</_description>
+        </configItem>
+      </option>
+    </group>
     <group allowMultipleSelection="false">
       <configItem>
         <name>esperanto</name>
