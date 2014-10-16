@@ -1,6 +1,6 @@
 // symbols definition for a Macintosh "Extended" keyboard
 
-xkb_symbols "extended" {
+default xkb_symbols "extended" {
 
     name[Group1]= "USA";
     key <ESC>  {	[ Escape			]	};
