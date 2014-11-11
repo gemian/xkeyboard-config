@@ -6628,7 +6628,7 @@
       <option>
         <configItem>
           <name>numpad:microsoft</name>
-          <_description>Shift with numeric keypad keys works as in MS Windows</_description>
+          <_description>NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow keys (as in MS Windows)</_description>
         </configItem>
       </option>
       <option>
