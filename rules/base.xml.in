@@ -1576,6 +1576,12 @@
             <_description>Arabic (Buckwalter)</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>mac</name>
+            <_description>Arabic (Macintosh)</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
