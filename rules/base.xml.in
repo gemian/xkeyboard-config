@@ -1579,7 +1579,7 @@
         <variant>
           <configItem>
             <name>mac</name>
-            <_description>Arabic (Macintosh)</description>
+            <_description>Arabic (Macintosh)</_description>
           </configItem>
         </variant>
       </variantList>
