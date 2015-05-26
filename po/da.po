@@ -33,7 +33,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xkeyboard-config-2.14.99\n"
 "Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
-"POT-Creation-Date: 2015-05-26 21:06+0100\n"
+"POT-Creation-Date: 2015-05-13 23:54+0100\n"
 "PO-Revision-Date: 2015-05-14 23:06+0100\n"
 "Last-Translator: Joe Hansen <joedalton2@yahoo.dk>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
@@ -2899,8 +2899,7 @@ msgid "Tamil (Sri Lanka, TAB Typewriter)"
 msgstr "Tamilsk (Sri Lanka, TAB-skrivemaskine)"
 
 #: ../rules/base.xml.in.h:769
-#, fuzzy
-msgid "Sinhala (US keyboard with Sinhala letters)"
+msgid "Singhala (US keyboard with Singhala letters)"
 msgstr "Singhala (US-tastatur med singhala bogstaver)"
 
 #. Keyboard indicator for Thai layouts
@@ -3388,11 +3387,8 @@ msgid "Any Win key (while pressed)"
 msgstr "Enhver Win-tast (mens trykket ned)"
 
 #: ../rules/base.xml.in.h:906
-msgid ""
-"Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
-msgstr ""
-"Caps Lock (mens presset ned), Alt+Caps Lock udfører den oprindleige "
-"capslockhandling"
+msgid "Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
+msgstr "Caps Lock (mens presset ned), Alt+Caps Lock udfører den oprindleige capslockhandling"
 
 #: ../rules/base.xml.in.h:907
 msgid "Right Ctrl (while pressed)"
@@ -3416,21 +3412,15 @@ msgstr "Skift+Caps Lock"
 
 #: ../rules/base.xml.in.h:912
 msgid "Caps Lock (to first layout), Shift+Caps Lock (to last layout)"
-msgstr ""
-"Caps Lock (skifter til første layout), Skift+Caps Lock (skifter til sidste "
-"layout)"
+msgstr "Caps Lock (skifter til første layout), Skift+Caps Lock (skifter til sidste layout)"
 
 #: ../rules/base.xml.in.h:913
 msgid "Left Win (to first layout), Right Win/Menu (to last layout)"
-msgstr ""
-"Venstre Win (skifter til første layout), Højre Win/Menu (skifter til sidste "
-"layout)"
+msgstr "Venstre Win (skifter til første layout), Højre Win/Menu (skifter til sidste layout)"
 
 #: ../rules/base.xml.in.h:914
 msgid "Left Ctrl (to first layout), Right Ctrl (to last layout)"
-msgstr ""
-"Venstre Ctrl (skifter til første layout), Højre Ctrl (skifter til sidste "
-"layout)"
+msgstr "Venstre Ctrl (skifter til første layout), Højre Ctrl (skifter til sidste layout)"
 
 #: ../rules/base.xml.in.h:915
 msgid "Alt+Caps Lock"
@@ -3514,9 +3504,7 @@ msgstr "Scroll Lock"
 
 #: ../rules/base.xml.in.h:935
 msgid "LeftCtrl+LeftWin (to first layout), RightCtrl+Menu (to second layout)"
-msgstr ""
-"Venstre Ctrl+Venstre Win (til første layout), Højre Ctrl+Menu (til andet "
-"layout)"
+msgstr "Venstre Ctrl+Venstre Win (til første layout), Højre Ctrl+Menu (til andet layout)"
 
 #: ../rules/base.xml.in.h:936
 msgid "Key to choose 3rd level"
@@ -3551,28 +3539,16 @@ msgid "&lt;Less/Greater&gt;"
 msgstr "&lt;Mindre end/Større end&gt;"
 
 #: ../rules/base.xml.in.h:944
-msgid ""
-"Caps Lock chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
-msgstr ""
-"Caps Lock vælger tredje niveau, låser når trykket ned sammen med en anden "
-"tredje niveauvælger"
+msgid "Caps Lock chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "Caps Lock vælger tredje niveau, låser når trykket ned sammen med en anden tredje niveauvælger"
 
 #: ../rules/base.xml.in.h:945
-msgid ""
-"Backslash chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
-msgstr ""
-"Omvendt skråstreg vælger tredje niveau, låser når trykket ned sammen med en "
-"anden tredje niveauvælger"
+msgid "Backslash chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "Omvendt skråstreg vælger tredje niveau, låser når trykket ned sammen med en anden tredje niveauvælger"
 
 #: ../rules/base.xml.in.h:946
-msgid ""
-"&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed "
-"together with another 3rd-level-chooser"
-msgstr ""
-"&lt;Mindre end/Større end&gt; (vælger tredje niveau, låser når trykket ned "
-"sammen med en anden tredje niveauvælger"
+msgid "&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "&lt;Mindre end/Større end&gt; (vælger tredje niveau, låser når trykket ned sammen med en anden tredje niveauvælger"
 
 #: ../rules/base.xml.in.h:947
 msgid "Ctrl key position"
@@ -3647,12 +3623,8 @@ msgid "Unicode additions (arrows and math operators)"
 msgstr "Unicode tilføjelser (pile og matematiske tegn)"
 
 #: ../rules/base.xml.in.h:965
-msgid ""
-"Unicode additions (arrows and math operators; math operators on default "
-"level)"
-msgstr ""
-"Unicode-tilføjelser (pile og matematiske tegn; matematiske tegn på "
-"standardniveau)"
+msgid "Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Unicode-tilføjelser (pile og matematiske tegn; matematiske tegn på standardniveau)"
 
 #: ../rules/base.xml.in.h:966
 msgid "Legacy Wang 724"
@@ -3660,16 +3632,11 @@ msgstr "Forældet Wang 724"
 
 #: ../rules/base.xml.in.h:967
 msgid "Wang 724 keypad with Unicode additions (arrows and math operators)"
-msgstr ""
-"Wang 724 numerisk tastatur med Unicode-tilføjelser (pile og matematiske tegn)"
+msgstr "Wang 724 numerisk tastatur med Unicode-tilføjelser (pile og matematiske tegn)"
 
 #: ../rules/base.xml.in.h:968
-msgid ""
-"Wang 724 keypad with Unicode additions (arrows and math operators; math "
-"operators on default level)"
-msgstr ""
-"Wang 724 numerisk tastatur med Unicode-tilføjelser (pile og matematiske "
-"tegn; matematiske tegn på standardniveau)"
+msgid "Wang 724 keypad with Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Wang 724 numerisk tastatur med Unicode-tilføjelser (pile og matematiske tegn; matematiske tegn på standardniveau)"
 
 #: ../rules/base.xml.in.h:969
 msgid "Hexadecimal"
@@ -3725,15 +3692,11 @@ msgstr "Opførsel for Caps Lock-tast"
 
 #: ../rules/base.xml.in.h:984
 msgid "Caps Lock uses internal capitalization; Shift \"pauses\" Caps Lock"
-msgstr ""
-"Caps Lock bruger intern forstørrelse af bogstaver. Skift sætter Caps Lock "
-"»på hold«"
+msgstr "Caps Lock bruger intern forstørrelse af bogstaver. Skift sætter Caps Lock »på hold«"
 
 #: ../rules/base.xml.in.h:985
 msgid "Caps Lock uses internal capitalization; Shift doesn't affect Caps Lock"
-msgstr ""
-"Caps Lock bruger intern forstørrelse af bogstaver. Skift påvirker ikke Caps "
-"Lock"
+msgstr "Caps Lock bruger intern forstørrelse af bogstaver. Skift påvirker ikke Caps Lock"
 
 #: ../rules/base.xml.in.h:986
 msgid "Caps Lock acts as Shift with locking; Shift \"pauses\" Caps Lock"
@@ -3741,8 +3704,7 @@ msgstr "Caps Lock agerer som skiftetasten med lås. Skift »pauser« Caps Lock"
 
 #: ../rules/base.xml.in.h:987
 msgid "Caps Lock acts as Shift with locking; Shift doesn't affect Caps Lock"
-msgstr ""
-"Caps Lock agerer som skiftetasten med lås. Skift påvirker ikke Caps Lock"
+msgstr "Caps Lock agerer som skiftetasten med lås. Skift påvirker ikke Caps Lock"
 
 #: ../rules/base.xml.in.h:988
 msgid "Caps Lock toggles normal capitalization of alphabetic characters"
@@ -3881,12 +3843,8 @@ msgid "Numeric keypad keys always enter digits (as in Mac OS)"
 msgstr "Numerisk tastatur indtaster altid tal (som på Mac OS)"
 
 #: ../rules/base.xml.in.h:1022
-msgid ""
-"NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow "
-"keys (as in MS Windows)"
-msgstr ""
-"NumLock aktiveret: tal, skift skifter til piletaster, NumLock deaktiveret: "
-"piletaster aktiveret (som i MS Windows)"
+msgid "NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow keys (as in MS Windows)"
+msgstr "NumLock aktiveret: tal, skift skifter til piletaster, NumLock deaktiveret: piletaster aktiveret (som i MS Windows)"
 
 #: ../rules/base.xml.in.h:1023
 msgid "Shift does not cancel Num Lock, chooses 3rd level instead"
@@ -3897,12 +3855,8 @@ msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
 msgstr "Specialtaster (Ctrl+Alt+&lt;key&gt;) håndteret i en server"
 
 #: ../rules/base.xml.in.h:1025
-msgid ""
-"Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num "
-"Lock)"
-msgstr ""
-"Apples aluminiumstastatur: Emuler PC-taster (Udskriv, Scroll Lock, Pause, "
-"NumLock)"
+msgid "Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num Lock)"
+msgstr "Apples aluminiumstastatur: Emuler PC-taster (Udskriv, Scroll Lock, Pause, NumLock)"
 
 #: ../rules/base.xml.in.h:1026
 msgid "Shift cancels Caps Lock"
@@ -3918,8 +3872,7 @@ msgstr "Begge skift-taster sammen skifter Caps Lock"
 
 #: ../rules/base.xml.in.h:1029
 msgid "Both Shift keys together activate Caps Lock, one Shift key deactivates"
-msgstr ""
-"Begge skift-taster sammen aktiverer Caps Lock, en Skift-tast deaktiverer"
+msgstr "Begge skift-taster sammen aktiverer Caps Lock, en Skift-tast deaktiverer"
 
 #: ../rules/base.xml.in.h:1030
 msgid "Both Shift keys together toggle ShiftLock"
@@ -3931,8 +3884,7 @@ msgstr "Skift + NumLock skifter PointerKeys"
 
 #: ../rules/base.xml.in.h:1032
 msgid "Allow breaking grabs with keyboard actions (warning: security risk)"
-msgstr ""
-"Tillader afbrydelsesgreb med tastaturhandlinger (advarsel: sikkerhedsrisiko)"
+msgstr "Tillader afbrydelsesgreb med tastaturhandlinger (advarsel: sikkerhedsrisiko)"
 
 #: ../rules/base.xml.in.h:1033
 msgid "Allow grab and window tree logging"
@@ -3972,36 +3924,20 @@ msgid "Key to choose 5th level"
 msgstr "Tast for at vælge femte niveau"
 
 #: ../rules/base.xml.in.h:1041
-msgid ""
-"&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with "
-"another 5th-level-chooser"
-msgstr ""
-"&lt;Mindre end/Større end&gt; vælger femte niveau, låser når trykket ned "
-"sammen med en anden femte niveauvælger"
+msgid "&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "&lt;Mindre end/Større end&gt; vælger femte niveau, låser når trykket ned sammen med en anden femte niveauvælger"
 
 #: ../rules/base.xml.in.h:1042
-msgid ""
-"Right Alt chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Højre Alt vælge femte niveau, låser når trykket ned sammen med en anden "
-"femte niveauvælger"
+msgid "Right Alt chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Højre Alt vælge femte niveau, låser når trykket ned sammen med en anden femte niveauvælger"
 
 #: ../rules/base.xml.in.h:1043
-msgid ""
-"Left Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Venstre Win-tast vælger femte niveau, låser når trykket ned sammen med en "
-"anden femte niveauvælger"
+msgid "Left Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Venstre Win-tast vælger femte niveau, låser når trykket ned sammen med en anden femte niveauvælger"
 
 #: ../rules/base.xml.in.h:1044
-msgid ""
-"Right Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Højre Win-tast vælger femte niveau, låser når trykket ned sammen med en "
-"anden femte niveauvælger"
+msgid "Right Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Højre Win-tast vælger femte niveau, låser når trykket ned sammen med en anden femte niveauvælger"
 
 #: ../rules/base.xml.in.h:1045
 msgid "Using space key to input non-breakable space character"
@@ -4024,32 +3960,20 @@ msgid "Non-breakable space character at third level, nothing at fourth level"
 msgstr "Ubrydelig mellemrumskarakter på tredje niveau, intet på fjerde niveau"
 
 #: ../rules/base.xml.in.h:1050
-msgid ""
-"Non-breakable space character at third level, thin non-breakable space "
-"character at fourth level"
-msgstr ""
-"Ubrydelig mellemrumskarakter på tredje niveau, tynd ubrydelig "
-"mellemrumskarakter på fjerde niveau"
+msgid "Non-breakable space character at third level, thin non-breakable space character at fourth level"
+msgstr "Ubrydelig mellemrumskarakter på tredje niveau, tynd ubrydelig mellemrumskarakter på fjerde niveau"
 
 #: ../rules/base.xml.in.h:1051
 msgid "Non-breakable space character at fourth level"
 msgstr "Ubrydelig mellemrumskarakter på fjerde niveau"
 
 #: ../rules/base.xml.in.h:1052
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level"
-msgstr ""
-"Ubrydelig mellemrumskarakter på fjerde niveau, tynd ubrydelige "
-"mellemrumskarakter på sjette niveau"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level"
+msgstr "Ubrydelig mellemrumskarakter på fjerde niveau, tynd ubrydelige mellemrumskarakter på sjette niveau"
 
 #: ../rules/base.xml.in.h:1053
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level (via Ctrl+Shift)"
-msgstr ""
-"Ubrydelig mellemrumskarakter på fjerde niveau, tynd ubrydelige "
-"mellemrumskarakter på sjette niveau (via Ctrl+Skift)"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)"
+msgstr "Ubrydelig mellemrumskarakter på fjerde niveau, tynd ubrydelige mellemrumskarakter på sjette niveau (via Ctrl+Skift)"
 
 # The zero-width non-joiner (ZWNJ) is a non-printing character used in the computerized
 # typesetting of some cursive scripts, or other scripts which make use of ligatures, 
@@ -4064,60 +3988,32 @@ msgid "Zero-width non-joiner character at second level"
 msgstr "Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau"
 
 #: ../rules/base.xml.in.h:1055
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level"
-msgstr ""
-"Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ombrydeligt mellemrumstegn "
-"på tredje niveau"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level"
+msgstr "Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ombrydeligt mellemrumstegn på tredje niveau"
 
 #: ../rules/base.xml.in.h:1056
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level, non-breakable space character at fourth level"
-msgstr ""
-"Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ombrydeligt mellemrumstegn "
-"på tredje niveau, ubrydeligt mellemrumsteng på fjerde niveau"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level, non-breakable space character at fourth level"
+msgstr "Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ombrydeligt mellemrumstegn på tredje niveau, ubrydeligt mellemrumsteng på fjerde niveau"
 
 #: ../rules/base.xml.in.h:1057
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level"
-msgstr ""
-"Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ubrydeligt mellemrumstegn "
-"på tredje niveau"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level"
+msgstr "Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ubrydeligt mellemrumstegn på tredje niveau"
 
 #: ../rules/base.xml.in.h:1058
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, nothing at fourth level"
-msgstr ""
-"Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ubrydeligt på mellemrum på "
-"tredje niveau"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, nothing at fourth level"
+msgstr "Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ubrydeligt på mellemrum på tredje niveau"
 
 #: ../rules/base.xml.in.h:1059
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, zero-width joiner at fourth level"
-msgstr ""
-"Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ubrydeligt mellemrumstegn "
-"på tredje niveau, ubrydeligt mellemrumstegn (ZWNJ) på fjerde niveau"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, zero-width joiner at fourth level"
+msgstr "Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ubrydeligt mellemrumstegn på tredje niveau, ubrydeligt mellemrumstegn (ZWNJ) på fjerde niveau"
 
 #: ../rules/base.xml.in.h:1060
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, thin non-breakable space at fourth level"
-msgstr ""
-"Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ubrydeligt mellemrumstegn "
-"på tredje niveau"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, thin non-breakable space at fourth level"
+msgstr "Ubrydeligt mellemrumstegn (ZWNJ) på andet niveau, ubrydeligt mellemrumstegn på tredje niveau"
 
 #: ../rules/base.xml.in.h:1061
-msgid ""
-"Zero-width non-joiner character at third level, zero-width joiner at fourth "
-"level"
-msgstr ""
-"Ubrydeligt mellemrumstegn (ZWNJ) på tredje niveau, ombrydeligt "
-"mellemrumstegn på fjerde niveau"
+msgid "Zero-width non-joiner character at third level, zero-width joiner at fourth level"
+msgstr "Ubrydeligt mellemrumstegn (ZWNJ) på tredje niveau, ombrydeligt mellemrumstegn på fjerde niveau"
 
 #: ../rules/base.xml.in.h:1062
 msgid "Japanese keyboard options"

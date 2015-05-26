@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xkeyboard-config-2.14.99\n"
 "Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
-"POT-Creation-Date: 2015-05-26 21:06+0100\n"
+"POT-Creation-Date: 2015-05-13 23:54+0100\n"
 "PO-Revision-Date: 2015-05-21 18:12-0300\n"
 "Last-Translator: Facundo Dario Illanes <fdillanes@gmail.com>\n"
 "Language-Team: Spanish <es@tp.org.es>\n"
@@ -2860,8 +2860,7 @@ msgid "Tamil (Sri Lanka, TAB Typewriter)"
 msgstr "Tamil (Sri Lanka, máquina de escribir TAB)"
 
 #: ../rules/base.xml.in.h:769
-#, fuzzy
-msgid "Sinhala (US keyboard with Sinhala letters)"
+msgid "Singhala (US keyboard with Singhala letters)"
 msgstr "Cingalés (teclado EE. UU. con letras cingalesas)"
 
 #. Keyboard indicator for Thai layouts
@@ -3343,11 +3342,8 @@ msgid "Any Win key (while pressed)"
 msgstr "Cualquier tecla Windows (al pulsarla)"
 
 #: ../rules/base.xml.in.h:906
-msgid ""
-"Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
-msgstr ""
-"Bloq Mayús (al pulsarse), Alt+Bloq Mayús realiza la acción original de "
-"bloqueo de mayúsculas"
+msgid "Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
+msgstr "Bloq Mayús (al pulsarse), Alt+Bloq Mayús realiza la acción original de bloqueo de mayúsculas"
 
 #: ../rules/base.xml.in.h:907
 msgid "Right Ctrl (while pressed)"
@@ -3371,21 +3367,15 @@ msgstr "Mayús+Bloq Mayús"
 
 #: ../rules/base.xml.in.h:912
 msgid "Caps Lock (to first layout), Shift+Caps Lock (to last layout)"
-msgstr ""
-"Bloq Mayús (a la primera distribución), Mayús+Bloq Mayús (a la última "
-"distribución)"
+msgstr "Bloq Mayús (a la primera distribución), Mayús+Bloq Mayús (a la última distribución)"
 
 #: ../rules/base.xml.in.h:913
 msgid "Left Win (to first layout), Right Win/Menu (to last layout)"
-msgstr ""
-"Win izquierdo (a la primera distribución), Win/Menu derecho (a la última "
-"distribución)"
+msgstr "Win izquierdo (a la primera distribución), Win/Menu derecho (a la última distribución)"
 
 #: ../rules/base.xml.in.h:914
 msgid "Left Ctrl (to first layout), Right Ctrl (to last layout)"
-msgstr ""
-"Ctrl izquierdo (a la primera distribución), Ctrl derecho (a la última "
-"distribución)"
+msgstr "Ctrl izquierdo (a la primera distribución), Ctrl derecho (a la última distribución)"
 
 #: ../rules/base.xml.in.h:915
 msgid "Alt+Caps Lock"
@@ -3469,9 +3459,7 @@ msgstr "Bloq Despl"
 
 #: ../rules/base.xml.in.h:935
 msgid "LeftCtrl+LeftWin (to first layout), RightCtrl+Menu (to second layout)"
-msgstr ""
-"Ctrl izquierdo + Ctrl derecho (a la primera distribución), Ctrl derecho + "
-"Menú (a la segunda distribución)"
+msgstr "Ctrl izquierdo + Ctrl derecho (a la primera distribución), Ctrl derecho + Menú (a la segunda distribución)"
 
 #: ../rules/base.xml.in.h:936
 msgid "Key to choose 3rd level"
@@ -3506,28 +3494,16 @@ msgid "&lt;Less/Greater&gt;"
 msgstr "&lt;Menor que/Mayor que&gt;"
 
 #: ../rules/base.xml.in.h:944
-msgid ""
-"Caps Lock chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
-msgstr ""
-"Bloq Mayús elige el tercer nivel, actúa como un bloqueo de una sola vez al "
-"pulsarse junto con otro selector de tercer nivel"
+msgid "Caps Lock chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "Bloq Mayús elige el tercer nivel, actúa como un bloqueo de una sola vez al pulsarse junto con otro selector de tercer nivel"
 
 #: ../rules/base.xml.in.h:945
-msgid ""
-"Backslash chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
-msgstr ""
-"Contrabarra elige el tercer nivel, bloquea solo una vez al pulsarse junto "
-"con otro selector de tercer nivel"
+msgid "Backslash chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "Contrabarra elige el tercer nivel, bloquea solo una vez al pulsarse junto con otro selector de tercer nivel"
 
 #: ../rules/base.xml.in.h:946
-msgid ""
-"&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed "
-"together with another 3rd-level-chooser"
-msgstr ""
-"&lt;Menor que/Mayor que&gt; elige el 3º nivel, bloquea solo una vez al "
-"pulsarse junto con otro selector de 3º nivel"
+msgid "&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "&lt;Menor que/Mayor que&gt; elige el 3º nivel, bloquea solo una vez al pulsarse junto con otro selector de 3º nivel"
 
 #: ../rules/base.xml.in.h:947
 msgid "Ctrl key position"
@@ -3579,9 +3555,7 @@ msgstr "Intercambiar tecla Windows Derecha con tecla Ctrl Derecha"
 
 #: ../rules/base.xml.in.h:959
 msgid "Left Alt as Ctrl, Left Ctrl as Win, Left Win as Alt"
-msgstr ""
-"Tecla Alt como tecla Ctrl, Tecla Ctrl izquierda como tecla Windows, tecla "
-"Windows como tecla Alt"
+msgstr "Tecla Alt como tecla Ctrl, Tecla Ctrl izquierda como tecla Windows, tecla Windows como tecla Alt"
 
 #: ../rules/base.xml.in.h:960
 msgid "Use keyboard LED to show alternative layout"
@@ -3604,12 +3578,8 @@ msgid "Unicode additions (arrows and math operators)"
 msgstr "Adiciones Unicode (flechas y operadores matemáticos)"
 
 #: ../rules/base.xml.in.h:965
-msgid ""
-"Unicode additions (arrows and math operators; math operators on default "
-"level)"
-msgstr ""
-"Adiciones Unicode (flechas y operadores matemáticos; operadores matemáticos "
-"en el nivel predeterminado)"
+msgid "Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Adiciones Unicode (flechas y operadores matemáticos; operadores matemáticos en el nivel predeterminado)"
 
 #: ../rules/base.xml.in.h:966
 msgid "Legacy Wang 724"
@@ -3617,17 +3587,11 @@ msgstr "Wang 724 arcaico"
 
 #: ../rules/base.xml.in.h:967
 msgid "Wang 724 keypad with Unicode additions (arrows and math operators)"
-msgstr ""
-"Teclado numérico Wang 724 con adiciones Unicode (flechas y operadores "
-"matemáticos)"
+msgstr "Teclado numérico Wang 724 con adiciones Unicode (flechas y operadores matemáticos)"
 
 #: ../rules/base.xml.in.h:968
-msgid ""
-"Wang 724 keypad with Unicode additions (arrows and math operators; math "
-"operators on default level)"
-msgstr ""
-"Teclado numérico Wang 724 con adiciones Unicode (flechas y operadores "
-"matemáticos; operadores matemáticos en el nivel predeterminado)"
+msgid "Wang 724 keypad with Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Teclado numérico Wang 724 con adiciones Unicode (flechas y operadores matemáticos; operadores matemáticos en el nivel predeterminado)"
 
 #: ../rules/base.xml.in.h:969
 msgid "Hexadecimal"
@@ -3698,8 +3662,7 @@ msgstr "Bloq Mayús actúa como Mayús con bloqueo; Mayús no afecta a Bloq May�
 
 #: ../rules/base.xml.in.h:988
 msgid "Caps Lock toggles normal capitalization of alphabetic characters"
-msgstr ""
-"Bloq Mayús cambia la capitalización normal de los caracteres alfabéticos"
+msgstr "Bloq Mayús cambia la capitalización normal de los caracteres alfabéticos"
 
 #: ../rules/base.xml.in.h:989
 msgid "Make Caps Lock an additional Num Lock"
@@ -3759,9 +3722,7 @@ msgstr "Control está mapeada en las teclas Windows (y las teclas Ctrl usuales)"
 
 #: ../rules/base.xml.in.h:1003
 msgid "Ctrl is mapped to Alt keys, Alt is mapped to Win keys"
-msgstr ""
-"Control está mapeada en las teclas Alt, Alt está mapeado en las teclas "
-"Windows"
+msgstr "Control está mapeada en las teclas Alt, Alt está mapeado en las teclas Windows"
 
 #: ../rules/base.xml.in.h:1004
 msgid "Meta is mapped to Win keys"
@@ -3833,16 +3794,11 @@ msgstr "Teclas del teclado numérico predeterminado"
 
 #: ../rules/base.xml.in.h:1021
 msgid "Numeric keypad keys always enter digits (as in Mac OS)"
-msgstr ""
-"Las teclas del teclado numérico siempre introducen dígitos (como en Mac OS)"
+msgstr "Las teclas del teclado numérico siempre introducen dígitos (como en Mac OS)"
 
 #: ../rules/base.xml.in.h:1022
-msgid ""
-"NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow "
-"keys (as in MS Windows)"
-msgstr ""
-"Bloq Num encendido: dígitos, Mayús cambia a teclas con flecha, Block Num "
-"apagado: siempre teclas con flecha (como en MS Windows)"
+msgid "NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow keys (as in MS Windows)"
+msgstr "Bloq Num encendido: dígitos, Mayús cambia a teclas con flecha, Block Num apagado: siempre teclas con flecha (como en MS Windows)"
 
 #: ../rules/base.xml.in.h:1023
 msgid "Shift does not cancel Num Lock, chooses 3rd level instead"
@@ -3853,12 +3809,8 @@ msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
 msgstr "Teclas especiales (Ctrl+Alt+«tecla») manipuladas en un servidor"
 
 #: ../rules/base.xml.in.h:1025
-msgid ""
-"Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num "
-"Lock)"
-msgstr ""
-"Teclado de aluminio de Apple: emular teclas PC (Imprimir, Bloq Despl, Pausa, "
-"Bloq Num)"
+msgid "Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num Lock)"
+msgstr "Teclado de aluminio de Apple: emular teclas PC (Imprimir, Bloq Despl, Pausa, Bloq Num)"
 
 #: ../rules/base.xml.in.h:1026
 msgid "Shift cancels Caps Lock"
@@ -3874,8 +3826,7 @@ msgstr "Ambas teclas Mayús juntas conmutan Bloq Mayús"
 
 #: ../rules/base.xml.in.h:1029
 msgid "Both Shift keys together activate Caps Lock, one Shift key deactivates"
-msgstr ""
-"Ambas teclas Mayús juntas conmutan Bloq Mayús, una tecla Mayús lo desactiva"
+msgstr "Ambas teclas Mayús juntas conmutan Bloq Mayús, una tecla Mayús lo desactiva"
 
 #: ../rules/base.xml.in.h:1030
 msgid "Both Shift keys together toggle ShiftLock"
@@ -3887,8 +3838,7 @@ msgstr "Shift + Bloq Num cambia las teclas de flechas"
 
 #: ../rules/base.xml.in.h:1032
 msgid "Allow breaking grabs with keyboard actions (warning: security risk)"
-msgstr ""
-"Permitir tomar interrupciones con el teclado (Peligro: riesgos de seguridad)"
+msgstr "Permitir tomar interrupciones con el teclado (Peligro: riesgos de seguridad)"
 
 # dice literalmente "árbol" he visto que se utiliza como sinónimo de servidor.
 #: ../rules/base.xml.in.h:1033
@@ -3924,41 +3874,24 @@ msgid "Key to choose 5th level"
 msgstr "Tecla para seleccionar el 5o nivel"
 
 #: ../rules/base.xml.in.h:1041
-msgid ""
-"&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with "
-"another 5th-level-chooser"
-msgstr ""
-"&lt;Menor que/Mayor que&gt; elige el 5º nivel, bloquea al pulsarse junto con "
-"otro selector de 5º nivel"
+msgid "&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "&lt;Menor que/Mayor que&gt; elige el 5º nivel, bloquea al pulsarse junto con otro selector de 5º nivel"
 
 #: ../rules/base.xml.in.h:1042
-msgid ""
-"Right Alt chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Alt derecho elige el 5º nivel, bloquea al pulsarse junto con otro selector "
-"de 5º nivel"
+msgid "Right Alt chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Alt derecho elige el 5º nivel, bloquea al pulsarse junto con otro selector de 5º nivel"
 
 #: ../rules/base.xml.in.h:1043
-msgid ""
-"Left Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Win izquierdo elige el 5º nivel, bloquea al pulsarse junto con otro selector "
-"de 5º nivel"
+msgid "Left Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Win izquierdo elige el 5º nivel, bloquea al pulsarse junto con otro selector de 5º nivel"
 
 #: ../rules/base.xml.in.h:1044
-msgid ""
-"Right Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Win derecho elige el 5º nivel, bloquea al pulsarse junto con otro selector "
-"de 5º nivel"
+msgid "Right Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Win derecho elige el 5º nivel, bloquea al pulsarse junto con otro selector de 5º nivel"
 
 #: ../rules/base.xml.in.h:1045
 msgid "Using space key to input non-breakable space character"
-msgstr ""
-"Usar la tecla espacio para introducir un carácter de espacio no separable"
+msgstr "Usar la tecla espacio para introducir un carácter de espacio no separable"
 
 #: ../rules/base.xml.in.h:1046
 msgid "Usual space at any level"
@@ -3974,100 +3907,55 @@ msgstr "Carácter de espacio no separable en el tercer nivel"
 
 #: ../rules/base.xml.in.h:1049
 msgid "Non-breakable space character at third level, nothing at fourth level"
-msgstr ""
-"Carácter de espacio no separable en el tercer nivel, nada en el cuarto nivel"
+msgstr "Carácter de espacio no separable en el tercer nivel, nada en el cuarto nivel"
 
 #: ../rules/base.xml.in.h:1050
-msgid ""
-"Non-breakable space character at third level, thin non-breakable space "
-"character at fourth level"
-msgstr ""
-"Carácter de espacio no separable en el tercer nivel, carácter de espacio "
-"estrecho no separable en el cuarto nivel"
+msgid "Non-breakable space character at third level, thin non-breakable space character at fourth level"
+msgstr "Carácter de espacio no separable en el tercer nivel, carácter de espacio estrecho no separable en el cuarto nivel"
 
 #: ../rules/base.xml.in.h:1051
 msgid "Non-breakable space character at fourth level"
 msgstr "Carácter de espacio no separable en el cuarto nivel"
 
 #: ../rules/base.xml.in.h:1052
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level"
-msgstr ""
-"Carácter de espacio no separable en el cuarto nivel, carácter de espacio "
-"estrecho no separable en el sexto nivel"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level"
+msgstr "Carácter de espacio no separable en el cuarto nivel, carácter de espacio estrecho no separable en el sexto nivel"
 
 #: ../rules/base.xml.in.h:1053
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level (via Ctrl+Shift)"
-msgstr ""
-"Carácter de espacio no separable en el cuarto nivel, carácter de espacio "
-"estrecho no separable en el sexto nivel (a través de Ctrl+Mayús)"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)"
+msgstr "Carácter de espacio no separable en el cuarto nivel, carácter de espacio estrecho no separable en el sexto nivel (a través de Ctrl+Mayús)"
 
 #: ../rules/base.xml.in.h:1054
 msgid "Zero-width non-joiner character at second level"
-msgstr ""
-"Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel"
+msgstr "Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel"
 
 #: ../rules/base.xml.in.h:1055
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level"
-msgstr ""
-"Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, "
-"carácter de espacio de anchura cero rompible («ZWJ») en el tercer nivel"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level"
+msgstr "Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, carácter de espacio de anchura cero rompible («ZWJ») en el tercer nivel"
 
 #: ../rules/base.xml.in.h:1056
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level, non-breakable space character at fourth level"
-msgstr ""
-"Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, "
-"carácter de espacio de anchura cero rompible («ZWJ») en el tercer nivel, "
-"caracter de espacio no separable en el cuarto nivel"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level, non-breakable space character at fourth level"
+msgstr "Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, carácter de espacio de anchura cero rompible («ZWJ») en el tercer nivel, caracter de espacio no separable en el cuarto nivel"
 
 #: ../rules/base.xml.in.h:1057
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level"
-msgstr ""
-"Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, "
-"carácter de espacio no separable en el tercer nivel"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level"
+msgstr "Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, carácter de espacio no separable en el tercer nivel"
 
 #: ../rules/base.xml.in.h:1058
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, nothing at fourth level"
-msgstr ""
-"Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, "
-"carácter de espacio no separable en el tercer nivel, nada en el cuarto nivel"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, nothing at fourth level"
+msgstr "Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, carácter de espacio no separable en el tercer nivel, nada en el cuarto nivel"
 
 #: ../rules/base.xml.in.h:1059
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, zero-width joiner at fourth level"
-msgstr ""
-"Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, "
-"carácter de espacio no separable en el tercer nivel, espacio de anchura cero "
-"rompible («ZWJ») en el cuarto nivel"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, zero-width joiner at fourth level"
+msgstr "Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, carácter de espacio no separable en el tercer nivel, espacio de anchura cero rompible («ZWJ») en el cuarto nivel"
 
 #: ../rules/base.xml.in.h:1060
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, thin non-breakable space at fourth level"
-msgstr ""
-"Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, "
-"carácter de espacio no separable en el tercer nivel, espacio estrecho no "
-"separable en el cuarto nivel"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, thin non-breakable space at fourth level"
+msgstr "Carácer de espacio irrompible de anchura cero («ZWNJ») en el segundo nivel, carácter de espacio no separable en el tercer nivel, espacio estrecho no separable en el cuarto nivel"
 
 #: ../rules/base.xml.in.h:1061
-msgid ""
-"Zero-width non-joiner character at third level, zero-width joiner at fourth "
-"level"
-msgstr ""
-"Carácer de espacio irrompible de anchura cero («ZWNJ») en el tercer nivel, "
-"carácter de anchura cero rompible («ZWJ») en el cuarto nivel"
+msgid "Zero-width non-joiner character at third level, zero-width joiner at fourth level"
+msgstr "Carácer de espacio irrompible de anchura cero («ZWNJ») en el tercer nivel, carácter de anchura cero rompible («ZWJ») en el cuarto nivel"
 
 #: ../rules/base.xml.in.h:1062
 msgid "Japanese keyboard options"
@@ -4284,8 +4172,7 @@ msgstr "Inglés (EE. UU., internacional combinando Unicode por AltGr)"
 
 #: ../rules/base.extras.xml.in.h:50
 msgid "English (US, international AltGr Unicode combining, alternative)"
-msgstr ""
-"Inglés (EE. UU., internacional combinando Unicode por AltGr, alternativo)"
+msgstr "Inglés (EE. UU., internacional combinando Unicode por AltGr, alternativo)"
 
 #: ../rules/base.extras.xml.in.h:51
 msgid "Atsina"
@@ -4474,8 +4361,7 @@ msgid "Mmuock"
 msgstr "Mmuock"
 
 #~ msgid "Shift with numeric keypad keys works as in MS Windows"
-#~ msgstr ""
-#~ "Mayús con las teclas del teclado numérico funcionan como en MS Windows"
+#~ msgstr "Mayús con las teclas del teclado numérico funcionan como en MS Windows"
 
 #~ msgid "Bengali"
 #~ msgstr "Bengalí"
@@ -4483,21 +4369,11 @@ msgstr "Mmuock"
 #~ msgid "Portuguese (Brazil, nativo for Esperanto)"
 #~ msgstr "Portugués (Brasil, nativo para esperanto)"
 
-#~ msgid ""
-#~ "&lt;Less/Greater&gt; chooses 5th level and activates level5-Lock when "
-#~ "pressed together with another 5th-level-chooser, one press releases the "
-#~ "lock"
-#~ msgstr ""
-#~ "&lt;Menor que/Mayor que&gt; elige el 5º nivel y activa el bloqueo de 5º "
-#~ "nivel al pulsarse junto con otro selector de 5º nivel, una pulsación "
-#~ "libera el bloqueo"
+#~ msgid "&lt;Less/Greater&gt; chooses 5th level and activates level5-Lock when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "&lt;Menor que/Mayor que&gt; elige el 5º nivel y activa el bloqueo de 5º nivel al pulsarse junto con otro selector de 5º nivel, una pulsación libera el bloqueo"
 
-#~ msgid ""
-#~ "&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with "
-#~ "another 5th-level-chooser, one press releases the lock"
-#~ msgstr ""
-#~ "&lt;Menor que/Mayor que&gt; elige el 5º nivel, bloquea al pulsarse junto "
-#~ "con otro selector de 5º nivel, una pulsación libera el bloqueo"
+#~ msgid "&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "&lt;Menor que/Mayor que&gt; elige el 5º nivel, bloquea al pulsarse junto con otro selector de 5º nivel, una pulsación libera el bloqueo"
 
 #~ msgid "Catalan"
 #~ msgstr "Catalán"
@@ -4514,41 +4390,23 @@ msgstr "Mmuock"
 #~ msgid "Key(s) to change layout"
 #~ msgstr "Tecla(s) para cambiar la distribución"
 
-#~ msgid ""
-#~ "Left Win chooses 5th level, locks when pressed together with another 5th-"
-#~ "level-chooser, one press releases the lock"
-#~ msgstr ""
-#~ "Win izquierdo elige el 5º nivel, bloquea al pulsarse junto con otro "
-#~ "selector de 5º nivel, una pulsación libera el bloqueo"
+#~ msgid "Left Win chooses 5th level, locks when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "Win izquierdo elige el 5º nivel, bloquea al pulsarse junto con otro selector de 5º nivel, una pulsación libera el bloqueo"
 
 #~ msgid "Make Caps Lock an additional Control but keep the Caps_Lock keysym"
-#~ msgstr ""
-#~ "Hacer de Bloq Mayús un Control adicional pero mantener el símbolo de "
-#~ "tecla Caps_Lock"
+#~ msgstr "Hacer de Bloq Mayús un Control adicional pero mantener el símbolo de tecla Caps_Lock"
 
 #~ msgid "Numeric keypad layout selection"
 #~ msgstr "Selección de distribución de teclado numérico"
 
-#~ msgid ""
-#~ "Right Alt chooses 5th level and activates level5-Lock when pressed "
-#~ "together with another 5th-level-chooser, one press releases the lock"
-#~ msgstr ""
-#~ "Alt derecho elige el 5º nivel y activa el bloqueo de 5º nivel al pulsarse "
-#~ "junto con otro selector de 5º nivel, una pulsación libera el bloqueo"
+#~ msgid "Right Alt chooses 5th level and activates level5-Lock when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "Alt derecho elige el 5º nivel y activa el bloqueo de 5º nivel al pulsarse junto con otro selector de 5º nivel, una pulsación libera el bloqueo"
 
-#~ msgid ""
-#~ "Right Alt chooses 5th level, locks when pressed together with another 5th-"
-#~ "level-chooser, one press releases the lock"
-#~ msgstr ""
-#~ "Alt derecho elige el 5º nivel, bloquea al pulsarse junto con otro "
-#~ "selector de 5º nivel, una pulsación libera el bloqueo"
+#~ msgid "Right Alt chooses 5th level, locks when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "Alt derecho elige el 5º nivel, bloquea al pulsarse junto con otro selector de 5º nivel, una pulsación libera el bloqueo"
 
-#~ msgid ""
-#~ "Right Win chooses 5th level, locks when pressed together with another 5th-"
-#~ "level-chooser, one press releases the lock"
-#~ msgstr ""
-#~ "Win derecho elige el 5º nivel, bloquea al pulsarse junto con otro "
-#~ "selector de 5º nivel, una pulsación libera el bloqueo"
+#~ msgid "Right Win chooses 5th level, locks when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "Win derecho elige el 5º nivel, bloquea al pulsarse junto con otro selector de 5º nivel, una pulsación libera el bloqueo"
 
 #~ msgid "Serbian (Z and ZHE swapped)"
 #~ msgstr "Serbio (Z y ZHE intercambiados)"
@@ -4599,8 +4457,7 @@ msgstr "Mmuock"
 #~ msgstr "GBr"
 
 #~ msgid "German (Romanian keyboard with German letters, eliminate dead keys)"
-#~ msgstr ""
-#~ "Alemán (teclado rumano con teclas alemanas, eliminar teclas muertas)"
+#~ msgstr "Alemán (teclado rumano con teclas alemanas, eliminar teclas muertas)"
 
 #~ msgid "Irish (Ogham)"
 #~ msgstr "Irlandés (ogham)"

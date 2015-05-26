@@ -34,7 +34,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xkeyboard-config-2.14.99\n"
 "Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
-"POT-Creation-Date: 2015-05-26 21:06+0100\n"
+"POT-Creation-Date: 2015-05-13 23:54+0100\n"
 "PO-Revision-Date: 2015-05-19 10:51+0200\n"
 "Last-Translator: Benno Schulenberg <benno@vertaalt.nl>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
@@ -2932,8 +2932,7 @@ msgid "Tamil (Sri Lanka, TAB Typewriter)"
 msgstr "Tamil (Sri Lanka, TAB-typmachine)"
 
 #: ../rules/base.xml.in.h:769
-#, fuzzy
-msgid "Sinhala (US keyboard with Sinhala letters)"
+msgid "Singhala (US keyboard with Singhala letters)"
 msgstr "Singalees (VS-toetsenbord met Singalese lettertekens)"
 
 #. Keyboard indicator for Thai layouts
@@ -3209,8 +3208,7 @@ msgstr "Esperanto"
 
 #: ../rules/base.xml.in.h:844
 msgid "Esperanto (displaced semicolon and quote, obsolete)"
-msgstr ""
-"Esperanto (puntkomma en aanhalingsteken op afwijkende plek, historisch)"
+msgstr "Esperanto (puntkomma en aanhalingsteken op afwijkende plek, historisch)"
 
 #. Keyboard indicator for Nepali layouts
 #: ../rules/base.xml.in.h:846
@@ -3434,11 +3432,8 @@ msgstr "Elke Windows-toets (ingedrukt gehouden)"
 
 # XXX: what IS original capslock action?
 #: ../rules/base.xml.in.h:906
-msgid ""
-"Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
-msgstr ""
-"CapsLock (ingedrukt gehouden); Alt+CapsLock geeft de oorspronkelijke caps-"
-"lock actie"
+msgid "Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
+msgstr "CapsLock (ingedrukt gehouden); Alt+CapsLock geeft de oorspronkelijke caps-lock actie"
 
 #: ../rules/base.xml.in.h:907
 msgid "Right Ctrl (while pressed)"
@@ -3463,22 +3458,17 @@ msgstr "Shift + CapsLock"
 # CapsLock wisselt naar de eerste indeling, Shift+CapsLock wisselt naar de laatste indeling.
 #: ../rules/base.xml.in.h:912
 msgid "Caps Lock (to first layout), Shift+Caps Lock (to last layout)"
-msgstr ""
-"CapsLock (naar eerste indeling), Shift+CapsLock (naar laatste indeling)"
+msgstr "CapsLock (naar eerste indeling), Shift+CapsLock (naar laatste indeling)"
 
 # Linker Win-toets wisselt naar de eerste indeling, rechter Win/Menu-toets wisselt naar de laatste indeling.
 #: ../rules/base.xml.in.h:913
 msgid "Left Win (to first layout), Right Win/Menu (to last layout)"
-msgstr ""
-"Linker Windows-toets (naar eerste indeling), rechter Windows/Menu-toets "
-"(naar laatste indeling)"
+msgstr "Linker Windows-toets (naar eerste indeling), rechter Windows/Menu-toets (naar laatste indeling)"
 
 # Linker Win-toets wisselt naar de eerste indeling, rechter Win/Menu-toets wisselt naar de laatste indeling.
 #: ../rules/base.xml.in.h:914
 msgid "Left Ctrl (to first layout), Right Ctrl (to last layout)"
-msgstr ""
-"Linker Ctrl-toets (naar eerste indeling), rechter Ctrl-toets (naar laatste "
-"indeling)"
+msgstr "Linker Ctrl-toets (naar eerste indeling), rechter Ctrl-toets (naar laatste indeling)"
 
 #: ../rules/base.xml.in.h:915
 msgid "Alt+Caps Lock"
@@ -3563,9 +3553,7 @@ msgstr "Scroll-Lock"
 
 #: ../rules/base.xml.in.h:935
 msgid "LeftCtrl+LeftWin (to first layout), RightCtrl+Menu (to second layout)"
-msgstr ""
-"Linker Ctrl + linker Windows-toets (naar eerste indeling), rechter Ctrl + "
-"Menu-toets (naar tweede indeling)"
+msgstr "Linker Ctrl + linker Windows-toets (naar eerste indeling), rechter Ctrl + Menu-toets (naar tweede indeling)"
 
 # aan te zetten/te kiezen/te selecteren/te krijgen/te bereiken
 # 'to choose' is hier een slechte woordkeuze IMO
@@ -3603,26 +3591,18 @@ msgid "&lt;Less/Greater&gt;"
 msgstr "&lt;Kleiner dan/Groter dan&gt;"
 
 #: ../rules/base.xml.in.h:944
-msgid ""
-"Caps Lock chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
+msgid "Caps Lock chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
 msgstr "CapsLock, vergrendelt eenmalig samen met andere derdeniveaukiezer"
 
 #: ../rules/base.xml.in.h:945
-msgid ""
-"Backslash chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
+msgid "Backslash chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
 msgstr "Backslash, vergrendelt eenmalig samen met andere derdeniveaukiezer"
 
 # locks - op slot gezet/blijvend/in stand houden
 # latches - vergrendelt
 #: ../rules/base.xml.in.h:946
-msgid ""
-"&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed "
-"together with another 3rd-level-chooser"
-msgstr ""
-"&lt;Kleiner dan/Groter dan&gt;, vergrendelt eenmalig samen met andere "
-"derdeniveaukiezer"
+msgid "&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "&lt;Kleiner dan/Groter dan&gt;, vergrendelt eenmalig samen met andere derdeniveaukiezer"
 
 #: ../rules/base.xml.in.h:947
 msgid "Ctrl key position"
@@ -3681,8 +3661,7 @@ msgstr "Rechter Windows- en rechter Ctrl-toets omwisselen"
 
 #: ../rules/base.xml.in.h:959
 msgid "Left Alt as Ctrl, Left Ctrl as Win, Left Win as Alt"
-msgstr ""
-"Linker Alt is Ctrl, linker Ctrl is Windows-toets, linker Windows-toets is Alt"
+msgstr "Linker Alt is Ctrl, linker Ctrl is Windows-toets, linker Windows-toets is Alt"
 
 #: ../rules/base.xml.in.h:960
 msgid "Use keyboard LED to show alternative layout"
@@ -3705,12 +3684,8 @@ msgid "Unicode additions (arrows and math operators)"
 msgstr "Unicode-aanvullingen (pijlen en wiskundige operatoren)"
 
 #: ../rules/base.xml.in.h:965
-msgid ""
-"Unicode additions (arrows and math operators; math operators on default "
-"level)"
-msgstr ""
-"Unicode-aanvullingen (pijlen en wiskundige operatoren; de laatste op "
-"standaardniveau)"
+msgid "Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Unicode-aanvullingen (pijlen en wiskundige operatoren; de laatste op standaardniveau)"
 
 #: ../rules/base.xml.in.h:966
 msgid "Legacy Wang 724"
@@ -3718,17 +3693,11 @@ msgstr "Historisch Wang 724"
 
 #: ../rules/base.xml.in.h:967
 msgid "Wang 724 keypad with Unicode additions (arrows and math operators)"
-msgstr ""
-"Wang 724 cijferblok met Unicode-aanvullingen (pijlen en wiskundige "
-"operatoren)"
+msgstr "Wang 724 cijferblok met Unicode-aanvullingen (pijlen en wiskundige operatoren)"
 
 #: ../rules/base.xml.in.h:968
-msgid ""
-"Wang 724 keypad with Unicode additions (arrows and math operators; math "
-"operators on default level)"
-msgstr ""
-"Wang 724 cijferblok met Unicode aanvullingen (pijlen en wiskundige "
-"operatoren; de laatste op standaardniveau)"
+msgid "Wang 724 keypad with Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Wang 724 cijferblok met Unicode aanvullingen (pijlen en wiskundige operatoren; de laatste op standaardniveau)"
 
 #: ../rules/base.xml.in.h:969
 msgid "Hexadecimal"
@@ -3785,25 +3754,19 @@ msgstr "Gedrag van CapsLock-toets"
 
 #: ../rules/base.xml.in.h:984
 msgid "Caps Lock uses internal capitalization; Shift \"pauses\" Caps Lock"
-msgstr ""
-"CapsLock gebruikt interne conversie naar hoofdletters; Shift heft CapsLock "
-"tijdelijk op"
+msgstr "CapsLock gebruikt interne conversie naar hoofdletters; Shift heft CapsLock tijdelijk op"
 
 #: ../rules/base.xml.in.h:985
 msgid "Caps Lock uses internal capitalization; Shift doesn't affect Caps Lock"
-msgstr ""
-"CapsLock gebruikt interne conversie naar hoofdletters; Shift heft CapsLock "
-"niet op"
+msgstr "CapsLock gebruikt interne conversie naar hoofdletters; Shift heft CapsLock niet op"
 
 #: ../rules/base.xml.in.h:986
 msgid "Caps Lock acts as Shift with locking; Shift \"pauses\" Caps Lock"
-msgstr ""
-"CapsLock werkt als Shift met vergrendeling; Shift heft CapsLock tijdelijk op"
+msgstr "CapsLock werkt als Shift met vergrendeling; Shift heft CapsLock tijdelijk op"
 
 #: ../rules/base.xml.in.h:987
 msgid "Caps Lock acts as Shift with locking; Shift doesn't affect Caps Lock"
-msgstr ""
-"CapsLock werkt als Shift met vergrendeling; Shift heft CapsLock niet op"
+msgstr "CapsLock werkt als Shift met vergrendeling; Shift heft CapsLock niet op"
 
 # heeft alleen effect op/werkt alleen op/beïnvloedt alleen ~
 # de alfabetische toetsen/
@@ -3840,8 +3803,7 @@ msgstr "Van CapsLock een extra Hyper maken"
 
 #: ../rules/base.xml.in.h:995
 msgid "Caps Lock toggles ShiftLock (affects all keys)"
-msgstr ""
-"CapsLock schakelt Shift-vergrendeling aan/uit (beïnvloedt alle toetsen)"
+msgstr "CapsLock schakelt Shift-vergrendeling aan/uit (beïnvloedt alle toetsen)"
 
 # heeft geen functie/geen effect
 #: ../rules/base.xml.in.h:996
@@ -3953,12 +3915,8 @@ msgid "Numeric keypad keys always enter digits (as in Mac OS)"
 msgstr "Cijferblok-toetsen geven altijd cijfers (net als bij Mac OS)"
 
 #: ../rules/base.xml.in.h:1022
-msgid ""
-"NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow "
-"keys (as in MS Windows)"
-msgstr ""
-"NumLock aan geeft cijfers, en Shift schakelt naar cursortoetsen; Numlock uit "
-"geeft altijd cursortoetsen (zoals in MS Windows)"
+msgid "NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow keys (as in MS Windows)"
+msgstr "NumLock aan geeft cijfers, en Shift schakelt naar cursortoetsen; Numlock uit geeft altijd cursortoetsen (zoals in MS Windows)"
 
 #: ../rules/base.xml.in.h:1023
 msgid "Shift does not cancel Num Lock, chooses 3rd level instead"
@@ -3969,12 +3927,8 @@ msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
 msgstr "Speciale toetsen (Ctrl+Alt+&lt;toets&gt;) afgehandeld in een server"
 
 #: ../rules/base.xml.in.h:1025
-msgid ""
-"Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num "
-"Lock)"
-msgstr ""
-"Apple Aluminium-toetsenbord: PC-toetsen emuleren (Print, Scroll-Lock, Pause, "
-"NumLock)"
+msgid "Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num Lock)"
+msgstr "Apple Aluminium-toetsenbord: PC-toetsen emuleren (Print, Scroll-Lock, Pause, NumLock)"
 
 #: ../rules/base.xml.in.h:1026
 msgid "Shift cancels Caps Lock"
@@ -4043,41 +3997,24 @@ msgstr "De toets om het vijde niveau te krijgen"
 
 # locks - op slot gezet/blijvend/in stand houden
 #: ../rules/base.xml.in.h:1041
-msgid ""
-"&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with "
-"another 5th-level-chooser"
-msgstr ""
-"&lt;Kleiner dan/Groter dan&gt; geeft vijfde niveau, en vergrendelt wanneer "
-"ingedrukt samen met andere vijfdeniveau-kiezer"
+msgid "&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "&lt;Kleiner dan/Groter dan&gt; geeft vijfde niveau, en vergrendelt wanneer ingedrukt samen met andere vijfdeniveau-kiezer"
 
 #: ../rules/base.xml.in.h:1042
-msgid ""
-"Right Alt chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Rechter Alt-toets geeft vijfde niveau, en vergrendelt wanneer ingedrukt "
-"samen met andere vijfdeniveau-kiezer"
+msgid "Right Alt chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Rechter Alt-toets geeft vijfde niveau, en vergrendelt wanneer ingedrukt samen met andere vijfdeniveau-kiezer"
 
 #: ../rules/base.xml.in.h:1043
-msgid ""
-"Left Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Linker Windows-toets geeft vijfde niveau, en vergrendelt wanneer ingedrukt "
-"samen met andere vijfdeniveau-kiezer"
+msgid "Left Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Linker Windows-toets geeft vijfde niveau, en vergrendelt wanneer ingedrukt samen met andere vijfdeniveau-kiezer"
 
 #: ../rules/base.xml.in.h:1044
-msgid ""
-"Right Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Rechter Windows-toets geeft vijfde niveau, en vergrendelt wanneer ingedrukt "
-"samen met andere vijfdeniveau-kiezer"
+msgid "Right Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Rechter Windows-toets geeft vijfde niveau, en vergrendelt wanneer ingedrukt samen met andere vijfdeniveau-kiezer"
 
 #: ../rules/base.xml.in.h:1045
 msgid "Using space key to input non-breakable space character"
-msgstr ""
-"Gebruik van spatiebalk voor het invoeren van harde (niet-afbrekende) spaties"
+msgstr "Gebruik van spatiebalk voor het invoeren van harde (niet-afbrekende) spaties"
 
 # Spatiebalk geeft de gebruikelijke spatie op elk niveau.
 #: ../rules/base.xml.in.h:1046
@@ -4100,11 +4037,8 @@ msgid "Non-breakable space character at third level, nothing at fourth level"
 msgstr "Harde spatie op het derde niveau, niets op het vierde niveau"
 
 #: ../rules/base.xml.in.h:1050
-msgid ""
-"Non-breakable space character at third level, thin non-breakable space "
-"character at fourth level"
-msgstr ""
-"Harde spatie op het derde niveau, smalle harde spatie op het vierde niveau"
+msgid "Non-breakable space character at third level, thin non-breakable space character at fourth level"
+msgstr "Harde spatie op het derde niveau, smalle harde spatie op het vierde niveau"
 
 # Spatiebalk geeft harde spatie op het vierde niveau.
 #: ../rules/base.xml.in.h:1051
@@ -4112,19 +4046,12 @@ msgid "Non-breakable space character at fourth level"
 msgstr "Harde spatie op het vierde niveau"
 
 #: ../rules/base.xml.in.h:1052
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level"
-msgstr ""
-"Harde spatie op het vierde niveau, smalle harde spatie op het zesde niveau"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level"
+msgstr "Harde spatie op het vierde niveau, smalle harde spatie op het zesde niveau"
 
 #: ../rules/base.xml.in.h:1053
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level (via Ctrl+Shift)"
-msgstr ""
-"Harde spatie op het vierde niveau, smalle harde spatie op het zesde niveau "
-"(via Ctrl+Shift)"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)"
+msgstr "Harde spatie op het vierde niveau, smalle harde spatie op het zesde niveau (via Ctrl+Shift)"
 
 # The zero-width non-joiner (ZWNJ) is a non-printing character used
 # in the computerized typesetting of some cursive scripts, or other
@@ -4141,59 +4068,32 @@ msgid "Zero-width non-joiner character at second level"
 msgstr "Nulbreedte-losmaker op het tweede niveau"
 
 #: ../rules/base.xml.in.h:1055
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level"
-msgstr ""
-"Nulbreedte-losmaker op het tweede niveau, nulbreedte-verbinder op het derde "
-"niveau"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level"
+msgstr "Nulbreedte-losmaker op het tweede niveau, nulbreedte-verbinder op het derde niveau"
 
 #: ../rules/base.xml.in.h:1056
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level, non-breakable space character at fourth level"
-msgstr ""
-"Nulbreedte-losmaker op het tweede niveau, nulbreedte-verbinder op het derde "
-"niveau, harde spatie op het vierde niveau"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level, non-breakable space character at fourth level"
+msgstr "Nulbreedte-losmaker op het tweede niveau, nulbreedte-verbinder op het derde niveau, harde spatie op het vierde niveau"
 
 #: ../rules/base.xml.in.h:1057
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level"
-msgstr ""
-"Nulbreedte-losmaker op het tweede niveau, harde spatie op het derde niveau"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level"
+msgstr "Nulbreedte-losmaker op het tweede niveau, harde spatie op het derde niveau"
 
 #: ../rules/base.xml.in.h:1058
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, nothing at fourth level"
-msgstr ""
-"Nulbreedte-losmaker op het tweede niveau, harde spatie op het derde niveau, "
-"niets op het vierde niveau"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, nothing at fourth level"
+msgstr "Nulbreedte-losmaker op het tweede niveau, harde spatie op het derde niveau, niets op het vierde niveau"
 
 #: ../rules/base.xml.in.h:1059
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, zero-width joiner at fourth level"
-msgstr ""
-"Nulbreedte-losmaker op het tweede niveau, harde spatie op het derde niveau, "
-"nulbreedte-verbinder op het vierde niveau"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, zero-width joiner at fourth level"
+msgstr "Nulbreedte-losmaker op het tweede niveau, harde spatie op het derde niveau, nulbreedte-verbinder op het vierde niveau"
 
 #: ../rules/base.xml.in.h:1060
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, thin non-breakable space at fourth level"
-msgstr ""
-"Nulbreedte-losmaker op het tweede niveau, harde spatie op het derde niveau, "
-"smalle harde spatie op het vierde niveau"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, thin non-breakable space at fourth level"
+msgstr "Nulbreedte-losmaker op het tweede niveau, harde spatie op het derde niveau, smalle harde spatie op het vierde niveau"
 
 #: ../rules/base.xml.in.h:1061
-msgid ""
-"Zero-width non-joiner character at third level, zero-width joiner at fourth "
-"level"
-msgstr ""
-"Nulbreedte-losmaker op het derde niveau, nulbreedte-verbinder op het vierde "
-"niveau"
+msgid "Zero-width non-joiner character at third level, zero-width joiner at fourth level"
+msgstr "Nulbreedte-losmaker op het derde niveau, nulbreedte-verbinder op het vierde niveau"
 
 #: ../rules/base.xml.in.h:1062
 msgid "Japanese keyboard options"
@@ -4424,8 +4324,7 @@ msgstr "Engels (VS, internationaal, Unicode-combinerend via AltGr)"
 
 #: ../rules/base.extras.xml.in.h:50
 msgid "English (US, international AltGr Unicode combining, alternative)"
-msgstr ""
-"Engels (VS, internationaal, Unicode-combinerend via AltGr, alternatief)"
+msgstr "Engels (VS, internationaal, Unicode-combinerend via AltGr, alternatief)"
 
 #: ../rules/base.extras.xml.in.h:51
 msgid "Atsina"
@@ -4907,8 +4806,7 @@ msgstr "Mmuock"
 #~ msgstr "Zowel de linker als de rechter Alt-toets geeft het derde niveau."
 
 #~ msgid "Press any of Win-keys to choose 3rd level."
-#~ msgstr ""
-#~ "Zowel de linker als de rechter Windows-toets geeft het derde niveau."
+#~ msgstr "Zowel de linker als de rechter Windows-toets geeft het derde niveau."
 
 #~ msgid "Right Alt is Compose."
 #~ msgstr "Rechter Alt is samensteltoets."
@@ -4934,11 +4832,8 @@ msgstr "Mmuock"
 #~ msgid "Shift+CapsLock changes layout."
 #~ msgstr "Shift+CapsLock verandert de indeling."
 
-#~ msgid ""
-#~ "Swap keycodes of two keys when Mac keyboards are misdetected by kernel."
-#~ msgstr ""
-#~ "De keycodes van twee toetsen omwisselen wanneer Mac-toetsenborden niet "
-#~ "juist herkend worden door de kernel."
+#~ msgid "Swap keycodes of two keys when Mac keyboards are misdetected by kernel."
+#~ msgstr "De keycodes van twee toetsen omwisselen wanneer Mac-toetsenborden niet juist herkend worden door de kernel."
 
 #~ msgid "Third level choosers"
 #~ msgstr "derdeniveau-kiezers"
@@ -5000,11 +4895,8 @@ msgstr "Mmuock"
 #~ msgid "Press Right Alt key to choose 3rd level"
 #~ msgstr "De rechter Alt-toets geeft het derde niveau"
 
-#~ msgid ""
-#~ "Press Right Alt-key to choose 3rd level, Shift+Right Alt-key is Multi_Key"
-#~ msgstr ""
-#~ "De rechter Alt-toets geeft het derde niveau, Shift + rechter Alt-toets is "
-#~ "Multi_Key"
+#~ msgid "Press Right Alt-key to choose 3rd level, Shift+Right Alt-key is Multi_Key"
+#~ msgstr "De rechter Alt-toets geeft het derde niveau, Shift + rechter Alt-toets is Multi_Key"
 
 #~ msgid "Press Right Control to choose 3rd level"
 #~ msgstr "De rechter Ctrl-toets geeft het derde niveau"
@@ -5043,12 +4935,10 @@ msgstr "Mmuock"
 #~ msgstr "Turks Alt-Q indeling"
 
 #~ msgid "Uses internal capitalization. Shift cancels Caps."
-#~ msgstr ""
-#~ "Gebruikt interne conversie naar hoofdletters. Shift heft CapsLock op."
+#~ msgstr "Gebruikt interne conversie naar hoofdletters. Shift heft CapsLock op."
 
 #~ msgid "Uses internal capitalization. Shift doesn't cancel Caps."
-#~ msgstr ""
-#~ "Gebruikt interne conversie naar hoofdletters. Shift heft CapsLock niet op."
+#~ msgstr "Gebruikt interne conversie naar hoofdletters. Shift heft CapsLock niet op."
 
 #~ msgid "Dell SK-8125 USB Multimedia Keybard"
 #~ msgstr "Dell SK-8125 multimediatoetsenbord"

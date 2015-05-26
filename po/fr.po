@@ -11,10 +11,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xkeyboard-config 2.14.99\n"
 "Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
-"POT-Creation-Date: 2015-05-26 21:06+0100\n"
+"POT-Creation-Date: 2015-05-13 23:54+0100\n"
 "PO-Revision-Date: 2015-05-15 12:02+0200\n"
-"Last-Translator: Jean-Philippe Guérard <jean-philippe.guerard@corbeaunoir."
-"org>\n"
+"Last-Translator: Jean-Philippe Guérard <jean-philippe.guerard@corbeaunoir.org>\n"
 "Language-Team: French <traduc@traduc.org>\n"
 "Language: fr\n"
 "MIME-Version: 1.0\n"
@@ -1299,8 +1298,7 @@ msgstr "Bosniaque"
 
 #: ../rules/base.xml.in.h:334
 msgid "Bosnian (with guillemets for quotes)"
-msgstr ""
-"Bosniaque (guillemets typographiques à la place des guillemets simples)"
+msgstr "Bosniaque (guillemets typographiques à la place des guillemets simples)"
 
 #: ../rules/base.xml.in.h:335
 msgid "Bosnian (with Bosnian digraphs)"
@@ -2947,8 +2945,7 @@ msgid "Tamil (Sri Lanka, TAB Typewriter)"
 msgstr "Tamoul (Sri Lanka, machine à écrire, TAB)"
 
 #: ../rules/base.xml.in.h:769
-#, fuzzy
-msgid "Sinhala (US keyboard with Sinhala letters)"
+msgid "Singhala (US keyboard with Singhala letters)"
 msgstr "Cingalais (clavier US avec lettres cingalaises)"
 
 #. Keyboard indicator for Thai layouts
@@ -3452,10 +3449,8 @@ msgid "Any Win key (while pressed)"
 msgstr "N'importe quelle touche Windows (enfoncée)"
 
 #: ../rules/base.xml.in.h:906
-msgid ""
-"Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
-msgstr ""
-"Verr. maj. (si enfoncé), Alt+Verr. maj. joue le rôle original de Verr. maj."
+msgid "Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
+msgstr "Verr. maj. (si enfoncé), Alt+Verr. maj. joue le rôle original de Verr. maj."
 
 #: ../rules/base.xml.in.h:907
 msgid "Right Ctrl (while pressed)"
@@ -3479,14 +3474,11 @@ msgstr "Maj.+ Verr. maj."
 
 #: ../rules/base.xml.in.h:912
 msgid "Caps Lock (to first layout), Shift+Caps Lock (to last layout)"
-msgstr ""
-"Verr. maj. (première disposition), Maj.+Verr. maj. (dernière disposition)"
+msgstr "Verr. maj. (première disposition), Maj.+Verr. maj. (dernière disposition)"
 
 #: ../rules/base.xml.in.h:913
 msgid "Left Win (to first layout), Right Win/Menu (to last layout)"
-msgstr ""
-"Touche Windows gauche (première disposition), touche Windows droite "
-"(dernière disposition)"
+msgstr "Touche Windows gauche (première disposition), touche Windows droite (dernière disposition)"
 
 #: ../rules/base.xml.in.h:914
 msgid "Left Ctrl (to first layout), Right Ctrl (to last layout)"
@@ -3574,9 +3566,7 @@ msgstr "Arrêt défilement"
 
 #: ../rules/base.xml.in.h:935
 msgid "LeftCtrl+LeftWin (to first layout), RightCtrl+Menu (to second layout)"
-msgstr ""
-"Ctrl gauche + Windows gauche (première disposition), Ctrl droit + Menu "
-"(seconde disposition)"
+msgstr "Ctrl gauche + Windows gauche (première disposition), Ctrl droit + Menu (seconde disposition)"
 
 #: ../rules/base.xml.in.h:936
 msgid "Key to choose 3rd level"
@@ -3612,28 +3602,16 @@ msgid "&lt;Less/Greater&gt;"
 msgstr "&lt;Plus petit/Plus grand&gt;"
 
 #: ../rules/base.xml.in.h:944
-msgid ""
-"Caps Lock chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
-msgstr ""
-"Verr. maj. sélectionne le niveau 3 ; avec un autre sélecteur de niveau 3, "
-"enclenche une fois ce niveau"
+msgid "Caps Lock chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "Verr. maj. sélectionne le niveau 3 ; avec un autre sélecteur de niveau 3, enclenche une fois ce niveau"
 
 #: ../rules/base.xml.in.h:945
-msgid ""
-"Backslash chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
-msgstr ""
-"La barre oblique inverse sélectionne le niveau 3 ; avec un autre sélecteur "
-"de niveau 3, enclenche une fois ce niveau"
+msgid "Backslash chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "La barre oblique inverse sélectionne le niveau 3 ; avec un autre sélecteur de niveau 3, enclenche une fois ce niveau"
 
 #: ../rules/base.xml.in.h:946
-msgid ""
-"&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed "
-"together with another 3rd-level-chooser"
-msgstr ""
-"&lt;Plus petit/Plus grand&gt; sélectionne le niveau 3 ; avec un autre "
-"sélecteur de niveau 3, enclenche une fois ce niveau"
+msgid "&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "&lt;Plus petit/Plus grand&gt; sélectionne le niveau 3 ; avec un autre sélecteur de niveau 3, enclenche une fois ce niveau"
 
 #: ../rules/base.xml.in.h:947
 msgid "Ctrl key position"
@@ -3690,8 +3668,7 @@ msgstr "Alt. gauche pour Ctrl, Ctrl pour Win, Win gauche pour Alt."
 # https://bugzilla.gnome.org/show_bug.cgi?id=518156
 #: ../rules/base.xml.in.h:960
 msgid "Use keyboard LED to show alternative layout"
-msgstr ""
-"Utiliser les voyants du clavier pour indiquer une disposition alternative"
+msgstr "Utiliser les voyants du clavier pour indiquer une disposition alternative"
 
 #: ../rules/base.xml.in.h:961
 msgid "Num Lock"
@@ -3710,12 +3687,8 @@ msgid "Unicode additions (arrows and math operators)"
 msgstr "Ajouts Unicode (opérateurs mathématiques et flèches)"
 
 #: ../rules/base.xml.in.h:965
-msgid ""
-"Unicode additions (arrows and math operators; math operators on default "
-"level)"
-msgstr ""
-"Ajouts Unicode (opérateurs mathématiques et flèches ; opérateurs "
-"mathématiques au niveau par défaut)"
+msgid "Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Ajouts Unicode (opérateurs mathématiques et flèches ; opérateurs mathématiques au niveau par défaut)"
 
 #: ../rules/base.xml.in.h:966
 msgid "Legacy Wang 724"
@@ -3726,12 +3699,8 @@ msgid "Wang 724 keypad with Unicode additions (arrows and math operators)"
 msgstr "Wang 724 avec ajouts Unicode (opérateurs mathématiques et flèches)"
 
 #: ../rules/base.xml.in.h:968
-msgid ""
-"Wang 724 keypad with Unicode additions (arrows and math operators; math "
-"operators on default level)"
-msgstr ""
-"Wang 724 avec ajouts Unicode (opérateurs mathématiques et flèches ; "
-"opérateurs mathématiques au niveau par défaut)"
+msgid "Wang 724 keypad with Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Wang 724 avec ajouts Unicode (opérateurs mathématiques et flèches ; opérateurs mathématiques au niveau par défaut)"
 
 #: ../rules/base.xml.in.h:969
 msgid "Hexadecimal"
@@ -3787,32 +3756,23 @@ msgstr "Comportement de la touche Verr. maj."
 
 #: ../rules/base.xml.in.h:984
 msgid "Caps Lock uses internal capitalization; Shift \"pauses\" Caps Lock"
-msgstr ""
-"Verr. maj. utilise la mise en majuscule interne ; Maj. annule temporairement "
-"Verr. maj."
+msgstr "Verr. maj. utilise la mise en majuscule interne ; Maj. annule temporairement Verr. maj."
 
 #: ../rules/base.xml.in.h:985
 msgid "Caps Lock uses internal capitalization; Shift doesn't affect Caps Lock"
-msgstr ""
-"Verr. maj. utilise la mise en majuscule interne ; Maj. n'a pas d'effet sur "
-"Verr. maj."
+msgstr "Verr. maj. utilise la mise en majuscule interne ; Maj. n'a pas d'effet sur Verr. maj."
 
 #: ../rules/base.xml.in.h:986
 msgid "Caps Lock acts as Shift with locking; Shift \"pauses\" Caps Lock"
-msgstr ""
-"Verr. maj. agit comme un verrouillage de maj ; Maj. l'annule temporairement"
+msgstr "Verr. maj. agit comme un verrouillage de maj ; Maj. l'annule temporairement"
 
 #: ../rules/base.xml.in.h:987
 msgid "Caps Lock acts as Shift with locking; Shift doesn't affect Caps Lock"
-msgstr ""
-"Verr. maj. agit comme Maj. quand il est verrouillé ; Maj. n'a pas d'effet "
-"sur verr. Maj."
+msgstr "Verr. maj. agit comme Maj. quand il est verrouillé ; Maj. n'a pas d'effet sur verr. Maj."
 
 #: ../rules/base.xml.in.h:988
 msgid "Caps Lock toggles normal capitalization of alphabetic characters"
-msgstr ""
-"Verr. maj. active ou désactive la mise en majuscule usuelle des caractères "
-"alphabétiques"
+msgstr "Verr. maj. active ou désactive la mise en majuscule usuelle des caractères alphabétiques"
 
 #: ../rules/base.xml.in.h:989
 msgid "Make Caps Lock an additional Num Lock"
@@ -3868,8 +3828,7 @@ msgstr "Alt est placé sur les touches Windows (et les touches Alt habituelles)"
 
 #: ../rules/base.xml.in.h:1002
 msgid "Ctrl is mapped to Win keys (and the usual Ctrl keys)"
-msgstr ""
-"Ctrl est placé sur les touches Windows (et les touches Ctrl habituelles)"
+msgstr "Ctrl est placé sur les touches Windows (et les touches Ctrl habituelles)"
 
 #: ../rules/base.xml.in.h:1003
 msgid "Ctrl is mapped to Alt keys, Alt is mapped to Win keys"
@@ -3945,16 +3904,11 @@ msgstr "Touches du pavé numérique par défaut"
 
 #: ../rules/base.xml.in.h:1021
 msgid "Numeric keypad keys always enter digits (as in Mac OS)"
-msgstr ""
-"Les touches du pavé numérique sont toujours numériques (comme sur Mac OS)"
+msgstr "Les touches du pavé numérique sont toujours numériques (comme sur Mac OS)"
 
 #: ../rules/base.xml.in.h:1022
-msgid ""
-"NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow "
-"keys (as in MS Windows)"
-msgstr ""
-"Verr. maj. activé : chiffres ; maj. pour les flèches. Verr. maj. désactivé : "
-"flèches (comme Windows)"
+msgid "NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow keys (as in MS Windows)"
+msgstr "Verr. maj. activé : chiffres ; maj. pour les flèches. Verr. maj. désactivé : flèches (comme Windows)"
 
 #: ../rules/base.xml.in.h:1023
 msgid "Shift does not cancel Num Lock, chooses 3rd level instead"
@@ -3963,17 +3917,11 @@ msgstr "Maj. n'annule pas Verr. maj., mais sélectionne le niveau 3"
 # https://help.ubuntu.com/7.04/user-guide/C/prefs-hardware.html
 #: ../rules/base.xml.in.h:1024
 msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
-msgstr ""
-"Les combinaisons spéciales (Ctrl+Alt+&lt;touche&gt;) sont traitées par le "
-"serveur X"
+msgstr "Les combinaisons spéciales (Ctrl+Alt+&lt;touche&gt;) sont traitées par le serveur X"
 
 #: ../rules/base.xml.in.h:1025
-msgid ""
-"Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num "
-"Lock)"
-msgstr ""
-"Clavier aluminium Apple : émulation des touches PC (Impr. écr. ; défil. ; "
-"pause ; Verr. Num.)"
+msgid "Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num Lock)"
+msgstr "Clavier aluminium Apple : émulation des touches PC (Impr. écr. ; défil. ; pause ; Verr. Num.)"
 
 #: ../rules/base.xml.in.h:1026
 msgid "Shift cancels Caps Lock"
@@ -3989,8 +3937,7 @@ msgstr "Les deux touches Maj. activent ou désactivent Verr. maj."
 
 #: ../rules/base.xml.in.h:1029
 msgid "Both Shift keys together activate Caps Lock, one Shift key deactivates"
-msgstr ""
-"Les deux touches Maj. activent le verrouillage majuscule, une le désactive"
+msgstr "Les deux touches Maj. activent le verrouillage majuscule, une le désactive"
 
 #: ../rules/base.xml.in.h:1030
 msgid "Both Shift keys together toggle ShiftLock"
@@ -4002,9 +3949,7 @@ msgstr "Maj. + VerrNum bascule le contrôle souris au clavier (PointerKeys) "
 
 #: ../rules/base.xml.in.h:1032
 msgid "Allow breaking grabs with keyboard actions (warning: security risk)"
-msgstr ""
-"Autorise des actions clavier à casser les captures (attention : faille de "
-"sécurité)"
+msgstr "Autorise des actions clavier à casser les captures (attention : faille de sécurité)"
 
 #: ../rules/base.xml.in.h:1033
 msgid "Allow grab and window tree logging"
@@ -4039,36 +3984,20 @@ msgid "Key to choose 5th level"
 msgstr "Touche sélectionnant le niveau 5"
 
 #: ../rules/base.xml.in.h:1041
-msgid ""
-"&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with "
-"another 5th-level-chooser"
-msgstr ""
-"&lt;Plus petit/Plus grand&gt; sélectionne le niveau 5 ; se verrouille par un "
-"appui simultané avec un autre sélecteur de niveau 5"
+msgid "&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "&lt;Plus petit/Plus grand&gt; sélectionne le niveau 5 ; se verrouille par un appui simultané avec un autre sélecteur de niveau 5"
 
 #: ../rules/base.xml.in.h:1042
-msgid ""
-"Right Alt chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Alt droite sélectionne le niveau 5 ; se verrouille par un appui simultané "
-"avec un autre sélecteur de niveau 5"
+msgid "Right Alt chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Alt droite sélectionne le niveau 5 ; se verrouille par un appui simultané avec un autre sélecteur de niveau 5"
 
 #: ../rules/base.xml.in.h:1043
-msgid ""
-"Left Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Windows gauche sélectionne le niveau 5 ; se verrouille par un appui "
-"simultané avec un autre sélecteur de niveau 5"
+msgid "Left Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Windows gauche sélectionne le niveau 5 ; se verrouille par un appui simultané avec un autre sélecteur de niveau 5"
 
 #: ../rules/base.xml.in.h:1044
-msgid ""
-"Right Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Windows droite sélectionne le niveau 5 ; se verrouille par un appui "
-"simultané avec un autre sélecteur du niveau 5"
+msgid "Right Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Windows droite sélectionne le niveau 5 ; se verrouille par un appui simultané avec un autre sélecteur du niveau 5"
 
 #: ../rules/base.xml.in.h:1045
 msgid "Using space key to input non-breakable space character"
@@ -4091,9 +4020,7 @@ msgid "Non-breakable space character at third level, nothing at fourth level"
 msgstr "Espace insécable au niveau 3, rien au niveau 4"
 
 #: ../rules/base.xml.in.h:1050
-msgid ""
-"Non-breakable space character at third level, thin non-breakable space "
-"character at fourth level"
+msgid "Non-breakable space character at third level, thin non-breakable space character at fourth level"
 msgstr "Espace insécable au niveau 3, espace fine insécable au niveau 4"
 
 #: ../rules/base.xml.in.h:1051
@@ -4101,18 +4028,12 @@ msgid "Non-breakable space character at fourth level"
 msgstr "Espace insécable au niveau 4"
 
 #: ../rules/base.xml.in.h:1052
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level"
 msgstr "Espace insécable au niveau 4, espace fine insécable au niveau 6"
 
 #: ../rules/base.xml.in.h:1053
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level (via Ctrl+Shift)"
-msgstr ""
-"Espace insécable au niveau 4, espace fine insécable au niveau 6 (via Ctrl"
-"+Maj.)"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)"
+msgstr "Espace insécable au niveau 4, espace fine insécable au niveau 6 (via Ctrl+Maj.)"
 
 # http://hapax.qc.ca/glossaire.htm
 #: ../rules/base.xml.in.h:1054
@@ -4120,53 +4041,31 @@ msgid "Zero-width non-joiner character at second level"
 msgstr "Antiliant à chasse nulle au niveau 2"
 
 #: ../rules/base.xml.in.h:1055
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level"
 msgstr "Antiliant à chasse nulle au niveau 2, liant à chasse nulle au niveau 3"
 
 #: ../rules/base.xml.in.h:1056
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level, non-breakable space character at fourth level"
-msgstr ""
-"Antiliant à chasse nulle au niveau 2, liant à chasse nulle au niveau 3, "
-"espace insécable au niveau 4"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level, non-breakable space character at fourth level"
+msgstr "Antiliant à chasse nulle au niveau 2, liant à chasse nulle au niveau 3, espace insécable au niveau 4"
 
 #: ../rules/base.xml.in.h:1057
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level"
 msgstr "Antiliant à chasse nulle au niveau 2. espace insécable au niveau 3"
 
 #: ../rules/base.xml.in.h:1058
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, nothing at fourth level"
-msgstr ""
-"Antiliant à chasse nulle au niveau 2. espace insécable au niveau 3, rien au "
-"niveau 4"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, nothing at fourth level"
+msgstr "Antiliant à chasse nulle au niveau 2. espace insécable au niveau 3, rien au niveau 4"
 
 #: ../rules/base.xml.in.h:1059
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, zero-width joiner at fourth level"
-msgstr ""
-"Antiliant à chasse nulle au niveau 2. espace insécable au niveau 3, liant à "
-"chasse nulle au niveau 4"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, zero-width joiner at fourth level"
+msgstr "Antiliant à chasse nulle au niveau 2. espace insécable au niveau 3, liant à chasse nulle au niveau 4"
 
 #: ../rules/base.xml.in.h:1060
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, thin non-breakable space at fourth level"
-msgstr ""
-"Antiliant à chasse nulle au niveau 2. espace insécable au niveau 3, espace "
-"fine insécable au niveau 4"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, thin non-breakable space at fourth level"
+msgstr "Antiliant à chasse nulle au niveau 2. espace insécable au niveau 3, espace fine insécable au niveau 4"
 
 #: ../rules/base.xml.in.h:1061
-msgid ""
-"Zero-width non-joiner character at third level, zero-width joiner at fourth "
-"level"
+msgid "Zero-width non-joiner character at third level, zero-width joiner at fourth level"
 msgstr "Antiliant à chasse nulle au niveau 3, liant à chasse nulle au niveau 4"
 
 #: ../rules/base.xml.in.h:1062

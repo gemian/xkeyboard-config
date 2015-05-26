@@ -23,7 +23,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: xkeyboard-config 2.14.99\n"
 "Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
-"POT-Creation-Date: 2015-05-26 21:06+0100\n"
+"POT-Creation-Date: 2015-05-13 23:54+0100\n"
 "PO-Revision-Date: 2015-05-14 21:57+0200\n"
 "Last-Translator: Petr Pisar <petr.pisar@atlas.cz>\n"
 "Language-Team: Czech <translation-team-cs@lists.sourceforge.net>\n"
@@ -2872,8 +2872,7 @@ msgid "Tamil (Sri Lanka, TAB Typewriter)"
 msgstr "Tamilské (Šrí Lanka, psací stroj TAB)"
 
 #: ../rules/base.xml.in.h:769
-#, fuzzy
-msgid "Sinhala (US keyboard with Sinhala letters)"
+msgid "Singhala (US keyboard with Singhala letters)"
 msgstr "Sinhálské (americká klávesnice se sinhálskými znaky)"
 
 #. Keyboard indicator for Thai layouts
@@ -3355,10 +3354,8 @@ msgid "Any Win key (while pressed)"
 msgstr "Libovolná klávesa Win (při stisknutí)"
 
 #: ../rules/base.xml.in.h:906
-msgid ""
-"Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
-msgstr ""
-"Caps Lock (při stisknutí), Alt+Caps Lock provádí původní akci Caps Lock"
+msgid "Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
+msgstr "Caps Lock (při stisknutí), Alt+Caps Lock provádí původní akci Caps Lock"
 
 #: ../rules/base.xml.in.h:907
 msgid "Right Ctrl (while pressed)"
@@ -3382,20 +3379,15 @@ msgstr "Shift+Caps Lock"
 
 #: ../rules/base.xml.in.h:912
 msgid "Caps Lock (to first layout), Shift+Caps Lock (to last layout)"
-msgstr ""
-"Caps Lock (na první rozložení), Shift+Caps Lock (na poslední rozložení)"
+msgstr "Caps Lock (na první rozložení), Shift+Caps Lock (na poslední rozložení)"
 
 #: ../rules/base.xml.in.h:913
 msgid "Left Win (to first layout), Right Win/Menu (to last layout)"
-msgstr ""
-"Levá klávesa Win (na první rozložení), pravá klávesa Win/Menu (na poslední "
-"rozložení)"
+msgstr "Levá klávesa Win (na první rozložení), pravá klávesa Win/Menu (na poslední rozložení)"
 
 #: ../rules/base.xml.in.h:914
 msgid "Left Ctrl (to first layout), Right Ctrl (to last layout)"
-msgstr ""
-"Levá klávesa Ctrl (na první rozložení), pravá klávesa Ctrl (na poslední "
-"rozložení)"
+msgstr "Levá klávesa Ctrl (na první rozložení), pravá klávesa Ctrl (na poslední rozložení)"
 
 #: ../rules/base.xml.in.h:915
 msgid "Alt+Caps Lock"
@@ -3479,9 +3471,7 @@ msgstr "Scroll Lock"
 
 #: ../rules/base.xml.in.h:935
 msgid "LeftCtrl+LeftWin (to first layout), RightCtrl+Menu (to second layout)"
-msgstr ""
-"Levý Ctrl + Levý Win (na první rozložení), pravý Ctrl + Menu (na druhém "
-"rozložení)"
+msgstr "Levý Ctrl + Levý Win (na první rozložení), pravý Ctrl + Menu (na druhém rozložení)"
 
 #: ../rules/base.xml.in.h:936
 msgid "Key to choose 3rd level"
@@ -3516,28 +3506,16 @@ msgid "&lt;Less/Greater&gt;"
 msgstr "&lt;Menší než/větší než&gt;"
 
 #: ../rules/base.xml.in.h:944
-msgid ""
-"Caps Lock chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
-msgstr ""
-"Caps Lock vybírá 3. úroveň, jednorázově uzamyká při stisknutí společně "
-"s jinou výběrovou klávesou 3. úrovně"
+msgid "Caps Lock chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "Caps Lock vybírá 3. úroveň, jednorázově uzamyká při stisknutí společně s jinou výběrovou klávesou 3. úrovně"
 
 #: ../rules/base.xml.in.h:945
-msgid ""
-"Backslash chooses 3rd level, acts as onetime lock when pressed together with "
-"another 3rd-level-chooser"
-msgstr ""
-"Zpětné lomítko vybírá 3. úroveň, jednorázově uzamyká při stisknutí společně "
-"s jinou výběrovou klávesou 3. úrovně"
+msgid "Backslash chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "Zpětné lomítko vybírá 3. úroveň, jednorázově uzamyká při stisknutí společně s jinou výběrovou klávesou 3. úrovně"
 
 #: ../rules/base.xml.in.h:946
-msgid ""
-"&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed "
-"together with another 3rd-level-chooser"
-msgstr ""
-"&lt;Menší než/Větší než&gt; vybírá 3. úroveň, jednorázově uzamyká při "
-"stisknutí společně s jinou výběrovou klávesou 3. úrovně"
+msgid "&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed together with another 3rd-level-chooser"
+msgstr "&lt;Menší než/Větší než&gt; vybírá 3. úroveň, jednorázově uzamyká při stisknutí společně s jinou výběrovou klávesou 3. úrovně"
 
 #: ../rules/base.xml.in.h:947
 msgid "Ctrl key position"
@@ -3612,12 +3590,8 @@ msgid "Unicode additions (arrows and math operators)"
 msgstr "Doplňky Unicode (šipky a matematické operátory)"
 
 #: ../rules/base.xml.in.h:965
-msgid ""
-"Unicode additions (arrows and math operators; math operators on default "
-"level)"
-msgstr ""
-"Doplňky Unicode (šipky a matematické operátory; matematické operátory na "
-"výchozí úrovni)"
+msgid "Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Doplňky Unicode (šipky a matematické operátory; matematické operátory na výchozí úrovni)"
 
 #: ../rules/base.xml.in.h:966
 msgid "Legacy Wang 724"
@@ -3625,17 +3599,11 @@ msgstr "Zděděná Wang 724"
 
 #: ../rules/base.xml.in.h:967
 msgid "Wang 724 keypad with Unicode additions (arrows and math operators)"
-msgstr ""
-"Numerická klávesnice Wang 724 s doplňky Unicode (šipky a matematické "
-"operátory)"
+msgstr "Numerická klávesnice Wang 724 s doplňky Unicode (šipky a matematické operátory)"
 
 #: ../rules/base.xml.in.h:968
-msgid ""
-"Wang 724 keypad with Unicode additions (arrows and math operators; math "
-"operators on default level)"
-msgstr ""
-"Numerická klávesnice Wang 724 s doplňky Unicode (šipky a matematické "
-"operátory; matematické operátory na výchozí úrovni)"
+msgid "Wang 724 keypad with Unicode additions (arrows and math operators; math operators on default level)"
+msgstr "Numerická klávesnice Wang 724 s doplňky Unicode (šipky a matematické operátory; matematické operátory na výchozí úrovni)"
 
 #: ../rules/base.xml.in.h:969
 msgid "Hexadecimal"
@@ -3690,13 +3658,11 @@ msgstr "Chování klávesy Caps Lock"
 
 #: ../rules/base.xml.in.h:984
 msgid "Caps Lock uses internal capitalization; Shift \"pauses\" Caps Lock"
-msgstr ""
-"Caps Lock používá vnitřní převod na verzálky, Shift přerušuje Caps Lock"
+msgstr "Caps Lock používá vnitřní převod na verzálky, Shift přerušuje Caps Lock"
 
 #: ../rules/base.xml.in.h:985
 msgid "Caps Lock uses internal capitalization; Shift doesn't affect Caps Lock"
-msgstr ""
-"Caps Lock používá vnitřní převod na verzálky, Shift neovlivňuje Caps Lock"
+msgstr "Caps Lock používá vnitřní převod na verzálky, Shift neovlivňuje Caps Lock"
 
 #: ../rules/base.xml.in.h:986
 msgid "Caps Lock acts as Shift with locking; Shift \"pauses\" Caps Lock"
@@ -3843,12 +3809,8 @@ msgid "Numeric keypad keys always enter digits (as in Mac OS)"
 msgstr "Klávesy numerické klávesnice vždy vrací číslice (jako u Mac OS)"
 
 #: ../rules/base.xml.in.h:1022
-msgid ""
-"NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow "
-"keys (as in MS Windows)"
-msgstr ""
-"Zapnutý Num Lock: číslice, Shift přepíná na šipky, vypnutý Num Lock: vždy "
-"šipky (jako v MS Windows)"
+msgid "NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow keys (as in MS Windows)"
+msgstr "Zapnutý Num Lock: číslice, Shift přepíná na šipky, vypnutý Num Lock: vždy šipky (jako v MS Windows)"
 
 #: ../rules/base.xml.in.h:1023
 msgid "Shift does not cancel Num Lock, chooses 3rd level instead"
@@ -3859,12 +3821,8 @@ msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
 msgstr "Speciální klávesy (Ctrl+Alt+&lt;klávesa&gt;) zpracovány v serveru"
 
 #: ../rules/base.xml.in.h:1025
-msgid ""
-"Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num "
-"Lock)"
-msgstr ""
-"Apple Aluminium Keyboard: emulovat klávesy PC (Print, Scroll Lock, Pause, "
-"Num Lock)"
+msgid "Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num Lock)"
+msgstr "Apple Aluminium Keyboard: emulovat klávesy PC (Print, Scroll Lock, Pause, Num Lock)"
 
 #: ../rules/base.xml.in.h:1026
 msgid "Shift cancels Caps Lock"
@@ -3880,8 +3838,7 @@ msgstr "Obě klávesy Shift dohromady přepnou Caps Lock"
 
 #: ../rules/base.xml.in.h:1029
 msgid "Both Shift keys together activate Caps Lock, one Shift key deactivates"
-msgstr ""
-"Obě klávesy Shift dohromady zapnou Caps Lock, jediná klávesa Shift jej vypne"
+msgstr "Obě klávesy Shift dohromady zapnou Caps Lock, jediná klávesa Shift jej vypne"
 
 #: ../rules/base.xml.in.h:1030
 msgid "Both Shift keys together toggle ShiftLock"
@@ -3893,9 +3850,7 @@ msgstr "Shift + Num Lock přepne PointerKeys (ovládání ukazatele)"
 
 #: ../rules/base.xml.in.h:1032
 msgid "Allow breaking grabs with keyboard actions (warning: security risk)"
-msgstr ""
-"Umožní porušit uzamčení vstupů pomocí akcí klávesnice (pozor: bezpečnostní "
-"riziko)"
+msgstr "Umožní porušit uzamčení vstupů pomocí akcí klávesnice (pozor: bezpečnostní riziko)"
 
 #: ../rules/base.xml.in.h:1033
 msgid "Allow grab and window tree logging"
@@ -3930,36 +3885,20 @@ msgid "Key to choose 5th level"
 msgstr "Klávesa umožňující výběr 5. úrovně"
 
 #: ../rules/base.xml.in.h:1041
-msgid ""
-"&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with "
-"another 5th-level-chooser"
-msgstr ""
-"&lt;Menší než/Větší než&gt; vybírá 5. úroveň, uzamyká při stisknutí společně "
-"s jinou výběrovou klávesou 5. úrovně"
+msgid "&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "&lt;Menší než/Větší než&gt; vybírá 5. úroveň, uzamyká při stisknutí společně s jinou výběrovou klávesou 5. úrovně"
 
 #: ../rules/base.xml.in.h:1042
-msgid ""
-"Right Alt chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Pravá klávesa Alt vybírá 5. úroveň, uzamyká při stisknutí společně s jinou "
-"výběrovou klávesou 5. úrovně"
+msgid "Right Alt chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Pravá klávesa Alt vybírá 5. úroveň, uzamyká při stisknutí společně s jinou výběrovou klávesou 5. úrovně"
 
 #: ../rules/base.xml.in.h:1043
-msgid ""
-"Left Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Levá klávesa Win vybírá 5. úroveň, uzamyká při stisknutí společně s jinou "
-"výběrovou klávesou 5. úrovně"
+msgid "Left Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Levá klávesa Win vybírá 5. úroveň, uzamyká při stisknutí společně s jinou výběrovou klávesou 5. úrovně"
 
 #: ../rules/base.xml.in.h:1044
-msgid ""
-"Right Win chooses 5th level, locks when pressed together with another 5th-"
-"level-chooser"
-msgstr ""
-"Pravá klávesa Win vybírá 5. úroveň, uzamyká při stisknutí společně s jinou "
-"výběrovou klávesou 5. úrovně"
+msgid "Right Win chooses 5th level, locks when pressed together with another 5th-level-chooser"
+msgstr "Pravá klávesa Win vybírá 5. úroveň, uzamyká při stisknutí společně s jinou výběrovou klávesou 5. úrovně"
 
 #: ../rules/base.xml.in.h:1045
 msgid "Using space key to input non-breakable space character"
@@ -3982,92 +3921,52 @@ msgid "Non-breakable space character at third level, nothing at fourth level"
 msgstr "Na třetí úrovni znak nedělitelné mezery, nic na úrovni čtvrté"
 
 #: ../rules/base.xml.in.h:1050
-msgid ""
-"Non-breakable space character at third level, thin non-breakable space "
-"character at fourth level"
-msgstr ""
-"Na třetí úrovni znak nedělitelné mezery, tenká nedělitelná mezera na čtvrté "
-"úrovni"
+msgid "Non-breakable space character at third level, thin non-breakable space character at fourth level"
+msgstr "Na třetí úrovni znak nedělitelné mezery, tenká nedělitelná mezera na čtvrté úrovni"
 
 #: ../rules/base.xml.in.h:1051
 msgid "Non-breakable space character at fourth level"
 msgstr "Na čtvrté úrovni znak nedělitelné mezery"
 
 #: ../rules/base.xml.in.h:1052
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level"
-msgstr ""
-"Na čtvrté úrovni znak nedělitelné mezery, tenká nedělitelná mezera na šesté "
-"úrovni"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level"
+msgstr "Na čtvrté úrovni znak nedělitelné mezery, tenká nedělitelná mezera na šesté úrovni"
 
 #: ../rules/base.xml.in.h:1053
-msgid ""
-"Non-breakable space character at fourth level, thin non-breakable space "
-"character at sixth level (via Ctrl+Shift)"
-msgstr ""
-"Na čtvrté úrovni znak nedělitelné mezery, tenká nedělitelná mezera na šesté "
-"úrovni (přes Ctrl+Shift)"
+msgid "Non-breakable space character at fourth level, thin non-breakable space character at sixth level (via Ctrl+Shift)"
+msgstr "Na čtvrté úrovni znak nedělitelné mezery, tenká nedělitelná mezera na šesté úrovni (přes Ctrl+Shift)"
 
 #: ../rules/base.xml.in.h:1054
 msgid "Zero-width non-joiner character at second level"
 msgstr "Na druhé úrovni znak nespojovače nulové šířky"
 
 #: ../rules/base.xml.in.h:1055
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level"
-msgstr ""
-"Na druhé úrovni znak nespojovače nulové šířky, znak spojovače nulové šířky "
-"na třetí úrovni"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level"
+msgstr "Na druhé úrovni znak nespojovače nulové šířky, znak spojovače nulové šířky na třetí úrovni"
 
 #: ../rules/base.xml.in.h:1056
-msgid ""
-"Zero-width non-joiner character at second level, zero-width joiner character "
-"at third level, non-breakable space character at fourth level"
-msgstr ""
-"Na druhé úrovni znak nespojovače nulové šířky, znak spojovače nulové šířky "
-"na třetí úrovni, nedělitelná mezera na čtvrté úrovni"
+msgid "Zero-width non-joiner character at second level, zero-width joiner character at third level, non-breakable space character at fourth level"
+msgstr "Na druhé úrovni znak nespojovače nulové šířky, znak spojovače nulové šířky na třetí úrovni, nedělitelná mezera na čtvrté úrovni"
 
 #: ../rules/base.xml.in.h:1057
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level"
-msgstr ""
-"Na druhé úrovni znak nespojovače nulové šířky, nedělitelná mezera na třetí "
-"úrovni"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level"
+msgstr "Na druhé úrovni znak nespojovače nulové šířky, nedělitelná mezera na třetí úrovni"
 
 #: ../rules/base.xml.in.h:1058
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, nothing at fourth level"
-msgstr ""
-"Na druhé úrovni znak nespojovače nulové šířky, na třetí úrovni nedělitelná "
-"mezera, nic na úrovni čtvrté"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, nothing at fourth level"
+msgstr "Na druhé úrovni znak nespojovače nulové šířky, na třetí úrovni nedělitelná mezera, nic na úrovni čtvrté"
 
 #: ../rules/base.xml.in.h:1059
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, zero-width joiner at fourth level"
-msgstr ""
-"Na druhé úrovni znak nespojovače nulové šířky, nedělitelná mezera na třetí "
-"úrovni, spojovač nulové šířky na úrovni čtvrté"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, zero-width joiner at fourth level"
+msgstr "Na druhé úrovni znak nespojovače nulové šířky, nedělitelná mezera na třetí úrovni, spojovač nulové šířky na úrovni čtvrté"
 
 #: ../rules/base.xml.in.h:1060
-msgid ""
-"Zero-width non-joiner character at second level, non-breakable space "
-"character at third level, thin non-breakable space at fourth level"
-msgstr ""
-"Na druhé úrovni znak nespojovače nulové šířky, nedělitelná mezera na třetí "
-"úrovni, tenká nedělitelná mezera na čtvrté úrovni"
+msgid "Zero-width non-joiner character at second level, non-breakable space character at third level, thin non-breakable space at fourth level"
+msgstr "Na druhé úrovni znak nespojovače nulové šířky, nedělitelná mezera na třetí úrovni, tenká nedělitelná mezera na čtvrté úrovni"
 
 #: ../rules/base.xml.in.h:1061
-msgid ""
-"Zero-width non-joiner character at third level, zero-width joiner at fourth "
-"level"
-msgstr ""
-"Na třetí úrovni znak nespojovače nulové šířky, znak spojovače nulové šířky "
-"na úrovni čtvrté"
+msgid "Zero-width non-joiner character at third level, zero-width joiner at fourth level"
+msgstr "Na třetí úrovni znak nespojovače nulové šířky, znak spojovače nulové šířky na úrovni čtvrté"
 
 #: ../rules/base.xml.in.h:1062
 msgid "Japanese keyboard options"
@@ -4283,8 +4182,7 @@ msgstr "Anglické (americké, mezinárodní kombinující Unicode přes AltGr)"
 
 #: ../rules/base.extras.xml.in.h:50
 msgid "English (US, international AltGr Unicode combining, alternative)"
-msgstr ""
-"Anglické (americké, mezinárodní kombinující Unicode přes AltGr, alternativní)"
+msgstr "Anglické (americké, mezinárodní kombinující Unicode přes AltGr, alternativní)"
 
 #: ../rules/base.extras.xml.in.h:51
 msgid "Atsina"
@@ -4474,22 +4372,11 @@ msgstr "Mmuock"
 #~ msgid "Shift with numeric keypad keys works as in MS Windows"
 #~ msgstr "Shift s numerickými klávesami funguje jako v MS Windows"
 
-#~ msgid ""
-#~ "&lt;Less/Greater&gt; chooses 5th level and activates level5-Lock when "
-#~ "pressed together with another 5th-level-chooser, one press releases the "
-#~ "lock"
-#~ msgstr ""
-#~ "&lt;Menší než/Větší než&gt; vybírá 5. úroveň a uzamyká 5. úroveň při "
-#~ "stisknutí společně s jinou výběrovou klávesou 5. úrovně, jedno stisknutí "
-#~ "ruší uzamčení"
+#~ msgid "&lt;Less/Greater&gt; chooses 5th level and activates level5-Lock when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "&lt;Menší než/Větší než&gt; vybírá 5. úroveň a uzamyká 5. úroveň při stisknutí společně s jinou výběrovou klávesou 5. úrovně, jedno stisknutí ruší uzamčení"
 
-#~ msgid ""
-#~ "&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with "
-#~ "another 5th-level-chooser, one press releases the lock"
-#~ msgstr ""
-#~ "&lt;Menší než/Větší než&gt; vybírá 5. úroveň, uzamyká při stisknutí "
-#~ "společně s jinou výběrovou klávesou 5. úrovně, jedno stisknutí ruší "
-#~ "uzamčení"
+#~ msgid "&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "&lt;Menší než/Větší než&gt; vybírá 5. úroveň, uzamyká při stisknutí společně s jinou výběrovou klávesou 5. úrovně, jedno stisknutí ruší uzamčení"
 
 #~ msgid "Bengali"
 #~ msgstr "Bengálské"
@@ -4512,29 +4399,17 @@ msgstr "Mmuock"
 #~ msgid "Key(s) to change layout"
 #~ msgstr "Klávesa měnící rozložení"
 
-#~ msgid ""
-#~ "Left Win chooses 5th level, locks when pressed together with another 5th-"
-#~ "level-chooser, one press releases the lock"
-#~ msgstr ""
-#~ "Levá klávesa Win vybírá 5. úroveň, uzamyká při stisknutí společně s jinou "
-#~ "výběrovou klávesou 5. úrovně, jedno stisknutí ruší uzamčení"
+#~ msgid "Left Win chooses 5th level, locks when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "Levá klávesa Win vybírá 5. úroveň, uzamyká při stisknutí společně s jinou výběrovou klávesou 5. úrovně, jedno stisknutí ruší uzamčení"
 
 #~ msgid "Numeric keypad layout selection"
 #~ msgstr "Výběr rozložení numerické klávesnice"
 
-#~ msgid ""
-#~ "Right Alt chooses 5th level, locks when pressed together with another 5th-"
-#~ "level-chooser, one press releases the lock"
-#~ msgstr ""
-#~ "Pravá klávesa Alt vybírá 5. úroveň, uzamyká při stisknutí společně s "
-#~ "jinou výběrovou klávesou 5. úrovně, jedno stisknutí ruší uzamčení"
+#~ msgid "Right Alt chooses 5th level, locks when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "Pravá klávesa Alt vybírá 5. úroveň, uzamyká při stisknutí společně s jinou výběrovou klávesou 5. úrovně, jedno stisknutí ruší uzamčení"
 
-#~ msgid ""
-#~ "Right Win chooses 5th level, locks when pressed together with another 5th-"
-#~ "level-chooser, one press releases the lock"
-#~ msgstr ""
-#~ "Pravá klávesa Win vybírá 5. úroveň, uzamyká při stisknutí společně s "
-#~ "jinou výběrovou klávesou 5. úrovně, jedno stisknutí ruší uzamčení"
+#~ msgid "Right Win chooses 5th level, locks when pressed together with another 5th-level-chooser, one press releases the lock"
+#~ msgstr "Pravá klávesa Win vybírá 5. úroveň, uzamyká při stisknutí společně s jinou výběrovou klávesou 5. úrovně, jedno stisknutí ruší uzamčení"
 
 #~ msgid "Serbian (Z and ZHE swapped)"
 #~ msgstr "Srbské (prohozené Z a Ž)"
