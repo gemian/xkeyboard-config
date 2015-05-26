@@ -5,1858 +5,5258 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: xfree86_xkb_xml 4.4pre1\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2006-03-02 19:07+0100\n"
+"Report-Msgid-Bugs-To: svu@users.sourceforge.net\n"
+"POT-Creation-Date: 2015-05-26 21:06+0100\n"
 "PO-Revision-Date: 2006-03-02 19:14+0100\n"
 "Last-Translator: Danilo Segan <dsegan@gmx.net>\n"
 "Language-Team: Serbian <sr@li.org>\n"
+"Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../rules/base.xml.in.h:1
-msgid "(F)"
-msgstr "(F)"
-
-#: ../rules/base.xml.in.h:2
-msgid "101/qwerty/comma/Dead keys"
-msgstr "101/qwerty/запета/акценти"
-
-#: ../rules/base.xml.in.h:3
-msgid "101/qwerty/comma/Eliminate dead keys"
-msgstr "101/qwerty/запета/без акцената"
-
-#: ../rules/base.xml.in.h:4
-msgid "101/qwerty/dot/Dead keys"
-msgstr "101/qwerty/тачка/акценти"
-
-#: ../rules/base.xml.in.h:5
-msgid "101/qwerty/dot/Eliminate dead keys"
-msgstr "101/qwerty/тачка/без акцената"
-
-#: ../rules/base.xml.in.h:6
-msgid "101/qwertz/comma/Dead keys"
-msgstr "101/qwertz/запета/акценти"
-
-#: ../rules/base.xml.in.h:7
-msgid "101/qwertz/comma/Eliminate dead keys"
-msgstr "101/qwertz/запета/без акцената"
-
-#: ../rules/base.xml.in.h:8
-msgid "101/qwertz/dot/Dead keys"
-msgstr "101/qwertz/тачка/акценти"
-
-#: ../rules/base.xml.in.h:9
-msgid "101/qwertz/dot/Eliminate dead keys"
-msgstr "101/qwertz/тачка/без акцената"
-
-#: ../rules/base.xml.in.h:10
-msgid "102/qwerty/comma/Dead keys"
-msgstr "102/qwerty/запета/акценти"
-
-#: ../rules/base.xml.in.h:11
-msgid "102/qwerty/comma/Eliminate dead keys"
-msgstr "102/qwerty/запета/без акцената"
-
-#: ../rules/base.xml.in.h:12
-msgid "102/qwerty/dot/Dead keys"
-msgstr "102/qwerty/тачка/акценти"
-
-#: ../rules/base.xml.in.h:13
-msgid "102/qwerty/dot/Eliminate dead keys"
-msgstr "102/qwerty/тачка/без акцената"
-
-#: ../rules/base.xml.in.h:14
-msgid "102/qwertz/comma/Dead keys"
-msgstr "102/qwertz/запета/акценти"
-
-#: ../rules/base.xml.in.h:15
-msgid "102/qwertz/comma/Eliminate dead keys"
-msgstr "102/qwertz/запета/без акцената"
-
-#: ../rules/base.xml.in.h:16
-msgid "102/qwertz/dot/Dead keys"
-msgstr "102/qwertz/тачка/акценти"
-
-#: ../rules/base.xml.in.h:17
-msgid "102/qwertz/dot/Eliminate dead keys"
-msgstr "102/qwertz/тачка/без акцената"
-
-#: ../rules/base.xml.in.h:18
-msgid "A4Tech KB-21"
-msgstr "A4Tech KB-21"
-
-#: ../rules/base.xml.in.h:19
-msgid "A4Tech KBS-8"
-msgstr "A4Tech KBS-8"
-
-#: ../rules/base.xml.in.h:20
-msgid "ACPI Standard"
-msgstr "ACPI стандард"
-
-#: ../rules/base.xml.in.h:21
-msgid "Acer AirKey V"
-msgstr "Acer AirKey V"
-
-#: ../rules/base.xml.in.h:22
-msgid "Acer TravelMate 800"
-msgstr "Acer TravelMate 800"
-
-#: ../rules/base.xml.in.h:23
-msgid "Add the EuroSign to the 2 key."
-msgstr "Додај знак за евро на тастер 2."
-
-#: ../rules/base.xml.in.h:24
-msgid "Add the EuroSign to the 5 key."
-msgstr "Додај знак за евро на тастер 5."
-
-#: ../rules/base.xml.in.h:25
-msgid "Add the EuroSign to the E key."
-msgstr "Додај знак за евро на тастер E."
-
-#: ../rules/base.xml.in.h:26
-msgid "Add the standard behavior to Menu key."
-msgstr "Додај обично понашање Menu тастеру."
-
-#: ../rules/base.xml.in.h:27
-msgid "Adding the EuroSign to certain keys"
-msgstr "Додавање знака за евро одређеним тастерима"
-
-#
-#: ../rules/base.xml.in.h:28
-msgid "Advance Scorpius KI"
-msgstr "Напредни Шкорпион КИ"
-
-#: ../rules/base.xml.in.h:29
-msgid "Afg"
-msgstr "афг"
-
-#: ../rules/base.xml.in.h:30
-msgid "Afghanistan"
-msgstr "Афганистан"
-
-#: ../rules/base.xml.in.h:31
-msgid "Akan"
-msgstr "акан"
-
-#: ../rules/base.xml.in.h:32
-msgid "Alb"
-msgstr "алб"
-
-#: ../rules/base.xml.in.h:33
-msgid "Albania"
-msgstr "Албанија"
-
-#: ../rules/base.xml.in.h:34
-msgid "Alt and Meta are on the Alt keys (default)."
-msgstr "Alt и Meta су на Alt тастерима (подразумевано)."
-
-#: ../rules/base.xml.in.h:35
-msgid "Alt is mapped to the right Win-key and Super to Menu."
-msgstr "Alt је мапиран на десни Windows тастер, а Super на Menu."
-
-#: ../rules/base.xml.in.h:36
-msgid "Alt+Ctrl changes group."
-msgstr "Alt+Ctrl мења групу."
-
-#: ../rules/base.xml.in.h:37
-msgid "Alt+Shift changes group."
-msgstr "Alt+Shift мења групу."
-
-#: ../rules/base.xml.in.h:38
-msgid "Alt-Q"
-msgstr "Alt-Q"
-
-#: ../rules/base.xml.in.h:39
-msgid "Alt/Win key behavior"
-msgstr "Понашање Alt/Win тастера"
-
-# Наизменично?
-#: ../rules/base.xml.in.h:40
-msgid "Alternative"
-msgstr "Допунска"
-
-#: ../rules/base.xml.in.h:41
-msgid "Alternative international (former us_intl)"
-msgstr "Допунска међународна (бивша us_intl)"
-
-#: ../rules/base.xml.in.h:42
-msgid "Alternative, Sun dead keys"
-msgstr "Допунска, Sun-ови акценти"
-
-#: ../rules/base.xml.in.h:43
-msgid "Alternative, eliminate dead keys"
-msgstr "Допунска, без акцената"
-
-#: ../rules/base.xml.in.h:44
-msgid "And"
-msgstr "анд"
-
-#: ../rules/base.xml.in.h:45
-msgid "Andorra"
-msgstr "Андора"
-
-#: ../rules/base.xml.in.h:46
-msgid "Apostrophe (') variant"
-msgstr "Варијанта са апострофом (')"
-
-#: ../rules/base.xml.in.h:47
-msgid "Ara"
-msgstr "ара"
-
-#: ../rules/base.xml.in.h:48
-msgid "Arabic"
-msgstr "арапски"
-
-#: ../rules/base.xml.in.h:49
-msgid "Arm"
-msgstr "јрм"
-
-#: ../rules/base.xml.in.h:50
-msgid "Armenia"
-msgstr "Јерменија"
-
-#: ../rules/base.xml.in.h:51
-msgid "Aze"
-msgstr "азб"
-
-#: ../rules/base.xml.in.h:52
-msgid "Azerbaijan"
-msgstr "Азербејџан"
-
-#: ../rules/base.xml.in.h:53
-msgid "Azona RF2300 wireless Internet Keyboard"
-msgstr "Azona RF2300 бежична Интернет тастатура"
-
-#: ../rules/base.xml.in.h:54
-msgid "BTC 5090"
-msgstr "BTC 5090"
-
-#: ../rules/base.xml.in.h:55
-msgid "BTC 5113RF Multimedia"
-msgstr "BTC 5113RF мултимедијална"
-
-#: ../rules/base.xml.in.h:56
-msgid "BTC 5126T"
-msgstr "BTC 5126T"
-
-#: ../rules/base.xml.in.h:57
-msgid "BTC 9000"
-msgstr "BTC 9000"
-
-#: ../rules/base.xml.in.h:58
-msgid "BTC 9000A"
-msgstr "BTC 9000A"
-
-#: ../rules/base.xml.in.h:59
-msgid "BTC 9001AH"
-msgstr "BTC 9001AH"
-
-#: ../rules/base.xml.in.h:60
-msgid "Ban"
-msgstr "бан"
-
-#: ../rules/base.xml.in.h:61
-msgid "Bangladesh"
-msgstr "Бангладеш"
-
-#: ../rules/base.xml.in.h:62
-msgid "Bel"
-msgstr "блг"
-
-#: ../rules/base.xml.in.h:63
-msgid "Belarus"
-msgstr "Белорусија"
-
-#: ../rules/base.xml.in.h:64
-msgid "Belgium"
-msgstr "Белгија"
-
-#: ../rules/base.xml.in.h:65
-msgid "Bengali"
-msgstr "бенгалски"
-
-#: ../rules/base.xml.in.h:66
-msgid "Bengali Probhat"
-msgstr "бенгалски пробат"
-
-#: ../rules/base.xml.in.h:67
-msgid "Bgr"
-msgstr "буг"
-
-#: ../rules/base.xml.in.h:68
-msgid "Bhu"
-msgstr "бут"
-
-#: ../rules/base.xml.in.h:69
-msgid "Bhutan"
-msgstr "Бутан"
-
-#: ../rules/base.xml.in.h:70
-msgid "Bih"
-msgstr "бих"
-
-#: ../rules/base.xml.in.h:71
-msgid "Blr"
-msgstr "блр"
-
-#: ../rules/base.xml.in.h:72
-msgid "Bosnia and Herzegovina"
-msgstr "Босна и Херцеговина"
-
-#: ../rules/base.xml.in.h:73
-msgid "Both Alt keys together change group."
-msgstr "Оба Alt тастера мењају групу."
-
-#: ../rules/base.xml.in.h:74
-msgid "Both Ctrl keys together change group."
-msgstr "Оба Ctrl тастера мењају групу."
-
-#: ../rules/base.xml.in.h:75
-msgid "Both Shift keys together change group."
-msgstr "Оба Shift тастера мењају групу."
-
-#: ../rules/base.xml.in.h:76
-msgid "Both Win-keys switch group while pressed."
-msgstr "Оба Win-тастера мењају групу када су притиснути."
-
-#: ../rules/base.xml.in.h:77
-msgid "Bra"
-msgstr "бра"
-
-#: ../rules/base.xml.in.h:78
-msgid "Brazil"
-msgstr "Бразил"
-
-#: ../rules/base.xml.in.h:79
-msgid "Brazilian ABNT2"
-msgstr "бразилска ABNT2"
-
-#: ../rules/base.xml.in.h:80
-msgid "Brother Internet Keyboard"
-msgstr "Brother Интернет тастатура"
-
-#: ../rules/base.xml.in.h:81
-msgid "Bulgaria"
-msgstr "Бугарска"
-
-#: ../rules/base.xml.in.h:82
-msgid "Cambodia"
-msgstr "Камбоџа"
-
-#: ../rules/base.xml.in.h:83
-msgid "Can"
-msgstr "кан"
-
-#: ../rules/base.xml.in.h:84
-msgid "Canada"
-msgstr "Канада"
-
-#: ../rules/base.xml.in.h:85
-msgid "Caps Lock is Compose."
-msgstr "Caps Lock је комбинујући тастер."
-
-#: ../rules/base.xml.in.h:86
-msgid "CapsLock LED shows alternative group."
-msgstr "Лампица за Caps Lock показује измењивање групе."
-
-#: ../rules/base.xml.in.h:87
-msgid "CapsLock acts as Shift with locking. Shift cancels CapsLock."
-msgstr "CapsLock се понаша као трајни Shift. Shift укида Caps."
-
-#: ../rules/base.xml.in.h:88
-msgid "CapsLock acts as Shift with locking. Shift doesn't cancel CapsLock."
-msgstr "CapsLock се понаша као трајни Shift. Shift не укида Caps."
-
-#: ../rules/base.xml.in.h:89
-msgid "CapsLock just locks the Shift modifier."
-msgstr "CapsLock просто трајно укључује Shift."
-
-#: ../rules/base.xml.in.h:90
-msgid "CapsLock key behavior"
-msgstr "Понашање Caps Lock тастера"
-
-#: ../rules/base.xml.in.h:91
-msgid "CapsLock key changes group."
-msgstr "Caps Lock тастер мења групу."
-
-#: ../rules/base.xml.in.h:92
-msgid "CapsLock toggles Shift so all keys are affected."
-msgstr "CapsLock мења Shift стање па делује на све тастере."
-
-#: ../rules/base.xml.in.h:93
-msgid "CapsLock toggles normal capitalization of alphabetic characters."
-msgstr "CapsLock мења обичну величину слова."
-
-#: ../rules/base.xml.in.h:94
-msgid "CapsLock uses internal capitalization. Shift cancels CapsLock."
-msgstr "CapsLock користи унутрашњу величину слова. Shift укида Caps Lock."
-
-#: ../rules/base.xml.in.h:95
-msgid "CapsLock uses internal capitalization. Shift doesn't cancel CapsLock."
-msgstr "CapsLock користи унутрашњу величину слова. Shift не укида Caps Lock."
-
-#: ../rules/base.xml.in.h:96
-msgid "Catalan variant with middle-dot L"
-msgstr "каталонска варијанта са L и средњом тачком"
-
-#: ../rules/base.xml.in.h:97
-msgid "Che"
-msgstr "швц"
-
-#: ../rules/base.xml.in.h:98
-msgid "Cherry Blue Line CyBo@rd"
-msgstr "Cherry Blue Line CyBo@rd"
-
-#: ../rules/base.xml.in.h:99
-msgid "Cherry Blue Line CyBo@rd (alternate option)"
-msgstr "Cherry Blue Line CyBo@rd (друга могућност)"
-
-#: ../rules/base.xml.in.h:100
-msgid "Cherry CyBo@rd USB-Hub"
-msgstr "Cherry CyBo@rd USB-Hub"
-
-#: ../rules/base.xml.in.h:101
-msgid "Cherry CyMotion Master Linux"
-msgstr "Cherry CyMotion Master Linux"
-
-#: ../rules/base.xml.in.h:102
-msgid "Chicony Internet Keyboard"
-msgstr "Chicony Интернет тастатура"
-
-#: ../rules/base.xml.in.h:103
-msgid "Chicony KB-9885"
-msgstr "Chicony KB-9885"
-
-#: ../rules/base.xml.in.h:104
-msgid "CloGaelach"
-msgstr "CloGaelach"
-
-#: ../rules/base.xml.in.h:105
-msgid "Compaq Easy Access Keyboard"
-msgstr "Compaq тастатура за лак приступ"
-
-#: ../rules/base.xml.in.h:106
-msgid "Compaq Internet Keyboard (13 keys)"
-msgstr "Compaq Интернет тастатура (13 тастера)"
-
-#: ../rules/base.xml.in.h:107
-msgid "Compaq Internet Keyboard (18 keys)"
-msgstr "Compaq Интернет тастатура (18 тастера)"
-
-#: ../rules/base.xml.in.h:108
-msgid "Compaq Internet Keyboard (7 keys)"
-msgstr "Compaq Интернет тастатура (7 тастера)"
-
-#: ../rules/base.xml.in.h:109
-msgid "Compaq iPaq Keyboard"
-msgstr "Compaq iPaq тастатура"
-
-#: ../rules/base.xml.in.h:110
-msgid "Compose key position"
-msgstr "Положај тастера Compose"
-
-#: ../rules/base.xml.in.h:111
-msgid "Croatia"
-msgstr "Хрватска"
-
-#: ../rules/base.xml.in.h:112
-msgid "Ctrl key at bottom left"
-msgstr "Тастер Ctrl је у дну лево"
-
-#: ../rules/base.xml.in.h:113
-msgid "Ctrl key at left of 'A'"
-msgstr "Тастер Ctrl је у лево од „А“"
-
-#: ../rules/base.xml.in.h:114
-msgid "Ctrl key position"
-msgstr "Положај тастера Ctrl"
-
-#: ../rules/base.xml.in.h:115
-msgid "Ctrl+Shift changes group."
-msgstr "Ctrl+Shift мења групу."
-
-#: ../rules/base.xml.in.h:116
-msgid "Cyrillic"
-msgstr "ћирилични"
-
-#: ../rules/base.xml.in.h:117
-msgid "Cze"
-msgstr "чеш"
-
-#: ../rules/base.xml.in.h:118
-msgid "Czechia"
-msgstr "Чешка"
-
-#: ../rules/base.xml.in.h:119
-msgid "DTK2000"
-msgstr "DTK2000"
-
-#: ../rules/base.xml.in.h:120
-msgid "Dead acute"
-msgstr "Акутски акценат"
-
-#: ../rules/base.xml.in.h:121
-msgid "Dead grave acute"
-msgstr "Гравис акутски акценат"
-
-#: ../rules/base.xml.in.h:122
-msgid "Dell"
-msgstr "Dell"
-
-#: ../rules/base.xml.in.h:123
-msgid "Dell 101-key PC"
-msgstr "Dell 101-тастер PC"
-
-#: ../rules/base.xml.in.h:124
-msgid "Dell USB Multimedia Keybard"
-msgstr "Dell USB мултимедијална тастатура"
-
-#: ../rules/base.xml.in.h:125
-msgid "Denmark"
-msgstr "Данска"
-
-#: ../rules/base.xml.in.h:126
-msgid "Deu"
-msgstr "нем"
-
-#: ../rules/base.xml.in.h:127
-msgid "Dexxa Wireless Desktop Keyboard"
-msgstr "Dexxa бежична тастатура"
-
-#: ../rules/base.xml.in.h:128
-msgid "Diamond 9801 / 9802 series"
-msgstr "Diamond 9801 / 9802 серија"
-
-#: ../rules/base.xml.in.h:129
-msgid "Dnk"
-msgstr "дан"
-
-#: ../rules/base.xml.in.h:130
-msgid "Dvorak"
-msgstr "дворак"
-
-#: ../rules/base.xml.in.h:131
-msgid "Dvorak, Polish quotes on key \"1/!\""
-msgstr "дворак, пољски наводници на тастеру „1/!“"
-
-#: ../rules/base.xml.in.h:132
-msgid "Dvorak, Polish quotes on quotemark key"
-msgstr "дворак, пољски наводници на тастеру наводника"
-
-#: ../rules/base.xml.in.h:133
-msgid "Eliminate dead keys"
-msgstr "Уклони акценте"
-
-#: ../rules/base.xml.in.h:134
-msgid "Ennyah DKB-1008"
-msgstr "Ennyah DKB-1008"
-
-#: ../rules/base.xml.in.h:135
-msgid "Epo"
-msgstr "есп"
-
-#: ../rules/base.xml.in.h:136
-msgid "Esp"
-msgstr "шпа"
-
-#: ../rules/base.xml.in.h:137
-msgid "Esperanto"
-msgstr "есперанто"
-
-#: ../rules/base.xml.in.h:138
-msgid "Est"
-msgstr "ест"
-
-#: ../rules/base.xml.in.h:139
-msgid "Estonia"
-msgstr "Естонија"
-
-#: ../rules/base.xml.in.h:140
-msgid "Everex STEPnote"
-msgstr "Everex STEPnote"
-
-#: ../rules/base.xml.in.h:141
-msgid "Ewe"
-msgstr "Еве"
-
-#: ../rules/base.xml.in.h:142
-msgid "Extended"
-msgstr "Проширено"
-
-#: ../rules/base.xml.in.h:143
-msgid "Extended Backslash"
-msgstr "Проширено уз обрнуту косу црту"
-
-#: ../rules/base.xml.in.h:144
-msgid "F-letter (F) variant"
-msgstr "Варијанта са F-словом (F)"
-
-#: ../rules/base.xml.in.h:145
-msgid "Fao"
-msgstr "фар"
-
-#: ../rules/base.xml.in.h:146
-msgid "Faroe Islands"
-msgstr "Фарска острва"
-
-#: ../rules/base.xml.in.h:147
-msgid "Fin"
-msgstr "фин"
-
-#: ../rules/base.xml.in.h:148
-msgid "Finland"
-msgstr "Финска"
-
-#: ../rules/base.xml.in.h:149
-msgid "Fra"
-msgstr "фра"
-
-#: ../rules/base.xml.in.h:150
-msgid "France"
-msgstr "Француска"
-
-#: ../rules/base.xml.in.h:151
-msgid "French"
-msgstr "француски"
-
-#: ../rules/base.xml.in.h:152
-msgid "French (legacy)"
-msgstr "француски (класични)"
-
-#: ../rules/base.xml.in.h:153
-msgid "French Dvorak"
-msgstr "француски дворак"
-
-#: ../rules/base.xml.in.h:154
-msgid "French, Sun dead keys"
-msgstr "француски, Sun-ови акценти"
-
-#: ../rules/base.xml.in.h:155
-msgid "French, eliminate dead keys"
-msgstr "Француски, без акцената"
-
-#: ../rules/base.xml.in.h:156
-msgid "Fula"
-msgstr "Фула"
-
-#: ../rules/base.xml.in.h:157
-msgid "GBr"
-msgstr "вбр"
-
-#: ../rules/base.xml.in.h:158
-msgid "Ga"
-msgstr "Га"
-
-#: ../rules/base.xml.in.h:159
 msgid "Generic 101-key PC"
 msgstr "Обична са 101 тастером"
 
-#: ../rules/base.xml.in.h:160
+#: ../rules/base.xml.in.h:2
 msgid "Generic 102-key (Intl) PC"
 msgstr "Обична са 102 тастера (међунар.)"
 
-#: ../rules/base.xml.in.h:161
+#: ../rules/base.xml.in.h:3
 msgid "Generic 104-key PC"
 msgstr "Обична са 104 тастера"
 
-#: ../rules/base.xml.in.h:162
+#: ../rules/base.xml.in.h:4
 msgid "Generic 105-key (Intl) PC"
 msgstr "Обична са 105 тастера (међунар.)"
 
-#: ../rules/base.xml.in.h:163
-msgid "Genius Comfy KB-12e"
-msgstr "Genius Comfy KB-12e"
+#: ../rules/base.xml.in.h:5
+msgid "Dell 101-key PC"
+msgstr "Dell 101-тастер PC"
 
-#: ../rules/base.xml.in.h:164
-msgid "Genius Comfy KB-16M / Genius MM Keyboard KWD-910"
-msgstr "Genius Comfy KB-16M / Genius ММ тастатура KWD-910"
+#: ../rules/base.xml.in.h:6
+msgid "Dell Latitude series laptop"
+msgstr ""
 
-#: ../rules/base.xml.in.h:165
-msgid "Genius Comfy KB-21e-Scroll"
-msgstr "Genius Comfy KB-21e-Scroll"
+#: ../rules/base.xml.in.h:7
+msgid "Dell Precision M65"
+msgstr ""
 
-#: ../rules/base.xml.in.h:166
-msgid "Geo"
-msgstr "гру"
+#: ../rules/base.xml.in.h:8
+msgid "Everex STEPnote"
+msgstr "Everex STEPnote"
 
-#: ../rules/base.xml.in.h:167
-msgid "Georgia"
-msgstr "Грузија"
-
-#: ../rules/base.xml.in.h:168
-msgid "German, Sun dead keys"
-msgstr "немачки, Sun-ови акценти"
-
-#: ../rules/base.xml.in.h:169
-msgid "German, eliminate dead keys"
-msgstr "немачки, без акцената"
-
-#: ../rules/base.xml.in.h:170
-msgid "Germany"
-msgstr "Немачка"
-
-#: ../rules/base.xml.in.h:171
-msgid "Gha"
-msgstr "га"
-
-#: ../rules/base.xml.in.h:172
-msgid "Ghana"
-msgstr "Гана"
-
-#: ../rules/base.xml.in.h:173
-msgid "Gre"
-msgstr "грк"
-
-#: ../rules/base.xml.in.h:174
-msgid "Greece"
-msgstr "Грчка"
-
-#: ../rules/base.xml.in.h:175
-msgid "Group Shift/Lock behavior"
-msgstr "Понашање измене/избора групе"
-
-#: ../rules/base.xml.in.h:176
-msgid "Gujarati"
-msgstr "гујарати"
-
-#: ../rules/base.xml.in.h:177
-msgid "Gurmukhi"
-msgstr "гурмуки"
-
-#: ../rules/base.xml.in.h:178
-msgid "Gyration"
-msgstr "Gyration"
-
-#: ../rules/base.xml.in.h:179
-msgid "Hausa"
-msgstr "Хауса"
-
-#: ../rules/base.xml.in.h:180
-msgid "Hewlett-Packard Internet Keyboard"
-msgstr "Hewlett-Packard Интернет тастатура"
-
-#: ../rules/base.xml.in.h:181
-msgid "Hewlett-Packard Omnibook 500 FA"
-msgstr "Hewlett-Packard Omnibook 500 FA"
-
-#: ../rules/base.xml.in.h:182
-msgid "Hewlett-Packard Omnibook 5xx"
-msgstr "Hewlett-Packard Omnibook 5xx"
-
-#: ../rules/base.xml.in.h:183
-msgid "Hewlett-Packard Omnibook 6000/6100"
-msgstr "Hewlett-Packard Omnibook 6000/6100"
-
-#: ../rules/base.xml.in.h:184
-msgid "Hewlett-Packard Omnibook XE3 GC"
-msgstr "Hewlett-Packard Omnibook XE3 GC"
-
-#: ../rules/base.xml.in.h:185
-msgid "Hewlett-Packard Omnibook XE3 GF"
-msgstr "Hewlett-Packard Omnibook XE3 GF"
-
-#: ../rules/base.xml.in.h:186
-msgid "Hewlett-Packard Omnibook XT1000"
-msgstr "Hewlett-Packard Omnibook XT1000"
-
-#: ../rules/base.xml.in.h:187
-msgid "Hewlett-Packard Pavilion ZT11xx"
-msgstr "Hewlett-Packard Pavilion ZT11xx"
-
-#: ../rules/base.xml.in.h:188
-msgid "Hewlett-Packard SK-2501 Multimedia Keyboard"
-msgstr "Hewlett-Packard SK-2501 мултимедијална тастатура"
-
-#: ../rules/base.xml.in.h:189
-msgid "Hewlett-Packard SK-2505 Internet Keyboard"
-msgstr "Hewlett-Packard SK-2505 Интернет тастатура"
-
-#: ../rules/base.xml.in.h:190
-msgid "Honeywell Euroboard"
-msgstr "Honeywell Euroboard"
-
-#: ../rules/base.xml.in.h:191
-msgid "Hrv"
-msgstr "хрв"
-
-#: ../rules/base.xml.in.h:192
-msgid "Hun"
-msgstr "мађ"
-
-#: ../rules/base.xml.in.h:193
-msgid "Hungary"
-msgstr "Мађарска"
-
-#: ../rules/base.xml.in.h:194
-msgid "Hyper is mapped to the Win-keys."
-msgstr "Hyper је мапиран на Win тастере."
-
-#: ../rules/base.xml.in.h:195
-msgid "IBM Rapid Access"
-msgstr "IBM Rapid Access"
-
-#: ../rules/base.xml.in.h:196
-msgid "IBM Rapid Access II"
-msgstr "IBM Rapid Access II"
-
-#: ../rules/base.xml.in.h:197
-msgid "IBM Rapid Access II (alternate option)"
-msgstr "IBM Rapid Access II (друга могућност)"
-
-#: ../rules/base.xml.in.h:198
-msgid "IBM ThinkPad 560Z/600/600E/A22E"
-msgstr "IBM ThinkPad 560Z/600/600E/A22E"
-
-#: ../rules/base.xml.in.h:199
-msgid "ISO Alternate"
-msgstr "Додатни ИСО"
-
-#: ../rules/base.xml.in.h:200
-msgid "Iceland"
-msgstr "Исланд"
-
-#: ../rules/base.xml.in.h:201
-msgid "Ind"
-msgstr "инд"
-
-#: ../rules/base.xml.in.h:202
-msgid "India"
-msgstr "Индија"
-
-#: ../rules/base.xml.in.h:203
-msgid "International (with dead keys)"
-msgstr "Међународна (са акцентима)"
-
-#: ../rules/base.xml.in.h:204
-msgid "Inuktitut"
-msgstr "инуктитут"
-
-#: ../rules/base.xml.in.h:205
-msgid "Iran"
-msgstr "Иран"
-
-#: ../rules/base.xml.in.h:206
-msgid "Ireland"
-msgstr "Ирска"
-
-#: ../rules/base.xml.in.h:207
-msgid "Irl"
-msgstr "ирс"
-
-#: ../rules/base.xml.in.h:208
-msgid "Irn"
-msgstr "ирн"
-
-#: ../rules/base.xml.in.h:209
-msgid "Isl"
-msgstr "исл"
-
-#: ../rules/base.xml.in.h:210
-msgid "Isr"
-msgstr "изр"
-
-#: ../rules/base.xml.in.h:211
-msgid "Israel"
-msgstr "Израел"
-
-#: ../rules/base.xml.in.h:212
-msgid "Ita"
-msgstr "ита"
-
-#: ../rules/base.xml.in.h:213
-msgid "Italy"
-msgstr "Италија"
-
-#: ../rules/base.xml.in.h:214
-msgid "Japan"
-msgstr "Јапан"
-
-#: ../rules/base.xml.in.h:215
-msgid "Japanese 106-key"
-msgstr "јапански са 106 тастера"
-
-#: ../rules/base.xml.in.h:216
-msgid "Jpn"
-msgstr "јпн"
-
-#: ../rules/base.xml.in.h:217
-msgid "Kannada"
-msgstr "канада (јужна индија)"
-
-#: ../rules/base.xml.in.h:218
-msgid "Kaz"
-msgstr "каз"
-
-#: ../rules/base.xml.in.h:219
-msgid "Kazakh with Russian"
-msgstr "казахстански са руским"
-
-#: ../rules/base.xml.in.h:220
-msgid "Kazakhstan"
-msgstr "Казахстан"
-
-#: ../rules/base.xml.in.h:221
-msgid "Keypad"
-msgstr "Нумеричка тастатура"
-
-#: ../rules/base.xml.in.h:222
+#: ../rules/base.xml.in.h:9
 msgid "Keytronic FlexPro"
 msgstr "Keytronic FlexPro"
 
-#: ../rules/base.xml.in.h:223
-msgid "Khm"
-msgstr "кмб"
-
-#: ../rules/base.xml.in.h:224
-msgid "Kyr"
-msgstr "кир"
-
-#: ../rules/base.xml.in.h:225
-msgid "Kyrgyzstan"
-msgstr "Киргистан"
-
-#: ../rules/base.xml.in.h:226
-msgid "LAm"
-msgstr "ЈАм"
-
-#: ../rules/base.xml.in.h:227
-msgid "Lao"
-msgstr "лао"
-
-#: ../rules/base.xml.in.h:228
-msgid "Laos"
-msgstr "Лаос"
-
-#: ../rules/base.xml.in.h:229
-msgid "Laptop/notebook Compaq (eg. Armada) Laptop Keyboard"
-msgstr "Тастатуре преносних рачунара из Compaq-а (нпр. Armada)"
-
-#: ../rules/base.xml.in.h:230
-msgid "Laptop/notebook Compaq (eg. Presario) Internet Keyboard"
-msgstr "Тастатуре преносних рачунара из Compaq-а (нпр. Presario)"
-
-#: ../rules/base.xml.in.h:231
-msgid "Laptop/notebook Dell Inspiron 6xxx/8xxx"
-msgstr "Тастатуре преносних рачунара Dell Inspiron 6xxx/8xxx"
-
-#: ../rules/base.xml.in.h:232
-msgid "Laptop/notebook eMachines m68xx"
-msgstr "Преносне eMachines m68xx"
-
-#: ../rules/base.xml.in.h:233
-msgid "Latin"
-msgstr "латинични"
-
-#: ../rules/base.xml.in.h:234
-msgid "Latin American"
-msgstr "јужноамерички"
-
-#: ../rules/base.xml.in.h:235
-msgid "Latin Unicode"
-msgstr "латинични Уникод"
-
-#: ../rules/base.xml.in.h:236
-msgid "Latin Unicode qwerty"
-msgstr "латинични Уникод qwerty"
-
-#: ../rules/base.xml.in.h:237
-msgid "Latin qwerty"
-msgstr "латинични qwerty"
-
-#: ../rules/base.xml.in.h:238
-msgid "Latin with guillemots"
-msgstr "латинични са гиљемотима"
-
-#: ../rules/base.xml.in.h:239
-msgid "Latvia"
-msgstr "Летонија"
-
-#: ../rules/base.xml.in.h:240
-msgid "Left Alt key changes group."
-msgstr "Леви Alt тастер мења групу."
-
-#: ../rules/base.xml.in.h:241
-msgid "Left Alt key switches group while pressed."
-msgstr "Леви Alt тастер мења групу док је притиснут."
-
-#: ../rules/base.xml.in.h:242
-msgid "Left Ctrl key changes group."
-msgstr "Леви Ctrl тастер мења групу."
-
-#: ../rules/base.xml.in.h:243
-msgid "Left Shift key changes group."
-msgstr "Леви Shift тастер мења групу."
-
-#: ../rules/base.xml.in.h:244
-msgid "Left Win-key changes group."
-msgstr "Леви Windows тастер мења групу."
-
-#: ../rules/base.xml.in.h:245
-msgid "Left Win-key switches group while pressed."
-msgstr "Леви Windows тастер мења групу док је притиснут."
-
-#: ../rules/base.xml.in.h:246
-msgid "Left handed Dvorak"
-msgstr "Леворучни Дворак"
-
-#: ../rules/base.xml.in.h:247
-msgid "Lithuania"
-msgstr "Литванија"
-
-#: ../rules/base.xml.in.h:248
-msgid "Logitech Access Keyboard"
-msgstr "Logitech Access тастатура"
-
-#: ../rules/base.xml.in.h:249
-msgid "Logitech Cordless Desktop"
-msgstr "Logitech Cordless Desktop"
-
-#: ../rules/base.xml.in.h:250
-msgid "Logitech Cordless Desktop Navigator"
-msgstr "Logitech Cordless Desktop Navigator"
-
-#: ../rules/base.xml.in.h:251
-msgid "Logitech Cordless Desktop Optical"
-msgstr "Logitech Cordless Desktop Optical"
-
-#: ../rules/base.xml.in.h:252
-msgid "Logitech Cordless Desktop Pro"
-msgstr "Logitech Cordless Desktop Pro"
-
-#: ../rules/base.xml.in.h:253
-msgid "Logitech Cordless Desktop Pro (alternate option)"
-msgstr "Logitech Cordless Desktop Pro (додатна могућност)"
-
-#: ../rules/base.xml.in.h:254
-msgid "Logitech Cordless Desktop Pro (alternate option2)"
-msgstr "Logitech Cordless Desktop Pro (додатна могућност 2)"
-
-#: ../rules/base.xml.in.h:255
-msgid "Logitech Cordless Desktop iTouch"
-msgstr "Logitech Cordless Desktop iTouch"
-
-#: ../rules/base.xml.in.h:256
-msgid "Logitech Cordless Freedom/Desktop Navigator"
-msgstr "Logitech Cordless Freedom/Desktop Navigator"
-
-#: ../rules/base.xml.in.h:257
-msgid "Logitech Deluxe Access Keyboard"
-msgstr "Logitech Deluxe Access тастатура"
-
-#: ../rules/base.xml.in.h:258
-msgid "Logitech Internet Keyboard"
-msgstr "Logitech Интернет тастатура"
-
-#: ../rules/base.xml.in.h:259
-msgid "Logitech Internet Navigator Keyboard"
-msgstr "Logitech Интернет навигатор тастатура"
-
-#: ../rules/base.xml.in.h:260
-msgid "Logitech Ultra-X Keyboard"
-msgstr "Logitech Ultra-X тастатура"
-
-#: ../rules/base.xml.in.h:261
-msgid "Logitech iTouch"
-msgstr "Logitech iTouch"
-
-#: ../rules/base.xml.in.h:262
-msgid "Logitech iTouch Cordless Keyboard (model Y-RB6)"
-msgstr "Logitech iTouch Cordless тастатура (модел Y-RB6)"
-
-#: ../rules/base.xml.in.h:263
-msgid "Logitech iTouch keyboard Internet Navigator"
-msgstr "Logitech iTouch тастатура Интернет навигатор"
-
-#: ../rules/base.xml.in.h:264
-msgid "Ltu"
-msgstr "лит"
-
-#: ../rules/base.xml.in.h:265
-msgid "Lva"
-msgstr "лет"
-
-#: ../rules/base.xml.in.h:266
-msgid "Macedonia"
-msgstr "Македонија"
-
-#: ../rules/base.xml.in.h:267
-msgid "Macintosh"
-msgstr "Мекинтош"
-
-#: ../rules/base.xml.in.h:268
-msgid "Macintosh Old"
-msgstr "Стари Мекинтош"
-
-#: ../rules/base.xml.in.h:269
-msgid "Make CapsLock an additional Ctrl."
-msgstr "Учини Caps Lock додатним Ctrl тастером."
-
-#: ../rules/base.xml.in.h:270
-msgid "Mal"
-msgstr "мал"
-
-#: ../rules/base.xml.in.h:271
-msgid "Malayalam"
-msgstr "малајамски"
-
-#: ../rules/base.xml.in.h:272
-msgid "Maldives"
-msgstr "Малдиви"
-
-#: ../rules/base.xml.in.h:273
-msgid "Malta"
-msgstr "Малта"
-
-#: ../rules/base.xml.in.h:274
-msgid "Mao"
-msgstr "мао"
-
-#: ../rules/base.xml.in.h:275
-msgid "Maori"
-msgstr "Маори"
-
-#: ../rules/base.xml.in.h:276
-msgid "Memorex MX1998"
-msgstr "Memorex MX1998"
-
-#: ../rules/base.xml.in.h:277
-msgid "Memorex MX2500 EZ-Access Keyboard"
-msgstr "Memorex MX2500 EZ-Access тастатура"
-
-#: ../rules/base.xml.in.h:278
-msgid "Memorex MX2750"
-msgstr "Memorex MX2750"
-
-#: ../rules/base.xml.in.h:279
-msgid "Menu is Compose."
-msgstr "Menu је комбинујући тастер."
-
-#: ../rules/base.xml.in.h:280
-msgid "Menu key changes group."
-msgstr "Menu тастер мења групу."
-
-#: ../rules/base.xml.in.h:281
-msgid "Meta is mapped to the Win-keys."
-msgstr "Meta је мапиран на Windows тастере."
-
-#: ../rules/base.xml.in.h:282
-msgid "Meta is mapped to the left Win-key."
-msgstr "Meta је мапиран на леви Windows тастер."
-
-#: ../rules/base.xml.in.h:283
-msgid "Microsoft Internet Keyboard"
-msgstr "Микрософтова Интернет тастатура"
-
-#: ../rules/base.xml.in.h:284
-msgid "Microsoft Internet Keyboard Pro, Swedish"
-msgstr "Микрософтова Интернет Про тастатура, шведски"
-
-#: ../rules/base.xml.in.h:285
+#: ../rules/base.xml.in.h:10
 msgid "Microsoft Natural"
 msgstr "Микрософт Натурал"
 
-#: ../rules/base.xml.in.h:286
+#: ../rules/base.xml.in.h:11
+msgid "Northgate OmniKey 101"
+msgstr "Northgate OmniKey 101"
+
+#: ../rules/base.xml.in.h:12
+msgid "Winbook Model XP5"
+msgstr "Winbook Model XP5"
+
+#: ../rules/base.xml.in.h:13
+msgid "PC-98xx Series"
+msgstr "PC-98xx серија"
+
+#: ../rules/base.xml.in.h:14
+msgid "A4Tech KB-21"
+msgstr "A4Tech KB-21"
+
+#: ../rules/base.xml.in.h:15
+msgid "A4Tech KBS-8"
+msgstr "A4Tech KBS-8"
+
+#: ../rules/base.xml.in.h:16
+#, fuzzy
+msgid "A4Tech Wireless Desktop RFKB-23"
+msgstr "Dexxa бежична тастатура"
+
+#: ../rules/base.xml.in.h:17
+msgid "Acer AirKey V"
+msgstr "Acer AirKey V"
+
+#: ../rules/base.xml.in.h:18
+msgid "Azona RF2300 wireless Internet Keyboard"
+msgstr "Azona RF2300 бежична Интернет тастатура"
+
+#
+#: ../rules/base.xml.in.h:19
+msgid "Advance Scorpius KI"
+msgstr "Напредни Шкорпион КИ"
+
+#: ../rules/base.xml.in.h:20
+msgid "Brother Internet Keyboard"
+msgstr "Brother Интернет тастатура"
+
+#: ../rules/base.xml.in.h:21
+msgid "BTC 5113RF Multimedia"
+msgstr "BTC 5113RF мултимедијална"
+
+#: ../rules/base.xml.in.h:22
+msgid "BTC 5126T"
+msgstr "BTC 5126T"
+
+#: ../rules/base.xml.in.h:23
+msgid "BTC 6301URF"
+msgstr ""
+
+#: ../rules/base.xml.in.h:24
+msgid "BTC 9000"
+msgstr "BTC 9000"
+
+#: ../rules/base.xml.in.h:25
+msgid "BTC 9000A"
+msgstr "BTC 9000A"
+
+#: ../rules/base.xml.in.h:26
+msgid "BTC 9001AH"
+msgstr "BTC 9001AH"
+
+#: ../rules/base.xml.in.h:27
+msgid "BTC 5090"
+msgstr "BTC 5090"
+
+#: ../rules/base.xml.in.h:28
+#, fuzzy
+msgid "BTC 9019U"
+msgstr "BTC 9001AH"
+
+#: ../rules/base.xml.in.h:29
+msgid "BTC 9116U Mini Wireless Internet and Gaming"
+msgstr ""
+
+#: ../rules/base.xml.in.h:30
+msgid "Cherry Blue Line CyBo@rd"
+msgstr "Cherry Blue Line CyBo@rd"
+
+#: ../rules/base.xml.in.h:31
+#, fuzzy
+msgid "Cherry CyMotion Master XPress"
+msgstr "Cherry CyMotion Master Linux"
+
+#: ../rules/base.xml.in.h:32
+msgid "Cherry Blue Line CyBo@rd (alternate option)"
+msgstr "Cherry Blue Line CyBo@rd (друга могућност)"
+
+#: ../rules/base.xml.in.h:33
+msgid "Cherry CyBo@rd USB-Hub"
+msgstr "Cherry CyBo@rd USB-Hub"
+
+#: ../rules/base.xml.in.h:34
+#, fuzzy
+msgid "Cherry CyMotion Expert"
+msgstr "Cherry CyMotion Master Linux"
+
+#: ../rules/base.xml.in.h:35
+msgid "Cherry B.UNLIMITED"
+msgstr ""
+
+#: ../rules/base.xml.in.h:36
+msgid "Chicony Internet Keyboard"
+msgstr "Chicony Интернет тастатура"
+
+#: ../rules/base.xml.in.h:37
+#, fuzzy
+msgid "Chicony KU-0108"
+msgstr "Chicony KB-9885"
+
+#: ../rules/base.xml.in.h:38
+#, fuzzy
+msgid "Chicony KU-0420"
+msgstr "Chicony KB-9885"
+
+#: ../rules/base.xml.in.h:39
+msgid "Chicony KB-9885"
+msgstr "Chicony KB-9885"
+
+#: ../rules/base.xml.in.h:40
+msgid "Compaq Easy Access Keyboard"
+msgstr "Compaq тастатура за лак приступ"
+
+#: ../rules/base.xml.in.h:41
+msgid "Compaq Internet Keyboard (7 keys)"
+msgstr "Compaq Интернет тастатура (7 тастера)"
+
+#: ../rules/base.xml.in.h:42
+msgid "Compaq Internet Keyboard (13 keys)"
+msgstr "Compaq Интернет тастатура (13 тастера)"
+
+#: ../rules/base.xml.in.h:43
+msgid "Compaq Internet Keyboard (18 keys)"
+msgstr "Compaq Интернет тастатура (18 тастера)"
+
+#: ../rules/base.xml.in.h:44
+msgid "Cherry CyMotion Master Linux"
+msgstr "Cherry CyMotion Master Linux"
+
+#: ../rules/base.xml.in.h:45
+msgid "Laptop/notebook Compaq (eg. Armada) Laptop Keyboard"
+msgstr "Тастатуре преносних рачунара из Compaq-а (нпр. Armada)"
+
+#: ../rules/base.xml.in.h:46
+msgid "Laptop/notebook Compaq (eg. Presario) Internet Keyboard"
+msgstr "Тастатуре преносних рачунара из Compaq-а (нпр. Presario)"
+
+#: ../rules/base.xml.in.h:47
+msgid "Compaq iPaq Keyboard"
+msgstr "Compaq iPaq тастатура"
+
+#: ../rules/base.xml.in.h:48
+msgid "Dell"
+msgstr "Dell"
+
+#: ../rules/base.xml.in.h:49
+msgid "Dell SK-8125"
+msgstr ""
+
+#: ../rules/base.xml.in.h:50
+msgid "Dell SK-8135"
+msgstr ""
+
+#: ../rules/base.xml.in.h:51
+#, fuzzy
+msgid "Dell USB Multimedia Keyboard"
+msgstr "Dell USB мултимедијална тастатура"
+
+#: ../rules/base.xml.in.h:52
+#, fuzzy
+msgid "Dell Laptop/notebook Inspiron 6xxx/8xxx"
+msgstr "Тастатуре преносних рачунара Dell Inspiron 6xxx/8xxx"
+
+#: ../rules/base.xml.in.h:53
+#, fuzzy
+msgid "Dell Laptop/notebook Precision M series"
+msgstr "Преносне eMachines m68xx"
+
+#: ../rules/base.xml.in.h:54
+msgid "Dexxa Wireless Desktop Keyboard"
+msgstr "Dexxa бежична тастатура"
+
+#: ../rules/base.xml.in.h:55
+msgid "Diamond 9801 / 9802 series"
+msgstr "Diamond 9801 / 9802 серија"
+
+#: ../rules/base.xml.in.h:56
+msgid "DTK2000"
+msgstr "DTK2000"
+
+#: ../rules/base.xml.in.h:57
+msgid "Ennyah DKB-1008"
+msgstr "Ennyah DKB-1008"
+
+#: ../rules/base.xml.in.h:58
+msgid "Fujitsu-Siemens Computers AMILO laptop"
+msgstr ""
+
+#: ../rules/base.xml.in.h:59
+msgid "Genius Comfy KB-16M / Genius MM Keyboard KWD-910"
+msgstr "Genius Comfy KB-16M / Genius ММ тастатура KWD-910"
+
+#: ../rules/base.xml.in.h:60
+msgid "Genius Comfy KB-12e"
+msgstr "Genius Comfy KB-12e"
+
+#: ../rules/base.xml.in.h:61
+msgid "Genius Comfy KB-21e-Scroll"
+msgstr "Genius Comfy KB-21e-Scroll"
+
+#: ../rules/base.xml.in.h:62
+#, fuzzy
+msgid "Genius KB-19e NB"
+msgstr "Genius Comfy KB-12e"
+
+#: ../rules/base.xml.in.h:63
+#, fuzzy
+msgid "Genius KKB-2050HS"
+msgstr "Genius Comfy KB-12e"
+
+#: ../rules/base.xml.in.h:64
+msgid "Gyration"
+msgstr "Gyration"
+
+#: ../rules/base.xml.in.h:65
+msgid "HTC Dream"
+msgstr ""
+
+#: ../rules/base.xml.in.h:66
+msgid "Kinesis"
+msgstr ""
+
+#: ../rules/base.xml.in.h:67
+#, fuzzy
+msgid "Logitech Generic Keyboard"
+msgstr "Logitech Интернет тастатура"
+
+#: ../rules/base.xml.in.h:68
+msgid "Logitech G15 extra keys via G15daemon"
+msgstr ""
+
+#: ../rules/base.xml.in.h:69
+msgid "Hewlett-Packard Internet Keyboard"
+msgstr "Hewlett-Packard Интернет тастатура"
+
+#: ../rules/base.xml.in.h:70
+#, fuzzy
+msgid "Hewlett-Packard SK-250x Multimedia Keyboard"
+msgstr "Hewlett-Packard SK-2501 мултимедијална тастатура"
+
+#: ../rules/base.xml.in.h:71
+msgid "Hewlett-Packard Omnibook XE3 GC"
+msgstr "Hewlett-Packard Omnibook XE3 GC"
+
+#: ../rules/base.xml.in.h:72
+msgid "Hewlett-Packard Omnibook XE3 GF"
+msgstr "Hewlett-Packard Omnibook XE3 GF"
+
+#: ../rules/base.xml.in.h:73
+msgid "Hewlett-Packard Omnibook XT1000"
+msgstr "Hewlett-Packard Omnibook XT1000"
+
+#: ../rules/base.xml.in.h:74
+#, fuzzy
+msgid "Hewlett-Packard Pavilion dv5"
+msgstr "Hewlett-Packard Pavilion ZT11xx"
+
+#: ../rules/base.xml.in.h:75
+msgid "Hewlett-Packard Pavilion ZT11xx"
+msgstr "Hewlett-Packard Pavilion ZT11xx"
+
+#: ../rules/base.xml.in.h:76
+msgid "Hewlett-Packard Omnibook 500 FA"
+msgstr "Hewlett-Packard Omnibook 500 FA"
+
+#: ../rules/base.xml.in.h:77
+msgid "Hewlett-Packard Omnibook 5xx"
+msgstr "Hewlett-Packard Omnibook 5xx"
+
+#: ../rules/base.xml.in.h:78
+#, fuzzy
+msgid "Hewlett-Packard nx9020"
+msgstr "Hewlett-Packard Omnibook 5xx"
+
+#: ../rules/base.xml.in.h:79
+msgid "Hewlett-Packard Omnibook 6000/6100"
+msgstr "Hewlett-Packard Omnibook 6000/6100"
+
+#: ../rules/base.xml.in.h:80
+msgid "Honeywell Euroboard"
+msgstr "Honeywell Euroboard"
+
+#: ../rules/base.xml.in.h:81
+#, fuzzy
+msgid "Hewlett-Packard Mini 110 Notebook"
+msgstr "Hewlett-Packard Omnibook 5xx"
+
+#: ../rules/base.xml.in.h:82
+msgid "IBM Rapid Access"
+msgstr "IBM Rapid Access"
+
+#: ../rules/base.xml.in.h:83
+msgid "IBM Rapid Access II"
+msgstr "IBM Rapid Access II"
+
+#: ../rules/base.xml.in.h:84
+msgid "IBM ThinkPad 560Z/600/600E/A22E"
+msgstr "IBM ThinkPad 560Z/600/600E/A22E"
+
+#: ../rules/base.xml.in.h:85
+#, fuzzy
+msgid "IBM ThinkPad R60/T60/R61/T61"
+msgstr "IBM ThinkPad 560Z/600/600E/A22E"
+
+#: ../rules/base.xml.in.h:86
+#, fuzzy
+msgid "IBM ThinkPad Z60m/Z60t/Z61m/Z61t"
+msgstr "IBM ThinkPad 560Z/600/600E/A22E"
+
+#: ../rules/base.xml.in.h:87
+msgid "IBM Space Saver"
+msgstr ""
+
+#: ../rules/base.xml.in.h:88
+msgid "Logitech Access Keyboard"
+msgstr "Logitech Access тастатура"
+
+#: ../rules/base.xml.in.h:89
+#, fuzzy
+msgid "Logitech Cordless Desktop LX-300"
+msgstr "Logitech Cordless Desktop"
+
+#: ../rules/base.xml.in.h:90
+#, fuzzy
+msgid "Logitech Internet 350 Keyboard"
+msgstr "Logitech Интернет тастатура"
+
+#: ../rules/base.xml.in.h:91
+#, fuzzy
+msgid "Logitech Media Elite Keyboard"
+msgstr "Logitech Ultra-X тастатура"
+
+#: ../rules/base.xml.in.h:92
+msgid "Logitech Cordless Desktop"
+msgstr "Logitech Cordless Desktop"
+
+#: ../rules/base.xml.in.h:93
+msgid "Logitech Cordless Desktop iTouch"
+msgstr "Logitech Cordless Desktop iTouch"
+
+#: ../rules/base.xml.in.h:94
+msgid "Logitech Cordless Desktop Navigator"
+msgstr "Logitech Cordless Desktop Navigator"
+
+#: ../rules/base.xml.in.h:95
+msgid "Logitech Cordless Desktop Optical"
+msgstr "Logitech Cordless Desktop Optical"
+
+#: ../rules/base.xml.in.h:96
+#, fuzzy
+msgid "Logitech Cordless Desktop (alternate option)"
+msgstr "Logitech Cordless Desktop Pro (додатна могућност)"
+
+#: ../rules/base.xml.in.h:97
+#, fuzzy
+msgid "Logitech Cordless Desktop Pro (alternate option 2)"
+msgstr "Logitech Cordless Desktop Pro (додатна могућност 2)"
+
+#: ../rules/base.xml.in.h:98
+msgid "Logitech Cordless Freedom/Desktop Navigator"
+msgstr "Logitech Cordless Freedom/Desktop Navigator"
+
+#: ../rules/base.xml.in.h:99
+msgid "Logitech iTouch Cordless Keyboard (model Y-RB6)"
+msgstr "Logitech iTouch Cordless тастатура (модел Y-RB6)"
+
+#: ../rules/base.xml.in.h:100
+msgid "Logitech Internet Keyboard"
+msgstr "Logitech Интернет тастатура"
+
+#: ../rules/base.xml.in.h:101
+msgid "Logitech iTouch"
+msgstr "Logitech iTouch"
+
+#: ../rules/base.xml.in.h:102
+msgid "Logitech Internet Navigator Keyboard"
+msgstr "Logitech Интернет навигатор тастатура"
+
+#: ../rules/base.xml.in.h:103
+#, fuzzy
+msgid "Logitech Cordless Desktop EX110"
+msgstr "Logitech Cordless Desktop"
+
+#: ../rules/base.xml.in.h:104
+#, fuzzy
+msgid "Logitech iTouch Internet Navigator Keyboard SE"
+msgstr "Logitech Интернет навигатор тастатура"
+
+#: ../rules/base.xml.in.h:105
+#, fuzzy
+msgid "Logitech iTouch Internet Navigator Keyboard SE (USB)"
+msgstr "Logitech Интернет навигатор тастатура"
+
+#: ../rules/base.xml.in.h:106
+msgid "Logitech Ultra-X Keyboard"
+msgstr "Logitech Ultra-X тастатура"
+
+#: ../rules/base.xml.in.h:107
+#, fuzzy
+msgid "Logitech Ultra-X Cordless Media Desktop Keyboard"
+msgstr "Logitech Cordless Desktop Pro"
+
+#: ../rules/base.xml.in.h:108
+#, fuzzy
+msgid "Logitech diNovo Keyboard"
+msgstr "Logitech Access тастатура"
+
+#: ../rules/base.xml.in.h:109
+#, fuzzy
+msgid "Logitech diNovo Edge Keyboard"
+msgstr "Logitech Access тастатура"
+
+#: ../rules/base.xml.in.h:110
+msgid "Memorex MX1998"
+msgstr "Memorex MX1998"
+
+#: ../rules/base.xml.in.h:111
+msgid "Memorex MX2500 EZ-Access Keyboard"
+msgstr "Memorex MX2500 EZ-Access тастатура"
+
+#: ../rules/base.xml.in.h:112
+msgid "Memorex MX2750"
+msgstr "Memorex MX2750"
+
+#: ../rules/base.xml.in.h:113
+#, fuzzy
+msgid "Microsoft Natural Ergonomic Keyboard 4000"
+msgstr "Микрософт Натурал тастатура Про ОЕМ"
+
+#: ../rules/base.xml.in.h:114
+#, fuzzy
+msgid "Microsoft Natural Wireless Ergonomic Keyboard 7000"
+msgstr "Микрософтова бежична мултимедијална тастатура 1.0А"
+
+#: ../rules/base.xml.in.h:115
+msgid "Microsoft Internet Keyboard"
+msgstr "Микрософтова Интернет тастатура"
+
+#: ../rules/base.xml.in.h:116
 msgid "Microsoft Natural Keyboard Pro / Microsoft Internet Keyboard Pro"
 msgstr "Микрософт Натурал тастатура Про / Микрософт Интернет тастатура Про "
 
-#: ../rules/base.xml.in.h:287
-msgid "Microsoft Natural Keyboard Pro OEM"
-msgstr "Микрософт Натурал тастатура Про ОЕМ"
-
-#: ../rules/base.xml.in.h:288
+#: ../rules/base.xml.in.h:117
 msgid "Microsoft Natural Keyboard Pro USB / Microsoft Internet Keyboard Pro"
 msgstr ""
 "Микрософтова Натурал тастатура Про УСБ / Микрософт Интернет тастатура Про "
 
-#: ../rules/base.xml.in.h:289
+#: ../rules/base.xml.in.h:118
+msgid "Microsoft Natural Keyboard Pro OEM"
+msgstr "Микрософт Натурал тастатура Про ОЕМ"
+
+#: ../rules/base.xml.in.h:119
+#, fuzzy
+msgid "ViewSonic KU-306 Internet Keyboard"
+msgstr "Chicony Интернет тастатура"
+
+#: ../rules/base.xml.in.h:120
+msgid "Microsoft Internet Keyboard Pro, Swedish"
+msgstr "Микрософтова Интернет Про тастатура, шведски"
+
+#: ../rules/base.xml.in.h:121
 msgid "Microsoft Office Keyboard"
 msgstr "Микрософтова канцеларијска тастатура"
 
-#: ../rules/base.xml.in.h:290
+#: ../rules/base.xml.in.h:122
 msgid "Microsoft Wireless Multimedia Keyboard 1.0A"
 msgstr "Микрософтова бежична мултимедијална тастатура 1.0А"
 
-#: ../rules/base.xml.in.h:291
-msgid "Miscellaneous compatibility options"
-msgstr "Разне могућности за сагласност"
+#: ../rules/base.xml.in.h:123
+#, fuzzy
+msgid "Microsoft Natural Keyboard Elite"
+msgstr "Микрософт Натурал тастатура Про ОЕМ"
 
-#: ../rules/base.xml.in.h:292
-msgid "Mkd"
-msgstr "мак"
+#: ../rules/base.xml.in.h:124
+#, fuzzy
+msgid "Microsoft Comfort Curve Keyboard 2000"
+msgstr "Микрософтова Интернет тастатура"
 
-#: ../rules/base.xml.in.h:293
-msgid "Mlt"
-msgstr "мал"
-
-#: ../rules/base.xml.in.h:294
-msgid "Mmr"
-msgstr "ммр"
-
-#: ../rules/base.xml.in.h:295
-msgid "Mng"
-msgstr "мнг"
-
-#: ../rules/base.xml.in.h:296
-msgid "Mongolia"
-msgstr "Монголија"
-
-#: ../rules/base.xml.in.h:297
-msgid "Multilingual"
-msgstr "Вишејезична"
-
-#: ../rules/base.xml.in.h:298
-msgid "Multilingual, first part"
-msgstr "Вишејезична, први део"
-
-#: ../rules/base.xml.in.h:299
-msgid "Multilingual, second part"
-msgstr "Вишејезична, други део"
-
-#: ../rules/base.xml.in.h:300
-msgid "Myanmar"
-msgstr "Мијанмар"
-
-#: ../rules/base.xml.in.h:301
-msgid "Netherlands"
-msgstr "Холандија"
-
-#: ../rules/base.xml.in.h:302
-msgid "Nld"
-msgstr "хол"
-
-#: ../rules/base.xml.in.h:303
-msgid "Nor"
-msgstr "нор"
-
-#: ../rules/base.xml.in.h:304
-msgid "Northern Saami"
-msgstr "северносаамски"
-
-#: ../rules/base.xml.in.h:305
-msgid "Northern Saami, eliminate dead keys"
-msgstr "северносаамски, без акцената"
-
-#: ../rules/base.xml.in.h:306
-msgid "Northgate OmniKey 101"
-msgstr "Northgate OmniKey 101"
-
-#: ../rules/base.xml.in.h:307
-msgid "Norway"
-msgstr "Норвешка"
-
-#: ../rules/base.xml.in.h:308
-msgid "NumLock LED shows alternative group."
-msgstr "NumLock лампица приказује измене група."
-
-#: ../rules/base.xml.in.h:309
-msgid "Ogham"
-msgstr "огам"
-
-#: ../rules/base.xml.in.h:310
-msgid "Ogham IS434"
-msgstr "огам IS434"
-
-#: ../rules/base.xml.in.h:311
-msgid "Oretec MCK-800 MM/Internet keyboard"
+#: ../rules/base.xml.in.h:125
+#, fuzzy
+msgid "Ortek MCK-800 MM/Internet keyboard"
 msgstr "Oretec MCK-800 ММ/Интернет тастатура"
 
-#: ../rules/base.xml.in.h:312
-msgid "Oriya"
-msgstr "орија"
-
-#: ../rules/base.xml.in.h:313
-msgid "PC-98xx Series"
-msgstr "PC-98xx серија"
-
-#: ../rules/base.xml.in.h:314
-msgid "Pak"
-msgstr "пак"
-
-#: ../rules/base.xml.in.h:315
-msgid "Pakistan"
-msgstr "Пакистан"
-
-#: ../rules/base.xml.in.h:316
-msgid "Pashto"
-msgstr "пашто"
-
-#: ../rules/base.xml.in.h:317
-msgid "Pattachote"
-msgstr "Паташоте"
-
-#: ../rules/base.xml.in.h:318
-msgid "Phonetic"
-msgstr "фонетски"
-
-#: ../rules/base.xml.in.h:319
-msgid "Pol"
-msgstr "пољ"
-
-#: ../rules/base.xml.in.h:320
-msgid "Poland"
-msgstr "Пољска"
-
-# не ваља, можда вишезвучни?
-#: ../rules/base.xml.in.h:321
-msgid "Polytonic"
-msgstr "вишезвучни"
-
-#: ../rules/base.xml.in.h:322
-msgid "Portugal"
-msgstr "Португалија"
-
-#: ../rules/base.xml.in.h:323
-msgid "Power G5"
-msgstr "Power G5"
-
-#: ../rules/base.xml.in.h:324
-msgid "PowerPC PS/2"
-msgstr "PowerPC PS/2"
-
-#: ../rules/base.xml.in.h:325
-msgid "Press Left Alt key to choose 3rd level."
-msgstr "Притискање левог Alt тастера за избор 3. нивоа."
-
-#: ../rules/base.xml.in.h:326
-msgid "Press Left Win-key to choose 3rd level."
-msgstr "Притискање левог Windows тастера за избор 3. нивоа."
-
-#: ../rules/base.xml.in.h:327
-msgid "Press Menu key to choose 3rd level."
-msgstr "Притискање Menu тастера за избор 3. нивоа."
-
-#: ../rules/base.xml.in.h:328
-msgid "Press Right Alt key to choose 3rd level."
-msgstr "Притискање десног Alt тастера за избор 3. нивоа."
-
-#: ../rules/base.xml.in.h:329
-msgid "Press Right Ctrl to choose 3rd level."
-msgstr "Притискање десног Ctrl тастера за избор 3. нивоа."
-
-#: ../rules/base.xml.in.h:330
-msgid "Press Right Win-key to choose 3rd level."
-msgstr "Притискање десног Windows тастера за избор 3. нивоа."
-
-#: ../rules/base.xml.in.h:331
-msgid "Press any of Alt keys to choose 3rd level."
-msgstr "Притискање било ког Alt тастера за избор 3. нивоа."
-
-#: ../rules/base.xml.in.h:332
-msgid "Press any of Win-keys to choose 3rd level."
-msgstr "Притискање било ког Windows тастера за избор 3. нивоа."
-
-#: ../rules/base.xml.in.h:333
-msgid "Pro"
-msgstr "про"
-
-#: ../rules/base.xml.in.h:334
-msgid "Pro Keypad"
-msgstr "Про тастатура"
-
-#: ../rules/base.xml.in.h:335
-msgid "Probhat"
-msgstr "пробат"
-
-#: ../rules/base.xml.in.h:336
+#: ../rules/base.xml.in.h:126
 msgid "Propeller Voyager (KTEZ-1000)"
 msgstr "Propeller Voyager (KTEZ-1000)"
 
-#: ../rules/base.xml.in.h:337
-msgid "Prt"
-msgstr "прт"
-
-#: ../rules/base.xml.in.h:338
+#: ../rules/base.xml.in.h:127
 msgid "QTronix Scorpius 98N+"
 msgstr "QTronix Scorpius 98N+"
 
-#: ../rules/base.xml.in.h:339
-msgid "R-Alt switches group while pressed."
-msgstr "Десни Alt мења групу док је притиснут."
-
-#: ../rules/base.xml.in.h:340
-msgid "Right Alt is Compose."
-msgstr "Десни Alt је комбинујући."
-
-#: ../rules/base.xml.in.h:341
-msgid "Right Alt key changes group."
-msgstr "Десни Alt је мења групу."
-
-#: ../rules/base.xml.in.h:342
-msgid "Right Ctrl is Compose."
-msgstr "Десни Ctrl је комбинујући."
-
-#: ../rules/base.xml.in.h:343
-msgid "Right Ctrl key changes group."
-msgstr "Десни Ctrl мења групу."
-
-#: ../rules/base.xml.in.h:344
-msgid "Right Ctrl key switches group while pressed."
-msgstr "Десни Ctrl тастер мења групу док је притиснут."
-
-#: ../rules/base.xml.in.h:345
-msgid "Right Ctrl key works as Right Alt."
-msgstr "Десни Ctrl тастер се понаша као десни Alt."
-
-#: ../rules/base.xml.in.h:346
-msgid "Right Shift key changes group."
-msgstr "Десни Shift мења групу."
-
-#: ../rules/base.xml.in.h:347
-msgid "Right Win-key changes group."
-msgstr "Десни Windows тастер мења групу."
-
-#: ../rules/base.xml.in.h:348
-msgid "Right Win-key is Compose."
-msgstr "Десни Windows тастер је комбинујући."
-
-#: ../rules/base.xml.in.h:349
-msgid "Right Win-key switches group while pressed."
-msgstr "Десни Windows тастер мења групу док је притиснут."
-
-#: ../rules/base.xml.in.h:350
-msgid "Right handed Dvorak"
-msgstr "Десноручни Дворак"
-
-#: ../rules/base.xml.in.h:351
-msgid "Romania"
-msgstr "Румунија"
-
-#: ../rules/base.xml.in.h:352
-msgid "Romanian keyboard with German letters"
-msgstr "румунска тастатура са немачким словима"
-
-#: ../rules/base.xml.in.h:353
-msgid "Romanian keyboard with German letters, eliminate dead keys"
-msgstr "румунска тастатура са немачким словима, без акцената"
-
-#: ../rules/base.xml.in.h:354
-msgid "Rou"
-msgstr "рум"
-
-#: ../rules/base.xml.in.h:355
-msgid "Rus"
-msgstr "рус"
-
-#: ../rules/base.xml.in.h:356
-msgid "Russia"
-msgstr "Русија"
-
-#: ../rules/base.xml.in.h:357
-msgid "Russian"
-msgstr "руски"
-
-#: ../rules/base.xml.in.h:358
-msgid "Russian phonetic"
-msgstr "руски фонетски"
-
-#: ../rules/base.xml.in.h:359
-msgid "Russian phonetic, eliminate dead keys"
-msgstr "руски фонетски, без акцената"
-
-#: ../rules/base.xml.in.h:360
-msgid "Russian with Kazakh"
-msgstr "руски са казахстанским"
-
-#: ../rules/base.xml.in.h:361
-msgid "SCG"
-msgstr "СЦГ"
-
-#: ../rules/base.xml.in.h:362
-msgid "SILVERCREST Multimedia Wireless Keyboard"
-msgstr "SILVERCREST мултимедијална бежична тастатура"
-
-#: ../rules/base.xml.in.h:363
-msgid "SK-1300"
-msgstr "SK-1300"
-
-#: ../rules/base.xml.in.h:364
-msgid "SK-2500"
-msgstr "SK-2500"
-
-#: ../rules/base.xml.in.h:365
-msgid "SK-6200"
-msgstr "SK-6200"
-
-#: ../rules/base.xml.in.h:366
-msgid "SK-7100"
-msgstr "SK-7100"
-
-#: ../rules/base.xml.in.h:367
-msgid "SVEN Ergonomic 2500"
-msgstr "SVEN ергономска 2500"
-
-#: ../rules/base.xml.in.h:368
+#: ../rules/base.xml.in.h:128
 msgid "Samsung SDM 4500P"
 msgstr "Samsung SDM 4500P"
 
-#: ../rules/base.xml.in.h:369
+#: ../rules/base.xml.in.h:129
 msgid "Samsung SDM 4510P"
 msgstr "Samsung SDM 4510P"
 
-#: ../rules/base.xml.in.h:370
-msgid "ScrollLock LED shows alternative group."
-msgstr "ScrollLock лампица приказује измене група."
+#: ../rules/base.xml.in.h:130
+msgid "Sanwa Supply SKB-KG3"
+msgstr ""
 
-#: ../rules/base.xml.in.h:371
-msgid "Serbia and Montenegro"
-msgstr "Србија и Црна Гора"
+#: ../rules/base.xml.in.h:131
+msgid "SK-1300"
+msgstr "SK-1300"
 
-#: ../rules/base.xml.in.h:372
-msgid "Shift with numpad keys works as in MS Windows."
-msgstr "Shift уз нумеричку тасатуру ради као у MS Windows-у."
+#: ../rules/base.xml.in.h:132
+msgid "SK-2500"
+msgstr "SK-2500"
 
-#: ../rules/base.xml.in.h:373
-msgid "Shift+CapsLock changes group."
-msgstr "Shift+CapsLock тастер мења групу."
+#: ../rules/base.xml.in.h:133
+msgid "SK-6200"
+msgstr "SK-6200"
 
-#: ../rules/base.xml.in.h:374
-msgid "Slovakia"
-msgstr "Словачка"
+#: ../rules/base.xml.in.h:134
+msgid "SK-7100"
+msgstr "SK-7100"
 
-#: ../rules/base.xml.in.h:375
-msgid "Slovenia"
-msgstr "Словенија"
-
-#: ../rules/base.xml.in.h:376
-msgid "South Africa"
-msgstr "Јужна Африка"
-
-#: ../rules/base.xml.in.h:377
-msgid "Southern Uzbek"
-msgstr "Јужни Узбекистан"
-
-#: ../rules/base.xml.in.h:378
-msgid "Spain"
-msgstr "Шпанија"
-
-#: ../rules/base.xml.in.h:379
-msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server."
-msgstr "Нарочити тастери (Ctrl+Alt+&lt;тастер&gt;) које обрађује сервер."
-
-#: ../rules/base.xml.in.h:380
-msgid "SrL"
-msgstr "шрл"
-
-#: ../rules/base.xml.in.h:381
-msgid "Sri Lanka"
-msgstr "Шри Ланка"
-
-#: ../rules/base.xml.in.h:382
-msgid "Standard"
-msgstr "стандардна"
-
-#. RSTU 2019-91
-#: ../rules/base.xml.in.h:384
-msgid "Standard RSTU"
-msgstr "стандардна RSTU"
-
-#. RSTU 2019-91
-#: ../rules/base.xml.in.h:386
-msgid "Standard RSTU on Russian layout"
-msgstr "стандардна RSTU на руском распореду"
-
-#: ../rules/base.xml.in.h:387
-msgid "Sun dead keys"
-msgstr "Sun-ови акценти"
-
-#: ../rules/base.xml.in.h:388
+#: ../rules/base.xml.in.h:135
 msgid "Super Power Multimedia Keyboard"
 msgstr "Супер моћна мултимедијална тастатура"
 
-#: ../rules/base.xml.in.h:389
-msgid "Super is mapped to the Win-keys (default)."
-msgstr "Super је мапиран на Windows тастере (подразумевано)."
+#: ../rules/base.xml.in.h:136
+msgid "SVEN Ergonomic 2500"
+msgstr "SVEN ергономска 2500"
 
-#: ../rules/base.xml.in.h:390
-msgid "Svk"
-msgstr "слк"
+#: ../rules/base.xml.in.h:137
+msgid "SVEN Slim 303"
+msgstr ""
 
-#: ../rules/base.xml.in.h:391
-msgid "Svn"
-msgstr "сло"
-
-#: ../rules/base.xml.in.h:392
-msgid "Swap Ctrl and CapsLock."
-msgstr "Размени Ctrl и Caps Lock."
-
-#: ../rules/base.xml.in.h:393
-msgid "Swe"
-msgstr "шве"
-
-#: ../rules/base.xml.in.h:394
-msgid "Sweden"
-msgstr "Шведска"
-
-#: ../rules/base.xml.in.h:395
-msgid "Switzerland"
-msgstr "Швајцарска"
-
-#: ../rules/base.xml.in.h:396
+#: ../rules/base.xml.in.h:138
 msgid "Symplon PaceBook (tablet PC)"
 msgstr "Symplon PaceBook (tablet PC)"
 
-#: ../rules/base.xml.in.h:397
-msgid "Syr"
-msgstr "сир"
-
-#: ../rules/base.xml.in.h:398
-msgid "Syria"
-msgstr "Сирија"
-
-#: ../rules/base.xml.in.h:399
-msgid "Syriac"
-msgstr "сиријски"
-
-#: ../rules/base.xml.in.h:400
-msgid "Syriac phonetic"
-msgstr "сиријски фонетски"
-
-#: ../rules/base.xml.in.h:401
-msgid "TIS-820.2538"
-msgstr "TIS-820.2538"
-
-#: ../rules/base.xml.in.h:402
-msgid "Tajikistan"
-msgstr "Таџикистан"
-
-#: ../rules/base.xml.in.h:403
-msgid "Tamil"
-msgstr "тамил"
-
-#: ../rules/base.xml.in.h:404
-msgid "Tamil TAB Typewriter"
-msgstr "тамил TAB куцаћа машина"
-
-#: ../rules/base.xml.in.h:405
-msgid "Tamil TSCII Typewriter"
-msgstr "тамил TSCII куцаћа машина"
-
-#: ../rules/base.xml.in.h:406
-msgid "Tamil Unicode"
-msgstr "тамил Уникод"
-
-#: ../rules/base.xml.in.h:407
-msgid "Tatar"
-msgstr "татарски"
-
-#: ../rules/base.xml.in.h:408
-msgid "Telugu"
-msgstr "телугу"
-
-#: ../rules/base.xml.in.h:409
-msgid "Tha"
-msgstr "тај"
-
-#: ../rules/base.xml.in.h:410
-msgid "Thailand"
-msgstr "Тајланд"
-
-#: ../rules/base.xml.in.h:411
-msgid "Third level choosers"
-msgstr "Избор трећег нивоа"
-
-#: ../rules/base.xml.in.h:412
-msgid "Tilde (~) variant"
-msgstr "Варијанта са тилдом (~)"
-
-#: ../rules/base.xml.in.h:413
-msgid "Tjk"
-msgstr "тџк"
-
-#: ../rules/base.xml.in.h:414
+#: ../rules/base.xml.in.h:139
 msgid "Toshiba Satellite S3000"
 msgstr "Toshiba Satellite S3000"
 
-#: ../rules/base.xml.in.h:415
-msgid "Trust Direct Access Keyboard"
-msgstr "Trust Direct Access тастатура"
-
-#: ../rules/base.xml.in.h:416
+#: ../rules/base.xml.in.h:140
 msgid "Trust Wireless Keyboard Classic"
 msgstr "Trust класична бежична тастатура"
 
-#: ../rules/base.xml.in.h:417
-msgid "Tur"
-msgstr "тур"
+#: ../rules/base.xml.in.h:141
+msgid "Trust Direct Access Keyboard"
+msgstr "Trust Direct Access тастатура"
 
-#: ../rules/base.xml.in.h:418
-msgid "Turkey"
-msgstr "Турска"
+#: ../rules/base.xml.in.h:142
+msgid "Trust Slimline"
+msgstr ""
 
-#: ../rules/base.xml.in.h:419
-msgid "Typewriter"
-msgstr "„Куцаћа машина“"
+#: ../rules/base.xml.in.h:143
+msgid "TypeMatrix EZ-Reach 2020"
+msgstr ""
 
-#: ../rules/base.xml.in.h:420
-msgid "U.S. English"
-msgstr "амерички енглески"
+#: ../rules/base.xml.in.h:144
+msgid "TypeMatrix EZ-Reach 2030 PS2"
+msgstr ""
 
-#: ../rules/base.xml.in.h:421
-msgid "US keyboard with Bosnian digraphs"
-msgstr "Америчка тастатура са босанским диграфима"
+#: ../rules/base.xml.in.h:145
+msgid "TypeMatrix EZ-Reach 2030 USB"
+msgstr ""
 
-#: ../rules/base.xml.in.h:422
-msgid "US keyboard with Bosnian letters"
-msgstr "Америчка тастатура са босанским словима"
+#: ../rules/base.xml.in.h:146
+msgid "TypeMatrix EZ-Reach 2030 USB (102/105:EU mode)"
+msgstr ""
 
-#: ../rules/base.xml.in.h:423
-msgid "US keyboard with Croatian digraphs"
-msgstr "Америчка тастатура са хрватским диграфима"
+#: ../rules/base.xml.in.h:147
+msgid "TypeMatrix EZ-Reach 2030 USB (106:JP mode)"
+msgstr ""
 
-#: ../rules/base.xml.in.h:424
-msgid "US keyboard with Croatian letters"
-msgstr "Америчка тастатура са хрватским словима"
-
-#: ../rules/base.xml.in.h:425
-msgid "US keyboard with Lithuanian letters"
-msgstr "Америчка тастатура са литванским словима"
-
-#: ../rules/base.xml.in.h:426
-msgid "US keyboard with Maltian letters"
-msgstr "Америчка тастатура са малтешким словима"
-
-#: ../rules/base.xml.in.h:427
-msgid "US keyboard with Slovenian digraphs"
-msgstr "Америчка тастатура са словеначким диграфима"
-
-#: ../rules/base.xml.in.h:428
-msgid "US keyboard with Slovenian letters"
-msgstr "Америчка тастатура са словеначким словима"
-
-#: ../rules/base.xml.in.h:429
-msgid "USA"
-msgstr "САД"
-
-#: ../rules/base.xml.in.h:430
-msgid "Ukr"
-msgstr "укр"
-
-#: ../rules/base.xml.in.h:431
-msgid "Ukraine"
-msgstr "Украјина"
-
-#: ../rules/base.xml.in.h:432
-msgid "UnicodeExpert"
-msgstr "Стручна за Уникод"
-
-#: ../rules/base.xml.in.h:433
-msgid "United Kingdom"
-msgstr "Велика Британија"
-
-#: ../rules/base.xml.in.h:434
-msgid "Urdu"
-msgstr "Урду"
-
-#: ../rules/base.xml.in.h:435
-msgid "Use Bosnian digraphs"
-msgstr "Користи босанске диграфе"
-
-#: ../rules/base.xml.in.h:436
-msgid "Use Croatian digraphs"
-msgstr "Користи хрватске диграфе"
-
-#: ../rules/base.xml.in.h:437
-msgid "Use Slovenian digraphs"
-msgstr "Користи словеначке диграфе"
-
-#: ../rules/base.xml.in.h:438
-msgid "Use guillemots for quotes"
-msgstr "Користи гиљемоте за наводнике"
-
-#: ../rules/base.xml.in.h:439
-msgid "Use keyboard LED to show alternative group."
-msgstr "Користи лампицу тастатуре за приказ измене група."
-
-#: ../rules/base.xml.in.h:440
-msgid "Uzb"
-msgstr "узб"
-
-#: ../rules/base.xml.in.h:441
-msgid "Uzbekistan"
-msgstr "Узбекистан"
-
-#: ../rules/base.xml.in.h:442
-msgid "Vietnam"
-msgstr "Вијетнам"
-
-#: ../rules/base.xml.in.h:443
-msgid "Vnm"
-msgstr "вјт"
-
-#: ../rules/base.xml.in.h:444
-msgid "Winbook Model XP5"
-msgstr "Winbook Model XP5"
-
-#: ../rules/base.xml.in.h:445
-msgid "Winkeys"
-msgstr "Windows тастери"
-
-#: ../rules/base.xml.in.h:446
-msgid "With &lt;\\|&gt; key"
-msgstr "Уз тастер &lt;\\|&gt;"
-
-#: ../rules/base.xml.in.h:447
-msgid "With guillemots"
-msgstr "Са гиљемотима"
-
-#: ../rules/base.xml.in.h:448
+#: ../rules/base.xml.in.h:148
 msgid "Yahoo! Internet Keyboard"
 msgstr "Yahoo! Интернет тастатура"
 
-#: ../rules/base.xml.in.h:449
-msgid "Z and ZHE swapped"
-msgstr "Размењено З и Ж"
+#: ../rules/base.xml.in.h:149
+msgid "MacBook/MacBook Pro"
+msgstr ""
 
-#: ../rules/base.xml.in.h:450
-msgid "Zar"
+#: ../rules/base.xml.in.h:150
+msgid "MacBook/MacBook Pro (Intl)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:151
+msgid "Macintosh"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:152
+msgid "Macintosh Old"
+msgstr "Стари Мекинтош"
+
+#: ../rules/base.xml.in.h:153
+msgid "Happy Hacking Keyboard for Mac"
+msgstr ""
+
+#: ../rules/base.xml.in.h:154
+msgid "Acer C300"
+msgstr ""
+
+#: ../rules/base.xml.in.h:155
+msgid "Acer Ferrari 4000"
+msgstr ""
+
+#: ../rules/base.xml.in.h:156
+msgid "Acer Laptop"
+msgstr ""
+
+#: ../rules/base.xml.in.h:157
+msgid "Asus Laptop"
+msgstr ""
+
+#: ../rules/base.xml.in.h:158
+msgid "Apple"
+msgstr ""
+
+#: ../rules/base.xml.in.h:159
+#, fuzzy
+msgid "Apple Laptop"
+msgstr "преносни"
+
+#: ../rules/base.xml.in.h:160
+msgid "Apple Aluminium Keyboard (ANSI)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:161
+msgid "Apple Aluminium Keyboard (ISO)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:162
+msgid "Apple Aluminium Keyboard (JIS)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:163
+msgid "SILVERCREST Multimedia Wireless Keyboard"
+msgstr "SILVERCREST мултимедијална бежична тастатура"
+
+#: ../rules/base.xml.in.h:164
+msgid "Laptop/notebook eMachines m68xx"
+msgstr "Преносне eMachines m68xx"
+
+#: ../rules/base.xml.in.h:165
+msgid "BenQ X-Touch"
+msgstr ""
+
+#: ../rules/base.xml.in.h:166
+msgid "BenQ X-Touch 730"
+msgstr ""
+
+#: ../rules/base.xml.in.h:167
+msgid "BenQ X-Touch 800"
+msgstr ""
+
+#: ../rules/base.xml.in.h:168
+msgid "Happy Hacking Keyboard"
+msgstr ""
+
+#: ../rules/base.xml.in.h:169
+msgid "Classmate PC"
+msgstr ""
+
+#: ../rules/base.xml.in.h:170
+msgid "OLPC"
+msgstr ""
+
+#: ../rules/base.xml.in.h:171
+msgid "Sun Type 7 USB"
+msgstr ""
+
+#: ../rules/base.xml.in.h:172
+msgid "Sun Type 7 USB (European layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:173
+msgid "Sun Type 7 USB (Unix layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:174
+msgid "Sun Type 7 USB (Japanese layout) / Japanese 106-key"
+msgstr ""
+
+#: ../rules/base.xml.in.h:175
+msgid "Sun Type 6/7 USB"
+msgstr ""
+
+#: ../rules/base.xml.in.h:176
+msgid "Sun Type 6/7 USB (European layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:177
+msgid "Sun Type 6 USB (Unix layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:178
+msgid "Sun Type 6 USB (Japanese layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:179
+msgid "Sun Type 6 (Japanese layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:180
+msgid "Targa Visionary 811"
+msgstr ""
+
+#: ../rules/base.xml.in.h:181
+msgid "Unitek KB-1925"
+msgstr ""
+
+#: ../rules/base.xml.in.h:182
+msgid "FL90"
+msgstr ""
+
+#: ../rules/base.xml.in.h:183
+msgid "Creative Desktop Wireless 7000"
+msgstr ""
+
+#: ../rules/base.xml.in.h:184
+msgid "Htc Dream phone"
+msgstr ""
+
+#. Keyboard indicator for English layouts
+#: ../rules/base.xml.in.h:186 ../rules/base.extras.xml.in.h:47
+#, fuzzy
+msgid "en"
+msgstr "бнг"
+
+#: ../rules/base.xml.in.h:187 ../rules/base.extras.xml.in.h:48
+msgid "English (US)"
+msgstr ""
+
+#. Keyboard indicator for Cherokee layouts
+#: ../rules/base.xml.in.h:189
+msgid "chr"
+msgstr ""
+
+#: ../rules/base.xml.in.h:190
+msgid "Cherokee"
+msgstr ""
+
+#: ../rules/base.xml.in.h:191
+msgid "English (US, with euro on 5)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:192
+#, fuzzy
+msgid "English (US, international with dead keys)"
+msgstr "Међународна (са акцентима)"
+
+#: ../rules/base.xml.in.h:193
+#, fuzzy
+msgid "English (US, alternative international)"
+msgstr "Допунска међународна (бивша us_intl)"
+
+#: ../rules/base.xml.in.h:194
+msgid "English (Colemak)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:195
+#, fuzzy
+msgid "English (Dvorak)"
+msgstr "француски дворак"
+
+#: ../rules/base.xml.in.h:196
+#, fuzzy
+msgid "English (Dvorak, international with dead keys)"
+msgstr "Међународна (са акцентима)"
+
+#: ../rules/base.xml.in.h:197
+#, fuzzy
+msgid "English (Dvorak alternative international no dead keys)"
+msgstr "Допунска међународна (бивша us_intl)"
+
+#: ../rules/base.xml.in.h:198
+#, fuzzy
+msgid "English (left handed Dvorak)"
+msgstr "Леворучни Дворак"
+
+#: ../rules/base.xml.in.h:199
+#, fuzzy
+msgid "English (right handed Dvorak)"
+msgstr "Десноручни Дворак"
+
+#: ../rules/base.xml.in.h:200
+msgid "English (classic Dvorak)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:201
+msgid "English (programmer Dvorak)"
+msgstr ""
+
+#. Keyboard indicator for Russian layouts
+#: ../rules/base.xml.in.h:203 ../rules/base.extras.xml.in.h:70
+#, fuzzy
+msgid "ru"
+msgstr "Урду"
+
+#: ../rules/base.xml.in.h:204
+#, fuzzy
+msgid "Russian (US, phonetic)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:205
+#, fuzzy
+msgid "English (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:206
+#, fuzzy
+msgid "English (international AltGr dead keys)"
+msgstr "Међународна (са акцентима)"
+
+#: ../rules/base.xml.in.h:207
+msgid "English (the divide/multiply keys toggle the layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:208
+msgid "Serbo-Croatian (US)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:209
+msgid "English (Workman)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:210
+#, fuzzy
+msgid "English (Workman, international with dead keys)"
+msgstr "Међународна (са акцентима)"
+
+#. Keyboard indicator for Persian layouts
+#: ../rules/base.xml.in.h:212 ../rules/base.extras.xml.in.h:29
+msgid "fa"
+msgstr ""
+
+#: ../rules/base.xml.in.h:213
+#, fuzzy
+msgid "Afghani"
+msgstr "Афганистан"
+
+#. Keyboard indicator for Pashto layouts
+#: ../rules/base.xml.in.h:215
+msgid "ps"
+msgstr ""
+
+#: ../rules/base.xml.in.h:216
+msgid "Pashto"
+msgstr "пашто"
+
+#. Keyboard indicator for Uzbek layouts
+#: ../rules/base.xml.in.h:218
+msgid "uz"
+msgstr ""
+
+#: ../rules/base.xml.in.h:219
+#, fuzzy
+msgid "Uzbek (Afghanistan)"
+msgstr "Афганистан"
+
+#: ../rules/base.xml.in.h:220
+msgid "Pashto (Afghanistan, OLPC)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:221
+msgid "Persian (Afghanistan, Dari OLPC)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:222
+#, fuzzy
+msgid "Uzbek (Afghanistan, OLPC)"
+msgstr "Афганистан"
+
+#. Keyboard indicator for Arabic layouts
+#: ../rules/base.xml.in.h:224 ../rules/base.extras.xml.in.h:81
+#, fuzzy
+msgid "ar"
 msgstr "Зар"
 
-#: ../rules/base.xml.in.h:451
-msgid "azerty"
-msgstr "azerty"
+#: ../rules/base.xml.in.h:225 ../rules/base.extras.xml.in.h:82
+msgid "Arabic"
+msgstr "арапски"
 
-#: ../rules/base.xml.in.h:452
-msgid "azerty/digits"
+#: ../rules/base.xml.in.h:226
+msgid "Arabic (azerty)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:227
+#, fuzzy
+msgid "Arabic (azerty/digits)"
 msgstr "azerty/цифре"
 
-#: ../rules/base.xml.in.h:453
-msgid "digits"
-msgstr "цифре"
+#: ../rules/base.xml.in.h:228
+msgid "Arabic (digits)"
+msgstr ""
 
-#: ../rules/base.xml.in.h:454
-msgid "lyx"
-msgstr "lyx"
+#: ../rules/base.xml.in.h:229
+#, fuzzy
+msgid "Arabic (qwerty)"
+msgstr "Чешки (qwerty)"
 
-#: ../rules/base.xml.in.h:455
-msgid "qwerty"
-msgstr "qwerty"
-
-#: ../rules/base.xml.in.h:456
-msgid "qwerty, extended Backslash"
-msgstr "qwerty, проширено са обрнутом косом цртом"
-
-#: ../rules/base.xml.in.h:457
-msgid "qwerty/digits"
+#: ../rules/base.xml.in.h:230
+#, fuzzy
+msgid "Arabic (qwerty/digits)"
 msgstr "qwerty/цифре"
 
+#: ../rules/base.xml.in.h:231
+msgid "Arabic (Buckwalter)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:232
+#, fuzzy
+msgid "Arabic (Macintosh)"
+msgstr "Мекинтош"
+
+#. Keyboard indicator for Albanian layouts
+#: ../rules/base.xml.in.h:234
+msgid "sq"
+msgstr ""
+
+#: ../rules/base.xml.in.h:235
+#, fuzzy
+msgid "Albanian"
+msgstr "Албанија"
+
+#: ../rules/base.xml.in.h:236
+msgid "Albanian (Plisi D1)"
+msgstr ""
+
+#. Keyboard indicator for Armenian layouts
+#: ../rules/base.xml.in.h:238 ../rules/base.extras.xml.in.h:75
+msgid "hy"
+msgstr ""
+
+#: ../rules/base.xml.in.h:239 ../rules/base.extras.xml.in.h:76
+#, fuzzy
+msgid "Armenian"
+msgstr "Јерменија"
+
+#: ../rules/base.xml.in.h:240
+#, fuzzy
+msgid "Armenian (phonetic)"
+msgstr "сиријски фонетски"
+
+#: ../rules/base.xml.in.h:241
+msgid "Armenian (alternative phonetic)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:242
+msgid "Armenian (eastern)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:243
+msgid "Armenian (western)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:244
+msgid "Armenian (alternative eastern)"
+msgstr ""
+
+#. Keyboard indicator for German layouts
+#: ../rules/base.xml.in.h:246 ../rules/base.extras.xml.in.h:22
+msgid "de"
+msgstr ""
+
+#: ../rules/base.xml.in.h:247
+#, fuzzy
+msgid "German (Austria)"
+msgstr "грузијски (руски)"
+
+#: ../rules/base.xml.in.h:248
+#, fuzzy
+msgid "German (Austria, eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.xml.in.h:249
+#, fuzzy
+msgid "German (Austria, Sun dead keys)"
+msgstr "немачки, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:250
+msgid "German (Austria, Macintosh)"
+msgstr ""
+
+#. Keyboard indicator for Azerbaijani layouts
+#: ../rules/base.xml.in.h:252
+#, fuzzy
+msgid "az"
+msgstr "каз"
+
+#: ../rules/base.xml.in.h:253
+#, fuzzy
+msgid "Azerbaijani"
+msgstr "Азербејџан"
+
+#: ../rules/base.xml.in.h:254
+#, fuzzy
+msgid "Azerbaijani (Cyrillic)"
+msgstr "Азербејџан"
+
+#. Keyboard indicator for Belarusian layouts
+#: ../rules/base.xml.in.h:256
+msgid "by"
+msgstr ""
+
+#: ../rules/base.xml.in.h:257
+#, fuzzy
+msgid "Belarusian"
+msgstr "Белорусија"
+
+#: ../rules/base.xml.in.h:258
+#, fuzzy
+msgid "Belarusian (legacy)"
+msgstr "француски (класични)"
+
+#: ../rules/base.xml.in.h:259
+#, fuzzy
+msgid "Belarusian (Latin)"
+msgstr "грузијски (латиница)"
+
+#. Keyboard indicator for Belgian layouts
+#: ../rules/base.xml.in.h:261 ../rules/base.extras.xml.in.h:84
+msgid "be"
+msgstr ""
+
+#: ../rules/base.xml.in.h:262 ../rules/base.extras.xml.in.h:85
+#, fuzzy
+msgid "Belgian"
+msgstr "Белгија"
+
+#: ../rules/base.xml.in.h:263
+#, fuzzy
+msgid "Belgian (alternative)"
+msgstr "грузијски (латиница)"
+
+#: ../rules/base.xml.in.h:264
+msgid "Belgian (alternative, Latin-9 only)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:265
+#, fuzzy
+msgid "Belgian (alternative, Sun dead keys)"
+msgstr "Допунска, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:266
+#, fuzzy
+msgid "Belgian (ISO alternate)"
+msgstr "Додатни ИСО"
+
+#: ../rules/base.xml.in.h:267
+#, fuzzy
+msgid "Belgian (eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.xml.in.h:268
+#, fuzzy
+msgid "Belgian (Sun dead keys)"
+msgstr "немачки, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:269
+msgid "Belgian (Wang model 724 azerty)"
+msgstr ""
+
+#. Keyboard indicator for Bangla layouts
+#: ../rules/base.xml.in.h:271
+msgid "bn"
+msgstr ""
+
+#: ../rules/base.xml.in.h:272
+#, fuzzy
+msgid "Bangla"
+msgstr "Бангладеш"
+
+#: ../rules/base.xml.in.h:273
+#, fuzzy
+msgid "Bangla (Probhat)"
+msgstr "бенгалски пробат"
+
+#. Keyboard indicator for Indian layouts
+#: ../rules/base.xml.in.h:275
+#, fuzzy
+msgid "in"
+msgstr "фин"
+
+#: ../rules/base.xml.in.h:276
+#, fuzzy
+msgid "Indian"
+msgstr "Индија"
+
+#: ../rules/base.xml.in.h:277
+msgid "Bangla (India)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:278
+#, fuzzy
+msgid "Bangla (India, Probhat)"
+msgstr "бенгалски пробат"
+
+#: ../rules/base.xml.in.h:279
+msgid "Bangla (India, Baishakhi)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:280
+msgid "Bangla (India, Bornona)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:281
+msgid "Bangla (India, Uni Gitanjali)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:282
+msgid "Bangla (India, Baishakhi Inscript)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:283
+msgid "Manipuri (Eeyek)"
+msgstr ""
+
+#. Keyboard indicator for Gujarati layouts
+#: ../rules/base.xml.in.h:285
+msgid "gu"
+msgstr ""
+
+#: ../rules/base.xml.in.h:286
+msgid "Gujarati"
+msgstr "гујарати"
+
+#. Keyboard indicator for Punjabi layouts
+#: ../rules/base.xml.in.h:288
+msgid "pa"
+msgstr ""
+
+#: ../rules/base.xml.in.h:289
+#, fuzzy
+msgid "Punjabi (Gurmukhi)"
+msgstr "гурмуки"
+
+#: ../rules/base.xml.in.h:290
+msgid "Punjabi (Gurmukhi Jhelum)"
+msgstr ""
+
+#. Keyboard indicator for Kannada layouts
+#: ../rules/base.xml.in.h:292
+#, fuzzy
+msgid "kn"
+msgstr "акан"
+
+#: ../rules/base.xml.in.h:293
+msgid "Kannada"
+msgstr "канада (јужна индија)"
+
+#: ../rules/base.xml.in.h:294
+msgid "Kannada (KaGaPa phonetic)"
+msgstr ""
+
+#. Keyboard indicator for Malayalam layouts
+#: ../rules/base.xml.in.h:296
+#, fuzzy
+msgid "ml"
+msgstr "тмл"
+
+#: ../rules/base.xml.in.h:297
+msgid "Malayalam"
+msgstr "малајамски"
+
+#: ../rules/base.xml.in.h:298
+#, fuzzy
+msgid "Malayalam (Lalitha)"
+msgstr "малајамски"
+
+#: ../rules/base.xml.in.h:299
+msgid "Malayalam (enhanced Inscript, with rupee sign)"
+msgstr ""
+
+#. Keyboard indicator for Oriya layouts
+#: ../rules/base.xml.in.h:301
+#, fuzzy
+msgid "or"
+msgstr "нор"
+
+#: ../rules/base.xml.in.h:302
+msgid "Oriya"
+msgstr "орија"
+
+#. Keyboard indicator for Tamil layouts
+#: ../rules/base.xml.in.h:304
+#, fuzzy
+msgid "ta"
+msgstr "ита"
+
+#: ../rules/base.xml.in.h:305
+#, fuzzy
+msgid "Tamil (Unicode)"
+msgstr "тамил Уникод"
+
+#: ../rules/base.xml.in.h:306
+#, fuzzy
+msgid "Tamil (keyboard with numerals)"
+msgstr "румунска тастатура са немачким словима"
+
+#: ../rules/base.xml.in.h:307
+#, fuzzy
+msgid "Tamil (TAB typewriter)"
+msgstr "тамил TAB куцаћа машина"
+
+#: ../rules/base.xml.in.h:308
+#, fuzzy
+msgid "Tamil (TSCII typewriter)"
+msgstr "тамил TSCII куцаћа машина"
+
+#: ../rules/base.xml.in.h:309
+msgid "Tamil"
+msgstr "тамил"
+
+#. Keyboard indicator for Telugu layouts
+#: ../rules/base.xml.in.h:311
+msgid "te"
+msgstr ""
+
+#: ../rules/base.xml.in.h:312
+msgid "Telugu"
+msgstr "телугу"
+
+#: ../rules/base.xml.in.h:313
+msgid "Telugu (KaGaPa phonetic)"
+msgstr ""
+
+#. Keyboard indicator for Urdu layouts
+#: ../rules/base.xml.in.h:315
+#, fuzzy
+msgid "ur"
+msgstr "тур"
+
+#: ../rules/base.xml.in.h:316
+#, fuzzy
+msgid "Urdu (phonetic)"
+msgstr "сиријски фонетски"
+
+#: ../rules/base.xml.in.h:317
+msgid "Urdu (alternative phonetic)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:318
+msgid "Urdu (WinKeys)"
+msgstr ""
+
+#. Keyboard indicator for Hindi layouts
+#: ../rules/base.xml.in.h:320
+msgid "hi"
+msgstr ""
+
+#: ../rules/base.xml.in.h:321
+msgid "Hindi (Bolnagri)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:322
+#, fuzzy
+msgid "Hindi (Wx)"
+msgstr "индијски"
+
+#: ../rules/base.xml.in.h:323
+msgid "Hindi (KaGaPa phonetic)"
+msgstr ""
+
+#. Keyboard indicator for Sanskrit layouts
+#: ../rules/base.xml.in.h:325
+msgid "sa"
+msgstr ""
+
+#: ../rules/base.xml.in.h:326
+#, fuzzy
+msgid "Sanskrit (KaGaPa phonetic)"
+msgstr "сиријски фонетски"
+
+#. Keyboard indicator for Marathi layouts
+#: ../rules/base.xml.in.h:328
+#, fuzzy
+msgid "mr"
+msgstr "ммр"
+
+#: ../rules/base.xml.in.h:329
+#, fuzzy
+msgid "Marathi (KaGaPa phonetic)"
+msgstr "сиријски фонетски"
+
+#: ../rules/base.xml.in.h:330
+msgid "English (India, with rupee sign)"
+msgstr ""
+
+#. Keyboard indicator for Bosnian layouts
+#: ../rules/base.xml.in.h:332
+#, fuzzy
+msgid "bs"
+msgstr "бксл"
+
+#: ../rules/base.xml.in.h:333
+msgid "Bosnian"
+msgstr "бошњачки"
+
+#: ../rules/base.xml.in.h:334
+#, fuzzy
+msgid "Bosnian (with guillemets for quotes)"
+msgstr "Користи гиљемоте за наводнике"
+
+#: ../rules/base.xml.in.h:335
+#, fuzzy
+msgid "Bosnian (with Bosnian digraphs)"
+msgstr "Америчка тастатура са босанским диграфима"
+
+#: ../rules/base.xml.in.h:336
+#, fuzzy
+msgid "Bosnian (US keyboard with Bosnian digraphs)"
+msgstr "Америчка тастатура са босанским диграфима"
+
+#: ../rules/base.xml.in.h:337
+#, fuzzy
+msgid "Bosnian (US keyboard with Bosnian letters)"
+msgstr "Америчка тастатура са босанским словима"
+
+#. Keyboard indicator for Portuguese layouts
+#: ../rules/base.xml.in.h:339 ../rules/base.extras.xml.in.h:87
+msgid "pt"
+msgstr ""
+
+#: ../rules/base.xml.in.h:340 ../rules/base.extras.xml.in.h:88
+msgid "Portuguese (Brazil)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:341
+#, fuzzy
+msgid "Portuguese (Brazil, eliminate dead keys)"
+msgstr "северносаамски, без акцената"
+
+#: ../rules/base.xml.in.h:342
+msgid "Portuguese (Brazil, Dvorak)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:343
+msgid "Portuguese (Brazil, Nativo)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:344
+msgid "Portuguese (Brazil, Nativo for US keyboards)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:345
+msgid "Esperanto (Brazil, Nativo)"
+msgstr ""
+
+#. Keyboard indicator for Bulgarian layouts
+#: ../rules/base.xml.in.h:347
+msgid "bg"
+msgstr ""
+
+#: ../rules/base.xml.in.h:348
+#, fuzzy
+msgid "Bulgarian"
+msgstr "Бугарска"
+
+#: ../rules/base.xml.in.h:349
+msgid "Bulgarian (traditional phonetic)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:350
+#, fuzzy
+msgid "Bulgarian (new phonetic)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:351
+msgid "Arabic (Morocco)"
+msgstr ""
+
+#. Keyboard indicator for French layouts
+#: ../rules/base.xml.in.h:353 ../rules/base.extras.xml.in.h:15
+msgid "fr"
+msgstr ""
+
+#: ../rules/base.xml.in.h:354
+#, fuzzy
+msgid "French (Morocco)"
+msgstr "француски (класични)"
+
+#. Keyboard indicator for Berber layouts
+#: ../rules/base.xml.in.h:356
+msgid "ber"
+msgstr ""
+
+#: ../rules/base.xml.in.h:357
+msgid "Berber (Morocco, Tifinagh)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:358
+msgid "Berber (Morocco, Tifinagh alternative)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:359
+msgid "Berber (Morocco, Tifinagh alternative phonetic)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:360
+msgid "Berber (Morocco, Tifinagh extended)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:361
+msgid "Berber (Morocco, Tifinagh phonetic)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:362
+msgid "Berber (Morocco, Tifinagh extended phonetic)"
+msgstr ""
+
+#. Keyboard indicator for Cameroon layouts
+#: ../rules/base.xml.in.h:364 ../rules/base.extras.xml.in.h:150
+msgid "cm"
+msgstr ""
+
+#: ../rules/base.xml.in.h:365 ../rules/base.extras.xml.in.h:151
+msgid "English (Cameroon)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:366
+#, fuzzy
+msgid "French (Cameroon)"
+msgstr "француски (класични)"
+
+#: ../rules/base.xml.in.h:367
+msgid "Cameroon Multilingual (qwerty)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:368
+msgid "Cameroon Multilingual (azerty)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:369
+msgid "Cameroon Multilingual (Dvorak)"
+msgstr ""
+
+#. Keyboard indicator for Burmese layouts
+#: ../rules/base.xml.in.h:371
+msgid "my"
+msgstr ""
+
+#: ../rules/base.xml.in.h:372
+msgid "Burmese"
+msgstr "бурмиски"
+
+#: ../rules/base.xml.in.h:373 ../rules/base.extras.xml.in.h:16
+#, fuzzy
+msgid "French (Canada)"
+msgstr "француски канадски"
+
+#: ../rules/base.xml.in.h:374
+#, fuzzy
+msgid "French (Canada, Dvorak)"
+msgstr "француски дворак"
+
+#: ../rules/base.xml.in.h:375
+#, fuzzy
+msgid "French (Canada, legacy)"
+msgstr "француски (класични)"
+
+#: ../rules/base.xml.in.h:376
+#, fuzzy
+msgid "Canadian Multilingual"
+msgstr "Вишејезична"
+
+#: ../rules/base.xml.in.h:377
+#, fuzzy
+msgid "Canadian Multilingual (first part)"
+msgstr "Вишејезична, први део"
+
+#: ../rules/base.xml.in.h:378
+#, fuzzy
+msgid "Canadian Multilingual (second part)"
+msgstr "Вишејезична, други део"
+
+#. Keyboard indicator for Inuktikut layouts
+#: ../rules/base.xml.in.h:380
+#, fuzzy
+msgid "ike"
+msgstr "Windows тастери"
+
+#: ../rules/base.xml.in.h:381
+msgid "Inuktitut"
+msgstr "инуктитут"
+
+#: ../rules/base.xml.in.h:382
+msgid "English (Canada)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:383
+msgid "French (Democratic Republic of the Congo)"
+msgstr ""
+
+#. Keyboard indicator for Taiwanese layouts
+#: ../rules/base.xml.in.h:385
+msgid "zh"
+msgstr ""
+
+#: ../rules/base.xml.in.h:386
+msgid "Chinese"
+msgstr ""
+
+#: ../rules/base.xml.in.h:387
+msgid "Tibetan"
+msgstr ""
+
+#: ../rules/base.xml.in.h:388
+msgid "Tibetan (with ASCII numerals)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:389
+#, fuzzy
+msgid "ug"
+msgstr "сцг"
+
+#: ../rules/base.xml.in.h:390
+msgid "Uyghur"
+msgstr ""
+
+#. Keyboard indicator for Croatian layouts
+#: ../rules/base.xml.in.h:392
+msgid "hr"
+msgstr ""
+
+#: ../rules/base.xml.in.h:393
+#, fuzzy
+msgid "Croatian"
+msgstr "Хрватска"
+
+#: ../rules/base.xml.in.h:394
+#, fuzzy
+msgid "Croatian (with guillemets for quotes)"
+msgstr "латинични са гиљемотима"
+
+#: ../rules/base.xml.in.h:395
+#, fuzzy
+msgid "Croatian (with Croatian digraphs)"
+msgstr "Америчка тастатура са хрватским диграфима"
+
+#: ../rules/base.xml.in.h:396
+#, fuzzy
+msgid "Croatian (US keyboard with Croatian digraphs)"
+msgstr "Америчка тастатура са хрватским диграфима"
+
+#: ../rules/base.xml.in.h:397
+#, fuzzy
+msgid "Croatian (US keyboard with Croatian letters)"
+msgstr "Америчка тастатура са хрватским словима"
+
+#. Keyboard indicator for Chech layouts
+#: ../rules/base.xml.in.h:399 ../rules/base.extras.xml.in.h:90
+msgid "cs"
+msgstr ""
+
+#: ../rules/base.xml.in.h:400 ../rules/base.extras.xml.in.h:91
+#, fuzzy
+msgid "Czech"
+msgstr "Чешка"
+
+#: ../rules/base.xml.in.h:401
+#, fuzzy
+msgid "Czech (with &lt;\\|&gt; key)"
+msgstr "Уз тастер &lt;\\|&gt;"
+
+#: ../rules/base.xml.in.h:402
+msgid "Czech (qwerty)"
+msgstr "Чешки (qwerty)"
+
+#: ../rules/base.xml.in.h:403
+#, fuzzy
+msgid "Czech (qwerty, extended Backslash)"
+msgstr "qwerty, проширено са обрнутом косом цртом"
+
+#: ../rules/base.xml.in.h:404
+msgid "Czech (UCW layout, accented letters only)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:405
+msgid "Czech (US Dvorak with CZ UCW support)"
+msgstr ""
+
+#. Keyboard indicator for Danish layouts
+#: ../rules/base.xml.in.h:407 ../rules/base.extras.xml.in.h:93
+msgid "da"
+msgstr ""
+
+#: ../rules/base.xml.in.h:408 ../rules/base.extras.xml.in.h:94
+msgid "Danish"
+msgstr "дански"
+
+#: ../rules/base.xml.in.h:409
+#, fuzzy
+msgid "Danish (eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:410
+#, fuzzy
+msgid "Danish (Winkeys)"
+msgstr "Windows тастери"
+
+#: ../rules/base.xml.in.h:411
+#, fuzzy
+msgid "Danish (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:412
+#, fuzzy
+msgid "Danish (Macintosh, eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:413
+#, fuzzy
+msgid "Danish (Dvorak)"
+msgstr "француски дворак"
+
+#. Keyboard indicator for Dutch layouts
+#: ../rules/base.xml.in.h:415 ../rules/base.extras.xml.in.h:96
+msgid "nl"
+msgstr ""
+
+#: ../rules/base.xml.in.h:416 ../rules/base.extras.xml.in.h:97
+msgid "Dutch"
+msgstr "холандски"
+
+#: ../rules/base.xml.in.h:417
+#, fuzzy
+msgid "Dutch (Sun dead keys)"
+msgstr "Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:418
+#, fuzzy
+msgid "Dutch (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:419
+msgid "Dutch (standard)"
+msgstr ""
+
+#. Keyboard indicator for Dzongkha layouts
+#: ../rules/base.xml.in.h:421
+msgid "dz"
+msgstr ""
+
+#: ../rules/base.xml.in.h:422
+msgid "Dzongkha"
+msgstr ""
+
+#. Keyboard indicator for Estonian layouts
+#: ../rules/base.xml.in.h:424 ../rules/base.extras.xml.in.h:99
+msgid "et"
+msgstr ""
+
+#: ../rules/base.xml.in.h:425 ../rules/base.extras.xml.in.h:100
+#, fuzzy
+msgid "Estonian"
+msgstr "Естонија"
+
+#: ../rules/base.xml.in.h:426
+#, fuzzy
+msgid "Estonian (eliminate dead keys)"
+msgstr "Уклони акценте"
+
+#: ../rules/base.xml.in.h:427
+msgid "Estonian (Dvorak)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:428
+#, fuzzy
+msgid "Estonian (US keyboard with Estonian letters)"
+msgstr "Америчка тастатура са босанским словима"
+
+#: ../rules/base.xml.in.h:429 ../rules/base.extras.xml.in.h:30
+msgid "Persian"
+msgstr ""
+
+#: ../rules/base.xml.in.h:430
+#, fuzzy
+msgid "Persian (with Persian keypad)"
+msgstr "Међународна (са акцентима)"
+
+#. Keyboard indicator for Kurdish layouts
+#: ../rules/base.xml.in.h:432
+#, fuzzy
+msgid "ku"
+msgstr "ику"
+
+#: ../rules/base.xml.in.h:433
+msgid "Kurdish (Iran, Latin Q)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:434
+#, fuzzy
+msgid "Kurdish (Iran, F)"
+msgstr "турски (F)"
+
+#: ../rules/base.xml.in.h:435
+msgid "Kurdish (Iran, Latin Alt-Q)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:436
+msgid "Kurdish (Iran, Arabic-Latin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:437
+msgid "Iraqi"
+msgstr ""
+
+#: ../rules/base.xml.in.h:438
+msgid "Kurdish (Iraq, Latin Q)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:439
+#, fuzzy
+msgid "Kurdish (Iraq, F)"
+msgstr "турски (F)"
+
+#: ../rules/base.xml.in.h:440
+msgid "Kurdish (Iraq, Latin Alt-Q)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:441
+msgid "Kurdish (Iraq, Arabic-Latin)"
+msgstr ""
+
+#. Keyboard indicator for Faroese layouts
+#: ../rules/base.xml.in.h:443
+msgid "fo"
+msgstr ""
+
+#: ../rules/base.xml.in.h:444
+#, fuzzy
+msgid "Faroese"
+msgstr "Фарска острва"
+
+#: ../rules/base.xml.in.h:445
+#, fuzzy
+msgid "Faroese (eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#. Keyboard indicator for Finnish layouts
+#: ../rules/base.xml.in.h:447 ../rules/base.extras.xml.in.h:102
+#, fuzzy
+msgid "fi"
+msgstr "sefi"
+
+#: ../rules/base.xml.in.h:448 ../rules/base.extras.xml.in.h:103
+msgid "Finnish"
+msgstr "фински"
+
+#: ../rules/base.xml.in.h:449
+msgid "Finnish (classic)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:450
+#, fuzzy
+msgid "Finnish (classic, eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:451
+msgid "Finnish (Winkeys)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:452
+msgid "Northern Saami (Finland)"
+msgstr "северносаамски (Финска)"
+
+#: ../rules/base.xml.in.h:453
+#, fuzzy
+msgid "Finnish (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:454 ../rules/base.extras.xml.in.h:105
+msgid "French"
+msgstr "француски"
+
+#: ../rules/base.xml.in.h:455
+#, fuzzy
+msgid "French (eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:456
+#, fuzzy
+msgid "French (Sun dead keys)"
+msgstr "француски, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:457
+#, fuzzy
+msgid "French (alternative)"
+msgstr "француски (класични)"
+
 #: ../rules/base.xml.in.h:458
-msgid "qwertz"
-msgstr "qwertz"
+msgid "French (alternative, Latin-9 only)"
+msgstr ""
 
 #: ../rules/base.xml.in.h:459
-msgid "si1452"
-msgstr "si1452"
+#, fuzzy
+msgid "French (alternative, eliminate dead keys)"
+msgstr "Допунска, без акцената"
 
-#~ msgid "Turkish"
-#~ msgstr "турски"
+#: ../rules/base.xml.in.h:460
+#, fuzzy
+msgid "French (alternative, Sun dead keys)"
+msgstr "Допунска, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:461
+#, fuzzy
+msgid "French (legacy, alternative)"
+msgstr "француски (класични)"
+
+#: ../rules/base.xml.in.h:462
+#, fuzzy
+msgid "French (legacy, alternative, eliminate dead keys)"
+msgstr "Допунска, без акцената"
+
+#: ../rules/base.xml.in.h:463
+#, fuzzy
+msgid "French (legacy, alternative, Sun dead keys)"
+msgstr "Допунска, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:464
+msgid "French (Bepo, ergonomic, Dvorak way)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:465
+msgid "French (Bepo, ergonomic, Dvorak way, Latin-9 only)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:466
+#, fuzzy
+msgid "French (Dvorak)"
+msgstr "француски дворак"
+
+#: ../rules/base.xml.in.h:467
+#, fuzzy
+msgid "French (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:468
+#, fuzzy
+msgid "French (Breton)"
+msgstr "француски (класични)"
+
+#: ../rules/base.xml.in.h:469
+msgid "Occitan"
+msgstr ""
+
+#: ../rules/base.xml.in.h:470
+msgid "Georgian (France, AZERTY Tskapo)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:471
+msgid "English (Ghana)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:472
+msgid "English (Ghana, multilingual)"
+msgstr ""
+
+#. Keyboard indicator for Akan layouts
+#: ../rules/base.xml.in.h:474
+#, fuzzy
+msgid "ak"
+msgstr "пак"
+
+#: ../rules/base.xml.in.h:475
+msgid "Akan"
+msgstr "акан"
+
+#. Keyboard indicator for Ewe layouts
+#: ../rules/base.xml.in.h:477
+msgid "ee"
+msgstr ""
+
+#: ../rules/base.xml.in.h:478
+msgid "Ewe"
+msgstr "Еве"
+
+#. Keyboard indicator for Fula layouts
+#: ../rules/base.xml.in.h:480
+msgid "ff"
+msgstr ""
+
+#: ../rules/base.xml.in.h:481
+msgid "Fula"
+msgstr "Фула"
+
+#. Keyboard indicator for Ga layouts
+#: ../rules/base.xml.in.h:483
+msgid "gaa"
+msgstr ""
+
+#: ../rules/base.xml.in.h:484
+msgid "Ga"
+msgstr "Га"
+
+#. Keyboard indicator for Hausa layouts
+#: ../rules/base.xml.in.h:486
+#, fuzzy
+msgid "ha"
+msgstr "га"
+
+#: ../rules/base.xml.in.h:487
+msgid "Hausa"
+msgstr "Хауса"
+
+#. Keyboard indicator for Avatime layouts
+#: ../rules/base.xml.in.h:489
+#, fuzzy
+msgid "avn"
+msgstr "бан"
+
+#: ../rules/base.xml.in.h:490
+msgid "Avatime"
+msgstr ""
+
+#: ../rules/base.xml.in.h:491
+msgid "English (Ghana, GILLBT)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:492
+#, fuzzy
+msgid "French (Guinea)"
+msgstr "француски (класични)"
+
+#. Keyboard indicator for Georgian layouts
+#: ../rules/base.xml.in.h:494
+#, fuzzy
+msgid "ka"
+msgstr "акан"
+
+#: ../rules/base.xml.in.h:495
+#, fuzzy
+msgid "Georgian"
+msgstr "Грузија"
+
+#: ../rules/base.xml.in.h:496
+#, fuzzy
+msgid "Georgian (ergonomic)"
+msgstr "грузијски (руски)"
+
+#: ../rules/base.xml.in.h:497
+#, fuzzy
+msgid "Georgian (MESS)"
+msgstr "грузијски (латиница)"
+
+#: ../rules/base.xml.in.h:498
+#, fuzzy
+msgid "Russian (Georgia)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:499
+msgid "Ossetian (Georgia)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:500 ../rules/base.extras.xml.in.h:23
+#, fuzzy
+msgid "German"
+msgstr "Немачка"
+
+#: ../rules/base.xml.in.h:501
+#, fuzzy
+msgid "German (dead acute)"
+msgstr "немачки, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:502
+#, fuzzy
+msgid "German (dead grave acute)"
+msgstr "Гравис акутски акценат"
+
+#: ../rules/base.xml.in.h:503
+#, fuzzy
+msgid "German (eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.xml.in.h:504
+#, fuzzy
+msgid "German (T3)"
+msgstr "Немачка"
+
+#: ../rules/base.xml.in.h:505
+msgid "Romanian (Germany)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:506
+#, fuzzy
+msgid "Romanian (Germany, eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.xml.in.h:507
+#, fuzzy
+msgid "German (Dvorak)"
+msgstr "француски дворак"
+
+#: ../rules/base.xml.in.h:508
+#, fuzzy
+msgid "German (Sun dead keys)"
+msgstr "немачки, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:509
+msgid "German (Neo 2)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:510
+#, fuzzy
+msgid "German (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:511
+#, fuzzy
+msgid "German (Macintosh, eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.xml.in.h:512
+msgid "Lower Sorbian"
+msgstr ""
+
+#: ../rules/base.xml.in.h:513
+#, fuzzy
+msgid "Lower Sorbian (qwertz)"
+msgstr "Мађарски (qwerty)"
+
+#: ../rules/base.xml.in.h:514
+#, fuzzy
+msgid "German (qwerty)"
+msgstr "Мађарски (qwerty)"
+
+#: ../rules/base.xml.in.h:515
+#, fuzzy
+msgid "Turkish (Germany)"
+msgstr "турски (F)"
+
+#: ../rules/base.xml.in.h:516
+#, fuzzy
+msgid "Russian (Germany, phonetic)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:517
+#, fuzzy
+msgid "German (legacy)"
+msgstr "француски (класични)"
+
+#. Keyboard indicator for Greek layouts
+#: ../rules/base.xml.in.h:519 ../rules/base.extras.xml.in.h:107
+#, fuzzy
+msgid "gr"
+msgstr "буг"
+
+#: ../rules/base.xml.in.h:520 ../rules/base.extras.xml.in.h:108
+#, fuzzy
+msgid "Greek"
+msgstr "Грчка"
+
+#: ../rules/base.xml.in.h:521
+msgid "Greek (simple)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:522
+msgid "Greek (extended)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:523
+#, fuzzy
+msgid "Greek (eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+# не ваља, можда вишезвучни?
+#: ../rules/base.xml.in.h:524
+#, fuzzy
+msgid "Greek (polytonic)"
+msgstr "вишезвучни"
+
+#. Keyboard indicator for Hungarian layouts
+#: ../rules/base.xml.in.h:526
+#, fuzzy
+msgid "hu"
+msgstr "бут"
+
+#: ../rules/base.xml.in.h:527
+#, fuzzy
+msgid "Hungarian"
+msgstr "Мађарска"
+
+#: ../rules/base.xml.in.h:528
+#, fuzzy
+msgid "Hungarian (standard)"
+msgstr "Мађарски (qwerty)"
+
+#: ../rules/base.xml.in.h:529
+#, fuzzy
+msgid "Hungarian (eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.xml.in.h:530
+msgid "Hungarian (qwerty)"
+msgstr "Мађарски (qwerty)"
+
+#: ../rules/base.xml.in.h:531
+#, fuzzy
+msgid "Hungarian (101/qwertz/comma/dead keys)"
+msgstr "101/qwertz/запета/акценти"
+
+#: ../rules/base.xml.in.h:532
+#, fuzzy
+msgid "Hungarian (101/qwertz/comma/eliminate dead keys)"
+msgstr "101/qwertz/запета/без акцената"
+
+#: ../rules/base.xml.in.h:533
+#, fuzzy
+msgid "Hungarian (101/qwertz/dot/dead keys)"
+msgstr "101/qwertz/тачка/акценти"
+
+#: ../rules/base.xml.in.h:534
+#, fuzzy
+msgid "Hungarian (101/qwertz/dot/eliminate dead keys)"
+msgstr "101/qwertz/тачка/без акцената"
+
+#: ../rules/base.xml.in.h:535
+#, fuzzy
+msgid "Hungarian (101/qwerty/comma/dead keys)"
+msgstr "101/qwerty/запета/акценти"
+
+#: ../rules/base.xml.in.h:536
+#, fuzzy
+msgid "Hungarian (101/qwerty/comma/eliminate dead keys)"
+msgstr "101/qwerty/запета/без акцената"
+
+#: ../rules/base.xml.in.h:537
+#, fuzzy
+msgid "Hungarian (101/qwerty/dot/dead keys)"
+msgstr "101/qwerty/тачка/акценти"
+
+#: ../rules/base.xml.in.h:538
+#, fuzzy
+msgid "Hungarian (101/qwerty/dot/eliminate dead keys)"
+msgstr "101/qwerty/тачка/без акцената"
+
+#: ../rules/base.xml.in.h:539
+#, fuzzy
+msgid "Hungarian (102/qwertz/comma/dead keys)"
+msgstr "102/qwertz/запета/акценти"
+
+#: ../rules/base.xml.in.h:540
+#, fuzzy
+msgid "Hungarian (102/qwertz/comma/eliminate dead keys)"
+msgstr "102/qwertz/запета/без акцената"
+
+#: ../rules/base.xml.in.h:541
+#, fuzzy
+msgid "Hungarian (102/qwertz/dot/dead keys)"
+msgstr "102/qwertz/тачка/акценти"
+
+#: ../rules/base.xml.in.h:542
+#, fuzzy
+msgid "Hungarian (102/qwertz/dot/eliminate dead keys)"
+msgstr "102/qwertz/тачка/без акцената"
+
+#: ../rules/base.xml.in.h:543
+#, fuzzy
+msgid "Hungarian (102/qwerty/comma/dead keys)"
+msgstr "102/qwerty/запета/акценти"
+
+#: ../rules/base.xml.in.h:544
+#, fuzzy
+msgid "Hungarian (102/qwerty/comma/eliminate dead keys)"
+msgstr "102/qwerty/запета/без акцената"
+
+#: ../rules/base.xml.in.h:545
+#, fuzzy
+msgid "Hungarian (102/qwerty/dot/dead keys)"
+msgstr "102/qwerty/тачка/акценти"
+
+#: ../rules/base.xml.in.h:546
+#, fuzzy
+msgid "Hungarian (102/qwerty/dot/eliminate dead keys)"
+msgstr "102/qwerty/тачка/без акцената"
+
+#. Keyboard indicator for Icelandic layouts
+#: ../rules/base.xml.in.h:548
+msgid "is"
+msgstr ""
+
+#: ../rules/base.xml.in.h:549
+#, fuzzy
+msgid "Icelandic"
+msgstr "Исланд"
+
+#: ../rules/base.xml.in.h:550
+#, fuzzy
+msgid "Icelandic (Sun dead keys)"
+msgstr "француски, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:551
+#, fuzzy
+msgid "Icelandic (eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:552
+msgid "Icelandic (Macintosh, legacy)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:553
+#, fuzzy
+msgid "Icelandic (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:554
+#, fuzzy
+msgid "Icelandic (Dvorak)"
+msgstr "француски дворак"
+
+#. Keyboard indicator for Hebrew layouts
+#: ../rules/base.xml.in.h:556 ../rules/base.extras.xml.in.h:78
+#, fuzzy
+msgid "he"
+msgstr "швц"
+
+#: ../rules/base.xml.in.h:557 ../rules/base.extras.xml.in.h:79
+msgid "Hebrew"
+msgstr ""
+
+#: ../rules/base.xml.in.h:558
+msgid "Hebrew (lyx)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:559
+#, fuzzy
+msgid "Hebrew (phonetic)"
+msgstr "сиријски фонетски"
+
+#: ../rules/base.xml.in.h:560
+msgid "Hebrew (Biblical, Tiro)"
+msgstr ""
+
+#. Keyboard indicator for Italian layouts
+#: ../rules/base.xml.in.h:562 ../rules/base.extras.xml.in.h:110
+msgid "it"
+msgstr ""
+
+#: ../rules/base.xml.in.h:563 ../rules/base.extras.xml.in.h:111
+msgid "Italian"
+msgstr "италијански"
+
+#: ../rules/base.xml.in.h:564
+#, fuzzy
+msgid "Italian (eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.xml.in.h:565
+msgid "Italian (Winkeys)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:566
+#, fuzzy
+msgid "Italian (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:567
+#, fuzzy
+msgid "Italian (US keyboard with Italian letters)"
+msgstr "Америчка тастатура са малтешким словима"
+
+#: ../rules/base.xml.in.h:568
+#, fuzzy
+msgid "Georgian (Italy)"
+msgstr "грузијски (латиница)"
+
+#: ../rules/base.xml.in.h:569
+msgid "Italian (IBM 142)"
+msgstr ""
+
+#. Keyboard indicator for Japanese layouts
+#: ../rules/base.xml.in.h:571 ../rules/base.extras.xml.in.h:113
+msgid "ja"
+msgstr ""
+
+#: ../rules/base.xml.in.h:572 ../rules/base.extras.xml.in.h:114
+#, fuzzy
+msgid "Japanese"
+msgstr "Јапан"
+
+#: ../rules/base.xml.in.h:573
+msgid "Japanese (Kana)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:574
+msgid "Japanese (Kana 86)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:575
+#, fuzzy
+msgid "Japanese (OADG 109A)"
+msgstr "јапански са 106 тастера"
+
+#: ../rules/base.xml.in.h:576
+#, fuzzy
+msgid "Japanese (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:577
+#, fuzzy
+msgid "Japanese (Dvorak)"
+msgstr "јапански са 106 тастера"
+
+#. Keyboard indicator for Kikuyu layouts
+#: ../rules/base.xml.in.h:579
+msgid "ki"
+msgstr ""
+
+#: ../rules/base.xml.in.h:580
+#, fuzzy
+msgid "Kyrgyz"
+msgstr "Киргистан"
+
+#: ../rules/base.xml.in.h:581
+#, fuzzy
+msgid "Kyrgyz (phonetic)"
+msgstr "сиријски фонетски"
+
+#. Keyboard indicator for Khmer layouts
+#: ../rules/base.xml.in.h:583
+msgid "km"
+msgstr ""
+
+#: ../rules/base.xml.in.h:584
+#, fuzzy
+msgid "Khmer (Cambodia)"
+msgstr "Камбоџа"
+
+#. Keyboard indicator for Kazakh layouts
+#: ../rules/base.xml.in.h:586
+msgid "kk"
+msgstr ""
+
+#: ../rules/base.xml.in.h:587
+#, fuzzy
+msgid "Kazakh"
+msgstr "Казахстан"
+
+#: ../rules/base.xml.in.h:588
+#, fuzzy
+msgid "Russian (Kazakhstan, with Kazakh)"
+msgstr "руски са казахстанским"
+
+#: ../rules/base.xml.in.h:589
+#, fuzzy
+msgid "Kazakh (with Russian)"
+msgstr "казахстански са руским"
+
+#. Keyboard indicator for Lao layouts
+#: ../rules/base.xml.in.h:591
+msgid "lo"
+msgstr ""
+
+#: ../rules/base.xml.in.h:592
+msgid "Lao"
+msgstr "лао"
+
+#: ../rules/base.xml.in.h:593
+msgid "Lao (STEA proposed standard layout)"
+msgstr ""
+
+#. Keyboard indicator for Spanish layouts
+#: ../rules/base.xml.in.h:595 ../rules/base.extras.xml.in.h:126
+msgid "es"
+msgstr ""
+
+#: ../rules/base.xml.in.h:596
+#, fuzzy
+msgid "Spanish (Latin American)"
+msgstr "јужноамерички"
+
+#: ../rules/base.xml.in.h:597
+#, fuzzy
+msgid "Spanish (Latin American, eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.xml.in.h:598
+msgid "Spanish (Latin American, include dead tilde)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:599
+#, fuzzy
+msgid "Spanish (Latin American, Sun dead keys)"
+msgstr "немачки, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:600
+#, fuzzy
+msgid "Spanish (Latin American, Dvorak)"
+msgstr "јужноамерички"
+
+#. Keyboard indicator for Lithuanian layouts
+#: ../rules/base.xml.in.h:602 ../rules/base.extras.xml.in.h:32
+#, fuzzy
+msgid "lt"
+msgstr "мал"
+
+#: ../rules/base.xml.in.h:603 ../rules/base.extras.xml.in.h:33
+#, fuzzy
+msgid "Lithuanian"
+msgstr "Литванија"
+
+#: ../rules/base.xml.in.h:604
+#, fuzzy
+msgid "Lithuanian (standard)"
+msgstr "литвански azerty распоред"
+
+#: ../rules/base.xml.in.h:605
+#, fuzzy
+msgid "Lithuanian (US keyboard with Lithuanian letters)"
+msgstr "Америчка тастатура са литванским словима"
+
+#: ../rules/base.xml.in.h:606
+msgid "Lithuanian (IBM LST 1205-92)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:607
+#, fuzzy
+msgid "Lithuanian (LEKP)"
+msgstr "Литванија"
+
+#: ../rules/base.xml.in.h:608
+#, fuzzy
+msgid "Lithuanian (LEKPa)"
+msgstr "Литванија"
+
+#. Keyboard indicator for Latvian layouts
+#: ../rules/base.xml.in.h:610 ../rules/base.extras.xml.in.h:36
+msgid "lv"
+msgstr ""
+
+#: ../rules/base.xml.in.h:611 ../rules/base.extras.xml.in.h:37
+#, fuzzy
+msgid "Latvian"
+msgstr "Летонија"
+
+#: ../rules/base.xml.in.h:612
+#, fuzzy
+msgid "Latvian (apostrophe variant)"
+msgstr "Варијанта са апострофом (')"
+
+#: ../rules/base.xml.in.h:613
+#, fuzzy
+msgid "Latvian (tilde variant)"
+msgstr "Варијанта са тилдом (~)"
+
+#: ../rules/base.xml.in.h:614
+#, fuzzy
+msgid "Latvian (F variant)"
+msgstr "Варијанта са F-словом (F)"
+
+#: ../rules/base.xml.in.h:615
+msgid "Latvian (modern)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:616
+msgid "Latvian (ergonomic, ŪGJRMV)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:617
+msgid "Latvian (adapted)"
+msgstr ""
+
+#. Keyboard indicator for Maori layouts
+#: ../rules/base.xml.in.h:619
+msgid "mi"
+msgstr ""
+
+#: ../rules/base.xml.in.h:620
+msgid "Maori"
+msgstr "Маори"
+
+#. Keyboard indicator for Serbian layouts
+#: ../rules/base.xml.in.h:622 ../rules/base.extras.xml.in.h:67
+#, fuzzy
+msgid "sr"
+msgstr "изр"
+
+#: ../rules/base.xml.in.h:623
+msgid "Montenegrin"
+msgstr ""
+
+#: ../rules/base.xml.in.h:624
+msgid "Montenegrin (Cyrillic)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:625
+msgid "Montenegrin (Cyrillic, ZE and ZHE swapped)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:626
+#, fuzzy
+msgid "Montenegrin (Latin Unicode)"
+msgstr "латинични Уникод"
+
+#: ../rules/base.xml.in.h:627
+#, fuzzy
+msgid "Montenegrin (Latin qwerty)"
+msgstr "Мађарски (qwerty)"
+
+#: ../rules/base.xml.in.h:628
+#, fuzzy
+msgid "Montenegrin (Latin Unicode qwerty)"
+msgstr "латинични Уникод qwerty"
+
+#: ../rules/base.xml.in.h:629
+#, fuzzy
+msgid "Montenegrin (Cyrillic with guillemets)"
+msgstr "латинични са гиљемотима"
+
+#: ../rules/base.xml.in.h:630
+#, fuzzy
+msgid "Montenegrin (Latin with guillemets)"
+msgstr "латинични са гиљемотима"
+
+#. Keyboard indicator for Macedonian layouts
+#: ../rules/base.xml.in.h:632
+msgid "mk"
+msgstr ""
+
+#: ../rules/base.xml.in.h:633
+#, fuzzy
+msgid "Macedonian"
+msgstr "Македонија"
+
+#: ../rules/base.xml.in.h:634
+#, fuzzy
+msgid "Macedonian (eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#. Keyboard indicator for Maltese layouts
+#: ../rules/base.xml.in.h:636
+msgid "mt"
+msgstr ""
+
+#: ../rules/base.xml.in.h:637
+#, fuzzy
+msgid "Maltese"
+msgstr "Малта"
+
+#: ../rules/base.xml.in.h:638
+#, fuzzy
+msgid "Maltese (with US layout)"
+msgstr "малтски (амерички распоред)"
+
+#. Keyboard indicator for Mongolian layouts
+#: ../rules/base.xml.in.h:640
+msgid "mn"
+msgstr ""
+
+#: ../rules/base.xml.in.h:641
+#, fuzzy
+msgid "Mongolian"
+msgstr "Монголија"
+
+#. Keyboard indicator for Norwegian layouts
+#: ../rules/base.xml.in.h:643 ../rules/base.extras.xml.in.h:118
+msgid "no"
+msgstr ""
+
+#: ../rules/base.xml.in.h:644 ../rules/base.extras.xml.in.h:119
+#, fuzzy
+msgid "Norwegian"
+msgstr "Норвешка"
+
+#: ../rules/base.xml.in.h:645
+#, fuzzy
+msgid "Norwegian (eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:646
+#, fuzzy
+msgid "Norwegian (Winkeys)"
+msgstr "грузијски (латиница)"
+
+#: ../rules/base.xml.in.h:647
+#, fuzzy
+msgid "Norwegian (Dvorak)"
+msgstr "француски дворак"
+
+#: ../rules/base.xml.in.h:648
+#, fuzzy
+msgid "Northern Saami (Norway)"
+msgstr "северносаамски (Шведска)"
+
+#: ../rules/base.xml.in.h:649
+#, fuzzy
+msgid "Northern Saami (Norway, eliminate dead keys)"
+msgstr "северносаамски, без акцената"
+
+#: ../rules/base.xml.in.h:650
+#, fuzzy
+msgid "Norwegian (Macintosh)"
+msgstr "грузијски (латиница)"
+
+#: ../rules/base.xml.in.h:651
+#, fuzzy
+msgid "Norwegian (Macintosh, eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:652
+#, fuzzy
+msgid "Norwegian (Colemak)"
+msgstr "грузијски (латиница)"
+
+#. Keyboard indicator for Polish layouts
+#: ../rules/base.xml.in.h:654 ../rules/base.extras.xml.in.h:56
+msgid "pl"
+msgstr ""
+
+#: ../rules/base.xml.in.h:655 ../rules/base.extras.xml.in.h:57
+msgid "Polish"
+msgstr "пољски"
+
+#: ../rules/base.xml.in.h:656
+#, fuzzy
+msgid "Polish (legacy)"
+msgstr "француски (класични)"
+
+#: ../rules/base.xml.in.h:657
+msgid "Polish (qwertz)"
+msgstr "пољски (qwertz)"
+
+#: ../rules/base.xml.in.h:658
+#, fuzzy
+msgid "Polish (Dvorak)"
+msgstr "пољски (qwertz)"
+
+#: ../rules/base.xml.in.h:659
+#, fuzzy
+msgid "Polish (Dvorak, Polish quotes on quotemark key)"
+msgstr "дворак, пољски наводници на тастеру наводника"
+
+#: ../rules/base.xml.in.h:660
+#, fuzzy
+msgid "Polish (Dvorak, Polish quotes on key 1)"
+msgstr "дворак, пољски наводници на тастеру „1/!“"
+
+#: ../rules/base.xml.in.h:661
+msgid "Kashubian"
+msgstr ""
+
+#: ../rules/base.xml.in.h:662
+msgid "Silesian"
+msgstr ""
+
+#: ../rules/base.xml.in.h:663
+#, fuzzy
+msgid "Russian (Poland, phonetic Dvorak)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:664
+msgid "Polish (programmer Dvorak)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:665 ../rules/base.extras.xml.in.h:121
+#, fuzzy
+msgid "Portuguese"
+msgstr "Португалија"
+
+#: ../rules/base.xml.in.h:666
+#, fuzzy
+msgid "Portuguese (eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:667
+#, fuzzy
+msgid "Portuguese (Sun dead keys)"
+msgstr "француски, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:668
+msgid "Portuguese (Macintosh)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:669
+#, fuzzy
+msgid "Portuguese (Macintosh, eliminate dead keys)"
+msgstr "северносаамски, без акцената"
+
+#: ../rules/base.xml.in.h:670
+#, fuzzy
+msgid "Portuguese (Macintosh, Sun dead keys)"
+msgstr "француски, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:671
+msgid "Portuguese (Nativo)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:672
+msgid "Portuguese (Nativo for US keyboards)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:673
+msgid "Esperanto (Portugal, Nativo)"
+msgstr ""
+
+#. Keyboard indicator for Romanian layouts
+#: ../rules/base.xml.in.h:675 ../rules/base.extras.xml.in.h:61
+#, fuzzy
+msgid "ro"
+msgstr "про"
+
+#: ../rules/base.xml.in.h:676 ../rules/base.extras.xml.in.h:62
+#, fuzzy
+msgid "Romanian"
+msgstr "Румунија"
+
+#: ../rules/base.xml.in.h:677
+msgid "Romanian (cedilla)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:678
+#, fuzzy
+msgid "Romanian (standard)"
+msgstr "литвански azerty распоред"
+
+#: ../rules/base.xml.in.h:679
+msgid "Romanian (standard cedilla)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:680
+msgid "Romanian (WinKeys)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:681 ../rules/base.extras.xml.in.h:71
+msgid "Russian"
+msgstr "руски"
+
+#: ../rules/base.xml.in.h:682
+#, fuzzy
+msgid "Russian (phonetic)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:683
+#, fuzzy
+msgid "Russian (phonetic WinKeys)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:684
+#, fuzzy
+msgid "Russian (typewriter)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:685
+#, fuzzy
+msgid "Russian (legacy)"
+msgstr "француски (класични)"
+
+#: ../rules/base.xml.in.h:686
+msgid "Russian (typewriter, legacy)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:687
+msgid "Tatar"
+msgstr "татарски"
+
+#: ../rules/base.xml.in.h:688
+#, fuzzy
+msgid "Ossetian (legacy)"
+msgstr "француски (класични)"
+
+#: ../rules/base.xml.in.h:689
+msgid "Ossetian (WinKeys)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:690
+msgid "Chuvash"
+msgstr ""
+
+#: ../rules/base.xml.in.h:691
+msgid "Chuvash (Latin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:692
+msgid "Udmurt"
+msgstr ""
+
+#: ../rules/base.xml.in.h:693
+msgid "Komi"
+msgstr ""
+
+#: ../rules/base.xml.in.h:694
+msgid "Yakut"
+msgstr ""
+
+#: ../rules/base.xml.in.h:695
+msgid "Kalmyk"
+msgstr ""
+
+#: ../rules/base.xml.in.h:696
+#, fuzzy
+msgid "Russian (DOS)"
+msgstr "руски"
+
+#: ../rules/base.xml.in.h:697
+#, fuzzy
+msgid "Russian (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:698
+#, fuzzy
+msgid "Serbian (Russia)"
+msgstr "грузијски (руски)"
+
+#: ../rules/base.xml.in.h:699
+msgid "Bashkirian"
+msgstr ""
+
+#: ../rules/base.xml.in.h:700
+msgid "Mari"
+msgstr ""
+
+#: ../rules/base.xml.in.h:701
+#, fuzzy
+msgid "Russian (phonetic azerty)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:702
+#, fuzzy
+msgid "Russian (phonetic French)"
+msgstr "руски фонетски"
+
+# bug: Serbia and Montenegro
+#: ../rules/base.xml.in.h:703 ../rules/base.extras.xml.in.h:68
+#, fuzzy
+msgid "Serbian"
+msgstr "Србија"
+
+#: ../rules/base.xml.in.h:704
+#, fuzzy
+msgid "Serbian (Cyrillic, ZE and ZHE swapped)"
+msgstr "Размењено З и Ж"
+
+#: ../rules/base.xml.in.h:705
+#, fuzzy
+msgid "Serbian (Latin)"
+msgstr "грузијски (латиница)"
+
+#: ../rules/base.xml.in.h:706
+#, fuzzy
+msgid "Serbian (Latin Unicode)"
+msgstr "латинични Уникод"
+
+#: ../rules/base.xml.in.h:707
+#, fuzzy
+msgid "Serbian (Latin qwerty)"
+msgstr "латинични qwerty"
+
+#: ../rules/base.xml.in.h:708
+#, fuzzy
+msgid "Serbian (Latin Unicode qwerty)"
+msgstr "латинични Уникод qwerty"
+
+#: ../rules/base.xml.in.h:709
+#, fuzzy
+msgid "Serbian (Cyrillic with guillemets)"
+msgstr "латинични са гиљемотима"
+
+#: ../rules/base.xml.in.h:710
+#, fuzzy
+msgid "Serbian (Latin with guillemets)"
+msgstr "латинични са гиљемотима"
+
+#: ../rules/base.xml.in.h:711
+msgid "Pannonian Rusyn"
+msgstr ""
+
+#. Keyboard indicator for Slovenian layouts
+#: ../rules/base.xml.in.h:713
+#, fuzzy
+msgid "sl"
+msgstr "исл"
+
+#: ../rules/base.xml.in.h:714
+#, fuzzy
+msgid "Slovenian"
+msgstr "Словенија"
+
+#: ../rules/base.xml.in.h:715
+#, fuzzy
+msgid "Slovenian (with guillemets for quotes)"
+msgstr "Користи гиљемоте за наводнике"
+
+#: ../rules/base.xml.in.h:716
+#, fuzzy
+msgid "Slovenian (US keyboard with Slovenian letters)"
+msgstr "Америчка тастатура са словеначким словима"
+
+#. Keyboard indicator for Slovak layouts
+#: ../rules/base.xml.in.h:718 ../rules/base.extras.xml.in.h:123
+msgid "sk"
+msgstr ""
+
+#: ../rules/base.xml.in.h:719 ../rules/base.extras.xml.in.h:124
+#, fuzzy
+msgid "Slovak"
+msgstr "Словачка"
+
+#: ../rules/base.xml.in.h:720
+#, fuzzy
+msgid "Slovak (extended Backslash)"
+msgstr "Проширено уз обрнуту косу црту"
+
+#: ../rules/base.xml.in.h:721
+msgid "Slovak (qwerty)"
+msgstr "словачки (qwerty)"
+
+#: ../rules/base.xml.in.h:722
+#, fuzzy
+msgid "Slovak (qwerty, extended Backslash)"
+msgstr "qwerty, проширено са обрнутом косом цртом"
+
+#: ../rules/base.xml.in.h:723 ../rules/base.extras.xml.in.h:127
+#, fuzzy
+msgid "Spanish"
+msgstr "дански"
+
+#: ../rules/base.xml.in.h:724
+#, fuzzy
+msgid "Spanish (eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:725
+msgid "Spanish (Winkeys)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:726
+msgid "Spanish (include dead tilde)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:727
+#, fuzzy
+msgid "Spanish (Sun dead keys)"
+msgstr "француски, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:728
+#, fuzzy
+msgid "Spanish (Dvorak)"
+msgstr "француски дворак"
+
+#: ../rules/base.xml.in.h:729
+msgid "Asturian (Spain, with bottom-dot H and bottom-dot L)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:730
+#, fuzzy
+msgid "Catalan (Spain, with middle-dot L)"
+msgstr "каталонска варијанта са L и средњом тачком"
+
+#: ../rules/base.xml.in.h:731
+#, fuzzy
+msgid "Spanish (Macintosh)"
+msgstr "Мекинтош"
+
+#. Keyboard indicator for Swedish layouts
+#: ../rules/base.xml.in.h:733 ../rules/base.extras.xml.in.h:129
+msgid "sv"
+msgstr ""
+
+#: ../rules/base.xml.in.h:734 ../rules/base.extras.xml.in.h:130
+msgid "Swedish"
+msgstr "шведски"
+
+#: ../rules/base.xml.in.h:735
+#, fuzzy
+msgid "Swedish (eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:736
+#, fuzzy
+msgid "Swedish (Dvorak)"
+msgstr "француски дворак"
+
+#: ../rules/base.xml.in.h:737
+#, fuzzy
+msgid "Russian (Sweden, phonetic)"
+msgstr "руски фонетски"
+
+#: ../rules/base.xml.in.h:738
+#, fuzzy
+msgid "Russian (Sweden, phonetic, eliminate dead keys)"
+msgstr "руски фонетски, без акцената"
+
+#: ../rules/base.xml.in.h:739
+msgid "Northern Saami (Sweden)"
+msgstr "северносаамски (Шведска)"
+
+#: ../rules/base.xml.in.h:740
+#, fuzzy
+msgid "Swedish (Macintosh)"
+msgstr "Мекинтош"
+
+#: ../rules/base.xml.in.h:741
+msgid "Swedish (Svdvorak)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:742
+msgid "Swedish Sign Language"
+msgstr ""
+
+#: ../rules/base.xml.in.h:743 ../rules/base.extras.xml.in.h:133
+#, fuzzy
+msgid "German (Switzerland)"
+msgstr "Швајцарска"
+
+#: ../rules/base.xml.in.h:744
+msgid "German (Switzerland, legacy)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:745
+#, fuzzy
+msgid "German (Switzerland, eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.xml.in.h:746
+#, fuzzy
+msgid "German (Switzerland, Sun dead keys)"
+msgstr "немачки, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:747
+#, fuzzy
+msgid "French (Switzerland)"
+msgstr "Швајцарска"
+
+#: ../rules/base.xml.in.h:748
+#, fuzzy
+msgid "French (Switzerland, eliminate dead keys)"
+msgstr "Француски, без акцената"
+
+#: ../rules/base.xml.in.h:749
+#, fuzzy
+msgid "French (Switzerland, Sun dead keys)"
+msgstr "француски, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:750
+msgid "French (Switzerland, Macintosh)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:751
+msgid "German (Switzerland, Macintosh)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:752
+#, fuzzy
+msgid "Arabic (Syria)"
+msgstr "арапски"
+
+#. Keyboard indicator for Syriac layouts
+#: ../rules/base.xml.in.h:754
+msgid "syc"
+msgstr ""
+
+#: ../rules/base.xml.in.h:755
+msgid "Syriac"
+msgstr "сиријски"
+
+#: ../rules/base.xml.in.h:756
+#, fuzzy
+msgid "Syriac (phonetic)"
+msgstr "сиријски фонетски"
+
+#: ../rules/base.xml.in.h:757
+msgid "Kurdish (Syria, Latin Q)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:758
+#, fuzzy
+msgid "Kurdish (Syria, F)"
+msgstr "турски (F)"
+
+#: ../rules/base.xml.in.h:759
+msgid "Kurdish (Syria, Latin Alt-Q)"
+msgstr ""
+
+#. Keyboard indicator for Tajik layouts
+#: ../rules/base.xml.in.h:761
+msgid "tg"
+msgstr ""
+
+#: ../rules/base.xml.in.h:762
+#, fuzzy
+msgid "Tajik"
+msgstr "Таџикистан"
+
+#: ../rules/base.xml.in.h:763
+#, fuzzy
+msgid "Tajik (legacy)"
+msgstr "француски (класични)"
+
+#. Keyboard indicator for Sinhala layouts
+#: ../rules/base.xml.in.h:765
+#, fuzzy
+msgid "si"
+msgstr "sefi"
+
+#: ../rules/base.xml.in.h:766
+#, fuzzy
+msgid "Sinhala (phonetic)"
+msgstr "сиријски фонетски"
+
+#: ../rules/base.xml.in.h:767
+#, fuzzy
+msgid "Tamil (Sri Lanka, Unicode)"
+msgstr "тамил Уникод"
+
+#: ../rules/base.xml.in.h:768
+#, fuzzy
+msgid "Tamil (Sri Lanka, TAB Typewriter)"
+msgstr "тамил TAB куцаћа машина"
+
+#: ../rules/base.xml.in.h:769
+#, fuzzy
+msgid "Sinhala (US keyboard with Sinhala letters)"
+msgstr "Америчка тастатура са малтешким словима"
+
+#. Keyboard indicator for Thai layouts
+#: ../rules/base.xml.in.h:771
+msgid "th"
+msgstr ""
+
+#: ../rules/base.xml.in.h:772
+#, fuzzy
+msgid "Thai"
+msgstr "Тајланд"
+
+#: ../rules/base.xml.in.h:773
+#, fuzzy
+msgid "Thai (TIS-820.2538)"
+msgstr "TIS-820.2538"
+
+#: ../rules/base.xml.in.h:774
+#, fuzzy
+msgid "Thai (Pattachote)"
+msgstr "Паташоте"
+
+#. Keyboard indicator for Turkish layouts
+#: ../rules/base.xml.in.h:776 ../rules/base.extras.xml.in.h:136
+msgid "tr"
+msgstr ""
+
+#: ../rules/base.xml.in.h:777 ../rules/base.extras.xml.in.h:137
+msgid "Turkish"
+msgstr "турски"
+
+#: ../rules/base.xml.in.h:778
+msgid "Turkish (F)"
+msgstr "турски (F)"
+
+#: ../rules/base.xml.in.h:779
+#, fuzzy
+msgid "Turkish (Alt-Q)"
+msgstr "турски (F)"
+
+#: ../rules/base.xml.in.h:780
+#, fuzzy
+msgid "Turkish (Sun dead keys)"
+msgstr "француски, Sun-ови акценти"
+
+#: ../rules/base.xml.in.h:781
+msgid "Kurdish (Turkey, Latin Q)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:782
+#, fuzzy
+msgid "Kurdish (Turkey, F)"
+msgstr "турски (F)"
+
+#: ../rules/base.xml.in.h:783
+msgid "Kurdish (Turkey, Latin Alt-Q)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:784
+#, fuzzy
+msgid "Turkish (international with dead keys)"
+msgstr "Међународна (са акцентима)"
+
+#. Keyboard indicator for Crimean Tatar layouts
+#: ../rules/base.xml.in.h:786 ../rules/base.extras.xml.in.h:63
+msgid "crh"
+msgstr ""
+
+#: ../rules/base.xml.in.h:787
+msgid "Crimean Tatar (Turkish Q)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:788
+msgid "Crimean Tatar (Turkish F)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:789
+msgid "Crimean Tatar (Turkish Alt-Q)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:790
+msgid "Taiwanese"
+msgstr ""
+
+#: ../rules/base.xml.in.h:791
+msgid "Taiwanese (indigenous)"
+msgstr ""
+
+#. Keyboard indicator for Saisiyat layouts
+#: ../rules/base.xml.in.h:793
+msgid "xsy"
+msgstr ""
+
+#: ../rules/base.xml.in.h:794
+msgid "Saisiyat (Taiwan)"
+msgstr ""
+
+#. Keyboard indicator for Ukranian layouts
+#: ../rules/base.xml.in.h:796 ../rules/base.extras.xml.in.h:139
+msgid "uk"
+msgstr ""
+
+#: ../rules/base.xml.in.h:797 ../rules/base.extras.xml.in.h:140
+#, fuzzy
+msgid "Ukrainian"
+msgstr "Украјина"
+
+#: ../rules/base.xml.in.h:798
+#, fuzzy
+msgid "Ukrainian (phonetic)"
+msgstr "сиријски фонетски"
+
+#: ../rules/base.xml.in.h:799
+msgid "Ukrainian (typewriter)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:800
+msgid "Ukrainian (WinKeys)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:801
+#, fuzzy
+msgid "Ukrainian (legacy)"
+msgstr "француски (класични)"
+
+#: ../rules/base.xml.in.h:802
+#, fuzzy
+msgid "Ukrainian (standard RSTU)"
+msgstr "стандардна RSTU"
+
+#: ../rules/base.xml.in.h:803
+msgid "Russian (Ukraine, standard RSTU)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:804
+msgid "Ukrainian (homophonic)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:805 ../rules/base.extras.xml.in.h:142
+msgid "English (UK)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:806
+msgid "English (UK, extended WinKeys)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:807
+#, fuzzy
+msgid "English (UK, international with dead keys)"
+msgstr "Међународна (са акцентима)"
+
+#: ../rules/base.xml.in.h:808
+msgid "English (UK, Dvorak)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:809
+msgid "English (UK, Dvorak with UK punctuation)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:810
+msgid "English (UK, Macintosh)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:811
+msgid "English (UK, Macintosh international)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:812
+msgid "English (UK, Colemak)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:813
+#, fuzzy
+msgid "Uzbek"
+msgstr "Узбекистан"
+
+#: ../rules/base.xml.in.h:814
+#, fuzzy
+msgid "Uzbek (Latin)"
+msgstr "Узбекистан"
+
+#. Keyboard indicator for Vietnamese layouts
+#: ../rules/base.xml.in.h:816
+msgid "vi"
+msgstr ""
+
+#: ../rules/base.xml.in.h:817
+#, fuzzy
+msgid "Vietnamese"
+msgstr "Вијетнам"
+
+#. Keyboard indicator for Korean layouts
+#: ../rules/base.xml.in.h:819 ../rules/base.extras.xml.in.h:144
+msgid "ko"
+msgstr ""
+
+#: ../rules/base.xml.in.h:820 ../rules/base.extras.xml.in.h:145
+msgid "Korean"
+msgstr ""
+
+#: ../rules/base.xml.in.h:821
+msgid "Korean (101/104 key compatible)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:822
+#, fuzzy
+msgid "Japanese (PC-98xx Series)"
+msgstr "PC-98xx серија"
+
+#. Keyboard indicator for Irish layouts
+#: ../rules/base.xml.in.h:824
+msgid "ie"
+msgstr ""
+
+#: ../rules/base.xml.in.h:825
+msgid "Irish"
+msgstr "ирски"
+
+#: ../rules/base.xml.in.h:826
+msgid "CloGaelach"
+msgstr "CloGaelach"
+
+#: ../rules/base.xml.in.h:827
+#, fuzzy
+msgid "Irish (UnicodeExpert)"
+msgstr "Стручна за Уникод"
+
+#: ../rules/base.xml.in.h:828
+msgid "Ogham"
+msgstr "огам"
+
+#: ../rules/base.xml.in.h:829
+#, fuzzy
+msgid "Ogham (IS434)"
+msgstr "огам IS434"
+
+#: ../rules/base.xml.in.h:830
+#, fuzzy
+msgid "Urdu (Pakistan)"
+msgstr "Пакистан"
+
+#: ../rules/base.xml.in.h:831
+msgid "Urdu (Pakistan, CRULP)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:832
+msgid "Urdu (Pakistan, NLA)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:833
+#, fuzzy
+msgid "Arabic (Pakistan)"
+msgstr "Пакистан"
+
+#. Keyboard indicator for Sindhi layouts
+#: ../rules/base.xml.in.h:835
+msgid "sd"
+msgstr ""
+
+#: ../rules/base.xml.in.h:836
+msgid "Sindhi"
+msgstr ""
+
+#. Keyboard indicator for Dhivehi layouts
+#: ../rules/base.xml.in.h:838
+msgid "dv"
+msgstr ""
+
+#: ../rules/base.xml.in.h:839
+msgid "Dhivehi"
+msgstr ""
+
+#: ../rules/base.xml.in.h:840
+#, fuzzy
+msgid "English (South Africa)"
+msgstr "Јужна Африка"
+
+#. Keyboard indicator for Esperanto layouts
+#: ../rules/base.xml.in.h:842
+#, fuzzy
+msgid "eo"
+msgstr "гру"
+
+#: ../rules/base.xml.in.h:843
+msgid "Esperanto"
+msgstr "есперанто"
+
+#: ../rules/base.xml.in.h:844
+msgid "Esperanto (displaced semicolon and quote, obsolete)"
+msgstr ""
+
+#. Keyboard indicator for Nepali layouts
+#: ../rules/base.xml.in.h:846
+msgid "ne"
+msgstr ""
+
+#: ../rules/base.xml.in.h:847
+msgid "Nepali"
+msgstr ""
+
+#: ../rules/base.xml.in.h:848
+msgid "English (Nigeria)"
+msgstr ""
+
+#. Keyboard indicator for Igbo layouts
+#: ../rules/base.xml.in.h:850
+msgid "ig"
+msgstr ""
+
+#: ../rules/base.xml.in.h:851
+msgid "Igbo"
+msgstr ""
+
+#. Keyboard indicator for Yoruba layouts
+#: ../rules/base.xml.in.h:853
+msgid "yo"
+msgstr ""
+
+#: ../rules/base.xml.in.h:854
+msgid "Yoruba"
+msgstr ""
+
+#. Keyboard indicator for Amharic layouts
+#: ../rules/base.xml.in.h:856
+msgid "am"
+msgstr ""
+
+#: ../rules/base.xml.in.h:857
+msgid "Amharic"
+msgstr ""
+
+#. Keyboard indicator for Wolof layouts
+#: ../rules/base.xml.in.h:859
+msgid "wo"
+msgstr ""
+
+#: ../rules/base.xml.in.h:860
+msgid "Wolof"
+msgstr ""
+
+#. Keyboard indicator for Braille layouts
+#: ../rules/base.xml.in.h:862
+#, fuzzy
+msgid "brl"
+msgstr "ирс"
+
+#: ../rules/base.xml.in.h:863
+msgid "Braille"
+msgstr ""
+
+#: ../rules/base.xml.in.h:864
+msgid "Braille (left hand)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:865
+msgid "Braille (right hand)"
+msgstr ""
+
+#. Keyboard indicator for Turkmen layouts
+#: ../rules/base.xml.in.h:867
+msgid "tk"
+msgstr ""
+
+#: ../rules/base.xml.in.h:868
+#, fuzzy
+msgid "Turkmen"
+msgstr "Турска"
+
+#: ../rules/base.xml.in.h:869
+msgid "Turkmen (Alt-Q)"
+msgstr ""
+
+#. Keyboard indicator for Bambara layouts
+#: ../rules/base.xml.in.h:871
+msgid "bm"
+msgstr ""
+
+#: ../rules/base.xml.in.h:872
+msgid "Bambara"
+msgstr ""
+
+#: ../rules/base.xml.in.h:873
+msgid "French (Mali, alternative)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:874
+msgid "English (Mali, US Macintosh)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:875
+msgid "English (Mali, US international)"
+msgstr ""
+
+#. Keyboard indicator for Swahili layouts
+#: ../rules/base.xml.in.h:877
+msgid "sw"
+msgstr ""
+
+#: ../rules/base.xml.in.h:878
+msgid "Swahili (Tanzania)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:879
+msgid "Swahili (Kenya)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:880
+msgid "Kikuyu"
+msgstr ""
+
+#. Keyboard indicator for Tswana layouts
+#: ../rules/base.xml.in.h:882
+msgid "tn"
+msgstr ""
+
+#: ../rules/base.xml.in.h:883
+msgid "Tswana"
+msgstr ""
+
+#. Keyboard indicator for Filipino layouts
+#: ../rules/base.xml.in.h:885
+msgid "ph"
+msgstr ""
+
+#: ../rules/base.xml.in.h:886
+msgid "Filipino"
+msgstr ""
+
+#: ../rules/base.xml.in.h:887
+msgid "Filipino (QWERTY Baybayin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:888
+msgid "Filipino (Capewell-Dvorak Latin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:889
+msgid "Filipino (Capewell-Dvorak Baybayin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:890
+msgid "Filipino (Capewell-QWERF 2006 Latin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:891
+msgid "Filipino (Capewell-QWERF 2006 Baybayin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:892
+msgid "Filipino (Colemak Latin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:893
+msgid "Filipino (Colemak Baybayin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:894
+msgid "Filipino (Dvorak Latin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:895
+msgid "Filipino (Dvorak Baybayin)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:896
+msgid "md"
+msgstr ""
+
+#: ../rules/base.xml.in.h:897
+#, fuzzy
+msgid "Moldavian"
+msgstr "латинични српски"
+
+#: ../rules/base.xml.in.h:898
+msgid "gag"
+msgstr ""
+
+#: ../rules/base.xml.in.h:899
+msgid "Moldavian (Gagauz)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:900
+msgid "Switching to another layout"
+msgstr ""
+
+#: ../rules/base.xml.in.h:901
+#, fuzzy
+msgid "Right Alt (while pressed)"
+msgstr "Десни Alt је комбинујући."
+
+#: ../rules/base.xml.in.h:902
+#, fuzzy
+msgid "Left Alt (while pressed)"
+msgstr "Леви Alt тастер мења групу док је притиснут."
+
+#: ../rules/base.xml.in.h:903
+#, fuzzy
+msgid "Left Win (while pressed)"
+msgstr "Леви Windows тастер мења групу док је притиснут."
+
+#: ../rules/base.xml.in.h:904
+#, fuzzy
+msgid "Right Win (while pressed)"
+msgstr "Десни Windows тастер мења групу док је притиснут."
+
+#: ../rules/base.xml.in.h:905
+#, fuzzy
+msgid "Any Win key (while pressed)"
+msgstr "Оба Win-тастера мењају групу када су притиснути."
+
+#: ../rules/base.xml.in.h:906
+msgid ""
+"Caps Lock (while pressed), Alt+Caps Lock does the original capslock action"
+msgstr ""
+
+#: ../rules/base.xml.in.h:907
+#, fuzzy
+msgid "Right Ctrl (while pressed)"
+msgstr "Десни Ctrl тастер мења групу док је притиснут."
+
+#: ../rules/base.xml.in.h:908
+#, fuzzy
+msgid "Right Alt"
+msgstr "Десни Alt је комбинујући."
+
+#: ../rules/base.xml.in.h:909
+msgid "Left Alt"
+msgstr ""
+
+#: ../rules/base.xml.in.h:910
+#, fuzzy
+msgid "Caps Lock"
+msgstr "Caps Lock је комбинујући тастер."
+
+#: ../rules/base.xml.in.h:911
+#, fuzzy
+msgid "Shift+Caps Lock"
+msgstr "Shift+CapsLock тастер мења групу."
+
+#: ../rules/base.xml.in.h:912
+msgid "Caps Lock (to first layout), Shift+Caps Lock (to last layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:913
+msgid "Left Win (to first layout), Right Win/Menu (to last layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:914
+msgid "Left Ctrl (to first layout), Right Ctrl (to last layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:915
+msgid "Alt+Caps Lock"
+msgstr ""
+
+#: ../rules/base.xml.in.h:916
+#, fuzzy
+msgid "Both Shift keys together"
+msgstr "Оба Shift тастера мењају групу."
+
+#: ../rules/base.xml.in.h:917
+#, fuzzy
+msgid "Both Alt keys together"
+msgstr "Оба Alt тастера мењају групу."
+
+#: ../rules/base.xml.in.h:918
+#, fuzzy
+msgid "Both Ctrl keys together"
+msgstr "Оба Ctrl тастера мењају групу."
+
+#: ../rules/base.xml.in.h:919
+msgid "Ctrl+Shift"
+msgstr ""
+
+#: ../rules/base.xml.in.h:920
+msgid "Left Ctrl+Left Shift"
+msgstr ""
+
+#: ../rules/base.xml.in.h:921
+#, fuzzy
+msgid "Right Ctrl+Right Shift"
+msgstr "Десни Ctrl тастер се понаша као десни Alt."
+
+#: ../rules/base.xml.in.h:922
+msgid "Alt+Ctrl"
+msgstr ""
+
+#: ../rules/base.xml.in.h:923
+msgid "Alt+Shift"
+msgstr ""
+
+#: ../rules/base.xml.in.h:924
+msgid "Left Alt+Left Shift"
+msgstr ""
+
+#: ../rules/base.xml.in.h:925
+msgid "Alt+Space"
+msgstr ""
+
+#: ../rules/base.xml.in.h:926
+msgid "Menu"
+msgstr ""
+
+#: ../rules/base.xml.in.h:927
+msgid "Left Win"
+msgstr ""
+
+#: ../rules/base.xml.in.h:928
+msgid "Win Key+Space"
+msgstr ""
+
+#: ../rules/base.xml.in.h:929
+msgid "Right Win"
+msgstr ""
+
+#: ../rules/base.xml.in.h:930
+msgid "Left Shift"
+msgstr ""
+
+#: ../rules/base.xml.in.h:931
+msgid "Right Shift"
+msgstr ""
+
+#: ../rules/base.xml.in.h:932
+msgid "Left Ctrl"
+msgstr ""
+
+#: ../rules/base.xml.in.h:933
+#, fuzzy
+msgid "Right Ctrl"
+msgstr "Десни Ctrl је комбинујући."
+
+#: ../rules/base.xml.in.h:934
+msgid "Scroll Lock"
+msgstr ""
+
+#: ../rules/base.xml.in.h:935
+msgid "LeftCtrl+LeftWin (to first layout), RightCtrl+Menu (to second layout)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:936
+#, fuzzy
+msgid "Key to choose 3rd level"
+msgstr "Притискање Menu тастера за избор 3. нивоа."
+
+#: ../rules/base.xml.in.h:937
+msgid "Any Win key"
+msgstr ""
+
+#: ../rules/base.xml.in.h:938
+msgid "Any Alt key"
+msgstr ""
+
+#: ../rules/base.xml.in.h:939
+#, fuzzy
+msgid "Right Alt, Shift+Right Alt key is Compose"
+msgstr "Десни Alt је комбинујући."
+
+#: ../rules/base.xml.in.h:940
+#, fuzzy
+msgid "Right Alt key never chooses 3rd level"
+msgstr "Притискање десног Alt тастера за избор 3. нивоа."
+
+#: ../rules/base.xml.in.h:941
+#, fuzzy
+msgid "Enter on keypad"
+msgstr "Про тастатура"
+
+#: ../rules/base.xml.in.h:942
+#, fuzzy
+msgid "Backslash"
+msgstr "Проширено уз обрнуту косу црту"
+
+#: ../rules/base.xml.in.h:943
+msgid "&lt;Less/Greater&gt;"
+msgstr ""
+
+#: ../rules/base.xml.in.h:944
+msgid ""
+"Caps Lock chooses 3rd level, acts as onetime lock when pressed together with "
+"another 3rd-level-chooser"
+msgstr ""
+
+#: ../rules/base.xml.in.h:945
+msgid ""
+"Backslash chooses 3rd level, acts as onetime lock when pressed together with "
+"another 3rd-level-chooser"
+msgstr ""
+
+#: ../rules/base.xml.in.h:946
+msgid ""
+"&lt;Less/Greater&gt; chooses 3rd level, acts as onetime lock when pressed "
+"together with another 3rd-level-chooser"
+msgstr ""
+
+#: ../rules/base.xml.in.h:947
+msgid "Ctrl key position"
+msgstr "Положај тастера Ctrl"
+
+#: ../rules/base.xml.in.h:948
+#, fuzzy
+msgid "Caps Lock as Ctrl"
+msgstr "Caps Lock је комбинујући тастер."
+
+#: ../rules/base.xml.in.h:949
+msgid "Left Ctrl as Meta"
+msgstr ""
+
+#: ../rules/base.xml.in.h:950
+#, fuzzy
+msgid "Swap Ctrl and Caps Lock"
+msgstr "Размени Ctrl и Caps Lock."
+
+#: ../rules/base.xml.in.h:951
+#, fuzzy
+msgid "At left of 'A'"
+msgstr "Тастер Ctrl је у лево од „А“"
+
+#: ../rules/base.xml.in.h:952
+#, fuzzy
+msgid "At bottom left"
+msgstr "Тастер Ctrl је у дну лево"
+
+#: ../rules/base.xml.in.h:953
+#, fuzzy
+msgid "Right Ctrl as Right Alt"
+msgstr "Десни Ctrl тастер се понаша као десни Alt."
+
+#: ../rules/base.xml.in.h:954
+msgid "Menu as Right Ctrl"
+msgstr ""
+
+#: ../rules/base.xml.in.h:955
+#, fuzzy
+msgid "Right Alt as Right Ctrl"
+msgstr "Десни Ctrl тастер се понаша као десни Alt."
+
+#: ../rules/base.xml.in.h:956
+msgid "Swap Left Alt key with Left Ctrl key"
+msgstr ""
+
+#: ../rules/base.xml.in.h:957
+msgid "Swap Left Win key with Left Ctrl key"
+msgstr ""
+
+#: ../rules/base.xml.in.h:958
+msgid "Swap Right Win key with Right Ctrl key"
+msgstr ""
+
+#: ../rules/base.xml.in.h:959
+msgid "Left Alt as Ctrl, Left Ctrl as Win, Left Win as Alt"
+msgstr ""
+
+#: ../rules/base.xml.in.h:960
+#, fuzzy
+msgid "Use keyboard LED to show alternative layout"
+msgstr "Користи лампицу тастатуре за приказ измене група."
+
+#: ../rules/base.xml.in.h:961
+msgid "Num Lock"
+msgstr ""
+
+#: ../rules/base.xml.in.h:962
+msgid "Layout of numeric keypad"
+msgstr ""
+
+#: ../rules/base.xml.in.h:963
+msgid "Legacy"
+msgstr ""
+
+#: ../rules/base.xml.in.h:964
+msgid "Unicode additions (arrows and math operators)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:965
+msgid ""
+"Unicode additions (arrows and math operators; math operators on default "
+"level)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:966
+msgid "Legacy Wang 724"
+msgstr ""
+
+#: ../rules/base.xml.in.h:967
+msgid "Wang 724 keypad with Unicode additions (arrows and math operators)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:968
+msgid ""
+"Wang 724 keypad with Unicode additions (arrows and math operators; math "
+"operators on default level)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:969
+msgid "Hexadecimal"
+msgstr ""
+
+#: ../rules/base.xml.in.h:970
+msgid "ATM/phone-style"
+msgstr ""
+
+#: ../rules/base.xml.in.h:971
+msgid "Numeric keypad delete key behaviour"
+msgstr ""
+
+#: ../rules/base.xml.in.h:972
+msgid "Legacy key with dot"
+msgstr ""
+
+#. Actually, with KP_SEPARATOR, as the old keypad(comma)
+#: ../rules/base.xml.in.h:974
+msgid "Legacy key with comma"
+msgstr ""
+
+#: ../rules/base.xml.in.h:975
+msgid "Four-level key with dot"
+msgstr ""
+
+#: ../rules/base.xml.in.h:976
+msgid "Four-level key with dot, Latin-9 only"
+msgstr ""
+
+#: ../rules/base.xml.in.h:977
+msgid "Four-level key with comma"
+msgstr ""
+
+#: ../rules/base.xml.in.h:978
+msgid "Four-level key with momayyez"
+msgstr ""
+
+#. This assumes the KP_ abstract symbols are actually useful for some apps
+#. The description needs to be rewritten
+#: ../rules/base.xml.in.h:981
+msgid "Four-level key with abstract separators"
+msgstr ""
+
+#: ../rules/base.xml.in.h:982
+msgid "Semicolon on third level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:983
+#, fuzzy
+msgid "Caps Lock key behavior"
+msgstr "Понашање Caps Lock тастера"
+
+#: ../rules/base.xml.in.h:984
+#, fuzzy
+msgid "Caps Lock uses internal capitalization; Shift \"pauses\" Caps Lock"
+msgstr "CapsLock користи унутрашњу величину слова. Shift укида Caps Lock."
+
+#: ../rules/base.xml.in.h:985
+#, fuzzy
+msgid "Caps Lock uses internal capitalization; Shift doesn't affect Caps Lock"
+msgstr "CapsLock користи унутрашњу величину слова. Shift не укида Caps Lock."
+
+#: ../rules/base.xml.in.h:986
+#, fuzzy
+msgid "Caps Lock acts as Shift with locking; Shift \"pauses\" Caps Lock"
+msgstr "CapsLock се понаша као трајни Shift. Shift укида Caps."
+
+#: ../rules/base.xml.in.h:987
+#, fuzzy
+msgid "Caps Lock acts as Shift with locking; Shift doesn't affect Caps Lock"
+msgstr "CapsLock се понаша као трајни Shift. Shift не укида Caps."
+
+#: ../rules/base.xml.in.h:988
+#, fuzzy
+msgid "Caps Lock toggles normal capitalization of alphabetic characters"
+msgstr "CapsLock мења обичну величину слова."
+
+#: ../rules/base.xml.in.h:989
+#, fuzzy
+msgid "Make Caps Lock an additional Num Lock"
+msgstr "Учини Caps Lock додатним Ctrl тастером."
+
+#: ../rules/base.xml.in.h:990
+#, fuzzy
+msgid "Swap ESC and Caps Lock"
+msgstr "Размени Ctrl и Caps Lock."
+
+#: ../rules/base.xml.in.h:991
+#, fuzzy
+msgid "Make Caps Lock an additional ESC"
+msgstr "Учини Caps Lock додатним Ctrl тастером."
+
+#: ../rules/base.xml.in.h:992
+#, fuzzy
+msgid "Make Caps Lock an additional Backspace"
+msgstr "Учини Caps Lock додатним Ctrl тастером."
+
+#: ../rules/base.xml.in.h:993
+#, fuzzy
+msgid "Make Caps Lock an additional Super"
+msgstr "Учини Caps Lock додатним Ctrl тастером."
+
+#: ../rules/base.xml.in.h:994
+#, fuzzy
+msgid "Make Caps Lock an additional Hyper"
+msgstr "Учини Caps Lock додатним Ctrl тастером."
+
+#: ../rules/base.xml.in.h:995
+#, fuzzy
+msgid "Caps Lock toggles ShiftLock (affects all keys)"
+msgstr "CapsLock мења Shift стање па делује на све тастере."
+
+#: ../rules/base.xml.in.h:996
+#, fuzzy
+msgid "Caps Lock is disabled"
+msgstr "Caps Lock је комбинујући тастер."
+
+#: ../rules/base.xml.in.h:997
+#, fuzzy
+msgid "Make Caps Lock an additional Ctrl"
+msgstr "Учини Caps Lock додатним Ctrl тастером."
+
+#: ../rules/base.xml.in.h:998
+msgid "Alt/Win key behavior"
+msgstr "Понашање Alt/Win тастера"
+
+#: ../rules/base.xml.in.h:999
+#, fuzzy
+msgid "Add the standard behavior to Menu key"
+msgstr "Додај обично понашање Menu тастеру."
+
+#: ../rules/base.xml.in.h:1000
+#, fuzzy
+msgid "Alt and Meta are on Alt keys"
+msgstr "Alt и Meta су на Alt тастерима (подразумевано)."
+
+#: ../rules/base.xml.in.h:1001
+#, fuzzy
+msgid "Alt is mapped to Win keys (and the usual Alt keys)"
+msgstr "Alt је мапиран на десни Windows тастер, а Super на Menu."
+
+#: ../rules/base.xml.in.h:1002
+#, fuzzy
+msgid "Ctrl is mapped to Win keys (and the usual Ctrl keys)"
+msgstr "Super је мапиран на Windows тастере (подразумевано)."
+
+#: ../rules/base.xml.in.h:1003
+#, fuzzy
+msgid "Ctrl is mapped to Alt keys, Alt is mapped to Win keys"
+msgstr "Meta је мапиран на леви Windows тастер."
+
+#: ../rules/base.xml.in.h:1004
+#, fuzzy
+msgid "Meta is mapped to Win keys"
+msgstr "Meta је мапиран на Windows тастере."
+
+#: ../rules/base.xml.in.h:1005
+#, fuzzy
+msgid "Meta is mapped to Left Win"
+msgstr "Meta је мапиран на леви Windows тастер."
+
+#: ../rules/base.xml.in.h:1006
+#, fuzzy
+msgid "Hyper is mapped to Win keys"
+msgstr "Hyper је мапиран на Win тастере."
+
+#: ../rules/base.xml.in.h:1007
+#, fuzzy
+msgid "Alt is mapped to Right Win, Super to Menu"
+msgstr "Alt је мапиран на десни Windows тастер, а Super на Menu."
+
+#: ../rules/base.xml.in.h:1008
+#, fuzzy
+msgid "Alt is swapped with Win"
+msgstr "Meta је мапиран на Windows тастере."
+
+#: ../rules/base.xml.in.h:1009
+msgid "Position of Compose key"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1010
+msgid "3rd level of Left Win"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1011
+msgid "3rd level of Right Win"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1012
+msgid "3rd level of Menu"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1013
+msgid "3rd level of Left Ctrl"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1014
+msgid "3rd level of Right Ctrl"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1015
+msgid "3rd level of Caps Lock"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1016
+msgid "3rd level of &lt;Less/Greater&gt;"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1017
+msgid "Pause"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1018
+msgid "PrtSc"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1019
+msgid "Miscellaneous compatibility options"
+msgstr "Разне могућности за сагласност"
+
+#: ../rules/base.xml.in.h:1020
+msgid "Default numeric keypad keys"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1021
+msgid "Numeric keypad keys always enter digits (as in Mac OS)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1022
+msgid ""
+"NumLock on: digits, Shift switches to arrow keys, Numlock off: always arrow "
+"keys (as in MS Windows)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1023
+msgid "Shift does not cancel Num Lock, chooses 3rd level instead"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1024
+#, fuzzy
+msgid "Special keys (Ctrl+Alt+&lt;key&gt;) handled in a server"
+msgstr "Нарочити тастери (Ctrl+Alt+&lt;тастер&gt;) које обрађује сервер."
+
+#: ../rules/base.xml.in.h:1025
+msgid ""
+"Apple Aluminium Keyboard: emulate PC keys (Print, Scroll Lock, Pause, Num "
+"Lock)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1026
+#, fuzzy
+msgid "Shift cancels Caps Lock"
+msgstr "Размени Ctrl и Caps Lock."
+
+#: ../rules/base.xml.in.h:1027
+msgid "Enable extra typographic characters"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1028
+#, fuzzy
+msgid "Both Shift keys together toggle Caps Lock"
+msgstr "Оба Shift тастера мењају групу."
+
+#: ../rules/base.xml.in.h:1029
+msgid "Both Shift keys together activate Caps Lock, one Shift key deactivates"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1030
+#, fuzzy
+msgid "Both Shift keys together toggle ShiftLock"
+msgstr "Оба Shift тастера мењају групу."
+
+#: ../rules/base.xml.in.h:1031
+msgid "Shift + NumLock toggles PointerKeys"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1032
+msgid "Allow breaking grabs with keyboard actions (warning: security risk)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1033
+msgid "Allow grab and window tree logging"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1034
+#, fuzzy
+msgid "Adding currency signs to certain keys"
+msgstr "Додавање знака за евро одређеним тастерима"
+
+#: ../rules/base.xml.in.h:1035
+msgid "Euro on E"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1036
+msgid "Euro on 2"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1037
+msgid "Euro on 4"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1038
+msgid "Euro on 5"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1039
+msgid "Rupee on 4"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1040
+#, fuzzy
+msgid "Key to choose 5th level"
+msgstr "Притискање Menu тастера за избор 3. нивоа."
+
+#: ../rules/base.xml.in.h:1041
+msgid ""
+"&lt;Less/Greater&gt; chooses 5th level, locks when pressed together with "
+"another 5th-level-chooser"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1042
+msgid ""
+"Right Alt chooses 5th level, locks when pressed together with another 5th-"
+"level-chooser"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1043
+msgid ""
+"Left Win chooses 5th level, locks when pressed together with another 5th-"
+"level-chooser"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1044
+msgid ""
+"Right Win chooses 5th level, locks when pressed together with another 5th-"
+"level-chooser"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1045
+msgid "Using space key to input non-breakable space character"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1046
+msgid "Usual space at any level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1047
+msgid "Non-breakable space character at second level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1048
+msgid "Non-breakable space character at third level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1049
+msgid "Non-breakable space character at third level, nothing at fourth level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1050
+msgid ""
+"Non-breakable space character at third level, thin non-breakable space "
+"character at fourth level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1051
+msgid "Non-breakable space character at fourth level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1052
+msgid ""
+"Non-breakable space character at fourth level, thin non-breakable space "
+"character at sixth level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1053
+msgid ""
+"Non-breakable space character at fourth level, thin non-breakable space "
+"character at sixth level (via Ctrl+Shift)"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1054
+msgid "Zero-width non-joiner character at second level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1055
+msgid ""
+"Zero-width non-joiner character at second level, zero-width joiner character "
+"at third level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1056
+msgid ""
+"Zero-width non-joiner character at second level, zero-width joiner character "
+"at third level, non-breakable space character at fourth level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1057
+msgid ""
+"Zero-width non-joiner character at second level, non-breakable space "
+"character at third level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1058
+msgid ""
+"Zero-width non-joiner character at second level, non-breakable space "
+"character at third level, nothing at fourth level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1059
+msgid ""
+"Zero-width non-joiner character at second level, non-breakable space "
+"character at third level, zero-width joiner at fourth level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1060
+msgid ""
+"Zero-width non-joiner character at second level, non-breakable space "
+"character at third level, thin non-breakable space at fourth level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1061
+msgid ""
+"Zero-width non-joiner character at third level, zero-width joiner at fourth "
+"level"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1062
+msgid "Japanese keyboard options"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1063
+msgid "Kana Lock key is locking"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1064
+msgid "NICOLA-F style Backspace"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1065
+#, fuzzy
+msgid "Make Zenkaku Hankaku an additional ESC"
+msgstr "Учини Caps Lock додатним Ctrl тастером."
+
+#: ../rules/base.xml.in.h:1066
+msgid "Korean Hangul/Hanja keys"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1067
+msgid "Hardware Hangul/Hanja keys"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1068
+msgid "Right Alt as Hangul, right Ctrl as Hanja"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1069
+#, fuzzy
+msgid "Right Ctrl as Hangul, right Alt as Hanja"
+msgstr "Десни Ctrl тастер се понаша као десни Alt."
+
+#: ../rules/base.xml.in.h:1070
+msgid "Adding Esperanto supersigned letters"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1071
+msgid "To the corresponding key in a Qwerty layout"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1072
+msgid "To the corresponding key in a Dvorak layout"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1073
+msgid "To the corresponding key in a Colemak layout"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1074
+msgid "Maintain key compatibility with old Solaris keycodes"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1075
+msgid "Sun Key compatibility"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1076
+msgid "Key sequence to kill the X server"
+msgstr ""
+
+#: ../rules/base.xml.in.h:1077
+msgid "Ctrl + Alt + Backspace"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:1
+#, fuzzy
+msgid "apl"
+msgstr "мал"
+
+#: ../rules/base.extras.xml.in.h:2
+msgid "APL keyboard symbols"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:3
+msgid "dlg"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:4
+msgid "APL keyboard symbols (Dyalog)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:5
+msgid "sax"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:6
+msgid "APL keyboard symbols (sax)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:7
+msgid "ufd"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:8
+msgid "APL keyboard symbols (unified)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:9
+msgid "apl2"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:10
+msgid "APL keyboard symbols (IBM APL2)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:11
+msgid "aplII"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:12
+msgid "APL keyboard symbols (Manugistics APL*PLUS II)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:13
+msgid "aplx"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:14
+msgid "APL keyboard symbols (APLX unified)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:17
+#, fuzzy
+msgid "kut"
+msgstr "ику"
+
+#: ../rules/base.extras.xml.in.h:18
+msgid "Kutenai"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:19
+msgid "shs"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:20
+msgid "Secwepemctsin"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:21
+msgid "Multilingual (Canada, Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:24
+#, fuzzy
+msgid "German (US keyboard with German letters)"
+msgstr "румунска тастатура са немачким словима"
+
+#: ../rules/base.extras.xml.in.h:25
+#, fuzzy
+msgid "German (with Hungarian letters and no dead keys)"
+msgstr "румунска тастатура са немачким словима, без акцената"
+
+#: ../rules/base.extras.xml.in.h:26
+#, fuzzy
+msgid "Polish (Germany, eliminate dead keys)"
+msgstr "немачки, без акцената"
+
+#: ../rules/base.extras.xml.in.h:27
+#, fuzzy
+msgid "German (Sun Type 6/7)"
+msgstr "немачки, Sun-ови акценти"
+
+#: ../rules/base.extras.xml.in.h:28
+msgid "German (Aus der Neo-Welt)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:31
+msgid "Avestan"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:34
+#, fuzzy
+msgid "Lithuanian (US Dvorak with Lithuanian letters)"
+msgstr "Америчка тастатура са литванским словима"
+
+#: ../rules/base.extras.xml.in.h:35
+msgid "Lithuanian (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:38
+msgid "Latvian (US Dvorak)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:39
+msgid "Latvian (US Dvorak, Y variant)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:40
+msgid "Latvian (US Dvorak, minus variant)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:41
+msgid "Latvian (programmer US Dvorak)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:42
+msgid "Latvian (programmer US Dvorak, Y variant)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:43
+msgid "Latvian (programmer US Dvorak, minus variant)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:44
+msgid "Latvian (US Colemak)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:45
+msgid "Latvian (US Colemak, apostrophe variant)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:46
+msgid "Latvian (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:49
+msgid "English (US, international AltGr Unicode combining)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:50
+msgid "English (US, international AltGr Unicode combining, alternative)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:51
+msgid "Atsina"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:52
+msgid "Coeur d'Alene Salish"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:53
+msgid "Czech Slovak and German (US)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:54
+msgid "English (US, Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:55
+msgid "English (Norman)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:58
+#, fuzzy
+msgid "Polish (international with dead keys)"
+msgstr "Међународна (са акцентима)"
+
+#: ../rules/base.extras.xml.in.h:59
+#, fuzzy
+msgid "Polish (Colemak)"
+msgstr "пољски (qwertz)"
+
+#: ../rules/base.extras.xml.in.h:60
+msgid "Polish (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:64
+msgid "Crimean Tatar (Dobruja Q)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:65
+msgid "Romanian (ergonomic Touchtype)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:66
+msgid "Romanian (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:69
+msgid "Serbian (combining accents instead of dead keys)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:72
+msgid "Church Slavonic"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:73
+msgid "Russian (with Ukrainian-Belorussian layout)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:74
+msgid "Russian (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:77
+#, fuzzy
+msgid "Armenian (OLPC phonetic)"
+msgstr "сиријски фонетски"
+
+#: ../rules/base.extras.xml.in.h:80
+msgid "Hebrew (Biblical, SIL phonetic)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:83
+msgid "Arabic (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:86
+msgid "Belgian (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:89
+msgid "Portuguese (Brazil, Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:92
+msgid "Czech (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:95
+msgid "Danish (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:98
+msgid "Dutch (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:101
+msgid "Estonian (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:104
+msgid "Finnish (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:106
+#, fuzzy
+msgid "French (Sun Type 6/7)"
+msgstr "француски, Sun-ови акценти"
+
+#: ../rules/base.extras.xml.in.h:109
+msgid "Greek (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:112
+msgid "Italian (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:115
+msgid "Japanese (Sun Type 6)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:116
+msgid "Japanese (Sun Type 7 - pc compatible)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:117
+msgid "Japanese (Sun Type 7 - sun compatible)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:120
+msgid "Norwegian (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:122
+msgid "Portuguese (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:125
+msgid "Slovak (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:128
+msgid "Spanish (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:131
+msgid "Swedish (Dvorak A5)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:132
+msgid "Swedish (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:134
+msgid "German (Switzerland, Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:135
+msgid "French (Switzerland, Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:138
+#, fuzzy
+msgid "Turkish (Sun Type 6/7)"
+msgstr "турски (F)"
+
+#: ../rules/base.extras.xml.in.h:141
+msgid "Ukrainian (Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:143
+msgid "English (UK, Sun Type 6/7)"
+msgstr ""
+
+#: ../rules/base.extras.xml.in.h:146
+msgid "Korean (Sun Type 6/7)"
+msgstr ""
+
+#. Keyboard indicator for European layouts
+#: ../rules/base.extras.xml.in.h:148
+#, fuzzy
+msgid "eu"
+msgstr "нем"
+
+#: ../rules/base.extras.xml.in.h:149
+#, fuzzy
+msgid "EurKEY (US based layout with european letters)"
+msgstr "Америчка тастатура са хрватским словима"
+
+#: ../rules/base.extras.xml.in.h:152
+msgid "Mmuock"
+msgstr ""
+
+#~ msgid "(F)"
+#~ msgstr "(F)"
+
+#~ msgid "ACPI Standard"
+#~ msgstr "ACPI стандард"
+
+#~ msgid "Acer TravelMate 800"
+#~ msgstr "Acer TravelMate 800"
+
+#~ msgid "Add the EuroSign to the 2 key."
+#~ msgstr "Додај знак за евро на тастер 2."
+
+#~ msgid "Add the EuroSign to the 5 key."
+#~ msgstr "Додај знак за евро на тастер 5."
+
+#~ msgid "Add the EuroSign to the E key."
+#~ msgstr "Додај знак за евро на тастер E."
+
+#~ msgid "Afg"
+#~ msgstr "афг"
+
+#~ msgid "Alb"
+#~ msgstr "алб"
+
+#~ msgid "Alt+Ctrl changes group."
+#~ msgstr "Alt+Ctrl мења групу."
+
+#~ msgid "Alt+Shift changes group."
+#~ msgstr "Alt+Shift мења групу."
+
+#~ msgid "Alt-Q"
+#~ msgstr "Alt-Q"
+
+# Наизменично?
+#~ msgid "Alternative"
+#~ msgstr "Допунска"
+
+#~ msgid "And"
+#~ msgstr "анд"
+
+#~ msgid "Andorra"
+#~ msgstr "Андора"
+
+#~ msgid "Ara"
+#~ msgstr "ара"
+
+#~ msgid "Arm"
+#~ msgstr "јрм"
+
+#~ msgid "Aze"
+#~ msgstr "азб"
+
+#~ msgid "Bel"
+#~ msgstr "блг"
+
+#~ msgid "Bengali"
+#~ msgstr "бенгалски"
+
+#~ msgid "Bhutan"
+#~ msgstr "Бутан"
+
+#~ msgid "Bih"
+#~ msgstr "бих"
+
+#~ msgid "Blr"
+#~ msgstr "блр"
+
+#~ msgid "Bosnia and Herzegovina"
+#~ msgstr "Босна и Херцеговина"
+
+#~ msgid "Bra"
+#~ msgstr "бра"
+
+#~ msgid "Brazil"
+#~ msgstr "Бразил"
+
+#~ msgid "Brazilian ABNT2"
+#~ msgstr "бразилска ABNT2"
+
+#~ msgid "Can"
+#~ msgstr "кан"
+
+#~ msgid "Canada"
+#~ msgstr "Канада"
+
+#~ msgid "CapsLock LED shows alternative group."
+#~ msgstr "Лампица за Caps Lock показује измењивање групе."
+
+#~ msgid "CapsLock just locks the Shift modifier."
+#~ msgstr "CapsLock просто трајно укључује Shift."
+
+#~ msgid "CapsLock key changes group."
+#~ msgstr "Caps Lock тастер мења групу."
+
+#~ msgid "Compose key position"
+#~ msgstr "Положај тастера Compose"
+
+#~ msgid "Ctrl+Shift changes group."
+#~ msgstr "Ctrl+Shift мења групу."
+
+#~ msgid "Cyrillic"
+#~ msgstr "ћирилични"
+
+#~ msgid "Cze"
+#~ msgstr "чеш"
+
+#~ msgid "Dead acute"
+#~ msgstr "Акутски акценат"
+
+#~ msgid "Denmark"
+#~ msgstr "Данска"
+
+#~ msgid "Dnk"
+#~ msgstr "дан"
+
+#~ msgid "Dvorak"
+#~ msgstr "дворак"
+
+#~ msgid "Epo"
+#~ msgstr "есп"
+
+#~ msgid "Esp"
+#~ msgstr "шпа"
+
+#~ msgid "Est"
+#~ msgstr "ест"
+
+#~ msgid "Extended"
+#~ msgstr "Проширено"
+
+#~ msgid "Fao"
+#~ msgstr "фар"
+
+#~ msgid "Finland"
+#~ msgstr "Финска"
+
+#~ msgid "Fra"
+#~ msgstr "фра"
+
+#~ msgid "France"
+#~ msgstr "Француска"
+
+#~ msgid "GBr"
+#~ msgstr "вбр"
+
+#~ msgid "Ghana"
+#~ msgstr "Гана"
+
+#~ msgid "Gre"
+#~ msgstr "грк"
+
+#~ msgid "Group Shift/Lock behavior"
+#~ msgstr "Понашање измене/избора групе"
+
+#~ msgid "Hewlett-Packard SK-2505 Internet Keyboard"
+#~ msgstr "Hewlett-Packard SK-2505 Интернет тастатура"
+
+#~ msgid "Hrv"
+#~ msgstr "хрв"
+
+#~ msgid "Hun"
+#~ msgstr "мађ"
+
+#~ msgid "IBM Rapid Access II (alternate option)"
+#~ msgstr "IBM Rapid Access II (друга могућност)"
+
+#~ msgid "Ind"
+#~ msgstr "инд"
+
+#~ msgid "Iran"
+#~ msgstr "Иран"
+
+#~ msgid "Ireland"
+#~ msgstr "Ирска"
+
+#~ msgid "Irn"
+#~ msgstr "ирн"
+
+#~ msgid "Israel"
+#~ msgstr "Израел"
+
+#~ msgid "Italy"
+#~ msgstr "Италија"
+
+#~ msgid "Jpn"
+#~ msgstr "јпн"
+
+#~ msgid "Keypad"
+#~ msgstr "Нумеричка тастатура"
+
+#~ msgid "Khm"
+#~ msgstr "кмб"
+
+#~ msgid "Kyr"
+#~ msgstr "кир"
+
+#~ msgid "LAm"
+#~ msgstr "ЈАм"
+
+#~ msgid "Laos"
+#~ msgstr "Лаос"
+
+#~ msgid "Latin"
+#~ msgstr "латинични"
+
+#~ msgid "Left Alt key changes group."
+#~ msgstr "Леви Alt тастер мења групу."
+
+#~ msgid "Left Ctrl key changes group."
+#~ msgstr "Леви Ctrl тастер мења групу."
+
+#~ msgid "Left Shift key changes group."
+#~ msgstr "Леви Shift тастер мења групу."
+
+#~ msgid "Left Win-key changes group."
+#~ msgstr "Леви Windows тастер мења групу."
+
+#~ msgid "Logitech Deluxe Access Keyboard"
+#~ msgstr "Logitech Deluxe Access тастатура"
+
+#~ msgid "Logitech iTouch keyboard Internet Navigator"
+#~ msgstr "Logitech iTouch тастатура Интернет навигатор"
+
+#~ msgid "Ltu"
+#~ msgstr "лит"
+
+#~ msgid "Lva"
+#~ msgstr "лет"
+
+#~ msgid "Maldives"
+#~ msgstr "Малдиви"
+
+#~ msgid "Mao"
+#~ msgstr "мао"
+
+#~ msgid "Menu is Compose."
+#~ msgstr "Menu је комбинујући тастер."
+
+#~ msgid "Menu key changes group."
+#~ msgstr "Menu тастер мења групу."
+
+#~ msgid "Mkd"
+#~ msgstr "мак"
+
+#~ msgid "Mng"
+#~ msgstr "мнг"
+
+#~ msgid "Myanmar"
+#~ msgstr "Мијанмар"
+
+#~ msgid "Netherlands"
+#~ msgstr "Холандија"
+
+#~ msgid "Nld"
+#~ msgstr "хол"
+
+#~ msgid "Northern Saami"
+#~ msgstr "северносаамски"
+
+#~ msgid "NumLock LED shows alternative group."
+#~ msgstr "NumLock лампица приказује измене група."
+
+#~ msgid "Phonetic"
+#~ msgstr "фонетски"
+
+#~ msgid "Pol"
+#~ msgstr "пољ"
+
+#~ msgid "Poland"
+#~ msgstr "Пољска"
+
+#~ msgid "Power G5"
+#~ msgstr "Power G5"
+
+#~ msgid "PowerPC PS/2"
+#~ msgstr "PowerPC PS/2"
+
+#~ msgid "Press Left Alt key to choose 3rd level."
+#~ msgstr "Притискање левог Alt тастера за избор 3. нивоа."
+
+#~ msgid "Press Left Win-key to choose 3rd level."
+#~ msgstr "Притискање левог Windows тастера за избор 3. нивоа."
+
+#~ msgid "Press Right Ctrl to choose 3rd level."
+#~ msgstr "Притискање десног Ctrl тастера за избор 3. нивоа."
+
+#~ msgid "Press Right Win-key to choose 3rd level."
+#~ msgstr "Притискање десног Windows тастера за избор 3. нивоа."
+
+#~ msgid "Press any of Alt keys to choose 3rd level."
+#~ msgstr "Притискање било ког Alt тастера за избор 3. нивоа."
+
+#~ msgid "Press any of Win-keys to choose 3rd level."
+#~ msgstr "Притискање било ког Windows тастера за избор 3. нивоа."
+
+#~ msgid "Probhat"
+#~ msgstr "пробат"
+
+#~ msgid "Prt"
+#~ msgstr "прт"
+
+#~ msgid "R-Alt switches group while pressed."
+#~ msgstr "Десни Alt мења групу док је притиснут."
+
+#~ msgid "Right Alt key changes group."
+#~ msgstr "Десни Alt је мења групу."
+
+#~ msgid "Right Ctrl key changes group."
+#~ msgstr "Десни Ctrl мења групу."
+
+#~ msgid "Right Shift key changes group."
+#~ msgstr "Десни Shift мења групу."
+
+#~ msgid "Right Win-key changes group."
+#~ msgstr "Десни Windows тастер мења групу."
+
+#~ msgid "Right Win-key is Compose."
+#~ msgstr "Десни Windows тастер је комбинујући."
+
+#~ msgid "Rou"
+#~ msgstr "рум"
+
+#~ msgid "Rus"
+#~ msgstr "рус"
+
+#~ msgid "Russia"
+#~ msgstr "Русија"
+
+#~ msgid "SCG"
+#~ msgstr "СЦГ"
+
+#~ msgid "ScrollLock LED shows alternative group."
+#~ msgstr "ScrollLock лампица приказује измене група."
+
+#~ msgid "Serbia and Montenegro"
+#~ msgstr "Србија и Црна Гора"
+
+#~ msgid "Shift with numpad keys works as in MS Windows."
+#~ msgstr "Shift уз нумеричку тасатуру ради као у MS Windows-у."
+
+#~ msgid "Southern Uzbek"
+#~ msgstr "Јужни Узбекистан"
+
+#~ msgid "Spain"
+#~ msgstr "Шпанија"
+
+#~ msgid "SrL"
+#~ msgstr "шрл"
+
+#~ msgid "Sri Lanka"
+#~ msgstr "Шри Ланка"
+
+#~ msgid "Standard"
+#~ msgstr "стандардна"
+
+#~ msgid "Standard RSTU on Russian layout"
+#~ msgstr "стандардна RSTU на руском распореду"
+
+#~ msgid "Svk"
+#~ msgstr "слк"
+
+#~ msgid "Svn"
+#~ msgstr "сло"
+
+#~ msgid "Swe"
+#~ msgstr "шве"
+
+#~ msgid "Sweden"
+#~ msgstr "Шведска"
+
+#~ msgid "Syr"
+#~ msgstr "сир"
+
+#~ msgid "Syria"
+#~ msgstr "Сирија"
+
+#~ msgid "Tha"
+#~ msgstr "тај"
+
+#~ msgid "Third level choosers"
+#~ msgstr "Избор трећег нивоа"
+
+#~ msgid "Tjk"
+#~ msgstr "тџк"
+
+#~ msgid "Typewriter"
+#~ msgstr "„Куцаћа машина“"
+
+#~ msgid "U.S. English"
+#~ msgstr "амерички енглески"
+
+#~ msgid "US keyboard with Slovenian digraphs"
+#~ msgstr "Америчка тастатура са словеначким диграфима"
+
+#~ msgid "USA"
+#~ msgstr "САД"
+
+#~ msgid "Ukr"
+#~ msgstr "укр"
+
+#~ msgid "United Kingdom"
+#~ msgstr "Велика Британија"
+
+#~ msgid "Use Bosnian digraphs"
+#~ msgstr "Користи босанске диграфе"
+
+#~ msgid "Use Croatian digraphs"
+#~ msgstr "Користи хрватске диграфе"
+
+#~ msgid "Use Slovenian digraphs"
+#~ msgstr "Користи словеначке диграфе"
+
+#~ msgid "Uzb"
+#~ msgstr "узб"
+
+#~ msgid "Vnm"
+#~ msgstr "вјт"
+
+#~ msgid "With guillemots"
+#~ msgstr "Са гиљемотима"
+
+#~ msgid "azerty"
+#~ msgstr "azerty"
+
+#~ msgid "digits"
+#~ msgstr "цифре"
+
+#~ msgid "lyx"
+#~ msgstr "lyx"
+
+#~ msgid "qwerty"
+#~ msgstr "qwerty"
+
+#~ msgid "qwertz"
+#~ msgstr "qwertz"
+
+#~ msgid "si1452"
+#~ msgstr "si1452"
 
 #~ msgid "\"Standard\""
 #~ msgstr "„Стандардна“"
-
-# bug: Serbia and Montenegro
-#~ msgid "Serbia"
-#~ msgstr "Србија"
 
 #~ msgid "Srp"
 #~ msgstr "срп"
@@ -1882,41 +5282,11 @@ msgstr "si1452"
 #~ msgid "Basic"
 #~ msgstr "Основно"
 
-#~ msgid "Ben"
-#~ msgstr "бнг"
-
-#~ msgid "Bosnian"
-#~ msgstr "бошњачки"
-
-#~ msgid "Burmese"
-#~ msgstr "бурмиски"
-
 #~ msgid "CloGaelach Laptop"
 #~ msgstr "CloGaelach за преносне рачунаре"
 
-#~ msgid "Czech (qwerty)"
-#~ msgstr "Чешки (qwerty)"
-
-#~ msgid "Danish"
-#~ msgstr "дански"
-
-#~ msgid "Dutch"
-#~ msgstr "холандски"
-
 #~ msgid "Dvo"
 #~ msgstr "дво"
-
-#~ msgid "Finnish"
-#~ msgstr "фински"
-
-#~ msgid "French Canadian"
-#~ msgstr "француски канадски"
-
-#~ msgid "Georgian (latin)"
-#~ msgstr "грузијски (латиница)"
-
-#~ msgid "Georgian (russian)"
-#~ msgstr "грузијски (руски)"
 
 #~ msgid "Grc"
 #~ msgstr "грк"
@@ -1927,41 +5297,14 @@ msgstr "si1452"
 #~ msgid "Hin"
 #~ msgstr "инд"
 
-#~ msgid "Hindi"
-#~ msgstr "индијски"
-
-#~ msgid "Hungarian (qwerty)"
-#~ msgstr "Мађарски (qwerty)"
-
 #~ msgid "INSCRIPT layout"
 #~ msgstr "INSCRIPT распоред"
 
 #~ msgid "IS434 laptop"
 #~ msgstr "IS434 преносни"
 
-#~ msgid "Iku"
-#~ msgstr "ику"
-
-#~ msgid "Irish"
-#~ msgstr "ирски"
-
-#~ msgid "Italian"
-#~ msgstr "италијански"
-
-#~ msgid "Lithuanian azerty standard"
-#~ msgstr "литвански azerty распоред"
-
 #~ msgid "Lithuanian qwerty \"numeric\""
 #~ msgstr "литвански qwerty „бројевни“"
-
-#~ msgid "Maltese (US layout)"
-#~ msgstr "малтски (амерички распоред)"
-
-#~ msgid "Northern Saami (Finland)"
-#~ msgstr "северносаамски (Финска)"
-
-#~ msgid "Northern Saami (Sweden)"
-#~ msgstr "северносаамски (Шведска)"
 
 #~ msgid "Ogh"
 #~ msgstr "огм"
@@ -1972,29 +5315,17 @@ msgstr "si1452"
 #~ msgid "PC104"
 #~ msgstr "PC104"
 
-#~ msgid "Polish"
-#~ msgstr "пољски"
-
-#~ msgid "Polish (qwertz)"
-#~ msgstr "пољски (qwertz)"
-
 #~ msgid "Sapmi"
 #~ msgstr "Sapmi"
 
 #~ msgid "Scg"
 #~ msgstr "срп"
 
-#~ msgid "Slovak (qwerty)"
-#~ msgstr "словачки (qwerty)"
-
 #~ msgid "Sme"
 #~ msgstr "сме"
 
 #~ msgid "Sv"
 #~ msgstr "св"
-
-#~ msgid "Swedish"
-#~ msgstr "шведски"
 
 #~ msgid "Swiss French"
 #~ msgstr "швајцарски француски"
@@ -2004,12 +5335,6 @@ msgstr "si1452"
 
 #~ msgid "Thai (Kedmanee)"
 #~ msgstr "тајландски (Кедмани)"
-
-#~ msgid "Tml"
-#~ msgstr "тмл"
-
-#~ msgid "Turkish (F)"
-#~ msgstr "турски (F)"
 
 #~ msgid "Turkish Alt-Q Layout"
 #~ msgstr "турски Alt-Q распоред"
@@ -2023,23 +5348,8 @@ msgstr "si1452"
 #~ msgid "US"
 #~ msgstr "САД"
 
-#~ msgid "Yug"
-#~ msgstr "сцг"
-
-#~ msgid "Yugoslavian"
-#~ msgstr "латинични српски"
-
 #~ msgid "abnt2"
 #~ msgstr "абнт2"
-
-#~ msgid "bksl"
-#~ msgstr "бксл"
-
-#~ msgid "laptop"
-#~ msgstr "преносни"
-
-#~ msgid "sefi"
-#~ msgstr "sefi"
 
 #~ msgid "uni/101/qwerty/comma"
 #~ msgstr "уни/101/qwerty/запета"
