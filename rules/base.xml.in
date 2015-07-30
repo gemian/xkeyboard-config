@@ -1786,6 +1786,8 @@
         <_description>Bangla</_description>
         <languageList>
           <iso639Id>ben</iso639Id>
+          <!-- sat-Beng: http://www.ethnologue.com/language/sat -->
+          <iso639Id>sat</iso639Id>
         </languageList>
       </configItem>
       <variantList>
@@ -1813,6 +1815,8 @@
             <_description>Bangla (India)</_description>
             <languageList>
               <iso639Id>ben</iso639Id>
+              <!-- sat-Beng: http://www.ethnologue.com/language/sat -->
+              <iso639Id>sat</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -1824,6 +1828,8 @@
             <_description>Bangla (India, Probhat)</_description>
             <languageList>
               <iso639Id>ben</iso639Id>
+              <!-- sat-Beng: http://www.ethnologue.com/language/sat -->
+              <iso639Id>sat</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -1833,6 +1839,8 @@
             <_description>Bangla (India, Baishakhi)</_description>
             <languageList>
               <iso639Id>ben</iso639Id>
+              <!-- sat-Beng: http://www.ethnologue.com/language/sat -->
+              <iso639Id>sat</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -1842,6 +1850,8 @@
             <_description>Bangla (India, Bornona)</_description>
             <languageList>
               <iso639Id>ben</iso639Id>
+              <!-- sat-Beng: http://www.ethnologue.com/language/sat -->
+              <iso639Id>sat</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -1851,6 +1861,8 @@
             <_description>Bangla (India, Uni Gitanjali)</_description>
             <languageList>
               <iso639Id>ben</iso639Id>
+              <!-- sat-Beng: http://www.ethnologue.com/language/sat -->
+              <iso639Id>sat</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -1860,6 +1872,8 @@
             <_description>Bangla (India, Baishakhi Inscript)</_description>
             <languageList>
               <iso639Id>ben</iso639Id>
+              <!-- sat-Beng: http://www.ethnologue.com/language/sat -->
+              <iso639Id>sat</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -1968,6 +1982,20 @@
             <_description>Oriya</_description>
             <languageList>
               <iso639Id>ori</iso639Id>
+              <!-- sat-Orya: http://www.ethnologue.com/language/sat -->
+              <iso639Id>sat</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+           <configItem>
+            <name>olck</name>
+            <!-- Keyboard indicator for Ol Chiki layouts -->
+            <_shortDescription>sat</_shortDescription>
+            <_description>Ol Chiki</_description>
+            <languageList>
+              <!-- sat-Olck: http://www.ethnologue.com/language/sat -->
+              <iso639Id>sat</iso639Id>
             </languageList>
           </configItem>
         </variant>
@@ -5451,6 +5479,8 @@
         <_description>Nepali</_description>
         <languageList>
           <iso639Id>nep</iso639Id>
+          <!-- sat-Deva used in Nepal: http://www.ethnologue.com/language/sat -->
+          <iso639Id>sat</iso639Id>
         </languageList>
       </configItem>
     </layout>
