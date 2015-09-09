@@ -2658,6 +2658,17 @@
             <_description>Czech (US Dvorak with CZ UCW support)</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>rus</name>
+            <!-- Keyboard indicator for Russian layouts -->
+            <_shortDescription>ru</_shortDescription>
+            <_description>Russian (Czech, phonetic)</_description>
+            <languageList>
+              <iso639Id>rus</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
