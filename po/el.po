@@ -813,8 +813,8 @@ msgid "English (classic Dvorak)"
 msgstr "Αγγλικό (κλασικό Dvorak)"
 
 #: ../rules/base.xml.in.h:201
-msgid "English (programmer Dvorak)"
-msgstr "Αγγλικά (Dvorak προγραμματιστή)"
+msgid "English (Programmer Dvorak)"
+msgstr "Αγγλικά (Programmer Dvorak)"
 
 #. Keyboard indicator for Russian layouts
 #: ../rules/base.xml.in.h:203 ../rules/base.extras.xml.in.h:55

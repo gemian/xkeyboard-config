@@ -1051,8 +1051,8 @@ msgid "English (left handed Dvorak)"
 msgstr "Inglese (Dvorak mancina)"
 
 #: ../rules/base.xml.in.h:235
-msgid "English (programmer Dvorak)"
-msgstr "Inglese (Dvorak per programmatori)"
+msgid "English (Programmer Dvorak)"
+msgstr "Inglese (Programmer Dvorak)"
 
 #: ../rules/base.xml.in.h:236
 msgid "English (right handed Dvorak)"

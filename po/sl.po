@@ -980,8 +980,8 @@ msgid "English (left handed Dvorak)"
 msgstr "angleška (levoročni Dvorak)"
 
 #: ../rules/base.xml.in.h:241
-msgid "English (programmer Dvorak)"
-msgstr "angleška (programerska, Dvorak)"
+msgid "English (Programmer Dvorak)"
+msgstr "angleška (Programmer Dvorak)"
 
 #: ../rules/base.xml.in.h:242
 msgid "English (right handed Dvorak)"

@@ -815,8 +815,8 @@ msgid "English (classic Dvorak)"
 msgstr "英語 (古典的 Dvorak)"
 
 #: ../rules/base.xml.in.h:201
-msgid "English (programmer Dvorak)"
-msgstr "英語 (プログラマー Dvorak)"
+msgid "English (Programmer Dvorak)"
+msgstr "英語 (Programmer Dvorak)"
 
 #. Keyboard indicator for Russian layouts
 #: ../rules/base.xml.in.h:203 ../rules/base.extras.xml.in.h:54

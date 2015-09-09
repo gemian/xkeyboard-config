@@ -812,8 +812,8 @@ msgid "English (classic Dvorak)"
 msgstr "Anglų (klasikinis Dvorako)"
 
 #: ../rules/base.xml.in.h:201
-msgid "English (programmer Dvorak)"
-msgstr "Anglų (programuotojų Dvorako)"
+msgid "English (Programmer Dvorak)"
+msgstr "Anglų (Programmer Dvorak)"
 
 #. Keyboard indicator for Russian layouts
 #: ../rules/base.xml.in.h:203 ../rules/base.extras.xml.in.h:69
