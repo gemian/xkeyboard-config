@@ -3002,7 +3002,7 @@
         <variant>
           <configItem>
             <name>das</name>
-            <_description>Finnish (DAS)</description>
+            <_description>Finnish (DAS)</_description>
           </configItem>
         </variant>
       </variantList>
