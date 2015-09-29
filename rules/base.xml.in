@@ -1295,6 +1295,20 @@
        <vendor>htc</vendor>
      </configItem>
     </model>
+    <model>
+      <configItem>
+       <name>teck227</name>
+       <_description>Truly Ergonomic Computer Keyboard Model 227 (Wide Alt keys)</_description>
+       <vendor>Megawin Technology</vendor>
+     </configItem>
+    </model>
+    <model>
+      <configItem>
+       <name>teck229</name>
+       <_description>Truly Ergonomic Computer Keyboard Model 229 (Standard sized Alt keys, additional Super and Menu key)</_description>
+       <vendor>Megawin Technology</vendor>
+     </configItem>
+    </model>
   </modelList>
   <layoutList>
     <layout>

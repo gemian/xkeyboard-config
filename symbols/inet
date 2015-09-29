@@ -1896,3 +1896,14 @@ xkb_symbols "chromebook" {
         key <RGHT> {    [ Right, Right, End, Right ] };
         key <LWIN> {    [ Super_L, Super_L, Caps_Lock, Super_L ] };
 };
+
+partial alphanumeric_keys
+xkb_symbols "teck227" {
+    include "inet(media_nav_common)"
+    key <HIRA> { [ Hiragana ] };
+}
+
+partial alphanumeric_keys
+xkb_symbols "teck229" {
+    include "inet(teck227)"
+}
