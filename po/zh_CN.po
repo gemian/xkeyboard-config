@@ -1002,8 +1002,8 @@ msgid "English (left handed Dvorak)"
 msgstr "英语(左手 Dvorak 布局)"
 
 #: ../rules/base.xml.in.h:240
-msgid "English (Programmer Dvorak)"
-msgstr "英语(Programmer Dvorak)"
+msgid "English (programmer Dvorak)"
+msgstr "英语(适合程序员的 Dvorak 布局)"
 
 #: ../rules/base.xml.in.h:241
 msgid "English (right handed Dvorak)"

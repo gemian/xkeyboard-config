@@ -813,8 +813,8 @@ msgid "English (classic Dvorak)"
 msgstr "Αγγλικό (κλασικό Dvorak)"
 
 #: ../rules/base.xml.in.h:201
-msgid "English (Programmer Dvorak)"
-msgstr "Αγγλικά (Programmer Dvorak)"
+msgid "English (programmer Dvorak)"
+msgstr "Αγγλικά (Dvorak προγραμματιστή)"
 
 #. Keyboard indicator for Russian layouts
 #: ../rules/base.xml.in.h:203 ../rules/base.extras.xml.in.h:55
@@ -4189,7 +4189,6 @@ msgstr "Αγγλικό (Ενωμένου Βασιλείου, τύπος Sun 6/7)
 msgid "Korean (Sun Type 6/7)"
 msgstr "Κορεατικό (τύπος Sun 6/7)"
 
-#~| msgid "Swedish (Dvorak)"
 #~ msgid "Swedish (Dvorak A5)"
 #~ msgstr "Σουηδικό (Ντβόρακ A5)"
 
