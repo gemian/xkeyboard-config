@@ -71,6 +71,7 @@
   caps:backspace	=	+capslock(backspace)
   caps:super		=	+capslock(super)
   caps:hyper		=	+capslock(hyper)
+  caps:menu		=	+capslock(menu)
   caps:none		=	+capslock(none)
   caps:ctrl_modifier	=	+capslock(ctrl_modifier)
   ctrl:nocaps		=	+ctrl(nocaps)

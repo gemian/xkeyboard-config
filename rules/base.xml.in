@@ -6511,6 +6511,12 @@
       </option>
       <option>
         <configItem>
+          <name>caps:menu</name>
+          <_description>Make Caps Lock an additional Menu key</_description>
+        </configItem>
+      </option>
+      <option>
+        <configItem>
           <name>caps:shiftlock</name>
           <_description>Caps Lock toggles ShiftLock (affects all keys)</_description>
         </configItem>
