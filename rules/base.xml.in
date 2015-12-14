@@ -3112,6 +3112,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>azerty</name>
+            <_description>French (Azerty)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>bre</name>
             <_description>French (Breton)</_description>
           </configItem>
