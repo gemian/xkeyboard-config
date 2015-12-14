@@ -5680,6 +5680,16 @@
     </layout>
     <layout>
       <configItem>
+        <name>tg</name>
+        <_shortDescription>fr-tg</_shortDescription>
+        <_description>French (Togo)</_description>
+        <languageList>
+          <iso639Id>fra</iso639Id>
+        </languageList>
+      </configItem>
+    </layout>
+    <layout>
+      <configItem>
         <name>ke</name>
         <!-- Keyboard indicator for Swahili layouts -->
         <_shortDescription>sw</_shortDescription>
