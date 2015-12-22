@@ -2272,6 +2272,12 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>thinkpad</name>
+            <_description>Portuguese (Brazil, IBM/Lenovo ThinkPad)</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
