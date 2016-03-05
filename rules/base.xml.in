@@ -6559,7 +6559,7 @@
       <option>
         <configItem>
           <name>caps:ctrl_modifier</name>
-          <_description>Make Caps Lock an additional Ctrl</_description>
+          <_description>Caps Lock is also a Ctrl</_description>
         </configItem>
       </option>
     </group>
