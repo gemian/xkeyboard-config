@@ -321,6 +321,18 @@
             <_description>English (Norman)</_description>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>carpalx</name>
+            <_description>English (Carpalx)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>carpalx-full</name>
+            <_description>English (Carpalx, full optimization)</_description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
