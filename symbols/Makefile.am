@@ -10,7 +10,7 @@ bg br brai \
 bt bw by \
 ca cd ch \
 cm cn cz \
-de dk \
+de dk dz \
 ee es et epo eu \
 fi fo fr \
 gb ge gh gn \

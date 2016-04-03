@@ -2307,6 +2307,35 @@
     </layout>
     <layout>
       <configItem>
+        <name>dz</name>
+        <_shortDescription>la</_shortDescription>
+        <_description>Berber (Algeria, Latin characters)</_description>
+      </configItem>
+      <variantList>
+        <variant>
+          <configItem>
+            <name>ber</name>
+            <_shortDescription>ber</_shortDescription>
+            <_description>Berber (Algeria, Tifinagh characters)</_description>
+            <languageList>
+              <iso639Id>ber</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>ar</name>
+            <_shortDescription>ar</_shortDescription>
+            <_description>Arabic (Algeria)</_description>
+            <languageList>
+              <iso639Id>ara</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
+      </variantList>
+    </layout>
+    <layout>
+      <configItem>
         <name>ma</name>
         <!-- Keyboard indicator for Arabic layouts -->
         <_shortDescription>ar</_shortDescription>
@@ -5012,7 +5041,7 @@
         <variant>
           <configItem>
             <name>us</name>
-            <shortDescription>us</shortDescription>
+            <_shortDescription>us</_shortDescription>
             <_description>Sinhala (US keyboard with Sinhala letters)</_description>
           </configItem>
         </variant>
