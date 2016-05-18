@@ -5917,6 +5917,57 @@
         </variant>
       </variantList>
     </layout>
+    <layout>
+      <configItem>
+        <name>id</name>
+        <shortDescription>id</shortDescription>
+        <description>Indonesian (Jawi)</description>
+        <languageList>
+          <iso639Id>id</iso639Id>
+          <iso639Id>ms</iso639Id>
+          <iso639Id>min</iso639Id>
+          <iso639Id>ace</iso639Id>
+          <iso639Id>bjn</iso639Id>
+          <iso639Id>tsg</iso639Id>
+          <iso639Id>mfa</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList></variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>my</name>
+        <shortDescription>ms</shortDescription>
+        <description>Malay (Jawi)</description>
+        <languageList>
+          <iso639Id>id</iso639Id>
+          <iso639Id>ms</iso639Id>
+          <iso639Id>min</iso639Id>
+          <iso639Id>ace</iso639Id>
+          <iso639Id>bjn</iso639Id>
+          <iso639Id>tsg</iso639Id>
+          <iso639Id>mfa</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList></variantList>
+    </layout>
+    <layout>
+      <configItem>
+        <name>bn</name>
+        <shortDescription>ms</shortDescription>
+        <description>Malay (Jawi)</description>
+        <languageList>
+          <iso639Id>id</iso639Id>
+          <iso639Id>ms</iso639Id>
+          <iso639Id>min</iso639Id>
+          <iso639Id>ace</iso639Id>
+          <iso639Id>bjn</iso639Id>
+          <iso639Id>tsg</iso639Id>
+          <iso639Id>mfa</iso639Id>
+        </languageList>
+      </configItem>
+      <variantList></variantList>
+    </layout>
   </layoutList>
   <optionList>
     <group allowMultipleSelection="true">
