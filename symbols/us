@@ -69,6 +69,19 @@ xkb_symbols "euro" {
 
 
 partial alphanumeric_keys
+xkb_symbols "ibm238l" {
+
+    include "us(basic)"
+    name[Group1]= "US English (IBM Arabic 238_L)";
+
+    key <AB08> {        [     comma,    comma      ]       };
+    key <AB09> {        [    period,    period     ]       };
+    key <BKSL> {        [ quoteleft,    asciitilde ]       };
+    key <LSGT> {        [ backslash,    bar        ]       };
+    key <TLDE> {        [ leftcaret,    rightcaret ]       };
+};
+
+partial alphanumeric_keys
 xkb_symbols "intl" {
 
     include "us(basic)"
