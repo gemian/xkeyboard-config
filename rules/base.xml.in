@@ -5923,8 +5923,8 @@
         <shortDescription>id</shortDescription>
         <description>Indonesian (Jawi)</description>
         <languageList>
-          <iso639Id>id</iso639Id>
-          <iso639Id>ms</iso639Id>
+          <iso639Id>ind</iso639Id>
+          <iso639Id>msa</iso639Id>
           <iso639Id>min</iso639Id>
           <iso639Id>ace</iso639Id>
           <iso639Id>bjn</iso639Id>
@@ -5940,8 +5940,8 @@
         <shortDescription>ms</shortDescription>
         <description>Malay (Jawi)</description>
         <languageList>
-          <iso639Id>id</iso639Id>
-          <iso639Id>ms</iso639Id>
+          <iso639Id>ind</iso639Id>
+          <iso639Id>msa</iso639Id>
           <iso639Id>min</iso639Id>
           <iso639Id>ace</iso639Id>
           <iso639Id>bjn</iso639Id>
@@ -5957,8 +5957,8 @@
         <shortDescription>ms</shortDescription>
         <description>Malay (Jawi)</description>
         <languageList>
-          <iso639Id>id</iso639Id>
-          <iso639Id>ms</iso639Id>
+          <iso639Id>ind</iso639Id>
+          <iso639Id>msa</iso639Id>
           <iso639Id>min</iso639Id>
           <iso639Id>ace</iso639Id>
           <iso639Id>bjn</iso639Id>
