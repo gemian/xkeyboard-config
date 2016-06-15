@@ -4579,6 +4579,12 @@
         </variant>
         <variant>
           <configItem>
+            <name>phonetic_dvorak</name>
+            <_description>Russian (phonetic dvorak)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
             <name>phonetic_fr</name>
             <_description>Russian (phonetic French)</_description>
           </configItem>
