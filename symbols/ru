@@ -559,6 +559,9 @@ xkb_symbols "phonetic_azerty" {
     key	<BKSL> {	[      Cyrillic_e,	Cyrillic_E	]	};
 };
 
+// Russian dvorak phonetic layout
+// 2016-06-15 by Mart Lubbers
+// contact: <mart@martlubbers.net>
 partial alphanumeric_keys
 xkb_symbols "phonetic_dvorak" {
     include "level3(ralt_switch)"
