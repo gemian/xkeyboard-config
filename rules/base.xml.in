@@ -3059,12 +3059,6 @@
             <_description>Finnish (Macintosh)</_description>
           </configItem>
         </variant>
-        <variant>
-          <configItem>
-            <name>das</name>
-            <_description>Finnish (DAS)</_description>
-          </configItem>
-        </variant>
       </variantList>
     </layout>
     <layout>
