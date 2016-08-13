@@ -598,8 +598,6 @@ xkb_symbols "ru" {
 
     name[Group1]= "Russian (Germany, phonetic)";
 
-    key.type[group1]="FOUR_LEVEL_ALPHABETIC";
-
     key <LatA> { [        Cyrillic_a,        Cyrillic_A ] };
     key <LatB> { [       Cyrillic_be,       Cyrillic_BE ] };
     key <LatW> { [       Cyrillic_ve,       Cyrillic_VE ] };
