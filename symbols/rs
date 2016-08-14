@@ -156,21 +156,26 @@ xkb_symbols "latlevel3" {
     key <AD02> { [ any, any,   bar,                 Lstroke          ] }; // w
     key <AD03> { [ any, any,   EuroSign,            EuroSign         ] }; // e
     key <AD04> { [ any, any,   paragraph,           registered       ] }; // r
-    key <AD05> { [ any, any,   tslash,              Tslash           ] }; // t // ALPHABETIC
+    key <AD05> { type[Group1] = "FOUR_LEVEL_ALPHABETIC",
+                 [ any, any,   tslash,              Tslash           ] }; // t
     key <AD06> { [ any, any,   leftarrow,           yen              ] }; // y
     key <AD07> { [ any, any,   downarrow,           uparrow          ] }; // u
     key <AD08> { [ any, any,   rightarrow,          idotless         ] }; // i
-    key <AD09> { [ any, any,   oslash,              Ooblique         ] }; // o // ALPHABETIC
-    key <AD10> { [ any, any,   thorn,               THORN            ] }; // p // ALPHABETIC
+    key <AD09> { type[Group1] = "FOUR_LEVEL_ALPHABETIC",
+                 [ any, any,   oslash,              Ooblique         ] }; // o
+    key <AD10> { type[Group1] = "FOUR_LEVEL_ALPHABETIC",
+                 [ any, any,   thorn,               THORN            ] }; // p
     key <AD11> { [ any, any,   division,            dead_abovering   ] }; // [
     key <AD12> { [ any, any,   multiply,            dead_macron      ] }; // ]
 
-    key <AC01> { [ any, any,   ae,                  AE               ] }; // a // ALPHABETIC
+    key <AC01> { type[Group1] = "FOUR_LEVEL_ALPHABETIC",
+                 [ any, any,   ae,                  AE               ] }; // a
     key <AC02> { [ any, any,   doublelowquotemark,  guillemotright   ] }; // s
     key <AC03> { [ any, any,   leftdoublequotemark, guillemotleft    ] }; // d
     key <AC04> { [ any, any,   bracketleft,         ordfeminine      ] }; // f
     key <AC05> { [ any, any,   bracketright,        ENG              ] }; // g
-    key <AC06> { [ any, any,   hstroke,             Hstroke          ] }; // h // ALPHABETIC
+    key <AC06> { type[Group1] = "FOUR_LEVEL_ALPHABETIC",
+                 [ any, any,   hstroke,             Hstroke          ] }; // h
     key <AC08> { [ any, any,   lstroke,             ampersand        ] }; // k
     key <AC09> { [ any, any,   lstroke,             Lstroke          ] }; // l
     key <AC10> { [ any, any,   dead_acute,          dead_doubleacute ] }; // ;
@@ -203,11 +208,11 @@ xkb_symbols "cyrlevel3" {
     key <AD02> { [ any, any,   bar                                   ] }; // w
     key <AD03> { [ any, any,   EuroSign,            sterling         ] }; // e
     key <AD04> { [ any, any,   paragraph,           registered       ] }; // r
-    key <AD05> { [ any, any,   ellipsis                              ] }; // t // ALPHABETIC
+    key <AD05> { [ any, any,   ellipsis                              ] }; // t
     key <AD06> { [ any, any,   leftarrow,           yen              ] }; // y
     key <AD07> { [ any, any,   downarrow,           uparrow          ] }; // u
     key <AD08> { [ any, any,   rightarrow                            ] }; // i
-    key <AD09> { [ any, any,   section                               ] }; // o // ALPHABETIC
+    key <AD09> { [ any, any,   section                               ] }; // o
     key <AD11> { [ any, any,   division                              ] }; // [
     key <AD12> { [ any, any,   multiply                              ] }; // ]
 
