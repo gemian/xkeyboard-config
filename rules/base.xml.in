@@ -6358,12 +6358,6 @@
       </option>
       <option>
         <configItem>
-          <name>ctrl:ctrl_ralt</name>
-          <_description>Right Alt as Right Ctrl</_description>
-        </configItem>
-      </option>
-      <option>
-        <configItem>
           <name>ctrl:swap_lalt_lctl</name>
           <_description>Swap Left Alt key with Left Ctrl key</_description>
         </configItem>
