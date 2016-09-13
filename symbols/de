@@ -51,11 +51,11 @@ xkb_symbols "basic" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "legacy" {
+xkb_symbols "deadtilde" {
     // previous standard German layout with tilde as dead key
 
     include "de(basic)"
-    name[Group1]="German (legacy)";
+    name[Group1]="German (dead tilde)";
 
     key <AD12>	{ [      plus,   asterisk,   dead_tilde,  dead_macron ]	};
 };

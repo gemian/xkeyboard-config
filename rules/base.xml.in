@@ -3465,8 +3465,8 @@
         </variant>
         <variant>
           <configItem>
-            <name>legacy</name>
-            <_description>German (legacy)</_description>
+            <name>deadtilde</name>
+            <_description>German (dead tilde)</_description>
           </configItem>
         </variant>
       </variantList>
