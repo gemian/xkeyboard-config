@@ -949,5 +949,19 @@
       </variantList>
     </layout>
   </layoutList>
-  <optionList/>
+  <optionList>
+      <group allowMultipleSelection="true">
+          <!-- Tweaking the position of the "(" and ")" keys -->
+          <configItem>
+              <name>parens</name>
+              <description>Parentheses position</description>
+          </configItem>
+          <option>
+              <configItem>
+                  <name>parens:swap_brackets</name>
+                  <description>Swap with square brackets</description>
+              </configItem>
+          </option>
+      </group>
+  </optionList>
 </xkbConfigRegistry>
