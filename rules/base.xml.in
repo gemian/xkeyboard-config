@@ -2430,12 +2430,6 @@
             </languageList>
           </configItem>
         </variant>
-        <variant>
-          <configItem>
-            <name>mmuock</name>
-            <description>Mmuock</description>
-          </configItem>
-        </variant>
       </variantList>
     </layout>
     <layout>
@@ -2536,6 +2530,12 @@
           <configItem>
             <name>dvorak</name>
             <_description>Cameroon Multilingual (Dvorak)</_description>
+          </configItem>
+        </variant>
+        <variant>
+          <configItem>
+            <name>mmuock</name>
+            <description>Mmuock</description>
           </configItem>
         </variant>
       </variantList>
