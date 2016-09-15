@@ -19,8 +19,6 @@ xkb_symbols "winkeys" {
 
     key <AB10> { [      period,       comma  ] };
     key <BKSL> { [   backslash,       slash  ] };
-
-    include "level3(ralt_switch)"
 };
 
 hidden partial alphanumeric_keys
