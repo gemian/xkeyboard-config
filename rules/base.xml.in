@@ -2430,6 +2430,12 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>mmuock</name>
+            <description>Mmuock</description>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
