@@ -18,7 +18,7 @@ xkb_symbols "basic" {
 key.type[group1] = "FOUR_LEVEL";
 
     key <TLDE> { [ parenleft,               parenright,              Cyrillic_io, Cyrillic_IO ] };
-    key <AE01> { [ doublelowquotemark,      exclam ] };
+    key <AE01> { [ quotedbl,      exclam ] };
     key <AE06> { [ comma,                   semicolon ] };
     key <AE07> { [ period,                  colon ] };
     key <BKSL> { [ backslash,               slash ] };
