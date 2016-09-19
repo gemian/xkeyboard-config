@@ -3868,6 +3868,15 @@
             </languageList>
           </configItem>
         </variant>
+        <variant>
+          <configItem>
+            <name>ext</name>
+            <_description>Kazakh (extended)</_description>
+            <languageList>
+              <iso639Id>kaz</iso639Id>
+            </languageList>
+          </configItem>
+        </variant>
       </variantList>
     </layout>
     <layout>
