@@ -74,7 +74,7 @@ xkb_symbols "us" {
 
     key <ESC>   { [    Escape, Escape, Escape ] };
     key <AE01>  { [         1,     exclam,   asciitilde,   exclamdown ] };
-    key <AE02>  { [         2,        kra,        grave,    oneeighth ] };
+    key <AE02>  { [         2,         at,        grave,    oneeighth ] };
     key <AE03>  { [         3, numbersign,     sterling,     sterling ] };
     key <AE04>  { [         4,     dollar,     EuroSign,       dollar ] };
     key <AE05>  { [         5,    percent,         less, threeeighths ] };
