@@ -39,7 +39,7 @@ xkb_symbols "gb" {
     key <AC05>  { [         g,          G,          eng,          ENG ] };
     key <AC06>  { [         h,          H,      hstroke,      Hstroke ] };
     key <AC07>  { [         j,          J,   underscore,    dead_horn ] };
-    key <AC08>  { [         k,          K,          kra,    ampersand ] };
+    key <AC08>  { [         k,          K,           at,    ampersand ] };
     key <AC09>  { [         l,          L,    semicolon,      Lstroke ] };
     key <AC11>  { [apostrophe, asciitilde,        colon,   dead_caron ] };
 
