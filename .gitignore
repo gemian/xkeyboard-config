@@ -17,7 +17,7 @@ intltool-merge
 intltool-merge.in
 intltool-update
 intltool-update.in
-m4
+m4/*
 autom4te.cache
 mkinstalldirs
 intltool-modules
