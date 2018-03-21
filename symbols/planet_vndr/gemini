@@ -1,0 +1,132 @@
+
+default  partial alphanumeric_keys
+xkb_symbols "gb" {
+    name[Group1]="Gemini English (UK)";
+
+    key <LWIN> { [ISO_Level3_Shift ] };
+    modifier_map Mod5 { ISO_Level3_Shift };
+
+    key <ESC>   { [    Escape, Escape, Escape ] };
+    key <AE01>  { [         1,     exclam,          bar,   exclamdown ] };
+    key <AE02>  { [         2,   quotedbl,   numbersign,    oneeighth ] };
+    key <AE03>  { [         3,   sterling,    backslash,     sterling ] };
+    key <AE04>  { [         4,     dollar,     EuroSign,       dollar ] };
+    key <AE05>  { [         5,    percent,         less, threeeighths ] };
+    key <AE06>  { [         6, asciicircum,     greater,  fiveeighths ] };
+    key <AE07>  { [         7,  ampersand,  bracketleft, seveneighths ] };
+    key <AE08>  { [         8,   asterisk, bracketright,    trademark ] };
+    key <AE09>  { [         9,  parenleft,    braceleft,    plusminus ] };
+    key <AE10>  { [         0, parenright,   braceright,       degree ] };
+    key <BKSP>  { [  Backspace, Delete, Delete ] };
+
+    key <AD01>  { [         q,          Q,XF86AudioPlay,  Greek_OMEGA ] };
+    key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
+    key <AD03>  { [         e,          E,XF86AudioNext,            E ] };
+    key <AD04>  { [         r,          R,    paragraph,   registered ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,       Tslash ] };
+    key <AD06>  { [         y,          Y,    leftarrow,          yen ] };
+    key <AD07>  { [         u,          U,    downarrow,      uparrow ] };
+    key <AD08>  { [         i,          I,         plus,     idotless ] };
+    key <AD09>  { [         o,          O,        minus,     Ooblique ] };
+    key <AD10>  { [         p,          P,        equal,        THORN ] };
+// enter
+
+    key <TAB>   { [       Tab,ISO_Left_Tab, Caps_Lock ] };
+    key <AC01>  { [         a,          A,            a,           AE ] };
+    key <AC02>  { [         s,          S,       ssharp,      section ] };
+    key <AC03>  { [         d,          D,          eth,          ETH ] };
+    key <AC04>  { [         f,          F,      dstroke,  ordfeminine ] };
+    key <AC05>  { [         g,          G,          eng,          ENG ] };
+    key <AC06>  { [         h,          H,      hstroke,      Hstroke ] };
+    key <AC07>  { [         j,          J,   underscore,    dead_horn ] };
+    key <AC08>  { [         k,          K,          kra,    ampersand ] };
+    key <AC09>  { [         l,          L,    semicolon,      Lstroke ] };
+    key <AC11>  { [apostrophe, asciitilde,        colon,   dead_caron ] };
+
+// lshift
+    key <AB01>  { [         z,          Z, guillemotleft,        less ] };
+    key <AB02>  { [         x,          X, guillemotright,    greater ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume, copyright ] };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume, leftsinglequotemark ]   };
+    key <AB05>  { [         b,          B, XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>  { [         n,          N, XF86MonBrightnessUp,     N ] };
+    key <AB07>  { [         m,          M,        grave,    masculine ] };
+    key <AB09>  { [    period,   question, periodcentered,   division ] };
+    key <UP>    { [        Up,      Prior, Prior ] };
+// rshift
+
+// lctrl
+// fn
+// alt
+    key <SPCE>  { [     space,      space,        space, nobreakspace ] };
+    key <AB08>  { [     comma,      slash, horizconnector,   multiply ] };
+    key <LEFT>  { [      Left,       Home, Home ] };
+    key <DOWN>  { [      Down,       Next, Next ] };
+    key <RGHT>  { [      Right,       End, End  ] };
+};
+
+default  partial alphanumeric_keys
+xkb_symbols "us" {
+    name[Group1]="Gemini English (US)";
+
+    key <LWIN> { [ISO_Level3_Shift ] };
+    modifier_map Mod5 { ISO_Level3_Shift };
+
+    key <ESC>   { [    Escape, Escape, Escape ] };
+    key <AE01>  { [         1,     exclam,   asciitilde,   exclamdown ] };
+    key <AE02>  { [         2,        kra,        grave,    oneeighth ] };
+    key <AE03>  { [         3, numbersign,     sterling,     sterling ] };
+    key <AE04>  { [         4,     dollar,     EuroSign,       dollar ] };
+    key <AE05>  { [         5,    percent,         less, threeeighths ] };
+    key <AE06>  { [         6, asciicircum,     greater,  fiveeighths ] };
+    key <AE07>  { [         7,  ampersand,  bracketleft, seveneighths ] };
+    key <AE08>  { [         8,   asterisk, bracketright,    trademark ] };
+    key <AE09>  { [         9,  parenleft,    braceleft,    plusminus ] };
+    key <AE10>  { [         0, parenright,   braceright,       degree ] };
+    key <BKSP>  { [  Backspace, Delete, Delete ] };
+
+    key <AD01>  { [         q,          Q,XF86AudioPlay,  Greek_OMEGA ] };
+    key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
+    key <AD03>  { [         e,          E,XF86AudioNext,            E ] };
+    key <AD04>  { [         r,          R,    paragraph,   registered ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,       Tslash ] };
+    key <AD06>  { [         y,          Y,    leftarrow,          yen ] };
+    key <AD07>  { [         u,          U,    downarrow,      uparrow ] };
+    key <AD08>  { [         i,          I,         plus,     idotless ] };
+    key <AD09>  { [         o,          O,        minus,     Ooblique ] };
+    key <AD10>  { [         p,          P,        equal,        THORN ] };
+// enter
+
+    key <TAB>   { [       Tab,ISO_Left_Tab, Caps_Lock ] };
+    key <AC01>  { [         a,          A,            a,           AE ] };
+    key <AC02>  { [         s,          S,       ssharp,      section ] };
+    key <AC03>  { [         d,          D,          eth,          ETH ] };
+    key <AC04>  { [         f,          F,      dstroke,  ordfeminine ] };
+    key <AC05>  { [         g,          G,          eng,          ENG ] };
+    key <AC06>  { [         h,          H,      hstroke,      Hstroke ] };
+    key <AC07>  { [         j,          J,   underscore,    dead_horn ] };
+    key <AC08>  { [         k,          K,    semicolon,    ampersand ] };
+    key <AC09>  { [         l,          L,     quotedbl,      Lstroke ] };
+    key <AC11>  { [ backslash,        bar,        colon,   dead_caron ] };
+
+// lshift
+    key <AB01>  { [         z,          Z, guillemotleft,        less ] };
+    key <AB02>  { [         x,          X, guillemotright,    greater ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume, copyright ] };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume, leftsinglequotemark ]   };
+    key <AB05>  { [         b,          B, XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>  { [         n,          N, XF86MonBrightnessUp,     N ] };
+    key <AB07>  { [         m,          M,    apostrophe,    masculine ] };
+    key <AB09>  { [    period,   question, periodcentered,   division ] };
+    key <UP>    { [        Up,      Prior, Prior ] };
+// rshift
+
+// lctrl
+// fn
+// alt
+    key <SPCE>  { [     space,      space,        space, nobreakspace ] };
+    key <AB08>  { [     comma,      slash, horizconnector,   multiply ] };
+    key <LEFT>  { [      Left,       Home, Home ] };
+    key <DOWN>  { [      Down,       Next, Next ] };
+    key <RGHT>  { [      Right,       End, End  ] };
+};

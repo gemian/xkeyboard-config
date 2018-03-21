@@ -11,6 +11,9 @@
 // Jolla devices and keyboards
 ! $jollamodels = jollasbj
 
+// Planet devices and keyboards
+! $planetmodels = planetgemini
+
 // Microsoft models (using MS geometry)
 ! $msmodels = microsoft microsoft4000 microsoft7000 microsoftpro microsoftprousb microsoftprose
 
