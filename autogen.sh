@@ -7,7 +7,7 @@ ORIGDIR=`pwd`
 cd $srcdir
 
 autopoint --force
-AUTOPOINT='intltoolize --automake --copy' autoreconf -v --install --force || exit 1
+AUTOPOINT='intltoolize --automake --copy' autoreconf -v --force --install || exit 1
 
 cd $ORIGDIR || exit $?
 $srcdir/configure "$@"
