@@ -8,8 +8,8 @@ xkb_symbols "modifiers" {
 
 partial hidden alphanumeric_keys
 xkb_symbols "common_keys" {
-    key <ESC>   { [    Escape, Escape, XF86Sleep, XF86PowerDown ] };
-    key <BKSP>  { [  Backspace, Delete, XF86Tools ] };
+    key <POWR>  { [    Escape, Escape, XF86Sleep, XF86PowerDown ] };
+    key <BKSP>  { [  BackSpace, Delete, XF86Tools ] };
     key <TAB>   { [       Tab,ISO_Left_Tab, Caps_Lock ] };
     key <UP>    { [        Up,      Prior, Prior ] };
     key <SPCE>  { [     space,      space,        XF86AudioRecord, nobreakspace ] };
