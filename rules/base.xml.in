@@ -32,6 +32,13 @@
     </model>
     <model>
       <configItem>
+        <name>planetgemini</name>
+        <_description>Planet Computers Gemini</_description>
+        <vendor>Planet</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>dell101</name>
         <_description>Dell 101-key PC</_description>
         <vendor>Dell</vendor>
