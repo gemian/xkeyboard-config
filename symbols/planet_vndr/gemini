@@ -100,3 +100,46 @@ xkb_symbols "us" {
     key <AB07>  { [         m,          M,    apostrophe,    masculine ] };
 
 };
+
+default  partial alphanumeric_keys
+xkb_symbols "se" {
+    include "planet_vndr/gemini(modifiers)"
+    include "planet_vndr/gemini(common_keys)"
+    include "planet_vndr/gemini(gb)"
+
+    name[Group1]="Gemini Swedish/Finnish";
+
+    key <AE01>  { [         1,     exclam,      section,    F1 ] };
+    key <AE02>  { [         2,   quotedbl,           at,    F2 ] };
+    key <AE03>  { [         3, numbersign,     sterling,    F3 ] };
+    key <AE04>  { [         4,   currency,       dollar,    F4 ] };
+    key <AE05>  { [         5,    percent,     EuroSign,    F5 ] };
+    key <AE06>  { [         6,  ampersand,     asterisk,    F6 ] };
+    key <AE07>  { [         7,      slash,    braceleft,    F7 ] };
+    key <AE08>  { [         8,  parenleft,  bracketleft,    F8 ] };
+    key <AE09>  { [         9, parenright, bracketright,    F9 ] };
+    key <AE10>  { [         0,      equal,   braceright,    F10 ] };
+
+    key <AD04>  { [         r,       R, dead_circumflex,    registered ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,    thorn ] };
+    key <AD06>  { [         y,          Y,         plus,    plusminus ] };
+    key <AD07>  { [         u,          U,        minus,    udiaeresis ] };
+    key <AD08>  { [         i,          I,        grave,    idotless ] };
+    key <AD09>  { [         o,          O,     question,    oslash ] };
+    key <AD10>  { [         p,          P,        aring,    Aring ] };
+
+    key <AC01>  { [         a,          A, XF86TaskPane,    ae ] };
+    key <AC02>  { [         s,          S,       ssharp,    dead_tilde ] };
+    key <AC05>  { [         g,          G,   underscore,    degree ] };
+    key <AC07>  { [         j,          J,         less,    guillemotleft ] };
+    key <AC08>  { [         k,          K,      greater,    guillemotright ] };
+    key <AC09>  { [         l,          L,    backslash,    dead_stroke ] };
+    key <AC11>  { [odiaeresis, Odiaeresis,   adiaeresis,    Adiaeresis ] };
+
+    key <AB01>  { [         z,          Z,          ezh,    EZH ] };
+    key <AB02>  { [         x,          X,          bar,    multiply ] };
+    key <AB07>  { [         m,          M,   apostrophe,    dead_acute ] };
+    key <AB09>  { [    period,      colon,        U263A,    division ] };
+
+    key <AB08>  { [     comma,  semicolon,   XF86Option,    dead_diaeresis ] };
+};
