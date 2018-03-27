@@ -8,14 +8,14 @@ xkb_symbols "modifiers" {
 
 partial hidden alphanumeric_keys
 xkb_symbols "common_keys" {
-    key <POWR>  { [    Escape, Escape, XF86Sleep, XF86PowerDown ] };
-    key <BKSP>  { [  BackSpace, Delete, XF86Tools ] };
-    key <TAB>   { [       Tab,ISO_Left_Tab, Caps_Lock ] };
-    key <UP>    { [        Up,      Prior, Prior ] };
-    key <SPCE>  { [     space,      space,        XF86AudioRecord, nobreakspace ] };
-    key <LEFT>  { [      Left,       Home, Home ] };
-    key <DOWN>  { [      Down,       Next, Next ] };
-    key <RGHT>  { [      Right,       End, End  ] };
+    key <POWR>  { [    Escape,       Escape,       XF86Sleep, XF86PowerDown ] };
+    key <BKSP>  { [ BackSpace,       Delete,       XF86Tools ] };
+    key <TAB>   { [       Tab, ISO_Left_Tab,       Caps_Lock ] };
+    key <UP>    { [        Up,        Prior,           Prior ] };
+    key <SPCE>  { [     space,        space, XF86AudioRecord,  nobreakspace ] };
+    key <LEFT>  { [      Left,         Home,            Home ] };
+    key <DOWN>  { [      Down,         Next,            Next ] };
+    key <RGHT>  { [      Right,         End,             End  ] };
 };
 
 partial hidden alphanumeric_keys
@@ -30,49 +30,49 @@ xkb_symbols "gb" {
 
     name[Group1]="Gemini English (UK)";
 
-    key <AE01>  { [         1,     exclam,          bar,   F1 ] };
+    key <AE01>  { [         1,     exclam,          bar,    F1 ] };
     key <AE02>  { [         2,   quotedbl,   numbersign,    F2 ] };
-    key <AE03>  { [         3,   sterling,    backslash,     F3 ] };
-    key <AE04>  { [         4,     dollar,     EuroSign,       F4 ] };
-    key <AE05>  { [         5,    percent,         less, F5 ] };
-    key <AE06>  { [         6, asciicircum,     greater,  F6 ] };
-    key <AE07>  { [         7,  ampersand,  bracketleft, F7 ] };
+    key <AE03>  { [         3,   sterling,    backslash,    F3 ] };
+    key <AE04>  { [         4,     dollar,     EuroSign,    F4 ] };
+    key <AE05>  { [         5,    percent,         less,    F5 ] };
+    key <AE06>  { [         6, asciicircum,     greater,    F6 ] };
+    key <AE07>  { [         7,  ampersand,  bracketleft,    F7 ] };
     key <AE08>  { [         8,   asterisk, bracketright,    F8 ] };
     key <AE09>  { [         9,  parenleft,    braceleft,    F9 ] };
-    key <AE10>  { [         0, parenright,   braceright,       F10 ] };
+    key <AE10>  { [         0, parenright,   braceright,   F10 ] };
 
     key <AD01>  { [         q,          Q,XF86AudioPlay,  Greek_OMEGA ] };
     key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
-    key <AD03>  { [         e,          E,XF86AudioNext,     trademark ] };
+    key <AD03>  { [         e,          E,XF86AudioNext,    trademark ] };
     key <AD04>  { [         r,          R,        Print,   registered ] };
     key <AD05>  { [         t,          T,XF86AudioMute,       Tslash ] };
     key <AD06>  { [         y,          Y,    leftarrow,          yen ] };
     key <AD07>  { [         u,          U,    downarrow,      uparrow ] };
-    key <AD08>  { [         i,          I,         plus,     plusminus ] };
+    key <AD08>  { [         i,          I,         plus,    plusminus ] };
     key <AD09>  { [         o,          O,        minus,     Ooblique ] };
     key <AD10>  { [         p,          P,        equal,        THORN ] };
 // enter
 
-    key <AC01>  { [         a,          A,    XF86TaskPane,           AE ] };
+    key <AC01>  { [         a,          A, XF86TaskPane,           AE ] };
     key <AC02>  { [         s,          S,       ssharp,      section ] };
-    key <AC03>  { [         d,          D,      XF86TopMenu,          ETH ] };
+    key <AC03>  { [         d,          D,  XF86TopMenu,          ETH ] };
     key <AC04>  { [         f,          F,      XF86UWB,  ordfeminine ] };
     key <AC05>  { [         g,          G,          eng,          ENG ] };
     key <AC06>  { [         h,          H,      hstroke,      Hstroke ] };
     key <AC07>  { [         j,          J,   underscore,    dead_horn ] };
-    key <AC08>  { [         k,          K,           at,    degree ] };
+    key <AC08>  { [         k,          K,           at,       degree ] };
     key <AC09>  { [         l,          L,    semicolon,      Lstroke ] };
     key <AC11>  { [apostrophe, asciitilde,        colon,   dead_caron ] };
 
 // lshift
-    key <AB01>  { [         z,          Z, guillemotleft,        less ] };
-    key <AB02>  { [         x,          X, guillemotright,    greater ] };
-    key <AB03>  { [         c,          C, XF86AudioLowerVolume, copyright ] };
-    key <AB04>  { [         v,          V, XF86AudioRaiseVolume, leftsinglequotemark ]   };
-    key <AB05>  { [         b,          B, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>  { [         n,          N, XF86MonBrightnessUp,     exclamdown ] };
-    key <AB07>  { [         m,          M,        grave,    masculine ] };
-    key <AB09>  { [    period,   question, U263A,   division ] };
+    key <AB01>  { [         z,          Z,        guillemotleft,                 less ] };
+    key <AB02>  { [         x,          X,       guillemotright,              greater ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume,            copyright ] };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ]   };
+    key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,           exclamdown ] };
+    key <AB07>  { [         m,          M,                grave,            masculine ] };
+    key <AB09>  { [    period,   question,                U263A,             division ] };
 // rshift
 
 // lctrl
@@ -83,28 +83,24 @@ xkb_symbols "gb" {
 
 default  partial alphanumeric_keys
 xkb_symbols "us" {
-    include "planet_vndr/gemini(modifiers)"
-    include "planet_vndr/gemini(common_keys)"
     include "planet_vndr/gemini(gb)"
 
     name[Group1]="Gemini English (US)";
 
     key <AE01>  { [         1,     exclam,   asciitilde,   F1 ] };
-    key <AE02>  { [         2,         at,        grave,    F2 ] };
-    key <AE03>  { [         3, numbersign,     sterling,     F3 ] };
+    key <AE02>  { [         2,         at,        grave,   F2 ] };
+    key <AE03>  { [         3, numbersign,     sterling,   F3 ] };
     
-    key <AC08>  { [         k,          K,    semicolon,    degree ] };
-    key <AC09>  { [         l,          L,     quotedbl,      Lstroke ] };
-    key <AC11>  { [ backslash,        bar,        colon,   dead_caron ] };
+    key <AC08>  { [         k,          K,    semicolon,     degree ] };
+    key <AC09>  { [         l,          L,     quotedbl,    Lstroke ] };
+    key <AC11>  { [ backslash,        bar,        colon, dead_caron ] };
     
-    key <AB07>  { [         m,          M,    apostrophe,    masculine ] };
+    key <AB07>  { [         m,          M,    apostrophe, masculine ] };
 
 };
 
 default  partial alphanumeric_keys
 xkb_symbols "se" {
-    include "planet_vndr/gemini(modifiers)"
-    include "planet_vndr/gemini(common_keys)"
     include "planet_vndr/gemini(gb)"
 
     name[Group1]="Gemini Swedish/Finnish";
@@ -118,28 +114,104 @@ xkb_symbols "se" {
     key <AE07>  { [         7,      slash,    braceleft,    F7 ] };
     key <AE08>  { [         8,  parenleft,  bracketleft,    F8 ] };
     key <AE09>  { [         9, parenright, bracketright,    F9 ] };
-    key <AE10>  { [         0,      equal,   braceright,    F10 ] };
+    key <AE10>  { [         0,      equal,   braceright,   F10 ] };
 
-    key <AD04>  { [         r,       R, dead_circumflex,    registered ] };
-    key <AD05>  { [         t,          T,XF86AudioMute,    thorn ] };
-    key <AD06>  { [         y,          Y,         plus,    plusminus ] };
-    key <AD07>  { [         u,          U,        minus,    udiaeresis ] };
-    key <AD08>  { [         i,          I,        grave,    idotless ] };
-    key <AD09>  { [         o,          O,     question,    oslash ] };
-    key <AD10>  { [         p,          P,        aring,    Aring ] };
+    key <AD04>  { [         r,       R, dead_circumflex, registered ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,      thorn ] };
+    key <AD06>  { [         y,          Y,         plus,  plusminus ] };
+    key <AD07>  { [         u,          U,        minus, udiaeresis ] };
+    key <AD08>  { [         i,          I,        grave,   idotless ] };
+    key <AD09>  { [         o,          O,     question,     oslash ] };
+    key <AD10>  { [         p,          P,        aring,      Aring ] };
 
-    key <AC01>  { [         a,          A, XF86TaskPane,    ae ] };
-    key <AC02>  { [         s,          S,       ssharp,    dead_tilde ] };
-    key <AC05>  { [         g,          G,   underscore,    degree ] };
-    key <AC07>  { [         j,          J,         less,    guillemotleft ] };
-    key <AC08>  { [         k,          K,      greater,    guillemotright ] };
+    key <AC01>  { [         a,          A, XF86TaskPane,             ae ] };
+    key <AC02>  { [         s,          S,       ssharp,     dead_tilde ] };
+    key <AC05>  { [         g,          G,   underscore,         degree ] };
+    key <AC07>  { [         j,          J,         less,  guillemotleft ] };
+    key <AC08>  { [         k,          K,      greater, guillemotright ] };
     key <AC09>  { [         l,          L,    backslash,    dead_stroke ] };
-    key <AC11>  { [odiaeresis, Odiaeresis,   adiaeresis,    Adiaeresis ] };
+    key <AC11>  { [odiaeresis, Odiaeresis,   adiaeresis,     Adiaeresis ] };
 
-    key <AB01>  { [         z,          Z,          ezh,    EZH ] };
+    key <AB01>  { [         z,          Z,          ezh,         EZH ] };
     key <AB02>  { [         x,          X,          bar,    multiply ] };
-    key <AB07>  { [         m,          M,   apostrophe,    dead_acute ] };
+    key <AB07>  { [         m,          M,   apostrophe,  dead_acute ] };
     key <AB09>  { [    period,      colon,        U263A,    division ] };
 
-    key <AB08>  { [     comma,  semicolon,   XF86Option,    dead_diaeresis ] };
+    key <AB08>  { [     comma,  semicolon,   XF86Option, dead_diaeresis ] };
+};
+
+default  partial alphanumeric_keys
+xkb_symbols "de" {
+    include "planet_vndr/gemini(gb)"
+
+    name[Group1]="Gemini German";
+
+    key <AE01>  { [         1,    exclam,   asciitilde,   F1 ] };
+    key <AE03>  { [         3,     U00A7,    backslash,   F3 ] };
+    key <AE06>  { [         6, ampersand,      greater,   F6 ] };
+    key <AE07>  { [         7,     slash,    braceleft,   F7 ] };
+    key <AE08>  { [         8, parenleft,  bracketleft,   F8 ] };
+    key <AE09>  { [         9,parenright, bracketright,   F9 ] };
+    key <AE10>  { [         0,     equal,   braceright,  F10 ] };
+
+    key <AD04>  { [         r,          R,        bar,   registered ] };
+    key <AD06>  { [         z,          Z,      Print,         less ] };
+    key <AD07>  { [         u,          U,      U00FC,        U00DC ] };
+    key <AD08>  { [         i,          I,      grave,    plusminus ] };
+    key <AD09>  { [         o,          O,      U00F6,        U00D6 ] };
+    key <AD10>  { [         p,          P,      equal, XF86TaskPane ] };
+
+    key <AC01>  { [         a,          A,      U00E4,       U00C4 ] };
+    key <AC02>  { [         s,          S,     ssharp,     section ] };
+    key <AC05>  { [         g,          G, underscore,         ENG ] };
+    key <AC07>  { [         j,          J, apostrophe,   dead_horn ] };
+    key <AC08>  { [         k,          K,      minus,      degree ] };
+    key <AC09>  { [         l,          L,       plus,     Lstroke ] };
+    key <AC11>  { [  question,   asterisk,         at,  dead_caron ] };
+
+    key <AB01>  { [         y,          Y, asciicircum,       less ] };
+    key <AB02>  { [         x,          X,      degree,    greater ] };
+    key <AB07>  { [         m,          M,    Greek_mu,      U039C ] };
+    key <AB09>  { [    period,      colon,       U263A,   division ] };
+
+    key <AB08>  { [     comma,    semicolon, XF86Option,  multiply ] };
+};
+
+default  partial alphanumeric_keys
+xkb_symbols "pt" {
+    include "planet_vndr/gemini(gb)"
+
+    name[Group1]="Gemini Portuguese";
+
+    key <AE01>  { [         1,     exclam,          bar,    F1 ] };
+    key <AE02>  { [         2,   quotedbl,           at,    F2 ] };
+    key <AE03>  { [         3, numbersign,     sterling,    F3 ] };
+    key <AE04>  { [         4,     dollar,   asciitilde,    F4 ] };
+    key <AE05>  { [         5,    percent,     EuroSign,    F5 ] };
+    key <AE06>  { [         6,  ampersand,     asterisk,    F6 ] };
+    key <AE07>  { [         7,      slash,    braceleft,    F7 ] };
+    key <AE08>  { [         8,  parenleft,  bracketleft,    F8 ] };
+    key <AE09>  { [         9, parenright, bracketright,    F9 ] };
+    key <AE10>  { [         0,      equal,   braceright,   F10 ] };
+
+    key <AD06>  { [         y,          Y,      U00A2,          yen ] };
+    key <AD07>  { [         u,          U,       plus,      uparrow ] };
+    key <AD08>  { [         i,          I,      minus,    plusminus ] };
+    key <AD09>  { [         o,          O,   question,     Ooblique ] };
+    key <AD10>  { [         p,          P, apostrophe,        grave ] };
+
+    key <AC02>  { [         s,          S,   backslash,      section ] };
+    key <AC05>  { [         g,          G, asciicircum,          ENG ] };
+    key <AC06>  { [         h,          H,       U226A,      Hstroke ] };
+    key <AC07>  { [         j,          J,       U226B,    dead_horn ] };
+    key <AC08>  { [         k,          K,  underscore,       degree ] };
+    key <AC09>  { [         l,          L,       U00BA,      Lstroke ] };
+    key <AC11>  { [     U00E7,      U00C7,       U00AA,   dead_caron ] };
+
+    key <AB01>  { [         z,          Z,    less,       less ] };
+    key <AB02>  { [         x,          X, greater,    greater ] };
+    key <AB07>  { [         m,          M,   U20A2,  masculine ] };
+    key <AB09>  { [    period,      colon,   U263A,   division ] };
+
+    key <AB08>  { [     comma,  semicolon, XF86Option,   multiply ] };
 };
