@@ -68,7 +68,7 @@ xkb_symbols "gb" {
     key <AB01>  { [         z,          Z,        guillemotleft,                 less ] };
     key <AB02>  { [         x,          X,       guillemotright,              greater ] };
     key <AB03>  { [         c,          C, XF86AudioLowerVolume,            copyright ] };
-    key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ]   };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ] };
     key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
     key <AB06>  { [         n,          N,  XF86MonBrightnessUp,           exclamdown ] };
     key <AB07>  { [         m,          M,                grave,            masculine ] };
@@ -282,18 +282,18 @@ xkb_symbols "ru" {
     key <AC09>	{ symbols[Group1] = [     Cyrillic_de,      Cyrillic_DE,      backslash,         Lstroke ] };
     key <AC11>	{ symbols[Group1] = [      apostrophe,       asciitilde,          colon,      dead_caron ] };
 
-    key <AC01>	{ symbols[Group2] = [          a,          A, XF86TaskPane,           AE ] };
-    key <AC02>	{ symbols[Group2] = [          s,          S,            w,      section ] };
-    key <AC03>	{ symbols[Group2] = [          d,          D,  XF86TopMenu,          ETH ] };
-    key <AC04>	{ symbols[Group2] = [          f,          F,      XF86UWB,  ordfeminine ] };
-    key <AC05>	{ symbols[Group2] = [          g,          G, Cyrillic_zhe, Cyrillic_ZHE ] };
-    key <AC06>	{ symbols[Group2] = [          h,          H,   Cyrillic_e,   Cyrillic_E ] };
-    key <AC07>	{ symbols[Group2] = [          j,          J,  Cyrillic_yu,  Cyrillic_YU ] };
-    key <AC08>	{ symbols[Group2] = [          k,          K,  Cyrillic_io,  Cyrillic_IO ] };
-    key <AC09>	{ symbols[Group2] = [          l,          L,    backslash,      Lstroke ] };
-    key <AC11>	{ symbols[Group2] = [ apostrophe, asciitilde,        colon,   dead_caron ] };
+    key <AC01>	{ symbols[Group2] = [          a,          A,   XF86TaskPane,              AE ] };
+    key <AC02>	{ symbols[Group2] = [          s,          S, Cyrillic_shcha, Cyrillic_SCHCHA ] };
+    key <AC03>	{ symbols[Group2] = [          d,          D,    XF86TopMenu,             ETH ] };
+    key <AC04>	{ symbols[Group2] = [          f,          F,        XF86UWB,     ordfeminine ] };
+    key <AC05>	{ symbols[Group2] = [          g,          G,   Cyrillic_zhe,    Cyrillic_ZHE ] };
+    key <AC06>	{ symbols[Group2] = [          h,          H,     Cyrillic_e,      Cyrillic_E ] };
+    key <AC07>	{ symbols[Group2] = [          j,          J,    Cyrillic_yu,     Cyrillic_YU ] };
+    key <AC08>	{ symbols[Group2] = [          k,          K,    Cyrillic_io,     Cyrillic_IO ] };
+    key <AC09>	{ symbols[Group2] = [          l,          L,      backslash,         Lstroke ] };
+    key <AC11>	{ symbols[Group2] = [ apostrophe, asciitilde,          colon,      dead_caron ] };
 
-    // 3. row
+    // 4. row
     key <AB01>	{ symbols[Group1] = [       Cyrillic_ya,       Cyrillic_YA,                   bar,        guillemotleft ] };
     key <AB02>	{ symbols[Group1] = [      Cyrillic_che,      Cyrillic_CHE,                 Print,       guillemotright ] };
     key <AB03>	{ symbols[Group1] = [       Cyrillic_es,       Cyrillic_ES,  XF86AudioLowerVolume,            copyright ] };
@@ -316,3 +316,104 @@ xkb_symbols "ru" {
     key <AB08>  { symbols[Group2] = [     comma,      semicolon, XF86Option,   multiply ] };
 
 };
+
+default  partial alphanumeric_keys
+xkb_symbols "jp" {
+    include "planet_vndr/gemini(gb)"
+    include "group(shifts_toggle)"
+
+    name[Group1] = "Gemini Japanese (Kana)";
+    name[Group2] = "Gemini English";
+
+    // 1. row
+    key <AE01>	{ symbols[Group1] = [   kana_NU,      exclam,           at,    F1 ] };
+    key <AE02>	{ symbols[Group1] = [   kana_FU,    quotedbl,   numbersign,    F2 ] };
+    key <AE03>	{ symbols[Group1] = [    kana_A,      kana_a,    backslash,    F3 ] };
+    key <AE04>	{ symbols[Group1] = [    kana_U,      kana_u,     EuroSign,    F4 ] };
+    key <AE05>	{ symbols[Group1] = [    kana_E,      kana_e,         less,    F5 ] };
+    key <AE06>	{ symbols[Group1] = [    kana_O,      kana_o,      greater,    F6 ] };
+    key <AE07>	{ symbols[Group1] = [   kana_YA,     kana_ya,  bracketleft,      braceleft ] };
+    key <AE08>	{ symbols[Group1] = [   kana_YU,     kana_yu, bracketright,     braceright ] };
+    key <AE09>	{ symbols[Group1] = [   kana_YO,     kana_yo,      kana_HO,             F9 ] };
+    key <AE10>	{ symbols[Group1] = [   kana_WA,     kana_WO,      kana_HE, prolongedsound ] };
+
+    key <AE01>	{ symbols[Group2] = [         1,      exclam,          bar,    F1 ] };
+    key <AE02>	{ symbols[Group2] = [         2,    quotedbl,        grave,    F2 ] };
+    key <AE03>	{ symbols[Group2] = [         3,  numbersign,    backslash,    F3 ] };
+    key <AE04>	{ symbols[Group2] = [         4,      dollar,          yen,    F4 ] };
+    key <AE05>	{ symbols[Group2] = [         5,     percent,         less,    F5 ] };
+    key <AE06>	{ symbols[Group2] = [         6,   ampersand,      greater,    F6 ] };
+    key <AE07>	{ symbols[Group2] = [         7,  apostrophe,  bracketleft,      braceleft ] };
+    key <AE08>	{ symbols[Group2] = [         8,   parenleft, bracketright,     braceright ] };
+    key <AE09>	{ symbols[Group2] = [         9,  parenright,      kana_HO,             F9 ] };
+    key <AE10>	{ symbols[Group2] = [         0,  asciitilde,      kana_HE, prolongedsound ] };
+
+    // 2. row
+    key <AD01>	{ symbols[Group1] = [    kana_TA,             kana_TA,            ssharp,         Greek_OMEGA ] };
+    key <AD02>	{ symbols[Group1] = [    kana_TE,             kana_TE,     XF86AudioPrev,             Lstroke ] };
+    key <AD03>	{ symbols[Group1] = [     kana_I,              kana_i,      F86AudioNext,           trademark ] };
+    key <AD04>	{ symbols[Group1] = [    kana_SU,             kana_SU,             Print,          registered ] };
+    key <AD05>	{ symbols[Group1] = [    kana_KA,             kana_KA,     XF86AudioMute,              Tslash ] };
+    key <AD06>	{ symbols[Group1] = [     kana_N,              kana_N,         backslash,           leftarrow ] };
+    key <AD07>	{ symbols[Group1] = [    kana_NA,             kana_NA,         downarrow,             uparrow ] };
+    key <AD08>	{ symbols[Group1] = [    kana_NI,             kana_NI,             equal,           plusminus ] };
+    key <AD09>	{ symbols[Group1] = [    kana_RA, kana_openingbracket,       voicedsound,            Ooblique ] };
+    key <AD10>	{ symbols[Group1] = [    kana_SE, kana_closingbracket,   semivoicedsound,               THORN ] };
+
+    key <AD01>	{ symbols[Group2] = [	q,			Q,            ssharp,         Greek_OMEGA ] };
+    key <AD02>	{ symbols[Group2] = [	w,			W,     XF86AudioPrev,             Lstroke ] };
+    key <AD03>	{ symbols[Group2] = [	e,			E,      F86AudioNext,           trademark ] };
+    key <AD04>	{ symbols[Group2] = [	r,			R,             Print,          registered ] };
+    key <AD05>	{ symbols[Group2] = [	t,			T,     XF86AudioMute,              Tslash ] };
+    key <AD06>	{ symbols[Group2] = [	y,			Y,         backslash,           leftarrow ] };
+    key <AD07>	{ symbols[Group2] = [	u,			U,         downarrow,             uparrow ] };
+    key <AD08>	{ symbols[Group2] = [	i,			I,             equal,           plusminus ] };
+    key <AD09>	{ symbols[Group2] = [	o,			O,       voicedsound,            Ooblique ] };
+    key <AD10>	{ symbols[Group2] = [	p,			P,   semivoicedsound,               THORN ] };
+
+    // 3. row
+    key <AC01>	{ symbols[Group1] = [ kana_CHI,   kana_CHI, XF86TaskPane,           AE ] };
+    key <AC02>	{ symbols[Group1] = [  kana_TO,    kana_TO, F86AudioPlay,      section ] };
+    key <AC03>	{ symbols[Group1] = [ kana_SHI,   kana_SHI,  XF86TopMenu,          ETH ] };
+    key <AC04>	{ symbols[Group1] = [  kana_HA,    kana_HA,      XF86UWB,  ordfeminine ] };
+    key <AC05>	{ symbols[Group1] = [  kana_KI,    kana_KI,        U263A,     division ] };
+    key <AC06>	{ symbols[Group1] = [  kana_KU,    kana_KU,   underscore,       degree ] };
+    key <AC07>	{ symbols[Group1] = [  kana_MA,    kana_MA,           at,          ENG ] };
+    key <AC08>	{ symbols[Group1] = [  kana_NO,    kana_NO,     question,      Hstroke ] };
+    key <AC09>	{ symbols[Group1] = [  kana_RI,    kana_KE,    semicolon,      Lstroke ] };
+    key <AC11>	{ symbols[Group1] = [  kana_RE,    kana_MU,   XF86Option,   dead_caron ] };
+
+    key <AC01>	{ symbols[Group2] = [          a,          A, XF86TaskPane,           AE ] };
+    key <AC02>	{ symbols[Group2] = [          s,          S, F86AudioPlay,      section ] };
+    key <AC03>	{ symbols[Group2] = [          d,          D,  XF86TopMenu,          ETH ] };
+    key <AC04>	{ symbols[Group2] = [          f,          F,      XF86UWB,  ordfeminine ] };
+    key <AC05>	{ symbols[Group2] = [          g,          G,        U263A,     division ] };
+    key <AC06>	{ symbols[Group2] = [          h,          H,   underscore,       degree ] };
+    key <AC07>	{ symbols[Group2] = [          j,          J,           at,          ENG ] };
+    key <AC08>	{ symbols[Group2] = [          k,          K,     question,      Hstroke ] };
+    key <AC09>	{ symbols[Group2] = [          l,          L,    semicolon,      Lstroke ] };
+    key <AC11>	{ symbols[Group2] = [      colon,   asterisk,   XF86Option,   dead_caron ] };
+
+    // 4. row
+    key <AB01>	{ symbols[Group1] = [   kana_TSU,      kana_tsu,                   bar,        guillemotleft ] };
+    key <AB02>	{ symbols[Group1] = [    kana_SA,       kana_SA,                 Print,       guillemotright ] };
+    key <AB03>	{ symbols[Group1] = [    kana_SO,       kana_SO,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group1] = [    kana_HI,       kana_HI,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group1] = [    kana_KO,       kana_KO, XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>	{ symbols[Group1] = [    kana_MI,       kana_MI,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB07>	{ symbols[Group1] = [    kana_MO,    kana_comma,               kana_ME,            masculine ] };
+    key <AB09>	{ symbols[Group1] = [    kana_RU, kana_fullstop,               kana_RO,             division ] };
+
+    key <AB01>	{ symbols[Group2] = [            z,            Z,           asciicircum,        guillemotleft ] };
+    key <AB02>	{ symbols[Group2] = [            x,            X,             dead_horn,       guillemotright ] };
+    key <AB03>	{ symbols[Group2] = [            c,            C,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group2] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB07>	{ symbols[Group2] = [            m,            M,               kana_ME,            masculine ] };
+    key <AB09>	{ symbols[Group2] = [       period,         plus,               kana_RO,             division ] };
+
+    key <AB08>  { symbols[Group1] = [   kana_NE,       kana_comma, XF86Option,   multiply ] };
+    key <AB08>  { symbols[Group2] = [     comma,            minus, XF86Option,   multiply ] };
+};
+
