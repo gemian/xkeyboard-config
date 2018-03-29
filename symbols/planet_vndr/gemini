@@ -191,7 +191,6 @@ xkb_symbols "at" {
     name[Group1]="Gemini Austrian";
 };
 
-
 default  partial alphanumeric_keys
 xkb_symbols "fr" {
     include "planet_vndr/gemini(gb)"
@@ -241,6 +240,13 @@ xkb_symbols "fr" {
     key <AB09>  { [     colon,      slash,                U263A,        dead_abovedot ] };
 
     key <AB08>  { [     comma,   question, XF86Option,   multiply ] };
+};
+
+default  partial alphanumeric_keys
+xkb_symbols "be" {
+    include "planet_vndr/gemini(fr)"
+
+    name[Group1]="Gemini Belgian";
 };
 
 default  partial alphanumeric_keys
