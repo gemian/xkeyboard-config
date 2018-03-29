@@ -417,3 +417,103 @@ xkb_symbols "jp" {
     key <AB08>  { symbols[Group2] = [     comma,            minus, XF86Option,   multiply ] };
 };
 
+default  partial alphanumeric_keys
+xkb_symbols "ara" {
+    include "planet_vndr/gemini(gb)"
+    include "group(shifts_toggle)"
+
+    name[Group1] = "Gemini Arabic";
+    name[Group2] = "Gemini English";
+
+    // 1. row - Note Persian numbers on Fn+Shift+number
+    key <AE01>	{ symbols[Group1] = [         0x1000661,      exclam,  Arabic_thal,    0x10006f1 ] };
+    key <AE02>	{ symbols[Group1] = [         0x1000662,          at,   numbersign,    0x10006f2 ] };
+    key <AE03>	{ symbols[Group1] = [         0x1000663,  numbersign,    backslash,    0x10006f3 ] };
+    key <AE04>	{ symbols[Group1] = [         0x1000664,      dollar,     EuroSign,    0x10006f4 ] };
+    key <AE05>	{ symbols[Group1] = [         0x1000665,     percent,         less,    0x10006f5 ] };
+    key <AE06>	{ symbols[Group1] = [         0x1000666, asciicircum,      greater,    0x10006f6 ] };
+    key <AE07>	{ symbols[Group1] = [         0x1000667,   ampersand,  bracketleft,    0x10006f7 ] };
+    key <AE08>	{ symbols[Group1] = [         0x1000668,    asterisk, bracketright,    0x10006f8 ] };
+    key <AE09>	{ symbols[Group1] = [         0x1000669,   parenleft,        minus,    0x10006f9 ] };
+    key <AE10>	{ symbols[Group1] = [         0x1000660,  parenright,         plus,    0x10006f0 ] };
+
+    key <AE01>	{ symbols[Group2] = [         1,      exclam,  Arabic_thal,    F1 ] };
+    key <AE02>	{ symbols[Group2] = [         2,          at,   numbersign,    F2 ] };
+    key <AE03>	{ symbols[Group2] = [         3,  numbersign,    backslash,    F3 ] };
+    key <AE04>	{ symbols[Group2] = [         4,      dollar,     EuroSign,    F4 ] };
+    key <AE05>	{ symbols[Group2] = [         5,     percent,         less,    F5 ] };
+    key <AE06>	{ symbols[Group2] = [         6, asciicircum,      greater,    F6 ] };
+    key <AE07>	{ symbols[Group2] = [         7,   ampersand,  bracketleft,    F7 ] };
+    key <AE08>	{ symbols[Group2] = [         8,    asterisk, bracketright,    F8 ] };
+    key <AE09>	{ symbols[Group2] = [         9,   parenleft,        minus,    F9 ] };
+    key <AE10>	{ symbols[Group2] = [         0,  parenright,         plus,   F10 ] };
+
+    // 2. row
+    key <AD01>	{ symbols[Group1] = [   Arabic_dad,          Arabic_fatha,    XF86AudioPlay,  0x10006cc ] };
+    key <AD02>	{ symbols[Group1] = [   Arabic_sad,       Arabic_fathatan,    XF86AudioPrev,  0x1000653 ] };
+    key <AD03>	{ symbols[Group1] = [  Arabic_theh,          Arabic_damma,     F86AudioNext,  0x1000698 ] };
+    key <AD04>	{ symbols[Group1] = [   Arabic_qaf,       Arabic_dammatan,            Print,  0x1000670 ] };
+    key <AD05>	{ symbols[Group1] = [   Arabic_feh,             0x100fef9,    XF86AudioMute,  0x10006a4 ] };
+    key <AD06>	{ symbols[Group1] = [ Arabic_ghain, Arabic_hamzaunderalef,       underscore,  0x100200c ] };
+    key <AD07>	{ symbols[Group1] = [   Arabic_ain,  rightsinglequotemark,         quotedbl,  0x1000654 ] };
+    key <AD08>	{ symbols[Group1] = [    Arabic_ha,              division,            quote,  0x10006a9 ] };
+    key <AD09>	{ symbols[Group1] = [  Arabic_khah,              multiply,      Arabic_jeem,  0x10006af ] };
+    key <AD10>	{ symbols[Group1] = [   Arabic_hah,      Arabic_semicolon,       Arabic_dal,  0x1000686 ] };
+
+    key <AD01>	{ symbols[Group2] = [	q,			Q,     XF86AudioPlay,       Greek_OMEGA ] };
+    key <AD02>	{ symbols[Group2] = [	w,			W,     XF86AudioPrev,           Lstroke ] };
+    key <AD03>	{ symbols[Group2] = [	e,			E,      F86AudioNext,         trademark ] };
+    key <AD04>	{ symbols[Group2] = [	r,			R,             Print,        registered ] };
+    key <AD05>	{ symbols[Group2] = [	t,			T,     XF86AudioMute,            Tslash ] };
+    key <AD06>	{ symbols[Group2] = [	y,			Y,        underscore,               yen ] };
+    key <AD07>	{ symbols[Group2] = [	u,			U,          quotedbl,           uparrow ] };
+    key <AD08>	{ symbols[Group2] = [	i,			I,             quote,         plusminus ] };
+    key <AD09>	{ symbols[Group2] = [	o,			O,       Arabic_jeem,          Ooblique ] };
+    key <AD10>	{ symbols[Group2] = [	p,			P,        Arabic_dal,             THORN ] };
+
+    // 3. row
+    key <AC01>	{ symbols[Group1] = [  Arabic_sheen,       Arabic_kasra,         XF86TaskPane,            AE ] };
+    key <AC02>	{ symbols[Group1] = [   Arabic_seen,    Arabic_kasratan,               ssharp,       section ] };
+    key <AC03>	{ symbols[Group1] = [    Arabic_yeh,       bracketright,          XF86TopMenu,           ETH ] };
+    key <AC04>	{ symbols[Group1] = [    Arabic_beh,        bracketleft,              XF86UWB,     0x100067e ] };
+    key <AC05>	{ symbols[Group1] = [    Arabic_lam,          0x100fef7, Arabic_question_mark,           ENG ] };
+    key <AC06>	{ symbols[Group1] = [   Arabic_alef, Arabic_hamzaonalef,        Arabic_shadda,       Hstroke ] };
+    key <AC07>	{ symbols[Group1] = [    Arabic_teh,     Arabic_tatweel,             sterling,     dead_horn ] };
+    key <AC08>	{ symbols[Group1] = [   Arabic_noon,       Arabic_comma,             question,        degree ] };
+    key <AC09>	{ symbols[Group1] = [   Arabic_meem,              slash,                  bar,       Lstroke ] };
+    key <AC11>	{ symbols[Group1] = [    Arabic_kaf,              colon,           Arabic_tah,    dead_caron ] };
+
+    key <AC01>	{ symbols[Group2] = [          a,          A,         XF86TaskPane,              AE ] };
+    key <AC02>	{ symbols[Group2] = [          s,          S,               ssharp,         section ] };
+    key <AC03>	{ symbols[Group2] = [          d,          D,          XF86TopMenu,             ETH ] };
+    key <AC04>	{ symbols[Group2] = [          f,          F,              XF86UWB,     ordfeminine ] };
+    key <AC05>	{ symbols[Group2] = [          g,          G, Arabic_question_mark,             ENG ] };
+    key <AC06>	{ symbols[Group2] = [          h,          H,              hstroke,         Hstroke ] };
+    key <AC07>	{ symbols[Group2] = [          j,          J,             sterling,       dead_horn ] };
+    key <AC08>	{ symbols[Group2] = [          k,          K,             question,          degree ] };
+    key <AC09>	{ symbols[Group2] = [          l,          L,                  bar,         Lstroke ] };
+    key <AC11>	{ symbols[Group2] = [ Arabic_kaf,      colon,           Arabic_tah,      dead_caron ] };
+
+    // 4. row
+    key <AB01>	{ symbols[Group1] = [  Arabic_hamzaonyeh,         asciitilde,         guillemotleft,                 less ] };
+    key <AB02>	{ symbols[Group1] = [       Arabic_hamza,       Arabic_sukun,        guillemotright,              greater ] };
+    key <AB03>	{ symbols[Group1] = [  Arabic_hamzaonwaw,         braceright,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group1] = [          Arabic_ra,          braceleft,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group1] = [          0x100fefb,          0x100fef5, XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>	{ symbols[Group1] = [ Arabic_alefmaksura, Arabic_maddaonalef,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB07>	{ symbols[Group1] = [  Arabic_tehmarbuta,         apostrophe,            Arabic_zah,            masculine ] };
+    key <AB09>	{ symbols[Group1] = [        Arabic_zain,             period,                 U263A,             division ] };
+
+    key <AB01>	{ symbols[Group2] = [            z,            Z,         guillemotleft,                 less ] };
+    key <AB02>	{ symbols[Group2] = [            x,            X,        guillemotright,              greater ] };
+    key <AB03>	{ symbols[Group2] = [            c,            C,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group2] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB07>	{ symbols[Group2] = [            m,            M,            Arabic_zah,            masculine ] };
+    key <AB09>	{ symbols[Group2] = [  Arabic_zain,       period,                 U263A,             division ] };
+
+    key <AB08>  { symbols[Group1] = [     Arabic_waw,      comma, XF86Option,   multiply ] };
+    key <AB08>  { symbols[Group2] = [     Arabic_waw,      comma, XF86Option,   multiply ] };
+
+};
