@@ -45,8 +45,8 @@ xkb_symbols "gb" {
     key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
     key <AD03>  { [         e,          E,XF86AudioNext,    trademark ] };
     key <AD04>  { [         r,          R,        Print,   registered ] };
-    key <AD05>  { [         t,          T,XF86AudioMute,       Tslash ] };
-    key <AD06>  { [         y,          Y,    leftarrow,          yen ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,          yen ] };
+    key <AD06>  { [         y,          Y,    leftarrow,   rightarrow ] };
     key <AD07>  { [         u,          U,    downarrow,      uparrow ] };
     key <AD08>  { [         i,          I,         plus,    plusminus ] };
     key <AD09>  { [         o,          O,        minus,     Ooblique ] };
@@ -59,10 +59,10 @@ xkb_symbols "gb" {
     key <AC04>  { [         f,          F,      XF86UWB,  ordfeminine ] };
     key <AC05>  { [         g,          G,          eng,          ENG ] };
     key <AC06>  { [         h,          H,      hstroke,      Hstroke ] };
-    key <AC07>  { [         j,          J,   underscore,    dead_horn ] };
+    key <AC07>  { [         j,          J,   underscore,   dead_grave ] };
     key <AC08>  { [         k,          K,           at,       degree ] };
-    key <AC09>  { [         l,          L,    semicolon,      Lstroke ] };
-    key <AC11>  { [apostrophe, asciitilde,        colon,   dead_caron ] };
+    key <AC09>  { [         l,          L,    semicolon,   dead_caron ] };
+    key <AC11>  { [apostrophe, asciitilde,        colon,   dead_acute ] };
 
 // lshift
     key <AB01>  { [         z,          Z,        guillemotleft,                 less ] };
@@ -103,7 +103,7 @@ default  partial alphanumeric_keys
 xkb_symbols "se" {
     include "planet_vndr/gemini(gb)"
 
-    name[Group1]="Gemini Swedish/Finnish";
+    name[Group1]="Gemini Swedish";
 
     key <AE01>  { [         1,     exclam,      section,    F1 ] };
     key <AE02>  { [         2,   quotedbl,           at,    F2 ] };
@@ -138,6 +138,13 @@ xkb_symbols "se" {
     key <AB09>  { [    period,      colon,        U263A,    division ] };
 
     key <AB08>  { [     comma,  semicolon,   XF86Option, dead_diaeresis ] };
+};
+
+default  partial alphanumeric_keys
+xkb_symbols "fi" {
+    include "planet_vndr/gemini(se)"
+
+    name[Group1]="Gemini Finnish";
 };
 
 default  partial alphanumeric_keys
