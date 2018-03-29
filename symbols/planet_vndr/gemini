@@ -53,16 +53,16 @@ xkb_symbols "gb" {
     key <AD10>  { [         p,          P,        equal,        THORN ] };
 // enter
 
-    key <AC01>  { [         a,          A, XF86TaskPane,           AE ] };
-    key <AC02>  { [         s,          S,       ssharp,      section ] };
-    key <AC03>  { [         d,          D,  XF86TopMenu,          ETH ] };
-    key <AC04>  { [         f,          F,      XF86UWB,  ordfeminine ] };
-    key <AC05>  { [         g,          G,          eng,          ENG ] };
-    key <AC06>  { [         h,          H,      hstroke,      Hstroke ] };
-    key <AC07>  { [         j,          J,   underscore,   dead_grave ] };
-    key <AC08>  { [         k,          K,           at,       degree ] };
-    key <AC09>  { [         l,          L,    semicolon,   dead_caron ] };
-    key <AC11>  { [apostrophe, asciitilde,        colon,   dead_acute ] };
+    key <AC01>  { [         a,          A, XF86TaskPane,              AE ] };
+    key <AC02>  { [         s,          S,       ssharp,         section ] };
+    key <AC03>  { [         d,          D,  XF86TopMenu,             ETH ] };
+    key <AC04>  { [         f,          F,      XF86UWB,     ordfeminine ] };
+    key <AC05>  { [         g,          G,          eng,             ENG ] };
+    key <AC06>  { [         h,          H,     division,  dead_diaeresis ] };
+    key <AC07>  { [         j,          J,   underscore, dead_circumflex ] };
+    key <AC08>  { [         k,          K,           at,          degree ] };
+    key <AC09>  { [         l,          L,    semicolon,      dead_caron ] };
+    key <AC11>  { [apostrophe, asciitilde,        colon,      dead_acute ] };
 
 // lshift
     key <AB01>  { [         z,          Z,        guillemotleft,                 less ] };
@@ -71,8 +71,8 @@ xkb_symbols "gb" {
     key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ] };
     key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
     key <AB06>  { [         n,          N,  XF86MonBrightnessUp,           exclamdown ] };
-    key <AB07>  { [         m,          M,                grave,            masculine ] };
-    key <AB09>  { [    period,   question,                U263A,             division ] };
+    key <AB07>  { [         m,          M,                grave,           dead_grave ] };
+    key <AB09>  { [    period,   question,                U263A,        dead_abovedot ] };
 // rshift
 
 // lctrl
@@ -92,10 +92,10 @@ xkb_symbols "us" {
     key <AE03>  { [         3, numbersign,     sterling,   F3 ] };
     
     key <AC08>  { [         k,          K,    semicolon,     degree ] };
-    key <AC09>  { [         l,          L,     quotedbl,    Lstroke ] };
-    key <AC11>  { [ backslash,        bar,        colon, dead_caron ] };
+    key <AC09>  { [         l,          L,     quotedbl, dead_caron ] };
+    key <AC11>  { [ backslash,        bar,        colon, dead_acute ] };
     
-    key <AB07>  { [         m,          M,    apostrophe, masculine ] };
+    key <AB07>  { [         m,          M,   apostrophe, dead_grave ] };
 
 };
 
