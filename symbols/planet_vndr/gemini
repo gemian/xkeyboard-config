@@ -65,14 +65,14 @@ xkb_symbols "gb" {
     key <AC11>  { [apostrophe, asciitilde,        colon,      dead_acute ] };
 
 // lshift
-    key <AB01>  { [         z,          Z,        guillemotleft,                 less ] };
-    key <AB02>  { [         x,          X,       guillemotright,              greater ] };
+    key <AB01>  { [         z,          Z,        guillemotleft,        dead_belowdot ] };
+    key <AB02>  { [         x,          X,       guillemotright,        dead_abovedot ] };
     key <AB03>  { [         c,          C, XF86AudioLowerVolume,            copyright ] };
     key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ] };
     key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
     key <AB06>  { [         n,          N,  XF86MonBrightnessUp,           exclamdown ] };
     key <AB07>  { [         m,          M,                grave,           dead_grave ] };
-    key <AB09>  { [    period,   question,                U263A,        dead_abovedot ] };
+    key <AB09>  { [    period,   question,                U263A,           dead_tilde ] };
 // rshift
 
 // lctrl
@@ -237,7 +237,7 @@ xkb_symbols "fr" {
     key <AB05>  { [         b,          B,XF86MonBrightnessDown,        dead_abovedot ] };
     key <AB06>  { [         n,          N,  XF86MonBrightnessUp,               degree ] };
     key <AB07>  { [ semicolon,     period,                grave,           dead_grave ] };
-    key <AB09>  { [     colon,      slash,                U263A,        dead_abovedot ] };
+    key <AB09>  { [     colon,      slash,                U263A,           dead_tilde ] };
 
     key <AB08>  { [     comma,   question, XF86Option,   multiply ] };
 };
