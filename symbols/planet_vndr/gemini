@@ -21,6 +21,22 @@ xkb_symbols "common_keys" {
 partial hidden alphanumeric_keys
 xkb_symbols "escape" {
     key <POWR>  { [    Escape ] };
+
+    // Reset keys to nonsense that we don't expect to appear on gemini keyboard maps
+    key <MUTE> { [ XF86CD  ] }; //clashes with XF86AudioMute
+    key <VOL-> { [ XF86CD  ] }; //clashes with XF86AudioLowerVolume
+    key <VOL+> { [ XF86CD  ] }; //clashes with XF86AudioRaiseVolume
+    key <I172> { [ XF86CD  ] }; //clashes with XF86AudioPlay
+    key <I208> { [ XF86CD  ] }; //clashes with XF86AudioPlay
+    key <I215> { [ XF86CD  ] }; //clashes with XF86AudioPlay
+    key <I173> { [ XF86CD  ] }; //clashes with XF86AudioPrev
+    key <I171> { [ XF86CD  ] }; //clashes with XF86AudioNext
+    key <PRSC> { [ XF86CD  ] }; //clashes with Print
+    key <I218> { [ XF86CD  ] }; //clashes with Print
+    key <I232> { [ XF86CD  ] }; //clashes with XF86MonBrightnessDown
+    key <I233> { [ XF86CD  ] }; //clashes with XF86MonBrightnessUp
+    key <I162> { [ XF86CD  ] }; //clashes with XF86TaskPane
+
 };
 
 default  partial alphanumeric_keys
