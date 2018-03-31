@@ -36,6 +36,10 @@ xkb_symbols "escape" {
     key <I232> { [ XF86CD  ] }; //clashes with XF86MonBrightnessDown
     key <I233> { [ XF86CD  ] }; //clashes with XF86MonBrightnessUp
     key <I162> { [ XF86CD  ] }; //clashes with XF86TaskPane
+    key <I179> { [ XF86CD  ] }; //clashes with XF86Tools
+    key <FK13> { [ XF86CD  ] }; //clashes with XF86Tools
+    key <I150> { [ XF86CD  ] }; //clashes with XF86Sleep
+
 
 };
 
