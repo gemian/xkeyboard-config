@@ -711,3 +711,61 @@ xkb_symbols "cz" {
     key <AB08>  { symbols[Group1] = [     comma,       question, XF86Option,   multiply ] };
     key <AB08>  { symbols[Group2] = [     comma,       question, XF86Option,   multiply ] };
 };
+
+default  partial alphanumeric_keys
+xkb_symbols "hr" {
+    include "planet_vndr/gemini(modifiers)"
+    include "planet_vndr/gemini(common_keys)"
+
+    name[Group1]="Gemini Croatian";
+
+    key <AE01>  { [         1,      exclam,   asciitilde,    F1 ] };
+    key <AE02>  { [         2,    quotedbl,   numbersign,    F2 ] };
+    key <AE03>  { [         3,        plus,    backslash,    F3 ] };
+    key <AE04>  { [         4,      dollar,     EuroSign,    F4 ] };
+    key <AE05>  { [         5,     percent,         less,    F5 ] };
+    key <AE06>  { [         6,   ampersand,      greater,    F6 ] };
+    key <AE07>  { [         7,       slash,  bracketleft,    F7 ] };
+    key <AE08>  { [         8,   parenleft, bracketright,    F8 ] };
+    key <AE09>  { [         9,  parenright,    braceleft,    F9 ] };
+    key <AE10>  { [         0,       equal,   braceright,   F10 ] };
+
+    key <AD01>  { [         q,          Q,XF86AudioPlay,  Greek_OMEGA ] };
+    key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
+    key <AD03>  { [         e,          E,XF86AudioNext,    trademark ] };
+    key <AD04>  { [         r,          R,          bar,   registered ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,          yen ] };
+    key <AD06>  { [         z,          Z,         plus,      uparrow ] };
+    key <AD07>  { [         u,          U,        minus,    downarrow ] };
+    key <AD08>  { [         i,          I,  asciicircum,    plusminus ] };
+    key <AD09>  { [         o,          O,       scaron,      Sscaron ] };
+    key <AD10>  { [         p,          P,      dstroke,      Dstroke ] };
+// enter
+
+    key <AC01>  { [         a,          A, XF86TaskPane,              AE ] };
+    key <AC02>  { [         s,          S,        grave,         section ] };
+    key <AC03>  { [         d,          D,  XF86TopMenu, dead_circumflex ] };
+    key <AC04>  { [         f,          F,      XF86UWB,     ordfeminine ] };
+    key <AC05>  { [         g,          G,   underscore,             ENG ] };
+    key <AC06>  { [         h,          H,        Print,  dead_diaeresis ] };
+    key <AC07>  { [         j,          J,       ccaron,          Ccaron ] };
+    key <AC08>  { [         k,          K,       cacute,          Cacute ] };
+    key <AC09>  { [         l,          L,       zcaron,          Zcaron ] };
+    key <AC11>  { [  question,   asterisk,           at,      dead_acute ] };
+
+// lshift
+    key <AB01>  { [         y,          Y,        guillemotleft,        dead_belowdot ] };
+    key <AB02>  { [         x,          X,       guillemotright,        dead_abovedot ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume,            copyright ] };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,           exclamdown ] };
+    key <AB07>  { [         m,          M,           apostrophe,           dead_grave ] };
+    key <AB09>  { [    period,      colon,                U263A,           dead_tilde ] };
+// rshift
+
+// lctrl
+// fn
+// alt
+    key <AB08>  { [     comma,   semicolon, XF86Option,   multiply ] };
+};
