@@ -213,7 +213,8 @@ xkb_symbols "at" {
 
 default  partial alphanumeric_keys
 xkb_symbols "fr" {
-    include "planet_vndr/gemini(gb)"
+    include "planet_vndr/gemini(modifiers)"
+    include "planet_vndr/gemini(common_keys)"
 
     name[Group1]="Gemini French";
 
@@ -310,7 +311,8 @@ xkb_symbols "pt" {
 
 default  partial alphanumeric_keys
 xkb_symbols "ru" {
-    include "planet_vndr/gemini(gb)"
+    include "planet_vndr/gemini(modifiers)"
+    include "planet_vndr/gemini(common_keys)"
     include "group(shifts_toggle)"
 
     name[Group1] = "Gemini Russian";
@@ -880,3 +882,107 @@ xkb_symbols "dvorak" {
 
     key <AB08>  { [         v,          V, XF86Option,   exclamdown ] };
 };
+
+default  partial alphanumeric_keys
+xkb_symbols "gr" {
+    include "planet_vndr/gemini(modifiers)"
+    include "planet_vndr/gemini(common_keys)"
+    include "group(shifts_toggle)"
+
+    name[Group1] = "Gemini Greek";
+    name[Group2] = "Gemini English";
+
+    // 1. row
+    key <AE01>	{ symbols[Group1] = [         1,      exclam,   asciitilde,    F1 ] };
+    key <AE02>	{ symbols[Group1] = [         2,          at,        grave,    F2 ] };
+    key <AE03>	{ symbols[Group1] = [         3,  numbersign,    backslash,    F3 ] };
+    key <AE04>	{ symbols[Group1] = [         4,      dollar,     sterling,    F4 ] };
+    key <AE05>	{ symbols[Group1] = [         5,     percent,         less,    F5 ] };
+    key <AE06>	{ symbols[Group1] = [         6, asciicircum,      greater,    F6 ] };
+    key <AE07>	{ symbols[Group1] = [         7,   ampersand,  bracketleft,    F7 ] };
+    key <AE08>	{ symbols[Group1] = [         8,    asterisk, bracketright,    F8 ] };
+    key <AE09>	{ symbols[Group1] = [         9,   parenleft,    braceleft,    F9 ] };
+    key <AE10>	{ symbols[Group1] = [         0,  parenright,   braceright,   F10 ] };
+
+    key <AE01>	{ symbols[Group2] = [         1,      exclam,   asciitilde,    F1 ] };
+    key <AE02>	{ symbols[Group2] = [         2,          at,        grave,    F2 ] };
+    key <AE03>	{ symbols[Group2] = [         3,  numbersign,    backslash,    F3 ] };
+    key <AE04>	{ symbols[Group2] = [         4,      dollar,     sterling,    F4 ] };
+    key <AE05>	{ symbols[Group2] = [         5,     percent,         less,    F5 ] };
+    key <AE06>	{ symbols[Group2] = [         6, asciicircum,      greater,    F6 ] };
+    key <AE07>	{ symbols[Group2] = [         7,   ampersand,  bracketleft,    F7 ] };
+    key <AE08>	{ symbols[Group2] = [         8,    asterisk, bracketright,    F8 ] };
+    key <AE09>	{ symbols[Group2] = [         9,   parenleft,    braceleft,    F9 ] };
+    key <AE10>	{ symbols[Group2] = [         0,  parenright,   braceright,   F10 ] };
+
+    // 2. row
+    key <AD01>	{ symbols[Group1] = [             NoSymbol,      NoSymbol,     XF86AudioPlay,            degree ] };
+    key <AD02>	{ symbols[Group1] = [Greek_finalsmallsigma,   Greek_SIGMA,     guillemotleft,           Lstroke ] };
+    key <AD03>	{ symbols[Group1] = [        Greek_epsilon, Greek_EPSILON,    guillemotright,         trademark ] };
+    key <AD04>	{ symbols[Group1] = [            Greek_rho,     Greek_RHO,        registered,        registered ] };
+    key <AD05>	{ symbols[Group1] = [            Greek_tau,     Greek_TAU,     XF86AudioMute,            Tslash ] };
+    key <AD06>	{ symbols[Group1] = [        Greek_upsilon, Greek_UPSILON,          EuroSign,       Cyrillic_HA ] };
+    key <AD07>	{ symbols[Group1] = [          Greek_theta,   Greek_THETA,               yen, Cyrillic_HARDSIGN ] };
+    key <AD08>	{ symbols[Group1] = [           Greek_iota,    Greek_IOTA,              plus,         plusminus ] };
+    key <AD09>	{ symbols[Group1] = [        Greek_omicron, Greek_OMICRON,             minus,          Ooblique ] };
+    key <AD10>	{ symbols[Group1] = [             Greek_pi,      Greek_PI,             equal,             THORN ] };
+
+    key <AD01>	{ symbols[Group2] = [	q,			Q,     XF86AudioPlay,            degree ] };
+    key <AD02>	{ symbols[Group2] = [	w,			W,     guillemotleft,           Lstroke ] };
+    key <AD03>	{ symbols[Group2] = [	e,			E,    guillemotright,         trademark ] };
+    key <AD04>	{ symbols[Group2] = [	r,			R,        registered,    periodcentered ] };
+    key <AD05>	{ symbols[Group2] = [	t,			T,     XF86AudioMute,            Tslash ] };
+    key <AD06>	{ symbols[Group2] = [	y,			Y,          EuroSign,       Cyrillic_HA ] };
+    key <AD07>	{ symbols[Group2] = [	u,			U,               yen, Cyrillic_HARDSIGN ] };
+    key <AD08>	{ symbols[Group2] = [	i,			I,              plus,         plusminus ] };
+    key <AD09>	{ symbols[Group2] = [	o,			O,             minus,          Ooblique ] };
+    key <AD10>	{ symbols[Group2] = [	p,			P,             equal,             THORN ] };
+
+    // 3. row
+    key <AC01>	{ symbols[Group1] = [   Greek_alpha,    Greek_ALPHA,   XF86TaskPane,             AE ] };
+    key <AC02>	{ symbols[Group1] = [   Greek_sigma,    Greek_SIGMA,       NoSymbol,     dead_tilde ] };
+    key <AC03>	{ symbols[Group1] = [   Greek_delta,    Greek_DELTA,    XF86TopMenu, dead_diaeresis ] };
+    key <AC04>	{ symbols[Group1] = [     Greek_phi,      Greek_PHI,        XF86UWB,    ordfeminine ] };
+    key <AC05>	{ symbols[Group1] = [   Greek_gamma,    Greek_GAMMA,       NoSymbol,    dead_macron ] };
+    key <AC06>	{ symbols[Group1] = [     Greek_eta,      Greek_ETA,          Print,      dead_iota ] };
+    key <AC07>	{ symbols[Group1] = [      Greek_xi,       Greek_XI,       NoSymbol,     dead_breve ] };
+    key <AC08>	{ symbols[Group1] = [   Greek_kappa,    Greek_KAPPA,     underscore,     dead_acute ] };
+    key <AC09>	{ symbols[Group1] = [   Greek_lamda,    Greek_LAMDA,      semicolon,     dead_psili ] };
+    key <AC11>	{ symbols[Group1] = [    dead_acute, dead_diaeresis,          colon,     dead_grave ] };
+
+    key <AC01>	{ symbols[Group2] = [          a,              A,  XF86TaskPane,              AE ] };
+    key <AC02>	{ symbols[Group2] = [          s,              S,      NoSymbol,      dead_tilde ] };
+    key <AC03>	{ symbols[Group2] = [          d,              D,   XF86TopMenu,  dead_diaeresis ] };
+    key <AC04>	{ symbols[Group2] = [          f,              F,       XF86UWB,     ordfeminine ] };
+    key <AC05>	{ symbols[Group2] = [          g,              G,      NoSymbol,     dead_macron ] };
+    key <AC06>	{ symbols[Group2] = [          h,              H,         Print,       dead_iota ] };
+    key <AC07>	{ symbols[Group2] = [          j,              J,      NoSymbol,      dead_breve ] };
+    key <AC08>	{ symbols[Group2] = [          k,              K,    underscore,      dead_acute ] };
+    key <AC09>	{ symbols[Group2] = [          l,              L,     semicolon,      dead_psili ] };
+    key <AC11>	{ symbols[Group2] = [      quote,       quotedbl,         colon,      dead_grave ] };
+
+    // 4. row
+    key <AB01>	{ symbols[Group1] = [  Greek_zeta,     Greek_ZETA,             copyright,            leftarrow ] };
+    key <AB02>	{ symbols[Group1] = [   Greek_chi,      Greek_CHI,             downarrow,              uparrow ] };
+    key <AB03>	{ symbols[Group1] = [   Greek_psi,      Greek_PSI,  XF86AudioLowerVolume,           rightarrow ] };
+    key <AB04>	{ symbols[Group1] = [ Greek_omega,    Greek_OMEGA,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group1] = [  Greek_beta,     Greek_BETA, XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>	{ symbols[Group1] = [    Greek_nu,       Greek_NU,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB07>	{ symbols[Group1] = [    Greek_mu,       Greek_MU,              NoSymbol,           dead_dasia ] };
+    key <AB09>	{ symbols[Group1] = [      period,       question,                 U263A,             division ] };
+
+    key <AB01>	{ symbols[Group2] = [            z,            Z,             copyright,            leftarrow ] };
+    key <AB02>	{ symbols[Group2] = [            x,            X,             downarrow,              uparrow ] };
+    key <AB03>	{ symbols[Group2] = [            c,            C,  XF86AudioLowerVolume,           rightarrow ] };
+    key <AB04>	{ symbols[Group2] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB07>	{ symbols[Group2] = [            m,            M,              NoSymbol,           dead_dasia ] };
+    key <AB09>	{ symbols[Group2] = [       period,     question,                 U263A,             division ] };
+
+    key <AB08>  { symbols[Group1] = [     comma,      slash, XF86Option,   multiply ] };
+    key <AB08>  { symbols[Group2] = [     comma,      slash, XF86Option,   multiply ] };
+
+};
+
+
