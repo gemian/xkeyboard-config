@@ -829,3 +829,54 @@ xkb_symbols "dk" {
     name[Group1]="Gemini Danish";
 };
 
+default  partial alphanumeric_keys
+xkb_symbols "dvorak" {
+    include "planet_vndr/gemini(modifiers)"
+    include "planet_vndr/gemini(common_keys)"
+
+    name[Group1]="Gemini English (Dvorak)";
+
+    key <AE01>  { [         1,      exclam,        grave,    F1 ] };
+    key <AE02>  { [         2,    quotedbl,   asciitilde,    F2 ] };
+    key <AE03>  { [         3,  numbersign,     sterling,    F3 ] };
+    key <AE04>  { [         4,      dollar,     EuroSign,    F4 ] };
+    key <AE05>  { [         5,     percent,  bracketleft,    F5 ] };
+    key <AE06>  { [         6, asciicircum, bracketright,    F6 ] };
+    key <AE07>  { [         7,   ampersand,    braceleft,    F7 ] };
+    key <AE08>  { [         8,    asterisk,   braceright,    F8 ] };
+    key <AE09>  { [         9,   parenleft,        minus,    F9 ] };
+    key <AE10>  { [         0,  parenright,        equal,   F10 ] };
+
+    key <AD01>  { [ apostrophe, quotedbl, XF86AudioPlay,    Greek_OMEGA ] };
+    key <AD02>  { [      comma,     less, XF86AudioPrev,        Lstroke ] };
+    key <AD03>  { [     period,  greater, XF86AudioNext, periodcentered ] };
+    key <AD04>  { [          p,        P,         Print,     registered ] };
+    key <AD05>  { [          y,        Y, XF86AudioMute,            yen ] };
+    key <AD06>  { [          f,        F,         slash,     rightarrow ] };
+    key <AD07>  { [          g,        G,      question,   questiondown ] };
+    key <AD08>  { [          c,        C,          plus,      copyright ] };
+    key <AD09>  { [          r,        R,           bar,       Ooblique ] };
+    key <AD10>  { [          l,        L,     backslash,    dead_ogonek ] };
+
+    key <AC01>  { [         a,          A, XF86TaskPane,              AE ] };
+    key <AC02>  { [         o,          O,        colon,      dead_acute ] };
+    key <AC03>  { [         e,          E,  XF86TopMenu,             ETH ] };
+    key <AC04>  { [         u,          U,      XF86UWB,      dead_grave ] };
+    key <AC05>  { [         i,          I,          eng,             ENG ] };
+    key <AC06>  { [         d,          D,       degree,  dead_diaeresis ] };
+    key <AC07>  { [         h,          H,    leftarrow, dead_circumflex ] };
+    key <AC08>  { [         t,          T,   rightarrow,       trademark ] };
+    key <AC09>  { [         n,          N,     currency,      dead_caron ] };
+    key <AC11>  { [         s,          S,   underscore,         section ] };
+
+    key <AB01>  { [         q,          Q,        guillemotleft,        dead_belowdot ] };
+    key <AB02>  { [         j,          J,       guillemotright,        dead_abovedot ] };
+    key <AB03>  { [         k,          K, XF86AudioLowerVolume,            copyright ] };
+    key <AB04>  { [         x,          X, XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
+    key <AB06>  { [         m,          M,  XF86MonBrightnessUp,             multiply ] };
+    key <AB07>  { [         w,          W,            downarrow,              uparrow ] };
+    key <AB09>  { [         z,          Z,                U263A,           dead_tilde ] };
+
+    key <AB08>  { [         v,          V, XF86Option,   exclamdown ] };
+};
