@@ -102,6 +102,14 @@ xkb_symbols "gb" {
 };
 
 default  partial alphanumeric_keys
+xkb_symbols "ie" {
+    include "planet_vndr/gemini(gb)"
+
+    name[Group1]="Gemini English (ROI)";
+};
+
+
+default  partial alphanumeric_keys
 xkb_symbols "us" {
     include "planet_vndr/gemini(gb)"
 
