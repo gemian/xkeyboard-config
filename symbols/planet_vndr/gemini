@@ -37,6 +37,9 @@ xkb_symbols "escape" {
     key <I179> { [ XF86CD  ] }; //clashes with XF86Tools
     key <FK13> { [ XF86CD  ] }; //clashes with XF86Tools
     key <I150> { [ XF86CD  ] }; //clashes with XF86Sleep
+    key <I153> { [ XF86CD  ] }; //clashes with XF86Send (I239 from kernel not mapped)
+    key <I175> { [ XF86CD  ] }; //clashes with XF86AudioRecord
+
 };
 
 default  partial alphanumeric_keys
