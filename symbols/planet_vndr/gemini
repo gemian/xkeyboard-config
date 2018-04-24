@@ -152,7 +152,7 @@ xkb_symbols "se" {
     key <AD10>  { [         p,          P,        aring,      Aring ] };
 
     key <AC01>  { [         a,          A, XF86TaskPane,             ae ] };
-    key <AC02>  { [         s,          S,       ssharp,     dead_tilde ] };
+    key <AC02>  { [         s,          S,   asciitilde,     dead_tilde ] };
     key <AC05>  { [         g,          G,   underscore,         degree ] };
     key <AC07>  { [         j,          J,         less,  guillemotleft ] };
     key <AC08>  { [         k,          K,      greater, guillemotright ] };
