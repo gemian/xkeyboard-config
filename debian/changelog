@@ -1,15 +1,21 @@
-xkeyboard-config (2.19+gemian1) stretch; urgency=medium
+xkeyboard-config (2.23.1+gemian) buster; urgency=medium
 
   * Branched for Gemian
 
- -- Adam Boardman <adamboardman@gmail.com>  Wed, 21 Mar 2018 12:12:48 +0000
+ -- Adam Boardman <adamboardman@gmail.com>  Wed, 22 May 2018 14:12:48 +0000
 
-xkeyboard-config (2.19-1+deb9u1) stretch; urgency=medium
+xkeyboard-config (2.23.1-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #884822)
+  * revert-indic-blacklist.diff: Dropped, upstream.
+  * fix-typo.diff: Fix a typo in pl layout.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 01 Feb 2018 17:30:40 +0200
+
+xkeyboard-config (2.19-1.1) unstable; urgency=medium
 
   * Non-maintainer upload.
   * Revert blacklisting of Indic layouts (Closes: #865316)
-    Now Indic keyboards can be selected from list of available keyboard layouts
-    like in previous stable releases. This was reverted upstream as well.
 
  -- Pirate Praveen <praveen@debian.org>  Tue, 18 Jul 2017 13:08:55 +0530
 
