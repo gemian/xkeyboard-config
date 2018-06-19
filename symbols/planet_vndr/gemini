@@ -660,7 +660,7 @@ xkb_symbols "cz" {
     key <AD05>	{ symbols[Group1] = [	t,			T,             Print,           dead_breve ] };
     key <AD06>	{ symbols[Group1] = [	z,			Z,              less,          dead_ogonek ] };
     key <AD07>	{ symbols[Group1] = [	u,			U,           greater,           dead_grave ] };
-    key <AD08>	{ symbols[Group1] = [	i,			I,         backslash,        dead_abovedot ] };
+    key <AD08>	{ symbols[Group1] = [	i,			I,             slash,        dead_abovedot ] };
     key <AD09>	{ symbols[Group1] = [	o,			O,        apostrophe,           dead_acute ] };
     key <AD10>	{ symbols[Group1] = [	p,			P,            uacute,     dead_doubleacute ] };
 
@@ -671,7 +671,7 @@ xkb_symbols "cz" {
     key <AD05>	{ symbols[Group2] = [	t,			T,             Print,           dead_breve ] };
     key <AD06>	{ symbols[Group2] = [	y,			Y,              less,          dead_ogonek ] };
     key <AD07>	{ symbols[Group2] = [	u,			U,           greater,           dead_grave ] };
-    key <AD08>	{ symbols[Group2] = [	i,			I,         backslash,        dead_abovedot ] };
+    key <AD08>	{ symbols[Group2] = [	i,			I,             slash,        dead_abovedot ] };
     key <AD09>	{ symbols[Group2] = [	o,			O,        apostrophe,           dead_acute ] };
     key <AD10>	{ symbols[Group2] = [	p,			P,            uacute,     dead_doubleacute ] };
 
