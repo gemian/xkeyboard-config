@@ -789,7 +789,7 @@ xkb_symbols "it" {
     key <AE07>  { [         7,       slash,  asciicircum,    F7 ] };
     key <AE08>  { [         8,   parenleft,   apostrophe,    F8 ] };
     key <AE09>  { [         9,  parenright,     question,    F9 ] };
-    key <AE10>  { [         0,       equal,   braceright,   F10 ] };
+    key <AE10>  { [         0,       equal,       igrave,   F10 ] };
 
     key <AD01>  { [         q,          Q,XF86AudioPlay,  Greek_OMEGA ] };
     key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
