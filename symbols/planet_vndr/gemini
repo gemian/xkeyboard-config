@@ -1038,4 +1038,49 @@ xkb_symbols "gr" {
 
 };
 
+default  partial alphanumeric_keys
+xkb_symbols "it" {
+    include "planet_vndr/gemini(gb)"
+    include "planet_vndr/gemini(modifiers)"
+    include "planet_vndr/gemini(common_keys)"
 
+    name[Group1]="Gemini Italian (IT)";
+
+    key <AE01>  { [         1,      exclam,    backslash,    F1 ] };
+    key <AE02>  { [         2,    quotedbl,          bar,    F2 ] };
+    key <AE03>  { [         3,    sterling,     EuroSign,    F3 ] };
+    key <AE04>  { [         4,      dollar,           at,    F4 ] };
+    key <AE05>  { [         5,     percent,        grave,    F5 ] };
+    key <AE06>  { [         6,   ampersand,       degree,    F6 ] };
+    key <AE07>  { [         7,       slash,  asciicircum,    F7 ] };
+    key <AE08>  { [         8,   parenleft,   apostrophe,    F8 ] };
+    key <AE09>  { [         9,  parenright,     question,    F9 ] };
+    key <AE10>  { [         0,       equal,       igrave,   F10 ] };
+
+    key <AD06>  { [         y,          Y,  bracketleft,   rightarrow ] };
+    key <AD07>  { [         u,          U, bracketright,      uparrow ] };
+    key <AD09>  { [         o,          O,     asterisk,     Ooblique ] };
+    key <AD10>  { [         p,          P,   numbersign,        THORN ] };
+// enter
+
+    key <AC02>  { [         s,          S,   asciitilde,         section ] };
+    key <AC05>  { [         g,          G,        U263A,             ENG ] };
+    key <AC06>  { [         h,          H,    braceleft,  dead_diaeresis ] };
+    key <AC07>  { [         j,          J,   braceright, dead_circumflex ] };
+    key <AC08>  { [         k,          K,       ograve,          degree ] };
+    key <AC09>  { [         l,          L,       agrave,      dead_caron ] };
+    key <AC11>  { [    egrave,     eacute,       ugrave,      dead_acute ] };
+
+// lshift
+    key <AB01>  { [         z,          Z,                 less,        dead_belowdot ] };
+    key <AB02>  { [         x,          X,              greater,        dead_abovedot ] };
+    key <AB07>  { [         m,          M,           underscore,           dead_grave ] };
+    key <AB09>  { [    period,      colon,                minus,           dead_tilde ] };
+// rshift
+
+// lctrl
+// fn
+// alt
+    key <AB08>  { [     comma,  semicolon, XF86Option,   multiply ] };
+
+};
