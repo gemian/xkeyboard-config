@@ -1097,7 +1097,9 @@ xkb_symbols "cat" {
 
     name[Group1]="Gemini Catalan";
 
-    key <AC11> { [ grave, acute, ccedilla , Ccedilla ] };
+    key <AE04> { [ 4, dollar, dead_tilde, F4 ] };
+
+    key <AC11> { [ dead_acute, dead_grave, ccedilla, Ccedilla ] };
 
 };
 
