@@ -1103,3 +1103,51 @@ xkb_symbols "cat" {
 
 };
 
+default  partial alphanumeric_keys
+xkb_symbols "hu" {
+    include "planet_vndr/gemini(gb)"
+
+    name[Group1]="Gemini Hungarian";
+
+    key <AE01>  { [         0,       U00A7,        grave,    F1 ] };
+    key <AE02>  { [         1,  apostrophe,   asciitilde,    F2 ] };
+    key <AE03>  { [         2,    quotedbl,    backslash,    F3 ] };
+    key <AE04>  { [         3,        plus,  asciicircum,    F4 ] };
+    key <AE05>  { [         4,      exclam,     EuroSign,    F5 ] };
+    key <AE06>  { [         5,     percent,    braceleft,    F6 ] };
+    key <AE07>  { [         6,       slash,   braceright,    F7 ] };
+    key <AE08>  { [         7,       equal,  bracketleft,    F8 ] };
+    key <AE09>  { [         8,   parenleft, bracketright,    F9 ] };
+    key <AE10>  { [         9,  parenright,   numbersign,   F10 ] };
+
+    key <AD01>  { [         q,          Q,XF86AudioPlay,    paragraph ] };
+    key <AD02>  { [         w,          W,XF86AudioPrev,          bar ] };
+    key <AD03>  { [         e,          E,XF86AudioNext,    trademark ] };
+    key <AD04>  { [         r,          R,        Print,   registered ] };
+    key <AD05>  { [         t,          T,       dollar,          yen ] };
+    key <AD06>  { [         z,          Z,      lstroke,          F11 ] };
+    key <AD07>  { [         u,          U,      Lstroke,          F12 ] };
+    key <AD08>  { [         i,          I,   odiaeresis,   Odiaeresis ] };
+    key <AD09>  { [         o,          O,   udiaeresis,   Udiaeresis ] };
+    key <AD10>  { [         p,          P,       oacute,       Oacute ] };
+
+    key <AC01>  { [         a,          A, XF86TaskPane,      Adiaeresis ] };
+    key <AC02>  { [         s,          S,       iacute,          Iacute ] };
+    key <AC03>  { [         d,          D,  XF86TopMenu,         dstroke ] };
+    key <AC04>  { [         f,          F,      XF86UWB,         Dstroke ] };
+    key <AC05>  { [         g,          G,           at,       leftarrow ] };
+    key <AC06>  { [         h,          H,     asterisk,         uparrow ] };
+    key <AC07>  { [         j,          J,        U263A,      rightarrow ] };
+    key <AC08>  { [         k,          K, odoubleacute,    Odoubleacute ] };
+    key <AC09>  { [         l,          L,       uacute,          Uacute ] };
+    key <AC11>  { [     minus, underscore, udoubleacute,    Udoubleacute ] };
+
+    key <AB01>  { [         y,          Y,                 less,           adiaeresis ] };
+    key <AB02>  { [         x,          X,              greater,            copyright ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume,            ampersand ] };
+    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,            downarrow ] };
+    key <AB07>  { [         m,          M,               eacute,           Eacute ] };
+    key <AB09>  { [    period,      colon,               aacute,           Aacute ] };
+
+    key <AB08>  { [     comma,   question, XF86Option,   multiply ] };
+};
