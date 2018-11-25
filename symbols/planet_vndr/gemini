@@ -444,7 +444,7 @@ xkb_symbols "jp" {
     key <AE10>	{ symbols[Group2] = [         0,  asciitilde,      kana_HE, prolongedsound ] };
 
     // 2. row
-    key <AD01>	{ symbols[Group1] = [    kana_TA,             kana_TA,            ssharp,         Greek_OMEGA ] };
+    key <AD01>	{ symbols[Group1] = [    kana_TA,             kana_TA,    ISO_Next_Group,      ISO_Prev_Group ] };
     key <AD02>	{ symbols[Group1] = [    kana_TE,             kana_TE,     XF86AudioPrev,             Lstroke ] };
     key <AD03>	{ symbols[Group1] = [     kana_I,              kana_i,      F86AudioNext,           trademark ] };
     key <AD04>	{ symbols[Group1] = [    kana_SU,             kana_SU,             Print,          registered ] };
@@ -455,7 +455,7 @@ xkb_symbols "jp" {
     key <AD09>	{ symbols[Group1] = [    kana_RA, kana_openingbracket,       voicedsound,            Ooblique ] };
     key <AD10>	{ symbols[Group1] = [    kana_SE, kana_closingbracket,   semivoicedsound,               THORN ] };
 
-    key <AD01>	{ symbols[Group2] = [	q,			Q,            ssharp,         Greek_OMEGA ] };
+    key <AD01>	{ symbols[Group2] = [	q,			Q,    ISO_Next_Group,      ISO_Prev_Group ] };
     key <AD02>	{ symbols[Group2] = [	w,			W,     XF86AudioPrev,             Lstroke ] };
     key <AD03>	{ symbols[Group2] = [	e,			E,      F86AudioNext,           trademark ] };
     key <AD04>	{ symbols[Group2] = [	r,			R,             Print,          registered ] };
@@ -508,8 +508,11 @@ xkb_symbols "jp" {
     key <AB07>	{ symbols[Group2] = [            m,            M,               kana_ME,            masculine ] };
     key <AB09>	{ symbols[Group2] = [       period,         plus,               kana_RO,             division ] };
 
-    key <AB08>  { symbols[Group1] = [   kana_NE,       kana_comma, XF86Option,   multiply ] };
-    key <AB08>  { symbols[Group2] = [     comma,            minus, XF86Option,   multiply ] };
+    key <AB08>  { symbols[Group1] = [   kana_NE,       kana_comma, ISO_First_Group,   ISO_First_Group ] };
+    key <AB08>  { symbols[Group2] = [     comma,            minus, ISO_First_Group,   ISO_First_Group ] };
+
+    key <LALT>  { symbols[Group1] = [ Alt_L, Alt_L, ISO_Last_Group,   ISO_Last_Group ] };
+    key <LALT>  { symbols[Group1] = [ Alt_L, Alt_L, ISO_Last_Group,   ISO_Last_Group ] };
 };
 
 default  partial alphanumeric_keys
