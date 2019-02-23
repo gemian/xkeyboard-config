@@ -760,7 +760,7 @@ xkb_symbols "sk" {
     key <AD07>	{ symbols[Group1] = [	u,			U,           greater,           dead_grave ] };
     key <AD08>	{ symbols[Group1] = [	i,			I,             slash,        dead_abovedot ] };
     key <AD09>	{ symbols[Group1] = [	o,			O,        apostrophe,           dead_acute ] };
-    key <AD10>	{ symbols[Group1] = [	p,			P,            ncaron,     dead_doubleacute ] };
+    key <AD10>	{ symbols[Group1] = [	p,			P,        adiaeresis,     dead_doubleacute ] };
 
     key <AD01>	{ symbols[Group2] = [	q,			Q,     XF86AudioPlay,       dead_abovering ] };
     key <AD02>	{ symbols[Group2] = [	w,			W,       bracketleft,           dead_tilde ] };
