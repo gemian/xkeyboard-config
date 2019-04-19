@@ -1,8 +1,36 @@
-xkeyboard-config (2.23.1+gemian) buster; urgency=medium
+xkeyboard-config (2.26+gemian) buster; urgency=medium
 
   * Branched for Gemian
 
  -- Adam Boardman <adamboardman@gmail.com>  Wed, 22 May 2018 14:12:48 +0000
+ 
+xkeyboard-config (2.26-2) unstable; urgency=medium
+
+  * Revert following commits:
+    - ed67b29e (Map evdev keycode KEY_BRIGHTNESS_CYCLE to
+      XF86MonBrightnessCycle)
+    - d0e5e63c (Map evdev keycode KEY_KEYBOARD to XF86Keyboard)
+    - e6103610 (Map evdev keycode KEY_FAVORITES to XF86Favorites)
+    (Closes: #921867, #921940, #922020).
+
+ -- Andreas Boll <aboll@debian.org>  Mon, 11 Feb 2019 20:25:45 +0100
+
+xkeyboard-config (2.26-1) unstable; urgency=medium
+
+  * New upstream release.
+    - Map evdev keycodes KEY_RFKILL and KEY_WWAN to XF86RFKill and
+      XF86WWAN (Closes: #917157).
+    - allowMultipleSelection is wrong in korean data (Closes: #902234).
+  * Drop fix-typo.diff, upstreamed.
+  * Cherry-pick af6c0f29 (Fixed broken pt layout) from upstream.
+  * Let uscan check upstream tarball signatures.
+  * Update Vcs-* URLs to point to salsa.debian.org.
+  * Bump debhelper compat to 10.
+  * Raise Priority to optional.
+  * Set source format to 1.0.
+  * Bump standards version to 4.3.0.
+
+ -- Andreas Boll <aboll@debian.org>  Fri, 08 Feb 2019 22:27:41 +0100
 
 xkeyboard-config (2.23.1-1) unstable; urgency=medium
 

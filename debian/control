@@ -4,7 +4,7 @@ Priority: extra
 Maintainer: Adam Boardman <adamboardman@gmail.com>
 XSBC-Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Build-Depends:
- debhelper (>= 9),
+ debhelper (>= 10),
  dh-autoreconf,
  quilt,
 Build-Depends-Indep:
@@ -14,7 +14,7 @@ Build-Depends-Indep:
  intltool,
  xsltproc,
  xutils-dev (>= 1:7.6+2),
-Standards-Version: 3.9.8
+Standards-Version: 4.3.0
 Vcs-Git: https://anonscm.debian.org/git/pkg-xorg/data/xkb-data.git
 Vcs-Browser: https://anonscm.debian.org/cgit/pkg-xorg/data/xkb-data.git
 Homepage: https://www.freedesktop.org/Software/XKeyboardConfig
