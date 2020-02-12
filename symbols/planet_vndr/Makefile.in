@@ -300,6 +300,7 @@ xkb_base = @xkb_base@
 xkb_rules_symlink = @xkb_rules_symlink@
 symbolsdir = $(xkb_base)/symbols/planet_vndr
 dist_symbols_DATA = \
+cosmo \
 gemini
 
 all: all-am

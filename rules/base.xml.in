@@ -33,7 +33,14 @@
     <model>
       <configItem>
         <name>planetgemini</name>
-        <_description>Planet Computers Gemini</_description>
+        <_description>Planet Computers Gemini PDA</_description>
+        <vendor>Planet</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>planetcosmo</name>
+        <_description>Planet Computers Cosmo Communicator</_description>
         <vendor>Planet</vendor>
       </configItem>
     </model>

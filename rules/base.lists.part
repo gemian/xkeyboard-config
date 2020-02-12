@@ -12,7 +12,7 @@
 ! $jollamodels = jollasbj
 
 // Planet devices and keyboards
-! $planetmodels = planetgemini
+! $planetmodels = planetgemini planetcosmo
 
 // Microsoft models (using MS geometry)
 ! $msmodels = microsoft microsoft4000 microsoft7000 microsoftpro microsoftprousb microsoftprose

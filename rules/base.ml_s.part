@@ -8,6 +8,7 @@
   jollasbj 	$nonlatin		=	jolla_vndr/sbj(common)+us+%l%(v):2
   jollasbj	*			=	jolla_vndr/sbj(common)+%l%(v)
   planetgemini	*			=	pc+planet_vndr/gemini(%l)
+  planetcosmo	*			=	pc+planet_vndr/cosmo(%l)
  $sun		$sun_custom		=	pc+sun_vndr/%l%(v)
   pc98		nec_vndr/jp		=	nec_vndr/jp(pc98)
   macintosh_old	us			=	macintosh_vndr/us(oldmac)
