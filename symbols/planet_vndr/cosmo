@@ -1242,7 +1242,7 @@ xkb_symbols "pl" {
     include "planet_vndr/cosmo(modifiers)"
     include "planet_vndr/cosmo(common_keys)"
 
-    name[Group1]="Gemini Polish";
+    name[Group1]="Cosmo Polish";
 
     key <AE01> { [ 1,     	exclam,     	grave,  F1 ] };
     key <AE02> { [ 2,   	at,           	asciitilde,  F2 ] };
