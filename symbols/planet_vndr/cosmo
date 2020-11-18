@@ -20,7 +20,7 @@ xkb_symbols "common_keys" {
 
 partial hidden alphanumeric_keys
 xkb_symbols "escape" {
-    // Reset keys to nonsense that we don't expect to appear on gemini keyboard maps
+    // Reset keys to nonsense that we don't expect to appear on cosmo keyboard maps
     key <MUTE> { [ XF86CD  ] }; //clashes with XF86AudioMute
     key <VOL-> { [ XF86CD  ] }; //clashes with XF86AudioLowerVolume
     key <VOL+> { [ XF86CD  ] }; //clashes with XF86AudioRaiseVolume
@@ -47,7 +47,7 @@ xkb_symbols "gb" {
     include "planet_vndr/cosmo(modifiers)"
     include "planet_vndr/cosmo(common_keys)"
 
-    name[Group1]="Gemini English (UK)";
+    name[Group1]="Cosmo English (UK)";
 
     key <AE01>  { [         1,      exclam,          bar,    F1 ] };
     key <AE02>  { [         2,    quotedbl,   numbersign,    F2 ] };
@@ -98,7 +98,7 @@ default  partial alphanumeric_keys
 xkb_symbols "ie" {
     include "planet_vndr/cosmo(gb)"
 
-    name[Group1]="Gemini English (ROI)";
+    name[Group1]="Cosmo English (ROI)";
 };
 
 
@@ -106,7 +106,7 @@ default  partial alphanumeric_keys
 xkb_symbols "us" {
     include "planet_vndr/cosmo(gb)"
 
-    name[Group1]="Gemini English (US)";
+    name[Group1]="Cosmo English (US)";
 
     key <AE01>  { [         1,     exclam,   asciitilde,   F1 ] };
     key <AE02>  { [         2,         at,        grave,   F2 ] };
@@ -124,7 +124,7 @@ default  partial alphanumeric_keys
 xkb_symbols "se" {
     include "planet_vndr/cosmo(gb)"
 
-    name[Group1]="Gemini Swedish";
+    name[Group1]="Cosmo Swedish";
 
     key <AE01>  { [         1,     exclam,      section,    F1 ] };
     key <AE02>  { [         2,   quotedbl,           at,    F2 ] };
@@ -165,14 +165,14 @@ default  partial alphanumeric_keys
 xkb_symbols "fi" {
     include "planet_vndr/cosmo(se)"
 
-    name[Group1]="Gemini Finnish";
+    name[Group1]="Cosmo Finnish";
 };
 
 default  partial alphanumeric_keys
 xkb_symbols "de" {
     include "planet_vndr/cosmo(gb)"
 
-    name[Group1]="Gemini German";
+    name[Group1]="Cosmo German";
 
     key <AE01>  { [         1,    exclam,   asciitilde,   F1 ] };
     key <AE03>  { [         3,     U00A7,    backslash,   F3 ] };
@@ -209,7 +209,7 @@ default  partial alphanumeric_keys
 xkb_symbols "at" {
     include "planet_vndr/cosmo(de)"
 
-    name[Group1]="Gemini Austrian";
+    name[Group1]="Cosmo Austrian";
 };
 
 default  partial alphanumeric_keys
@@ -217,7 +217,7 @@ xkb_symbols "fr" {
     include "planet_vndr/cosmo(modifiers)"
     include "planet_vndr/cosmo(common_keys)"
 
-    name[Group1]="Gemini French";
+    name[Group1]="Cosmo French";
 
     key <AE01>	{ [ ampersand,          1,   asciitilde,   F1 ] };
     key <AE02>	{ [    eacute,          2,   numbersign,   F2 ] };
@@ -268,14 +268,14 @@ default  partial alphanumeric_keys
 xkb_symbols "be" {
     include "planet_vndr/cosmo(fr)"
 
-    name[Group1]="Gemini Belgian";
+    name[Group1]="Cosmo Belgian";
 };
 
 default  partial alphanumeric_keys
 xkb_symbols "pt" {
     include "planet_vndr/cosmo(gb)"
 
-    name[Group1]="Gemini Portuguese";
+    name[Group1]="Cosmo Portuguese";
 
     key <AE01>  { [         1,     exclam,          bar,    F1 ] };
     key <AE02>  { [         2,   quotedbl,           at,    F2 ] };
@@ -316,8 +316,8 @@ xkb_symbols "ru" {
     include "planet_vndr/cosmo(common_keys)"
     include "group(shifts_toggle)"
 
-    name[Group1] = "Gemini Russian";
-    name[Group2] = "Gemini English";
+    name[Group1] = "Cosmo Russian";
+    name[Group2] = "Cosmo English";
 
     // 1. row
     key <AE01>	{ symbols[Group1] = [         1,      exclam,           at,    F1 ] };
@@ -417,8 +417,8 @@ xkb_symbols "jp" {
     include "planet_vndr/cosmo(gb)"
     include "group(shifts_toggle)"
 
-    name[Group1] = "Gemini Japanese (Kana)";
-    name[Group2] = "Gemini English";
+    name[Group1] = "Cosmo Japanese (Kana)";
+    name[Group2] = "Cosmo English";
 
     // 1. row
     key <AE01>	{ symbols[Group1] = [   kana_NU,      exclam,           at,    F1 ] };
@@ -520,8 +520,8 @@ xkb_symbols "ara" {
     include "planet_vndr/cosmo(gb)"
     include "group(shifts_toggle)"
 
-    name[Group1] = "Gemini Arabic";
-    name[Group2] = "Gemini English";
+    name[Group1] = "Cosmo Arabic";
+    name[Group2] = "Cosmo English";
 
     // 1. row - Note Persian numbers on Fn+Shift+number
     key <AE01>	{ symbols[Group1] = [         0x1000661,      exclam,  Arabic_thal,    0x10006f1 ] };
@@ -622,8 +622,8 @@ xkb_symbols "cz" {
     include "planet_vndr/cosmo(gb)"
     include "group(shifts_toggle)"
 
-    name[Group1] = "Gemini Czech (qwertz)";
-    name[Group2] = "Gemini Czech (qwerty)";
+    name[Group1] = "Cosmo Czech (qwertz)";
+    name[Group2] = "Cosmo Czech (qwerty)";
 
     // 1. row
     key <AE01>	{ symbols[Group1] = [    plus,       1, asciicircum,    F1 ] };
@@ -723,8 +723,8 @@ xkb_symbols "sk" {
     include "planet_vndr/cosmo(gb)"
     include "group(shifts_toggle)"
 
-    name[Group1] = "Gemini Slovak";
-    name[Group2] = "Gemini Slovak (qwerty)";
+    name[Group1] = "Cosmo Slovak";
+    name[Group2] = "Cosmo Slovak (qwerty)";
 
     // 1. row
     key <AE01>	{ symbols[Group1] = [    plus,       1, asciicircum,    F1 ] };
@@ -824,7 +824,7 @@ xkb_symbols "hr" {
     include "planet_vndr/cosmo(modifiers)"
     include "planet_vndr/cosmo(common_keys)"
 
-    name[Group1]="Gemini Croatian";
+    name[Group1]="Cosmo Croatian";
 
     key <AE01>  { [         1,      exclam,   asciitilde,    F1 ] };
     key <AE02>  { [         2,    quotedbl,   numbersign,    F2 ] };
@@ -882,7 +882,7 @@ xkb_symbols "it" {
     include "planet_vndr/cosmo(modifiers)"
     include "planet_vndr/cosmo(common_keys)"
 
-    name[Group1]="Gemini Italian";
+    name[Group1]="Cosmo Italian";
 
     key <AE01>  { [         1,      exclam,    backslash,    F1 ] };
     key <AE02>  { [         2,    quotedbl,          bar,    F2 ] };
@@ -934,7 +934,7 @@ xkb_symbols "no" {
     include "planet_vndr/cosmo(modifiers)"
     include "planet_vndr/cosmo(common_keys)"
 
-    name[Group1]="Gemini Norwegian";
+    name[Group1]="Cosmo Norwegian";
 
     key <AE01>  { [         1,      exclam,          bar,    F1 ] };
     key <AE02>  { [         2,    quotedbl,           at,    F2 ] };
@@ -985,7 +985,7 @@ default  partial alphanumeric_keys
 xkb_symbols "dk" {
     include "planet_vndr/cosmo(no)"
 
-    name[Group1]="Gemini Danish";
+    name[Group1]="Cosmo Danish";
 };
 
 default  partial alphanumeric_keys
@@ -993,7 +993,7 @@ xkb_symbols "dvorak" {
     include "planet_vndr/cosmo(modifiers)"
     include "planet_vndr/cosmo(common_keys)"
 
-    name[Group1]="Gemini English (Dvorak)";
+    name[Group1]="Cosmo English (Dvorak)";
 
     key <AE01>  { [         1,      exclam,        grave,    F1 ] };
     key <AE02>  { [         2,    quotedbl,   asciitilde,    F2 ] };
@@ -1046,8 +1046,8 @@ xkb_symbols "gr" {
     include "planet_vndr/cosmo(common_keys)"
     include "group(shifts_toggle)"
 
-    name[Group1] = "Gemini Greek";
-    name[Group2] = "Gemini English";
+    name[Group1] = "Cosmo Greek";
+    name[Group2] = "Cosmo English";
 
     // 1. row
     key <AE01>	{ symbols[Group1] = [         1,      exclam,   asciitilde,    F1 ] };
@@ -1147,7 +1147,7 @@ xkb_symbols "es" {
     include "planet_vndr/cosmo(modifiers)"
     include "planet_vndr/cosmo(common_keys)"
 
-    name[Group1]="Gemini Spanish";
+    name[Group1]="Cosmo Spanish";
 
     key <AE01> { [ 1,     exclam,          bar,  F1 ] };
     key <AE02> { [ 2,   quotedbl,           at,  F2 ] };
@@ -1199,7 +1199,7 @@ default partial alphanumeric_keys
 xkb_symbols "cat" {
     include "planet_vndr/cosmo(es)"
 
-    name[Group1]="Gemini Catalan";
+    name[Group1]="Cosmo Catalan";
 
     key <AE04> { [ 4, dollar, dead_tilde, F4 ] };
 
@@ -1211,7 +1211,7 @@ default  partial alphanumeric_keys
 xkb_symbols "hu" {
     include "planet_vndr/cosmo(gb)"
 
-    name[Group1]="Gemini Hungarian";
+    name[Group1]="Cosmo Hungarian";
 
     key <AE01>  { [         0,       U00A7,        grave,    F1 ] };
     key <AE02>  { [         1,  apostrophe,   asciitilde,    F2 ] };
