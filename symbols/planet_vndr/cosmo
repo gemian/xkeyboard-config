@@ -20,6 +20,25 @@ xkb_symbols "common_keys" {
 
 partial hidden alphanumeric_keys
 xkb_symbols "escape" {
+    // Reset keys to nonsense that we don't expect to appear on gemini keyboard maps
+    key <MUTE> { [ XF86CD  ] }; //clashes with XF86AudioMute
+    key <VOL-> { [ XF86CD  ] }; //clashes with XF86AudioLowerVolume
+    key <VOL+> { [ XF86CD  ] }; //clashes with XF86AudioRaiseVolume
+    key <I172> { [ XF86CD  ] }; //clashes with XF86AudioPlay
+    key <I208> { [ XF86CD  ] }; //clashes with XF86AudioPlay
+    key <I215> { [ XF86CD  ] }; //clashes with XF86AudioPlay
+    key <I173> { [ XF86CD  ] }; //clashes with XF86AudioPrev
+    key <I171> { [ XF86CD  ] }; //clashes with XF86AudioNext
+    key <PRSC> { [ XF86CD  ] }; //clashes with Print
+    key <I218> { [ XF86CD  ] }; //clashes with Print
+    key <I232> { [ XF86CD  ] }; //clashes with XF86MonBrightnessDown
+    key <I233> { [ XF86CD  ] }; //clashes with XF86MonBrightnessUp
+    key <I162> { [ XF86CD  ] }; //clashes with XF86TaskPane
+    key <I179> { [ XF86CD  ] }; //clashes with XF86Tools
+    key <FK13> { [ XF86CD  ] }; //clashes with XF86Tools
+    key <I150> { [ XF86CD  ] }; //clashes with XF86Sleep
+    key <I153> { [ XF86CD  ] }; //clashes with XF86Send (I239 from kernel not mapped)
+    key <I175> { [ XF86CD  ] }; //clashes with XF86AudioRecord
 
 };
 
@@ -41,21 +60,21 @@ xkb_symbols "gb" {
     key <AE09>  { [         9,   parenleft,    braceleft,    F9 ] };
     key <AE10>  { [         0,  parenright,   braceright,   F10 ] };
 
-    key <AD01>  { [         q,          Q, q,  Greek_OMEGA ] };
-    key <AD02>  { [         w,          W,w,      Lstroke ] };
-    key <AD03>  { [         e,          E,e,    trademark ] };
+    key <AD01>  { [         q,          Q,XF86AudioPlay,  Greek_OMEGA ] };
+    key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
+    key <AD03>  { [         e,          E,XF86AudioNext,    trademark ] };
     key <AD04>  { [         r,          R,        Print,   registered ] };
-    key <AD05>  { [         t,          T,t,          yen ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,          yen ] };
     key <AD06>  { [         y,          Y,    leftarrow,   rightarrow ] };
     key <AD07>  { [         u,          U,    downarrow,      uparrow ] };
     key <AD08>  { [         i,          I,         plus,    plusminus ] };
     key <AD09>  { [         o,          O,        minus,     Ooblique ] };
     key <AD10>  { [         p,          P,        equal,        THORN ] };
 
-    key <AC01>  { [         a,          A,            a,              AE ] };
+    key <AC01>  { [         a,          A, XF86TaskPane,              AE ] };
     key <AC02>  { [         s,          S,       ssharp,         section ] };
-    key <AC03>  { [         d,          D,            d,             ETH ] };
-    key <AC04>  { [         f,          F,            f,     ordfeminine ] };
+    key <AC03>  { [         d,          D,  XF86TopMenu,             ETH ] };
+    key <AC04>  { [         f,          F,      XF86UWB,     ordfeminine ] };
     key <AC05>  { [         g,          G,          eng,             ENG ] };
     key <AC06>  { [         h,          H,     division,  dead_diaeresis ] };
     key <AC07>  { [         j,          J,   underscore, dead_circumflex ] };
@@ -65,14 +84,14 @@ xkb_symbols "gb" {
 
     key <AB01>  { [         z,          Z,        guillemotleft,        dead_belowdot ] };
     key <AB02>  { [         x,          X,       guillemotright,        dead_abovedot ] };
-    key <AB03>  { [         c,          C,                    c,            copyright ] };
-    key <AB04>  { [         v,          V,                    v,  leftsinglequotemark ] };
-    key <AB05>  { [         b,          B,                    b, rightsinglequotemark ] };
-    key <AB06>  { [         n,          N,                    n,           exclamdown ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume,            copyright ] };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>  { [         b,          B,XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>  { [         m,          M,                grave,           dead_grave ] };
     key <AB09>  { [    period,   question,                U263A,           dead_tilde ] };
 
-    key <AB08>  { [     comma,      slash,         comma,   multiply ] };
+    key <AB08>  { [     comma,      slash, XF86Option,   multiply ] };
 };
 
 default  partial alphanumeric_keys
@@ -119,14 +138,14 @@ xkb_symbols "se" {
     key <AE10>  { [         0,      equal,   braceright,   F10 ] };
 
     key <AD04>  { [         r,       R, dead_circumflex, registered ] };
-    key <AD05>  { [         t,          T,            t,      thorn ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,      thorn ] };
     key <AD06>  { [         y,          Y,         plus,  plusminus ] };
     key <AD07>  { [         u,          U,        minus, udiaeresis ] };
     key <AD08>  { [         i,          I,        grave,   idotless ] };
     key <AD09>  { [         o,          O,     question,     oslash ] };
     key <AD10>  { [         p,          P,        aring,      Aring ] };
 
-    key <AC01>  { [         a,          A,            a,             ae ] };
+    key <AC01>  { [         a,          A, XF86TaskPane,             ae ] };
     key <AC02>  { [         s,          S,   asciitilde,     dead_tilde ] };
     key <AC05>  { [         g,          G,   underscore,         degree ] };
     key <AC07>  { [         j,          J,         less,  guillemotleft ] };
@@ -139,7 +158,7 @@ xkb_symbols "se" {
     key <AB07>  { [         m,          M,   apostrophe,  dead_acute ] };
     key <AB09>  { [    period,      colon,        U263A,    division ] };
 
-    key <AB08>  { [     comma,  semicolon,   comma, dead_diaeresis ] };
+    key <AB08>  { [     comma,  semicolon,   XF86Option, dead_diaeresis ] };
 };
 
 default  partial alphanumeric_keys
@@ -164,7 +183,7 @@ xkb_symbols "de" {
     key <AE10>  { [         0,     equal,   braceright,  F10 ] };
 
     key <AD04>  { [         r,          R,        bar,   registered ] };
-    key <AD06>  { [         z,          Z,          z,         less ] };
+    key <AD06>  { [         z,          Z,      Print,         less ] };
     key <AD07>  { [         u,          U,      U00FC,        U00DC ] };
     key <AD08>  { [         i,          I,      grave,    plusminus ] };
     key <AD09>  { [         o,          O,      U00F6,        U00D6 ] };
@@ -183,7 +202,7 @@ xkb_symbols "de" {
     key <AB07>  { [         m,          M,    Greek_mu,      U039C ] };
     key <AB09>  { [    period,      colon,       U263A,   division ] };
 
-    key <AB08>  { [     comma,    semicolon,   comma,  multiply ] };
+    key <AB08>  { [     comma,    semicolon, XF86Option,  multiply ] };
 };
 
 default  partial alphanumeric_keys
@@ -211,38 +230,38 @@ xkb_symbols "fr" {
     key <AE09>	{ [  ccedilla,          9,  asciicircum,   F9 ] };
     key <AE10>	{ [    agrave,          0,        equal,  F10 ] };
 
-    key <AD01>	{ [         a,          A,            a,           AE ]	};
-    key <AD02>	{ [         z,          Z,            z,         less ]	};
-    key <AD03>	{ [         e,          E,            e,         cent ]	};
+    key <AD01>	{ [         a,          A,XF86AudioPlay,           AE ]	};
+    key <AD02>	{ [         z,          Z,XF86AudioPrev,         less ]	};
+    key <AD03>	{ [         e,          E,XF86AudioNext,         cent ]	};
     key <AD04>  { [         r,          R,          bar,   registered ] };
-    key <AD05>  { [         t,          T,            t,          yen ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,          yen ] };
     key <AD06>  { [         y,          Y,     NoSymbol,   rightarrow ] };
     key <AD07>  { [         u,          U,    braceleft,      uparrow ] };
     key <AD08>  { [         i,          I,   braceright,    plusminus ] };
     key <AD09>  { [         o,          O,       dollar,     Ooblique ] };
     key <AD10>  { [         p,          P,     asterisk,        THORN ] };
 
-    key <AC01>  { [         q,          Q,            q, dead_doubleacute ] };
+    key <AC01>  { [         q,          Q, XF86TaskPane, dead_doubleacute ] };
     key <AC02>  { [         s,          S,      section,          notsign ] };
-    key <AC03>  { [         d,          D,            d,       dead_breve ] };
-    key <AC04>  { [         f,          F,            f,   dead_abovering ] };
+    key <AC03>  { [         d,          D,  XF86TopMenu,       dead_breve ] };
+    key <AC04>  { [         f,          F,      XF86UWB,   dead_abovering ] };
     key <AC05>  { [         g,          G,   underscore,      dead_macron ] };
-    key <AC06>  { [         h,          H,            h,   dead_diaeresis ] };
+    key <AC06>  { [         h,          H,        Print,   dead_diaeresis ] };
     key <AC07>  { [         j,          J,      percent,  dead_circumflex ] };
     key <AC08>  { [         k,          K,       exclam,       exclamdown ] };
     key <AC09>  { [         l,          L,           at,       dead_caron ] };
     key <AC11>  { [         m,          M,           mu,       dead_acute ] };
 
-    key <AB01>  { [         w,          W,        less,        guillemotleft ] };
-    key <AB02>  { [         x,          X,     greater,       guillemotright ] };
-    key <AB03>  { [         c,          C,           c,            copyright ] };
-    key <AB04>  { [         v,          V,           v,        dead_belowdot ] };
-    key <AB05>  { [         b,          B,           b,        dead_abovedot ] };
-    key <AB06>  { [         n,          N,           n,               degree ] };
+    key <AB01>  { [         w,          W,                 less,        guillemotleft ] };
+    key <AB02>  { [         x,          X,              greater,       guillemotright ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume,            copyright ] };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume,        dead_belowdot ] };
+    key <AB05>  { [         b,          B,XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>  { [ semicolon,     period,                grave,           dead_grave ] };
     key <AB09>  { [     colon,      slash,                U263A,           dead_tilde ] };
 
-    key <AB08>  { [     comma,   question,   comma,   multiply ] };
+    key <AB08>  { [     comma,   question, XF86Option,   multiply ] };
 };
 
 default  partial alphanumeric_keys
@@ -288,7 +307,7 @@ xkb_symbols "pt" {
     key <AB07>  { [         m,          M,   U20A2,  masculine ] };
     key <AB09>  { [    period,      colon,   U263A,   division ] };
 
-    key <AB08>  { [     comma,  semicolon,   comma,   multiply ] };
+    key <AB08>  { [     comma,  semicolon, XF86Option,   multiply ] };
 };
 
 default  partial alphanumeric_keys
@@ -324,22 +343,22 @@ xkb_symbols "ru" {
     key <AE10>	{ symbols[Group2] = [         0,  parenright,   braceright,   F10 ] };
 
     // 2. row
-    key <AD01>	{ symbols[Group1] = [ Cyrillic_shorti, Cyrillic_SHORTI,   Cyrillic_shorti,       Greek_OMEGA ] };
-    key <AD02>	{ symbols[Group1] = [    Cyrillic_tse,    Cyrillic_TSE,      Cyrillic_tse,           Lstroke ] };
-    key <AD03>	{ symbols[Group1] = [      Cyrillic_u,      Cyrillic_U,        Cyrillic_u,         trademark ] };
+    key <AD01>	{ symbols[Group1] = [ Cyrillic_shorti, Cyrillic_SHORTI,     XF86AudioPlay,       Greek_OMEGA ] };
+    key <AD02>	{ symbols[Group1] = [    Cyrillic_tse,    Cyrillic_TSE,     XF86AudioPrev,           Lstroke ] };
+    key <AD03>	{ symbols[Group1] = [      Cyrillic_u,      Cyrillic_U,      F86AudioNext,         trademark ] };
     key <AD04>	{ symbols[Group1] = [     Cyrillic_ka,     Cyrillic_KA,        underscore,        registered ] };
-    key <AD05>	{ symbols[Group1] = [     Cyrillic_ie,     Cyrillic_IE,       Cyrillic_ie,            Tslash ] };
+    key <AD05>	{ symbols[Group1] = [     Cyrillic_ie,     Cyrillic_IE,     XF86AudioMute,            Tslash ] };
     key <AD06>	{ symbols[Group1] = [     Cyrillic_en,     Cyrillic_EN,       Cyrillic_ha,       Cyrillic_HA ] };
     key <AD07>	{ symbols[Group1] = [    Cyrillic_ghe,    Cyrillic_GHE, Cyrillic_hardsign, Cyrillic_HARDSIGN ] };
     key <AD08>	{ symbols[Group1] = [    Cyrillic_sha,    Cyrillic_SHA,              plus,         plusminus ] };
     key <AD09>	{ symbols[Group1] = [  Cyrillic_shcha,  Cyrillic_SHCHA,             minus,          Ooblique ] };
     key <AD10>	{ symbols[Group1] = [     Cyrillic_ze,     Cyrillic_ZE,             equal,             THORN ] };
 
-    key <AD01>	{ symbols[Group2] = [	q,			Q,                 q,       Greek_OMEGA ] };
-    key <AD02>	{ symbols[Group2] = [	w,			W,                 w,           Lstroke ] };
-    key <AD03>	{ symbols[Group2] = [	e,			E,                 e,         trademark ] };
+    key <AD01>	{ symbols[Group2] = [	q,			Q,     XF86AudioPlay,       Greek_OMEGA ] };
+    key <AD02>	{ symbols[Group2] = [	w,			W,     XF86AudioPrev,           Lstroke ] };
+    key <AD03>	{ symbols[Group2] = [	e,			E,      F86AudioNext,         trademark ] };
     key <AD04>	{ symbols[Group2] = [	r,			R,        underscore,        registered ] };
-    key <AD05>	{ symbols[Group2] = [	t,			T,                 t,            Tslash ] };
+    key <AD05>	{ symbols[Group2] = [	t,			T,     XF86AudioMute,            Tslash ] };
     key <AD06>	{ symbols[Group2] = [	y,			Y,       Cyrillic_ha,       Cyrillic_HA ] };
     key <AD07>	{ symbols[Group2] = [	u,			U, Cyrillic_hardsign, Cyrillic_HARDSIGN ] };
     key <AD08>	{ symbols[Group2] = [	i,			I,              plus,         plusminus ] };
@@ -372,19 +391,19 @@ xkb_symbols "ru" {
     // 4. row
     key <AB01>	{ symbols[Group1] = [       Cyrillic_ya,       Cyrillic_YA,                   bar,        guillemotleft ] };
     key <AB02>	{ symbols[Group1] = [      Cyrillic_che,      Cyrillic_CHE,                 Print,       guillemotright ] };
-    key <AB03>	{ symbols[Group1] = [       Cyrillic_es,       Cyrillic_ES,           Cyrillic_es,            copyright ] };
-    key <AB04>	{ symbols[Group1] = [       Cyrillic_em,       Cyrillic_EM,           Cyrillic_em,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group1] = [        Cyrillic_i,        Cyrillic_I,            Cyrillic_i, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group1] = [       Cyrillic_te,       Cyrillic_TE,           Cyrillic_te,           exclamdown ] };
+    key <AB03>	{ symbols[Group1] = [       Cyrillic_es,       Cyrillic_ES,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group1] = [       Cyrillic_em,       Cyrillic_EM,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group1] = [        Cyrillic_i,        Cyrillic_I, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group1] = [       Cyrillic_te,       Cyrillic_TE,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group1] = [ Cyrillic_softsign, Cyrillic_SOFTSIGN,           Cyrillic_be,          Cyrillic_BE ] };
     key <AB09>	{ symbols[Group1] = [            period,          question,                 U263A,             division ] };
 
     key <AB01>	{ symbols[Group2] = [            z,            Z,                   bar,        guillemotleft ] };
-    key <AB02>	{ symbols[Group2] = [            x,            X,                     x,       guillemotright ] };
-    key <AB03>	{ symbols[Group2] = [            c,            C,                     c,            copyright ] };
-    key <AB04>	{ symbols[Group2] = [            v,            V,                     v,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group2] = [            b,            B,                     b, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group2] = [            n,            N,                     n,           exclamdown ] };
+    key <AB02>	{ symbols[Group2] = [            x,            X,                 Print,       guillemotright ] };
+    key <AB03>	{ symbols[Group2] = [            c,            C,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group2] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group2] = [            m,            M,           Cyrillic_be,          Cyrillic_be ] };
     key <AB09>	{ symbols[Group2] = [       period,     question,                 U263A,             division ] };
 
@@ -429,7 +448,7 @@ xkb_symbols "jp" {
     key <AD02>	{ symbols[Group1] = [    kana_TE,             kana_TE,     XF86AudioPrev,             Lstroke ] };
     key <AD03>	{ symbols[Group1] = [     kana_I,              kana_i,      F86AudioNext,           trademark ] };
     key <AD04>	{ symbols[Group1] = [    kana_SU,             kana_SU,             Print,          registered ] };
-    key <AD05>	{ symbols[Group1] = [    kana_KA,             kana_KA,           kana_KA,              Tslash ] };
+    key <AD05>	{ symbols[Group1] = [    kana_KA,             kana_KA,     XF86AudioMute,              Tslash ] };
     key <AD06>	{ symbols[Group1] = [     kana_N,              kana_N,         backslash,           leftarrow ] };
     key <AD07>	{ symbols[Group1] = [    kana_NA,             kana_NA,         downarrow,             uparrow ] };
     key <AD08>	{ symbols[Group1] = [    kana_NI,             kana_NI,             equal,           plusminus ] };
@@ -440,7 +459,7 @@ xkb_symbols "jp" {
     key <AD02>	{ symbols[Group2] = [	w,			W,     XF86AudioPrev,             Lstroke ] };
     key <AD03>	{ symbols[Group2] = [	e,			E,      F86AudioNext,           trademark ] };
     key <AD04>	{ symbols[Group2] = [	r,			R,             Print,          registered ] };
-    key <AD05>	{ symbols[Group2] = [	t,			T,                 t,              Tslash ] };
+    key <AD05>	{ symbols[Group2] = [	t,			T,     XF86AudioMute,              Tslash ] };
     key <AD06>	{ symbols[Group2] = [	y,			Y,         backslash,           leftarrow ] };
     key <AD07>	{ symbols[Group2] = [	u,			U,         downarrow,             uparrow ] };
     key <AD08>	{ symbols[Group2] = [	i,			I,             equal,           plusminus ] };
@@ -473,19 +492,19 @@ xkb_symbols "jp" {
     // 4. row
     key <AB01>	{ symbols[Group1] = [   kana_TSU,      kana_tsu,                   bar,        guillemotleft ] };
     key <AB02>	{ symbols[Group1] = [    kana_SA,       kana_SA,                 Print,       guillemotright ] };
-    key <AB03>	{ symbols[Group1] = [    kana_SO,       kana_SO,               kana_SO,            copyright ] };
-    key <AB04>	{ symbols[Group1] = [    kana_HI,       kana_HI,               kana_HI,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group1] = [    kana_KO,       kana_KO, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group1] = [    kana_MI,       kana_MI,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group1] = [    kana_SO,       kana_SO,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group1] = [    kana_HI,       kana_HI,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group1] = [    kana_KO,       kana_KO, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group1] = [    kana_MI,       kana_MI,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group1] = [    kana_MO,    kana_comma,               kana_ME,            masculine ] };
     key <AB09>	{ symbols[Group1] = [    kana_RU, kana_fullstop,               kana_RO,             division ] };
 
     key <AB01>	{ symbols[Group2] = [            z,            Z,           asciicircum,        guillemotleft ] };
     key <AB02>	{ symbols[Group2] = [            x,            X,             dead_horn,       guillemotright ] };
-    key <AB03>	{ symbols[Group2] = [            c,            C,                     c,            copyright ] };
-    key <AB04>	{ symbols[Group2] = [            v,            V,                     v,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group2] = [            c,            C,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group2] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group2] = [            m,            M,               kana_ME,            masculine ] };
     key <AB09>	{ symbols[Group2] = [       period,         plus,               kana_RO,             division ] };
 
@@ -532,7 +551,7 @@ xkb_symbols "ara" {
     key <AD02>	{ symbols[Group1] = [   Arabic_sad,       Arabic_fathatan,    XF86AudioPrev,  0x1000653 ] };
     key <AD03>	{ symbols[Group1] = [  Arabic_theh,          Arabic_damma,     F86AudioNext,  0x1000698 ] };
     key <AD04>	{ symbols[Group1] = [   Arabic_qaf,       Arabic_dammatan,            Print,  0x1000670 ] };
-    key <AD05>	{ symbols[Group1] = [   Arabic_feh,             0x100fef9,       Arabic_feh,  0x10006a4 ] };
+    key <AD05>	{ symbols[Group1] = [   Arabic_feh,             0x100fef9,    XF86AudioMute,  0x10006a4 ] };
     key <AD06>	{ symbols[Group1] = [ Arabic_ghain, Arabic_hamzaunderalef,       underscore,  0x100200c ] };
     key <AD07>	{ symbols[Group1] = [   Arabic_ain,  rightsinglequotemark,         quotedbl,  0x1000654 ] };
     key <AD08>	{ symbols[Group1] = [    Arabic_ha,              division,            quote,  0x10006a9 ] };
@@ -543,7 +562,7 @@ xkb_symbols "ara" {
     key <AD02>	{ symbols[Group2] = [	w,			W,     XF86AudioPrev,           Lstroke ] };
     key <AD03>	{ symbols[Group2] = [	e,			E,      F86AudioNext,         trademark ] };
     key <AD04>	{ symbols[Group2] = [	r,			R,             Print,        registered ] };
-    key <AD05>	{ symbols[Group2] = [	t,			T,                 t,            Tslash ] };
+    key <AD05>	{ symbols[Group2] = [	t,			T,     XF86AudioMute,            Tslash ] };
     key <AD06>	{ symbols[Group2] = [	y,			Y,        underscore,               yen ] };
     key <AD07>	{ symbols[Group2] = [	u,			U,          quotedbl,           uparrow ] };
     key <AD08>	{ symbols[Group2] = [	i,			I,             quote,         plusminus ] };
@@ -576,19 +595,19 @@ xkb_symbols "ara" {
     // 4. row
     key <AB01>	{ symbols[Group1] = [  Arabic_hamzaonyeh,         asciitilde,         guillemotleft,                 less ] };
     key <AB02>	{ symbols[Group1] = [       Arabic_hamza,       Arabic_sukun,        guillemotright,              greater ] };
-    key <AB03>	{ symbols[Group1] = [  Arabic_hamzaonwaw,         braceright,     Arabic_hamzaonwaw,            copyright ] };
-    key <AB04>	{ symbols[Group1] = [          Arabic_ra,          braceleft,             Arabic_ra,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group1] = [          0x100fefb,          0x100fef5, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group1] = [ Arabic_alefmaksura, Arabic_maddaonalef,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group1] = [  Arabic_hamzaonwaw,         braceright,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group1] = [          Arabic_ra,          braceleft,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group1] = [          0x100fefb,          0x100fef5, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group1] = [ Arabic_alefmaksura, Arabic_maddaonalef,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group1] = [  Arabic_tehmarbuta,         apostrophe,            Arabic_zah,            masculine ] };
     key <AB09>	{ symbols[Group1] = [        Arabic_zain,             period,                 U263A,             division ] };
 
     key <AB01>	{ symbols[Group2] = [            z,            Z,         guillemotleft,                 less ] };
     key <AB02>	{ symbols[Group2] = [            x,            X,        guillemotright,              greater ] };
-    key <AB03>	{ symbols[Group2] = [            c,            C,                     c,            copyright ] };
-    key <AB04>	{ symbols[Group2] = [            v,            V,                     v,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group2] = [            c,            C,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group2] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group2] = [            m,            M,            Arabic_zah,            masculine ] };
     key <AB09>	{ symbols[Group2] = [  Arabic_zain,       period,                 U263A,             division ] };
 
@@ -679,19 +698,19 @@ xkb_symbols "cz" {
     // 4. row
     key <AB01>	{ symbols[Group1] = [            y,            Y,            numbersign,        guillemotleft ] };
     key <AB02>	{ symbols[Group1] = [            x,            X,             ampersand,       guillemotright ] };
-    key <AB03>	{ symbols[Group1] = [            c,            C,                     c,            copyright ] };
-    key <AB04>	{ symbols[Group1] = [            v,            V,                     v,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group1] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group1] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group1] = [            c,            C,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group1] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group1] = [            b,            B, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group1] = [            n,            N,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group1] = [            m,            M,                 grave,            masculine ] };
     key <AB09>	{ symbols[Group1] = [       period,        colon,                 U263A,             division ] };
 
     key <AB01>	{ symbols[Group2] = [            z,            Z,            numbersign,        guillemotleft ] };
     key <AB02>	{ symbols[Group2] = [            x,            X,             ampersand,       guillemotright ] };
-    key <AB03>	{ symbols[Group2] = [            c,            C,                     c,            copyright ] };
-    key <AB04>	{ symbols[Group2] = [            v,            V,                     v,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group2] = [            c,            C,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group2] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group2] = [            m,            M,                 grave,            masculine ] };
     key <AB09>	{ symbols[Group2] = [       period,        colon,                 U263A,             division ] };
 
@@ -780,19 +799,19 @@ xkb_symbols "sk" {
     // 4. row
     key <AB01>	{ symbols[Group1] = [            y,            Y,            numbersign,        guillemotleft ] };
     key <AB02>	{ symbols[Group1] = [            x,            X,             ampersand,       guillemotright ] };
-    key <AB03>	{ symbols[Group1] = [            c,            C,                     c,            copyright ] };
-    key <AB04>	{ symbols[Group1] = [            v,            V,                     v,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group1] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group1] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group1] = [            c,            C,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group1] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group1] = [            b,            B, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group1] = [            n,            N,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group1] = [            m,            M,                 grave,            masculine ] };
     key <AB09>	{ symbols[Group1] = [       period,        colon,                 U263A,             division ] };
 
     key <AB01>	{ symbols[Group2] = [            z,            Z,            numbersign,        guillemotleft ] };
     key <AB02>	{ symbols[Group2] = [            x,            X,             ampersand,       guillemotright ] };
-    key <AB03>	{ symbols[Group2] = [            c,            C,                     c,            copyright ] };
-    key <AB04>	{ symbols[Group2] = [            v,            V,                     v,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group2] = [            c,            C,  XF86AudioLowerVolume,            copyright ] };
+    key <AB04>	{ symbols[Group2] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group2] = [            m,            M,                 grave,            masculine ] };
     key <AB09>	{ symbols[Group2] = [       period,        colon,                 U263A,             division ] };
 
@@ -822,7 +841,7 @@ xkb_symbols "hr" {
     key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
     key <AD03>  { [         e,          E,XF86AudioNext,    trademark ] };
     key <AD04>  { [         r,          R,          bar,   registered ] };
-    key <AD05>  { [         t,          T,            t,          yen ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,          yen ] };
     key <AD06>  { [         z,          Z,         plus,      uparrow ] };
     key <AD07>  { [         u,          U,        minus,    downarrow ] };
     key <AD08>  { [         i,          I,  asciicircum,    plusminus ] };
@@ -844,10 +863,10 @@ xkb_symbols "hr" {
 // lshift
     key <AB01>  { [         y,          Y,        guillemotleft,        dead_belowdot ] };
     key <AB02>  { [         x,          X,       guillemotright,        dead_abovedot ] };
-    key <AB03>  { [         c,          C,                    c,            copyright ] };
-    key <AB04>  { [         v,          V,                    v,  leftsinglequotemark ] };
-    key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume,            copyright ] };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>  { [         b,          B,XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>  { [         m,          M,           apostrophe,           dead_grave ] };
     key <AB09>  { [    period,      colon,                U263A,           dead_tilde ] };
 // rshift
@@ -880,7 +899,7 @@ xkb_symbols "it" {
     key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
     key <AD03>  { [         e,          E,XF86AudioNext,    trademark ] };
     key <AD04>  { [         r,          R,        Print,   registered ] };
-    key <AD05>  { [         t,          T,            t,          yen ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,          yen ] };
     key <AD06>  { [         y,          Y,  bracketleft,   rightarrow ] };
     key <AD07>  { [         u,          U, bracketright,      uparrow ] };
     key <AD08>  { [         i,          I,         plus,    plusminus ] };
@@ -900,10 +919,10 @@ xkb_symbols "it" {
 
     key <AB01>  { [         z,          Z,                 less,        dead_belowdot ] };
     key <AB02>  { [         x,          X,              greater,        dead_abovedot ] };
-    key <AB03>  { [         c,          C,                    c,            copyright ] };
-    key <AB04>  { [         v,          V,                    v,  leftsinglequotemark ] };
-    key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume,            copyright ] };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>  { [         b,          B,XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>  { [         m,          M,           underscore,           dead_grave ] };
     key <AB09>  { [    period,      colon,                minus,           dead_tilde ] };
 
@@ -932,7 +951,7 @@ xkb_symbols "no" {
     key <AD02>  { [         w,          W,XF86AudioPrev,      Lstroke ] };
     key <AD03>  { [         e,          E,XF86AudioNext,    trademark ] };
     key <AD04>  { [         r,          R,        Print,   registered ] };
-    key <AD05>  { [         t,          T,            t,          yen ] };
+    key <AD05>  { [         t,          T,XF86AudioMute,          yen ] };
     key <AD06>  { [         y,          Y,         plus,   rightarrow ] };
     key <AD07>  { [         u,          U,        minus,      uparrow ] };
     key <AD08>  { [         i,          I,   underscore,    plusminus ] };
@@ -952,10 +971,10 @@ xkb_symbols "no" {
 
     key <AB01>  { [         z,          Z,        guillemotleft,        dead_belowdot ] };
     key <AB02>  { [         x,          X,       guillemotright,        dead_abovedot ] };
-    key <AB03>  { [         c,          C,                    c,            copyright ] };
-    key <AB04>  { [         v,          V,                    v,  leftsinglequotemark ] };
-    key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume,            copyright ] };
+    key <AB04>  { [         v,          V, XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>  { [         b,          B,XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>  { [         m,          M,                grave,           dead_grave ] };
     key <AB09>  { [    period,      colon,              section,           dead_tilde ] };
 
@@ -991,7 +1010,7 @@ xkb_symbols "dvorak" {
     key <AD02>  { [      comma,     less, XF86AudioPrev,        Lstroke ] };
     key <AD03>  { [     period,  greater, XF86AudioNext, periodcentered ] };
     key <AD04>  { [          p,        P,         Print,     registered ] };
-    key <AD05>  { [          y,        Y,             t,            yen ] };
+    key <AD05>  { [          y,        Y, XF86AudioMute,            yen ] };
     key <AD06>  { [          f,        F,         slash,     rightarrow ] };
     key <AD07>  { [          g,        G,      question,   questiondown ] };
     key <AD08>  { [          c,        C,          plus,      copyright ] };
@@ -1011,10 +1030,10 @@ xkb_symbols "dvorak" {
 
     key <AB01>  { [         q,          Q,        guillemotleft,        dead_belowdot ] };
     key <AB02>  { [         j,          J,       guillemotright,        dead_abovedot ] };
-    key <AB03>  { [         k,          K,                    k,            copyright ] };
-    key <AB04>  { [         x,          X,                    x,  leftsinglequotemark ] };
-    key <AB05>  { [         b,          B,XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>  { [         m,          M,  XF86MonBrightnessUp,             multiply ] };
+    key <AB03>  { [         k,          K, XF86AudioLowerVolume,            copyright ] };
+    key <AB04>  { [         x,          X, XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>  { [         b,          B,XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>  { [         m,          M,  XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>  { [         w,          W,            downarrow,              uparrow ] };
     key <AB09>  { [         z,          Z,                U263A,           dead_tilde ] };
 
@@ -1058,7 +1077,7 @@ xkb_symbols "gr" {
     key <AD02>	{ symbols[Group1] = [Greek_finalsmallsigma,   Greek_SIGMA,     guillemotleft,           Lstroke ] };
     key <AD03>	{ symbols[Group1] = [        Greek_epsilon, Greek_EPSILON,    guillemotright,         trademark ] };
     key <AD04>	{ symbols[Group1] = [            Greek_rho,     Greek_RHO,        registered,        registered ] };
-    key <AD05>	{ symbols[Group1] = [            Greek_tau,     Greek_TAU,         Greek_tau,            Tslash ] };
+    key <AD05>	{ symbols[Group1] = [            Greek_tau,     Greek_TAU,     XF86AudioMute,            Tslash ] };
     key <AD06>	{ symbols[Group1] = [        Greek_upsilon, Greek_UPSILON,          EuroSign,       Cyrillic_HA ] };
     key <AD07>	{ symbols[Group1] = [          Greek_theta,   Greek_THETA,               yen, Cyrillic_HARDSIGN ] };
     key <AD08>	{ symbols[Group1] = [           Greek_iota,    Greek_IOTA,              plus,         plusminus ] };
@@ -1069,7 +1088,7 @@ xkb_symbols "gr" {
     key <AD02>	{ symbols[Group2] = [	w,			W,     guillemotleft,           Lstroke ] };
     key <AD03>	{ symbols[Group2] = [	e,			E,    guillemotright,         trademark ] };
     key <AD04>	{ symbols[Group2] = [	r,			R,        registered,    periodcentered ] };
-    key <AD05>	{ symbols[Group2] = [	t,			T,                 t,            Tslash ] };
+    key <AD05>	{ symbols[Group2] = [	t,			T,     XF86AudioMute,            Tslash ] };
     key <AD06>	{ symbols[Group2] = [	y,			Y,          EuroSign,       Cyrillic_HA ] };
     key <AD07>	{ symbols[Group2] = [	u,			U,               yen, Cyrillic_HARDSIGN ] };
     key <AD08>	{ symbols[Group2] = [	i,			I,              plus,         plusminus ] };
@@ -1102,19 +1121,19 @@ xkb_symbols "gr" {
     // 4. row
     key <AB01>	{ symbols[Group1] = [  Greek_zeta,     Greek_ZETA,             copyright,            leftarrow ] };
     key <AB02>	{ symbols[Group1] = [   Greek_chi,      Greek_CHI,             downarrow,              uparrow ] };
-    key <AB03>	{ symbols[Group1] = [   Greek_psi,      Greek_PSI,             Greek_psi,           rightarrow ] };
-    key <AB04>	{ symbols[Group1] = [ Greek_omega,    Greek_OMEGA,           Greek_omega,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group1] = [  Greek_beta,     Greek_BETA, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group1] = [    Greek_nu,       Greek_NU,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group1] = [   Greek_psi,      Greek_PSI,  XF86AudioLowerVolume,           rightarrow ] };
+    key <AB04>	{ symbols[Group1] = [ Greek_omega,    Greek_OMEGA,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group1] = [  Greek_beta,     Greek_BETA, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group1] = [    Greek_nu,       Greek_NU,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group1] = [    Greek_mu,       Greek_MU,              NoSymbol,           dead_dasia ] };
     key <AB09>	{ symbols[Group1] = [      period,       question,                 U263A,             division ] };
 
     key <AB01>	{ symbols[Group2] = [            z,            Z,             copyright,            leftarrow ] };
     key <AB02>	{ symbols[Group2] = [            x,            X,             downarrow,              uparrow ] };
-    key <AB03>	{ symbols[Group2] = [            c,            C,                     c,           rightarrow ] };
-    key <AB04>	{ symbols[Group2] = [            v,            V,                     v,  leftsinglequotemark ] };
-    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,           exclamdown ] };
+    key <AB03>	{ symbols[Group2] = [            c,            C,  XF86AudioLowerVolume,           rightarrow ] };
+    key <AB04>	{ symbols[Group2] = [            v,            V,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05>	{ symbols[Group2] = [            b,            B, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
+    key <AB06>	{ symbols[Group2] = [            n,            N,   XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>	{ symbols[Group2] = [            m,            M,              NoSymbol,           dead_dasia ] };
     key <AB09>	{ symbols[Group2] = [       period,     question,                 U263A,             division ] };
 
@@ -1145,7 +1164,7 @@ xkb_symbols "es" {
     key <AD02> { [ w, W, XF86AudioPrev, Lstroke ] };
     key <AD03> { [ e, E, XF86AudioNext, trademark ] };
     key <AD04> { [ r, R,         Print, registered ] };
-    key <AD05> { [ t, T,                     t, yen ] };
+    key <AD05> { [ t, T, XF86AudioMute, yen ] };
     key <AD06> { [ y, Y,          plus, rightarrow ] };
     key <AD07> { [ u, U,         minus, uparrow ] };
     key <AD08> { [ i, I,    exclamdown, plusminus ] };
@@ -1163,14 +1182,14 @@ xkb_symbols "es" {
     key <AC09> { [      l,      L, backslashagrave, dead_caron ] };
     key <AC11> { [ ntilde, Ntilde,        ccedilla, Ccedilla ] };
 
-    key <AB01> { [      z,     Z,          ordfeminine, dead_belowdot ] };
-    key <AB02> { [      x,     X,            masculine, dead_abovedot ] };
-    key <AB03> { [      c,     C,                     c, copyright ] };
-    key <AB04> { [      v,     V,           v, leftsinglequotemark ] };
-    key <AB05> { [      b,     B,XF86MonBrightnessDown, rightsinglequotemark ] };
-    key <AB06> { [      n,     N,  XF86MonBrightnessUp, exclamdown ] };
-    key <AB07> { [      m,     M,           apostrophe, dead_grave ] };
-    key <AB09> { [ period, colon,                U263A, dead_tilde ] };
+    key <AB01> { [      z,     Z,          ordfeminine,         dead_belowdot ] };
+    key <AB02> { [      x,     X,            masculine,         dead_abovedot ] };
+    key <AB03> { [      c,     C, XF86AudioLowerVolume,             copyright ] };
+    key <AB04> { [      v,     V, XF86AudioRaiseVolume,   leftsinglequotemark ] };
+    key <AB05> { [      b,     B,XF86MonBrightnessDown, XF86KbdBrightnessDown ] };
+    key <AB06> { [      n,     N,  XF86MonBrightnessUp,   XF86KbdBrightnessUp ] };
+    key <AB07> { [      m,     M,           apostrophe,            dead_grave ] };
+    key <AB09> { [ period, colon,                U263A,            dead_tilde ] };
 
     key <AB08> { [ comma, semicolon, XF86Option, multiply ] };
 };
@@ -1229,8 +1248,8 @@ xkb_symbols "hu" {
 
     key <AB01>  { [         y,          Y,                 less,           adiaeresis ] };
     key <AB02>  { [         x,          X,              greater,            copyright ] };
-    key <AB03>  { [         c,          C,                    c,            ampersand ] };
-    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,            downarrow ] };
+    key <AB03>  { [         c,          C, XF86AudioLowerVolume,            ampersand ] };
+    key <AB06>  { [         n,          N,  XF86MonBrightnessUp,  XF86KbdBrightnessUp ] };
     key <AB07>  { [         m,          M,               eacute,           Eacute ] };
     key <AB09>  { [    period,      colon,               aacute,           Aacute ] };
 
@@ -1244,47 +1263,47 @@ xkb_symbols "pl" {
 
     name[Group1]="Cosmo Polish";
 
-    key <AE01> { [ 1,     	exclam,     	grave,  F1 ] };
-    key <AE02> { [ 2,   	at,           	asciitilde,  F2 ] };
-    key <AE03> { [ 3,   	numbersign,   	backslash,  F3 ] };
-    key <AE04> { [ 4,     	dollar,   		bar,  F4 ] };
-    key <AE05> { [ 5,    	percent,     	less,  F5 ] };
-    key <AE06> { [ 6,  		asciicircum,  	greater,  F6 ] };
-    key <AE07> { [ 7,      	ampersand,  	bracketleft,  F7 ] };
-    key <AE08> { [ 8,  		asterisk, 		bracketright,  F8 ] };
-    key <AE09> { [ 9, 		parenleft,    	braceleft,  F9 ] };
-    key <AE10> { [ 0,      	parenright,   	braceright, F10 ] };
+    key <AE01> { [ 1,      exclam,       grave,  F1 ] };
+    key <AE02> { [ 2,          at,  asciitilde,  F2 ] };
+    key <AE03> { [ 3,  numbersign,   backslash,  F3 ] };
+    key <AE04> { [ 4,      dollar,         bar,  F4 ] };
+    key <AE05> { [ 5,     percent,        less,  F5 ] };
+    key <AE06> { [ 6, asciicircum,     greater,  F6 ] };
+    key <AE07> { [ 7,   ampersand, bracketleft,  F7 ] };
+    key <AE08> { [ 8,    asterisk,bracketright,  F8 ] };
+    key <AE09> { [ 9,   parenleft,   braceleft,  F9 ] };
+    key <AE10> { [ 0,  parenright,  braceright, F10 ] };
 
-    key <AD01> { [ q, Q, 		q, 			Q ] };
-    key <AD02> { [ w, W, 		w, 			W ] };
-    key <AD03> { [ e, E, 		eogonek, 	Eogonek ] };
-    key <AD04> { [ r, R,        Print, 		registered ] };
-    key <AD05> { [ t, T,  		t, 			yen ] };
-    key <AD06> { [ y, Y,     	plus, 		rightarrow ] };
-    key <AD07> { [ u, U,  		EuroSign, 	uparrow ] };
-    key <AD08> { [ i, I,    	minus, 		plusminus ] };
-    key <AD09> { [ o, O,  		oacute, 	Oacute ] };
-    key <AD10> { [ p, P,      	equal, 		THORN ] };
+    key <AD01> { [ q, Q, XF86MonBrightnessDown, XF86KbdBrightnessDown ] };
+    key <AD02> { [ w, W,   XF86MonBrightnessUp,   XF86KbdBrightnessUp ] };
+    key <AD03> { [ e, E,               eogonek,               Eogonek ] };
+    key <AD04> { [ r, R,                 Print,            registered ] };
+    key <AD05> { [ t, T,         XF86AudioMute,                   yen ] };
+    key <AD06> { [ y, Y,                  plus,            rightarrow ] };
+    key <AD07> { [ u, U,              EuroSign,               uparrow ] };
+    key <AD08> { [ i, I,                 minus,             plusminus ] };
+    key <AD09> { [ o, O,                oacute,                Oacute ] };
+    key <AD10> { [ p, P,                 equal,                 THORN ] };
 
-    key <AC01> { [      a,      A,    	aogonek, 	Aogonek ] };
-    key <AC02> { [      s,      S, 		sacute, 	Sacute ] };
-    key <AC03> { [      d,      D,     	d, 			ETH ] };
-    key <AC04> { [      f,      F,  	f, 			ordfeminine ] };
-    key <AC05> { [      g,      G,  	underscore, ENG ] };
-    key <AC06> { [      h,      H,  	notsign, 	dead_diaeresis ] };
-    key <AC07> { [      j,      J, 		underscore, dead_circumflex ] };
-    key <AC08> { [      k,      K, 		colon, 		degree ] };
-    key <AC09> { [      l,      L, 		lstroke, 	Lstroke ] };
-    key <AC11> { [ apostrophe, quotedbl, semicolon, Ccedilla ] };
+    key <AC01> { [          a,        A,       aogonek,         Aogonek ] };
+    key <AC02> { [          s,        S,        sacute,          Sacute ] };
+    key <AC03> { [          d,        D,   XF86TopMenu,             ETH ] };
+    key <AC04> { [          f,        F,       XF86UWB,     ordfeminine ] };
+    key <AC05> { [          g,        G, XF86AudioPrev,             ENG ] };
+    key <AC06> { [          h,        H, XF86AudioNext,  dead_diaeresis ] };
+    key <AC07> { [          j,        J,    underscore, dead_circumflex ] };
+    key <AC08> { [          k,        K,         colon,          degree ] };
+    key <AC09> { [          l,        L,       lstroke,         Lstroke ] };
+    key <AC11> { [ apostrophe, quotedbl,     semicolon,        Ccedilla ] };
 
-    key <AB01> { [      z,     Z, 		zabovedot, 	Zabovedot ] };
-    key <AB02> { [      x,     X, 		zacute, 	Zacute ] };
-    key <AB03> { [      c,     C, 		cacute, 	Cacute ] };
-    key <AB04> { [      v,     V,  		v, 			leftsinglequotemark ] };
-    key <AB05> { [      b,     B, 		b, 			rightsinglequotemark ] };
-    key <AB06> { [      n,     N,  		nacute, 	Nacute ] };
-    key <AB07> { [      m,     M,  		m, 			dead_grave ] };
-    key <AB09> { [ period, question, 	period, 	dead_tilde ] };
+    key <AB01> { [      z,        Z,            zabovedot,            Zabovedot ] };
+    key <AB02> { [      x,        X,               zacute,               Zacute ] };
+    key <AB03> { [      c,        C, XF86AudioLowerVolume,               Cacute ] };
+    key <AB04> { [      v,        V, XF86AudioRaiseVolume,  leftsinglequotemark ] };
+    key <AB05> { [      b,        B,        XF86AudioPlay, rightsinglequotemark ] };
+    key <AB06> { [      n,        N,               nacute,               Nacute ] };
+    key <AB07> { [      m,        M,         XF86TaskPane,           dead_grave ] };
+    key <AB09> { [ period, question,               period,           dead_tilde ] };
 
     key <AB08> { [ comma, slash, comma, multiply ] };
 };
