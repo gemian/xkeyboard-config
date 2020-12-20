@@ -17,14 +17,14 @@ xkb_symbols "common_keys" {
     key <LEFT>  { [            Left,            Left,            Home,            Home ] };
     key <DOWN>  { [            Down,            Down,            Next,            Next ] };
     key <RGHT>  { [           Right,           Right,             End,             End ] };
+    key <VOL->  { [ XF86RockerDown ] }; //Cover display
+    key <VOL+>  { [ XF86RockerUp ] }; //Cover display
 };
 
 partial hidden alphanumeric_keys
 xkb_symbols "escape" {
     // Reset keys to nonsense that we don't expect to appear on cosmo keyboard maps
     key <MUTE> { [ XF86CD  ] }; //clashes with XF86AudioMute
-    key <VOL-> { [ XF86CD  ] }; //clashes with XF86AudioLowerVolume
-    key <VOL+> { [ XF86CD  ] }; //clashes with XF86AudioRaiseVolume
     key <I172> { [ XF86CD  ] }; //clashes with XF86AudioPlay
     key <I208> { [ XF86CD  ] }; //clashes with XF86AudioPlay
     key <I215> { [ XF86CD  ] }; //clashes with XF86AudioPlay
