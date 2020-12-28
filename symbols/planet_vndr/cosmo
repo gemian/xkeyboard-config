@@ -207,6 +207,29 @@ xkb_symbols "de" {
 };
 
 default  partial alphanumeric_keys
+xkb_symbols "ch-de" {
+    include "planet_vndr/cosmo(de)"
+
+    name[Group1]="Cosmo Swiss German";
+
+    key <AE01>  { [         1,       plus,        U00A7,               F1 ] };
+    key <AE03>  { [         3,   asterisk,       dollar,               F3 ] };
+    key <AE04>  { [         4,      U00E7,     EuroSign,            U00A3 ] };
+    key <AE07>  { [         7,      slash,    backslash,               F7 ] };
+    key <AE08>  { [         8,  parenleft,  bracketleft,        braceleft ] };
+    key <AE09>  { [         9, parenright, bracketright,       braceright ] };
+    key <AE10>  { [         0,      equal,   asciitilde,              F10 ] };
+    key <AD10>  { [         p,          P,        U00C9,     XF86TaskPane ] };
+    key <AC05>  { [         g,          G, XF86TaskPane,              ENG ] };
+    key <AC06>  { [         h,          H,           at,   dead_diaeresis ] };
+    key <AC08>  { [         k,          K,     question,           degree ] };
+    key <AC09>  { [         l,          L,        U00E9,          Lstroke ] };
+    key <AC11>  { [     minus, underscore,        U00C0,       dead_caron ] };
+    key <AB07>  { [         m,          M,       exclam,            U039C ] };
+
+};
+
+default  partial alphanumeric_keys
 xkb_symbols "at" {
     include "planet_vndr/cosmo(de)"
 
