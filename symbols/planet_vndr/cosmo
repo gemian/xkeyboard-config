@@ -990,7 +990,7 @@ xkb_symbols "dk" {
 };
 
 default  partial alphanumeric_keys
-xkb_symbols "dvorak" {
+xkb_symbols "dvorak-us" {
     include "planet_vndr/cosmo(modifiers)"
     include "planet_vndr/cosmo(common_keys)"
 
