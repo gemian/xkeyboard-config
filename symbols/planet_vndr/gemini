@@ -449,7 +449,7 @@ xkb_symbols "jp" {
     key <AD03>	{ symbols[Group1] = [     kana_I,              kana_i,      F86AudioNext,           trademark ] };
     key <AD04>	{ symbols[Group1] = [    kana_SU,             kana_SU,             Print,          registered ] };
     key <AD05>	{ symbols[Group1] = [    kana_KA,             kana_KA,     XF86AudioMute,              Tslash ] };
-    key <AD06>	{ symbols[Group1] = [     kana_N,              kana_N,         backslash,           leftarrow ] };
+    key <AD06>	{ symbols[Group1] = [     kana_N,              kana_N,             slash,           leftarrow ] };
     key <AD07>	{ symbols[Group1] = [    kana_NA,             kana_NA,         downarrow,             uparrow ] };
     key <AD08>	{ symbols[Group1] = [    kana_NI,             kana_NI,             equal,           plusminus ] };
     key <AD09>	{ symbols[Group1] = [    kana_RA, kana_openingbracket,       voicedsound,            Ooblique ] };
@@ -460,7 +460,7 @@ xkb_symbols "jp" {
     key <AD03>	{ symbols[Group2] = [	e,			E,      F86AudioNext,           trademark ] };
     key <AD04>	{ symbols[Group2] = [	r,			R,             Print,          registered ] };
     key <AD05>	{ symbols[Group2] = [	t,			T,     XF86AudioMute,              Tslash ] };
-    key <AD06>	{ symbols[Group2] = [	y,			Y,         backslash,           leftarrow ] };
+    key <AD06>	{ symbols[Group2] = [	y,			Y,             slash,           leftarrow ] };
     key <AD07>	{ symbols[Group2] = [	u,			U,         downarrow,             uparrow ] };
     key <AD08>	{ symbols[Group2] = [	i,			I,             equal,           plusminus ] };
     key <AD09>	{ symbols[Group2] = [	o,			O,       voicedsound,            Ooblique ] };
