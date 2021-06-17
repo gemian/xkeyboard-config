@@ -32,6 +32,20 @@
     </model>
     <model>
       <configItem>
+        <name>planetgemini</name>
+        <description>Planet Computers Gemini PDA</description>
+        <vendor>Planet</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
+        <name>planetcosmo</name>
+        <description>Planet Computers Cosmo Communicator</description>
+        <vendor>Planet</vendor>
+      </configItem>
+    </model>
+    <model>
+      <configItem>
         <name>dell101</name>
         <description>Dell 101-key PC</description>
         <vendor>Dell</vendor>
