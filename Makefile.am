@@ -7,12 +7,12 @@ pkgconfig_DATA = xkeyboard-config.pc
 
 EXTRA_DIST=config.rpath COPYING README \
        autogen.sh \
-       xkeyboard-config.pc.in \
-       intltool-extract.in intltool-merge.in intltool-update.in
-
-DISTCLEANFILES=intltool-extract intltool-merge intltool-update
+       xkeyboard-config.pc.in
 
 ACLOCAL_AMFLAGS = -I m4
+
+# we don't care about runtime dependencies during distcheck
+AM_DISTCHECK_CONFIGURE_FLAGS=--disable-runtime-deps
 
 sync-po:
 	rsync -Lrtvz translationproject.org::tp/latest/xkeyboard-config/  po

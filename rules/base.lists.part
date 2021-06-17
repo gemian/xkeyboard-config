@@ -11,11 +11,8 @@
 // Jolla devices and keyboards
 ! $jollamodels = jollasbj
 
-// Planet devices and keyboards
-! $planetmodels = planetgemini planetcosmo
-
 // Microsoft models (using MS geometry)
-! $msmodels = microsoft microsoft4000 microsoft7000 microsoftpro microsoftprousb microsoftprose
+! $msmodels = microsoft microsoft4000 microsoft7000 microsoftpro microsoftprousb microsoftprose microsoftsurface
 
 // Nokia devices and keyboards
 ! $nokiamodels = nokiasu8w nokiarx44 nokiarx51
@@ -80,6 +77,4 @@
               sun_type7 sun_type7_suncompat suncompat
 
 ! $sun_compat = sun_type6 sun_type6_suncompat sun_type7_suncompat suncompat
-
-! $htcdreamlayouts = us it de
 

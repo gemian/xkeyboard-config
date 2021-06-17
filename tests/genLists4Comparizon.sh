@@ -44,7 +44,7 @@ for i in $ROOT/symbols/*; do
   } else
   {
     name=$2;
-    if (variant == "olpc" || variant == "htcdream" || variant == "olpcm" || variant == "classmate")
+    if (variant == "olpc" || variant == "olpcm" || variant == "classmate")
       printf "%s:\"%s\"\n", id, name;
     else
       printf "%s(%s):\"%s\"\n", id, variant, name;

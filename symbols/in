@@ -248,20 +248,22 @@ xkb_symbols "ben" {
 
 xkb_symbols "ben_probhat" {
  name[Group1]= "Bangla (India, Probhat)";
+   key.type="FOUR_LEVEL";
+
    key <ESC>  { [ Escape ] };
 
 // numbers
    key <TLDE> { [ U200D, asciitilde   ] };
-   key <AE01> { [ U09E7, exclam       ] };
-   key <AE02> { [ U09E8, at           ] };
-   key <AE03> { [ U09E9, numbersign   ] };
-   key <AE04> { [ U09EA, U09F3    ] };
+   key <AE01> { [ U09E7, exclam, U09F4 ] };
+   key <AE02> { [ U09E8, at, U09F5 ] };
+   key <AE03> { [ U09E9, numbersign, U09F6 ] };
+   key <AE04> { [ U09EA, U09F3, U09F7, U09F2 ] };
    key <AE05> { [ U09EB, percent      ] };
    key <AE06> { [ U09EC, asciicircum  ] };
-   key <AE07> { [ U09ED, U099E    ] };
+   key <AE07> { [ U09ED, U099E, U09FA ] };
    key <AE08> { [ U09EE, U09CE    ] };
    key <AE09> { [ U09EF, parenleft    ] };
-   key <AE10> { [ U09E6, parenright   ] };
+   key <AE10> { [ U09E6, parenright, U09F8, U09F9 ] };
    key <AE11> { [ minus,     underscore   ] };
    key <AE12> { [ equal,     plus         ] };
    key <BKSP> { [ BackSpace               ] };
@@ -279,17 +281,17 @@ xkb_symbols "ben_probhat" {
    key <AD09> { [   U0993,  U0994  ] };
    key <AD10> { [   U09AA,  U09AB  ] };
    key <AD11> { [   U09C7,  U09C8  ] };
-   key <AD12> { [   U09CB,  U09CC  ] };
+   key <AD12> { [   U09CB,  U09CC, U09D7 ] };
    key <RTRN> { [   Return                 ] };
 
 // caps, a to ' 
 //   key <CAPS> { [   Caps_Lock              ] };
-   key <AC01> { [   U09BE,  U0985  ] };
-   key <AC02> { [   U09B8,  U09B7  ] };
-   key <AC03> { [   U09A1,  U09A2  ] };
+   key <AC01> { [   U09BE,  U0985, U098C, U09E0 ] };
+   key <AC02> { [   U09B8,  U09B7, U09E1, U09E3 ] };
+   key <AC03> { [   U09A1,  U09A2, U09C4, U09E2 ] };
    key <AC04> { [   U09A4,  U09A5  ] };
    key <AC05> { [   U0997,  U0998  ] };
-   key <AC06> { [   U09B9,  U0983  ] };
+   key <AC06> { [   U09B9,  U0983, U09BD ] };
    key <AC07> { [   U099C,  U099D  ] };
    key <AC08> { [   U0995,  U0996  ] };
    key <AC09> { [   U09B2,  U0982  ] };
@@ -306,7 +308,7 @@ xkb_symbols "ben_probhat" {
    key <AB06> { [   U09A8,  U09A3  ] };
    key <AB07> { [   U09AE,  U0999  ] };
    key <AB08> { [   comma,      U09C3  ] };
-   key <AB09> { [   U0964,  U0981  ] };
+   key <AB09> { [   U0964,  U0981, U09BC ] };
    key <AB10> { [   U09CD,  question   ] };
    key <BKSL> { [   U200C,  U0965  ] };
 
@@ -1053,7 +1055,7 @@ xkb_symbols "ori" {
 // INSCRIPT
 partial alphanumeric_keys
 xkb_symbols "tam" {
-      name[Group1]= "Tamil";
+      name[Group1]= "Tamil (Inscript)";
 
       key <TLDE> { [      U0BCA, U0B92	]	};
 
@@ -1118,7 +1120,7 @@ xkb_symbols "tam" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "tam_unicode" {
+xkb_symbols "tam_tamilnet" {
 
 // Description: A keymap based on the TamilNet'99 typewriter keyboard 
 // Encoding: Unicode (http://www.unicode.org)
@@ -1128,7 +1130,7 @@ xkb_symbols "tam_unicode" {
 // Date  : Fri Sep 4 11:32:00 CST 2009
 // Mapping:
 
-    name[Group1]= "Tamil (Unicode)";
+    name[Group1]= "Tamil (TamilNet '99)";
 
     // granthas
     key <TLDE> {  [ apostrophe, asciitilde ] };
@@ -1184,7 +1186,7 @@ xkb_symbols "tam_unicode" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "tam_keyboard_with_numerals" {
+xkb_symbols "tam_tamilnet_with_tam_nums" {
 
 // Description: A keymap based on the TamilNet'99 typewriter keyboard 
 // Encoding: Unicode (http://www.unicode.org)
@@ -1193,7 +1195,7 @@ xkb_symbols "tam_keyboard_with_numerals" {
 // Date  : Fri Sep 4 11:33:00 CST 2009
 // Mapping:
 
-      name[Group1]= "Tamil (keyboard with numerals)";
+      name[Group1]= "Tamil (TamilNet '99 with Tamil numerals)";
 
       // Mainly numbers.
       key <TLDE> { [ apostrophe, asciitilde ] };
@@ -1249,7 +1251,7 @@ xkb_symbols "tam_keyboard_with_numerals" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "tam_TSCII" {
+xkb_symbols "tam_tamilnet_TSCII" {
 
 // Description	: A Tamil typewrite-style keymap 
 //		  loosely based on TamilNet'99 reommendations 
@@ -1257,7 +1259,7 @@ xkb_symbols "tam_TSCII" {
 // Author	: Thuraiappah Vaseeharan <vasee@ieee.org>
 // Last Modified: Sat Jan  5 17:11:26 CST 2002
 
-    name[Group1]= "Tamil (TSCII typewriter)";
+    name[Group1]= "Tamil (TamilNet '99, TSCII encoding)";
 
     key <AE01> {  [ 0x10000b7, 0x10000a4 ] }; // aytham
     key <AE02> {  [ 0x1000082, 0x10000a5 ] }; // shri
@@ -1305,14 +1307,14 @@ xkb_symbols "tam_TSCII" {
 };
 
 partial alphanumeric_keys
-xkb_symbols "tam_TAB" {
+xkb_symbols "tam_tamilnet_TAB" {
 
 // Description: A keymap based on the TamilNet'99 typewriter keyboard 
 // Encoding: TAB (http://www.tamilnet99.org)
 // Author: Thuraiappah Vaseeharan <t_vasee@yahoo.com>
 // Date  : Sun Aug 12 02:23:00 CDT 2001
 
-    name[Group1]= "Tamil (TAB typewriter)";
+    name[Group1]= "Tamil (TamilNet '99, TAB encoding)";
 
     // numeral row
     key <AE01> {  [ 0x10000e7, 0x10000a7 ] } ;

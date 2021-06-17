@@ -1,9 +1,32 @@
-xkeyboard-config (2.26+gemian) buster; urgency=medium
+xkeyboard-config (2.29+gemian) unstable; urgency=medium
 
   * Branched for Gemian
 
- -- Adam Boardman <adamboardman@gmail.com>  Wed, 22 May 2018 14:12:48 +0000
- 
+ -- Adam Boardman <adamboardman@gmail.com>  Thu, 17 Jun 2021 12:09:48 +0000
+
+xkeyboard-config (2.29-2) unstable; urgency=medium
+
+  [ Simon McVittie ]
+  * Add Breaks on x11-xkb-utils (<< 7.7+5).
+    This ensures that xkbcomp won't fail for keycodes above 255, which this
+    package now uses (Closes: #952731)
+
+  [ Timo Aaltonen ]
+  * rules: Override dh_clean.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Sat, 29 Feb 2020 13:32:57 +0200
+
+xkeyboard-config (2.29-1) unstable; urgency=medium
+
+  * New upstream release.
+  * control: Use debhelper-compat, bump to 12.
+  * patches: Drop reverts which have a fix upstream now, refresh revert-
+    goodmap-badmap-for-apple.diff.
+  * rules, control: Replace intltool with gettext.
+  * control: Bump policy to 4.5.0.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Thu, 27 Feb 2020 18:38:13 +0200
+
 xkeyboard-config (2.26-2) unstable; urgency=medium
 
   * Revert following commits:

@@ -227,7 +227,7 @@ xkb_symbols "svdvorak" {
    key <AC07> { [ h, H ] };
    key <AC08> { [ t, T ] };
    key <AC09> { [ n, N ] };
-   key <AC10> { [ s, S, ssharp ] };
+   key <AC10> { [ s, S, ssharp, U1E9E ] };
    key <AC11> { [ minus, underscore ] };
    key <BKSL> { [ less, greater, bar ] };
 
@@ -301,6 +301,19 @@ xkb_symbols "swl" {
   key <AE08> { [ 0x110c97c, 0x110c90b, 0x110c989, 0x110c964 ] };
   key <AE09> { [ 0x110c97b, 0x110c90a, 0x110c98b, 0x110c965 ] };
   key <AE10> { [ 0x110c974, 0x110c909, 0x110c98c, 0x110c968 ] };
+};
+
+partial alphanumeric_keys
+xkb_symbols "us" {
+    include "us"
+
+    name[Group1]="Swedish (US, with Swedish letters)";
+
+    key <AC10> { [ NoSymbol, NoSymbol, odiaeresis, Odiaeresis ] };
+    key <AC11> { [ NoSymbol, NoSymbol, adiaeresis, Adiaeresis ] };
+    key <AD11> { [ NoSymbol, NoSymbol, aring, Aring ] };
+
+    include "level3(ralt_switch)"
 };
 
 // EXTRAS:

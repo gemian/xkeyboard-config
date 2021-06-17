@@ -1,5 +1,5 @@
-AC_INIT(xkeyboard-config, 2.26)
-AC_CONFIG_SRCDIR(rules/base.xml.in)
+AC_INIT(xkeyboard-config, 2.29)
+AC_CONFIG_SRCDIR(rules/base.xml)
 AM_INIT_AUTOMAKE([foreign dist-bzip2])
 
 # Require X.Org macros 1.12 or later for XORG_WITH_XSLTPROC
@@ -10,6 +10,7 @@ XORG_MACROS_VERSION(1.12)
 XORG_MANPAGE_SECTIONS
 XORG_WITH_XSLTPROC
 AC_PROG_SED
+AM_PATH_PYTHON([3.0])
 
 AC_SUBST(VERSION)
 
@@ -62,16 +63,12 @@ AM_CONDITIONAL(USE_COMPAT_RULES, test "x$enable_compat_rules" = "xyes")
 # ****
 # i18n
 # ****
-AC_PROG_INTLTOOL(0.30)
-
-AM_GNU_GETTEXT_VERSION([0.17])
+AM_GNU_GETTEXT_VERSION([0.19.8])
 AM_GNU_GETTEXT([external])
 
 GETTEXT_PACKAGE=xkeyboard-config
 AC_SUBST(GETTEXT_PACKAGE)
 AC_DEFINE_UNQUOTED(GETTEXT_PACKAGE, "$GETTEXT_PACKAGE", [Gettext package])
-
-ALL_LINGUAS="af az bg ca crh cs da de el en_GB eo es fi fr fur gl hr hu id it ja ka ko ky lt nb nl pl pt_BR ro ru rw sk sl sq sr sv tr uk vi zh_CN zh_TW"
 
 AC_SUBST(xkb_base)
 AC_SUBST(xkb_rules_symlink)
@@ -86,14 +83,12 @@ keycodes/Makefile
 keycodes/digital_vndr/Makefile
 keycodes/sgi_vndr/Makefile
 rules/Makefile
-rules/bin/Makefile
 rules/compat/Makefile
 symbols/Makefile
 symbols/digital_vndr/Makefile
 symbols/fujitsu_vndr/Makefile
 symbols/hp_vndr/Makefile
 symbols/jolla_vndr/Makefile
-symbols/planet_vndr/Makefile
 symbols/macintosh_vndr/Makefile
 symbols/nec_vndr/Makefile
 symbols/nokia_vndr/Makefile
