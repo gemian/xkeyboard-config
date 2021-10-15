@@ -398,7 +398,7 @@ xkb_symbols "ru" {
     key <AC06>	{ symbols[Group1] = [     Cyrillic_er,      Cyrillic_ER,     Cyrillic_e,      Cyrillic_E ] };
     key <AC07>	{ symbols[Group1] = [      Cyrillic_o,       Cyrillic_O,    Cyrillic_yu,     Cyrillic_YU ] };
     key <AC08>	{ symbols[Group1] = [     Cyrillic_el,      Cyrillic_EL,    Cyrillic_io,     Cyrillic_IO ] };
-    key <AC09>	{ symbols[Group1] = [     Cyrillic_de,      Cyrillic_DE,      backslash,         Lstroke ] };
+    key <AC09>	{ symbols[Group1] = [     Cyrillic_de,      Cyrillic_DE,          slash,         Lstroke ] };
     key <AC11>	{ symbols[Group1] = [      apostrophe,       asciitilde,          colon,      dead_caron ] };
 
     key <AC01>	{ symbols[Group2] = [          a,          A,   XF86TaskPane,              AE ] };
@@ -409,7 +409,7 @@ xkb_symbols "ru" {
     key <AC06>	{ symbols[Group2] = [          h,          H,     Cyrillic_e,      Cyrillic_E ] };
     key <AC07>	{ symbols[Group2] = [          j,          J,    Cyrillic_yu,     Cyrillic_YU ] };
     key <AC08>	{ symbols[Group2] = [          k,          K,    Cyrillic_io,     Cyrillic_IO ] };
-    key <AC09>	{ symbols[Group2] = [          l,          L,      backslash,         Lstroke ] };
+    key <AC09>	{ symbols[Group2] = [          l,          L,          slash,         Lstroke ] };
     key <AC11>	{ symbols[Group2] = [ apostrophe, asciitilde,          colon,      dead_caron ] };
 
     // 4. row
