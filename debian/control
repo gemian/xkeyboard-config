@@ -5,6 +5,7 @@ Maintainer: Adam Boardman <adamboardman@gmail.com>
 XSBC-Original-Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Build-Depends:
  debhelper-compat (= 12),
+ meson,
  quilt,
 Build-Depends-Indep:
  gettext-base,
@@ -14,8 +15,8 @@ Build-Depends-Indep:
  xsltproc,
  xutils-dev (>= 1:7.6+2),
 Standards-Version: 4.5.0
-Vcs-Git: https://salsa.debian.org/xorg-team/data/xkb-data.git
-Vcs-Browser: https://salsa.debian.org/xorg-team/data/xkb-data
+Vcs-Git: https://salsa.debian.org/xorg-team/data/xkeyboard-config.git
+Vcs-Browser: https://salsa.debian.org/xorg-team/data/xkeyboard-config
 Homepage: https://www.freedesktop.org/Software/XKeyboardConfig
 
 Package: xkb-data

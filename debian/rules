@@ -4,13 +4,12 @@ xkb_base := /usr/share/X11/xkb
 
 override_dh_auto_configure:
 	dh_auto_configure -- \
-	  --with-xkb-rules-symlink=xfree86,xorg \
-	  --with-xkb-base=$(xkb_base) \
-	  --disable-runtime-deps
+	  -Dxkb-base=$(xkb_base) \
+	  -Dxorg-rules-symlinks=true
 
 override_dh_auto_install:
 	# Regular deb:
-	$(MAKE) -C build install DESTDIR=$(CURDIR)/debian/xkb-data
+	(cd build; DESTDIR=$(CURDIR)/debian/xkb-data meson install)
 
 	# Treat the udeb as an exact copy, but remove messages/pkg-config/man-pages:
 	mkdir $(CURDIR)/debian/xkb-data-udeb
@@ -26,15 +25,10 @@ override_dh_auto_install:
 	find $(CURDIR)/debian/xkb-data-udeb/usr/share/X11 -type f -print0 \
 	  | xargs -0 perl -i -pe 's/[ \t]+/ /g'
 
-# Work around quilt's removing empty files:
-override_dh_quilt_unpatch:
-	dh_quilt_unpatch
-	touch rules/base.o_k.part
-
 override_dh_clean:
 	dh_clean
 	rm -f po/*.gmo po/*.pot rules/evdev*.xml
 	rm -rf m4
 
 %:
-	dh $@ --with quilt --builddirectory=build/
+	dh $@ --buildsystem=meson --with quilt --builddirectory=build/

@@ -7,7 +7,7 @@
 // Mainly based on the layout proposed by Ilya Birman
 // http://ilyabirman.ru/projects/typography-layout/
 
-default  partial
+default partial
 xkb_symbols "base" {
 
     // 1st keyboard row
@@ -67,5 +67,4 @@ xkb_symbols "base" {
     // U+22C5 DOT OPERATOR
     // U+25CA LOZENGE
     // U+2212 MINUS SIGN
-
 };

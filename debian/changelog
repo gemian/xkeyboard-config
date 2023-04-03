@@ -1,8 +1,28 @@
-xkeyboard-config (2.29+gemian) unstable; urgency=medium
+xkeyboard-config (2.35.1+gemian) unstable; urgency=medium
 
   * Branched for Gemian
 
- -- Adam Boardman <adamboardman@gmail.com>  Thu, 17 Jun 2021 12:49:55 +0100
+ -- Adam Boardman <adamboardman@gmail.com>  Mon, 03 Apr 2023 20:46:52 +0100
+
+xkeyboard-config (2.35.1-1) unstable; urgency=medium
+
+  * New upstream release.
+  * watch: Use macros for the upstream file/version/extension.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Tue, 05 Apr 2022 14:22:25 +0300
+
+xkeyboard-config (2.33-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #980978)
+  * revert-goodmap-badmap-for-apple.diff: Finally dropped, we've had
+    kernel > 2.6.19 for a while now.
+  * control, rules: Build with meson.
+  * rules: Drop an unnecessary workaround for quilt.
+  * control: Update Vcs links for the new repo name (xkeyboard-config).
+  * Set upstream metadata fields for Name and Repository. Drop old repo
+    from watch.
+
+ -- Timo Aaltonen <tjaalton@debian.org>  Wed, 18 Aug 2021 12:26:23 +0300
 
 xkeyboard-config (2.29-2) unstable; urgency=medium
 
