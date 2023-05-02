@@ -4,4 +4,5 @@
   applealu_jis  =   +inet(evdev)+macintosh_vndr/jp(alujiskeys)
   planetgemini  =   +inet(evdev)+planet_vndr/gemini(escape)
   planetcosmo   =   +inet(evdev)+planet_vndr/cosmo(escape)
+  planetastro   =   +inet(evdev)+planet_vndr/astro(escape)
   *             =   +inet(evdev)
