@@ -23,7 +23,7 @@ xkb_symbols "common_keys" {
 
 partial hidden alphanumeric_keys
 xkb_symbols "escape" {
-    // Reset keys to nonsense that we don't expect to appear on cosmo keyboard maps
+    // Reset keys to nonsense that we don't expect to appear on Cosmo keyboard maps
     key <MUTE> { [ XF86CD  ] }; //clashes with XF86AudioMute
     key <I172> { [ XF86CD  ] }; //clashes with XF86AudioPlay
     key <I208> { [ XF86CD  ] }; //clashes with XF86AudioPlay

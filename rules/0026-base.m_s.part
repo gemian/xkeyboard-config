@@ -53,3 +53,6 @@
   $macs	        =       +inet(apple)
   sun_type7_jp_usb	=	+sun_vndr/solaris(defaults_type7jp)
   $sun			=		+sun_vndr/solaris(defaults)
+  planetgemini  =       +planet_vndr/gemini(escape)
+  planetcosmo   =       +planet_vndr/cosmo(escape)
+  planetastro   =       +planet_vndr/astro(escape)
