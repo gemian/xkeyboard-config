@@ -445,7 +445,7 @@ xkb_symbols "jp" {
     name[Group2] = "Astro English";
 
     // 1. row
-    key <AE01>	{ symbols[Group1] = [   kana_NU,      exclam,           at,    F1 ] };
+    key <AE01>	{ symbols[Group1] = [   kana_NU,      exclam,          bar,    F1 ] };
     key <AE02>	{ symbols[Group1] = [   kana_FU,    quotedbl,   numbersign,    F2 ] };
     key <AE03>	{ symbols[Group1] = [    kana_A,      kana_a,    backslash,    F3 ] };
     key <AE04>	{ symbols[Group1] = [    kana_U,      kana_u,     EuroSign,    F4 ] };
@@ -514,8 +514,8 @@ xkb_symbols "jp" {
     key <AC11>	{ symbols[Group2] = [      colon,   asterisk,   XF86Option,   dead_caron ] };
 
     // 4. row
-    key <AB01>	{ symbols[Group1] = [   kana_TSU,      kana_tsu,                   bar,        guillemotleft ] };
-    key <AB02>	{ symbols[Group1] = [    kana_SA,       kana_SA,                 Print,       guillemotright ] };
+    key <AB01>	{ symbols[Group1] = [   kana_TSU,      kana_tsu,           asciicircum,        guillemotleft ] };
+    key <AB02>	{ symbols[Group1] = [    kana_SA,       kana_SA,             dead_horn,       guillemotright ] };
     key <AB03>	{ symbols[Group1] = [    kana_SO,       kana_SO,  XF86AudioLowerVolume,            copyright ] };
     key <AB04>	{ symbols[Group1] = [    kana_HI,       kana_HI,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
     key <AB05>	{ symbols[Group1] = [    kana_KO,       kana_KO, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
@@ -532,11 +532,11 @@ xkb_symbols "jp" {
     key <AB07>	{ symbols[Group2] = [            m,            M,               kana_ME,            masculine ] };
     key <AB09>	{ symbols[Group2] = [       period,         plus,               kana_RO,             division ] };
 
-    key <AB08>  { symbols[Group1] = [   kana_NE,       kana_comma, ISO_First_Group,   ISO_First_Group ] };
-    key <AB08>  { symbols[Group2] = [     comma,            minus, ISO_First_Group,   ISO_First_Group ] };
+    key <AB08>  { symbols[Group1] = [   kana_NE,       kana_comma, ISO_Next_Group,      ISO_Prev_Group ] };
+    key <AB08>  { symbols[Group2] = [     comma,            minus, ISO_Next_Group,      ISO_Prev_Group ] };
 
-    key <LALT>  { symbols[Group1] = [ Alt_L, Alt_L, ISO_Last_Group,   ISO_Last_Group ] };
-    key <LALT>  { symbols[Group1] = [ Alt_L, Alt_L, ISO_Last_Group,   ISO_Last_Group ] };
+    key <LALT>  { symbols[Group1] = [ Alt_L, Alt_L, XF86Option,   multiply ] };
+    key <LALT>  { symbols[Group1] = [ Alt_L, Alt_L, XF86Option,   multiply ] };
 };
 
 default  partial alphanumeric_keys

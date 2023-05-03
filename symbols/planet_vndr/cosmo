@@ -445,7 +445,7 @@ xkb_symbols "jp" {
     name[Group2] = "Cosmo English";
 
     // 1. row
-    key <AE01>	{ symbols[Group1] = [   kana_NU,      exclam,           at,    F1 ] };
+    key <AE01>	{ symbols[Group1] = [   kana_NU,      exclam,          bar,    F1 ] };
     key <AE02>	{ symbols[Group1] = [   kana_FU,    quotedbl,   numbersign,    F2 ] };
     key <AE03>	{ symbols[Group1] = [    kana_A,      kana_a,    backslash,    F3 ] };
     key <AE04>	{ symbols[Group1] = [    kana_U,      kana_u,     EuroSign,    F4 ] };
@@ -514,8 +514,8 @@ xkb_symbols "jp" {
     key <AC11>	{ symbols[Group2] = [      colon,   asterisk,   XF86Option,   dead_caron ] };
 
     // 4. row
-    key <AB01>	{ symbols[Group1] = [   kana_TSU,      kana_tsu,                   bar,        guillemotleft ] };
-    key <AB02>	{ symbols[Group1] = [    kana_SA,       kana_SA,                 Print,       guillemotright ] };
+    key <AB01>	{ symbols[Group1] = [   kana_TSU,      kana_tsu,           asciicircum,        guillemotleft ] };
+    key <AB02>	{ symbols[Group1] = [    kana_SA,       kana_SA,             dead_horn,       guillemotright ] };
     key <AB03>	{ symbols[Group1] = [    kana_SO,       kana_SO,  XF86AudioLowerVolume,            copyright ] };
     key <AB04>	{ symbols[Group1] = [    kana_HI,       kana_HI,  XF86AudioRaiseVolume,  leftsinglequotemark ] };
     key <AB05>	{ symbols[Group1] = [    kana_KO,       kana_KO, XF86MonBrightnessDown,XF86KbdBrightnessDown ] };
